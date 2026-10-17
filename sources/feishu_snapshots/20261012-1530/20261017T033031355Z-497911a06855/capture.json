@@ -1,0 +1,413 @@
+{
+  "title": "文字记录：录音机-20261012-1530 2026年10月14日 - 飞书云文档",
+  "url": "https://lcn6dqn3m0yr.feishu.cn/docx/Cp7Pd07RQobgCFx4iiucXKiunCb",
+  "captured_at": "2026-10-17T03:30:31.355Z",
+  "complete": true,
+  "missing_block_ids": [],
+  "changed_block_ids": [],
+  "blocks": [
+    {
+      "id": "3",
+      "text": "会议主题：录音机-20261012-1530​\n上传时间：2026年10月14日（周三） 09:55 （GMT+08）​\n智能纪要：录音机-20261012-1530 2026年10月14日​"
+    },
+    {
+      "id": "4",
+      "text": "​"
+    },
+    {
+      "id": "5",
+      "text": "说话人 1 00:00:02​\nAs we said now, we need this last piece to understand this basic scheme, that is the use of extended effects.So, the definition is actually simple, although I can understand that it might be a bit.Obscure at the beginning, meaning that this external FS is used whenever network node senses the channel as busy at the physical layer.But, at the mark layer, you cannot start it's not.Essentially, at the mark layer, the channel is still sense as idle, although they know theactually.Senses that the channel in a way is busy at the physical layer.So, clearly, it's used in the case of an error.​"
+    },
+    {
+      "id": "6",
+      "text": "​"
+    },
+    {
+      "id": "7",
+      "text": "说话人 1 00:01:13​\nSomething is wrong, right?Because we get different feedbacks from the physical layer.And from the mark layer about the state of the channel.So, there is a mismatch between physical and empirical sensing.That's when we use the external face.Now, if you think about it again, is what we do as human beings when.Someone is talking, so we know that someone is talking, but we do not understand what this guy saying.​"
+    },
+    {
+      "id": "8",
+      "text": "​"
+    },
+    {
+      "id": "9",
+      "text": "说话人 1 00:02:09​\nIs the message for us.So, if we do not understand, we just wait a little bit in order to figure out what to do.And this is essentially what also our wi fi nodes will do, if they do not exactly understand what is going on.Because there is a mismatch.Between a physical layer and mac layer sensing, then they wait.OK, so this is the basic principle.We're going to explain hopefully a little bit better how this is used, then we see other examples.But for today, let's refer to this,situation, where, so in this case, we have three nodes, A, B, and C.Again, you can read B as an access point, if you wish.So, B is our data source.It is gotpacket toward C, so C is the destination of this packet.And we are currently observing our system, and currently what we see is that B is indeed transmitting the packet to C.​"
+    },
+    {
+      "id": "10",
+      "text": "​"
+    },
+    {
+      "id": "11",
+      "text": "说话人 1 00:03:43​\nAnd let's assume that this data packet transmission in principle is successful, so C can demodulate everything correctly.And is also therefore transmitting back an acknowledgment after a sees.So, so far so good.We know this is the, let's say, usual way of behavior, usual way our nodes behave in wi fi.​"
+    },
+    {
+      "id": "12",
+      "text": "​"
+    },
+    {
+      "id": "13",
+      "text": "说话人 1 00:04:15​\nNow, a, as you can see from the top,right figure there.Can a hear B, but is outside the radius of C.So, it means that in this case.¿What is Mans? ¿Is that a carnal correct reverse?From B, but you cannot correctly demodulate the signal, any signal coming from from C.OK.​"
+    },
+    {
+      "id": "14",
+      "text": "​"
+    },
+    {
+      "id": "15",
+      "text": "说话人 1 00:04:48​\nNow, however, we are in a particular, let's say, unlucky situation where all thetypically, A can modulate correctly what B transmits.In this specific case, because remember that channel conditions are always.Random, right?They are determined by the presence of obstacles, how these obstacles move, where they are.So, the quality of the wireless channel is actually, can be represented as stochastic.So, what A actually does.Is to hear a signal from B, but it cannot because of a channel error, they modulate correctly what B is transmitting.So, we are in a only unlucky case where suddenly the wireless channel between A and B deteriorates due to multipath fading.For example.So, as marked here, A in this unfortunate situation will sense the channel as busy, because he can hear B.Of course.But as I said, we have an error in the modulation stage, and A cannot extract the value of the duration feed correctly.​"
+    },
+    {
+      "id": "16",
+      "text": "​"
+    },
+    {
+      "id": "17",
+      "text": "说话人 1 00:06:36​\nso, if I cannot read the duration feed clearly, I cannot set the闹钟，right?​"
+    },
+    {
+      "id": "18",
+      "text": "​"
+    },
+    {
+      "id": "19",
+      "text": "说话人 1 00:06:42​\nSo, what A will do during this time is to have the physical sensing, the physical layer sensing function saying the channel is busy.But at the mac layer, a cannot send enough, so the virtual sensing function at the mac layer we say channel line.So we have a mismatch between what the physical layer sensing function says.And what the mac layer function says.So, in this case, a is like us, when we hear something, what we cannot make any sense of it.So, semantically, we do not understand, we hear the voice, but semantically, we do not understand what they're.Telling us.So what we do is, of course.​"
+    },
+    {
+      "id": "20",
+      "text": "​"
+    },
+    {
+      "id": "21",
+      "text": "说话人 1 00:07:58​\nWe'll wait for this extended IFS time.And then after having sensed thechannel as idol for this extended.IFS time interval, A will resume the normal behavior.Now, again, why do we have this in the protocol?Well, because Wi-Fi, as we know already, has agoal to always try and preserve ongoing dialogues, right?That's one of the goals of Wi-Fi now.So, if we look at this case here, we have indeed this ongoing dialogue.​"
+    },
+    {
+      "id": "22",
+      "text": "​"
+    },
+    {
+      "id": "23",
+      "text": "说话人 1 00:09:02​\nSo, what Wi-Fi wants to avoid is that others may access the channel and disrupt.Ongoing dialogue, and the use of extended effects will serve that purpose.Why?Because, again.Study our little game.​"
+    },
+    {
+      "id": "24",
+      "text": "​"
+    },
+    {
+      "id": "25",
+      "text": "说话人 1 00:09:33​\nIf we didn't have these extended PFS, what could happen is that A, during this time, OK?The channel is busy at the physical layer.But then, after that here, the channel for A is either both at the physical layer and at the MAC layer.Because A could not set its nap.So, if A gets a packet.It can sense the channel as idle for diffs here, and potentially access the channel and trust.In that case, if A did that, then we would haveare the receiver essentially the possibility of, so, the receiver of the acknowledgment is B.Right?So, we'll have at B, the possibility that these two transmissions collide, because this is time.B receive the acknowledgment.If A started transmitting, the signal from A would collide with the acknowledgment sent by C, and our B that is now supposed to receive.​"
+    },
+    {
+      "id": "26",
+      "text": "​"
+    },
+    {
+      "id": "27",
+      "text": "说话人 1 00:11:24​\nSo, even if in principle, this dialogue could have been successful, you would say, and Wi-Fi doesn't want that.So, what the protocol says is, if you are a node and you are not understanding what is going on on the channel.Because your physical layer, mac layer sensing functions, do not match, then, as soon as the channel becomes idle again.Do nothing, just wait, and this waiting extends for this IFS time period.OK?​"
+    },
+    {
+      "id": "28",
+      "text": "​"
+    },
+    {
+      "id": "29",
+      "text": "说话人 1 00:12:10​\nNow, however, if while a node is waiting for this extended IFS tobe completed.If during this time, it receives a packet header and is able to read that header and the duration field in that header.Then it resumes the normal behavior immediately, because it means that at that point.Is again understanding what is going on on the channel.So, it's physical layer and mac layer sensing function match again.​"
+    },
+    {
+      "id": "30",
+      "text": "​"
+    },
+    {
+      "id": "31",
+      "text": "说话人 1 00:13:04​\nNow you are understanding what is going on again on the channel, so just forget about the extended IFS and resume the normal behavior.So, as i said that this may be a little bit difficult to understand now or to think of how it is actually applied.​"
+    },
+    {
+      "id": "32",
+      "text": "​"
+    },
+    {
+      "id": "33",
+      "text": "说话人 1 00:13:28​\nTomorrow we will look at some examples, OK?So, do not worry too much.Mean that for now, it is OK if you grasp the idea of why we have this external force, and then tomorrow we'll see more examples.More situations, and it will become,hopefully clear, more clear how this is used in a wife.​"
+    },
+    {
+      "id": "34",
+      "text": "​"
+    },
+    {
+      "id": "35",
+      "text": "说话人 1 00:13:58​\nOK, so let's keep it on hold for now, a little bit.So tomorrow we'll devote some time to indeed see how,our scheme is applied, so that would help us to put all things together.All pieces together, and have a better understanding of the overall DCF scheme.​"
+    },
+    {
+      "id": "36",
+      "text": "​"
+    },
+    {
+      "id": "37",
+      "text": "说话人 1 00:14:27​\nOK.So, that would be tomorrow, because tomorrow we will indeed present some numerical problems.I'll give you some time to look at the problem, try to understand what the problem is about, if possible.​"
+    },
+    {
+      "id": "38",
+      "text": "​"
+    },
+    {
+      "id": "39",
+      "text": "说话人 1 00:14:49​\nSo, make sure you have a tablet or a piece of paper, whatever you like, in order to be able to try and and draw the behavior of the nouns based on the situations that we will present.So that you can train yourself in using this this problem.But this evening we will just close here the basic DCF as promised.​"
+    },
+    {
+      "id": "40",
+      "text": "​"
+    },
+    {
+      "id": "41",
+      "text": "说话人 1 00:15:23​\nThe extended fast was the last thing to specify, and what we will do instead.Is to present briefly the second access scheme in WiFi, right?The centralized one.Remember it was called point coordination function, it's centralized, so it could have been applied.Is specified by the standard, but in practice it is not implemented in commercial products.So, we'll be fast about it.It could be applied if we have an access point, because it's a centralized scheme, so we need.Santro.That actually runs this problem.​"
+    },
+    {
+      "id": "42",
+      "text": "​"
+    },
+    {
+      "id": "43",
+      "text": "说话人 1 00:16:14​\nNow, the first important thing that we need to say is how BCS, so the scheme that we learned so far, and this second type of channel access.Could coexist if they were both implemented.Why is this important?Well, we will find out probably tomorrow or the day after.I would say tomorrow.So, it is something important to understand.​"
+    },
+    {
+      "id": "44",
+      "text": "​"
+    },
+    {
+      "id": "45",
+      "text": "说话人 1 00:16:48​\nExcuse me.So, we know already that whenever we have a BSS with access point, our access point almost periodically transmits the beacon packet.And we said, consider that the beacon is broadcast.Every 100 milliseconds.Ok, the time between two consecutive beacons is called superframe.​"
+    },
+    {
+      "id": "46",
+      "text": "​"
+    },
+    {
+      "id": "47",
+      "text": "说话人 1 00:17:23​\nThe standard says that when in our Wi-Fi BSS, we have implemented both.DCF and PCF things work should work in this way.We have the beacon transmitted by the access point.And then we have a first time interval, first phase, time phase, during which we would use PCF, that is also referred to as contention free period.Because PCF, as we said, is centralized.There is no distributed protocol, no contention for the channel.Right?We already said there would be the access point saying, you transmit, you transmit, you transmit.So, there is no contention.​"
+    },
+    {
+      "id": "48",
+      "text": "​"
+    },
+    {
+      "id": "49",
+      "text": "说话人 1 00:18:29​\nSo there is first this phase, and then when this phase, first phase ends, we have a second phase within the superframe.Where instead we apply the DCF scheme.That is as we know a contention based protocol right?It's distributed so nodes will contend for the channel and indeed this second phase is called.Called contention period.Okay, and then things repeat over and over.​"
+    },
+    {
+      "id": "50",
+      "text": "​"
+    },
+    {
+      "id": "51",
+      "text": "说话人 1 00:19:08​\nSo, essentially, if we had both PCF and VCF implemented in our Wi-Fi cards, the two schemes PCF and VCF.Will coexist within the same super frame, and they would be.Sen.Devide.Sí, porque.​"
+    },
+    {
+      "id": "52",
+      "text": "​"
+    },
+    {
+      "id": "53",
+      "text": "说话人 1 00:19:46​\nWe know already what to do in the second phase of the superframe when we use the VISA.What we need to explain now, sorry too much, is what happens when we use pcs.So, for clarity, let me draw here an example.Remember we are focusing on PCS.So, let's consider one superframe.The superframe starts with a beacon that is transmitted by the access point, and then, what happens is thatThe access point has got a list of user stations that are connected.To that access point.We said that already.During an association, these nodes told the access point if.Ve en tanto tu.Participate in the PCF phase that as we said is also called contention free period or not, OK?So the access point has this list of stations.​"
+    },
+    {
+      "id": "54",
+      "text": "​"
+    },
+    {
+      "id": "55",
+      "text": "说话人 1 00:21:23​\nLet's say A wants to participate, B doesn't, C wants to participate, D wants to participate, E doesn't.F wants, and so on.OK, he's got this list.Now remember this list according to the standard has been compiled.During the association phase, so at the very beginning, when these nodes joined.OK, now at every superframe after the beacon, the access point will go through this list using the so called polling scheme.​"
+    },
+    {
+      "id": "56",
+      "text": "​"
+    },
+    {
+      "id": "57",
+      "text": "说话人 1 00:22:08​\nThe polling scheme.Very simple, let's assume that the first station to poll is A.This means that after shifts since the beacon, our access point will send a poller packet, and this poll.Is intended for A, and this poll packet from the access point, let's say to A, essentially means A, now you can trust me.OK?So, upon receiving this poll message.A will send its data packet if he's got the data packet to trust.​"
+    },
+    {
+      "id": "58",
+      "text": "​"
+    },
+    {
+      "id": "59",
+      "text": "说话人 1 00:23:00​\nOK, now we don't know, notice that we don't know how long this transmission will be, right?Because it depends on the payload.Of this data packet, and it depends on the speed at which A will transmit toward the access point.But anyway, he will go on.​"
+    },
+    {
+      "id": "60",
+      "text": "​"
+    },
+    {
+      "id": "61",
+      "text": "说话人 1 00:23:29​\nWhen A finishes after sifts.The access point will pull the next station in the list.That in our example is C.Now, let's consider in this case that the access point has got some data to send to C.So, in this case, it will of course send a ticket poll.So, but it will also send a payload with data, right?Because it wants to pull C.But it has got also some data to send to that node.So it will send, all, that is a control information plus data.And notice that in this case, after saves.We'll have that C is entitled to transmit, access the channel and transmit a data packet.​"
+    },
+    {
+      "id": "62",
+      "text": "​"
+    },
+    {
+      "id": "63",
+      "text": "说话人 1 00:24:47​\nAgain, assuming that C has something to send.OK?So the poll scheme is very simple.Yates point that it's each station, when they ha, can access the channel.OK.So, one important observation that we made already is that whenever a station is entitled to access the channel.It accesses the channel and transmits one packet.For how long we don't know a priority, right?It depends on the payload size and the data speed at which that node transmits.OK, that's the first thing that we already said.The other thing that we need to say ishow acknowledgments take place in this case, right?Because so far, we have not highlighted any acknowledgment here, so where is the acknowledgment?Well, when a.The station that has been polled by the access point transmits a data packet.If this data packet is correctly received by the access point, then.When the access point polls the next station in the header, it will also include a bit that represents the acknowledgment for the station that transmitted.Earlier, this is called fast ack, that means we don't wait for the access point to poll that station A in our example.Again, in order to send the ack to A.Even if here the access point is polling a new station.Di.Bited cindy hair of this panggil will revare to the preuce.​"
+    },
+    {
+      "id": "64",
+      "text": "​"
+    },
+    {
+      "id": "65",
+      "text": "说话人 1 00:27:15​\nTransmission, so that upon reading the header of this new packet sent by the access point, the previous station can see if its packet was successful or not.OK?And if the access point transmits a data packet to a station, the station can include an ACK packet.Indie her.Of its own pocket in order to act what the access point sent if receive success.Okay, so the way data are act.In this case is a bit different.We don't have a specific acknowledgment packet.We have acknowledgment bits in the header of the packets that are exchanged in order to notify.​"
+    },
+    {
+      "id": "66",
+      "text": "​"
+    },
+    {
+      "id": "67",
+      "text": "说话人 1 00:28:38​\nThe last thing we need to highlight here so far is that, as you may have noticed during PCF, all packets are spaced by sifs.Right, we don't have this, we have just a short time spacing.Why to increase the efficiency of the protocol and reduce the sensing time?Why can we do that?Because it is a contention free period, there is no contention.Right?So there is no need for the nodes to actually sense the channel.It's the access point that makes decisions on whom should access the channel.So, nodes do not need to sense the channel.There is no diffs.There is only six, OK?Good.​"
+    },
+    {
+      "id": "68",
+      "text": "​"
+    },
+    {
+      "id": "69",
+      "text": "说话人 1 00:29:48​\nSo, that said, let me just make one more case.So, now, let's assume that in the following list.We are d, ok?So, after having pulled a, and then c, now our access point will pull d.​"
+    },
+    {
+      "id": "70",
+      "text": "​"
+    },
+    {
+      "id": "71",
+      "text": "说话人 1 00:30:29​\nOk, now d understands that it can access the channel and transmit.But he does not have anything to draw.So what can be dul?Pagi kanan frust meet and.Nala pocket, that is just nothing, right?It's a control packet that says, I don't have any data in my queue, I don't have anything to process.OK, why can this happen?Because remember this list.As been compiled at the very beginning upon association.So, in the following, one at every superframe, the access point uses PCF and polls the stations.They might have packets to transmit at that time or not, we don't know.At the beginning during an association, they just declared their interest.In participé en p.But on real time, we don't know if they've got package surprise me or not.So, this situation may happen.OK?​"
+    },
+    {
+      "id": "72",
+      "text": "​"
+    },
+    {
+      "id": "73",
+      "text": "说话人 1 00:32:16​\nA control packet, that is called contention free period andessentially it brought broadcasts to everyone that this phase is finished.OK.So it's over, and this means that in our previous representation, we are essentially here.The contention free period is finished, and this means that everyone can start the subsequent phase.That is the contention period during which we just use the VCS function that we know about.​"
+    },
+    {
+      "id": "74",
+      "text": "​"
+    },
+    {
+      "id": "75",
+      "text": "说话人 1 00:33:05​\nOK, is this clear so far?OK, so now we're here, right?We're at the end of the superframe, as we know, we'll have the beacon and a new superframe we start, and everything we repeat.Again and again.But, let's think about for a moment what happens at the end of this contention period, when we apply this year.​"
+    },
+    {
+      "id": "76",
+      "text": "​"
+    },
+    {
+      "id": "77",
+      "text": "说话人 1 00:33:43​\nOk?Why?Because we know that the beacon is a packet that the access point should broadcast periodically.But what if a station seizes the channel right before thebeacon time, TBDT means target beacon transmission time.So, this is the time at which, in theory, the beacon should be transmitted every 100ms.​"
+    },
+    {
+      "id": "78",
+      "text": "​"
+    },
+    {
+      "id": "79",
+      "text": "说话人 1 00:34:20​\nBut, the beacon can be transmitted.When we finish the DCS, right?And during the DCS, our nodes contend for the channel according to the rules that we already know.So, assume that a node here has got a packet to transmit, senses the channel as idle for diffs.And then he can access the channel and transmit the packet.And the packet transmission of course will run, and if the packet is transmitted successfully, he will have to receive the acknowledgment.​"
+    },
+    {
+      "id": "80",
+      "text": "​"
+    },
+    {
+      "id": "81",
+      "text": "说话人 1 00:35:05​\nSo, what may happen is that this beacon.May be delayed, because if we are finishing with this phase, we are not done yet.The access point, there's no way to interrupt an ongoing dialogue.So, this big transmission might be delayed.​"
+    },
+    {
+      "id": "82",
+      "text": "​"
+    },
+    {
+      "id": "83",
+      "text": "说话人 1 00:35:39​\nBecause in theory, the beacon transmission should be periodic, every 100 seconds.But if the access point finds the channel as busy.You cannot interact an ongoing dialogue to transmit it.It has to wait, okay?So, this means that the beginning, the time at which a superframe can begin, is not deterministically predictable.It may be shifted.OK, that's sand, however, the protocol wants to be, let's say, good to the access point.When the access point has to transmit the beacon, the protocol gives the access point an advantage.A small advantage.That isThe access point needs to sense the channel as idle only for peeps, and peeps.​"
+    },
+    {
+      "id": "84",
+      "text": "​"
+    },
+    {
+      "id": "85",
+      "text": "说话人 1 00:37:01​\nAnd now we understand why we have also leaves in the priority ladder.Of IFS.OK, it's to give a small advantage to the access point to access the channel when it has to transmit the beacon.OK, that said, we are done.We did tcs.As promised, this was indeed, let's say fast.But what we need to just highlight are the issues.So, as I said, while looking at these techniques, we need to have a critical eye.We need to understand.What is working, what doesn't work, and by doing that in this case, we also understand why.Bis ya.Ising this standard, i steel in the standart.​"
+    },
+    {
+      "id": "86",
+      "text": "​"
+    },
+    {
+      "id": "87",
+      "text": "说话人 1 00:38:07​\nWell, because PCF was introduced initially to provide some deterministic access in Wi-Fi, so thatyou could support quality of service.That means when you have voice traffic, voice over IP, or you have video, video conferencing, video streaming.Well, as we already said.These are types of applications that require low latency.OK, otherwise, the quality of the service for the user is not good enough.If you have delays when you talk over Zoom or other WeChat or other applications that you may use.​"
+    },
+    {
+      "id": "88",
+      "text": "​"
+    },
+    {
+      "id": "89",
+      "text": "说话人 1 00:39:05​\nWhy you get annoyed, right?Because you start talking and the other actually is overlapping with his voice, it's a mess.So, this kind of applications really need low latency, low delay.If you think about how DCF works based on contention.If wifi nodes have got packets to transmit, but who knows when they get chance to transmit, OK?It's kind of random, it depends on how many nodes are there, how much traffic we have to transmit.It depends on the wireless channel conditions.There are many things that may go wrong.​"
+    },
+    {
+      "id": "90",
+      "text": "​"
+    },
+    {
+      "id": "91",
+      "text": "说话人 1 00:39:49​\nSo, the standard said, well, we need to introduce a different access scheme whenever we have traffic that needs to be transmitted with low delay.And that's why they initially specified PCF.Because as we said in this case, there is no randomness in action, in access, right?​"
+    },
+    {
+      "id": "92",
+      "text": "​"
+    },
+    {
+      "id": "93",
+      "text": "说话人 1 00:40:14​\nIn channel access.It's the access point that says, you can transmit.So, it's more deterministic.So you may wonder again, anyway, it's a good thing.It could help to support quality of service, reduce the delay that a node may experience when it needs to access the channel and transmit packet.Why didn't they implement it?So, what do you think?Why, why didn't they implement this scheme?What is wrong with that?​"
+    },
+    {
+      "id": "94",
+      "text": "​"
+    },
+    {
+      "id": "95",
+      "text": "说话人 1 00:41:02​\nOne thing and hint that I want to give you is, for example, focus on this possibility.Is this exchange useful?Is this efficient?No, right?It's poor.Nala.​"
+    },
+    {
+      "id": "96",
+      "text": "​"
+    },
+    {
+      "id": "97",
+      "text": "说话人 1 00:41:36​\nBecause this may happen, the access point may poll a station that does not have any data.The access point does not have any data for that station, and still.According to PCF, if d is in the list, I have to poll, the access point has to poll.This is not good, right?There is the possibility of having a significant inefficiency there, becauseof the fact that the polling list has been compiled at the beginning.And we do not have real time information on the status of the queues, how many packets each node actually has to process me.So, we just follow these initial lists, that's not efficient.So, that's the first problem.Kind of stale information the bonnie list, because we just follow what the expression of interest of the nodes.But not their actual need to transmit a packet at a certain point in time.So, this is the first problem that we've got.​"
+    },
+    {
+      "id": "98",
+      "text": "​"
+    },
+    {
+      "id": "99",
+      "text": "说话人 1 00:42:58​\nAnother another problem that we have is that as mentioned, right?Sorry.Here we have at the end of the PCF, we have the DCF phase, like shown in that picture.And after the DCF, then we have again the beacon, but as discussed already.De mí de PE con me me tobi shift.So whatever Traffic shutter Bean Polder.Here in Business, New Super frame.Delage.Han unido el Doming Advance.Es that with metilate.Orford, jaula.That's another problem because i'm your.Deterministic channel access and control the delay.You don't want unpredictable delay in accessing the channel.You want to control the delay.​"
+    },
+    {
+      "id": "100",
+      "text": "​"
+    },
+    {
+      "id": "101",
+      "text": "说话人 1 00:44:31​\nSo, this is the second major issue with PCS.Okay, no ability to control.When actually the PCS phase, the super frame and for the next PCS phase can start.And there is a third issue that we are going to explain in 5 minutes.That's the last one.You want to think about it?Why we have the short break?You can look at that picture and try to think.What would be these third issues?​"
+    }
+  ],
+  "scrollEnd": [
+    {
+      "height": 697,
+      "top": 8636,
+      "total": 9333
+    }
+  ]
+}
