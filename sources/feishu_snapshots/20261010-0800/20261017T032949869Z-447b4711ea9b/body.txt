@@ -1,0 +1,478 @@
+会议主题：录音机-20261010-0800​
+上传时间：2026年10月14日（周三） 09:30 （GMT+08）​
+智能纪要：录音机-20261010-0800 2026年10月14日​
+
+​
+
+说话人 1 00:00:00​
+Start in our Saturday class, so thanks for being here and spending time this Saturday.As you may remember, we now look at the mark layer of Wi-Fi, and as we will see.In a Wi-Fi, we have two different schemes for accessing the channel.One is called DCF, Distributed Coordination Function.This is a distributed scheme.As the name says, and it is the one that is actually implemented in our Wi-Fi cards.Actually nowadays we have an evolved version of it, but we will first,look at the basic version of this scheme.The second one is called point coordination function.This is a centralized access scheme.We will understand better what this would centralized.Access team means the PCF is in the standard, it is specified by the standard, but it is not implemented in our phone.​
+
+​
+
+说话人 1 00:01:53​
+We will just say a few words about the second one, and we will explain why it has been not implemented in practice.OK, so before starting, just a brief recap.​
+
+​
+
+说话人 1 00:02:26​
+We stand in a Wi-Fi, we are dealing with the physical layer and the MAC layer.OK, so this standard specifies how these two layers work.That are the physical layer and the MAC layer.So, these are software, these are, this is software function.Physical layer is a bit of a hardware and a bit of software, OK?Because as we said, physical layer needs an antenna.It needs some electronics, the transceiver to transmit and receive.So that's hardware.And then there are some functions here at the physical layer that are implemented in a soft.Ok?So as we said.​
+
+​
+
+说话人 1 00:03:28​
+Then here, there are other layers on top, other functions on top, right?And the MAC layer, we receive packets from the higher layers that need to be transmitted.Toward a receiver.OK?So the mark layer gets these packets.When a packet arrives at the mark layer, the mark layer understands that it has to do something to.Then let the packet be transmitted.And be transmitted means that the packet needs to go down to the physical layer.​
+
+​
+
+说话人 1 00:04:21​
+Here we have modulation and etc.And then the antenna through which the bitsimpressed on the electronic signal will be transmitted.And they will reach the signal, will reach the physical layer under receiver.The physical layer performs demodulation.Then, if we consider that the packet is received successfully, it will go up through these layers, OK?​
+
+​
+
+说话人 1 00:05:02​
+Now, Wi-Fi indeed, as we said, specifies what the physical and MAC layer, and the transmitter and the receiver do.Now, our transmitter may be a user wi fi card that transmits toward the access point, or we may have the access point that transmits toward.The user, WiFi card, OK?​
+
+​
+
+说话人 1 00:05:39​
+Now, when we have that the user transmits toward the access point, we call this transmission.A transmission on up link, OK?Because it's like the access point is typically high up, the user is at a lower height, so we transmit in up link.When the user transmits toward the access point.Vice versa, when the axis point transmits toward the user, we call that a downlink transmission.OK?So, up link is from the user to, down link is when the user receives something.Ok, that's it, we already describe a bit.How the physical layer works, which frequencies we are using.We mentioned the fact that we use OFDM in order to transmit our signals.That's.​
+
+​
+
+说话人 1 00:07:17​
+Physical layer.Now spoyor this morning we are starking que be mark.As a general thing, as we said, the MAC layer functions will be there to understand when the node can access the channel.That means the packet can be sent as we said to the physical layer, and then actually transmit.Now, it is useful to model the MAC layer in this way.​
+
+​
+
+说话人 1 00:08:18​
+So, the mark layer can be abstracted, seen as.Made of a queue and a server.Have you ever seen this kind of model?A queue model?No.It is often used.To model many different systems.Originally, the researcher who many years ago proposed this kind of model, used this model to represent people.Or in line at a supermarket cashier.OK, so you can think of this one that is called server, but it's not.Computing server as we now refer to, OK?It is, for example, in a supermarket, this is a cashier.Ina, this is the Q.​
+
+​
+
+说话人 1 00:09:55​
+When you go to the supermarket, if you get served by the cashier, then you have to line up, right?In queue, and there is the cashier here that serves the customers.​
+
+​
+
+说话人 1 00:10:11​
+So, this model was used for example.To represent customers in a queue, and.Tú.Compute.Di.So the time that it takes to be.En reality similar sin helio.Exists in networks in general, not just Wi-Fi, but in networks.In networks, very often, we have indeed this concept that packets arrive, they are like customers.They are cute as they arrive, and then there is a server that is just a function.That serves these packets one by one in the same order as they arrive.Ok?If you queue these packets.​
+
+​
+
+说话人 1 00:11:41​
+So, who arrives first will be served first, and we get out first, right?So, let's assume that we have this fifo queue.So, our mac layer, when we have the transmitter, we can model the mac as a queue, right?Where packets arrive, they are queued in a fifo according to the fifo policy.And then the function that is implemented at the mark layer, we will serve these packets one at a time.And a packet finishes to be served.When it gets out and can proceed to the physical layer.​
+
+​
+
+说话人 1 00:12:47​
+OK, so this is, I think, a very useful way to think of how our MAC layer works.OK, now, analytically, so there are models, analysis, theoretical analysis, that you can use to then compute the delay with which these traffic packets are served.Automatic, OK?But we are not going into the mathematical modeling of this system.But if you are interested, those of you who are interested, there is a very, very famous paper of many years ago.That was the first paper, scientific paper that modeled the wi fi mac using this queue with the server.Okay, this man, and this paper is by.This researcher, this is the last name, this is the first name.And I think it's from 2000.OK, it was published in 2000, many years ago.This is a college from an Italian university, by the way.And it was, it's very, very highly cited, very highly cited, because it was the first.To model the MAC layer in this way.So, if you are curious about how to model the Wi-Fi MAC.You can look at this paper, and of course, it exploits this modeling approach based on queues and servers.This approach, yeah, has been studied by many people.If you are again interested in queuing models for networks.Kleinrock is, Kleinrock is the one who developed this.Qin theory for networking.He is a professor at UCLA in California, US.And he has brought two books about how to model networks using queueing models.And there are many different variants of queuing models that have been developed just to say, so, this is just a complementary information.​
+
+​
+
+说话人 1 00:16:08​
+Anyway, that said, let's consider.Our wi fi network, and let's start by describing how our mac in here works.Now, as i said in wi fi, the mac layer.Is the function that decides when and how to serve a packet, right?A packet that comes from the above layers that need to be served and sent to the physically.Also, at the MAC layer of Wi-Fi, we have implementedthe stop and wait technique.Remember the ARQ technique for error recovery, stop and wait.It is implemented at the MAC layer of Wi-Fi for error recall.​
+
+​
+
+说话人 1 00:17:12​
+Now, in particular, let me say thatwe are going to look at how a unicast packet data packet gets served at the mac layer.Do you know?We probably mention already what unicast means multicast.​
+
+​
+
+说话人 1 00:17:39​
+Broadcast.You know that.So, unicast means data that a transmitter transmits that are intended for a specific destination.Only one.So, we have a transmitter, one transmitter, one receive.Multicast data packets is when we have one transmitter, but this data.Is intended to be receive by multiple destinations.Right?We have multiple receivers.That's multicast.Broadcast means that we have one transmitter.And all the other nodes in the network, all of them should receive that packet, data packet, OK?Indeed, for example.In our daily life, in English, we use broadcasting to refer to, for example, TV, like programs that are being broadcasted.Right?So, the TV broadcast to everyone.So, broadcasting in English is used to say something that isdisseminated to everyone.​
+
+​
+
+说话人 1 00:19:28​
+OK, now we will focus on how unicast packets are transmitted in which file?That means from one transmitter to one receiver.Why?Because that's the more complex one.Multicast and broadcast packets are transmitted in a similar way, so we'll mention that later.Let's start from the more difficult things.And as we already said, in Wi-Fi frame.Means puppy.OK, so you can just replace the word frame with with.​
+
+​
+
+说话人 1 00:20:16​
+OK, that said, the other important thing to say up front is that the way Wi-Fi marklayer tries to access the channel and transmit the packet.So serve a packet at the MAC layer.When.We are using the distributed coordination function.That is the scheme that is actually implemented.​
+
+​
+
+说话人 1 00:20:50​
+Is based on the CSMA technique.Have you ever heard of carrier sensing multiple access?OK, CSMA means carrier sensing multiple access.It is a very, very popular MAC, so channel access scheme that is used for example in Ethernet.So, wired connectivity uses CSMA, OK?Many other network systems use this technique.Wi-Fi MAC uses this principle.Of carrier sensing multiple access, but it uses a specific version of carrier sensing multiple access.Okay?So, it's a specific variant.Let me justExplain what carrier sensing multiple access means.​
+
+​
+
+说话人 1 00:22:27​
+So, carrier sensing multiple access in general means that when we have a transmitter that has a packet to transmit.To serve a mark layer, you would like to try and transmit, right?So to send it to the physical layer.But if this transmitter uses this scheme, it means that before being able to transmit a packet, it must sense the channel.The channel is, in our case, wireless communication is the air, right?So, our.Transmitir next to sense.De cham.¿What is you mean to Science the chun?In my Standard Sism I.De Mac.Layer.Ask de Fish, Física Layer.Two performa this Channel Essencin.​
+
+​
+
+说话人 1 00:24:05​
+Means that you have here a physical, the antenna that will.Senses the level of power that is on the channel.So, you can represent here the level of power, this is sense over time by the antenna at the physical layer.OK, so, this antenna of this node, we try to capture whatever is on the channel, and measure the power of what it senses.Of the signals thatare there, and we measure the level of power that it senses for a given time.Ok?This is, let's say, the sensing time.Now, you know that power multiplied by, let's call it sensing time, by time gives you.​
+
+​
+
+说话人 1 00:25:38​
+Energy, so in a dimensional units, these are watts, these are seconds, and this is Joule.OK?Now, if the.Energy level of energy that we measure is greater than a threshold given by the energy that we normally sense when there is only noise.Then we say that on the channel there is a signal, one or more signals, right?Because the level of power that this antenna is receiving is sensing is greater than what you usually see when there is only noise.So you say that the china list basy?Because you dont know who food?Signals, someone is sending signals on the channel.So, if this sensed measured level of energy is greater than this threshold, the value of energy that you normally have on the channel when there is only noise.​
+
+​
+
+说话人 1 00:27:20​
+If instead this level of energy is less than or equal to this threshold, why you say well there is just noise.I cannot hear much energy.So, what I sense is just noise, and in that case, you say that the channel is idle.OK?So, when we have this technique applied at the MAC layer, and transmitter can access the channel and transmit the packet.Only if it senses the channel as idle, because it means that there is nobody, so I can go ahead.If instead I sense the channel.As busy, it means that there is someone who are already just meeting on the channel, right?So, it's busy, I cannot jump in, I have to wait, okay?So, that's the main principle ofCarrier sensing multiple access, OK?So now we understand why this technique is called carrier sensing multiple access.Why?Because multiple access means that we are in a system where there might be several different nodes.Several different people, let's say, transmitting.Right, so it's multiple access, there are many nodes who like to access the channel, and it's a technique that allows a transmitter to access the channel when we have this scenario with many.Who would like to pass me to access, and one transmitter would be able to perform this access after a heading sensed the challenge.OK?Carrier means essentially the presence of a signal.So, what this means is that if you want to access first, you have to sense whether there are other signals on the channel or not.OK?So, carrier sensing multiple access means this.​
+
+​
+
+说话人 1 00:30:12​
+OK.Now, for those of you who know how Ethernet works, the cables that we use when we are connected to a local network.Two cables.As I said, also Ethernet uses this principle.But if you're study that, otherwise, just don't care, neglect what i'm saying, okay?But if you have some background on that, you may remember that in Ethernet, we are using CSMA CD.That means that we are using this principle, OK?​
+
+​
+
+说话人 1 00:31:02​
+So, one node can transmit a packet only if it senses the channel as idle.But on top of that, we have a second mechanism in internet that is called collision detection.So in internet our nodes are full duplex, not half duplex.So, they are able to receive while they are transmitting.And this collision detection mechanism that is used on in internet.Means that if a node senses the channel at the beginning idle and starts transmitting, it might be that another node has done exactly the same.At the same time it senses the channel, the channel was idle.And started transmitting.​
+
+​
+
+说话人 1 00:32:01​
+So, in this case, we have two transmitters that we start essentially at the same time, and their signals will collide.Right?So, in any domain, however, our nodes are full duplex, so when they transmit, they also receive.So this means that in Ethernet, if two nodes sense initially the channel as idle start transmitting and then collide.They will realize that, because while they are transmitting, they can also hear, and they can hear that actually also the other node has transmit.Has started transmitting.So, what they will do is, they will stop, okay?Because they will detect the collision, they will be able to detect the collision.That's each of them.That's it.​
+
+​
+
+说话人 1 00:33:05​
+In WiFi, we are then using this technique CSMA.On top of this technique, we have a mechanism called collision avoidance.Which is different from what is used in Ethernet.OK.We will discover what this collision avoidance is.OK.So no worries, but it's a mechanism that.​
+
+​
+
+说话人 1 00:33:44​
+Allow nodes transmitters to avoid collisions.OK?And the reason why in Wi-Fi, they had to develop a new scheme, a new MAC scheme different from Ethernet.Is because in Wi-Fi we have half duplex nodes.Remember, we stress that very.We very much emphasis last time, our nodes are a half duplex.So, when they start transmitting, they will not be able, right, to receive anything.So, clearly, we cannot use this collision detection that is in internet.They will not be able to detect that they are colliding.​
+
+​
+
+说话人 1 00:34:42​
+So, what we need to do is try and avoid the collisions, because once a collision takes place, then unfortunately.We cannot stop it till the nodes stop transmitting.OK, good.​
+
+​
+
+说话人 1 00:35:02​
+So, now we know something about how Wi-Fi MAC works.Here indeed there is a slide that if you know how Ethernet works, you can look it at, otherwise, just,forget it.And let's instead focus on Wi-Fi.​
+
+​
+
+说话人 1 00:35:30​
+Now, we already said that, but now it is actually the time to make sure that we remember this concept that is.We have different types of packets that we may need to transport.OK, well, data packets are those where the payload includes bits that are user bits, that are information from application layer.Like our photo pixels that are essentially in the end and up in the payload.Control frames are those that are used to essentially control what is going on on the channel in the network.Example, the acknowledgment.Remember the stop and wait protocol.Technique, so we had the acknowledgment, that's a control part, it doesn't carry any user data, application data.Right?​
+
+​
+
+说话人 1 00:37:02​
+So, we already know right what the beacon is.It's the packet that periodicallyaccess point transmit to say, I'm access point Mickey Mouse, I'm here.Or I'm access point black and white, I'm here.So, that's the big.Oh, that's a management.​
+
+​
+
+说话人 1 00:37:27​
+As I was saying, we are going to focus on how Unicasts data packets are transmitted in a Wi-Fi.DSS, so where we have access points and nodes.As already mentioned, we may have two different MAC functions, one is distributed, the other one.Is centralized, the second one is never implemented in practice, so we will start by focusing on the first one.​
+
+​
+
+说话人 1 00:38:09​
+Let me just remark what distributed means.Distributed means that each node.In our BSS, we may have access point for a WiFi stations, right?User nodes.Each node will make decisions about whether to access the channel or not by itself.So, it will follow set the rules, fine, but it will make the decision whether to access the channel or not.​
+
+​
+
+说话人 1 00:38:51​
+What to do, based on what it observes in the system.So, for example.On the state of the channel.So, if that node senses the channel as busy or idle, and it will make the decision by itself.And every node will do that, and every node will follow the same rules.Access point, user nouns, all of them follow the same, more or less, always the same rules,OK,and make decisions by themselves.That said, distributed scheme.​
+
+​
+
+说话人 1 00:39:52​
+It means that the decisions on whether one node should access the channel when are made byonly one node in the network.And this node in network is the access point.So, this means that the first scheme can be implemented both when we have the BSS with access point.​
+
+​
+
+说话人 1 00:40:26​
+As well as when we have the BSS in ad hoc mode with no access point.The second scheme instead requires the presence of the access point, because we must have one node that makes the decisions.Decisions are centralized.And it will be the access point that will tell user A, now you trust me.​
+
+​
+
+说话人 1 00:40:56​
+User B, now you trust me.User C, now you trust me.OK?That's centralized.OK, now as we said, we start with the DCF, the distributed.Schema.In order to explain how the schema works, we need to introduce some definitions, concepts and definitions.The first one.​
+
+​
+
+说话人 1 00:41:39​
+A time slot is a time interval, as actually a relatively short time interval.You can consider just to give an idea that is 20 microseconds long.Okay, just to give you an idea of how long it is.It's called time slot.So, in a wi fi.It is useful to think that our wifi cards have this concept of time.So, for them, time is divided into time slots.Ok?So, we look at time as divided into time slots.What does this mean?This means that our nodes need to have an internal clock, right?Because you need to measure time into time slots, so you need a clock.And indeed, every Wi-Fi card has got an internal clock.Now, when the nodes are participating in a BSS with access point, they will align their, their night clock to the.​
+
+​
+
+说话人 1 00:43:29​
+Now, how can the nodes align their own clock?On the one of the access point through the beacon.So essentially, they will receive the beacon, and they will align their clock.Every time they receive a beacon, they pick that as a time reference.​
+
+​
+
+说话人 1 00:43:56​
+The beacon is transmitted by the access point.As we said more or less periodically, every 100 milliseconds.So, all the nodes that are part of the BSS, when the access point, their access point sends the beacon.They take that as time reference, OK?And then from there they count.20 microseconds, 20 microseconds, 20 microseconds, 20 microseconds, till the next beacon.​
+
+​
+
+说话人 1 00:44:29​
+OK, and then they realign, just in case their internal clock has shifted.Every 100 milliseconds, they have again the time reference sent by the answers point.So, even if the internal clock.Is a poor quality and tends to drift.They will be able to realign it upon receiving the beam.OK, good, so this is our first definition, we are now 5 min break.​
+
+​
+
+说话人 1 00:46:40​
+没洗脸，没刷，刷牙。​
+
+​
+
+说话人 1 00:50:03​
+OK。还。So, let's resume.​
+
+​
+
+说话人 1 00:50:33​
+OK, so we have looked at the time slots, and this is our, it's a first time interval that we need to introduce.Out of, let's say, curiosity, this is not important, but this is the explanation why I said that you can consider this time slot to be 20 microsecond long.Because it is a duration that is given by the standard, so it's not something that we can decide, the manufacturer can decide.Is given by the standard.And the standard has set this time slot duration based on the,let's say fraction of sensing time.OK, remember the sensing time that we said is used at the physical layer to sense.The power of the channel, and then to compute an energy to see if the channel is idle or busy.OK, so this is essentially this fraction of time, that is essentially the minimum who sends the power on the on the channel on the physical layer.Plus the time that is needed by the transceiver to switch from transmit mode to receive mode or vice versa.That's called turnaround time of the transceiver.​
+
+​
+
+说话人 1 00:52:32​
+So, this is a detail, but what is important to keep in mind.Is that as we know, Wi-Fi cards are half duplex, so they have to use the only transceiver they have got to transmit or to receive.Right?So when they are transmitting at a certain point, they finish transmitting, they may needto switch into receive mode.Right?Well, this happens for example, when we apply stop and wait.Remember how stop and wait works?You transmit the packet, and then you are supposed to receive the acknowledgment if the packet is successful.So, that's an example when a Wi-Fi card first transmits, and then needs to receive some, hopefully, if there is an access.So, that's an example of when you first set your transceiver in transmit mode, and then at a certain point.After you finish transmitting, you have to switch into receive mode in order to be able to receive the acknowledgment.If the acknowledgment is there.OK, so this operation of switching from transmit mode to receive mode is not instantaneous.OK, it takes some time, a short time, but it takes time.So this time is called turnaround.Time of the transceiver, and the same when the transceiver needs to switch from receive mode into transmit mode.​
+
+​
+
+说话人 1 00:54:29​
+OK, so every time the transceiver need to switch from one mode to the other, it will take some time that is called turnaround time.OK, so, that's that.Let's proceed, because we have four more time intervals to define, to introduce.But not worry, do not worry, because to make things simple, we will first focus only on two more.With this, OK?But let me introduce the fact that we will need to slowly introduce all the four of them.​
+
+​
+
+说话人 1 00:55:15​
+Now, the idea here is the following.So, why does Wi-Fi need to define these four time intervals?We already defined the time slot, right?So, the time slot is the one that essentially gives you the time.So, it tells you how time is measured.These time intervals instead are used specifically by the mac layer to access the chunk, right?And we will explain how.They are called interframe spaces IFS, and as you can see, there are four of them.​
+
+​
+
+说话人 1 00:56:27​
+Then we have the distributed IFS.Dips that is longer, and then we have the longest one that is the extended IFS, it's very long, OK?Now, as I said, let's first focus only on these two, the shortest one, dips.And the distributed one, this.And of course, saves.Is shorter than this.So why do we call it?We call this time interval a priority ladder here.Priority, why a ladder?Because we go from the shortest one to the longest one, OK?But why fry your.Quality kilang.Because.Hina our wifi man.​
+
+​
+
+说话人 1 00:57:30​
+We exployed be setangami terbes.To westablish and priority.Accessing the chart, and I will provide an example, so don't worry.Butlet me just finish the, let's say, definition, and we will use six as time.During which we need to sense the channel as idle before transmitting and a high priority packet.While instead we use diffs that is longer to sense the channel as idle.Before being able to transmit a lower priority packet.Let me give an example so that it will be easier to understand.So, remember what we said earlier.​
+
+​
+
+说话人 1 00:58:52​
+So, our transmitters can access the channel only if they sense the channel as idle.Ok, now, let's consider the case.Where we have two nodes A and B, OK?Let's assume that they want to transmit the packet, but the packet that A wants to transmit is a very important packet.​
+
+​
+
+说话人 1 00:59:29​
+Guy high priority, high priority packet.While the packet that B wants to transmit is a low priority packet.OK, less important, low priority.Now, consider that, now, right now, the channel is empty, OK?Either, so, both A and B at the same time, let's assume that, they want to access the channel to transmit their packets.​
+
+​
+
+说话人 1 01:00:11​
+The channel is idle.What the protocol says essentially is, since this is a high priority packet, A will have to sense the channel.For, just for sixes, if the channel to receives is idle, then A can access the channel and transmit, while B.Since it has got a low priority packet, you will have to sense the channel for diffs, where diffs is longer than seeds.Right?​
+
+​
+
+说话人 1 01:01:09​
+So, what will be the consequence of this rule?That if A and B were there, right?Waiting to transmit that packet, they start sensing the channel at the same time.The channel is idle, but A needs to sense the channel as idle only for six, and then if the channel is idle.He can trust.So this means that at this point in time, A, the mark of A will be able to send a packet to its physical layer.And then have the packet that starts being transmitted on the channel.So this means that at this point in time, the channel.Before it was idle for both, but now A starts transmitting, right?So, the channel will become busy.So, during this.​
+
+​
+
+说话人 1 01:02:32​
+So, it has to wait and defer its transmission.So, you will have to transmit,later on, OK?Afterwards, so now we understand.Y no existen. Hector Query.Using carrier sensing multiple access as a way to access the channel.​
+
+​
+
+说话人 1 01:03:14​
+A short sensing time interval is an advantage with respect to others that have got lower priority slots.Because if you have to sense it for a shorter time, if the channel is idle.You can get it, while the others are still sensing.So, we understand why looking at them as periods of time during which our nodes have to sense the channel as idle before being able to access the channel.Makes this a way.You enforce.Priority levels, right?In accessing the channel.​
+
+​
+
+说话人 1 01:04:10​
+Now, to remember that, okay?To fully absorb this concept, let's think of what we human beings do.If we think about it, we do exactly the same.We apply exactly the same concept.Let's assume that you are at at home with your parents, OK?And a neighbor rings at the door.But you and your mother go to the door, and the neighbor ask a question.What do you do?Do you speak first?I don't think so, right?You wait, and then your mother will speak first.Right?Unconsciously, this is what we do.Why?Because we give priority to our mother, right?So, she will speak first.​
+
+​
+
+说话人 1 01:05:29​
+This is exactly the same principle.So, you give essentially priority to the transmission of your mind.By waiting.Then of course, if your mother lets me speak, how to all maybe you trust me something, right?So, this is exactly the same.So, you can remember this principle.Thinking of what we do, why my cars do exactly the same.OK, good.​
+
+​
+
+说话人 1 01:06:03​
+Now, one important thing, however, to keep in mind is that what matters is the level of priority of the packet.OK, he's not the, right, in WiFi, it's not the person, OK, it's not the node that has got the priority, in general.It is the packet, what one has to transmit.​
+
+​
+
+说话人 1 01:06:34​
+So, in Wi-Fi, for example, let me give you this example that applies specifically to Wi-Fi.Since we know already that transmitter and receiverand the math layer applies stopping weight.Right?So, let's consider that our transmitter, let's call it node A, wants to transmit something to the access point.Right?The access point will be the receiver.So, if we represent what the nodes do over time, well, our node A wants to transmit a unicast data packet toward the access point.​
+
+​
+
+说话人 1 01:07:32​
+OK?Let's assume that it's MAC layer.Senses the channel as idle for diffs.This is just a regular data packet.Okay, so not particularly high priority regular data packet.So, this transmitter would like to sense the channel as idle for diffs.OK, the channel assume is idle, so our node can transmit its data packet.​
+
+​
+
+说话人 1 01:08:28​
+The access point doesn't have anything to transmit, is there?OK, so, a second point of course, is the text that there is.A signal on the channel it will restart the modulating.First of course, we know that there is the header and then the payload.In the header, the access point of course understands that the packet is for itself.It will demodulate the.Data, assume that the transmission is successful, so the access point can receive the packet correctly.That, as you may remember, means that the CRC that the access point in this case computes locally based on what it has the modulated.Coincides with the CRC that the transmitter has.​
+
+​
+
+说话人 1 01:09:25​
+As included in the header, right?So they are the same, so the access point says, I received everything correctly.At this point, you would like to send the acknowledgment.The acknowledgment is an important part, higher priority.So, what we will do, it will wait for sips, the shirt, and if it's on an assigned, of course, it will transmit.​
+
+​
+
+说话人 1 01:09:59​
+The acknowledgment.OK.In general, in a WiFi, the rule is that packets that belong to a dialogue that has already started.Get higher priority.So, a dialogue is when, right?Two person speak to each other, right?So, in Wi-Fi, a dialogue, of course, is between a user Wi-Fi card and the access point.Either of them can start transmitting something.Once this dialogue is started, whatever the two nodes need to transmit within this dialogue has got higher priority respect to whatever others may want to say.​
+
+​
+
+说话人 1 01:11:02​
+OK, so this is a dialogue, right?Because it's like this is my information, I tell you something, and then essentially, you need to answer I understood.OK?So that's a dialogue.So you need to space these pockets by sixes.Because they belong to the same dialogue.So, this ant has got high priority, because this party dialogue has already started.OK?Now, if this is clear, then we will come back.​
+
+​
+
+说话人 1 01:11:52​
+Now, what I would like to then present is an overview of how the Wi-Fi MAC works.Putting together what we have already learned, OK?And we do that by looking at this example.So, here we'll summarize all the principles that we already stated, and we'll add a few more details.OK,it's still, it is still an overview, as we will see there is something more to say, but let's proceed step by step.​
+
+​
+
+说话人 1 01:12:38​
+Now, this example that I'm going to present, as you can see, is very similar to what we already said, right?So.It will not be totally new.But here, let me specify better what we have learned so far about the Wi-Fi protocol.And so, in order to do that.​
+
+​
+
+说话人 1 01:13:12​
+Let's start by indeed making some assumptions regarding the scenario that we are looking at through this example.OK?Now, the scenario that we are looking at.Is the one where we have an access point and user Wi-Fi cards that are connected with this access point.So clearly they have made the three steps.Scanning, authentication, association, right?So, they are connected with the access point.And, we are also making this additional assumption that all our nodes can hear each other.OK, so there are no obstacles, nasty obstacles.All of them can hear each other.So, even if, of course, each user Wi-Fi card, whenever it has got a packet to transmit, the packet necessarily needs to be sent to the access point.Right?​
+
+​
+
+说话人 1 01:14:34​
+Because in this network architecture with access point, remember we saidthat user nodes can only communicate with the access point.They cannot communicate with each other.They communicate with each other only in ad hoc mode.Here we are with access point.The only possibility is to communicate with the access point for a user.However, as we know, the air is something where anybody can sense the signal, right?So, if this user, let's call it B, transmits something.Over the axis point, B and C, the other user nodes.​
+
+​
+
+说话人 1 01:15:43​
+OK, so, do you understand the difference between the fact that a user can only communicate with the access point.But he can hear everybody else.So communicating and hearing are two different things.Communicating means that you have established a communication link between two nodes, and that you can transfer packets.From one node to the other.That's what we have between each user node and the access point.Ok.But hearing is just the ability to sense,ok,that there isa signal, but you're not going to demodulate the payload of packets that are sent by other user nodes.​
+
+​
+
+说话人 1 01:17:04​
+OK, so, it's like when you pass by someone who is talking with another person.That person is a user node, for example, who is transmitting to the access point, so, he's talking to someone.You pass by.And you hear that conversation, but that information is not for you.I mean, it doesn't mean anything to you.OK, because that person is not talking to you.OK, this is the difference.OK, now this is the scenario that we are assuming.Viven distin.​
+
+​
+
+说话人 1 01:18:01​
+So, here, we can see that our source of data is A.OK, A is our transmitter, the one that is called P.The destination is the access point.The other nodes are B and C.OK?​
+
+​
+
+说话人 1 01:18:28​
+Now, assume thatA gets this packet from its higher layers.The packet, remember, arrives in the queue.The mac layer of A will have to decide when to transmit the packet.So.We know already that.​
+
+​
+
+说话人 1 01:18:57​
+Here, A will have to wait, sense the channel for dips, because that's a regular data packet.So, we sense the channel for dips, assume that the channel is idle, nobody else is transmitting.So, a smack, we say okay.The channel is idle, has been idle for days.​
+
+​
+
+说话人 1 01:19:40​
+The access point will receive the packet, it will demodulate the header, and it will demodulate the payload.Right?Because it's the intended destination.Assume, be, let's be optimistic.Assume that the transmission is successful.So, we know that after six, the access point will send back the acknowledgment after six, because as we said.The ack is part of the same dialogue.So, it gets high priority.Good.So, we knew that already.​
+
+​
+
+说话人 1 01:20:22​
+But what it is interesting now to look at as an additional piece of information is what the other nodes B and C will do.While this dialogue between A and the access point takes place, what the other nodes that are there do is the following.Well, initially the channel is idle for anyone, they don't have anything, grass me, right?When a Wi-Fi card does not have to transmit and does not have to demodulate anything, we say that it is in idle state.And what it does is just sense the channel at the physical layer, can perform these operation, continues.​
+
+​
+
+说话人 1 01:21:29​
+There is only one exception that is when they sleep, but this is a different case that we will deal afterwards.If we consider that they are all awake, if a wi fi card does not have to transmit, does not have to demodulate anything.It is in idle state, and this means that it is there just sensing the channel.OK?​
+
+​
+
+说话人 1 01:22:02​
+So, B and C are there sensing the channel.At a certain point, why is sensing the channel?They two sense that there is a signal, right?Because we said all of them can hear each other.So, they sense a signal, and at the physical layer, they will start the modulating.​
+
+​
+
+说话人 1 01:22:33​
+The header of this packet, because everyone needs to demodulate packet headers.Not the payload, because the packet is not for them, OK?But everyone needs to demodulate the header of the packets that are transmitted on the channel.And in the header, there is.A field and information included that is called duration, and this part of the header, this piece of information included in the header.Tells for how long.The channel is expected to be occupied by that transmission.OK.Actually by that dialogue.​
+
+​
+
+说话人 1 01:23:41​
+So, B and C upon the modulating behavior of this data packet, they read the duration field, and they use it to set a counter.At the mark layer, OK, at the mark layer, a counter that is called null, letter allocation vector, it's just a counter.So, if.In this duration field, we have a value, let's say, this has five time slots.B and c sent this counter that they have gone.​
+
+​
+
+说话人 1 01:24:41​
+Es el knowledge, además.Clear, has got discount sent to a positive value greater than zero.Por DAT, Non and macclewer de.​
+
+​
+
+说话人 1 01:25:14​
+If they reach here, the duration is 5 times slots, they set their now to 5 times slots.And then they will decrease the counter with time at every.Time slots, they decrease their nerve counter, so that, then, after one time slots, you get four.Remain dan.More three remaining, one more two remaining, more one remaining, zero.Then you can consider that at the mark layer, the channel is idle again.Ok?Now, the duration value that is reported in the packet header.​
+
+​
+
+说话人 1 01:26:04​
+One important thing does not correspond only to the duration of the data packet, but accounts or.Sound for the shift and positif.So, as represented here, B and C will send their lock counter to a value that covers the all expected duration.Of the dialogue.I'm saying expected because you don't know if the acknowledgment will be there or not, right?At the beginning when we read this field here, the packet might be successful or not, we don't know.If it fails, the ACK will not be there.Right, if it's successful, we do have the act.But, what we expect, we are optimistic, what you expect is that.The acknowledgment will be there.So, always, this duration feed here corresponds to the data packet duration, plus ACKs, plus acknowledgment.Because we account for the expected, optimistically expected duration.​
+
+​
+
+说话人 1 01:27:35​
+哦，对的。​
+
+​
+
+说话人 1 01:27:57​
+To make sure that nobody interrupts the dialogue, they added this extra measure of caution.That is, on the MAC layer, let's have a counter that tells the note whether the channel is busy or idle.​
+
+​
+
+说话人 1 01:28:20​
+Message.OK, if the nack is greater than zero, on the MAC layer, you say the channel is busy.If the nack is equal to zero, then on the MAC layer, you say the channel is idle.So, what do we have here?What we have, if you think about it, is, we found that we have an double carrier sensing function.One.​
+
+​
+
+说话人 1 01:29:13​
+That is physically you sense if there is power on the channel.That's something physical, it's power, right?Something concrete.So at the physical layer by sensing the actual level of power energy that is on the channel, you can say at the physical layer channel idle or channel busy.Now we have an extra additional sensing function.​
+
+​
+
+说话人 1 01:29:43​
+雷迪。Adem Mac Light.Called virtual sensing function, because it's not something physical, right?You don't sense the power.But what you do is to set a counter, to set a value, and then you say, if the counter is set to a value that is greater than zero.Then you consider that the channel is busy.Otherwise, you saythe channel is idle at the MAC layer.​
+
+​
+
+说话人 1 01:30:13​
+So, we have a physical sensing function at the physical layer, and a virtual sensing function at the MAC layer.Now, clearly, they may agree, right?They may both say channel busy or channel idle.But there are cases, as we will see, in which they may disagree.That means you sense something at the physical layer, so the physical layer says.Channel busy, and the mark layer says channel idle, or vice versa.OK, this may happen.​
+
+​
+
+说话人 1 01:30:56​
+So, the protocol says a node will consider the channel as idle.Only if both the two carrier sensing functions say channel idle.Okay, so for the channel to be considered idle, you must have physical sensing say channel idle, and the NAV set to zero.That means my layer says also channel line.OK, if either one says channel busy, then you have to consider that the channel is busy.So, in Wi-Fi, we do use carrier sensing multiple access as a principle, but it's a bit more sophisticated than in other systems.Right?​
+
+​
+
+说话人 1 01:31:50​
+Because we have two.Distinguished ways of sensing the state of the channel.OK, so, this is the other piece of information that that I wanted to present.Here you have in the slide of course the explanation of what theenough is, and here you have just, let's say.A summary of the steps that we illustrated that are used.By our transmitter, receiver, when we want to transmit a unique cast packet.And PD means MAC protocol data unit, is just a MAC packet.​
+
+​
+
+说话人 1 01:32:43​
+OK, nothing nothing more than that.And of course, as we said, we are using the mark layer stop a weight.So, if we go back to our situation here, here we were optimistic, right?Because we said the packet is going to be successful.And the access point will send back the account.Now clearly, if you are not so optimistic, meaning that if the bucket fades, this may happen.Notice that in this case, the ack is not there.​
+
+​
+
+说话人 1 01:33:29​
+Okay?No ack.We have a timeout here, a timeout, after which essentially, the, a, the note, the transmitter.We'll understand that it does not received any acknowledgment, so, it will try and transmit again.That's what stop and wait says, right?Until a maximum number of possible attempts.Notice that, as we said, even if the ark is not there.Are the other nodes, we'll add this null counter set to a positive value for all these rush.​
+
+​
+
+说话人 1 01:34:27​
+OK, so, now we have the long break, but just as preventWhat we look at next?Es Morón difficult more complicated destinyario.¿Where are we have not?​
+
+​
+
+说话人 1 01:35:12​
+Just consider that, to, to make things simpler, that in this scenario, A and C.Are user, Wi-Fi cards, so Wi-Fi stations, and B is an access point.OK, so I'm going to modify this line in order to make things simpler for a quick.OK, we can have the break now, and then we look at this.​
