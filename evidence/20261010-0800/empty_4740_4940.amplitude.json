@@ -1,0 +1,97 @@
+{
+  "recording_id": "20261010-0800",
+  "analysis": "Numerical amplitude diagnostic only; no listening or speech-content determination",
+  "audio_sha256": "11fd3ac80037361e9deb2355d331fcf48fd55456e6d37ae122260c0e67fde64b",
+  "decoded_window_pcm_sha256": "4384106a7143f6953ca0bf6715955a1135972abe6b522e52ec4558c56a00a954",
+  "start_seconds": 2860,
+  "end_seconds": 2980,
+  "sample_rate": 16000,
+  "sample_count": 1920000,
+  "window_statistics": [
+    {
+      "start_seconds": 2860.0,
+      "end_seconds": 2870.0,
+      "rms_dbfs": -53.02,
+      "peak_dbfs": -28.5,
+      "fraction_samples_above_minus40dbfs": 0.01267
+    },
+    {
+      "start_seconds": 2870.0,
+      "end_seconds": 2880.0,
+      "rms_dbfs": -47.62,
+      "peak_dbfs": -20.31,
+      "fraction_samples_above_minus40dbfs": 0.02695
+    },
+    {
+      "start_seconds": 2880.0,
+      "end_seconds": 2890.0,
+      "rms_dbfs": -69.14,
+      "peak_dbfs": -48.3,
+      "fraction_samples_above_minus40dbfs": 0.0
+    },
+    {
+      "start_seconds": 2890.0,
+      "end_seconds": 2900.0,
+      "rms_dbfs": -67.52,
+      "peak_dbfs": -35.19,
+      "fraction_samples_above_minus40dbfs": 1e-05
+    },
+    {
+      "start_seconds": 2900.0,
+      "end_seconds": 2910.0,
+      "rms_dbfs": -71.77,
+      "peak_dbfs": -49.8,
+      "fraction_samples_above_minus40dbfs": 0.0
+    },
+    {
+      "start_seconds": 2910.0,
+      "end_seconds": 2920.0,
+      "rms_dbfs": -71.37,
+      "peak_dbfs": -53.92,
+      "fraction_samples_above_minus40dbfs": 0.0
+    },
+    {
+      "start_seconds": 2920.0,
+      "end_seconds": 2930.0,
+      "rms_dbfs": -47.53,
+      "peak_dbfs": -23.18,
+      "fraction_samples_above_minus40dbfs": 0.03358
+    },
+    {
+      "start_seconds": 2930.0,
+      "end_seconds": 2940.0,
+      "rms_dbfs": -58.46,
+      "peak_dbfs": -35.09,
+      "fraction_samples_above_minus40dbfs": 0.00064
+    },
+    {
+      "start_seconds": 2940.0,
+      "end_seconds": 2950.0,
+      "rms_dbfs": -53.23,
+      "peak_dbfs": -31.41,
+      "fraction_samples_above_minus40dbfs": 0.00776
+    },
+    {
+      "start_seconds": 2950.0,
+      "end_seconds": 2960.0,
+      "rms_dbfs": -49.05,
+      "peak_dbfs": -19.78,
+      "fraction_samples_above_minus40dbfs": 0.01881
+    },
+    {
+      "start_seconds": 2960.0,
+      "end_seconds": 2970.0,
+      "rms_dbfs": -64.99,
+      "peak_dbfs": -37.97,
+      "fraction_samples_above_minus40dbfs": 3e-05
+    },
+    {
+      "start_seconds": 2970.0,
+      "end_seconds": 2980.0,
+      "rms_dbfs": -62.88,
+      "peak_dbfs": -38.9,
+      "fraction_samples_above_minus40dbfs": 9e-05
+    }
+  ],
+  "interpretation": "Empty ASR output is not evidence of silence. Nonzero/high amplitude is not proof of speech. Low amplitude is not proof of absent speech. This check cannot resolve words or distinguish chatter from recording noise."
+}
