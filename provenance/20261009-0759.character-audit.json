@@ -1,0 +1,7018 @@
+{
+  "recording_id": "20261009-0759",
+  "source_capture_sha256": "859a60dd5a5096adb3a706e12a1e19c7b02fc503e60d220d0a0895e2fb4e7bcb",
+  "original_speech_sha256": "2c8972f3aa95d126ca0b24e2a005e8c51a1845c80e1a1adddf41d08132f4eee4",
+  "revised_speech_sha256": "bcf65056dce7144b0818377ad6ca8d9fe8bb9c556c824b2c92e13ad0dad9e7a7",
+  "original_extraction_rule": "Join exact frozen transcript-block text with two LF bytes; append one LF.",
+  "revised_assembly_rule": "Concatenate existing revised section bytes with one LF separator. No editorial changes.",
+  "all_rendered_character_edits": [
+    {
+      "operation": "replace",
+      "paragraph_id": "P5",
+      "original_start_char": 0,
+      "original_end_char": 6,
+      "revised_start_char": 0,
+      "revised_end_char": 1,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P5",
+      "original_start_char": 14,
+      "original_end_char": 16,
+      "revised_start_char": 9,
+      "revised_end_char": 79,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] 〔开场补回 A006，原首段之前；仅定位于00:00–01:10，非原01:04精确锚点〕 Good morning. "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P5",
+      "original_start_char": 21,
+      "original_end_char": 22,
+      "revised_start_char": 84,
+      "revised_end_char": 85,
+      "old_text": "i",
+      "new_text": "I"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P5",
+      "original_start_char": 149,
+      "original_end_char": 151,
+      "revised_start_char": 212,
+      "revised_end_char": 214,
+      "old_text": "?A",
+      "new_text": " a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P5",
+      "original_start_char": 177,
+      "original_end_char": 178,
+      "revised_start_char": 240,
+      "revised_end_char": 242,
+      "old_text": ".",
+      "new_text": "? "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P5",
+      "original_start_char": 205,
+      "original_end_char": 205,
+      "revised_start_char": 269,
+      "revised_end_char": 270,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P5",
+      "original_start_char": 215,
+      "original_end_char": 216,
+      "revised_start_char": 280,
+      "revised_end_char": 282,
+      "old_text": "s",
+      "new_text": " S"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P5",
+      "original_start_char": 315,
+      "original_end_char": 315,
+      "revised_start_char": 381,
+      "revised_end_char": 403,
+      "old_text": "",
+      "new_text": "〔待核 U001：此处英中混合及句法不清〕 "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P5",
+      "original_start_char": 361,
+      "original_end_char": 361,
+      "revised_start_char": 449,
+      "revised_end_char": 458,
+      "old_text": "",
+      "new_text": "〔待核 U002〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P5",
+      "original_start_char": 412,
+      "original_end_char": 414,
+      "revised_start_char": 509,
+      "revised_end_char": 512,
+      "old_text": ".S",
+      "new_text": ", s"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P5",
+      "original_start_char": 450,
+      "original_end_char": 450,
+      "revised_start_char": 548,
+      "revised_end_char": 549,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P5",
+      "original_start_char": 535,
+      "original_end_char": 535,
+      "revised_start_char": 634,
+      "revised_end_char": 635,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P5",
+      "original_start_char": 545,
+      "original_end_char": 546,
+      "revised_start_char": 645,
+      "revised_end_char": 677,
+      "old_text": "​",
+      "new_text": "〔待核 U003：模型对此处给出不同英文，不能据上下文判定语言〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P7",
+      "original_start_char": 548,
+      "original_end_char": 554,
+      "revised_start_char": 679,
+      "revised_end_char": 680,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P7",
+      "original_start_char": 562,
+      "original_end_char": 564,
+      "revised_start_char": 688,
+      "revised_end_char": 698,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P7",
+      "original_start_char": 674,
+      "original_end_char": 674,
+      "revised_start_char": 808,
+      "revised_end_char": 809,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P7",
+      "original_start_char": 747,
+      "original_end_char": 747,
+      "revised_start_char": 882,
+      "revised_end_char": 883,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P7",
+      "original_start_char": 779,
+      "original_end_char": 782,
+      "revised_start_char": 915,
+      "revised_end_char": 915,
+      "old_text": "do ",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P7",
+      "original_start_char": 784,
+      "original_end_char": 784,
+      "revised_start_char": 917,
+      "revised_end_char": 918,
+      "old_text": "",
+      "new_text": "a"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P7",
+      "original_start_char": 785,
+      "original_end_char": 786,
+      "revised_start_char": 919,
+      "revised_end_char": 919,
+      "old_text": "e",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P7",
+      "original_start_char": 793,
+      "original_end_char": 793,
+      "revised_start_char": 926,
+      "revised_end_char": 927,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P7",
+      "original_start_char": 860,
+      "original_end_char": 860,
+      "revised_start_char": 994,
+      "revised_end_char": 996,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P7",
+      "original_start_char": 905,
+      "original_end_char": 907,
+      "revised_start_char": 1041,
+      "revised_end_char": 1043,
+      "old_text": ".O",
+      "new_text": " o"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P7",
+      "original_start_char": 920,
+      "original_end_char": 922,
+      "revised_start_char": 1056,
+      "revised_end_char": 1059,
+      "old_text": ".H",
+      "new_text": ", h"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P7",
+      "original_start_char": 991,
+      "original_end_char": 991,
+      "revised_start_char": 1128,
+      "revised_end_char": 1129,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P7",
+      "original_start_char": 1010,
+      "original_end_char": 1011,
+      "revised_start_char": 1148,
+      "revised_end_char": 1148,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P9",
+      "original_start_char": 1013,
+      "original_end_char": 1019,
+      "revised_start_char": 1150,
+      "revised_end_char": 1151,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P9",
+      "original_start_char": 1027,
+      "original_end_char": 1029,
+      "revised_start_char": 1159,
+      "revised_end_char": 1169,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P9",
+      "original_start_char": 1061,
+      "original_end_char": 1062,
+      "revised_start_char": 1201,
+      "revised_end_char": 1203,
+      "old_text": "a",
+      "new_text": "it"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P9",
+      "original_start_char": 1063,
+      "original_end_char": 1064,
+      "revised_start_char": 1204,
+      "revised_end_char": 1204,
+      "old_text": "e",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P9",
+      "original_start_char": 1142,
+      "original_end_char": 1143,
+      "revised_start_char": 1282,
+      "revised_end_char": 1378,
+      "old_text": "​",
+      "new_text": " Modulation. Okay, but I know you have got an ICT background. Okay, thanks.〔补回 A001，待核；说话人未重新识别〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P11",
+      "original_start_char": 1145,
+      "original_end_char": 1151,
+      "revised_start_char": 1380,
+      "revised_end_char": 1381,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P11",
+      "original_start_char": 1159,
+      "original_end_char": 1161,
+      "revised_start_char": 1389,
+      "revised_end_char": 1399,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P11",
+      "original_start_char": 1254,
+      "original_end_char": 1254,
+      "revised_start_char": 1492,
+      "revised_end_char": 1493,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P11",
+      "original_start_char": 1284,
+      "original_end_char": 1286,
+      "revised_start_char": 1523,
+      "revised_end_char": 1525,
+      "old_text": ".A",
+      "new_text": " a"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P11",
+      "original_start_char": 1335,
+      "original_end_char": 1336,
+      "revised_start_char": 1574,
+      "revised_end_char": 1574,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P13",
+      "original_start_char": 1338,
+      "original_end_char": 1344,
+      "revised_start_char": 1576,
+      "revised_end_char": 1577,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P13",
+      "original_start_char": 1352,
+      "original_end_char": 1354,
+      "revised_start_char": 1585,
+      "revised_end_char": 1595,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P13",
+      "original_start_char": 1422,
+      "original_end_char": 1424,
+      "revised_start_char": 1663,
+      "revised_end_char": 1665,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P13",
+      "original_start_char": 1476,
+      "original_end_char": 1478,
+      "revised_start_char": 1717,
+      "revised_end_char": 1719,
+      "old_text": ".M",
+      "new_text": " m"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P13",
+      "original_start_char": 1578,
+      "original_end_char": 1578,
+      "revised_start_char": 1819,
+      "revised_end_char": 1820,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P13",
+      "original_start_char": 1615,
+      "original_end_char": 1617,
+      "revised_start_char": 1857,
+      "revised_end_char": 1859,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P13",
+      "original_start_char": 1715,
+      "original_end_char": 1715,
+      "revised_start_char": 1957,
+      "revised_end_char": 1958,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P13",
+      "original_start_char": 1793,
+      "original_end_char": 1795,
+      "revised_start_char": 2036,
+      "revised_end_char": 2038,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P13",
+      "original_start_char": 1830,
+      "original_end_char": 1831,
+      "revised_start_char": 2073,
+      "revised_end_char": 2073,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 1833,
+      "original_end_char": 1839,
+      "revised_start_char": 2075,
+      "revised_end_char": 2076,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 1847,
+      "original_end_char": 1849,
+      "revised_start_char": 2084,
+      "revised_end_char": 2094,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 1954,
+      "original_end_char": 1954,
+      "revised_start_char": 2199,
+      "revised_end_char": 2200,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2070,
+      "original_end_char": 2072,
+      "revised_start_char": 2316,
+      "revised_end_char": 2318,
+      "old_text": ".W",
+      "new_text": " w"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2107,
+      "original_end_char": 2107,
+      "revised_start_char": 2353,
+      "revised_end_char": 2354,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2110,
+      "original_end_char": 2110,
+      "revised_start_char": 2357,
+      "revised_end_char": 2358,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2163,
+      "original_end_char": 2165,
+      "revised_start_char": 2411,
+      "revised_end_char": 2413,
+      "old_text": ".A",
+      "new_text": " a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2205,
+      "original_end_char": 2206,
+      "revised_start_char": 2453,
+      "revised_end_char": 2454,
+      "old_text": "o",
+      "new_text": "a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2221,
+      "original_end_char": 2222,
+      "revised_start_char": 2469,
+      "revised_end_char": 2470,
+      "old_text": "o",
+      "new_text": "a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2275,
+      "original_end_char": 2277,
+      "revised_start_char": 2523,
+      "revised_end_char": 2526,
+      "old_text": ".R",
+      "new_text": ", r"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2282,
+      "original_end_char": 2282,
+      "revised_start_char": 2531,
+      "revised_end_char": 2532,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2322,
+      "original_end_char": 2324,
+      "revised_start_char": 2572,
+      "revised_end_char": 2574,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2374,
+      "original_end_char": 2374,
+      "revised_start_char": 2624,
+      "revised_end_char": 2625,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2379,
+      "original_end_char": 2379,
+      "revised_start_char": 2630,
+      "revised_end_char": 2632,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2433,
+      "original_end_char": 2433,
+      "revised_start_char": 2686,
+      "revised_end_char": 2687,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2494,
+      "original_end_char": 2494,
+      "revised_start_char": 2748,
+      "revised_end_char": 2749,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2516,
+      "original_end_char": 2518,
+      "revised_start_char": 2771,
+      "revised_end_char": 2773,
+      "old_text": ".G",
+      "new_text": " g"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2539,
+      "original_end_char": 2539,
+      "revised_start_char": 2794,
+      "revised_end_char": 2795,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2666,
+      "original_end_char": 2666,
+      "revised_start_char": 2922,
+      "revised_end_char": 2923,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2672,
+      "original_end_char": 2672,
+      "revised_start_char": 2929,
+      "revised_end_char": 2930,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P15",
+      "original_start_char": 2726,
+      "original_end_char": 2733,
+      "revised_start_char": 2984,
+      "revised_end_char": 2984,
+      "old_text": ".​\n\n说话人",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2734,
+      "original_end_char": 2736,
+      "revised_start_char": 2985,
+      "revised_end_char": 2986,
+      "old_text": "1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2744,
+      "original_end_char": 2747,
+      "revised_start_char": 2994,
+      "revised_end_char": 2997,
+      "old_text": "​\nM",
+      "new_text": "] m"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2805,
+      "original_end_char": 2807,
+      "revised_start_char": 3055,
+      "revised_end_char": 3057,
+      "old_text": ".B",
+      "new_text": " b"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2810,
+      "original_end_char": 2810,
+      "revised_start_char": 3060,
+      "revised_end_char": 3061,
+      "old_text": "",
+      "new_text": ","
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2826,
+      "original_end_char": 2826,
+      "revised_start_char": 3077,
+      "revised_end_char": 3086,
+      "old_text": "",
+      "new_text": "〔待核 U004〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2859,
+      "original_end_char": 2859,
+      "revised_start_char": 3119,
+      "revised_end_char": 3120,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2934,
+      "original_end_char": 2934,
+      "revised_start_char": 3195,
+      "revised_end_char": 3196,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 2967,
+      "original_end_char": 2969,
+      "revised_start_char": 3229,
+      "revised_end_char": 3231,
+      "old_text": ".A",
+      "new_text": " a"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 2998,
+      "original_end_char": 2998,
+      "revised_start_char": 3260,
+      "revised_end_char": 3261,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 3001,
+      "original_end_char": 3001,
+      "revised_start_char": 3264,
+      "revised_end_char": 3266,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P15",
+      "original_start_char": 3070,
+      "original_end_char": 3070,
+      "revised_start_char": 3335,
+      "revised_end_char": 3376,
+      "old_text": "",
+      "new_text": " the transmitters' and receivers' address"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P15",
+      "original_start_char": 3071,
+      "original_end_char": 3072,
+      "revised_start_char": 3377,
+      "revised_end_char": 3389,
+      "old_text": "​",
+      "new_text": "〔补回 A002，待核〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P19",
+      "original_start_char": 3074,
+      "original_end_char": 3080,
+      "revised_start_char": 3391,
+      "revised_end_char": 3392,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P19",
+      "original_start_char": 3088,
+      "original_end_char": 3090,
+      "revised_start_char": 3400,
+      "revised_end_char": 3410,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P19",
+      "original_start_char": 3150,
+      "original_end_char": 3152,
+      "revised_start_char": 3470,
+      "revised_end_char": 3472,
+      "old_text": ".A",
+      "new_text": " a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P19",
+      "original_start_char": 3245,
+      "original_end_char": 3247,
+      "revised_start_char": 3565,
+      "revised_end_char": 3568,
+      "old_text": ".T",
+      "new_text": ", t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P19",
+      "original_start_char": 3321,
+      "original_end_char": 3321,
+      "revised_start_char": 3642,
+      "revised_end_char": 3643,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P19",
+      "original_start_char": 3357,
+      "original_end_char": 3357,
+      "revised_start_char": 3679,
+      "revised_end_char": 3680,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P19",
+      "original_start_char": 3371,
+      "original_end_char": 3372,
+      "revised_start_char": 3694,
+      "revised_end_char": 3695,
+      "old_text": ".",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P19",
+      "original_start_char": 3381,
+      "original_end_char": 3381,
+      "revised_start_char": 3704,
+      "revised_end_char": 3705,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P19",
+      "original_start_char": 3459,
+      "original_end_char": 3459,
+      "revised_start_char": 3783,
+      "revised_end_char": 3784,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P19",
+      "original_start_char": 3502,
+      "original_end_char": 3503,
+      "revised_start_char": 3827,
+      "revised_end_char": 3836,
+      "old_text": "​",
+      "new_text": "〔待核 U005〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 3505,
+      "original_end_char": 3511,
+      "revised_start_char": 3838,
+      "revised_end_char": 3839,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 3519,
+      "original_end_char": 3521,
+      "revised_start_char": 3847,
+      "revised_end_char": 3857,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3553,
+      "original_end_char": 3553,
+      "revised_start_char": 3889,
+      "revised_end_char": 3890,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3598,
+      "original_end_char": 3598,
+      "revised_start_char": 3935,
+      "revised_end_char": 3936,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 3620,
+      "original_end_char": 3623,
+      "revised_start_char": 3958,
+      "revised_end_char": 3960,
+      "old_text": "all",
+      "new_text": "of"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 3644,
+      "original_end_char": 3646,
+      "revised_start_char": 3981,
+      "revised_end_char": 3983,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 3745,
+      "original_end_char": 3747,
+      "revised_start_char": 4082,
+      "revised_end_char": 4085,
+      "old_text": ".T",
+      "new_text": ", t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3780,
+      "original_end_char": 3780,
+      "revised_start_char": 4118,
+      "revised_end_char": 4119,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3798,
+      "original_end_char": 3798,
+      "revised_start_char": 4137,
+      "revised_end_char": 4138,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3801,
+      "original_end_char": 3801,
+      "revised_start_char": 4141,
+      "revised_end_char": 4143,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3863,
+      "original_end_char": 3863,
+      "revised_start_char": 4205,
+      "revised_end_char": 4206,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3891,
+      "original_end_char": 3891,
+      "revised_start_char": 4234,
+      "revised_end_char": 4235,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3894,
+      "original_end_char": 3894,
+      "revised_start_char": 4238,
+      "revised_end_char": 4239,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 3959,
+      "original_end_char": 3963,
+      "revised_start_char": 4304,
+      "revised_end_char": 4318,
+      "old_text": ".Und",
+      "new_text": " at the receiv"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P21",
+      "original_start_char": 3965,
+      "original_end_char": 3970,
+      "revised_start_char": 4320,
+      "revised_end_char": 4320,
+      "old_text": "stand",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3971,
+      "original_end_char": 3971,
+      "revised_start_char": 4321,
+      "revised_end_char": 4331,
+      "old_text": "",
+      "new_text": "〔推定 C005〕 "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 3998,
+      "original_end_char": 3998,
+      "revised_start_char": 4358,
+      "revised_end_char": 4359,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P21",
+      "original_start_char": 4008,
+      "original_end_char": 4008,
+      "revised_start_char": 4369,
+      "revised_end_char": 4370,
+      "old_text": "",
+      "new_text": "i"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 4009,
+      "original_end_char": 4010,
+      "revised_start_char": 4371,
+      "revised_end_char": 4373,
+      "old_text": "h",
+      "new_text": " d"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P21",
+      "original_start_char": 4011,
+      "original_end_char": 4012,
+      "revised_start_char": 4374,
+      "revised_end_char": 4374,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 4032,
+      "original_end_char": 4034,
+      "revised_start_char": 4394,
+      "revised_end_char": 4404,
+      "old_text": ".N",
+      "new_text": "〔推定 C006〕 "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 4035,
+      "original_end_char": 4036,
+      "revised_start_char": 4405,
+      "revised_end_char": 4407,
+      "old_text": "h",
+      "new_text": "nd"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 4037,
+      "original_end_char": 4039,
+      "revised_start_char": 4408,
+      "revised_end_char": 4410,
+      "old_text": "is",
+      "new_text": "ex"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 4042,
+      "original_end_char": 4043,
+      "revised_start_char": 4413,
+      "revised_end_char": 4415,
+      "old_text": "n",
+      "new_text": "ct"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 4045,
+      "original_end_char": 4049,
+      "revised_start_char": 4417,
+      "revised_end_char": 4418,
+      "old_text": "di s",
+      "new_text": "t"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P21",
+      "original_start_char": 4050,
+      "original_end_char": 4052,
+      "revised_start_char": 4419,
+      "revised_end_char": 4419,
+      "old_text": "ar",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P21",
+      "original_start_char": 4054,
+      "original_end_char": 4057,
+      "revised_start_char": 4421,
+      "revised_end_char": 4426,
+      "old_text": "c.T",
+      "new_text": "CRC t"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P21",
+      "original_start_char": 4093,
+      "original_end_char": 4094,
+      "revised_start_char": 4462,
+      "revised_end_char": 4462,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4096,
+      "original_end_char": 4102,
+      "revised_start_char": 4464,
+      "revised_end_char": 4465,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4110,
+      "original_end_char": 4112,
+      "revised_start_char": 4473,
+      "revised_end_char": 4483,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4115,
+      "original_end_char": 4115,
+      "revised_start_char": 4486,
+      "revised_end_char": 4487,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 4131,
+      "original_end_char": 4132,
+      "revised_start_char": 4503,
+      "revised_end_char": 4503,
+      "old_text": ",",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4133,
+      "original_end_char": 4135,
+      "revised_start_char": 4504,
+      "revised_end_char": 4505,
+      "old_text": "th",
+      "new_text": "d"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 4136,
+      "original_end_char": 4137,
+      "revised_start_char": 4506,
+      "revised_end_char": 4506,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4160,
+      "original_end_char": 4160,
+      "revised_start_char": 4529,
+      "revised_end_char": 4538,
+      "old_text": "",
+      "new_text": "〔推定 C007〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4207,
+      "original_end_char": 4207,
+      "revised_start_char": 4585,
+      "revised_end_char": 4586,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4210,
+      "original_end_char": 4210,
+      "revised_start_char": 4589,
+      "revised_end_char": 4591,
+      "old_text": "",
+      "new_text": "de"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4231,
+      "original_end_char": 4233,
+      "revised_start_char": 4612,
+      "revised_end_char": 4615,
+      "old_text": ".T",
+      "new_text": ", t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4253,
+      "original_end_char": 4253,
+      "revised_start_char": 4635,
+      "revised_end_char": 4637,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4318,
+      "original_end_char": 4320,
+      "revised_start_char": 4702,
+      "revised_end_char": 4704,
+      "old_text": ".O",
+      "new_text": " o"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4370,
+      "original_end_char": 4372,
+      "revised_start_char": 4754,
+      "revised_end_char": 4755,
+      "old_text": "th",
+      "new_text": "d"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 4373,
+      "original_end_char": 4374,
+      "revised_start_char": 4756,
+      "revised_end_char": 4756,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4384,
+      "original_end_char": 4384,
+      "revised_start_char": 4766,
+      "revised_end_char": 4767,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4470,
+      "original_end_char": 4472,
+      "revised_start_char": 4853,
+      "revised_end_char": 4855,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 4473,
+      "original_end_char": 4474,
+      "revised_start_char": 4856,
+      "revised_end_char": 4856,
+      "old_text": "'",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4477,
+      "original_end_char": 4477,
+      "revised_start_char": 4859,
+      "revised_end_char": 4860,
+      "old_text": "",
+      "new_text": "w"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4483,
+      "original_end_char": 4483,
+      "revised_start_char": 4866,
+      "revised_end_char": 4867,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4537,
+      "original_end_char": 4539,
+      "revised_start_char": 4921,
+      "revised_end_char": 4923,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4600,
+      "original_end_char": 4603,
+      "revised_start_char": 4984,
+      "revised_end_char": 4989,
+      "old_text": "fee",
+      "new_text": "thing"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4624,
+      "original_end_char": 4624,
+      "revised_start_char": 5010,
+      "revised_end_char": 5019,
+      "old_text": "",
+      "new_text": "〔推定 C011〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4625,
+      "original_end_char": 4625,
+      "revised_start_char": 5020,
+      "revised_end_char": 5022,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4626,
+      "original_end_char": 4627,
+      "revised_start_char": 5023,
+      "revised_end_char": 5024,
+      "old_text": "k",
+      "new_text": "K"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4634,
+      "original_end_char": 4635,
+      "revised_start_char": 5031,
+      "revised_end_char": 5034,
+      "old_text": "o",
+      "new_text": "at "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 4638,
+      "original_end_char": 4639,
+      "revised_start_char": 5037,
+      "revised_end_char": 5037,
+      "old_text": "r",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4648,
+      "original_end_char": 4650,
+      "revised_start_char": 5046,
+      "revised_end_char": 5049,
+      "old_text": ".W",
+      "new_text": ", w"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4762,
+      "original_end_char": 4762,
+      "revised_start_char": 5161,
+      "revised_end_char": 5162,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4858,
+      "original_end_char": 4860,
+      "revised_start_char": 5258,
+      "revised_end_char": 5260,
+      "old_text": ".E",
+      "new_text": " e"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 4880,
+      "original_end_char": 4881,
+      "revised_start_char": 5280,
+      "revised_end_char": 5280,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4883,
+      "original_end_char": 4886,
+      "revised_start_char": 5282,
+      "revised_end_char": 5287,
+      "old_text": "说话人",
+      "new_text": "Okay."
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4887,
+      "original_end_char": 4888,
+      "revised_start_char": 5288,
+      "revised_end_char": 5290,
+      "old_text": "1",
+      "new_text": "If"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4889,
+      "original_end_char": 4889,
+      "revised_start_char": 5291,
+      "revised_end_char": 5361,
+      "old_text": "",
+      "new_text": "instead, the two values are different, then the receiver〔补回 A003，待核〕 ["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4897,
+      "original_end_char": 4900,
+      "revised_start_char": 5369,
+      "revised_end_char": 5372,
+      "old_text": "​\nS",
+      "new_text": "] s"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4909,
+      "original_end_char": 4909,
+      "revised_start_char": 5381,
+      "revised_end_char": 5384,
+      "old_text": "",
+      "new_text": "ile"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 4910,
+      "original_end_char": 4911,
+      "revised_start_char": 5385,
+      "revised_end_char": 5385,
+      "old_text": "e",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4954,
+      "original_end_char": 4954,
+      "revised_start_char": 5428,
+      "revised_end_char": 5429,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 4984,
+      "original_end_char": 4984,
+      "revised_start_char": 5459,
+      "revised_end_char": 5466,
+      "old_text": "",
+      "new_text": " failed"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4985,
+      "original_end_char": 4990,
+      "revised_start_char": 5467,
+      "revised_end_char": 5469,
+      "old_text": "Save.",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 4997,
+      "original_end_char": 5004,
+      "revised_start_char": 5476,
+      "revised_end_char": 5477,
+      "old_text": ".​\n\n说话人",
+      "new_text": ","
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 5005,
+      "original_end_char": 5006,
+      "revised_start_char": 5478,
+      "revised_end_char": 5482,
+      "old_text": "1",
+      "new_text": "that"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 5007,
+      "original_end_char": 5007,
+      "revised_start_char": 5483,
+      "revised_end_char": 5546,
+      "old_text": "",
+      "new_text": "said, when we apply ARQ, there might be different〔补回 A004，待核〕 ["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 5015,
+      "original_end_char": 5017,
+      "revised_start_char": 5554,
+      "revised_end_char": 5556,
+      "old_text": "​\n",
+      "new_text": "] "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 5018,
+      "original_end_char": 5019,
+      "revised_start_char": 5557,
+      "revised_end_char": 5557,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 5020,
+      "original_end_char": 5021,
+      "revised_start_char": 5558,
+      "revised_end_char": 5558,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 5118,
+      "original_end_char": 5119,
+      "revised_start_char": 5655,
+      "revised_end_char": 5655,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 5120,
+      "original_end_char": 5121,
+      "revised_start_char": 5656,
+      "revised_end_char": 5656,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 5133,
+      "original_end_char": 5133,
+      "revised_start_char": 5668,
+      "revised_end_char": 5669,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 5151,
+      "original_end_char": 5153,
+      "revised_start_char": 5687,
+      "revised_end_char": 5689,
+      "old_text": ".S",
+      "new_text": " s"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 5166,
+      "original_end_char": 5166,
+      "revised_start_char": 5702,
+      "revised_end_char": 5703,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P23",
+      "original_start_char": 5187,
+      "original_end_char": 5190,
+      "revised_start_char": 5724,
+      "revised_end_char": 5727,
+      "old_text": "aaq",
+      "new_text": "ARQ"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P23",
+      "original_start_char": 5230,
+      "original_end_char": 5230,
+      "revised_start_char": 5767,
+      "revised_end_char": 5768,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P23",
+      "original_start_char": 5262,
+      "original_end_char": 5263,
+      "revised_start_char": 5800,
+      "revised_end_char": 5800,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P29",
+      "original_start_char": 5265,
+      "original_end_char": 5271,
+      "revised_start_char": 5802,
+      "revised_end_char": 5803,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P29",
+      "original_start_char": 5279,
+      "original_end_char": 5281,
+      "revised_start_char": 5811,
+      "revised_end_char": 5821,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5327,
+      "original_end_char": 5327,
+      "revised_start_char": 5867,
+      "revised_end_char": 5868,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5396,
+      "original_end_char": 5396,
+      "revised_start_char": 5937,
+      "revised_end_char": 5938,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P29",
+      "original_start_char": 5427,
+      "original_end_char": 5429,
+      "revised_start_char": 5969,
+      "revised_end_char": 5971,
+      "old_text": ".C",
+      "new_text": " c"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5456,
+      "original_end_char": 5456,
+      "revised_start_char": 5998,
+      "revised_end_char": 5999,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5555,
+      "original_end_char": 5555,
+      "revised_start_char": 6098,
+      "revised_end_char": 6099,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P29",
+      "original_start_char": 5569,
+      "original_end_char": 5570,
+      "revised_start_char": 6113,
+      "revised_end_char": 6115,
+      "old_text": "s",
+      "new_text": "ex"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5571,
+      "original_end_char": 5571,
+      "revised_start_char": 6116,
+      "revised_end_char": 6117,
+      "old_text": "",
+      "new_text": "r"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P29",
+      "original_start_char": 5572,
+      "original_end_char": 5573,
+      "revised_start_char": 6118,
+      "revised_end_char": 6119,
+      "old_text": "r",
+      "new_text": "c"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5579,
+      "original_end_char": 5579,
+      "revised_start_char": 6125,
+      "revised_end_char": 6157,
+      "old_text": "",
+      "new_text": " CRC computed by the transmitter"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5580,
+      "original_end_char": 5580,
+      "revised_start_char": 6158,
+      "revised_end_char": 6175,
+      "old_text": "",
+      "new_text": "〔补回 A005，含推定，待核〕 "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5601,
+      "original_end_char": 5601,
+      "revised_start_char": 6196,
+      "revised_end_char": 6198,
+      "old_text": "",
+      "new_text": "de"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5636,
+      "original_end_char": 5636,
+      "revised_start_char": 6233,
+      "revised_end_char": 6242,
+      "old_text": "",
+      "new_text": "〔推定 C016〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P29",
+      "original_start_char": 5687,
+      "original_end_char": 5687,
+      "revised_start_char": 6293,
+      "revised_end_char": 6302,
+      "old_text": "",
+      "new_text": "〔待核 U006〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P29",
+      "original_start_char": 5704,
+      "original_end_char": 5706,
+      "revised_start_char": 6319,
+      "revised_end_char": 6321,
+      "old_text": ".S",
+      "new_text": " s"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P29",
+      "original_start_char": 5774,
+      "original_end_char": 5775,
+      "revised_start_char": 6389,
+      "revised_end_char": 6389,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P31",
+      "original_start_char": 5777,
+      "original_end_char": 5783,
+      "revised_start_char": 6391,
+      "revised_end_char": 6392,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P31",
+      "original_start_char": 5791,
+      "original_end_char": 5793,
+      "revised_start_char": 6400,
+      "revised_end_char": 6410,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P31",
+      "original_start_char": 5860,
+      "original_end_char": 5860,
+      "revised_start_char": 6477,
+      "revised_end_char": 6478,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P31",
+      "original_start_char": 5877,
+      "original_end_char": 5879,
+      "revised_start_char": 6495,
+      "revised_end_char": 6498,
+      "old_text": ".T",
+      "new_text": ", t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P31",
+      "original_start_char": 5929,
+      "original_end_char": 5929,
+      "revised_start_char": 6548,
+      "revised_end_char": 6549,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P31",
+      "original_start_char": 6015,
+      "original_end_char": 6015,
+      "revised_start_char": 6635,
+      "revised_end_char": 6636,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P31",
+      "original_start_char": 6040,
+      "original_end_char": 6043,
+      "revised_start_char": 6661,
+      "revised_end_char": 6664,
+      "old_text": "ack",
+      "new_text": "ACK"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P31",
+      "original_start_char": 6082,
+      "original_end_char": 6083,
+      "revised_start_char": 6703,
+      "revised_end_char": 6703,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P33",
+      "original_start_char": 6085,
+      "original_end_char": 6091,
+      "revised_start_char": 6705,
+      "revised_end_char": 6706,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P33",
+      "original_start_char": 6099,
+      "original_end_char": 6101,
+      "revised_start_char": 6714,
+      "revised_end_char": 6724,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P33",
+      "original_start_char": 6140,
+      "original_end_char": 6140,
+      "revised_start_char": 6763,
+      "revised_end_char": 6764,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P33",
+      "original_start_char": 6148,
+      "original_end_char": 6150,
+      "revised_start_char": 6772,
+      "revised_end_char": 6774,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P33",
+      "original_start_char": 6200,
+      "original_end_char": 6200,
+      "revised_start_char": 6824,
+      "revised_end_char": 6825,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P33",
+      "original_start_char": 6247,
+      "original_end_char": 6247,
+      "revised_start_char": 6872,
+      "revised_end_char": 6873,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P33",
+      "original_start_char": 6288,
+      "original_end_char": 6289,
+      "revised_start_char": 6914,
+      "revised_end_char": 6914,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P35",
+      "original_start_char": 6291,
+      "original_end_char": 6297,
+      "revised_start_char": 6916,
+      "revised_end_char": 6917,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P35",
+      "original_start_char": 6305,
+      "original_end_char": 6307,
+      "revised_start_char": 6925,
+      "revised_end_char": 6935,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P35",
+      "original_start_char": 6421,
+      "original_end_char": 6421,
+      "revised_start_char": 7049,
+      "revised_end_char": 7050,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P35",
+      "original_start_char": 6535,
+      "original_end_char": 6535,
+      "revised_start_char": 7164,
+      "revised_end_char": 7173,
+      "old_text": "",
+      "new_text": "〔待核 U007〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P35",
+      "original_start_char": 6536,
+      "original_end_char": 6536,
+      "revised_start_char": 7174,
+      "revised_end_char": 7176,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P35",
+      "original_start_char": 6538,
+      "original_end_char": 6538,
+      "revised_start_char": 7178,
+      "revised_end_char": 7179,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P35",
+      "original_start_char": 6639,
+      "original_end_char": 6641,
+      "revised_start_char": 7280,
+      "revised_end_char": 7282,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P35",
+      "original_start_char": 6669,
+      "original_end_char": 6669,
+      "revised_start_char": 7310,
+      "revised_end_char": 7313,
+      "old_text": "",
+      "new_text": "ile"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P35",
+      "original_start_char": 6670,
+      "original_end_char": 6671,
+      "revised_start_char": 7314,
+      "revised_end_char": 7314,
+      "old_text": "e",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P35",
+      "original_start_char": 6677,
+      "original_end_char": 6680,
+      "revised_start_char": 7320,
+      "revised_end_char": 7322,
+      "old_text": "you",
+      "new_text": "it"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P35",
+      "original_start_char": 6709,
+      "original_end_char": 6709,
+      "revised_start_char": 7351,
+      "revised_end_char": 7352,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P35",
+      "original_start_char": 6747,
+      "original_end_char": 6748,
+      "revised_start_char": 7390,
+      "revised_end_char": 7390,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P37",
+      "original_start_char": 6750,
+      "original_end_char": 6756,
+      "revised_start_char": 7392,
+      "revised_end_char": 7393,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P37",
+      "original_start_char": 6764,
+      "original_end_char": 6766,
+      "revised_start_char": 7401,
+      "revised_end_char": 7411,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 6778,
+      "original_end_char": 6778,
+      "revised_start_char": 7423,
+      "revised_end_char": 7467,
+      "old_text": "",
+      "new_text": "〔待核 U008：源文与模型均如此，按流程此处可能为transmitter的口误或误识〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 6889,
+      "original_end_char": 6889,
+      "revised_start_char": 7578,
+      "revised_end_char": 7579,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 6928,
+      "original_end_char": 6928,
+      "revised_start_char": 7618,
+      "revised_end_char": 7634,
+      "old_text": "",
+      "new_text": "〔待核 U009：同上角色问题〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7001,
+      "original_end_char": 7001,
+      "revised_start_char": 7707,
+      "revised_end_char": 7708,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7023,
+      "original_end_char": 7023,
+      "revised_start_char": 7730,
+      "revised_end_char": 7731,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7086,
+      "original_end_char": 7086,
+      "revised_start_char": 7794,
+      "revised_end_char": 7795,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7154,
+      "original_end_char": 7154,
+      "revised_start_char": 7863,
+      "revised_end_char": 7865,
+      "old_text": "",
+      "new_text": "de"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P37",
+      "original_start_char": 7180,
+      "original_end_char": 7187,
+      "revised_start_char": 7891,
+      "revised_end_char": 7895,
+      "old_text": ".​\n\n说话人",
+      "new_text": ",〔推定"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7188,
+      "original_end_char": 7188,
+      "revised_start_char": 7896,
+      "revised_end_char": 7898,
+      "old_text": "",
+      "new_text": "C0"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7189,
+      "original_end_char": 7189,
+      "revised_start_char": 7899,
+      "revised_end_char": 7901,
+      "old_text": "",
+      "new_text": "8〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7190,
+      "original_end_char": 7190,
+      "revised_start_char": 7902,
+      "revised_end_char": 7903,
+      "old_text": "",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P37",
+      "original_start_char": 7198,
+      "original_end_char": 7201,
+      "revised_start_char": 7911,
+      "revised_end_char": 7914,
+      "old_text": "​\nG",
+      "new_text": "] g"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P37",
+      "original_start_char": 7245,
+      "original_end_char": 7247,
+      "revised_start_char": 7958,
+      "revised_end_char": 7960,
+      "old_text": "th",
+      "new_text": " d"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P37",
+      "original_start_char": 7248,
+      "original_end_char": 7249,
+      "revised_start_char": 7961,
+      "revised_end_char": 7961,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P37",
+      "original_start_char": 7264,
+      "original_end_char": 7265,
+      "revised_start_char": 7976,
+      "revised_end_char": 7976,
+      "old_text": ",",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7277,
+      "original_end_char": 7277,
+      "revised_start_char": 7988,
+      "revised_end_char": 7989,
+      "old_text": "",
+      "new_text": ","
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P37",
+      "original_start_char": 7295,
+      "original_end_char": 7299,
+      "revised_start_char": 8007,
+      "revised_end_char": 8007,
+      "old_text": "and ",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7307,
+      "original_end_char": 7307,
+      "revised_start_char": 8015,
+      "revised_end_char": 8026,
+      "old_text": "",
+      "new_text": "〔推定 C019〕\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P37",
+      "original_start_char": 7344,
+      "original_end_char": 7346,
+      "revised_start_char": 8063,
+      "revised_end_char": 8065,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7460,
+      "original_end_char": 7460,
+      "revised_start_char": 8179,
+      "revised_end_char": 8180,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P37",
+      "original_start_char": 7532,
+      "original_end_char": 7532,
+      "revised_start_char": 8252,
+      "revised_end_char": 8253,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P37",
+      "original_start_char": 7567,
+      "original_end_char": 7568,
+      "revised_start_char": 8288,
+      "revised_end_char": 8288,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P41",
+      "original_start_char": 7570,
+      "original_end_char": 7576,
+      "revised_start_char": 8290,
+      "revised_end_char": 8291,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P41",
+      "original_start_char": 7584,
+      "original_end_char": 7586,
+      "revised_start_char": 8299,
+      "revised_end_char": 8309,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P41",
+      "original_start_char": 7677,
+      "original_end_char": 7677,
+      "revised_start_char": 8400,
+      "revised_end_char": 8403,
+      "old_text": "",
+      "new_text": "ll "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P41",
+      "original_start_char": 7678,
+      "original_end_char": 7680,
+      "revised_start_char": 8404,
+      "revised_end_char": 8404,
+      "old_text": "hd",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P41",
+      "original_start_char": 7681,
+      "original_end_char": 7683,
+      "revised_start_char": 8405,
+      "revised_end_char": 8406,
+      "old_text": "aw",
+      "new_text": "y"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P41",
+      "original_start_char": 7689,
+      "original_end_char": 7691,
+      "revised_start_char": 8412,
+      "revised_end_char": 8415,
+      "old_text": ".A",
+      "new_text": ", a"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P41",
+      "original_start_char": 7722,
+      "original_end_char": 7722,
+      "revised_start_char": 8446,
+      "revised_end_char": 8447,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P41",
+      "original_start_char": 7809,
+      "original_end_char": 7811,
+      "revised_start_char": 8534,
+      "revised_end_char": 8537,
+      "old_text": ".A",
+      "new_text": ", a"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P41",
+      "original_start_char": 7821,
+      "original_end_char": 7821,
+      "revised_start_char": 8547,
+      "revised_end_char": 8548,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P41",
+      "original_start_char": 7870,
+      "original_end_char": 7870,
+      "revised_start_char": 8597,
+      "revised_end_char": 8598,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P41",
+      "original_start_char": 7873,
+      "original_end_char": 7873,
+      "revised_start_char": 8601,
+      "revised_end_char": 8603,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P41",
+      "original_start_char": 7940,
+      "original_end_char": 7942,
+      "revised_start_char": 8670,
+      "revised_end_char": 8673,
+      "old_text": ".A",
+      "new_text": ", a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P41",
+      "original_start_char": 7979,
+      "original_end_char": 7981,
+      "revised_start_char": 8710,
+      "revised_end_char": 8711,
+      "old_text": "e'",
+      "new_text": "i"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P41",
+      "original_start_char": 8039,
+      "original_end_char": 8040,
+      "revised_start_char": 8769,
+      "revised_end_char": 8769,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8042,
+      "original_end_char": 8048,
+      "revised_start_char": 8771,
+      "revised_end_char": 8772,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8056,
+      "original_end_char": 8058,
+      "revised_start_char": 8780,
+      "revised_end_char": 8790,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P43",
+      "original_start_char": 8063,
+      "original_end_char": 8066,
+      "revised_start_char": 8795,
+      "revised_end_char": 8795,
+      "old_text": " is",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8116,
+      "original_end_char": 8118,
+      "revised_start_char": 8845,
+      "revised_end_char": 8847,
+      "old_text": ".W",
+      "new_text": " w"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8127,
+      "original_end_char": 8129,
+      "revised_start_char": 8856,
+      "revised_end_char": 8858,
+      "old_text": ".P",
+      "new_text": " p"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8148,
+      "original_end_char": 8148,
+      "revised_start_char": 8877,
+      "revised_end_char": 8879,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8240,
+      "original_end_char": 8240,
+      "revised_start_char": 8971,
+      "revised_end_char": 8972,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8282,
+      "original_end_char": 8282,
+      "revised_start_char": 9014,
+      "revised_end_char": 9066,
+      "old_text": "",
+      "new_text": ", as we said, goes on till a maximum number of times"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P43",
+      "original_start_char": 8283,
+      "original_end_char": 8289,
+      "revised_start_char": 9067,
+      "revised_end_char": 9067,
+      "old_text": "​\n\n说话人",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8290,
+      "original_end_char": 8291,
+      "revised_start_char": 9068,
+      "revised_end_char": 9073,
+      "old_text": "1",
+      "new_text": "Okay,"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8292,
+      "original_end_char": 8292,
+      "revised_start_char": 9074,
+      "revised_end_char": 9147,
+      "old_text": "",
+      "new_text": "we do not continue to infinity, we stop at a certain point,〔补回 A007，待核〕 ["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8300,
+      "original_end_char": 8303,
+      "revised_start_char": 9155,
+      "revised_end_char": 9158,
+      "old_text": "​\nA",
+      "new_text": "] a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8399,
+      "original_end_char": 8401,
+      "revised_start_char": 9254,
+      "revised_end_char": 9257,
+      "old_text": ".I",
+      "new_text": ", i"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8428,
+      "original_end_char": 8428,
+      "revised_start_char": 9284,
+      "revised_end_char": 9286,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P43",
+      "original_start_char": 8485,
+      "original_end_char": 8486,
+      "revised_start_char": 9343,
+      "revised_end_char": 9343,
+      "old_text": " ",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8496,
+      "original_end_char": 8496,
+      "revised_start_char": 9353,
+      "revised_end_char": 9354,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8560,
+      "original_end_char": 8562,
+      "revised_start_char": 9418,
+      "revised_end_char": 9420,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8689,
+      "original_end_char": 8691,
+      "revised_start_char": 9547,
+      "revised_end_char": 9555,
+      "old_text": ".A",
+      "new_text": " a retra"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8692,
+      "original_end_char": 8695,
+      "revised_start_char": 9556,
+      "revised_end_char": 9566,
+      "old_text": "d.B",
+      "new_text": "smission b"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8701,
+      "original_end_char": 8702,
+      "revised_start_char": 9572,
+      "revised_end_char": 9573,
+      "old_text": "f",
+      "new_text": "r"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8703,
+      "original_end_char": 8705,
+      "revised_start_char": 9574,
+      "revised_end_char": 9576,
+      "old_text": "st",
+      "new_text": "ce"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8707,
+      "original_end_char": 8709,
+      "revised_start_char": 9578,
+      "revised_end_char": 9580,
+      "old_text": "al",
+      "new_text": "er"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8710,
+      "original_end_char": 8710,
+      "revised_start_char": 9581,
+      "revised_end_char": 9599,
+      "old_text": "",
+      "new_text": "〔推定 C023，末尾角色待核〕\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8719,
+      "original_end_char": 8719,
+      "revised_start_char": 9608,
+      "revised_end_char": 9609,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8800,
+      "original_end_char": 8800,
+      "revised_start_char": 9690,
+      "revised_end_char": 9692,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8877,
+      "original_end_char": 8878,
+      "revised_start_char": 9769,
+      "revised_end_char": 9772,
+      "old_text": "b",
+      "new_text": "det"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P43",
+      "original_start_char": 8879,
+      "original_end_char": 8880,
+      "revised_start_char": 9773,
+      "revised_end_char": 9773,
+      "old_text": "s",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8881,
+      "original_end_char": 8882,
+      "revised_start_char": 9774,
+      "revised_end_char": 9775,
+      "old_text": "c",
+      "new_text": "l"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 8899,
+      "original_end_char": 8899,
+      "revised_start_char": 9792,
+      "revised_end_char": 9793,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8954,
+      "original_end_char": 8956,
+      "revised_start_char": 9848,
+      "revised_end_char": 9851,
+      "old_text": ".I",
+      "new_text": ", i"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P43",
+      "original_start_char": 8961,
+      "original_end_char": 8963,
+      "revised_start_char": 9856,
+      "revised_end_char": 9858,
+      "old_text": "ok",
+      "new_text": "OK"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 9018,
+      "original_end_char": 9018,
+      "revised_start_char": 9913,
+      "revised_end_char": 9914,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 9036,
+      "original_end_char": 9036,
+      "revised_start_char": 9932,
+      "revised_end_char": 9934,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 9091,
+      "original_end_char": 9091,
+      "revised_start_char": 9989,
+      "revised_end_char": 9991,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 9100,
+      "original_end_char": 9100,
+      "revised_start_char": 10000,
+      "revised_end_char": 10001,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P43",
+      "original_start_char": 9173,
+      "original_end_char": 9173,
+      "revised_start_char": 10074,
+      "revised_end_char": 10075,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P43",
+      "original_start_char": 9182,
+      "original_end_char": 9183,
+      "revised_start_char": 10084,
+      "revised_end_char": 10084,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P47",
+      "original_start_char": 9185,
+      "original_end_char": 9191,
+      "revised_start_char": 10086,
+      "revised_end_char": 10087,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P47",
+      "original_start_char": 9199,
+      "original_end_char": 9201,
+      "revised_start_char": 10095,
+      "revised_end_char": 10105,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P47",
+      "original_start_char": 9245,
+      "original_end_char": 9245,
+      "revised_start_char": 10149,
+      "revised_end_char": 10150,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P47",
+      "original_start_char": 9305,
+      "original_end_char": 9307,
+      "revised_start_char": 10210,
+      "revised_end_char": 10212,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P47",
+      "original_start_char": 9386,
+      "original_end_char": 9389,
+      "revised_start_char": 10291,
+      "revised_end_char": 10295,
+      "old_text": "alk",
+      "new_text": "opic"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P47",
+      "original_start_char": 9390,
+      "original_end_char": 9390,
+      "revised_start_char": 10296,
+      "revised_end_char": 10297,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P47",
+      "original_start_char": 9393,
+      "original_end_char": 9393,
+      "revised_start_char": 10300,
+      "revised_end_char": 10301,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P47",
+      "original_start_char": 9453,
+      "original_end_char": 9453,
+      "revised_start_char": 10361,
+      "revised_end_char": 10362,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P47",
+      "original_start_char": 9476,
+      "original_end_char": 9477,
+      "revised_start_char": 10385,
+      "revised_end_char": 10385,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P49",
+      "original_start_char": 9479,
+      "original_end_char": 9485,
+      "revised_start_char": 10387,
+      "revised_end_char": 10388,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P49",
+      "original_start_char": 9493,
+      "original_end_char": 9495,
+      "revised_start_char": 10396,
+      "revised_end_char": 10406,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P49",
+      "original_start_char": 9583,
+      "original_end_char": 9583,
+      "revised_start_char": 10494,
+      "revised_end_char": 10495,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P49",
+      "original_start_char": 9586,
+      "original_end_char": 9586,
+      "revised_start_char": 10498,
+      "revised_end_char": 10499,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P49",
+      "original_start_char": 9618,
+      "original_end_char": 9618,
+      "revised_start_char": 10531,
+      "revised_end_char": 10533,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P49",
+      "original_start_char": 9672,
+      "original_end_char": 9672,
+      "revised_start_char": 10587,
+      "revised_end_char": 10617,
+      "old_text": "",
+      "new_text": " that explains how Wi-Fi works"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P49",
+      "original_start_char": 9673,
+      "original_end_char": 9674,
+      "revised_start_char": 10618,
+      "revised_end_char": 10691,
+      "old_text": "​",
+      "new_text": " Wi-Fi is something that we all use, okay, in our daily life.〔补回 A008，待核〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P51",
+      "original_start_char": 9676,
+      "original_end_char": 9682,
+      "revised_start_char": 10693,
+      "revised_end_char": 10694,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P51",
+      "original_start_char": 9690,
+      "original_end_char": 9692,
+      "revised_start_char": 10702,
+      "revised_end_char": 10712,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P51",
+      "original_start_char": 9736,
+      "original_end_char": 9736,
+      "revised_start_char": 10756,
+      "revised_end_char": 10757,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P51",
+      "original_start_char": 9832,
+      "original_end_char": 9834,
+      "revised_start_char": 10853,
+      "revised_end_char": 10855,
+      "old_text": ".F",
+      "new_text": " f"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P51",
+      "original_start_char": 9857,
+      "original_end_char": 9857,
+      "revised_start_char": 10878,
+      "revised_end_char": 10879,
+      "old_text": "",
+      "new_text": "h"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P51",
+      "original_start_char": 9859,
+      "original_end_char": 9862,
+      "revised_start_char": 10881,
+      "revised_end_char": 10881,
+      "old_text": "ch,",
+      "new_text": ""
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P51",
+      "original_start_char": 9944,
+      "original_end_char": 9945,
+      "revised_start_char": 10963,
+      "revised_end_char": 10963,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P53",
+      "original_start_char": 9947,
+      "original_end_char": 9953,
+      "revised_start_char": 10965,
+      "revised_end_char": 10966,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P53",
+      "original_start_char": 9961,
+      "original_end_char": 9963,
+      "revised_start_char": 10974,
+      "revised_end_char": 10984,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P53",
+      "original_start_char": 9966,
+      "original_end_char": 9966,
+      "revised_start_char": 10987,
+      "revised_end_char": 10988,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P53",
+      "original_start_char": 10007,
+      "original_end_char": 10007,
+      "revised_start_char": 11029,
+      "revised_end_char": 11030,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P53",
+      "original_start_char": 10076,
+      "original_end_char": 10076,
+      "revised_start_char": 11099,
+      "revised_end_char": 11100,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P53",
+      "original_start_char": 10148,
+      "original_end_char": 10148,
+      "revised_start_char": 11172,
+      "revised_end_char": 11173,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P53",
+      "original_start_char": 10150,
+      "original_end_char": 10151,
+      "revised_start_char": 11175,
+      "revised_end_char": 11176,
+      "old_text": ".",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P53",
+      "original_start_char": 10224,
+      "original_end_char": 10225,
+      "revised_start_char": 11249,
+      "revised_end_char": 11249,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10227,
+      "original_end_char": 10233,
+      "revised_start_char": 11251,
+      "revised_end_char": 11252,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10241,
+      "original_end_char": 10243,
+      "revised_start_char": 11260,
+      "revised_end_char": 11270,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10246,
+      "original_end_char": 10246,
+      "revised_start_char": 11273,
+      "revised_end_char": 11274,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10283,
+      "original_end_char": 10283,
+      "revised_start_char": 11311,
+      "revised_end_char": 11312,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10286,
+      "original_end_char": 10286,
+      "revised_start_char": 11315,
+      "revised_end_char": 11316,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10291,
+      "original_end_char": 10291,
+      "revised_start_char": 11321,
+      "revised_end_char": 11322,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10300,
+      "original_end_char": 10302,
+      "revised_start_char": 11331,
+      "revised_end_char": 11333,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10331,
+      "original_end_char": 10331,
+      "revised_start_char": 11362,
+      "revised_end_char": 11363,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10367,
+      "original_end_char": 10367,
+      "revised_start_char": 11399,
+      "revised_end_char": 11400,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10415,
+      "original_end_char": 10417,
+      "revised_start_char": 11448,
+      "revised_end_char": 11450,
+      "old_text": ".B",
+      "new_text": " b"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10432,
+      "original_end_char": 10432,
+      "revised_start_char": 11465,
+      "revised_end_char": 11467,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10446,
+      "original_end_char": 10449,
+      "revised_start_char": 11481,
+      "revised_end_char": 11493,
+      "old_text": "TPB",
+      "new_text": "EEE〔推定 C027〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10511,
+      "original_end_char": 10511,
+      "revised_start_char": 11555,
+      "revised_end_char": 11556,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10532,
+      "original_end_char": 10533,
+      "revised_start_char": 11577,
+      "revised_end_char": 11578,
+      "old_text": "A",
+      "new_text": "a"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10534,
+      "original_end_char": 10534,
+      "revised_start_char": 11579,
+      "revised_end_char": 11581,
+      "old_text": "",
+      "new_text": " T"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10539,
+      "original_end_char": 10539,
+      "revised_start_char": 11586,
+      "revised_end_char": 11595,
+      "old_text": "",
+      "new_text": "〔推定 C028〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10549,
+      "original_end_char": 10549,
+      "revised_start_char": 11605,
+      "revised_end_char": 11606,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10619,
+      "original_end_char": 10621,
+      "revised_start_char": 11676,
+      "revised_end_char": 11679,
+      "old_text": ".S",
+      "new_text": ", s"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10628,
+      "original_end_char": 10628,
+      "revised_start_char": 11686,
+      "revised_end_char": 11691,
+      "old_text": "",
+      "new_text": "CT〔推定"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P55",
+      "original_start_char": 10629,
+      "original_end_char": 10630,
+      "revised_start_char": 11692,
+      "revised_end_char": 11692,
+      "old_text": "I",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10631,
+      "original_end_char": 10632,
+      "revised_start_char": 11693,
+      "revised_end_char": 11697,
+      "old_text": "P",
+      "new_text": "029〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P55",
+      "original_start_char": 10705,
+      "original_end_char": 10705,
+      "revised_start_char": 11770,
+      "revised_end_char": 11771,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P55",
+      "original_start_char": 10736,
+      "original_end_char": 10738,
+      "revised_start_char": 11802,
+      "revised_end_char": 11805,
+      "old_text": ".P",
+      "new_text": ", p"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P55",
+      "original_start_char": 10792,
+      "original_end_char": 10793,
+      "revised_start_char": 11859,
+      "revised_end_char": 11859,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 10795,
+      "original_end_char": 10801,
+      "revised_start_char": 11861,
+      "revised_end_char": 11862,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 10809,
+      "original_end_char": 10814,
+      "revised_start_char": 11870,
+      "revised_end_char": 11893,
+      "old_text": "​\nFDA",
+      "new_text": "｜原标说话人 1] IEEE〔推定 C030〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 10854,
+      "original_end_char": 10854,
+      "revised_start_char": 11933,
+      "revised_end_char": 11935,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 10936,
+      "original_end_char": 10936,
+      "revised_start_char": 12017,
+      "revised_end_char": 12018,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 10983,
+      "original_end_char": 10983,
+      "revised_start_char": 12065,
+      "revised_end_char": 12066,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P57",
+      "original_start_char": 10985,
+      "original_end_char": 10986,
+      "revised_start_char": 12068,
+      "revised_end_char": 12068,
+      "old_text": "d",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 10987,
+      "original_end_char": 10988,
+      "revised_start_char": 12069,
+      "revised_end_char": 12076,
+      "old_text": "a",
+      "new_text": "IEEE〔推定"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 10989,
+      "original_end_char": 11000,
+      "revised_start_char": 12077,
+      "revised_end_char": 12082,
+      "old_text": "hydrophilic",
+      "new_text": "C031〕"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P57",
+      "original_start_char": 11023,
+      "original_end_char": 11026,
+      "revised_start_char": 12105,
+      "revised_end_char": 12105,
+      "old_text": ".Up",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11027,
+      "original_end_char": 11027,
+      "revised_start_char": 12106,
+      "revised_end_char": 12111,
+      "old_text": "",
+      "new_text": "of th"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11028,
+      "original_end_char": 11028,
+      "revised_start_char": 12112,
+      "revised_end_char": 12113,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11030,
+      "original_end_char": 11031,
+      "revised_start_char": 12115,
+      "revised_end_char": 12116,
+      "old_text": "á",
+      "new_text": "a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11037,
+      "original_end_char": 11038,
+      "revised_start_char": 12122,
+      "revised_end_char": 12123,
+      "old_text": "e",
+      "new_text": "i"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11040,
+      "original_end_char": 11043,
+      "revised_start_char": 12125,
+      "revised_end_char": 12132,
+      "old_text": "Age",
+      "new_text": "802.11."
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11044,
+      "original_end_char": 11054,
+      "revised_start_char": 12133,
+      "revised_end_char": 12134,
+      "old_text": "of two duc",
+      "new_text": "O"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11055,
+      "original_end_char": 11065,
+      "revised_start_char": 12135,
+      "revised_end_char": 12138,
+      "old_text": " Helen.O K",
+      "new_text": "ay,"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11068,
+      "original_end_char": 11068,
+      "revised_start_char": 12141,
+      "revised_end_char": 12142,
+      "old_text": "",
+      "new_text": "w"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11069,
+      "original_end_char": 11070,
+      "revised_start_char": 12143,
+      "revised_end_char": 12144,
+      "old_text": "e",
+      "new_text": "a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11081,
+      "original_end_char": 11084,
+      "revised_start_char": 12155,
+      "revised_end_char": 12170,
+      "old_text": "í.M",
+      "new_text": "ee, there are m"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11109,
+      "original_end_char": 11109,
+      "revised_start_char": 12195,
+      "revised_end_char": 12197,
+      "old_text": "",
+      "new_text": "e "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11110,
+      "original_end_char": 11112,
+      "revised_start_char": 12198,
+      "revised_end_char": 12199,
+      "old_text": ".D",
+      "new_text": "h"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11113,
+      "original_end_char": 11113,
+      "revised_start_char": 12200,
+      "revised_end_char": 12201,
+      "old_text": "",
+      "new_text": "s"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11123,
+      "original_end_char": 11123,
+      "revised_start_char": 12211,
+      "revised_end_char": 12212,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11129,
+      "original_end_char": 11130,
+      "revised_start_char": 12218,
+      "revised_end_char": 12219,
+      "old_text": "i",
+      "new_text": "e"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11131,
+      "original_end_char": 11131,
+      "revised_start_char": 12220,
+      "revised_end_char": 12221,
+      "old_text": "",
+      "new_text": "e"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11150,
+      "original_end_char": 11152,
+      "revised_start_char": 12240,
+      "revised_end_char": 12243,
+      "old_text": "di",
+      "new_text": "the"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11153,
+      "original_end_char": 11154,
+      "revised_start_char": 12244,
+      "revised_end_char": 12246,
+      "old_text": "k",
+      "new_text": "ch"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11157,
+      "original_end_char": 11158,
+      "revised_start_char": 12249,
+      "revised_end_char": 12250,
+      "old_text": "k",
+      "new_text": "c"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11165,
+      "original_end_char": 11170,
+      "revised_start_char": 12257,
+      "revised_end_char": 12262,
+      "old_text": "k.All",
+      "new_text": "cs of"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11203,
+      "original_end_char": 11203,
+      "revised_start_char": 12295,
+      "revised_end_char": 12297,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11241,
+      "original_end_char": 11241,
+      "revised_start_char": 12335,
+      "revised_end_char": 12336,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11282,
+      "original_end_char": 11284,
+      "revised_start_char": 12377,
+      "revised_end_char": 12379,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11395,
+      "original_end_char": 11397,
+      "revised_start_char": 12490,
+      "revised_end_char": 12492,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11425,
+      "original_end_char": 11427,
+      "revised_start_char": 12520,
+      "revised_end_char": 12522,
+      "old_text": ".O",
+      "new_text": " o"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11482,
+      "original_end_char": 11482,
+      "revised_start_char": 12577,
+      "revised_end_char": 12578,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11564,
+      "original_end_char": 11564,
+      "revised_start_char": 12660,
+      "revised_end_char": 12661,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11567,
+      "original_end_char": 11567,
+      "revised_start_char": 12664,
+      "revised_end_char": 12666,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11570,
+      "original_end_char": 11572,
+      "revised_start_char": 12669,
+      "revised_end_char": 12672,
+      "old_text": ".T",
+      "new_text": ", t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11679,
+      "original_end_char": 11679,
+      "revised_start_char": 12779,
+      "revised_end_char": 12780,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11697,
+      "original_end_char": 11698,
+      "revised_start_char": 12798,
+      "revised_end_char": 12799,
+      "old_text": ",",
+      "new_text": "."
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11700,
+      "original_end_char": 11700,
+      "revised_start_char": 12801,
+      "revised_end_char": 12802,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11701,
+      "original_end_char": 11702,
+      "revised_start_char": 12803,
+      "revised_end_char": 12805,
+      "old_text": ".",
+      "new_text": ", "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11746,
+      "original_end_char": 11746,
+      "revised_start_char": 12849,
+      "revised_end_char": 12873,
+      "old_text": "",
+      "new_text": "〔待核 U010：逐字母识别及组合边界不确定〕 "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11790,
+      "original_end_char": 11790,
+      "revised_start_char": 12917,
+      "revised_end_char": 12919,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11892,
+      "original_end_char": 11894,
+      "revised_start_char": 13021,
+      "revised_end_char": 13023,
+      "old_text": ".O",
+      "new_text": " o"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11913,
+      "original_end_char": 11913,
+      "revised_start_char": 13042,
+      "revised_end_char": 13043,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11942,
+      "original_end_char": 11942,
+      "revised_start_char": 13072,
+      "revised_end_char": 13073,
+      "old_text": "",
+      "new_text": ","
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 11945,
+      "original_end_char": 11947,
+      "revised_start_char": 13076,
+      "revised_end_char": 13078,
+      "old_text": ".S",
+      "new_text": " s"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 11960,
+      "original_end_char": 11960,
+      "revised_start_char": 13091,
+      "revised_end_char": 13092,
+      "old_text": "",
+      "new_text": ","
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12001,
+      "original_end_char": 12001,
+      "revised_start_char": 13133,
+      "revised_end_char": 13134,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 12064,
+      "original_end_char": 12066,
+      "revised_start_char": 13197,
+      "revised_end_char": 13199,
+      "old_text": ".I",
+      "new_text": " i"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12111,
+      "original_end_char": 12111,
+      "revised_start_char": 13244,
+      "revised_end_char": 13245,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12114,
+      "original_end_char": 12114,
+      "revised_start_char": 13248,
+      "revised_end_char": 13249,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12168,
+      "original_end_char": 12168,
+      "revised_start_char": 13303,
+      "revised_end_char": 13304,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12210,
+      "original_end_char": 12210,
+      "revised_start_char": 13346,
+      "revised_end_char": 13348,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12273,
+      "original_end_char": 12273,
+      "revised_start_char": 13411,
+      "revised_end_char": 13412,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12293,
+      "original_end_char": 12293,
+      "revised_start_char": 13432,
+      "revised_end_char": 13433,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 12341,
+      "original_end_char": 12343,
+      "revised_start_char": 13481,
+      "revised_end_char": 13484,
+      "old_text": ".T",
+      "new_text": ", t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12368,
+      "original_end_char": 12368,
+      "revised_start_char": 13509,
+      "revised_end_char": 13510,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12388,
+      "original_end_char": 12388,
+      "revised_start_char": 13530,
+      "revised_end_char": 13532,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12477,
+      "original_end_char": 12477,
+      "revised_start_char": 13621,
+      "revised_end_char": 13622,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12510,
+      "original_end_char": 12510,
+      "revised_start_char": 13655,
+      "revised_end_char": 13656,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12578,
+      "original_end_char": 12578,
+      "revised_start_char": 13724,
+      "revised_end_char": 13726,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 12664,
+      "original_end_char": 12667,
+      "revised_start_char": 13812,
+      "revised_end_char": 13815,
+      "old_text": ".Or",
+      "new_text": " of"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12674,
+      "original_end_char": 12674,
+      "revised_start_char": 13822,
+      "revised_end_char": 13824,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 12786,
+      "original_end_char": 12788,
+      "revised_start_char": 13936,
+      "revised_end_char": 13939,
+      "old_text": ".2",
+      "new_text": " to"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12804,
+      "original_end_char": 12804,
+      "revised_start_char": 13955,
+      "revised_end_char": 13956,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12840,
+      "original_end_char": 12840,
+      "revised_start_char": 13992,
+      "revised_end_char": 13993,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 12896,
+      "original_end_char": 12896,
+      "revised_start_char": 14049,
+      "revised_end_char": 14051,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 12990,
+      "original_end_char": 12991,
+      "revised_start_char": 14145,
+      "revised_end_char": 14146,
+      "old_text": ".",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 12992,
+      "original_end_char": 12995,
+      "revised_start_char": 14147,
+      "revised_end_char": 14149,
+      "old_text": "ark",
+      "new_text": "AC"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13002,
+      "original_end_char": 13002,
+      "revised_start_char": 14156,
+      "revised_end_char": 14158,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13098,
+      "original_end_char": 13098,
+      "revised_start_char": 14254,
+      "revised_end_char": 14255,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13119,
+      "original_end_char": 13121,
+      "revised_start_char": 14276,
+      "revised_end_char": 14278,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13124,
+      "original_end_char": 13125,
+      "revised_start_char": 14281,
+      "revised_end_char": 14282,
+      "old_text": "w",
+      "new_text": "W"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13126,
+      "original_end_char": 13128,
+      "revised_start_char": 14283,
+      "revised_end_char": 14285,
+      "old_text": " f",
+      "new_text": "-F"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13161,
+      "original_end_char": 13161,
+      "revised_start_char": 14318,
+      "revised_end_char": 14319,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13178,
+      "original_end_char": 13179,
+      "revised_start_char": 14336,
+      "revised_end_char": 14337,
+      "old_text": "w",
+      "new_text": "W"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13180,
+      "original_end_char": 13182,
+      "revised_start_char": 14338,
+      "revised_end_char": 14340,
+      "old_text": " f",
+      "new_text": "-F"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13196,
+      "original_end_char": 13196,
+      "revised_start_char": 14354,
+      "revised_end_char": 14355,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13220,
+      "original_end_char": 13220,
+      "revised_start_char": 14379,
+      "revised_end_char": 14380,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13265,
+      "original_end_char": 13265,
+      "revised_start_char": 14425,
+      "revised_end_char": 14434,
+      "old_text": "",
+      "new_text": "〔待核 U011〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13281,
+      "original_end_char": 13283,
+      "revised_start_char": 14450,
+      "revised_end_char": 14452,
+      "old_text": ".D",
+      "new_text": " d"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13302,
+      "original_end_char": 13302,
+      "revised_start_char": 14471,
+      "revised_end_char": 14473,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13349,
+      "original_end_char": 13349,
+      "revised_start_char": 14520,
+      "revised_end_char": 14521,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13382,
+      "original_end_char": 13382,
+      "revised_start_char": 14554,
+      "revised_end_char": 14555,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13397,
+      "original_end_char": 13404,
+      "revised_start_char": 14570,
+      "revised_end_char": 14571,
+      "old_text": ".​\n\n说话人",
+      "new_text": ","
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13405,
+      "original_end_char": 13406,
+      "revised_start_char": 14572,
+      "revised_end_char": 14580,
+      "old_text": "1",
+      "new_text": "physical"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13407,
+      "original_end_char": 13407,
+      "revised_start_char": 14581,
+      "revised_end_char": 14616,
+      "old_text": "",
+      "new_text": "layer, physical layer〔补回 A009，待核〕 ["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P57",
+      "original_start_char": 13415,
+      "original_end_char": 13418,
+      "revised_start_char": 14624,
+      "revised_end_char": 14627,
+      "old_text": "​\nF",
+      "new_text": "] f"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13427,
+      "original_end_char": 13427,
+      "revised_start_char": 14636,
+      "revised_end_char": 14637,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13431,
+      "original_end_char": 13431,
+      "revised_start_char": 14641,
+      "revised_end_char": 14642,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P57",
+      "original_start_char": 13487,
+      "original_end_char": 13487,
+      "revised_start_char": 14698,
+      "revised_end_char": 14700,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P57",
+      "original_start_char": 13546,
+      "original_end_char": 13547,
+      "revised_start_char": 14759,
+      "revised_end_char": 14759,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P61",
+      "original_start_char": 13549,
+      "original_end_char": 13555,
+      "revised_start_char": 14761,
+      "revised_end_char": 14762,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P61",
+      "original_start_char": 13563,
+      "original_end_char": 13565,
+      "revised_start_char": 14770,
+      "revised_end_char": 14780,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P61",
+      "original_start_char": 13612,
+      "original_end_char": 13612,
+      "revised_start_char": 14827,
+      "revised_end_char": 14828,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P61",
+      "original_start_char": 13680,
+      "original_end_char": 13682,
+      "revised_start_char": 14896,
+      "revised_end_char": 14898,
+      "old_text": ".T",
+      "new_text": " t"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P61",
+      "original_start_char": 13722,
+      "original_end_char": 13723,
+      "revised_start_char": 14938,
+      "revised_end_char": 14938,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P61",
+      "original_start_char": 13725,
+      "original_end_char": 13725,
+      "revised_start_char": 14940,
+      "revised_end_char": 15004,
+      "old_text": "",
+      "new_text": "Okay, so think of any application you use, TikTok,〔补回 A010，待核〕\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P63",
+      "original_start_char": 13725,
+      "original_end_char": 13731,
+      "revised_start_char": 15004,
+      "revised_end_char": 15005,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P63",
+      "original_start_char": 13739,
+      "original_end_char": 13742,
+      "revised_start_char": 15013,
+      "revised_end_char": 15024,
+      "old_text": "​\nW",
+      "new_text": "｜原标说话人 1] w"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P63",
+      "original_start_char": 13776,
+      "original_end_char": 13776,
+      "revised_start_char": 15058,
+      "revised_end_char": 15060,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P63",
+      "original_start_char": 13836,
+      "original_end_char": 13836,
+      "revised_start_char": 15120,
+      "revised_end_char": 15121,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P63",
+      "original_start_char": 13839,
+      "original_end_char": 13839,
+      "revised_start_char": 15124,
+      "revised_end_char": 15125,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P63",
+      "original_start_char": 13858,
+      "original_end_char": 13859,
+      "revised_start_char": 15144,
+      "revised_end_char": 15145,
+      "old_text": "t",
+      "new_text": "T"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P63",
+      "original_start_char": 13861,
+      "original_end_char": 13862,
+      "revised_start_char": 15147,
+      "revised_end_char": 15148,
+      "old_text": "t",
+      "new_text": "T"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P63",
+      "original_start_char": 13926,
+      "original_end_char": 13926,
+      "revised_start_char": 15212,
+      "revised_end_char": 15213,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P63",
+      "original_start_char": 13980,
+      "original_end_char": 13982,
+      "revised_start_char": 15267,
+      "revised_end_char": 15270,
+      "old_text": ".A",
+      "new_text": ", a"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P63",
+      "original_start_char": 14003,
+      "original_end_char": 14003,
+      "revised_start_char": 15291,
+      "revised_end_char": 15293,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P63",
+      "original_start_char": 14081,
+      "original_end_char": 14082,
+      "revised_start_char": 15371,
+      "revised_end_char": 15380,
+      "old_text": "​",
+      "new_text": "〔待核 U012〕"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14084,
+      "original_end_char": 14090,
+      "revised_start_char": 15382,
+      "revised_end_char": 15383,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14098,
+      "original_end_char": 14100,
+      "revised_start_char": 15391,
+      "revised_end_char": 15401,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14120,
+      "original_end_char": 14121,
+      "revised_start_char": 15421,
+      "revised_end_char": 15423,
+      "old_text": "Y",
+      "new_text": " y"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14174,
+      "original_end_char": 14174,
+      "revised_start_char": 15476,
+      "revised_end_char": 15477,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14253,
+      "original_end_char": 14255,
+      "revised_start_char": 15556,
+      "revised_end_char": 15558,
+      "old_text": ".W",
+      "new_text": " w"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14272,
+      "original_end_char": 14272,
+      "revised_start_char": 15575,
+      "revised_end_char": 15576,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14309,
+      "original_end_char": 14309,
+      "revised_start_char": 15613,
+      "revised_end_char": 15614,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14354,
+      "original_end_char": 14354,
+      "revised_start_char": 15659,
+      "revised_end_char": 15660,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14411,
+      "original_end_char": 14411,
+      "revised_start_char": 15717,
+      "revised_end_char": 15718,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P65",
+      "original_start_char": 14500,
+      "original_end_char": 14501,
+      "revised_start_char": 15807,
+      "revised_end_char": 15807,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14503,
+      "original_end_char": 14506,
+      "revised_start_char": 15809,
+      "revised_end_char": 15814,
+      "old_text": "说话人",
+      "new_text": "Okay,"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14507,
+      "original_end_char": 14507,
+      "revised_start_char": 15815,
+      "revised_end_char": 15846,
+      "old_text": "",
+      "new_text": "now each of these packets〔补回 A0"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14508,
+      "original_end_char": 14508,
+      "revised_start_char": 15847,
+      "revised_end_char": 15852,
+      "old_text": "",
+      "new_text": "1，待核〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14509,
+      "original_end_char": 14509,
+      "revised_start_char": 15853,
+      "revised_end_char": 15854,
+      "old_text": "",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14517,
+      "original_end_char": 14520,
+      "revised_start_char": 15862,
+      "revised_end_char": 15865,
+      "old_text": "​\nN",
+      "new_text": "] n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14546,
+      "original_end_char": 14546,
+      "revised_start_char": 15891,
+      "revised_end_char": 15892,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14586,
+      "original_end_char": 14586,
+      "revised_start_char": 15932,
+      "revised_end_char": 15933,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14648,
+      "original_end_char": 14650,
+      "revised_start_char": 15995,
+      "revised_end_char": 15998,
+      "old_text": ".A",
+      "new_text": ", a"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P65",
+      "original_start_char": 14696,
+      "original_end_char": 14697,
+      "revised_start_char": 16044,
+      "revised_end_char": 16044,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14699,
+      "original_end_char": 14702,
+      "revised_start_char": 16046,
+      "revised_end_char": 16051,
+      "old_text": "说话人",
+      "new_text": "Okay,"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14703,
+      "original_end_char": 14703,
+      "revised_start_char": 16052,
+      "revised_end_char": 16174,
+      "old_text": "",
+      "new_text": "so then the picture will be stored, for example, in a repository. So the goal is to transfer the application packets〔补回 A0"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14704,
+      "original_end_char": 14704,
+      "revised_start_char": 16175,
+      "revised_end_char": 16180,
+      "old_text": "",
+      "new_text": "2，待核〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14705,
+      "original_end_char": 14705,
+      "revised_start_char": 16181,
+      "revised_end_char": 16182,
+      "old_text": "",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 14713,
+      "original_end_char": 14716,
+      "revised_start_char": 16190,
+      "revised_end_char": 16193,
+      "old_text": "​\nT",
+      "new_text": "] t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14761,
+      "original_end_char": 14761,
+      "revised_start_char": 16238,
+      "revised_end_char": 16240,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14864,
+      "original_end_char": 14864,
+      "revised_start_char": 16343,
+      "revised_end_char": 16344,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14887,
+      "original_end_char": 14887,
+      "revised_start_char": 16367,
+      "revised_end_char": 16368,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14922,
+      "original_end_char": 14922,
+      "revised_start_char": 16403,
+      "revised_end_char": 16404,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14926,
+      "original_end_char": 14926,
+      "revised_start_char": 16408,
+      "revised_end_char": 16410,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 14985,
+      "original_end_char": 14985,
+      "revised_start_char": 16469,
+      "revised_end_char": 16470,
+      "old_text": "",
+      "new_text": ","
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15003,
+      "original_end_char": 15005,
+      "revised_start_char": 16488,
+      "revised_end_char": 16491,
+      "old_text": ".I",
+      "new_text": ", i"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P65",
+      "original_start_char": 15111,
+      "original_end_char": 15118,
+      "revised_start_char": 16597,
+      "revised_end_char": 16597,
+      "old_text": ".​\n\n说话人",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15119,
+      "original_end_char": 15121,
+      "revised_start_char": 16598,
+      "revised_end_char": 16599,
+      "old_text": "1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15129,
+      "original_end_char": 15133,
+      "revised_start_char": 16607,
+      "revised_end_char": 16611,
+      "old_text": "​\nOm",
+      "new_text": "] of"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15135,
+      "original_end_char": 15135,
+      "revised_start_char": 16613,
+      "revised_end_char": 16615,
+      "old_text": "",
+      "new_text": "ay"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15136,
+      "original_end_char": 15139,
+      "revised_start_char": 16616,
+      "revised_end_char": 16627,
+      "old_text": "e.D",
+      "new_text": "rs, okay, t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15141,
+      "original_end_char": 15141,
+      "revised_start_char": 16629,
+      "revised_end_char": 16638,
+      "old_text": "",
+      "new_text": "l they re"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15142,
+      "original_end_char": 15144,
+      "revised_start_char": 16639,
+      "revised_end_char": 16641,
+      "old_text": "nd",
+      "new_text": "ch"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15145,
+      "original_end_char": 15149,
+      "revised_start_char": 16642,
+      "revised_end_char": 16645,
+      "old_text": "days",
+      "new_text": "the"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P65",
+      "original_start_char": 15150,
+      "original_end_char": 15153,
+      "revised_start_char": 16646,
+      "revised_end_char": 16646,
+      "old_text": "di.",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15208,
+      "original_end_char": 15208,
+      "revised_start_char": 16701,
+      "revised_end_char": 16702,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15286,
+      "original_end_char": 15286,
+      "revised_start_char": 16780,
+      "revised_end_char": 16782,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15291,
+      "original_end_char": 15295,
+      "revised_start_char": 16787,
+      "revised_end_char": 16788,
+      "old_text": "el e",
+      "new_text": "a"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15297,
+      "original_end_char": 15299,
+      "revised_start_char": 16790,
+      "revised_end_char": 16792,
+      "old_text": "el",
+      "new_text": "an"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15307,
+      "original_end_char": 15307,
+      "revised_start_char": 16800,
+      "revised_end_char": 16801,
+      "old_text": "",
+      "new_text": ","
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15310,
+      "original_end_char": 15311,
+      "revised_start_char": 16804,
+      "revised_end_char": 16805,
+      "old_text": "i",
+      "new_text": "e"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15312,
+      "original_end_char": 15312,
+      "revised_start_char": 16806,
+      "revised_end_char": 16807,
+      "old_text": "",
+      "new_text": "e"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15318,
+      "original_end_char": 15325,
+      "revised_start_char": 16813,
+      "revised_end_char": 16820,
+      "old_text": ".​\n\n说话人",
+      "new_text": "mediate"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15326,
+      "original_end_char": 15326,
+      "revised_start_char": 16821,
+      "revised_end_char": 16915,
+      "old_text": "",
+      "new_text": "layers between the application and your Wi-Fi layers, let's call them like Wi-Fi layers,〔补回 A0"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15327,
+      "original_end_char": 15327,
+      "revised_start_char": 16916,
+      "revised_end_char": 16925,
+      "old_text": "",
+      "new_text": "3，含推定，待核〕"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15328,
+      "original_end_char": 15328,
+      "revised_start_char": 16926,
+      "revised_end_char": 16927,
+      "old_text": "",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15336,
+      "original_end_char": 15339,
+      "revised_start_char": 16935,
+      "revised_end_char": 16938,
+      "old_text": "​\nT",
+      "new_text": "] t"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15435,
+      "original_end_char": 15435,
+      "revised_start_char": 17034,
+      "revised_end_char": 17035,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15455,
+      "original_end_char": 15457,
+      "revised_start_char": 17055,
+      "revised_end_char": 17058,
+      "old_text": ".F",
+      "new_text": ", f"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15558,
+      "original_end_char": 15558,
+      "revised_start_char": 17159,
+      "revised_end_char": 17162,
+      "old_text": "",
+      "new_text": "ed "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P65",
+      "original_start_char": 15560,
+      "original_end_char": 15561,
+      "revised_start_char": 17164,
+      "revised_end_char": 17164,
+      "old_text": "g",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15575,
+      "original_end_char": 15575,
+      "revised_start_char": 17178,
+      "revised_end_char": 17225,
+      "old_text": "",
+      "new_text": " Don't worry if you don't know them.〔补回 A014〕\n\n"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15721,
+      "original_end_char": 15723,
+      "revised_start_char": 17371,
+      "revised_end_char": 17374,
+      "old_text": ".T",
+      "new_text": ", t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15737,
+      "original_end_char": 15739,
+      "revised_start_char": 17388,
+      "revised_end_char": 17390,
+      "old_text": ".L",
+      "new_text": " l"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P65",
+      "original_start_char": 15749,
+      "original_end_char": 15749,
+      "revised_start_char": 17400,
+      "revised_end_char": 17401,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P65",
+      "original_start_char": 15858,
+      "original_end_char": 15861,
+      "revised_start_char": 17510,
+      "revised_end_char": 17513,
+      "old_text": "mac",
+      "new_text": "MAC"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P65",
+      "original_start_char": 15868,
+      "original_end_char": 15869,
+      "revised_start_char": 17520,
+      "revised_end_char": 17520,
+      "old_text": "​",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15871,
+      "original_end_char": 15877,
+      "revised_start_char": 17522,
+      "revised_end_char": 17523,
+      "old_text": "说话人 1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15885,
+      "original_end_char": 15887,
+      "revised_start_char": 17531,
+      "revised_end_char": 17541,
+      "old_text": "​\n",
+      "new_text": "｜原标说话人 1] "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15891,
+      "original_end_char": 15893,
+      "revised_start_char": 17545,
+      "revised_end_char": 17547,
+      "old_text": ".W",
+      "new_text": " w"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15913,
+      "original_end_char": 15917,
+      "revised_start_char": 17567,
+      "revised_end_char": 17570,
+      "old_text": "mark",
+      "new_text": "MAC"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15929,
+      "original_end_char": 15931,
+      "revised_start_char": 17582,
+      "revised_end_char": 17585,
+      "old_text": ".A",
+      "new_text": ", a"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P75",
+      "original_start_char": 15933,
+      "original_end_char": 15934,
+      "revised_start_char": 17587,
+      "revised_end_char": 17587,
+      "old_text": "a",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15935,
+      "original_end_char": 15936,
+      "revised_start_char": 17588,
+      "revised_end_char": 17590,
+      "old_text": "l",
+      "new_text": "th"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15937,
+      "original_end_char": 15940,
+      "revised_start_char": 17591,
+      "revised_end_char": 17600,
+      "old_text": "mak",
+      "new_text": "n the MAC"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15948,
+      "original_end_char": 15949,
+      "revised_start_char": 17608,
+      "revised_end_char": 17609,
+      "old_text": "u",
+      "new_text": "e"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 15950,
+      "original_end_char": 15950,
+      "revised_start_char": 17610,
+      "revised_end_char": 17612,
+      "old_text": "",
+      "new_text": "ds"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15951,
+      "original_end_char": 15952,
+      "revised_start_char": 17613,
+      "revised_end_char": 17615,
+      "old_text": "d",
+      "new_text": "th"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15954,
+      "original_end_char": 15955,
+      "revised_start_char": 17617,
+      "revised_end_char": 17618,
+      "old_text": "f",
+      "new_text": "p"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 15957,
+      "original_end_char": 15957,
+      "revised_start_char": 17620,
+      "revised_end_char": 17621,
+      "old_text": "",
+      "new_text": "k"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 15958,
+      "original_end_char": 15958,
+      "revised_start_char": 17622,
+      "revised_end_char": 17623,
+      "old_text": "",
+      "new_text": "t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15959,
+      "original_end_char": 15964,
+      "revised_start_char": 17624,
+      "revised_end_char": 17630,
+      "old_text": "duduk",
+      "new_text": "to the"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15979,
+      "original_end_char": 15981,
+      "revised_start_char": 17645,
+      "revised_end_char": 17648,
+      "old_text": ".A",
+      "new_text": ", a"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P75",
+      "original_start_char": 15983,
+      "original_end_char": 15984,
+      "revised_start_char": 17650,
+      "revised_end_char": 17650,
+      "old_text": "a",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 15985,
+      "original_end_char": 15988,
+      "revised_start_char": 17651,
+      "revised_end_char": 17659,
+      "old_text": "ada",
+      "new_text": "then the"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P75",
+      "original_start_char": 16003,
+      "original_end_char": 16004,
+      "revised_start_char": 17674,
+      "revised_end_char": 17674,
+      "old_text": ".",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16005,
+      "original_end_char": 16006,
+      "revised_start_char": 17675,
+      "revised_end_char": 17676,
+      "old_text": "T",
+      "new_text": "t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16007,
+      "original_end_char": 16008,
+      "revised_start_char": 17677,
+      "revised_end_char": 17679,
+      "old_text": "u",
+      "new_text": "an"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16009,
+      "original_end_char": 16009,
+      "revised_start_char": 17680,
+      "revised_end_char": 17682,
+      "old_text": "",
+      "new_text": "mi"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16010,
+      "original_end_char": 16013,
+      "revised_start_char": 17683,
+      "revised_end_char": 17684,
+      "old_text": " me",
+      "new_text": "s"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16024,
+      "original_end_char": 16026,
+      "revised_start_char": 17695,
+      "revised_end_char": 17698,
+      "old_text": ".Y",
+      "new_text": " th"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16029,
+      "original_end_char": 16033,
+      "revised_start_char": 17701,
+      "revised_end_char": 17705,
+      "old_text": "each",
+      "new_text": "its."
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16034,
+      "original_end_char": 16035,
+      "revised_start_char": 17706,
+      "revised_end_char": 17707,
+      "old_text": "h",
+      "new_text": "H"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16037,
+      "original_end_char": 16037,
+      "revised_start_char": 17709,
+      "revised_end_char": 17710,
+      "old_text": "",
+      "new_text": "?"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16038,
+      "original_end_char": 16039,
+      "revised_start_char": 17711,
+      "revised_end_char": 17712,
+      "old_text": "b",
+      "new_text": "B"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P75",
+      "original_start_char": 16049,
+      "original_end_char": 16052,
+      "revised_start_char": 17722,
+      "revised_end_char": 17722,
+      "old_text": "vei",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16054,
+      "original_end_char": 16056,
+      "revised_start_char": 17724,
+      "revised_end_char": 17727,
+      "old_text": ".D",
+      "new_text": " th"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16057,
+      "original_end_char": 16058,
+      "revised_start_char": 17728,
+      "revised_end_char": 17730,
+      "old_text": "v",
+      "new_text": " b"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16059,
+      "original_end_char": 16061,
+      "revised_start_char": 17731,
+      "revised_end_char": 17733,
+      "old_text": "ce",
+      "new_text": "ts"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16064,
+      "original_end_char": 16065,
+      "revised_start_char": 17736,
+      "revised_end_char": 17737,
+      "old_text": "d",
+      "new_text": "t"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16067,
+      "original_end_char": 16069,
+      "revised_start_char": 17739,
+      "revised_end_char": 17742,
+      "old_text": "di",
+      "new_text": "the"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16073,
+      "original_end_char": 16074,
+      "revised_start_char": 17746,
+      "revised_end_char": 17747,
+      "old_text": "k",
+      "new_text": "c"
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P75",
+      "original_start_char": 16082,
+      "original_end_char": 16088,
+      "revised_start_char": 17755,
+      "revised_end_char": 17755,
+      "old_text": "tik.An",
+      "new_text": ""
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16155,
+      "original_end_char": 16155,
+      "revised_start_char": 17822,
+      "revised_end_char": 17823,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16217,
+      "original_end_char": 16218,
+      "revised_start_char": 17885,
+      "revised_end_char": 17892,
+      "old_text": ",",
+      "new_text": " at the"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16227,
+      "original_end_char": 16227,
+      "revised_start_char": 17901,
+      "revised_end_char": 17902,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16228,
+      "original_end_char": 16228,
+      "revised_start_char": 17903,
+      "revised_end_char": 17904,
+      "old_text": "",
+      "new_text": "a"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16229,
+      "original_end_char": 16229,
+      "revised_start_char": 17905,
+      "revised_end_char": 17907,
+      "old_text": "",
+      "new_text": "er"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16230,
+      "original_end_char": 16230,
+      "revised_start_char": 17908,
+      "revised_end_char": 17909,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16380,
+      "original_end_char": 16380,
+      "revised_start_char": 18059,
+      "revised_end_char": 18060,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16428,
+      "original_end_char": 16428,
+      "revised_start_char": 18108,
+      "revised_end_char": 18109,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16431,
+      "original_end_char": 16431,
+      "revised_start_char": 18112,
+      "revised_end_char": 18113,
+      "old_text": "",
+      "new_text": " "
+    },
+    {
+      "operation": "delete",
+      "paragraph_id": "P75",
+      "original_start_char": 16436,
+      "original_end_char": 16443,
+      "revised_start_char": 18118,
+      "revised_end_char": 18118,
+      "old_text": ".​\n\n说话人",
+      "new_text": ""
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16444,
+      "original_end_char": 16446,
+      "revised_start_char": 18119,
+      "revised_end_char": 18120,
+      "old_text": "1 ",
+      "new_text": "["
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16454,
+      "original_end_char": 16457,
+      "revised_start_char": 18128,
+      "revised_end_char": 18131,
+      "old_text": "​\nS",
+      "new_text": "] s"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16492,
+      "original_end_char": 16492,
+      "revised_start_char": 18166,
+      "revised_end_char": 18168,
+      "old_text": "",
+      "new_text": "\n\n"
+    },
+    {
+      "operation": "insert",
+      "paragraph_id": "P75",
+      "original_start_char": 16537,
+      "original_end_char": 16537,
+      "revised_start_char": 18213,
+      "revised_end_char": 18217,
+      "old_text": "",
+      "new_text": "ntin"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16538,
+      "original_end_char": 16540,
+      "revised_start_char": 18218,
+      "revised_end_char": 18219,
+      "old_text": "ld",
+      "new_text": "e"
+    },
+    {
+      "operation": "replace",
+      "paragraph_id": "P75",
+      "original_start_char": 16541,
+      "original_end_char": 16542,
+      "revised_start_char": 18220,
+      "revised_end_char": 18267,
+      "old_text": "​",
+      "new_text": "〔推定 A015，待核〕 Thank you so much.〔补回 A015，感谢措辞待核〕"
+    }
+  ],
+  "paragraph_locations": [
+    {
+      "paragraph_id": "P5",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "5"
+      ],
+      "source_block_sha256": {
+        "5": "24a31a4cff0b42af10039cb4ff54c60c65b13fa70ae5675cc9a42933b5354001"
+      },
+      "revised_start_char": 0,
+      "revised_end_char": 677,
+      "revised_start_byte": 0,
+      "revised_end_byte": 855
+    },
+    {
+      "paragraph_id": "P7",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "7"
+      ],
+      "source_block_sha256": {
+        "7": "e4b307e1fdd2525290e7cce5040e66d4e731ba23b6b35eceaa790e9c2be58dd7"
+      },
+      "revised_start_char": 679,
+      "revised_end_char": 1148,
+      "revised_start_byte": 857,
+      "revised_end_byte": 1338
+    },
+    {
+      "paragraph_id": "P9",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "9"
+      ],
+      "source_block_sha256": {
+        "9": "cb43322450c5257ce27652fbdf084f9567d763df584e0086b0080acd50456b5f"
+      },
+      "revised_start_char": 1150,
+      "revised_end_char": 1378,
+      "revised_start_byte": 1340,
+      "revised_end_byte": 1612
+    },
+    {
+      "paragraph_id": "P11",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "11"
+      ],
+      "source_block_sha256": {
+        "11": "92d24fb08bc6c38f79f7bef12bfc1f9c68025cdcd3474bf4b327cc7f8c2bb6b2"
+      },
+      "revised_start_char": 1380,
+      "revised_end_char": 1574,
+      "revised_start_byte": 1614,
+      "revised_end_byte": 1820
+    },
+    {
+      "paragraph_id": "P13",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "13"
+      ],
+      "source_block_sha256": {
+        "13": "3683d6a0b969181ccbe3e68467b451ff8d58759840e9392f387e2b1d6429374f"
+      },
+      "revised_start_char": 1576,
+      "revised_end_char": 2073,
+      "revised_start_byte": 1822,
+      "revised_end_byte": 2331
+    },
+    {
+      "paragraph_id": "P15",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "15",
+        "17"
+      ],
+      "source_block_sha256": {
+        "15": "9c89c7eb2c0d75bfbf181d38919b51d110a190119b89dae276fd8e016e726a8a",
+        "17": "a3d3bb5f516dc81cd74906c9484db47daa0ab7e7325e1d0fd6a28d114ae156c9"
+      },
+      "revised_start_char": 2075,
+      "revised_end_char": 3389,
+      "revised_start_byte": 2333,
+      "revised_end_byte": 3681
+    },
+    {
+      "paragraph_id": "P19",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "19"
+      ],
+      "source_block_sha256": {
+        "19": "82a5e73b8b402f32c1174c5f0f589f4c997f566a19ffa7758e9f00e5c03589e6"
+      },
+      "revised_start_char": 3391,
+      "revised_end_char": 3836,
+      "revised_start_byte": 3683,
+      "revised_end_byte": 4148
+    },
+    {
+      "paragraph_id": "P21",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "21"
+      ],
+      "source_block_sha256": {
+        "21": "6f139ddcd5e726337d1274d74b4a549416df80e30bdeb5e8f8cb43a31d7fc053"
+      },
+      "revised_start_char": 3838,
+      "revised_end_char": 4462,
+      "revised_start_byte": 4150,
+      "revised_end_byte": 4802
+    },
+    {
+      "paragraph_id": "P23",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "23",
+        "25",
+        "27"
+      ],
+      "source_block_sha256": {
+        "23": "42f25ac807f8048eb3c6e9c70f4205e31b18de0dfbdd801c5bd2d3cd31fe3824",
+        "25": "d78c50c33d0a403724e0e5fc66d724b5f6be390170d8362ad9580aee62a5d7de",
+        "27": "785bec0a1f03f4c7bdd7b92e1cbea09c67f9107f5ee57aa70ec28fd4f40fbd07"
+      },
+      "revised_start_char": 4464,
+      "revised_end_char": 5800,
+      "revised_start_byte": 4804,
+      "revised_end_byte": 6196
+    },
+    {
+      "paragraph_id": "P29",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "29"
+      ],
+      "source_block_sha256": {
+        "29": "e185c5b16674073edbf96029a32efe36c24f6557c5eccd2ef9f0425543bb3135"
+      },
+      "revised_start_char": 5802,
+      "revised_end_char": 6389,
+      "revised_start_byte": 6198,
+      "revised_end_byte": 6835
+    },
+    {
+      "paragraph_id": "P31",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "31"
+      ],
+      "source_block_sha256": {
+        "31": "a4bf8b3a06953927794524bb406953be91c8c648526ce6a7fd3d9815168e38de"
+      },
+      "revised_start_char": 6391,
+      "revised_end_char": 6703,
+      "revised_start_byte": 6837,
+      "revised_end_byte": 7161
+    },
+    {
+      "paragraph_id": "P33",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "33"
+      ],
+      "source_block_sha256": {
+        "33": "ec40aa1eb009b65b183dba309b9ae036fbbf7084a06b69dd865e7b48528cf8b3"
+      },
+      "revised_start_char": 6705,
+      "revised_end_char": 6914,
+      "revised_start_byte": 7163,
+      "revised_end_byte": 7384
+    },
+    {
+      "paragraph_id": "P35",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "35"
+      ],
+      "source_block_sha256": {
+        "35": "785a21d4b649ca4b048cb56abdebc131120cb0d988125e2771ffe2cb4cb2e0dd"
+      },
+      "revised_start_char": 6916,
+      "revised_end_char": 7390,
+      "revised_start_byte": 7386,
+      "revised_end_byte": 7880
+    },
+    {
+      "paragraph_id": "P37",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "37",
+        "39"
+      ],
+      "source_block_sha256": {
+        "37": "37f16e16306441a992b5e392350551330a0b5e030a4d98a2cefff001ca842ad1",
+        "39": "2d263257c2e56baee0208d58711434988d872c5c98045f9c63250b9be2350bab"
+      },
+      "revised_start_char": 7392,
+      "revised_end_char": 8288,
+      "revised_start_byte": 7882,
+      "revised_end_byte": 8884
+    },
+    {
+      "paragraph_id": "P41",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "41"
+      ],
+      "source_block_sha256": {
+        "41": "994cf6b85225f0d7964bf4cf36e166dd581823983b9b52f153c7f9d8aea06ec8"
+      },
+      "revised_start_char": 8290,
+      "revised_end_char": 8769,
+      "revised_start_byte": 8886,
+      "revised_end_byte": 9377
+    },
+    {
+      "paragraph_id": "P43",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "43",
+        "45"
+      ],
+      "source_block_sha256": {
+        "43": "d6ce40feb6c13db4fac4e0ada6888a8c1e888bcb2f85aa61036e7090d49c6d8b",
+        "45": "212191311b1fa90e224d0c996cdcce24c5fea4b6cfcedb5237d625e972d9366a"
+      },
+      "revised_start_char": 8771,
+      "revised_end_char": 10084,
+      "revised_start_byte": 9379,
+      "revised_end_byte": 10740
+    },
+    {
+      "paragraph_id": "P47",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "47"
+      ],
+      "source_block_sha256": {
+        "47": "9b14335b2a6033bebeb7d08b0c33a3f96de1a8295facb1dce54d45344127183c"
+      },
+      "revised_start_char": 10086,
+      "revised_end_char": 10385,
+      "revised_start_byte": 10742,
+      "revised_end_byte": 11053
+    },
+    {
+      "paragraph_id": "P49",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "49"
+      ],
+      "source_block_sha256": {
+        "49": "cb19a0a2d408f863d0329b4ad3371bf1793be8a958289a2ceebcab6b480d6fa6"
+      },
+      "revised_start_char": 10387,
+      "revised_end_char": 10691,
+      "revised_start_byte": 11055,
+      "revised_end_byte": 11385
+    },
+    {
+      "paragraph_id": "P51",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "51"
+      ],
+      "source_block_sha256": {
+        "51": "0d094e9ac3189400ad784da5846674a558b9b99ea5f3889f9726bc566e2cf639"
+      },
+      "revised_start_char": 10693,
+      "revised_end_char": 10963,
+      "revised_start_byte": 11387,
+      "revised_end_byte": 11669
+    },
+    {
+      "paragraph_id": "P53",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "53"
+      ],
+      "source_block_sha256": {
+        "53": "881ba35612c3e01eacf0a7ffab91ded20b009cf1d995f5975583a139dbca046a"
+      },
+      "revised_start_char": 10965,
+      "revised_end_char": 11249,
+      "revised_start_byte": 11671,
+      "revised_end_byte": 11967
+    },
+    {
+      "paragraph_id": "P55",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "55"
+      ],
+      "source_block_sha256": {
+        "55": "f318dc6093c1e6efc048a35ef17c902d3c9bda1ee228983fd356b5c8ad52b84d"
+      },
+      "revised_start_char": 11251,
+      "revised_end_char": 11859,
+      "revised_start_byte": 11969,
+      "revised_end_byte": 12613
+    },
+    {
+      "paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "source_block_sha256": {
+        "57": "31bb3f253defb013efd13cbf4eab33b8ae6b15605b39b8838d8629f66dec306a",
+        "59": "d851524b5255ed2a6b387bcda8875e9780cb6e3eee8e08229a9dd21044865ba3"
+      },
+      "revised_start_char": 11861,
+      "revised_end_char": 14759,
+      "revised_start_byte": 12615,
+      "revised_end_byte": 15599
+    },
+    {
+      "paragraph_id": "P61",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "61"
+      ],
+      "source_block_sha256": {
+        "61": "9d258c0ca69c727bf1f1b2e67a35c514ac9965659ec4f94d7c2a27f2e631e6d1"
+      },
+      "revised_start_char": 14761,
+      "revised_end_char": 15002,
+      "revised_start_byte": 15601,
+      "revised_end_byte": 15868
+    },
+    {
+      "paragraph_id": "P63",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "63"
+      ],
+      "source_block_sha256": {
+        "63": "54d4adef016623213de1e23d4debdd7d362094ae747fec85dc1a7f84d9d1120b"
+      },
+      "revised_start_char": 15004,
+      "revised_end_char": 15380,
+      "revised_start_byte": 15870,
+      "revised_end_byte": 16266
+    },
+    {
+      "paragraph_id": "P65",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "65",
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "source_block_sha256": {
+        "65": "26d8908977f80a7d04815a7bf5ea28d50a5c5b7ca6becacaa27f0a7ab2f36be2",
+        "67": "06c741bc9dfd6859e2607986873179a5b1f93de30492cdd6513c93154ba0c27f",
+        "69": "56c75b9be9229293325b13b8c6cba7ee366e60d6ae542aef756cba87f2d91e75",
+        "71": "91b6628cb74588a1b7173cf7ca3e2030191be200b93023bc5be4270a1c87441b",
+        "73": "9323792821e83c1f894499d362ce21bee215a121abe92b2ac5fe7e40bfea21d3"
+      },
+      "revised_start_char": 15382,
+      "revised_end_char": 17520,
+      "revised_start_byte": 16268,
+      "revised_end_byte": 18476
+    },
+    {
+      "paragraph_id": "P75",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "75",
+        "77"
+      ],
+      "source_block_sha256": {
+        "75": "4e8e9dc3ad7bdaa44232df4669a61363f7edaedc4f856fc786a899f1f7505481",
+        "77": "8b00db264571b01b1848b1c0d41ba2ad68308b3035c533f281664e9f8fa43982"
+      },
+      "revised_start_char": 17522,
+      "revised_end_char": 18267,
+      "revised_start_byte": 18478,
+      "revised_end_byte": 19271
+    }
+  ],
+  "rendered_paragraph_locations": [
+    {
+      "rendered_paragraph_id": "P5.1",
+      "source_map_paragraph_id": "P5",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "5"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 0,
+      "revised_end_char": 677,
+      "revised_start_byte": 0,
+      "revised_end_byte": 855
+    },
+    {
+      "rendered_paragraph_id": "P7.1",
+      "source_map_paragraph_id": "P7",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "7"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 679,
+      "revised_end_char": 994,
+      "revised_start_byte": 857,
+      "revised_end_byte": 1184
+    },
+    {
+      "rendered_paragraph_id": "P7.2",
+      "source_map_paragraph_id": "P7",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "7"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 996,
+      "revised_end_char": 1148,
+      "revised_start_byte": 1186,
+      "revised_end_byte": 1338
+    },
+    {
+      "rendered_paragraph_id": "P9.1",
+      "source_map_paragraph_id": "P9",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "9"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 1150,
+      "revised_end_char": 1378,
+      "revised_start_byte": 1340,
+      "revised_end_byte": 1612
+    },
+    {
+      "rendered_paragraph_id": "P11.1",
+      "source_map_paragraph_id": "P11",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "11"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 1380,
+      "revised_end_char": 1574,
+      "revised_start_byte": 1614,
+      "revised_end_byte": 1820
+    },
+    {
+      "rendered_paragraph_id": "P13.1",
+      "source_map_paragraph_id": "P13",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "13"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 1576,
+      "revised_end_char": 2073,
+      "revised_start_byte": 1822,
+      "revised_end_byte": 2331
+    },
+    {
+      "rendered_paragraph_id": "P15.1",
+      "source_map_paragraph_id": "P15",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "15",
+        "17"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 2075,
+      "revised_end_char": 2630,
+      "revised_start_byte": 2333,
+      "revised_end_byte": 2900
+    },
+    {
+      "rendered_paragraph_id": "P15.2",
+      "source_map_paragraph_id": "P15",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "15",
+        "17"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 2632,
+      "revised_end_char": 3264,
+      "revised_start_byte": 2902,
+      "revised_end_byte": 3542
+    },
+    {
+      "rendered_paragraph_id": "P15.3",
+      "source_map_paragraph_id": "P15",
+      "section_id": "section_0000_0900",
+      "source_block_ids": [
+        "15",
+        "17"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 3266,
+      "revised_end_char": 3389,
+      "revised_start_byte": 3544,
+      "revised_end_byte": 3681
+    },
+    {
+      "rendered_paragraph_id": "P19.1",
+      "source_map_paragraph_id": "P19",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "19"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 3391,
+      "revised_end_char": 3836,
+      "revised_start_byte": 3683,
+      "revised_end_byte": 4148
+    },
+    {
+      "rendered_paragraph_id": "P21.1",
+      "source_map_paragraph_id": "P21",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "21"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 3838,
+      "revised_end_char": 4141,
+      "revised_start_byte": 4150,
+      "revised_end_byte": 4465
+    },
+    {
+      "rendered_paragraph_id": "P21.2",
+      "source_map_paragraph_id": "P21",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "21"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 4143,
+      "revised_end_char": 4462,
+      "revised_start_byte": 4467,
+      "revised_end_byte": 4802
+    },
+    {
+      "rendered_paragraph_id": "P23.1",
+      "source_map_paragraph_id": "P23",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "23",
+        "25",
+        "27"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 4464,
+      "revised_end_char": 4635,
+      "revised_start_byte": 4804,
+      "revised_end_byte": 4995
+    },
+    {
+      "rendered_paragraph_id": "P23.2",
+      "source_map_paragraph_id": "P23",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "23",
+        "25",
+        "27"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 4637,
+      "revised_end_char": 5020,
+      "revised_start_byte": 4997,
+      "revised_end_byte": 5388
+    },
+    {
+      "rendered_paragraph_id": "P23.3",
+      "source_map_paragraph_id": "P23",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "23",
+        "25",
+        "27"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 5022,
+      "revised_end_char": 5280,
+      "revised_start_byte": 5390,
+      "revised_end_byte": 5648
+    },
+    {
+      "rendered_paragraph_id": "P23.4",
+      "source_map_paragraph_id": "P23",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "23",
+        "25",
+        "27"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 5282,
+      "revised_end_char": 5467,
+      "revised_start_byte": 5650,
+      "revised_end_byte": 5849
+    },
+    {
+      "rendered_paragraph_id": "P23.5",
+      "source_map_paragraph_id": "P23",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "23",
+        "25",
+        "27"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 5469,
+      "revised_end_char": 5800,
+      "revised_start_byte": 5851,
+      "revised_end_byte": 6196
+    },
+    {
+      "rendered_paragraph_id": "P29.1",
+      "source_map_paragraph_id": "P29",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "29"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 5802,
+      "revised_end_char": 6389,
+      "revised_start_byte": 6198,
+      "revised_end_byte": 6835
+    },
+    {
+      "rendered_paragraph_id": "P31.1",
+      "source_map_paragraph_id": "P31",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "31"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 6391,
+      "revised_end_char": 6703,
+      "revised_start_byte": 6837,
+      "revised_end_byte": 7161
+    },
+    {
+      "rendered_paragraph_id": "P33.1",
+      "source_map_paragraph_id": "P33",
+      "section_id": "section_0900_1804",
+      "source_block_ids": [
+        "33"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 6705,
+      "revised_end_char": 6914,
+      "revised_start_byte": 7163,
+      "revised_end_byte": 7384
+    },
+    {
+      "rendered_paragraph_id": "P35.1",
+      "source_map_paragraph_id": "P35",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "35"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 6916,
+      "revised_end_char": 7174,
+      "revised_start_byte": 7386,
+      "revised_end_byte": 7664
+    },
+    {
+      "rendered_paragraph_id": "P35.2",
+      "source_map_paragraph_id": "P35",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "35"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 7176,
+      "revised_end_char": 7390,
+      "revised_start_byte": 7666,
+      "revised_end_byte": 7880
+    },
+    {
+      "rendered_paragraph_id": "P37.1",
+      "source_map_paragraph_id": "P37",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "37",
+        "39"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 7392,
+      "revised_end_char": 8024,
+      "revised_start_byte": 7882,
+      "revised_end_byte": 8620
+    },
+    {
+      "rendered_paragraph_id": "P37.2",
+      "source_map_paragraph_id": "P37",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "37",
+        "39"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 8026,
+      "revised_end_char": 8288,
+      "revised_start_byte": 8622,
+      "revised_end_byte": 8884
+    },
+    {
+      "rendered_paragraph_id": "P41.1",
+      "source_map_paragraph_id": "P41",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "41"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 8290,
+      "revised_end_char": 8601,
+      "revised_start_byte": 8886,
+      "revised_end_byte": 9209
+    },
+    {
+      "rendered_paragraph_id": "P41.2",
+      "source_map_paragraph_id": "P41",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "41"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 8603,
+      "revised_end_char": 8769,
+      "revised_start_byte": 9211,
+      "revised_end_byte": 9377
+    },
+    {
+      "rendered_paragraph_id": "P43.1",
+      "source_map_paragraph_id": "P43",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "43",
+        "45"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 8771,
+      "revised_end_char": 8877,
+      "revised_start_byte": 9379,
+      "revised_end_byte": 9497
+    },
+    {
+      "rendered_paragraph_id": "P43.2",
+      "source_map_paragraph_id": "P43",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "43",
+        "45"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 8879,
+      "revised_end_char": 9284,
+      "revised_start_byte": 9499,
+      "revised_end_byte": 9918
+    },
+    {
+      "rendered_paragraph_id": "P43.3",
+      "source_map_paragraph_id": "P43",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "43",
+        "45"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 9286,
+      "revised_end_char": 9597,
+      "revised_start_byte": 9920,
+      "revised_end_byte": 10253
+    },
+    {
+      "rendered_paragraph_id": "P43.4",
+      "source_map_paragraph_id": "P43",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "43",
+        "45"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 9599,
+      "revised_end_char": 9690,
+      "revised_start_byte": 10255,
+      "revised_end_byte": 10346
+    },
+    {
+      "rendered_paragraph_id": "P43.5",
+      "source_map_paragraph_id": "P43",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "43",
+        "45"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 9692,
+      "revised_end_char": 9932,
+      "revised_start_byte": 10348,
+      "revised_end_byte": 10588
+    },
+    {
+      "rendered_paragraph_id": "P43.6",
+      "source_map_paragraph_id": "P43",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "43",
+        "45"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 9934,
+      "revised_end_char": 9989,
+      "revised_start_byte": 10590,
+      "revised_end_byte": 10645
+    },
+    {
+      "rendered_paragraph_id": "P43.7",
+      "source_map_paragraph_id": "P43",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "43",
+        "45"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 9991,
+      "revised_end_char": 10084,
+      "revised_start_byte": 10647,
+      "revised_end_byte": 10740
+    },
+    {
+      "rendered_paragraph_id": "P47.1",
+      "source_map_paragraph_id": "P47",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "47"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 10086,
+      "revised_end_char": 10385,
+      "revised_start_byte": 10742,
+      "revised_end_byte": 11053
+    },
+    {
+      "rendered_paragraph_id": "P49.1",
+      "source_map_paragraph_id": "P49",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "49"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 10387,
+      "revised_end_char": 10531,
+      "revised_start_byte": 11055,
+      "revised_end_byte": 11211
+    },
+    {
+      "rendered_paragraph_id": "P49.2",
+      "source_map_paragraph_id": "P49",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "49"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 10533,
+      "revised_end_char": 10691,
+      "revised_start_byte": 11213,
+      "revised_end_byte": 11385
+    },
+    {
+      "rendered_paragraph_id": "P51.1",
+      "source_map_paragraph_id": "P51",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "51"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 10693,
+      "revised_end_char": 10963,
+      "revised_start_byte": 11387,
+      "revised_end_byte": 11669
+    },
+    {
+      "rendered_paragraph_id": "P53.1",
+      "source_map_paragraph_id": "P53",
+      "section_id": "section_1804_2839",
+      "source_block_ids": [
+        "53"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 10965,
+      "revised_end_char": 11249,
+      "revised_start_byte": 11671,
+      "revised_end_byte": 11967
+    },
+    {
+      "rendered_paragraph_id": "P55.1",
+      "source_map_paragraph_id": "P55",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "55"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 11251,
+      "revised_end_char": 11465,
+      "revised_start_byte": 11969,
+      "revised_end_byte": 12195
+    },
+    {
+      "rendered_paragraph_id": "P55.2",
+      "source_map_paragraph_id": "P55",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "55"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 11467,
+      "revised_end_char": 11859,
+      "revised_start_byte": 12197,
+      "revised_end_byte": 12613
+    },
+    {
+      "rendered_paragraph_id": "P57.1",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 11861,
+      "revised_end_char": 11933,
+      "revised_start_byte": 12615,
+      "revised_end_byte": 12707
+    },
+    {
+      "rendered_paragraph_id": "P57.2",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 11935,
+      "revised_end_char": 12295,
+      "revised_start_byte": 12709,
+      "revised_end_byte": 13077
+    },
+    {
+      "rendered_paragraph_id": "P57.3",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 12297,
+      "revised_end_char": 12664,
+      "revised_start_byte": 13079,
+      "revised_end_byte": 13446
+    },
+    {
+      "rendered_paragraph_id": "P57.4",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 12666,
+      "revised_end_char": 12917,
+      "revised_start_byte": 13448,
+      "revised_end_byte": 13735
+    },
+    {
+      "rendered_paragraph_id": "P57.5",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 12919,
+      "revised_end_char": 13346,
+      "revised_start_byte": 13737,
+      "revised_end_byte": 14164
+    },
+    {
+      "rendered_paragraph_id": "P57.6",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 13348,
+      "revised_end_char": 13530,
+      "revised_start_byte": 14166,
+      "revised_end_byte": 14348
+    },
+    {
+      "rendered_paragraph_id": "P57.7",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 13532,
+      "revised_end_char": 13724,
+      "revised_start_byte": 14350,
+      "revised_end_byte": 14542
+    },
+    {
+      "rendered_paragraph_id": "P57.8",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 13726,
+      "revised_end_char": 13822,
+      "revised_start_byte": 14544,
+      "revised_end_byte": 14640
+    },
+    {
+      "rendered_paragraph_id": "P57.9",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 13824,
+      "revised_end_char": 14049,
+      "revised_start_byte": 14642,
+      "revised_end_byte": 14867
+    },
+    {
+      "rendered_paragraph_id": "P57.10",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 14051,
+      "revised_end_char": 14156,
+      "revised_start_byte": 14869,
+      "revised_end_byte": 14974
+    },
+    {
+      "rendered_paragraph_id": "P57.11",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 14158,
+      "revised_end_char": 14471,
+      "revised_start_byte": 14976,
+      "revised_end_byte": 15297
+    },
+    {
+      "rendered_paragraph_id": "P57.12",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 14473,
+      "revised_end_char": 14698,
+      "revised_start_byte": 15299,
+      "revised_end_byte": 15538
+    },
+    {
+      "rendered_paragraph_id": "P57.13",
+      "source_map_paragraph_id": "P57",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 14700,
+      "revised_end_char": 14759,
+      "revised_start_byte": 15540,
+      "revised_end_byte": 15599
+    },
+    {
+      "rendered_paragraph_id": "P61.1",
+      "source_map_paragraph_id": "P61",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "61"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 14761,
+      "revised_end_char": 14938,
+      "revised_start_byte": 15601,
+      "revised_end_byte": 15790
+    },
+    {
+      "rendered_paragraph_id": "P61.2",
+      "source_map_paragraph_id": "P61",
+      "section_id": "section_2839_3917",
+      "source_block_ids": [
+        "61"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 14940,
+      "revised_end_char": 15002,
+      "revised_start_byte": 15792,
+      "revised_end_byte": 15868
+    },
+    {
+      "rendered_paragraph_id": "P63.1",
+      "source_map_paragraph_id": "P63",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "63"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 15004,
+      "revised_end_char": 15058,
+      "revised_start_byte": 15870,
+      "revised_end_byte": 15936
+    },
+    {
+      "rendered_paragraph_id": "P63.2",
+      "source_map_paragraph_id": "P63",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "63"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 15060,
+      "revised_end_char": 15291,
+      "revised_start_byte": 15938,
+      "revised_end_byte": 16169
+    },
+    {
+      "rendered_paragraph_id": "P63.3",
+      "source_map_paragraph_id": "P63",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "63"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 15293,
+      "revised_end_char": 15380,
+      "revised_start_byte": 16171,
+      "revised_end_byte": 16266
+    },
+    {
+      "rendered_paragraph_id": "P65.1",
+      "source_map_paragraph_id": "P65",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "65",
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 15382,
+      "revised_end_char": 15807,
+      "revised_start_byte": 16268,
+      "revised_end_byte": 16705
+    },
+    {
+      "rendered_paragraph_id": "P65.2",
+      "source_map_paragraph_id": "P65",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "65",
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 15809,
+      "revised_end_char": 16044,
+      "revised_start_byte": 16707,
+      "revised_end_byte": 16956
+    },
+    {
+      "rendered_paragraph_id": "P65.3",
+      "source_map_paragraph_id": "P65",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "65",
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 16046,
+      "revised_end_char": 16238,
+      "revised_start_byte": 16958,
+      "revised_end_byte": 17164
+    },
+    {
+      "rendered_paragraph_id": "P65.4",
+      "source_map_paragraph_id": "P65",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "65",
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 16240,
+      "revised_end_char": 16408,
+      "revised_start_byte": 17166,
+      "revised_end_byte": 17334
+    },
+    {
+      "rendered_paragraph_id": "P65.5",
+      "source_map_paragraph_id": "P65",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "65",
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 16410,
+      "revised_end_char": 16780,
+      "revised_start_byte": 17336,
+      "revised_end_byte": 17706
+    },
+    {
+      "rendered_paragraph_id": "P65.6",
+      "source_map_paragraph_id": "P65",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "65",
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 16782,
+      "revised_end_char": 17223,
+      "revised_start_byte": 17708,
+      "revised_end_byte": 18179
+    },
+    {
+      "rendered_paragraph_id": "P65.7",
+      "source_map_paragraph_id": "P65",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "65",
+        "67",
+        "69",
+        "71",
+        "73"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 17225,
+      "revised_end_char": 17520,
+      "revised_start_byte": 18181,
+      "revised_end_byte": 18476
+    },
+    {
+      "rendered_paragraph_id": "P75.1",
+      "source_map_paragraph_id": "P75",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "75",
+        "77"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 17522,
+      "revised_end_char": 18166,
+      "revised_start_byte": 18478,
+      "revised_end_byte": 19134
+    },
+    {
+      "rendered_paragraph_id": "P75.2",
+      "source_map_paragraph_id": "P75",
+      "section_id": "section_3917_end",
+      "source_block_ids": [
+        "75",
+        "77"
+      ],
+      "mapping_precision": "Existing source paragraph group, not invented word/phrase alignment",
+      "revised_start_char": 18168,
+      "revised_end_char": 18267,
+      "revised_start_byte": 19136,
+      "revised_end_byte": 19271
+    }
+  ],
+  "section_change_logs_copied_without_editorial_modification": true,
+  "timestamp_precision": "Original paragraph-start anchors; never new word or sentence timestamps."
+}
