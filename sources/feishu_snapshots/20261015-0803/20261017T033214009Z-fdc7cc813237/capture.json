@@ -1,0 +1,741 @@
+{
+  "title": "文字记录：录音机-20261015-0803",
+  "url": "https://lcn6dqn3m0yr.feishu.cn/docx/U8xPdQmfsoBE6QxOClAcdzpQntc",
+  "captured_at": "2026-10-17T03:32:14.009Z",
+  "complete": true,
+  "missing_block_ids": [],
+  "changed_block_ids": [],
+  "blocks": [
+    {
+      "id": "3",
+      "text": "会议主题：录音机-20261015-0803​\n上传时间：2026年10月15日（周四） 15:37 （GMT+08）​\n智能纪要：录音机-20261015-0803 2026年10月15日​"
+    },
+    {
+      "id": "4",
+      "text": "​"
+    },
+    {
+      "id": "5",
+      "text": "说话人 1 00:00:12​\nA, which is hidden with respect to B, so they cannot hear each other, is going to start a little bit later.At least 0.1.OK, so C, we said, is in the middle, right?Betweenthese two transmitters, but we said it will be able to manipulate the header of B spot and set the number.So, as already highlighted, we have that C will be able to set its num.For the expected duration of the dialogue, so, the alpha covers the packet duration, plus sifs, plus ack.Okay, the packet clearly transmitted by B, because it modulated the duration field in bits.​"
+    },
+    {
+      "id": "6",
+      "text": "​"
+    },
+    {
+      "id": "7",
+      "text": "说话人 1 00:01:14​\nPocket header.OK, so while these signals are colliding at the axis point, C is fine because here is that is enough.OK, now clearlyboth A and B collide, so they will not receive any acknowledgment, and they will instead.After stopping their transmission, will sense the channel hoping to receive the ack, but the ack is not there.So, after this timeout, that is, EF, they realize that their transmissions failed.OK?So, after that, may i be say minus mission fail, I need to retransmit the packet, recontend for the channel.And we know that that means that they will.Bila?Handphone maksud saya beck off prosedur.So they wile license the channel and i the look for beeps and then they need to drone.​"
+    },
+    {
+      "id": "8",
+      "text": "​"
+    },
+    {
+      "id": "9",
+      "text": "说话人 1 00:02:40​\nNow, we know from the text of the numerical problem that if needed, a draws always one, while if needed.C draws.5, so these values are given.OK, now, next, therefore, we'll have that A, we set its back off counter to one, and we'll start decreasing its back off counter.Also, be withdraw avicov value, but we don't, I mean, we have to determine that value, right?So, we don't know what that is, but.​"
+    },
+    {
+      "id": "10",
+      "text": "​"
+    },
+    {
+      "id": "11",
+      "text": "说话人 1 00:03:42​\nSo, clearly, we need to avoid the collision as the problem said.Remember A and B are hidden respect to each other.So.If A transmits to B, the channel is idle, because it cannot sense A.So, we need to be careful here.We have to set B because of B, so thatwe do not collide with a's packet.​"
+    },
+    {
+      "id": "12",
+      "text": "​"
+    },
+    {
+      "id": "13",
+      "text": "说话人 1 00:04:20​\nOk?So, for now, we just consider, ok?Let's say that b draws a because integer, so a number of time slots such that for all these time period.That is the duration of a's transmission.B just decreases its back of counter if the channel remains idle.​"
+    },
+    {
+      "id": "14",
+      "text": "​"
+    },
+    {
+      "id": "15",
+      "text": "说话人 1 00:04:50​\nOK, so for now, let's just let B there.What about C?Well, C at the beginning does not have any packet.So, when a transmits its data packet, C can hear it, it can demodulate the packet header transmitted by A.And set its now accordingly.During this now, then he gets a packet from its higher layers, right?So, we know that after the now, also see will have to contend for the channel.And if we do that.​"
+    },
+    {
+      "id": "16",
+      "text": "​"
+    },
+    {
+      "id": "17",
+      "text": "说话人 1 00:05:36​\nBy performing a backoff procedure.OK, now, since we are always assuming that our transmissions may fail only because of collisions, because the channel conditions are always good.As we said yesterday.Here, by assuming that B just decreases its backoff counter, there is no collision, right?So, A's transmission is going to be successful, and the access point will transmit the acknowledgment back toA.Now, when the access point transmits the acknowledgment, B can hear the access point, right?So, it has to freeze its backoff counter, because it means that the channel becomes busy.For b, and we cannot decrease the becaufe counter.Why the chound and isy.So doin this time be freezes.Each back of counter.Guys enak celisa now.​"
+    },
+    {
+      "id": "18",
+      "text": "​"
+    },
+    {
+      "id": "19",
+      "text": "说话人 1 00:07:15​\nNow, we are done with the transmission by A.Now, we have again B and C communicating.For the channel.Right?So, if we make computation, we see that the backoff that b needs to draw must be greater than 16, because 16 time slots are those needed to cover.The time during which a transmits.So, for sure, the backoff that b draws needs to be greater than 16.​"
+    },
+    {
+      "id": "20",
+      "text": "​"
+    },
+    {
+      "id": "21",
+      "text": "说话人 1 00:07:59​\nOk, what can we say at this point?Well, after the acknowledgment sent by the access point, we have that both B and C sense the channel for leaves.To make sure that the channel is idle, and then they resume the decrease of their backoff counter.For C, we now that the backoff that it has drawn is equal to 5.For sure, see, will have to decrease its backoff counter for 5 time slots as long as the channel remains idle.​"
+    },
+    {
+      "id": "22",
+      "text": "​"
+    },
+    {
+      "id": "23",
+      "text": "说话人 1 00:08:48​\nOK, so, what options do we have?In terms of break off values for b, we said it must be greater than 16.So, it can be 17, right?This means 16 times loss decreased here, plus one here.And if thatis our choice.Then we'll have the b decreases the back off counter by one here.Then access the channel, transmit its packet.C will hear that in.To stop its backoff counter, it will freeze it.And then after B's transmission and acknowledgment by ACK's point, C will resume its backoff counter decrease and eventually transmit.Right?So that would be fine.​"
+    },
+    {
+      "id": "24",
+      "text": "​"
+    },
+    {
+      "id": "25",
+      "text": "说话人 1 00:09:50​\nSo, this means that a possible value is indeed 17 as a backup value for B, or B, so this is very similar to what we did yesterday.Right?So, or B can actually have 18.As a value of backoff time.In that case, it will decrease its backoff counter by two times slots here, then access the channel.And again, see we're sad enough, and then it will wait, of course, and we will trust me later.Similarly, if B waits here three time slots, so it picks 19, or if it picks 20, right?That means in that case, here it will wait for four time slots, and then access the channel.And the story is the same.So, we have that all these values, 17,18,19.Nanti twenty are good choices because they allow be to transmit before see.​"
+    },
+    {
+      "id": "26",
+      "text": "​"
+    },
+    {
+      "id": "27",
+      "text": "说话人 1 00:11:21​\nSimilarly to what we said yesterday, instead waiting here five times lots, so selecting 21 as a result does not work.Right?Because in that case bothB and C will would decrease their back of counter at the same time, access the channel at the same time and collide.So, we cannot consider 21,21 is 1, is not one of the good values.However, and as i was saying, this is very similar to what we did yesterday.​"
+    },
+    {
+      "id": "28",
+      "text": "​"
+    },
+    {
+      "id": "29",
+      "text": "说话人 1 00:12:09​\nBut now, we have also to consider the possibility that B transmits.After C, right?Because there is no condition anymore that says, let B transmit before C.In this case, C could transmit before C or after C, right?Both options are okay.So, till now, we have considered the case where B accesses the channel before C, and in that case, all these values.17,18,19,20.​"
+    },
+    {
+      "id": "30",
+      "text": "​"
+    },
+    {
+      "id": "31",
+      "text": "说话人 1 00:13:12​\nSo indeed, if B selects, for example, 22 as a wakeoff integer.Then this means that you will have consumed, let's say, 16 times slots here, 5 times slots here, and it still has one more.Right?So this means that C will access the channel first, because it's, because, it's equal to 5, this is a fact.When C transmits, at that point B can set the knife, freeze its back off counter, because remember that B and C can hear each other.And then after the dialogue between C and the access point.B will sense the channel as idle.For this, resume the decrease of its backoff counter, decrease it by one more time slot, and then transmit.That's also a good option.Because, in this case, B and C will not collide.So, 22 is a possible break off value.And also 23,24,25, right?All.​"
+    },
+    {
+      "id": "32",
+      "text": "​"
+    },
+    {
+      "id": "33",
+      "text": "说话人 1 00:15:02​\nWindows mínimo.Value, so it's the maximum integer value of the integer that we can draw.We cannot go over that, that's the max.But any value between 22 and 31 are good as well.And correspond to the case where B will transmit still successfully, but after C.OK?Any question or doubt?Are you good?Why why the why the draw a draw of B cannot be 16.So, yeah, as, because if the value drawn by B is exactly equal to 16.It means that its backoff counter will reach zero at this time instance.And this means that, according to the protocol and the agreement and the channel access, what we have is that as soon as the counter.The backoff counter reaches zero.The node can access the channel and transmit.So, if we let the backoff counter of B, be set to exactly 16, it is true that B will not collide with A, right?Becauseis transmission will start later, but it will collide with the access point that is sending the acknowledgment.Remember that our nodes are half duplex when they turn around their receiver.To transmit, they cannot receive.So, if the access point turns around its transceiver during that time, it cannot do anything, because the transceiver is just in the process of switching.And then he transmits, when he transmits, he cannot receive.So, if B.Accesses the channel here, then the access point cannot receive the data transmitted by the correctly.OK, so we need to account for one more.In order, yeah, in order to let be transmit success, okay?So, 16 plus at least one, that's why we considered as possible, it's a good values of the cough.Of B, 17,18,19, and so on.And then we excluded 21, because that would imply a collision between B and C.So, 21 has to be discounted.OK.But any other possible values value, till 31, that is the conventional window minimum, is ok.​"
+    },
+    {
+      "id": "34",
+      "text": "​"
+    },
+    {
+      "id": "35",
+      "text": "说话人 2 00:19:14​\nThis backoff do not need to set until ack finish, because it can hear access point when during access point.Sending the ack, so it will just its backoff will just freeze.Yes.So backoff do not need to duration at that time.​"
+    },
+    {
+      "id": "36",
+      "text": "​"
+    },
+    {
+      "id": "37",
+      "text": "说话人 1 00:19:43​\nYes.OK.Yeah.​"
+    },
+    {
+      "id": "38",
+      "text": "​"
+    },
+    {
+      "id": "39",
+      "text": "说话人 1 00:19:51​\nOk.Fine.Ok, good.So, let's go back to the other set of slides.​"
+    },
+    {
+      "id": "40",
+      "text": "​"
+    },
+    {
+      "id": "41",
+      "text": "说话人 1 00:20:28​\nSo we already started this set of slides, and we started discussing the main issues, you remember that?So.That's the last slide that we discussed yesterday.Excuse me.​"
+    },
+    {
+      "id": "42",
+      "text": "​"
+    },
+    {
+      "id": "43",
+      "text": "说话人 1 00:20:57​\nSo, we have a multi-hop communications as we said, and we highlighted the advantages and disadvantages of multi-hop communications.One thing that we also need to specify in this case is that, so when we have device to device communication networks.Nodes, as we know, may deliver traffic usingthis multi-hop communication approach, right?So, they don't need to immediately say deliver their packet in one hop, but they can use intermediate nodes to relay the traffic packets.​"
+    },
+    {
+      "id": "44",
+      "text": "​"
+    },
+    {
+      "id": "45",
+      "text": "说话人 1 00:21:52​\nAnd we already said well.Of course, this means that our nodes need to have implemented inside, also the network layer, right?Where we perform routing, it is IP layer in internet.​"
+    },
+    {
+      "id": "46",
+      "text": "​"
+    },
+    {
+      "id": "47",
+      "text": "说话人 1 00:22:11​\nOK, now, routing.Will, it's a function, a software function that will allow our nodes to select a route and route traffic.Right?So, for the source.When we have a routine algorithm and protocol implemented at the network layer, it means that the source knows how to select the route for the packets.​"
+    },
+    {
+      "id": "48",
+      "text": "​"
+    },
+    {
+      "id": "49",
+      "text": "说话人 1 00:22:48​\nData packets that it generates.For an intended destination.OK.Also, for the relay nodes, the intermediate nodes having this routing function implemented at the network layer means that ifthey receive packets generated by a source and intended for a final destination.They will know how to forward the packets, right?How to route the packets farther toward the destination.So, if you are a source, the routing function helps you to select the route that your packets need to follow in order to reach the destination.If you are a relay node.So, you are not the source, you are not the destination.The relay node will use this routing function implemented at its network layer, in order to identify.​"
+    },
+    {
+      "id": "50",
+      "text": "​"
+    },
+    {
+      "id": "51",
+      "text": "说话人 1 00:24:25​\nSo, that's the goal of a routing function implemented at the network layer of our communication nodes.OK, now one thing that we need to highlight is the fact that if I am a relay, in general users are selfish.So, why do I have to consume, for example, my battery to relay traffic of other people?You are in a at the airport, right?Sitting there waiting for your plane, your flight.And you are close to the access point, and there are other people that are far away, and so they would like you to.I mean, your phone clearly to relay packets to the access point.You could do that, but why?Why do I have to consume my precious battery for that guy there?Right?So, so depending on the type of networks that will cause this may be a problem.Hmm.In a military environment.​"
+    },
+    {
+      "id": "52",
+      "text": "​"
+    },
+    {
+      "id": "53",
+      "text": "说话人 1 00:26:14​\nSo, they must relay packets that come from other devices.OK, so they are configured to accomplish the mission, and they have to.But in civil applications, this concept of multi-hop communications may not work.Right, because those nodes that should relay the packets, the intermediate nodes that should relay the packets.May not be willing to do so, because we users are inherently selfish, OK?So, there there been a developed, I dreams to favor the corporation.​"
+    },
+    {
+      "id": "54",
+      "text": "​"
+    },
+    {
+      "id": "55",
+      "text": "说话人 1 00:27:16​\nAmong the nodes.Typically, they are based on monetary incentives.So, an application that wants to exploit this approach to deliver traffic.Data packets may actually reward the intermediate users that aren't as relays.Wild money.Vouchers by something else.​"
+    },
+    {
+      "id": "56",
+      "text": "​"
+    },
+    {
+      "id": "57",
+      "text": "说话人 1 00:27:56​\nSo, there are actually techniques and algorithms that have been developed specifically to ensure that intermediate nodes may be willing to relay the data packets.So, in the following, we will assume that these immunoglobulins are in place, and therefore, we will assume.That our relay nodes will always be willing to relay traffic if they have to.OK?So we will not consider the case where an intermediate user, an intermediate node, discards.Package because it doesn't want to further relay them toward the destination.OK, so that's our assumption.​"
+    },
+    {
+      "id": "58",
+      "text": "​"
+    },
+    {
+      "id": "59",
+      "text": "说话人 1 00:29:04​\nTo further clarify the routine function that is implemented.Are the network layer, right?So, we have here a generic node, communication node.A user device, a laptop, a cell phone, whatever, a sensor, whatever.So, we know, as we have represented several times, that inside that device, we have, we can represent the functions.Right, that allowin order to communicate as a pile, a stash of layers.​"
+    },
+    {
+      "id": "60",
+      "text": "​"
+    },
+    {
+      "id": "61",
+      "text": "说话人 1 00:30:13​\nThat we already said many times that we can look at our device inside the device as if this communication node inside hadThis stack.Right?This is the stack.Off layers.Física, Alan Mac.​"
+    },
+    {
+      "id": "62",
+      "text": "​"
+    },
+    {
+      "id": "63",
+      "text": "说话人 1 00:31:07​\nOK?So, we said many times that this application may be anything, can be,WeChat, it can be TikTok, it can be anything.It generates packets, data traffic packets.And then it sends these data packets downward.There will be the network layer.Then, it sends the packet is sent downward to the mark.The mark has been already takes care of determining when the packet should be actually transmitted over the.​"
+    },
+    {
+      "id": "64",
+      "text": "​"
+    },
+    {
+      "id": "65",
+      "text": "说话人 1 00:32:08​\nAnd the physical layer will actually take care of the transmission, right?So we said the physical layer is a mix of hardware.Container, receiver, and software, while the others, the other layers on top, are software functions.​"
+    },
+    {
+      "id": "66",
+      "text": "​"
+    },
+    {
+      "id": "67",
+      "text": "说话人 1 00:32:31​\nOK?So, what we are going then, to comment here.Is indeed, as I was saying about the functions that are implemented in software, are the network layer.OK, this layer is called network.As I said, in internet, we have IP also implemented there.OK, now, we already mentioned that a very important function that is implemented on the network layer is routing.Right?​"
+    },
+    {
+      "id": "68",
+      "text": "​"
+    },
+    {
+      "id": "69",
+      "text": "说话人 1 00:33:15​\nRouting.So, here in this example, we havekind of simple representation of what routing is.We already explained it, but for further clarity, here we have an example.So, we have this set of nodes, communication devices.A b c d e.This represents the sound that they have got an antenna.Okay?So, they've got an antenna, they can communicate through various links, and what we want toemphasize here is the routing.​"
+    },
+    {
+      "id": "70",
+      "text": "​"
+    },
+    {
+      "id": "71",
+      "text": "说话人 1 00:34:09​\nThe possible routing of data packets that are generated by A.OK, so we need to consider that A inside has got all these layers, right?And and the antenna, of course.So, through the routing, it needs to decide how to route its data packets, that come from these that have been generated by the application running on it.OK?So, if we have a direct link, communication link between A and C, and the packets are intended for C, C should be the final destination.Of those packets.Then of course, as we now already, one possibility is to use this direct link, and in this case, the root that we will use.Will be an one hope route.X.​"
+    },
+    {
+      "id": "72",
+      "text": "​"
+    },
+    {
+      "id": "73",
+      "text": "说话人 1 00:35:53​\nA network layer routes decides to use this route, the green one.OK, understand the packets first to B, and then B to C.In this case, the selected route clearly includes two hops.​"
+    },
+    {
+      "id": "74",
+      "text": "​"
+    },
+    {
+      "id": "75",
+      "text": "说话人 1 00:36:21​\nAnother possibility if A has got a communication link with D, and D has got a communication link with E.And E has got a communication link with C.Is that A's routing function implemented at its network layer?We'll select the blue route.This is another option.And in this case, the route includes three hosts, right?So, as we said, is the routing function in a.That is in charge of selecting the route to be followed by the packets generated by A.These intermediate nodes.​"
+    },
+    {
+      "id": "76",
+      "text": "​"
+    },
+    {
+      "id": "77",
+      "text": "说话人 1 00:37:35​\nThe routing layer and D and E should havea proper function and proper diagram that allows these intermediate nodes to correctly forward the bug.OK, so as we said, the routing function at the intermediate nodes is there to make sure that these intermediate nodes forward the packet identify essentially the correct next hop.To which these packets need to be sent, be forward, OK?​"
+    },
+    {
+      "id": "78",
+      "text": "​"
+    },
+    {
+      "id": "79",
+      "text": "说话人 1 00:38:31​\nNow, as we commented already, if we select, for example, this one whole route.Vanna, we are very fast, right?So, no much delay.We have only one transmission and one reception, so limited energy expenditure for delivering this packet.However, A needs to reach in one hop C, right?So the transmission power used by A may need to be higher, and therefore this choice.Might not be convenient for A, if A has got little energy.Also, since this transmission is over a quite long distance, it will interfere.Probably with others.​"
+    },
+    {
+      "id": "80",
+      "text": "​"
+    },
+    {
+      "id": "81",
+      "text": "说话人 1 00:39:47​\nThat was the other disadvantage, right?That we had for direct delivery.Instead, if we choose a multi-hop route like the green one, we'll have that.A can transmit to another discloser that is close by, so A can use a lower transmission power and save energy.However, we will need two transmissions and two receptions, right?So, the overall energy expenditure of the network.Will be higher, and however, we have one more comment here that is about.​"
+    },
+    {
+      "id": "82",
+      "text": "​"
+    },
+    {
+      "id": "83",
+      "text": "说话人 1 00:40:41​\nInterfirient.The advantage of selecting this green route is that this transmission, for example, will be over a short range and performed at a lower power.So, this transmission is likely not to interfere much.With other possible transmissions, right?So, we could allow for special reuse of the frequencies.That means that while this transmission takes place using certain frequencies.The same frequencies can be used for example for a communication between D and E, because they are sufficiently far apart.And they are both short range transmissions performed at low power, so they can coexist.That's an advantage of our multi hope communication approach.​"
+    },
+    {
+      "id": "84",
+      "text": "​"
+    },
+    {
+      "id": "85",
+      "text": "说话人 1 00:41:58​\nThe last comment that I have here is that depending on the network algorithm that we implement, sorry.Depend on the routine algorithm.That we implement at the network layer.Ad source may not just be able to select the route that its packets will follow, the primary route.But, you may be able also to identify, to find a backup route.That is, there are algorithms that run at the network layer of our nodes, that may not just be used to identify.​"
+    },
+    {
+      "id": "86",
+      "text": "​"
+    },
+    {
+      "id": "87",
+      "text": "说话人 1 00:42:57​\nNow, the route that you would like to take for your pockets, but also allows you to find alternative routes that you can store and use as backup.Remember what we said about the topologies, network topologies, they may vary often and suddenly because links may get disrupted.So a route at a certain point may fail, may stop working because one of the links.Along the route fails, right?That may happen.If you have a backup route, then immediately you can switch your packets from what was the primary route to the backup route.And that's an advantage.Because you don't have to look for another root.You already have a replacement, right?So, that's good.Okay, so, we're done, and we're going to stop for 5 minutes, and then look at the fourth and last issue.​"
+    },
+    {
+      "id": "88",
+      "text": "​"
+    },
+    {
+      "id": "89",
+      "text": "说话人 3 00:44:58​\n而且他们这里是没有 hidden， 所以他是能，他在传完这个，他经过提到，他知道 hidden 的时候，这个性格还很 busy。所以这个时候他什么也不用干。然后但是因为它已经 Collision 了，它其实它是这个它也不是 AV， 它这个前面的那个图已经撞坏了。然后这个 C 的这个这个道理就因为前面图已经撞坏了，所以它在新到 Basic 的时候，它也不能 AV， 它只能不动。就是这个 b， 就是他传完之后，信令就空了，所以他就没关系了。嗯，就是等他知道这个，他他也是要过 TF 的，他过了 TF 知道这个回审之后。信信道是空的，所以就可以。​"
+    },
+    {
+      "id": "90",
+      "text": "​"
+    },
+    {
+      "id": "91",
+      "text": "说话人 3 00:47:59​\n就他自己的传包了。他自己的传包。嗯，但是他，他收到传包。嗯。对对对，他收到了，但他传不了，因为信道是闭的，他传不了。传不了，但是它也不能，因为没有那个 header， 所以它只能不动。嗯。header 撞坏了， header 是在最前面，如果撞了， header 是先，就先撞掉了。​"
+    },
+    {
+      "id": "92",
+      "text": "​"
+    },
+    {
+      "id": "93",
+      "text": "说话人 1 00:49:02​\nOK, so let' s go to our four issue and last one as we said.That is energy consumption.So, let me start the recording again.​"
+    },
+    {
+      "id": "94",
+      "text": "​"
+    },
+    {
+      "id": "95",
+      "text": "说话人 1 00:49:38​\nAre typically mobile nodes.Right?They can be users, the users' devices, they can be robots.Of course, not all our nodes will be mobile.We may also have sensors that often are.Deployed on terrain, or in an environment and they are stationary.Other times these sensors are actually on the robots, so move of course with the robots.Then we may have as nodes, UAVs that fly, so as we alreadyso, there are many different ways our nodes can move.But all of them are battery powered.Can battery powered means that the data need to be of course to be plugged in.Solar cell to gain energy, but they have the battery that provides them with the required energy.Even well, this is clearly necessary when the device is mobile.​"
+    },
+    {
+      "id": "96",
+      "text": "​"
+    },
+    {
+      "id": "97",
+      "text": "说话人 1 00:51:15​\nBut also, for example, sensors, stationary sensors are battery powered.Why?Because they are deployed in scenarios.Where you don't want human intervention, so you don't want humans to go there and plug the sensor or not.Right?And they may also need to be deployed in environments that are quite harsh, like large fields, they may be contaminated with chemicals.​"
+    },
+    {
+      "id": "98",
+      "text": "​"
+    },
+    {
+      "id": "99",
+      "text": "说话人 1 00:51:51​\nSo, in general, of course, the sensors should have a long life, right?Relying only on buttons, and possibly sensors in particular, should have batteries that last for a very.Very, very long time, like years.And so while our devices of course will recharge our phone or laptop very often, every day or multiple times a day.Sensors should have a battery that lasts for years without any human intervention.OK, that's what we would like to have.So, we can realize that in all these scenarios, in all these cases.​"
+    },
+    {
+      "id": "100",
+      "text": "​"
+    },
+    {
+      "id": "101",
+      "text": "说话人 1 00:52:54​\nBecause batteries have got a capacity, it's called battery capacity, right?It is a maximum amount ofpower that they can elevate.For example, if you buy a battery, you may find in the technical specifications of a battery, 1 ampere hour.Right, our even more, but this is just a possible value of battery capacity.1 ampere hours is an example of a value of battery capacity, and means thatif you draw a current of one ampere for one hour out of that battery.Then the battery will be exhausted.OK?So, the capacity of that battery is such thatif you draw out of the battery one ampere of current for one hour.Then the battery is dead.OK?Now.For the reasons that we said, it is very important.​"
+    },
+    {
+      "id": "102",
+      "text": "​"
+    },
+    {
+      "id": "103",
+      "text": "说话人 1 00:54:35​\nInfantil.In a hour viva.When they are mobile or even the case of sensors, we want smaller sizes.So, our devices cannot be very large, right?We need to carry them, so they need to be small.Small devices means that also the size of the battery must be small.Nah youtube kami engineering.​"
+    },
+    {
+      "id": "104",
+      "text": "​"
+    },
+    {
+      "id": "105",
+      "text": "说话人 1 00:55:29​\nThey are increasing the capacity of batteries thanks to the advances inchemistry, but still, these advances are very slow.So, still, if you have a small boundary, that also means small capacity.Small capacity means that you have a small amount of energy available, and you have to use it, as we were saying.Carefully, wisely.OK, so one of the major goals in designing technologies for our device-device communication networks is to save.​"
+    },
+    {
+      "id": "106",
+      "text": "​"
+    },
+    {
+      "id": "107",
+      "text": "说话人 1 00:56:35​\nThis is one of the important goals that we worldwide have.In order to preserve the environment, to reduce the technology footprint on the environment.So, besides the practical needs of using our devices for a long time, in spite of the.And that we have got small batteries.There is also the broader goal of being sustainable, and being sustainable means also that we need to reduce energy consumption.​"
+    },
+    {
+      "id": "108",
+      "text": "​"
+    },
+    {
+      "id": "109",
+      "text": "说话人 1 00:57:20​\nOK.So, for all these reasons, as we said, a very important issue in a device-device communications is to reduce power and therefore energy consumption.And to manage, to be efficient, right?To be efficient from the energy point of view.​"
+    },
+    {
+      "id": "110",
+      "text": "​"
+    },
+    {
+      "id": "111",
+      "text": "说话人 1 00:57:44​\nNow, a very common approach besides trying to design all our functions, are the physical layer, mac layer.Network layer, transport layer and so on, so that we reduce as much as possible power consumption.​"
+    },
+    {
+      "id": "112",
+      "text": "​"
+    },
+    {
+      "id": "113",
+      "text": "说话人 1 00:58:08​\nA very common approach in a device to device communication networks is to let our devices go to sleep when we don't need them to work.OK?So think, for example, of Wi-Fi.Technology is not very sustainable.Why?Because, as we mentioned, our Wi-Fi nodes are always awake.​"
+    },
+    {
+      "id": "114",
+      "text": "​"
+    },
+    {
+      "id": "115",
+      "text": "说话人 1 00:58:57​\nThere is the possibility to put Wi-Fi cards into sleep mode, but that's quite rare.In practice, we don't know.We don't do that.Indeed, our wi fi cards.Rarely, we remember to switch the wi fi, when we don't need it, right?Usually it's always on interface.​"
+    },
+    {
+      "id": "116",
+      "text": "​"
+    },
+    {
+      "id": "117",
+      "text": "说话人 1 00:59:26​\nThere are other technologies.That are for example, Bluetooth, that instead are very good in that respect.In Bluetooth, we have the possibility to put our various cards, Bluetooth interfaces into sleep mode.They, as soon as essentially they're not doing anything, they go to sleep.So, bluetooth is very efficient from that point of view.​"
+    },
+    {
+      "id": "118",
+      "text": "​"
+    },
+    {
+      "id": "119",
+      "text": "说话人 1 01:00:02​\nIn general, we would like this kind of technologies, because if you do not need to transmit traffic.Or receive traffic.It's really good if your device goes into sleep mode.That means that in the course in that case, it cannot do anything, right?For a while till it sleeps.But in this way, we reduce.​"
+    },
+    {
+      "id": "120",
+      "text": "​"
+    },
+    {
+      "id": "121",
+      "text": "说话人 1 01:00:46​\nSo, at that point, the power consumed by the device becomes very very low.And in this way, by letting the device be awake only when needed, we can save a lot of energy and power.So, this is a very a very good approach.​"
+    },
+    {
+      "id": "122",
+      "text": "​"
+    },
+    {
+      "id": "123",
+      "text": "说话人 1 01:01:18​\nThe other one that we often use in communication in a device device communication networks is try and reduce transmit power as already mentioned.If you are a transmitter, the lower the power you use to transmit theory, the more you save.Energy, so these are essentially these the approaches that are actively used.To dive a little bit more into this, this is just also a graphical representation of what we already said.So they found that if you are able to perform a short range communication, then your transmitter, for example.A.​"
+    },
+    {
+      "id": "124",
+      "text": "​"
+    },
+    {
+      "id": "125",
+      "text": "说话人 1 01:02:25​\nSo, this allows A to save power and therefore energy.And as we already said, has got also.As a good consequence, positive consequence.Bisa Anda diin.​"
+    },
+    {
+      "id": "126",
+      "text": "​"
+    },
+    {
+      "id": "127",
+      "text": "说话人 1 01:02:59​\nWe already know that the level of power that is received at a certain point in space follows this.Law where d is the distance here between a transmitter and a receiver.We said.En freespace.A bis Exponent Alpha IS exanthy EQUAL to.¿Y en Ari?Word environments when we do not have propagation in a free space, this exponent value is greater than than two.So the power decays more rapidly.​"
+    },
+    {
+      "id": "128",
+      "text": "​"
+    },
+    {
+      "id": "129",
+      "text": "说话人 1 01:03:42​\nSo we need to be, let's say,smart in controlling the transmission power of the notes.It must be sufficiently high to reach the intended receiver.In spite of the fact that the signal may get attenuated due to distance, diffraction, reflection, etc.But it shouldn't be too high, right?Because otherwise, you consume too much.Without any needs.So, it should be just the right amount of transmit power that allows you to reach your intended receiver.This is called power control.Ok, in all our wireless devices.We have this function of power control implemented.Depending on where our intended receiver is, we'll set the transmitted power right to the value that allows you.To reach your receiver without consuming too much.Okay, that's power control.So.​"
+    },
+    {
+      "id": "130",
+      "text": "​"
+    },
+    {
+      "id": "131",
+      "text": "说话人 1 01:05:15​\nAs I said, this is a very important function, and indeed, here you have, let's say a graphical representation of the risks that you may incur when the power control function is not there or doesn't work properly.Right?​"
+    },
+    {
+      "id": "132",
+      "text": "​"
+    },
+    {
+      "id": "133",
+      "text": "说话人 1 01:05:37​\nSo, for example, if you set the transmit power to a value that is too high, if you represent your network as a graph.With vertices and edges, where the edges are the communication links.If the nodes use too much power, transmit power, they can reach many other nodes, right?In your graph, you will have plenty of edges.Then.This is the representation of the case where your nodes use a very high transmit power level.So if you look at it modeling the system as a graph, you will have the vertices that represent.​"
+    },
+    {
+      "id": "134",
+      "text": "​"
+    },
+    {
+      "id": "135",
+      "text": "说话人 1 01:06:41​\nBecause all nodes transmit at very high power, and they can reach many many other nodes.Okay, you can say, well, that's good, because in case some links break.Then there are others that they can use.​"
+    },
+    {
+      "id": "136",
+      "text": "​"
+    },
+    {
+      "id": "137",
+      "text": "说话人 1 01:06:58​\nWell, true, but maybe in this case there are too many, right?So it gives you the visual impression of a very crowded scenario.It's like if our nodes were shouting, they were not just talking, they are shouting.And everybody is shouting, and they will interfere with each other, right?​"
+    },
+    {
+      "id": "138",
+      "text": "​"
+    },
+    {
+      "id": "139",
+      "text": "说话人 1 01:07:22​\nIn the opposite case where you set the transmit power to sorry, to a lower value, then of course you reduce the number of communication links thatNodes can establish.So, you reduce the level of interference, right?That's really good.You reduce the amount of power that they consume, which is good.The drawback here may be that if some links get disrupted, they fail.Then the network may get disconnected, so, the some nodes may get isolated.​"
+    },
+    {
+      "id": "140",
+      "text": "​"
+    },
+    {
+      "id": "141",
+      "text": "说话人 1 01:08:26​\nOk, that said, there are many scientific works that have been proposed, in order tooptimize also the scheduling of activity of the nodes.So, there are many works that try to optimize the power control function that we look at before, but also many works that try to optimize the.​"
+    },
+    {
+      "id": "142",
+      "text": "​"
+    },
+    {
+      "id": "143",
+      "text": "说话人 1 01:09:02​\nSchedule of activity of ondenotes.As I said, this means that we want to optimize when a device should be active, or it should be sleeping.Because when it sleeps, it cannot receive, it cannot transmit.So, it might miss some traffic.If someone needs to deliver, transmit traffic to that node, and that node is sleeping, the traffic will be lost.Right?So, there is a tradeoff here between sleeping and saving energy.And being active and receiving and handling traffic, it's a trade off.​"
+    },
+    {
+      "id": "144",
+      "text": "​"
+    },
+    {
+      "id": "145",
+      "text": "说话人 1 01:09:52​\nOne more thing that we can emphasize through this figure is that.Like in rodents that i was saying is very efficient from this point of view.We may have not just one sleeping state, but we may have several different sleeping states.What does it mean?It means thatthere are more shallow sleeping states or deeper sleeping states.Shallow sleeping states, like, is like when you sleep, but you are not really really deep asleep, right?So, it is enough a small noise and you will come.If you are deeply asleep, then someone needs you to do to needs to to shake you up, right?It's the same concept here.In our devices, we can put the event receiver other components of the device into a shallow.Sleeping stage, and this means that if that component needs to be become active again, it will take a very short time to do that.If instead you let that component sleep deeply.You will need more time to wake that component up.Now, shallow sleeping states therefore are better in terms of.​"
+    },
+    {
+      "id": "146",
+      "text": "​"
+    },
+    {
+      "id": "147",
+      "text": "说话人 1 01:11:56​\nSo, you may miss some packets, but then quickly, you are awake again, and you can work.But in that case, while being in a shallowsleepy state, you can save some power, but not too much.Instead, when our devices are put into deep sleep, it takes time to wake them up, that's the drawback.But they can save more power.​"
+    },
+    {
+      "id": "148",
+      "text": "​"
+    },
+    {
+      "id": "149",
+      "text": "说话人 1 01:12:31​\nOK, so it's clearly, as I was saying, a tradeoff.And for example, just to give you an idea, in a in a bluetooth, we have essentially three different sleep stages.From the shallow, most shallow one to the deepest one, there are three different states in the bluetooth technology.OK, so as a summary, we essentially discussed our device to device networks.We said that there are four main, four main issues.One is the time-varying network topology.The second one is channel access.The third one is multi-hop communication, which is also related to the issue of routing.​"
+    },
+    {
+      "id": "150",
+      "text": "​"
+    },
+    {
+      "id": "151",
+      "text": "说话人 1 01:13:43​\nJust one more comment about general comment about our device to device communication networks.As we already sent, those networks are a set of devices that can communicate with each other, and these networks do not need any infrastructure.There might be in the hybrid case, but in principle, we don't need it.They are, therefore, in principle.Completely autonomous, they may be completely autonomous, and they may be completely spontaneous.Meaning that when you have a set of devices nearby, they may need to communicate on the spot.Now, due to this nature of this kind of communication networks.What we will need in this kind of networks is to use.​"
+    },
+    {
+      "id": "152",
+      "text": "​"
+    },
+    {
+      "id": "153",
+      "text": "说话人 1 01:14:59​\nSo, distributed means that, distributed decision algorithms means that every node.Should make a decision based on information that he has got, and independently of the others.Right?That's what distributed decision are doing.Means, correct?And it's the opposite of centralized decision, where instead there is only one node that has got global knowledge and makes the decisions for everyone.OK?So our systemare going to be distributed, and we will need, as i said, distributed decision- making.​"
+    },
+    {
+      "id": "154",
+      "text": "​"
+    },
+    {
+      "id": "155",
+      "text": "说话人 1 01:15:51​\nNow, before moving to sensor networks, OK?Let me just remind you about technologies that are examples of device to device communication networks.We already mentioned that for example, Wi-Fi, that is a wireless LAN technology.In the configuration of the network architecture as ad hoc is a technology that enables device to device communication.Right?When we have the ad hoc architecture network architecture, thenwe enable that.We already mentioned that also cellular communications by standard can accommodate device to device communications.We are not used to that in practice, but by standard, they are allowed to do that.Other systems that we mention are the vehicle, other methods, or called also connected cars, connected vehicles.They also represent an example of device to device communication methods,personal wireless personal area networks.These can be read as Bluetooth.Bluetooth is a technology also for device communication networks.​"
+    },
+    {
+      "id": "156",
+      "text": "​"
+    },
+    {
+      "id": "157",
+      "text": "说话人 1 01:17:37​\nAnd another one that we have not mentioned, but is actually important, are the so called body area networks.What does it mean?It means when we have sensors on the human body, and these sensors are connected together.This is a real thing, OK?Is used in sport, is used for health reasons.Is used to help disabled people to interact with the environment.So, it's when we get sensors on us, on our body.They are also used to for drugs administration, so you actuallyneed to assume some runs during the day.Diabetes, other illnesses require people to actually absorb these runs during the day at certain times of the day.And you may have these sensors and devices on your body that actually do that.So you don't need to remember about taking the drug at a certain point in time during the day, but depending on the level of certain parameters in your blood.These devices will just release the drug to your body.So these are very important for else, and also as I was saying, to have disabled people like blind people.​"
+    },
+    {
+      "id": "158",
+      "text": "​"
+    },
+    {
+      "id": "159",
+      "text": "说话人 1 01:19:44​\nHere, you just have a few links to some of these, I mean web pages where they talk about this.Just in case you are you are interested, you can go over these slides, but they are not let's say so important.It's just for your information.Otherwise, you canyou can skip those slides..OK, now let's move to picture.Umm.​"
+    },
+    {
+      "id": "160",
+      "text": "​"
+    },
+    {
+      "id": "161",
+      "text": "说话人 1 01:21:04​\nSo, as already mentioned, sensors are indeed the major component of what we also call Internet of Things.Right?​"
+    },
+    {
+      "id": "162",
+      "text": "​"
+    },
+    {
+      "id": "163",
+      "text": "说话人 1 01:21:32​\nThis is a scenario that is very, very common.That is, we have large areas sometimes.Parks, or sometimes as I was saying, they are areas that are contaminated by chemicals, so where humans cannot go.Or cannot stay for a long time.In a, in a, for example, in cold areas.Like in Europe, we have a country called Finland, that is up, close to the North Pole.And in Finland, they have very large areas that are essentially frozen during the winter.And I guess that in China, northern eastern parts of China, Harbin, and those areas in winter, I guess they are also frozen.So, a colleague from Finland was telling me that.Mas jadi use di sensor makers.Betul.For monitor those areas that have up north, they are mostly be frozen, the roads also to reach those areas are icy.So they don't want to go there actually.​"
+    },
+    {
+      "id": "164",
+      "text": "​"
+    },
+    {
+      "id": "165",
+      "text": "说话人 1 01:23:10​\nSo, they are used very very often, they are used also nowadays to detect fires.So, for example, you may know that in Australia or in California.They've got very very large fires that devastated large areas of vegetation.So, they really need to detect when there is a fire as soon as possible in order to intervene and try and extinguish the fire.Right?It's very important.​"
+    },
+    {
+      "id": "166",
+      "text": "​"
+    },
+    {
+      "id": "167",
+      "text": "说话人 1 01:23:48​\nSo, they have these large networks of sensors that detect temperatures, and when the temperature is above a threshold.Then they say, well, there is a fire, and they send a signal to notify,that, OK, so, there are many applications where we do have this kind of omni-numbers.So, typically, these sensors that are represented through these purple dots here, are small devices clearly.Because they need to be in parks, in a, in a, in a, in a, in a, in a wood, and so on.So, they are small sensors.They are of course battery powered.In this case, the battery is very very small, so power consumption is a big big issue.​"
+    },
+    {
+      "id": "168",
+      "text": "​"
+    },
+    {
+      "id": "169",
+      "text": "说话人 1 01:24:47​\nAnd these sensors can communicate with each other through wireless links.And typically, as shown also later, they will end up at one node that is also a gateway called sink, that is the node.Then has got a longer range connectivity with the internet.OK, so we have this device to device communication network, nodes that communicate with each other.Those are the sensors, and then eventually, some of them.​"
+    },
+    {
+      "id": "170",
+      "text": "​"
+    },
+    {
+      "id": "171",
+      "text": "说话人 1 01:25:41​\nNow, as we said, these small sensors have got small batteries, and typically they also transmit at low power.Because they've got this small battery and need to save power, so they need to transmit a low power.And they transmit, may transmit few bits per second, so they don't need a very high data rate.Typically, it depends on the application.Why am I saying that?Because for example, if they just need to measure temperature or humidity, you don't need, right, to measure that every millisecond.OK?And when you measure the temperature or the humidity, that's an information that stays in a few bytes or even one byte.They are often referred to as low power, low data rate nodes.And there is an IEEE standard that specifically tells you how to design.This protocol stack for this kind of devices, right?For this kind of sensor nodes.And here you have the name of.The IEEE standard is similar to the one of Wi-Fi, but as you may notice here, we have 15.In Wi-Fi, Amendments we had 11.Here is 15, because it's specifically for this kind of sensors.​"
+    },
+    {
+      "id": "172",
+      "text": "​"
+    },
+    {
+      "id": "173",
+      "text": "说话人 1 01:27:34​\nNow.Here, we look into a single sensor device.So, it's like a zooming into a sensor device.And, we can see that, of course, we have a wireless network interface that allows the sensor to communicate.With other notes, but as you can see there are inside.​"
+    },
+    {
+      "id": "174",
+      "text": "​"
+    },
+    {
+      "id": "175",
+      "text": "说话人 1 01:28:02​\nAda.Modules, right?So, let's look at the or how the sensors are composed and on what?So, they have a sensing board.This is the actual sensor, right?The sensing board.And the characteristics of this sensor board varies depending on what type of physical field, if this phenomenon we need to measure.So, if it's temperature, humidity, lightning, there are different sensors type of.​"
+    },
+    {
+      "id": "176",
+      "text": "​"
+    },
+    {
+      "id": "177",
+      "text": "说话人 1 01:28:47​\nSensing boards.Now, this sensor senses physically the phenomenon like light, as always saying and temperature, etc.And then reports this value to this module that performs signal processing.Now, why do we need signal processing there?Because our sensor is going to sample.A phenomenon physical field, right?Like light or temperature.Now, the physical field, the phenomenon is represented by typically a continuous signal.So, physically, what we are sensing is continuous.And it can evolve in time clearly, and also it may vary in space.So, the physical field that we are sensing is depending on time.​"
+    },
+    {
+      "id": "178",
+      "text": "​"
+    },
+    {
+      "id": "179",
+      "text": "说话人 1 01:30:06​\nAs well as on x, y and z, where these are the special coordinates.So, we can represent this physical field as a signal that changes in time and space.Now, what this sensing board does?Is to sample this signal, right?When we have a sensor network over an area, so this is the spatial area.​"
+    },
+    {
+      "id": "180",
+      "text": "​"
+    },
+    {
+      "id": "181",
+      "text": "说话人 1 01:30:55​\nEach of them sensing, for example, the temperature and collecting the flora measurements, right?The samples.And these samples, therefore, this will be the location x1,y1.Z one, this will be location x two, y two, z two, and etc.Each of them will sense the signal at different point in space, and then over time, really at different points in time.​"
+    },
+    {
+      "id": "182",
+      "text": "​"
+    },
+    {
+      "id": "183",
+      "text": "说话人 1 01:31:38​\nSo, what we get from that?That our sensor network will provide us with a set of measurements, right?They are samples, they are discrete, because they are values.Taken at certain point in time and certain point in space.What you need to do is to use all these measurements and reconstruct this continuous signal.So, you have to get these discrete values.And it's like, for example, interpolating.The values, the discrete values, and be able to get a continuous system.You know what interpolation is, right?So, that's essentially the job of this signal processing unit here.We get the samples, and locally using the samples of, in this case, a single center, tries to reconstruct.The physical field that we want to get, temperature, humidity, light and service.OK?Good.Let's stop here for the long break, and then we will continue by describing the other components of a sensor.​"
+    }
+  ],
+  "scrollEnd": [
+    {
+      "height": 697,
+      "top": 16334,
+      "total": 17031
+    }
+  ]
+}
