@@ -1,0 +1,160 @@
+{
+  "recording_id": "20261008-0800",
+  "status": "已通读校订但仍含明确待核内容",
+  "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/IjRndiT2ToGDrvxiLFXcOAYknkh",
+  "source_captured_at": "2026-10-17T03:27:59.422Z",
+  "source_capture_path": "sources/feishu_snapshots/20261008-0800/20261017T032759422Z-52e89a074f8b/capture.json",
+  "source_capture_sha256": "52e89a074f8b40c950acb96c1c87c942a0630d600dbb72c9c4026fb97fc091ad",
+  "exact_speech_file": "revised/20261008-0800.speech.md",
+  "exact_speech_sha256": "776cd40c70ef419bd6eee835329f1c85a8a4bfc884429ce202401dbbf9cb278b",
+  "whole_text_read_at_utc": "2026-10-17T04:15:00+00:00",
+  "whole_text_original_read_sha256": "1718c3cfad84e8738a784fbe643c43487fe0ee8cc0d3d6228c8af75e21e09935",
+  "annotation_only_amendments_confirmed_at_utc": "2026-10-17T04:16:00+00:00",
+  "annotation_only_amendments": [
+    {
+      "change_id": "C003",
+      "source_block_id": "19",
+      "paragraph_id": "P19",
+      "old_text": "然后卡拉教授",
+      "new_text": "然后卡拉教授〔推定 C003〕",
+      "inserted_text": "〔推定 C003〕"
+    },
+    {
+      "change_id": "C004",
+      "source_block_id": "19",
+      "paragraph_id": "P19",
+      "old_text": "当然他是都灵理工大学的全职的教授",
+      "new_text": "当然他是都灵理工大学〔推定 C004〕的全职的教授",
+      "inserted_text": "〔推定 C004〕"
+    }
+  ],
+  "removing_exactly_two_annotations_reconstructs_original_read_text": true,
+  "full_current_text_review_complete": true,
+  "uncertainty": {
+    "unresolved_items": 67,
+    "inline_marker_count": 65,
+    "reading_does_not_resolve_uncertainty": true
+  },
+  "evidence_portability_adjustments": [
+    {
+      "change_id": "C007",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F016",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "A002",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "A002",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "C008",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F017",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F018",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F019",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "C009",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F020",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F021",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F022",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F023",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "F024",
+      "original_reference": "raw_asr/targeted_reruns/20261008-0800_schedule_0745_0845.json",
+      "original_sha256": "52d6481ec23f6983aabf168ac3620693d21f6e88b4ffd1aca0332c0d78d72a69",
+      "portable_reference": "evidence/20261008-0800/schedule_0745_0845.result.json",
+      "portable_sha256": "2e123b398a88d78e0afddefb67e5129b3e14e4635aaff304e702e883f292643e",
+      "transformation": "Export unchanged ASR result object; omit request scheduling note"
+    },
+    {
+      "change_id": "C037",
+      "field": "reason",
+      "purpose": "统一公开说明中的审阅措辞；推断理由不变"
+    }
+  ],
+  "source_files_not_modified": true,
+  "spoken_words_not_changed_after_whole_text_read": true,
+  "timestamp_note": "保留原文段落锚点，不作词级对齐或真实句界保证。"
+}
