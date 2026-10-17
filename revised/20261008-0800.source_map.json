@@ -1,0 +1,2247 @@
+{
+  "recording_id": "20261008-0800",
+  "status": "read_with_explicit_uncertainty",
+  "paragraphs": [
+    {
+      "paragraph_id": "P5",
+      "text": "是有很多课程都是由意方的知名的教授专程过来给大家上的。",
+      "source_block_ids": [
+        "5"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P7",
+      "text": "Maybe I just use Chinese, of course, for them to know you.",
+      "source_block_ids": [
+        "7"
+      ],
+      "change_ids": [
+        "F001"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P9",
+      "text": "OK，那今天给我们上这个移动传感器网络的是我们的这个他的。〔待核 U002〕",
+      "source_block_ids": [
+        "9"
+      ],
+      "change_ids": [
+        "U002",
+        "F009"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P11",
+      "text": "嗯，can I?〔待核 U003〕",
+      "source_block_ids": [
+        "11"
+      ],
+      "change_ids": [
+        "U003",
+        "F010"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P13",
+      "text": "Can I read it?〔待核 U004〕",
+      "source_block_ids": [
+        "13"
+      ],
+      "change_ids": [
+        "F002",
+        "U004"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P15",
+      "text": "对，yeah, I'm good, I'm doing better.〔待核 U005〕",
+      "source_block_ids": [
+        "15"
+      ],
+      "change_ids": [
+        "F003",
+        "U005"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P17",
+      "text": "然后我们来介绍一下这个卡拉教授，卡拉教授是非常非常非常知名的，我们整个无线通信领域，在国际上知名的无线通信领域的教授。然后卡拉教授现在是都灵理工大学电子与通信系的副主任，然后他在学术上也非常知名，大家做到后面，然后要发论文的时候，因为我们肯定要发论文嘛，大家会知道有一个期刊叫非常非常好的期刊，top 的期刊，做网络的。我们一般简称 TON〔推定 C001〕，就是 IEEE/ACM Transactions on Networking〔推定 C002〕。那卡拉教授的话，就是这个期刊的执行的编辑，大编辑，就很前面的，所以是非常知名的。",
+      "source_block_ids": [
+        "17"
+      ],
+      "change_ids": [
+        "F004",
+        "C001",
+        "C002"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P19",
+      "text": "卡拉教授也是我们的 IEEE Fellow。就是大家知道，我们整个，可以这么说，我们整个同济的电学也没几个 fellow，一只手应该数得过来。然后卡拉教授〔推定 C003〕是我们的 HV Fellow〔待核 U001〕，当然他是都灵理工大学〔推定 C004〕的全职的教授，他也在瑞典啊、法国的很多地方都有兼职。",
+      "source_block_ids": [
+        "19"
+      ],
+      "change_ids": [
+        "F005",
+        "C003",
+        "C004",
+        "U001"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P21",
+      "text": "主要的研究领域是移动网络，因为今天给大家讲移动网络嘛，对吧？移动网络、传感器网络、移动服务，然后这些，我们移动相关的网络的建模呀、优化呀，对吧？设计呀，就是整个一成体系的研究，包括现在应用于移动网络、移动服务的这些机器学习的算法等等。然后这是卡拉教授的一个非常简短的介绍，那我们欢迎卡拉教授给大家上课。在上课之前呢，我们建个微信群吧，这样也方便那个卡拉教授跟大家联系嘛，好不好？So we're [00:02:02] creating the WeChat group. I bring in in that.〔待核 U006〕",
+      "source_block_ids": [
+        "21",
+        "23"
+      ],
+      "change_ids": [
+        "F006",
+        "C005",
+        "F007",
+        "F008",
+        "U006"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P25",
+      "text": "我们面对面建群吧，同学们，1024。",
+      "source_block_ids": [
+        "25"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P27",
+      "text": "大家就进个群，然后我是那个电信学院的常聘副教授，我叫王俊元，然后我也是这门课的这个中方的，算是给大家处理，协助帕莱教授处理这些日常的这些东西的老师。好吗？大家有问题也可以问我，好不好？一些事务性的东西可以问我，1024面对面建群。〔待核 U007〕",
+      "source_block_ids": [
+        "27"
+      ],
+      "change_ids": [
+        "U007"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P29",
+      "text": "Yeah, send me a question.〔待核 U008〕",
+      "source_block_ids": [
+        "29"
+      ],
+      "change_ids": [
+        "U008"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P31",
+      "text": "So you need to click on your phone.〔待核 U009〕",
+      "source_block_ids": [
+        "31"
+      ],
+      "change_ids": [
+        "U009"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P33",
+      "text": "Let me check if everyone is here.〔待核 U010〕",
+      "source_block_ids": [
+        "33"
+      ],
+      "change_ids": [
+        "U010"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P35",
+      "text": "什么情况？那个面对面建群，1024。",
+      "source_block_ids": [
+        "35"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P37",
+      "text": "你们这不是你们上第一门课是吧？之前已经上过了。经常缺这么多人吗？",
+      "source_block_ids": [
+        "37"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P39",
+      "text": "啊？是不是？",
+      "source_block_ids": [
+        "39"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P41",
+      "text": "是这样吗？经常缺这么多人啊。那我们学习委员在吗？好，给你几个任务，把同学们拉到群里去。",
+      "source_block_ids": [
+        "41"
+      ],
+      "change_ids": [
+        "F012"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P43",
+      "text": "好。好不好？",
+      "source_block_ids": [
+        "43"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P45",
+      "text": "我看一下。就是那个名单，因为。",
+      "source_block_ids": [
+        "45"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P47",
+      "text": "就，反正就我们所有同学。",
+      "source_block_ids": [
+        "47"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P49",
+      "text": "所有同学都会上的，是吧？对对对。那总共27个人。对对对。哦，那你把大家那个不在的拉到群里，第一个任务，还有呢？嗯。第二个任务，今天那个结课程结束以后，你带卡拉教授去一下离我们最近的地铁站，应该就主门口那时候最近，对，带他去一下地铁站。好的好的。然后怎么买票你去搞一搞，教一下他，然后帮他买一下。OK。好不好？然后第三个任务，哈哈，明天你们是不是还有课？对。明天下课之后，你带他去找一下食堂。嗯。〔待核 U011〕",
+      "source_block_ids": [
+        "49"
+      ],
+      "change_ids": [
+        "F011",
+        "U011"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P51",
+      "text": "好吗？好。",
+      "source_block_ids": [
+        "51"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P53",
+      "text": "那你叫什么？",
+      "source_block_ids": [
+        "53"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P55",
+      "text": "舒马赫。〔待核 U012〕",
+      "source_block_ids": [
+        "55"
+      ],
+      "change_ids": [
+        "U012"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P57",
+      "text": "舒马，哦，我知道你的名字，是82年的。你你过来一下，我把你介绍给他。〔待核 U013〕",
+      "source_block_ids": [
+        "57"
+      ],
+      "change_ids": [
+        "U013"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P59",
+      "text": "Shoe, shoe, it's actually like the master of all the students. It will be happy to the subway station after class. Asking too much. Ask him to help him to check our guest service tickets on. Yes, because now we only have like around 60 or 70 tickets in the classroom. But I ask, I already ask him to bring you know. You might help the others into the WeChat group, so let them invite.〔待核 U014〕",
+      "source_block_ids": [
+        "59"
+      ],
+      "change_ids": [
+        "F013",
+        "U014"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P61",
+      "text": "〔识别不清 U015〕",
+      "source_block_ids": [
+        "61"
+      ],
+      "change_ids": [
+        "U015"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P63",
+      "text": "〔识别不清 U016〕",
+      "source_block_ids": [
+        "63"
+      ],
+      "change_ids": [
+        "U016"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P65",
+      "text": "〔识别不清 U017〕",
+      "source_block_ids": [
+        "65"
+      ],
+      "change_ids": [
+        "U017"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P67",
+      "text": "OK, so, 你好. I'm Carla〔待核 C006〕. And we are about to start our class, mobile sensor networks. Here is my email address. If you would like to contact me for any problem or feedback you may have, I will be happy to receive feedback from you in class, or you can send me an email as you wish.〔补回 A001〕",
+      "source_block_ids": [
+        "67"
+      ],
+      "change_ids": [
+        "F014",
+        "C006",
+        "F015",
+        "A001"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P69",
+      "text": "I'll try to start with this speed while I'm talking. If it's too slow or too fast, please do let me know. OK? We can adjust depending on your feedback. So, the schedule of our class, just to be on the same page. Small, a bit small, but I'm going to increase the size. I think you have got this schedule. So, we'll be here today, tomorrow, and sorry also Saturday, sorry about that, but I have to teach in Turin when I go back to my home country, so I had to compress classes here in Shanghai.〔补回 A002〕",
+      "source_block_ids": [
+        "69"
+      ],
+      "change_ids": [
+        "C007",
+        "F016",
+        "A002",
+        "F024"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P71",
+      "text": "And this is our schedule next next week. So from Monday afternoon, and then mornings till until Friday, and this is our third and final week. We will have these two extra classes, and this is when I would like to hand to you a written test, so that I can mark, grade the tests and return to you the test before leaving. OK. So, this is the plan, this is a little important, because on Wednesday, the 21st, we'll have a written test.〔待核 C009〕 OK.",
+      "source_block_ids": [
+        "71"
+      ],
+      "change_ids": [
+        "C008",
+        "F017",
+        "F018",
+        "F019",
+        "C009"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P73",
+      "text": "Good.",
+      "source_block_ids": [
+        "73"
+      ],
+      "change_ids": [],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P75",
+      "text": "So, let's go back to our slides. We'll have lectures and some numerical problems to solve, exercises to solve, as examples. You will find numerical exercises also in the written test. OK. Then the others are the topics that we will cover. The last one, we'll see if we have time, depending on the speed with which we will proceed, OK? Please feel free to ask questions whenever you like. You can interrupt me at any time during [00:10:41] the class. So, I can provide a list of books and papers at the end of the main topics, but slides and your notes would be enough. OK. So, I will provide the slides, and try to share them.",
+      "source_block_ids": [
+        "75",
+        "77"
+      ],
+      "change_ids": [
+        "F020",
+        "F021",
+        "F022",
+        "F023"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P79",
+      "text": "我在。网络已断开。WeChat.〔识别不清 U018〕 This is a course on different topics.〔补回 A003，待核〕",
+      "source_block_ids": [
+        "79"
+      ],
+      "change_ids": [
+        "U018",
+        "A003"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P81",
+      "text": "So, there is no book that collects and covers all topics that we will discuss. As I said, sorry, this is because I didn't know about the grading system in Tongji. Now I know, so if please ignore it, I will, I will change that. During the test, it's a closed-book exam, OK? And of course, you are not allowed to talk with each other, and you are not allowed to use your phone, Google glasses, smartwatches or other devices. OK, you just need a pen or a pencil, a rubber, and paper sheets. That's it. OK, that's what you need for for the exam. \n\nI would like to also mention that in my research group, there are several topics available for master thesis. So, if you would like to take a thesis project in collaboration with Tongji professors and myself,〔补回 A004〕 [00:13:13] these are the topics that we cover through master thesis projects. So, we work with mobile networks, 5G, 6G networks, and services, mobile services and mobile applications. But we also use AI and machine learning applied to mobile networks as well as to mobile services and applications. \n\nIn particular, we use machine learning to perform fusion of sensor data. So, we can see there are sensors like cameras, radars, lidars, and others, and fuse this information through machine learning models at the mobile devices like this phone, or at the edge of the network. That means through servers that are located at the edge of the network. \n\nWe also study satellite networks, [00:15:01] satellite communications and AI for satellites, especially considering images, earth observation, and how to compress and process these images at the satellites, on board the satellites.〔待核 C017〕 \n\nAnd we are also studying in general intelligent, autonomous mobile systems, robots, rovers that connects with the 5G network or 6G networks that we are developing. And among these autonomous mobile systems, we also study connected cars, connected vehicles, autonomous, connected autonomous vehicles.",
+      "source_block_ids": [
+        "81",
+        "83",
+        "85"
+      ],
+      "change_ids": [
+        "F025",
+        "C010",
+        "C011",
+        "C012",
+        "C013",
+        "A004",
+        "F026",
+        "F027",
+        "F028",
+        "F029",
+        "F030",
+        "C014",
+        "C015",
+        "F031",
+        "F032",
+        "C016",
+        "C017",
+        "F033",
+        "F034"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P87",
+      "text": "In general, we address also edge computing, so how to process information efficiently at the edge of the network, and more recently, we have started to study quantum computing. That is how to execute algorithms on quantum computing platforms, and in particular machine learning algorithms on quantum computing platforms. In Turin, Italy, that is my where my university is,〔补回 A005，待核〕 [00:17:13] we have a quite large lab with 5G cells, private cells, and also edge computing platforms. And then a mobile autonomous devices, robots, and also vehicles with which we test our solutions.〔补回 A006，待核〕 \n\nSo, if you are interested in a master's thesis project, please consider the possibility to carry out this project in collaboration with professor here in Tongji University, or if you like to visit Turin, Italy, you are most welcome to come and do your master project here. \n\nThis is just a picture that represents the infrastructure that we have, experimental infrastructure that we have on campus in, in Turin.〔待核 C019〕 And we have also an UAV cage and drone cage where we perform experiments with with drones. \n\nThis is our campus. The old building, old premises is here, and then this is the new premises that we have got. So our campus extends in this part of of the city.〔补回 A007，待核〕",
+      "source_block_ids": [
+        "87",
+        "89"
+      ],
+      "change_ids": [
+        "F035",
+        "F036",
+        "C018",
+        "A005",
+        "F037",
+        "A006",
+        "F038",
+        "F039",
+        "C019",
+        "A007"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P91",
+      "text": "Tomorrow, next class, I will show you also some nice picture of Turin. This is just a part of the city where my university, Politecnico di Torino〔推定 C021〕, is, but I'll show you also some nicer picture about the city center of Turin. \n\nAs mentioned, our experimental infrastructure includes these 5G cells, UAV cage, and we use this infrastructure to also experiment our solutions on connected autonomous vehicular networks. So with cars that move around, we perform measurements of course, and this data can also be used to run some AI and machine learning based services for our mobile nodes. And we also have an edge computing infrastructure where, of course, we have several GPUs that we use to run our machine learning and AI services.〔补回 A008，待核〕",
+      "source_block_ids": [
+        "91"
+      ],
+      "change_ids": [
+        "C020",
+        "F040",
+        "C021",
+        "F041",
+        "C022",
+        "F042",
+        "F043",
+        "A008"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P93",
+      "text": "Any question about Turin〔推定 C023〕, anytime please feel free to ask. So, now, next, we are going to provide an introduction to wireless networks. Now, since it's the first time that we have this class in Tongji University, it would be very helpful to me if you let me know what you already know [00:21:32] about wireless networks. Did you have any class already on wireless networks? No, OK, perfect. So, we will start from introducing wireless networks, and then some basic concepts about wireless communications, then we will then use to discuss Wi-Fi, Bluetooth, sensor networks and etc. OK, so step by step. \n\nLet me first of all say that wireless networks nowadays are very very important because they are used, as you know, as we do in our daily life, for many mobile applications. When we use our phone, for example.〔补回 A009，待核〕",
+      "source_block_ids": [
+        "93",
+        "95"
+      ],
+      "change_ids": [
+        "C023",
+        "F044",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F049",
+        "A009"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P97",
+      "text": "So, 80% of actually houses services that we enjoy at home and use Wi-Fi, clearly they use wireless network, and 60% of the all internet traffic comes from mobile devices. \n\nSo, this is to state how important mobile connectivity has become. OK, so this is a plot that shows over the years how the number of users has increased for fixed connectivity and for mobile connectivity, OK? So, it is very important to know how these wireless networks work. \n\nWireless networks are used in different environments, in different contexts, and for different applications. So, for example, we may have wireless networks that cover a large area, wireless networks that cover a local area like Wi-Fi, for example.〔补回 A010，待核〕",
+      "source_block_ids": [
+        "97"
+      ],
+      "change_ids": [
+        "F050",
+        "C024",
+        "F051",
+        "C025",
+        "A010"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P99",
+      "text": "We have a fixed wireless internet access, satellite networks nowadays, they are becoming very, very important. And in general, wireless is used to replace cables whenever possible. \n\nAnd another very important area of application is to connect devices like sensors or the so-called Internet of Things that are objects, things that we may need in our daily life, or in smart factories or in storage places, many different environments where we have small devices that need to be connected to the internet. We do so by using wireless networks. \n\nAnd these different applications may need different, may have different requirements. So, for example, in some cases, whenever we have critical applications, we need to guarantee low latency. Latency means delay, low delay.〔补回 A011，待核〕 This is true for for example, virtual reality applications, when we use smart glasses, for example. Virtual reality applications, we need very, very low latency. In many IoT applications, low latency is extremely important. \n\nAlso, users are impatient, and we need high bit rates, especially when we have a high definition video, lots of data to transfer. Then we need very high throughput, and the data rate needs to be high.",
+      "source_block_ids": [
+        "99"
+      ],
+      "change_ids": [
+        "F052",
+        "F053",
+        "F054",
+        "F055",
+        "A011",
+        "C026",
+        "F056"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P101",
+      "text": "In other cases, mobility is important. In the case of connected autonomous vehicles, for example, we have users that are the cars that may move at high speed. So we need to support high mobility.〔补回 A012，待核〕 \n\nIn other cases, instead, like sensors, fixed sensors, they are connected through wireless, but they are stationary. So, in that case, you don't need mobility, right? So, depending on your application, you may have a requirement in terms of mobility, or latency, or data rate, that is different. \n\nThere are some environments also where we need to guarantee connectivity to a very large number of devices, so that's the device density.〔补回 A013，待核〕",
+      "source_block_ids": [
+        "101"
+      ],
+      "change_ids": [
+        "F057",
+        "A012",
+        "F058",
+        "A013"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P103",
+      "text": "And in general, this is true for almost all environments and applications, we need to be energy efficient. Why? First of all, because energy is costly, and it has an impact on the environment, and also because many of our devices are battery powered devices.〔补回 A014，待核〕",
+      "source_block_ids": [
+        "103"
+      ],
+      "change_ids": [
+        "A014"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P105",
+      "text": "So, since they are battery powered, the battery is typically relatively small, has got a relatively small capacity. So, we do not want to exhaust our battery quickly, right? We want our battery to last for a very long time. So, we need, need to reduce the power and energy consumption as much as possible. So, our technologies and solutions will aim at reducing the power and energy consumption very, very significantly.",
+      "source_block_ids": [
+        "105"
+      ],
+      "change_ids": [
+        "F059",
+        "C027"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P107",
+      "text": "Now, looking at our wireless networks, this is the graphical representation of a general wireless network. Then, different wireless network technologies will actually have different network architectures and different topologies. But this is a general, an example of the general wireless network, where we have a network infrastructure that is wired. So, here typically we have cables. OK, and then we have other possible environments where there are user devices that are wirelessly connected with a point of access. \n\nWe may also have the so-called ad hoc network, as we will explain better in a minute, where there is no point of access,〔补回 A015，待核〕 [00:30:51] but actually the users can communicate directly with each other. And then one of the devices may be connected with a point of access, but we may have direct communication between the devices. \n\nAnd here is an example of two different network, networks, that are wireless networks, that are connected through a mobile device, like a bridge. This device acts as a bridge between these two networks and connect them directly without going through the infrastructure.",
+      "source_block_ids": [
+        "107",
+        "109"
+      ],
+      "change_ids": [
+        "F060",
+        "A015",
+        "F061",
+        "F062",
+        "F063",
+        "F064"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P111",
+      "text": "So, from this picture, we understand already that the topology of our wireless networks may vary significantly. OK, which topology we will have will depend on the type of applications that we need to support.\n\nOur mobile nodes are typically also called wireless hosts. Why? Because they host an application, and they are connected through wireless links. OK.\n\nNow these are the wireless hosts. Examples are several devices, sensors, laptops, and so on and so.〔补回 A016，待核〕",
+      "source_block_ids": [
+        "111"
+      ],
+      "change_ids": [
+        "C028",
+        "F065",
+        "A016"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P113",
+      "text": "Also, these wireless hosts, whatever they are, as we said, they may be connected through a wireless link with a point of access. The point of access may be a Wi-Fi access point. It could be also a cellular base station. It could be a Bluetooth, another Bluetooth [00:33:29] device that acts, I would say, as a point of access as a gateway, may be different things, but typically, this point of access is connected to the wired part of the system, that is the infrastructure, and then from there to the internet.",
+      "source_block_ids": [
+        "113",
+        "115"
+      ],
+      "change_ids": [
+        "C029",
+        "C030",
+        "C031",
+        "F066"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P117",
+      "text": "Wireless link. The wireless link is the communication link that, as we said, connects the wireless hosts with a point of access, or as already mentioned, it can connect two mobile hosts directly. The wireless link may be of different type depending on the wireless technology that we are using to provide connectivity.",
+      "source_block_ids": [
+        "117"
+      ],
+      "change_ids": [
+        "F067",
+        "C032"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P119",
+      "text": "Wi-Fi, Bluetooth, cellular, and so on. OK, so that's it. These essentially are our elements of the network.\n\nWe are used mostly to this object, right? This is what we typically use. This object already has got several wireless interfaces. That means that is able to use several different wireless technologies.",
+      "source_block_ids": [
+        "119"
+      ],
+      "change_ids": [
+        "C033",
+        "C034"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P121",
+      "text": "Inside here, as you may know, we have a Wi-Fi card. We have a Bluetooth interface. And we have the cellular interface, at least. And then we have typically also a near communication field technology, and other possible technologies may be there.",
+      "source_block_ids": [
+        "121"
+      ],
+      "change_ids": [
+        "F068"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P123",
+      "text": "OK, so let's now try〔补回 A017，待核〕 to put some order in all this complicated environment that is the wireless network. So, we mention already several different types of environments. Let's try now to categorize the different wireless environments that we may have. How can we do that? We need to choose a criterion based on which we can classify our wireless networks.\n\nA possible criteria is coverage. What type of coverage a wireless technology provides. Another possible criterion is node mobility. What type of node mobility the technology supports.〔补回 A018，待核〕",
+      "source_block_ids": [
+        "123"
+      ],
+      "change_ids": [
+        "A017",
+        "F069",
+        "F070",
+        "A018"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P125",
+      "text": "A third type of criteria is the network architecture that our technology supports. \n\nSo, let's first focus on coverage. If we choose as criterion to classify our wireless networks, the coverage, it means essentially the spatial area〔推定 C037〕 that our technology is able to cover. It is over which the technology will be able to provide service to our users.",
+      "source_block_ids": [
+        "125"
+      ],
+      "change_ids": [
+        "F071",
+        "F072",
+        "C035",
+        "C037"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P127",
+      "text": "Here is a representation of what different technologies can do. So, we have Bluetooth, for example, that typically provides connectivity indoors, and this is the range of coverage of Bluetooth. That is order of meters. \n\nThen we have the Wi-Fi technologies, so when you see 802.11〔推定 C036〕, and then some letters, that's the name of the different types of Wi-Fi generations.〔补回 A019，待核〕",
+      "source_block_ids": [
+        "127"
+      ],
+      "change_ids": [
+        "F073",
+        "F074",
+        "F075",
+        "C036",
+        "A019"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P129",
+      "text": "We will explain that better, but for now, you can look at them as just different types, versions of Wi-Fi. And you can see that Wi-Fi may have coverage, exhibit coverage both indoor or outdoor, and the range depends of course. But it varies from meters, tens to hundreds〔推定 C038〕 of meters. \n\nAnd then we have a cellular technologies like 4G, 5G, and now soon we'll have 6G, that may be used of course indoors, outdoors, and till a range〔推定 C039〕 of kilometers. \n\nAnd then we have of course satellites that provide coverage over with a range of over 100 kilometers, as a footprint of a satellite.",
+      "source_block_ids": [
+        "129"
+      ],
+      "change_ids": [
+        "F076",
+        "C038",
+        "F077",
+        "F078",
+        "C039",
+        "C040",
+        "F079"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P131",
+      "text": "I will provide the slides, so do not worry. You will get the slides. OK, by the way, some of these introductory slides are borrowed from the book by Jim Kurose〔推定 C041〕, that is the top-down approach〔推定 C042〕 on a on a networking. Just to acknowledge the the source of some of these introductory slides. \n\nSo, that said, in terms of coverage, we try to give a classification of the different types [00:40:30] of wireless technologies. \n\nNext, let's consider as criteria to classify our wireless networks the architecture. OK, so now we focus on architecture as a criteria. And how can we now classify our networks? Well, our wireless network technologies may have, as already mentioned, different architectures. \n\nThis is the example of Wi-Fi. So, Wi-Fi, as we know, has got us, the users that are wirelessly connected with the access point. And then, on top of an access point, we have a router that connects the access point with the fixed network, cable network. This can be, for example, the campus network, or when you have your access point and router at home, then that's connected to the internet.",
+      "source_block_ids": [
+        "131",
+        "133"
+      ],
+      "change_ids": [
+        "C041",
+        "C042",
+        "C043",
+        "F080",
+        "F081",
+        "F082",
+        "F083"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P135",
+      "text": "5G, this is the example of cellular network. Cellular network as an architecture has got users. It can be a vehicle with the cellular interface. It can be our phone that communicates in this case with a base station. And then the base station is connected with what is called the mobile operator network, that is then connected with the internet.",
+      "source_block_ids": [
+        "135"
+      ],
+      "change_ids": [
+        "C044"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P137",
+      "text": "Now, in this case, when we look at the network's architecture, we also refer to this initial part of the network where we have the users, the points of access as edge. And then we call this wired network that connects the points of access as network core.",
+      "source_block_ids": [
+        "137"
+      ],
+      "change_ids": [
+        "F084",
+        "F085"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P139",
+      "text": "OK? So, especially in the case of cellular networks, we have the edge and the core network. So, we often hear these two terms in order to differentiate between the first part of the network, where we have the wireless links, and the other part of the network, the inner part of the network, where we have cable connectivity, that is called core.",
+      "source_block_ids": [
+        "139"
+      ],
+      "change_ids": [
+        "F086",
+        "F087",
+        "C045"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P141",
+      "text": "Okay, so in terms of architecture, we have therefore those two examples, Wi-Fi, cellular, that as we said, include wireless users connected with a point of access through wireless links, and then from the point of access, we enter the inner part, the core part of the network, where we have indeed the cabled communication〔推定 C046〕.\n\nBut, as mentioned already, in terms of architecture, we may also have the so-called ad hoc networks that are networks where the user devices, the mobile hosts, communicate directly with each other. So, in that case, there is no point of access. There is no necessarily the core, is just wireless devices that talk with each other.\n\nThose are also called device to device communication networks, to emphasize the fact that in that kind of networks, devices communicate directly. They don't need any infrastructure node, like they don't need any base station, or access point.",
+      "source_block_ids": [
+        "141"
+      ],
+      "change_ids": [
+        "F088",
+        "F089",
+        "C046",
+        "F090",
+        "C047",
+        "C048"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P143",
+      "text": "Examples of these ad hoc or device to device communication networks are those that are created through Bluetooth. Through Bluetooth we create this kind of links.\n\nOK, so, that's done, let me just mention something about the mobility, right? That was the other criteria that we introduced. What kind of mobility is supported by our networks? Well, when we have Wi-Fi, typically the mobility that is supported is the nomadic mobility, that is users move from one place to another, then stay for a while in the place, then they move again, and so on. This is called nomadic mobility, and it is the typical mobility pattern of Wi-Fi users.",
+      "source_block_ids": [
+        "143"
+      ],
+      "change_ids": [
+        "F091",
+        "F092",
+        "C049",
+        "F093"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P145",
+      "text": "Like us, we come to a campus, we stay here for a while, and then we go for lunch to the canteen, and then we stay there, and then move again, and so on and so forth.\n\nFor cellular networks, well, of course, we may support nomadic mobility, but cellular networks are very, very good also in supporting high speed mobility. So, vehicles that move on the streets. We may have also trains, high speed trains. The train itself may have a cellular connectivity with the with the internet. So in general, cellular networks are extremely good in providing high quality service to fast users.〔补回 A020，待核〕",
+      "source_block_ids": [
+        "145"
+      ],
+      "change_ids": [
+        "F094",
+        "F095",
+        "C050",
+        "A020"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P147",
+      "text": "And then of course, there are satellite networks that have a huge footprint, so they are extremely good in providing connectivity also to highly mobility users, because even if users move at extremely high speed, the footprint of a satellite is huge, so as the user moves, they can stay connected with the satellite.\n\nHowever, let's focus on Wi-Fi and cellular. Think of a user that moves very fast. Why are we saying that cellular is better than Wi-Fi in providing connectivity to highly mobile users?",
+      "source_block_ids": [
+        "147"
+      ],
+      "change_ids": [
+        "F096",
+        "F097",
+        "F098",
+        "F099"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P149",
+      "text": "What do you think? Why is cellular more suitable to provide connectivity to highly mobile users?",
+      "source_block_ids": [
+        "149"
+      ],
+      "change_ids": [
+        "F100"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P151",
+      "text": "Remember what we said about coverage? It's related to that also, because Wi-Fi coverage is smaller, typically than the cellular one, right? So, if we have users that move fast, they will move from one Wi-Fi access point to another continuously, because the coverage of access points is small. So, if the users travel fast, they will move from one access point to another continuously.\n\nInstead, the cellular base stations provide larger coverage. So, this means that even if the user is fast, it will stay under the coverage of the same base station for a longer time. So, we don't have to change base station continuously, right? That helps a lot.",
+      "source_block_ids": [
+        "151"
+      ],
+      "change_ids": [
+        "F101",
+        "C051"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P153",
+      "text": "So, using cellular, our user, even if it's a fast user, can remain connected with the same base station for a longer time than if that user use Wi-Fi. So, that's the first advantage [00:50:59] for cellular to support mobile users.\n\nThe second reason why cellular is more suitable for mobile users is due to the technology itself.\n\nIn cellular, we have specific procedures to handle users that move from a base station to another, that allow our users to remain connected with the cellular core without experiencing large disruption times.\n\nThe procedure according to which a user moves from one base station to another, or from one one point of access to another is called handoff or handover. And in cellular, we have specific procedures to handle this event efficiently, very efficient, so that the user cannot perceive the fact that its connection switches from one base station to another.〔补回 A021，待核〕",
+      "source_block_ids": [
+        "153",
+        "155"
+      ],
+      "change_ids": [
+        "F102",
+        "F103",
+        "F104",
+        "C052",
+        "F105",
+        "F106",
+        "C053",
+        "A021",
+        "F107"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P157",
+      "text": "So, in terms of mobility support, we say that Wi-Fi is good for nom, as we were saying nomadic mobility users that remain static or move slowly for a long time, while cellular networks are also able to support users who move quite fast. And then of course, as we said, the satellites support very, very high mobility easily [00:53:26] because their footprint is so large that users rarely get out of a satellite footprint during a connection.\n\nOK, this is the graphical representation of the device to device mode. I would like just to end this classification slides with the last type of networks from the point of view of architecture. That is the hybrid case. The case where our networks may have both device to device communications and users that are connected with a point of access, and then this point of access is connected with the core, with the infrastructure.",
+      "source_block_ids": [
+        "157",
+        "159"
+      ],
+      "change_ids": [
+        "F108",
+        "C054",
+        "F109",
+        "F110",
+        "C055",
+        "F111"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P161",
+      "text": "An example of these hybrid case where we have both are indeed autonomous connected cars. Why? Because our autonomous connected cars may talk directly to each other, but they can also communicate with the so-called roadside units that are antennas that are placed along the road, at intersections, they are typically collocated with traffic lights, and then this roadside unit is a point of access toward the internet.\n\nSo, in a connected cars, we have both the possibility to have device to device communications, direct communications as well as the communication between the users and the roadside unit that is a piece of infrastructure.",
+      "source_block_ids": [
+        "161"
+      ],
+      "change_ids": [
+        "F112",
+        "C056",
+        "F113",
+        "C057",
+        "F114"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P163",
+      "text": "So, this is the hybrid architectural scenario that we may have in our network.\n\nAnd to finish with the possible type of architecture, I would like also to mention this other example that is represented by the so-called mesh networks. We will not spend more time on on this. This is on the only slides I have got on this particular type of technology.〔补回 A022，待核〕",
+      "source_block_ids": [
+        "163"
+      ],
+      "change_ids": [
+        "F115",
+        "F116",
+        "A022"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P165",
+      "text": "It is standardized by IEEE, but it is quite interesting. They are called mesh networks, and as I said, this is a standard, so it's a type of technology.\n\nWhat are they? Well, they are types of networks that use a particular version of Wi-Fi. That's why, why their standard name is actually similar to that that I pointed out to be possible versions of Wi-Fi. Right? IEEE 802.11〔推定 C058〕, because they use a particular version of Wi-Fi, but they are very peculiar.\n\nThink of users that, for example, are stationary users living in one of these buildings. Each building has got a Wi-Fi access point and a router that is connected with other access points and routers located in nearby buildings. And then only few of them are actually connected with the internet.\n\nSo, in this picture, the red markers here are those access points and routers that are directly communicated with the internet. The blue ones, instead, are those that communicate with each other, and some of them communicate also with the red ones.\n\nOK? So, mesh network, they're called mesh networks, because when you have many nodes connected to each other, that's a mesh topology. So, they take the name from the type of topology they use〔推定 C060〕, but the peculiar aspect of these networks is indeed that [00:59:09] only few nodes that are access points or routers are directly connected with it. The others, as I said, are instead connected between each other, and eventually with one of the red access point routers.\n\nWhat does that mean? How can the users that live in this building upload or download traffic to from the internet? If you think about it, all these users will be able to do it, right? But how?\n\nWell, the users who live in this building will have to, for example, upload their traffic to this access point router. And then this traffic will have to be routed toward one of the red nodes, and then from here to the internet.〔补回 A023，待核〕 If they want to download traffic from the internet, this traffic will go from the internet to the red node, and then back to this blue node, and then to the user.\n\nIf instead, I live in this building that has got the red access point router, it would be easier, right? Because I can directly upload traffic to internet and download traffic from it.",
+      "source_block_ids": [
+        "165",
+        "167"
+      ],
+      "change_ids": [
+        "F117",
+        "F118",
+        "C058",
+        "C059",
+        "F119",
+        "F120",
+        "F121",
+        "C060",
+        "C061",
+        "F122",
+        "C062",
+        "F123",
+        "F124",
+        "A023",
+        "F125",
+        "C063",
+        "C064"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P169",
+      "text": "So, what is the rationale behind the creation of this technology? Why did they conceive the mesh〔推定 C065〕? Well, the story is actually interesting, because they were conceived in the US, in Texas. You know, you have these large cities, in particular, there was the city of Houston, you may have heard of it, where there are neighborhoods that are quite poor, so they could not afford to pay the ISP, the internet provider, to get internet connectivity at home. They didn't have the money to do that, and they are poor.\n\nSo, what the researchers thought about was a technology that allows users to share [01:02:16] the cost of the internet connectivity, because if you think about it here, you only need to pay for one, two, three, four, five, six, seven points of access to the internet.\n\nFor the red nodes, but all the blue nodes don't have to pay any internet connectivity because they are not directly connected with the internet provider.〔补回 A024〕",
+      "source_block_ids": [
+        "169",
+        "171"
+      ],
+      "change_ids": [
+        "C065",
+        "C066",
+        "F126",
+        "F127",
+        "F128",
+        "F129",
+        "A024"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P173",
+      "text": "Right? They can connect through their own inner connectivity. So, this means that all these people could access the internet by paying only seven subscriptions. So, that's why they created this technology, the mesh network technology, to allow many people to enjoy…",
+      "source_block_ids": [
+        "173"
+      ],
+      "change_ids": [
+        "F130"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P175",
+      "text": "I'm sorry. I'm sorry. We will have a break here right now. To to allow many people to enjoy internet connectivity at a at a lower price.\n\nOK, so, I will continue later. I apologize. I didn't realize we went overtime. Let's have now 5 minutes break. I will get better with that. Sorry. But you are free to raise your hand and tell me the best we need a day.〔待核 U019〕 Okay, please do that. I will do that.〔待核 C069〕 Sorry.〔补回 A025〕",
+      "source_block_ids": [
+        "175"
+      ],
+      "change_ids": [
+        "F131",
+        "C067",
+        "C068",
+        "U019",
+        "C069",
+        "A025"
+      ],
+      "timestamps_are_anchors": true
+    }
+  ],
+  "excluded_source_blocks": [],
+  "unresolved_items": [
+    {
+      "change_id": "F001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "仅补插入语逗号，保留原话语法；短窗 ASR 对该英语句尚未给出可靠候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 33,
+          "end_char": 54,
+          "old_text": "Chinese of course for"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "F003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "修复缩写中空格与中英排版；保留原文的重复与非规范语法。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "15",
+          "start_char": 16,
+          "end_char": 54,
+          "old_text": "对， yeah， I' m good， I' m doing better。"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "C001",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "“简称”后与随后期刊名称对应，原文 top 与小模型 Top 可能是期刊简称 TON 的识别错误；保留推定标记而不冒充复听确认。",
+      "uncertainty_note": "仅术语语境推定；不能凭期刊名称证明实际发音。",
+      "source_spans": [
+        {
+          "block_id": "17",
+          "start_char": 177,
+          "end_char": 187,
+          "old_text": "我们一般简称 top"
+        }
+      ],
+      "markers": [
+        "〔推定 C001〕"
+      ]
+    },
+    {
+      "change_id": "C002",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文保留 Transactions on Networking，小模型听作 IICM, Communication on Network；采用对应期刊的标准名称，明确属语境推定。",
+      "uncertainty_note": "没有逐词复听确认。",
+      "source_spans": [
+        {
+          "block_id": "17",
+          "start_char": 192,
+          "end_char": 223,
+          "old_text": "IICM Transactions on Networking"
+        }
+      ],
+      "markers": [
+        "〔推定 C002〕"
+      ]
+    },
+    {
+      "change_id": "C003",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "相邻段一直在介绍卡拉教授，小模型此处也为 Kala 教授；原文“他的教授”与该指代冲突。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 88,
+          "end_char": 94,
+          "old_text": "然后他的教授"
+        }
+      ],
+      "markers": [
+        "〔推定 C003〕"
+      ]
+    },
+    {
+      "change_id": "C004",
+      "confidence": "high",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "同一介绍前段原文已有“都灵理工大学”，此处小模型“多明理工大学”也近音；按前后同一学校名称修复。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 114,
+          "end_char": 121,
+          "old_text": "多多林理工大学"
+        }
+      ],
+      "markers": [
+        "〔推定 C004〕"
+      ]
+    },
+    {
+      "change_id": "U001",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 HV 与小模型 H V 无法确定实际称号；不据背景知识替换成另一个 Fellow 称号。",
+      "uncertainty_note": "保留原文候选，等待更清楚的音频证据。",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 99,
+          "end_char": 108,
+          "old_text": "HV fellow"
+        }
+      ],
+      "markers": [
+        "〔待核 U001〕"
+      ]
+    },
+    {
+      "change_id": "C005",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "重叠窗口 110–230 秒原始 ASR 为“这样也方便”；首窗为“这样也非常的方便”。两者均不支持“发起了”，采用直接重叠窗口的较保守文字。",
+      "uncertainty_note": "两次 ASR 对“非常的”有分歧，未擅自添加；不是听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 183,
+          "end_char": 192,
+          "old_text": "这样也发起了，方便"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "F008",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "与前块的缩略短语连读，故 creating 不大写；统一 WeChat 与句间空格，保留 in in 的原文重复和不规范句法。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "23",
+          "start_char": 16,
+          "end_char": 61,
+          "old_text": "Creating the wechat group.I bring in in that."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "U002",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "这句末尾的人名或短语与两份 ASR 严重不一致；保留原文作为待核候选，没有把小模型输出直接替换进去。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "9",
+          "start_char": 46,
+          "end_char": 46,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U002〕"
+      ]
+    },
+    {
+      "change_id": "U003",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "短语可能涉及人名；原文与独立 ASR 无法裁决；保留原文作为待核候选，没有把小模型输出直接替换进去。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "11",
+          "start_char": 25,
+          "end_char": 25,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U003〕"
+      ]
+    },
+    {
+      "change_id": "U004",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文短英语句与 ASR 人名候选冲突；保留原文作为待核候选，没有把小模型输出直接替换进去。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "13",
+          "start_char": 30,
+          "end_char": 30,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U004〕"
+      ]
+    },
+    {
+      "change_id": "U005",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "强制 English 短窗支持原文后半 “yeah, I'm good. I'm doing better” 的原句后半；前半短词及人名仍未精确定位，保留此处整体待核；保留原文作为待核候选，没有把小模型输出直接替换进去。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "15",
+          "start_char": 54,
+          "end_char": 54,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U005〕"
+      ]
+    },
+    {
+      "change_id": "U006",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 in in that 与 ASR 中英混杂尾句不一致；暂保留原文；保留原文作为待核候选，没有把小模型输出直接替换进去。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "23",
+          "start_char": 61,
+          "end_char": 61,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U006〕"
+      ]
+    },
+    {
+      "change_id": "U007",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "帕莱教授可能为卡拉教授；音形候选不一致，暂保留原文；保留原文作为待核候选，没有把小模型输出直接替换进去。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "27",
+          "start_char": 131,
+          "end_char": 131,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U007〕"
+      ]
+    },
+    {
+      "change_id": "F010",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "统一中英标点；候选词本身保留待核，不据标点推定准确听辨。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "11",
+          "start_char": 16,
+          "end_char": 25,
+          "old_text": "嗯， can I。"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "U008",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文为 “Yeah, send me a question.”；自动 ASR 无可靠英语对应，强制 English 复跑为 “Yeah, I'm setting up the course.” 一类候选，仍不一致。保留原文，不将语境猜测冒充定稿。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "29",
+          "start_char": 41,
+          "end_char": 41,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U008〕"
+      ]
+    },
+    {
+      "change_id": "U009",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文为 “So you need to click on your phone.”；自动 ASR 给中文操作话语，强制 English 复跑出现 “Google Form” 候选。当前微信群场景也不能证明某个词真的说出；保留原文待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "31",
+          "start_char": 51,
+          "end_char": 51,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U009〕"
+      ]
+    },
+    {
+      "change_id": "U010",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文完整英语句 “Let me check if everyone is here.” 未在小模型窗口中可靠对应；保持原文待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "33",
+          "start_char": 49,
+          "end_char": 49,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U010〕"
+      ]
+    },
+    {
+      "change_id": "U011",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "“应该就主门口那时候最近”与小模型“应该离我们可能稍微近”均不清楚；先保留原文候选，未以通顺为由编写地点。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "49",
+          "start_char": 213,
+          "end_char": 213,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U011〕"
+      ]
+    },
+    {
+      "change_id": "U012",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文姓名候选“舒马赫”与小模型此处的碎片不一致；不按人物常识自行替换。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "55",
+          "start_char": 20,
+          "end_char": 20,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U012〕"
+      ]
+    },
+    {
+      "change_id": "U013",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "“舒马”“是82年的”均缺乏可靠交叉识别；暂保留原文候选及“你你”重复，未推断学生姓名或出生年。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "57",
+          "start_char": 50,
+          "end_char": 50,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U013〕"
+      ]
+    },
+    {
+      "change_id": "F013",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "补句间空格，将 after class 连回 subway station 短语，并规范 WeChat 字形；保留所有原词与重复，不将原来的不规范英语润色成猜测的流利句。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "59",
+          "start_char": 16,
+          "end_char": 394,
+          "old_text": "Shoe, shoe, it's actually like the master of all the students.It will be happy to the subway station.After class.Asking too much.Ask him to help him to check our guest service tickets on.Yes, because now we only have like around 60 or 70 tickets in the classroom.But I ask, I already ask him to bring you know.You might help the others into the wechat group, so let them invite."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "U014",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "此长段的学生介绍、地铁和群聊操作英语与恢复 ASR 出入较大，未形成可靠全文候选。保留原词并整理标点；“It will be happy…”“tickets”等未凭前文中文说明补写成新讲话。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "59",
+          "start_char": 394,
+          "end_char": 394,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 U014〕"
+      ]
+    },
+    {
+      "change_id": "U015",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在此为泰文字母串，独立恢复窗口给出英语致谢等碎片，但没有可靠逐句对齐。正文用识别不清标记，不把泰文或英语猜测冒充确定讲话；旧文在完整差异和原始档案中保留。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "61",
+          "start_char": 16,
+          "end_char": 29,
+          "old_text": "หนุ่มทรงใหม่."
+        }
+      ],
+      "markers": [
+        "〔识别不清 U015〕"
+      ]
+    },
+    {
+      "change_id": "U016",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在此为泰文字母串，独立恢复窗口给出英语致谢等碎片，但没有可靠逐句对齐。正文用识别不清标记，不把泰文或英语猜测冒充确定讲话；旧文在完整差异和原始档案中保留。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "63",
+          "start_char": 16,
+          "end_char": 32,
+          "old_text": "สร้างโรคหาดใหญ่."
+        }
+      ],
+      "markers": [
+        "〔识别不清 U016〕"
+      ]
+    },
+    {
+      "change_id": "U017",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在此为泰文字母串，独立恢复窗口给出英语致谢等碎片，但没有可靠逐句对齐。正文用识别不清标记，不把泰文或英语猜测冒充确定讲话；旧文在完整差异和原始档案中保留。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "65",
+          "start_char": 16,
+          "end_char": 44,
+          "old_text": "ขอบคุณเคารพไปดูกันเองแน่นอน."
+        }
+      ],
+      "markers": [
+        "〔识别不清 U017〕"
+      ]
+    },
+    {
+      "change_id": "C006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "当前完整来源快照写作 Carle，06:22–07:30 独立恢复 ASR 给出 Carla，前文中文“卡拉”也相近。采用 Carla 作为待核候选，保留姓名拼写不确定性。",
+      "uncertainty_note": "单个恢复窗口及中文音译支持该候选，尚不构成姓名拼写的确定确认。",
+      "source_spans": [
+        {
+          "block_id": "67",
+          "start_char": 31,
+          "end_char": 36,
+          "old_text": "Carle"
+        }
+      ],
+      "markers": [
+        "〔待核 C006〕"
+      ]
+    },
+    {
+      "change_id": "C009",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "新原始 ASR 明确识别为 a written test，原文 an as 后断句可能来自误识别或口头起始音。先采用新识别的完整词组，但保留待核标记，不把它描述为单纯语法润色。",
+      "uncertainty_note": "尚不能排除原话带有口头起始音；不声称教师必然没有停顿或自我修正。",
+      "source_spans": [
+        {
+          "block_id": "71",
+          "start_char": 418,
+          "end_char": 448,
+          "old_text": "we'll have an as.Written test."
+        }
+      ],
+      "markers": [
+        "〔待核 C009〕"
+      ]
+    },
+    {
+      "change_id": "U018",
+      "confidence": "low",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "WeChat 采用品牌大小写；此后 ASR 有 And, and to be enough，原文未记录且句意不稳，不能把流畅猜测写成原话。保留短句识别不清标记。",
+      "uncertainty_note": "尚未可靠恢复这一小段短句；正文不补造词句。",
+      "source_spans": [
+        {
+          "block_id": "79",
+          "start_char": 25,
+          "end_char": 32,
+          "old_text": "Wechat."
+        }
+      ],
+      "markers": [
+        "〔识别不清 U018〕"
+      ]
+    },
+    {
+      "change_id": "A003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "小模型给出原文遗漏的课程涵盖不同主题说明，后接原文 no book that collects and covers all topics，逻辑连贯；但只有一个有效窗口，保留候选标记。",
+      "uncertainty_note": "单窗口支持，未人工复听。",
+      "source_spans": [
+        {
+          "block_id": "79",
+          "start_char": 32,
+          "end_char": 32,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 A003，待核〕"
+      ]
+    },
+    {
+      "change_id": "A004",
+      "confidence": "high",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "当前 Qwen 主窗口与此前 Qwen/Whisper medium/large-v3 均补出相同的硕士项目合作说明。早期 Qwen 整段直接给出 Tongji professors and myself；Whisper 给出同音 Tone G/tone G。结合原文 Tongji 课堂语境采用 Tongji 拼写。早期样本已与当前录音同一时段 PCM 逐字节核验相同。",
+      "uncertainty_note": "缺句由两个模型家族交叉支持；专名拼写有 Qwen 直接词形并结合原文语境，仍不声称人工复听。",
+      "source_spans": [
+        {
+          "block_id": "81",
+          "start_char": 658,
+          "end_char": 688,
+          "old_text": "So, if you would like to take."
+        }
+      ],
+      "markers": [
+        "〔补回 A004〕"
+      ]
+    },
+    {
+      "change_id": "C017",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型为 process these images, other satellites on board satellites；结合原文 are the satellites 和后续 on board，推定前一短语是 at the satellites 的近音误识别。保留后续重复说明，避免改写成未说出的流畅解释。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "85",
+          "start_char": 136,
+          "end_char": 200,
+          "old_text": "process.These images are the satellites on board the satellites."
+        }
+      ],
+      "markers": [
+        "〔待核 C017〕"
+      ]
+    },
+    {
+      "change_id": "A005",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文近音片段 Injuring etiling 对应新 ASR In Turin, Italy，并补出原文未记的大学所在地从句。保留新识别中 that is my where 的不规范口语，不自行写成 that is where。",
+      "uncertainty_note": "地点名由后续原文 Turin, Italy 互证；新增从句和口头起始音只有单窗口支持。",
+      "source_spans": [
+        {
+          "block_id": "87",
+          "start_char": 329,
+          "end_char": 346,
+          "old_text": "Injuring etiling."
+        }
+      ],
+      "markers": [
+        "〔补回 A005，待核〕"
+      ]
+    },
+    {
+      "change_id": "A006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 with which we 后截断；新 ASR 接出 test our solutions，符合前文实验设备用途，标为单窗口补回候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "89",
+          "start_char": 161,
+          "end_char": 184,
+          "old_text": "vehicles with which we."
+        }
+      ],
+      "markers": [
+        "〔补回 A006，待核〕"
+      ]
+    },
+    {
+      "change_id": "C019",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "小模型为 on campus in in Turin；修复原文 Qurin 近音地点词并恢复 campus in 的接续。保留模型给出的 in 重复，但精确重复次数仅由该窗口支持，标待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "89",
+          "start_char": 569,
+          "end_char": 590,
+          "old_text": "on campus.In a Qurin."
+        }
+      ],
+      "markers": [
+        "〔待核 C019〕"
+      ]
+    },
+    {
+      "change_id": "A007",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 old building 后跳到 Tomorrow；新窗口给出旧校舍、新校舍与校园范围的连续描述。按识别保留 premises is 和 of of，不改成正式介绍文，新增内容标单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "89",
+          "start_char": 699,
+          "end_char": 716,
+          "old_text": "The old building."
+        }
+      ],
+      "markers": [
+        "〔补回 A007，待核〕"
+      ]
+    },
+    {
+      "change_id": "C021",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "小模型给出 Polytechnico di Turin，原文给出 Politecnico Torino；综合两者保留原文意大利名称拼写并补入小模型明确识别的 di。专名重建仍标语境推定，未把英文 Turin 强行替换意大利词尾。",
+      "uncertainty_note": "专名写法基于两种转写互补，不是人工复听或凭学校网页倒推讲话。",
+      "source_spans": [
+        {
+          "block_id": "91",
+          "start_char": 138,
+          "end_char": 156,
+          "old_text": "Politecnico Torino"
+        }
+      ],
+      "markers": [
+        "〔推定 C021〕"
+      ]
+    },
+    {
+      "change_id": "A008",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 run 后结束，下一句已经是 Any question；新 ASR 补出 GPU 用来运行的 machine learning and AI services，标为单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "91",
+          "start_char": 683,
+          "end_char": 707,
+          "old_text": "GPUs that we use to run."
+        }
+      ],
+      "markers": [
+        "〔补回 A008，待核〕"
+      ]
+    },
+    {
+      "change_id": "C023",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "紧接都灵校园和研究实验室介绍，原文 Turing 更可能为同音地点 Turin；当前小模型给出 doing，未解决这个词。采用最合语境的地点写法并明确推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "93",
+          "start_char": 29,
+          "end_char": 41,
+          "old_text": "about Turing"
+        }
+      ],
+      "markers": [
+        "〔推定 C023〕"
+      ]
+    },
+    {
+      "change_id": "A009",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 important 后直接进入百分比数字；新窗口给出无线网络日常手机应用这一段解释。保留 as you know, as we do 和最后的口语片段，不改写成完整书面句，标单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "95",
+          "start_char": 375,
+          "end_char": 395,
+          "old_text": "very very important."
+        }
+      ],
+      "markers": [
+        "〔补回 A009，待核〕"
+      ]
+    },
+    {
+      "change_id": "A010",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 cover 后截断；小模型补出大范围网络与 Wi-Fi 本地区域网络的例子，标明单窗口支持。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "97",
+          "start_char": 603,
+          "end_char": 632,
+          "old_text": "wireless networks that cover."
+        }
+      ],
+      "markers": [
+        "〔补回 A010，待核〕"
+      ]
+    },
+    {
+      "change_id": "A011",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "主窗口补出 latency 的口头定义，而原文在 low latency 后直接进入 This is true；保留 delay, low delay 的说明性重复。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "99",
+          "start_char": 719,
+          "end_char": 753,
+          "old_text": "guarantee low latency.This is true"
+        }
+      ],
+      "markers": [
+        "〔补回 A011，待核〕"
+      ]
+    },
+    {
+      "change_id": "A012",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文从高速车辆直接转入固定传感器；模型给出 support high mobility 的过渡说明，保留原句并标候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "101",
+          "start_char": 162,
+          "end_char": 187,
+          "old_text": "high speed.In other cases"
+        }
+      ],
+      "markers": [
+        "〔补回 A012，待核〕"
+      ]
+    },
+    {
+      "change_id": "A013",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 guarantee 后截断；小模型补出大量设备连接及 device density 的术语说明，标单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "101",
+          "start_char": 497,
+          "end_char": 524,
+          "old_text": "where we need to guarantee."
+        }
+      ],
+      "markers": [
+        "〔补回 A013，待核〕"
+      ]
+    },
+    {
+      "change_id": "A014",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 and also 后结束，下段直接讨论电池容量；模型补出 battery powered devices 这一理由。未凭下一段自行推写，引用实际识别句子。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "103",
+          "start_char": 207,
+          "end_char": 216,
+          "old_text": "and also."
+        }
+      ],
+      "markers": [
+        "〔补回 A014，待核〕"
+      ]
+    },
+    {
+      "change_id": "A015",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在普通接入点说明后直接跳到下一块 But actually；小模型补出无接入点的 ad hoc 网络定义。按原句保留 as we will explain better in a minute，标候选，后接下一原时间锚点。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "107",
+          "start_char": 505,
+          "end_char": 528,
+          "old_text": "with a point of access."
+        }
+      ],
+      "markers": [
+        "〔补回 A015，待核〕"
+      ]
+    },
+    {
+      "change_id": "A016",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在解释 hosts 后直接进入下一块 Also；新 ASR 补出主机例子一段。按音频模型保留 and so on and so 的口语末尾，不润色，标单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "111",
+          "start_char": 351,
+          "end_char": 360,
+          "old_text": "links.Ok."
+        }
+      ],
+      "markers": [
+        "〔补回 A016，待核〕"
+      ]
+    },
+    {
+      "change_id": "A017",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文从不完整的 To put 开始，新窗口在相同短语前给出 OK, so let us now try。按模型原句恢复完整开场，补回候选身份在差异中注明。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "123",
+          "start_char": 16,
+          "end_char": 33,
+          "old_text": "To put some order"
+        }
+      ],
+      "markers": [
+        "〔补回 A017，待核〕"
+      ]
+    },
+    {
+      "change_id": "A018",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文的覆盖范围问题未完就跳到 A third type；相邻音频窗口给出完整覆盖说明，后窗继续给出遗漏的第二个分类标准 node mobility。按新识别句子补回，不凭 third 自行编造。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "123",
+          "start_char": 377,
+          "end_char": 399,
+          "old_text": "What type of coverage?"
+        }
+      ],
+      "markers": [
+        "〔补回 A018，待核〕"
+      ]
+    },
+    {
+      "change_id": "C036",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文数字近音片段与新模型 eight to two dot eleven 对应，紧接 Wi-Fi technologies 和不同字母后缀。按技术语境采用 802.11，明确标记语境推定，不声称音频模型准确输出这组数字。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "127",
+          "start_char": 285,
+          "end_char": 303,
+          "old_text": "a.Itu tuh dot ilen"
+        }
+      ],
+      "markers": [
+        "〔推定 C036〕"
+      ]
+    },
+    {
+      "change_id": "A019",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 Dan 后结束；新 ASR 补出字母标记不同 Wi-Fi 代际的说明，保留候选标记，不从标准列表补入未说的字母名称。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "127",
+          "start_char": 303,
+          "end_char": 308,
+          "old_text": ".Dan."
+        }
+      ],
+      "markers": [
+        "〔补回 A019，待核〕"
+      ]
+    },
+    {
+      "change_id": "C037",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文与小模型都给出 special area，但本句明确定义 coverage 为技术能覆盖的空间区域，spatial area 在概念和近音上更合语境。结合语境判断采用 spatial，并明确标为语境推定；两个 ASR 同词不等于真实原话已确认。",
+      "uncertainty_note": "两种转写均为 special；该修订不是音频模型直接支持，不声称听辨准确。",
+      "source_spans": [
+        {
+          "block_id": "125",
+          "start_char": 232,
+          "end_char": 244,
+          "old_text": "special area"
+        }
+      ],
+      "markers": [
+        "〔推定 C037〕"
+      ]
+    },
+    {
+      "change_id": "C038",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文和新 ASR 都给出 meters stands to hundreds；结合描述覆盖数量级的语境，stands 更像 tens 前后词边界的误识别。采用 meters, tens to hundreds 并标推定，保留原文先说 meters 的口语起始。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "129",
+          "start_char": 259,
+          "end_char": 284,
+          "old_text": "meters stands to hundreds"
+        }
+      ],
+      "markers": [
+        "〔推定 C038〕"
+      ]
+    },
+    {
+      "change_id": "C039",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文为 fill a range，新 ASR 为 still a range；在说明可覆盖到公里范围的语境中，采用近音的 till。仍是非标准口语表达，并明确标推定，未擅改成 reach 或 up to 等无直接证据词组。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "129",
+          "start_char": 426,
+          "end_char": 438,
+          "old_text": "fill a range"
+        }
+      ],
+      "markers": [
+        "〔推定 C039〕"
+      ]
+    },
+    {
+      "change_id": "C041",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 Gene Rosen 与新 ASR Jim Purison 均不稳；结合后述 top-down 网络教材，并用作者本人大学主页确认书目身份，推定 Jim Kurose。书目核验不是音频听辨，也未补入另一作者姓名。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "131",
+          "start_char": 155,
+          "end_char": 173,
+          "old_text": "book.By Gene Rosen"
+        }
+      ],
+      "markers": [
+        "〔推定 C041〕"
+      ]
+    },
+    {
+      "change_id": "C042",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 countdown 与新 ASR down down 很可能对应所述网络教材的 top-down。以[作者本人主页](https://gaia.cs.umass.edu/personnel/textbook.htm)的书目身份作为语境旁证，保留待核推定标记，不把完整正式书名替换进原话。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "131",
+          "start_char": 187,
+          "end_char": 205,
+          "old_text": "countdown approach"
+        }
+      ],
+      "markers": [
+        "〔推定 C042〕"
+      ]
+    },
+    {
+      "change_id": "C046",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文与小模型均为 cabled community；此处在说网络核心的有线通信，采用近音且合语境的 communication。另一个可能词为 connectivity，暂不把所选词写成音频确证；正文明确标推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "141",
+          "start_char": 316,
+          "end_char": 332,
+          "old_text": "cabled community"
+        }
+      ],
+      "markers": [
+        "〔推定 C046〕"
+      ]
+    },
+    {
+      "change_id": "A020",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文最后的识别片段没有保留完整的高速用户服务总结。前窗给出主要短语，下一窗补全 fast users；将恢复的实质结尾单列为补回候选，保留跨窗边界证据。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "145",
+          "start_char": 508,
+          "end_char": 508,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 A020，待核〕"
+      ]
+    },
+    {
+      "change_id": "A021",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 connection 后截断；模型补出用户感知不到连接从一个基站切到另一个基站的句尾，保留原句并标单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "155",
+          "start_char": 620,
+          "end_char": 635,
+          "old_text": "its connection."
+        }
+      ],
+      "markers": [
+        "〔补回 A021，待核〕"
+      ]
+    },
+    {
+      "change_id": "A022",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 spend 后截断；新窗口补出不会展开此技术、只有当前幻灯片的一段口头说明。保留 on on 和不稳的 on the only slides，明确单窗口候选，不凭演示材料猜写句子。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "163",
+          "start_char": 246,
+          "end_char": 264,
+          "old_text": "We will not spend."
+        }
+      ],
+      "markers": [
+        "〔补回 A022，待核〕"
+      ]
+    },
+    {
+      "change_id": "C058",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 I have created 2.11 与新 ASR I abbreviated to dot in a 均不可靠。结合本段已明确 IEEE、Wi-Fi 版本以及此前 802.11 讨论，推定为 IEEE 802.11。只恢复到这一层，不凭 mesh 语境添加后缀 s；仍明确标推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "165",
+          "start_char": 373,
+          "end_char": 390,
+          "old_text": "I've created 2.11"
+        }
+      ],
+      "markers": [
+        "〔推定 C058〕"
+      ]
+    },
+    {
+      "change_id": "C060",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 These two years 与新 ASR this blue 均不清楚；前句在解释名称来自所使用的拓扑，推定为 they use。属于语境与近音重建，保留明确标记，不称模型一致或听辨确认。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "165",
+          "start_char": 1163,
+          "end_char": 1199,
+          "old_text": "the type of topology.These two years"
+        }
+      ],
+      "markers": [
+        "〔推定 C060〕"
+      ]
+    },
+    {
+      "change_id": "A023",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 to the 后丢掉目的地名词并连到下一条件句；新 ASR 明确为 to the internet，补回遗漏单词并恢复句界，标单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "167",
+          "start_char": 609,
+          "end_char": 634,
+          "old_text": "from here to the, if they"
+        }
+      ],
+      "markers": [
+        "〔补回 A023，待核〕"
+      ]
+    },
+    {
+      "change_id": "C065",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 machine 与新 ASR meshing 均不合当前技术指称；结合整段 mesh networks，推定为 the mesh。没有补入无明确词形支持的 network 后缀或完整正式术语，仍标推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "169",
+          "start_char": 81,
+          "end_char": 115,
+          "old_text": "Why did they conceive?The machine."
+        }
+      ],
+      "markers": [
+        "〔推定 C065〕"
+      ]
+    },
+    {
+      "change_id": "U019",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文短句未可靠识别，主窗为 That is really okay，尾窗为 but that is unavoidable，不能凭课堂休息语境写成某句具体引语。暂保留原文候选并显著标待核，原始模型分歧完整附在差异中。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "175",
+          "start_char": 336,
+          "end_char": 359,
+          "old_text": "the best we need a day."
+        }
+      ],
+      "markers": [
+        "〔待核 U019〕"
+      ]
+    },
+    {
+      "change_id": "C069",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "主窗和尾窗都出现 I will do that，优于原文 That would be happy 的不合语境词串；但尾窗又多出 hand，且可能有不同说话人，采用共有词串并保留待核，仍沿用原始说话人锚点而不新造说话人。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "175",
+          "start_char": 380,
+          "end_char": 400,
+          "old_text": "That would be happy."
+        }
+      ],
+      "markers": [
+        "〔待核 C069〕"
+      ]
+    }
+  ],
+  "full_text_review_complete": true
+}
