@@ -1,0 +1,501 @@
+{
+  "title": "文字记录：录音机-20261012-1620 2026年10月14日 - 飞书云文档",
+  "url": "https://lcn6dqn3m0yr.feishu.cn/docx/FE7xdY0jooYHAgxAbCKc7rspn8e",
+  "captured_at": "2026-10-17T03:30:43.431Z",
+  "complete": true,
+  "missing_block_ids": [],
+  "changed_block_ids": [],
+  "blocks": [
+    {
+      "id": "3",
+      "text": "会议主题：录音机-20261012-1620​\n上传时间：2026年10月14日（周三） 09:55 （GMT+08）​\n智能纪要：录音机-20261012-1620 2026年10月14日​"
+    },
+    {
+      "id": "4",
+      "text": "​"
+    },
+    {
+      "id": "5",
+      "text": "说话人 1 00:00:00​\nJust as an hands up.So, this slide deck is pretty large, it includes many slides, but don't worry, because actually, we will not go over all the slides.OK?So, at the second point, we'll we'll we'll start, and we leave the rest of the slides to your reading, if you are interested in the activities of the more recent versions of Wi-Fi.So, we will just go through them very quickly.And that would be only, you know, just something that you can listen to in a in a during the class, but you don't have to review those lines.Unless you are interested in knowing more details on these, and retain more details on the more recent versions of WiFi.Otherwise,it's just for your information.​"
+    },
+    {
+      "id": "6",
+      "text": "​"
+    },
+    {
+      "id": "7",
+      "text": "说话人 1 00:01:12​\nOK.So, no worries.We go on a little bit more just to give the basis of what are the most recent developments, but in details.We notlook at all all the slides of this slide back.Instead, we will then move to device to device, in general, device to device communication networks.And sensor neighbors, OK?And we see how sensors access the channel, and you would see that is kind of similar to this one, OK?So this is essentially the, the, the, the DCS, the basic DCS, is the hardest part.From now on, related to channel access, everything will be down here.OK?So, we, yeah, OK?So, the third major problem, right?We have with PCF, what is that?Well, it's actually related, it was not easy, it's not easy to spot.It is related to something that I said, but, you know, I said that while explaining the overall way, noise access the channel.So maybe you have not.Grasp this piece of information.But if we go back to what i said about PCF, you might now remember that i mentioned.We said that whenever the access point falls.​"
+    },
+    {
+      "id": "8",
+      "text": "​"
+    },
+    {
+      "id": "9",
+      "text": "说话人 1 00:03:09​\nA user.We do not actually know for how long that user will transmit, right?Because it depends on the size of the payload, if it's got a payload to transmit first of all, on the size of the payload.And on the speed.At which the node is able to rise.​"
+    },
+    {
+      "id": "10",
+      "text": "​"
+    },
+    {
+      "id": "11",
+      "text": "说话人 1 00:03:32​\nSo, how long is, for example, A occupying the channel?For how long?We don't know.The access point does not know that.And for how long willC, hold the china.Again, we don't know.​"
+    },
+    {
+      "id": "12",
+      "text": "​"
+    },
+    {
+      "id": "13",
+      "text": "说话人 1 00:03:56​\nRemember, the Call of plus is.Control the delay, channel access delay.How can we control channel access delay at the access point?If the access point does not know for how long a polled user will keep the channel.It might be that within one BCF phase, the access point may not be able to pull all stations, right?Because at a certain point the phase finishes.For sure, we cannot go over the superframe.Termination, that's that's for sure.​"
+    },
+    {
+      "id": "14",
+      "text": "​"
+    },
+    {
+      "id": "15",
+      "text": "说话人 1 00:04:48​\nSo, it really depends on who has got data to transmit, what kind of data payload they have got, how fast they are.But we have no control about, and that's really really bad, because our goal was to havecontrol on channel access.Right?So, that's the major, third major issue.​"
+    },
+    {
+      "id": "16",
+      "text": "​"
+    },
+    {
+      "id": "17",
+      "text": "说话人 1 00:05:30​\nOK, good.Now, if this is clear, then we are really done with this initial version.Of of DCS and PCF, so of the Wi-Fi MAC scheme.This is a slide that highlights the differences between DCS and PCF.​"
+    },
+    {
+      "id": "18",
+      "text": "​"
+    },
+    {
+      "id": "19",
+      "text": "说话人 1 00:05:56​\nAs mentioned, what we reallyneed to retain from what we said about PCS, is the major things, right?That we described how it works, and the major issues that you've got.Why?Because in the more recent versions of Wi-Fi, we have a slightly different.Specifications about both factory, the VCF and the PCF, so the distributed and centralized channel access schemes.And this time they are both implemented, because in this Wi-Fi 4 version.They solved the PCF issues.​"
+    },
+    {
+      "id": "20",
+      "text": "​"
+    },
+    {
+      "id": "21",
+      "text": "说话人 1 00:06:44​\nOK.They improved the distributed scheme, and they specified a new centralized scheme that is, let's say.2.0 version of PCF, and now this new version of the centralized access scheme works.​"
+    },
+    {
+      "id": "22",
+      "text": "​"
+    },
+    {
+      "id": "23",
+      "text": "说话人 1 00:07:04​\nOK, so now we enter a new chapter in our Wi-Fi slides.This chapter is still important.OK, this is not something that you can justoverlook, this part of the WiFi slides is still to be considered as important material.OK?But as I said, no worries, because from now on, everything is going downhill.As you will see, this part is going to be very easy.To acquire, compare to what we have gone through, OK?So, no worries.​"
+    },
+    {
+      "id": "24",
+      "text": "​"
+    },
+    {
+      "id": "25",
+      "text": "说话人 1 00:07:52​\nNow, as the first slide says, Wifi 4, or if you want to use the name of the technical amendment of the standard.Is refer to 802.11E.But that's a meeting.Wi-Fi 4 has been a.Introduced, so they changed the access scheme in more recent versions of WiFi, because indeed there was this pressing need to support quality of service.Right?So we moved from the times, all times whenthe major type of traffic that we had to transmit where data files.Between mostly between computers.To the new era, when we have user applications.​"
+    },
+    {
+      "id": "26",
+      "text": "​"
+    },
+    {
+      "id": "27",
+      "text": "说话人 1 00:09:01​\nYou need to be sure that your data are reliably transmitted, and they need to be transmitted fast, right?Otherwise, as we said, voice, video, video calls do not work.So, since the interests and needs of the users changed, they had to update, let's say, announce the wi fi.Technology as well to satisfy to meet the user's need.And this is why they moved to this Wi-Fi 4.So major objective here as we said is to guarantee quality of service.​"
+    },
+    {
+      "id": "28",
+      "text": "​"
+    },
+    {
+      "id": "29",
+      "text": "说话人 1 00:09:49​\nNow.That's all.This improved version of the channel access scheme.This is mostly about terminology, okay?So it's not very important, but for your information, this new version of the access scheme is called.Hybrid coordination function, HTS, is made as we said, is made of two channel access schemes, one distributed and one centralized.The distributed one, as I said, is an announced version.Of DCF, and since it's an Ann's version of DCF, they had to change the name.Sorry, and now this is called EDCA, Ann's distributed, for the channel access.Also, the decentralized scheme, now it says centralized scheme that works is not.As PCF that it did not work, right?So, they change it, they improved it, and now they named it in a different way.Yeah, sorry for all these names, but just for your information, they say the new PCF is called.​"
+    },
+    {
+      "id": "30",
+      "text": "​"
+    },
+    {
+      "id": "31",
+      "text": "说话人 1 00:11:27​\nThat's sad, again, just for your information, whenever talking about a BSS or a Wi-Fi station.They actually put the Q in front of to underline the fact that this version of Wi-Fi aims at quality of service.So that Q stands for quality of service.It's a terminology thing, no need to remember about it.Okay, it's just to be it,the axis point also is typically referred to as hybrid coordinator.So, we change this.​"
+    },
+    {
+      "id": "32",
+      "text": "​"
+    },
+    {
+      "id": "33",
+      "text": "说话人 1 00:12:09​\nAll these are, you know, details.Okay, I mention them for to be precise, but you can forget about.What is instead important?It is this last point here.This is important.​"
+    },
+    {
+      "id": "34",
+      "text": "​"
+    },
+    {
+      "id": "35",
+      "text": "说话人 1 00:12:26​\nTransmission opportunity.What is that?Well, they introduce this concept in Wi-Fi 4, and I would say that this is one of the main innovations in this new access scheme.​"
+    },
+    {
+      "id": "36",
+      "text": "​"
+    },
+    {
+      "id": "37",
+      "text": "说话人 1 00:12:43​\nTransmission opportunity.What is the transmission opportunity when you have the opportunity to transmit, right?So, in this new version, one and note, gets the chance to.What is, what it wins, is not the possibility to transmit one packet, but it is the possibility to transmit for a certain period of time.So, what it wins is a transmission opportunity.The transmission opportunity is a period of time during which a node can transmit.It can transmit one packet, two packets, three packets till at maximum duration, that is called transmission opportunity limit.Right?So given that you have as transmission opportunity limit, let's say 5 milliseconds.In those 5 milliseconds, you can do whatever you like.Right?You can transmit one packet, two packets, three packets, ora very very long packet that covers the all 5 milliseconds.As you like, it's your transmission opportunity, OK?​"
+    },
+    {
+      "id": "38",
+      "text": "​"
+    },
+    {
+      "id": "39",
+      "text": "说话人 1 00:14:15​\nSo, while in the previous version of Wi-Fi, we had the so called pair packet channel access, because when wewe're able to access the channel.We were transmitting one packet.Now, we have the temporal based channel access, meaning that what we.​"
+    },
+    {
+      "id": "40",
+      "text": "​"
+    },
+    {
+      "id": "41",
+      "text": "说话人 1 00:14:59​\nOK?So, it's a different actually way of thinking of.Channel access, this is very important.OK, that said, let's start by looking at the again distributed version of the channel access scheme in this Wi-Fi 4.That as we said is an announced version of the previous one.And for this reason it's called EDCA, where the initial letter E stands indeed for announced.​"
+    },
+    {
+      "id": "42",
+      "text": "​"
+    },
+    {
+      "id": "43",
+      "text": "说话人 1 00:15:40​\nNow, there is a very, a very simple way to understand how this distributed channel access scheme has been announced.Let me show you this, and you will immediately understand how it works.OK?Remember what we sent, right?We know that already, that's the big advantage.Now we know that the mac layer in Wi-Fi.Can be modeled using a queue and a server, right?That's what we discussed the very, we said many times.So, in the previous version, we were looking at the mac layer.​"
+    },
+    {
+      "id": "44",
+      "text": "​"
+    },
+    {
+      "id": "45",
+      "text": "说话人 1 00:16:39​\nAnd then this queue is works according to the FIFO policy, first input first output, so the first one that arrives get served.Right?So packets may be queued in the same order as they arrive, and then they get served one at a time.And this is the server that applies the rules of the BCF punch.That's something that we already knew.And we also knew that when the server services a packet, so it means that it tries to get this packet through.And send it to the physical layer, so that the packet can then be transmitted over the wireless channel.Well, it has to follow the rules of the protocol.And the protocol, the mark protocol, the DCF works using certain parameters, right?The sieves, the leaves.The beefs, the extended IFS, the becauve procedure, we all know that, and the becauve makes use of the.Es un Windows minium de Contention, Windows máximo.OK, now, in the announced version of this, what we have is within the same Wi-Fi card, so the same Wi-Fi card does not have only one queue.It has got four cubes.That are called answers category 0, answers category 1, answers category 2, answers category 3.OK, but there are four cues.Each queue essentially works exactly as before.OK.So, that's why these four queues are also called virtual stations, because they are physically within the same Wi-Fi card.But each of them behaves as.​"
+    },
+    {
+      "id": "46",
+      "text": "​"
+    },
+    {
+      "id": "47",
+      "text": "说话人 1 00:19:07​\nSo, virtually, it's like having four different stations altogether deployed on, in the same, within the same wi fi card.So, you may wonder, okay, why do we move from one to four?Remember the goal is quality of service, right?So, what we do is to use each queue for a different type of traffic.We put voice here in the zero, in the answers category zero.We put video here in number one, and then we put traffic originated from, for example, browsing here in the number two.​"
+    },
+    {
+      "id": "48",
+      "text": "​"
+    },
+    {
+      "id": "49",
+      "text": "说话人 1 00:20:00​\nAnd then when we have, you know, just data files very delayed all around traffic.Best effort, best effort traffic, we put it here in the number three.​"
+    },
+    {
+      "id": "50",
+      "text": "​"
+    },
+    {
+      "id": "51",
+      "text": "说话人 1 00:20:14​\nSo, the key idea is that each of these queue will host packets that have got different priority.Voice is a very high priority traffic.Why?Because voice is not delay tolerant at all.OK, it's a type of traffic.That you really need to send as soon as possible.​"
+    },
+    {
+      "id": "52",
+      "text": "​"
+    },
+    {
+      "id": "53",
+      "text": "说话人 1 00:20:47​\nIf a voice packet waits too long, accumulates too much delay, then you can just discard it, because at that point.Even if you send it, it's useless.Ok?So voice traffic needs to be sent really really timely.High priority, it goes in Q0.Then we have video streaming.​"
+    },
+    {
+      "id": "54",
+      "text": "​"
+    },
+    {
+      "id": "55",
+      "text": "说话人 1 00:21:16​\nWell, also video frames are, let's say, they can tolerate some delay.We know that we have playout buffers, right?So, when weWatch also streaming.We know that there is a playout buffer that essentially can absorb some of the delay, so that even if the traffic arrives with some delay.We have this playout buffer that fills up at the beginning when you start watching a movie.​"
+    },
+    {
+      "id": "56",
+      "text": "​"
+    },
+    {
+      "id": "57",
+      "text": "说话人 1 00:21:48​\nRight, there is always some initial delay, you press, and then there is some initial delay, that's when the video packets actually start arriving to your TV or laptop.Whatever, and the display out buffer feeds up, and thenthe video starts.Why did they do that?Because in this way, they have already got some packets at the beginning.So, as the movie plays.​"
+    },
+    {
+      "id": "58",
+      "text": "​"
+    },
+    {
+      "id": "59",
+      "text": "说话人 1 00:22:26​\nEven if the subsequent packets experience some delay, it doesn't matter, because you still have packets in the queue.And so, if they come late, well, by the time they they arrive, it's fine, you have watched, let's say, the previous packets that were in the buff.Right?So, this playout buffer is there to absorb these delays that might be with the traffic coming to your TV.OK?​"
+    },
+    {
+      "id": "60",
+      "text": "​"
+    },
+    {
+      "id": "61",
+      "text": "说话人 1 00:22:57​\nDuring streaming, so video, of course, if the delays too much, then your playout buffer empties, and the video stops.And you get angry, right?Of, what is going on?I want to watch the movie.So, clearly, we need to deliver these video packets quickly, but we have more tolerance with respect to voice packets.​"
+    },
+    {
+      "id": "62",
+      "text": "​"
+    },
+    {
+      "id": "63",
+      "text": "说话人 1 00:23:27​\nSo, that's why they are important.But not as high priority voice, so they go into Q number one.OK.Then we have browsing, that is, you want to buy tickets, you use your whatever you use as a browser,so, you send requests.And you get answers, right?I know that you are using a lot WeChat, but anyway, you can use also the browser.​"
+    },
+    {
+      "id": "64",
+      "text": "​"
+    },
+    {
+      "id": "65",
+      "text": "说话人 1 00:24:03​\nIn that case, it's just, you know, you send, for example, the.A request on where a shop is, right?And you get the answer.So, that's not as, let's say, high priority as voice or video.The user actually toleratesslightly more delay in that case.So, you should think about it, indeed.​"
+    },
+    {
+      "id": "66",
+      "text": "​"
+    },
+    {
+      "id": "67",
+      "text": "说话人 1 00:24:35​\nNow, you look for a route to go somewhere.And it's okay if it takes 5 milliseconds, or it takes 30 milliseconds, or 100 milliseconds, you don't perceive.This difference.So, it's more delay tolerant, and that's why it goes to two.​"
+    },
+    {
+      "id": "68",
+      "text": "​"
+    },
+    {
+      "id": "69",
+      "text": "说话人 1 00:24:57​\nAnd then, as I said, when there is just delay transfer between your laptop and your phone, or whatever you want to synchronize the data files between the two devices.That's something that you, you know, you start, and you leave it there, and they will exchange the files.So.That's low priority, and it goes into queue number.Okay, so now we understand why we have four different queues within our wi fi card.​"
+    },
+    {
+      "id": "70",
+      "text": "​"
+    },
+    {
+      "id": "71",
+      "text": "说话人 1 00:25:28​\nBecause we want to separate traffic that has got different quality of service requirements.And then, of course, we will need to serve the packages that are in each queue a little bit differently.One from the other.So now you can actually say, well, but you you told us that actually they were behaving as in the previous case.There was no difference.​"
+    },
+    {
+      "id": "72",
+      "text": "​"
+    },
+    {
+      "id": "73",
+      "text": "说话人 1 00:26:04​\nSo now you are saying that they behave a little bit differently.Why?What is going on?Well, the rules that each server of these queues follows are exactly the same as before.OK, so we don't need to really learn new things.​"
+    },
+    {
+      "id": "74",
+      "text": "​"
+    },
+    {
+      "id": "75",
+      "text": "说话人 1 00:26:27​\nThere are just few details that we will add with mine.In principle, they follow exactly the same rules.What changes is the value of the mac parameters, of the parameters that they use to apply the rules.For example, rule number one, if you want to transmit the data packet, you have to sense the channel for dips.Right?​"
+    },
+    {
+      "id": "76",
+      "text": "​"
+    },
+    {
+      "id": "77",
+      "text": "说话人 1 00:26:59​\nUnless it's an ack, in that case it's a sifs, or we are within a dialogue then sifs, but otherwise if you want to transmit a new data packet.You have to sense the channel for dips.Ok, so the sensing time of these high priority queue will be indeed dips, right?But these are the queue that has got lower priority traffic.We'll have a sense in time a little bit more than these, and this queue a little bit more, and this queue a little bit more.​"
+    },
+    {
+      "id": "78",
+      "text": "​"
+    },
+    {
+      "id": "79",
+      "text": "说话人 1 00:27:45​\nOK?So, now, since we have four different.Sensing times, we cannot use one name for all of them, right?Because they're different.So, actually, again, sorry for this new name, but this is now called arbitrary IF0, and arbitrary IFS0.Es difícil.Arbitrary IFS 1 is a bit longer.Arbitrary IFS 2 is even longer.​"
+    },
+    {
+      "id": "80",
+      "text": "​"
+    },
+    {
+      "id": "81",
+      "text": "说话人 1 00:28:23​\nAnd arbitrary IFS 3 is definitely longer.​"
+    },
+    {
+      "id": "82",
+      "text": "​"
+    },
+    {
+      "id": "83",
+      "text": "说话人 1 00:28:43​\nSo, if you have a high priority traffic, you don't want that traffic to waste too much time.Waiting for the back off, right?So, I mean spending decreasing the back off counter.So, you want to give to that traffic an advantage.​"
+    },
+    {
+      "id": "84",
+      "text": "​"
+    },
+    {
+      "id": "85",
+      "text": "说话人 1 00:29:03​\nSo, that's why this queue, when this queue needs to apply, the server needs to apply the back off procedure.He will apply the cutoff procedure using a value of CW mean that is very small, like 3.This has got lower priority, he will use 7.This is got lower, even lower priority, we use 15, and this is low priority, 31.OK, so on average, this on average, because remember, because integers are selected with equal probability within theZero CW value.Right?So, but on average, if this queue as CW mean uses three.​"
+    },
+    {
+      "id": "86",
+      "text": "​"
+    },
+    {
+      "id": "87",
+      "text": "说话人 1 00:30:28​\nHere we have 0,1,2,3,4,5,6,7.Here we have 0,1,2,3,4,5, till 15.So, on average, clearly, this guy is going to draw a shorter backoff time than this guy, right?So, when this server has to serve these packets, high priority packets, and has to apply the backoff procedure.He will on average experience a lower, shorter backoff time.So, the channel access will be faster.I don't need to spend much time decreasing my backoff time.​"
+    },
+    {
+      "id": "88",
+      "text": "​"
+    },
+    {
+      "id": "89",
+      "text": "说话人 1 00:31:14​\nHmm.CW max is also different depending on the queue that we are considering, but honestly.CW max does not have a great impact.OK, what, it is really important is that the CW mean is different.And then there is one more parameter that we need to consider, the mark layer.And this is actually new.OK, this is specific to this announced version of the truck.What is this?The transmission opportunity limit.​"
+    },
+    {
+      "id": "90",
+      "text": "​"
+    },
+    {
+      "id": "91",
+      "text": "说话人 1 00:31:59​\nRemember, we have a big innovation now.The real big innovation is transmission opportunity.And we said, when the server, right, gets a packet through, says, I mean, it serves, contains, sorry, contains for the channel.And he wins the opportunity to access the channel.Actually, he will not send only one packet.He may actually serve multiple packets, provided that they fit within an transmission opportunity limit.So, the transmission opportunity limit is the duration of your transmission opportunity.​"
+    },
+    {
+      "id": "92",
+      "text": "​"
+    },
+    {
+      "id": "93",
+      "text": "说话人 1 00:32:49​\nWhen a queue gets access to the channel, then the server of that queue can transmit for a transmission opportunity limit.That is different.For these high priority or lower priority queues.Now, intuitively, what would you say?Who has got the largest, longest transmission frequency?Which queue?We get the longest transmission opportunity limit.Give me your intuitive answer.​"
+    },
+    {
+      "id": "94",
+      "text": "​"
+    },
+    {
+      "id": "95",
+      "text": "说话人 1 00:33:39​\nWhich one?0.Correct, meaning that intuitively is correct.​"
+    },
+    {
+      "id": "96",
+      "text": "​"
+    },
+    {
+      "id": "97",
+      "text": "说话人 1 00:33:59​\nIt is correct from the point of view of intuition, but we need to consider here, so that was actually a bit tricky.Sorry.So it's my game.We need to consider the type of traffic that each queue has to handle.OK?So, let's think more, let's think twice about.What did we say?Q0 is for voice.​"
+    },
+    {
+      "id": "98",
+      "text": "​"
+    },
+    {
+      "id": "99",
+      "text": "说话人 1 00:34:30​\nNow, I know it's not easy, because you may not know that, but voice packets are short.OK, so, the voice is coded in a way, I mean it's not a high data rate traffic.OK, voice can be compressed very efficiently.So that device that we emit as an information can be recorded digitally, converted, compressed.Essentially, we generate as audio packets corresponding to voice, we generate packets that are very short.So, when they are generated, then they need to be transmitted as soon as possible, as we said.But the packet themselves are short.So, this means that this queue does not actually need.​"
+    },
+    {
+      "id": "100",
+      "text": "​"
+    },
+    {
+      "id": "101",
+      "text": "说话人 1 00:35:43​\nBut you don't need to fit many packets into a transmission opportunity.So the transmission opportunity limit of actually this queue.Is actually short, OK?Instead, for video, for data files of different types, the ones that you download through the browser.Or other data files when you synchronize, for example, your devices on the repositories that you've got.Whatever.​"
+    },
+    {
+      "id": "102",
+      "text": "​"
+    },
+    {
+      "id": "103",
+      "text": "说话人 1 00:36:17​\nWell, in that case, the transmission opportunity limit of course, should be large, OK?Because clearly you have a lot of traffic typically to transmit, so video packets, their size actually may vary.They are, of course, not that small.Data file packages are also the.Gangly large, so in that case, of course, you need your transmission to be not too short.​"
+    },
+    {
+      "id": "104",
+      "text": "​"
+    },
+    {
+      "id": "105",
+      "text": "说话人 1 00:36:56​\nOK, so, this is actually from the point of view of main principles, main rules.Is what we need to know, OK?About this announced distributed function.So, as I told you, much much easier and much faster, because it builds on what we already know.There are just few things to to mention, they are of course reported reported here, by the way.So, going just to to through the slides here, you have essentially the the main principles of this announced distributed channel access scheme.Here you have the access category, right?These are the four queues, and as you see now, they are actually refer to with the type of traffic that they host.So, vo-.​"
+    },
+    {
+      "id": "106",
+      "text": "​"
+    },
+    {
+      "id": "107",
+      "text": "说话人 1 00:38:13​\nOK, this is just a graphical representation regarding the usage of the arbitrary IFS.So, from higher priority to lower priorities, here you have represented onlythe access category 0.1 or 2, but it's just an example.And by the way, you have also the duration of the parameters in this new version of the standard.So as you may see, for example, this in this new version is not 50 microseconds anymore.Is 34 microseconds.It's not that you have to remember that, but just as a side comment, as they evolved with Wi-Fi, they try to make Wi-Fi more efficient.That means to reduce the energy.And a way to reduce the overhead is to reduce the duration of these waiting times, like leaves, or the extended FS.Or the slot time, it was 20 microseconds, now is 9 microseconds, so.We reduced all these durations in order to make the protocol more efficient and reduce the order.​"
+    },
+    {
+      "id": "108",
+      "text": "​"
+    },
+    {
+      "id": "109",
+      "text": "说话人 1 00:39:55​\nSo, as you see, the rules are exactly, essentially, as before.Here the expression is reported in a slightly different way, but is exactly the same as before.But thanks to the fact that we have the contention window minimum, that is now different for each access category.With the higher priority gap category that gets the smaller contention window minimum.Statistically, we have that the high priority.Graphic will have to wait a shorter time as a big of time.That is essentially what we said.So, it's just a graphical representation of what we said.​"
+    },
+    {
+      "id": "110",
+      "text": "​"
+    },
+    {
+      "id": "111",
+      "text": "说话人 1 00:40:41​\nBy the way, also in this announced version ofthe distributed scheme, we can use RTS and CTS.OK, and the rule is the same as before.If the payload size is below the RTS threshold, then we do not use RTS, CTS.If a payload or the packet is above RTS threshold.Then we use rds and cds, is exactly the same as before.​"
+    },
+    {
+      "id": "112",
+      "text": "​"
+    },
+    {
+      "id": "113",
+      "text": "说话人 1 00:41:21​\nOne detail that i would like to mention before finishing tonight is.Also, they found that there is a change that seems to be a detail, but is actually important.I di mak.​"
+    },
+    {
+      "id": "114",
+      "text": "​"
+    },
+    {
+      "id": "115",
+      "text": "说话人 1 00:41:50​\nIn the MAC header, as I mentioned, we have many, some fields, duration, right?Duration fields, we already knew that,four possible addresses, and we already explained why we may need up to four.We have the CRC, of course, that's to apply stop and wait, and we clearly still have stop and wait also here.But we have also this quarter service controller.Somfe in the make header, and this is new.So why we have this new feed will in particularly in did.​"
+    },
+    {
+      "id": "116",
+      "text": "​"
+    },
+    {
+      "id": "117",
+      "text": "说话人 1 00:42:37​\nAccess scheme is used to signal the type of traffic that is in the payload.So, if that packet essentially came from access category zero, or access category one, or access category two.For access category two.Okay, so the type of traffic carried in the payload is specified.Ena des.Sound fit on dim.​"
+    },
+    {
+      "id": "118",
+      "text": "​"
+    },
+    {
+      "id": "119",
+      "text": "说话人 1 00:43:27​\nThat is, if it's carrying traffic related to access category, for example, zero.Here, the sender can also include some information about how many more packets are waiting in the queue access category zero.​"
+    },
+    {
+      "id": "120",
+      "text": "​"
+    },
+    {
+      "id": "121",
+      "text": "说话人 1 00:43:51​\nOK, so you can provide information.For example, if this is transmitted by a user node.You can provide information to the access point about the stage of its queue.And this is probably doesn't sound really important now, but we see tomorrow that instead it is something.Important, useful, OK, good.​"
+    },
+    {
+      "id": "122",
+      "text": "​"
+    },
+    {
+      "id": "123",
+      "text": "说话人 1 00:44:25​\nSo, oops, OK.So, we are done for tonight, and we're going to finish up with the acknowledgments and a few more remarks about today's announced session tomorrow.OK?If you have questions, of course, feel free to ask now or tomorrow.Whatever you like, whenever you want.I guess for tonight you are good.If you have questions, please feel free to ask also the beginning of the class tomorrow morning.​"
+    }
+  ],
+  "scrollEnd": [
+    {
+      "height": 697,
+      "top": 9822,
+      "total": 10519
+    }
+  ]
+}
