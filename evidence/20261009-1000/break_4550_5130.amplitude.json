@@ -1,0 +1,251 @@
+{
+  "recording_id": "20261009-1000",
+  "analysis": "Numerical amplitude diagnostic only; no listening or speech-content determination",
+  "audio_sha256": "ec0e38b902f126e8e433defb24267a4b2baf0ce472ec10b2a1dca380b74be040",
+  "decoded_window_pcm_sha256": "1b4dc8cb74a069de4d17c2f9a4a2452c989abbe26f82d5a0e4082824e79d6296",
+  "start_seconds": 2750,
+  "end_seconds": 3090,
+  "sample_rate": 16000,
+  "sample_count": 5440000,
+  "window_statistics": [
+    {
+      "start_seconds": 2750.0,
+      "end_seconds": 2760.0,
+      "rms_dbfs": -29.42,
+      "peak_dbfs": -9.36,
+      "fraction_samples_above_minus40dbfs": 0.50328
+    },
+    {
+      "start_seconds": 2760.0,
+      "end_seconds": 2770.0,
+      "rms_dbfs": -27.74,
+      "peak_dbfs": -7.98,
+      "fraction_samples_above_minus40dbfs": 0.52429
+    },
+    {
+      "start_seconds": 2770.0,
+      "end_seconds": 2780.0,
+      "rms_dbfs": -30.81,
+      "peak_dbfs": -7.15,
+      "fraction_samples_above_minus40dbfs": 0.40261
+    },
+    {
+      "start_seconds": 2780.0,
+      "end_seconds": 2790.0,
+      "rms_dbfs": -30.42,
+      "peak_dbfs": -8.8,
+      "fraction_samples_above_minus40dbfs": 0.40154
+    },
+    {
+      "start_seconds": 2790.0,
+      "end_seconds": 2800.0,
+      "rms_dbfs": -30.57,
+      "peak_dbfs": -9.14,
+      "fraction_samples_above_minus40dbfs": 0.25084
+    },
+    {
+      "start_seconds": 2800.0,
+      "end_seconds": 2810.0,
+      "rms_dbfs": -29.47,
+      "peak_dbfs": -7.43,
+      "fraction_samples_above_minus40dbfs": 0.3652
+    },
+    {
+      "start_seconds": 2810.0,
+      "end_seconds": 2820.0,
+      "rms_dbfs": -37.36,
+      "peak_dbfs": -19.2,
+      "fraction_samples_above_minus40dbfs": 0.24765
+    },
+    {
+      "start_seconds": 2820.0,
+      "end_seconds": 2830.0,
+      "rms_dbfs": -34.28,
+      "peak_dbfs": -5.75,
+      "fraction_samples_above_minus40dbfs": 0.33601
+    },
+    {
+      "start_seconds": 2830.0,
+      "end_seconds": 2840.0,
+      "rms_dbfs": -38.59,
+      "peak_dbfs": -10.63,
+      "fraction_samples_above_minus40dbfs": 0.13205
+    },
+    {
+      "start_seconds": 2840.0,
+      "end_seconds": 2850.0,
+      "rms_dbfs": -39.36,
+      "peak_dbfs": -19.02,
+      "fraction_samples_above_minus40dbfs": 0.19504
+    },
+    {
+      "start_seconds": 2850.0,
+      "end_seconds": 2860.0,
+      "rms_dbfs": -41.73,
+      "peak_dbfs": -17.91,
+      "fraction_samples_above_minus40dbfs": 0.1319
+    },
+    {
+      "start_seconds": 2860.0,
+      "end_seconds": 2870.0,
+      "rms_dbfs": -46.43,
+      "peak_dbfs": -22.77,
+      "fraction_samples_above_minus40dbfs": 0.03608
+    },
+    {
+      "start_seconds": 2870.0,
+      "end_seconds": 2880.0,
+      "rms_dbfs": -47.39,
+      "peak_dbfs": -18.18,
+      "fraction_samples_above_minus40dbfs": 0.02392
+    },
+    {
+      "start_seconds": 2880.0,
+      "end_seconds": 2890.0,
+      "rms_dbfs": -40.89,
+      "peak_dbfs": -15.84,
+      "fraction_samples_above_minus40dbfs": 0.12484
+    },
+    {
+      "start_seconds": 2890.0,
+      "end_seconds": 2900.0,
+      "rms_dbfs": -37.11,
+      "peak_dbfs": -6.38,
+      "fraction_samples_above_minus40dbfs": 0.14739
+    },
+    {
+      "start_seconds": 2900.0,
+      "end_seconds": 2910.0,
+      "rms_dbfs": -51.64,
+      "peak_dbfs": -21.0,
+      "fraction_samples_above_minus40dbfs": 0.00999
+    },
+    {
+      "start_seconds": 2910.0,
+      "end_seconds": 2920.0,
+      "rms_dbfs": -43.38,
+      "peak_dbfs": -22.7,
+      "fraction_samples_above_minus40dbfs": 0.08424
+    },
+    {
+      "start_seconds": 2920.0,
+      "end_seconds": 2930.0,
+      "rms_dbfs": -38.06,
+      "peak_dbfs": -12.08,
+      "fraction_samples_above_minus40dbfs": 0.17756
+    },
+    {
+      "start_seconds": 2930.0,
+      "end_seconds": 2940.0,
+      "rms_dbfs": -39.28,
+      "peak_dbfs": -18.36,
+      "fraction_samples_above_minus40dbfs": 0.15476
+    },
+    {
+      "start_seconds": 2940.0,
+      "end_seconds": 2950.0,
+      "rms_dbfs": -35.42,
+      "peak_dbfs": -10.16,
+      "fraction_samples_above_minus40dbfs": 0.21431
+    },
+    {
+      "start_seconds": 2950.0,
+      "end_seconds": 2960.0,
+      "rms_dbfs": -49.0,
+      "peak_dbfs": -19.72,
+      "fraction_samples_above_minus40dbfs": 0.0203
+    },
+    {
+      "start_seconds": 2960.0,
+      "end_seconds": 2970.0,
+      "rms_dbfs": -39.09,
+      "peak_dbfs": -21.74,
+      "fraction_samples_above_minus40dbfs": 0.24124
+    },
+    {
+      "start_seconds": 2970.0,
+      "end_seconds": 2980.0,
+      "rms_dbfs": -39.58,
+      "peak_dbfs": -21.32,
+      "fraction_samples_above_minus40dbfs": 0.24731
+    },
+    {
+      "start_seconds": 2980.0,
+      "end_seconds": 2990.0,
+      "rms_dbfs": -38.3,
+      "peak_dbfs": -20.0,
+      "fraction_samples_above_minus40dbfs": 0.28674
+    },
+    {
+      "start_seconds": 2990.0,
+      "end_seconds": 3000.0,
+      "rms_dbfs": -38.62,
+      "peak_dbfs": -19.78,
+      "fraction_samples_above_minus40dbfs": 0.23496
+    },
+    {
+      "start_seconds": 3000.0,
+      "end_seconds": 3010.0,
+      "rms_dbfs": -36.68,
+      "peak_dbfs": -18.9,
+      "fraction_samples_above_minus40dbfs": 0.35341
+    },
+    {
+      "start_seconds": 3010.0,
+      "end_seconds": 3020.0,
+      "rms_dbfs": -36.57,
+      "peak_dbfs": -12.08,
+      "fraction_samples_above_minus40dbfs": 0.31891
+    },
+    {
+      "start_seconds": 3020.0,
+      "end_seconds": 3030.0,
+      "rms_dbfs": -37.72,
+      "peak_dbfs": -11.11,
+      "fraction_samples_above_minus40dbfs": 0.20351
+    },
+    {
+      "start_seconds": 3030.0,
+      "end_seconds": 3040.0,
+      "rms_dbfs": -43.14,
+      "peak_dbfs": -24.73,
+      "fraction_samples_above_minus40dbfs": 0.11512
+    },
+    {
+      "start_seconds": 3040.0,
+      "end_seconds": 3050.0,
+      "rms_dbfs": -40.84,
+      "peak_dbfs": -9.62,
+      "fraction_samples_above_minus40dbfs": 0.08833
+    },
+    {
+      "start_seconds": 3050.0,
+      "end_seconds": 3060.0,
+      "rms_dbfs": -45.36,
+      "peak_dbfs": -26.33,
+      "fraction_samples_above_minus40dbfs": 0.07186
+    },
+    {
+      "start_seconds": 3060.0,
+      "end_seconds": 3070.0,
+      "rms_dbfs": -50.02,
+      "peak_dbfs": -29.43,
+      "fraction_samples_above_minus40dbfs": 0.01733
+    },
+    {
+      "start_seconds": 3070.0,
+      "end_seconds": 3080.0,
+      "rms_dbfs": -47.92,
+      "peak_dbfs": -23.79,
+      "fraction_samples_above_minus40dbfs": 0.03427
+    },
+    {
+      "start_seconds": 3080.0,
+      "end_seconds": 3090.0,
+      "rms_dbfs": -45.14,
+      "peak_dbfs": -18.85,
+      "fraction_samples_above_minus40dbfs": 0.03427
+    }
+  ],
+  "interpretation": "Nonzero/high amplitude is not proof of speech. Low amplitude is not proof of absent speech. This check cannot resolve words or distinguish chatter from recording noise. Repetition-flagged model output is diagnostic evidence only."
+}
