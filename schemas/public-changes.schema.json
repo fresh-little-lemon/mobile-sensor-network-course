@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source-preserving transcript change log",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "recording_id",
+    "source_capture_sha256",
+    "status",
+    "changes",
+    "full_text_review_complete"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "recording_id": {
+      "type": "string",
+      "pattern": "^2026[0-9]{4}-[0-9]{4}$"
+    },
+    "source_capture_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "status": {
+      "const": "read_with_explicit_uncertainty"
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "change_id",
+          "category",
+          "source_spans",
+          "insertion_anchor",
+          "new_text",
+          "reason",
+          "evidence",
+          "confidence",
+          "contextual_inference",
+          "review_status"
+        ],
+        "properties": {
+          "change_id": {
+            "type": "string"
+          },
+          "category": {
+            "enum": [
+              "sentence_boundary",
+              "punctuation",
+              "sentence_case",
+              "acronym_case",
+              "spacing",
+              "asr_substitution",
+              "audio_supported_addition",
+              "audio_supported_deletion",
+              "overlap_deduplication",
+              "speaker_label",
+              "timing_alignment",
+              "uncertainty_annotation"
+            ]
+          },
+          "source_spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "block_id",
+                "start_char",
+                "end_char",
+                "old_text"
+              ],
+              "properties": {
+                "block_id": {
+                  "type": "string"
+                },
+                "start_char": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end_char": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "old_text": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "insertion_anchor": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "after_block_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "before_block_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "location": {
+                "enum": [
+                  "between_blocks",
+                  "recording_start",
+                  "recording_end",
+                  "within_block"
+                ]
+              },
+              "char_offset": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              }
+            }
+          },
+          "new_text": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "kind",
+                "reference",
+                "description"
+              ],
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "original_feishu",
+                    "raw_asr",
+                    "audio_listened",
+                    "context",
+                    "audio_measurement"
+                  ]
+                },
+                "reference": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "audio_start_seconds": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                },
+                "audio_end_seconds": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                },
+                "time_precision": {
+                  "enum": [
+                    "input_chunk_only",
+                    "original_paragraph_start",
+                    "listened_interval",
+                    "word_aligned_verified",
+                    "not_applicable"
+                  ]
+                },
+                "exact_quote": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "description": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "unresolved"
+            ]
+          },
+          "contextual_inference": {
+            "type": "boolean"
+          },
+          "uncertainty_note": {
+            "type": "string"
+          },
+          "review_status": {
+            "enum": [
+              "proposed",
+              "accepted",
+              "deferred",
+              "rejected"
+            ]
+          },
+          "revised_paragraph_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "full_text_review_complete": {
+      "type": "boolean"
+    },
+    "review_note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
