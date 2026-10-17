@@ -1,0 +1,118 @@
+{
+  "status": "complete",
+  "request": {
+    "recording_id": "20261009-0845",
+    "start_seconds": 979,
+    "end_seconds": 996,
+    "language": "Chinese",
+    "reason": "Check isolated source language fragment using audio only; no transcript prompt."
+  },
+  "result": {
+    "index": "20261009-0845_short_1627",
+    "purpose": "targeted_rerun",
+    "start_seconds": 979.0,
+    "end_seconds": 996.0,
+    "start_sample": 15664000,
+    "end_sample": 15936000,
+    "sample_count": 272000,
+    "sample_rate": 16000,
+    "duration_seconds": 17.0,
+    "text": "Internet，with Internet，okay. Now, what we said this morning.",
+    "sdk_parsed_text": "Internet，with Internet，okay. Now, what we said this morning.",
+    "raw_decoded": "Internet，with Internet，okay. Now, what we said this morning.<|im_end|>",
+    "generated_token_ids": [
+      35679,
+      3837,
+      4197,
+      8031,
+      3837,
+      93217,
+      13,
+      4695,
+      11,
+      1128,
+      582,
+      1053,
+      419,
+      6556,
+      13,
+      151645
+    ],
+    "output_token_count": 16,
+    "inference_seconds": 3.9212569049559534,
+    "real_time_factor": 0.23066217087976196,
+    "audio_sha256": "a3d7ba2ec52f89c6b05ab57e2dbab20173625cf0d00c5de1f02e7aaf1c6e68fc",
+    "audio_metrics": {
+      "rms": 0.022471082463390326,
+      "rms_dbfs": -32.96752013011834,
+      "peak": 0.373046875
+    },
+    "input_shapes": {
+      "input_ids": [
+        1,
+        239
+      ],
+      "attention_mask": [
+        1,
+        239
+      ],
+      "input_features": [
+        1,
+        128,
+        1700
+      ],
+      "input_features_mask": [
+        1,
+        1700
+      ]
+    },
+    "input_feature_frames": 1700,
+    "quality_flags": [],
+    "created_at": "2026-10-17T07:11:26.374995+00:00",
+    "language_mode": "forced_Chinese",
+    "language_argument": "Chinese",
+    "prompt": null,
+    "cpu_threads": 6,
+    "text_derivation": "Raw decoded transcription with control markers removed only; SDK repetition normalization retained separately in sdk_parsed_text.",
+    "repetition_guard_policy": "After 128 generated tokens, a consecutive suffix of at least 12 repetitions and 24 words may stop generation for explicit split recovery; ordinary spoken repetitions are retained.",
+    "detected_language": null,
+    "run_provenance": {
+      "config": {
+        "model_id": "Qwen/Qwen3-ASR-0.6B-hf",
+        "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+        "device": "cpu",
+        "dtype": "bfloat16",
+        "cpu_threads": 6,
+        "language": null,
+        "prompt": null,
+        "chunk_seconds": 120,
+        "overlap_seconds": 10,
+        "minimum_last_chunk_seconds": 30,
+        "max_new_tokens": 1024,
+        "capped_retry_max_new_tokens": 2048,
+        "do_sample": false,
+        "audio_truncation": false,
+        "batch_size": 1,
+        "timestamp_note": "Recording-relative input-window boundaries only; not predicted word or sentence timestamps.",
+        "audio_preprocessing": "ffmpeg decode all audio to mono 16000 Hz PCM s16le; no trimming or silence removal"
+      },
+      "model_sha256": "d3f212dd20abecd315d830bc54ae3865e56ebfc3276484e57b771288ba27fd35",
+      "runtime": {
+        "torch": "2.14.1+cpu",
+        "transformers": "5.20.0",
+        "accelerate": "1.15.0",
+        "numpy": "2.5.4"
+      },
+      "script_sha256": "466fbbe3dabc17c88db88d5b5f64ddbc544b9015727fb8f3289ba041c2653d0c",
+      "model_load_seconds": 3.192166819004342
+    },
+    "finish_reason": "eos",
+    "eos_token_ids": [
+      151643,
+      151645
+    ],
+    "prior_generation_attempts": [],
+    "repetition_guard_triggered": false,
+    "generation_budget": 1024
+  }
+}

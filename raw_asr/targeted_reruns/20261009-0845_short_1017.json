@@ -1,0 +1,139 @@
+{
+  "status": "complete",
+  "request": {
+    "recording_id": "20261009-0845",
+    "start_seconds": 609,
+    "end_seconds": 631,
+    "language": "Chinese",
+    "reason": "Check isolated source language fragment using audio only; no transcript prompt."
+  },
+  "result": {
+    "index": "20261009-0845_short_1017",
+    "purpose": "targeted_rerun",
+    "start_seconds": 609.0,
+    "end_seconds": 631.0,
+    "start_sample": 9744000,
+    "end_sample": 10096000,
+    "sample_count": 352000,
+    "sample_rate": 16000,
+    "duration_seconds": 22.0,
+    "text": "The packet can be transmitted, then the packet is sent to the physical layer, where we perform, for example, modulation. And then we transmit the electromagnetic wave through the antenna.",
+    "sdk_parsed_text": "The packet can be transmitted, then the packet is sent to the physical layer, where we perform, for example, modulation. And then we transmit the electromagnetic wave through the antenna.",
+    "raw_decoded": "The packet can be transmitted, then the packet is sent to the physical layer, where we perform, for example, modulation. And then we transmit the electromagnetic wave through the antenna.<|im_end|>",
+    "generated_token_ids": [
+      785,
+      10151,
+      646,
+      387,
+      33599,
+      11,
+      1221,
+      279,
+      10151,
+      374,
+      3208,
+      311,
+      279,
+      6961,
+      6193,
+      11,
+      1380,
+      582,
+      2736,
+      11,
+      369,
+      3110,
+      11,
+      66447,
+      13,
+      1597,
+      1221,
+      582,
+      29282,
+      279,
+      65569,
+      12060,
+      1526,
+      279,
+      39932,
+      13,
+      151645
+    ],
+    "output_token_count": 37,
+    "inference_seconds": 6.691134447988588,
+    "real_time_factor": 0.3041424749085722,
+    "audio_sha256": "1f5e1bd99c39b8685ddb27b26b7b4fd4bb8d5c502dca4a57d3ba1026421a6ffe",
+    "audio_metrics": {
+      "rms": 0.030400846899143855,
+      "rms_dbfs": -30.342286355126397,
+      "peak": 0.283111572265625
+    },
+    "input_shapes": {
+      "input_ids": [
+        1,
+        304
+      ],
+      "attention_mask": [
+        1,
+        304
+      ],
+      "input_features": [
+        1,
+        128,
+        2200
+      ],
+      "input_features_mask": [
+        1,
+        2200
+      ]
+    },
+    "input_feature_frames": 2200,
+    "quality_flags": [],
+    "created_at": "2026-10-17T07:11:22.448930+00:00",
+    "language_mode": "forced_Chinese",
+    "language_argument": "Chinese",
+    "prompt": null,
+    "cpu_threads": 6,
+    "text_derivation": "Raw decoded transcription with control markers removed only; SDK repetition normalization retained separately in sdk_parsed_text.",
+    "repetition_guard_policy": "After 128 generated tokens, a consecutive suffix of at least 12 repetitions and 24 words may stop generation for explicit split recovery; ordinary spoken repetitions are retained.",
+    "detected_language": null,
+    "run_provenance": {
+      "config": {
+        "model_id": "Qwen/Qwen3-ASR-0.6B-hf",
+        "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+        "device": "cpu",
+        "dtype": "bfloat16",
+        "cpu_threads": 6,
+        "language": null,
+        "prompt": null,
+        "chunk_seconds": 120,
+        "overlap_seconds": 10,
+        "minimum_last_chunk_seconds": 30,
+        "max_new_tokens": 1024,
+        "capped_retry_max_new_tokens": 2048,
+        "do_sample": false,
+        "audio_truncation": false,
+        "batch_size": 1,
+        "timestamp_note": "Recording-relative input-window boundaries only; not predicted word or sentence timestamps.",
+        "audio_preprocessing": "ffmpeg decode all audio to mono 16000 Hz PCM s16le; no trimming or silence removal"
+      },
+      "model_sha256": "d3f212dd20abecd315d830bc54ae3865e56ebfc3276484e57b771288ba27fd35",
+      "runtime": {
+        "torch": "2.14.1+cpu",
+        "transformers": "5.20.0",
+        "accelerate": "1.15.0",
+        "numpy": "2.5.4"
+      },
+      "script_sha256": "466fbbe3dabc17c88db88d5b5f64ddbc544b9015727fb8f3289ba041c2653d0c",
+      "model_load_seconds": 3.192166819004342
+    },
+    "finish_reason": "eos",
+    "eos_token_ids": [
+      151643,
+      151645
+    ],
+    "prior_generation_attempts": [],
+    "repetition_guard_triggered": false,
+    "generation_budget": 1024
+  }
+}
