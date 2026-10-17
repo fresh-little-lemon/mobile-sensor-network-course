@@ -1,0 +1,1125 @@
+{
+  "recording_id": "20261008-1049",
+  "status": "read_with_explicit_uncertainty",
+  "paragraphs": [
+    {
+      "paragraph_id": "P5",
+      "text": "OK, so, why are obstacles so important for our signal? Because of the diffraction, and again, at least in Italy, we studied that in high school. Diffraction is a phenomenon that consists in the following. We have one signal that is transmitted. When the signal hits the obstacle, several secondary waves are created. So, the signal does not remain only one, but it creates several copies of itself because of this hitting the obstacle, that's the so-called diffraction.\n\nNow, these different copies of the signal will then further proceed, and the same happens when our signal gets reflected.\n\nAlso reflection actually creates not multiple copies of the same signal, but a signal that hits a surface and then it changes direction, and farther, proceeds toward the receiver. So, both diffraction and reflection have in common the fact that our signal or signals get in a way diverted,〔补回 A001，待核〕 [00:03:15] so they change direction, and then further proceed to the destination.\n\nBut diffraction in particular then happens when several copies are created, is in a way more serious than reflection, because it's not just the fact that the signal changes direction, but the signal actually transforms itself from one into multiple signals, multiple copies of the same signal. Okay, that's diffraction. So, as I said in physics, we studied them in a high school. How can this affect our wireless communication?〔补回 A002，待核〕",
+      "source_block_ids": [
+        "5",
+        "7"
+      ],
+      "change_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "C001",
+        "C002",
+        "A001",
+        "C003",
+        "A002",
+        "F009",
+        "F011",
+        "F013"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P9",
+      "text": "Well, this is a very simplified view of the reality, but just to highlight the main fact here. We have our user and the base station or access point, and what we have here is that the point of access transmits toward the user. OK, now initially, actually this signal is the same, but there are in the atmosphere particles of water that diffract the signal. So actually, the signal that is originated by the antenna gets diffracted immediately by the atmosphere particles that are a form of obstacle.\n\nAnd then, we may have further obstacles in the middle. We may have so further diffraction or reflection. As I said, this is a very simplified version,〔补回 A003，待核〕 [00:05:30] but it highlights the fact that instead of one signal only that reaches our intended receiver, will have different copies of the same signal that actually reach the receiver.\n\nAnd each copy may travel over different paths, right? Over different path, because as I said, you do reflection or diffraction, we have a change also of direction of these wave forms. So, the signals follow different paths, and as a consequence, they will arrive at different time instants at the receiver. It means also with different phase.\n\nSo, when signals overlap, when these multiple copies overlap at the receiver, they will overlap with different phase, because they follow a different path, and some of them were delayed more respect to others.",
+      "source_block_ids": [
+        "9",
+        "11"
+      ],
+      "change_ids": [
+        "F005",
+        "F006",
+        "F007",
+        "F008",
+        "C004",
+        "A003",
+        "C005",
+        "F010",
+        "F012"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P13",
+      "text": "So, here is again a simplified view of this phenomenon, in the case of just two copies of what was original originally one signal, and these copies, they have essentially different phases. When they reach the receiver, they therefore combine in different ways.\n\nFor example, if the signals that arrive at the receiver arrive more or less with the same delay, so with the same phase, they will all be more or less in phase, like in this picture. So, we have the so-called constructive interference, meaning that there are multiple copies of the same signal that overlap at the receiver, and they are all more or less in line with respect to each other. So, the receiver will just get the sum of these signals.\n\nBut, instead, if these signals that arrive at the receiver have different delays, so different phases, and by chance they are in opposite phase, then they nullify each other, and the receiver essentially gets nothing, because they have opposite phases.\n\nIn the most part of the cases, we'll have the actually, the kind of interference that sorry that we get is the so-called partially destructive, meaning that these different copies of the signals will have different delays, different phases, they're not aligned, they're not in counter phase. They are more or less in the middle, and so they may partially distract themselves〔待核 U001〕, but not totally.\n\nSo, this is the so-called multipath fading phenomenon. That is, our signal as it propagates toward the receiver, it partially fades away. So fading in English means to disappear, it partially disappears. Why?〔补回 A004，待核〕",
+      "source_block_ids": [
+        "13"
+      ],
+      "change_ids": [
+        "F014",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F021",
+        "F022",
+        "F023",
+        "F024",
+        "C006",
+        "U001",
+        "A004",
+        "F033",
+        "F034"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P15",
+      "text": "Because of this overlapping of multiple copies, each with a different delay, so each with a different phase. So that they get, at the receiver〔推定 A005〕, combined with different phases, and we have the partially destructive phenomenon.〔补回 A005，待核〕",
+      "source_block_ids": [
+        "15"
+      ],
+      "change_ids": [
+        "F025",
+        "C008",
+        "A005"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P17",
+      "text": "If you are very unlucky, you get nothing, that is totally destructive. If you are lucky, you get a strong signal when they overlap in phase〔推定 C009〕. But on average, you are in the middle, right? And this phenomenon is random, so you cannot predict what you will get.\n\nWhy? Because it depends on the obstacles, so it depends on the geometry of your environment. If in your environment there are only stationary obstacles, well, then the fading, multipath fading is still there as a phenomenon, but it's not that serious.\n\nWhy? Because if you have chairs, walls, wardrobes, the geometry of the scenario is stationary or slowly changing, like in this case, in this classroom now.",
+      "source_block_ids": [
+        "17"
+      ],
+      "change_ids": [
+        "F026",
+        "F027",
+        "C009",
+        "C010"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P19",
+      "text": "Well, then, as actually a communication node, you have the possibility to estimate the channel, to understand what kind of scenario you have got, what kind of of fading you have got, because things do not change, so everything is more or less fixed. So you can estimate the power that the receiver gets and compensate for that. So if the receiver gets a weak signal because of fading or multipath fading, you can say, well, I will increase my transmission power. So you can compensate for the attenuation that the signal experiences. That's the lucky case where you have this so-called slow fading, slow changing fading that is also called shadowing.\n\nThe nasty phenomenon is the so-called fast fading, when your scenario is not stationary or slowly changing. Your scenario changes very frequently due to the fact that you have mobile obstacles. And these may be also the tree leaves that move.〔补回 A006，待核〕",
+      "source_block_ids": [
+        "19"
+      ],
+      "change_ids": [
+        "F028",
+        "F029",
+        "F030",
+        "C011",
+        "A006",
+        "F035"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P21",
+      "text": "Several different obstacles that move and move, altogether they move. In that case, even if you try to estimate the situation, you don't have time to do that and compensate, because the situation has already changed meanwhile. That's the very dynamic situation, the fast fading, that is extremely nasty. And this one of the biggest problem we have in wireless communication, because we are not able to compensate for that.\n\nThis is just a representation of the signal that we get due to slow fading, and that would be essentially the red pattern. And the fast fading that is instead are happening over at smaller time scale. And just to give you an idea of how nasty the fading can be, it can lead to an attenuation of the signal that is even 20–30 dB, which is a lot, and so very very serious issues for the propagation of our signal.",
+      "source_block_ids": [
+        "21"
+      ],
+      "change_ids": [
+        "F031",
+        "F032",
+        "C012",
+        "C013"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P23",
+      "text": "Now just to give an idea of how the signal propagates in real world, these are real world measurements performed by mobile operator in in urban〔待核 U002〕. In the case where we have a base station in an urban environment, and the coverage of the base station, the so-called cellular cell, is quite large, so we call it macrocell, because it's a large area irradiated by the base station. And you can see here the strength of the signal that is received by users over this area, where the red area is is where you receive very strong signal. Yellow, so so, green is weaker, and blue is very weak.\n\nSo, you can see that, of course, the quality of the signal that you get varies〔推定 C014〕 significantly depending on where you are because of the presence of obstacles, and of course, the distance from the transmitter.",
+      "source_block_ids": [
+        "23"
+      ],
+      "change_ids": [
+        "F036",
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "U002",
+        "C014"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P25",
+      "text": "And similarly, this is a representation of real world again of the power of the received signal, in the case where there is a cellular base station that illuminates a smaller area. So the base station has been placed at a lower altitude, so that the coverage, so the cell is small, again in an urban environment, so similar to this one. And this is the resulting level of power of the received signal. And in this case, as you can see, it is, let's say, acceptable in this region, but then it gets light blue and blue very, as quickly as we get farther from the base station. So, these are real world representations of a cell.\n\nSo, as we said, in a real world, the attenuation is a very serious problem, that is new, due not just to frequency, distance, but it's due to the presence also of these obstacles creating fading, and in particular fading is nasty when we have a dynamic environment, so fast fading.\n\nThis closes this explanation regarding the signal propagation.\n\nWhat I would like just to say is that we measure the quality of the received signal, typically using a metric that is called SNR. SNR means signal-to-noise ratio.〔补回 A007，待核〕",
+      "source_block_ids": [
+        "25"
+      ],
+      "change_ids": [
+        "F041",
+        "F042",
+        "F043",
+        "F044",
+        "F045",
+        "A007"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P27",
+      "text": "Is a ratio where the numerator we place the power of the received useful signal, and the denominator we place the power of the noise. Clearly, if the signal is much stronger than the noise, we are happy, we get a high SNR. If the signal instead is very weak, and its power is close to that of noise, then the SNR is low, and we are not happy because it will be very difficult〔补回 A008，待核〕 [00:18:45] for the receiver to distinguish the signal, the useful signal from the noise.\n\nSo likely in that case, when the SNR is low, the receiver will make lots of mistakes. It has problems in understanding which bits, which symbols are being transmitted, because the signal is too similar to the noise.\n\nNow, another slightly different performance metric that is used to measure the quality of the signal that we that we receive is the SINR that means signal-to-interference-plus-noise ratio.\n\nIn this case, we still consider a ratio, but at the numerator we have the useful signal that we received,〔补回 A009，待核〕 [00:19:48] the power of the useful signal that is received. As the denominator, instead of having only the power of the noise, we add also the power of the interfering signals coming from other transmitters.\n\nBecause unfortunately in real world, we do not have only transmitter and receiver, but we may have many transmitters transmitting simultaneously on the same frequencies. And the receiver. So, the receiver will get not just the useful signal that it wants to receive, but unfortunately it will get all〔推定 C017〕 the signals coming from the other transmitters.\n\nSo think for example of Wi-Fi.〔补回 A010，待核〕",
+      "source_block_ids": [
+        "27",
+        "29",
+        "31"
+      ],
+      "change_ids": [
+        "F046",
+        "F047",
+        "F048",
+        "F049",
+        "F050",
+        "F051",
+        "C015",
+        "A008",
+        "A009",
+        "A010",
+        "C017"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P33",
+      "text": "You may be on a on a street, in a Shanghai, and you may receive the signal, if you are in a in a mall, for example, from the access point of Starbucks, whatever that is, the access point you would like to receive from, because you are there drinking the coffee, but you will receive also the signal coming from the access points of other nearby coffee shops or shops.\n\nSo, your Wi-Fi card, that is a receiver in this case, will get the useful signal from the Starbucks access point, but will also get the signal coming from the nearby coffee shop access point. That is an interference.",
+      "source_block_ids": [
+        "33"
+      ],
+      "change_ids": [
+        "F052",
+        "C020",
+        "F054",
+        "C018",
+        "F055",
+        "C021"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P35",
+      "text": "Other examples are when we have transmitters that are using different technologies. So, interference may come from transmitters using the same technology, like in the previous examples, all of them were Wi-Fi access points. But it may also come from transmitters of different technologies. So, for example, you have your Bluetooth radio interface in your phone, and you would like to receive the Bluetooth signal from your earphone. That's the useful signal for my receiver〔推定 C022〕.\n\nBut there might be a Wi-Fi transmitter. Wi-Fi and Bluetooth may transmit exactly on the same frequencies. So, they operate on the same frequencies. So this means that the Bluetooth receiver will get the Bluetooth, the intended Bluetooth signal fine, but overlapping with that, it will get also the Wi-Fi signal. That's power, interfering power that is going to interfere with the useful signal. Okay?\n\nSo, we may get interference intra and inter technology. Intra is when it is from the same technology, inter is when it is from different technologies, but still is interference power that we are getting, and in this metric, this interfere, interfering signal goes to the denominator along with the noise. So, it's something nasty, something that lowers the quality of your communication.〔补回 A011〕",
+      "source_block_ids": [
+        "35"
+      ],
+      "change_ids": [
+        "F056",
+        "F057",
+        "F058",
+        "F059",
+        "F060",
+        "F061",
+        "F062",
+        "F063",
+        "C022",
+        "A011"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P37",
+      "text": "Good. So when SNR or SINR are too low, then as we said, our receiver will have troubles in demodulating the signal, right? So, we don't know, the, remember the red dots, we don't know if what we receive corresponds to a red, no, a red dot or the other in the constellation. So, we make mistakes, and the probability of making mistakes increases as the SNR or SINR get lower.\n\nNow, clearly, our technologies have tried to avoid that our receiver makes mistakes. How can we do that? How can we help our receiver to get the correct information?\n\nWell, one possibility is to use the so called error detection or error recovery techniques.",
+      "source_block_ids": [
+        "37"
+      ],
+      "change_ids": [
+        "F064",
+        "F065",
+        "C023"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P39",
+      "text": "Let's look at codes first. Codes are possible techniques to increase the reliability of our communication. The key point here is to introduce, in particular, when we look at the first technique that you see here, [00:25:45] coding, to introduce redundant bits that help the receiver to understand what would be the correct bits to extract. And these codes are called forward error correction codes, and this is what we are looking at first.\n\nLet's focus on the main message here. Let me show you this figure.\n\nSo, let's consider that we have a certain number of information bits, right? These information bits are divided into blocks, each block includes n bits, and within each bits actually, we use k〔推定 C025〕 information bits that are user bits, important bits that we really want to transfer. The remaining ones will be bits that are artificially added, so they are redundant bits. And then what we transmit is one block of n bits one after the other.\n\nThe receiver will have to extract from each block of n bits the k〔推定 A012〕 user bits correct.〔补回 A012，待核〕",
+      "source_block_ids": [
+        "39",
+        "41"
+      ],
+      "change_ids": [
+        "F066",
+        "F067",
+        "F068",
+        "F069",
+        "F070",
+        "C024",
+        "C025",
+        "A012"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P43",
+      "text": "OK, that's the goal. And we'll use these redundant bits that we artificially inserted to help itself to get these k〔推定 C026〕 user bits right.\n\nOK, now, in this case, in this example, the so called code rate is k over n. So, this ratio stands for the number of useful bits that are transferred for each block. Clearly, the lower the coding rate, the less useful bits we transmit per block, and the more redundant bits we transmit per block. OK. The more redundant bits we insert, the more powerful our technique is. So it's a trade-off again.〔补回 A013，待核〕",
+      "source_block_ids": [
+        "43"
+      ],
+      "change_ids": [
+        "F071",
+        "F072",
+        "C026",
+        "C027",
+        "A013"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P45",
+      "text": "If you insert more redundant bits, of course, you consume your radio resources and your efforts to transfer fewer information bits per block, but you make your coding technique more powerful. So, when the channel is bad, it's good to use a powerful coding technique, right, and increase the number of redundant bits per block.\n\nWhen instead the channel is already very good, you may want to reduce the redundant bits even to zero or to a small figure, so that you do not consume radio resources, efforts to transmit redundant bits, and you transmit more user bits. The channel is good, so you don't need much help from the coding technique, right? In that case.",
+      "source_block_ids": [
+        "45"
+      ],
+      "change_ids": [
+        "F073",
+        "F074",
+        "F075",
+        "F076",
+        "C028",
+        "C029"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P47",
+      "text": "OK, so the important thing also to say is that this kind of techniques depending on the coding rate, so depending on how many redundant bits you artificially add, so depending on how powerful the coding technique is, may be able to only detect if the receiver has made a mistake, or if the coding technique is powerful, it can not only detect if the receiver has made a mistake, but also correct some errors in case mistakes have been made.\n\nOK, it really depends on the code that we use.\n\nJust to give practical and simple examples, what is the simplest code that you can use, and that we humans use? The repetition code.\n\nWhen we talk to someone, and that person has not understood what we're saying, we repeat, right? Once, two, three times, whatever, but we repeat. And that's exactly the simplest form of coding that you can apply.\n\nSo, in wireless transmissions, they do that. Even in the more sophisticated generations of wireless technologies, they do that. Is the technique of repeating.\n\nSo, this is the string of useful bits, the ones that you really want to transfer. They are user bits, they are the valuable bits. And if you repeat them twice more, these are redundant bits, right? So the one with the green background are redundant bits.",
+      "source_block_ids": [
+        "47"
+      ],
+      "change_ids": [
+        "F077",
+        "F078",
+        "F079",
+        "F080",
+        "F081",
+        "C030"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P49",
+      "text": "And then, what the receiver does in this case is try to demodulate these useful bits, right? Once, and then it demodulates this row, and then it demodulates this row〔推定 C031〕, and then depending on what it has demodulated〔推定 C032〕, on what it has understood, for each bit, it applies a majority rule.",
+      "source_block_ids": [
+        "49"
+      ],
+      "change_ids": [
+        "F082",
+        "C031",
+        "C032"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P51",
+      "text": "So, for example, if the receiver has demodulated the first bit of these rows twice as zero and once as one, it would say, well, the result is zero, because twice I demodulated the bit as zero, and once I demodulated as one. So likely I made a mistake the third time since twice I evaluated that as a zero. Majority rule, I would say this is a zero, okay? And the same for each bit.\n\nSo repeating, you get more chances, right? To get it right exactly as we human beings do.",
+      "source_block_ids": [
+        "51"
+      ],
+      "change_ids": [
+        "F083",
+        "F084",
+        "C033"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P53",
+      "text": "Another simple technique is to add a so-called parity bit as redundant bit.〔补回 A014，待核〕\n\nSo again, here you have the string of useful bits, and for this string of useful bits, in this case, you add only one redundant bit. That is a parity bit, it is computed essentially by considering the information bits. One and one essentially nullify themselves. So, 0, 1, 1, OK? Together they give you 0. 1 and 1 together they give you 0, the others are all 0, your parity bit is 0.\n\nOK, so if you have an even number of ones, your parity bit is zero, if you have an odd number of ones, your parity bit is one. Very simple.\n\nAnd in cases where you get only one mistake, essentially what the receiver can do is to detect whether it has made an error. Why?",
+      "source_block_ids": [
+        "53"
+      ],
+      "change_ids": [
+        "F085",
+        "F086",
+        "F087",
+        "F088",
+        "F089",
+        "A014",
+        "C034",
+        "F090"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P55",
+      "text": "Because this is the bits that are useful bits that the transmitter transmits. This is the parity bit that the transmitter has computed and will transmit. The receiver demodulates〔推定 C035〕 all this, right?\n\nNow, what it does is first to process these waveforms, these signals and extract these information bits, and then it extracts the parity bit.",
+      "source_block_ids": [
+        "55"
+      ],
+      "change_ids": [
+        "F092",
+        "C035",
+        "C036"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P57",
+      "text": "Assume that the parity bit is always received correctly. Right? Let's assume that. So the receiver knows that the parity bit must be zero. So what it does is to compute locally the parity bit based on what he has received and extracted.",
+      "source_block_ids": [
+        "57"
+      ],
+      "change_ids": [
+        "C037"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P59",
+      "text": "OK, and then it compares the parity bit that it has computed locally with the parity bit that it has received from the transmitter. If they are the same, it says well, I demodulated all the useful bits correctly.\n\nIf instead the parity bits that it has computed based on what it has extracted differs from the parity bit that the transmitter has sent, you would say, I made a mistake, right? You don't know where, but you know that the receiver made a mistake.\n\nSo, this simple code allows the receiver in the case where one mistake only is made to detect that it has made a mistake.\n\nYou can try at home to do some examples by yourself.〔补回 A015，待核〕",
+      "source_block_ids": [
+        "59"
+      ],
+      "change_ids": [
+        "F091",
+        "C038",
+        "C039",
+        "A015"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P61",
+      "text": "Make your receiver, make one mistake only, and see if it can detect that it has made a mistake. Try to make your receiver make two mistakes, and you will see that it will〔推定 C040〕 not be able to understand that you made a mistake. Okay, it's very simple. So, you can try. If you have troubles, let me know. But it's a very simple exercise.",
+      "source_block_ids": [
+        "61"
+      ],
+      "change_ids": [
+        "C040",
+        "C041",
+        "F093"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P63",
+      "text": "This is another example where again, the bits on the white background are the useful bits. The green, the the ones with the green background are the redundant bits.\n\nAnd again, what our transmitter does is to compute parity bits, but now it arranges the useful bits in a matrix. And for each row, it computes a parity bit, and for each column also, it computes a parity bit. So, we increase the number of parity bits.",
+      "source_block_ids": [
+        "63"
+      ],
+      "change_ids": [
+        "C042"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P65",
+      "text": "So, we make our code more powerful, right? And this is indeed true, because if you notice in this case, where, in this example, where we consider that the receiver makes one mistake, it will be able not just to detect that it has made a mistake, but it will also be able to correct the mistake.\n\nSo, in making the code more powerful, because we now increase the number of redundant bits, so we reduce the coding rate, we are able not just to perform detection of a single error, but also to correct a single error.\n\nAnd again, you can do that as a small exercise at home and verify that this is indeed true.\n\nRemember that the way things work is that the receiver will try first to demodulate the information bits,〔补回 A016，含推定，待核〕 [00:39:58] the user bits with a white background, and then compute locally the parity bits based on what it has extracted, and then compare the parity bits that it has computed locally with the parity bits that it has received from the transmitter. And use this to understand whether it has made a mistake or not. And in case of a single error in this example, also it will be able to correct the error. Okay, so try to do that at home.\n\nThis is just to say that those were simple examples. Codes may actually be a bit more complicated than that.\n\nThere are, for example, convolutional codes. I'm not going to the details, of course, but essentially, they use registers, and they combine information bits according to more complicated operations in order to compute the parity bits. So the concept is exactly the same as in those examples that we look at, but just to say that codes may become really complicated depending on how you compute these parity bits or redundant bits, redundant bits that you add and then transmit along with the user bits.〔补回 A017，待核〕",
+      "source_block_ids": [
+        "65",
+        "67"
+      ],
+      "change_ids": [
+        "F094",
+        "F095",
+        "F096",
+        "F097",
+        "F098",
+        "F099",
+        "A016",
+        "C043",
+        "A017"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P69",
+      "text": "As a very last thing that I would like to introduce, let's see if we can make it before the end of this class. Otherwise, we continue tomorrow, is the ARQ technique. This is a second technique that can be used to detect and possibly correct errors, but the principle, the concept is very very different. So, ARQ stands for automatic retransmission request.\n\nNow, we don't look at the single bits, but we look at packets, OK?\n\nSo, when we transmit information from a transmitter to a receiver, [00:42:42] bits are organized into packets. It means that they are segmented into chunks, and each chunk of user bits are then transmitted from the transmitter to the receiver. And usually, the transmitter does not just transmit these chunks of user bits, but put an header in front of each chunk of useful bits. This is the way information is transferred over the internet. I guess you have studied that somewhere. Have you? Have you studied internet? How internet works?",
+      "source_block_ids": [
+        "69",
+        "71"
+      ],
+      "change_ids": [
+        "F100",
+        "F101",
+        "F102",
+        "C044",
+        "F110"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P73",
+      "text": "No, OK, anyway, doesn't matter. But whenever we use internet, we transfer or receive data that are organized into packets. A packet is like a letter, like the mail, post mail. So, you write a letter, right? The transmitter is like sending letters, and each letter, of course, is made of several symbols. And then, it sends the letter through the postal mail toward a destination. At least in the old times, we use that.",
+      "source_block_ids": [
+        "73"
+      ],
+      "change_ids": [
+        "F103",
+        "F111"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P75",
+      "text": "Now we have emails, but the concept is the same. You write an email that is intended for your friend. Your friend is the destination. You are the transmitter, and what you send is an email, a message, right? You don't send one letter, a, b, c at a time, you send the message. That's the same idea. In the internet we transmit packets, and a packet is a chunk of bits.〔补回 A018，待核〕",
+      "source_block_ids": [
+        "75"
+      ],
+      "change_ids": [
+        "A018"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P77",
+      "text": "Now, when you send an email or a post letter to your friend, what you do is not just send a sheet of paper with the information, right, that you want to send to your friend, but you write your name, your address, the name and address of your friend. Otherwise, you will never reach your friend.\n\nSame for the packets. The packets need an header, and in this header, at minimum, you have to write who is the sender of the packet, and who is the destination of the packet. OK? That's how internet works. All the all the data networks nowadays work, wireless, wired〔推定 C046〕, it doesn't matter. They always organize information bits into packets and in packets we have a header, and this is called payload. Here you find a different denomination, but let's use the simpler one, where this is the header of the packet, and this is the payload.",
+      "source_block_ids": [
+        "77"
+      ],
+      "change_ids": [
+        "F104",
+        "F105",
+        "F106",
+        "F107",
+        "C045",
+        "C046"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P79",
+      "text": "In the payload you get the useful bits. In the header you get the address of the sender, the address of the destination, and other stuff that we refer to control information. They are not really useful data for the final user, right? They are information, but they are control information, like the address of the sender or the address of the receiver. While the content, the useful content, is in the payload. OK, so that's it.〔待核 U003〕\n\nThat would be all for today. We continue tomorrow to explain how these ARQ techniques〔推定 C049〕 work. If you have any feedback about the speed, and please let me know. Okay? And also, what is clear, what is not, that would help me make it easier for you for the next lecture.",
+      "source_block_ids": [
+        "79"
+      ],
+      "change_ids": [
+        "F108",
+        "F109",
+        "C047",
+        "C048",
+        "U003",
+        "C049"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P81",
+      "text": "Thank you.",
+      "source_block_ids": [
+        "81"
+      ],
+      "change_ids": [
+        "C050"
+      ],
+      "timestamps_are_anchors": true
+    }
+  ],
+  "excluded_source_blocks": [],
+  "unresolved_items": [
+    {
+      "change_id": "A001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 get 后漏掉方向改变的补语；新模型明确保留 in a way diverted，并衔接下一段 so they change direction。单窗口支持待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "5",
+          "start_char": 848,
+          "end_char": 874,
+          "old_text": "our signal or signals get."
+        }
+      ],
+      "markers": [
+        "〔补回 A001，待核〕"
+      ]
+    },
+    {
+      "change_id": "A002",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文末尾省略转入无线通信影响的提问；模型有相应完整问句，保留单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 434,
+          "end_char": 467,
+          "old_text": "we studied them in a high school."
+        }
+      ],
+      "markers": [
+        "〔补回 A002，待核〕"
+      ]
+    },
+    {
+      "change_id": "A003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 have 后缺失进一步障碍和简化示意的说明；新模型保留对应句子，保留 we may have so 的口语。单窗口待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "9",
+          "start_char": 485,
+          "end_char": 507,
+          "old_text": "And then, we may have."
+        }
+      ],
+      "markers": [
+        "〔补回 A003，待核〕"
+      ]
+    },
+    {
+      "change_id": "U001",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文和模型均为 distract themselves，但本段在讲部分相消；不能仅凭概念确定实际用了 destruct、destroy 或别的词。保留词形并标待核，不自动改成规范术语句。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "13",
+          "start_char": 1306,
+          "end_char": 1335,
+          "old_text": "partially distract themselves"
+        }
+      ],
+      "markers": [
+        "〔待核 U001〕"
+      ]
+    },
+    {
+      "change_id": "A004",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型首先恢复 multipath fading phenomenon 术语，然后保留原文缺失的 fades away/disappear 说明与 Why。术语修复与新增说明一起列明，保留口语重复。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "13",
+          "start_char": 1369,
+          "end_char": 1405,
+          "old_text": "so called.Más tipa.Fading of Phenom."
+        }
+      ],
+      "markers": [
+        "〔补回 A004，待核〕"
+      ]
+    },
+    {
+      "change_id": "A005",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文片尾变成无法解释的外语串；模型给出副本在接收端合并的延续。模型 and the other receiver 按近音及上下文推定为 at the receiver，明确标出，不作逐词保证。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "15",
+          "start_char": 122,
+          "end_char": 146,
+          "old_text": "So gogar dengan.Ada ada."
+        }
+      ],
+      "markers": [
+        "〔推定 A005〕",
+        "〔补回 A005，待核〕"
+      ]
+    },
+    {
+      "change_id": "C009",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 yogurt lock 与模型 you are lucky phase 都不可靠；前文讨论副本同相重叠得到强信号，按近音和上下文推定 they overlap in phase，保留标记。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "17",
+          "start_char": 128,
+          "end_char": 157,
+          "old_text": "when the yogurt lock in phase"
+        }
+      ],
+      "markers": [
+        "〔推定 C009〕"
+      ]
+    },
+    {
+      "change_id": "A006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文末尾省去移动障碍和树叶的例子；后续独立模型窗口保留完整对应。单窗口待核，原来下一段的障碍物描述仍保留。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 767,
+          "end_char": 805,
+          "old_text": "Your scenario changes very frequently."
+        }
+      ],
+      "markers": [
+        "〔补回 A006，待核〕"
+      ]
+    },
+    {
+      "change_id": "U002",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 in in urban 与独立模型 in Chile 不同；无法仅凭后面都市环境示例判断地点或前一句措辞，保留原文待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "23",
+          "start_char": 138,
+          "end_char": 158,
+          "old_text": "operator in in urban"
+        }
+      ],
+      "markers": [
+        "〔待核 U002〕"
+      ]
+    },
+    {
+      "change_id": "C014",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "两份均近似 very，但这里主语为接收信号质量，下一短语 depending on where you are 说明变化。按近音及语境推定为 varies；实际词尾仍不能逐词确认。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "23",
+          "start_char": 644,
+          "end_char": 682,
+          "old_text": "signal that you get very significantly"
+        }
+      ],
+      "markers": [
+        "〔推定 C014〕"
+      ]
+    },
+    {
+      "change_id": "A007",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "新模型恢复前半英文误词，并补出原文 using 后遗漏的 SNR 及其全称。完整词句来自独立识别，不是只根据下一段公式反推添加。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "25",
+          "start_char": 976,
+          "end_char": 1077,
+          "old_text": "What i would like just to say is that.We Makassar, the quality.Of dari shift signal tipik kali using."
+        }
+      ],
+      "markers": [
+        "〔补回 A007，待核〕"
+      ]
+    },
+    {
+      "change_id": "A008",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文缺失 SNR 低的判断，并将 very difficult 识别成杂乱词串；模型给出完整因果句，接下一原段 for the receiver。单窗口支持，恢复而不改写为教材。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "27",
+          "start_char": 316,
+          "end_char": 370,
+          "old_text": "then the SNR.Not happy, because i will be vere digico."
+        }
+      ],
+      "markers": [
+        "〔补回 A008，待核〕"
+      ]
+    },
+    {
+      "change_id": "A009",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文片尾只留 that mean，遗漏 SINR 全称及分子引入；独立 ASR 有完整对应句，接下一原段 the power of the useful signal。单窗口支持待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "29",
+          "start_char": 435,
+          "end_char": 454,
+          "old_text": "the SINR that mean."
+        }
+      ],
+      "markers": [
+        "〔补回 A009，待核〕"
+      ]
+    },
+    {
+      "change_id": "A010",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型将 customers 恢复为 transmitters，并补出原文省略的 Wi-Fi 示例引导，随后接下一原段商场场景。完整原句有识别支持。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "31",
+          "start_char": 509,
+          "end_char": 553,
+          "old_text": "the signals coming.From the other customers."
+        }
+      ],
+      "markers": [
+        "〔补回 A010，待核〕"
+      ]
+    },
+    {
+      "change_id": "C017",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文与模型均为 only，但前面 not just the useful signal 对比的是同时收到其他发射端。按近音与语境推定 all，另可能是 also；明确标注，不声称原话已确认。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "31",
+          "start_char": 492,
+          "end_char": 508,
+          "old_text": "it will get only"
+        }
+      ],
+      "markers": [
+        "〔推定 C017〕"
+      ]
+    },
+    {
+      "change_id": "C022",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 for all my servers 与模型 whatever 均不稳；本句在说耳机对手机 Bluetooth 接收端的有用信号，按近音和语境推定 for my receiver，明确保留推定而非逐词确认。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "35",
+          "start_char": 469,
+          "end_char": 487,
+          "old_text": "for all my servers"
+        }
+      ],
+      "markers": [
+        "〔推定 C022〕"
+      ]
+    },
+    {
+      "change_id": "C025",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文和模型都把字母 k 写成 key；本段定义 n 位块中的信息位数量，随后代码率 k/n 明确给出变量。按数学语境推定为 k，标明这是符号转写而非已确认发音。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "41",
+          "start_char": 483,
+          "end_char": 503,
+          "old_text": "key information bits"
+        }
+      ],
+      "markers": [
+        "〔推定 C025〕"
+      ]
+    },
+    {
+      "change_id": "A012",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文省略接收端提取信息位的目标句，新模型给出完整延续。key 按同段 k/n 变量转写为 k 并标推定；correct 按模型保留，不改成更流畅副词。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "41",
+          "start_char": 688,
+          "end_char": 728,
+          "old_text": "one block of n bits one after the other."
+        }
+      ],
+      "markers": [
+        "〔推定 A012〕",
+        "〔补回 A012，待核〕"
+      ]
+    },
+    {
+      "change_id": "C026",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "同段代码率 k/n 指向 k 个用户信息位；原文 key 近音转为变量 k，并保留显式推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "43",
+          "start_char": 124,
+          "end_char": 143,
+          "old_text": "these key user bits"
+        }
+      ],
+      "markers": [
+        "〔推定 C026〕"
+      ]
+    },
+    {
+      "change_id": "A013",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文段尾省去冗余位与保护强度权衡的引导，独立 ASR 有完整相应句，单窗口待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "43",
+          "start_char": 406,
+          "end_char": 443,
+          "old_text": "redundant bits we transmit per block."
+        }
+      ],
+      "markers": [
+        "〔补回 A013，待核〕"
+      ]
+    },
+    {
+      "change_id": "C031",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文和模型中间两次均写 modulates，但原文前句明确接收端 demodulate。按重复接收、解调和多数判决的上下文推定这两处省去 de 前缀，明确标注，不能排除口头误用。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "49",
+          "start_char": 122,
+          "end_char": 175,
+          "old_text": "it modulates this row, and then it modulates this row"
+        }
+      ],
+      "markers": [
+        "〔推定 C031〕"
+      ]
+    },
+    {
+      "change_id": "C032",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 the modulated 接近 demodulated，新模型仅为 modulated；按前述接收端解调语境推定，保留标记。连接 depending 引导语和最后的多数判决主句。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "49",
+          "start_char": 199,
+          "end_char": 264,
+          "old_text": "what it has, the modulated on what it has understood.For each bit"
+        }
+      ],
+      "markers": [
+        "〔推定 C032〕"
+      ]
+    },
+    {
+      "change_id": "A014",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 add 后省去校验位的引入，独立模型保留完整句。保留 as redundant bit 的口语冠词省略，不补写未说的技术解释。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "53",
+          "start_char": 16,
+          "end_char": 51,
+          "old_text": "Another simple technique is to add."
+        }
+      ],
+      "markers": [
+        "〔补回 A014，待核〕"
+      ]
+    },
+    {
+      "change_id": "C035",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "两份均把 demodulates 的近音拆成 the modulates；同段明确是接收端从波形提取比特，按语境与近音推定 demodulates，显式标注。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "55",
+          "start_char": 168,
+          "end_char": 195,
+          "old_text": "The receiver, the modulates"
+        }
+      ],
+      "markers": [
+        "〔推定 C035〕"
+      ]
+    },
+    {
+      "change_id": "A015",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文末尾省去回家尝试例子的引导句，模型有完整延续，后面继续单错误与双错误实验。单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "59",
+          "start_char": 566,
+          "end_char": 600,
+          "old_text": "detect that it has made a mistake."
+        }
+      ],
+      "markers": [
+        "〔补回 A015，待核〕"
+      ]
+    },
+    {
+      "change_id": "C040",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 thatwill 粘连且缺主语，模型近似 we'll；按讨论接收端判断能力的上下文补入 it，明确为推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "61",
+          "start_char": 160,
+          "end_char": 185,
+          "old_text": "you will see thatwill not"
+        }
+      ],
+      "markers": [
+        "〔推定 C040〕"
+      ]
+    },
+    {
+      "change_id": "A016",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文省略接收端解码步骤的引导；模型有完整延续。waiting's work 按近音推定为 way things work，modulate 按接收端解码语境推定为 demodulate，全部标明，随后接原文 user bits。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "65",
+          "start_char": 597,
+          "end_char": 617,
+          "old_text": "this is indeed true."
+        }
+      ],
+      "markers": [
+        "〔补回 A016，含推定，待核〕"
+      ]
+    },
+    {
+      "change_id": "A017",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文段尾省去复杂度取决于冗余位计算方法的说明；模型有完整延续，保留 redundant bits 重复，单窗口待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "67",
+          "start_char": 871,
+          "end_char": 907,
+          "old_text": "codes may become really complicated."
+        }
+      ],
+      "markers": [
+        "〔补回 A017，待核〕"
+      ]
+    },
+    {
+      "change_id": "A018",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在transmit处截断；模型完整给出分组与比特块定义，单窗口证据仍标待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "75",
+          "start_char": 308,
+          "end_char": 336,
+          "old_text": "In the internet we transmit."
+        }
+      ],
+      "markers": [
+        "〔补回 A018，待核〕"
+      ]
+    },
+    {
+      "change_id": "C046",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型为wireless, wide；网络类型并列语境支持wired，但词尾没有独立确定，显式标推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "77",
+          "start_char": 554,
+          "end_char": 566,
+          "old_text": "various wide"
+        }
+      ],
+      "markers": [
+        "〔推定 C046〕"
+      ]
+    },
+    {
+      "change_id": "U003",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文sad、主窗口that、尾窗it不一致；按尾窗暂取it并保留待核，不能当成已逐词听证。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "79",
+          "start_char": 400,
+          "end_char": 418,
+          "old_text": "OK, so that's sad."
+        }
+      ],
+      "markers": [
+        "〔待核 U003〕"
+      ]
+    },
+    {
+      "change_id": "C049",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型为these Q techniques，前文明确介绍ARQ且次日继续；缩写恢复为上下文推定，不伪称原模型完整识别。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "79",
+          "start_char": 482,
+          "end_char": 507,
+          "old_text": "these are cute techniques"
+        }
+      ],
+      "markers": [
+        "〔推定 C049〕"
+      ]
+    }
+  ],
+  "full_text_review_complete": true
+}
