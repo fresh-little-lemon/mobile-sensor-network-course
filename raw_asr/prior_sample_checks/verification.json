@@ -1,0 +1,205 @@
+{
+  "verified_utc": "2026-10-17T03:50:28.051389+00:00",
+  "recording_id": "20261008-0800",
+  "recording_audio_sha256": "c46caa760d65d2e4641d801364ede5d846d873273084ceecbf9143a8658b624b",
+  "sample_start_seconds": 686,
+  "sample_end_seconds": 793,
+  "sample_file_sha256": "903c2bccd54d41950563eac4f1d6351061b1adb46210217aa8545c97ff03e2a2",
+  "sample_pcm_sha256": "5ab58f787304d8ed3302855738f479a7313456203687d7756ed77f597a370962",
+  "sample_params": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "sample_width_bytes": 2,
+    "sample_count": 1712000
+  },
+  "verification_method": "Decode current complete recording with ffmpeg -ss 686 -i <recording> -t 107 -ac 1 -ar 16000 -c:a pcm_s16le; compare every decoded PCM byte against the earlier sample; WAV wrapper metadata need not match.",
+  "exact_pcm_match": true,
+  "files": [
+    {
+      "original_relative_path": "asr_qwen/qwen3_06b_full_1126_1313.json",
+      "archived_path": "raw_asr/prior_sample_checks/asr_qwen/qwen3_06b_full_1126_1313.json",
+      "bytes": 1710,
+      "sha256": "8667e3f9f137ef5f24cb13bccb1f10490015deb5ca9b6028a875edc9621969da"
+    },
+    {
+      "original_relative_path": "asr_qwen/qwen3_06b_full_1126_1313.txt",
+      "archived_path": "raw_asr/prior_sample_checks/asr_qwen/qwen3_06b_full_1126_1313.txt",
+      "bytes": 766,
+      "sha256": "172a1e9eff612ba192244846c98fe1224bb083e755cddc5e2a94ae8b63344188"
+    },
+    {
+      "original_relative_path": "asr_qwen/qwen3_06b_1126_1313.json",
+      "archived_path": "raw_asr/prior_sample_checks/asr_qwen/qwen3_06b_1126_1313.json",
+      "bytes": 2129,
+      "sha256": "d885947c223426de377670e3b78decedee4b755f345d33b7ff20daa8c1663bb1"
+    },
+    {
+      "original_relative_path": "asr_qwen/qwen3_06b_1126_1313.txt",
+      "archived_path": "raw_asr/prior_sample_checks/asr_qwen/qwen3_06b_1126_1313.txt",
+      "bytes": 805,
+      "sha256": "859c9982c27c05d0624aaadc8d04f9f1ee4a1ee8a8ab2a0c2bf736f1ef7dc6f1"
+    },
+    {
+      "original_relative_path": "asr_qwen/run_qwen_full.py",
+      "archived_path": "raw_asr/prior_sample_checks/asr_qwen/run_qwen_full.py",
+      "bytes": 2541,
+      "sha256": "a30cf7ef2d417ecd618ea13a6db2d6170a98aaba986a91d2dea6d28fb1a32cc4"
+    },
+    {
+      "original_relative_path": "asr_qwen/run_qwen.py",
+      "archived_path": "raw_asr/prior_sample_checks/asr_qwen/run_qwen.py",
+      "bytes": 2577,
+      "sha256": "7488f3fef7d7f8ad831ab377ff45f9b825ce06a50bf77ece2c59882a57dd0d53"
+    },
+    {
+      "original_relative_path": "asr_qwen/model_metadata.json",
+      "archived_path": "raw_asr/prior_sample_checks/asr_qwen/model_metadata.json",
+      "bytes": 717,
+      "sha256": "973922e01528064cd7e5b0aa4a2a5f49e627d98c1100e3d97ec5126de5f32075"
+    },
+    {
+      "original_relative_path": "asr_qwen/requirements.lock.txt",
+      "archived_path": "raw_asr/prior_sample_checks/asr_qwen/requirements.lock.txt",
+      "bytes": 1452,
+      "sha256": "192a28a01d75dfd29f019250f66586fe38de29e5bc7d4f9a4b00c2a09e11699f"
+    },
+    {
+      "original_relative_path": "asr_baseline/large_v3_1126_1313.json",
+      "archived_path": "raw_asr/prior_sample_checks/asr_baseline/large_v3_1126_1313.json",
+      "bytes": 4775,
+      "sha256": "c9770f2f86637b2804b95764ced36f3ee79990c141b662a252cbbb91534e2e36"
+    },
+    {
+      "original_relative_path": "asr_baseline/large_v3_1126_1313.txt",
+      "archived_path": "raw_asr/prior_sample_checks/asr_baseline/large_v3_1126_1313.txt",
+      "bytes": 1118,
+      "sha256": "378874b600d3756288f6f643dec90cfdb27289ef3effc29f5c33e70b68fa7c0a"
+    },
+    {
+      "original_relative_path": "asr_baseline/medium_1126_1313.json",
+      "archived_path": "raw_asr/prior_sample_checks/asr_baseline/medium_1126_1313.json",
+      "bytes": 3295,
+      "sha256": "c8d5e54bcdcc5f81fe82a7ab9f19dd98024a1b7898268ab39df3fba2b92d1d23"
+    },
+    {
+      "original_relative_path": "asr_baseline/medium_1126_1313.txt",
+      "archived_path": "raw_asr/prior_sample_checks/asr_baseline/medium_1126_1313.txt",
+      "bytes": 936,
+      "sha256": "2c93b587209c139d9ed071c4d6fe3ddc18b255c4cb0b97cc025b94d3868a9d93"
+    },
+    {
+      "original_relative_path": "asr_baseline/run_baseline.py",
+      "archived_path": "raw_asr/prior_sample_checks/asr_baseline/run_baseline.py",
+      "bytes": 1964,
+      "sha256": "007b1f921ccf023d839327a8887a3023331bd271f5f4cac01aff32ea4207a396"
+    },
+    {
+      "original_relative_path": "asr_baseline/requirements.lock.txt",
+      "archived_path": "raw_asr/prior_sample_checks/asr_baseline/requirements.lock.txt",
+      "bytes": 399,
+      "sha256": "54ced3e71a8dd09c03c69aafb86a8470df4f84e95c140a93b3614fc232d952be"
+    }
+  ],
+  "limitations": [
+    "Earlier outputs predate the current all-recording run; no token-level raw generation or historical model-file hash was captured.",
+    "Qwen whole-clip times are input boundaries; Whisper segment times are model-predicted and are not verified word-level timestamps.",
+    "Current hashes below identify files still present at verification time, not a retroactive guarantee of their earlier execution-state hashes."
+  ],
+  "models_present_now": [
+    {
+      "model_directory": "asr_qwen/model",
+      "files": [
+        {
+          "filename": "chat_template.jinja",
+          "bytes": 1434,
+          "sha256": "f50e6b694fbf4a683206e37869990d68333fe95d285730f084c838a34b0d98c2"
+        },
+        {
+          "filename": "config.json",
+          "bytes": 2398,
+          "sha256": "9eecf6f1b383e343889c2e6010e632590fa57d4bc678e151c7d6a160a0dfb04a"
+        },
+        {
+          "filename": "generation_config.json",
+          "bytes": 165,
+          "sha256": "9939fc9388b79bd70757f938b87381e817173d6a6158f5af6506c0b73e775c3c"
+        },
+        {
+          "filename": "model.safetensors",
+          "bytes": 1564928088,
+          "sha256": "d3f212dd20abecd315d830bc54ae3865e56ebfc3276484e57b771288ba27fd35"
+        },
+        {
+          "filename": "processor_config.json",
+          "bytes": 487,
+          "sha256": "bc0b230081b44e629dd5b9045b78495615c1831b4b9f4cffe97bd37e82a6156a"
+        },
+        {
+          "filename": "tokenizer.json",
+          "bytes": 11429653,
+          "sha256": "fe1fad59be22a41ee293363fcf95fdedbc7c93f3b49270b1d2e18bd1399a7a05"
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "bytes": 998,
+          "sha256": "945e980986de2ca7768f3326bfdbb4fbea3406f972b8ae0be233089f2b253c11"
+        }
+      ]
+    },
+    {
+      "model_directory": "asr_baseline/models/medium",
+      "files": [
+        {
+          "filename": "config.json",
+          "bytes": 2257,
+          "sha256": "3622a2ddc41ec0e0fd4e68c13c6830f03b90c38d89aaad184de02c8c642cf807"
+        },
+        {
+          "filename": "model.bin",
+          "bytes": 1527906378,
+          "sha256": "9b45e1009dcc4ab601eff815b61d80e60ce3fd8c74c1a14f4a282258286b51ae"
+        },
+        {
+          "filename": "tokenizer.json",
+          "bytes": 2203239,
+          "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
+        },
+        {
+          "filename": "vocabulary.txt",
+          "bytes": 459861,
+          "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+        }
+      ]
+    },
+    {
+      "model_directory": "asr_baseline/models/large-v3",
+      "files": [
+        {
+          "filename": "config.json",
+          "bytes": 2394,
+          "sha256": "a9306624f5ec14270a014b647e5c316b6e03a662c369758d1b90697a7b0655b9"
+        },
+        {
+          "filename": "model.bin",
+          "bytes": 3087284237,
+          "sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1"
+        },
+        {
+          "filename": "preprocessor_config.json",
+          "bytes": 340,
+          "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711"
+        },
+        {
+          "filename": "tokenizer.json",
+          "bytes": 2480617,
+          "sha256": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca"
+        },
+        {
+          "filename": "vocabulary.json",
+          "bytes": 1068114,
+          "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1"
+        }
+      ]
+    }
+  ]
+}

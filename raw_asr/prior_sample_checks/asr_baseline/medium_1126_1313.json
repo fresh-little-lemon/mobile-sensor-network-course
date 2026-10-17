@@ -1,0 +1,104 @@
+{
+  "model": "Systran/faster-whisper-medium",
+  "runtime": "1.2.1",
+  "ctranslate2": "4.8.3",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 6,
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "initial_prompt": null,
+  "source_audio": "asr_baseline/sample_1126_1313.wav",
+  "offset_seconds": 686.0,
+  "duration_seconds": 107.0,
+  "load_seconds": 3.0154802710167132,
+  "inference_seconds": 56.68373312195763,
+  "segments": [
+    {
+      "start": 686.24,
+      "end": 698.24,
+      "text": " So there is no book that collects and covers all topics that we will discuss.",
+      "avg_logprob": -0.22337701965550907,
+      "no_speech_prob": 0.007218329701572657
+    },
+    {
+      "start": 698.24,
+      "end": 705.24,
+      "text": " As I said, sorry, this is because I didn't know about the gradient system in tone G.",
+      "avg_logprob": -0.22337701965550907,
+      "no_speech_prob": 0.007218329701572657
+    },
+    {
+      "start": 705.24,
+      "end": 709.24,
+      "text": " Now I know, so please ignore it.",
+      "avg_logprob": -0.22337701965550907,
+      "no_speech_prob": 0.007218329701572657
+    },
+    {
+      "start": 709.24,
+      "end": 713.24,
+      "text": " I will change that.",
+      "avg_logprob": -0.22337701965550907,
+      "no_speech_prob": 0.007218329701572657
+    },
+    {
+      "start": 713.24,
+      "end": 721.24,
+      "text": " During the test, it's a closed book exam.",
+      "avg_logprob": -0.1590184125189598,
+      "no_speech_prob": 0.007048327941447496
+    },
+    {
+      "start": 721.24,
+      "end": 727.24,
+      "text": " And of course you are not allowed to talk with each other.",
+      "avg_logprob": -0.1590184125189598,
+      "no_speech_prob": 0.007048327941447496
+    },
+    {
+      "start": 727.24,
+      "end": 738.24,
+      "text": " And you are not allowed to use your phone, Google glasses, smartwatches or other devices.",
+      "avg_logprob": -0.1590184125189598,
+      "no_speech_prob": 0.007048327941447496
+    },
+    {
+      "start": 738.24,
+      "end": 749.24,
+      "text": " You just need a pen or a pencil, a rubber and paper sheets.",
+      "avg_logprob": -0.17427015428741774,
+      "no_speech_prob": 0.05567723885178566
+    },
+    {
+      "start": 749.24,
+      "end": 751.24,
+      "text": " That's it.",
+      "avg_logprob": -0.17427015428741774,
+      "no_speech_prob": 0.05567723885178566
+    },
+    {
+      "start": 751.24,
+      "end": 757.24,
+      "text": " That's what you need for the exam.",
+      "avg_logprob": -0.17427015428741774,
+      "no_speech_prob": 0.05567723885178566
+    },
+    {
+      "start": 757.24,
+      "end": 776.24,
+      "text": " I would like to also mention that in my research group there are several topics available for master thesis.",
+      "avg_logprob": -0.10648810832450788,
+      "no_speech_prob": 0.09300222992897034
+    },
+    {
+      "start": 776.24,
+      "end": 792.24,
+      "text": " So if you would like to take a thesis project in collaboration with tone G professors and myself.",
+      "avg_logprob": -0.12623322755098343,
+      "no_speech_prob": 0.09347230195999146
+    }
+  ],
+  "accuracy_note": "No independently checked reference available. Feishu transcript is another ASR output, not ground truth. Model confidence is not measured accuracy."
+}
