@@ -4,9 +4,11 @@
 
 ## 当前状态
 
-2026-10-17：已归档并核验 19 份飞书完整文字记录快照，共 1,489 个讲话段落，连同原始捕获 JSON、来源索引和 SHA-256 校验值。原文正文保留捕获的全部字符。
+2026-10-17：19 份飞书完整文字记录快照已归档并核验，共 1,489 个讲话段落，原文正文保留捕获的全部字符。当前页面快照可能包含此前的人工编辑，不宣称是首次机器转写的未改版。
 
-这些是按注明时间捕获的当前飞书页面，可能已经包含此前的人工编辑，不宣称是首次机器转写的未改版。课程录音的小模型 ASR、音频对照和逐段校订仍在进行，尚未完成全量修订交付。
+已发布 1/19 份记录的通读校订：[20261008-0800 校订正文](revised/20261008-0800.md) · [修改记录](diffs/20261008-0800.md)。该录音长 64 分 09 秒，独立 ASR 覆盖完整音频及末尾；校订对应全部 86 个原文段落，保留 244 条修改和明确的待核、推定标注。
+
+本次采用原文、独立 ASR 与语境审阅，未逐段人工复听音频。通读与覆盖核验不等于逐词确证。其余 18 份记录尚未完成校订，全课程 ASR 与修订交付仍未完成。
 
 ## 内容范围
 
@@ -27,18 +29,18 @@
 
 ## 已发布目录
 
-- [`originals/`](originals/)：19 份原始文字记录 Markdown
-- [`originals/SOURCE_INDEX.md`](originals/SOURCE_INDEX.md)：逐篇来源、快照时间及定位索引
-- [`sources/feishu_snapshots/`](sources/feishu_snapshots/)：19 份完整来源 JSON
-- [`source_manifest.json`](source_manifest.json)：当前来源基线、捕获完整性及校验信息
-- [`sources/SHA256SUMS`](sources/SHA256SUMS)：本次原文基线文件的 SHA-256 清单
+- [`originals/`](originals/)：19 份原始文字记录及[来源索引](originals/SOURCE_INDEX.md)
+- [`sources/feishu_snapshots/`](sources/feishu_snapshots/)：完整来源 JSON 及相关原文派生文件
+- [`source_manifest.json`](source_manifest.json)：原文基线、捕获完整性及校验信息
+- [`sources/SHA256SUMS`](sources/SHA256SUMS)：首次原文基线的 SHA-256 清单，继续保持有效
+- [`revised/`](revised/)：已通读校订正文、精确讲话文本与原文对应关系
+- [`diffs/`](diffs/)：可读修改记录、完整机器记录和可重建的逐行补丁
+- [`provenance/`](provenance/) 与 [`qa/`](qa/)：来源、字符核对、音频覆盖及待核内容
+- [`raw_asr/`](raw_asr/) 与 [`evidence/`](evidence/)：本次修改引用的独立识别文字证据
+- [`schemas/`](schemas/)：公开修改记录及原文映射的 JSON 校验结构
 
-在仓库根目录运行 `sha256sum -c sources/SHA256SUMS` 可校验本次归档文件；清单不包含 README 和校验清单自身。
+在仓库根目录运行 `sha256sum -c sources/SHA256SUMS` 可校验首次原文归档；该清单不包含后来加入的修订成果、README 和校验清单自身。第一份修订的具体检查见[校验结果](qa/20261008-0800.json)及[来源与校验](provenance/20261008-0800.json)。
 
-## 后续内容
+## 后续进度
 
-- `revised/`：经过通读校订的修订版正文
-- `diffs/`：独立修订差异与说明
-- `manifest.json`：音频校订覆盖范围与处理状态
-
-音频复核与校订成果将在通过核验后逐步加入。当前上传仅包含原文来源基线，不包含进行中的修订候选稿、录音或模型权重。
+其余记录将按相同标准继续处理，核验通过后逐步加入。保留真实课堂口语及明确的待核标注；录音和模型权重不上传。
