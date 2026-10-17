@@ -1,0 +1,159 @@
+{
+  "recording_id": "20261009-1000",
+  "status": "已通读校订但仍含明确待核内容",
+  "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/DsmgdwtZ0o8u1gxMqLjcR6q2n3f",
+  "source_captured_at": "2026-10-17T03:29:25.850Z",
+  "source_capture_path": "sources/feishu_snapshots/20261009-1000/20261017T032925850Z-7d9ad7df4da9/capture.json",
+  "source_capture_sha256": "7d9ad7df4da93cac5f85808cd0ba6cd610e5b302d05aba93b11e15df7242cd45",
+  "exact_speech_file": "revised/20261009-1000.speech.md",
+  "exact_speech_sha256": "32f244741deb3a4ae58f073417c3eb4e981bc773ad7a09183bbc6ad3a6a4c076",
+  "whole_text_read_at_utc": "2026-10-17T08:53:51Z",
+  "full_current_text_review_complete": true,
+  "uncertainty": {
+    "unresolved_items": 61,
+    "inline_marker_count": 62,
+    "full_text_read_does_not_resolve_uncertainty": true
+  },
+  "evidence_portability_adjustments": [
+    {
+      "change_id": "SAA001",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA002",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA003",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA004",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA005",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA006",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA007",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA008",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA009",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA010",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    },
+    {
+      "change_id": "SAA011",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification note; evidence, confidence, uncertainty and speech unchanged",
+      "artifacts": [
+        "diffs/20261009-1000.changes.json",
+        "provenance/20261009-1000.uncertainty.json",
+        "revised/20261009-1000.source_map.json"
+      ]
+    }
+  ],
+  "source_files_not_modified": true,
+  "spoken_words_not_changed_after_whole_text_read": true,
+  "timestamp_note": "保留原文段落锚点，不作词级对齐或真实句界保证。",
+  "asr_evidence_manifest": "provenance/20261009-1000.asr-evidence.json",
+  "source_files": [
+    {
+      "path": "sources/feishu_snapshots/20261009-1000/20261017T032925850Z-7d9ad7df4da9/capture.json",
+      "sha256": "7d9ad7df4da93cac5f85808cd0ba6cd610e5b302d05aba93b11e15df7242cd45",
+      "bytes": 54923
+    },
+    {
+      "path": "sources/feishu_snapshots/20261009-1000/20261017T032925850Z-7d9ad7df4da9/blocks.jsonl",
+      "sha256": "1bcdfcb3b6884b4d605d99952b57ff39b01ec01bf73496c73effef1d519b737f",
+      "bytes": 90645
+    },
+    {
+      "path": "sources/feishu_snapshots/20261009-1000/20261017T032925850Z-7d9ad7df4da9/body.txt",
+      "sha256": "ccb2f745813b03388b3c88e61c7eb4cc8a7ffcf769e08220a4a8dd9ca07a0348",
+      "bytes": 45587
+    },
+    {
+      "path": "sources/feishu_snapshots/20261009-1000/20261017T032925850Z-7d9ad7df4da9/transcript.txt",
+      "sha256": "f6de771dee9121c012cd8f48c31ff1d812d389b80c5e0ebc5f155d5a41a4825d",
+      "bytes": 44942
+    }
+  ],
+  "public_schemas": {
+    "changes": "schemas/public-changes.schema.json",
+    "revision": "schemas/public-revision.schema.json"
+  }
+}

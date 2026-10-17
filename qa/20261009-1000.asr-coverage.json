@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "coverage_start_seconds": 0.0,
+  "coverage_end_seconds": 5840.5384375,
+  "decoded_duration_seconds": 5840.5384375,
+  "coverage_fraction": 1.0,
+  "uncovered_intervals": [],
+  "final_sample_processed": true,
+  "decoded_minus_source_duration_seconds": 0.005444500000521657,
+  "chunk_count": 53,
+  "planned_chunk_count": 53,
+  "suspect_chunks": [
+    {
+      "index": 25,
+      "start_seconds": 2750.0,
+      "end_seconds": 2870.0,
+      "flags": [
+        "repeated_eight_word_sequence",
+        "missing_eos_requires_split_rerun",
+        "raw_output_repetition"
+      ]
+    },
+    {
+      "index": 26,
+      "start_seconds": 2860.0,
+      "end_seconds": 2980.0,
+      "flags": [
+        "repeated_eight_word_sequence",
+        "missing_eos_requires_split_rerun",
+        "raw_output_repetition"
+      ]
+    },
+    {
+      "index": 27,
+      "start_seconds": 2970.0,
+      "end_seconds": 3090.0,
+      "flags": [
+        "repeated_eight_word_sequence",
+        "missing_eos_requires_split_rerun",
+        "raw_output_repetition"
+      ]
+    }
+  ],
+  "overlap_boundaries_requiring_editorial_review": [
+    6,
+    8,
+    10,
+    13,
+    14,
+    16,
+    20,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    32,
+    34,
+    36,
+    39,
+    42,
+    45,
+    46,
+    49,
+    51
+  ],
+  "tail_verification": {
+    "window_start_seconds": 5750.5384375,
+    "window_end_seconds": 5840.5384375,
+    "end_sample": 93448615,
+    "last_35_words_similarity": 0.8857142857142857,
+    "requires_review": false,
+    "note": "Similarity is an agreement check between two local ASR windows, not a correctness score.",
+    "verification_file": "../raw_asr/20261009-1000/tail_verification.json"
+  },
+  "input_audio_trimmed": false,
+  "transcript_context_prompt_used": false,
+  "note": "Coverage confirms all decoded samples were submitted to ASR; it does not guarantee all spoken words were recognized.",
+  "updated_at": "2026-10-17T07:39:15.692424+00:00"
+}
