@@ -1,0 +1,48 @@
+{
+  "recording_id": "20261009-0845",
+  "status": "已通读校订但仍含明确待核内容",
+  "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/VKf7dDrMLoRYZmx3BGzc2pBrnJf",
+  "source_captured_at": "2026-10-17T03:29:08.024Z",
+  "source_capture_path": "sources/feishu_snapshots/20261009-0845/20261017T032908024Z-afe052ceb664/capture.json",
+  "source_capture_sha256": "afe052ceb664277f98fa3ef5c073db0af06fc741b54d6248d741043d6624732a",
+  "exact_speech_file": "revised/20261009-0845.speech.md",
+  "exact_speech_sha256": "7cd1802a46fac13711a7e1ce58a5d05d0d2fe33f0324c288547c2bbbc2502b88",
+  "whole_text_read_at_utc": "2026-10-17T08:37:35Z",
+  "full_current_text_review_complete": true,
+  "uncertainty": {
+    "unresolved_items": 39,
+    "inline_marker_count": 43,
+    "full_text_read_does_not_resolve_uncertainty": true
+  },
+  "evidence_portability_adjustments": [],
+  "source_files_not_modified": true,
+  "spoken_words_not_changed_after_whole_text_read": true,
+  "timestamp_note": "保留原文段落锚点，不作词级对齐或真实句界保证。",
+  "asr_evidence_manifest": "provenance/20261009-0845.asr-evidence.json",
+  "source_files": [
+    {
+      "path": "sources/feishu_snapshots/20261009-0845/20261017T032908024Z-afe052ceb664/capture.json",
+      "sha256": "afe052ceb664277f98fa3ef5c073db0af06fc741b54d6248d741043d6624732a",
+      "bytes": 26539
+    },
+    {
+      "path": "sources/feishu_snapshots/20261009-0845/20261017T032908024Z-afe052ceb664/blocks.jsonl",
+      "sha256": "32be0d44be097dfc5b5270ed82afc5ebefa45739898af27444924d608d6e9b53",
+      "bytes": 43276
+    },
+    {
+      "path": "sources/feishu_snapshots/20261009-0845/20261017T032908024Z-afe052ceb664/body.txt",
+      "sha256": "f35034b3a995114a9888e98268496b7b33e01a0c37072fc7c504a386189d786d",
+      "bytes": 21949
+    },
+    {
+      "path": "sources/feishu_snapshots/20261009-0845/20261017T032908024Z-afe052ceb664/transcript.txt",
+      "sha256": "a62b6566b71c727fb1de65efc8f809fdbcf0f8dcf80777958eabb9b6b14ea2c3",
+      "bytes": 21554
+    }
+  ],
+  "public_schemas": {
+    "changes": "schemas/public-changes.schema.json",
+    "revision": "schemas/public-revision.schema.json"
+  }
+}

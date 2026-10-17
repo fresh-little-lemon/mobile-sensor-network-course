@@ -1,0 +1,1290 @@
+{
+  "markers": [
+    {
+      "paragraph_id": "P7",
+      "source_block_ids": [
+        "7"
+      ],
+      "paragraph_char_start": 137,
+      "paragraph_char_end": 146,
+      "marker": "〔待核 U001〕",
+      "change_ids": [
+        "U001"
+      ]
+    },
+    {
+      "paragraph_id": "P9",
+      "source_block_ids": [
+        "9"
+      ],
+      "paragraph_char_start": 271,
+      "paragraph_char_end": 280,
+      "marker": "〔推定 C005〕",
+      "change_ids": [
+        "C005"
+      ]
+    },
+    {
+      "paragraph_id": "P9",
+      "source_block_ids": [
+        "9"
+      ],
+      "paragraph_char_start": 916,
+      "paragraph_char_end": 936,
+      "marker": "〔补回 A001，含混合误识修复，待核〕",
+      "change_ids": [
+        "A001"
+      ]
+    },
+    {
+      "paragraph_id": "P11",
+      "source_block_ids": [
+        "11",
+        "13"
+      ],
+      "paragraph_char_start": 28,
+      "paragraph_char_end": 37,
+      "marker": "〔推定 C007〕",
+      "change_ids": [
+        "C007"
+      ]
+    },
+    {
+      "paragraph_id": "P11",
+      "source_block_ids": [
+        "11",
+        "13"
+      ],
+      "paragraph_char_start": 423,
+      "paragraph_char_end": 435,
+      "marker": "〔补回 A002，待核〕",
+      "change_ids": [
+        "A002"
+      ]
+    },
+    {
+      "paragraph_id": "P11",
+      "source_block_ids": [
+        "11",
+        "13"
+      ],
+      "paragraph_char_start": 1052,
+      "paragraph_char_end": 1064,
+      "marker": "〔补回 A003，待核〕",
+      "change_ids": [
+        "A003"
+      ]
+    },
+    {
+      "paragraph_id": "P15",
+      "source_block_ids": [
+        "15"
+      ],
+      "paragraph_char_start": 4,
+      "paragraph_char_end": 23,
+      "marker": "〔待核 U002：短语及语言尚未确认〕",
+      "change_ids": [
+        "U002"
+      ]
+    },
+    {
+      "paragraph_id": "P17",
+      "source_block_ids": [
+        "17"
+      ],
+      "paragraph_char_start": 11,
+      "paragraph_char_end": 48,
+      "marker": "〔待核 U003：源文与模型均如此，按语境可能应为signal/wave〕",
+      "change_ids": [
+        "U003"
+      ]
+    },
+    {
+      "paragraph_id": "P17",
+      "source_block_ids": [
+        "17"
+      ],
+      "paragraph_char_start": 387,
+      "paragraph_char_end": 396,
+      "marker": "〔推定 A004〕",
+      "change_ids": [
+        "A004"
+      ]
+    },
+    {
+      "paragraph_id": "P17",
+      "source_block_ids": [
+        "17"
+      ],
+      "paragraph_char_start": 428,
+      "paragraph_char_end": 440,
+      "marker": "〔补回 A004，待核〕",
+      "change_ids": [
+        "A004"
+      ]
+    },
+    {
+      "paragraph_id": "P19",
+      "source_block_ids": [
+        "19",
+        "21"
+      ],
+      "paragraph_char_start": 337,
+      "paragraph_char_end": 346,
+      "marker": "〔推定 C010〕",
+      "change_ids": [
+        "C010"
+      ]
+    },
+    {
+      "paragraph_id": "P19",
+      "source_block_ids": [
+        "19",
+        "21"
+      ],
+      "paragraph_char_start": 452,
+      "paragraph_char_end": 461,
+      "marker": "〔推定 C011〕",
+      "change_ids": [
+        "C011"
+      ]
+    },
+    {
+      "paragraph_id": "P19",
+      "source_block_ids": [
+        "19",
+        "21"
+      ],
+      "paragraph_char_start": 574,
+      "paragraph_char_end": 583,
+      "marker": "〔推定 C012〕",
+      "change_ids": [
+        "C012"
+      ]
+    },
+    {
+      "paragraph_id": "P19",
+      "source_block_ids": [
+        "19",
+        "21"
+      ],
+      "paragraph_char_start": 658,
+      "paragraph_char_end": 667,
+      "marker": "〔推定 C013〕",
+      "change_ids": [
+        "C013"
+      ]
+    },
+    {
+      "paragraph_id": "P19",
+      "source_block_ids": [
+        "19",
+        "21"
+      ],
+      "paragraph_char_start": 752,
+      "paragraph_char_end": 761,
+      "marker": "〔补回 A005〕",
+      "change_ids": [
+        "A005"
+      ]
+    },
+    {
+      "paragraph_id": "P19",
+      "source_block_ids": [
+        "19",
+        "21"
+      ],
+      "paragraph_char_start": 878,
+      "paragraph_char_end": 887,
+      "marker": "〔推定 C014〕",
+      "change_ids": [
+        "C014"
+      ]
+    },
+    {
+      "paragraph_id": "P25",
+      "source_block_ids": [
+        "25"
+      ],
+      "paragraph_char_start": 4,
+      "paragraph_char_end": 27,
+      "marker": "〔待核 U004：独立中文片段未获新转写确认〕",
+      "change_ids": [
+        "U004"
+      ]
+    },
+    {
+      "paragraph_id": "P27",
+      "source_block_ids": [
+        "27"
+      ],
+      "paragraph_char_start": 598,
+      "paragraph_char_end": 610,
+      "marker": "〔补回 A006，待核〕",
+      "change_ids": [
+        "A006"
+      ]
+    },
+    {
+      "paragraph_id": "P29",
+      "source_block_ids": [
+        "29"
+      ],
+      "paragraph_char_start": 342,
+      "paragraph_char_end": 354,
+      "marker": "〔补回 A007，待核〕",
+      "change_ids": [
+        "A007"
+      ]
+    },
+    {
+      "paragraph_id": "P31",
+      "source_block_ids": [
+        "31"
+      ],
+      "paragraph_char_start": 213,
+      "paragraph_char_end": 222,
+      "marker": "〔推定 C020〕",
+      "change_ids": [
+        "C020"
+      ]
+    },
+    {
+      "paragraph_id": "P31",
+      "source_block_ids": [
+        "31"
+      ],
+      "paragraph_char_start": 1183,
+      "paragraph_char_end": 1199,
+      "marker": "〔补回 A008，含推定，待核〕",
+      "change_ids": [
+        "A008"
+      ]
+    },
+    {
+      "paragraph_id": "P43",
+      "source_block_ids": [
+        "43"
+      ],
+      "paragraph_char_start": 2,
+      "paragraph_char_end": 29,
+      "marker": "〔待核 U005：可能旁话、非言语声或误识，尚未确认〕",
+      "change_ids": [
+        "U005"
+      ]
+    },
+    {
+      "paragraph_id": "P51",
+      "source_block_ids": [
+        "51",
+        "53",
+        "55"
+      ],
+      "paragraph_char_start": 359,
+      "paragraph_char_end": 368,
+      "marker": "〔推定 C025〕",
+      "change_ids": [
+        "C025"
+      ]
+    },
+    {
+      "paragraph_id": "P51",
+      "source_block_ids": [
+        "51",
+        "53",
+        "55"
+      ],
+      "paragraph_char_start": 478,
+      "paragraph_char_end": 490,
+      "marker": "〔补回 A009，待核〕",
+      "change_ids": [
+        "A009"
+      ]
+    },
+    {
+      "paragraph_id": "P51",
+      "source_block_ids": [
+        "51",
+        "53",
+        "55"
+      ],
+      "paragraph_char_start": 525,
+      "paragraph_char_end": 534,
+      "marker": "〔推定 C027〕",
+      "change_ids": [
+        "C027"
+      ]
+    },
+    {
+      "paragraph_id": "P57",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "paragraph_char_start": 20,
+      "paragraph_char_end": 29,
+      "marker": "〔推定 C031〕",
+      "change_ids": [
+        "C031"
+      ]
+    },
+    {
+      "paragraph_id": "P57",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "paragraph_char_start": 50,
+      "paragraph_char_end": 59,
+      "marker": "〔推定 C032〕",
+      "change_ids": [
+        "C032"
+      ]
+    },
+    {
+      "paragraph_id": "P57",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "paragraph_char_start": 1685,
+      "paragraph_char_end": 1694,
+      "marker": "〔推定 C034〕",
+      "change_ids": [
+        "C034"
+      ]
+    },
+    {
+      "paragraph_id": "P57",
+      "source_block_ids": [
+        "57",
+        "59"
+      ],
+      "paragraph_char_start": 2254,
+      "paragraph_char_end": 2263,
+      "marker": "〔推定 C035〕",
+      "change_ids": [
+        "C035"
+      ]
+    },
+    {
+      "paragraph_id": "P61",
+      "source_block_ids": [
+        "61"
+      ],
+      "paragraph_char_start": 67,
+      "paragraph_char_end": 76,
+      "marker": "〔推定 C037〕",
+      "change_ids": [
+        "C037"
+      ]
+    },
+    {
+      "paragraph_id": "P63",
+      "source_block_ids": [
+        "63"
+      ],
+      "paragraph_char_start": 389,
+      "paragraph_char_end": 398,
+      "marker": "〔推定 C039〕",
+      "change_ids": [
+        "C039"
+      ]
+    },
+    {
+      "paragraph_id": "P63",
+      "source_block_ids": [
+        "63"
+      ],
+      "paragraph_char_start": 413,
+      "paragraph_char_end": 422,
+      "marker": "〔待核 C039〕",
+      "change_ids": [
+        "C039"
+      ]
+    },
+    {
+      "paragraph_id": "P65",
+      "source_block_ids": [
+        "65"
+      ],
+      "paragraph_char_start": 146,
+      "paragraph_char_end": 177,
+      "marker": "〔待核 U007：可能为that said，但两个版本不一致〕",
+      "change_ids": [
+        "U007"
+      ]
+    },
+    {
+      "paragraph_id": "P67",
+      "source_block_ids": [
+        "67",
+        "69"
+      ],
+      "paragraph_char_start": 1178,
+      "paragraph_char_end": 1190,
+      "marker": "〔补回 A010，待核〕",
+      "change_ids": [
+        "A010"
+      ]
+    },
+    {
+      "paragraph_id": "P73",
+      "source_block_ids": [
+        "73",
+        "75"
+      ],
+      "paragraph_char_start": 661,
+      "paragraph_char_end": 673,
+      "marker": "〔补回 A011，待核〕",
+      "change_ids": [
+        "A011"
+      ]
+    },
+    {
+      "paragraph_id": "P73",
+      "source_block_ids": [
+        "73",
+        "75"
+      ],
+      "paragraph_char_start": 904,
+      "paragraph_char_end": 916,
+      "marker": "〔补回 C048，待核〕",
+      "change_ids": [
+        "C048"
+      ]
+    },
+    {
+      "paragraph_id": "P77",
+      "source_block_ids": [
+        "77"
+      ],
+      "paragraph_char_start": 799,
+      "paragraph_char_end": 811,
+      "marker": "〔补回 C050，待核〕",
+      "change_ids": [
+        "C050"
+      ]
+    },
+    {
+      "paragraph_id": "P79",
+      "source_block_ids": [
+        "79"
+      ],
+      "paragraph_char_start": 1106,
+      "paragraph_char_end": 1118,
+      "marker": "〔补回 A012，待核〕",
+      "change_ids": [
+        "A012"
+      ]
+    },
+    {
+      "paragraph_id": "P81",
+      "source_block_ids": [
+        "81"
+      ],
+      "paragraph_char_start": 287,
+      "paragraph_char_end": 299,
+      "marker": "〔补回 A013，待核〕",
+      "change_ids": [
+        "A013"
+      ]
+    },
+    {
+      "paragraph_id": "P83",
+      "source_block_ids": [
+        "83"
+      ],
+      "paragraph_char_start": 309,
+      "paragraph_char_end": 321,
+      "marker": "〔补回 A014，待核〕",
+      "change_ids": [
+        "A014"
+      ]
+    },
+    {
+      "paragraph_id": "P87",
+      "source_block_ids": [
+        "87",
+        "89"
+      ],
+      "paragraph_char_start": 134,
+      "paragraph_char_end": 199,
+      "marker": "〔待核 U008：模型为orthogonal frequency, um, multiple modulation；未确认展开式〕",
+      "change_ids": [
+        "U008"
+      ]
+    },
+    {
+      "paragraph_id": "P93",
+      "source_block_ids": [
+        "93"
+      ],
+      "paragraph_char_start": 169,
+      "paragraph_char_end": 212,
+      "marker": "〔待核 U009：主窗口为25 minutes，移位尾窗与原文为20 minutes〕",
+      "change_ids": [
+        "U009"
+      ]
+    },
+    {
+      "paragraph_id": "P93",
+      "source_block_ids": [
+        "93"
+      ],
+      "paragraph_char_start": 212,
+      "paragraph_char_end": 282,
+      "marker": "〔待核 U009：尾部另有告别语，主窗口So I’ll see you in a bit与尾窗So until then不一致，未选定补写〕",
+      "change_ids": [
+        "U009"
+      ]
+    }
+  ],
+  "uncertain_changes": [
+    {
+      "change_id": "U001",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "新模型upload your phone a picture也不通顺；可能是from your phone，但未确认，不凭语法补写。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 119,
+          "end_char": 150,
+          "old_text": "upload to the phone and picture"
+        }
+      ],
+      "markers": [
+        "〔待核 U001〕"
+      ]
+    },
+    {
+      "change_id": "C005",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "源文still与模型still均可能把till连接误分；按传播到接收天线语境显式推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "9",
+          "start_char": 247,
+          "end_char": 284,
+          "old_text": "this signal travels still.The antenna"
+        }
+      ],
+      "markers": [
+        "〔推定 C005〕"
+      ]
+    },
+    {
+      "change_id": "A001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "源文句尾混合语言并在the后截断；主窗口可恢复条件与上交高层。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "9",
+          "start_char": 826,
+          "end_char": 883,
+          "old_text": "If.Dipakai.Please visi success cooling.Dan desain to the."
+        }
+      ],
+      "markers": [
+        "〔补回 A001，含混合误识修复，待核〕"
+      ]
+    },
+    {
+      "change_id": "C007",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "源文iq、新模型IETF，按正在讲的ARQ功能推定，但保留and等原口语连接，不改成另一句。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "11",
+          "start_char": 27,
+          "end_char": 61,
+          "old_text": "the iq technique and the mac layer"
+        }
+      ],
+      "markers": [
+        "〔推定 C007〕"
+      ]
+    },
+    {
+      "change_id": "A002",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原段尾缺少重复讲解的引导与主语，下一段直接as a transmitter。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "11",
+          "start_char": 329,
+          "end_char": 332,
+          "old_text": "OK?"
+        }
+      ],
+      "markers": [
+        "〔补回 A002，待核〕"
+      ]
+    },
+    {
+      "change_id": "A003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原段尾在条件句处截断；主窗口补足物理层、调制及发射过程。下一段原有Muy语言片段不据此删除。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "13",
+          "start_char": 400,
+          "end_char": 457,
+          "old_text": "When the MAC of Wi-Fi says the packet can be transmitted."
+        }
+      ],
+      "markers": [
+        "〔补回 A003，待核〕"
+      ]
+    },
+    {
+      "change_id": "U002",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文独立短段，新ASR附近为英语讲解，无法确定这是旁话还是误识；保留，不按推测删除。 定向短窗重识别仅输出周围英文，仍不能确认或排除原文片段，保留原文待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "15",
+          "start_char": 16,
+          "end_char": 20,
+          "old_text": "Muy."
+        }
+      ],
+      "markers": [
+        "〔待核 U002：短语及语言尚未确认〕"
+      ]
+    },
+    {
+      "change_id": "U003",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文和模型均antenna，物理含义有矛盾但不把纠错伪装成转写。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "17",
+          "start_char": 16,
+          "end_char": 51,
+          "old_text": "The antenna travels through the air"
+        }
+      ],
+      "markers": [
+        "〔待核 U003：源文与模型均如此，按语境可能应为signal/wave〕"
+      ]
+    },
+    {
+      "change_id": "A004",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型有原段尾省略的MAC处理说明，ACK按此前ARQ讲解语境作明确推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "17",
+          "start_char": 273,
+          "end_char": 302,
+          "old_text": "our receiver in this example."
+        }
+      ],
+      "markers": [
+        "〔推定 A004〕",
+        "〔补回 A004，待核〕"
+      ]
+    },
+    {
+      "change_id": "C010",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "源文和模型均modulates，按收到ACK后提取比特操作推定demodulates并明确标记。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 319,
+          "end_char": 346,
+          "old_text": "Now it modulates the signal"
+        }
+      ],
+      "markers": [
+        "〔推定 C010〕"
+      ]
+    },
+    {
+      "change_id": "C011",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "源文mark为MAC近音，前后全文层名清楚。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 19,
+          "end_char": 52,
+          "old_text": "the mark layer of the transmitter"
+        }
+      ],
+      "markers": [
+        "〔推定 C011〕"
+      ]
+    },
+    {
+      "change_id": "C012",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "上下文层名规范为MAC；模型仍mark，说明是术语语境修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 134,
+          "end_char": 164,
+          "old_text": "the mark layer of the receiver"
+        }
+      ],
+      "markers": [
+        "〔推定 C012〕"
+      ]
+    },
+    {
+      "change_id": "C013",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "MAC层操作，明确为术语语境修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 216,
+          "end_char": 238,
+          "old_text": "the mark does not send"
+        }
+      ],
+      "markers": [
+        "〔推定 C013〕"
+      ]
+    },
+    {
+      "change_id": "C014",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型at the mark layer；修复and→at，MAC按术语规范，保留重复just。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 371,
+          "end_char": 421,
+          "old_text": "the transmitter just and the mark layer just waits"
+        }
+      ],
+      "markers": [
+        "〔推定 C014〕"
+      ]
+    },
+    {
+      "change_id": "U004",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "不能据英语主讲上下文抹去可能的中文旁话；保留并标疑。 定向短窗重识别仅输出周围英文，仍不能确认或排除原文片段，保留原文待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "25",
+          "start_char": 16,
+          "end_char": 20,
+          "old_text": "我们的。"
+        }
+      ],
+      "markers": [
+        "〔待核 U004：独立中文片段未获新转写确认〕"
+      ]
+    },
+    {
+      "change_id": "A006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文段尾丢失其他层主要为软件的说明；主窗口有完整内容。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "27",
+          "start_char": 494,
+          "end_char": 509,
+          "old_text": "and most of it."
+        }
+      ],
+      "markers": [
+        "〔补回 A006，待核〕"
+      ]
+    },
+    {
+      "change_id": "A007",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "主窗口与重叠窗口提供原段尾被省去的天线例子与无线传输引导。保留physical and hardware这一原说法不自改software。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "29",
+          "start_char": 206,
+          "end_char": 251,
+          "old_text": "There we have a mix of physical and hardware."
+        }
+      ],
+      "markers": [
+        "〔补回 A007，待核〕"
+      ]
+    },
+    {
+      "change_id": "C020",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "主窗口可恢复原文混合语言段；未保留模型无意义we send插入，按两句连接作上下文修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "31",
+          "start_char": 123,
+          "end_char": 211,
+          "old_text": "andin the answers.Y ahora the física layer andando en Mac Layer.Ándale.Other layers, OK?"
+        }
+      ],
+      "markers": [
+        "〔推定 C020〕"
+      ]
+    },
+    {
+      "change_id": "A008",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文段尾省去路由器内部向IP层传递说明，主窗口支持；That as按句法推定that at，明确含推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "31",
+          "start_char": 1001,
+          "end_char": 1038,
+          "old_text": "the physical layer of another router."
+        }
+      ],
+      "markers": [
+        "〔补回 A008，含推定，待核〕"
+      ]
+    },
+    {
+      "change_id": "U005",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "新主窗口此处为So接下一句，不能确认源文笑为哪类内容，保留标疑。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "43",
+          "start_char": 16,
+          "end_char": 18,
+          "old_text": "笑。"
+        }
+      ],
+      "markers": [
+        "〔待核 U005：可能旁话、非言语声或误识，尚未确认〕"
+      ]
+    },
+    {
+      "change_id": "C025",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型为in the nutshell，英语固定短语按语境推定a nutshell，显式作为推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "51",
+          "start_char": 351,
+          "end_char": 370,
+          "old_text": "That's in an actual"
+        }
+      ],
+      "markers": [
+        "〔推定 C025〕"
+      ]
+    },
+    {
+      "change_id": "A009",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "主窗口有原段尾省略的主语及发送端条件，后段直接decides when。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "51",
+          "start_char": 429,
+          "end_char": 432,
+          "old_text": "do?"
+        }
+      ],
+      "markers": [
+        "〔补回 A009，待核〕"
+      ]
+    },
+    {
+      "change_id": "C027",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "源文These sides one和模型besides one均可能为decides when误分，按前后MAC决定发送时机语境推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "53",
+          "start_char": 16,
+          "end_char": 43,
+          "old_text": "These sides, one the packet"
+        }
+      ],
+      "markers": [
+        "〔推定 C027〕"
+      ]
+    },
+    {
+      "change_id": "C031",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型在同位置为At the transmitters MAC layer，原文语言切分错误；跨原短段恢复，时间仅保留段锚点。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "57",
+          "start_char": 16,
+          "end_char": 29,
+          "old_text": "啊， it was me."
+        }
+      ],
+      "markers": [
+        "〔推定 C031〕"
+      ]
+    },
+    {
+      "change_id": "C032",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "接上段At the transmitter's；新模型完整一个所有格短语，源文There's a疑为跨段误分。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "59",
+          "start_char": 16,
+          "end_char": 35,
+          "old_text": "There's a mac layer"
+        }
+      ],
+      "markers": [
+        "〔推定 C032〕"
+      ]
+    },
+    {
+      "change_id": "C034",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型确认power/voice/numerator/denominator/noise/low；源文破碎处按讲解比值语境恢复介词与标点，显式推定，不把前面SNR全改成SINR。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "59",
+          "start_char": 1521,
+          "end_char": 1623,
+          "old_text": "We are the power of one voice at the numerather and that didnt nominator. There is noise is l.Low, OK?"
+        }
+      ],
+      "markers": [
+        "〔推定 C034〕"
+      ]
+    },
+    {
+      "change_id": "C035",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型mark layer a detector比源文更不明确，保留源文at transmitter并规范MAC；口语an保留。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "59",
+          "start_char": 2144,
+          "end_char": 2176,
+          "old_text": "an mark layer at the transmitter"
+        }
+      ],
+      "markers": [
+        "〔推定 C035〕"
+      ]
+    },
+    {
+      "change_id": "C037",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "新模型When you you you like，原文Want可能是When误识；保留原would like与重复you，明确推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "61",
+          "start_char": 57,
+          "end_char": 81,
+          "old_text": "Want you, you would like"
+        }
+      ],
+      "markers": [
+        "〔推定 C037〕"
+      ]
+    },
+    {
+      "change_id": "C039",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型Let's say different protocols.Other Macs，源文they saydifferent...automatically。恢复let's say较有依据，但尾词不确定保留待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "63",
+          "start_char": 373,
+          "end_char": 414,
+          "old_text": "they saydifferent protocols automatically"
+        }
+      ],
+      "markers": [
+        "〔推定 C039〕",
+        "〔待核 C039〕"
+      ]
+    },
+    {
+      "change_id": "U007",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "新模型Let's say，源文that's sad；保留原词标疑，不把话语转折推定当作确定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "65",
+          "start_char": 144,
+          "end_char": 159,
+          "old_text": "OK, that's sad."
+        }
+      ],
+      "markers": [
+        "〔待核 U007：可能为that said，但两个版本不一致〕"
+      ]
+    },
+    {
+      "change_id": "A010",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原段尾缺失解释频率演进趋势的句子；主窗口支持。下一段重复matches仍保留。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "69",
+          "start_char": 403,
+          "end_char": 455,
+          "old_text": "the frequency at which Wi-Fi operates has increased."
+        }
+      ],
+      "markers": [
+        "〔补回 A010，待核〕"
+      ]
+    },
+    {
+      "change_id": "A011",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似漏掉第二个子频段介绍；按模型恢复并标待核，保留模型口语。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "75",
+          "start_char": 158,
+          "end_char": 191,
+          "old_text": "It is another.Frequency channels,"
+        }
+      ],
+      "markers": [
+        "〔补回 A011，待核〕"
+      ]
+    },
+    {
+      "change_id": "C048",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "两个重叠窗口支持2.4 gigahertz与there；窗口23给出其后完整从句，保留重复there并标待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "75",
+          "start_char": 312,
+          "end_char": 343,
+          "old_text": "around.Two point four guys.Dan."
+        }
+      ],
+      "markers": [
+        "〔补回 C048，待核〕"
+      ]
+    },
+    {
+      "change_id": "C050",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "混合语言片段按窗口24恢复；刻意保留模型and而不改为技术上顺畅的at，原句仍待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "77",
+          "start_char": 702,
+          "end_char": 751,
+          "old_text": "that are.To point fourmi guards tuan avan gigige."
+        }
+      ],
+      "markers": [
+        "〔补回 C050，待核〕"
+      ]
+    },
+    {
+      "change_id": "A012",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原段尾漏掉四位教师/三个教室的条件，与下段another professor接续；模型独立支持。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "79",
+          "start_char": 982,
+          "end_char": 1011,
+          "old_text": "we do not disturb each other."
+        }
+      ],
+      "markers": [
+        "〔补回 A012，待核〕"
+      ]
+    },
+    {
+      "change_id": "A013",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型给出源文缺失的解释；when we had原样保留，不猜成then。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "81",
+          "start_char": 169,
+          "end_char": 197,
+          "old_text": "more and more access points."
+        }
+      ],
+      "markers": [
+        "〔补回 A013，待核〕"
+      ]
+    },
+    {
+      "change_id": "A014",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型给出该从句主句，原文缺失；保留standard evolve口语。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "83",
+          "start_char": 209,
+          "end_char": 232,
+          "old_text": "as the standard evolve."
+        }
+      ],
+      "markers": [
+        "〔补回 A014，待核〕"
+      ]
+    },
+    {
+      "change_id": "U008",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "两个版本对OFDM展开式差异明显；不按教科书术语猜写讲话。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "87",
+          "start_char": 108,
+          "end_char": 148,
+          "old_text": "orthogonal frequency the gram modulation"
+        }
+      ],
+      "markers": [
+        "〔待核 U008：模型为orthogonal frequency, um, multiple modulation；未确认展开式〕"
+      ]
+    },
+    {
+      "change_id": "U009",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "保留源文20与administrative staff，移位尾窗支持；两窗结尾告别语冲突，明确保留未恢复缺口。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "93",
+          "start_char": 172,
+          "end_char": 183,
+          "old_text": "20 minutes."
+        }
+      ],
+      "markers": [
+        "〔待核 U009：主窗口为25 minutes，移位尾窗与原文为20 minutes〕",
+        "〔待核 U009：尾部另有告别语，主窗口So I’ll see you in a bit与尾窗So until then不一致，未选定补写〕"
+      ]
+    }
+  ],
+  "note": "Reading a candidate does not resolve these wording uncertainties."
+}
