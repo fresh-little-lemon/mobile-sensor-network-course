@@ -1,0 +1,673 @@
+{
+  "recording_id": "20261008-0910",
+  "status": "read_with_explicit_uncertainty",
+  "paragraphs": [
+    {
+      "paragraph_id": "P5",
+      "text": "The next part shorter, we realign now with the schedule. Just to finish with this part, just to mention that we have got a mesh network also in in Turin〔推定 C001〕. It is actually on the hills of Turin〔推定 C002〕 and connects these cars that go up to the hill with a fixed access point so that the users aboard can enjoy internet. So, that's a small example of mesh network that we've got [00:00:44] in in Turin〔推定 C003〕.\n\nAnd related to how useful wireless networks can be for the society, I would like just to mention that there is a conference that has been started by this professor, Professor Elizabeth Belding〔推定 C004〕, at UC Santa Barbara in California, and she started this IEEE〔推定 C005〕 conference. This is the call for paper for uh and conference website of last year. There will be in a few days, actually the 2026 edition, in a in a of this conference, and this conference is a bit particular because as the name says, [00:01:38] IEEE〔推定 C006〕 Global Global Humanitarian Technology Conference is a conference where researchers present solutions and of course scientific papers, let's say to advance, to help the development of society and under developed countries. So, it's about how to help improve the daily also quality of life of people, and so, that's, I think, particularly interesting for for us.",
+      "source_block_ids": [
+        "5",
+        "7",
+        "9"
+      ],
+      "change_ids": [
+        "C001",
+        "C002",
+        "F001",
+        "C003",
+        "F002",
+        "F003",
+        "C004",
+        "C005",
+        "F004",
+        "C006",
+        "F005"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P11",
+      "text": "Another researcher who applies mobile networks and mobile applications to improve people's life quality, Andrew Campbell is a professor at Dartmouth College on the on the eastern coast, of US, and the story is that he had a brother virtually suffered from schizophrenia. And since his brother died, he started applying his knowledge and research efforts, on um wireless connectivity wireless networks and AI applications that can be enabled through wireless networks to help people that are affected by this type of illnesses, anxiety, depression, schizophrenia and others.〔补回 A001，待核〕",
+      "source_block_ids": [
+        "11"
+      ],
+      "change_ids": [
+        "F006",
+        "F007",
+        "C007",
+        "F008",
+        "A001"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P13",
+      "text": "And it's interesting also to look at his works, because they are indeed an example of how mobile technologies can help people also from different points of view.\n\nOK, so that ends our introduction to networks〔推定 C008〕, and what I would like to move to now is the basic concepts that will help us to then better understand what follows. OK? So, these are basic concepts on wireless communications, and then we'll also mention one technique that is used in general for wireless networks. And then we will see how these basic informations will help us to understand better Wi-Fi, Bluetooth, sensor networks, and so on.",
+      "source_block_ids": [
+        "13"
+      ],
+      "change_ids": [
+        "F009",
+        "C008",
+        "F010",
+        "C009"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P15",
+      "text": "OK, now let's start from modulation. Do you know anything about modulation? No worries, it's actually simple. So, you may be aware of the fact that when we use, for example, our cell phone, to communicate, our cell phone has got several different radio interfaces, as we said: Wi-Fi card, cellular, Bluetooth. Let's focus on one of them. OK, this is general, it applies to all of them.〔补回 A002，待核〕",
+      "source_block_ids": [
+        "15"
+      ],
+      "change_ids": [
+        "A002"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P17",
+      "text": "Let's focus on one radio interface. When our cell phone sends information to the base station, we know now that cell phones connect, are connected to base stations. It will send a wireless signal, right? A waveform, electromagnetic wave. The electromagnetic wave travels from this radio interface to the typically nearest base station.\n\nNow, this electromagnetic wave will bring the information from our cell phone to the base station. So, the issue here is how can the radio interface, the cellular radio interface of our phone, impress the information on the electromagnetic wave that travels to the base station?\n\nNow, the information that we want to transfer is digital information, right? So, zeros and ones, let's say. So, we need to impress zero and ones [00:07:00] on the electromagnetic wave. How can we do that? We can act either on the amplitude of the electromagnetic wave, so modify the amplitude of the electromagnetic wave in a different manner depending on whether we want to send a zero or a one.\n\nOr we can act on the frequency. So we can change the frequency of the electromagnetic wave differently depending on whether we want to transmit a zero or a one. Or we can act on the phase.\n\nOkay, so these are, let's say, amplitude, frequency and phase are three characteristics of our electromagnetic wave. In order to transfer our bits, we can act on one of them, or a combination of them, so that we let the receiver understand that we are transmitting a zero or a one. Here is the representation of a scheme.〔补回 A003，待核〕",
+      "source_block_ids": [
+        "17",
+        "19"
+      ],
+      "change_ids": [
+        "F011",
+        "F012",
+        "F013",
+        "F014",
+        "F015",
+        "C010",
+        "C011",
+        "A003",
+        "F023"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P21",
+      "text": "So, as you can see here, we have our information, information bits, zero ones, this is just an example of a bit string. And we are a transmitter. So in our example, we are on the radio interface inside our cell phone. This string of bits will go into this block that performs the operation called digital modulation.〔补回 A004，待核〕 [00:09:00] That means it impresses these bits onto the electromagnetic wave.\n\nSo, digital modulation is used to move, translate a bit equal to one into, for example, a certain frequency of the electromagnetic signal. And then we have a zero. So, this block here will impress the zero on the electromagnetic signal and so on. At the end of as an output of this block, therefore, we have electromagnetic waves, each of which carries a bit.",
+      "source_block_ids": [
+        "21",
+        "23"
+      ],
+      "change_ids": [
+        "A004",
+        "F016",
+        "C012",
+        "C013"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P25",
+      "text": "OK, one bit. Then, we have these electromagnetic waves. We need to move the electromagnetic wave to the right region of the frequency spectrum, where our wireless technology operates. Why? Because if we consider, for example, cell phones, they transmit and receive at certain frequencies. For example, 2 to 2.1 gigahertz or 3.7 gigahertz, it depends on the specific version of cellular communication.\n\nIf we consider the Wi-Fi card that is inside our phone, whenever the Wi-Fi card gets information bits and performs this digital modulation operation, it will generate electromagnetic signals carrying these information bits. But then, Wi-Fi needs to operate in a different portion of the spectrum. So, these electromagnetic waves in the case of Wi-Fi needs to be brought to 2.4 GHz or 5 GHz or 6 GHz. OK?",
+      "source_block_ids": [
+        "25"
+      ],
+      "change_ids": [
+        "F017",
+        "F018",
+        "F019",
+        "F020",
+        "F021",
+        "F022"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P27",
+      "text": "So, each wireless technology is allowed to operate on certain portion of the frequency spectrum. You cannot operate wherever you like. You need to, as a technology, need to operate on the frequency portion of the spectrum that has been assigned to that technology. To do that, so to bring the signals, electromagnetic waves at the right [00:12:18] in the right portion of the spectrum, we perform the second operation that is called analog modulation.\n\nThe region of the spectrum, the frequencies where those electromagnetic signals need to be are also let's say referred to as carrier. Okay, that's the central frequency where those signals need to be brought.\n\nAt that point, they are ready to be transmitted. So there will be an antenna, a transmitter that will irradiate the signals〔待核 C014〕, and the signal will travel through air till it arrives to the antenna of the base station. That in our example is the receiver, right?\n\nSo the receiver, [00:13:20] the receiver antenna gets the signal and performs opposite operations.\n\nSo, first of all, it has to take the signal and bring the signal back to the so called baseband. So, from where it was in the portion of the spectrum used by that technology, it brings the signal back to base, to the base.\n\nAnd then once you have the baseband signal, you need to extract from the electromagnetic signals [00:14:05] the bits, right? The information bits.\n\nSo, this operation of extracting the information from the signal is called demodulation, digital demodulation. It is the opposite of this block here. This block we impressed the bits into the waveform.\n\nThrough this digital demodulation, we extract the bits from the waveform. OK? And so the result is that the receiver hopefully gets the bits that were transmitted. Clear so far?〔补回 A005，末句待核〕",
+      "source_block_ids": [
+        "27",
+        "29",
+        "31",
+        "33"
+      ],
+      "change_ids": [
+        "F024",
+        "F025",
+        "F026",
+        "F027",
+        "C014",
+        "C015",
+        "C016",
+        "F028",
+        "F029",
+        "F030",
+        "F031",
+        "C017",
+        "A005"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P35",
+      "text": "OK, now let's try to understand a little bit better how this digital modulation and digital demodulation operate. Let's consider that, as we said before, we are using as technique to impress the bits onto the electromagnetic signals, the frequency.\n\nOK, so if we use the frequency, this means that the waveform, the electromagnetic signals that we are considering looks like this one. Why?〔补回 A006，待核〕",
+      "source_block_ids": [
+        "35"
+      ],
+      "change_ids": [
+        "C018",
+        "A006"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P37",
+      "text": "Well, because here you can see that we have a lower frequency, and here a higher frequency. Right? So, we can think of this lower frequency as be associated with a zero, and the higher frequency be associated with a one. So, if we had 01 as a, 10 as a string of information bits to transmit, what the digital modulator did was to read first one, right? And create this high frequency signal. And then, after the bit duration time period, he created a new signal that is carrying a zero, because the signal created at a lower frequencies.",
+      "source_block_ids": [
+        "37"
+      ],
+      "change_ids": [
+        "F032",
+        "C019",
+        "F033",
+        "C020",
+        "F034"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P39",
+      "text": "OK. Similar here. OK. Let's consider that this level of amplitude is one, and this level of amplitude is zero. So, by varying the amplitude, you can transmit different bits.\n\nAnd here you have a similar example considering the phase, varying the phase of the signal.",
+      "source_block_ids": [
+        "39"
+      ],
+      "change_ids": [
+        "C021"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P41",
+      "text": "OK. I mean that this is probably right now the most intuitive example and clear example of a digital modulator, what a digital modulator does.\n\nNow, what I would like to underline here is also the fact that right now, in this example, we are considering that the modulator takes one bit at a time. And for each bit, it generates a piece of a signal with the right frequency, if you are using the frequency modulation.\n\nWhen the modulator acts on each bit at a time, so it reads one bit, creates a signal, reads another bit, it creates another signal.",
+      "source_block_ids": [
+        "41"
+      ],
+      "change_ids": [
+        "F035",
+        "C022",
+        "C023",
+        "C024",
+        "C025",
+        "F036"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P43",
+      "text": "We are using the so called binary modulation, meaning that we are dealing with only two, binary, two types of bits: 0 and 1. Right, so one and zero are the only possible bits that we can have, and we are processing, we are dealing with one at a time. That's binary modulation, and as I said, binary modulation means that you create one waveform for each bit, so one wave form carries one bit of information. That's binary modulation.\n\nOkay, that's already, let's say, useful.",
+      "source_block_ids": [
+        "43"
+      ],
+      "change_ids": [
+        "F037",
+        "C026",
+        "F044"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P45",
+      "text": "But, there are, we say, more efficient ways to create this process. What would be more efficient than that? It would be more efficient if, for each signal that we create, we do not carry only one bit, but we carry more bits. Why is that more efficient? Because now, we increase the amount of bits that we are carrying with a single signal. So, we increase the so called bit rate, because for each signal [00:19:45] we are carrying more information, right? So, we increase the speed with which we transfer bits. So, if we are, for example, able to transfer with one signal three bits instead of one, it means that we increase the speed with which we transfer the bits by three times. If we are able to transfer four bits with one signal, with respect to binary modulation, we are now transferring four bits instead of one with one signal, so we increase the speed by a factor four. That's one, right?〔待核 U001〕\n\nHow can we do that? Is that possible? Yes, it is. It is possible.",
+      "source_block_ids": [
+        "45",
+        "47"
+      ],
+      "change_ids": [
+        "F038",
+        "F039",
+        "F040",
+        "F041",
+        "F042",
+        "C027",
+        "U001"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P49",
+      "text": "We refer to the groups of bits that can be carried by the same signal as a symbol. OK, a symbol is a sequence of bits. We can have symbols of two bits, symbols of three bits, symbols of four bits, and so on. Each symbol will be carried by one signal, OK? As I said, how can we do that? Well, let's consider that now, instead of using frequency, we use phase, OK, to impress our bits on the signal. If we do that, we can represent the possible signals that we have got in this way.\n\nSo, starting from binary, so we have binary modulation. So, this means zero and one, and we'll have a phase, let's say phase zero and phase one. We can represent this in this way by representing our signals over this system here, and this will be our signal with phase zero. And this is our signal with phase one. Still binary, OK.〔补回 A007，待核〕",
+      "source_block_ids": [
+        "49"
+      ],
+      "change_ids": [
+        "C028",
+        "C029",
+        "F043",
+        "A007",
+        "F045"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P51",
+      "text": "Because in this way, we have one signal carrying one bit, zero, and one signal carrying another bit, one, and two signals vary by their phase. We have a phase of how much? 180 degrees difference, OK? Between the phase of the signal that carries zero and the phase of the signal that carries one. Clear so far?〔推定 C030〕\n\nNow let's consider then that we are acting on the phase, and let's now consider that instead of a binary modulation, we want to be more efficient. Let's say that now we want to〔补回 A008，待核〕 [00:23:37] create symbols, each symbol composed of three bits. So we'll have 000 as a possible symbol, 001, 010, 011, etc. OK, how many symbols do we have in this case? 8, OK, 8 symbols, 8 symbols, OK. So, this means that we need eight signals, one to carry the symbol, and another to carry this other symbol, another to carry this other symbol, right? Eight different signals.\n\nSo, here is what we can use this set of signals where they differ by their phase. So, like in the previous case, binary, we had only two possible signals, and they were differing by 180 degrees. Now, we need eight different symbol, sorry, signals, and they can be arranged according to their phase. In this set, the set of signals that we use is called constellation. OK, so we have a constellation of 8 possible signals.\n\nNow, and then we stop to align ourselves. Right, fine, what I want just to say is that, well, once we create this constellation, what we can observe, that these signals are a bit closer to each other, right?\n\nIn the binary case, they were very different. In this case, they are different, but their difference in phase is smaller, because we have to get more signals on the same circle, so necessarily, they will be closer to each other to fit all of them. Right? So, it means that they are a little bit more similar.\n\nOK, if I haven't got that wrong, now we need to stop for 5 minutes, right?",
+      "source_block_ids": [
+        "51",
+        "53"
+      ],
+      "change_ids": [
+        "F046",
+        "C030",
+        "A008",
+        "F047",
+        "F048",
+        "C031",
+        "C032",
+        "F049",
+        "C033",
+        "C034",
+        "C035",
+        "F050",
+        "F051",
+        "F054",
+        "F055",
+        "F056"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P55",
+      "text": "25 minutes.〔待核 C036〕 Sorry. 25 minutes.\n\nTo realign ourselves, it was the first from 8 to 8:45, stop 5 minutes, then 8:15, from 8:15 to 9:35. Now, we align ourselves, we need to stop for 5 minutes.\n\nBut the third class begins at 10. Ah, really? Yeah. Ah, I already.〔待核 U002〕 Okay, fine, absolutely fine.〔补回 A009〕 So we will resume at 10. Thank you. OK.",
+      "source_block_ids": [
+        "55"
+      ],
+      "change_ids": [
+        "C036",
+        "C037",
+        "U002",
+        "A009",
+        "F052",
+        "F053"
+      ],
+      "timestamps_are_anchors": true
+    }
+  ],
+  "excluded_source_blocks": [],
+  "unresolved_items": [
+    {
+      "change_id": "C001",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 inuring 与新 ASR in in Turing 指向上一讲所述都灵场景；按地点语境恢复 Turin，保留新 ASR 的 in in 重启，仍标推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "5",
+          "start_char": 151,
+          "end_char": 163,
+          "old_text": "also inuring"
+        }
+      ],
+      "markers": [
+        "〔推定 C001〕"
+      ]
+    },
+    {
+      "change_id": "C002",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 Jurinah 与新 ASR Turing 都不稳；结合都灵的前后叙述推定城市名，未据此增加具体山名或线路名。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "5",
+          "start_char": 182,
+          "end_char": 202,
+          "old_text": "the hills of Jurinah"
+        }
+      ],
+      "markers": [
+        "〔推定 C002〕"
+      ]
+    },
+    {
+      "change_id": "C003",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "上段未完的 mesh network that we have got 与新 ASR in in Turing 衔接；月份 July 不合此处地理承接，按语境推定 Turin。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 16,
+          "end_char": 27,
+          "old_text": "In in July,"
+        }
+      ],
+      "markers": [
+        "〔推定 C003〕"
+      ]
+    },
+    {
+      "change_id": "C004",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 Benedina、新 ASR Bernardino 均与 UCSB 同一研究者姓名不符。UCSB 个人网站给出 Elizabeth Belding，并列其参与 IEEE GHTC；拼写按这一明确身份线索推定，不能视作音频确认。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 202,
+          "end_char": 221,
+          "old_text": "Elizabeth, Benedina"
+        }
+      ],
+      "markers": [
+        "〔推定 C004〕"
+      ]
+    },
+    {
+      "change_id": "C005",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "IPPOLI 与新 ASR IIPoly 均疑为协会缩写近音误识；后续完整会议名及 UCSB 官方个人页支持 IEEE，保留推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 279,
+          "end_char": 285,
+          "old_text": "IPPOLI"
+        }
+      ],
+      "markers": [
+        "〔推定 C005〕"
+      ]
+    },
+    {
+      "change_id": "C006",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 International 与模型 IIPoly 的开头不稳；两处语境以及官方名称支持 IEEE。保留两次 Global 的原文和模型共同重复，不改成流畅正式标题。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "9",
+          "start_char": 16,
+          "end_char": 85,
+          "old_text": "The International Global Global Humanitarian Technology Conference.Is"
+        }
+      ],
+      "markers": [
+        "〔推定 C006〕"
+      ]
+    },
+    {
+      "change_id": "A001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 by 后结束，下一段已转入作品价值；独立 ASR 补出病症类型和例子。当前为单窗口支持，保留 type of illnesses 的原始非规范语法并标待核，不当成医学事实校正。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "11",
+          "start_char": 491,
+          "end_char": 512,
+          "old_text": "that are affected by."
+        }
+      ],
+      "markers": [
+        "〔补回 A001，待核〕"
+      ]
+    },
+    {
+      "change_id": "C008",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "两份识别均为 metrics，但前段明确是无线网络概述，随后切换 basic concepts；metrics 不对应已讲主题，推定为 networks。保留语境推定标记，不把两份一致当作语音正确证明。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "13",
+          "start_char": 198,
+          "end_char": 221,
+          "old_text": "introduction to metrics"
+        }
+      ],
+      "markers": [
+        "〔推定 C008〕"
+      ]
+    },
+    {
+      "change_id": "A002",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文止于 different，漏掉接口例子及这一机制通用的说明；新 ASR 有完整句段。单窗口支持，补回但保留待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "15",
+          "start_char": 233,
+          "end_char": 259,
+          "old_text": "has got several different."
+        }
+      ],
+      "markers": [
+        "〔补回 A002，待核〕"
+      ]
+    },
+    {
+      "change_id": "A003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文让 let 悬空，并略去接收端判断和图示引入；新 ASR 补出完整承接，单窗口待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 640,
+          "end_char": 655,
+          "old_text": "so that we let."
+        }
+      ],
+      "markers": [
+        "〔补回 A003，待核〕"
+      ]
+    },
+    {
+      "change_id": "A004",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文只留下主语，下一块直接 That means；新 ASR 补出进入数字调制模块的完整谓语。单窗口支持，未凭教科书补写。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 231,
+          "end_char": 251,
+          "old_text": "This string of bits."
+        }
+      ],
+      "markers": [
+        "〔补回 A004，待核〕"
+      ]
+    },
+    {
+      "change_id": "C014",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "源文本错误切为西班牙语。独立 ASR 给出天线/发射机辐射信号的完整英文句；采用主窗词序，仍有 antenna, a transmitter 连接不稳，保留待核，不凭语法自行补 at。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "29",
+          "start_char": 374,
+          "end_char": 447,
+          "old_text": "¿Se va a poner muy bien antena a the transmitter?Y Regadge.These signals,"
+        }
+      ],
+      "markers": [
+        "〔待核 C014〕"
+      ]
+    },
+    {
+      "change_id": "A005",
+      "confidence": "high",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文把 that 后的结果整句省去；两个重叠窗都恢复 receiver hopefully gets the bits，后窗包含完整结尾和确认提问。相同模型不同切窗支持主要内容，Clear so far 仅后窗出现，非跨模型或人工确认。 Clear so far 按课堂确认理解的语境使用问号，仅为标点判断，不宣称逐词准确。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "33",
+          "start_char": 330,
+          "end_char": 356,
+          "old_text": "And so the result is that."
+        }
+      ],
+      "markers": [
+        "〔补回 A005，末句待核〕"
+      ]
+    },
+    {
+      "change_id": "A006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文省去信号图示的引入与 Why，下一块直接 Well, because；按独立 ASR 补回，保留 signals...looks 的口语语法。单窗口支持待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "35",
+          "start_char": 252,
+          "end_char": 252,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 A006，待核〕"
+      ]
+    },
+    {
+      "change_id": "U001",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 That is one 与新 ASR etc. 不一致，缺乏足够语音证据裁决。保留原文短语并标待核，不按语境猜成 That is fine/fun。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "47",
+          "start_char": 478,
+          "end_char": 496,
+          "old_text": "That's one, right?"
+        }
+      ],
+      "markers": [
+        "〔待核 U001〕"
+      ]
+    },
+    {
+      "change_id": "A007",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 with 处截断；独立 ASR 续出 phase one 与 Still binary。原始输出另有 with fix with 的不稳重启，正文只采明确 phase one 主干并标待核；不把该异常当作确定发音。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "49",
+          "start_char": 777,
+          "end_char": 793,
+          "old_text": "our signal with."
+        }
+      ],
+      "markers": [
+        "〔补回 A007，待核〕"
+      ]
+    },
+    {
+      "change_id": "C030",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文和新 ASR 均为 Here so far，但此处在讲解后确认理解，前一节也有 Clear so far；按近音和课堂语境推定为 Clear so far?，明确不是两模型已确认的词形。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "51",
+          "start_char": 307,
+          "end_char": 319,
+          "old_text": "Here so far."
+        }
+      ],
+      "markers": [
+        "〔推定 C030〕"
+      ]
+    },
+    {
+      "change_id": "A008",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文省去由二元调制转向更高效符号的整段引入，下一块直接 Create symbols；独立 ASR 窗口保留连续说明。单窗口候选，句子续到原23:37锚点。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "51",
+          "start_char": 319,
+          "end_char": 319,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 A008，待核〕"
+      ]
+    },
+    {
+      "change_id": "C036",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文此处被识别成不合语境的中文；主窗和独立尾窗均出现对五分钟的回应 Twenty-five minutes，随后原文也保留 Sorry, 25 minutes。采用两窗共同词串，但旁人短句与中文来源冲突，保留待核且不新造说话人。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "55",
+          "start_char": 16,
+          "end_char": 23,
+          "old_text": "嗯。场地反馈。"
+        }
+      ],
+      "markers": [
+        "〔待核 C036〕"
+      ]
+    },
+    {
+      "change_id": "U002",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 i already 与主窗 I understand、尾窗 I am really ten 明显冲突；没有足够证据裁决，原文仅修正 I 大小写并显著标待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "55",
+          "start_char": 243,
+          "end_char": 257,
+          "old_text": "Ah, i already."
+        }
+      ],
+      "markers": [
+        "〔待核 U002〕"
+      ]
+    }
+  ],
+  "full_text_review_complete": true
+}
