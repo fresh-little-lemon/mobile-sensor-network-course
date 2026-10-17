@@ -1,0 +1,781 @@
+{
+  "title": "文字记录：录音机-20261013-0803",
+  "url": "https://lcn6dqn3m0yr.feishu.cn/docx/L8gmdNLPOoXIC3xBERncdyClnUg",
+  "captured_at": "2026-10-17T03:31:09.291Z",
+  "complete": true,
+  "missing_block_ids": [],
+  "changed_block_ids": [],
+  "blocks": [
+    {
+      "id": "3",
+      "text": "会议主题：录音机-20261013-0803​\n上传时间：2026年10月14日（周三） 09:13 （GMT+08）​\n智能纪要：录音机-20261013-0803 2026年10月14日​"
+    },
+    {
+      "id": "4",
+      "text": "​"
+    },
+    {
+      "id": "5",
+      "text": "说话人 1 00:00:02​\nHe will send a short control packet that essentially says, undone, OK?And implicitly, he requests the receiver for acknowledgments.So, after that, the receiver can send for space by shifts, because we are within the same dialogue.This so called block ack.​"
+    },
+    {
+      "id": "6",
+      "text": "​"
+    },
+    {
+      "id": "7",
+      "text": "说话人 1 00:00:40​\nThe block ack is a control packet.That in the mark header, I stored a bitmap.I guess you know what a bitmap is.It's a sequence of bits.Each bit represents a possible acknowledgment for.​"
+    },
+    {
+      "id": "8",
+      "text": "​"
+    },
+    {
+      "id": "9",
+      "text": "说话人 1 00:01:05​\nOne of the packets that are mis-sent.So, if, for example, this bit is set to one, it means thatit means that the first packet was received successfully by the receiver.If the second bit is also set to one, it means that also the second packet was received successfully.And then perhaps the if they were third pocket.​"
+    },
+    {
+      "id": "10",
+      "text": "​"
+    },
+    {
+      "id": "11",
+      "text": "说话人 1 00:01:54​\nSo, by sending this bitmap at the end, so this is the block A packet, we avoid spending time sending an acknowledgment for each of the packets that are sent while they are transmitted within thetransmission opportunity.And we make the protocol more efficient, right?So, this is a significant improvement for the efficiency of the Wi-Fi protocol, and indeed, the use ofBlock ACK has become mandatory in the more recent versions of Wi-Fi.So now, in the more recent versions of Wi-Fi, we always use the announced distributed coordination function as we said.And within that, the block act is essential feature of of the scheme.This is just essentially what I said now.There are somesmall drawbacks in using block x, but they are very, very minor.Do you know what delay jitter is?​"
+    },
+    {
+      "id": "12",
+      "text": "​"
+    },
+    {
+      "id": "13",
+      "text": "说话人 1 00:03:39​\nWhat instead it is important to underline at the end of this scheme is not one additional feature.We are essentially done with the main features of this scheme.But this is an observation, a reflection on this announced distributed channel access scheme, which is indeed important.So remember what we said that.Premiusly agres meter.Dan di opportunity itu rust me.​"
+    },
+    {
+      "id": "14",
+      "text": "​"
+    },
+    {
+      "id": "15",
+      "text": "说话人 1 00:04:34​\nSo, that was a pair packet channel access.Now, we already said that.Thanks to this transmission opportunity innovation, what a transmitter wins is the possibility to transmit for a certain period of time.So, we have a temporal channel access key, temporal opportunity channel access key.As a consequence, the fairness of our distributed channel access scheme changes from the so called.​"
+    },
+    {
+      "id": "16",
+      "text": "​"
+    },
+    {
+      "id": "17",
+      "text": "说话人 1 00:05:15​\nFair packet fairness.Do the so called fabric fairness.Now, you know what fairness means, to be fair, to be fair in English means to give the same possibilities.Chances to everyone, right?As we said, WiFi.In the distributed channel access scheme aims to be fair.And indeed, while, for example, looking at the DCF, the distributed coordination function,we said the pass back off.Mechanism is there to ensure that we provide fairness, a fair treatment to all WiFi cards, right?That was the reason why we have pass because in the DCF scheme.​"
+    },
+    {
+      "id": "18",
+      "text": "​"
+    },
+    {
+      "id": "19",
+      "text": "说话人 1 00:06:20​\nOK, so we want to be fair, right?And that's one of the goals of WiFi.But clearly, since in the previous version in DCF, each transmitter had a chance to transmit one.Oke fer chanilla akses.Di venness that we were provided in was.E bucky fairness miniin dan we were fear in giving the possibility.Itu the different wifi final.To trust.​"
+    },
+    {
+      "id": "20",
+      "text": "​"
+    },
+    {
+      "id": "21",
+      "text": "说话人 1 00:07:02​\nPackets.¿O sea, es yo May remember?In avicias.Every node, every node follows the same rules in order to access the channel.So, it has to sense the channel as idle for dives.If the channel is busy, it has to perform the backoff procedure using the first time 0CWmin, then doubling.Windows.So, this means that if we look at the average behavior, when we consider the CSF, we have that, on average.The nodes will access the channel.​"
+    },
+    {
+      "id": "22",
+      "text": "​"
+    },
+    {
+      "id": "23",
+      "text": "说话人 1 00:08:32​\nSo, if we make some simplifying assumptions, let's consider that we havehere the access point, and then two stations A and B that are connected to the access point.And let's consider that both A and B have a mark queue that is full of packets.Can I assume that there are always packets coming in?So they always have traffic to transmit, packets to transmit, OK?This kind of assumption is called saturated.​"
+    },
+    {
+      "id": "24",
+      "text": "​"
+    },
+    {
+      "id": "25",
+      "text": "说话人 1 00:09:45​\nThat's the meaning.So, if we assume this kind of scenario.Where of course A and B can hear each other, very simple network scenario.And we consider to use the BCF, then this is, on average, the kind of traffic pattern.That we will observe on the channel.​"
+    },
+    {
+      "id": "26",
+      "text": "​"
+    },
+    {
+      "id": "27",
+      "text": "说话人 1 00:10:37​\nThe same chances to access the channel and transmit a packet, because as we said, this CF is fair.So, on average, if you observe the system for quite a long time, on average, you would see thatour two nodes A and B will be able to transmit exactly the same number of packets during this time period.And we denote this number of packets by n.OK, so let's denote this number of packets transmitted by each node with n.Nah, what is the booth?So the ability to transmit traffic of A and B in in bits per second.Remember that throughput.​"
+    },
+    {
+      "id": "28",
+      "text": "​"
+    },
+    {
+      "id": "29",
+      "text": "说话人 1 00:11:54​\nIs an average performance metric.We have already introduced this metric, that is the number of useful bits interesting application from the point of view of the application interesting bits.That a node is able to transmit over a period of time t, considering that this t is quite long, we need to observe the system for quite some time.​"
+    },
+    {
+      "id": "30",
+      "text": "​"
+    },
+    {
+      "id": "31",
+      "text": "说话人 1 00:12:32​\nSo, what is the throughput?So.Ph means throughput.What is the throughput of A, of node A?Well, we need to consider the number of packets that A is able to transmit over the time period t.And then we need to consider the size, the length.So, l stands for length of the payload, right?Sent by A when it transmits a packet.​"
+    },
+    {
+      "id": "32",
+      "text": "​"
+    },
+    {
+      "id": "33",
+      "text": "说话人 1 00:13:11​\nSo, let's assume that all the packets that A has got in the queue have gotLength LA, OK, so they are of the same size.All of them.So the throughput can be computed as the number of packets that are transmitted over T, considering that each packet includes.​"
+    },
+    {
+      "id": "34",
+      "text": "​"
+    },
+    {
+      "id": "35",
+      "text": "说话人 1 00:13:43​\nL A E useful bits, right?Very simple.OK, what about B?Similarly, B will be able to transmit and packets.Over the time period t, and let's consider that each packet has got a size a length equal to LB.​"
+    },
+    {
+      "id": "36",
+      "text": "​"
+    },
+    {
+      "id": "37",
+      "text": "说话人 1 00:14:17​\nOK, so all these packets here in this queue.Have length LB.So, what is the throughput of B then?Again, it's a number of packets that you will be able to transmit over time period, and each packet will include.Right, LB useful bits.So, this is the expression of the true putty.​"
+    },
+    {
+      "id": "38",
+      "text": "​"
+    },
+    {
+      "id": "39",
+      "text": "说话人 1 00:14:50​\nSo, now remember, our DCS, because we are considering DCS here, wants to be fair to our Wi-Fi cards.So.Fine, it provides the same chances to everyone to access the channel, but our question here is.Waterbowth, performance.De Sandra Dysias.​"
+    },
+    {
+      "id": "40",
+      "text": "​"
+    },
+    {
+      "id": "41",
+      "text": "说话人 1 00:15:32​\nDoes this mean that the nodes, the wifi cards will achieve the same throughput?Because this is what matters in the end.OK, the amount of useful bits that you are able to transmit on average, so that's what matters.It's OK to be fair in terms of channel access, but in the end, I would like to be fair in terms of throughput.​"
+    },
+    {
+      "id": "42",
+      "text": "​"
+    },
+    {
+      "id": "43",
+      "text": "说话人 1 00:16:05​\nSo, our question iswhen are these two expressions the same, equal?OK?When do A and B can enjoy the same proof?So, if we look at these expressions, it is easy to see that they are equal.​"
+    },
+    {
+      "id": "44",
+      "text": "​"
+    },
+    {
+      "id": "45",
+      "text": "说话人 1 00:16:35​\nLA isi waktu LB.So what we can say is that.Di TM paket venna.Ed by the siap.Bila alis leed to a true booth vaness.One our notch our wifi pars we live frust me paket.All the same size we the same.​"
+    },
+    {
+      "id": "46",
+      "text": "​"
+    },
+    {
+      "id": "47",
+      "text": "说话人 1 00:17:27​\nNow, we have a different slightly announced different scheme, right?Wherewe had the transmission opportunity concept.So, as we already said, our scheme.Will provide what is called temporal sense considering two queues of the same priority in two different nodes.​"
+    },
+    {
+      "id": "48",
+      "text": "​"
+    },
+    {
+      "id": "49",
+      "text": "说话人 1 00:18:00​\nOK, so now, let's consider.Our announced distributed channel access scheme, and let's consider the same scenario as before.But let's now consider that, for example, this is access category zero, for both these Wi-Fi cards.OK, we need to look at the same queues, types of queues.So access category zero in a and access category zero in b.And what we have here?Well, again, the scheme is distributed.All wi fi cards will follow.​"
+    },
+    {
+      "id": "50",
+      "text": "​"
+    },
+    {
+      "id": "51",
+      "text": "说话人 1 00:19:00​\nThe same rules, so we are still fair.But as we said, when they access the channel, and they will access the channel with the same probability.Because we are still fair.What they will be able to do is to transmit forand transmission opportunity limit time interval that corresponds to access category zero.​"
+    },
+    {
+      "id": "52",
+      "text": "​"
+    },
+    {
+      "id": "53",
+      "text": "说话人 1 00:19:30​\nOK?So, what they will win is the possibility to transmit for the transmission opportunity limit.We are considering the queues of priority zero, so they will be able to transmit for this amount of time.​"
+    },
+    {
+      "id": "54",
+      "text": "​"
+    },
+    {
+      "id": "55",
+      "text": "说话人 1 00:19:53​\nOK.Now, we want to again compute the throughput.That they will enjoy, because again, it's fine to have the same probability to access the channel, but what matters is the throughput.​"
+    },
+    {
+      "id": "56",
+      "text": "​"
+    },
+    {
+      "id": "57",
+      "text": "说话人 1 00:20:15​\nSo, again, we look at the system, our system, for an extended period of time, t.And we can consider that this is essentially the pattern that we'll have, where we simplify things a little bit.And we represented the duration of the transmission opportunity that each.Not will gain, OK?So, for example, they access again as before the channel the same number of times, but now every time they access the channel.They will transmit exactly for the same.​"
+    },
+    {
+      "id": "58",
+      "text": "​"
+    },
+    {
+      "id": "59",
+      "text": "说话人 1 00:21:05​\nDuration.Of course, I said that we simplify things a little bit here, because we are not looking at the single packets.Right?That are transmitted within a transmission opportunity limit.We know that.​"
+    },
+    {
+      "id": "60",
+      "text": "​"
+    },
+    {
+      "id": "61",
+      "text": "说话人 1 00:21:23​\nDofil.The transmission opportunity with packets, we have packets, sieves, packets, sieves, packets, sieve.And then block ack.OK, we simplify that, we just represented the old transmission opportunity with a rectangle.OK, it's a simplified view.OK, so, this is what we can see now.Hmm.And I think it's easy to see immediately visually by comparing these two temporal lines, timelines here.The difference here in a bcf, a and b could transmit packets of different sizes, right?LA and LB.​"
+    },
+    {
+      "id": "62",
+      "text": "​"
+    },
+    {
+      "id": "63",
+      "text": "说话人 1 00:22:28​\nIt doesn't really matter the size of the packets that they transmit, right?Because what matters is actually the speed at which they transmit, because the time allocated to each of them is the same.And indeed, if we now compute the throughput that can be achieved by A, we need to consider the number of times that A will be able to access the channel.This is still n.Now we have to multiply this and by the transmission opportunity, because what a node wins when accessing the channel is not a packet transmission.It is a transmission opportunity.​"
+    },
+    {
+      "id": "64",
+      "text": "​"
+    },
+    {
+      "id": "65",
+      "text": "说话人 1 00:23:31​\nAnd then, in order to compute the number of bits.That are transmitted during a transmission opportunity, we need to consider the data rate used by the speed at which a transmits.That is denoted by Ra.OK?So Ra is the speed.At which A transmits over the radio channel.​"
+    },
+    {
+      "id": "66",
+      "text": "​"
+    },
+    {
+      "id": "67",
+      "text": "说话人 1 00:24:27​\nEvery time it can transmit for a time duration equal to the transmission opportunity.And how many bits fit there?Well, it depends clearly on how fast, right?On the speed at which B transmits during the transmission opportunity.So, this is the speed, the bit per second speed at which B transmits.And clearly, this time interval transmission opportunity multiplied by RB gives you the number of bits that B is able to transmit during the transmission opportunity.It gets n transmission opportunities over a period t.So the numerator indeed represents the number of bits that b is able to transmit over.So di drop booth can be crew return.In this way.​"
+    },
+    {
+      "id": "68",
+      "text": "​"
+    },
+    {
+      "id": "69",
+      "text": "说话人 1 00:25:42​\nSo again, the question is the same as before.When will A and B achieve the same throughput on the mark layer?Well, the two expressions are now equal, when the speed at which A transmits is the same as the speed at which B transmits.Right?So, this means that they will.Enjoy the same throughput if they are equally fast in transmitting.So the throughput at which you enjoy the mark later depends on how fast you can trust me.If you are very close to the access point.And as we know, your speed, transmission speed can be very high, because you are a lucky user with very good channel.Then you also enjoy a very high throughput.But if you are an unlucky user.Far away or between you and the access point, there are obstacles, the channel is bad, then you will be as slow.Transmitter, and in this case your throughput will be much lower.Okay?So, our conclusion is that Wi-Fi in newer versions of Wi-Fi.​"
+    },
+    {
+      "id": "70",
+      "text": "​"
+    },
+    {
+      "id": "71",
+      "text": "说话人 1 00:27:32​\nWhy the tempor saya next be.As everyone, let's say, given that the priority of their queues is the same, they get the possibility to transmit for the same amount of time.That's temporal fairness.However.The actual number of bits that you will be able to transmit at the mark layer depends on how fast you can be.Hmm.So, that's why at the very beginning, we said the newest version of Wi-Fi allows you to transmit as data speed.Aneh physical layer at fourty six gigabyte persen.OK, that's the data speed and the physically, which is very very high.Excuse me, but.​"
+    },
+    {
+      "id": "72",
+      "text": "​"
+    },
+    {
+      "id": "73",
+      "text": "说话人 1 00:28:37​\nSo your throughput in that case will be high, but only if you are a lucky user, OK?So that's to account for the actual performance that we have.OK, that said, we are done with the announced distributed channel access, and now we move to the new centralized access scheme that we have in Wi-Fi 4.So, as you may remember, we said,in this Wi-Fi 4, we do not have PCF anymore, because it didn't work, right?So, they introduce a new version, announce the new version of centralized scheme.And this centralized scheme now works, so that's the good news.​"
+    },
+    {
+      "id": "74",
+      "text": "​"
+    },
+    {
+      "id": "75",
+      "text": "说话人 1 00:29:44​\nHow does it work?Well, let me stress the important things here through a graphical representation of ourof our protocol.So, again, let's consider a superframe.We already know what a superframe is.The superframe remember starts with a beacon.​"
+    },
+    {
+      "id": "76",
+      "text": "​"
+    },
+    {
+      "id": "77",
+      "text": "说话人 1 00:30:28​\nAnd the second phase is the contention period, during which we use the distributed.Channel access key.Okay, this is exactly the same as what we discussed already.Okay, so, let's first focus on the contention free period.The contention free period where we use this new centralized access schema for the HCC.Nah.Isu.Observe this representation, you can see that is.Essentially morerless.This same as PC, right? Because wise have a polling poling scheme.Where the access point pulls the stations, and every time a station is pulled, he gets the right, he is entitled to access the channel.Right?So, from that point of view, isvery similar to PCF, but what are the differences?Well, first of all.The way the axis point pulls the station is different, because we do not have anymore a static pulley list.Instead.The access point now has an idea of the status of the queues of the different Wi-Fi cards, and thereforehe can pull a station only if he knows that that station has got data to draw.Why?Well, remember what we said yesterday about.Di mark header.​"
+    },
+    {
+      "id": "78",
+      "text": "​"
+    },
+    {
+      "id": "79",
+      "text": "说话人 1 00:33:13​\nAnd we said, well, this can be used to signal the type of traffic that we are transmitting, but it's also used to include information.On the state of the queue of a wi fi card.So, through this subfield in the packet header, wi fi cards can notify the access point.About their queues status.So, this means that the access point is now a real time view of the queues at each.Station, if they've got traffic to transmit or not, right?And how much traffic they they have.So now, we solve one of the.PCF issues.That was the other end that we had due to the possible.Paul pool, alcohol al Pol.​"
+    },
+    {
+      "id": "80",
+      "text": "​"
+    },
+    {
+      "id": "81",
+      "text": "说话人 1 00:34:59​\nNow, we do not have that anymore, we solve that issue.Because the access point has an knowledge, an idea about the status of the queues of the different Wi-Fi cards.Therefore, it will pull a station only if that station has got traffic to trust.​"
+    },
+    {
+      "id": "82",
+      "text": "​"
+    },
+    {
+      "id": "83",
+      "text": "说话人 1 00:35:25​\nOK，so one problem solved.There is also another another problem that is solved here.That is. Remember in peace ya.Every time the axis.This point was.Polin.Mission, we didn't know for how long that transmission would have going on, because it dependent on the speed of transmission of that station.On the payload size of the packet that this station had.So, we did have any control on the time taken by a Wi-Fi card station to transmit this packet, right?Now, also this issue is solved.Why?Because every time we pull a station, what we grant is not the possibility to transmit the packet.​"
+    },
+    {
+      "id": "84",
+      "text": "​"
+    },
+    {
+      "id": "85",
+      "text": "说话人 1 00:36:52​\nSo, the access point can call the station and tell that station, look, you are entitled now to transmit.But for this transmission opportunity.No more than that.OK, so second issue that we had in PCF is solved, because now we have control on how long each.Whole station will transmit.So, the access point can plan ahead very well, who is going to transmit and for how long?So, now the access point may can havefull control of these transmissions.OK, so we have full control of the channel access delay of the wi fi nodes during the content.​"
+    },
+    {
+      "id": "86",
+      "text": "​"
+    },
+    {
+      "id": "87",
+      "text": "说话人 1 00:38:20​\nOK, now, you may remember that there was a third issue with PCS, which was the fact that the beacon could get delayed.Because in the second phase, we have a contention period, so we use the contention based distributed.Channel access, and if a station gets the channel at the end, then it will be entitled to transmit, and this may go beyond the target and in time of the super frame.Times, it may cause a delay of the beacon.Now, unfortunately, we still have that.Why?Because this phase is based on contention.We apply the announced distributed channel access scheme here.If a queue gets access to the channel, it can transmit for its transmission opportunity limit.Okay, so nobody can interrupt that.So, alls in this case, the beacon.​"
+    },
+    {
+      "id": "88",
+      "text": "​"
+    },
+    {
+      "id": "89",
+      "text": "说话人 1 00:39:55​\nBut, in this new version, there is actually a change that has been done to the contention period phase.It is still true that during this phase, we are using the distributed channel access.However, we give the possibility to the access point to size the channel and pull stations if needed.So, even if we are in a contention period phase, the access point may want to poll stations also during this phase.And it can do that, it just needs to sense the channel as idle for peeps, remember the peeps that was used also for the.To to transmit the beacon.So, it is enough for the access point to sense the channel as idle for bits.If the channel is idle, then it can actually also send a poll.And after the poll, after shifts, the polled station can access the channel and transmit.​"
+    },
+    {
+      "id": "90",
+      "text": "​"
+    },
+    {
+      "id": "91",
+      "text": "说话人 1 00:41:45​\nSo, if there are stations that really need to transmit, or the access point really needs to transmit.Traffic towards some stations.As soon as possible, we give this advantage to the access point by allowing the access point to use polls.Even if we are in the contention period phase.So, all these things together.​"
+    },
+    {
+      "id": "92",
+      "text": "​"
+    },
+    {
+      "id": "93",
+      "text": "说话人 1 00:42:16​\nMake this new version of Wi-Fi really really good to support quality of service.OK.There is only one thing left, but we'll of course discuss that in in 5 minutes.So let's take 5 minutes break.​"
+    },
+    {
+      "id": "94",
+      "text": "​"
+    },
+    {
+      "id": "95",
+      "text": "说话人 1 00:43:35​\nOK, we've go through that again, no worries.After the break, yes, you can ask the question after the break, OK?​"
+    },
+    {
+      "id": "96",
+      "text": "​"
+    },
+    {
+      "id": "97",
+      "text": "说话人 1 00:49:23​\nPerfect.So, let me.​"
+    },
+    {
+      "id": "98",
+      "text": "​"
+    },
+    {
+      "id": "99",
+      "text": "说话人 1 00:49:38​\nFor clarity, let me do this a little bit better in terms of the algorithm.Otherwise, it might be.Can you do that?Confusing.Use this small cap andcapital number versions of the letters.So, just use exactly the same way or the quantities that relate.To the to the users of the ones.So, yeah, yeah, yeah.OK.​"
+    },
+    {
+      "id": "100",
+      "text": "​"
+    },
+    {
+      "id": "101",
+      "text": "说话人 1 00:51:14​\nSo let me just write.9:00, and also here.​"
+    },
+    {
+      "id": "102",
+      "text": "​"
+    },
+    {
+      "id": "103",
+      "text": "说话人 1 00:51:51​\nHopefully, it's a bit more clear.OK, so,this was what we had, right?In.1 D C AF.​"
+    },
+    {
+      "id": "104",
+      "text": "​"
+    },
+    {
+      "id": "105",
+      "text": "说话人 1 00:52:17​\nI mean, this example refers to that scenario, OK?Where the nodes A, M, B always have packets to transmit.We have their queues submitted.They get the same chances to access the channel, right?Because the protocol is fair.So, we did not buy n, n is the number of times that n gets chance to access the channel.And since they get the same chance to access the channel over a time period t, each of them will access the channel n times.​"
+    },
+    {
+      "id": "106",
+      "text": "​"
+    },
+    {
+      "id": "107",
+      "text": "说话人 1 00:53:18​\nWhat we expect to see on average.That is, A transmits, then B transmits, then A transmits, then B transmits, and so on and so forth.Because they both access the channel a number of times equal to n during this observation time t.And what we represented here is also the fact that since we are using DCF, OK?​"
+    },
+    {
+      "id": "108",
+      "text": "​"
+    },
+    {
+      "id": "109",
+      "text": "说话人 1 00:53:48​\nEach node, each station may transmit a packet, or one packet every time, but the packets may be of different sizes.Right?So, we may indeed in this example have that the lengthof the packets transmitted by A, that is denoted by LA.Is shorter than the length of the packets transmitted by B, that is denoted by LB.O K so where sample if this is true if if.Tienes.A is less than l b, then based on our computation, what we will see is that the true of a.Will be less than the root of b, right?Hmm.​"
+    },
+    {
+      "id": "110",
+      "text": "​"
+    },
+    {
+      "id": "111",
+      "text": "说话人 1 00:55:13​\nNo.¿No es que sí, verdad?Gana in this cakes.De Huila Enjoy Scentry Bourd.​"
+    },
+    {
+      "id": "112",
+      "text": "​"
+    },
+    {
+      "id": "113",
+      "text": "说话人 1 00:55:39​\nThe bottom representation is what we have on average when we use instead EDCA.OK?What is the difference in ADC with respect to DCF?Don't be shy.What is the difference?​"
+    },
+    {
+      "id": "114",
+      "text": "​"
+    },
+    {
+      "id": "115",
+      "text": "说话人 1 00:56:22​\nNeed a sand duration.Excellent, thank you.So.We have that, since we are considering queues at each station having the same priority, every time they transmit.They get access to the channel, they do that for.The same time duration, and this is indeed what we represented here, right?So, this is as long as this.​"
+    },
+    {
+      "id": "116",
+      "text": "​"
+    },
+    {
+      "id": "117",
+      "text": "说话人 1 00:57:10​\nWe have the same transmission opportunity limit, because we are considering two queues of the same priority within a.And within.OK.So, now, what is the throughput enjoyed by A?Again, also, EDCA is fair to all Wi-Fi cards in terms of chances to access the channel, right?So, we can say, ok, during this time period t, say that A gets access to the channel N times, OK?Every time it gets access to the channel.It will be able to transmit for the transmission opportunity limit.And how many bits do we fit into that time?It depends on the bit rate, on the speed.​"
+    },
+    {
+      "id": "118",
+      "text": "​"
+    },
+    {
+      "id": "119",
+      "text": "说话人 1 00:58:26​\nUsed by A, right?So, it's like when you run on a on a field, right?You have, for example, it's a the.How many meters are you able to run if you run for one minute?Depends on how fast you are.If you are very fast, in one minute, you run for many meters.If you are slow, if you walk, then in one minute.You are able to cover a smaller number of meters, right?And it's exactly the same thing.​"
+    },
+    {
+      "id": "120",
+      "text": "​"
+    },
+    {
+      "id": "121",
+      "text": "说话人 1 00:59:13​\nSo, this is the time, okay?Let's say that our transmission opportunity limit is one minute, and this is how fast A runs, okay?So, how fast?A is in transmitting bits.If a is very fast, then in the transmission opportunity limit, we'll be able to transmit many, many bits.​"
+    },
+    {
+      "id": "122",
+      "text": "​"
+    },
+    {
+      "id": "123",
+      "text": "说话人 1 00:59:41​\nOk, what is the total number of bits a will be able to transmit over t?But clearly, the number of bits that it can transmit during a transmission opportunity.Multiply by the time, the number of times you can access the channel, right?You can run, OK?Same for B, so B, we get an channel access, because we, again, we are fair.In that respect, every time it accesses the channel, it will be able to transmit, so to run for one minute.​"
+    },
+    {
+      "id": "124",
+      "text": "​"
+    },
+    {
+      "id": "125",
+      "text": "说话人 1 01:00:25​\nOkay?To transmit for a transmission opportunity limit.And how many bits will be able to fit in that transmission opportunity limit?It depends on how fast it is.Okay, so this is the speed of our transmitter.​"
+    },
+    {
+      "id": "126",
+      "text": "​"
+    },
+    {
+      "id": "127",
+      "text": "说话人 1 01:00:46​\nSo the numerator emosi cases agen represents the number of beach.That a node is able to transmit over a period t.Divided by t gives the throughput.Okay, is the throughput computational clear?​"
+    },
+    {
+      "id": "128",
+      "text": "​"
+    },
+    {
+      "id": "129",
+      "text": "说话人 1 01:01:14​\nOK, this is very important.OK, it might appear in the test.So, if it's not clear, let me know.OK, don't complain then if you find a question on this in the test.You're positive that is clear.​"
+    },
+    {
+      "id": "130",
+      "text": "​"
+    },
+    {
+      "id": "131",
+      "text": "说话人 1 01:01:40​\nOk, back.So, again, we ask ourselves, when do A and B achieve the same output?If we look at these two expressions, we can see that if they have the same speed, so they are able to transmit bits at the same speed.Then they will also achieve the same tool.​"
+    },
+    {
+      "id": "132",
+      "text": "​"
+    },
+    {
+      "id": "133",
+      "text": "说话人 1 01:02:16​\nOK, so in a WiFi, thanks to the founder, now we have temporal fairness, not the packet fairness anymore.OK, we have a temporal fairness.Vana nodes then are equally fast in transmitting.Will also be able to achieve the same throughput, and the throughput is what matters in terms of performance.Because it tells you how many bits application layer bits essentially, bits that are of interest to the application.May be transmitted or or received over a time period.So, it really tells you if you have to upload or download a video or whatever, how long it takes essentially.Okay?So, the throughput is what matters.Is it clear?OK, better.Then, just to be even more clear.​"
+    },
+    {
+      "id": "134",
+      "text": "​"
+    },
+    {
+      "id": "135",
+      "text": "说话人 1 01:03:51​\n嗯。好。Ok。So, that's and, let's move to the essentially last few slides for his virtual wi fi.We already know how then both the centralized and the distributed channel access schemes work.And we said one important thing is that now the access point gets informed, notified about thetraffic that each wi fi card has got in its queues.Right?And that allows the access point to plan, to schedule traffic efficiently, so that we can meet the quality of service requirement.OK, that said, let me add that there is one more thing that helps the axis point.To control.Di.Grafik.​"
+    },
+    {
+      "id": "136",
+      "text": "​"
+    },
+    {
+      "id": "137",
+      "text": "说话人 1 01:05:30​\nSo, traffic signaling may happen through the quality of service control subfield in the MAC header.As we said before.But, it can also happen through an implicit handshake between axis point.And Wi-Fi card station.When a Wi-Fi card, so a user wants to start a new traffic flow, so, for example, wants to upload a new video or a new photo.You can actually contact the access point in advance and say, look, I'd like to start this traffic flow.But I.I need this throughput for this traffic flow.I need to achieve this throughput, and for example, this maximum delay, and this maximum packet loss probability.OK.So the access point can reply to this wi fi card saying, look, that's fine.I have enough radio resources, enough space, let's say.Index biasa.​"
+    },
+    {
+      "id": "138",
+      "text": "​"
+    },
+    {
+      "id": "139",
+      "text": "说话人 1 01:07:21​\nAnd at that point, the user can start the traffic flow, or the access point.May say, I don't have so much room in the VSS right now.So, if you want to start this new traffic flow, fine, but look, I can give you this much throughput.That is not what you're asking for, is a bit lower, but this is what i can offer.And the wi fi card would say, ok, I take it, fine, I restart my traffic flow.Or you can say, no, no, no, this does not work for me, I will wait.There is no way to to send.The traffic flow in an efficient matter for me, I give up, or I will do it later, OK?Or the access point can just say, look, there is no room at all.Forget about starting a new traffic flow.So, there is a sort of the so called, call admission control.It's a call admission control mechanism.​"
+    },
+    {
+      "id": "140",
+      "text": "​"
+    },
+    {
+      "id": "141",
+      "text": "说话人 1 01:09:03​\nThrough which the access point can control up front the amount of traffic that is handled within its BSS.So, it can avoid.Having too many traffic flows, too many stations transmitting or trying to transmit in the BSS, so it can reduce the level of contention.​"
+    },
+    {
+      "id": "142",
+      "text": "​"
+    },
+    {
+      "id": "143",
+      "text": "说话人 1 01:09:40​\nIn the asus.Contation perdieron.Stations con tending.Underford a Lower Collition Arroba billete.Sorbiese to control, diamal of Trust.That we need down handle within.And it's this very effective.​"
+    },
+    {
+      "id": "144",
+      "text": "​"
+    },
+    {
+      "id": "145",
+      "text": "说话人 1 01:10:16​\nOK, it's one more tool that we have in a WiFi to keep the traffic, and therefore the traffic load, and therefore the delay.Under control.OK, so in the slides you will find also several things that we mention before moving to the numerical problems.Like examples that I promised to look at together this morning,let's also try to look at the very last things related to this Wi-Fi 4.As an amendment, this part is labeled as 802.11N.​"
+    },
+    {
+      "id": "146",
+      "text": "​"
+    },
+    {
+      "id": "147",
+      "text": "说话人 1 01:11:16​\nAnd there are, let's say, additional features that we find in a Wi-Fi 4.OK.They are not really related to the way nodes access the channel.But these additional features are more related.De física Layer.​"
+    },
+    {
+      "id": "148",
+      "text": "​"
+    },
+    {
+      "id": "149",
+      "text": "说话人 1 01:12:00​\nSo, for example, in this new version of Wi-Fi, Wi-Fi 4, there is this amendment in particular.8 to 2 dot 11 and thatrelates to the physical layer and tries to.​"
+    },
+    {
+      "id": "150",
+      "text": "​"
+    },
+    {
+      "id": "151",
+      "text": "说话人 1 01:12:15​\nImprovis.De física de.Physical layer.This is something that we already sent when commenting on the table, that was giving you the big picture of the Wi-Fi evolution.Remember the initial table we had with all the different versions of Wi-Fi and the summary of the evolution.So, if you remember the table, for example, we mentioned already that newer versions of Wi-Fi at the physical layer use not just OFDM.But they also use MIMO.Remember what MIMO is?We mentioned that already.And there is one more thing that they use, that is being forming, still at the physical layer.What is being forming?It's a very simple concept.I don't know if you do that in a China, but in a Europe.​"
+    },
+    {
+      "id": "152",
+      "text": "​"
+    },
+    {
+      "id": "153",
+      "text": "说话人 1 01:13:35​\nYou are, for example, in a street, you see your friend, your friend didn't see you, so you want to attract your friend's attention.And you shout at your friend, right?For example, your friend is called John.So you want to shout John to attract his attention, right?So, what we do is to put our hands here and shout John.Why do we do that?I don't know if you do the same.To direct our voice toward that person.So our voice that if i don't do that, the voice just gets spread right everywhere.But if I put my hands, then I will direct better the voice toward that person, and it's more likely that.You will receive this my voice high enough, right?So you will hear it more likely.That's exactly what being forming does.​"
+    },
+    {
+      "id": "154",
+      "text": "​"
+    },
+    {
+      "id": "155",
+      "text": "说话人 1 01:15:00​\nSo, if you have an access point.And a user, for example, a here.The antenna that you use to transmit to the access point.Will have this radiation pattern so that the power that is emitted at the physical layer from the node to the access point will be directed.So, instead of having anomnidirectional antenna that would spread the power everywhere.This is the omnidirectional antenna.When you do beam forming, you form a.A beam, right?Beam forming means to form a beam.This is a beam.​"
+    },
+    {
+      "id": "156",
+      "text": "​"
+    },
+    {
+      "id": "157",
+      "text": "说话人 1 01:16:22​\nToward this node, it will form a beam that points to this node.If instead the access point wants to transmit toward this other node B, it will form abeam that is directed toward.​"
+    },
+    {
+      "id": "158",
+      "text": "​"
+    },
+    {
+      "id": "159",
+      "text": "说话人 1 01:16:48​\nOkay, so this is in general the concept of beam forming.When transmitters instead of just transmitting everywhere.They try to direct their power, the transmission power along a certain direction where they know that there is the intended receiver.So that all the power, the power will be mainly concentrated around this direction, and the result is the same as I was.Same before in my example, the signal that is transmitted by the node will be received with a higher power at the receiver.Right?So the receiver will understand better.What we address me, that's the key point of beamforming.OK.So, in more recent versions of Wi-Fi, we have.En libre possibility Toall Create Vams Weed ahora antenas are the fisical layer.​"
+    },
+    {
+      "id": "160",
+      "text": "​"
+    },
+    {
+      "id": "161",
+      "text": "说话人 1 01:18:13​\nNow, as we know, Wi-Fi 4 is like an intermediate version in the Wi-Fi evolution, right?We are now at Wi-Fi 7.And is under standardization, Wi-Fi 8.So, in this intermediate version of Wi-Fi, B forming is not working very well.So, it has been introduced, but not working very well.But in the more, even more recent versions of Wi-Fi.5,6,7, beamforming works very well.So, now, when we have our phone that, for example, communicates through Wi-Fi with our home access point.There is actually a beam.Between the Wi-Fi card in the phone and the access point at all.OK.The transmission and reception happens over this queue.OK.So, that's something useful on the physical layer.​"
+    },
+    {
+      "id": "162",
+      "text": "​"
+    },
+    {
+      "id": "163",
+      "text": "说话人 1 01:19:30​\nThe other the other thing that we have in Wi-Fi 4 and even more in the subsequent versions, is that remember what we said about the usage of the spectrum.Right?Wi-Fi may work at 2.4.Info lagi guys.Five guys.​"
+    },
+    {
+      "id": "164",
+      "text": "​"
+    },
+    {
+      "id": "165",
+      "text": "说话人 1 01:20:07​\nWe represented them in this way, if you remember the figure.When we work at 5GHz, there are actually 12.When we work and that are not overlapping, when we work a six giggers, there are even more that are not overlapping.And each of these frequency bands we said, just to give a roughly number.Is 20 megahertz wide, OK?So the width of each channel is more or less 20 megahertz.​"
+    },
+    {
+      "id": "166",
+      "text": "​"
+    },
+    {
+      "id": "167",
+      "text": "说话人 1 01:20:50​\nOK, so what in Wi-Fi they trying to do was to try and increase the speed of transmission.Of the nodes, right?We want to be as fast as possible.So, in order to give the possibility to the wi fi nodes to increase the speed, they.Allowed the VSS and for the access point stations to use not just one channel, but for example, to work on two channels at the same time.So, to aggregate two channels.And this means that instead of transmitting only on this portion of the spectrum, you have now double the bandwidth.So, you can essentially double your speed, your transmission speed by doing that.OK?So, you can use essentially, instead of 20, you can use 40 megas as a band, which makes your transmissions faster.As I was saying.​"
+    },
+    {
+      "id": "168",
+      "text": "​"
+    },
+    {
+      "id": "169",
+      "text": "说话人 1 01:22:19​\nAlso, if you remember what we said about modulations, we now accommodate for more efficient modulations.This means that essentially, you have 16 signals in your constellation.This means that you have 64 signals in your constellation.So it means that in this case, you may remember that with one signal, we can transmit four bits, right?So we, by essentially increasing this number here.​"
+    },
+    {
+      "id": "170",
+      "text": "​"
+    },
+    {
+      "id": "171",
+      "text": "说话人 1 01:23:17​\nOf course, this is possible only if your channel is good enough.OK.Also, the coding rates vary.Remember what we said about channel coding, and we define the coding rate.So, this essentially tells you how many redundant bits you are sending.For each block, if you remember what we said at the beginning, so you have multiple options.And essentially, this means that depending on the coding rate that you're using, and depending on the modulation that you're using.You will be able to achieve a different beat rate, different speed.So, the.​"
+    },
+    {
+      "id": "172",
+      "text": "​"
+    },
+    {
+      "id": "173",
+      "text": "说话人 1 01:24:26​\nWe have different possibilities, different modulation and coding schemes that the transmitter can apply.And depending on the selected modulation and coding scheme.It will be able to transmit at different bit rates.Okay, so faster, more fast, or or less fast.Also, as you can see here.We have mimo, in particular, you may have two antennas at the transmitter, two antennas at the receiver.Or three antennas at the transmitter and three antennas at the receiver, or four antennas at the transmitter and four antennas at the receiver.De mover antenas.Demora para.Streams you can transmit, and as we stand the higher again the ability to transmit bits.So, as i was saying, all these improvements.​"
+    },
+    {
+      "id": "174",
+      "text": "​"
+    },
+    {
+      "id": "175",
+      "text": "说话人 1 01:25:45​\nHere you have just a summary of essentially the possible,bit rates at which in this version of Wi-Fi 4.We can transmit, depending on the quality of the channel, you can use a different modulation encoding scheme.And therefore be able to achieve different speeds.OK, that vary from essentially 6.5 megabit per second up to, in the best possible case, 600 megabit per second.​"
+    },
+    {
+      "id": "176",
+      "text": "​"
+    },
+    {
+      "id": "177",
+      "text": "说话人 1 01:26:25​\nOK, this is Wi-Fi 4.OK, so you can skip these lines because they are again aboutthis slide is about, essentially, informing.As I said, that's something that we just need to know, to understand as a concept, but it's not important for us now.What is instead, it is important.​"
+    },
+    {
+      "id": "178",
+      "text": "​"
+    },
+    {
+      "id": "179",
+      "text": "说话人 1 01:26:55​\nIs di following dan.That I'm going to explain.So, before, let's say introducing what is essentially interesting to us.In this case, in this amendment of of WiFi four, let's reflect about the consequences of what we said about the physical layer.​"
+    },
+    {
+      "id": "180",
+      "text": "​"
+    },
+    {
+      "id": "181",
+      "text": "说话人 1 01:27:31​\nOK, so, don't worry about the details of the physical layer.But what is the major observation that we can make here?The basic observation is that.As we evolve with wifi.We have the possibility to increase.More and more the maximum speed that can be achieved.​"
+    },
+    {
+      "id": "182",
+      "text": "​"
+    },
+    {
+      "id": "183",
+      "text": "说话人 1 01:28:08​\nOK.Now, in the very initial version of Wi-Fi, remember that was 11 megabit per second.We know from the summary table.That we look at probably the first time, that nowadays we can achieve 46 Gigabit per second, right?As maximum speed.This is, as I said, an intermediate version in the evolution.So, the maximum is 600 Megabit per second.So, we have, if you look at these values, 11 megabit per second, this is intermediate, 600 megabit per second.Now, 46 gigabit per second.​"
+    },
+    {
+      "id": "184",
+      "text": "​"
+    },
+    {
+      "id": "185",
+      "text": "说话人 1 01:29:00​\nOK, these are the maximum speeds that can be achieved, but they are increasing.So, even if still the unlucky users have relatively low speeds, OK?But on average.What can we say?On average, we can say that the more recent the Wi-Fi card that we use, the faster we can be in transmission.That's easy to observe.But let's think a little bit better about it.What is this speed used for in wayfa?And now you answer.What does it mean?600 megabit per second if you are a lucky user.How do you use this speed?So this is kind of power that the physical layer gives you, right?What do you do with this ability?Powerfulness of the physical layer.High performance of the physical layer.What do you do with that?​"
+    },
+    {
+      "id": "186",
+      "text": "​"
+    },
+    {
+      "id": "187",
+      "text": "说话人 1 01:30:50​\n你有没。​"
+    },
+    {
+      "id": "188",
+      "text": "​"
+    },
+    {
+      "id": "189",
+      "text": "说话人 1 01:30:50​\nIf you answer wrong, don't worry.But we're going to stay here until someone answers.So, it's almost 35, please say something.​"
+    },
+    {
+      "id": "190",
+      "text": "​"
+    },
+    {
+      "id": "191",
+      "text": "说话人 1 01:31:20​\nWhat does it mean to have as speed 600 meter per second?​"
+    },
+    {
+      "id": "192",
+      "text": "​"
+    },
+    {
+      "id": "193",
+      "text": "说话人 1 01:31:40​\nOK, so, you may want to think about it, but unless we go over this, we cannot continue, because it's useless to go on.OK, so unless someone answers whatever, but otherwise, no point in going on.If you cannot get this concept, what?Transmission at 600 megabit per second, or 46 gigabit per second, or 11 megabit per second in Wi-Fi means.I'm afraid we have to go backward, not forward with our slots.OK?So, let's have a 25 minute break, and then let's reconvene after the break, and let's see if we can figure it out.OK?Good.I'll see you then.The time for that.OK, good, thanks.​"
+    }
+  ],
+  "scrollEnd": [
+    {
+      "height": 697,
+      "top": 15608,
+      "total": 16305
+    }
+  ]
+}
