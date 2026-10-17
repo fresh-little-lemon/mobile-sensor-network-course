@@ -1,0 +1,129 @@
+{
+  "status": "complete",
+  "request": {
+    "recording_id": "20261008-0800",
+    "start_seconds": 3,
+    "end_seconds": 11,
+    "language": "English",
+    "reason": "Documented English-language cross-check of the short code-switched phrase around the original 00:05 anchor. Automatic detection translated or hallucinated this interval as Chinese. No text candidate is supplied to the model; do not treat the forced-language result as automatic truth."
+  },
+  "result": {
+    "index": "20261008-0800_english_0003_0011",
+    "purpose": "targeted_rerun",
+    "start_seconds": 3.0,
+    "end_seconds": 11.0,
+    "start_sample": 48000,
+    "end_sample": 176000,
+    "sample_count": 128000,
+    "sample_rate": 16000,
+    "duration_seconds": 8.0,
+    "text": "So I'm gonna come over and give you a lesson. Maybe I'll just start with something to know you. Okay. Um, that today.",
+    "raw_decoded": "So I'm gonna come over and give you a lesson. Maybe I'll just start with something to know you. Okay. Um, that today.<|im_end|>",
+    "generated_token_ids": [
+      4416,
+      358,
+      2776,
+      16519,
+      2525,
+      916,
+      323,
+      2968,
+      498,
+      264,
+      17755,
+      13,
+      10696,
+      358,
+      3278,
+      1101,
+      1191,
+      448,
+      2494,
+      311,
+      1414,
+      498,
+      13,
+      35439,
+      13,
+      23334,
+      11,
+      429,
+      3351,
+      13,
+      151645
+    ],
+    "output_token_count": 31,
+    "inference_seconds": 4.666410400997847,
+    "real_time_factor": 0.5833013001247309,
+    "audio_sha256": "0f2fab6bcc77fcd37991eb2b17124214e3a4b477d2417386ff7f8a67d459b1d8",
+    "audio_metrics": {
+      "rms": 0.022327525750775904,
+      "rms_dbfs": -33.02318802161786,
+      "peak": 0.241485595703125
+    },
+    "input_shapes": {
+      "input_ids": [
+        1,
+        122
+      ],
+      "attention_mask": [
+        1,
+        122
+      ],
+      "input_features": [
+        1,
+        128,
+        800
+      ],
+      "input_features_mask": [
+        1,
+        800
+      ]
+    },
+    "input_feature_frames": 800,
+    "quality_flags": [],
+    "created_at": "2026-10-17T03:27:13.410133+00:00",
+    "language_mode": "forced_English",
+    "language_argument": "English",
+    "prompt": null,
+    "cpu_threads": 6,
+    "detected_language": null,
+    "run_provenance": {
+      "config": {
+        "model_id": "Qwen/Qwen3-ASR-0.6B-hf",
+        "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+        "device": "cpu",
+        "dtype": "bfloat16",
+        "cpu_threads": 6,
+        "language": null,
+        "prompt": null,
+        "chunk_seconds": 120,
+        "overlap_seconds": 10,
+        "minimum_last_chunk_seconds": 30,
+        "max_new_tokens": 1024,
+        "capped_retry_max_new_tokens": 2048,
+        "do_sample": false,
+        "audio_truncation": false,
+        "batch_size": 1,
+        "timestamp_note": "Recording-relative input-window boundaries only; not predicted word or sentence timestamps.",
+        "audio_preprocessing": "ffmpeg decode all audio to mono 16000 Hz PCM s16le; no trimming or silence removal"
+      },
+      "model_sha256": "d3f212dd20abecd315d830bc54ae3865e56ebfc3276484e57b771288ba27fd35",
+      "runtime": {
+        "torch": "2.14.1+cpu",
+        "transformers": "5.20.0",
+        "accelerate": "1.15.0",
+        "numpy": "2.5.4"
+      },
+      "script_sha256": "289c66d057c16d880f47d6f4a55b3874deccd2bb3145281f437ca868ca2a45fe",
+      "model_load_seconds": 3.5957309649675153
+    },
+    "finish_reason": "eos",
+    "eos_token_ids": [
+      151643,
+      151645
+    ],
+    "prior_generation_attempts": [],
+    "generation_budget": 1024
+  }
+}
