@@ -1,0 +1,333 @@
+{
+  "title": "文字记录：录音机-20261008-1049",
+  "url": "https://lcn6dqn3m0yr.feishu.cn/docx/OtMJdWtkIo9pNOxaFvzcIq5Enkd",
+  "captured_at": "2026-10-17T03:28:38.601Z",
+  "complete": true,
+  "missing_block_ids": [],
+  "changed_block_ids": [],
+  "blocks": [
+    {
+      "id": "3",
+      "text": "会议主题：录音机-20261008-1049​\n上传时间：2026年10月15日（周四） 15:19 （GMT+08）​\n智能纪要：录音机-20261008-1049 2026年10月15日​"
+    },
+    {
+      "id": "4",
+      "text": "​"
+    },
+    {
+      "id": "5",
+      "text": "说话人 1 00:01:10​\nOK, so, why are obstacles so important for our signal?Because of the diffraction, and again, at least in Italy, we studied that in high school.Diffraction is a phenomenon that consists in the following.We have one signal that is transmitted.When the signal hits the obstacle.Several secondary waves are created.So, the signal does not remain only one, but it creates several copies of itself because of this hitting.The obstacle, that's the so called diffraction.Now, these different copies of the signal will then further proceed, and the same happens when our signal gets reflected.Also reflection actually creates not multiple copies of the same signal, but a signal that hits a surface.And then it changes direction, and farther, proceeds toward the.This year.So, both diffraction and reflection have in common, they found that our signal or signals get.​"
+    },
+    {
+      "id": "6",
+      "text": "​"
+    },
+    {
+      "id": "7",
+      "text": "说话人 1 00:03:15​\nSo they change direction, and then further proceed to the destination.But diffraction in particular then happens when several copies are created.Is in a way more serious than reflection, because it's not just the fact that the signal changes direction.But the signal actually transform itself from one.En tu más people, sí.Signals, multiple copies of the same signal.Okay, that's diffraction.So, as I said in physics, we studied them in a high school.​"
+    },
+    {
+      "id": "8",
+      "text": "​"
+    },
+    {
+      "id": "9",
+      "text": "说话人 1 00:04:16​\nWell, this is a very simplified view of the reality, but just to highlight the main fact here.We have our user and the base station or access point, and what we have here is that the point of access transmits toward the user.Ok, now initially, actually this signal is the same, but there are in the atmosphere particles of water.South Egely designan Thun.Is originated by the antenna, gets distracted immediately by the atmosphere particles that are a form of obstacle.And then, we may have.​"
+    },
+    {
+      "id": "10",
+      "text": "​"
+    },
+    {
+      "id": "11",
+      "text": "说话人 1 00:05:30​\nBut it highlights the fact that instead of one signal only that reaches our intended receiver.Will have different copies of the same signal that actually reach the receiver.And each copy may travel over different paths, right?Over different path, because as I said.You do reflection or diffraction, we have a change also of direction of these wave forms.So, the signals follow different paths, and as a consequence.They will arrive at different time instance at the receiver.It means also with different phase.So, when signals overlap, when these multiple copies overlap at the receiver.They will overlap with different phase, because they follow a different path, and some of them were delayed more respect to others.​"
+    },
+    {
+      "id": "12",
+      "text": "​"
+    },
+    {
+      "id": "13",
+      "text": "说话人 1 00:06:54​\nSo, here is again a simplified view of this phenomenon, in the case of just two copies.Of what was original originally one signal, and these copies, they have essentially different phases.When they reach the receiver, they therefore combine.In different ways.For example, if the signals that arrive at the receiver arrive more or less with the same delay, so with the same phase.They will all be more or less in phase.Like in this picture.So, we have the so called constructive interference, meaning that there are multiple copies of the same signal that overlap at the receiver.And they are all more or less in line with respect to each other.So, the receiver we just get the sum of these signals.But, instead, if.These signals that arrive at the receiver have different delays, so different phases, and by chance.They are in opposite phase, then they nullify each other.And the receiver essentially gets nothing, because they have opposite phases.In the most part of the cases, we'll have the actually.The kind of interference that sorrythat we get is the so called partially destructive, meaning that these different copies of the signals will have different delays.Different phases, they're not aligned, they're not in counter phase.They are more or less in the middle, and so they may partially distract themselves, but not totally.So, this is the so called.Más tipa.Fading of Phenom.​"
+    },
+    {
+      "id": "14",
+      "text": "​"
+    },
+    {
+      "id": "15",
+      "text": "说话人 1 00:09:55​\nBecause of this overlapping of multiple copies.Each with a different delay, so each with a different face.So gogar dengan.Ada ada.​"
+    },
+    {
+      "id": "16",
+      "text": "​"
+    },
+    {
+      "id": "17",
+      "text": "说话人 1 00:10:20​\nIf you are very unlucky, you get nothing, that is totally destructive.If you are lucky, you get a strong signal when the yogurt lock in phase.But on average, you are in the middle, right?And this phenomenon is random, so you cannot predict what you will get.Why?Because it depends on the obstacles, so it depends on the geometry of your environment.If in your environment there are only stationary obstacles, well, then the fading in multiple fading is still there as a phenomenon.But it's not that serious.Why?Because if you have chairs, walls, wardrobes, the geometry of the scenario is stationary or slowly changing.Like in this case, in this classroom now.​"
+    },
+    {
+      "id": "18",
+      "text": "​"
+    },
+    {
+      "id": "19",
+      "text": "说话人 1 00:11:33​\nWell, then.As actually a communication node, you have the possibility to estimate the channel, to understand what kind of scenario you have got.What kind of of fading you have got, because things do not change, so everything is more or less fixed.So you can estimate the power that the receiver gets and compensate for that.So if the receiver gets a weak signal because of fading or multipath fading, you can say, well, I will increase my transmission power.So you can compensate for the attenuation that the signal experiences.That's the lucky case where you have this so called slow fading, slow changing fading.That is also called shadowing.The nasty phenomenon is the so called fast steady, when your scenario is not stationary or slowly changing.Your scenario changes very frequently.​"
+    },
+    {
+      "id": "20",
+      "text": "​"
+    },
+    {
+      "id": "21",
+      "text": "说话人 1 00:13:11​\nSeveral different obstacles that may there and move, altogether they move.In that case, even if you try to estimate.The situation.You don't have time to do that and compensate, because the situation has already changed meanwhile.That's the very dynamic situation, the fast fading, that is extremely nasty.And this one of the biggest problem we have.In a wider screen division, because we are not able to compensate for that.This is just a representation of the signal that we get due to slow fading, and that would be essentially the red pattern.And the fast fading that is instead are happening over at smaller time scale.And just to give you an idea of how nasty the fading can be, it can lead to an attenuation of the signal that is even 20-30dB.Which is alot, and so very very serious issues for the propagation of our signal.​"
+    },
+    {
+      "id": "22",
+      "text": "​"
+    },
+    {
+      "id": "23",
+      "text": "说话人 1 00:14:37​\nNow just to give an idea of how the signal propagates in real world.These are real world measurements performed by mobile operator in in urban.In the case where we have a base station in an urban environment, and the coverage of the base station.The so called cellular cell.Is quite large, so we call it macrocell, because it's a large area irradiated by the base station.And you can see here the strength of the signal that is received by users over this area.Where the red area is is where you receive very strong signal.Yellow, so so, green is weaker, and blue is very weak.So, you can see that, of course, thequality of the signal that you get very significantly depending on where you are.Because of the presence of obstacles, and of course, the distance from the transmitter.​"
+    },
+    {
+      "id": "24",
+      "text": "​"
+    },
+    {
+      "id": "25",
+      "text": "说话人 1 00:16:01​\nAnd similarly, this is a representation of real world again.Of the power of the received signal, in the case where there is a cellular base station that illuminates a smaller area.So the base station has been placed at a lower altitude, so that the coverage, so the cell is small.Again in an urban environment, so similar to this one.And this is the resulting level of power of the received signal.And in this case, as you can see, it is, let's say, acceptable in this region, but then it gets light blue and blue very.As quickly as we get farther from the base station.So, these are real world representations of a cell.So, as we said, in a real world, the attenuation is a very serious problem, that is new, due not just tofrequency distance.But it's due to the presence also of these obstacles creating fading, and in particular fading is nasty when we have a dynamic environment.So fast fading.This closes this explanation regarding the signal propagation.What i would like just to say is that.We Makassar, the quality.Of dari shift signal tipik kali using.​"
+    },
+    {
+      "id": "26",
+      "text": "​"
+    },
+    {
+      "id": "27",
+      "text": "说话人 1 00:18:04​\nIs a ratio where the denominator we place the power of the received useful signal, and the denominator we place the power of the noise.Clearly, if the signal is.Much stronger than the noise, we are happy, we get a high SNR.If the signal instead is very weak, and its power is close to that of noise, then the SNR.Not happy, because i will be vere digico.​"
+    },
+    {
+      "id": "28",
+      "text": "​"
+    },
+    {
+      "id": "29",
+      "text": "说话人 1 00:18:45​\nFor the receiver to distinguish the signal, the useful signal from the noise.So likely in that case, when the SNR is low, the receiver will make lots of mistakes.It has problems in understanding which bits, which symbols are being transmitted, because the signal is too similar to the noise.Now, another slightly different performance metric that is used.To measure the quality of the signal that we that we receive is the SINR that mean.​"
+    },
+    {
+      "id": "30",
+      "text": "​"
+    },
+    {
+      "id": "31",
+      "text": "说话人 1 00:19:48​\nThe power of the useful signal that is received.As the denominator, instead of having only the power of the noise.We add also the power of the interfering signals coming from other transmitters.Because unfortunately in real world, we do not have only transmitter and receiver, but we may havemany transmitters transmitting simultaneously on the same frequencies.And the receiver.So, the receiver will get not just the useful signal that it wants to receive, but unfortunately it will get only the signals coming.From the other customers.​"
+    },
+    {
+      "id": "32",
+      "text": "​"
+    },
+    {
+      "id": "33",
+      "text": "说话人 1 00:20:53​\nYou may be on a on a street, in a Shanghai, and you may receive the signal, if you are in a in a mall, for example.From the access point of Starbucks, whatever that is.The access point you would like to receive from, because you are there drinking the coffee, but you will receive also the signal coming from the access points of other nearby coffee shops or shops.So, your wi fi card.That is a receiver in this case.We get the useful signal from the starbucks access point, but we also get the signal coming from the nearby coffee shop access point.That is an interfere.​"
+    },
+    {
+      "id": "34",
+      "text": "​"
+    },
+    {
+      "id": "35",
+      "text": "说话人 1 00:21:50​\nOther examples are when we have transmitters that are using.Different technologies.So, interference may come from transmitters using the same technology, like in the previous examples.All of them were Wi-Fi access points.But it may also come from transmitters of different technologies.So, for example, you have your bluetooth radio interface in your phone, and you would like to receive the bluetooth signal from your earphone.That's the useful signal for all my servers.But there might be a Wi-Fi transmitter.Wi-Fi and Bluetooth may transmit exactly on the same frequencies.So, they operate on the same frequencies.So this means that the bluetooth receiver will get the Bluetooth, the intended Bluetooth signal fine.But overlapping with that, it will get also the Wi-Fi signal.That's power, interfering power.That is going to interfere with the useful signal.Okay?So, we may get interference intra and inter technology.Intra is when it is from the same technology, inter is when it is from different technologies, but still.Is interference power that we are getting, and in this metric, this interfere, interfering signal goes to the denominator along with the noise.So, it's something nasty, something that lowers the quality.​"
+    },
+    {
+      "id": "36",
+      "text": "​"
+    },
+    {
+      "id": "37",
+      "text": "说话人 1 00:23:58​\nGood south One assenal order is a in hour Arturo.Gana as we Sant o what recever troubles en.De Modulative.See that, right?So, we don't know.The, remember the red dots, we don't know if what we receive corresponds to a red, no, a red dot or the other in the constellation.So, we make mistakes, and the probability of making mistakes increases.As the SNR or SINR get lower.Now, clearly, our technologies have tried to avoid that our receiver makes mistakes.How can we do that?How can we help our receiver to get the correct information?Well, one possibility is to use the so called error detection or error recovery techniques.​"
+    },
+    {
+      "id": "38",
+      "text": "​"
+    },
+    {
+      "id": "39",
+      "text": "说话人 1 00:25:18​\nLet's look atCodes first.Codes are possible techniques to increase the reliability of our communication.The key point here is to introduce, in particular, when welook at the first technique that you see here.​"
+    },
+    {
+      "id": "40",
+      "text": "​"
+    },
+    {
+      "id": "41",
+      "text": "说话人 1 00:25:45​\nCoding.To introduce redundant bits that help the receiver to understand what would be the correct bits to extract.And this.Codes are called forward error correction codes, and this is what we are looking at first.Let's focus on the main message here.Let me show you this figure.So, let's consider that we have a certain number of information bits, right?These information bits are divided into blocks, each block includes n bits, and within each bits actually.We,use key information bits that are user bits, important bits that we really want to transfer.The remaining ones will be bits that are artificially added, so they are redundant bits.And then what we transmit is one block of n bits one after the other.​"
+    },
+    {
+      "id": "42",
+      "text": "​"
+    },
+    {
+      "id": "43",
+      "text": "说话人 1 00:27:30​\nOK, that's the goal.And we'll use these redundant bits that we artificially inserted.To help himself to get these key user bits right.OK, now, in this case.In this example, the so called code rate is k over n.So, this ratio stands for the number of useful bits that are transferred for each block.Clearly, the lower the coding rate, the less useful bits we transmit per block, and the more redundant bits we transmit per block.​"
+    },
+    {
+      "id": "44",
+      "text": "​"
+    },
+    {
+      "id": "45",
+      "text": "说话人 1 00:28:44​\nIf you insert more redundant bits, of course, you consume your radio resources and your efforts.To transfer fewer information bits per block, but you make your coding technique more powerful.So, when the channel is bad, it's good to use a powerful coding technique.Right, and increase the number of redundant bits per block.One is that the channel is already very good, you may want to reduce the redundant bits even to zero.Or to a small figure, so that you do not consume radio resources, efforts to transmit redundant bits.And you trust me more user bits.The channel is good, so you don't need much help from the coding technique, right?In that case.​"
+    },
+    {
+      "id": "46",
+      "text": "​"
+    },
+    {
+      "id": "47",
+      "text": "说话人 1 00:29:49​\nOK, so the important thing also to say is that this kind of techniques depending on the coding rate.So depending on how many redundant bits you are to hear.Eso depende de una House powerful de Coding Technick es.May be able to only detect if the receiver has made a mistake, or if the coding technique is powerful.It can not only detect if the receiver has made a mistake.But also correct some errors in case mistakes have been made.OK, it really depends on the code that we use.Just to give practical and simple examples, what is the simplest?Code that you can use, and that we humans use, the repetition code.When we talk to someone, and that person has not understood what we're saying, we repeat, right?Once, two, three times, whatever, but we repeat.And that's exactly the simplest form of coding that you can apply.So, in wireless transmissions, they do that.Even in the more sophisticated generations of wireless technologies, they do that.Is the technique of repeating.So, this is the string of useful bits, the ones that you really want to transfer.They are user bits, they are the valuable bits.And if you repeat them twice more.These are redundant bits, right?So the one with the green background are redundant bits.​"
+    },
+    {
+      "id": "48",
+      "text": "​"
+    },
+    {
+      "id": "49",
+      "text": "说话人 1 00:32:08​\nAnd then, what the receiver does in this case is try to demodulate these useful bits, right?Once.And then it modulates this row, and then it modulates this row, and then depending on what it has, the modulated on what it has understood.For each bit, it applies a majority rule.​"
+    },
+    {
+      "id": "50",
+      "text": "​"
+    },
+    {
+      "id": "51",
+      "text": "说话人 1 00:32:40​\nSo, for example, if the receiver has demodulated the first bit of these rows twice as zero and once as one.It would say, well, the result is zero, because twice I demodulated the bit as zero, and once I demodulated as one.So likely I made a mistake the third time since twice I evaluated that as a zero.Majority rule, I would say this is a zero, okay?And the same for each beat.So repeating, you get more chances, right?Toget it right exactly as we human beings do.​"
+    },
+    {
+      "id": "52",
+      "text": "​"
+    },
+    {
+      "id": "53",
+      "text": "说话人 1 00:33:36​\nAnother simple technique is to add.So again, here you have the string of useful bits, and for this string of useful bits, in this case, you add only one redundant bit.That is a parity bit, it is computed essentially by considering the information bits.One and one essentially nullify themselves.So, 0,1,1, ok?Together they give you 0,1 and 1 together they give you 0, the others are all 0, your parity bit is 0.Ok, so if you have an even number of ones, your parity bitis zero, if you have an old number of ones, your parity bit is one.Very simple.And in cases where you get only one mistake, essentially what the receiver can do.Is to detect whether it has made an error.Why?​"
+    },
+    {
+      "id": "54",
+      "text": "​"
+    },
+    {
+      "id": "55",
+      "text": "说话人 1 00:34:57​\nBecause this is the bits that are useful bits that the transmitter transmits.This is the parity bit that the transmitter has computed and will transmit.The receiver, the modulates all this, right?Now, what it does is first to process this.Waveforms these signals and extract these information bits.And then it extracts the parity bit.​"
+    },
+    {
+      "id": "56",
+      "text": "​"
+    },
+    {
+      "id": "57",
+      "text": "说话人 1 00:35:42​\nAssume that the parity bit is always received correct.Right?Let's assume that.So the receiver knows that the parity bit must be zero.So what it does is to compute locally the parity bit based on what he has received and extracted.​"
+    },
+    {
+      "id": "58",
+      "text": "​"
+    },
+    {
+      "id": "59",
+      "text": "说话人 1 00:36:12​\nOK, and then it compares the parity bit that it has computed locally with the parity bit that it has received from the transmitter.If they are the same, it says well, I modulated the users.All the useful bits correctly.If instead the parity bits that it has computed base on what it has extracted.Differs from the parity bit that the transmitter has sent, you would say, I made a mistake, right?You don't know where, but you know that the receiver made a mistake.So, this simple code allows the receiver in the case where one mistake only is made to detect that it has made a mistake.​"
+    },
+    {
+      "id": "60",
+      "text": "​"
+    },
+    {
+      "id": "61",
+      "text": "说话人 1 00:37:29​\nMake your receiver, make one mistake only, and see if it can detect that it has made a mistake.Try to make your receiver make two mistakes, and you will see thatwill not be able to understand that you made a mistake.Okay, it's very simple.So, you can try if you have troubles, let me know.But it's.Very simple exercise.​"
+    },
+    {
+      "id": "62",
+      "text": "​"
+    },
+    {
+      "id": "63",
+      "text": "说话人 1 00:38:05​\nThis is another example where again, the base on the white background are the useful bits.The green, the the ones with the green background are the redundant bits.And again, what our transmitter does is to compute parity bits, but now it arranges the useful bits in a matrix.And for each row, it computes a parity bit, and for each column also, it computes a parity bit.So, we increase the number of parity bits.​"
+    },
+    {
+      "id": "64",
+      "text": "​"
+    },
+    {
+      "id": "65",
+      "text": "说话人 1 00:38:45​\nSo, we make our code more powerful, right?And this is indeed true, because if you notice in this case, where, in this example, where we consider that the receiver.Makes one mistake, it will be able not just to detect that it has made a mistake, but it will also be able to correct the mistake.So, in making the code more powerful, because we now increase the number.Of redundant bits, so we reduce the coding rate.We are able not just to perform detection of a single error, but also to correct a single error.And again, you can do that as a small exercise at home and verify that this is indeed true.​"
+    },
+    {
+      "id": "66",
+      "text": "​"
+    },
+    {
+      "id": "67",
+      "text": "说话人 1 00:39:58​\nThe user bits with a white background, and then compute locally the parity bits.Based on what it has extracted, and then compare the parity bits that it has computed locally with the parity bits that it has received from the transmitter.And use this to understand whetherthat's made a mistake or not.And in case of a single error in this example, also it will be able to correct the error.Okay, so try to do that at home.This is just to say that those were simple examples.Codes may actually be a bit more complicated than that.There are, for example, convolutional codes.I'm not going to the details, of course, but essentially, they use registers, and they combine information bits.According to more complicated operations in order to compute the parity bits.So the concept is exactly the same as in those examples that we look at, but just to say that codes may become really complicated.​"
+    },
+    {
+      "id": "68",
+      "text": "​"
+    },
+    {
+      "id": "69",
+      "text": "说话人 1 00:41:48​\nAs a very last thing that I would like to introduce, let's see if we can make it before the end of this class.Otherwise, we continue tomorrow, is the ARQ technique.This is a second technique that can be used to detect and possibly correct errors.But the principle, the concept is very very different.So, ARQ stands for automatic retransmission request.Now, we don't look at the single bits, but we look at packets, OK?So, when we transmit information from a transmitter to a receiver.​"
+    },
+    {
+      "id": "70",
+      "text": "​"
+    },
+    {
+      "id": "71",
+      "text": "说话人 1 00:42:42​\nBits are organized into packets.It means that they are segmented into chunks, and each chunk of user bits are then transmitted from the transmitter to the receiver.And usually, the transmitter does not just transmit these chance of useful bits, but put an header.In front of each chunk of useful bits.This is the way information is transferred over the internet.I guess you have studied that somewhere.Have you?Have you studied internet?How internet works?​"
+    },
+    {
+      "id": "72",
+      "text": "​"
+    },
+    {
+      "id": "73",
+      "text": "说话人 1 00:43:38​\nNo, OK, anyway, doesn't matter.But whenever we use internet, we transfer or receive data that are organized into packets.A packet is like a letter.Like the mail, post mail.So, you write a letter, right?The transmitter is like sending letters, and each letter, of course, is made of several symbols.And then, it sends the letter through the postal mail toward a destination.At least in the old times, we use that.​"
+    },
+    {
+      "id": "74",
+      "text": "​"
+    },
+    {
+      "id": "75",
+      "text": "说话人 1 00:44:32​\nNow we have emails, but the concept is the same.You write an email that is intended for your friend.Your friend is the destination.You are the transmitter, and what you send is an email, a message, right?You don't send one letter, a, b, c at a time, you send the message.That's the same idea.In the internet we transmit.​"
+    },
+    {
+      "id": "76",
+      "text": "​"
+    },
+    {
+      "id": "77",
+      "text": "说话人 1 00:45:10​\nNow, when you send an email or a post letter to your friend, what you do is not just send a sheet of paper withthe information.Right, that you want to send to your friend.But you write your name, your address, the name and address of your friend.Otherwise, you will never reach your friend.Same for the pockets.The pockets need.And header, and in this header, at minimum, you have to write who is the sender of the packet, and who is the destination of the packet.OK?That's how internet works.All the all the data networks nowadays work, various wide, it doesn't matter.They always organize information bits.Into packets and in packets we have a header, and this is called payload.Here you find a different denomination, but let's use the simpler one, where this is the header of the packet.And this is the payload.​"
+    },
+    {
+      "id": "78",
+      "text": "​"
+    },
+    {
+      "id": "79",
+      "text": "说话人 1 00:46:34​\nIndepot juga di use fullback.Ini header juga.Address of the sender, the address of the destination, and other stuff that we refer to control information.They are not really.Useful data for the final user, right?They are information, but they are control information, like the address of the sender or the address of the receiver.While the content, the useful content, is in the paper.OK, so that's sad.That would be all for today.We continue tomorrow to explain how these are cute techniques work.If you have any feedback about the speed, and please let me know.Okay?And also, what is clear, what is not?That would help me make it easier for you for the next lecture.​"
+    },
+    {
+      "id": "80",
+      "text": "​"
+    },
+    {
+      "id": "81",
+      "text": "说话人 1 00:47:51​\n明婷。​"
+    }
+  ],
+  "scrollEnd": [
+    {
+      "height": 697,
+      "top": 7978,
+      "total": 8675
+    }
+  ]
+}
