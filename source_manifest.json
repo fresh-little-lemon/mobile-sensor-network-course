@@ -1,0 +1,796 @@
+{
+  "schema_version": "1.0",
+  "baseline_id": "feishu-complete-snapshots-20261017",
+  "frozen_at_utc": "2026-10-17T03:38:34.926314+00:00",
+  "scope": "19 complete Feishu text snapshots; current text may include prior human edits, not asserted to be pristine initial ASR output",
+  "count": 19,
+  "total_original_transcript_paragraphs": 1489,
+  "source_hashes_path": "sources/SHA256SUMS",
+  "recordings": [
+    {
+      "recording_id": "20261008-0800",
+      "source_title": "文字记录：录音机-20261008-0800 2026年10月8日",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/IjRndiT2ToGDrvxiLFXcOAYknkh",
+      "source_captured_at": "2026-10-17T03:27:59.422Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261008-0800/20261017T032759422Z-52e89a074f8b/capture.json",
+      "source_capture_sha256": "52e89a074f8b40c950acb96c1c87c942a0630d600dbb72c9c4026fb97fc091ad",
+      "original_markdown_path": "originals/20261008-0800.md",
+      "exact_all_blocks_text_sha256": "5fa02077fbae42db226de25ff23e2f52ce899833b88469f6834fcc210955ef54",
+      "exact_transcript_text_sha256": "7c8f4521257523407ca54f7022b1ba45e8fa5d57f060569af43c8f181e847a7d",
+      "source_block_count": 173,
+      "transcript_paragraph_count": 86,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "175",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [
+          "67"
+        ],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 12994,
+            "total": 13691
+          }
+        ],
+        "captured_at": "2026-10-17T03:27:59.422Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "01:03:28",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 3808,
+      "source_changed_block_ids_since_previous": [
+        "67"
+      ],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnhw2u2k55n7u2x29fylgr",
+      "audio_duration_seconds": 3849.216009,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261008-0910",
+      "source_title": "文字记录：录音机-20261008-0910",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/GmUhdEJiCoMnZ4xsrdCco0tEnSg",
+      "source_captured_at": "2026-10-17T03:28:12.475Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261008-0910/20261017T032812475Z-6fc90981ac7e/capture.json",
+      "source_capture_sha256": "6fc90981ac7ef5c4cb69675fd2c30396233d2eb765724a2d1692268827ad7a96",
+      "original_markdown_path": "originals/20261008-0910.md",
+      "exact_all_blocks_text_sha256": "d9ac2eb33cd2d384bf721c2e2127a4498d452187db6898c2d50374efa2ea1137",
+      "exact_transcript_text_sha256": "d54eb5fd0a268804a8634175bcb16ca98179beedd34cb3657c9a76381d9ba5d8",
+      "source_block_count": 53,
+      "transcript_paragraph_count": 26,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "55",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 4732,
+            "total": 5429
+          }
+        ],
+        "captured_at": "2026-10-17T03:28:12.475Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "00:26:29",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 1589,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnhx549r2h5kx58d6y95j9?t=0",
+      "audio_duration_seconds": 1632.746009,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261008-1000",
+      "source_title": "文字记录：录音机-20261008-1000",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/CB6ediXWJoaBl6xjT4Tcm4Mcnud",
+      "source_captured_at": "2026-10-17T03:28:23.714Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261008-1000/20261017T032823714Z-e4a15123f5f2/capture.json",
+      "source_capture_sha256": "e4a15123f5f290f5cc668afa388d280c03cc9feab0d0ba37961136592ea56ecb",
+      "original_markdown_path": "originals/20261008-1000.md",
+      "exact_all_blocks_text_sha256": "7cdcf75277da5cada861d1b8233e55c14092953ef504ebd8ee0dfc967e3d5f94",
+      "exact_transcript_text_sha256": "40ad26e1ac6591e1224c85d35a245acfd48b8425cd0c630ef056959683a3e4e0",
+      "source_block_count": 91,
+      "transcript_paragraph_count": 45,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "93",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 8338,
+            "total": 9035
+          }
+        ],
+        "captured_at": "2026-10-17T03:28:23.714Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "00:44:52",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 2692,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnhx55ten66rm9l9k94x9g?t=0",
+      "audio_duration_seconds": 2772.500998,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261008-1049",
+      "source_title": "文字记录：录音机-20261008-1049",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/OtMJdWtkIo9pNOxaFvzcIq5Enkd",
+      "source_captured_at": "2026-10-17T03:28:38.601Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261008-1049/20261017T032838601Z-5dce65b7167b/capture.json",
+      "source_capture_sha256": "5dce65b7167b51f366a4af6eebc7084fe3703fabef74d63b1c82c5ba3699d999",
+      "original_markdown_path": "originals/20261008-1049.md",
+      "exact_all_blocks_text_sha256": "3790f3aa9c8009a39c4f5abd28776d9af0ad904483fb3530204b77beeb6b9768",
+      "exact_transcript_text_sha256": "8ef3e7cd15248cf1e441cebfb75877726c566045e35236afe5bd16e2921eef1b",
+      "source_block_count": 79,
+      "transcript_paragraph_count": 39,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "81",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 7978,
+            "total": 8675
+          }
+        ],
+        "captured_at": "2026-10-17T03:28:38.601Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:01:10",
+      "last_paragraph_start": "00:47:51",
+      "first_paragraph_start_seconds": 70,
+      "last_paragraph_start_seconds": 2871,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmv6oc873d7t873eo9sf3?t=1850000",
+      "audio_duration_seconds": 2879.957007,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261009-0759",
+      "source_title": "文字记录：录音机-20261009-0759",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/CMG4dzvZXofeCIxg1egcUhomnrh",
+      "source_captured_at": "2026-10-17T03:28:56.048Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261009-0759/20261017T032856048Z-859a60dd5a50/capture.json",
+      "source_capture_sha256": "859a60dd5a5096adb3a706e12a1e19c7b02fc503e60d220d0a0895e2fb4e7bcb",
+      "original_markdown_path": "originals/20261009-0759.md",
+      "exact_all_blocks_text_sha256": "6db6901e6609f1b37c8ec31cd06a05b51c7eaa0c03ac32f85d8b346f6d2c74fc",
+      "exact_transcript_text_sha256": "74734e54d2b9ed6e5361af92e3eef909e6a9c7968a493f2d2c741f5157c0cf6a",
+      "source_block_count": 75,
+      "transcript_paragraph_count": 37,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "77",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 6208,
+            "total": 6905
+          }
+        ],
+        "captured_at": "2026-10-17T03:28:56.048Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:01:04",
+      "last_paragraph_start": "00:45:53",
+      "first_paragraph_start_seconds": 64,
+      "last_paragraph_start_seconds": 2753,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnilq3l168ny9wfob7ad83?t=365000",
+      "audio_duration_seconds": 2778.816009,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261009-0845",
+      "source_title": "文字记录：录音机-20261009-0845",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/VKf7dDrMLoRYZmx3BGzc2pBrnJf",
+      "source_captured_at": "2026-10-17T03:29:08.024Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261009-0845/20261017T032908024Z-afe052ceb664/capture.json",
+      "source_capture_sha256": "afe052ceb664277f98fa3ef5c073db0af06fc741b54d6248d741043d6624732a",
+      "original_markdown_path": "originals/20261009-0845.md",
+      "exact_all_blocks_text_sha256": "f35034b3a995114a9888e98268496b7b33e01a0c37072fc7c504a386189d786d",
+      "exact_transcript_text_sha256": "a62b6566b71c727fb1de65efc8f809fdbcf0f8dcf80777958eabb9b6b14ea2c3",
+      "source_block_count": 91,
+      "transcript_paragraph_count": 45,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "93",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 7970,
+            "total": 8667
+          }
+        ],
+        "captured_at": "2026-10-17T03:29:08.024Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "00:50:49",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 3049,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmv9fk5hm84t98k493855?from=ai_minutes",
+      "audio_duration_seconds": 3077.888005,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261009-1000",
+      "source_title": "文字记录：录音机-20261009-1000",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/DsmgdwtZ0o8u1gxMqLjcR6q2n3f",
+      "source_captured_at": "2026-10-17T03:29:25.850Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261009-1000/20261017T032925850Z-7d9ad7df4da9/capture.json",
+      "source_capture_sha256": "7d9ad7df4da93cac5f85808cd0ba6cd610e5b302d05aba93b11e15df7242cd45",
+      "original_markdown_path": "originals/20261009-1000.md",
+      "exact_all_blocks_text_sha256": "ccb2f745813b03388b3c88e61c7eb4cc8a7ffcf769e08220a4a8dd9ca07a0348",
+      "exact_transcript_text_sha256": "f6de771dee9121c012cd8f48c31ff1d812d389b80c5e0ebc5f155d5a41a4825d",
+      "source_block_count": 191,
+      "transcript_paragraph_count": 95,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "193",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 16938,
+            "total": 17635
+          }
+        ],
+        "captured_at": "2026-10-17T03:29:25.850Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "01:36:26",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 5786,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmvav813sjz4m215mploj?t=868000",
+      "audio_duration_seconds": 5840.532993,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261010-0800",
+      "source_title": "文字记录：录音机-20261010-0800 2026年10月14日 - 飞书云文档",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/MONKdNlXpofpR6xUGMochD4qnUf",
+      "source_captured_at": "2026-10-17T03:29:49.869Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261010-0800/20261017T032949869Z-447b4711ea9b/capture.json",
+      "source_capture_sha256": "447b4711ea9ba00e504ab2b8f10af27ffe61dd647044da205a91eafbbd2e7dc0",
+      "original_markdown_path": "originals/20261010-0800.md",
+      "exact_all_blocks_text_sha256": "cad56c1bbbecec84ca0a60e14cabd5d0293ad13740c634674ed613b0ff5d7dca",
+      "exact_transcript_text_sha256": "9a779541118b6adbce8173d0b933911eb9ead4e78a70e0bb4d70961f90a55eff",
+      "source_block_count": 191,
+      "transcript_paragraph_count": 95,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "193",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 16804,
+            "total": 17501
+          }
+        ],
+        "captured_at": "2026-10-17T03:29:49.869Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "01:35:12",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 5712,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl1clvt181318n217blk8?t=4822000",
+      "audio_duration_seconds": 5758.441995,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261010-1000",
+      "source_title": "文字记录：录音机-20261010-1000 2026年10月14日 - 飞书云文档",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/NGDxdSPFdor3LixorLVcWE91n6f",
+      "source_captured_at": "2026-10-17T03:30:04.888Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261010-1000/20261017T033004888Z-68cf25256e40/capture.json",
+      "source_capture_sha256": "68cf25256e40db870601492db72963a2f7d6f69a6a77a0b7ba4010d0b6e9adc0",
+      "original_markdown_path": "originals/20261010-1000.md",
+      "exact_all_blocks_text_sha256": "86eca9007dd6c8146e6d7f21542ec2508c7c09ae71f48e765af4968640b77055",
+      "exact_transcript_text_sha256": "c617c0a4eb5126fe176dab4140c66a7622a303482d83cb71895d1a62e3b8a359",
+      "source_block_count": 207,
+      "transcript_paragraph_count": 103,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "209",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 17326,
+            "total": 18023
+          }
+        ],
+        "captured_at": "2026-10-17T03:30:04.888Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "01:36:38",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 5798,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl1lg3zib7324wh4f2i69?t=0",
+      "audio_duration_seconds": 5838.848005,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261012-1331",
+      "source_title": "文字记录：录音机-20261012-1331 2026年10月14日 - 飞书云文档",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/NwvUdszghonyiIxRXpfc5zYpnsg",
+      "source_captured_at": "2026-10-17T03:30:21.786Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261012-1331/20261017T033021786Z-ace8d9900ce5/capture.json",
+      "source_capture_sha256": "ace8d9900ce512cf80c4bbdd8a25abddb1a72be163eda3791ab7c527c25d9fea",
+      "original_markdown_path": "originals/20261012-1331.md",
+      "exact_all_blocks_text_sha256": "cecd211e98d471433f79c413b67edf8287ccbee7700261a6b2e750602cac2bdf",
+      "exact_transcript_text_sha256": "459eeac54bc0279e601ee03a265d7d5b5152253818901d3dd5eac817a22eaa35",
+      "source_block_count": 197,
+      "transcript_paragraph_count": 98,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "199",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 16774,
+            "total": 17471
+          }
+        ],
+        "captured_at": "2026-10-17T03:30:21.786Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:03",
+      "last_paragraph_start": "01:33:12",
+      "first_paragraph_start_seconds": 3,
+      "last_paragraph_start_seconds": 5592,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl1r6fl65o45lkj3o1zq9?t=4100000",
+      "audio_duration_seconds": 5622.271995,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261012-1530",
+      "source_title": "文字记录：录音机-20261012-1530 2026年10月14日 - 飞书云文档",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/Cp7Pd07RQobgCFx4iiucXKiunCb",
+      "source_captured_at": "2026-10-17T03:30:31.355Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261012-1530/20261017T033031355Z-497911a06855/capture.json",
+      "source_capture_sha256": "497911a06855a9d424bddd386781be85fb7f55bb7f73b12e4edfc155f60caf98",
+      "original_markdown_path": "originals/20261012-1530.md",
+      "exact_all_blocks_text_sha256": "83dd668e2a623021e65882b5470e289180f21cca6b1802989367176c18e98296",
+      "exact_transcript_text_sha256": "7cc01a6c88c8ed4aacd94d352fbf8a29612030e2fb76e93e96a01d45a88a168d",
+      "source_block_count": 99,
+      "transcript_paragraph_count": 49,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "101",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 8636,
+            "total": 9333
+          }
+        ],
+        "captured_at": "2026-10-17T03:30:31.355Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:02",
+      "last_paragraph_start": "00:44:31",
+      "first_paragraph_start_seconds": 2,
+      "last_paragraph_start_seconds": 2671,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl1j5hh4391672s5qxi1r?t=1194000",
+      "audio_duration_seconds": 2718.740998,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261012-1620",
+      "source_title": "文字记录：录音机-20261012-1620 2026年10月14日 - 飞书云文档",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/FE7xdY0jooYHAgxAbCKc7rspn8e",
+      "source_captured_at": "2026-10-17T03:30:43.431Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261012-1620/20261017T033043431Z-b1810fba9403/capture.json",
+      "source_capture_sha256": "b1810fba94034a69e89f2ceac026eea0fa91af5aed3cde9e0a46e32b59693954",
+      "original_markdown_path": "originals/20261012-1620.md",
+      "exact_all_blocks_text_sha256": "fc1d9cb1af5d59559573b5b4e57f168e2b9fd96e7b985375833a02d9f010281c",
+      "exact_transcript_text_sha256": "4f9e4864a8721dda408147f64700f0daa51964f38a0c10d2a57eceedc73da4d9",
+      "source_block_count": 121,
+      "transcript_paragraph_count": 60,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "123",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 9822,
+            "total": 10519
+          }
+        ],
+        "captured_at": "2026-10-17T03:30:43.431Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "00:44:25",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 2665,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl19lby5819dn131ii54f?t=911000",
+      "audio_duration_seconds": 2746.73,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261013-0803",
+      "source_title": "文字记录：录音机-20261013-0803",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/L8gmdNLPOoXIC3xBERncdyClnUg",
+      "source_captured_at": "2026-10-17T03:31:09.291Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261013-0803/20261017T033109291Z-8cefc845baef/capture.json",
+      "source_capture_sha256": "8cefc845baefe9b74ceb876db1f37cfc8e59a2df47e16a0475de0468a4050221",
+      "original_markdown_path": "originals/20261013-0803.md",
+      "exact_all_blocks_text_sha256": "b0f51e4ba5bb278a8ebed6500ca079daaa3e93d64e2e0f0a07cecb431ec99d9f",
+      "exact_transcript_text_sha256": "2ff654736612beb8caf81e6404e7361785cb37bd1ddffa12fe4a0074aefc09bb",
+      "source_block_count": 191,
+      "transcript_paragraph_count": 95,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "193",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 15608,
+            "total": 16305
+          }
+        ],
+        "captured_at": "2026-10-17T03:31:09.291Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:02",
+      "last_paragraph_start": "01:31:40",
+      "first_paragraph_start_seconds": 2,
+      "last_paragraph_start_seconds": 5500,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl12yu9u7o55896nnv47b?t=4249000",
+      "audio_duration_seconds": 5940.138005,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261013-1000",
+      "source_title": "文字记录：录音机-20261013-1000",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/CQROdssYAoBwdLxvmeycixOVnCg",
+      "source_captured_at": "2026-10-17T03:31:33.504Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261013-1000/20261017T033133504Z-b68b3172d18b/capture.json",
+      "source_capture_sha256": "b68b3172d18bbf818f60fb4f8076b4d56f746834484f58ef552bc8d12d33d9c4",
+      "original_markdown_path": "originals/20261013-1000.md",
+      "exact_all_blocks_text_sha256": "1ab30a887c267392abdd1d0c4f9b39c0b692cb894e31159ee36c55f4e54466d9",
+      "exact_transcript_text_sha256": "0ae82372375ec354aa8ba0f60773f1bea1e05aa0bfe493f67930ad541c9c6064",
+      "source_block_count": 203,
+      "transcript_paragraph_count": 101,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "205",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 15392,
+            "total": 16089
+          }
+        ],
+        "captured_at": "2026-10-17T03:31:33.504Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:20",
+      "last_paragraph_start": "01:35:40",
+      "first_paragraph_start_seconds": 20,
+      "last_paragraph_start_seconds": 5740,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl148toj982de38265c6z?t=1998000",
+      "audio_duration_seconds": 5781.353991,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261014-0801",
+      "source_title": "文字记录：录音机-20261014-0801",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/BqLRdT3EvofeMNxBLVRcV41bnre",
+      "source_captured_at": "2026-10-17T03:31:44.374Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261014-0801/20261017T033144374Z-1acf9efc9a89/capture.json",
+      "source_capture_sha256": "1acf9efc9a89deb08dedb240580f51edfd275666cfca8449dd3470590d0bad44",
+      "original_markdown_path": "originals/20261014-0801.md",
+      "exact_all_blocks_text_sha256": "201a359fd9f5e8b2d625221554f10e5dcc80163233f7ab4cd7de9c0f70219f82",
+      "exact_transcript_text_sha256": "f747a1af5a7530bc35930a2902f6cd2505a53cbbaa9858ddd58c9e13a67f02b1",
+      "source_block_count": 179,
+      "transcript_paragraph_count": 89,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "181",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 14472,
+            "total": 15169
+          }
+        ],
+        "captured_at": "2026-10-17T03:31:44.374Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:03",
+      "last_paragraph_start": "01:32:44",
+      "first_paragraph_start_seconds": 3,
+      "last_paragraph_start_seconds": 5564,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl1e81qe1939c3xdb9x72?from=ai_minutes",
+      "audio_duration_seconds": 5714.56,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261014-1000",
+      "source_title": "文字记录：录音机-20261014-1000",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/ANIcdIwyvoO5QMxB5sUc7WxHnge",
+      "source_captured_at": "2026-10-17T03:32:01.716Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261014-1000/20261017T033201716Z-fd0115672342/capture.json",
+      "source_capture_sha256": "fd01156723429c78eab928d6b997c044d7f59e6ac5e9ca043aeaf03a0eb8b8cf",
+      "original_markdown_path": "originals/20261014-1000.md",
+      "exact_all_blocks_text_sha256": "186edb897658b68b7b9e927dbee20a77447ab6c6fe84f5f64d7d3222de464568",
+      "exact_transcript_text_sha256": "c0787fb9fbe7e0acde737099d3a37c1ced10a92ce4c97545357590dc71041b3c",
+      "source_block_count": 261,
+      "transcript_paragraph_count": 130,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "263",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 20614,
+            "total": 21311
+          }
+        ],
+        "captured_at": "2026-10-17T03:32:01.716Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "01:49:42",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 6582,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmv374z2ewjb1c39zzc13?t=2352000",
+      "audio_duration_seconds": 6605.376009,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261015-0803",
+      "source_title": "文字记录：录音机-20261015-0803",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/U8xPdQmfsoBE6QxOClAcdzpQntc",
+      "source_captured_at": "2026-10-17T03:32:14.009Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261015-0803/20261017T033214009Z-fdc7cc813237/capture.json",
+      "source_capture_sha256": "fdc7cc813237c7fa8557c2dc31ef70a43a7f8a699e6c32a1da374193fa336b02",
+      "original_markdown_path": "originals/20261015-0803.md",
+      "exact_all_blocks_text_sha256": "c193b18c3e112926a1fd03474ccee327fee07661d0faf419beff1e25dd4e11c3",
+      "exact_transcript_text_sha256": "ce0a3842dae3e39f410142c2f204e9b1a9bf06bfca337fda86ae149ac8d6c409",
+      "source_block_count": 181,
+      "transcript_paragraph_count": 90,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "183",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 16334,
+            "total": 17031
+          }
+        ],
+        "captured_at": "2026-10-17T03:32:14.009Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:12",
+      "last_paragraph_start": "01:31:38",
+      "first_paragraph_start_seconds": 12,
+      "last_paragraph_start_seconds": 5498,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmvj5i5g2a967772gxc16?t=12000",
+      "audio_duration_seconds": 5639.572993,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261015-1000",
+      "source_title": "文字记录：录音机-20261015-1000",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/GKsYdriTloHkVYxjaNAcW7f7nQN",
+      "source_captured_at": "2026-10-17T03:32:41.461Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261015-1000/20261017T033241461Z-5d5c9a893d2b/capture.json",
+      "source_capture_sha256": "5d5c9a893d2bf0a22af1dfd253da1a37969dab20b780e42cae11bb5d7616e373",
+      "original_markdown_path": "originals/20261015-1000.md",
+      "exact_all_blocks_text_sha256": "bbd7902c474f93e2ba1bce40c249174301a25650f27b4f0fb02b64628c0adeb0",
+      "exact_transcript_text_sha256": "5299699921b6e7db7fed0455d1567de0ecdd61c51f35f33d4a67f723908a30fd",
+      "source_block_count": 203,
+      "transcript_paragraph_count": 101,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "205",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 18174,
+            "total": 18871
+          }
+        ],
+        "captured_at": "2026-10-17T03:32:41.461Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "01:35:59",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 5759,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmv16gfgwt87x7tu5yuvb?t=810000",
+      "audio_duration_seconds": 5823.36,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    },
+    {
+      "recording_id": "20261016-0805",
+      "source_title": "文字记录：录音机-20261016-0805 2026年10月16日 - 飞书云文档",
+      "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/CmfWdCMtWocccHxBB1IcaDH4n1d",
+      "source_captured_at": "2026-10-17T03:32:57.769Z",
+      "source_baseline_kind": "fresh_verified_snapshot",
+      "source_capture_path": "sources/feishu_snapshots/20261016-0805/20261017T033257769Z-7f04f681326a/capture.json",
+      "source_capture_sha256": "7f04f681326a77e7153b8768d149b6ec64ce0a337fd32840678032fcc887c1ef",
+      "original_markdown_path": "originals/20261016-0805.md",
+      "exact_all_blocks_text_sha256": "ffd4f1399de2526712c1e7a6014eddf94a417c5e6b335cbe574fe2c879661b05",
+      "exact_transcript_text_sha256": "e49856744f814e16292653ab3ae77570bbf9a60e8eeb65ea1fad18fc959e21f4",
+      "source_block_count": 211,
+      "transcript_paragraph_count": 105,
+      "source_block_ids_contiguous": true,
+      "source_block_first_id": "3",
+      "source_block_last_id": "213",
+      "capture_evidence": {
+        "complete": true,
+        "missing_block_ids": [],
+        "changed_block_ids": [],
+        "scrollEnd": [
+          {
+            "height": 697,
+            "top": 17540,
+            "total": 18237
+          }
+        ],
+        "captured_at": "2026-10-17T03:32:57.769Z"
+      },
+      "capture_assessment": "Fresh full Feishu text snapshot with contiguous blocks and verified bottom; may include prior human edits and is not asserted to be pristine ASR output",
+      "first_paragraph_start": "00:00:00",
+      "last_paragraph_start": "01:29:10",
+      "first_paragraph_start_seconds": 0,
+      "last_paragraph_start_seconds": 5350,
+      "source_changed_block_ids_since_previous": [],
+      "recording_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnneupacaz461n7m32skxv?t=523000",
+      "audio_duration_seconds": 5442.986009,
+      "audio_duration_verification": "collector ffprobe measurement; decoder cross-check still required",
+      "original_tail_browser_reverified": true,
+      "exact_all_blocks_text_sha256_note": "SHA-256 of UTF-8 bytes between EXACT_CAPTURE_BODY markers, excluding the delimiter newlines."
+    }
+  ],
+  "publication_scope": "Current complete Feishu snapshot baseline only. Earlier snapshots and audio-based revision candidates are not included in this publication.",
+  "revision_status": "Audio ASR and transcript revision are ongoing; these files are source baselines, not completed revised transcripts."
+}
