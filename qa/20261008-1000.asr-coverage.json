@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "coverage_start_seconds": 0.0,
+  "coverage_end_seconds": 2772.5090625,
+  "decoded_duration_seconds": 2772.5090625,
+  "coverage_fraction": 1.0,
+  "uncovered_intervals": [],
+  "final_sample_processed": true,
+  "decoded_minus_source_duration_seconds": 0.008064499999818509,
+  "chunk_count": 25,
+  "planned_chunk_count": 25,
+  "suspect_chunks": [],
+  "overlap_boundaries_requiring_editorial_review": [
+    1,
+    2,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    18,
+    19,
+    22
+  ],
+  "tail_verification": {
+    "window_start_seconds": 2682.5090625,
+    "window_end_seconds": 2772.5090625,
+    "end_sample": 44360145,
+    "last_35_words_similarity": 1.0,
+    "requires_review": false,
+    "note": "Similarity is an agreement check between two local ASR windows, not a correctness score.",
+    "verification_file": "tail_verification.json"
+  },
+  "input_audio_trimmed": false,
+  "transcript_context_prompt_used": false,
+  "note": "Coverage confirms all decoded samples were submitted to ASR; it does not guarantee all spoken words were recognized.",
+  "updated_at": "2026-10-17T04:50:09.230984+00:00"
+}

@@ -1,0 +1,1027 @@
+{
+  "recording_id": "20261008-1000",
+  "status": "read_with_explicit_uncertainty",
+  "paragraphs": [
+    {
+      "paragraph_id": "P5",
+      "text": "Our class. And I was saying that we have now eight signals in our constellation, so they are close to each other. So, what is the observation, further observation that we can make in this case? The fact is that when our radio interface transmits toward the base station, as we said, the signal goes through the air. And while traveling, it may be affected, as we will discuss later, by several different phenomena. Just an example, if it rains or it's foggy, the signal will bounce into these small water particles that are in the air. And that causes some problems to our signal. The signal will get weaker. So, as the signal travels through the air, there are several different issues, obstacles, atmosphere particles, etc, etc, that essentially cause a reduction in the power of the signal itself. So, it travels, it's like getting tired to reach the destination. So, it arrives at the destination with a lower level of power than what it was transmitted with.\n\nAnd also while traveling, you may collect, let's say, I mean, you can travel, it may meet other travelers, let's say, that will reach the same destination. That means interfering signals, signals coming from other transmitters.",
+      "source_block_ids": [
+        "5"
+      ],
+      "change_ids": [
+        "F001",
+        "F002",
+        "C001",
+        "F009",
+        "F010"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P7",
+      "text": "So, what the receiver receives is not the very nice, clean signal that was originally transmitted. It's a signal that is weaker, and it doesn't come alone, but it comes with other signals as well. On top of that, at the receiver〔推定 C002〕, there are several different sources of noise caused by the electronics of the receiver itself.\n\nSo, we usually model this noise as Gaussian, so with Gaussian distribution, and this noise overlaps with the signal that we would like to get at the receiver. OK? So, this means that the signal that was originally transmitted, for example, this one, will not be received as is. And what we receive is something deteriorated.\n\nSo the problem is that since it will not be this nice signal located exactly here in the circle, we may get something that is instead located,〔补回 A001，待核〕 [00:03:40] whose phase has been affected by all these issues. So, when it reaches destination, is actually something located here.\n\nSo, what is the problem now is that the receiver may get confused. So, which signal is the one that we are receiving? Is originally this one, or it corresponds to this one? Right, so the receiver may get confused, may make mistakes.\n\nSo, if the signal that we receive is sufficiently clean and strong, then it may be very close to the original one. And then the receiver may say, well, OK, this was definitely the signal here. And this means that definitely we are receiving 001.\n\nBut if the signal that we receive is very much the deteriorated, and what we get is something here, then the receiver would say, well, the signal is likely this one, and then we can think of what we get is 010, and make a mistake.\n\nSo, the problem of having constellations〔推定 A002〕 with many signals is that they are more similar to each other, therefore the probability of mistaking one for another increases.〔补回 A002，待核〕",
+      "source_block_ids": [
+        "7",
+        "9"
+      ],
+      "change_ids": [
+        "F003",
+        "F004",
+        "F005",
+        "F006",
+        "F007",
+        "F008",
+        "C002",
+        "A001",
+        "A002"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P11",
+      "text": "That's the error probability in extracting the information bits from signals, and this probability increases with noise interference, sure, but it increases also if we use large signal constellations. OK? So, the point here is that, in order to increase the bit rate, the speed at which we transfer bits from the transmitter to receiver, on the one hand, of course, we would like to increase the constellation set, because it means that increasing the number of signals that are available, we can increase the number of bits that each signal can carry.\n\nOn the other hand, if we increase the constellation size, the signals that that get close to each other, and the error probability at the receiver increases as well.\n\nSo, the main point is, we need to vary the type of constellation, so the type of modulation that we are using, depending on the wireless channel.〔补回 A003，待核〕",
+      "source_block_ids": [
+        "11"
+      ],
+      "change_ids": [
+        "F011",
+        "F012",
+        "F013",
+        "F014",
+        "C003",
+        "A003"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P13",
+      "text": "If the wireless channel over which the signal travels is very good, and at the receiver likely we get a strong signal, then we can use large constellations because we get very clean signals, and the error probability will be low.\n\nIf instead the channel is bad, that means the received signal is weak [00:07:42] and comes with interference and issues, then we have to be careful. We want to make sure that the receiver will be able to extract the bits correctly to understand what signal that is. And in order to do that, it will be better to use, for example, a binary modulation, where we have only two signals, but they are very well distinguished. So, even if the signal when traveling gets weaker and deteriorated, we're still able to say, OK, this signal that I receive that is placed here is likely this one, and will be correct.",
+      "source_block_ids": [
+        "13",
+        "15"
+      ],
+      "change_ids": [
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "C004",
+        "C005",
+        "C006"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P17",
+      "text": "OK, so depending on channel conditions, we may use essentially, more, let's say, robust modulations, like the binary one, or more efficient modulations, like this one with 8, not just 2, but 8 signals, so that we are able to let each signal carry, for example, 3 bits like in this case, instead of one, and increase our speed. Is that clear?\n\nOK, now that's said, there are actually many different types of modulations.\n\nOver the years, researchers have been able to design modulations that are more and more complex, and efficient in carrying bits.〔补回 A004，待核〕 An example is this one, where the signals in the constellation vary not just by one parameter, but by two parameters. For example, in this case, they vary by phase and amplitude. So each signal, as you can see, corresponds to a certain phase and a certain amplitude. OK? So they are called QAM modulations, and they create these constellations where signals differ depending on the symbols that we transmit, by both amplitude and phase.",
+      "source_block_ids": [
+        "17"
+      ],
+      "change_ids": [
+        "F020",
+        "F021",
+        "F022",
+        "A004"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P19",
+      "text": "For example, in this kind of modulation constellation, we have 16 signals, so it means that each signal can carry four bits. OK? So we can increase further the number of bits. Consider nowadays in advanced wireless communications, we are using also 256 QAM constellations. Okay, so 8 bits can be carried by one signal. So, we are increasing more and more the number of bits that can be transferred through one signal in order to be able to increase the bit rate, the speed, whenever the channel of course is good enough.〔补回 A005，待核〕",
+      "source_block_ids": [
+        "19"
+      ],
+      "change_ids": [
+        "F023",
+        "A005"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P21",
+      "text": "OK, so that said, let's now reflect on the antenna type and frequency that we can use for our wireless communication.\n\nNow, as we said, the transmitter and receiver, they transmit and receive the signal〔推定 C007〕 by using an antenna here. The size of the antenna will depend on the carrier frequency, so on the frequency at which signals are transmitted by that technology. OK.",
+      "source_block_ids": [
+        "21"
+      ],
+      "change_ids": [
+        "F024",
+        "C007"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P23",
+      "text": "So, there are technologies that work lower frequency, technologies that work at higher frequencies. We mention before, the cellulars can operate, for example, 2.1 megahertz, sorry, gigahertz and 3.7 gigahertz, etc. Wi-Fi can operate 2.4 gigahertz, 5 gigahertz, 6 gigahertz.\n\nNowadays, they are considering terahertz communications. That means frequencies are very high frequencies. Why? Because the spectrum is large, but is also very, very crowded.\n\nAs mentioned at the beginning, mobile communications, mobile services are expanding more and more. And so there are many different technologies that need to use the wireless spectrum, and the wireless spectrum where we can transmit is not infinite. Okay, so we have finite resources, and these resources are on a high demand, so they are becoming precious.",
+      "source_block_ids": [
+        "23"
+      ],
+      "change_ids": [
+        "F025",
+        "C008",
+        "C009",
+        "C010",
+        "C011",
+        "F038"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P25",
+      "text": "So, transmitting at lower frequencies like at megahertz or or few gigahertz is advantages from the point of view of ability of the signal to propagate from the transmitter to the receiver. Why? Because if the frequency is low, then the wavelength is longer, and our signals can travel farther away, maintaining a good level of power. So, they are less affected by the attenuation that the signal experiences while traveling from the transmitter to the receiver.\n\nYou may remember, let me just temporarily go ahead a bit.\n\nYou may remember from high school, the law according to which electromagnetic signals propagate in the simplest and ideal case, that is free space, where there are no obstacles, there is just a transmitter and a receiver.〔补回 A006，待核〕",
+      "source_block_ids": [
+        "25"
+      ],
+      "change_ids": [
+        "F026",
+        "F027",
+        "F028",
+        "F029",
+        "F030",
+        "C012",
+        "A006"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P27",
+      "text": "I'm sure in a high school, you studied that, this formula that says that the power of the received signal of course depends on the power with which the signal is transmitted, and then it depends on the type of antenna that we are using. And then it depends on the distance, right? So it gets attenuated with the square of the distance, that means that if transmitter and receiver are very close to each other, then the receiver will get a high power signal. But if the receiver is far away, it will get a much weaker signal, right? So, r is the distance between transmitter and and receiver.",
+      "source_block_ids": [
+        "27"
+      ],
+      "change_ids": [
+        "F031",
+        "F032",
+        "F033"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P29",
+      "text": "And let me show you this version essentially of the formula of the attenuation that is experienced by a signal, where even more clearly, we see the dependency of the attenuation on the distance between transmitter and receiver. And this is indeed, the attenuation increases with the square of the distance, but also it increases with the square of the frequency of the electromagnetic signal.",
+      "source_block_ids": [
+        "29"
+      ],
+      "change_ids": [
+        "C013",
+        "C014",
+        "F039"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P31",
+      "text": "So, again, this is just high school material, I'm sure you remember that, f is the frequency at which the electromagnetic signal is transmitted. So, the higher the frequency, so the portion of the spectrum that we are using to transmit our signal, and the higher the attenuation. So, very high frequencies used to transmit our signal that we select to remember by performing analog modulation in our block scheme that we looked at before. The higher the attenuation, the weaker the signal at the receiver.\n\nSo, as I was saying, going back where we were.",
+      "source_block_ids": [
+        "31"
+      ],
+      "change_ids": [
+        "F034",
+        "F035",
+        "F036",
+        "C015"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P33",
+      "text": "Back to where where. OK. Transmitting a signal in the air in a lower portion of the frequency spectrum is advantageous because you will get less attenuation. Right? So, it will be able to be received at a receiver, even if the receiver is farther away with sufficient power, and this is good if we want to provide a large coverage.\n\nHowever, if we look at the antenna size, the antenna size is more or less of the same order of magnitude as the wavelength. And so, if we have a high frequency of the signal, the wavelength is smaller, and the antenna size will be smaller.\n\nWhenever you want to design a mobile device, you want a mobile device that is small. So every everything that you put inside needs to be small.〔补回 A007，待核〕",
+      "source_block_ids": [
+        "33"
+      ],
+      "change_ids": [
+        "F037",
+        "C016",
+        "C017",
+        "C018",
+        "A007",
+        "F040",
+        "F041"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P35",
+      "text": "So, from that point of view, using a higher frequencies is a good thing, because we can have a smaller antenna. As we said, however, the higher the frequency at which we transmit the signal, the larger the attenuation. So in that case, if the antenna is small, the frequency is high, the antenna is small, but unfortunately, the signal will be received by a far away receiver,〔补回 A008，待核〕 [00:19:49] very weak.\n\nSo, it's a trade off, right? It's a trade off. Here, we need to think about what we want to do with our wireless signal. Do we want to connect devices that are close to each other? Well, then the receiver, the transmitter will be close. Our signal doesn't need to travel too far away. This means that we can cope with higher frequencies.\n\nIf instead we want to connect the transmitter and the receiver that are very far away from each other, then using high frequencies is not a good idea, because the signal get attenuated very much, and therefore we risk to have a weak signal at the receiver. OK? So, as often in life, it's a matter of trading off advantages with disadvantages.\n\nConsider, however, that the current trend in wireless communications is to use higher frequencies and to have transmitters and receivers closer to each other. That's the trend in all technologies: Wi-Fi, cellular. So we say that〔补回 A009，待核〕 [00:21:26] wireless networks get denser and denser. It's the so-called densification phenomenon of wireless networks. To have nodes that communicate with each other be closer and closer, and be able to use higher frequencies.\n\nThe advantage of that is, as mentioned that in this case, we are able to, first of all, use a portion of the spectrum at high frequencies, where there are more radio resources, so there is more let's say space to transmit signals in that region of the spectrum. And we get antenna sizes that are smaller.\n\nSo, in our mobile devices, we can fit not only, say, one antenna, but many antennas. And as we will discuss later, having the possibility to fit not just one, but many antennas in the same device, because each of them is very small, is a big advantage. And we will understand better in the following lectures, but keep that in mind for now.",
+      "source_block_ids": [
+        "35",
+        "37",
+        "39"
+      ],
+      "change_ids": [
+        "F042",
+        "F044",
+        "F045",
+        "F046",
+        "A008",
+        "C019",
+        "C020",
+        "A009",
+        "C022",
+        "F052"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P41",
+      "text": "OK? Now, let me just present you an example that will allow us to better understand why denser wireless networks is better. It's an example that refers to the point of view of a mobile operator. OK, so you are a subscriber of a mobile operator that provides you with cellular connectivity, I'm sure. Every mobile operator has got base stations that cover a certain area, so that it can provide service to its own users. Right? Now, cellular communications, cellular networks can operate in portions of the frequency spectrum that are licensed. That means that if a mobile operator wants to provide service to its own users, it can do that by using frequency [00:24:17] portions for which it has paid.\n\nEvery mobile operator pays to use certain portions of the frequency spectrum. And in this way, he gets a license to operate in those frequency portions. OK, so they are called licensed frequencies. So, in this case, the mobile operator needs frequencies to serve the users. He needs to pay for the frequencies, he pays the ministry of the communication. But in this way, as we said, it can provide services to its own users, and the users, of course, pay the subscription. So, the mobile operator needs to pay for the frequencies on the one hand, but on the other hand, it gets revenues from the subscribers. OK? The more subscribers you get, of course, the higher the revenue.\n\nSo, once the mobile operator has paid the license to use certain frequencies, then it is in the mobile operator interest to increase the number of users or subscribers it can serve, to maximize in so in so revenues.\n\nOkay, so let's consider this is our geographical area over which the mobile operator needs to operate to provide service. This is just to give you an idea〔推定 A010〕 of how much mobile operators had to pay for the frequencies in Italy.〔补回 A010，待核〕",
+      "source_block_ids": [
+        "41",
+        "43"
+      ],
+      "change_ids": [
+        "F047",
+        "F048",
+        "F049",
+        "F050",
+        "C021",
+        "A010"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P45",
+      "text": "I guess that more or less it applies to every country to buy the spectrum and operate using the 5G cellular communications, so as you can see, is lots of money, very very large amount of money. So these frequencies are very very precious, OK?",
+      "source_block_ids": [
+        "45"
+      ],
+      "change_ids": [
+        "F051"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P47",
+      "text": "Let's now assume that our mobile operator has paid to use L frequency bands, okay? So consider the frequency, the region of the frequency that the mobile operator has bought, as bought the license for. And let's consider that you can divide this into L different bands, channels, OK? Using one frequency channel, you can serve a certain number of users.〔补回 A011，待核〕",
+      "source_block_ids": [
+        "47"
+      ],
+      "change_ids": [
+        "F053",
+        "F054",
+        "A011"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P49",
+      "text": "So, the number, the total number of users that you can serve depends of course on the number of channels that you've got. If you can serve, for example, 100 users on each band, and you have both L bands, then of course the number of users you can serve is L times one hundred.",
+      "source_block_ids": [
+        "49"
+      ],
+      "change_ids": [
+        "F055",
+        "F056",
+        "F057"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P51",
+      "text": "OK, now L is given, our mobile operator has paid for those L frequency, frequencies or frequency bands. And also the number of users that can be served by each frequency band is given.",
+      "source_block_ids": [
+        "51"
+      ],
+      "change_ids": [
+        "F058",
+        "C023"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P53",
+      "text": "Let's now assume that our mobile operator deploys only one base station in our area. Through the base station, he can serve how many users? L times the number of users that can be served by one frequency channel. OK? And we will gain some revenues as a consequence of that.",
+      "source_block_ids": [
+        "53"
+      ],
+      "change_ids": [
+        "F059",
+        "F072"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P55",
+      "text": "Now, let's consider that the mobile operator wants to increase its revenues. How can you do that? It doesn't want to pay any more money, right? For the frequencies. So we still have L frequency bands, that's it. But it wants to increase its revenues, so the number of users that is able to serve. Well, you can do that by deploying more base stations. Why? Because if instead of one, now you create three base stations that do not interfere with each other, so their coverage, as you can see, does not significantly overlap, then, this base station can use L frequency bands. This base station can use L frequency bands. This base station can use L frequency bands.",
+      "source_block_ids": [
+        "55"
+      ],
+      "change_ids": [
+        "F060",
+        "F061",
+        "C024"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P57",
+      "text": "So, how many users can you now serve? Three times more than in the previous case? OK?\n\nImportant thing clearly is that you design your base stations so that their coverage does not overlap, because otherwise they interfere with each other.\n\nIf you want to further increase your revenues, then you can increase the number of base stations serving your area. So, if you are willing to, or is the mobile operator is willing to pay a little bit more in terms of base stations to be deployed, then again, if they do not overlap in terms of coverage with each other, each will be able to serve a certain number of users that is proportional to the number of frequency bands, L frequency bands.",
+      "source_block_ids": [
+        "57"
+      ],
+      "change_ids": [
+        "F062",
+        "F063",
+        "F064",
+        "F065",
+        "C025"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P59",
+      "text": "So now, with respect to the previous case, since instead of one base station, we have nine base stations, we have increased the number of subscribers by nine. This is called spatial reuse〔推定 C026〕 technique, right? So, you have only L frequency band, what you do is try and reuse spatially〔推定 C027〕 multiple times this same L frequency bands in order to serve more users and increase your revenue.",
+      "source_block_ids": [
+        "59"
+      ],
+      "change_ids": [
+        "F066",
+        "F067",
+        "F068",
+        "C026",
+        "C027"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P61",
+      "text": "So now we understand the densification trend. Why do we have this densification trend that is making wireless networks denser and denser with transmitters and receivers that are closer together and closer to each other? Because in this way, we can increase the number of users that can be served. So for mobile operators, for example, this means to increase the number of subscribers, the revenues.〔补回 A012，待核〕",
+      "source_block_ids": [
+        "61"
+      ],
+      "change_ids": [
+        "F069",
+        "A012",
+        "F073"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P63",
+      "text": "In a Wi-Fi, similarly, or for a university campus that offers Wi-Fi connectivity, it can increase the number of students and people that can be served by university access points.",
+      "source_block_ids": [
+        "63"
+      ],
+      "change_ids": [
+        "F070",
+        "F071"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P65",
+      "text": "So, independently of the technology that we are looking at, this is the trend, OK? Making our wireless networks denser. Is it clear? OK, great. So, let's just to proceed for two minutes. No, sorry, not for two minutes. Till 10:25, we still have time.〔待核 U001〕\n\nLet's now just mention some definitions, and introduce some notation that will be useful to have this general understanding of wireless communication networks.\n\nSo, as I said, let's start from the bottom. Whenever we consider the receiver, the receiver that gets the signal, gets the signal, plus possibly interference. For now, just consider that there are no other sources of signal. OK, we have only our intended transmitter. So we have the useful signal coming from the intended transmitter.〔补回 A013，待核〕",
+      "source_block_ids": [
+        "65"
+      ],
+      "change_ids": [
+        "F074",
+        "C028",
+        "C029",
+        "U001",
+        "A013"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P67",
+      "text": "At the receiver〔推定 C030〕, however, as mentioned, we have noise caused by electronics, different types of noise that is typically modeled as Gaussian noise. Right? N0 is used to denote the noise power density at the receiver. So, that's the traditional notation to denote the power density of the noise.",
+      "source_block_ids": [
+        "67"
+      ],
+      "change_ids": [
+        "C030",
+        "F081"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P69",
+      "text": "So, how much noise essentially we have at a receiver?\n\nWhen we look instead at the transmitted signal, the signal will be transmitted at a certain power level. So there are stations, for example, that transmit at 48 dB of power, this is quite high or lower. Power, PT is the level of power at which a signal is transmitted. And each bit or each symbol, if we are transmitting symbols, will be transmitted as we know now using an electro- an electromagnetic wave for a certain time, right? So remember the binary modulation we talk about before, for example the frequency-based modulation, we start for a certain time we transmit the zero, so we'll have a certain signal, and then we start transmitting one, we'll have another signal, and so on. Each signal has got a duration.〔补回 A014，待核〕",
+      "source_block_ids": [
+        "69"
+      ],
+      "change_ids": [
+        "F075",
+        "F076",
+        "A014"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P71",
+      "text": "OK, if that signal brings, carries one bit, that's the duration of the bit. And if that signal carries one symbol, that's the duration of the symbol.\n\nNow, one over the bit duration is the so, is the so-called bit rate. OK? And if you multiply the bit rate by the energy associated with each transmitted bit, you get the power with which the bit is transmitted.",
+      "source_block_ids": [
+        "71"
+      ],
+      "change_ids": [
+        "F077",
+        "F082",
+        "F083",
+        "F084"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P73",
+      "text": "Similarly, if you consider the power of transmission and you multiply by the bit duration, so the duration the signal that carries the bit, you get the energy associated with one bit.",
+      "source_block_ids": [
+        "73"
+      ],
+      "change_ids": [
+        "F078"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P75",
+      "text": "Simple high school relations between power, time and energy. OK. Good.\n\nNow, as you may also remember again from high school, power is measured in decibel in dB. An expression of dB is a relative metric. So, there is a level of power, P1, that is, let's say, larger or smaller with respect to another level of power P2. You get the log, you multiply by ten, and then you get the expression in decibel.〔补回 A015，待核〕",
+      "source_block_ids": [
+        "75"
+      ],
+      "change_ids": [
+        "F079",
+        "F080",
+        "A015"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P77",
+      "text": "Again, this is high school material, so just to remember that power is typically expressed in a dB when you want to express the relative power. OK, so it's a relative measure of power.\n\nIf you want to express a power in absolute terms, of course you can use watts, but you can use also dBm. So, the dBm is an absolute measurement of power, because you express the power, P1, with respect to a default level that is 1 milliwatt. So, dBm is expressed in that, in that way, is used to, as I said, represent the absolute value of power.〔补回 A016〕 OK, that said.",
+      "source_block_ids": [
+        "77"
+      ],
+      "change_ids": [
+        "A016"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P79",
+      "text": "And we already recalled in a free space, our signal travels in an ideal scenario where there are no obstacles. And as we know from high school, the power with which the signal is received depends on the transmitted power, so the power at which the signal is transmitted, [00:38:58] the gain of the antenna at the transmitter and at the receiver.\n\nIf the antenna is isotropic, so it irradiates over an angle of 2π, then the antenna gain is equal to one. If instead we get an antenna that is directive, that means it transmits over one direction like along a sector, then the gain is greater than one.\n\nOkay, so directive antennas concentrate the power over a certain sector only, not 2π, but only a restricted angle. And since they concentrate all the power in a restricted angle, the gain is higher than one.\n\nSo, if you know where your receiver is, you may want to use directive antennas, right? And concentrate the power where the signal has to go. OK, so this is again as we said, high school material, and this is just another way to look at the attenuation of our signal.〔补回 A017，待核〕",
+      "source_block_ids": [
+        "79",
+        "81"
+      ],
+      "change_ids": [
+        "F085",
+        "F086",
+        "F087",
+        "F088",
+        "F089",
+        "C031",
+        "A017"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P83",
+      "text": "So, the attenuation is defined as the power of the transmitted signal over the power of the receiver signal. And based on the previous expression, it can be easily rearranged in this way, so that you highlight the dependency on the distance r between transmitter receiver and on the frequency at which the signal is transmitted f. And we already commented on that. OK, so that's attenuation in free space. And as we said is ideal. What does it happen in real world?\n\nIn real world, unfortunately, things get a bit more complicated. Why? Because we have mainly atmosphere and all sorts of obstacles. For example, when we have an access point and a user, there might be a wall between the two of them, or there might be people passing by.〔补回 A018，待核〕",
+      "source_block_ids": [
+        "83"
+      ],
+      "change_ids": [
+        "F090",
+        "C032",
+        "A018"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P85",
+      "text": "Those are also obstacles, mobile obstacles, but still obstacles. And as for the atmosphere, again, it depends on the weather conditions also, we might have rain, fog, snow, or just the normal, the regular atmospheric gases that create different effects. Some gas absorb the signal, so, for example, water vapor absorbs signals that are transmitted at a specific frequency. So, you always try to avoid that frequency, because otherwise, your the power of signal will get all absorbed by water vapor. So, we need to account for for these things.\n\nThis is the example that I was mentioning, where you can see that in correspondence, of course, of this peak that you see there for the green curve, [00:42:55] there is the maximum absorption by water vapor of the signal. So you always try to avoid frequencies around 20 GHz, because otherwise, you're in trouble.\n\nAnother thing that we have to report, just for information, is the fact that the signal does not propagate along a straight line because of the curvature of the earth.〔补回 A019，待核〕",
+      "source_block_ids": [
+        "85",
+        "87"
+      ],
+      "change_ids": [
+        "F091",
+        "F092",
+        "F093",
+        "F094",
+        "C033",
+        "A019"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P89",
+      "text": "So, you have that the maximum distance that the signal can can reach is given by this formula, where R here RT is the radius of the earth. Again, the, you might have seen this in high school, and it explains what is the maximum distance that the signal electromagnetic wave can reach because the earth is not flat.",
+      "source_block_ids": [
+        "89"
+      ],
+      "change_ids": [
+        "F098"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P91",
+      "text": "But more interesting for us is the presence of obstacles. And as we said, we might have fixed obstacles, and we might have variable obstacles that may be cars, people passing by, but also the tree leaves, for example, they are mobile, and they are obstacles for our signals.\n\nSo, we had, for example, evidence of that in some experiments that we ran in Chile〔待核 U002〕, in winter and in spring. In winter, the signal was propagating very well, we were outdoor, because trees didn't have any leaves, and in spring the signal was propagating much much worse because the trees had lots of leaves.〔补回 A020〕",
+      "source_block_ids": [
+        "91"
+      ],
+      "change_ids": [
+        "F095",
+        "F096",
+        "U002",
+        "A020"
+      ],
+      "timestamps_are_anchors": true
+    },
+    {
+      "paragraph_id": "P93",
+      "text": "So, sometimes are these small things, but they have an impact on the quality of the received signal. And now we stop for 5 minutes, and then we see better how obstacles can impact the quality of our signal.",
+      "source_block_ids": [
+        "93"
+      ],
+      "change_ids": [
+        "F097",
+        "C034"
+      ],
+      "timestamps_are_anchors": true
+    }
+  ],
+  "excluded_source_blocks": [],
+  "unresolved_items": [
+    {
+      "change_id": "C002",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文 other receiver 与模型 on the receiver 都不稳；结合接收机电子器件自身噪声的上下文，采用 at the receiver，明确为近音及语境推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 226,
+          "end_char": 241,
+          "old_text": "other receiver,"
+        }
+      ],
+      "markers": [
+        "〔推定 C002〕"
+      ]
+    },
+    {
+      "change_id": "A001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文段尾在 deteriorated 后结束；新音频识别保留关于星座图位置偏移的中间说明，并接下一原文 whose phase。补回来自实际模型输出，单窗口支持，保留不够规范的口语连接。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 634,
+          "end_char": 657,
+          "old_text": "something deteriorated."
+        }
+      ],
+      "markers": [
+        "〔补回 A001，待核〕"
+      ]
+    },
+    {
+      "change_id": "A002",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文在 So 后缺少总结；新模型保留信号相近增加混淆概率的说明。模型 postulations 按此前 constellation 术语和上下文推定为 constellations，明确标出；其他词保留模型原句。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "9",
+          "start_char": 820,
+          "end_char": 838,
+          "old_text": "make a mistake.So."
+        }
+      ],
+      "markers": [
+        "〔推定 A002〕",
+        "〔补回 A002，待核〕"
+      ]
+    },
+    {
+      "change_id": "A003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 is 后缺失整个结论，独立窗口保留按信道调整调制方式的说明。单窗口补回，不凭知识扩写。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "11",
+          "start_char": 728,
+          "end_char": 750,
+          "old_text": "So, the main point is."
+        }
+      ],
+      "markers": [
+        "〔补回 A003，待核〕"
+      ]
+    },
+    {
+      "change_id": "A004",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 and 后缺少形容词及其说明；模型补出 efficient in carrying bits。保留单窗口待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "17",
+          "start_char": 517,
+          "end_char": 540,
+          "old_text": "complex, and.An example"
+        }
+      ],
+      "markers": [
+        "〔补回 A004，待核〕"
+      ]
+    },
+    {
+      "change_id": "A005",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文段尾缺少关于信道足够好的条件，模型有完整延续。按实际识别补回，而非外加调制理论条件。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 451,
+          "end_char": 473,
+          "old_text": "increase the bit rate."
+        }
+      ],
+      "markers": [
+        "〔补回 A005，待核〕"
+      ]
+    },
+    {
+      "change_id": "C007",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文及模型在发射与接收的动词短语处都混淆 transmitter/transmit。结合前面的 transmitter and receiver，推定为 they transmit and receive，保留明确语境推定标记，非逐词确认。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 180,
+          "end_char": 214,
+          "old_text": "the transmitter receive the signal"
+        }
+      ],
+      "markers": [
+        "〔推定 C007〕"
+      ]
+    },
+    {
+      "change_id": "A006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文前半误词且在 simples 后丢失自由空间的前提；独立 ASR 提供完整原句。修复词串并补回模型实际识别的理想环境条件，非从公式知识另加条件。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "25",
+          "start_char": 521,
+          "end_char": 624,
+          "old_text": "You may remember from high.School.According to witch electromagnetty Simmons propaguete.In the simples."
+        }
+      ],
+      "markers": [
+        "〔补回 A006，待核〕"
+      ]
+    },
+    {
+      "change_id": "A007",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 smaller 后省去移动设备尺寸的解释；模型有完整对应，保留 every everything 自我重启，单窗口待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "33",
+          "start_char": 549,
+          "end_char": 578,
+          "old_text": "antenna size will be smaller."
+        }
+      ],
+      "markers": [
+        "〔补回 A007，待核〕"
+      ]
+    },
+    {
+      "change_id": "A008",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文末尾略去高频、小天线与信号衰减的权衡句；独立 ASR 提供对应完整长句，保留 antenna is small 的重复，接下一锚点 very weak。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "35",
+          "start_char": 109,
+          "end_char": 127,
+          "old_text": "a smaller antenna."
+        }
+      ],
+      "markers": [
+        "〔补回 A008，待核〕"
+      ]
+    },
+    {
+      "change_id": "A009",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文高频论述后少了收发端接近和技术趋势说明；模型有完整相应句段，接下一原文 wireless networks get denser，保留单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "37",
+          "start_char": 697,
+          "end_char": 794,
+          "old_text": "Consider, however, that the current trend in wireless communications is to useHigher frequencies."
+        }
+      ],
+      "markers": [
+        "〔补回 A009，待核〕"
+      ]
+    },
+    {
+      "change_id": "A010",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型补出服务区域和意大利频谱费用图示引入。模型 This is just a video and idea 按发音及句义推定为 This is just to give you an idea，明确标注，未补价格或外部事实。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "43",
+          "start_char": 1014,
+          "end_char": 1031,
+          "old_text": "needs to operate."
+        }
+      ],
+      "markers": [
+        "〔推定 A010〕",
+        "〔补回 A010，待核〕"
+      ]
+    },
+    {
+      "change_id": "A011",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 one 后缺少使用单频段服务用户的说明；模型有对应完整句，单窗口候选。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "47",
+          "start_char": 297,
+          "end_char": 307,
+          "old_text": "Using one."
+        }
+      ],
+      "markers": [
+        "〔补回 A011，待核〕"
+      ]
+    },
+    {
+      "change_id": "C026",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文和新模型都写 special，但此处通过不同位置的不干扰基站复用相同频段，技术语义为 spatial reuse。按近音和上下文明确推定，不冒充模型已识别 spatial。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "59",
+          "start_char": 188,
+          "end_char": 211,
+          "old_text": "special reuse technique"
+        }
+      ],
+      "markers": [
+        "〔推定 C026〕"
+      ]
+    },
+    {
+      "change_id": "C027",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "对应空间复用，specially 按同段技术语境推定为 spatially，保留明确推定标记。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "59",
+          "start_char": 278,
+          "end_char": 308,
+          "old_text": "reuse specially multiple times"
+        }
+      ],
+      "markers": [
+        "〔推定 C027〕"
+      ]
+    },
+    {
+      "change_id": "A012",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文段尾未收录运营商订阅用户和收入的例子，下一段直接转 Wi-Fi；模型有对应延续，单窗口待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "61",
+          "start_char": 271,
+          "end_char": 310,
+          "old_text": "the number of users that can be served."
+        }
+      ],
+      "markers": [
+        "〔补回 A012，待核〕"
+      ]
+    },
+    {
+      "change_id": "U001",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 10:25、新窗分别近似 10.50 与 10:45，不能由课表推断老师究竟说哪一个。保留原文并标时间待核，不改成看起来更合理的数值。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "65",
+          "start_char": 225,
+          "end_char": 256,
+          "old_text": "Till 10:25, we still have time."
+        }
+      ],
+      "markers": [
+        "〔待核 U001〕"
+      ]
+    },
+    {
+      "change_id": "A013",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 For now 后遗漏暂不考虑其他信号源的设定，模型提供完整延续。按音频识别补回，对后文噪声概念重要，但没有自行添加定义。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "65",
+          "start_char": 572,
+          "end_char": 580,
+          "old_text": "For now."
+        }
+      ],
+      "markers": [
+        "〔补回 A013，待核〕"
+      ]
+    },
+    {
+      "change_id": "C030",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "两份均近似 Other receiver，但此处描述接收机电子器件的噪声，按近音及句义推定为 At the receiver；明确保留推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "67",
+          "start_char": 16,
+          "end_char": 40,
+          "old_text": "Other receiver, however,"
+        }
+      ],
+      "markers": [
+        "〔推定 C030〕"
+      ]
+    },
+    {
+      "change_id": "A014",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 frequency 后省去零和一各占一段持续时间的例子；模型保留完整语句。保留 we start for a certain time we transmit 的不规范口语，不重写成标准句。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "69",
+          "start_char": 555,
+          "end_char": 581,
+          "old_text": "for example the frequency."
+        }
+      ],
+      "markers": [
+        "〔补回 A014，待核〕"
+      ]
+    },
+    {
+      "change_id": "A015",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文 P2 后少了对数与乘十的说明；模型有实际原句，未自行补出公式、比值或对数底数。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "75",
+          "start_char": 303,
+          "end_char": 329,
+          "old_text": "another level of power.P2."
+        }
+      ],
+      "markers": [
+        "〔补回 A015，待核〕"
+      ]
+    },
+    {
+      "change_id": "A017",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文缺少转向另一种衰减公式的引导语，主窗给出完整对应，下一窗部分重叠支持；保留原话重述。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "81",
+          "start_char": 655,
+          "end_char": 682,
+          "old_text": "where the signal has to go."
+        }
+      ],
+      "markers": [
+        "〔补回 A017，待核〕"
+      ]
+    },
+    {
+      "change_id": "A018",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在障碍物概括后省去墙和行人的例子，下一段直接 Those are also obstacles；模型提供中间句。单窗口补回。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "83",
+          "start_char": 584,
+          "end_char": 607,
+          "old_text": "all sorts of obstacles."
+        }
+      ],
+      "markers": [
+        "〔补回 A018，待核〕"
+      ]
+    },
+    {
+      "change_id": "A019",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文在 real world 后缺失曲率相关说明；新模型提供整句，开头 to report 与原文 in real world 也有分歧，整段保留待核。不以知识推导替代讲话措辞。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "87",
+          "start_char": 167,
+          "end_char": 208,
+          "old_text": "Another thing that we have in real world."
+        }
+      ],
+      "markers": [
+        "〔补回 A019，待核〕"
+      ]
+    },
+    {
+      "change_id": "U002",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文地点 Chile，新模型为 Turin；两者都可能作为实验地点，不能仅因授课者机构在都灵就选 Turin。保留原文并标待核。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "91",
+          "start_char": 338,
+          "end_char": 370,
+          "old_text": "experiments that we ran in Chile"
+        }
+      ],
+      "markers": [
+        "〔待核 U002〕"
+      ]
+    }
+  ],
+  "full_text_review_complete": true
+}
