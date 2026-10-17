@@ -1,0 +1,228 @@
+会议主题：录音机-20261008-1000​
+上传时间：2026年10月8日（周四） 10:47 （GMT+08）​
+智能纪要：录音机-20261008-1000 2026年10月8日​
+
+​
+
+说话人 1 00:00:00​
+Our class.And I was saying that we have now eight signals in our constellation, so they are close to each other.So, what is the observation, further observation that we can make in this case?The fact is that when our radio interface transmits toward the base station, as we said, the signal goes through the air.And while traveling, it may be affected, as we will discuss later, by several different phenomena.Just an example, if it rains or it's foggy, the signal will bounce into these small water particles that are in the air.And that causes some problems to our signal.The signal will get weaker.So, as the signal travels through the air, there are several different issues, obstacles, atmosphere particles.Etc, etc, that essentially cause a reduction in the power.Of the signal itself.So, it travels, it's like getting tired to reach the destination.So, it arrives at the destination with a lower level of power than a watch.And also while traveling, you may collect, let's say, I mean, you can travel, it may meet other travelers.Let's say, that will reach the same destination.That means interfering signals, signals coming from othertransmitters.​
+
+​
+
+说话人 1 00:02:13​
+So, what the receiver receives is not the very nice, clean signal that was originally transmitted.It's a signal that is weaker, and it doesn't come alone.But it comes with other signals as well.On top of that, other receiver, there are several different sources of noise caused by the electronics of the receiver itself.So, we usually model this noise as gaussian, so with gaussian distribution, and this noise overlaps with the signal that we would like to get at the receiver.OK?So, this means that the signal that was originally transmitted, for example, this one, will not be received as is.And what we receive is something deteriorated.​
+
+​
+
+说话人 1 00:03:40​
+Whose phase has been affected by all these issues.So, when it reaches destination, is actually something located here.So, what is the problem now is that the receiver may get confused.So, which signal is the one that we are receiving?Is originally this one, or it corresponds to this one?Right, so the receiver may get confused, may make mistakes.So, if the signal that we receive is sufficiently clean and strong, then it may be very close to the original one.And then the receiver may say, well, OK, this was definitely the signal here.And this means that definitely we are receiving 001.But if the signal that we receive is very much the deteriorated, and what we get is something here, then the receiver would say.Well, the signal is likely.This one, and then we can think of what we get is 010, and make a mistake.So.​
+
+​
+
+说话人 1 00:05:29​
+That's the error probability in extracting the information base.From signals, and this probability increases with noise interference, sure, but it increases also if we use large signal constellations.OK?So, thePoint here is that, in order to increase the bit rate, the speed at which we transfer bits from the transmitter to receiver.On the one hand, of course, we would like to increase the constellation.Set, because it means that increasing the number of signals that are available, we can increase the number of bits that each signal can carry.On the other hand.If we increase the constellation size, the signals that that get close to each other, and the error probability at the receiver increases as well.So, the main point is.​
+
+​
+
+说话人 1 00:07:10​
+If the wireless channel over which the signal travels is very good, and the receiver likely we get a strong signal.Then we can use large constellations because we get very clean signals, and the error probability will be low.If instead the channel is bad, that means the receive signal is weak.​
+
+​
+
+说话人 1 00:07:42​
+And comes with interference and issues, then we have to be careful.We want to make sure that the receiver will be able to extract the beats correctly to understand what signal that is.And in order to do that, it will be better to use, for example, a binary modulation.Where we have only two signals, but they are very well distinguished.So, even if the signal when traveling gets weaker and deteriorated, we're still able to say, OK, this signal that I receive that is placed here.Is likely this one, and will be correct.​
+
+​
+
+说话人 1 00:08:33​
+OK, so depending on channel conditions, we may use essentially, more, let's say, robust modulations.Like the binary one, or more efficient modulations.Like this one with 8, not just 2, but 8 signals.So that we are able to let each signal carry, for example, 3 bits like in this case, instead of one, and increase our speed.Is that clear?OK, now that's said, there are actually many different types of modulations.Over the years, researchers have been able to design modulations that are more and more complex, and.An example is this one, where the signals in the constellation vary not just by one parameter, but by two parameters.For example, in this case, they vary by phase and amplitude.So each signal, as you can see, corresponds to a certain phase and a certain amplitude.OK?So they are called QAM modulations, and they create these constellations where signals differ depending on the symbols that we transmit.By both amplitude and phase.​
+
+​
+
+说话人 1 00:10:20​
+For example, in this kind of modulation constellation, we have 16 signals, so it means that each signal can carry four bits.OK?So we can increase further the number of bits.Consider nowadays in advanced wireless communications, we are using also 256 QAM constellations.Okay, so 8.Bits can be carried by one signal.So, we are increasing more and more the number of bits that can be transferred through one signal in order to be able to increase the bit rate.​
+
+​
+
+说话人 1 00:11:22​
+OK, so that said, let's now reflect on the antenna type and frequency that we can use for our wireless communication.Now, as we said, the transmitter and receiver, the transmitter receive the signal by using an antenna here.The size of the antenna will depend on the carrier frequency, so on the frequency at which signalsare transmitted by that technology.OK.​
+
+​
+
+说话人 1 00:12:05​
+So, there are technologies that work lower frequency technologies that work at higher frequencies.We mention before, the cellulares can operate, for example, 2.1 megas.As a giggers and 3.7 giggers etc.Wi-Fi can operate 2.4 giggers, 5 giggers, 6 giggers.Nowadays, they are considering terriers communications.That means frequencies are very high frequencies.Why?Because the spectrum is large, but is also very, very crowded.As mentioned at the beginning, mobile communications, mobile services are expanding more and more.And so there are many different technologies that need to use the wireless spectrum, and the wireless spectrum where we can transmit.Is not infinite.Okay, so we have finite resources, and these resources are on a high demand, so they are becoming precious.​
+
+​
+
+说话人 1 00:13:36​
+So, transmitting at lower frequencies likeat megas or or few gigas is advantages from the point of view of ability of the signal to propagate from the transmitter to the receiver.Why?Because if the frequency islow, then the wavelength is longer, and our signals can travel farther away.Maintaining a good level of power.So, they are less affected.By the attenuation that the signal experiences while traveling from the transmitter to the receiver.You may remember, let me just.Temporarily, go ahead a bit.You may remember from high.School.According to witch electromagnetty Simmons propaguete.In the simples.​
+
+​
+
+说话人 1 00:15:09​
+I'm sure in a high school, you studied that, this formula that says that the power of the received signal.Of course depends on the power with which the signal is transmitted, and then it depends on the type of antenna that we are using.And then it depends on the distance, right?So it gets attenuated with the square of the distance, that means thatif transmitter and receiver are very close to each other.Then the receiver will get a high power signal.But if the receiver is far away, it will get a much weaker signal, right?So, r is the distance between transmitter and and receiver.​
+
+​
+
+说话人 1 00:16:07​
+And let me show you this version essentially of the formula of the activation that is experienced by a signal.Where even more clearly, we see the dependency of the activation on the distance between transmitter and receiver.And this is indeed, the attenuation increases with the square of the distance, but also it increases with the square of the frequency of the electromagnetic signal.​
+
+​
+
+说话人 1 00:16:47​
+So, again, this is just high school material, I'm sure youremember that, f is the frequency at which the electromagnetic signal is transmitted.So, the higher the frequency, so the portion of the spectrum that we are using to transmit our signal.And the higher the attenuation.So, very high frequencies used to transmit our signal that we select to remember by performing analog modulation in our block scheme that we looked at before.The higher the generation, the weaker the signal and receive.So, as i was saying, going back where we were.​
+
+​
+
+说话人 1 00:17:46​
+Back to where where.Ok.Transmitting a signal in here in a lower portion of the frequency spectrum is advantages because you will get less attenuation.Right?So, it will be able to be received.And a receiver, even if the receiver is farther away with sufficient power, and this is good.If we want to provide a large coverage, however, if we look at the antenna size, the antenna size is more or less of the same order of magnitude as the wavelength.And so, if we have a high frequency of the signal, the wavelength is smaller, and the antenna size will be smaller.​
+
+​
+
+说话人 1 00:19:14​
+So, from that point of view, using a higher frequencies is a good thing, because we can have a smaller antenna.​
+
+​
+
+说话人 1 00:19:49​
+Are very weak.So, it's a trade off, right?It's a trade off.Here, we need to think about what we want to do with our wireless signal.Do we want to connect devices that are close to each other?Well, then the receiver, the transmitter will be close.Our signal doesn't need to travel too far away.This means that we can cope with higher frequencies.If instead we want to connect the transmitter and the receiver that are very far away from each other.Thenusing high frequencies is not a good idea, because the signal get attenuated very much, and therefore we risk to have a weak signal under receive.Ok?So, as often in life, it's a matter of trading off advantages with disadvantages.Consider, however, that the current trend in wireless communications is to useHigher frequencies.​
+
+​
+
+说话人 1 00:21:26​
+Wireless networks get denser and denser.Is the so called densification phenomenon of wireless networks.To have nodes that communicate with each other be closer and closer, and be able to use higher frequencies.The advantage of that is, as mentioned that in this case, we are able to, first of all, use a portion of the spectrum at high frequencies.Where there are more radio resources, so there is more let's say space to transmit signals in that region of the spectrum.And we get antenna sizes that are smaller.So, in our mobile devices, we can fit not only, say, one antenna, but many antennas.And as we will discuss later, having the possibility to fit not just one, but many antennas in the same device.Because each of them is very small, is a big advantage.And we will understand better in the following lectures, but keep that in mind for now.​
+
+​
+
+说话人 1 00:22:52​
+OK?Now, let me just present you an example that will allow us to better understand why denser wireless networks is better.It's an example that refers to the point of view of a mobile operator.OK, so you are a subscriber of a mobile operator that provides you with cellular connectivity, I'm sure.Every mobile operator has got base stations that cover a certain area, so that it can provide service to its own users.Right?Now, cellular communications, cellular networks can operate in portions of the frequency spectrum that are licensed.That means that if a mobile operator wants to provide service to its own users, it can do that by using frequency.​
+
+​
+
+说话人 1 00:24:17​
+Portions for which it has paid.Every mobile operator pays to use certain portions of the frequency spectrum.And in this way, he gets a license to operate in those frequency portions.OK, so they are called licensed frequencies.So, in this case, the mobile operator needs frequencies to serve the users.He needs to pay for the frequencies, he pays the ministry of the communication.But in this way, as we said, it can provide services to its own users, and the users, of course, pay the subscription.So, the mobile operator needs to pay for the frequencies on the one hand, but on the other hand, it gets revenues from the subscribers.OK?The more subscribers you get, of course, the higher the revenue.So, once the mobile operator has paid the license to use certain frequencies, then it is in the mobile operator interest toincrease the number of users of subscribers it can serve.To maximize in so in so revenues.Okay, so let's consider this is our geographical area over which the mobile operator needs to operate.​
+
+​
+
+说话人 1 00:26:15​
+I guess that more or less it applies to every country to buy the spectrum and operate using the 5G.Cellular communications, so as you can see, is lots of money, very very large amount of money.So these frequencies are very very precious, OK?​
+
+​
+
+说话人 1 00:26:39​
+Let's now assume that our mobile operator has paid.To use l frequency bands, okay?So consider the frequency, the region of the frequency that the mobile operator has bought, as bought the license for.And let's consider that you can divide this.Into l different bands, channels, OK?Using one.​
+
+​
+
+说话人 1 00:27:22​
+So, the number, the total number of users that you can serve depends of course on the number of channels that you've got.If you can serve, for example, 100 users.On each band, and you have both l bands, then of course the number of users you can serve is l times one hundred.​
+
+​
+
+说话人 1 00:27:51​
+OK, now L is given, our mobile operator as paid for those L frequency, frequencies or frequency bands.And also the number of users that can be served.By each frequency band is given.​
+
+​
+
+说话人 1 00:28:17​
+Let's now assume that our mobile operator deploys only one base station in our area.Through the base station.He can serve how many users?L times the number of users that can be served by one frequency channel.OK?And we will gain some revenues as a consequence of that.​
+
+​
+
+说话人 1 00:28:50​
+Now, let's consider that the mobile operator wants to increase its revenues.How can you do that?It doesn't want to pay any more money, right?For the frequencies.So we still have l frequency bands, that's it.But it wants to increase its revenues, so the number of users that is able to serve.Well, you can do that by deploying more base stations.Why?Because if instead of one, now you create three base stations that do not interfere with each other.So, their coverage, as you can see.Does not significantly overlap.Then, this space station can use L frequency bands.This space station can use L frequency bands.This space station can use L frequency bands.​
+
+​
+
+说话人 1 00:29:59​
+So, how many users can you now serve three times more than in the previous case?OK?Important thing clearly is that you design your.Base stations so that their coverage does not overlap, because otherwise they interfere with each other.If you want to further increase your revenues, then you can increase the number of base stations serving your area.So, if you are willing to, or is the mobile operator is willing to pay a little bit more in terms of base stations to be deployed.Then again, if they do not overlap in terms of coverage with each other, each will be able to serve.As a number of users that is proportional to the number of frequency bands, l frequency bands.​
+
+​
+
+说话人 1 00:31:04​
+So now, with respect to the previous case, since instead of one base station, we have nine base stations.We have increased the number of subscribers by nine.This is called special reuse technique, right?So, you have only l frequency band, what you do is try and reuse specially multiple times this same l frequency bands in order to serve more users and increase your revenue.​
+
+​
+
+说话人 1 00:31:41​
+So now we understand the densification trend.Why do we have this densification trend that is making wireless networks denser and denser with transmitters and receivers that are closer together.And closer to each other.Because in this way, we can increase the number of users that can be served.​
+
+​
+
+说话人 1 00:32:22​
+In a wi fi, similarly, or for a university campus that offers wi fi connectivity, it can increase the number of students and people that can be served by university access points.​
+
+​
+
+说话人 1 00:32:42​
+So, independently of the technology that we are looking at, this is the time, OK?Making our water network stronger.Is it clear?OK, great.So, let'sjust to proceed for two minutes.No, sorry, not for two minutes.Till 10:25, we still have time.Let's now just mention some definitions, and introduce some notation that will be useful to have this general understanding of wireless communication networks.So, as I said, let's start from the bottom.Whenever we consider the receiver, the receiver that gets the signal, gets the signal, plus possibly interference.For now.​
+
+​
+
+说话人 1 00:33:59​
+Other receiver, however, as mentioned, we have noise caused by electronics, different types of noise that is typically modeled as Gaussian noise.Right?N0 is used to denote the noise power density at the receiver.So, that's the traditional notation to denote the power density of the noise.​
+
+​
+
+说话人 1 00:34:31​
+So, how much noise essentially we have?At a receiver.When we look instead at the transmitted signal, the signal will be transmitted at a certain power level.So there are stations, for example, that transmit at 48 dB of power, this is quite high or lower.Power, PT is the level of power at which a signal is transmitted.And each bit or each symbol, if we are transmitting symbols, will be transmitted as we know now using an electro- an electromagnetic.Wave for a certain time, right?So remember the binary modulation we talk about before, for example the frequency.​
+
+​
+
+说话人 1 00:35:45​
+Ok, if that signal brings, carries one bit, that's the duration of the bit.And if that signal carries one symbol, that's the duration of the symbol.Now, one over the bit duration is the so, is the so called bit rate.Ok?And if you multiply the bit rate by the energy associated with each transmitted bit.You get the power with which the bit is transmitted.​
+
+​
+
+说话人 1 00:36:27​
+Similarly, if you consider the power of transmission and you multiply by the bit duration, so the duration the signal that carries the bit.You get the energy associated with one bit.​
+
+​
+
+说话人 1 00:36:44​
+Simple.High school relations between power, time and energy.OK.Good.Now, as you may also remember again from high school, power is measured in decibel in DB.An expression of db is a relative metric.So, there is a level of power, P1, that is, let's say, larger or smaller with respect to another level of power.P2.​
+
+​
+
+说话人 1 00:37:31​
+Again, this is high school material, so just to remember that power is typically expressed in a dB when you want to express the relative power.OK, so it's a relative measure of power.If you want to express a power in absolute terms, of course you can use watts, but you can use also dBm.So, the dBm is an absolute measurement of power, because you express the power, P1, with respect to a default level that is 1 milliwatt.So, dBm is expressed in that, in that way, is used to, as I said, represent the absolute value ofOK, that said.​
+
+​
+
+说话人 1 00:38:27​
+And we already recalled in a free space, our signal travels in an ideal scenario where there are no obstacles.And as we know from high school, the power with which the signal is received.Depends on the transmitted power, so the power at which the signal is transmitted.​
+
+​
+
+说话人 1 00:38:58​
+The gain of the antenna at the transmitter and at the receiver.If the antenna is isotropic, so it irradiates over an angle of 2π.Dana di antena geng isi keluar to want.If instan we guess and nanti now that is the.Directive, that means it transmits over one direction like along a sector, then the gain is greater than one.Okay, so directive antennas concentrate the power.Over a certain sector only, not 2π, but only a restricted angle.And since they concentrate all the power in a restricted angle, the gain is higher than one.So, if you know where your receiver is.You may want to use directive antennas, right?And concentrate the power where the signal has to go.​
+
+​
+
+说话人 1 00:40:28​
+So, the attenuation is defined as the power of the transmitted signal over the power of the receiver signal.And based on the previous expression, it can be easily rearranged in this way.So that you highlight the dependency on the distance r between transmitter receiver and on the frequency at which the signal is transmitted f.And we already commented on that.OK, so that's attenuation in free space.And the as we son is idial.Wah ada sini hampir inorian world.In real world, unfortunately, things get a bit more complicated.Why?Because we have mainly atmosphere and all sorts of obstacles.​
+
+​
+
+说话人 1 00:41:42​
+Those are also obstacles, mobile obstacles, but still obstacles.And as for the atmosphere, again, it depends on the weather conditions also, we might have rain, fog.No, or just the normal, the regular atmospheric gases that create different effects.Some gas absorb the signal, so, for example, water vapor.Absorbs signals that are transmitted at a specific frequency.So, you always try to avoid that frequency, because otherwise, your the power of signal will get all absorbed by water vapor.So, we need to account for for these things.This is the example that I was mentioning, where you can see that in correspondence, of course, of this peak that you see there for the green curve.​
+
+​
+
+说话人 1 00:42:55​
+There is the maximum absorption by water vapor of the signal.So you always try to avoid frequencies around 20GHz, because otherwise, you're in trouble.Another thing that we have in real world.​
+
+​
+
+说话人 1 00:43:28​
+So, you have that the maximum distance that the signal can can reach is given by this formula, where R here RT is the radius of the earth.Again, the, you might have seen this in high school, and it explains what is the maximum distance that the signal electromagnetic wave can reach.Because the earth is not flat.​
+
+​
+
+说话人 1 00:43:55​
+But more interesting for us is the presence of obstacles.And as we said, we might have fixed obstacles, and we might have variable obstacles that may be cars.People passing by, but also the tree leaves, for example, they are mobile, and they are obstacles for our signals.So, we had, for example, evidence of that.In some experiments that we ran in Chile, in winter and in spring.In winter, the signal was propagating very well, we were outdoor, because trees didn't have any leaves.​
+
+​
+
+说话人 1 00:44:52​
+So, sometimes are these small things, but they have an impact on the quality of the received signal.And now we stop for 5 minutes, and then we see better how.Obstacles can impact the quality of our seed.​
