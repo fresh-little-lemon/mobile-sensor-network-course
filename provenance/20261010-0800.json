@@ -1,0 +1,308 @@
+{
+  "recording_id": "20261010-0800",
+  "status": "已通读校订但仍含明确待核内容",
+  "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/MONKdNlXpofpR6xUGMochD4qnUf",
+  "source_captured_at": "2026-10-17T03:29:49.869Z",
+  "source_capture_path": "sources/feishu_snapshots/20261010-0800/20261017T032949869Z-447b4711ea9b/capture.json",
+  "source_capture_sha256": "447b4711ea9ba00e504ab2b8f10af27ffe61dd647044da205a91eafbbd2e7dc0",
+  "exact_speech_file": "revised/20261010-0800.speech.md",
+  "exact_speech_sha256": "aca4dc44114e9fc7850726826fae3ff03ecffa162a656a2cf19a2f9624e9b8bf",
+  "whole_text_read_at_utc": "2026-10-17T09:01:37Z",
+  "approved_edit_review_at_utc": "2026-10-17T09:02:56Z",
+  "initial_whole_text_read_speech_sha256": "98c1fba7efdd718186265e4fa812b7141353dfee0431942a83d1d69f51516533",
+  "review_method": "Complete initial text reading followed by review of two approved capitalization edits; bytewise comparison verifies no other changes. No second full reread of unchanged final text is claimed.",
+  "full_current_text_review_complete": true,
+  "uncertainty": {
+    "unresolved_items": 120,
+    "inline_marker_count": 92,
+    "full_text_read_does_not_resolve_uncertainty": true
+  },
+  "evidence_portability_adjustments": [
+    {
+      "change_id": "EAA001",
+      "field": "uncertainty_note",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "EAA002",
+      "field": "uncertainty_note",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "EAA003",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "EAA003",
+      "field": "uncertainty_note",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "EAA004",
+      "field": "uncertainty_note",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "EAA005",
+      "field": "uncertainty_note",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "EAA006",
+      "field": "uncertainty_note",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "EAA007",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "EAA007",
+      "field": "uncertainty_note",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA001",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA002",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA003",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA004",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA005",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA006",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA007",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA008",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA009",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA010",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA011",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA012",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA013",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA014",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    },
+    {
+      "change_id": "ECA015",
+      "field": "reason",
+      "purpose": "Clarify unresolved-verification notes while preserving uncertainty and approved capitalization rationale",
+      "artifacts": [
+        "diffs/20261010-0800.changes.json",
+        "provenance/20261010-0800.uncertainty.json",
+        "revised/20261010-0800.source_map.json"
+      ]
+    }
+  ],
+  "source_files_not_modified": true,
+  "only_two_approved_capitalization_characters_changed_after_whole_text_read": true,
+  "approved_post_read_delta": [
+    {
+      "source_anchor": "00:09:55",
+      "byte_offset": 5065,
+      "character_offset": 4731,
+      "old": "a",
+      "new": "A"
+    },
+    {
+      "source_anchor": "00:25:38",
+      "byte_offset": 13375,
+      "character_offset": 12745,
+      "old": "y",
+      "new": "Y"
+    }
+  ],
+  "timestamp_note": "保留原文段落锚点，不作词级对齐或真实句界保证。",
+  "asr_evidence_manifest": "provenance/20261010-0800.asr-evidence.json",
+  "source_files": [
+    {
+      "path": "sources/feishu_snapshots/20261010-0800/20261017T032949869Z-447b4711ea9b/capture.json",
+      "sha256": "447b4711ea9ba00e504ab2b8f10af27ffe61dd647044da205a91eafbbd2e7dc0",
+      "bytes": 54175
+    },
+    {
+      "path": "sources/feishu_snapshots/20261010-0800/20261017T032949869Z-447b4711ea9b/blocks.jsonl",
+      "sha256": "aec6234cbe68f71ccb62993e20f6dd50c08e0f4252fe3ab6d8f5af121e16f915",
+      "bytes": 89863
+    },
+    {
+      "path": "sources/feishu_snapshots/20261010-0800/20261017T032949869Z-447b4711ea9b/body.txt",
+      "sha256": "cad56c1bbbecec84ca0a60e14cabd5d0293ad13740c634674ed613b0ff5d7dca",
+      "bytes": 44803
+    },
+    {
+      "path": "sources/feishu_snapshots/20261010-0800/20261017T032949869Z-447b4711ea9b/transcript.txt",
+      "sha256": "9a779541118b6adbce8173d0b933911eb9ead4e78a70e0bb4d70961f90a55eff",
+      "bytes": 44158
+    }
+  ],
+  "public_schemas": {
+    "changes": "schemas/public-changes.schema.json",
+    "revision": "schemas/public-revision.schema.json"
+  }
+}

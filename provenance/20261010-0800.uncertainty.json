@@ -1,0 +1,3365 @@
+{
+  "markers": [
+    {
+      "paragraph_id": "P5",
+      "source_block_ids": [
+        "5"
+      ],
+      "paragraph_char_start": 27,
+      "paragraph_char_end": 91,
+      "marker": "〔待核 EAU002：独立 ASR 为 “We are starting our Saturday class”，句首形式待核〕",
+      "change_ids": [
+        "EAU002"
+      ]
+    },
+    {
+      "paragraph_id": "P5",
+      "source_block_ids": [
+        "5"
+      ],
+      "paragraph_char_start": 759,
+      "paragraph_char_end": 806,
+      "marker": "〔待核 EAU001：独立 ASR 此处识作 DCF；保留原文 PCF，不能仅凭技术常识替换〕",
+      "change_ids": [
+        "EAU001"
+      ]
+    },
+    {
+      "paragraph_id": "P5",
+      "source_block_ids": [
+        "5"
+      ],
+      "paragraph_char_start": 899,
+      "paragraph_char_end": 913,
+      "marker": "〔补回 EAA001，待核〕",
+      "change_ids": [
+        "EAA001"
+      ]
+    },
+    {
+      "paragraph_id": "P7",
+      "source_block_ids": [
+        "7"
+      ],
+      "paragraph_char_start": 159,
+      "paragraph_char_end": 273,
+      "marker": "〔待核 EAU003：独立 ASR 随后有 “Now we have new markets. This is good news. So as you may remember,”；markets 疑误识，未作为确定讲话补入〕",
+      "change_ids": [
+        "EAU003"
+      ]
+    },
+    {
+      "paragraph_id": "P9",
+      "source_block_ids": [
+        "9"
+      ],
+      "paragraph_char_start": 19,
+      "paragraph_char_end": 74,
+      "marker": "〔待核 EAU004：独立 ASR 为 “we stand on in Wi-Fi”；开头措辞不清，保留原文〕",
+      "change_ids": [
+        "EAU004"
+      ]
+    },
+    {
+      "paragraph_id": "P17",
+      "source_block_ids": [
+        "17",
+        "19"
+      ],
+      "paragraph_char_start": 734,
+      "paragraph_char_end": 748,
+      "marker": "〔补回 EAA002，待核〕",
+      "change_ids": [
+        "EAA002"
+      ]
+    },
+    {
+      "paragraph_id": "P23",
+      "source_block_ids": [
+        "23"
+      ],
+      "paragraph_char_start": 0,
+      "paragraph_char_end": 14,
+      "marker": "〔补回 EAA003，待核〕",
+      "change_ids": [
+        "EAA003"
+      ]
+    },
+    {
+      "paragraph_id": "P25",
+      "source_block_ids": [
+        "25"
+      ],
+      "paragraph_char_start": 517,
+      "paragraph_char_end": 531,
+      "marker": "〔补回 EAA004，待核〕",
+      "change_ids": [
+        "EAA004"
+      ]
+    },
+    {
+      "paragraph_id": "P29",
+      "source_block_ids": [
+        "29"
+      ],
+      "paragraph_char_start": 1344,
+      "paragraph_char_end": 1426,
+      "marker": "〔待核 EAU005：独立 ASR 为 “has wrote two books”；wrote / brought 待核，不能改成规范语法 has written〕",
+      "change_ids": [
+        "EAU005"
+      ]
+    },
+    {
+      "paragraph_id": "P37",
+      "source_block_ids": [
+        "37"
+      ],
+      "paragraph_char_start": 407,
+      "paragraph_char_end": 480,
+      "marker": "〔待核 EAU006：独立 ASR 窗口一止于 “with”，下一窗口为 “with window”；可能为 packet，但证据不足，保留原文〕",
+      "change_ids": [
+        "EAU006"
+      ]
+    },
+    {
+      "paragraph_id": "P45",
+      "source_block_ids": [
+        "45"
+      ],
+      "paragraph_char_start": 0,
+      "paragraph_char_end": 14,
+      "marker": "〔补回 EAA005，待核〕",
+      "change_ids": [
+        "EAA005"
+      ]
+    },
+    {
+      "paragraph_id": "P45",
+      "source_block_ids": [
+        "45"
+      ],
+      "paragraph_char_start": 634,
+      "paragraph_char_end": 648,
+      "marker": "〔补回 EAA006，待核〕",
+      "change_ids": [
+        "EAA006"
+      ]
+    },
+    {
+      "paragraph_id": "P47",
+      "source_block_ids": [
+        "47"
+      ],
+      "paragraph_char_start": 742,
+      "paragraph_char_end": 756,
+      "marker": "〔补回 EAA007，待核〕",
+      "change_ids": [
+        "EAA007"
+      ]
+    },
+    {
+      "paragraph_id": "P55",
+      "source_block_ids": [
+        "55"
+      ],
+      "paragraph_char_start": 670,
+      "paragraph_char_end": 774,
+      "marker": "〔待核 EBU001：此后两个窗口分别识别And of this degradation / And of this negotiation，再接let’s go back to Wi-Fi；过渡措辞未补写〕",
+      "change_ids": [
+        "EBU001"
+      ]
+    },
+    {
+      "paragraph_id": "P65",
+      "source_block_ids": [
+        "65"
+      ],
+      "paragraph_char_start": 845,
+      "paragraph_char_end": 859,
+      "marker": "〔补回 EBA001，待核〕",
+      "change_ids": [
+        "EBA001"
+      ]
+    },
+    {
+      "paragraph_id": "P69",
+      "source_block_ids": [
+        "69"
+      ],
+      "paragraph_char_start": 66,
+      "paragraph_char_end": 77,
+      "marker": "〔推定 EBC008〕",
+      "change_ids": [
+        "EBC008"
+      ]
+    },
+    {
+      "paragraph_id": "P71",
+      "source_block_ids": [
+        "71",
+        "73"
+      ],
+      "paragraph_char_start": 871,
+      "paragraph_char_end": 885,
+      "marker": "〔补回 EBA002，待核〕",
+      "change_ids": [
+        "EBA002"
+      ]
+    },
+    {
+      "paragraph_id": "P75",
+      "source_block_ids": [
+        "75",
+        "77",
+        "79"
+      ],
+      "paragraph_char_start": 571,
+      "paragraph_char_end": 611,
+      "marker": "〔待核 EBU002：两版均trust me，语境可能transmit，未改写〕",
+      "change_ids": [
+        "EBU002"
+      ]
+    },
+    {
+      "paragraph_id": "P75",
+      "source_block_ids": [
+        "75",
+        "77",
+        "79"
+      ],
+      "paragraph_char_start": 674,
+      "paragraph_char_end": 714,
+      "marker": "〔待核 EBU003：两版均trust me，语境可能transmit，未改写〕",
+      "change_ids": [
+        "EBU003"
+      ]
+    },
+    {
+      "paragraph_id": "P75",
+      "source_block_ids": [
+        "75",
+        "77",
+        "79"
+      ],
+      "paragraph_char_start": 1031,
+      "paragraph_char_end": 1045,
+      "marker": "〔补回 EBA003，待核〕",
+      "change_ids": [
+        "EBA003"
+      ]
+    },
+    {
+      "paragraph_id": "P81",
+      "source_block_ids": [
+        "81"
+      ],
+      "paragraph_char_start": 899,
+      "paragraph_char_end": 913,
+      "marker": "〔补回 EBA004，待核〕",
+      "change_ids": [
+        "EBA004"
+      ]
+    },
+    {
+      "paragraph_id": "P87",
+      "source_block_ids": [
+        "87"
+      ],
+      "paragraph_char_start": 157,
+      "paragraph_char_end": 168,
+      "marker": "〔推定 EBC012〕",
+      "change_ids": [
+        "EBC012"
+      ]
+    },
+    {
+      "paragraph_id": "P89",
+      "source_block_ids": [
+        "89"
+      ],
+      "paragraph_char_start": 10,
+      "paragraph_char_end": 43,
+      "marker": "〔待核 EBU004：模型为“你洗，你刷，刷牙，你洗”，保留原文〕",
+      "change_ids": [
+        "EBU004"
+      ]
+    },
+    {
+      "paragraph_id": "P89",
+      "source_block_ids": [
+        "89"
+      ],
+      "paragraph_char_start": 45,
+      "paragraph_char_end": 103,
+      "marker": "〔待核 EBU005：47:40–49:40主ASR窗口为空；此课间区间未恢复可靠文字，空输出与低幅度均不证明静音〕",
+      "change_ids": [
+        "EBU005"
+      ]
+    },
+    {
+      "paragraph_id": "P91",
+      "source_block_ids": [
+        "91"
+      ],
+      "paragraph_char_start": 5,
+      "paragraph_char_end": 57,
+      "marker": "〔待核 EBU006：模型为Okay, good. So last review，未确认短中文或过渡语〕",
+      "change_ids": [
+        "EBU006"
+      ]
+    },
+    {
+      "paragraph_id": "P95",
+      "source_block_ids": [
+        "95"
+      ],
+      "paragraph_char_start": 651,
+      "paragraph_char_end": 714,
+      "marker": "〔待核 EBU007：模型an access and an acknowledgement，可能为success，未选定补写〕",
+      "change_ids": [
+        "EBU007"
+      ]
+    },
+    {
+      "paragraph_id": "P99",
+      "source_block_ids": [
+        "99"
+      ],
+      "paragraph_char_start": 607,
+      "paragraph_char_end": 621,
+      "marker": "〔补回 EBA005，待核〕",
+      "change_ids": [
+        "EBA005"
+      ]
+    },
+    {
+      "paragraph_id": "P101",
+      "source_block_ids": [
+        "101",
+        "103"
+      ],
+      "paragraph_char_start": 38,
+      "paragraph_char_end": 49,
+      "marker": "〔推定 EBC016〕",
+      "change_ids": [
+        "EBC016"
+      ]
+    },
+    {
+      "paragraph_id": "P101",
+      "source_block_ids": [
+        "101",
+        "103"
+      ],
+      "paragraph_char_start": 294,
+      "paragraph_char_end": 305,
+      "marker": "〔推定 EBC017〕",
+      "change_ids": [
+        "EBC017"
+      ]
+    },
+    {
+      "paragraph_id": "P101",
+      "source_block_ids": [
+        "101",
+        "103"
+      ],
+      "paragraph_char_start": 725,
+      "paragraph_char_end": 736,
+      "marker": "〔推定 EBC020〕",
+      "change_ids": [
+        "EBC020"
+      ]
+    },
+    {
+      "paragraph_id": "P101",
+      "source_block_ids": [
+        "101",
+        "103"
+      ],
+      "paragraph_char_start": 864,
+      "paragraph_char_end": 875,
+      "marker": "〔推定 EBC022〕",
+      "change_ids": [
+        "EBC022"
+      ]
+    },
+    {
+      "paragraph_id": "P101",
+      "source_block_ids": [
+        "101",
+        "103"
+      ],
+      "paragraph_char_start": 1136,
+      "paragraph_char_end": 1150,
+      "marker": "〔补回 EBA006，待核〕",
+      "change_ids": [
+        "EBA006"
+      ]
+    },
+    {
+      "paragraph_id": "P109",
+      "source_block_ids": [
+        "109"
+      ],
+      "paragraph_char_start": 149,
+      "paragraph_char_end": 160,
+      "marker": "〔推定 EBC024〕",
+      "change_ids": [
+        "EBC024"
+      ]
+    },
+    {
+      "paragraph_id": "P109",
+      "source_block_ids": [
+        "109"
+      ],
+      "paragraph_char_start": 188,
+      "paragraph_char_end": 235,
+      "marker": "〔待核 EBC024：两版均有to receive近音，未确认是否指through SIFS〕",
+      "change_ids": [
+        "EBC024"
+      ]
+    },
+    {
+      "paragraph_id": "P109",
+      "source_block_ids": [
+        "109"
+      ],
+      "paragraph_char_start": 414,
+      "paragraph_char_end": 425,
+      "marker": "〔推定 EBC025〕",
+      "change_ids": [
+        "EBC025"
+      ]
+    },
+    {
+      "paragraph_id": "P111",
+      "source_block_ids": [
+        "111"
+      ],
+      "paragraph_char_start": 239,
+      "paragraph_char_end": 250,
+      "marker": "〔推定 EBC026〕",
+      "change_ids": [
+        "EBC026"
+      ]
+    },
+    {
+      "paragraph_id": "P111",
+      "source_block_ids": [
+        "111"
+      ],
+      "paragraph_char_start": 677,
+      "paragraph_char_end": 688,
+      "marker": "〔推定 EBA007〕",
+      "change_ids": [
+        "EBA007"
+      ]
+    },
+    {
+      "paragraph_id": "P111",
+      "source_block_ids": [
+        "111"
+      ],
+      "paragraph_char_start": 728,
+      "paragraph_char_end": 768,
+      "marker": "〔补回 EBA007，待核；模型后续can be accessed不清，未补写〕",
+      "change_ids": [
+        "EBA007"
+      ]
+    },
+    {
+      "paragraph_id": "P113",
+      "source_block_ids": [
+        "113",
+        "115"
+      ],
+      "paragraph_char_start": 320,
+      "paragraph_char_end": 334,
+      "marker": "〔补回 EBA008，待核〕",
+      "change_ids": [
+        "EBA008"
+      ]
+    },
+    {
+      "paragraph_id": "P117",
+      "source_block_ids": [
+        "117"
+      ],
+      "paragraph_char_start": 651,
+      "paragraph_char_end": 665,
+      "marker": "〔补回 EBA009，待核〕",
+      "change_ids": [
+        "EBA009"
+      ]
+    },
+    {
+      "paragraph_id": "P117",
+      "source_block_ids": [
+        "117"
+      ],
+      "paragraph_char_start": 665,
+      "paragraph_char_end": 717,
+      "marker": "〔待核 EBA009：模型随后Yeah, you prefer what you want不清，未补写〕",
+      "change_ids": [
+        "EBA009"
+      ]
+    },
+    {
+      "paragraph_id": "P117",
+      "source_block_ids": [
+        "117"
+      ],
+      "paragraph_char_start": 792,
+      "paragraph_char_end": 806,
+      "marker": "〔补回 EBA009，待核〕",
+      "change_ids": [
+        "EBA009"
+      ]
+    },
+    {
+      "paragraph_id": "P119",
+      "source_block_ids": [
+        "119"
+      ],
+      "paragraph_char_start": 209,
+      "paragraph_char_end": 300,
+      "marker": "〔待核 EBU008：模型your goal / lets speak, at all maybe you you transmit something；整句近音不清，未按类比猜写〕",
+      "change_ids": [
+        "EBU008"
+      ]
+    },
+    {
+      "paragraph_id": "P119",
+      "source_block_ids": [
+        "119"
+      ],
+      "paragraph_char_start": 403,
+      "paragraph_char_end": 414,
+      "marker": "〔推定 EBC031〕",
+      "change_ids": [
+        "EBC031"
+      ]
+    },
+    {
+      "paragraph_id": "P121",
+      "source_block_ids": [
+        "121"
+      ],
+      "paragraph_char_start": 321,
+      "paragraph_char_end": 335,
+      "marker": "〔补回 EBA010，待核〕",
+      "change_ids": [
+        "EBA010"
+      ]
+    },
+    {
+      "paragraph_id": "P125",
+      "source_block_ids": [
+        "125"
+      ],
+      "paragraph_char_start": 71,
+      "paragraph_char_end": 87,
+      "marker": "〔语境推定 ECC003，待核〕",
+      "change_ids": [
+        "ECC003"
+      ]
+    },
+    {
+      "paragraph_id": "P125",
+      "source_block_ids": [
+        "125"
+      ],
+      "paragraph_char_start": 259,
+      "paragraph_char_end": 275,
+      "marker": "〔语境推定 ECC004，待核〕",
+      "change_ids": [
+        "ECC004"
+      ]
+    },
+    {
+      "paragraph_id": "P125",
+      "source_block_ids": [
+        "125"
+      ],
+      "paragraph_char_start": 347,
+      "paragraph_char_end": 361,
+      "marker": "〔补回 ECA001，待核〕",
+      "change_ids": [
+        "ECA001"
+      ]
+    },
+    {
+      "paragraph_id": "P127",
+      "source_block_ids": [
+        "127",
+        "129",
+        "131"
+      ],
+      "paragraph_char_start": 177,
+      "paragraph_char_end": 324,
+      "marker": "〔待核 ECU001：模型为“at certain point, of course, if the access there is a signal on the channel, you restart the modulating”；两版均有误识，疑为检测信号并开始解调，保留原词待听辨〕",
+      "change_ids": [
+        "ECU001"
+      ]
+    },
+    {
+      "paragraph_id": "P127",
+      "source_block_ids": [
+        "127",
+        "129",
+        "131"
+      ],
+      "paragraph_char_start": 1107,
+      "paragraph_char_end": 1157,
+      "marker": "〔待核 ECU002：模型为“and if it's analyzed”；不据空闲信道语境补写条件〕",
+      "change_ids": [
+        "ECU002"
+      ]
+    },
+    {
+      "paragraph_id": "P133",
+      "source_block_ids": [
+        "133"
+      ],
+      "paragraph_char_start": 277,
+      "paragraph_char_end": 293,
+      "marker": "〔语境推定 ECC010，待核〕",
+      "change_ids": [
+        "ECC010"
+      ]
+    },
+    {
+      "paragraph_id": "P133",
+      "source_block_ids": [
+        "133"
+      ],
+      "paragraph_char_start": 421,
+      "paragraph_char_end": 435,
+      "marker": "〔补回 ECA002，待核〕",
+      "change_ids": [
+        "ECA002"
+      ]
+    },
+    {
+      "paragraph_id": "P133",
+      "source_block_ids": [
+        "133"
+      ],
+      "paragraph_char_start": 484,
+      "paragraph_char_end": 517,
+      "marker": "〔术语待核：ASR为extended PIFS，不擅改为EIFS〕",
+      "change_ids": []
+    },
+    {
+      "paragraph_id": "P141",
+      "source_block_ids": [
+        "141"
+      ],
+      "paragraph_char_start": 450,
+      "paragraph_char_end": 500,
+      "marker": "〔待核 ECU003：本段原文和模型均称发端B，随后又称其他节点B、C；保留字母，不依据后文A擅改〕",
+      "change_ids": [
+        "ECU003"
+      ]
+    },
+    {
+      "paragraph_id": "P141",
+      "source_block_ids": [
+        "141"
+      ],
+      "paragraph_char_start": 578,
+      "paragraph_char_end": 592,
+      "marker": "〔补回 ECA003，待核〕",
+      "change_ids": [
+        "ECA003"
+      ]
+    },
+    {
+      "paragraph_id": "P143",
+      "source_block_ids": [
+        "143"
+      ],
+      "paragraph_char_start": 581,
+      "paragraph_char_end": 595,
+      "marker": "〔补回 ECA004，待核〕",
+      "change_ids": [
+        "ECA004"
+      ]
+    },
+    {
+      "paragraph_id": "P145",
+      "source_block_ids": [
+        "145"
+      ],
+      "paragraph_char_start": 460,
+      "paragraph_char_end": 474,
+      "marker": "〔补回 ECA005，待核〕",
+      "change_ids": [
+        "ECA005"
+      ]
+    },
+    {
+      "paragraph_id": "P149",
+      "source_block_ids": [
+        "149",
+        "151"
+      ],
+      "paragraph_char_start": 196,
+      "paragraph_char_end": 210,
+      "marker": "〔补回 ECA006，待核〕",
+      "change_ids": [
+        "ECA006"
+      ]
+    },
+    {
+      "paragraph_id": "P149",
+      "source_block_ids": [
+        "149",
+        "151"
+      ],
+      "paragraph_char_start": 329,
+      "paragraph_char_end": 345,
+      "marker": "〔语境推定 ECC015，待核〕",
+      "change_ids": [
+        "ECC015"
+      ]
+    },
+    {
+      "paragraph_id": "P149",
+      "source_block_ids": [
+        "149",
+        "151"
+      ],
+      "paragraph_char_start": 425,
+      "paragraph_char_end": 441,
+      "marker": "〔语境推定 ECC016，待核〕",
+      "change_ids": [
+        "ECC016"
+      ]
+    },
+    {
+      "paragraph_id": "P149",
+      "source_block_ids": [
+        "149",
+        "151"
+      ],
+      "paragraph_char_start": 517,
+      "paragraph_char_end": 533,
+      "marker": "〔语境推定 ECC017，待核〕",
+      "change_ids": [
+        "ECC017"
+      ]
+    },
+    {
+      "paragraph_id": "P149",
+      "source_block_ids": [
+        "149",
+        "151"
+      ],
+      "paragraph_char_start": 583,
+      "paragraph_char_end": 599,
+      "marker": "〔语境推定 ECC018，待核〕",
+      "change_ids": [
+        "ECC018"
+      ]
+    },
+    {
+      "paragraph_id": "P149",
+      "source_block_ids": [
+        "149",
+        "151"
+      ],
+      "paragraph_char_start": 601,
+      "paragraph_char_end": 615,
+      "marker": "〔补回 ECA007，待核〕",
+      "change_ids": [
+        "ECA007"
+      ]
+    },
+    {
+      "paragraph_id": "P153",
+      "source_block_ids": [
+        "153"
+      ],
+      "paragraph_char_start": 264,
+      "paragraph_char_end": 280,
+      "marker": "〔语境推定 ECC019，待核〕",
+      "change_ids": [
+        "ECC019"
+      ]
+    },
+    {
+      "paragraph_id": "P153",
+      "source_block_ids": [
+        "153"
+      ],
+      "paragraph_char_start": 347,
+      "paragraph_char_end": 363,
+      "marker": "〔语境推定 ECC020，待核〕",
+      "change_ids": [
+        "ECC020"
+      ]
+    },
+    {
+      "paragraph_id": "P155",
+      "source_block_ids": [
+        "155"
+      ],
+      "paragraph_char_start": 558,
+      "paragraph_char_end": 634,
+      "marker": "〔待核 ECU004：模型为“Okay, perform these operation. Continue.”；末词疑与连续侦听有关，保留原词不补写〕",
+      "change_ids": [
+        "ECU004"
+      ]
+    },
+    {
+      "paragraph_id": "P159",
+      "source_block_ids": [
+        "159",
+        "161"
+      ],
+      "paragraph_char_start": 104,
+      "paragraph_char_end": 120,
+      "marker": "〔语境推定 ECC022，待核〕",
+      "change_ids": [
+        "ECC022"
+      ]
+    },
+    {
+      "paragraph_id": "P163",
+      "source_block_ids": [
+        "163",
+        "165"
+      ],
+      "paragraph_char_start": 220,
+      "paragraph_char_end": 236,
+      "marker": "〔语境推定 ECC026，待核〕",
+      "change_ids": [
+        "ECC026"
+      ]
+    },
+    {
+      "paragraph_id": "P163",
+      "source_block_ids": [
+        "163",
+        "165"
+      ],
+      "paragraph_char_start": 389,
+      "paragraph_char_end": 403,
+      "marker": "〔补回 ECA008，待核〕",
+      "change_ids": [
+        "ECA008"
+      ]
+    },
+    {
+      "paragraph_id": "P163",
+      "source_block_ids": [
+        "163",
+        "165"
+      ],
+      "paragraph_char_start": 574,
+      "paragraph_char_end": 755,
+      "marker": "〔待核 ECU005：原文严重混合语误识；ASR对应候选“Now the rule is that if a node at the MacLayer has got this counter sent to a positive value greater than zero, for that node at the MacLayer”；未据语境整段替换〕",
+      "change_ids": [
+        "ECU005"
+      ]
+    },
+    {
+      "paragraph_id": "P163",
+      "source_block_ids": [
+        "163",
+        "165"
+      ],
+      "paragraph_char_start": 756,
+      "paragraph_char_end": 770,
+      "marker": "〔补回 ECA009，待核〕",
+      "change_ids": [
+        "ECA009"
+      ]
+    },
+    {
+      "paragraph_id": "P167",
+      "source_block_ids": [
+        "167",
+        "169"
+      ],
+      "paragraph_char_start": 69,
+      "paragraph_char_end": 85,
+      "marker": "〔语境推定 ECC029，待核〕",
+      "change_ids": [
+        "ECC029"
+      ]
+    },
+    {
+      "paragraph_id": "P167",
+      "source_block_ids": [
+        "167",
+        "169"
+      ],
+      "paragraph_char_start": 206,
+      "paragraph_char_end": 222,
+      "marker": "〔语境推定 ECC030，待核〕",
+      "change_ids": [
+        "ECC030"
+      ]
+    },
+    {
+      "paragraph_id": "P167",
+      "source_block_ids": [
+        "167",
+        "169"
+      ],
+      "paragraph_char_start": 645,
+      "paragraph_char_end": 661,
+      "marker": "〔语境推定 ECC033，待核〕",
+      "change_ids": [
+        "ECC033"
+      ]
+    },
+    {
+      "paragraph_id": "P167",
+      "source_block_ids": [
+        "167",
+        "169"
+      ],
+      "paragraph_char_start": 721,
+      "paragraph_char_end": 737,
+      "marker": "〔语境推定 ECC034，待核〕",
+      "change_ids": [
+        "ECC034"
+      ]
+    },
+    {
+      "paragraph_id": "P167",
+      "source_block_ids": [
+        "167",
+        "169"
+      ],
+      "paragraph_char_start": 1292,
+      "paragraph_char_end": 1308,
+      "marker": "〔语境推定 ECC037，待核〕",
+      "change_ids": [
+        "ECC037"
+      ]
+    },
+    {
+      "paragraph_id": "P167",
+      "source_block_ids": [
+        "167",
+        "169"
+      ],
+      "paragraph_char_start": 1380,
+      "paragraph_char_end": 1394,
+      "marker": "〔补回 ECA010，待核〕",
+      "change_ids": [
+        "ECA010"
+      ]
+    },
+    {
+      "paragraph_id": "P167",
+      "source_block_ids": [
+        "167",
+        "169"
+      ],
+      "paragraph_char_start": 1407,
+      "paragraph_char_end": 1436,
+      "marker": "〔词尾待核：模型为data，疑为dialogue，不擅改〕",
+      "change_ids": []
+    },
+    {
+      "paragraph_id": "P171",
+      "source_block_ids": [
+        "171"
+      ],
+      "paragraph_char_start": 5,
+      "paragraph_char_end": 48,
+      "marker": "〔待核 ECU006：原文中文短句与模型英语无法逐词对应；保留原文，不认定中文为实说〕",
+      "change_ids": [
+        "ECU006"
+      ]
+    },
+    {
+      "paragraph_id": "P171",
+      "source_block_ids": [
+        "171"
+      ],
+      "paragraph_char_start": 49,
+      "paragraph_char_end": 63,
+      "marker": "〔补回 ECA011，待核〕",
+      "change_ids": [
+        "ECA011"
+      ]
+    },
+    {
+      "paragraph_id": "P175",
+      "source_block_ids": [
+        "175",
+        "177"
+      ],
+      "paragraph_char_start": 38,
+      "paragraph_char_end": 54,
+      "marker": "〔语境推定 ECC040，待核〕",
+      "change_ids": [
+        "ECC040"
+      ]
+    },
+    {
+      "paragraph_id": "P175",
+      "source_block_ids": [
+        "175",
+        "177"
+      ],
+      "paragraph_char_start": 132,
+      "paragraph_char_end": 148,
+      "marker": "〔语境推定 ECC041，待核〕",
+      "change_ids": [
+        "ECC041"
+      ]
+    },
+    {
+      "paragraph_id": "P175",
+      "source_block_ids": [
+        "175",
+        "177"
+      ],
+      "paragraph_char_start": 339,
+      "paragraph_char_end": 353,
+      "marker": "〔补回 ECA012，待核〕",
+      "change_ids": [
+        "ECA012"
+      ]
+    },
+    {
+      "paragraph_id": "P185",
+      "source_block_ids": [
+        "185"
+      ],
+      "paragraph_char_start": 222,
+      "paragraph_char_end": 238,
+      "marker": "〔语境推定 ECC045，待核〕",
+      "change_ids": [
+        "ECC045"
+      ]
+    },
+    {
+      "paragraph_id": "P185",
+      "source_block_ids": [
+        "185"
+      ],
+      "paragraph_char_start": 399,
+      "paragraph_char_end": 415,
+      "marker": "〔语境推定 ECC046，待核〕",
+      "change_ids": [
+        "ECC046"
+      ]
+    },
+    {
+      "paragraph_id": "P185",
+      "source_block_ids": [
+        "185"
+      ],
+      "paragraph_char_start": 430,
+      "paragraph_char_end": 490,
+      "marker": "〔待核 ECU007：模型为MPIO，展开为MAC protocol data unit，疑为MPDU；保留原缩写待核〕",
+      "change_ids": [
+        "ECU007"
+      ]
+    },
+    {
+      "paragraph_id": "P189",
+      "source_block_ids": [
+        "189"
+      ],
+      "paragraph_char_start": 90,
+      "paragraph_char_end": 106,
+      "marker": "〔语境推定 ECC050，待核〕",
+      "change_ids": [
+        "ECC050"
+      ]
+    },
+    {
+      "paragraph_id": "P189",
+      "source_block_ids": [
+        "189"
+      ],
+      "paragraph_char_start": 453,
+      "paragraph_char_end": 600,
+      "marker": "〔待核 ECU008：模型为“B and C that are the other nodes will have this countercounter set to a positive value for all these reaches”；末尾时域词两版不清，不猜测duration〕",
+      "change_ids": [
+        "ECU008"
+      ]
+    },
+    {
+      "paragraph_id": "P189",
+      "source_block_ids": [
+        "189"
+      ],
+      "paragraph_char_start": 601,
+      "paragraph_char_end": 615,
+      "marker": "〔补回 ECA013，待核〕",
+      "change_ids": [
+        "ECA013"
+      ]
+    },
+    {
+      "paragraph_id": "P191",
+      "source_block_ids": [
+        "191",
+        "193"
+      ],
+      "paragraph_char_start": 55,
+      "paragraph_char_end": 128,
+      "marker": "〔待核 ECU009：主窗为“just as we can”，移位尾窗为“just as um, pretend”；保留原词，不猜preview〕",
+      "change_ids": [
+        "ECU009"
+      ]
+    },
+    {
+      "paragraph_id": "P191",
+      "source_block_ids": [
+        "191",
+        "193"
+      ],
+      "paragraph_char_start": 222,
+      "paragraph_char_end": 236,
+      "marker": "〔补回 ECA014，待核〕",
+      "change_ids": [
+        "ECA014"
+      ]
+    },
+    {
+      "paragraph_id": "P191",
+      "source_block_ids": [
+        "191",
+        "193"
+      ],
+      "paragraph_char_start": 636,
+      "paragraph_char_end": 650,
+      "marker": "〔补回 ECA015，待核〕",
+      "change_ids": [
+        "ECA015"
+      ]
+    }
+  ],
+  "uncertain_changes": [
+    {
+      "change_id": "EAC001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "5",
+          "start_char": 142,
+          "end_char": 152,
+          "old_text": "mark layer"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC002",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "5",
+          "start_char": 642,
+          "end_char": 691,
+          "old_text": "what this would centralized.Access team means the"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAU001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立 ASR 有分歧或残缺；保留原文并显式标注候选，不擅自定稿。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "5",
+          "start_char": 692,
+          "end_char": 695,
+          "old_text": "PCF"
+        }
+      ],
+      "markers": [
+        "〔待核 EAU001：独立 ASR 此处识作 DCF；保留原文 PCF，不能仅凭技术常识替换〕"
+      ]
+    },
+    {
+      "change_id": "EAU002",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立 ASR 有分歧或残缺；保留原文并显式标注候选，不擅自定稿。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "5",
+          "start_char": 16,
+          "end_char": 43,
+          "old_text": "Start in our Saturday class"
+        }
+      ],
+      "markers": [
+        "〔待核 EAU002：独立 ASR 为 “We are starting our Saturday class”，句首形式待核〕"
+      ]
+    },
+    {
+      "change_id": "EAA001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文未载此连续短语；独立 ASR 在前后对应语句之间识别到，补回并保留待核标记。",
+      "uncertainty_note": "仅据独立 ASR 补回，未逐段复听；待核实确认。",
+      "source_spans": [
+        {
+          "block_id": "5",
+          "start_char": 778,
+          "end_char": 788,
+          "old_text": "our phone."
+        }
+      ],
+      "markers": [
+        "〔补回 EAA001，待核〕"
+      ]
+    },
+    {
+      "change_id": "EAU003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立 ASR 有分歧或残缺；保留原文并显式标注候选，不擅自定稿。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "7",
+          "start_char": 168,
+          "end_char": 174,
+          "old_text": "recap."
+        }
+      ],
+      "markers": [
+        "〔待核 EAU003：独立 ASR 随后有 “Now we have new markets. This is good news. So as you may remember,”；markets 疑误识，未作为确定讲话补入〕"
+      ]
+    },
+    {
+      "change_id": "EAU004",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立 ASR 有分歧或残缺；保留原文并显式标注候选，不擅自定稿。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "9",
+          "start_char": 16,
+          "end_char": 35,
+          "old_text": "We stand in a Wi-Fi"
+        }
+      ],
+      "markers": [
+        "〔待核 EAU004：独立 ASR 为 “we stand on in Wi-Fi”；开头措辞不清，保留原文〕"
+      ]
+    },
+    {
+      "change_id": "EAC003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "9",
+          "start_char": 545,
+          "end_char": 552,
+          "old_text": "a soft."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC004",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "11",
+          "start_char": 201,
+          "end_char": 220,
+          "old_text": "the mark layer gets"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC005",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "11",
+          "start_char": 257,
+          "end_char": 290,
+          "old_text": "at the mark layer, the mark layer"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "13",
+          "start_char": 108,
+          "end_char": 125,
+          "old_text": "electronic signal"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC007",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "13",
+          "start_char": 208,
+          "end_char": 222,
+          "old_text": "under receiver"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC008",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "17",
+          "start_char": 322,
+          "end_char": 332,
+          "old_text": "axis point"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC009",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 31,
+          "end_char": 83,
+          "old_text": "Now spoyor this morning we are starking que be mark."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAA002",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立 ASR 在重新讨论 MAC 与概述功能之间保留一句原文缺失的短语；作为待核补回。",
+      "uncertainty_note": "仅据独立 ASR 补回，未逐段复听；待核实确认。",
+      "source_spans": [
+        {
+          "block_id": "19",
+          "start_char": 83,
+          "end_char": 102,
+          "old_text": "As a general thing,"
+        }
+      ],
+      "markers": [
+        "〔补回 EAA002，待核〕"
+      ]
+    },
+    {
+      "change_id": "EAC010",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 24,
+          "end_char": 34,
+          "old_text": "mark layer"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC011",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 299,
+          "end_char": 316,
+          "old_text": "people.Or in line"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC012",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "21",
+          "start_char": 507,
+          "end_char": 526,
+          "old_text": "Ina, this is the Q."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAA003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立 ASR 在连续语句中识别到原文未载短语；作为中等把握的补回，行内标记待核。 经复核将补回句首 And 大写；保留 arrives 口语语法。",
+      "uncertainty_note": "仅据独立 ASR 补回，未逐段复听；待核实确认。",
+      "source_spans": [
+        {
+          "block_id": "23",
+          "start_char": 16,
+          "end_char": 47,
+          "old_text": "When you go to the supermarket,"
+        }
+      ],
+      "markers": [
+        "〔补回 EAA003，待核〕"
+      ]
+    },
+    {
+      "change_id": "EAC013",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "25",
+          "start_char": 91,
+          "end_char": 166,
+          "old_text": "Tú.Compute.Di.So the time that it takes to be.En reality similar sin helio."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC014",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "25",
+          "start_char": 327,
+          "end_char": 340,
+          "old_text": "They are cute"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAA004",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文未载此连续短语；独立 ASR 在前后对应语句之间识别到，补回并保留待核标记。",
+      "uncertainty_note": "仅据独立 ASR 补回，未逐段复听；待核实确认。",
+      "source_spans": [
+        {
+          "block_id": "25",
+          "start_char": 481,
+          "end_char": 508,
+          "old_text": "If you queue these packets."
+        }
+      ],
+      "markers": [
+        "〔补回 EAA004，待核〕"
+      ]
+    },
+    {
+      "change_id": "EAC015",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "27",
+          "start_char": 348,
+          "end_char": 358,
+          "old_text": "mark layer"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC016",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "29",
+          "start_char": 258,
+          "end_char": 268,
+          "old_text": "Automatic,"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC017",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "29",
+          "start_char": 735,
+          "end_char": 744,
+          "old_text": "a college"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC018",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "29",
+          "start_char": 1233,
+          "end_char": 1243,
+          "old_text": "Qin theory"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAU005",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立 ASR 有分歧或残缺；保留原文并显式标注候选，不擅自定稿。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "29",
+          "start_char": 1310,
+          "end_char": 1331,
+          "old_text": "has brought two books"
+        }
+      ],
+      "markers": [
+        "〔待核 EAU005：独立 ASR 为 “has wrote two books”；wrote / brought 待核，不能改成规范语法 has written〕"
+      ]
+    },
+    {
+      "change_id": "EAC019",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "31",
+          "start_char": 107,
+          "end_char": 118,
+          "old_text": "mac in here"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC020",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "31",
+          "start_char": 312,
+          "end_char": 323,
+          "old_text": "physically."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC021",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "31",
+          "start_char": 512,
+          "end_char": 525,
+          "old_text": "error recall."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC022",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "35",
+          "start_char": 190,
+          "end_char": 202,
+          "old_text": "one receive."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC023",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "35",
+          "start_char": 287,
+          "end_char": 300,
+          "old_text": "be receive by"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC024",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "37",
+          "start_char": 77,
+          "end_char": 91,
+          "old_text": "in which file?"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC025",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "37",
+          "start_char": 232,
+          "end_char": 243,
+          "old_text": "similar way"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC026",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "37",
+          "start_char": 355,
+          "end_char": 367,
+          "old_text": "Means puppy."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAU006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立 ASR 有分歧或残缺；保留原文并显式标注候选，不擅自定稿。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "37",
+          "start_char": 410,
+          "end_char": 420,
+          "old_text": "with with."
+        }
+      ],
+      "markers": [
+        "〔待核 EAU006：独立 ASR 窗口一止于 “with”，下一窗口为 “with window”；可能为 packet，但证据不足，保留原文〕"
+      ]
+    },
+    {
+      "change_id": "EAC027",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "39",
+          "start_char": 95,
+          "end_char": 104,
+          "old_text": "marklayer"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC028",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "43",
+          "start_char": 140,
+          "end_char": 152,
+          "old_text": "a mark layer"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC029",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "43",
+          "start_char": 432,
+          "end_char": 599,
+          "old_text": "Transmitir next to sense.De cham.¿What is you mean to Science the chun?In my Standard Sism I.De Mac.Layer.Ask de Fish, Física Layer.Two performa this Channel Essencin."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAA005",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立 ASR 在连续语句中识别到原文未载短语；作为中等把握的补回，行内标记待核。",
+      "uncertainty_note": "仅据独立 ASR 补回，未逐段复听；待核实确认。",
+      "source_spans": [
+        {
+          "block_id": "45",
+          "start_char": 16,
+          "end_char": 26,
+          "old_text": "Means that"
+        }
+      ],
+      "markers": [
+        "〔补回 EAA005，待核〕"
+      ]
+    },
+    {
+      "change_id": "EAA006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文未载此连续短语；独立 ASR 在前后对应语句之间识别到，补回并保留待核标记。",
+      "uncertainty_note": "仅据独立 ASR 补回，未逐段复听；待核实确认。",
+      "source_spans": [
+        {
+          "block_id": "45",
+          "start_char": 565,
+          "end_char": 575,
+          "old_text": "gives you."
+        }
+      ],
+      "markers": [
+        "〔补回 EAA006，待核〕"
+      ]
+    },
+    {
+      "change_id": "EAC030",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "47",
+          "start_char": 480,
+          "end_char": 539,
+          "old_text": "the china list basy?Because you dont know who food?Signals,"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAA007",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文未载此连续短语；独立 ASR 在前后对应语句之间识别到，补回并保留待核标记。 经复核将补回句首 You 大写；不改措辞。",
+      "uncertainty_note": "仅据独立 ASR 补回，未逐段复听；待核实确认。",
+      "source_spans": [
+        {
+          "block_id": "47",
+          "start_char": 658,
+          "end_char": 741,
+          "old_text": "the value of energy that you normally have on the channel when there is only noise."
+        }
+      ],
+      "markers": [
+        "〔补回 EAA007，待核〕"
+      ]
+    },
+    {
+      "change_id": "EAC031",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "49",
+          "start_char": 534,
+          "end_char": 554,
+          "old_text": "already just meeting"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC032",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "49",
+          "start_char": 1125,
+          "end_char": 1160,
+          "old_text": "Who would like to pass me to access"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC033",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "49",
+          "start_char": 1219,
+          "end_char": 1255,
+          "old_text": "after a heading sensed the challenge"
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EAC034",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文疑似音近误识；独立 ASR 与本段语境一致，提出此项修订。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "51",
+          "start_char": 134,
+          "end_char": 145,
+          "old_text": "Two cables."
+        }
+      ],
+      "markers": []
+    },
+    {
+      "change_id": "EBU001",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文未含返回Wi-Fi的过渡；两个窗口用词不同，明确未恢复，不推定end of this digression。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "55",
+          "start_char": 673,
+          "end_char": 683,
+          "old_text": "That's it."
+        }
+      ],
+      "markers": [
+        "〔待核 EBU001：此后两个窗口分别识别And of this degradation / And of this negotiation，再接let’s go back to Wi-Fi；过渡措辞未补写〕"
+      ]
+    },
+    {
+      "change_id": "EBA001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "窗口20补充管理帧类别与beacon例子，原文漏失。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "65",
+          "start_char": 682,
+          "end_char": 688,
+          "old_text": "Right?"
+        }
+      ],
+      "markers": [
+        "〔补回 EBA001，待核〕"
+      ]
+    },
+    {
+      "change_id": "EBC008",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "源文复数尾疑为词尾误识；模型Unicas data packets与早前unicast概念一致。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "69",
+          "start_char": 62,
+          "end_char": 83,
+          "old_text": "Unicasts data packets"
+        }
+      ],
+      "markers": [
+        "〔推定 EBC008〕"
+      ]
+    },
+    {
+      "change_id": "EBA002",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型恢复集中式与分布式过渡，不将下一段集中式解释误接成分布式。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "73",
+          "start_char": 403,
+          "end_char": 433,
+          "old_text": "That said, distributed scheme."
+        }
+      ],
+      "markers": [
+        "〔补回 EBA002，待核〕"
+      ]
+    },
+    {
+      "change_id": "EBU002",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "两个版本均trust me，保留源词并标疑。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "77",
+          "start_char": 289,
+          "end_char": 306,
+          "old_text": "now you trust me."
+        }
+      ],
+      "markers": [
+        "〔待核 EBU002：两版均trust me，语境可能transmit，未改写〕"
+      ]
+    },
+    {
+      "change_id": "EBU003",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "两个版本均trust me，保留源词并标疑。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "79",
+          "start_char": 16,
+          "end_char": 66,
+          "old_text": "User B, now you trust me.User C, now you trust me."
+        }
+      ],
+      "markers": [
+        "〔待核 EBU003：两版均trust me，语境可能transmit，未改写〕"
+      ]
+    },
+    {
+      "change_id": "EBA003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "窗口22给出时隙定义的原文缺失引入。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "79",
+          "start_char": 260,
+          "end_char": 274,
+          "old_text": "The first one."
+        }
+      ],
+      "markers": [
+        "〔补回 EBA003，待核〕"
+      ]
+    },
+    {
+      "change_id": "EBA004",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型支持internal clock与时钟对齐例句；保留源文重复their。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "81",
+          "start_char": 685,
+          "end_char": 733,
+          "old_text": "they will align their, their night clock to the."
+        }
+      ],
+      "markers": [
+        "〔补回 EBA004，待核〕"
+      ]
+    },
+    {
+      "change_id": "EBC012",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型axis point疑为近音；同句源文time reference与前段明确access point。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "87",
+          "start_char": 160,
+          "end_char": 173,
+          "old_text": "answers point"
+        }
+      ],
+      "markers": [
+        "〔推定 EBC012〕"
+      ]
+    },
+    {
+      "change_id": "EBU004",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "课间短中文两版分歧；不推断说话人身份，未听辨。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "89",
+          "start_char": 16,
+          "end_char": 26,
+          "old_text": "没洗脸，没刷，刷牙。"
+        }
+      ],
+      "markers": [
+        "〔待核 EBU004：模型为“你洗，你刷，刷牙，你洗”，保留原文〕"
+      ]
+    },
+    {
+      "change_id": "EBU005",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "没有可用分窗结果，数值幅度检查不足以决定有无旁话，明确保留未核区间。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "89",
+          "start_char": 26,
+          "end_char": 26,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔待核 EBU005：47:40–49:40主ASR窗口为空；此课间区间未恢复可靠文字，空输出与低幅度均不证明静音〕"
+      ]
+    },
+    {
+      "change_id": "EBU006",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文短中文保留，不采用模型可能误识的last review。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "91",
+          "start_char": 16,
+          "end_char": 38,
+          "old_text": "OK。还。So, let's resume."
+        }
+      ],
+      "markers": [
+        "〔待核 EBU006：模型为Okay, good. So last review，未确认短中文或过渡语〕"
+      ]
+    },
+    {
+      "change_id": "EBU007",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "源文与模型尾词均不清，不按协议常识推断success。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "95",
+          "start_char": 626,
+          "end_char": 659,
+          "old_text": "hopefully, if there is an access."
+        }
+      ],
+      "markers": [
+        "〔待核 EBU007：模型an access and an acknowledgement，可能为success，未选定补写〕"
+      ]
+    },
+    {
+      "change_id": "EBA005",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "窗口30恢复SIFS与point coordination IFS引入。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "99",
+          "start_char": 433,
+          "end_char": 456,
+          "old_text": "there are four of them."
+        }
+      ],
+      "markers": [
+        "〔补回 EBA005，待核〕"
+      ]
+    },
+    {
+      "change_id": "EBC016",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "分布式IFS缩写按语境规范；模型diffs非独立字母拼写确认。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "101",
+          "start_char": 33,
+          "end_char": 68,
+          "old_text": "distributed IFS.Dips that is longer"
+        }
+      ],
+      "markers": [
+        "〔推定 EBC016〕"
+      ]
+    },
+    {
+      "change_id": "EBC017",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "相邻窗口30明确SIFS，31为six/diffs；DIFS按名称推定，未把术语推定当听辨。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "101",
+          "start_char": 201,
+          "end_char": 296,
+          "old_text": "the shortest one, dips.And the distributed one, this.And of course, saves.Is shorter than this."
+        }
+      ],
+      "markers": [
+        "〔推定 EBC017〕"
+      ]
+    },
+    {
+      "change_id": "EBC020",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "短IFS名称已在窗口30明确；此处six按语境恢复SIFS。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "103",
+          "start_char": 196,
+          "end_char": 219,
+          "old_text": "we will use six as time"
+        }
+      ],
+      "markers": [
+        "〔推定 EBC020〕"
+      ]
+    },
+    {
+      "change_id": "EBC022",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型diffs与distributed IFS对应，术语语境推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "103",
+          "start_char": 331,
+          "end_char": 358,
+          "old_text": "we use diffs that is longer"
+        }
+      ],
+      "markers": [
+        "〔推定 EBC022〕"
+      ]
+    },
+    {
+      "change_id": "EBA006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "窗口32给出复述载波侦听的原文缺失句。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "103",
+          "start_char": 518,
+          "end_char": 539,
+          "old_text": "what we said earlier."
+        }
+      ],
+      "markers": [
+        "〔补回 EBA006，待核〕"
+      ]
+    },
+    {
+      "change_id": "EBC024",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "SIFS按短等待间隔推定；不强行修复后面的不清短语。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "109",
+          "start_char": 128,
+          "end_char": 201,
+          "old_text": "sense the channel.For, just for sixes, if the channel to receives is idle"
+        }
+      ],
+      "markers": [
+        "〔推定 EBC024〕",
+        "〔待核 EBC024：两版均有to receive近音，未确认是否指through SIFS〕"
+      ]
+    },
+    {
+      "change_id": "EBC025",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型this/sees近音；依据前文清楚的两种IFS名称作术语推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "109",
+          "start_char": 312,
+          "end_char": 374,
+          "old_text": "sense the channel for diffs, where diffs is longer than seeds."
+        }
+      ],
+      "markers": [
+        "〔推定 EBC025〕"
+      ]
+    },
+    {
+      "change_id": "EBC026",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型sees，依据短IFS语境推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "111",
+          "start_char": 234,
+          "end_char": 251,
+          "old_text": "idle only for six"
+        }
+      ],
+      "markers": [
+        "〔推定 EBC026〕"
+      ]
+    },
+    {
+      "change_id": "EBA007",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型补足B正在感知繁忙的句子；DIFS根据diff's术语推定，不恢复含混问句。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "111",
+          "start_char": 632,
+          "end_char": 648,
+          "old_text": "So, during this."
+        }
+      ],
+      "markers": [
+        "〔推定 EBA007〕",
+        "〔补回 EBA007，待核；模型后续can be accessed不清，未补写〕"
+      ]
+    },
+    {
+      "change_id": "EBA008",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型恢复混合误识以及连接下一段short sensing的缺失从句；保留模型Given而不改giving。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "113",
+          "start_char": 105,
+          "end_char": 234,
+          "old_text": "Afterwards, so now we understand.Y no existen. Hector Query.Using carrier sensing multiple access as a way to access the channel."
+        }
+      ],
+      "markers": [
+        "〔补回 EBA008，待核〕"
+      ]
+    },
+    {
+      "change_id": "EBA009",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型给出等待母亲回答与较迟发言例子；保留重复is，含混中间短语不猜写。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "117",
+          "start_char": 552,
+          "end_char": 577,
+          "old_text": "So, she will speak first."
+        }
+      ],
+      "markers": [
+        "〔补回 EBA009，待核〕",
+        "〔待核 EBA009：模型随后Yeah, you prefer what you want不清，未补写〕",
+        "〔补回 EBA009，待核〕"
+      ]
+    },
+    {
+      "change_id": "EBU008",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "两个文本均含不清词，不按“母亲优先”常识改写mind为mother。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "119",
+          "start_char": 92,
+          "end_char": 222,
+          "old_text": "transmission of your mind.By waiting.Then of course, if your mother lets me speak, how to all maybe you trust me something, right?"
+        }
+      ],
+      "markers": [
+        "〔待核 EBU008：模型your goal / lets speak, at all maybe you you transmit something；整句近音不清，未按类比猜写〕"
+      ]
+    },
+    {
+      "change_id": "EBC031",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "模型Wi-Fi cars，cards为课程节点名语境推定。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "119",
+          "start_char": 311,
+          "end_char": 325,
+          "old_text": "why my cars do"
+        }
+      ],
+      "markers": [
+        "〔推定 EBC031〕"
+      ]
+    },
+    {
+      "change_id": "EBA010",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "模型恢复包优先级的完整结语；源文what one has to transmit保留，不采用模型trust me。",
+      "uncertainty_note": "",
+      "source_spans": [
+        {
+          "block_id": "121",
+          "start_char": 260,
+          "end_char": 285,
+          "old_text": "what one has to transmit."
+        }
+      ],
+      "markers": [
+        "〔补回 EBA010，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC003",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "diffs按本讲反复使用的DIFS术语正规拼写；不改变讲话内容。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "125",
+          "start_char": 74,
+          "end_char": 88,
+          "old_text": "idle for diffs"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC003，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC004",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "125",
+          "start_char": 229,
+          "end_char": 257,
+          "old_text": "channel as idle for diffs.OK"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC004，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA001",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "125",
+          "start_char": 328,
+          "end_char": 328,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA001，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECU001",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "127",
+          "start_char": 85,
+          "end_char": 192,
+          "old_text": "a second point of course, is the text that there is.A signal on the channel it will restart the modulating."
+        }
+      ],
+      "markers": [
+        "〔待核 ECU001：模型为“at certain point, of course, if the access there is a signal on the channel, you restart the modulating”；两版均有误识，疑为检测信号并开始解调，保留原词待听辨〕"
+      ]
+    },
+    {
+      "change_id": "ECU002",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "129",
+          "start_char": 298,
+          "end_char": 324,
+          "old_text": "and if it's on an assigned"
+        }
+      ],
+      "markers": [
+        "〔待核 ECU002：模型为“and if it's analyzed”；不据空闲信道语境补写条件〕"
+      ]
+    },
+    {
+      "change_id": "ECC010",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原文ant、模型amp在确认帧对话中均为ACK的同音误识；依据相邻acknowledgement语境正规化。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "133",
+          "start_char": 280,
+          "end_char": 288,
+          "old_text": "this ant"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC010，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA002",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "133",
+          "start_char": 399,
+          "end_char": 409,
+          "old_text": "come back."
+        }
+      ],
+      "markers": [
+        "〔补回 ECA002，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA003",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "141",
+          "start_char": 532,
+          "end_char": 532,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA003，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECU003",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "141",
+          "start_char": 444,
+          "end_char": 459,
+          "old_text": "let's call it B"
+        }
+      ],
+      "markers": [
+        "〔待核 ECU003：本段原文和模型均称发端B，随后又称其他节点B、C；保留字母，不依据后文A擅改〕"
+      ]
+    },
+    {
+      "change_id": "ECA004",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "143",
+          "start_char": 587,
+          "end_char": 587,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA004，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA005",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "145",
+          "start_char": 460,
+          "end_char": 460,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA005，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA006",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "149",
+          "start_char": 208,
+          "end_char": 208,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA006，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC015",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "151",
+          "start_char": 61,
+          "end_char": 70,
+          "old_text": "for dips,"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC015，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC016",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "151",
+          "start_char": 133,
+          "end_char": 149,
+          "old_text": "for dips, assume"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC016，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC017",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "151",
+          "start_char": 208,
+          "end_char": 223,
+          "old_text": "a smack, we say"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC017，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC018",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "151",
+          "start_char": 259,
+          "end_char": 272,
+          "old_text": "idle for days"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC018，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA007",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "151",
+          "start_char": 273,
+          "end_char": 273,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA007，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC019",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "153",
+          "start_char": 260,
+          "end_char": 274,
+          "old_text": "after six, the"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC019，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC020",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "153",
+          "start_char": 322,
+          "end_char": 340,
+          "old_text": "after six, because"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC020，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECU004",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "155",
+          "start_char": 530,
+          "end_char": 569,
+          "old_text": "can perform these operation, continues."
+        }
+      ],
+      "markers": [
+        "〔待核 ECU004：模型为“Okay, perform these operation. Continue.”；末词疑与连续侦听有关，保留原词不补写〕"
+      ]
+    },
+    {
+      "change_id": "ECC022",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "why/while同音误识及问句误断；模型与上下文支持“while sensing”，语境推定已注明。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "159",
+          "start_char": 78,
+          "end_char": 119,
+          "old_text": "why is sensing the channel?They two sense"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC022，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC026",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "两版均呈现NAV及展开词同音误识；按本段counter术语语境正规拼写，非听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "163",
+          "start_char": 208,
+          "end_char": 238,
+          "old_text": "null, letter allocation vector"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC026，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA008",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "163",
+          "start_char": 390,
+          "end_char": 390,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA008，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECU005",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "165",
+          "start_char": 16,
+          "end_char": 137,
+          "old_text": "Es el knowledge, además.Clear, has got discount sent to a positive value greater than zero.Por DAT, Non and macclewer de."
+        }
+      ],
+      "markers": [
+        "〔待核 ECU005：原文严重混合语误识；ASR对应候选“Now the rule is that if a node at the MacLayer has got this counter sent to a positive value greater than zero, for that node at the MacLayer”；未据语境整段替换〕"
+      ]
+    },
+    {
+      "change_id": "ECA009",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "165",
+          "start_char": 137,
+          "end_char": 137,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA009，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC029",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "167",
+          "start_char": 76,
+          "end_char": 85,
+          "old_text": "their now"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC029，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC030",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "167",
+          "start_char": 188,
+          "end_char": 207,
+          "old_text": "their nerve counter"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC030，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC033",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "ASR保留原文混合误识的完整短语；safe按前后SIFS术语归一，保留教师对duration的说法。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "169",
+          "start_char": 101,
+          "end_char": 145,
+          "old_text": "accounts or.Sound for the shift and positif."
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC033，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC034",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "169",
+          "start_char": 183,
+          "end_char": 206,
+          "old_text": "send their lock counter"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC034，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC037",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "169",
+          "start_char": 724,
+          "end_char": 754,
+          "old_text": "plus ACKs, plus acknowledgment"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC037，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA010",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "169",
+          "start_char": 825,
+          "end_char": 825,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA010，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECU006",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "171",
+          "start_char": 16,
+          "end_char": 21,
+          "old_text": "哦，对的。"
+        }
+      ],
+      "markers": [
+        "〔待核 ECU006：原文中文短句与模型英语无法逐词对应；保留原文，不认定中文为实说〕"
+      ]
+    },
+    {
+      "change_id": "ECA011",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "171",
+          "start_char": 21,
+          "end_char": 21,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA011，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC040",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "175",
+          "start_char": 31,
+          "end_char": 50,
+          "old_text": "the nack is greater"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC040，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC041",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "175",
+          "start_char": 111,
+          "end_char": 128,
+          "old_text": "the nack is equal"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC041，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA012",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "175",
+          "start_char": 312,
+          "end_char": 316,
+          "old_text": "One."
+        }
+      ],
+      "markers": [
+        "〔补回 ECA012，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC045",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "185",
+          "start_char": 229,
+          "end_char": 238,
+          "old_text": "theenough"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC045，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC046",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "185",
+          "start_char": 391,
+          "end_char": 402,
+          "old_text": "unique cast"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC046，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECU007",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "185",
+          "start_char": 410,
+          "end_char": 422,
+          "old_text": "And PD means"
+        }
+      ],
+      "markers": [
+        "〔待核 ECU007：模型为MPIO，展开为MAC protocol data unit，疑为MPDU；保留原缩写待核〕"
+      ]
+    },
+    {
+      "change_id": "ECC050",
+      "confidence": "medium",
+      "contextual_inference": true,
+      "review_status": "proposed",
+      "reason": "原始ASR与原文词形支持此处误识校订；保留口语语法，未作听辨确认。",
+      "uncertainty_note": "词形和局部语境推定；模型未逐字给出相同拼写，未作听辨确认。",
+      "source_spans": [
+        {
+          "block_id": "189",
+          "start_char": 96,
+          "end_char": 104,
+          "old_text": "the note"
+        }
+      ],
+      "markers": [
+        "〔语境推定 ECC050，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECU008",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "189",
+          "start_char": 356,
+          "end_char": 448,
+          "old_text": "Are the other nodes, we'll add this null counter set to a positive value for all these rush."
+        }
+      ],
+      "markers": [
+        "〔待核 ECU008：模型为“B and C that are the other nodes will have this countercounter set to a positive value for all these reaches”；末尾时域词两版不清，不猜测duration〕"
+      ]
+    },
+    {
+      "change_id": "ECA013",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "189",
+          "start_char": 448,
+          "end_char": 448,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA013，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECU009",
+      "confidence": "unresolved",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "uncertainty_note": "原文与独立ASR存在歧义；保留源文并列出候选，不以语境决定实际措辞。",
+      "source_spans": [
+        {
+          "block_id": "191",
+          "start_char": 56,
+          "end_char": 71,
+          "old_text": "just as prevent"
+        }
+      ],
+      "markers": [
+        "〔待核 ECU009：主窗为“just as we can”，移位尾窗为“just as um, pretend”；保留原词，不猜preview〕"
+      ]
+    },
+    {
+      "change_id": "ECA014",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "191",
+          "start_char": 163,
+          "end_char": 163,
+          "old_text": ""
+        }
+      ],
+      "markers": [
+        "〔补回 ECA014，待核〕"
+      ]
+    },
+    {
+      "change_id": "ECA015",
+      "confidence": "medium",
+      "contextual_inference": false,
+      "review_status": "proposed",
+      "reason": "独立ASR对应窗口保留原文遗漏的讲话；以补回编号行内标出，待复核/音频核实。",
+      "uncertainty_note": "仅由独立ASR恢复的缺句候选，未逐段复听；输入窗口不是词级时间。",
+      "source_spans": [
+        {
+          "block_id": "193",
+          "start_char": 286,
+          "end_char": 299,
+          "old_text": "look at this."
+        }
+      ],
+      "markers": [
+        "〔补回 ECA015，待核〕"
+      ]
+    }
+  ],
+  "note": "Reading a candidate does not resolve these wording uncertainties."
+}

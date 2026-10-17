@@ -1,0 +1,64 @@
+{
+  "status": "complete",
+  "coverage_start_seconds": 0.0,
+  "coverage_end_seconds": 5758.455875,
+  "decoded_duration_seconds": 5758.455875,
+  "coverage_fraction": 1.0,
+  "uncovered_intervals": [],
+  "final_sample_processed": true,
+  "decoded_minus_source_duration_seconds": 0.013879999999517167,
+  "chunk_count": 53,
+  "planned_chunk_count": 53,
+  "suspect_chunks": [
+    {
+      "index": 26,
+      "start_seconds": 2860.0,
+      "end_seconds": 2980.0,
+      "flags": [
+        "empty_output"
+      ]
+    }
+  ],
+  "overlap_boundaries_requiring_editorial_review": [
+    4,
+    11,
+    12,
+    15,
+    17,
+    18,
+    20,
+    24,
+    25,
+    26,
+    27,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36,
+    37,
+    38,
+    39,
+    41,
+    42,
+    46,
+    48,
+    49,
+    50,
+    52
+  ],
+  "tail_verification": {
+    "window_start_seconds": 5668.455875,
+    "window_end_seconds": 5758.455875,
+    "end_sample": 92135294,
+    "last_35_words_similarity": 0.8571428571428571,
+    "requires_review": false,
+    "note": "Similarity is an agreement check between two local ASR windows, not a correctness score.",
+    "verification_file": "../raw_asr/20261010-0800/tail_verification.json"
+  },
+  "input_audio_trimmed": false,
+  "transcript_context_prompt_used": false,
+  "note": "Coverage confirms all decoded samples were submitted to ASR; it does not guarantee all spoken words were recognized.",
+  "updated_at": "2026-10-17T08:25:35.396136+00:00"
+}
