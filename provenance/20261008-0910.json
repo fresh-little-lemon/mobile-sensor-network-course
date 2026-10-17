@@ -1,0 +1,21 @@
+{
+  "recording_id": "20261008-0910",
+  "status": "已通读校订但仍含明确待核内容",
+  "source_url": "https://lcn6dqn3m0yr.feishu.cn/docx/GmUhdEJiCoMnZ4xsrdCco0tEnSg",
+  "source_captured_at": "2026-10-17T03:28:12.475Z",
+  "source_capture_path": "sources/feishu_snapshots/20261008-0910/20261017T032812475Z-6fc90981ac7e/capture.json",
+  "source_capture_sha256": "6fc90981ac7ef5c4cb69675fd2c30396233d2eb765724a2d1692268827ad7a96",
+  "exact_speech_file": "revised/20261008-0910.speech.md",
+  "exact_speech_sha256": "43268ba3a7313b1bc84c44767ed8a69966ce1ac3a17bd4e276305eb92fcf9c89",
+  "whole_text_read_at_utc": "2026-10-17T04:30:48+00:00",
+  "full_current_text_review_complete": true,
+  "uncertainty": {
+    "unresolved_items": 20,
+    "inline_marker_count": 21,
+    "full_text_read_does_not_resolve_uncertainty": true
+  },
+  "evidence_portability_adjustments": [],
+  "source_files_not_modified": true,
+  "spoken_words_not_changed_after_whole_text_read": true,
+  "timestamp_note": "保留原文段落锚点，不作词级对齐或真实句界保证。"
+}
