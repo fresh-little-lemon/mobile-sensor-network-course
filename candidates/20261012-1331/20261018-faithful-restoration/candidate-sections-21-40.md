@@ -159,8 +159,8 @@ Well, we still have carrier sensing, right, multiple access.
 嗯，我们仍然有载波侦听，对吧，多址接入。
 So since both B and C sense the channel as busy because they have their NAV set, they cannot access the channel, right?
 所以，由于 B 和 C 都侦听到信道为忙，因为它们设置了 NAV，它们就不能接入信道，对吧？
-Till the channel is busy, I cannot access the channel.
-直到信道忙着的时候，我不能接入信道。
+[Till; usage unclear] the channel is busy, I cannot access the channel.
+〔Till，讲者此处时间条件用法待听辨〕信道忙着时，我不能接入信道。
 So for sure B and C will again wait for the channel to be idle, make sure that the channel is idle.
 所以，B 和 C 肯定会再次等待信道变为空闲，确认信道是空闲的。
 But then if there is no backoff, they can just access the channel, right?
