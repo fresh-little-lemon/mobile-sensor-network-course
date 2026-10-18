@@ -1,0 +1,22 @@
+[00:11:45.000 --> 00:11:55.320] to do is to apply the Bekoff procedure. So how long do we wait for? We will wait
+[00:11:55.320 --> 00:12:03.520] for the Bekoff time according to this procedure. So this is the rule again.
+[00:12:04.580 --> 00:12:13.180] Also in this first case, when we have that the note Wi-Fi note gets a new
+[00:12:13.180 --> 00:12:24.300] pocket from the higher layers and the mask needs to apply the protocol in
+[00:12:24.300 --> 00:12:30.020] order to transmit that packet. So we know that first of all we need to sense the
+[00:12:30.020 --> 00:12:41.420] channel for dips, if the channel is sense busy then what we'll do is apply
+[00:12:41.420 --> 00:12:49.580] the back-off. That is, first of all, we need to wait for the channel to become idle again and
+[00:12:49.580 --> 00:13:00.900] sense the channel idle for this. Then draw an integer with equal probability out of the range
+[00:13:00.900 --> 00:13:11.280] is 0, cwmin, set that integer multiplied by the time slot as back-of-time and then
+[00:13:11.280 --> 00:13:21.120] decrease the back-of-counter, slot by slot, as long as the channel is idle. If the
+[00:13:21.120 --> 00:13:27.300] channel becomes busy at a certain point, while we are still decreasing the
+[00:13:27.300 --> 00:13:37.240] Bekow counter we need to stop the counter and freeze it, we cannot decrease it and then when
+[00:13:37.240 --> 00:13:46.940] the channel becomes idle again we will sense the channel for dips if it's idle of course for that
+[00:13:47.460 --> 00:13:56.960] time we will resume decreasing our Bekow counter till we do that till the counter reaches zero
+[00:13:57.300 --> 00:14:05.680] right as soon as the counter reaches zero then we can access the channel and transmit our packet
+[00:14:05.680 --> 00:14:09.800] and then of course it depends the transmission may be successful
+[00:14:09.800 --> 00:14:16.660] that is fine we are done or the packet may fail and in that case we have to
+[00:14:16.900 --> 00:14:29.660] recontend for the channel by using the back-off receiver right okay so now we know that actually
+[00:14:29.660 --> 00:14:41.320] there are two conditions one and two under which we will perform the back-off okay let's
+[00:14:41.320 --> 00:14:51.660] leave the turn condition for later. Before introducing the turn condition, I want to present
+[00:14:51.660 --> 00:15:03.060] an example of a situation when we apply the becoff and what I want to do with this example
+[00:15:03.060 --> 00:15:13.980] is to clarify why. Why we are using the becoff? Why is the becoff actually useful?

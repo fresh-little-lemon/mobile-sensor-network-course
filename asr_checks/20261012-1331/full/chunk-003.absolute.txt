@@ -1,0 +1,19 @@
+[00:05:45.000 --> 00:05:56.960] on the second step, minus 1, which is 2 to the cub exponent on the first step increased
+[00:05:56.960 --> 00:06:00.660] by 1, minus 1, right?
+[00:06:01.260 --> 00:06:12.660] So now this is 2 to the power, in our example, to the power of 6, minus 1, which is 63.
+[00:06:12.660 --> 00:06:28.080] okay so this is the way we increase the contention with a minimum value every time till as we said
+[00:06:28.080 --> 00:06:42.780] we reach this value Cw max. After we reach this value we do not increase this Cw
+[00:06:42.780 --> 00:06:52.120] value any longer behind this value even if we need to still perform the
+[00:06:52.350 --> 00:07:12.150] Bekoff procedure for the same time. So the general rule is that at step i, the generic step i,
+[00:07:12.150 --> 00:07:27.830] we set the Bekoff exponent as step i equal to the Bekoff exponent and the previous step increased by 1, right?
+[00:07:28.470 --> 00:07:38.710] and at the generic step i the contention window will be computed as two to the power
+[00:07:38.710 --> 00:07:52.450] of the cough exponent at step i minus one. This is the general expression that we use to compute
+[00:07:52.450 --> 00:08:02.290] the context point and the corresponding contention window at each step.
+[00:08:03.710 --> 00:08:17.250] That said, therefore we understand that every time that we need to perform the cost for a given data
+[00:08:17.250 --> 00:08:25.230] we roughly double the contention window as we said. So we are going to enlarge the possible
+[00:08:25.230 --> 00:08:33.050] values, integer values, that we can draw to compute the bit of time.
+[00:08:33.050 --> 00:08:48.070] Okay, so before explaining why we do that, why the standards say let's double the contention
+[00:08:48.070 --> 00:08:53.210] window every time we need to perform every cost to transmit the packet.
+[00:08:54.170 --> 00:09:00.590] So before explaining the reason, because we do that, let me mention what was reported
+[00:09:00.590 --> 00:09:07.990] in one of the earlier slides but I didn't comment on that because I didn't
+[00:09:07.990 --> 00:09:14.970] want to put too many things at the same time but one more thing
