@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2970.0,
+  "end_seconds": 3090.0,
+  "text": "explain why",
+  "raw_decoded": "language Chinese<asr_text>explain why<|im_end|>",
+  "generated_tokens": 6,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 4.762975302997802,
+  "at": "2026-10-18T04:48:41.425844+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

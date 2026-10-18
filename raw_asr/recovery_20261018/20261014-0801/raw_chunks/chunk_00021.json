@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2310.0,
+  "end_seconds": 2430.0,
+  "text": "Good. What about, for example, B, right? Because B successfully transmitted, while this is a condition we know under which B has to run the post backoff. So after that, he will send the channel for B's. This is B's. The channel is going to be idle, as we can see here, and he will draw the post backoff integer that we don't know what it is, right? It's something that we have to determine, but we know that it will draw some value as possible. Okay, so let's leave it there. Let's first look at A before going back to B. So A did nothing at the beginning because he didn't have anything to transmit. He could not hear B, so he did nothing at the beginning. But at a certain point, that is at zero plus zero point sixty five milliseconds, he gets a packet to transmit, right? He gets a packet from its higher layers. So now A2 is a contending node enters the game. And what it does is, he gets a packet from its higher layers. He senses the channel for B's. The channel is idle. So what it does is to start transmitting. Remember A and B cannot hear each other, so whatever B does, A cannot hear that.",
+  "raw_decoded": "language English<asr_text>Good. What about, for example, B, right? Because B successfully transmitted, while this is a condition we know under which B has to run the post backoff. So after that, he will send the channel for B's. This is B's. The channel is going to be idle, as we can see here, and he will draw the post backoff integer that we don't know what it is, right? It's something that we have to determine, but we know that it will draw some value as possible. Okay, so let's leave it there. Let's first look at A before going back to B. So A did nothing at the beginning because he didn't have anything to transmit. He could not hear B, so he did nothing at the beginning. But at a certain point, that is at zero plus zero point sixty five milliseconds, he gets a packet to transmit, right? He gets a packet from its higher layers. So now A2 is a contending node enters the game. And what it does is, he gets a packet from its higher layers. He senses the channel for B's. The channel is idle. So what it does is to start transmitting. Remember A and B cannot hear each other, so whatever B does, A cannot hear that.<|im_end|>",
+  "generated_tokens": 267,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 36.519187290001355,
+  "at": "2026-10-18T04:46:02.328738+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

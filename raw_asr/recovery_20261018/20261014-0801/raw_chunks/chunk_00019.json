@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2090.0,
+  "end_seconds": 2210.0,
+  "text": "The first, let's say action that is taken. Now, when the transmit, who can hear B? So it is always useful to draw on the side of your paper sheet or tablet or what you are currently using. The network topology that reminds you about which node can hear each other, right? So if we look at this, who can hear B? Access point and C, right? So the access point will receive the packet from B. And also C will hear that packet. Now nobody else is going to do anything during this time at the beginning, so there is no collision at the beginning. This means that C can set its knob correct based on the duration field that is reported in this packet header. So C will have its knob set. This is what happens at the beginning. Now this is important. Why? Because as reported in the problem, at a certain point C gets other packet from its higher layers. But since it has got its knob set, right? It knows and it can hear B. It knows that the channel is busy for sure. So C just gets the knob set, no issue with that. There is a that will get packet.",
+  "raw_decoded": "language English<asr_text>The first, let's say action that is taken. Now, when the transmit, who can hear B? So it is always useful to draw on the side of your paper sheet or tablet or what you are currently using. The network topology that reminds you about which node can hear each other, right? So if we look at this, who can hear B? Access point and C, right? So the access point will receive the packet from B. And also C will hear that packet. Now nobody else is going to do anything during this time at the beginning, so there is no collision at the beginning. This means that C can set its knob correct based on the duration field that is reported in this packet header. So C will have its knob set. This is what happens at the beginning. Now this is important. Why? Because as reported in the problem, at a certain point C gets other packet from its higher layers. But since it has got its knob set, right? It knows and it can hear B. It knows that the channel is busy for sure. So C just gets the knob set, no issue with that. There is a that will get packet.<|im_end|>",
+  "generated_tokens": 242,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.48820020899984,
+  "at": "2026-10-18T04:44:43.239750+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}
