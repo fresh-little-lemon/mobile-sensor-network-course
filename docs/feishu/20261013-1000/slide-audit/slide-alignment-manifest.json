@@ -1,0 +1,397 @@
+{
+  "lesson": "20261013-1000",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/KZRBdsn5hoo9eDxMz1ucm6h0ned",
+  "audited_at_utc": "2026-10-18T15:40:54.710755+00:00",
+  "remote_mutations": true,
+  "audit_snapshot": "blocks-final.json",
+  "audit_snapshot_sha256": "db5f36196f2ba58632ce96a30e8689c273ef6fc19df8d0f54606542e0394a8b0",
+  "paragraph_count": 64,
+  "original_image_count": 5,
+  "visually_verified_image_count": 5,
+  "aligned_images": 5,
+  "images_needing_move": [],
+  "confirmed_missing_pdf_slides": [
+    {
+      "figure_number": 89,
+      "title": "802.11n Example Data Rates",
+      "pdf_page": 45,
+      "pdf_half": "upper",
+      "printed_pdf_slide_label": 90,
+      "paragraph_spans": [
+        [
+          16,
+          18
+        ]
+      ],
+      "status": "resolved_and_verified",
+      "evidence": "第16段20:03明确切回Wi-Fi4说here we are，读最高600和最低6.5；17–18段继续拿6.5/600比较packet不同部分的发送速率。固定图89的两行rate表恰好包含6.5和600这两个端点，该课现有5图完全没有这张表。不是仅凭出现Wi-Fi4关键词补入。",
+      "placement": "第16段H2后、原第16段正文前",
+      "prepared_image_source": "/workspace/shared/course-1013-0803/slide-images/slide-089.png",
+      "provenance": "上一课授权Feishu原图与固定PDF第45页上半页已视觉核验；可从固定PDF原样栅格化。",
+      "new_image_block_id": "doxcnCHDnZ5kHpHHqJKDMsNgY5g",
+      "image_sha256": "d39525deed9f47eecfd12da345aab8a8849cf7793d003274407e69a4da4507d5",
+      "remote_download_sha256": "d39525deed9f47eecfd12da345aab8a8849cf7793d003274407e69a4da4507d5",
+      "write_receipt": "audit-readonly/insert-slide089-receipt.json"
+    }
+  ],
+  "unresolved_source_gaps": [
+    {
+      "id": "numerical-problem-1-separate-deck",
+      "title": "数值题1题目、AP/A/B/C拓扑与完整解答时序",
+      "paragraph_spans": [
+        [
+          24,
+          37
+        ],
+        [
+          40,
+          46
+        ]
+      ],
+      "status": "separate_teaching_deck_not_in_authorized_fixed_source",
+      "evidence": "第23段明确exit this slide deck and go to our numerical problems；25段说暂不发该课件避免看solution。题1：A/B时长1ms、C1.5ms，A/B同时发碰撞、backoff10/11、C在1.25ms到包、A于3.1ms重发；40段明确展示full solution。这是另一个独立课件，不是主PDF图54/EIFS示意。",
+      "search_scope": "本课资源块与inventory只链接02-WiFi_1-7.pdf；该74页主PDF的完整文本及图页不含这两个具体题目，23段还明确说明换课件。",
+      "action": "记录练习课件来源待提供/定位；不按不完整口述猜参数或重绘解答。"
+    },
+    {
+      "id": "numerical-problem-2-separate-deck",
+      "title": "数值题2题目与不等时长碰撞/EIFS解答时序",
+      "paragraph_spans": [
+        [
+          47,
+          51
+        ],
+        [
+          54,
+          64
+        ]
+      ],
+      "status": "separate_teaching_deck_not_in_authorized_fixed_source",
+      "evidence": "题2 A/C1ms、B1.4ms、TF150µs，C在忙期间到包；54段开始solution，A早停后听B尾部需EIFS，B常规DIFS。给定B backoff在61/63段有13/30不确定，不可凭推理替代原题。",
+      "action": "需同一练习课件原图；保留所有不确定标注，不把题2当题1或通用图54。"
+    },
+    {
+      "id": "packet-basic-rate-classroom-annotation",
+      "title": "原包结构上标注1/11与6.5/600Mb/s的课堂示意",
+      "paragraph_spans": [
+        [
+          5,
+          18
+        ]
+      ],
+      "status": "unresolved_classroom_visual_source_not_found",
+      "evidence": "5段this is a packet，16段let us write here basic rate；18段指同一packet分别填写PHY与MAC/payload速率。图52有文字计算，图89有rate表，但未找到这次课堂对包结构的手写标注图。",
+      "action": "保留52并补89作为原课件；不制作未经核实的手写恢复图。"
+    }
+  ],
+  "all_lecture_visuals_recovered": false,
+  "audio_fidelity_verified": false,
+  "navigation_complete": true,
+  "slides_audit_complete": true,
+  "source_pdf": {
+    "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+    "local_path": "/workspace/shared/02-WiFi_1-7.pdf",
+    "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+    "pages": 74,
+    "provenance": "已存在固定PDF，与前序审计清单SHA256一致"
+  },
+  "images": [
+    {
+      "image_ordinal": 1,
+      "block_id": "doxcnj6U7QKxO2RsTe3uAizr8Jb",
+      "figure_number": 52,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第26页下半页 · 图52（按PDF顺序）",
+      "token": "GxyDb8uYfoM3TtxK1jwcc4Vgnrd",
+      "image_path": "/workspace/shared/course-1013-1000/slide-images/slide-052.png",
+      "after_paragraph": 3,
+      "before_paragraph": 4,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1013-1000/slide-images/slide-052.png\",\n    \"size_bytes\": 140800\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "fd893dfcddf63b82379d6a61d77b4124bf9e28626002befb06c0a04e67aea34b",
+      "title": "Worked Example: Why 11 Mb/s Never Feels Like 11 Mb/s",
+      "semantic_paragraph_spans": [
+        [
+          1,
+          15
+        ]
+      ],
+      "alignment_reason_zh": "第3段直接读此标题，4–15段逐项解释frame time、192µs、11Mb/s、1500B、DIFS/backoff/SIFS/ACK，图52数值框与公式一致，紧跟第3段正确。原文某些ACK速率表述与课件存在出入，不在本次改正文范围。",
+      "pdf_page": 26,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 3,
+        "timestamp": "00:01:51",
+        "block_id": "doxcnoYIufTm8m9FSk1ZXfub7Te",
+        "heading": "03 · 00:01:51 · 用11Mbps数值例子理解600Mbps的用途"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 4,
+        "timestamp": "00:05:32",
+        "block_id": "doxcnVFJVsrGnNQOJ6atijfPdUd",
+        "heading": "04 · 00:05:32 · 物理层数据速率用于计算帧发送时间"
+      }
+    },
+    {
+      "figure_number": 89,
+      "title": "802.11n Example Data Rates",
+      "image_path": "/workspace/shared/course-1013-1000/slide-images/slide-089.png",
+      "sha256": "d39525deed9f47eecfd12da345aab8a8849cf7793d003274407e69a4da4507d5",
+      "block_id": "doxcnCHDnZ5kHpHHqJKDMsNgY5g",
+      "pdf_page": 45,
+      "pdf_half": "upper",
+      "status": "added_and_remote_verified",
+      "after_paragraph": 15,
+      "before_paragraph": 16,
+      "after_heading_block_id": "doxcnVKLcaSnUFLveZP18SEXrEc",
+      "semantic_paragraph_spans": [
+        [
+          16,
+          18
+        ]
+      ],
+      "identity_verified": "固定PDF原样4倍栅格化并视觉检查，远端重下载与本地PNG的SHA256完全一致。",
+      "alignment_reason_zh": "第16段20:03明确切回Wi-Fi4说here we are，读最高600和最低6.5；17–18段继续拿6.5/600比较packet不同部分的发送速率。固定图89的两行rate表恰好包含6.5和600这两个端点，该课现有5图完全没有这张表。不是仅凭出现Wi-Fi4关键词补入。",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第45页上半页 · 图89（按PDF顺序）"
+    },
+    {
+      "image_ordinal": 2,
+      "block_id": "doxcn2wnl1PqdG03yatYA7unheb",
+      "figure_number": 92,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第46页下半页 · 图92（按PDF顺序）",
+      "token": "FjB3bkm1Oo6MdNxI1kNcccjonqZ",
+      "image_path": "/workspace/shared/course-1013-1000/slide-images/slide-092.png",
+      "after_paragraph": 21,
+      "before_paragraph": 22,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1013-1000/slide-images/slide-092.png\",\n    \"size_bytes\": 75110\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "fa0ea83d9b2f976efe3c03ddc08d0c38f727c4e8bdaff6ca558ef1fbfd89a222",
+      "title": "MAC Enhancements in 802.11n",
+      "semantic_paragraph_spans": [
+        [
+          19,
+          23
+        ]
+      ],
+      "alignment_reason_zh": "21段正式引入amendment通过aggregation解决效率下降；图92首条列A-MSDU/A-MPDU，作为增强概览置于21段后合适。其余RIFS/reverse direction并未展开，不续插相关页。",
+      "pdf_page": 46,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 21,
+        "timestamp": "00:25:49",
+        "block_id": "doxcndgTHSmgCPy0ZQP3qzY8gc5",
+        "heading": "21 · 00:25:49 · 聚合高层载荷以共享一个MAC头部"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 22,
+        "timestamp": "00:29:09",
+        "block_id": "doxcncG0S9duSVVEHoxwFvTyY37",
+        "heading": "22 · 00:29:09 · 聚合多个MAC数据包以共享物理头部与前导码"
+      }
+    },
+    {
+      "image_ordinal": 3,
+      "block_id": "doxcnrL34xwf4FqK1I4KSkyj9Sy",
+      "figure_number": 94,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第47页下半页 · 图94（按PDF顺序）",
+      "token": "Pit6bQRvco86eex9ITUcCqOAnJC",
+      "image_path": "/workspace/shared/course-1013-1000/slide-images/slide-094.png",
+      "after_paragraph": 21,
+      "before_paragraph": 22,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1013-1000/slide-images/slide-094.png\",\n    \"size_bytes\": 81978\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "145628da48e3bc3df487dc89b4b77e36225c399ce0c392d5cf68d5d8abecb1a3",
+      "title": "A-MSDU: Aggregating at the MSDU Level",
+      "semantic_paragraph_spans": [
+        [
+          21,
+          22
+        ]
+      ],
+      "alignment_reason_zh": "21段详细说多个higher-layer payload依次拼接成一个MAC payload、只加一个MAC header；图94 MSDU1…N进入同一MPDU Header/FCS正对应，21段后精准。",
+      "pdf_page": 47,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 21,
+        "timestamp": "00:25:49",
+        "block_id": "doxcndgTHSmgCPy0ZQP3qzY8gc5",
+        "heading": "21 · 00:25:49 · 聚合高层载荷以共享一个MAC头部"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 22,
+        "timestamp": "00:29:09",
+        "block_id": "doxcncG0S9duSVVEHoxwFvTyY37",
+        "heading": "22 · 00:29:09 · 聚合多个MAC数据包以共享物理头部与前导码"
+      }
+    },
+    {
+      "image_ordinal": 4,
+      "block_id": "doxcnVjx6AmxsWpzj0Tu82zTtce",
+      "figure_number": 95,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第48页上半页 · 图95（按PDF顺序）",
+      "token": "DrnHbKjBUomGWLxCKURcYod9n5g",
+      "image_path": "/workspace/shared/course-1013-1000/slide-images/slide-095.png",
+      "after_paragraph": 22,
+      "before_paragraph": 23,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1013-1000/slide-images/slide-095.png\",\n    \"size_bytes\": 93236\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "f291955d9d8b42b622caa4df4fd12109b7ded24bd82e6fa80476c1f0d0243a43",
+      "title": "A-MPDU: Aggregating at the MPDU Level",
+      "semantic_paragraph_spans": [
+        [
+          22,
+          23
+        ]
+      ],
+      "alignment_reason_zh": "22段说明多个MAC packet再次拼接只加一个PHY header/preamble；图95的MPDU1…N、共享PHY Header结构吻合。",
+      "pdf_page": 48,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 22,
+        "timestamp": "00:29:09",
+        "block_id": "doxcncG0S9duSVVEHoxwFvTyY37",
+        "heading": "22 · 00:29:09 · 聚合多个MAC数据包以共享物理头部与前导码"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 23,
+        "timestamp": "00:30:58",
+        "block_id": "doxcnkJywiOxurJDYF6rtREcSrd",
+        "heading": "23 · 00:30:58 · 两级聚合改善效率与课程内容转入练习"
+      }
+    },
+    {
+      "image_ordinal": 5,
+      "block_id": "doxcnPT83J8p94dWxTQBccKWmUe",
+      "figure_number": 96,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第48页下半页 · 图96（按PDF顺序）",
+      "token": "VdeRb34APohkqVxlY8DcLqm2nDc",
+      "image_path": "/workspace/shared/course-1013-1000/slide-images/slide-096.png",
+      "after_paragraph": 22,
+      "before_paragraph": 23,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1013-1000/slide-images/slide-096.png\",\n    \"size_bytes\": 79794\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "3a8436042a2d82265e8f5b572df93da47ab8a4429a24145f7975aee5af1f8221",
+      "title": "Two-Level Aggregation",
+      "semantic_paragraph_spans": [
+        [
+          21,
+          23
+        ]
+      ],
+      "alignment_reason_zh": "22段明确总结two stages，第一层payload聚合+一个MAC头、第二层MAC packet聚合+一个PHY头；图96上下两级箭头即该过程，22段后与95并列恰当。",
+      "pdf_page": 48,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 22,
+        "timestamp": "00:29:09",
+        "block_id": "doxcncG0S9duSVVEHoxwFvTyY37",
+        "heading": "22 · 00:29:09 · 聚合多个MAC数据包以共享物理头部与前导码"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 23,
+        "timestamp": "00:30:58",
+        "block_id": "doxcnkJywiOxurJDYF6rtREcSrd",
+        "heading": "23 · 00:30:58 · 两级聚合改善效率与课程内容转入练习"
+      }
+    }
+  ],
+  "not_missing": [
+    {
+      "figure_number": 93,
+      "title": "Why Aggregation? The Preamble-Overhead Problem",
+      "status": "relevant_source_slide_but_display_not_confirmed",
+      "reason": "19–21段确实讲高速payload缩短而固定开销仍在，但课件93具体300Mb/s、40µs案例未出现，已有图52和94–96覆盖开销计算及聚合结构。可作为相关阅读，不能仅因92与94之间少93就认定漏页。"
+    },
+    {
+      "figure_numbers": [
+        53,
+        54,
+        55
+      ],
+      "reason": "练习解答虽用EIFS，但其AP/A/B/C、具体毫秒时刻与题目变量不等于主PDF的B→C/A侦听示意；不以通用图代替缺失练习图。"
+    },
+    {
+      "figure_numbers": [
+        91,
+        97,
+        98
+      ],
+      "reason": "本课未展开PPDU formats、link adaptation或Wi-Fi5章节，23段明确结束主PDF并转练习，不补后续页。"
+    }
+  ],
+  "scope": "完整阅读64段双语稿的讲解语义；下载并逐张查看5张原图，与固定PDF对应页比较；不改远端正文/导航/图片/录音/原始文字记录/智能纪要。",
+  "cautions": [
+    "原文在TF100/150µs、B backoff13/30、A/C或A/B、信道idle/busy处已有不确定说明；本次不以推算改正文。",
+    "图89的页外打印号为90，按实际半页顺序仍应图89。",
+    "未用原音认证转写；未打包私人音频。",
+    "图号为固定PDF讲义顺序，不是文档顺序或小页脚章节编号；不按图号机械重排。",
+    "仅补图89并更新文首图数；原始minutes/transcript、正文、全部原图、导航和音频均不变；未发布备份。"
+  ],
+  "unresolved_source_gap_count": 3,
+  "manifest_update_recommendation": {
+    "slides_audit_pending": false,
+    "slides_audit_complete": true,
+    "slides_aligned_count": 5,
+    "slides_missing_confirmed_count": 0,
+    "slides_misaligned_count": 0,
+    "unresolved_visual_source_gaps": 3,
+    "audio_fidelity_verified": false,
+    "slides_missing_resolved_count": 1,
+    "image_count": 6,
+    "original_images_count": 5
+  },
+  "added_image_count": 1,
+  "final_image_count": 6,
+  "final_remote_verification": {
+    "all_original_nonroot_blocks_except_status_unchanged": true,
+    "original_image_count": 5,
+    "original_images_unchanged": true,
+    "original_order_unchanged": true,
+    "all_original_bilingual_paragraph_blocks_unchanged": true,
+    "paragraph_count": 64,
+    "original_recording_and_resource_blocks_unchanged": true,
+    "heading2_count": 64,
+    "heading1_count": 9,
+    "final_image_count": 6,
+    "new_image_block_id": "doxcnCHDnZ5kHpHHqJKDMsNgY5g",
+    "exact_placement_verified": true,
+    "remote_download_sha256": "d39525deed9f47eecfd12da345aab8a8849cf7793d003274407e69a4da4507d5",
+    "prepared_image_sha256": "d39525deed9f47eecfd12da345aab8a8849cf7793d003274407e69a4da4507d5",
+    "remote_image_bytes_identical": true,
+    "before_snapshot_sha256": "db5f36196f2ba58632ce96a30e8689c273ef6fc19df8d0f54606542e0394a8b0",
+    "after_snapshot_sha256": "885b838cb4a4b3af3f0f9cd023bd24d1030d4b414cb1e29d623b1975508f69b5",
+    "status_block_id": "doxcnI9ItX6XMKKbkudvMSaDKte",
+    "status_text": "会议主题：录音机-20261013-1000\n课程：移动与传感器网络 / Mobile Sensor Networks\n上传时间：2026年10月14日（周三） 09:13 （GMT+08）\n音频时长：约 01:36:21\n整理日期：2026年10月18日\n版本：完整忠实双语稿 · 913cf98f5b3c\n状态：双语正文已完成（64 对）；课件图共6张（保留原5张，补充1张）；64个分段标题与9个主题标题已核验"
+  },
+  "missing_slide_remediation_complete": true,
+  "all_confirmed_pdf_slides_present": true
+}
