@@ -1,0 +1,410 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "blocks": [
+      {
+        "block_id": "doxcnpIXR5BhdcEJODa1iMozspe",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:54:59",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo we multiply by again one over CW_min plus one, which is the probability that C [draws / grows unclear] n. So what we have is simply sum over n that goes from zero to CW_min of one over CW_min plus one squared, [right / okay unclear]? Now, this is a constant term, we are inside a sum, so we are summing this constant term how many times? CW_min plus one times, right? So this is equal to CW_min plus one divided by CW_min plus one squared. We simplify numerator and denominator, and we get one over CW_min plus one.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以我们再乘以一除以（CW_min 加一），也就是 C [抽到／grows，待听辨] n 的概率。所以，我们得到的就是对从零到 CW_min 的 n 求和，求一除以（CW_min 加一）的平方的和，[对吧／好吗，待听辨]？现在，这是一个常数项，我们在一个求和里面，所以我们把这个常数项加多少次？（CW_min 加一）次，对吧？所以这等于（CW_min 加一）除以（CW_min 加一）的平方。我们把分子和分母约简，就得到一除以（CW_min 加一）。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnBQOCHSdBhJ0SZfY43litTc",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:49:19",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, good. [So / Now unclear], let's look at our computation. So, the probability that B and C collide is, as we said, very simply, so [don't / do not unclear] worry, this is a very, very simple derivation. Is the probability that B and C draw the same value, let's say n, okay? [A / the unclear] same value, [a / the unclear] same integer. That's what we said, all right. Let's start this computation by considering that B draws n, a given integer n, whatever this is. So, what we are first computing is the [conditional / conditioned unclear] probability, so the probability that C draws also n, so n, given that B drew n, okay? So this is the so-called conditioned probability. Now remember, our scheme is actually very simple because it's distributed. And as we said, every node makes its own decisions according to the protocol rules, but it makes its own decisions independently from the others, right?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，很好。[所以／现在，待听辨]，我们来看我们的计算。所以，B 和 C 碰撞的概率，正如我们所说，非常简单地，所以[不用／不要，待听辨]担心，这是一个非常、非常简单的推导。就是 B 和 C 抽到相同的值，比如说 n，好吗？[一个／这个，待听辨]相同的值，[一个／这个，待听辨]相同的整数。那就是我们说的，好吧。我们开始这个计算，先考虑 B 抽到 n，一个给定的整数 n，不管这个是多少。所以，我们首先正在计算的是[conditional／conditioned，待听辨]概率，也就是 C 也抽到 n 的概率，所以是 n，已知 B 抽到了 n，好吗？所以这就是所谓的条件概率。现在记住，我们的方案实际上非常简单，因为它是分布式的。而且，正如我们说的，每个节点按照协议规则作出自己的决定，但它独立于其他节点作出自己的决定，对吧？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnpL38KX3LtqqoQ5CnydBzNd",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:44:32",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, now let's stop for five minutes. And then use the [short break / shortcut unclear], if I'm not wrong. Okay, and then we will resume and see how [this probability / these probabilities unclear] of collision can be computed.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，现在我们停五分钟。然后利用这个[短暂休息／捷径，待听辨]，如果我没有弄错的话。好，然后我们会继续，看看[这个／这些，单复数待听辨]碰撞的概率如何能够计算出来。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcns4CMNfXgAjgRek2xop5aSh",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:51:21",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, the fact that B drew n will not affect the probability that C draws n. C does whatever, let's say, [he / it unclear] likes, based on what decisions [he / it unclear] makes following the protocol, right? But it's not affected by what other nodes do. So, this is actually equal to the probability that C draws n, simply that, because it doesn't matter what B does, right? C will do things by [itself / himself / themselves unclear].\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，B 抽到了 n 这个事实不会影响 C 抽到 n 的概率。C 做任何，假设说，[他／它，待听辨]喜欢做的事，根据[他／它，待听辨]遵循协议作出的决定，对吧？但它不会受到其他节点所做事情的影响。所以，这实际上就等于 C 抽到 n 的概率，就是这样，因为 B 做什么并不重要，对吧？C 会[自己，反身代词待听辨]做事情。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcndVEHARMqt6UlFaVILYkrob",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:52:17",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so what is the probability that C draws n? So, what is the probability that an integer is selected out of the range zero, CW_min? Well, we have written that here, right? This is the probability. Okay, so now we know that given that B has drawn n, the probability that C will also draw n is this one. Okay, so [conditioned / condition unclear] to the fact that B drew n, then this is the collision probability [conditioned / condition unclear] to the fact that B drew n, right?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，所以 C 抽到 n 的概率是什么？所以，从零、CW_min 这个范围中选出一个整数的概率是什么？嗯，我们已经把那个写在这里了，对吧？这就是那个概率。好，所以现在我们知道，已知 B 已经抽到了 n，C 也会抽到 n 的概率就是这个。好，所以[conditioned／condition，词尾待听辨]于 B 抽到了 n 这个事实，那么这就是[conditioned／condition，词尾待听辨]于 B 抽到了 n 这个事实的碰撞概率，对吧？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnnL1HcoGHeu170WeLRQgmwb",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:56:35",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, the final result of all [this computation / these computations unclear] is that the probability that B and C collide in our simple example that we presented earlier is one over the contention window plus one. Okay, now if you [were / are unclear] able to follow the computation, great. It's a simple probability computation, but if your background is different, and therefore you have not seen probability anywhere in your previous courses, do not worry. The important thing is that you retain the final message.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，所有[这个计算／这些计算，待听辨]的最终结果是，B 和 C 在我们前面展示的这个简单例子里碰撞的概率是一除以（竞争窗口加一）。好，现在，如果你们[之前能够／能够，时态待听辨]跟上这个计算，那很好。这是一个简单的概率计算，但是如果你们的背景不同，因此在你们之前的课程里的任何地方都没有见过概率，不要担心。重要的事情是你们记住最后的信息。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnflxhsrZ0Q4lhw4fU7eq5xe",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:54:22",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, let's first write the probability that B draws n. The probability that B draws n is again this one. So we can write one over CW_min plus one. This is the probability that B draws n. And then given that, we know that [a / the unclear] collision happens if C also draws n. That happens with this probability.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，我们先写出 B 抽到 n 的概率。B 抽到 n 的概率又是这个。所以我们可以写一除以（CW_min 加一）。这就是 B 抽到 n 的概率。然后，给定那个，我们知道，如果 C 也抽到 n，就会发生[一次／这次，待听辨]碰撞。那件事以这个概率发生。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn1OwmYmonhT50Rlx5H4yd4K",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:53:12",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nWhat we need to do is to now to compute the original probability, is to decondition and make the computation for any possible n. So, what we want to now do is to compute in general the probability that B and C collide without conditioning to any event. So that is, we need to consider all possible values of integer from zero to CW_min. And for any n, we know that the probability of collision is what? The probability that C draws n if also B has drawn n, right?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "我们需要做的是现在去计算原来的概率，是去掉条件，并对任何可能的 n 进行计算。所以，我们现在想做的是一般地计算 B 和 C 碰撞的概率，不以任何事件为条件。所以，也就是说，我们需要考虑从零到 CW_min 的所有可能的整数的值。而对于任何 n，我们知道碰撞的概率是什么？如果 B 也已经抽到了 n，C 抽到 n 的概率，对吧？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ],
+    "client_token": "4d2e15d7-efcb-46f6-9248-062feaf03b34",
+    "document_revision_id": 120
+  }
+}

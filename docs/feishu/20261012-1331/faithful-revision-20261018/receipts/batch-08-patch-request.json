@@ -1,0 +1,356 @@
+{
+  "requests": [
+    {
+      "block_id": "doxcnYKp8xXaOwlMx8lzDMPjmEh",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  01:10:13",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nSo again, we want to understand why, right? [I mean / maybe unclear], this is not enough. Okay, I have to do it, I will do it, but tell me why, why do I have to do that? Well, the reason is fairness. We want to be fair to our nodes.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "所以，我们还是想理解为什么，对吧？[我的意思是／也许，待听辨]，这还不够。好，我必须做，我会做，但告诉我为什么，为什么我必须那样做？嗯，原因是公平性。我们想公平地对待我们的节点。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnBdnbpPGhKGwvSK0xHE3Xkf",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  01:10:32",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nOkay, so let me give [you unclear] an example, and that will allow us to indeed understand why they tell us, once you transmit successfully, run this post-backoff. So let's consider again the same scenario, so that will be easy. Access point, and then node A. And then we can also consider our B and C nodes, right? Same as before. So we know [already / that with unclear] the story, it will be easier. So the story starts in the same way. A has got a packet, [DIFS unclear], channel idle, transmits the data packet, unicast data packet to the access point. This packet transmission is successful, so the access point [sends / sent unclear] back the ACK.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "好，所以让我[给你们，待听辨]举一个例子，而那会让我们的确理解为什么他们告诉我们，一旦你成功发送，就运行这个发送后退避。所以，我们再考虑同一个场景，那样就容易了。接入点，然后节点 A。然后我们也可以考虑我们的 B 和 C 节点，对吧？和之前一样。所以我们[已经／that with，待听辨]知道这个过程，它会更容易。所以，这个过程以同样的方式开始。A 有了一个数据包，[DIFS，待听辨]，信道空闲，发送这个数据包，单播数据包给接入点。这次数据包传输是成功的，所以接入点[发回／发回了，时态待听辨] ACK。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnWJukIbTM7WOpJFug42kc4d",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  01:11:51",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nAnd as we said before, all nodes are in radio visibility of each other, they can hear each other. So B and C will set their [NAV unclear]. And same as before, at a certain point B and C get a packet from their respective higher layers, so they will have to transmit their packet, right?\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "而且正如我们之前说的，所有节点都处在彼此的无线可见范围内，它们可以互相听到。所以 B 和 C 会设置它们的[NAV，待听辨]。而且和之前一样，在某个时刻 B 和 C 从它们各自的高层收到一个数据包，所以它们将必须发送它们的数据包，对吧？",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnJy0CfZy89ROVTTTAPVxpFe",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  01:12:20",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nAnd we know already how things work, fine, but now our attention is on A, okay? Let's focus on A. A is the one that performs its transmission successfully, so it's done. And according to the protocol, now we know that A actually, once it has finished transmitting the packet and [received / receive unclear] the ACK, needs to perform this [post / past / fast unclear] backoff procedure, right? So [it / I unclear] will have to sense the channel for [DIFS unclear], and then [it / you / we unclear] will have to draw an integer out of the range zero, CW_min. And of course for B and C we'll have the same behavior as before. We know [that already / that's ready unclear]. So B and [and unclear] C will have to run a, let's say, regular backoff procedure.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "而且我们已经知道事情如何进行，很好，但现在我们的注意力在 A 上，好吗？我们把注意力放在 A 上。A 是那个成功进行它的传输的节点，所以它完成了。而根据协议，现在我们知道，A 实际上，一旦它已经发送完数据包并且[收到了／收到，时态待听辨] ACK，就需要执行这个[post／past／fast，待听辨]退避过程，对吧？所以[它／我，待听辨]将必须侦听信道一个[DIFS，待听辨]的时间，然后[它／你／我们，待听辨]将必须从零、CW_min 这个范围中抽取一个整数。而且当然，对于 B 和 C，我们会有和之前相同的行为。我们知道[那个已经／that's ready，待听辨]。所以 B 和[和，重复待听辨] C 将必须运行一个，我们说，常规的退避过程。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnOafaFDOATqssKwhE22BQ4g",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  01:13:44",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nSo again, in order to understand how useful [a / the unclear] mechanism is, or solution is, let's play our little game of ablation, right? So let's remove the post-backoff and see what happens. So what if A does not have to run any, [any unclear] post-backoff? Well, let's add an event here to better understand what would happen considering all possible cases.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "所以，再一次，为了理解[一种／这一个，待听辨]机制有多有用，或者解决方案有多有用，让我们玩一下我们的小小消融游戏，对吧？所以，让我们去掉发送后退避，看看会发生什么。所以，如果A不必执行任何、[任何，重复待听辨]发送后退避，会怎么样？嗯，让我们在这里加一个事件，考虑所有可能的情况，来更好地理解会发生什么。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcniDom3MTYG6SdyGg8uIbLqh",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  01:14:31",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nLet's consider that A has got another packet in [a unclear] its MAC queue. Remember that we said the MAC layer can be modeled, right, as a queue with a server. So let's consider that A has transmitted the packet here successfully, but let's assume that A has [got / put unclear] another packet in the queue waiting to be transmitted. So this first packet goes through, right, successfully. This is what we [represented / represent unclear] here. But now A has got another packet right here, right?\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "让我们考虑A在[一个，待听辨]它的MAC队列里又有了一个数据包。记住，我们说过，MAC层可以被建模，对吧，建模成一个带有服务台的队列。所以，让我们考虑A已经在这里成功地发送了这个数据包，但让我们假设A在队列里[还有／放入了，待听辨]另一个等待发送的数据包。所以，这第一个数据包通过了，对吧，成功地通过了。这就是我们在这里[已经表示出的／所表示的，时态待听辨]内容。但现在A在这里又有了一个数据包，对吧？",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnfJ7kuePp8OBvwoAxXJk1sc",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  01:15:22",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nSo when [it's / he's unclear] done with this dialogue, [we'll / we unclear] have another packet to deal with. So what if A didn't have any post-backoff to run? Well, [it / he / you unclear] will have to sense the channel for DIFS. The channel is idle, and [it / you unclear] will be able to access the channel [and transmit / trust me unclear]. So [it / you unclear] will have to transmit its [other / own unclear] data. This may be successful. And what would be that? Would that be fair with respect to B and C?\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "所以，当[它／他，待听辨]完成这轮对话时，我们[将会有／有，待听辨]另一个数据包要处理。所以，如果A没有任何发送后退避要执行，会怎么样？嗯，[它／他／你，待听辨]将必须侦听信道一个DIFS的时间。信道是空闲的，而[它／你，待听辨]将能够接入信道[并发送／相信我，待听辨]。所以，[它／你，待听辨]将必须发送它的[其他／自己的，待听辨]数据。这可能会成功。那这会是什么情况？这对B和C来说会公平吗？",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnOX3I4DDVfFDghwN2D719Lf",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  01:16:10",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nThe poor B and C are waiting [right there unclear], their backoff time, and A just gets the next packet and go ahead with its transmission. So this is unfair. And indeed, if a Wi-Fi card like A has got several packets to transmit, under this situation without post-backoff, we just continue accessing the channel and transmitting its packets. With very high probability, [it / you unclear] will actually seize the channel for a very long time and transmit, transmit, transmit, while the others [will have / we have / we had unclear] to wait, wait, [and unclear] wait, because the channel [will / would unclear] become busy [confused unclear]. And this was indeed observed, also experimentally. Years ago, some researchers made experiments with different Wi-Fi cards. [They / which unclear] were commercial products. They claimed, all these cards [claimed / claim unclear] to follow the standard. [Of course / for unclear] products must follow the standard. They [claimed / claim unclear] to do that. But actually, one of these cards was applying everything, okay, as specified by the standard, but the post-backoff.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "可怜的B和C[就在那儿，待听辨]等着，等它们的退避时间，而A只是拿到下一个数据包，就继续它的发送。所以，这是不公平的。而且确实，如果像A这样的Wi-Fi网卡有好几个数据包要发送，在这种没有发送后退避的情况下，我们就一直接入信道，并发送它的数据包。以非常高的概率，[它／你，待听辨]实际上会占据信道很长时间，并且发送、发送、发送，而其他那些[将必须／我们必须／我们过去必须，待听辨]等、等、[并且，待听辨]等，因为信道[将会／会，待听辨]变忙[后词疑似confused，待听辨]。而且，这也确实在实验中被观察到了。几年前，一些研究人员用不同的Wi-Fi网卡做了实验。[它们／这些，连接形式待听辨]是商业产品。它们声称，所有这些网卡都[声称过／声称，时态待听辨]遵循标准。[当然／因为，待听辨]产品必须遵循标准。它们[声称过／声称，时态待听辨]自己这样做。但实际上，这些网卡中的一张实施了标准所规定的所有内容，好吧，唯独发送后退避除外。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

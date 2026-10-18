@@ -1,0 +1,359 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "blocks": [
+      {
+        "block_id": "doxcnH3EBc16mt3kuRZNdO8FJpe",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:33:12",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, [you can be considered; subject/construction unclear] equal to three hundred microseconds. [Okay unclear], so just to [have an idea / verify / evaluate; unclear]. So if I'm not wrong, now we stop for twenty-five minutes. Okay.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，〔你可以被认为；主语/句式待听辨〕等于三百微秒。〔Okay有无待听辨〕，所以只是为了〔have an idea / verify / evaluate，有个概念/核实/评估，待听辨〕。所以，如果我没有记错，现在我们停二十五分钟。好。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn3fmOp5L90UErrVjSZ8fWBg",
+        "block_type": 2,
+        "parent_id": "doxcn40pOwAcxnR5DtaNfJPd8Xx",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "会议主题：录音机-20261012-1331\n课程：移动与传感器网络 / Mobile Sensor Networks\n上传时间：2026年10月14日（周三） 09:55 （GMT+08）\n音频时长：约 01:33:42\n整理日期：2026年10月18日\n版本：原措辞恢复双语稿（含待听辨标记）\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "状态：2026-10-18：已依据原文字记录、历史Qwen输出与本次全录音ASR恢复原措辞；方括号为待听辨标记，未完成逐句人工听校。开头00:00–00:03片语待核，首段原时间锚00:00:03保留。目录、课件图与录音保留。\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "结构：双语正文78对；课件图共8张（保留原6张，补充2张）；78个分段标题与9个主题标题已加入原生目录",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnoz4iNyPcVFzBZa9v02rNAb",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:29:08",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nBut then, if the packet is hopefully, so in the best case, delivered successfully, you have SIFS. That is [another time interval / another time you have ... interval; wording unclear] you have to wait for. And then acknowledgment, that is a control packet, so not interesting from the application point of view.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "但是然后，如果这个数据包，希望如此，所以是在最好的情况下，被成功递送了，你会有SIFS。那是〔another time interval / another time you have ... interval，另一段时间间隔及可能的起句重说，待听辨〕，你必须等过的。然后是确认，那是一个控制包，所以从应用的角度看并不有意思。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnjlEVlqixKzyDteKtNUUyQb",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:29:30",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd the acknowledgment again is made of physical preamble, physical header, MAC header, so lots of things to be transmitted. And that's the best case. So, you, to transmit the payload, you have to wait [DIFS/SIFS unclear], transmission of physical layer preamble, physical layer header, MAC header, and then SIFS, and then ACK. [Okay unclear], lots of time to just transmit [a/the/zero-article unclear] payload.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "并且这个确认又由物理层前导码、物理层首部、MAC首部构成，所以有许多东西要传输。而且那还是最好的情况。所以，你，为了传输有效载荷，你必须等待〔DIFS/SIFS待听辨〕、物理层前导码的传输、物理层首部、MAC首部，然后是SIFS，然后是ACK。〔Okay有无待听辨〕，要用很多时间，就为了传输〔a/the/无冠词待听辨〕有效载荷。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnVIlMbRLnNFqo5tFGAYyaqh",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:30:04",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo you better have a long payload because otherwise your protocol is very, very inefficient, [okay unclear]. And this is the best case. If your transmission fails and you have to perform backoff and retransmit the packet, then you have to wait for the channel to become idle. [DIFS/SIFS unclear], backoff time. Hope that the channel remains idle and you can decrease the backoff counter continuously and over time reach zero, and then transmit your packet, and then SIFS and ACK. Lots of things, right? Just again to transmit a single [payload/failure unclear].\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以你最好有一个长的有效载荷，因为否则你的协议就非常、非常低效，〔okay有无待听辨〕。而且这是最好的情况。如果你的传输失败了，并且你必须执行退避并重传这个数据包，那么你必须等待信道变为空闲。〔DIFS/SIFS待听辨〕，退避时间。希望信道保持空闲，而且你能够持续地递减退避计数器，并随着时间推移到达零，然后传输你的数据包，然后是SIFS和ACK。很多东西，对吧？仅仅又是为了传输一个〔payload/failure，有效载荷/失败，待听辨〕。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnhiEoLg0Ehnqpu87QIE85Mf",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:30:46",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, we [realize/realized unclear] that the efficiency of Wi-Fi is actually pretty low. And this holds, unfortunately, for all versions of Wi-Fi. Okay, we [looked / are looking / have looked unclear] at the basic version, but it's actually a curse for all versions. And on average, you can consider that the efficiency of this scheme is about fifty, fifty-five percent, which is definitely low, right? The maximum efficiency [would/will unclear] be one hundred percent. [So, yeah, hopefully / so, we are halfway; unclear]\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，我们〔realize/realized，时态待听辨〕认识到，Wi-Fi的效率实际上相当低。而且不幸的是，这对所有版本的Wi-Fi都成立。好，我们〔looked/are looking/have looked，时态待听辨〕看的是基础版本，但是它实际上是所有版本的一个诅咒。而且平均来看，你可以认为这个方案的效率大约是百分之五十、五十五，这确实很低，对吧？最高效率〔would/will，情态或时态待听辨〕是百分之百。〔So, yeah, hopefully / so, we are halfway，所以，是的，希望如此／所以，我们到了一半；待听辨〕",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnwoEYTymZ16TQtbNWfHjjff",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:31:25",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, that said, we are just missing one last mechanism in the Wi-Fi channel access, and then we are done with the basic version of Wi-Fi, that is the most important one. Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous [four/for/form unclear] interframe space, the extended IFS. Remember the extended IFS. Remember the priority ladder, we have SIFS, PIFS, [DIFS/PIFS unclear], and extended IFS. So, we [said/start unclear], let's first focus on SIFS and [DIFS/PIFS unclear], understand how they are used, and then we'll go back to the other [time/timing unclear] intervals. So, now it's time to talk about the longest among these [time/timing unclear] intervals. That was indeed the extended IFS. And just to give you an idea, this extended IFS, [so/or unclear] this [time/timing unclear] interval, can be as long as about three hundred microseconds, so definitely longer than the others that we have considered so far.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，说到这里，我们在Wi-Fi信道接入中就只剩最后一个机制还没有讲，然后我们就讲完Wi-Fi的基础版本了，那是最重要的一个版本。好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的〔four/for/form，确切措辞待听辨〕帧间间隔，扩展IFS。记住扩展IFS。记住这个优先级阶梯，我们有SIFS、PIFS、〔DIFS/PIFS待听辨〕，还有扩展IFS。所以，我们〔said/start，确切措辞待听辨〕，我们先关注SIFS和〔DIFS/PIFS待听辨〕，理解它们是怎样使用的，然后我们再回到其他的〔time/timing，时间修饰词待听辨〕间隔。所以，现在到了讨论这些〔time/timing，时间修饰词待听辨〕间隔中最长的那个的时候了。那确实就是扩展IFS。而且，只是为了让你有个概念，这个扩展IFS，〔so/or，所以/或者，待听辨〕这个〔time/timing，时间修饰词待听辨〕间隔，可以长到大约三百微秒，所以肯定比我们到目前为止考虑过的其他那些更长。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ],
+    "client_token": "bb833ca1-3754-4e22-8b3e-f4fb2db4ba08",
+    "document_revision_id": 124
+  }
+}

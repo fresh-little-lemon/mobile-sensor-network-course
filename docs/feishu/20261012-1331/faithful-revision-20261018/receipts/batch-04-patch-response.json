@@ -1,0 +1,410 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "blocks": [
+      {
+        "block_id": "doxcnAnl1U8JJCpnEoEzHr9c7lb",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:31:22",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so let's roll back the story, let's start from the beginning, but this time let's assume that there is no backoff, okay? So what would be the behavior of our nodes?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，所以，让我们把这个故事倒回去，让我们从头开始，但这次我们假设没有退避，好吗？那么，我们的节点会有怎样的行为？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnEeDj97Jx5ls3DFI6r5ApEb",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:31:43",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nWell, at the beginning everything is the same because the only node that has got a packet to transmit is A, right? So it will listen to the channel, the channel is idle for DIFS. It will access the channel and transmit the packet.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "嗯，在一开始，一切都是一样的，因为唯一拿到了一个要发送的数据包的节点是 A，对吧？所以，它会侦听信道，信道空闲了一个 DIFS 的时间。它会接入信道并发送这个数据包。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnjesWjxP2UoK4xKj5IVh7dh",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:27:02",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nUpon the data transmission by B, the other nodes, right, can set their NAV. They can read the Duration field in the header of the data packet. So we need also to highlight this, that both A and also C will set their NAV, right? So what does it mean for A? This is okay, fine, it doesn't have anything to do, so that's [not okay / okay, unclear]. But for C, this means that [it / you, unclear] will have to freeze its backoff counter for this duration, right?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "在 B 发送数据时，其他节点，对吧，可以设置自己的 NAV。它们可以读取数据包首部中的 Duration 字段。所以，我们还需要强调这一点，就是 A，还有 C，都会设置自己的 NAV，对吧？所以，这对 A 来说意味着什么？这没问题，很好，它没有什么要做的，所以那是[不行的／没问题的，待听辨]。但是对 C 来说，这意味着[它／你，待听辨]必须在这段时间内冻结它的退避计数器，对吧？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnflAqqxvBp3Q5Cl2hIhippc",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:30:26",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nHow can we understand the importance of backoff? Well, let's make a little game that is, scientifically speaking, is called ablation study, okay? An ablation study is when you remove a feature of a system, and you study the behavior of that system without that feature. So our small game is an ablation study of this particular [um, unclear] backoff procedure, or, or Wi-Fi channel access. So let's make this [a, unclear] small game and think, what would happen if the backoff were not there?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "我们怎样才能理解退避的重要性？嗯，让我们做一个小游戏，这就是，从科学上说，是叫作消融研究的东西，好吗？消融研究就是，你去掉一个系统的某个特性，然后研究没有那个特性时这个系统的行为。所以，我们这个小游戏是对这个特定的[嗯，待听辨]退避过程，或者，或者 Wi-Fi 信道接入，做一个消融研究。所以，让我们做这个[这里是否有 a，待听辨]小游戏并想一想，如果没有退避，会发生什么？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnSnQ01WcspkpN5GGhyjECig",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:29:23",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nNow its backoff counter is down to zero, so [it / you, unclear] can access the channel and transmit its data packet. And again, being optimistic, we say that this is successful, so [it / we, unclear] will receive the acknowledgement after SIFS. And we are all happy because all nodes could transmit [their data packet successfully, unclear]. Okay, so this is an example of how we apply [in the, unclear] backoff procedure, in particular under this condition, right? But it allows [us, unclear] also to understand the importance of backoff. That's the final goal [that I, unclear], the ultimate goal that I was aiming.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "现在，它的退避计数器降到了零，所以[它／你，待听辨]可以接入信道并发送它的数据包。再一次，乐观地说，我们说这次是成功的，所以[它／我们，待听辨]会在 SIFS 之后收到确认。我们都很高兴，因为所有节点都能够[成功发送各自的数据包，待听辨]。好，所以，这是一个我们如何应用[此处有不清楚的词]退避过程的例子，特别是在这种情况下，对吧？但是，它也让[我们，待听辨]理解退避的重要性。这就是最后的目标[我所，待听辨]，我所追求的最终目标。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn6Oy9GIVWByK2HSBhV2xtLV",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:28:03",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nBecause now the channel is busy, so C cannot decrease its counter, it has to suspend the countdown. Okay, so during all this time C will be essentially blocked, and what it does is to wait for the channel to become idle again. [It / he, unclear] makes sure that the channel is idle for DIFS, and then [it / he, unclear] can resume decreasing its backoff [counter / count, unclear], [right, unclear]? It has still three time slots to go, so [it / he, unclear] will sense the channel for a [time slot, possibly incomplete]. Yes, this is idle, so it can decrease the backoff counter by one. Then it senses the channel again for a time slot. The channel is idle, it can decrease the counter by one, and then again, the channel is idle for one more time slot, it can decrease its counter by one.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "因为现在信道是忙的，所以 C 不能递减计数器，它必须暂停倒计时。好，所以，在这整个时间里，C 基本上会被阻住，而它做的就是等待信道再次变为空闲。[它／他，待听辨]确认信道空闲了一个 DIFS 的时间，然后[它／他，待听辨]就可以恢复递减它的退避[计数器／计数，待听辨]，[对吧，待听辨]？它还剩三个时隙，所以[它／他，待听辨]会侦听信道一个[时隙，此处可能没说完，待听辨]。是的，这是空闲的，所以它可以把退避计数器减一。然后，它再次侦听信道一个时隙的时间。信道是空闲的，它可以把计数器减一，然后再一次，信道又空闲了一个时隙，它可以把计数器减一。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnH4jHHn6Pl1bEysoXgDtTjo",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:34:43",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so what is the first conclusion here? That the backoff procedure has been introduced in our system in order to avoid collisions between contending nodes. Our contending nodes in these examples are B and C, right? They are contending for the channel. And the backoff procedure is there to avoid the collision between them. So again, remember that we said Wi-Fi is a CSMA scheme with collision avoidance, [right, unclear]?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，所以，这里的第一个结论是什么？就是，在我们的系统中引入退避过程，是为了避免竞争节点之间的碰撞。在这些例子中，我们的竞争节点是 B 和 C，对吧？它们在竞争信道。退避过程就是用来避免它们之间的碰撞的。所以，再说一次，记住我们说过，Wi-Fi 是一种带碰撞避免的 CSMA 方案，[对吧，待听辨]？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnL5doQmZhvSVxCEH7EvQeUc",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:32:02",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd again, let's be optimistic. The access point sends back [the / an / no article, unclear] acknowledgement, and the other nodes, B and C, both set their NAV, right? This is exactly as before. And again, B and C at different points in time, assume that they [get / got, unclear] also a packet to transmit. But again, now we do not have backoff, okay? So we have to think, what would happen if backoff were not there? So what would B and C do? Well, we still have carrier sensing, right, multiple access. So since both B and C sense the channel as busy because they have their NAV set, they cannot access the channel, right? [Till; usage unclear] the channel is busy, I cannot access the channel. So for sure B and C will again wait for the channel to be idle, make sure that the channel is idle. But then if there is no backoff, they can just access the channel, right? Because now the channel is idle, so they say, oh, channel idle, I can access the channel and transmit. Remember, we are playing this small game assuming that there is no backoff. So what we have is that, no backoff, we have both transmitting their data packet after having sensed the channel idle. So what do we have here? Collision, right? They both access the channel at the same time with probability one. It is sure that they will do that, and of course they will fail because they overlap, their transmissions overlap. And the access point will not be able to demodulate correctly either this packet.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "再一次，让我们乐观一点。接入点发回确认，[英文这里的冠词待听辨]，而其他节点 B 和 C 都设置自己的 NAV，对吧？这和之前完全一样。再一次，B 和 C 在不同的时间点，假设它们也[拿到／拿到了，待听辨]一个要发送的数据包。但是，再说一次，现在我们没有退避，好吗？所以，我们必须想一想，如果没有退避，会发生什么？那么，B 和 C 会做什么？嗯，我们仍然有载波侦听，对吧，多址接入。所以，由于 B 和 C 都侦听到信道为忙，因为它们设置了 NAV，它们就不能接入信道，对吧？〔Till，讲者此处时间条件用法待听辨〕信道忙着时，我不能接入信道。所以，B 和 C 肯定会再次等待信道变为空闲，确认信道是空闲的。但是随后，如果没有退避，它们就可以直接接入信道，对吧？因为现在信道是空闲的，所以它们说，哦，信道空闲，我可以接入信道并发送。记住，我们是在玩这个小游戏，假设没有退避。所以，我们得到的情况是，没有退避，我们有两个节点都在侦听到信道空闲之后发送自己的数据包。所以，我们这里有什么？碰撞，对吧？它们以概率一同时接入信道。它们肯定会这样做，当然它们会失败，因为它们重叠了，它们的传输重叠了。而接入点将无法正确解调这两个数据包中的任何一个。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ],
+    "client_token": "526b0744-efbc-470d-8ec9-eb22fb6afa35",
+    "document_revision_id": 118
+  }
+}

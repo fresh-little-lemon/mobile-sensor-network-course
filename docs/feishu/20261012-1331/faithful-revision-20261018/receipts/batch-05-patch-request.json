@@ -1,0 +1,356 @@
+{
+  "requests": [
+    {
+      "block_id": "doxcnaHvvyUzO5ghSRmyafl5mXf",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:35:39",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nThis backoff is a mechanism that helps to avoid collisions. So the basic principle, the basic idea is very simple. Whenever there is a crowded situation, right, you try to desynchronize from the others so that you find a free [route / road, unclear] ahead, and this is exactly the same thing. So if there is peak hour, you don't want to jump into the traffic, right, [as all / as for, unclear] the others.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "这个退避是一种帮助避免碰撞的机制。所以，基本原理，基本想法，非常简单。每当出现拥挤的情况，对吧，你就试着与其他人错开，使你前面有一条空闲的[路线／道路，待听辨]，而这完全是同一回事。所以，如果是高峰时段，你就不想冲进车流，对吧，[像其他所有人／至于其他人，待听辨]。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnYoikxJiKfhskkvbqwaXuzb",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:36:25",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nYou try to pick, you wait, you try to pick a time at which not many other people will be there. And this is exactly the same principle. You try to pick a time in order to desynchronize your action with respect to the others, and this way you avoid meeting, [unclear words], colliding with the others, or finding yourself in a, in a traffic jam. [Hmm, unclear], that's exactly the same principle.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "你试着挑选，你等待，你试着挑选一个没有太多其他人会在那里的时间。而这完全是同一个原理。你试着挑选一个时间，让你的行动与其他人的行动错开，这样你就避免遇到，[此处词语不清楚]，与其他人发生碰撞，或者发现自己陷在一个，一个交通堵塞中。[嗯，待听辨]，这完全是同一个原理。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcn5gHcCr2H8OejWkUDf8rjJg",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:37:02",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nNow what I would like to underline is that, so we observe, our first observation is that backoff is a mechanism for avoiding collisions, but it is still probabilistic, okay? Why? Because if, like in our example, both B and C draw the same value of backoff, they are going to collide. Okay, so if, for example, C too drew two as an integer, then they will not be [synchronized / desynchronized, unclear] from each other, okay? Because they will both decrease the [the, unclear] backoff counter during the first time slot, and then again during the second time slot. But under the assumption that they now both drew two as an integer, they will decrease the backoff counter to zero exactly at the same time. That means that they will access the channel exactly at the same time and collide.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "现在，我想强调的是，所以我们观察到，我们的第一个观察是，退避是一种避免碰撞的机制，但它仍然是概率性的，好吗？为什么？因为，如果像我们的例子中那样，B 和 C 都抽到同一个退避值，它们就会发生碰撞。好，所以，如果，例如，C 也抽到了二这个整数，那么它们彼此就不会[同步／错开，待听辨]，好吗？因为它们都会在第一个时隙内递减这个[英文这里是否重复 the，待听辨]退避计数器，然后在第二个时隙内再递减一次。但是，在假设它们现在都抽到了二这个整数的情况下，它们会在完全相同的时刻把退避计数器减到零。这意味着，它们会在完全相同的时刻接入信道，并发生碰撞。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnMJm7xgchJDesFLgciG9Hwf",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:38:58",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nSo backoff is a way to avoid collisions, but it does not avoid collisions with probability one. There is still a certain probability with which the nodes, the contending nodes, may collide, [right / okay, unclear]? So it's a probabilistic collision-avoidance mechanism.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "所以，退避是一种避免碰撞的方法，但它并不是以概率一避免碰撞。仍然存在一定的概率，使这些节点，这些竞争节点，可能发生碰撞，[对吧／好吗，待听辨]？所以，它是一种概率性的碰撞避免机制。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnFC44DVHPRPxjnurob5RDFf",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:39:28",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nOkay, this is our first observation. Is it clear so far? Okay, now if this is clear, let me make a second, [sorry, check this, because today is a bit different, unclear]. Okay, we have a second observation to make. We are close to the break, but let me start introducing it, and then we will finish after [the / a, unclear] short break.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "好，这是我们的第一个观察。到目前为止清楚吗？好，现在，如果这点清楚了，让我作第二个，[抱歉，检查一下这个，因为今天有点不同，待听辨]。好，我们要作第二个观察。我们快到休息时间了，但让我先开始介绍它，然后我们会在短暂休息之后把它讲完，[英文冠词是 the 还是 a，待听辨]。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnXhZOazuwIoJDnSvi0fuhad",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:40:13",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nSo the second observation that I want to make is about the benefit of increasing the contention window parameter every time we need to perform a backoff procedure for a given data packet, okay? So let's consider still the same example as before. So we still have the access point, A, B and C. A talk with the access point, then B and C get the packet, both of them, while the channel is busy. So they need to apply the backoff, and they need to draw [unclear words], after having sensed the channel as idle for DIFS, an integer out of, as we know, out of this range of values, because this is the first time that they run the backoff for the packet. So they both use zero, contention window minimum, as a possible range, as a range of possible integers to be selected. So how many values are [in / in in, unclear] this range? There are CW_min...\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "所以，我想作的第二个观察，是关于每次需要为一个给定数据包执行退避过程时，增大竞争窗口参数的好处，好吗？所以，让我们仍然考虑和之前相同的例子。所以，我们仍然有接入点、A、B 和 C。A 与接入点交谈，然后 B 和 C 拿到数据包，它们两个都是在信道忙的时候拿到的。所以，它们需要执行退避，而且它们需要抽取[此处词语不清楚]，在侦听到信道空闲一个 DIFS 的时间之后，抽取一个整数，从，我们知道，从这个取值范围中抽取，因为这是它们第一次为这个数据包执行退避。所以，它们都使用零、最小竞争窗口，作为一个可能的范围，作为可供选择的整数的范围。那么，这个范围里有多少个值，[英文这里是否重复 in，待听辨]？有 CW_min……",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnRO13xWA67GmmCsSSXmP1Dc",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:41:48",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nPlus one integers, right? Because [unclear words], including the zero is plus one. Okay, this is the number of integers in that range.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "加一这么多个整数，对吧？因为[此处词语不清楚]，包括零就是加一。好，这就是那个范围里的整数个数。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcn28MvP7iScVrFLXjKMXm82e",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:41:59",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nOkay, so what we want to compute, since we said that backoff is a probabilistic collision-avoidance mechanism, is the probability that B and C collide. Okay, that's the probability that we want to compute. Okay, now we know already that they will collide if they draw the same integer out of this range. And remember that the way a node draws an integer out of this range is with uniform probability, right? So same probability for every value to be selected by the node. So if we consider the probability for a node to draw a generic integer n out of this range, this probability is given by one over CW_min plus one, right? Because this is the number of integers in the range. Since we draw each value with equal probability, uniform probability, it's easy to see that the probability that an integer, a generic integer, is drawn out of this range by a node is given by one over CW_min plus one. This is basic probability theory, okay? So in this way you can see that they are selected exactly, each of them with the same probability. [Okay, unclear], this probability is the same for all of them.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "好，所以，我们想计算的，既然我们说过退避是一种概率性的碰撞避免机制，就是 B 和 C 发生碰撞的概率。好，这就是我们想计算的概率。好，现在我们已经知道，如果它们从这个范围里抽到同一个整数，它们就会碰撞。还要记住，一个节点从这个范围里抽取整数的方式，是采用均匀概率，对吧？所以，每个值被节点选中的概率相同。所以，如果我们考虑一个节点从这个范围中抽到任意一个整数 n 的概率，这个概率由一除以（CW_min 加一）给出，对吧？因为这就是这个范围中的整数个数。由于我们以相等的概率，均匀的概率，抽取每个值，很容易看出，一个整数，一个任意的整数，被一个节点从这个范围里抽到的概率，由一除以（CW_min 加一）给出。这是基本的概率论，好吗？所以，这样你就可以看到，它们被选择时，恰好，每一个都具有相同的概率。[好，待听辨]，这个概率对它们所有值都是一样的。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

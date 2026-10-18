@@ -1,0 +1,410 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "blocks": [
+      {
+        "block_id": "doxcn57rutxrKFZjcBVeZsksgmf",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:26:20",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, now in this case, A is the sender, okay, the transmitter, so it's [the/your unclear] original source and also transmitter of the packet. And access point one is the receiver, but the final destination is B. So, this packet that travels from A to access point one will have A as the transmitter address, which is also the source's address. You will have access point one address as a receiver, and then you will have the destination address, the B's address as destination address. So it needs to have three addresses in the MAC header. Once the packet is received at access point one, [and unclear] access point one has to send the packet to access point two, so that the packet eventually can be delivered to the final destination. This packet, when the packet is here, it [needs/means/names unclear] four addresses in the [MAC unclear] header. Why? Because we need to [specify/specifying unclear] that this packet originally came from source A. The transmitter now is access point one. The receiver now is access point two. And the final destination where this packet has to go is B, right? So, in extended service sets, when the Wi-Fi packets travel from one access point to another, they need four addresses. So this is just to say that the size of the MAC header may vary, okay, may be shorter or longer. Anyway, [um unclear], so you already have to account for [DIFS/SIFS unclear], physical preamble, physical header, MAC header. The payload is the useful, interesting part. [Okay, so that's not overhead; wording unclear]\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，现在在这种情况下，A是发送方，好，发送机，所以它是〔the/your，限定词待听辨〕最初的源，同时也是这个数据包的发送方。而接入点一是接收方，但是最终目的地是B。所以，这个从A传到接入点一的数据包，会把A作为发送方地址，这同时也是源的地址。你会把接入点一的地址作为接收方地址，然后你会有目的地址，B的地址作为目的地址。所以它需要在MAC首部中有三个地址。一旦这个数据包在接入点一被接收，〔and，连接词有无待听辨〕接入点一就必须把这个数据包发送给接入点二，这样这个数据包最终才能被递送到最终目的地。这个数据包，当这个数据包在这里时，它〔needs/means/names，需要/意味着/说出，待听辨〕四个地址，在〔MAC有无待听辨〕首部里。为什么？因为我们需要〔specify/specifying，词形待听辨〕说明这个数据包最初来自源A。现在的发送方是接入点一。现在的接收方是接入点二。而这个数据包必须到达的最终目的地是B，对吧？所以，在扩展服务集中，当Wi-Fi数据包从一个接入点传到另一个接入点时，它们需要四个地址。所以这只是要说明，MAC首部的大小可能变化，好，可能更短或者更长。总之，〔um，语气词有无待听辨〕，所以你已经必须把〔DIFS/SIFS待听辨〕、物理层前导码、物理层首部、MAC首部计算在内。有效载荷是有用的、有意思的部分。〔好，所以那不是开销；此句措辞待听辨〕",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnaPSN6RL8HcSamaAISyuJqf",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:24:28",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nThe MAC header again are, [I would say / we say / it's a unclear] non-interesting bits from the point of view of the application. The size of the MAC header in Wi-Fi may actually vary, depending on, for example, how many addresses you need. So if you are in a BSS, isolated BSS, as the one that you have got in your apartment, the only addresses that you need are the transmitter address and [a unclear] receiver address.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "MAC首部又是，[我会说／我们说／它是一个，待听辨]，从应用的角度来看没有意思的比特。Wi-Fi中的MAC首部大小实际上可能会变化，这取决于，例如，你需要多少个地址。所以，如果你处在一个BSS中，一个孤立的BSS，就像你公寓里有的那一个，你需要的地址就只有发送方地址和[一个，a是否存在待听辨]接收方地址。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnZ562lYsPjFnhaKLUa6k3pf",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:21:58",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo we know that in the case where we need to transmit [the / a unclear] data packet, first of all we need to sense the channel for DIFS. We can consider [DIFS / this unclear] to be fifty microseconds long. So that's for sure something that we need to wait for. Then if we are lucky, if we are lucky, the channel is idle, and we can transmit our packet right away. But the packet that we transmit, we [know already / already know unclear] that [it unclear] has got some headers, right? Actually, we already said it has got a physical layer preamble that is used by the transmitter and receiver to essentially synchronize, and so that the receiver can start [to unclear] demodulating what the transmitter is sending. So at the electronics level, they need this preamble to start the, [the, let's see unclear] communication. And then there is the physical layer header, and then there is the physical, sorry, the MAC layer header, where we have, for example, the duration field. So all these headers are just control information. It's not [a / the unclear] payload. It's not something useful at the MAC layer. It is something that is there. It is useful for the protocol, but not, they are not application layer bits, right? So [they are / you're unclear] there, fine, but from the application, from what would be the application layer perspective, that's something that is not useful, it's not interesting.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，我们知道，在我们需要发送[这个／一个，待听辨]数据包的情况下，首先我们需要侦听信道一个DIFS的时间。我们可以认为[DIFS／这个，待听辨]持续五十微秒。所以，那肯定是我们需要等待的一段时间。然后，如果我们幸运，如果我们幸运，信道是空闲的，我们就可以立即发送我们的数据包。但是，我们发送的这个数据包，我们[已经知道，know与already词序待听辨]，[it是否存在待听辨]它有一些首部，对吧？实际上，我们已经说过，它有一个物理层前导码，由发送方和接收方用来基本上实现同步，并使接收方能够开始[to是否存在待听辨]解调发送方正在发送的内容。所以，在电子电路层面，它们需要这个前导码来开始这、[这，让我们看看，待听辨]通信。然后有物理层首部，接着有物理，抱歉，MAC层首部，其中我们有，例如，时长字段。所以，所有这些首部都只是控制信息。它不是[一个／该，冠词待听辨]有效载荷。它不是在MAC层有用的东西。它是存在在那里的某种东西。它对协议是有用的，但不是，它们不是应用层的比特，对吧？所以，[它们／你，待听辨]在那里，好吧，但从应用，从所谓的应用层角度来看，那是没有用的东西，是没有意思的东西。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn61liWTicB4PpLe3q93NYVc",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:18:22",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo this seems to be, you know, a detail or one more thing that a node has to do, but it's actually extremely important to ensure fairness. In Wi-Fi, we want to be fair, we want to give the same probability to everyone in channel access. So it is a very important feature, and notice that the same would happen if we didn't have the post-backoff procedure. Even if A, right after its, [its unclear] completion, successful completion of, [of unclear] its dialogue, didn't have any packet. But even in the case where it gets a packet right after, [a unclear] few microseconds after, [it / you unclear] will still get an advantage [with unclear] respect to B and C, who must run the backoff. So that's why the standard says, no matter what your MAC queue state is, we don't care. Once you complete a transmission successfully, you must run the post-backoff procedure, [right / okay unclear]? So that's, [it's unclear] that's mandatory. We cannot do [anything otherwise / any, any number one unclear]. Help me out here. We, [we unclear] have the long break now? [No / oh unclear], sorry. Our time [three five, five plus three; numbers unclear]. Okay, thanks. Okay, so we still have about fifteen minutes before. Let me know if I [get it wrong / get this one wrong / did something wrong unclear], please. I need to adjust the, [the unclear] schedule, of course. Okay, so we run essentially through all these slides, using the whiteboard for greater clarity, but you have the essential information also in, [in unclear] the slides. Okay, so what I would like to show now is another example that is here presented in [the / these unclear] slides. Don't get scared by the many figures that are used in these, [in these unclear] slides. It's just to highlight something that we already know, but here you have indeed concrete example to further emphasize this. That is, we now know more or less how the basic version of Wi-Fi works. We already said that Wi-Fi is so successful because it works quite well for our needs. But it has got a big problem in general, that is overhead, right? We already commented on that. So now that we know how channel is used in Wi-Fi, this is a practical example that gives evidence to that.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，这似乎是，你知道，一个细节，或者一个节点必须多做的一件事，但它实际上对于保证公平性极其重要。在Wi-Fi中，我们想要公平，我们想在信道接入方面给予每个人相同的概率。所以，这是一个非常重要的特性，而且注意，如果我们没有发送后退避程序，同样的情况就会发生。即便A，恰好在它的、[它的，重复待听辨]完成之后，成功完成了、[了，of重复待听辨]它的对话之后，没有任何数据包。但即便在它随即收到一个数据包的情况下，几微秒之后，[few前的a待听辨]，[它／你，待听辨]相对于B和C仍会得到一个优势，[with是否存在待听辨]，而B和C必须执行退避。所以，这就是为什么标准说，不管你的MAC队列处于什么状态，我们不在乎。一旦你成功完成一次发送，你就必须执行发送后退避程序，[对吧／好吧，待听辨]？所以，那是，[它是，待听辨]，那是强制的。我们不能[用其他方式做任何事／any, any number one残片，待听辨]。在这里帮我一下。我们，[我们，重复待听辨]现在要放长课间了吗？[不／哦，待听辨]，抱歉。我们的时间[three five, five plus three；数字及其含义待听辨]。好，谢谢。好，所以在那之前我们还有大约十五分钟。如果我[弄错了／把这一次弄错了／做错了什么，待听辨]，请告诉我。当然，我需要调整这个、[这个，重复待听辨]时间安排。好，所以我们基本上讲过了所有这些幻灯片，为了更清楚而使用了白板，但你们在、[在，重复待听辨]幻灯片中也有这些基本信息。好，所以我现在想展示的是在这里的[这些／该组，指示词待听辨]幻灯片中呈现的另一个例子。不要被这些、[这些，in these重复待听辨]幻灯片中使用的许多图示吓到。这只是为了突出我们已经知道的某件事，但在这里，你们确实有一个具体的例子，来进一步强调这一点。也就是说，我们现在或多或少知道Wi-Fi的基本版本是如何工作的。我们已经说过，Wi-Fi如此成功，是因为它能相当好地满足我们的需求。但总的来说，它有一个大问题，那就是开销，对吧？我们已经就此作过评论。所以，既然我们现在知道在Wi-Fi中信道是怎样被使用的，这就是为这一点提供证据的一个实际例子。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcne0VOVXpSN5fpm81zBk9gpc",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:25:04",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nIf you are in an extended service set, like here on Tongji campus [place-introduction wording unclear], where we have many access points connected through, you know, the, the wired network. Then you may need four different addresses, and the reason for that is that, in an extended service set, you may have, as we know, access points that are connected to each other, right? We already explained the architecture of the network.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "如果你处在一个扩展服务集里，就像这里的同济校园〔引出地点的措辞待听辨〕，这里我们有许多接入点，通过，你知道的，这个、这个有线网络连接起来。那么你可能需要四个不同的地址，而其原因是，在一个扩展服务集中，你可能有，正如我们所知道的，彼此连接的接入点，对吧？我们已经解释过这个网络的架构。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnBiFI1L4BIG5iB170r9SIdd",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:23:51",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay. So, [but / when unclear] we spend time to transmit [this / these unclear] physical layer preamble, physical layer header, and they are transmitted at the basic rate. So as we commented already, the basic rate is a low speed. So they are transmitted slowly at low speed. And if you consider the basic rate, like in this example, to be one megabit per second, well then you have to wait; it takes time to do that. And then we have the MAC header.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好。所以，[但是／当，待听辨]我们花时间来发送[这个／这些，待听辨]物理层前导码、物理层首部，而它们是以基本速率发送的。所以，正如我们已经评论过的，基本速率是一个低速率。所以，它们被慢慢地以低速率发送。而且，如果你认为基本速率，像这个例子中一样，是每秒一兆比特，那么，嗯，你就必须等待；做这件事需要时间。然后我们还有MAC首部。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn1cpQfGyubHhKy2AGOYZv2e",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:17:42",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd what these researchers observed was that this Wi-Fi card was [obtaining / obtained unclear] a very, very high throughput; that means the ability to transmit a lot of data, while the other Wi-Fi cards were starving, so they could not get access to the channel. A very unfair service, and this is because, this was because that commercial Wi-Fi card at that time did not implement the post-backoff procedure.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "而这些研究人员观察到的是，这张Wi-Fi网卡当时[正在获得／obtained形式，待听辨]非常、非常高的吞吐量；那意味着发送大量数据的能力，而其他Wi-Fi网卡则处于饥饿状态，所以它们无法接入信道。一种非常不公平的服务，而这是因为，当时这是因为，那张商业Wi-Fi网卡在那个时候没有实现发送后退避程序。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnq3VlLHsxPBYm8fqFaxRdCf",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:25:52",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd so, if you are A and you want to send a packet to B, well, then you have to send your packet to the access point you are connected with. This access point one will send the packet to access point two, and then access point two will deliver the packet to B. This happens in an extended service set.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，如果你是A，并且你想把一个数据包发送给B，嗯，那么你必须把你的数据包发送给与你连接的那个接入点。这个接入点一会把这个数据包发送给接入点二，然后接入点二会把这个数据包递送给B。这发生在一个扩展服务集中。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ],
+    "client_token": "01bca07f-01ad-4e73-8474-db2f4b644b9f",
+    "document_revision_id": 123
+  }
+}
