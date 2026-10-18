@@ -4,5 +4,11 @@
   "paragraph_pairs": 97,
   "translation_status": "translated_and_read_through",
   "terminology_review": "bilingual/terminology-review.md",
-  "caveat": "Source includes Chinese break chatter and simplified WLAN authentication, OFDM and MIMO explanations; separately reviewed."
+  "caveat": "Source includes Chinese break chatter and simplified WLAN authentication, OFDM and MIMO explanations; separately reviewed.",
+  "chinese_source_paragraphs_translated_to_english": [
+    26,
+    46,
+    47,
+    48
+  ]
 }
