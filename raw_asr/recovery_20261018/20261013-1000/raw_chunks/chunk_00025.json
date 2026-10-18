@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2750.0,
+  "end_seconds": 2870.0,
+  "text": "Will not be able to extract correctly the bits from the header of these packets. So we are under a situation where, for see at the physical layer, the channel is sensed busy because there is power, but at the mark layer, the channel is idle because it cannot set an up. Right? So both also at the access point as well, the access point can hear that there is power on the channel, so its physical layer will say channel busy, but it cannot understand what that is. So at the mark layer, the knob is not set, and the access point that will be the destination cannot demodulate correctly anything. Okay, but see cannot set its knob. Here this time, what we just have is physical sensing says channel busy, mark layer says channel idle. You remember what this situation leads to, when we have a mismatch between physical sensing and mark layer sensing. Mismatch, there must be an error, right? So if we hear something but we do not understand what they are saying, what do we do? We wait extended.",
+  "raw_decoded": "language English<asr_text>Will not be able to extract correctly the bits from the header of these packets. So we are under a situation where, for see at the physical layer, the channel is sensed busy because there is power, but at the mark layer, the channel is idle because it cannot set an up. Right? So both also at the access point as well, the access point can hear that there is power on the channel, so its physical layer will say channel busy, but it cannot understand what that is. So at the mark layer, the knob is not set, and the access point that will be the destination cannot demodulate correctly anything. Okay, but see cannot set its knob. Here this time, what we just have is physical sensing says channel busy, mark layer says channel idle. You remember what this situation leads to, when we have a mismatch between physical sensing and mark layer sensing. Mismatch, there must be an error, right? So if we hear something but we do not understand what they are saying, what do we do? We wait extended.<|im_end|>",
+  "generated_tokens": 218,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.832656353999482,
+  "at": "2026-10-18T04:20:01.538324+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

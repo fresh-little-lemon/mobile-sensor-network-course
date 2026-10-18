@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2640.0,
+  "end_seconds": 2760.0,
+  "text": "Right, at p zero plus one point twenty five minutes. So takes a little some time. So what happens to C? Look at what I drew here. Let's focus on C. Can C understand the header of these packets? Yes, we can. Are you sure? Say we will say to A and B. Sorry. Say we will say to A and B. They cannot. All nodes can hear each other, right? So this means that C cannot hear, cannot get the signal from both A and B. So the signal from A and B are going to overlap. At C, is the same as at the access point, right? The access point gets both these, more or less with the same power. The SINR is too low. The access point cannot demodulate that correctly, and indeed we said it is not going to send back any acknowledgement, right? So for C is the same story. What's a C? Will not be able to extract correctly the bits from the header of these packets.",
+  "raw_decoded": "language English<asr_text>Right, at p zero plus one point twenty five minutes. So takes a little some time. So what happens to C? Look at what I drew here. Let's focus on C. Can C understand the header of these packets? Yes, we can. Are you sure? Say we will say to A and B. Sorry. Say we will say to A and B. They cannot. All nodes can hear each other, right? So this means that C cannot hear, cannot get the signal from both A and B. So the signal from A and B are going to overlap. At C, is the same as at the access point, right? The access point gets both these, more or less with the same power. The SINR is too low. The access point cannot demodulate that correctly, and indeed we said it is not going to send back any acknowledgement, right? So for C is the same story. What's a C? Will not be able to extract correctly the bits from the header of these packets.<|im_end|>",
+  "generated_tokens": 213,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.467943968000327,
+  "at": "2026-10-18T04:19:30.704982+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

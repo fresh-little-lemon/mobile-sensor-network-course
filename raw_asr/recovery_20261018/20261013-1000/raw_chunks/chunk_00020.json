@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2200.0,
+  "end_seconds": 2320.0,
+  "text": "Also, we make some assumption about the time needed to transmit a packet. For a, for b, and for c. Okay, so you don't have to compute the preamble, the physical layer size, the bit rate, the market, the repeater, the data rate. Ah, it is provided for you. The total transmission time to transmit the packet is provided to you. So we have that, and as important here, a packet transmitted by either a or b takes one millisecond. The packet transmitted by c takes one point five milliseconds. And then we have some mark parameters here, so already computed for you. The acknowledgment duration, this is the time to transmit an acknowledgment, the duration of diffs, the duration of cifs, the duration of the extended IFS, and the duration of the timeslot. Okay, all these values are given. Now, the story is the story is the following. A and B start transmitting at the same time instant. Okay, at t zero, we look at the system and we see that a.",
+  "raw_decoded": "language English<asr_text>Also, we make some assumption about the time needed to transmit a packet. For a, for b, and for c. Okay, so you don't have to compute the preamble, the physical layer size, the bit rate, the market, the repeater, the data rate. Ah, it is provided for you. The total transmission time to transmit the packet is provided to you. So we have that, and as important here, a packet transmitted by either a or b takes one millisecond. The packet transmitted by c takes one point five milliseconds. And then we have some mark parameters here, so already computed for you. The acknowledgment duration, this is the time to transmit an acknowledgment, the duration of diffs, the duration of cifs, the duration of the extended IFS, and the duration of the timeslot. Okay, all these values are given. Now, the story is the story is the following. A and B start transmitting at the same time instant. Okay, at t zero, we look at the system and we see that a.<|im_end|>",
+  "generated_tokens": 218,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.298491262001335,
+  "at": "2026-10-18T04:17:52.790928+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

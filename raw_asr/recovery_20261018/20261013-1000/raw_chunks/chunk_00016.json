@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1760.0,
+  "end_seconds": 1880.0,
+  "text": "Layer. Right? When you send the package to the physical layer to be transmitted, you actually concatenate multiple mark packets. So you create a sequence of mark packets, and you add only one physical layer and one preamble for all of that. So you further reduce the overhead due to physical preamble and physical layer by using essentially one for all this concatenation of mark packets. So you have essentially two stages of aggregation. One, the first one that gets the higher layer payloads, put them one after the other, concatenate them, and then you add only one mark header at the beginning. And then the second one, when you get multiple mark packets, you concatenate them, creating a very large sequence, and you add only one physical header and a physical preamble. When you send everything, you first send everything to the physical layer. Okay. So in this way, you try to reduce the overhead, and therefore you can increase the efficiency. Because otherwise, as the physical layer allows you to transmit that higher and higher and higher.",
+  "raw_decoded": "language English<asr_text>Layer. Right? When you send the package to the physical layer to be transmitted, you actually concatenate multiple mark packets. So you create a sequence of mark packets, and you add only one physical layer and one preamble for all of that. So you further reduce the overhead due to physical preamble and physical layer by using essentially one for all this concatenation of mark packets. So you have essentially two stages of aggregation. One, the first one that gets the higher layer payloads, put them one after the other, concatenate them, and then you add only one mark header at the beginning. And then the second one, when you get multiple mark packets, you concatenate them, creating a very large sequence, and you add only one physical header and a physical preamble. When you send everything, you first send everything to the physical layer. Okay. So in this way, you try to reduce the overhead, and therefore you can increase the efficiency. Because otherwise, as the physical layer allows you to transmit that higher and higher and higher.<|im_end|>",
+  "generated_tokens": 210,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.53263989699917,
+  "at": "2026-10-18T04:16:07.454732+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}
