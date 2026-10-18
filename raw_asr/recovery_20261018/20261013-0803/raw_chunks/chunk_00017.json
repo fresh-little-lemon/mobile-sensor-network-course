@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1870.0,
+  "end_seconds": 1990.0,
+  "text": "If you observe this representation, you can see that is essentially more or less the same as PCF, right? Because we still have a polling polling scheme, where the access point polls the stations, and every time a station is polled, it gets the right it is entitled to access the channel, right? So from that point of view, is very similar to PCF. But what are the differences? Well, first of all, the way the access point polls the station is different, because we do not have anymore a static polling list. Instead, the access point now has an idea of the status of the queues of the different Wi-Fi cards, and therefore, it can poll a station only if it knows that that station has got data to draw. Why? Well, remember what we said yesterday about the MAC header, right? We said, oh, there is a new subfield there that is the.",
+  "raw_decoded": "language English<asr_text>If you observe this representation, you can see that is essentially more or less the same as PCF, right? Because we still have a polling polling scheme, where the access point polls the stations, and every time a station is polled, it gets the right it is entitled to access the channel, right? So from that point of view, is very similar to PCF. But what are the differences? Well, first of all, the way the access point polls the station is different, because we do not have anymore a static polling list. Instead, the access point now has an idea of the status of the queues of the different Wi-Fi cards, and therefore, it can poll a station only if it knows that that station has got data to draw. Why? Well, remember what we said yesterday about the MAC header, right? We said, oh, there is a new subfield there that is the.<|im_end|>",
+  "generated_tokens": 189,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.018799522000336,
+  "at": "2026-10-18T03:44:07.209326+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 330.0,
+  "end_seconds": 450.0,
+  "text": "The same possibilities, chances to everyone, right? As we said, Wi-Fi in the distributed channel access scheme aims to be fair, right? And indeed, while for example looking at the DCF, the distributed coordination function, we said the post, because mechanism is there to ensure that we provide fairness, a fair treatment to all Wi-Fi cards, right? That was the reason why we have post, because in the DCF scheme. Okay, so we want to be fair, right? And that's one of the goals of Wi-Fi. But clearly, since in the previous version in DCF, each transmitter has a chance to transmit one packet per channel access. The fairness that we were providing was a per packet fairness, meaning that we were fair in giving the possibility to the different Wi-Fi nodes to transmit packets. So that was a per packet fairness. So as you may remember, in DCF, every node, every node follows the same rules in order to access the channel, so it has to sense the channel as.",
+  "raw_decoded": "language English<asr_text>The same possibilities, chances to everyone, right? As we said, Wi-Fi in the distributed channel access scheme aims to be fair, right? And indeed, while for example looking at the DCF, the distributed coordination function, we said the post, because mechanism is there to ensure that we provide fairness, a fair treatment to all Wi-Fi cards, right? That was the reason why we have post, because in the DCF scheme. Okay, so we want to be fair, right? And that's one of the goals of Wi-Fi. But clearly, since in the previous version in DCF, each transmitter has a chance to transmit one packet per channel access. The fairness that we were providing was a per packet fairness, meaning that we were fair in giving the possibility to the different Wi-Fi nodes to transmit packets. So that was a per packet fairness. So as you may remember, in DCF, every node, every node follows the same rules in order to access the channel, so it has to sense the channel as.<|im_end|>",
+  "generated_tokens": 214,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.836665144999643,
+  "at": "2026-10-18T03:37:24.080195+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1540.0,
+  "end_seconds": 1660.0,
+  "text": "In this way. So again, the question is the same as before: when will A and B achieve the same throughput on the MAC layer? Well, the two expressions are now equal when the speed at which A transmits is the same as the speed at which B transmits. Right? So this means that they will enjoy the same throughput if they are equally fast in transmitting. So the throughput at which you that you enjoy on the MAC layer depends on how fast you can transmit. If you are very close to the access point, and as we know, your speed transmission speed can be very high because you are a lucky user with very good channel, then you also enjoy a very high throughput. But if you are an unlucky user, far away or between you and the access point, there are obstacles, the channel is bad, then you will be a slow transmitter, and in this case your throughput will be much lower. Okay. So our conclusion is that Wi-Fi, newer versions of Wi-Fi, provide temporal fairness because everyone, let's say, given that the priority of.",
+  "raw_decoded": "language English<asr_text>In this way. So again, the question is the same as before: when will A and B achieve the same throughput on the MAC layer? Well, the two expressions are now equal when the speed at which A transmits is the same as the speed at which B transmits. Right? So this means that they will enjoy the same throughput if they are equally fast in transmitting. So the throughput at which you that you enjoy on the MAC layer depends on how fast you can transmit. If you are very close to the access point, and as we know, your speed transmission speed can be very high because you are a lucky user with very good channel, then you also enjoy a very high throughput. But if you are an unlucky user, far away or between you and the access point, there are obstacles, the channel is bad, then you will be a slow transmitter, and in this case your throughput will be much lower. Okay. So our conclusion is that Wi-Fi, newer versions of Wi-Fi, provide temporal fairness because everyone, let's say, given that the priority of.<|im_end|>",
+  "generated_tokens": 223,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.435026119999748,
+  "at": "2026-10-18T03:42:44.422595+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

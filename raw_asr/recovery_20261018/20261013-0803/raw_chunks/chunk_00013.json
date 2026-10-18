@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1430.0,
+  "end_seconds": 1550.0,
+  "text": "That is denoted by Ra. Okay, so Ra is the speed at which A transmits over the radio channel. And that of course divided by T, that is our observation in order to compute V2. For B, similarly, we'll have on the numerator the number of times that B can access the channel. Every time it can transmit for a time duration equal to the transmission opportunity, and how many bits fit there. Well, it depends very on how fast, right, on the speed at which B transmits during the transmission opportunity. So this is the speed, the bit per second speed at which B transmits. And clearly, this time interval transmission opportunity multiplied by a V gives you the number of bits that B is able to transmit during the transmission opportunity. It gets n transmission opportunities over a period T. So the numerator in it represents the number of bits that B is able to transmit over T. So the robot can be simply written in this way. So again, the question is the same as before: when will.",
+  "raw_decoded": "language English<asr_text>That is denoted by Ra. Okay, so Ra is the speed at which A transmits over the radio channel. And that of course divided by T, that is our observation in order to compute V2. For B, similarly, we'll have on the numerator the number of times that B can access the channel. Every time it can transmit for a time duration equal to the transmission opportunity, and how many bits fit there. Well, it depends very on how fast, right, on the speed at which B transmits during the transmission opportunity. So this is the speed, the bit per second speed at which B transmits. And clearly, this time interval transmission opportunity multiplied by a V gives you the number of bits that B is able to transmit during the transmission opportunity. It gets n transmission opportunities over a period T. So the numerator in it represents the number of bits that B is able to transmit over T. So the robot can be simply written in this way. So again, the question is the same as before: when will.<|im_end|>",
+  "generated_tokens": 215,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.765275155999916,
+  "at": "2026-10-18T03:42:13.986935+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

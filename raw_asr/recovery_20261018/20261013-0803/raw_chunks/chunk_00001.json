@@ -1,0 +1,12 @@
+{
+  "start_seconds": 110.0,
+  "end_seconds": 230.0,
+  "text": "Has not been received successfully. Okay, so by sending this bitmap at the end, so this is the block ACK packet, we avoid spending time sending an acknowledgement for each of the packets that are sent while they are transmitted within the transmission opportunity, and we make the protocol more efficient, right? So this is a significant improvement for the efficiency of the Wi-Fi protocol, and indeed the use of block ACK has become mandatory in the more recent versions of Wi-Fi. So now in the more recent versions of Wi-Fi, we always use the announced distributed collision function as we send, and within that, the block ACK is a essential feature of our scheme. This is just essentially what what I said now. There are some small drawbacks in using block ACKs, but they are very very minor. Do you know what delay jitter is? Okay, then forget about it. It's very minor, it's not worth to to explain. What instead it is important to underline at the end of this scheme is not one additional.",
+  "raw_decoded": "language English<asr_text>Has not been received successfully. Okay, so by sending this bitmap at the end, so this is the block ACK packet, we avoid spending time sending an acknowledgement for each of the packets that are sent while they are transmitted within the transmission opportunity, and we make the protocol more efficient, right? So this is a significant improvement for the efficiency of the Wi-Fi protocol, and indeed the use of block ACK has become mandatory in the more recent versions of Wi-Fi. So now in the more recent versions of Wi-Fi, we always use the announced distributed collision function as we send, and within that, the block ACK is a essential feature of our scheme. This is just essentially what what I said now. There are some small drawbacks in using block ACKs, but they are very very minor. Do you know what delay jitter is? Okay, then forget about it. It's very minor, it's not worth to to explain. What instead it is important to underline at the end of this scheme is not one additional.<|im_end|>",
+  "generated_tokens": 209,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.795235261000926,
+  "at": "2026-10-18T03:36:30.043712+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

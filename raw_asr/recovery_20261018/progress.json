@@ -1,25 +1,39 @@
 {
-  "updated_at": "2026-10-18T03:10:29+00:00",
-  "complete_and_remote_verified": [
+  "updated_at": "2026-10-18T03:45:51.295840+00:00",
+  "completed_recovery_recordings": [
     {
       "recording_id": "20261010-1000",
       "duration_seconds": 5838.8665625,
-      "raw_chunks": 53,
-      "verified_files": 55,
-      "commit": "1c8dbf8a98c28c714ffd2520925cdacb5b6a129a"
+      "status": "complete",
+      "chunks": 53
     },
     {
       "recording_id": "20261012-1331",
       "duration_seconds": 5622.2940625,
-      "raw_chunks": 52,
-      "verified_files": 54,
-      "commit": "2887ed5c04d125b590e0c0499eb72ad8d7167881"
+      "status": "complete",
+      "chunks": 52
+    },
+    {
+      "recording_id": "20261012-1530",
+      "duration_seconds": 2718.7548125,
+      "status": "complete",
+      "chunks": 25
+    },
+    {
+      "recording_id": "20261012-1620",
+      "duration_seconds": 2746.734875,
+      "status": "complete",
+      "chunks": 25
     }
   ],
-  "current_recording": "20261012-1530",
-  "current_status": "running",
-  "editorial_completed": 9,
-  "bilingual_completed": 9,
+  "previously_archived_recordings": 8,
+  "total_recoverable_asr": 12,
   "total_recordings": 19,
-  "note": "Snapshot only. Full raw results are archived before final editorial publication; running records are not counted as complete."
+  "current_recording": "20261013-0803",
+  "published_current_chunks": 20,
+  "current_recording_complete": false,
+  "editorial_complete": 10,
+  "bilingual_complete": 10,
+  "bilingual_pairs": 823,
+  "note": "Snapshot. Raw recovery files are published before final editorial versions. Word correctness remains subject to editorial checks."
 }

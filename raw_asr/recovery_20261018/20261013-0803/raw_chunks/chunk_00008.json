@@ -1,0 +1,12 @@
+{
+  "start_seconds": 880.0,
+  "end_seconds": 1000.0,
+  "text": "And each packet will include right, l b useful bits. So this is the expression of the throughput. So now remember, our DCF because we are considering DCF here, wants to be fair. To our Wi-Fi cards. So fine, it provides the same chances to everyone to access the channel, but our question here is. What about the throughput performance? The fact that DCF gives the same possibility to all nodes to access the channel. Does this mean that the nodes, the Wi-Fi cards, will achieve the same throughput? Because this is what matters in the end. Okay, the amount of useful bits that you are able to transmit. On average, so that's what matters. It's okay to be fair in terms of channel access, but in the end, I would like to be fair in terms of throughput. So our question is, when are these two expressions the same, equal? Okay, when do A and B. Can enjoy the same throughput. So if we look at these expressions, it is easy to see that they are equal, when l a is equal to l b, right? So.",
+  "raw_decoded": "language English<asr_text>And each packet will include right, l b useful bits. So this is the expression of the throughput. So now remember, our DCF because we are considering DCF here, wants to be fair. To our Wi-Fi cards. So fine, it provides the same chances to everyone to access the channel, but our question here is. What about the throughput performance? The fact that DCF gives the same possibility to all nodes to access the channel. Does this mean that the nodes, the Wi-Fi cards, will achieve the same throughput? Because this is what matters in the end. Okay, the amount of useful bits that you are able to transmit. On average, so that's what matters. It's okay to be fair in terms of channel access, but in the end, I would like to be fair in terms of throughput. So our question is, when are these two expressions the same, equal? Okay, when do A and B. Can enjoy the same throughput. So if we look at these expressions, it is easy to see that they are equal, when l a is equal to l b, right? So.<|im_end|>",
+  "generated_tokens": 233,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.13164211399999,
+  "at": "2026-10-18T03:39:44.658346+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

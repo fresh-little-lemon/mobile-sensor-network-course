@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1650.0,
+  "end_seconds": 1770.0,
+  "text": "The newer versions of WiFi provide temporal fairness because everyone, let's say, given that the priority of their queues is the same, they get the possibility to transmit for the same amount of time. That's temporal fairness. However, the actual number of bits that you will be able to transmit at the MAC layer depends on how fast you can. So that's why at the very beginning we said the newest version of WiFi allows you to transmit at data speed on the physical layer at 46 gigabit per second. Okay, that's the data speed on the physical layer, which is very very high. Excuse me, but not all users are able to transmit at that speed. Okay, so your throughput in that case will be high, but only if you are a lucky user. Okay, so that's to account for the actual performance that we have. Okay, that said, we are done with the announced distributed channel access, and now we move to the new centralized access scheme that we have in WiFi 4. So as you may remember, we said in this WiFi 4, we do not have PCF anymore because it didn't work, right? So they introduced a new version.",
+  "raw_decoded": "language English<asr_text>The newer versions of WiFi provide temporal fairness because everyone, let's say, given that the priority of their queues is the same, they get the possibility to transmit for the same amount of time. That's temporal fairness. However, the actual number of bits that you will be able to transmit at the MAC layer depends on how fast you can. So that's why at the very beginning we said the newest version of WiFi allows you to transmit at data speed on the physical layer at 46 gigabit per second. Okay, that's the data speed on the physical layer, which is very very high. Excuse me, but not all users are able to transmit at that speed. Okay, so your throughput in that case will be high, but only if you are a lucky user. Okay, so that's to account for the actual performance that we have. Okay, that said, we are done with the announced distributed channel access, and now we move to the new centralized access scheme that we have in WiFi 4. So as you may remember, we said in this WiFi 4, we do not have PCF anymore because it didn't work, right? So they introduced a new version.<|im_end|>",
+  "generated_tokens": 247,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.898628068000107,
+  "at": "2026-10-18T03:43:14.321867+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

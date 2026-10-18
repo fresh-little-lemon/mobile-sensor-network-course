@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1980.0,
+  "end_seconds": 2100.0,
+  "text": "The MAC header, right? We said, oh, there is a new subfield there that is the queue control subfield, and we said, well, this can be used to signal the type of traffic that we are transmitting, but is also used to include information on the state of the queue of a Wi-Fi card. So through this subfield in the packet header, Wi-Fi cards can notify the access point about their queue status. So this means that the access point has now a real-time view of the queues at each station, if they've got traffic to transmit or not, right, and how much traffic there. So now we solve one of the one of the PCF issues. That was the other end that we had due to the possible poll poll poll poll changes that were totally useless and harmful, right? They introduced lots of error, and we said that was one major issue in PCF. Now.",
+  "raw_decoded": "language English<asr_text>The MAC header, right? We said, oh, there is a new subfield there that is the queue control subfield, and we said, well, this can be used to signal the type of traffic that we are transmitting, but is also used to include information on the state of the queue of a Wi-Fi card. So through this subfield in the packet header, Wi-Fi cards can notify the access point about their queue status. So this means that the access point has now a real-time view of the queues at each station, if they've got traffic to transmit or not, right, and how much traffic there. So now we solve one of the one of the PCF issues. That was the other end that we had due to the possible poll poll poll poll changes that were totally useless and harmful, right? They introduced lots of error, and we said that was one major issue in PCF. Now.<|im_end|>",
+  "generated_tokens": 191,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.44889145900015,
+  "at": "2026-10-18T03:44:31.658834+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

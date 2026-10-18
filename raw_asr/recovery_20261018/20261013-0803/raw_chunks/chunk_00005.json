@@ -1,0 +1,12 @@
+{
+  "start_seconds": 550.0,
+  "end_seconds": 670.0,
+  "text": "Assumption that there are always packets coming in, so they always have traffic to transmit, packets to transmit. Okay, this kind of assumption is called saturated Wi-Fi stations, meaning that they are indeed their queues are saturated, they have, they are always full. Okay, that's the meaning. So if we assume this kind of scenario, where of course A and B can hear each other, very simple network scenario, and we consider to use the DCF, then this is on average, on average, the kind of traffic pattern that we will observe on the channel. That means we will look at the channel, and on average, statistically, what we will see is that A and B get the same chances to access the channel and transmit a packet, because as we said, DCF is fair. So on average, if you observe the system for quite a long time, on average, you will see that our two nodes A and B will be able to transmit exactly the same number.",
+  "raw_decoded": "language English<asr_text>Assumption that there are always packets coming in, so they always have traffic to transmit, packets to transmit. Okay, this kind of assumption is called saturated Wi-Fi stations, meaning that they are indeed their queues are saturated, they have, they are always full. Okay, that's the meaning. So if we assume this kind of scenario, where of course A and B can hear each other, very simple network scenario, and we consider to use the DCF, then this is on average, on average, the kind of traffic pattern that we will observe on the channel. That means we will look at the channel, and on average, statistically, what we will see is that A and B get the same chances to access the channel and transmit a packet, because as we said, DCF is fair. So on average, if you observe the system for quite a long time, on average, you will see that our two nodes A and B will be able to transmit exactly the same number.<|im_end|>",
+  "generated_tokens": 205,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.59410883700002,
+  "at": "2026-10-18T03:38:12.895833+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

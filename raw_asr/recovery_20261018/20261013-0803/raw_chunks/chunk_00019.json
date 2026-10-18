@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2090.0,
+  "end_seconds": 2210.0,
+  "text": "Lots of overhead, and we said that was one major issue in PCF. Now we do not have that anymore. We solve that issue, because the access point has a knowledge and idea about the status of the queues of the different WiFi cards. Therefore, you will pull a station only if that station has got traffic to transmit. Okay, so one problem solved. There is also another another problem that is solved here. That is, remember in PCF, every time the access point was pulling a station, we didn't know for how long that transmission would have going on. Because it depended on the speed of transmission of that station, on the payload size of the packet that that station had. So we didn't have any control on the time taken by a WiFi card station to transmit this packet, right? Now also this issue is solved. Why? Because every time we pull a station, what we grant is not the possibility to transmit a packet. It is the possibility to transmit for a transmission.",
+  "raw_decoded": "language English<asr_text>Lots of overhead, and we said that was one major issue in PCF. Now we do not have that anymore. We solve that issue, because the access point has a knowledge and idea about the status of the queues of the different WiFi cards. Therefore, you will pull a station only if that station has got traffic to transmit. Okay, so one problem solved. There is also another another problem that is solved here. That is, remember in PCF, every time the access point was pulling a station, we didn't know for how long that transmission would have going on. Because it depended on the speed of transmission of that station, on the payload size of the packet that that station had. So we didn't have any control on the time taken by a WiFi card station to transmit this packet, right? Now also this issue is solved. Why? Because every time we pull a station, what we grant is not the possibility to transmit a packet. It is the possibility to transmit for a transmission.<|im_end|>",
+  "generated_tokens": 207,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.580714125000668,
+  "at": "2026-10-18T03:45:01.240251+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

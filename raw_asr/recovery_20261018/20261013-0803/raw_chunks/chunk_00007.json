@@ -1,0 +1,12 @@
+{
+  "start_seconds": 770.0,
+  "end_seconds": 890.0,
+  "text": "B is able to transmit over the time period T. And then we need to consider the size, the length. So l stands for length of the payload, right? Sent by A when it transmits a packet. So let's assume that all packets that A has got in the queue have got length l a. Okay, so they are of the same size, all of them. So the throughput can be computed as the number of packets that are transmitted over T, considering that each packet includes l a useful bits. Right, very simple. Okay, what about B? Similarly, B will be able to transmit n packets over the time period T. And let's consider that each packet has got a size, a length equal to l b. Okay, so all these packets here in B's queue have length l b. So what is the throughput of B then? Again, it's the number of packets that it will be able to transmit over the period T, and each packet will include right l b useful bits. So this is the expression of the throughput of B.",
+  "raw_decoded": "language English<asr_text>B is able to transmit over the time period T. And then we need to consider the size, the length. So l stands for length of the payload, right? Sent by A when it transmits a packet. So let's assume that all packets that A has got in the queue have got length l a. Okay, so they are of the same size, all of them. So the throughput can be computed as the number of packets that are transmitted over T, considering that each packet includes l a useful bits. Right, very simple. Okay, what about B? Similarly, B will be able to transmit n packets over the time period T. And let's consider that each packet has got a size, a length equal to l b. Okay, so all these packets here in B's queue have length l b. So what is the throughput of B then? Again, it's the number of packets that it will be able to transmit over the period T, and each packet will include right l b useful bits. So this is the expression of the throughput of B.<|im_end|>",
+  "generated_tokens": 222,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.51199163000092,
+  "at": "2026-10-18T03:39:11.525533+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

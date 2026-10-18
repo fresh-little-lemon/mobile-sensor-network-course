@@ -1,0 +1,12 @@
+{
+  "start_seconds": 660.0,
+  "end_seconds": 780.0,
+  "text": "We will see that our two nodes A and B will be able to transmit exactly the same number of packets during this time period, and we denote this number of packets by n. Okay, so let's denote this number of packets transmitted by each node with n. Now, what is the throughput? So the ability to transmit traffic of A and B in bits per second. Remember that throughput. Throughput is an average performance metric. We have already introduced this metric. That is the number of useful bits interesting application from the point of view of the application interesting bits that a node is able to transmit over a period of time t. Okay, considering that this t is quite long, we need to observe the system for quite some time. So what is the throughput? So th means throughput. What is the throughput of A of node A? Well, we need to consider the number of packets that A is able to transmit over the time period t, and then we need to consider the size, the length.",
+  "raw_decoded": "language English<asr_text>We will see that our two nodes A and B will be able to transmit exactly the same number of packets during this time period, and we denote this number of packets by n. Okay, so let's denote this number of packets transmitted by each node with n. Now, what is the throughput? So the ability to transmit traffic of A and B in bits per second. Remember that throughput. Throughput is an average performance metric. We have already introduced this metric. That is the number of useful bits interesting application from the point of view of the application interesting bits that a node is able to transmit over a period of time t. Okay, considering that this t is quite long, we need to observe the system for quite some time. So what is the throughput? So th means throughput. What is the throughput of A of node A? Well, we need to consider the number of packets that A is able to transmit over the time period t, and then we need to consider the size, the length.<|im_end|>",
+  "generated_tokens": 207,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.116384487000687,
+  "at": "2026-10-18T03:38:40.012887+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

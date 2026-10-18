@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1760.0,
+  "end_seconds": 1880.0,
+  "text": "We do not have PCF anymore because it didn't work, right? So they introduced a new version, announce the new version of centralized scheme. And this centralized scheme now works, so that's the good news. How does it work? Well, let me stress the important things here through a graphical representation of our of our protocol. So again, let's consider a superframe. We already know what a superframe is. The superframe, remember, starts with a beacon, and then we have two different phases. The first phase, that is the contention free period, during which we use the centralized access scheme. And the second phase is the contention period, during which we use the distributed channel access scheme. Okay, this is exactly the same as what we discussed already. Okay, so let's first focus on the contention free period. The contention free period, where we use this new centralized access scheme called the HCCA. Now, if you observe this representation, you can see that is essentially more or less.",
+  "raw_decoded": "language English<asr_text>We do not have PCF anymore because it didn't work, right? So they introduced a new version, announce the new version of centralized scheme. And this centralized scheme now works, so that's the good news. How does it work? Well, let me stress the important things here through a graphical representation of our of our protocol. So again, let's consider a superframe. We already know what a superframe is. The superframe, remember, starts with a beacon, and then we have two different phases. The first phase, that is the contention free period, during which we use the centralized access scheme. And the second phase is the contention period, during which we use the distributed channel access scheme. Okay, this is exactly the same as what we discussed already. Okay, so let's first focus on the contention free period. The contention free period, where we use this new centralized access scheme called the HCCA. Now, if you observe this representation, you can see that is essentially more or less.<|im_end|>",
+  "generated_tokens": 211,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.867357664999872,
+  "at": "2026-10-18T03:43:43.189888+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}
