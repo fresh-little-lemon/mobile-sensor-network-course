@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2530.0,
+  "end_seconds": 2650.0,
+  "text": "We have the CRC, of course. Let's do apply stopping weight, and we clearly still have stopping weight also here. But we have also the Quality Service Control subfield in the MAC header, and this is new. So why do we have this new field? Well, in particular, in the Distributor Access Scheme, is used to signal the type of traffic that is in the payload. So if that packet essentially came from Access Category Zero, or Access Category One, or Access Category Two, or Access Category Three, okay? So the type of traffic carried in the payload is specified in this subfield of the MAC header. Also, this MAC header subfield may carry information about the status of the queue. That is, if it's carrying traffic related to Access Category, for example, Zero. Here, the sender can also include some information about how many more packets are waiting in the queue Access Category Zero. Okay, so it can provide information, for example, if this is transmitted by a user node, it can provide information to the access point about the state of its queue.",
+  "raw_decoded": "language English<asr_text>We have the CRC, of course. Let's do apply stopping weight, and we clearly still have stopping weight also here. But we have also the Quality Service Control subfield in the MAC header, and this is new. So why do we have this new field? Well, in particular, in the Distributor Access Scheme, is used to signal the type of traffic that is in the payload. So if that packet essentially came from Access Category Zero, or Access Category One, or Access Category Two, or Access Category Three, okay? So the type of traffic carried in the payload is specified in this subfield of the MAC header. Also, this MAC header subfield may carry information about the status of the queue. That is, if it's carrying traffic related to Access Category, for example, Zero. Here, the sender can also include some information about how many more packets are waiting in the queue Access Category Zero. Okay, so it can provide information, for example, if this is transmitted by a user node, it can provide information to the access point about the state of its queue.<|im_end|>",
+  "generated_tokens": 225,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.63891519000026,
+  "at": "2026-10-18T03:34:55.462385+00:00",
+  "source_sha256": "b40da034e4edd672346ea105721398d4ba44a8909972fa1453fb3d8b5717ddc8"
+}

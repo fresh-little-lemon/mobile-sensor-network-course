@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1980.0,
+  "end_seconds": 2100.0,
+  "text": "Opportunity limit. That is different for these high priority or lower priority queues. Now, intuitively, what would you say? Who has got the largest, longest transmission opportunity limit? Which queue will get the longest transmission opportunity limit? Give me your intuition answer. Which one? Zero. Correct, meaning that intuitively is correct, and this is also the answer that I would give if someone would ask me, right? Because intuitively, I, that's a priority, I, I give over what I can to that queue, right? It is correct from the point of view of intuition, but we need to consider here. So that was actually a bit tricky, sorry, and that's my game. We need to consider the type of traffic that each queue has to handle. Okay, so let's think more. Let's think twice about. What did we say? Queue zero is for voice. Now, I know it's not easy because you may not know that, but voice packets are short. Okay, so the voice is coded in a way. I mean, it's not a highly debated traffic. Okay, voice can be compressed very efficiently, so that the voice that we emit as an information.",
+  "raw_decoded": "language English<asr_text>Opportunity limit. That is different for these high priority or lower priority queues. Now, intuitively, what would you say? Who has got the largest, longest transmission opportunity limit? Which queue will get the longest transmission opportunity limit? Give me your intuition answer. Which one? Zero. Correct, meaning that intuitively is correct, and this is also the answer that I would give if someone would ask me, right? Because intuitively, I, that's a priority, I, I give over what I can to that queue, right? It is correct from the point of view of intuition, but we need to consider here. So that was actually a bit tricky, sorry, and that's my game. We need to consider the type of traffic that each queue has to handle. Okay, so let's think more. Let's think twice about. What did we say? Queue zero is for voice. Now, I know it's not easy because you may not know that, but voice packets are short. Okay, so the voice is coded in a way. I mean, it's not a highly debated traffic. Okay, voice can be compressed very efficiently, so that the voice that we emit as an information.<|im_end|>",
+  "generated_tokens": 251,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.03410374299892,
+  "at": "2026-10-18T03:32:07.834542+00:00",
+  "source_sha256": "b40da034e4edd672346ea105721398d4ba44a8909972fa1453fb3d8b5717ddc8"
+}
