@@ -6,7 +6,7 @@
 
 重要边界：图审完成、导航完成、原音/ASR校订、课堂全部原图恢复不是同一状态。共34类已记录课堂视觉来源缺口，涉及13课；这不是34张可确定原图。没有原始来源的白板、临时批注和数值练习课件不以通用图或猜绘替代。
 
-1331：历史PPT图审完成，后续78段忠实恢复已核验8图和导航未变；恢复后全文图片语义重审未从记录确证，单独标unknown，不能由ASR恢复完成自动转成已复审。
+1331：已针对revision124真实78段恢复正文完成一次独立全文图义复审，8张图全部对齐，0移动、0新增确认缺图；2类白板源缺口继续保留。该结论来自逐图与当前正文核验，不由ASR状态推定。
 
 ## 逐课结果
 
@@ -21,7 +21,7 @@
 | [20261009-1000](https://lcn6dqn3m0yr.feishu.cn/docx/JT5ydOxALoxXVSxQTN0cM40enid) | 19 | 完成 | 0 | 2 |
 | [20261010-0800](https://lcn6dqn3m0yr.feishu.cn/docx/FfgDdqktToKXpyxwlCxcv7GanSb) | 13 | 完成 | 0 | 3 |
 | [20261010-1000](https://lcn6dqn3m0yr.feishu.cn/docx/LN0Xdi9daou8cFxTeT8cSCsbnnh) | 9 | 完成 | 0 | 1 |
-| [20261012-1331](https://lcn6dqn3m0yr.feishu.cn/docx/BSkQdCu5LoOPopxZWPGcbeJhnhf) | 8 | 完成（恢复后重审未知） | 0 | 2 |
+| [20261012-1331](https://lcn6dqn3m0yr.feishu.cn/docx/BSkQdCu5LoOPopxZWPGcbeJhnhf) | 8 | 完成（恢复后已复审） | 0 | 2 |
 | [20261012-1530](https://lcn6dqn3m0yr.feishu.cn/docx/EsHBd3OOCo6ODAxhlMKc6JxNn9d) | 9 | 完成 | 0 | 2 |
 | [20261012-1620](https://lcn6dqn3m0yr.feishu.cn/docx/BEhKd4SRwo8qxexUkBjcSpTMnfE) | 14 | 完成 | 0 | 1 |
 | [20261013-0803](https://lcn6dqn3m0yr.feishu.cn/docx/QX16d9bfUoakAHxlKBCcnf2qnPg) | 16 | 完成 | 0 | 2 |
@@ -112,3 +112,5 @@
 逐课JSON含文档直达链接、权威审计/manifest/verification路径及SHA256。前10课由现有权威记录只读汇总；后9课各有独立完整恢复ZIP。旧导航检查点及旧hash未被覆盖。
 
 后9课合集只包含9个已校验ZIP与本索引、来源缺口说明及SHA256，不含私人音频、凭据、完整PDF。恢复前先读取当前远端版本；不要整篇覆盖用户后续修改。
+
+补充证据：docs/feishu/20261012-1331/slide-reaudit-after-revision124/source-semantic-reaudit-revision124.json。先前交付的后9课恢复ZIP保留原hash作为历史，其中总索引1331“未知”状态已由本次补充记录取代。

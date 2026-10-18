@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-18T16:17:53.132088+00:00",
+  "generated_at_utc": "2026-10-18T16:23:01.494162+00:00",
   "scope": "19课PPT图审统一状态索引；导航、ASR和原始课堂全部视觉恢复为独立维度。",
   "definitions": {
     "slides_audit_complete": "有逐图身份及语义位置审计记录；不由导航或ASR状态推定。",
     "confirmed_missing_count": "已确认且能从所供固定PDF定位、但当前尚未补入的图数。",
     "unresolved_source_gap_count": "课堂绘图、临时批注或未提供课件等按审计归纳的缺口类别数，不是未知原图张数。",
     "all_lecture_visuals_recovered": "仅有明确证据才为true；无记录的缺口不等于穷尽课堂所有视觉。",
-    "current_revision_semantic_slide_alignment_reaudited": "对当前正文版本是否明确作过全文图义核验；1331恢复后8原图及导航保留已核验，但新的78段全文图义重审未据此自动认定。"
+    "current_revision_semantic_slide_alignment_reaudited": "对当前正文版本是否明确作过全文图义核验；1331恢复后已直接核验revision124真实78段及全部8图。"
   },
   "summary": {
     "lesson_count": 19,
@@ -17,15 +17,14 @@
     "historical_confirmed_missing_pdf_slides_found_and_resolved": 19,
     "recorded_source_gap_categories": 34,
     "lessons_with_source_gaps": 13,
-    "latest_text_revision_semantic_reaudit_unknown": [
-      "20261012-1331"
-    ],
+    "latest_text_revision_semantic_reaudit_unknown": [],
     "last_nine_lesson_count": 9,
     "last_nine_original_images": 128,
     "last_nine_images_added": 8,
     "last_nine_final_images": 136,
     "last_nine_paragraphs_preserved": 642,
-    "last_nine_source_gap_categories": 26
+    "last_nine_source_gap_categories": 26,
+    "latest_text_revision_semantic_reaudit_complete_count": 19
   },
   "lessons": [
     {
@@ -882,6 +881,13 @@
           "path": "/workspace/shared/course-1012-1331/verification.json",
           "sha256": "125fda272c84dea76e23cc5ff951985feae4e01ec1d48bc24e4a99716ed4fd09",
           "bytes": 23749
+        },
+        {
+          "role": "semantic_slide_reaudit_after_faithful_revision124",
+          "path": "/workspace/shared/course-1012-1331/slide-reaudit-after-revision124/source-semantic-reaudit-revision124.json",
+          "repository_path": "docs/feishu/20261012-1331/slide-reaudit-after-revision124/source-semantic-reaudit-revision124.json",
+          "sha256": "13415017361dbddd62b79aab03076617259fcda27983cf23e9000ca4687a1683",
+          "bytes": 64291
         }
       ],
       "evidence_consistency": {
@@ -1019,8 +1025,9 @@
         ],
         "supersedes_old_status": "原措辞恢复已落地78段且全量回读匹配，保留待听辨标记，未逐句人工听校；旧图审中的第9段待ASR/暂停远端与旧索引中的全文校订中属于较早状态。"
       },
-      "current_revision_semantic_slide_alignment_reaudited": "unknown",
-      "current_revision_semantic_slide_alignment_note": "本任务按要求只汇总既有图审，不重审恢复后的78段。既有图审完成与新增恢复回读均有证据；8图及导航未变不单独证明恢复后全文与图片语义重新审过。来源缺口条目保留先前图审的段号证据。"
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "current_revision_semantic_slide_alignment_note": "已直接读取revision124最终after.json的全部78段恢复正文并逐张重审8图；8图仍全部对齐，0移动，0新增确认缺图，2类白板源缺口继续保留。",
+      "source_semantic_reaudit_after_revision124": true
     },
     {
       "lesson": "20261012-1530",
