@@ -1,0 +1,82 @@
+{
+  "recording_id": "20261013-1000",
+  "source_block_count": 101,
+  "displayed_paragraph_count": 64,
+  "merged_groups": 26,
+  "false_boundary_merges": 37,
+  "all_source_blocks_once_in_original_order": true,
+  "source_extraction_byte_exact_against_capture": true,
+  "full_text_read_complete": true,
+  "additional_independent_model_repetition_audit_status": "pending_separate_followup",
+  "full_text_review_method": "Read all101 source speech blocks, all53 main ASR windows with raw_decoded, all4 split checks and final90-second tail; paragraph-by-paragraph reconciliation, not manual audio listening",
+  "independent_asr_complete": true,
+  "all_samples_processed": true,
+  "all_recorded_speech_reliably_transcribed": false,
+  "main_asr_chunks": 53,
+  "split_checks": 4,
+  "independent_final_tail_processed": true,
+  "independent_final_tail_reliable": true,
+  "audio_duration_seconds": 5781.374,
+  "coverage_start_seconds": 0,
+  "coverage_end_seconds": 5781.374,
+  "all_asr_flags_empty": false,
+  "flagged_main_windows": [
+    {
+      "window_index_zero_based": 27,
+      "start_seconds": 2970.0,
+      "end_seconds": 3090.0,
+      "flags": [
+        "generation_cap"
+      ]
+    },
+    {
+      "window_index_zero_based": 28,
+      "start_seconds": 3080.0,
+      "end_seconds": 3200.0,
+      "flags": [
+        "generation_cap"
+      ]
+    },
+    {
+      "window_index_zero_based": 29,
+      "start_seconds": 3190.0,
+      "end_seconds": 3310.0,
+      "flags": [
+        "empty_output"
+      ]
+    },
+    {
+      "window_index_zero_based": 39,
+      "start_seconds": 4290.0,
+      "end_seconds": 4410.0,
+      "flags": [
+        "empty_output"
+      ]
+    },
+    {
+      "window_index_zero_based": 42,
+      "start_seconds": 4620.0,
+      "end_seconds": 4740.0,
+      "flags": [
+        "empty_output"
+      ]
+    }
+  ],
+  "anomaly_handling": "- 主窗口27（2970–3090秒）达到1024 token上限并长串重复“嗯”。拆分00027_a虽无自动flags，内容与原课间对话大幅冲突，数字和身份字段未能独立确认；00027_b仍重复到上限。原段57–58按原转写保留并翻译，双语均注明未经独立验证，不用失控ASR补造对话或把90改成其他数字\n- 主窗口28（3080–3200秒）同样重复到上限。00028_a再次失控；00028_b只有一条无上下文中文语句，没有来源支持，不归给讲者或插入正文。没有删除原始输出，也没有断言这些区间无声音\n- 主窗口29（3190–3310秒）、39（4290–4410秒）与42（4620–4740秒）为空。它们分别接近课间及自主练习区间；空输出只能说明模型没有产出文字，不能证明静音\n- 主窗口40（4400–4520秒）与41（4510–4630秒）出现关于白色、说话和草原的短中文残片。虽无自动flags，且重叠处有相同短句，但没有原文或其他独立证据确认完整语义与说话者，不能只因无flags就认定可靠恢复；未将其补为讲者课程内容，也未声称不存在课间讨论\n- 原段49及窗口23同时出现TF=100/150微秒；原段69及窗口34都说A/C；原段89及窗口46都说PHY idle；原段94和窗口49给B=13，而原段97给30、窗口51给13；原段97及窗口50–51都说increases。这些差异或语境冲突在正文及双语自然保留，没有用预期标准答案强行修正\n- 最后主窗口52覆盖5720–5781.374秒，独立尾部覆盖5691.374–5781.374秒；两者支持复习提醒、明天提问、下课致谢与时间确认，末尾无生成上限/空输出。重叠讲话只收一次；尾部支持课末内容，不等于把整场低可靠度区间都认证为可靠转写",
+  "raw_commit": "dfe4dec3b7c0b18dfa5ff9f6ca0a7a3a65765429",
+  "raw_files_published": 59,
+  "raw_publication_verification": "Parent explicitly confirmed full raw publication and readback before final repository outputs",
+  "model": "Qwen/Qwen3-ASR-0.6B-hf",
+  "model_revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+  "uncertainty_retained": true,
+  "bilingual_complete_for_all_source_blocks": true,
+  "edited_english_source_blocks": 101,
+  "translated_chinese_source_blocks": 101,
+  "original_text_sha256": "8778829a05e1d17b86056906dc8ac677c031f6b0a945367c7ada4e5ada25abe1",
+  "original_capture_sha256": "b68b3172d18bbf818f60fb4f8076b4d56f746834484f58ef552bc8d12d33d9c4",
+  "raw_asr_recording_sha256": "4131f18520d963de6b31e2387e68857cbe2ddaeedeec8393f8ec3af41e5d7ac4",
+  "speech_sha256": "6d3f0efc914cc2e4dcdeb86c4fc6d5cdef8b54a7efbfe9f167cd44d32730ca0c",
+  "bilingual_sha256": "8141418c53cfee276234ddc90aaf75b5eedfcb71849ef9e63751dac335ebac2d",
+  "terminology_addendum_prepared": true,
+  "updated_at": "2026-10-18T04:40:25.220813+00:00"
+}
