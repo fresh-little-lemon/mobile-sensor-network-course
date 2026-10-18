@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "windows": 40,
+  "models": [
+    "openai/whisper-small",
+    "Qwen/Qwen3-ASR-0.6B-hf"
+  ],
+  "at": "2026-10-18T04:59:00.875476+00:00",
+  "manual_listening": false
+}
