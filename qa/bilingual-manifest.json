@@ -1,0 +1,52 @@
+{
+  "completed": 8,
+  "total": 19,
+  "files": [
+    {
+      "file": "bilingual/20261008-0800.en-zh.md",
+      "pairs": 121,
+      "sha256": "7400bb5d32f96fc75d1727404173e8d846b6706cc977633b0366d318fc3ce30c"
+    },
+    {
+      "file": "bilingual/20261008-0910.en-zh.md",
+      "pairs": 46,
+      "sha256": "ac0babc83039c4c45bd442374837bb233fe799b17d1d4fee21e2d200d42353a0"
+    },
+    {
+      "file": "bilingual/20261008-1000.en-zh.md",
+      "pairs": 81,
+      "sha256": "2393059550696b5dacca6087bc004bc2243e731cd8089dbd7aadf268a6902b53"
+    },
+    {
+      "file": "bilingual/20261008-1049.en-zh.md",
+      "pairs": 88,
+      "sha256": "f26cc626b61d45aff70548dfdc21ecff182658839435e15ea64ca73494b89fad"
+    },
+    {
+      "file": "bilingual/20261009-0759.en-zh.md",
+      "pairs": 67,
+      "sha256": "124f0e85d17b902ce4983a8cc3cd5a96bf19fca8d120ff23a2a8e2fe3d2ec84e"
+    },
+    {
+      "file": "bilingual/20261009-0845.en-zh.md",
+      "pairs": 88,
+      "sha256": "0e47a564e0f24655da5f40792084c74d86378fe6eda9865f8335a26d369b18fc"
+    },
+    {
+      "file": "bilingual/20261009-1000.en-zh.md",
+      "pairs": 97,
+      "sha256": "d0ba623f46e77f8e4219188c7c3d33085e03beeac9a567cd2b75a1fe3d67da1b"
+    },
+    {
+      "file": "bilingual/20261010-0800.en-zh.md",
+      "pairs": 81,
+      "sha256": "9290704b2bb2e4b027c39af3254387a170eac466501d90d29562ea25003f0b2d"
+    }
+  ],
+  "checks": [
+    "paragraph counts",
+    "timestamp/editorial marker removal",
+    "source hashes in per-recording QA"
+  ],
+  "note": "Chinese-source fragments are translated to English, retaining source Chinese in paired paragraph."
+}

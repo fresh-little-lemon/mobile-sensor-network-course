@@ -285,3 +285,6 @@
 [24] Cisco，Troubleshooting Ethernet：https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html
 
 [25] IETF，RFC 8325，Mapping Diffserv to IEEE 802.11：https://datatracker.ietf.org/doc/html/rfc8325
+
+
+其他记录中少量纯中文课间片段也按英文译文在前、中文原文在后排列，段落位置保留。混合语种原句及含混语音仍可回到修订稿与diff追溯。
