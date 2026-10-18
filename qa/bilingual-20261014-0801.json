@@ -3,7 +3,7 @@
   "paragraph_pairs": 62,
   "source_block_count": 89,
   "source_speech_sha256": "bd09eeb4ceb1da51db254d810c020fc85118749fb69039a942f40ab5c3974567",
-  "bilingual_sha256": "94977fd06cf503a17bb07aa8fddc449dcb64468948f32464afaa4a1266caf2bf",
+  "bilingual_sha256": "998ae2c72f4e48988142c82328125c35bb8a3170232175c66e6717534180c782",
   "status": "all_source_blocks_translated_and_read_through_with_uncertainties",
   "final_bilingual_readthrough_complete": true,
   "cleaned_timestamp_speaker_editorial_markers": true,
@@ -28,6 +28,9 @@
   "terminology_addendum_prepared": true,
   "terminology_review_public_append_pending": false,
   "additional_independent_model_repetition_audit_status": "pending_separate_followup",
-  "updated_at": "2026-10-18T05:08:38.454612+00:00",
-  "terminology_review": "bilingual/terminology-review.md"
+  "updated_at": "2026-10-18T08:08:15.903Z",
+  "terminology_review": "bilingual/terminology-review.md",
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b"
 }

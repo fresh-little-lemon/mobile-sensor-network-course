@@ -6,5 +6,10 @@
   "removed_only_editorial_markers_and_whitespace": true,
   "translation_status": "translated_and_read_through",
   "terminology_review": "bilingual/terminology-review.md",
-  "source_uncertainties": "Retained in source and original diffs; clean translation does not resolve uncertain transcript statements."
+  "source_uncertainties": "Retained in source and original diffs; clean translation does not resolve uncertain transcript statements.",
+  "bilingual_sha256": "d9af23b6b40253dd3ca4053496a1672e2732da272a9de7313a43e1583a0f8786",
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b",
+  "updated_at": "2026-10-18T08:08:15.902Z"
 }

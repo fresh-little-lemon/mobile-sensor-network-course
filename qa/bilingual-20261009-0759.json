@@ -4,5 +4,10 @@
   "paragraph_pairs": 67,
   "translation_status": "translated_and_read_through",
   "terminology_review": "bilingual/terminology-review.md",
-  "unresolved_source_roles": "Receiver/transmitter confusion and unclear opening retained; see separate review."
+  "unresolved_source_roles": "Receiver/transmitter confusion and unclear opening retained; see separate review.",
+  "bilingual_sha256": "ff1e2dc4a98b308981feb543dd10b0f496e1a2c307970421aa05269064ab00e7",
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b",
+  "updated_at": "2026-10-18T08:08:15.902Z"
 }

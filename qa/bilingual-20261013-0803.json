@@ -3,7 +3,7 @@
   "paragraph_pairs": 69,
   "source_block_count": 95,
   "source_speech_sha256": "4b8487327df8db716045c0849c4321017165b4ab4160235458333febd6a1b53b",
-  "bilingual_sha256": "d64fb81f13260420db327ea90c66d1de05599c91b3d414bc02118df3084e4ebd",
+  "bilingual_sha256": "bb7617dbd234ea9df2a66a839f7c953358d522368eebcdb4057a27f2b6e883a4",
   "status": "all_source_blocks_translated_and_read_through_with_uncertainties",
   "cleaned_timestamp_speaker_editorial_markers": true,
   "substantive_uncertainty_preserved": {
@@ -26,7 +26,7 @@
   "raw_commit": "bbf211800300d1419305ac4eaf903faf199cdea6",
   "terminology_addendum_prepared": true,
   "terminology_review_public_append_pending": false,
-  "updated_at": "2026-10-18T05:00:21.773986+00:00",
+  "updated_at": "2026-10-18T08:08:15.902Z",
   "terminology_review": "bilingual/terminology-review.md",
   "additional_independent_model_repetition_audit_status": "computational_comparison_complete_speech_unresolved",
   "additional_independent_model_repetition_audit_report": "https://github.com/fresh-little-lemon/mobile-sensor-network-course/blob/main/qa/asr-repetition-audit-20261018/README.md",
@@ -47,5 +47,8 @@
     "original_raw_preserved": true,
     "revised_or_bilingual_words_changed_by_audit": false,
     "finding": "Recognition remains unstable; differing short-window guesses do not resolve wording or establish silence. Keep editorial uncertainty."
-  }
+  },
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b"
 }

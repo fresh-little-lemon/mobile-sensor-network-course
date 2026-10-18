@@ -25,15 +25,17 @@
   "no_unreliable_asr_promoted_to_certain_speech": true,
   "raw_commit": "d9380a5ad6c6845b53f6d2ebdf1294bb875143e5",
   "terminology_addendum_prepared": true,
-  "terminology_review_global_append_pending": true,
-  "updated_at": "2026-10-18T07:58:08.969384+00:00",
+  "terminology_review_global_append_pending": false,
+  "updated_at": "2026-10-18T08:08:15.903Z",
   "faithful_translation_audit_complete": true,
   "faithful_translation_pairs_reviewed": 82,
   "faithful_translation_pairs_rewritten": 82,
   "faithful_translation_no_summary": true,
   "all_english_unchanged": true,
-  "faithful_translation_audit_file": "faithful-translation-20261015-1000.json",
+  "faithful_translation_audit_file": "qa/faithful-translation-20261015-1000.json",
   "faithful_translation_audit_sha256": "318d9780443d241e2c99cdf9db18306f4ab0d9e953c0747790aeab3d26d56cc6",
   "faithful_translation_canonical": "faithful_zh82.override.json",
-  "publication_status": "local_validated_not_published"
+  "publication_status": "published_and_exact_readback_verified",
+  "full_faithful_translation_review_complete": true,
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b"
 }

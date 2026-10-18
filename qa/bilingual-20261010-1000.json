@@ -2,7 +2,7 @@
   "recording_id": "20261010-1000",
   "paragraph_pairs": 76,
   "source_speech_sha256": "65e6de791ec9f927e4e35983bdd8c7cfe31f6702ba66b590b5d5721b3b3b38fe",
-  "bilingual_sha256": "fa6dc779079693ddfb0f47b7053279af6032c0c62882d72da16282a2af7932bd",
+  "bilingual_sha256": "38095457e95522f8b1c645dbdd6e55387203d58a5caa5b87af47405086d4a528",
   "status": "translated_and_read_through",
   "cleaned_timestamp_speaker_editorial_markers": true,
   "original_chinese_paragraphs_rendered_english_then_chinese": [
@@ -12,5 +12,8 @@
   ],
   "unresolved_number_retained_as_unclear": true,
   "terminology_review": "bilingual/terminology-review.md",
-  "updated_at": "2026-10-18T02:51:58.086450+00:00"
+  "updated_at": "2026-10-18T08:08:15.902Z",
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b"
 }

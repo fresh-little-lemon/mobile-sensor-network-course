@@ -8,5 +8,10 @@
   "chinese_source_paragraphs_translated_to_english": [
     24,
     39
-  ]
+  ],
+  "bilingual_sha256": "5bdf8bf0a12270cffdd82a2d9d443ce3ca7293eb0abf2a2b8d296b3faa48bc9c",
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b",
+  "updated_at": "2026-10-18T08:08:15.902Z"
 }

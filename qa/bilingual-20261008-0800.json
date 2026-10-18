@@ -5,5 +5,10 @@
   "format": "English then Chinese; Chinese-source opening translated into English",
   "translation_status": "translated_and_read_through",
   "terminology_review": "bilingual/terminology-review.md",
-  "source_uncertainties": "Preserved in original revised text and diffs; separate review explains unresolved opening and technical claims."
+  "source_uncertainties": "Preserved in original revised text and diffs; separate review explains unresolved opening and technical claims.",
+  "bilingual_sha256": "f526302f0b8ce462850da91a7c81fcb0a0715e1a3a6eedfdda886237f3478f2a",
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b",
+  "updated_at": "2026-10-18T08:08:15.902Z"
 }

@@ -4,5 +4,10 @@
   "paragraph_pairs": 81,
   "translation_status": "translated_and_read_through",
   "terminology_review": "bilingual/terminology-review.md",
-  "source_uncertainties": "Original physical simplifications are preserved and discussed separately."
+  "source_uncertainties": "Original physical simplifications are preserved and discussed separately.",
+  "bilingual_sha256": "de0ea091b91ac907512876cf6a8aa65ebd6fff497d1d3a259fc9079858c180e3",
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b",
+  "updated_at": "2026-10-18T08:08:15.902Z"
 }

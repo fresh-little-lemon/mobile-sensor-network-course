@@ -3,5 +3,10 @@
   "source_sha256": "196029ffdc6100fbacd4d6149fddcab0fdcc472d224ea283ecab421bfa263787",
   "paragraph_pairs": 88,
   "translation_status": "translated_and_read_through",
-  "terminology_review": "bilingual/terminology-review.md"
+  "terminology_review": "bilingual/terminology-review.md",
+  "bilingual_sha256": "37c492cc2221ae49d2355fb10c9c5d9ad3b7c2a752aca71817de0a98bbe5779a",
+  "full_faithful_translation_review_complete": true,
+  "faithful_translation_audit_file": "qa/faithful-translation-audit-20261018.json",
+  "current_bilingual_verified_commit": "95037807c94c98f0f0f474847f6715dd041c713b",
+  "updated_at": "2026-10-18T08:08:15.902Z"
 }
