@@ -1,0 +1,22 @@
+[01:05:45.000 --> 01:05:57.640] data packets, let me just mention again that in the case of multicast or broadcast data
+[01:05:57.640 --> 01:06:06.040] packet things are much much simpler because we do not expect any acknowledgement, indeed
+[01:06:06.040 --> 01:06:12.960] since broadcast and multicast packets are intended for multiple destinations
+[01:06:13.760 --> 01:06:20.200] we cannot have receivers sending back acknowledgments because all these
+[01:06:20.200 --> 01:06:28.920] acknowledgments if sent at the same time will collide within each other so
+[01:06:28.920 --> 01:06:37.680] no use. If you had to desynchronize the acknowledgments, transmissions, that would
+[01:06:37.680 --> 01:06:47.120] be very very complicated and you would increase the order of the problem. So the
+[01:06:47.120 --> 01:06:55.460] choice that they made was, well if a packet is broadcast or multicast, the transmitter of course
+[01:06:55.460 --> 01:07:10.160] needs to sense the channel, if the channel is idle transmit, if the channel is busy of course
+[01:07:10.160 --> 01:07:19.060] you have to perform the cough procedure because you have to wait but then once you access the
+[01:07:19.400 --> 01:07:29.740] and transmit that's it okay you're done because you don't care if the packet
+[01:07:29.740 --> 01:07:38.400] was received successfully or unsuccessfully we are done okay so
+[01:07:38.400 --> 01:07:46.260] broadcast and multicast packets are transmitted only once so you may need
+[01:07:46.260 --> 01:07:55.840] to run the Bekoff procedure for those data buckets but just if when you want to access
+[01:07:55.840 --> 01:08:03.400] the channel and you sense the channel as busy the first time okay then once you perform the
+[01:08:03.400 --> 01:08:14.740] Bekoff and you access the channel and transmit you are done. Okay if everything is clear so far
+[01:08:16.260 --> 01:08:25.500] let me know if you have questions no questions okay so if we are good then we
+[01:08:25.500 --> 01:08:37.660] can now tackle this last condition that is well we have one more situation under
+[01:08:37.660 --> 01:08:49.380] which we perform the back-off. In this third situation, actually, the procedure is slightly,
+[01:08:49.560 --> 01:08:57.620] slightly different, okay? It's essentially the same except for one. What is this third
+[01:08:57.620 --> 01:09:03.940] situation? And it is called, in this case, the procedure is called fast back-off,
+[01:09:03.940 --> 01:09:14.620] just to underline that there is a small difference with respect to the cough run

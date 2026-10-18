@@ -1,0 +1,28 @@
+[00:59:45.000 --> 00:59:52.180] a transmitter is failing, failing, failing, it's because there are too many nodes in the
+[00:59:52.180 --> 00:59:58.640] network that try to access the channel to transmit a packet, the situation is too
+[00:59:58.640 --> 01:00:05.860] crowded, so what Wi-Fi says is if you fail, every time you fail it means
+[01:00:05.860 --> 01:00:13.560] that there are other nodes trying and you are selecting the same back-off, you
+[01:00:13.560 --> 01:00:21.940] the same week of time and you keep colliding. So in order to reduce the probability of collision
+[01:00:23.240 --> 01:00:33.440] each node needs to enlarge the possible values, so the choice, right, among the integers that
+[01:00:33.440 --> 01:00:43.320] can be selected. It's like when you have a bag with candies if they are all strawberry flavored
+[01:00:43.560 --> 01:00:50.460] If there are two people picking the candy, clearly they will pick strawberry.
+[01:00:51.400 --> 01:01:00.140] But if instead you fill the bag with banana, strawberry, peach, mint and so on,
+[01:01:00.140 --> 01:01:06.160] then the probability that two people pick the same candy flavor will reduce.
+[01:01:07.600 --> 01:01:09.880] So this is exactly the same principle.
+[01:01:09.880 --> 01:01:17.480] okay so you may say well nice, Wi-Fi really takes care of this crowded
+[01:01:17.480 --> 01:01:29.520] situation and allow us to perform that, true, but this works, this is a
+[01:01:29.520 --> 01:01:34.120] good idea to double the contention window every time you perform a
+[01:01:34.460 --> 01:01:41.980] back off to transmit the packet, it works but it works if the reason why a
+[01:01:42.580 --> 01:01:50.160] transmitter is failing is indeed because it keeps colliding with others
+[01:01:50.160 --> 01:01:58.780] but remember in wireless a transmission may fail also because of
+[01:01:58.780 --> 01:02:05.300] channel errors. So you may be the only one in the network with a packet to transmit
+[01:02:05.300 --> 01:02:13.920] and still fail because the channel is bad and the receiver cannot demodulate
+[01:02:13.920 --> 01:02:21.900] the signal correctly. So in that case of course you have to follow the
+[01:02:22.040 --> 01:02:30.200] rules anyway. So if you fail and fail because of channel errors, you have to apply the rules.
+[01:02:30.480 --> 01:02:39.540] And this means that every time you have to enlarge the contention window and statistically
+[01:02:40.420 --> 01:02:48.540] it's more likely that you will draw a long and longer and longer back-off time.
+[01:02:48.540 --> 01:02:57.880] right so is this good in this case not really good right because the reason why you are failing
+[01:02:58.460 --> 01:03:03.140] is not because there are others and you are colliding that's not the reason
+[01:03:03.140 --> 01:03:10.880] the reason is that the channel is poor of poor quality and this mechanism does not help
+[01:03:10.880 --> 01:03:13.320] to solve a beach, right?
+[01:03:14.280 --> 01:03:14.700] Actually,

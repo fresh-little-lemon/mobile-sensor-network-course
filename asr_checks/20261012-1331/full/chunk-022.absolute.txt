@@ -1,0 +1,24 @@
+[01:02:45.680 --> 01:02:54.420] longer and longer back of time, right? So is this good in this case? Not really
+[01:02:54.420 --> 01:03:00.340] good, right? Because the reason why you are failing is not because there are
+[01:03:00.340 --> 01:03:09.720] others and you are colliding, that's not the reason. The reason is that the channel is poor, of
+[01:03:09.720 --> 01:03:20.620] not help to solve the issue, right? Actually, this method in this situation is even harmful.
+[01:03:22.140 --> 01:03:32.520] Why? Because it makes you delay channel access, right? It makes you wait longer and longer and
+[01:03:32.520 --> 01:03:39.320] longer before accessing the channel, being able to access the channel and transmit the packet.
+[01:03:39.720 --> 01:03:49.120] with no reason, because the problem is not collision, the problem is poor channel quality,
+[01:03:50.380 --> 01:04:00.140] so it just increases the channel axis delay, it doesn't help with anything.
+[01:04:00.140 --> 01:04:09.680] okay so we need to be aware that well we need to understand why certain techniques,
+[01:04:09.920 --> 01:04:19.440] mechanisms are designed in a certain way but we need also always to look at these mechanisms
+[01:04:19.440 --> 01:04:28.200] or techniques or solutions with a critical eye that means we need to look at them and ask
+[01:04:28.200 --> 01:04:36.960] ourselves is this really good in under all conditions under all situations or
+[01:04:36.960 --> 01:04:45.440] not there may be aspects of technology that are not that good not always and we
+[01:04:45.440 --> 01:04:51.440] need to be aware of that okay so whenever we design a system whenever we
+[01:04:51.440 --> 01:05:02.680] design a technological solution we need to account for possible issues that may
+[01:05:02.680 --> 01:05:11.720] arise. So an idea may be good to solve one problem but it might actually make
+[01:05:11.720 --> 01:05:17.840] things worse in other situations. So we need also to look at the big
+[01:05:17.840 --> 01:05:30.280] picture when we design a technology and this is indeed an example of that. The
+[01:05:30.280 --> 01:05:35.420] last thing that I would like to comment and then we go to the third situation
+[01:05:35.420 --> 01:05:45.560] is remember that we are considering how to transmit unicast data
+[01:05:45.560 --> 01:05:57.580] buckets, let me just mention again that in the case of multicast or broadcast data
+[01:05:57.580 --> 01:06:03.260] packet things are much much simpler because we do not expect any
+[01:06:03.260 --> 01:06:11.280] acknowledgement, indeed since broadcast and multicast packets are intended for
+[01:06:11.280 --> 01:06:14.960] multiple destinations we can
