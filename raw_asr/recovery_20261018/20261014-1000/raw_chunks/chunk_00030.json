@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3300.0,
+  "end_seconds": 3420.0,
+  "text": "Nodes that can communicate with each other directly. So this is just an example representation with different types of user devices. And one device will be referred to also as wireless node. And of course they, as we said, can establish wireless communication links between each other. Okay, that's just a representation, of the device device network. Given that, let's focus on that laptop, in the yellow circle. Well, we will define we respect to this node that we take in this example as a reference. We will define all other devices that are within the radio range of this node, as its neighbors. Okay, so when we talk about neighbors, those are the radio wireless devices that are within the radio range of a given node. Okay, so those are neighbors. As we already mentioned, actually, when a device is a neighbor of another device. Therefore, this guy is within the radio range of this node. It means that they can talk to each other.",
+  "raw_decoded": "language English<asr_text>Nodes that can communicate with each other directly. So this is just an example representation with different types of user devices. And one device will be referred to also as wireless node. And of course they, as we said, can establish wireless communication links between each other. Okay, that's just a representation, of the device device network. Given that, let's focus on that laptop, in the yellow circle. Well, we will define we respect to this node that we take in this example as a reference. We will define all other devices that are within the radio range of this node, as its neighbors. Okay, so when we talk about neighbors, those are the radio wireless devices that are within the radio range of a given node. Okay, so those are neighbors. As we already mentioned, actually, when a device is a neighbor of another device. Therefore, this guy is within the radio range of this node. It means that they can talk to each other.<|im_end|>",
+  "generated_tokens": 199,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.30589137499919,
+  "at": "2026-10-18T05:37:46.053204+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

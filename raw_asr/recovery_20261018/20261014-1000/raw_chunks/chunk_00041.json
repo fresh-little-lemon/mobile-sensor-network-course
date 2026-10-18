@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4510.0,
+  "end_seconds": 4630.0,
+  "text": "Nodes can communicate only with the cluster head. So we have like a star topology, right? With the center of the star, and then we have the ordinary nodes. So this is the cluster head. These are ordinary nodes, and then they can communicate only with their own cluster head within the cluster. However, we want a network that is connected, fully connected. So we don't want separate islands in device-to-device communication networks. The network needs to be needs to be all connected. So what we allow is the presence of bridge nodes. That is nodes that are actually part of two clusters. In this way, we connect the clusters together. So for example, this node here can be a cluster head in this group, and we connect as an ordinary node in this other cluster. When this node is active in this cluster, it acts as a cluster head here, and it can communicate with these two ordinary nodes. When in",
+  "raw_decoded": "language English<asr_text>Nodes can communicate only with the cluster head. So we have like a star topology, right? With the center of the star, and then we have the ordinary nodes. So this is the cluster head. These are ordinary nodes, and then they can communicate only with their own cluster head within the cluster. However, we want a network that is connected, fully connected. So we don't want separate islands in device-to-device communication networks. The network needs to be needs to be all connected. So what we allow is the presence of bridge nodes. That is nodes that are actually part of two clusters. In this way, we connect the clusters together. So for example, this node here can be a cluster head in this group, and we connect as an ordinary node in this other cluster. When this node is active in this cluster, it acts as a cluster head here, and it can communicate with these two ordinary nodes. When in<|im_end|>",
+  "generated_tokens": 192,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.703414263000013,
+  "at": "2026-10-18T05:42:33.538479+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

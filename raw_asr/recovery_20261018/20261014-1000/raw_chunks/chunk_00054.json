@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5940.0,
+  "end_seconds": 6060.0,
+  "text": "Save energy, but then your neighbor has to pass the object to the other guy, so your neighbor is going to actually consume something in order to move. I mean, move and pass the object. So if we consider the overall energy expenditure of the whole network, if you use multiple communications, this energy expenditure is going to increase. Because instead of only one transmission and one reception, you will have transmission, reception, transmission, reception, transmission, reception. And every time a device transmits or receives, it activates its own transceiver that consumes power. So it has an energy cost, okay? Every transmission and reception has an energy cost. So if we look at the overall network energy expenditure, that is going to increase. Okay, thanks for your patience, and we're going to post it continue tomorrow. Yeah.",
+  "raw_decoded": "language English<asr_text>Save energy, but then your neighbor has to pass the object to the other guy, so your neighbor is going to actually consume something in order to move. I mean, move and pass the object. So if we consider the overall energy expenditure of the whole network, if you use multiple communications, this energy expenditure is going to increase. Because instead of only one transmission and one reception, you will have transmission, reception, transmission, reception, transmission, reception. And every time a device transmits or receives, it activates its own transceiver that consumes power. So it has an energy cost, okay? Every transmission and reception has an energy cost. So if we look at the overall network energy expenditure, that is going to increase. Okay, thanks for your patience, and we're going to post it continue tomorrow. Yeah.<|im_end|>",
+  "generated_tokens": 170,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.274267558001156,
+  "at": "2026-10-18T05:48:56.904160+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

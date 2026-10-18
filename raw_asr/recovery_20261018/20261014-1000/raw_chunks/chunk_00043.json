@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4730.0,
+  "end_seconds": 4850.0,
+  "text": "We already know what channel access is. We don't need to spend much time on this issue because, why looking at Wi-Fi? We already had an example, right? Because remember, in Wi-Fi, we mainly considered this kind of topologies with access point with infrastructure. But we said, look Wi-Fi, and in particular the DCF or EDCF channel access schemes, work exactly the same, also in a Hadoop configuration. When we do not have any access point, we only have devices that talk to each other, right? That was the second possible network architecture in Wi-Fi. So, since we know how DCF or EDCF work, then we already understand what is the issue of accessing the channel. In a Hadoop or device to device communication, the problem is that, as we know, we have many nodes, right? Let's consider an example, the most common topology, this one. We have many nodes in the network. They need to transmit their packets, and we need rules, right? We need a channel access scheme that dictates the rules, so that these nodes can transfer their traffic. With",
+  "raw_decoded": "language English<asr_text>We already know what channel access is. We don't need to spend much time on this issue because, why looking at Wi-Fi? We already had an example, right? Because remember, in Wi-Fi, we mainly considered this kind of topologies with access point with infrastructure. But we said, look Wi-Fi, and in particular the DCF or EDCF channel access schemes, work exactly the same, also in a Hadoop configuration. When we do not have any access point, we only have devices that talk to each other, right? That was the second possible network architecture in Wi-Fi. So, since we know how DCF or EDCF work, then we already understand what is the issue of accessing the channel. In a Hadoop or device to device communication, the problem is that, as we know, we have many nodes, right? Let's consider an example, the most common topology, this one. We have many nodes in the network. They need to transmit their packets, and we need rules, right? We need a channel access scheme that dictates the rules, so that these nodes can transfer their traffic. With<|im_end|>",
+  "generated_tokens": 236,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.179435867001303,
+  "at": "2026-10-18T05:43:34.421469+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

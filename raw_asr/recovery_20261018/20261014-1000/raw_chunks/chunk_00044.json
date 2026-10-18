@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4840.0,
+  "end_seconds": 4960.0,
+  "text": "Channel access scheme that dictates the rules, so that these nodes can transfer the traffic without disturbing each other without colliding. So, there are many possible channel access schemes for device-to-device communication networks, but for simplicity, for now, we will consider just the basic DCF. Okay, so for sensors, we see that we have a different channel access scheme, but for now, let's consider that these devices are laptops, phones, and so on, each of them with a Wi-Fi card. So we know how they can access the channel, right? By applying the DCF function. So we know that this issue is there, that we may have hidden nodes. Forget about exposed terminals, we are not going to delve into that, but we know what hidden terminals means. We already highlighted that that issue. Instead, it is important to say something about this third issue. We just mentioned the fact that in device-to-device communication networks, traffic delivery may happen directly. So when we have a source and the intended destination that got a direct link, they are connected through an edge.",
+  "raw_decoded": "language English<asr_text>Channel access scheme that dictates the rules, so that these nodes can transfer the traffic without disturbing each other without colliding. So, there are many possible channel access schemes for device-to-device communication networks, but for simplicity, for now, we will consider just the basic DCF. Okay, so for sensors, we see that we have a different channel access scheme, but for now, let's consider that these devices are laptops, phones, and so on, each of them with a Wi-Fi card. So we know how they can access the channel, right? By applying the DCF function. So we know that this issue is there, that we may have hidden nodes. Forget about exposed terminals, we are not going to delve into that, but we know what hidden terminals means. We already highlighted that that issue. Instead, it is important to say something about this third issue. We just mentioned the fact that in device-to-device communication networks, traffic delivery may happen directly. So when we have a source and the intended destination that got a direct link, they are connected through an edge.<|im_end|>",
+  "generated_tokens": 224,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.87601112399716,
+  "at": "2026-10-18T05:44:02.298123+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

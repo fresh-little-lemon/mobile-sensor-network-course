@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3740.0,
+  "end_seconds": 3860.0,
+  "text": "Communicate with each other. As they move apart, they may exceed the respective—I mean—the radio range of the other device, and therefore the communication link is going to break. Okay. So when they are close, they can communicate, but if they move and they get too far away from each other, they will not be able to communicate at all. So what does that mean? It means that the network topology is not fixed. The network topology changes, and if the nodes move at high speed, the network topology may change very often. And it may also change suddenly. Why? Because if we have a transmitter and a receiver, they are communicating, everything is going well, and then, for example, there is an obstacle like a track or a big obstacle that parks in the middle. We have, for example, two sensors communicating with each other. If now a track parks in the middle between the two sensors, the link does not work anymore. Okay. The propagation condition gets very bad, and the link breaks. So the problem of the change in the topology is due.",
+  "raw_decoded": "language English<asr_text>Communicate with each other. As they move apart, they may exceed the respective—I mean—the radio range of the other device, and therefore the communication link is going to break. Okay. So when they are close, they can communicate, but if they move and they get too far away from each other, they will not be able to communicate at all. So what does that mean? It means that the network topology is not fixed. The network topology changes, and if the nodes move at high speed, the network topology may change very often. And it may also change suddenly. Why? Because if we have a transmitter and a receiver, they are communicating, everything is going well, and then, for example, there is an obstacle like a track or a big obstacle that parks in the middle. We have, for example, two sensors communicating with each other. If now a track parks in the middle between the two sensors, the link does not work anymore. Okay. The propagation condition gets very bad, and the link breaks. So the problem of the change in the topology is due.<|im_end|>",
+  "generated_tokens": 224,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.14064426600089,
+  "at": "2026-10-18T05:39:30.719656+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

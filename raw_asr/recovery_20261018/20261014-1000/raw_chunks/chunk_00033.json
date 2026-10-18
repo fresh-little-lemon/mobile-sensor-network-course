@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3630.0,
+  "end_seconds": 3750.0,
+  "text": "In a device-to-device communication network. Okay, what are the major issues that these kind of systems exhibit? There are four, four main issues. Okay, we start with the first one. The first one is about network topology. What do I mean here? We know already that the network topology in a device-to-device communication network is such that we have a set of devices that are able to communicate directly, provided, of course, that two nodes are within each other's range. Okay, so they need to be sufficiently close to each other to be able to communicate. Okay, so far so good. We knew that already. What is the issue here? The issue is related mainly to mobility. Why? Because as nodes move, our nodes in principle move. Not all of them. May move robots, people with their phones, laptops, etc. They move. Now, if two devices get too apart from each other, too far away from each other, of course, even if at the beginning they could communicate with each other, as they move apart, they may exit their.",
+  "raw_decoded": "language English<asr_text>In a device-to-device communication network. Okay, what are the major issues that these kind of systems exhibit? There are four, four main issues. Okay, we start with the first one. The first one is about network topology. What do I mean here? We know already that the network topology in a device-to-device communication network is such that we have a set of devices that are able to communicate directly, provided, of course, that two nodes are within each other's range. Okay, so they need to be sufficiently close to each other to be able to communicate. Okay, so far so good. We knew that already. What is the issue here? The issue is related mainly to mobility. Why? Because as nodes move, our nodes in principle move. Not all of them. May move robots, people with their phones, laptops, etc. They move. Now, if two devices get too apart from each other, too far away from each other, of course, even if at the beginning they could communicate with each other, as they move apart, they may exit their.<|im_end|>",
+  "generated_tokens": 224,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.040654508000443,
+  "at": "2026-10-18T05:39:03.578377+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

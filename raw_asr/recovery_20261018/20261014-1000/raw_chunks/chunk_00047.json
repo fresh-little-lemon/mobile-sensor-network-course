@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5170.0,
+  "end_seconds": 5290.0,
+  "text": "The can first transmit to this one, and then this one can deliver the packets. Or this node can transfer to this one, and this can transfer to this, and this to this, or this can transfer to this one, and then to this one, or this one can transfer to this one, and then to this one, and then to this one. Many different possibilities. These are all different routes. So one issue that we have in device to device communication networks is indeed traffic routing. That means in this kind of topologies where there are many possible routes that can be used to deliver traffic from one source to one destination. How can we select the route the packets should follow? That's a problem. And there are algorithms and protocols that allow us to solve this problem. So there are specifically algorithms and protocols, and we'll have time at least to look at some of them. That will allow us to solve this problem. Let me just mention that. These kind of algorithms and protocols work, at the network layer, in the layer protocols that.",
+  "raw_decoded": "language English<asr_text>The can first transmit to this one, and then this one can deliver the packets. Or this node can transfer to this one, and this can transfer to this, and this to this, or this can transfer to this one, and then to this one, or this one can transfer to this one, and then to this one, and then to this one. Many different possibilities. These are all different routes. So one issue that we have in device to device communication networks is indeed traffic routing. That means in this kind of topologies where there are many possible routes that can be used to deliver traffic from one source to one destination. How can we select the route the packets should follow? That's a problem. And there are algorithms and protocols that allow us to solve this problem. So there are specifically algorithms and protocols, and we'll have time at least to look at some of them. That will allow us to solve this problem. Let me just mention that. These kind of algorithms and protocols work, at the network layer, in the layer protocols that.<|im_end|>",
+  "generated_tokens": 218,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.019527273001586,
+  "at": "2026-10-18T05:45:22.246151+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

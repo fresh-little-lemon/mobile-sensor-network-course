@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2860.0,
+  "end_seconds": 2925.0,
+  "text": "这个是不是在multicast？直播主播也可以听见。那就DSS。哎，为什么没有声音？可以啊，应该不是。局限性，咱们这些都是这样子。",
+  "raw_decoded": "language Chinese<asr_text>这个是不是在multicast？直播主播也可以听见。那就DSS。哎，为什么没有声音？可以啊，应该不是。局限性，咱们这些都是这样子。<|im_end|>",
+  "generated_tokens": 40,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 5.378671833997942,
+  "at": "2026-10-18T05:30:38.564938+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

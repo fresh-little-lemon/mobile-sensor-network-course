@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1320.0,
+  "end_seconds": 1440.0,
+  "text": "Why? Because they are far away. So if the transmission power that we use for this short device-to-device communication is low enough, these two communications that are far away from each other will not interfere. So they can use exactly the same portion of the spectrum. Instead, when the base station transmits to the users, you will have to use a certain bandwidth radio resources for this communication and a different bandwidth radio resources for this other communication. And it needs to for the two communications it needs to use two different radio resources. When we use device-to-device communication like here, the transmitter and the receiver are typically very close to each other. Right? So the transmitter can transmit at low power. And if the transmitter transmits at low power, it means that the signal here that is transmitted will not be heard by devices that are, for example, there. Okay.",
+  "raw_decoded": "language English<asr_text>Why? Because they are far away. So if the transmission power that we use for this short device-to-device communication is low enough, these two communications that are far away from each other will not interfere. So they can use exactly the same portion of the spectrum. Instead, when the base station transmits to the users, you will have to use a certain bandwidth radio resources for this communication and a different bandwidth radio resources for this other communication. And it needs to for the two communications it needs to use two different radio resources. When we use device-to-device communication like here, the transmitter and the receiver are typically very close to each other. Right? So the transmitter can transmit at low power. And if the transmitter transmits at low power, it means that the signal here that is transmitted will not be heard by devices that are, for example, there. Okay.<|im_end|>",
+  "generated_tokens": 179,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.686039503001666,
+  "at": "2026-10-18T05:18:55.728027+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

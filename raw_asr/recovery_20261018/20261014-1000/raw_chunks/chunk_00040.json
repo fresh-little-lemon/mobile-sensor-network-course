@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4400.0,
+  "end_seconds": 4520.0,
+  "text": "Get disrupted, then this node becomes isolated. Right? So the topology is less robust. Just because in the case of graph topology there is more redundancy in terms of links. Okay. The third one is the cluster based topology. What does you mean? It means that a cluster is a group. Okay. Clustered means group. So in this case, the nodes are grouped together. We form different groups. So for example, each group here is denoted by this oval shape. Okay. So the nodes that are within the same oval shape, they form a group. It is a cluster. Right. Total in this example, we have three clusters. In this kind of topologies, within each cluster, there is a leading node. That is the cluster head. So it's kind of having two hierarchical levels. Ordinary ordinary nodes and cluster heads. Okay. Within each cluster, the nodes, the ordinary nodes, can communicate only with the cluster head. So we have like a star star topology.",
+  "raw_decoded": "language English<asr_text>Get disrupted, then this node becomes isolated. Right? So the topology is less robust. Just because in the case of graph topology there is more redundancy in terms of links. Okay. The third one is the cluster based topology. What does you mean? It means that a cluster is a group. Okay. Clustered means group. So in this case, the nodes are grouped together. We form different groups. So for example, each group here is denoted by this oval shape. Okay. So the nodes that are within the same oval shape, they form a group. It is a cluster. Right. Total in this example, we have three clusters. In this kind of topologies, within each cluster, there is a leading node. That is the cluster head. So it's kind of having two hierarchical levels. Ordinary ordinary nodes and cluster heads. Okay. Within each cluster, the nodes, the ordinary nodes, can communicate only with the cluster head. So we have like a star star topology.<|im_end|>",
+  "generated_tokens": 207,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.583998074998817,
+  "at": "2026-10-18T05:42:08.834447+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

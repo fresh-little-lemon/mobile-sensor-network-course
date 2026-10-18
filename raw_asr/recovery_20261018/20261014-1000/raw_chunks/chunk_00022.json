@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2420.0,
+  "end_seconds": 2540.0,
+  "text": "Okay, so the characteristics of our devices may be indeed very very different, and in some cases, in our device-to-device communication networks, we may therefore consider that different types of devices might have different responsibilities. Mine, for example, if we consider Bluetooth, which is a technology that we all use, in Bluetooth, nodes devices may have different responsibilities from the communication and working point of view. So a phone that connects with earphones via Bluetooth, in this case they are two devices that are connected through a device-to-device communication technology, the phone will have a more important logical role in the communication with respect to the earphones. If you use Bluetooth to connect, okay. In other technologies, instead, all devices have the same responsibilities, the same logical role, independently of their physical characteristics. Okay, so it really depends on which technology we are going to to use. Also in a device-to-device communication network, the type of traf.",
+  "raw_decoded": "language English<asr_text>Okay, so the characteristics of our devices may be indeed very very different, and in some cases, in our device-to-device communication networks, we may therefore consider that different types of devices might have different responsibilities. Mine, for example, if we consider Bluetooth, which is a technology that we all use, in Bluetooth, nodes devices may have different responsibilities from the communication and working point of view. So a phone that connects with earphones via Bluetooth, in this case they are two devices that are connected through a device-to-device communication technology, the phone will have a more important logical role in the communication with respect to the earphones. If you use Bluetooth to connect, okay. In other technologies, instead, all devices have the same responsibilities, the same logical role, independently of their physical characteristics. Okay, so it really depends on which technology we are going to to use. Also in a device-to-device communication network, the type of traf.<|im_end|>",
+  "generated_tokens": 194,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.744626817002427,
+  "at": "2026-10-18T05:23:19.263544+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

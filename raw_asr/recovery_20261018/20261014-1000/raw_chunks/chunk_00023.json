@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2530.0,
+  "end_seconds": 2650.0,
+  "text": "We are going to use. Also, in a device-to-device communication network, the type of traffic that we may have may differ. We already know the difference: aunicast, broadcast, multicast. Right, we already stand that. In this kind of networks, we may also have geocast and anycast. What are they? Geocast is when the information needs to go from one transmitter to all the nodes that are within a given geographical area. So you understand the difference we respect to broadcast. Broadcast is from one transmitter to all other nodes. Geocast is from one transmitter to all other nodes that are within a given geographical area. This is very useful in the case of connected vehicles. Think of an announcement regarding the fact that the road pavement is icy. Right, that's a warning for the drivers. You want to disseminate this information to all the users that are approaching that stretch of road. Right, the road that is icy. You don't want to let all users know about that, but only those that are traveling.",
+  "raw_decoded": "language English<asr_text>We are going to use. Also, in a device-to-device communication network, the type of traffic that we may have may differ. We already know the difference: aunicast, broadcast, multicast. Right, we already stand that. In this kind of networks, we may also have geocast and anycast. What are they? Geocast is when the information needs to go from one transmitter to all the nodes that are within a given geographical area. So you understand the difference we respect to broadcast. Broadcast is from one transmitter to all other nodes. Geocast is from one transmitter to all other nodes that are within a given geographical area. This is very useful in the case of connected vehicles. Think of an announcement regarding the fact that the road pavement is icy. Right, that's a warning for the drivers. You want to disseminate this information to all the users that are approaching that stretch of road. Right, the road that is icy. You don't want to let all users know about that, but only those that are traveling.<|im_end|>",
+  "generated_tokens": 218,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.452540058999148,
+  "at": "2026-10-18T05:23:45.716710+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

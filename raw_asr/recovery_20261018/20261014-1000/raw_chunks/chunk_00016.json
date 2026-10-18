@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1760.0,
+  "end_seconds": 1880.0,
+  "text": "Can use this frequency channel, this bandwidth, to serve the users. Okay. And let's consider that, using this frequency channel, the base station can serve n users. Okay. If we assume that our mobile operator has paid, to use one, two, three, frequency channels, what is the total number of users that we can serve? It's n times three, right? Okay. Now, if the mobile operator deploys one base station here, then the base station is able to operate using all these frequency channels. Using cellular, you can do that. Each cellular station can use a certain number of frequency channels. Our mobile operators got three frequency channels, so our base station will be able to serve how many users? n times three. How good here. Okay. Now, what is the revenue for our mobile operator? If each user pays, let's say, pays.",
+  "raw_decoded": "language English<asr_text>Can use this frequency channel, this bandwidth, to serve the users. Okay. And let's consider that, using this frequency channel, the base station can serve n users. Okay. If we assume that our mobile operator has paid, to use one, two, three, frequency channels, what is the total number of users that we can serve? It's n times three, right? Okay. Now, if the mobile operator deploys one base station here, then the base station is able to operate using all these frequency channels. Using cellular, you can do that. Each cellular station can use a certain number of frequency channels. Our mobile operators got three frequency channels, so our base station will be able to serve how many users? n times three. How good here. Okay. Now, what is the revenue for our mobile operator? If each user pays, let's say, pays.<|im_end|>",
+  "generated_tokens": 184,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.984038357000827,
+  "at": "2026-10-18T05:20:34.645470+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

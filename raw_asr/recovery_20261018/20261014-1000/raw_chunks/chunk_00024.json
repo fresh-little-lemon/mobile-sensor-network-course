@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2640.0,
+  "end_seconds": 2760.0,
+  "text": "The road that is icy, you don't want to let all users know about that, but only those that are traveling approaching that stretch of road. So in that case, that kind of information this road is icy, can be at geocast type of information. Okay, anycast is very simple, it means that the information should flow from one transmitter to any of the users that are nearby. You don't care who gets the information, the important thing is that at least one node receives that information. Let's see, okay, that's anycast. And of course, depending on the application traffic, on the type of application, you may need to guarantee a minimum bit rate or certain delay constraints, maximum delay or reliability. Reliability means you need to assure that at least a certain percentage of the traffic is correctly delivered. So for example, at least ninety nine point ninety nine percent of the packets need to be successfully delivered. That's a reliability constraint. Okay, good. So we now stop for five minutes.",
+  "raw_decoded": "language English<asr_text>The road that is icy, you don't want to let all users know about that, but only those that are traveling approaching that stretch of road. So in that case, that kind of information this road is icy, can be at geocast type of information. Okay, anycast is very simple, it means that the information should flow from one transmitter to any of the users that are nearby. You don't care who gets the information, the important thing is that at least one node receives that information. Let's see, okay, that's anycast. And of course, depending on the application traffic, on the type of application, you may need to guarantee a minimum bit rate or certain delay constraints, maximum delay or reliability. Reliability means you need to assure that at least a certain percentage of the traffic is correctly delivered. So for example, at least ninety nine point ninety nine percent of the packets need to be successfully delivered. That's a reliability constraint. Okay, good. So we now stop for five minutes.<|im_end|>",
+  "generated_tokens": 212,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.049391223001294,
+  "at": "2026-10-18T05:24:12.766872+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

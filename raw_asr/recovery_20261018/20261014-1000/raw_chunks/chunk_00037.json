@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4070.0,
+  "end_seconds": 4190.0,
+  "text": "This is the typical topology that we have the most common one. It's just flat. Everyone can talk with anyone else if they are within each other's radio range. Okay. So the topology again is represented through a graph. The vertices, as we said, are our devices, and the edges connecting the vertices are the communication links. Okay. So in a flat topology, given n nodes and vertices, it's easy to compute that the maximum number of links are n times n minus one divided by two. Right. This is like when people make toast and they let's say cheer with each other. What is the number of toasting that you can do with all the other people? Right. So it's exactly the same type of computation. So given n people, there will be n times n minus one divided by two number of toasting. Okay. It's exactly the same. Okay. So this is the flat topology, also called mesh topology. The second one is a tree. A tree is also a well known simple topology. Given n devices and nodes.",
+  "raw_decoded": "language English<asr_text>This is the typical topology that we have the most common one. It's just flat. Everyone can talk with anyone else if they are within each other's radio range. Okay. So the topology again is represented through a graph. The vertices, as we said, are our devices, and the edges connecting the vertices are the communication links. Okay. So in a flat topology, given n nodes and vertices, it's easy to compute that the maximum number of links are n times n minus one divided by two. Right. This is like when people make toast and they let's say cheer with each other. What is the number of toasting that you can do with all the other people? Right. So it's exactly the same type of computation. So given n people, there will be n times n minus one divided by two number of toasting. Okay. It's exactly the same. Okay. So this is the flat topology, also called mesh topology. The second one is a tree. A tree is also a well known simple topology. Given n devices and nodes.<|im_end|>",
+  "generated_tokens": 221,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.888892597999074,
+  "at": "2026-10-18T05:40:48.606229+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

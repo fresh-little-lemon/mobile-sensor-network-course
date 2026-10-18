@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5060.0,
+  "end_seconds": 5180.0,
+  "text": "Packets, and the intended destination of the packets, as relays. That's why you see here this R, because the intermediate nodes between source and destination, are typically referred to as relays, because they can relay the packets. Okay. So in this example, we have one, two, three, four hops, the need to be made, in order to let the source as to deliver its traffic to the intended destination need. Okay. Now, let me actually go back to the previous figure to highlight something about this multi-hop traffic delivery. Let's consider again the case that we made earlier, where this node here as packets do transfer. Okay. Let's take as intended destination now this node up here. So this is the source, this is the intended destination. Okay. Now, there is no direct link, so we necessarily need to use relays. Okay. Which route should we get? Because there are many possible ones, right? So this node can first transmit to this one and then this one can deliver the packets, or this node can transfer to this one and this.",
+  "raw_decoded": "language English<asr_text>Packets, and the intended destination of the packets, as relays. That's why you see here this R, because the intermediate nodes between source and destination, are typically referred to as relays, because they can relay the packets. Okay. So in this example, we have one, two, three, four hops, the need to be made, in order to let the source as to deliver its traffic to the intended destination need. Okay. Now, let me actually go back to the previous figure to highlight something about this multi-hop traffic delivery. Let's consider again the case that we made earlier, where this node here as packets do transfer. Okay. Let's take as intended destination now this node up here. So this is the source, this is the intended destination. Okay. Now, there is no direct link, so we necessarily need to use relays. Okay. Which route should we get? Because there are many possible ones, right? So this node can first transmit to this one and then this one can deliver the packets, or this node can transfer to this one and this.<|im_end|>",
+  "generated_tokens": 227,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.41647282899794,
+  "at": "2026-10-18T05:44:55.226008+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

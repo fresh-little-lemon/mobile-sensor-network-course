@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4950.0,
+  "end_seconds": 5070.0,
+  "text": "And the internal destination that has got a direct link, they are connected through an edge. Of course, we can just transmit the packets to our receiver internal destination and that's it. We are done. But we just mentioned that in a topology where nodes are connected with each other like in the flat topology, or in the class-based topology, there might be several different routes, right? That one can follow. And in the case where a source is not directly connected to an internal destination, it may need to deliver the traffic packets by performing multiple hops. So we said the source may need to transfer the data packets first to a neighbor of its, then this will transfer the packets to a neighbor of its own, then this will transfer a packet to a neighbor of its own, and finally the packets will be delivered to the final destination. Okay, that's possible. Now we will refer to the intermediate nodes between the source of the data packets and the internal destination of the packets as relays. That's why you see here.",
+  "raw_decoded": "language English<asr_text>And the internal destination that has got a direct link, they are connected through an edge. Of course, we can just transmit the packets to our receiver internal destination and that's it. We are done. But we just mentioned that in a topology where nodes are connected with each other like in the flat topology, or in the class-based topology, there might be several different routes, right? That one can follow. And in the case where a source is not directly connected to an internal destination, it may need to deliver the traffic packets by performing multiple hops. So we said the source may need to transfer the data packets first to a neighbor of its, then this will transfer the packets to a neighbor of its own, then this will transfer a packet to a neighbor of its own, and finally the packets will be delivered to the final destination. Okay, that's possible. Now we will refer to the intermediate nodes between the source of the data packets and the internal destination of the packets as relays. That's why you see here.<|im_end|>",
+  "generated_tokens": 212,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.509996745000535,
+  "at": "2026-10-18T05:44:28.808744+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

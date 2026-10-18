@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3025.0,
+  "end_seconds": 3090.0,
+  "text": "十七。嗯，这个价格，这个是二十块。十三块五块，这个是嗯，对吧？小李的，四分十七。平平的。这个是可以，这个高一点。上。",
+  "raw_decoded": "language Chinese<asr_text>十七。嗯，这个价格，这个是二十块。十三块五块，这个是嗯，对吧？小李的，四分十七。平平的。这个是可以，这个高一点。上。<|im_end|>",
+  "generated_tokens": 50,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 6.444181880000542,
+  "at": "2026-10-18T05:36:27.510123+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

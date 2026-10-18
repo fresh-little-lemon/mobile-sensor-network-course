@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4290.0,
+  "end_seconds": 4410.0,
+  "text": "Two nodes, for example, this one and this one, want to communicate to exchange traffic. So this node wants to deliver traffic to this node. In this topology, it could actually have several options. For example, this node can directly transmit the packets to this node, right? Or it could also transmit the packets to this node and then to this, right? Or you can go this way. So you have many possible routing routes for your traffic packets. This means that if this link here, the direct link, that would be your preferred way, right, to deliver the packets, is disrupted because an obstacle now comes and blocks comes and blocks here. So these two nodes cannot communicate any longer directly. Still, we are able to transfer the traffic packets by taking one of these alternative routes, okay? In the case instead of a tree topology, that was our only possibility, right? So there is no other way to deliver traffic from this node to this other node. If this link gets disrupted, then this node becomes isolated, right? So the topology.",
+  "raw_decoded": "language English<asr_text>Two nodes, for example, this one and this one, want to communicate to exchange traffic. So this node wants to deliver traffic to this node. In this topology, it could actually have several options. For example, this node can directly transmit the packets to this node, right? Or it could also transmit the packets to this node and then to this, right? Or you can go this way. So you have many possible routing routes for your traffic packets. This means that if this link here, the direct link, that would be your preferred way, right, to deliver the packets, is disrupted because an obstacle now comes and blocks comes and blocks here. So these two nodes cannot communicate any longer directly. Still, we are able to transfer the traffic packets by taking one of these alternative routes, okay? In the case instead of a tree topology, that was our only possibility, right? So there is no other way to deliver traffic from this node to this other node. If this link gets disrupted, then this node becomes isolated, right? So the topology.<|im_end|>",
+  "generated_tokens": 219,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.605165214001318,
+  "at": "2026-10-18T05:41:43.249757+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}

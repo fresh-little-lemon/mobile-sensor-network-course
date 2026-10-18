@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3410.0,
+  "end_seconds": 3530.0,
+  "text": "Is within the radio range of these nodes, it means that they can talk to each other, right? So we assume that, for simplicity, we assume that neighbors can communicate reliably with each other. So it means that they can transmit and receive, typically successfully, with each other. However, we know that the wireless signal propagates, right, in space. The propagation conditions may vary; they depend on the geometry of the scenario, which obstacles are there, which nodes are moving, etc, etc. But in general, for simplicity, we can consider that there will be a ring, right, a space model like a ring that is this green area here, where essentially if we have got a device there, it will be able to hear this guy, but it will not be able to the modulate the signal correct. So we refer to this green ring here as interference range, because this is an area spatial area shaped as a ring, where nodes can hear the power of the signal emitted by this guy, but they.",
+  "raw_decoded": "language English<asr_text>Is within the radio range of these nodes, it means that they can talk to each other, right? So we assume that, for simplicity, we assume that neighbors can communicate reliably with each other. So it means that they can transmit and receive, typically successfully, with each other. However, we know that the wireless signal propagates, right, in space. The propagation conditions may vary; they depend on the geometry of the scenario, which obstacles are there, which nodes are moving, etc, etc. But in general, for simplicity, we can consider that there will be a ring, right, a space model like a ring that is this green area here, where essentially if we have got a device there, it will be able to hear this guy, but it will not be able to the modulate the signal correct. So we refer to this green ring here as interference range, because this is an area spatial area shaped as a ring, where nodes can hear the power of the signal emitted by this guy, but they.<|im_end|>",
+  "generated_tokens": 212,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.67361975899985,
+  "at": "2026-10-18T05:38:13.727693+00:00",
+  "source_sha256": "a36df3c7967df57fa290b76d4f5b0afe718541a0cfb2a652ff2527ec689b4eeb"
+}
