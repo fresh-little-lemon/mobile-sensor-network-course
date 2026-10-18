@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1760.0,
+  "end_seconds": 1880.0,
+  "text": "Of CW mean, that is very small, like three. This, I got lower priority, we will use seven. This has got lower even lower priority, we will use fifteen. And this is low priority, thirty one, okay. So on average, this on average, because remember, the call integers are selected with equal probability within the zero, CW value, right? So, but on average, if this queue as CW mean uses three, it selects a value of the call, the first time that it runs the call for a packet, that is smaller than this server. Why? Because here we have only zero, one, two, three as possible values. Here we have zero, one, two, three, four, five, six, seven. Here we have zero, one, two, three, four, five, until fifteen. So on average, clearly this guy is going to draw a shorter, the call time than this guy. This guy, okay. So when this server has to serve these packets, high priority packets and has to apply the call procedure, he will on average experience a lower, shorter, the call time. So the channel access will be faster. I don't need to spend much time decreasing my call time. CW max is also different.",
+  "raw_decoded": "language English<asr_text>Of CW mean, that is very small, like three. This, I got lower priority, we will use seven. This has got lower even lower priority, we will use fifteen. And this is low priority, thirty one, okay. So on average, this on average, because remember, the call integers are selected with equal probability within the zero, CW value, right? So, but on average, if this queue as CW mean uses three, it selects a value of the call, the first time that it runs the call for a packet, that is smaller than this server. Why? Because here we have only zero, one, two, three as possible values. Here we have zero, one, two, three, four, five, six, seven. Here we have zero, one, two, three, four, five, until fifteen. So on average, clearly this guy is going to draw a shorter, the call time than this guy. This guy, okay. So when this server has to serve these packets, high priority packets and has to apply the call procedure, he will on average experience a lower, shorter, the call time. So the channel access will be faster. I don't need to spend much time decreasing my call time. CW max is also different.<|im_end|>",
+  "generated_tokens": 265,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.459681287999047,
+  "at": "2026-10-18T03:31:05.985253+00:00",
+  "source_sha256": "b40da034e4edd672346ea105721398d4ba44a8909972fa1453fb3d8b5717ddc8"
+}

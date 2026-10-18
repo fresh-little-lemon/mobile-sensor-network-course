@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1100.0,
+  "end_seconds": 1220.0,
+  "text": "Queues. They are called Access Category Zero, Access Category One, Access Category Two, Access Category Three. Okay, but there are four queues. Each queue essentially works exactly as before. Okay, so that's why these four queues are also called virtual stations because they are physically within the same Wi-Fi card. But each of them behaves as a station in the previous version of this time. So virtually, it's like having four different stations altogether deployed on in the same within the same Wi-Fi card. So you may wonder, okay, why do we move from one to four? Remember, the goal is quality of service, right? So what we do is to use each queue for a different type of traffic. We put voice here in the zero, in the Access Category Zero. We put video here in number one. And then we put traffic originated from, for example, browsing here in the number two. And then when we have, you know, just data files very delayed or ant traffic, best effort, best effort traffic. We put it here in the number three. So the key idea is that each.",
+  "raw_decoded": "language English<asr_text>Queues. They are called Access Category Zero, Access Category One, Access Category Two, Access Category Three. Okay, but there are four queues. Each queue essentially works exactly as before. Okay, so that's why these four queues are also called virtual stations because they are physically within the same Wi-Fi card. But each of them behaves as a station in the previous version of this time. So virtually, it's like having four different stations altogether deployed on in the same within the same Wi-Fi card. So you may wonder, okay, why do we move from one to four? Remember, the goal is quality of service, right? So what we do is to use each queue for a different type of traffic. We put voice here in the zero, in the Access Category Zero. We put video here in number one. And then we put traffic originated from, for example, browsing here in the number two. And then when we have, you know, just data files very delayed or ant traffic, best effort, best effort traffic. We put it here in the number three. So the key idea is that each.<|im_end|>",
+  "generated_tokens": 231,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.919975956001508,
+  "at": "2026-10-18T03:27:50.975263+00:00",
+  "source_sha256": "b40da034e4edd672346ea105721398d4ba44a8909972fa1453fb3d8b5717ddc8"
+}

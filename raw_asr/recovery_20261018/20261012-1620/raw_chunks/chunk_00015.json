@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1650.0,
+  "end_seconds": 1770.0,
+  "text": "The traffic will have a sense in time, a little bit more than this. And this queue a little bit more, and this queue a little bit more, okay. So now since we have four different sensing times, we cannot use one name for all of them, right? Because we have different. So actually again, sorry for this new name, but this is now called arbitrary if zero, and arbitrary ifs zero is diffs. Arbitrary ifs one is a bit longer, arbitrary ifs two is even longer, and arbitrary ifs three is definitely longer, okay. Same with the back of there, our parameter was the contention window, in particular contention window minimum. So if you have a high priority traffic, you don't want that traffic to waste too much time waiting for the back off, right? So I mean spending degrees in the back off counter. So you want to give to that traffic an advantage. So that's why this queue when this queue needs to apply the server needs to apply the back off procedure, it will apply the back off procedure using a value of cw mean that is very small, like three. This has got lower priority.",
+  "raw_decoded": "language English<asr_text>The traffic will have a sense in time, a little bit more than this. And this queue a little bit more, and this queue a little bit more, okay. So now since we have four different sensing times, we cannot use one name for all of them, right? Because we have different. So actually again, sorry for this new name, but this is now called arbitrary if zero, and arbitrary ifs zero is diffs. Arbitrary ifs one is a bit longer, arbitrary ifs two is even longer, and arbitrary ifs three is definitely longer, okay. Same with the back of there, our parameter was the contention window, in particular contention window minimum. So if you have a high priority traffic, you don't want that traffic to waste too much time waiting for the back off, right? So I mean spending degrees in the back off counter. So you want to give to that traffic an advantage. So that's why this queue when this queue needs to apply the server needs to apply the back off procedure, it will apply the back off procedure using a value of cw mean that is very small, like three. This has got lower priority.<|im_end|>",
+  "generated_tokens": 235,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.29916984800002,
+  "at": "2026-10-18T03:30:34.524811+00:00",
+  "source_sha256": "b40da034e4edd672346ea105721398d4ba44a8909972fa1453fb3d8b5717ddc8"
+}
