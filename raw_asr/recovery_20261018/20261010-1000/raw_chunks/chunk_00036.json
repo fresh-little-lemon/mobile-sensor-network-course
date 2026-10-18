@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3960.0,
+  "end_seconds": 4080.0,
+  "text": "It means that A A will be able to send an up in correspondence of the RTS. When we refer to access point two, he will be able to set its knob starting from the CTS. Okay. If we consider a similar topology, okay, but we add a node, for example, here C. That is in a radio range of both the source and the destination. Then this node C will I hear both the RTS and the CTS, right? So it will be able to send the knob first, when it hears the RTS, and then it will update it upon hearing the CTS. If we add a node C that is there in the middle, then it will set its knob here in correspondence of the RTS, but it will also hear the CTS. So it will update it. No practical effect because it has already set the knob, but we precise that will be what happens. Okay. So if you like, we can just duplicate this slide and duplicate this slide and.",
+  "raw_decoded": "language English<asr_text>It means that A A will be able to send an up in correspondence of the RTS. When we refer to access point two, he will be able to set its knob starting from the CTS. Okay. If we consider a similar topology, okay, but we add a node, for example, here C. That is in a radio range of both the source and the destination. Then this node C will I hear both the RTS and the CTS, right? So it will be able to send the knob first, when it hears the RTS, and then it will update it upon hearing the CTS. If we add a node C that is there in the middle, then it will set its knob here in correspondence of the RTS, but it will also hear the CTS. So it will update it. No practical effect because it has already set the knob, but we precise that will be what happens. Okay. So if you like, we can just duplicate this slide and duplicate this slide and.<|im_end|>",
+  "generated_tokens": 207,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.528733336001096,
+  "at": "2026-10-18T02:37:38.001463+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4730.0,
+  "end_seconds": 4850.0,
+  "text": "Is actually relatively easy. That is, the sender will first make sure that the channel is idle. Okay, so this has to be done still, and we do that by making sure that the channel remains idle for a diff. But now instead of retransmitting immediately, it will draw a random instance of a random variable, so a random time that is called backoff time, and it needs to sense the channel as idle for this backoff time before being able to access the channel in front. Okay, so this is essentially a next time that it needs to wait for, and after this time it can access the channel and transmit. Okay, so the backoff procedure is essentially composed of three main steps. Make sure the channel is idle for diffs. This is step one. Step two computes this random backoff time and decrees this backoff time as long as the channel is idle. When.",
+  "raw_decoded": "language English<asr_text>Is actually relatively easy. That is, the sender will first make sure that the channel is idle. Okay, so this has to be done still, and we do that by making sure that the channel remains idle for a diff. But now instead of retransmitting immediately, it will draw a random instance of a random variable, so a random time that is called backoff time, and it needs to sense the channel as idle for this backoff time before being able to access the channel in front. Okay, so this is essentially a next time that it needs to wait for, and after this time it can access the channel and transmit. Okay, so the backoff procedure is essentially composed of three main steps. Make sure the channel is idle for diffs. This is step one. Step two computes this random backoff time and decrees this backoff time as long as the channel is idle. When.<|im_end|>",
+  "generated_tokens": 188,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.881923294000444,
+  "at": "2026-10-18T02:40:34.317444+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

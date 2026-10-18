@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3740.0,
+  "end_seconds": 3860.0,
+  "text": "Duration field. Whoever hears this will update its knob. Now the practical effect is no change, okay, because we already have the knob set. So this is no news. But to be precise, whenever I hear a duration field, I update by minus. Anyway, no practical effect here. The data packet we assume that is correctly received by B, right? So we are optimistic after six since the data packet B transmits the ACK. And in this case, in this example, everything worked fine, right? We were able to block the neighbors' transmitter, block the neighbors of the receiver, the transmitter and the receiver could complete their dialogue successfully, right? Okay. So when we have this representation in the slides, okay. Let's say others referring to our previous example is B, but what this slide represent is the fan ban. Whoever hears RTS set its knob based on the duration field in.",
+  "raw_decoded": "language English<asr_text>Duration field. Whoever hears this will update its knob. Now the practical effect is no change, okay, because we already have the knob set. So this is no news. But to be precise, whenever I hear a duration field, I update by minus. Anyway, no practical effect here. The data packet we assume that is correctly received by B, right? So we are optimistic after six since the data packet B transmits the ACK. And in this case, in this example, everything worked fine, right? We were able to block the neighbors' transmitter, block the neighbors of the receiver, the transmitter and the receiver could complete their dialogue successfully, right? Okay. So when we have this representation in the slides, okay. Let's say others referring to our previous example is B, but what this slide represent is the fan ban. Whoever hears RTS set its knob based on the duration field in.<|im_end|>",
+  "generated_tokens": 187,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 22.974167993001174,
+  "at": "2026-10-18T02:36:46.246073+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

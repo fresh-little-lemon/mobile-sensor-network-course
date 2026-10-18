@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4620.0,
+  "end_seconds": 4740.0,
+  "text": "Will get tired within, and will understand that no acknowledgement is there. Okay, so let's call this TF. F stands for failure. So, and let's consider that this is the time, during which the sender will wait for the acknowledgement. If no acknowledgement is received by this time TF, then the source, the sender, understands that it has failed. According to stop and wait, it has to try again. So now we try to understand what and not does in order to recontent for the channel. It needs to get the possibility to transmit again, right on the channel. So it has to recontent for the channel. So this behavior that we are going to explain is the procedure called back off. Okay, so our sender once it understands that it has failed, in order to try again, cannot just send the channel for gifts and if the channel is idle transmission. No, it needs to do something more, more likely more complicated than that. That is called back off procedure. The back off procedure is actually relatively easy. That is, the sender will first.",
+  "raw_decoded": "language English<asr_text>Will get tired within, and will understand that no acknowledgement is there. Okay, so let's call this TF. F stands for failure. So, and let's consider that this is the time, during which the sender will wait for the acknowledgement. If no acknowledgement is received by this time TF, then the source, the sender, understands that it has failed. According to stop and wait, it has to try again. So now we try to understand what and not does in order to recontent for the channel. It needs to get the possibility to transmit again, right on the channel. So it has to recontent for the channel. So this behavior that we are going to explain is the procedure called back off. Okay, so our sender once it understands that it has failed, in order to try again, cannot just send the channel for gifts and if the channel is idle transmission. No, it needs to do something more, more likely more complicated than that. That is called back off procedure. The back off procedure is actually relatively easy. That is, the sender will first.<|im_end|>",
+  "generated_tokens": 223,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.168240770999546,
+  "at": "2026-10-18T02:40:08.434909+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

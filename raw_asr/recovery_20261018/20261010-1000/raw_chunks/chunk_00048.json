@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5280.0,
+  "end_seconds": 5400.0,
+  "text": "Okay, and if the channel remains busy for all this time, during all this time, I cannot touch the back of counter. Okay, so if the channel remains busy here, I'm still at back of counter remaining back of equal to two. Because it was three, right? I decrease it by one, so here is two, and must remain two two. Till the channel remains busy, I cannot touch it. It's frozen. Okay, now assume that at the certain point the channel becomes idle again. What I have to do is first of all, make sure that the channel remains idle for dips. Okay, I really have to be sure that now the channel is idle again. So I need to sense it as idle for dips. If it remains idle for dips, then I can start again decreasing the back of counter. So the next timeslot, if the channel is idle, I can decrease the back of counter by one. Okay, and now I have only one timeslot left. If the channel remains idle.",
+  "raw_decoded": "language English<asr_text>Okay, and if the channel remains busy for all this time, during all this time, I cannot touch the back of counter. Okay, so if the channel remains busy here, I'm still at back of counter remaining back of equal to two. Because it was three, right? I decrease it by one, so here is two, and must remain two two. Till the channel remains busy, I cannot touch it. It's frozen. Okay, now assume that at the certain point the channel becomes idle again. What I have to do is first of all, make sure that the channel remains idle for dips. Okay, I really have to be sure that now the channel is idle again. So I need to sense it as idle for dips. If it remains idle for dips, then I can start again decreasing the back of counter. So the next timeslot, if the channel is idle, I can decrease the back of counter by one. Okay, and now I have only one timeslot left. If the channel remains idle.<|im_end|>",
+  "generated_tokens": 213,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.727926003999528,
+  "at": "2026-10-18T02:42:48.142664+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4840.0,
+  "end_seconds": 4960.0,
+  "text": "This, this because time, as long as the channel is idle. When, the because, this because time, during which the channel must be idle, is finished, you can access the channel and trust. Okay, so three steps, not very difficult. What is slightly more complicated is how this because time has to be computed. Okay, because we said it's a random time. Okay, random, it's a bit vague. Right? What do I mean by random? Well, the procedure is the following. There is a parameter, in specified by YFI, that is called contention window minimum. What is this contention window minimum? Is an integer number, and it defines a range of integers that start with zero, up to this number. For simplicity, let's consider this number is equal to thirty one. Okay, so in this case, this range of integers, we go from zero, one, two, three, four, five, thirty one. Okay, now in order to compute this because, like in this example, this is the first time that we are computing the because time to try to actually.",
+  "raw_decoded": "language English<asr_text>This, this because time, as long as the channel is idle. When, the because, this because time, during which the channel must be idle, is finished, you can access the channel and trust. Okay, so three steps, not very difficult. What is slightly more complicated is how this because time has to be computed. Okay, because we said it's a random time. Okay, random, it's a bit vague. Right? What do I mean by random? Well, the procedure is the following. There is a parameter, in specified by YFI, that is called contention window minimum. What is this contention window minimum? Is an integer number, and it defines a range of integers that start with zero, up to this number. For simplicity, let's consider this number is equal to thirty one. Okay, so in this case, this range of integers, we go from zero, one, two, three, four, five, thirty one. Okay, now in order to compute this because, like in this example, this is the first time that we are computing the because time to try to actually.<|im_end|>",
+  "generated_tokens": 232,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.59012421300031,
+  "at": "2026-10-18T02:41:01.908176+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

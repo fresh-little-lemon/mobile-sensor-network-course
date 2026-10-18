@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3630.0,
+  "end_seconds": 3750.0,
+  "text": "It will demodulate, upon hears the headers of this CTS, and will understand that the channel is going to be busy, right? So it reads the duration field in the CTS, and sets the enough to the remaining expected duration of the dialogue. So this means that all the neighbors of the intended receiver, upon receiving the CTS, will send their enough according to the value in the duration field included in the CTS. Okay, good. Now we see here the effect of explicit channel reservation, because through RTS, we essentially let's say blocked all the neighbors of the transmitter. Through CTS, we block all the neighbors of the receiver. Okay. Now, as we send RTS point one, transmit data. Well, this is a detail, but just for completeness, of course, this data packet has got a header, right? And the header again is modulated by everyone, and the header also of the data packet is the duration field. So upon hearing this duration field, whoever hears this will update its enough. Now the practical.",
+  "raw_decoded": "language English<asr_text>It will demodulate, upon hears the headers of this CTS, and will understand that the channel is going to be busy, right? So it reads the duration field in the CTS, and sets the enough to the remaining expected duration of the dialogue. So this means that all the neighbors of the intended receiver, upon receiving the CTS, will send their enough according to the value in the duration field included in the CTS. Okay, good. Now we see here the effect of explicit channel reservation, because through RTS, we essentially let's say blocked all the neighbors of the transmitter. Through CTS, we block all the neighbors of the receiver. Okay. Now, as we send RTS point one, transmit data. Well, this is a detail, but just for completeness, of course, this data packet has got a header, right? And the header again is modulated by everyone, and the header also of the data packet is the duration field. So upon hearing this duration field, whoever hears this will update its enough. Now the practical.<|im_end|>",
+  "generated_tokens": 219,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.34797671600063,
+  "at": "2026-10-18T02:36:23.271307+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

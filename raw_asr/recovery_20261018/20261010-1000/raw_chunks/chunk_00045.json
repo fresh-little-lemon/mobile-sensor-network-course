@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4950.0,
+  "end_seconds": 5070.0,
+  "text": "This is the first time that we are computing the because time to try to actually, in order eventually transmit this data part. Okay, it's the very first time that we apply the because to transmit this specific data part. So what a will do is to draw an integer with equal probability out of this range. So it will select zero or one or two or three or four or five or thirty one with equal probability. Okay, let's assume that it draws three. Okay, okay, let's say three. So our integer is equal to three. The because time that a computes will then be three times the timeslot. Oh, now we understand why we have the timeslot. Okay, the timeslot is useful. So this is the integer that is drawn with equal probability out of this range. And based on this integer, we compute the because time. The because time is an integer multiplied by the duration of a timeslot. Okay, and then a sets a counter that is called the because counter to this value.",
+  "raw_decoded": "language English<asr_text>This is the first time that we are computing the because time to try to actually, in order eventually transmit this data part. Okay, it's the very first time that we apply the because to transmit this specific data part. So what a will do is to draw an integer with equal probability out of this range. So it will select zero or one or two or three or four or five or thirty one with equal probability. Okay, let's assume that it draws three. Okay, okay, let's say three. So our integer is equal to three. The because time that a computes will then be three times the timeslot. Oh, now we understand why we have the timeslot. Okay, the timeslot is useful. So this is the integer that is drawn with equal probability out of this range. And based on this integer, we compute the because time. The because time is an integer multiplied by the duration of a timeslot. Okay, and then a sets a counter that is called the because counter to this value.<|im_end|>",
+  "generated_tokens": 212,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.5414038229992,
+  "at": "2026-10-18T02:41:28.450285+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}
