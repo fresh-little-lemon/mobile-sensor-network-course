@@ -1,0 +1,41 @@
+{
+  "reason": "单个大文本完整无损分片备份，原文未截断；恢复时依序拼接parts并核验original_sha256。",
+  "files": [
+    {
+      "original_path": "docs/feishu/20261016-0805/slide-audit/blocks-after-additions.json",
+      "original_bytes": 368567,
+      "original_sha256": "c6ee50fa6e0db41d4e739770495250d776ceacc72e2b6921aef14c21d232e4b0",
+      "parts": [
+        {
+          "path": "docs/feishu/20261016-0805/slide-audit/blocks-after-additions.json.parts/part-001.txt",
+          "bytes": 220621,
+          "sha256": "57d520d33f54c4aaec12e0bda2e3d01ba056c8924ec911ee309ff5f3e6bed5c0"
+        },
+        {
+          "path": "docs/feishu/20261016-0805/slide-audit/blocks-after-additions.json.parts/part-002.txt",
+          "bytes": 147946,
+          "sha256": "a878e765b9c4e58d7b149081032ef33d041781106104faf7d6c762189e917294"
+        }
+      ],
+      "reconstruct": "Concatenate part content as UTF-8 in listed order, without inserting separators or line endings."
+    },
+    {
+      "original_path": "docs/feishu/20261016-0805/slide-audit/blocks-before-additions.json",
+      "original_bytes": 367214,
+      "original_sha256": "9763627c0cd3498a31e0cfb5aa97b106dbb8695d60a26e43f5b8d93a9387c016",
+      "parts": [
+        {
+          "path": "docs/feishu/20261016-0805/slide-audit/blocks-before-additions.json.parts/part-001.txt",
+          "bytes": 220621,
+          "sha256": "e5f7df2ddce7577d37047c1c76893c1017e04aec78841e27d9724ed9ea5c0e6e"
+        },
+        {
+          "path": "docs/feishu/20261016-0805/slide-audit/blocks-before-additions.json.parts/part-002.txt",
+          "bytes": 146593,
+          "sha256": "8c22870b58967ef849a6aa41620b2b062795c86071970b4343a5fb3d542f1dac"
+        }
+      ],
+      "reconstruct": "Concatenate part content as UTF-8 in listed order, without inserting separators or line endings."
+    }
+  ]
+}
