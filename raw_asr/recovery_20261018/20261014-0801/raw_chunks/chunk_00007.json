@@ -1,0 +1,12 @@
+{
+  "start_seconds": 770.0,
+  "end_seconds": 890.0,
+  "text": "The duration of the packet, of a packet transmitted by a or by c is 0.2 milliseconds, and the duration of a packet transmitted by b is 0.4 milliseconds. And then we have the values of the Markleria parameters, so the usual duration of acknowledgement, the duration of the leaves, duration of sips, the duration of the extended ifs, duration of the time slot. Let's remember that the contention window minimum that we are assuming the value in this case is 31. So in this problem it is useful to consider also as Mark parameter the contention window minimum, that is 31. And then we have the usual time, the amount to detect failure, transmission failure, that is TF equal to 150 microseconds. Now one is also, let's say for to be precise, it is useful to say that the radio channel conditions are always good. That's what we assume for simplicity in our problems. So packets may fail only because of collisions. Okay, so we don't have failures due to channel errors. This is because we want to make things simpler. Okay, that said, the story now is that at the initial.",
+  "raw_decoded": "language English<asr_text>The duration of the packet, of a packet transmitted by a or by c is 0.2 milliseconds, and the duration of a packet transmitted by b is 0.4 milliseconds. And then we have the values of the Markleria parameters, so the usual duration of acknowledgement, the duration of the leaves, duration of sips, the duration of the extended ifs, duration of the time slot. Let's remember that the contention window minimum that we are assuming the value in this case is 31. So in this problem it is useful to consider also as Mark parameter the contention window minimum, that is 31. And then we have the usual time, the amount to detect failure, transmission failure, that is TF equal to 150 microseconds. Now one is also, let's say for to be precise, it is useful to say that the radio channel conditions are always good. That's what we assume for simplicity in our problems. So packets may fail only because of collisions. Okay, so we don't have failures due to channel errors. This is because we want to make things simpler. Okay, that said, the story now is that at the initial.<|im_end|>",
+  "generated_tokens": 244,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.46296499900018,
+  "at": "2026-10-18T04:41:14.399245+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

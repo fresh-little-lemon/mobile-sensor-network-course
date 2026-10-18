@@ -1,0 +1,12 @@
+{
+  "start_seconds": 550.0,
+  "end_seconds": 670.0,
+  "text": "Okay, so at this point we have three contending nodes A, B, and C. Each of them has got the because counter set, but A has got 19, B 30, and C 5. So if we look at the diagram and we make some computation, we see that the first one that is able to decrease its because counter to zero is C. So after five times lots, C will be able to transmit its data packet. Okay. The others A at that point will hear and modulate the duration field, so it will set it's none, and the same for B. So these two nodes will not do anything right during the dialogue between C and the access point, and both A and B have got their because counter as frozen. And then the story continues. Is it is it clear any doubt or question? Okay. So that was the second problem that we presented. So this morning before proceeding with the slides, we will see a few more. This is the third one that we are going to to solve. This is a bit more complicated. Okay, but it is good to see different cases.",
+  "raw_decoded": "language English<asr_text>Okay, so at this point we have three contending nodes A, B, and C. Each of them has got the because counter set, but A has got 19, B 30, and C 5. So if we look at the diagram and we make some computation, we see that the first one that is able to decrease its because counter to zero is C. So after five times lots, C will be able to transmit its data packet. Okay. The others A at that point will hear and modulate the duration field, so it will set it's none, and the same for B. So these two nodes will not do anything right during the dialogue between C and the access point, and both A and B have got their because counter as frozen. And then the story continues. Is it is it clear any doubt or question? Okay. So that was the second problem that we presented. So this morning before proceeding with the slides, we will see a few more. This is the third one that we are going to to solve. This is a bit more complicated. Okay, but it is good to see different cases.<|im_end|>",
+  "generated_tokens": 237,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.404289400999915,
+  "at": "2026-10-18T04:40:08.192923+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}
