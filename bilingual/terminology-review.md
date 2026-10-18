@@ -1,6 +1,6 @@
 # 双语课程稿术语核对
 
-核对日期：2026-10-18。当前覆盖：20261008-0910，共46组英中段落。后续课程逐份补充。
+核对日期：2026-10-18。当前覆盖：按录音顺序的前6份课程，共403组双语段落。后续课程逐份补充。
 
 ## 采用的译法与依据
 
@@ -188,3 +188,32 @@
 [16] RFC Editor，RFC 3366，Advice to Link Designers on Link Automatic Repeat reQuest：https://www.rfc-editor.org/info/rfc3366/
 
 [17] IEEE 802.11工作组，About IEEE 802.11：https://www.ieee802.org/11/abt80211.html
+
+## 20261009-0845：协议层、共享介质与Wi-Fi演进
+
+| 英文 | 中文译法 | 核对与说明 |
+|---|---|---|
+| router / gateway | 路由器／网关 | 区分具体设备转发功能与连接不同网络的出入口角色 |
+| LLC | 逻辑链路控制 | Logical Link Control，与MAC共同涉及数据链路层功能 |
+| shared medium / collision | 共享介质／碰撞 | 此处讨论同时发送造成的重叠，不是设备物理撞击 |
+| unlicensed spectrum | 免许可频谱 | 不需要逐个用户申请专用频谱许可，不等于没有功率、频段或地域规定 |
+| OFDM | 正交频分复用 | 正式展开Orthogonal Frequency Division Multiplexing；原文“orthogonal frequency the gram modulation”有误，中文按已核实术语翻译[18] |
+| MIMO / multi-user MIMO | 多输入多输出／多用户MIMO | MIMO与OFDM分别涉及空间维度和子载波组织，可结合使用[19] |
+| channel / band | 信道／频段 | 频段是更大频谱范围，信道是按规定划分的可操作频率区间 |
+| PHY data rate | 物理层数据速率 | 与应用吞吐量、单终端实际速度区分 |
+
+### 原讲述中的概念校核
+
+- “The antenna travels through the air”中的主体应是signal，而非antenna。对照稿英文保留原修订稿，该句中文也保留“天线”以便追溯，正确物理过程见本说明。
+- 多人说话例子的分母包含其他发言者的功率，应使用SINR而非仅SNR。原文随后自行提到SINR，对照保留其展开过程。
+- “物理层以外全是软件”是教学简化。MAC功能也可能由硬件或固件实现；路由器转发亦可由专用芯片完成，协议层不决定唯一实现形式。
+- 本节停等确认说明针对基本单播流程，不覆盖所有Wi-Fi帧种类、组播、聚合与块确认机制。
+- 2.4 GHz“三个信道”应结合不重叠信道及信道宽度理解；5 GHz“12个”、6 GHz“24个”不是全球通用常数。可用数量取决于监管域和信道宽度。例如Cisco的FCC-USA 1200 MHz示意给出59个20 MHz信道[20]。
+- 46 Gbit/s属于特定多空间流、带宽、调制等配置下的理论PHY量级，不能当作任意手机网卡实际吞吐量。由1–2 Mbit/s到46 Gbit/s约为2.3万至4.6万倍，不只是精确的1000倍。
+- 原修订稿中的“Muy”“我们的”“笑”等短片段未有足够依据重新辨识，保留在相应位置；这不是新增课堂内容。
+
+[18] MathWorks，Introduction to OFDM：https://www.mathworks.com/help/comm/gs/introduction-to-ofdm.html
+
+[19] MathWorks，Wireless Communications（MIMO与OFDM）：https://www.mathworks.com/help/phased/mimo-communication.html
+
+[20] Cisco Live 2024，BRKEWN-3004：https://www.ciscolive.com/c/dam/r/ciscolive/global-event/docs/2024/pdf/BRKEWN-3004.pdf
