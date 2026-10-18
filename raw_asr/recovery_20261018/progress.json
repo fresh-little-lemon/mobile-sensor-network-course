@@ -1,13 +1,25 @@
 {
-  "status": "recording_complete_and_remote_verified",
-  "recording_id": "20261010-1000",
-  "published_chunks": 53,
-  "duration_seconds": 5838.8665625,
-  "coverage_end_seconds": 5838.8665625,
-  "verified_files": 55,
-  "whole_recording_asr_complete": true,
-  "editorial_status": "draft_under_review",
-  "commit": "1c8dbf8a98c28c714ffd2520925cdacb5b6a129a",
-  "verified_at": "2026-10-18T02:46:01+00:00",
-  "note": "Raw ASR archived before final editorial and bilingual publication. Text accuracy still requires editorial checks."
+  "updated_at": "2026-10-18T03:10:29+00:00",
+  "complete_and_remote_verified": [
+    {
+      "recording_id": "20261010-1000",
+      "duration_seconds": 5838.8665625,
+      "raw_chunks": 53,
+      "verified_files": 55,
+      "commit": "1c8dbf8a98c28c714ffd2520925cdacb5b6a129a"
+    },
+    {
+      "recording_id": "20261012-1331",
+      "duration_seconds": 5622.2940625,
+      "raw_chunks": 52,
+      "verified_files": 54,
+      "commit": "2887ed5c04d125b590e0c0499eb72ad8d7167881"
+    }
+  ],
+  "current_recording": "20261012-1530",
+  "current_status": "running",
+  "editorial_completed": 9,
+  "bilingual_completed": 9,
+  "total_recordings": 19,
+  "note": "Snapshot only. Full raw results are archived before final editorial publication; running records are not counted as complete."
 }
