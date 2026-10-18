@@ -160,3 +160,31 @@
 [14] MathWorks，Block Codes：https://www.mathworks.com/help/comm/ug/block-codes.html
 
 [15] MathWorks，SDA Optical Communication Terminal Waveform Generation：https://www.mathworks.com/help/satcom/ug/sda-oct-waveform-generation.html
+
+## 20261009-0759：停等ARQ与Wi-Fi协议栈
+
+| 英文 | 中文译法 | 核对与语境 |
+|---|---|---|
+| CRC | 循环冗余校验；字段值称CRC校验值 | 属于差错检测，不能将其与密码学摘要等同 |
+| digest | 摘要 | 本课用作CRC的直观类比，不代表抗碰撞的密码学哈希 |
+| stop-and-wait ARQ | 停等式ARQ | 发一包后等待确认，超时可触发重传；ARQ与确认机制见RFC 3366[16] |
+| acknowledgment / ACK | 确认／确认包 | 区别于用户有效载荷；不译为“承认”[16] |
+| timeout / retransmission | 超时／重传 | “未收到ACK”可由数据包丢失或ACK丢失引起，不单独证明对方未收到数据[16] |
+| PHY / MAC | 物理层／介质访问控制层 | IEEE 802.11规范范围为MAC与PHY[17] |
+| protocol stack | 协议栈 | 各层处理及其相互接口，不能等同于某个单一硬件 |
+| WLAN | 无线局域网 | IEEE 802.11工作组与规范的正式领域[17] |
+| transport / network / application layer | 传输层／网络层／应用层 | 本课分别以TCP、IP和应用为例 |
+| ICT | 信息与通信技术 | 指知识及专业领域，不是某一种无线技术 |
+
+### 对照稿保留与科学校核
+
+- 原文19:18附近把等待ACK、超时后重传的一方说成receiver。按本课停等流程，这些动作属于transmitter。英文及中文保留原修订稿角色措辞，纠正说明集中放在本文件，不悄悄修改原讲述。
+- 原文“接收端不发ACK隐式请求接收端重传”的末尾角色也应按流程理解为发送端重传。
+- CRC相等只表示校验没有检出错误，不能保证绝对无错；实际CRC字段的位置和覆盖范围由具体协议定义，并非总在首部，也并非总只覆盖有效载荷。
+- “首部始终正确接收”是本课明确采用的简化假设，不能推广到真实信道。
+- Wi-Fi是技术与认证生态的名称，IEEE 802.11是底层标准系列。IEEE官方资料确认其含MAC和PHY规范，不把两个名称当作组织意义上的完全同义词[17]。
+- 原修订稿开场混合文本“签签到”及部分不清楚句子没有可靠重识别依据，译稿保留；逐字母列出的标准后缀边界也未强行合并成确定版本。
+
+[16] RFC Editor，RFC 3366，Advice to Link Designers on Link Automatic Repeat reQuest：https://www.rfc-editor.org/info/rfc3366/
+
+[17] IEEE 802.11工作组，About IEEE 802.11：https://www.ieee802.org/11/abt80211.html
