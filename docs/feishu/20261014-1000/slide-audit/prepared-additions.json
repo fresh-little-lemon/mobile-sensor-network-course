@@ -1,0 +1,86 @@
+[
+  {
+    "source_pdf": "001-BasicConcepts.pdf",
+    "figure_number": 10,
+    "pdf_page": 5,
+    "pdf_half": "lower",
+    "semantic_paragraphs": [
+      33,
+      33
+    ],
+    "insert_after_heading2_block_id": "doxcnxxurNtFRieweayre8v9igb",
+    "before_body_block_id": "doxcnNspZut179OrzSdDMtM9Ugb",
+    "paragraph_ordinal": 33,
+    "evidence": "P32接受同学要求回看；P33指this rectangle is the geographical area，图10唯一为未部署基站的空矩形A服务区，并说明频谱资源/用户/收入。",
+    "status": "inserted_and_fully_verified",
+    "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-010.png",
+    "sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c",
+    "clip": [
+      99.0,
+      487.0,
+      495.0,
+      710.0
+    ],
+    "caption": "课件：001-BasicConcepts.pdf · PDF第5页下半页 · 图10（按PDF顺序）",
+    "block_id": "doxcnmzclUVxj36yyZks3CnG7Rh",
+    "token": "HVYabYusxoWvVjx6o0YcYKrVnod",
+    "remote_download_sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c",
+    "exact_placement_verified": true
+  },
+  {
+    "source_pdf": "001-BasicConcepts.pdf",
+    "figure_number": 12,
+    "pdf_page": 6,
+    "pdf_half": "lower",
+    "semantic_paragraphs": [
+      34,
+      40
+    ],
+    "insert_after_heading2_block_id": "doxcngHduvX2R5Ac7eJPWbeGEVc",
+    "before_body_block_id": "doxcnR2UyEEIdyRSZGNEul0qbxf",
+    "paragraph_ordinal": 34,
+    "evidence": "P34开始在该区域部署一个基站；P35–40讨论其频率资源与用户容量，图12是同一矩形内单基站和L频段/用户比例，区别于图10空区与图13三站。",
+    "status": "inserted_and_fully_verified",
+    "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-012.png",
+    "sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569",
+    "clip": [
+      99.0,
+      487.0,
+      495.0,
+      710.0
+    ],
+    "caption": "课件：001-BasicConcepts.pdf · PDF第6页下半页 · 图12（按PDF顺序）",
+    "block_id": "doxcngtP887BHXNuCa73hugjnzp",
+    "token": "RaEpbI9qfo4qkPx3BqucpTsgnLc",
+    "remote_download_sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569",
+    "exact_placement_verified": true
+  },
+  {
+    "source_pdf": "001-BasicConcepts.pdf",
+    "figure_number": 13,
+    "pdf_page": 7,
+    "pdf_half": "upper",
+    "semantic_paragraphs": [
+      41,
+      42
+    ],
+    "insert_after_heading2_block_id": "doxcnmmCez8fX4oWkWvVPunOeid",
+    "before_body_block_id": "doxcnd17aZonvmyU9wSEMuD66sp",
+    "paragraph_ordinal": 41,
+    "evidence": "P41明确部署three base stations、降低功率且同频复用；图13是矩形内三个圆覆盖区、容量3L，与P42三人低声说话类比一致。",
+    "status": "inserted_and_fully_verified",
+    "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-013.png",
+    "sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee",
+    "clip": [
+      99.0,
+      132.0,
+      495.0,
+      355.0
+    ],
+    "caption": "课件：001-BasicConcepts.pdf · PDF第7页上半页 · 图13（按PDF顺序）",
+    "block_id": "doxcnGmzyKsKQFCoZH9UTTHlR1b",
+    "token": "ZKvobXLPioKxTOxTq1VcrVFAnOf",
+    "remote_download_sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee",
+    "exact_placement_verified": true
+  }
+]
