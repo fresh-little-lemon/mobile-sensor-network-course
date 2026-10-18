@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4180.0,
+  "end_seconds": 4300.0,
+  "text": "So if B, transmits its packet here, so right after the 13 times slot, then the access point is transmitting it cannot receive. So this packet will fail. We need to make sure that B's transmission starts after the ACK. Okay, and it is enough to consider therefore that its past epoch is 13 times slots that over this time period, plus one at least one. That it can be two, three or four, but at least plus one. So here we need to consider at least one more timeslot. So that here, it will still need to wait right for one more timeslot. It cannot access the channel when the access point is transmitting the acknowledgement. So we want to avoid that. Okay, so since it has got one more timeslot to go, this means that that will go after the access point's acknowledgement transmission. That is here. So if we say again, it's 13 plus one. That's the time instant at which B will start transmitting its packet. If we say 13 plus two, it will start here. 13 plus three, it will start here. 13 plus four, it will start here. As we said, 15 plus five does not work because that would be exactly when also C.",
+  "raw_decoded": "language English<asr_text>So if B, transmits its packet here, so right after the 13 times slot, then the access point is transmitting it cannot receive. So this packet will fail. We need to make sure that B's transmission starts after the ACK. Okay, and it is enough to consider therefore that its past epoch is 13 times slots that over this time period, plus one at least one. That it can be two, three or four, but at least plus one. So here we need to consider at least one more timeslot. So that here, it will still need to wait right for one more timeslot. It cannot access the channel when the access point is transmitting the acknowledgement. So we want to avoid that. Okay, so since it has got one more timeslot to go, this means that that will go after the access point's acknowledgement transmission. That is here. So if we say again, it's 13 plus one. That's the time instant at which B will start transmitting its packet. If we say 13 plus two, it will start here. 13 plus three, it will start here. 13 plus four, it will start here. As we said, 15 plus five does not work because that would be exactly when also C.<|im_end|>",
+  "generated_tokens": 269,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.2611332910019,
+  "at": "2026-10-18T05:00:04.504946+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4510.0,
+  "end_seconds": 4630.0,
+  "text": "So that B does not collide and it transmits both packets before C. So we did not consider values of past because that are 19, 20, 21, 22, 23, 24, etc. Until 31. Because in that case, it would have been a still true that B would not collide, but it would have transmitted after C. Instead, the problem specified that B should transmit before C. Okay. Now why am I specifying that? Because that would be very useful for you to solve the next numerical problem that we are going to present, but I leave it for you to look at in the afternoon or tonight, and then we are going to solve it together. But in this way, you have more time to look at the problem. Okay. So this is my last comment that I made is actually useful for you when you look at the next numerical problem, which is similar to this one. But you will see that this my last comment will will help you. Okay. So for now, let me just here present. Ah, this is our solution. Present the problem. You can take a picture. And.",
+  "raw_decoded": "language English<asr_text>So that B does not collide and it transmits both packets before C. So we did not consider values of past because that are 19, 20, 21, 22, 23, 24, etc. Until 31. Because in that case, it would have been a still true that B would not collide, but it would have transmitted after C. Instead, the problem specified that B should transmit before C. Okay. Now why am I specifying that? Because that would be very useful for you to solve the next numerical problem that we are going to present, but I leave it for you to look at in the afternoon or tonight, and then we are going to solve it together. But in this way, you have more time to look at the problem. Okay. So this is my last comment that I made is actually useful for you when you look at the next numerical problem, which is similar to this one. But you will see that this my last comment will will help you. Okay. So for now, let me just here present. Ah, this is our solution. Present the problem. You can take a picture. And.<|im_end|>",
+  "generated_tokens": 246,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.55379317400002,
+  "at": "2026-10-18T05:01:31.423722+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

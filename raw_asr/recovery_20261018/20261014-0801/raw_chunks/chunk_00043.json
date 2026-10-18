@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4730.0,
+  "end_seconds": 4850.0,
+  "text": "Um, a and b as before, and c. We can consider c here in the middle, so that we can say well, access point a and c can all hear each other, and also b access point c and b can hear each other. Instead, as before, a and b are hidden. Okay, we respect which. Again, we use the basic LCF, and we have indicated the duration of the transmission of a and c. So when a and c have got a packet, if they transmit a packet, its packet will last 0.3 milliseconds. When instead b accesses the channel and transmits a packet, its packet will be 0.4 milliseconds. Max parameters, more or less same as before. We have the duration of the acknowledgment packet 140 seconds. We have the diff, cifs, extended IFS, and time slot. Okay, all these durations are given. Again, remember that the contention window minimum parameter is 31. And again, also in this problem, it is a useful parameter. So that's essentially the maximum value.",
+  "raw_decoded": "language English<asr_text>Um, a and b as before, and c. We can consider c here in the middle, so that we can say well, access point a and c can all hear each other, and also b access point c and b can hear each other. Instead, as before, a and b are hidden. Okay, we respect which. Again, we use the basic LCF, and we have indicated the duration of the transmission of a and c. So when a and c have got a packet, if they transmit a packet, its packet will last 0.3 milliseconds. When instead b accesses the channel and transmits a packet, its packet will be 0.4 milliseconds. Max parameters, more or less same as before. We have the duration of the acknowledgment packet 140 seconds. We have the diff, cifs, extended IFS, and time slot. Okay, all these durations are given. Again, remember that the contention window minimum parameter is 31. And again, also in this problem, it is a useful parameter. So that's essentially the maximum value.<|im_end|>",
+  "generated_tokens": 227,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.14960495500054,
+  "at": "2026-10-18T05:02:22.282068+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

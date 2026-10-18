@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4400.0,
+  "end_seconds": 4520.0,
+  "text": "But what, for example, if B draws twenty as a post-recall integer? Well, in that case, we would have that C transmits first, right? Because C at that point decreases its post-recall counter to zero first. So C will transmit. B would stop is enough because B and C can hear each other. So B at that point will wait longer. We'll have the transmission by C successful, and then B will transmit later on. Okay. So in that case, we would still have successful transmissions by B. But we did not consider values greater than eighteen for the post-recall of B because the problem said. The problem said that we needed to compute a post-recall value for B. That sorry, this is not right. That allows B the post-recall by B, so that B does not collide and it transmits both packets before C. So we did not consider.",
+  "raw_decoded": "language English<asr_text>But what, for example, if B draws twenty as a post-recall integer? Well, in that case, we would have that C transmits first, right? Because C at that point decreases its post-recall counter to zero first. So C will transmit. B would stop is enough because B and C can hear each other. So B at that point will wait longer. We'll have the transmission by C successful, and then B will transmit later on. Okay. So in that case, we would still have successful transmissions by B. But we did not consider values greater than eighteen for the post-recall of B because the problem said. The problem said that we needed to compute a post-recall value for B. That sorry, this is not right. That allows B the post-recall by B, so that B does not collide and it transmits both packets before C. So we did not consider.<|im_end|>",
+  "generated_tokens": 190,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.481715873997018,
+  "at": "2026-10-18T05:00:57.869308+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}
