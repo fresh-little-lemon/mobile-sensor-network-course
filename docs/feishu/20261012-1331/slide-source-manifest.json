@@ -1,0 +1,609 @@
+{
+  "document_title": "双语对照：录音机-20261012-1331",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/BSkQdCu5LoOPopxZWPGcbeJhnhf",
+  "original_transcript_url": "https://lcn6dqn3m0yr.feishu.cn/docx/NwvUdszghonyiIxRXpfc5zYpnsg",
+  "original_audio_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl1r6fl65o45lkj3o1zq9",
+  "prepared_for": "授权课程私仓同步准备；未执行远程发布",
+  "source_pdfs": [
+    {
+      "filename": "02-WiFi_1-7.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+      "pages": 74,
+      "figures_used": [
+        47,
+        48,
+        45,
+        46,
+        49,
+        51,
+        50,
+        52
+      ],
+      "local_provenance": "Exact pinned PDF reused from authorized1010-0800 audit, hash checked against its manifest."
+    }
+  ],
+  "audited_at_utc": "2026-10-18T14:53:02.820815+00:00",
+  "audit_scope": "All78 bilingual paragraphs and new heading plan fully read. All6 original PNGs downloaded read-only and visually compared with pinned PDF pages23–26. Missing46 and52 faithfully rasterized and visually checked against full PDF pages. Full74-page text searched; candidate pages18,19,36,37 inspected for classroom visual references. Final full-block readback compared; added PNGs re-downloaded and SHA256 checked. Audit worker made no remote edits.",
+  "paragraph_count": 78,
+  "heading2_count": 78,
+  "heading1_count": 9,
+  "original_image_count": 6,
+  "added_image_count": 2,
+  "image_count": 8,
+  "confirmed_defects": [
+    {
+      "id": "missing-slide-046",
+      "type": "missing_relevant_source_slide",
+      "figure_number": 46,
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 23,
+      "pdf_half": "lower",
+      "paragraph_spans": [
+        [
+          1,
+          2
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          20,
+          27
+        ]
+      ],
+      "evidence": "第11段完整逐项讲等待空闲DIFS、均匀抽取整数、逐时隙倒计时、忙则冻结、再次空闲DIFS后恢复、归零立即发送。第20–27段用B抽2、C抽5的例子再次展开。图46正是这套步骤；已有图45只列触发情况，图47讲窗口增长，均不能替代该过程页。",
+      "remediation": "Parent inserted faithful pinned PDF rasterization after paragraph11 H2 and before unchanged body.",
+      "new_block_id": "doxcnWTFsquj2iIzhTunL0hhLyd",
+      "status": "resolved_and_verified_in_full_document_readback",
+      "write_receipt": "receipts/add-slide-046.json",
+      "write_revision": 107
+    },
+    {
+      "id": "missing-slide-052",
+      "type": "missing_relevant_source_slide",
+      "figure_number": 52,
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 26,
+      "pdf_half": "lower",
+      "paragraph_spans": [
+        [
+          66,
+          76
+        ]
+      ],
+      "evidence": "第66段明确转向课件中的实际开销例子，第67–68段给出DIFS约50微秒、基本速率1Mb/s和PHY前导码/首部，第69–74段解释MAC首部、有效载荷、SIFS及ACK，第75段加入退避和重传，第76段总结效率50–55%。固定PDF图52正是DIFS+backoff+PHY/MAC+payload+SIFS+ACK的开销计算，结果约55%。作为本节实例总结补入；不声称转写逐字读出了图中所有1500B、34B和6.06Mb/s等数值。",
+      "remediation": "Parent inserted faithful pinned PDF rasterization after paragraph76 H2 and before unchanged body.",
+      "new_block_id": "doxcnQS6J19jan879PbrFimceGh",
+      "status": "resolved_and_verified_in_full_document_readback",
+      "write_receipt": "receipts/add-slide-052.json",
+      "write_revision": 109
+    }
+  ],
+  "original_images_misaligned_count": 0,
+  "unresolved_source_gaps": [
+    {
+      "id": "backoff-whiteboard-timelines",
+      "topic": "AP/A/B/C退避、移除退避与发送后退避的白板时间线",
+      "paragraph_spans": [
+        [
+          14,
+          36
+        ],
+        [
+          58,
+          66
+        ]
+      ],
+      "status": "unresolved_classroom_whiteboard_visual_not_in_fixed_pdf",
+      "evidence": "第16段明确说为AP、A、B、C各画一条时间线；第22–27段使用B抽2、C抽5并冻结剩余3时隙的具体例子；第31、35段分别去掉退避或让两者同取2；第58–66段重新画成功后的A与B/C公平性。第66段明确说主要使用白板来讲清这些幻灯片。",
+      "search_scope": "固定74页PDF全文检索backoff、collision、timeline、queue；完整视觉核验第23–26页，并检查第18、19、36、37页相关过程图和队列图。图36是Source/Destination/Others单次DATA/ACK，图73是EDCA四队列，不是本节AP/A/B/C连续场景。",
+      "action": "保留原文和相关课件原图，记录白板图当前缺少截图来源；不重绘、不把泛化DCF或EDCA图当作同一白板。"
+    },
+    {
+      "id": "collision-probability-whiteboard-derivation",
+      "topic": "两节点碰撞概率1/(CW_min+1)的条件概率与求和推导",
+      "paragraph_spans": [
+        [
+          38,
+          49
+        ]
+      ],
+      "status": "unresolved_classroom_derivation_visual_not_in_fixed_pdf",
+      "evidence": "第40段给出每个整数的均匀概率，第42–47段逐步写条件概率、独立性和对n求和，并多次说已写在这里；第47–49段化简为1/(CW_min+1)。",
+      "search_scope": "固定PDF全文与第23–25页退避章节未出现该条件概率/求和推导；图47–49仅有CW更新、数值表和定性解释。第66段的白板说明支持其为课堂推导而非可确认遗漏的PDF页。",
+      "action": "完整保留推导原文，不自行绘制或声称已恢复课堂原图。"
+    }
+  ],
+  "unresolved_source_gap_count": 2,
+  "unresolved_gaps_are_not_confirmed_missing_pdf_pages": true,
+  "all_lecture_visuals_recovered": false,
+  "not_missing": [
+    {
+      "figure_numbers": [
+        33,
+        34,
+        53,
+        54,
+        55
+      ],
+      "reason": "第77–78段仅预告休息后讲EIFS，列出四种IFS并给约300微秒的量级，没有展开错误接收、ACK保护或EIFS提前结束。不能因为预告就补入后续机制/时序页；也不机械重插前章IFS阶梯。"
+    },
+    {
+      "figure_numbers": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "reason": "第14–27段和58–66段复用基础DATA/ACK/NAV概念来画本次多节点白板例子；已有图46覆盖计数流程。前章单次DATA/ACK或NAV概览不能冒充本次白板。"
+    },
+    {
+      "figure_numbers": [
+        10,
+        11,
+        13,
+        71
+      ],
+      "reason": "第69–72段为解释MAC首部开销而口述ESS转发和三/四地址，未确认重新展示架构图；图71是后续QoS Control首部页，不为填图而补。"
+    },
+    {
+      "figure_numbers_from": 56,
+      "reason": "本节未进入DCF总结后的PCF、QoS或后续Wi-Fi版本；不因PDF连续性补后续页。"
+    }
+  ],
+  "audio_fidelity_verified": false,
+  "pending_audio_review": {
+    "paragraph_ordinal": 9,
+    "timestamp_start": "00:09:40",
+    "timestamp_end": "00:11:21",
+    "status": "pending_original_audio_asr_review",
+    "reason": "User questioned whether paragraph9 English matches the original recording. This audit only proves the text stayed unchanged relative to the pre-edit snapshot, not fidelity to speech.",
+    "scope_limitation": "No audio listened to or transcribed in this slide/navigation audit. All external writes are paused by parent pending review."
+  },
+  "cautions": [
+    "All original bilingual text is retained verbatim, including spoken/source inconsistencies, interjections and break chatter. This is not technical correction or audio-to-text verification.",
+    "Original figure45 third condition says post-backoff while more data remains queued; figure50 and paragraph66 require it regardless of queue state. The discrepancy is recorded, not edited.",
+    "Figure52 includes detailed numerical parameters not all spoken in the transcript. It is a relevant fixed-PDF worked example, not a recovered screenshot of every classroom visual.",
+    "Paragraph41 short break, paragraph66 scheduling aside and paragraph78 long break remain unchanged.",
+    "The two unresolved visual-source gaps are classroom whiteboard examples/derivation, not established missing PDF slides.",
+    "Source image/PDF typography and pre-existing overlapping small labels are faithfully retained.",
+    "Only original status metadata changed; all other original non-root blocks are identical. Original transcript, intelligent minutes and recording were not modified.",
+    "Audio binary is not packaged; playback link preserved. Prepared for the authorized private repository without remote publishing."
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "figure_number": 47,
+      "slide_number": 47,
+      "numbering_basis": "PDF handout sequence, not small printed footer or document image order",
+      "title": "Backoff Value: Binary Exponential Backoff",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 24,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=24",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-047.png",
+      "sha256": "fbb0f271a1226f47d8dec4e29aee5a8414d00dfa93246070b268573f7cb76437",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnxfTo4JUVDPN3hf2lJuS3gd",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第24页上半页 · 图47（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第24页上半页 · 图47（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 2,
+        "timestamp": "00:00:29",
+        "block_id": "doxcn7SsOH6o33jPzXgM5V6cyXd",
+        "heading": "02 · 00:00:29 · 退避过程与竞争窗口指数表达式"
+      },
+      "before_paragraph": {
+        "ordinal": 3,
+        "timestamp": "00:02:48",
+        "block_id": "doxcnUQ7t1Sai3ADMWsg75dZvye",
+        "heading": "03 · 00:02:48 · 最小退避指数与CW为31的例子"
+      },
+      "semantic_paragraph_spans": [
+        [
+          1,
+          7
+        ],
+        [
+          38,
+          51
+        ]
+      ],
+      "alignment": "aligned",
+      "alignment_reason_zh": "第2段回顾DIFS、随机整数、CW最小值及重复失败后扩大窗口，第3–7段推导指数加一与窗口近似翻倍；图47放第2段之后准确。",
+      "identity_verified": "Original Feishu PNG visually compared with pinned PDF title, content, layout and numbering; original bytes retained.",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 2,
+      "figure_number": 48,
+      "slide_number": 48,
+      "numbering_basis": "PDF handout sequence, not small printed footer or document image order",
+      "title": "Example: CW Growth (802.11b, CWmin = 31, CWmax = 1023)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 24,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=24",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-048.png",
+      "sha256": "688283ffea5b42ff9ae2a3ff62129b4165558b3e14458ad26eb9886341ea20f3",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnXPHO3jBPy2cpA3xE0Bh9Vc",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第24页下半页 · 图48（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第24页下半页 · 图48（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 3,
+        "timestamp": "00:02:48",
+        "block_id": "doxcnUQ7t1Sai3ADMWsg75dZvye",
+        "heading": "03 · 00:02:48 · 最小退避指数与CW为31的例子"
+      },
+      "before_paragraph": {
+        "ordinal": 4,
+        "timestamp": "00:05:24",
+        "block_id": "doxcnSFMtuDH3wqf3m1ZJ1FECpf",
+        "heading": "04 · 00:05:24 · 第二次退避的竞争窗口计算"
+      },
+      "semantic_paragraph_spans": [
+        [
+          3,
+          7
+        ]
+      ],
+      "alignment": "aligned",
+      "alignment_reason_zh": "第3段以早期Wi-Fi指数5得到CW=31，第4–5段得到第二次63并说明达到CWmax后封顶，第6–7段给出一般规则；图48在第3段后对应这组例子。",
+      "identity_verified": "Original Feishu PNG visually compared with pinned PDF title, content, layout and numbering; original bytes retained.",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 3,
+      "figure_number": 45,
+      "slide_number": 45,
+      "numbering_basis": "PDF handout sequence, not small printed footer or document image order",
+      "title": "When Does a Station (Re)contend? — the Backoff Cases",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 23,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=23",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-045.png",
+      "sha256": "4d79267fa42ee59bd90a753283bedbf00a13596703cc2e7ea585e66a2a2eaab8",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnc7j1Yu1VqrAZpgPfPUc4le",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第23页上半页 · 图45（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第23页上半页 · 图45（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 9,
+        "timestamp": "00:09:40",
+        "block_id": "doxcnvRjxRufvfMiuNnxSymfMlh",
+        "heading": "09 · 00:09:40 · 新包到达但侦听到忙信道"
+      },
+      "before_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:11:21",
+        "block_id": "doxcnPqzDaGsf13GV71CGVfXjmh",
+        "heading": "10 · 00:11:21 · 忙信道情况下等待的具体含义"
+      },
+      "semantic_paragraph_spans": [
+        [
+          1,
+          2
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          53,
+          66
+        ]
+      ],
+      "alignment": "aligned",
+      "alignment_reason_zh": "第7–9段回引前页、说明失败重传以外还有两类退避情况，并开始讲新包遇忙；第三类发送后退避在第55–66段展开。图45在第9段后合理。原图第3条只写仍有排队数据，而图50和第66段说明无论队列是否为空都要执行，此源内差异保留。",
+      "identity_verified": "Original Feishu PNG visually compared with pinned PDF title, content, layout and numbering; original bytes retained.",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 4,
+      "figure_number": 46,
+      "slide_number": 46,
+      "numbering_basis": "PDF handout sequence, not small printed footer or document image order",
+      "title": "Backoff Procedure (Collision Avoidance)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 23,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=23",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-046.png",
+      "sha256": "72417b1284986366420e641bf250076c3b0d49f165cf9871ff8778d2b2d592d1",
+      "width": 1584,
+      "height": 892,
+      "image_block_id": "doxcnWTFsquj2iIzhTunL0hhLyd",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第23页下半页 · 图46",
+      "original_caption": null,
+      "status": "added_and_verified_in_remote_document",
+      "after_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:11:21",
+        "block_id": "doxcnPqzDaGsf13GV71CGVfXjmh",
+        "heading": "10 · 00:11:21 · 忙信道情况下等待的具体含义"
+      },
+      "before_paragraph": {
+        "ordinal": 11,
+        "timestamp": "00:12:27",
+        "block_id": "doxcnxO1XrFqJ8vDuFhY9nCToXb",
+        "heading": "11 · 00:12:27 · 退避计数递减、冻结与恢复"
+      },
+      "semantic_paragraph_spans": [
+        [
+          1,
+          2
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          20,
+          27
+        ]
+      ],
+      "alignment": "aligned",
+      "alignment_reason_zh": "第11段完整逐项讲等待空闲DIFS、均匀抽取整数、逐时隙倒计时、忙则冻结、再次空闲DIFS后恢复、归零立即发送。第20–27段用B抽2、C抽5的例子再次展开。图46正是这套步骤；已有图45只列触发情况，图47讲窗口增长，均不能替代该过程页。",
+      "identity_verified": "Faithful rasterization of the lower original slide in the pinned PDF. No redrawing, rewriting, OCR replacement, recoloring or content reconstruction. This is not a pre-existing Feishu PNG. Visually compared with full PDF page and remote download SHA256 verified.",
+      "download_receipt": "audit/download-added-slide-046-receipt.json",
+      "placement": {
+        "after_heading_text": "11 · 00:12:27 · 退避计数递减、冻结与恢复",
+        "before_paragraph_block_id": "doxcnxO1XrFqJ8vDuFhY9nCToXb",
+        "paragraph_ordinal": 11,
+        "timestamp": "00:12:27",
+        "heading": "11 · 00:12:27 · 退避计数递减、冻结与恢复",
+        "reason": "Place after new paragraph11 H2 and immediately before unchanged paragraph11 body.",
+        "after_heading_block_id": "doxcnRb1xK9Hmeu1XJGFrRUbWQf"
+      },
+      "render": {
+        "library": "PyMuPDF",
+        "version": "1.26.6",
+        "page_index_zero_based": 22,
+        "clip_points": [
+          99,
+          487,
+          495,
+          710
+        ],
+        "matrix": [
+          4,
+          4
+        ],
+        "alpha": false,
+        "script": "audit/render_missing_slides.py"
+      },
+      "remote_download_sha256": "72417b1284986366420e641bf250076c3b0d49f165cf9871ff8778d2b2d592d1"
+    },
+    {
+      "image_ordinal": 5,
+      "figure_number": 49,
+      "slide_number": 49,
+      "numbering_basis": "PDF handout sequence, not small printed footer or document image order",
+      "title": "Remarks on Backoff",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 25,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=25",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-049.png",
+      "sha256": "0bc53e2d8cdb5b74ba026380ba63d6c1ca973b26219a5827005d460c68658163",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnYA2YIgLfiTLfyHxySIUeed",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第25页上半页 · 图49（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第25页上半页 · 图49（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 51,
+        "timestamp": "01:00:35",
+        "block_id": "doxcneECTaGLIYZElqo3ZcJjZPe",
+        "heading": "51 · 01:00:35 · 扩大窗口的好处与信道差错下的代价"
+      },
+      "before_paragraph": {
+        "ordinal": 52,
+        "timestamp": "01:04:00",
+        "block_id": "doxcn7v1pOcJSqW4rkKPR4G6heb",
+        "heading": "52 · 01:04:00 · 批判性评估技术方案的适用条件"
+      },
+      "semantic_paragraph_spans": [
+        [
+          28,
+          36
+        ],
+        [
+          49,
+          52
+        ]
+      ],
+      "alignment": "aligned",
+      "alignment_reason_zh": "第28–36段通过移除退避及相同随机值说明去同步与概率性碰撞避免，第49–51段解释窗口增大降低碰撞但信道差错时只增加时延；图49紧随第51段作综合总结，位置准确。",
+      "identity_verified": "Original Feishu PNG visually compared with pinned PDF title, content, layout and numbering; original bytes retained.",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 6,
+      "figure_number": 51,
+      "slide_number": 51,
+      "numbering_basis": "PDF handout sequence, not small printed footer or document image order",
+      "title": "Remark: Broadcast and Multicast Traffic",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 26,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=26",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-051.png",
+      "sha256": "7c3f853e9d04309c47aba59efbf264a2779e0eba15003a95048ec5d8419bf269",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn02sGtGH4i7wCWx46feJRs4",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第26页上半页 · 图51（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第26页上半页 · 图51（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 55,
+        "timestamp": "01:06:45",
+        "block_id": "doxcna5EZSQva8EAx8UH3RzbFKh",
+        "heading": "55 · 01:06:45 · 广播多播一次发送与发送后退避引入"
+      },
+      "before_paragraph": {
+        "ordinal": 56,
+        "timestamp": "01:09:19",
+        "block_id": "doxcnSOlCgY8oM1YQQ6YaPFWmPg",
+        "heading": "56 · 01:09:19 · 成功传输后仍须执行退避"
+      },
+      "semantic_paragraph_spans": [
+        [
+          53,
+          55
+        ]
+      ],
+      "alignment": "aligned",
+      "alignment_reason_zh": "第53–55段讲广播多播无ACK、不重传，只有首次遇忙时需等待退避；图51在第55段之后准确。课堂先讲此页再讲图50，不能按PDF图号重排。",
+      "identity_verified": "Original Feishu PNG visually compared with pinned PDF title, content, layout and numbering; original bytes retained.",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 7,
+      "figure_number": 50,
+      "slide_number": 50,
+      "numbering_basis": "PDF handout sequence, not small printed footer or document image order",
+      "title": "Post-Backoff",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 25,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=25",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-050.png",
+      "sha256": "b54270369fce12dd50aa3d2c696b7f8a3af69898b4101bf88a781ccd0189547b",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnETwbqqjz80GK8xGqUWwMKc",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第25页下半页 · 图50（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第25页下半页 · 图50（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 66,
+        "timestamp": "01:18:22",
+        "block_id": "doxcn61liWTicB4PpLe3q93NYVc",
+        "heading": "66 · 01:18:22 · 发送后退避的强制性与开销示例"
+      },
+      "before_paragraph": {
+        "ordinal": 67,
+        "timestamp": "01:21:58",
+        "block_id": "doxcnZ562lYsPjFnhaKLUa6k3pf",
+        "heading": "67 · 01:21:58 · DIFS、物理前导码与各层首部开销"
+      },
+      "semantic_paragraph_spans": [
+        [
+          55,
+          66
+        ]
+      ],
+      "alignment": "aligned",
+      "alignment_reason_zh": "第55–60段引入成功后的post-backoff及公平性，第61–66段移除它后说明A持续抢占、其他站点饥饿，并强调无论队列状态都必须执行；原图50放第66段之后正确。",
+      "identity_verified": "Original Feishu PNG visually compared with pinned PDF title, content, layout and numbering; original bytes retained.",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 8,
+      "figure_number": 52,
+      "slide_number": 52,
+      "numbering_basis": "PDF handout sequence, not small printed footer or document image order",
+      "title": "Worked Example: Why 11 Mb/s Never Feels Like 11 Mb/s",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 26,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=26",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-052.png",
+      "sha256": "ffe14bd261ed7692dae468306acf69cd756ca3988f4aca1a9aad3e16917b8121",
+      "width": 1584,
+      "height": 892,
+      "image_block_id": "doxcnQS6J19jan879PbrFimceGh",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第26页下半页 · 图52",
+      "original_caption": null,
+      "status": "added_and_verified_in_remote_document",
+      "after_paragraph": {
+        "ordinal": 75,
+        "timestamp": "01:30:04",
+        "block_id": "doxcnVIlMbRLnNFqo5tFGAYyaqh",
+        "heading": "75 · 01:30:04 · 长载荷效率与失败重传额外开销"
+      },
+      "before_paragraph": {
+        "ordinal": 76,
+        "timestamp": "01:30:46",
+        "block_id": "doxcnhiEoLg0Ehnqpu87QIE85Mf",
+        "heading": "76 · 01:30:46 · Wi-Fi协议效率总结"
+      },
+      "semantic_paragraph_spans": [
+        [
+          66,
+          76
+        ]
+      ],
+      "alignment": "aligned",
+      "alignment_reason_zh": "第66段明确转向课件中的实际开销例子，第67–68段给出DIFS约50微秒、基本速率1Mb/s和PHY前导码/首部，第69–74段解释MAC首部、有效载荷、SIFS及ACK，第75段加入退避和重传，第76段总结效率50–55%。固定PDF图52正是DIFS+backoff+PHY/MAC+payload+SIFS+ACK的开销计算，结果约55%。作为本节实例总结补入；不声称转写逐字读出了图中所有1500B、34B和6.06Mb/s等数值。",
+      "identity_verified": "Faithful rasterization of the lower original slide in the pinned PDF. No redrawing, rewriting, OCR replacement, recoloring or content reconstruction. This is not a pre-existing Feishu PNG. Visually compared with full PDF page and remote download SHA256 verified.",
+      "download_receipt": "audit/download-added-slide-052-receipt.json",
+      "placement": {
+        "after_heading_text": "76 · 01:30:46 · Wi-Fi协议效率总结",
+        "before_paragraph_block_id": "doxcnhiEoLg0Ehnqpu87QIE85Mf",
+        "paragraph_ordinal": 76,
+        "timestamp": "01:30:46",
+        "heading": "76 · 01:30:46 · Wi-Fi协议效率总结",
+        "reason": "Place after new paragraph76 H2 and immediately before unchanged paragraph76 body.",
+        "after_heading_block_id": "doxcntvz3aIrFXnQS14w6hV6cJd"
+      },
+      "render": {
+        "library": "PyMuPDF",
+        "version": "1.26.6",
+        "page_index_zero_based": 25,
+        "clip_points": [
+          99,
+          487,
+          495,
+          710
+        ],
+        "matrix": [
+          4,
+          4
+        ],
+        "alpha": false,
+        "script": "audit/render_missing_slides.py"
+      },
+      "remote_download_sha256": "ffe14bd261ed7692dae468306acf69cd756ca3988f4aca1a9aad3e16917b8121"
+    }
+  ],
+  "final_remote_verification": {
+    "snapshot": "blocks-final.json",
+    "snapshot_sha256": "d42cd57187165e556a2bd296fec10096878e371b8d3ede41c875199187c5604f",
+    "all_original_non_root_blocks_except_status_unchanged": true,
+    "only_updated_original_content_block": "doxcn3fmOp5L90UErrVjSZ8fWBg",
+    "status_line_updated_to_correct_counts": true,
+    "status_has_no_stale_count_suffix": true,
+    "paragraph_count": 78,
+    "image_count": 8,
+    "heading2_count": 78,
+    "heading1_count": 9,
+    "original_children_order_preserved": true,
+    "original_image_order_and_neighbors_preserved": true,
+    "added_images_after_h2_and_immediately_before_requested_paragraphs": true,
+    "added_image_bytes_identical_to_prepared_pdf_rasterizations": true
+  }
+}

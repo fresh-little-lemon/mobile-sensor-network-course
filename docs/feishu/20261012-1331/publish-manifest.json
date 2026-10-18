@@ -1,0 +1,21 @@
+{
+  "full_zip": {
+    "name": "course-20261012-1331-navigation-backup-asr-pending.zip",
+    "bytes": 3156371,
+    "sha256": "75549a983305b89566620740cf1d82202d9c7532aa5efb5df5dd378abd617fe0",
+    "delivery": "Separate attachment; not included in this GitHub directory"
+  },
+  "compact_evidence": {
+    "name": "course-20261012-1331-evidence-asr-pending.zip",
+    "bytes": 235245,
+    "sha256": "327e02f6d9ebdb1739a6789d4b30d342ee351cda2d419788282d1a56c41c82de",
+    "members": 96,
+    "excludes": [
+      "PNG images",
+      "PDF source"
+    ]
+  },
+  "original_markdown_sha256": "f69921f2e01606723151537ac710fd8ad840a5ea0462ab3f4d945967585173be",
+  "github_markdown_sha256": "48bcb5c23698a45419552982a2ab86e0e2729839380f1f0c72b23e9b14deb306",
+  "conversion": "Only 8 image references replaced by links to original Feishu image blocks"
+}
