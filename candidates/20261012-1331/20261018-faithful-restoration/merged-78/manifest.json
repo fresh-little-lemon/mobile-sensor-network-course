@@ -1,0 +1,57 @@
+[
+  {
+    "filename": "full-78-candidate.json",
+    "bytes": 1251946,
+    "sha256": "948befeed2759bce06963d9863a3d23da29025def2d965b14d26217437db9014"
+  },
+  {
+    "filename": "full-78-diff.md",
+    "bytes": 553076,
+    "sha256": "85e23b7c662ae6b5c0f78ab4048fc1eb40fa75013a54c7ea188700541ae72f83"
+  },
+  {
+    "filename": "full-78-english.md",
+    "bytes": 56941,
+    "sha256": "e4aec4dd74a99b2122659fa958ae4cf44fffec98aefd2115ac54c98c6f01f80f"
+  },
+  {
+    "filename": "full-78-paragraph-bilingual.md",
+    "bytes": 107172,
+    "sha256": "912aae97232b6a98b4f837b1cd2f613ddab5bd46915c711be60cc7e4813cabfb"
+  },
+  {
+    "filename": "full-78-uncertainties.json",
+    "bytes": 297658,
+    "sha256": "f124ac20189da8038e8bc8fb066e977cb18364f437e312872f44a71d6e07b8d2"
+  },
+  {
+    "filename": "full-78-uncertainties.md",
+    "bytes": 148592,
+    "sha256": "eed0628e33b0846f7835552daa5efa2700d93e9bf397cb0c5f99d49e6568ba0e"
+  },
+  {
+    "filename": "full-78-unit-bilingual.md",
+    "bytes": 107619,
+    "sha256": "2283d60de2386f58acf39b60da58bf520669807f041c354de8f7420b8e729d48"
+  },
+  {
+    "filename": "full-78-verification.json",
+    "bytes": 95100,
+    "sha256": "b1b59a89a8cf531cc41c8587f9fd6ab0f973ae15430f902973a6217439ecad34"
+  },
+  {
+    "filename": "full-78-verification.md",
+    "bytes": 87410,
+    "sha256": "08a72ba2dafa252856047920ee5dca90bf2f7aa65ad6c6cc2ff34085ab0f775b"
+  },
+  {
+    "filename": "full-78-writeback-plan.json",
+    "bytes": 256635,
+    "sha256": "70ec6573b8b9a3bfb1554c633e3f6b9fcb1e02984b0ce911ad6d4634eac56884"
+  },
+  {
+    "filename": "full-78.unified.diff",
+    "bytes": 171852,
+    "sha256": "c8d75219ac0d2ceeb97d38730d51accff14f3fb21798560171347a7c859e43fc"
+  }
+]
