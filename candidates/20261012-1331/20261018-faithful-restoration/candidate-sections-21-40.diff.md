@@ -2598,3 +2598,7 @@ Restore repeated Okay, now, we know already, And remember, same probability frag
 ```
 
 - [Okay, unclear]: The final Okay occurs in Qwen but not Feishu or Whisper.
+
+
+## 独立QA补正：第31段第10对照单元
+保留Till词，英中均显式标注讲者此处时间条件用法待听辨；不按协议常识换成while或as long as。来源为原Feishu source_index_zero_based=38及相邻语境。
