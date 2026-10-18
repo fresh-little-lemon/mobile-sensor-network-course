@@ -1,0 +1,2346 @@
+[
+  {
+    "ordinal": 21,
+    "block_id": "doxcniIJAOk2vByuoHqJLWxuw8g",
+    "time_anchor": "00:22:43",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "What I need to do is to apply backoff.",
+        "zh": "我需要做的就是执行退避。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 12, absolute 1358.80–1368.02s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So what [it will / you will, unclear] do is wait for the channel to become idle again, sense the channel idle for DIFS, and then, if the channel is idle for DIFS, it will be able to draw an integer, right?",
+        "zh": "所以，[它将要／你将要，待听辨]做的就是等信道再次变为空闲，侦听信道空闲一个 DIFS 的时间，然后，如果信道空闲了一个 DIFS 的时间，它就能够抽取一个整数，对吧？",
+        "uncertainty": "Qwen says it will; historical Feishu says you will; Whisper says you do. Pronoun and auxiliary remain unresolved.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 13,14, absolute 1368.02–1391.80s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Out of what?",
+        "zh": "从什么里面抽取？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 15, absolute 1391.80–1410.30s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Out of the range zero, CW_min.",
+        "zh": "从零、CW_min 这个范围里面。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 15, absolute 1391.80–1410.30s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And the same C, right?",
+        "zh": "C 也一样，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 15, absolute 1391.80–1410.30s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "C at this point in time says, oh, I got a packet to transmit, but the channel is busy.",
+        "zh": "C 在这个时间点说，哦，我拿到了一个要发送的数据包，但是信道是忙的。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 16, absolute 1410.30–1417.50s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So again, it knows that it has to perform a backoff.",
+        "zh": "所以，再说一次，它知道它必须执行一次退避。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 17, absolute 1417.50–1426.12s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So what it will do?",
+        "zh": "所以，它会做什么？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 17, absolute 1417.50–1426.12s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "It will wait for the channel to become idle.",
+        "zh": "它会等信道变为空闲。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 13, absolute 1368.02–1378.96s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Then it needs to verify that the channel is idle for DIFS.",
+        "zh": "然后，它需要确认信道空闲了一个 DIFS 的时间。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-008, segment(s) 18, absolute 1426.12–1434.56s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "The channel will be idle because nobody else is doing anything, so the channel is idle.",
+        "zh": "信道会是空闲的，因为其他谁也没有在做什么，所以信道是空闲的。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 2, absolute 1432.82–1439.82s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "What I need to do is to apply backoff. So what [it will / you will, unclear] do is wait for the channel to become idle again, sense the channel idle for DIFS, and then, if the channel is idle for DIFS, it will be able to draw an integer, right? Out of what? Out of the range zero, CW_min. And the same C, right? C at this point in time says, oh, I got a packet to transmit, but the channel is busy. So again, it knows that it has to perform a backoff. So what it will do? It will wait for the channel to become idle. Then it needs to verify that the channel is idle for DIFS. The channel will be idle because nobody else is doing anything, so the channel is idle.",
+    "chinese": "我需要做的就是执行退避。所以，[它将要／你将要，待听辨]做的就是等信道再次变为空闲，侦听信道空闲一个 DIFS 的时间，然后，如果信道空闲了一个 DIFS 的时间，它就能够抽取一个整数，对吧？从什么里面抽取？从零、CW_min 这个范围里面。C 也一样，对吧？C 在这个时间点说，哦，我拿到了一个要发送的数据包，但是信道是忙的。所以，再说一次，它知道它必须执行一次退避。所以，它会做什么？它会等信道变为空闲。然后，它需要确认信道空闲了一个 DIFS 的时间。信道会是空闲的，因为其他谁也没有在做什么，所以信道是空闲的。",
+    "changes": [
+      {
+        "before": "What I need to do is apply backoff. It waits for the channel to become idle again, senses it as idle for DIFS, and if the channel stays idle for DIFS, it can draw an integer out of the range zero to CW_min. The same applies to C. C says: I got a packet to transmit, but the channel is busy. It knows it has to perform backoff. It waits for the channel to become idle and verifies that it remains idle for DIFS. The channel will be idle because nobody else is doing anything.",
+        "after": "What I need to do is to apply backoff. So what [it will / you will, unclear] do is wait for the channel to become idle again, sense the channel idle for DIFS, and then, if the channel is idle for DIFS, it will be able to draw an integer, right? Out of what? Out of the range zero, CW_min. And the same C, right? C at this point in time says, oh, I got a packet to transmit, but the channel is busy. So again, it knows that it has to perform a backoff. So what it will do? It will wait for the channel to become idle. Then it needs to verify that the channel is idle for DIFS. The channel will be idle because nobody else is doing anything, so the channel is idle.",
+        "reason": "Restore the repeated questions Out of what? and So what it will do?, repeated channel-is-idle statement, future forms, right/oh/again, and underived pronoun uncertainty. Qwen 1320–1440 and medium chunk-008 preserve wording compressed in the current paragraph.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=24,25; source block(s) 53,55; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=12, absolute 1320.00–1440.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-008,chunk-009"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 2,
+        "phrase": "[it will / you will, unclear]",
+        "alternatives": [
+          "it will",
+          "you will, unclear"
+        ],
+        "evidence": "Qwen says it will; historical Feishu says you will; Whisper says you do. Pronoun and auxiliary remain unresolved.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "ab349323bf8510e556d7f1fc756d4381c67bfb8fa2c4f4e4211cb998b833cfd4",
+    "source_header": "原标说话人 1  00:22:43",
+    "proposed_text": "原标说话人 1  00:22:43\nWhat I need to do is to apply backoff.\n我需要做的就是执行退避。\nSo what [it will / you will, unclear] do is wait for the channel to become idle again, sense the channel idle for DIFS, and then, if the channel is idle for DIFS, it will be able to draw an integer, right?\n所以，[它将要／你将要，待听辨]做的就是等信道再次变为空闲，侦听信道空闲一个 DIFS 的时间，然后，如果信道空闲了一个 DIFS 的时间，它就能够抽取一个整数，对吧？\nOut of what?\n从什么里面抽取？\nOut of the range zero, CW_min.\n从零、CW_min 这个范围里面。\nAnd the same C, right?\nC 也一样，对吧？\nC at this point in time says, oh, I got a packet to transmit, but the channel is busy.\nC 在这个时间点说，哦，我拿到了一个要发送的数据包，但是信道是忙的。\nSo again, it knows that it has to perform a backoff.\n所以，再说一次，它知道它必须执行一次退避。\nSo what it will do?\n所以，它会做什么？\nIt will wait for the channel to become idle.\n它会等信道变为空闲。\nThen it needs to verify that the channel is idle for DIFS.\n然后，它需要确认信道空闲了一个 DIFS 的时间。\nThe channel will be idle because nobody else is doing anything, so the channel is idle.\n信道会是空闲的，因为其他谁也没有在做什么，所以信道是空闲的。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 22,
+    "block_id": "doxcnMBEVaguqYaqIJaRU0gJaqe",
+    "time_anchor": "00:24:00",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "[And it too will draw / And it will do, will draw, unclear] an integer with equal probability out of this same range of values, okay?",
+        "zh": "[它也会抽取／它会做，会抽取，待听辨]一个整数，从这同一个取值范围中等概率地抽取，好吗？",
+        "uncertainty": "Feishu has And if we two will draw; Qwen has And you will do will draw; Whisper has and it will do, will draw. The short restart or too is not resolved.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=26; source block(s) 57; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 3, absolute 1440.36–1451.38s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So let's assume that the value drawn by B, the integer, is equal to two.",
+        "zh": "所以，我们假设 B 抽到的值，这个整数，等于二。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=26; source block(s) 57; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 4, absolute 1451.38–1466.60s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And let's assume that the integer drawn by C is equal to five.",
+        "zh": "再假设 C 抽到的整数等于五。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=26; source block(s) 57; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 4, absolute 1451.38–1466.60s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "This is just an example.",
+        "zh": "这只是一个例子。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=26; source block(s) 57; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 5, absolute 1466.60–1478.68s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "[And it too will draw / And it will do, will draw, unclear] an integer with equal probability out of this same range of values, okay? So let's assume that the value drawn by B, the integer, is equal to two. And let's assume that the integer drawn by C is equal to five. This is just an example.",
+    "chinese": "[它也会抽取／它会做，会抽取，待听辨]一个整数，从这同一个取值范围中等概率地抽取，好吗？所以，我们假设 B 抽到的值，这个整数，等于二。再假设 C 抽到的整数等于五。这只是一个例子。",
+    "changes": [
+      {
+        "before": "It too draws an integer with equal probability from the same range of values. Let's assume that B draws the integer two and C draws five. This is just an example.",
+        "after": "[And it too will draw / And it will do, will draw, unclear] an integer with equal probability out of this same range of values, okay? So let's assume that the value drawn by B, the integer, is equal to two. And let's assume that the integer drawn by C is equal to five. This is just an example.",
+        "reason": "Restore both lets-assume clauses, the apposition the value drawn by B, the integer, and okay. Mark the unstable it too / it will do restart instead of smoothing it to It too draws.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=26; source block(s) 57; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-008,chunk-009"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 1,
+        "phrase": "[And it too will draw / And it will do, will draw, unclear]",
+        "alternatives": [
+          "And it too will draw",
+          "And it will do, will draw, unclear"
+        ],
+        "evidence": "Feishu has And if we two will draw; Qwen has And you will do will draw; Whisper has and it will do, will draw. The short restart or too is not resolved.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "eed3291e744fc517a6d84ed613814d34e4f8c775a6ed7fdf35dee668436189c4",
+    "source_header": "原标说话人 1  00:24:00",
+    "proposed_text": "原标说话人 1  00:24:00\n[And it too will draw / And it will do, will draw, unclear] an integer with equal probability out of this same range of values, okay?\n[它也会抽取／它会做，会抽取，待听辨]一个整数，从这同一个取值范围中等概率地抽取，好吗？\nSo let's assume that the value drawn by B, the integer, is equal to two.\n所以，我们假设 B 抽到的值，这个整数，等于二。\nAnd let's assume that the integer drawn by C is equal to five.\n再假设 C 抽到的整数等于五。\nThis is just an example.\n这只是一个例子。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 23,
+    "block_id": "doxcn77kJlEslDJgMxoerJeZhOd",
+    "time_anchor": "00:24:36",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Okay, so if this is the case, then we know that B will compute its backoff time, that will be equal to two times the time-slot duration, right?",
+        "zh": "好，所以，如果是这种情况，那么我们知道 B 会计算它的退避时间，这个时间会等于时隙时长的两倍，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 6, absolute 1478.68–1494.34s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And similarly C will compute its backoff time, that will be five time slots.",
+        "zh": "同样，C 会计算它的退避时间，这个时间会是五个时隙。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 7, absolute 1495.50–1506.00s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And then each of them will have to decrease its own backoff counter, time slot by time slot.",
+        "zh": "然后，它们各自都必须逐个时隙地递减自己的退避计数器。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 8, absolute 1506.00–1517.76s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So B will start sensing the channel for a time slot.",
+        "zh": "所以，B 会开始侦听信道一个时隙的时间。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 9, absolute 1518.94–1530.56s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "The channel is currently idle, so it will decrease its backoff counter by one.",
+        "zh": "信道目前是空闲的，所以它会把退避计数器减一。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 9, absolute 1518.94–1530.56s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And the same will do C, right?",
+        "zh": "C 也会这样做，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 10, absolute 1530.56–1544.34s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So it will decrease it by, its own counter by one.",
+        "zh": "所以，它会把它减去，把自己的计数器减一。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 10, absolute 1530.56–1544.34s; source text retained in review packet",
+          "Documented disfluency, boundary or notation note: The awkward restart it by, its own counter by one is retained across Feishu, Qwen and Whisper; no grammatical repair is made."
+        ]
+      },
+      {
+        "en": "Then, next time slot, again B senses the channel [is / as, unclear] idle, decreases its backoff counter by one.",
+        "zh": "然后，下一个时隙，B 再次侦听信道[是／为，待听辨]空闲，把退避计数器减一。",
+        "uncertainty": "Historical Feishu and Qwen say is idle; Whisper says as idle.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 11, absolute 1544.88–1555.46s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And C will do the same.",
+        "zh": "C 也会这样做。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 12, absolute 1555.46–1571.12s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "But now the backoff counter of B has reached zero.",
+        "zh": "但是现在，B 的退避计数器已经到零了。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 12, absolute 1555.46–1571.12s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Okay, so if this is the case, then we know that B will compute its backoff time, that will be equal to two times the time-slot duration, right? And similarly C will compute its backoff time, that will be five time slots. And then each of them will have to decrease its own backoff counter, time slot by time slot. So B will start sensing the channel for a time slot. The channel is currently idle, so it will decrease its backoff counter by one. And the same will do C, right? So it will decrease it by, its own counter by one. Then, next time slot, again B senses the channel [is / as, unclear] idle, decreases its backoff counter by one. And C will do the same. But now the backoff counter of B has reached zero.",
+    "chinese": "好，所以，如果是这种情况，那么我们知道 B 会计算它的退避时间，这个时间会等于时隙时长的两倍，对吧？同样，C 会计算它的退避时间，这个时间会是五个时隙。然后，它们各自都必须逐个时隙地递减自己的退避计数器。所以，B 会开始侦听信道一个时隙的时间。信道目前是空闲的，所以它会把退避计数器减一。C 也会这样做，对吧？所以，它会把它减去，把自己的计数器减一。然后，下一个时隙，B 再次侦听信道[是／为，待听辨]空闲，把退避计数器减一。C 也会这样做。但是现在，B 的退避计数器已经到零了。",
+    "changes": [
+      {
+        "before": "In that case, B computes a backoff time equal to twice the time-slot duration. Similarly, C computes a backoff time of five time slots. Each of them decreases its own backoff counter slot by slot. B senses the channel for one time slot. The channel is currently idle, so it decreases its counter by one. C does the same, decreasing its own counter by one. In the next time slot, B again senses the channel as idle and decreases its counter by one. C does the same, but now B's backoff counter has reached zero.",
+        "after": "Okay, so if this is the case, then we know that B will compute its backoff time, that will be equal to two times the time-slot duration, right? And similarly C will compute its backoff time, that will be five time slots. And then each of them will have to decrease its own backoff counter, time slot by time slot. So B will start sensing the channel for a time slot. The channel is currently idle, so it will decrease its backoff counter by one. And the same will do C, right? So it will decrease it by, its own counter by one. Then, next time slot, again B senses the channel [is / as, unclear] idle, decreases its backoff counter by one. And C will do the same. But now the backoff counter of B has reached zero.",
+        "reason": "Restore will compute, will start sensing, and successive conjunctions; keep the it by, its own counter restart. The C-will-do-the-same / B-reaches-zero ending is supported by Qwen 1540–1660 and medium although missing from Feishu.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=27; source block(s) 59; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=13, absolute 1430.00–1550.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-009"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 8,
+        "phrase": "[is / as, unclear]",
+        "alternatives": [
+          "is",
+          "as, unclear"
+        ],
+        "evidence": "Historical Feishu and Qwen say is idle; Whisper says as idle.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "b310fd13d2233e2dd9f25c135d7c94fcada732e65f4d878da671488dc4160b6f",
+    "source_header": "原标说话人 1  00:24:36",
+    "proposed_text": "原标说话人 1  00:24:36\nOkay, so if this is the case, then we know that B will compute its backoff time, that will be equal to two times the time-slot duration, right?\n好，所以，如果是这种情况，那么我们知道 B 会计算它的退避时间，这个时间会等于时隙时长的两倍，对吧？\nAnd similarly C will compute its backoff time, that will be five time slots.\n同样，C 会计算它的退避时间，这个时间会是五个时隙。\nAnd then each of them will have to decrease its own backoff counter, time slot by time slot.\n然后，它们各自都必须逐个时隙地递减自己的退避计数器。\nSo B will start sensing the channel for a time slot.\n所以，B 会开始侦听信道一个时隙的时间。\nThe channel is currently idle, so it will decrease its backoff counter by one.\n信道目前是空闲的，所以它会把退避计数器减一。\nAnd the same will do C, right?\nC 也会这样做，对吧？\nSo it will decrease it by, its own counter by one.\n所以，它会把它减去，把自己的计数器减一。\nThen, next time slot, again B senses the channel [is / as, unclear] idle, decreases its backoff counter by one.\n然后，下一个时隙，B 再次侦听信道[是／为，待听辨]空闲，把退避计数器减一。\nAnd C will do the same.\nC 也会这样做。\nBut now the backoff counter of B has reached zero.\n但是现在，B 的退避计数器已经到零了。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 24,
+    "block_id": "doxcnbsGtRDxk5x9f56gzyigbwd",
+    "time_anchor": "00:26:12",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "So B is entitled to access the channel [and transmit, unclear].",
+        "zh": "所以，B 有资格接入信道[并发送，待听辨]。",
+        "uncertainty": "Whisper adds and transmit; historical Feishu and Qwen end this sentence at channel. Do not silently choose the longer or shorter version.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=28; source block(s) 61; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 13, absolute 1572.50–1581.74s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So it will transmit its data packet.",
+        "zh": "所以，它会发送自己的数据包。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=28; source block(s) 61; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 13, absolute 1572.50–1581.74s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "The data packet clearly is intended for the access point because, as we said, we are considering unicast packets.",
+        "zh": "这个数据包显然是发给接入点的，因为，正如我们说过的，我们考虑的是单播数据包。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=28; source block(s) 61; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 14, absolute 1581.74–1588.48s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And in this network topology, network architecture, all Wi-Fi user nodes communicate with the access point only.",
+        "zh": "而在这种网络拓扑，网络架构中，所有 Wi-Fi 用户节点都只与接入点通信。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=28; source block(s) 61; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 15,16, absolute 1588.48–1603.08s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Let's again be optimistic.",
+        "zh": "让我们再乐观一点。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=28; source block(s) 61; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-009, segment(s) 16, absolute 1594.88–1603.08s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So this means that this packet is received successfully by the access point, which will send back an acknowledgement after SIFS.",
+        "zh": "所以，这意味着接入点成功接收到了这个数据包，它会在 SIFS 之后发回一个确认。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=28; source block(s) 61; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 1, absolute 1605.00–1615.22s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "So B is entitled to access the channel [and transmit, unclear]. So it will transmit its data packet. The data packet clearly is intended for the access point because, as we said, we are considering unicast packets. And in this network topology, network architecture, all Wi-Fi user nodes communicate with the access point only. Let's again be optimistic. So this means that this packet is received successfully by the access point, which will send back an acknowledgement after SIFS.",
+    "chinese": "所以，B 有资格接入信道[并发送，待听辨]。所以，它会发送自己的数据包。这个数据包显然是发给接入点的，因为，正如我们说过的，我们考虑的是单播数据包。而在这种网络拓扑，网络架构中，所有 Wi-Fi 用户节点都只与接入点通信。让我们再乐观一点。所以，这意味着接入点成功接收到了这个数据包，它会在 SIFS 之后发回一个确认。",
+    "changes": [
+      {
+        "before": "B is entitled to access the channel, so it transmits its data packet. The packet is intended for the access point because we are considering unicast packets, and in this network architecture all Wi-Fi user nodes communicate only with the access point. Again, let's be optimistic: the packet is successfully received, and the access point sends an acknowledgment after SIFS.",
+        "after": "So B is entitled to access the channel [and transmit, unclear]. So it will transmit its data packet. The data packet clearly is intended for the access point because, as we said, we are considering unicast packets. And in this network topology, network architecture, all Wi-Fi user nodes communicate with the access point only. Let's again be optimistic. So this means that this packet is received successfully by the access point, which will send back an acknowledgement after SIFS.",
+        "reason": "Restore clearly, as we said, the network topology, network architecture restart, and will send back. Mark the extra and transmit that appears only in new medium rather than deciding silently.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=28; source block(s) 61; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-009,chunk-010"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 1,
+        "phrase": "[and transmit, unclear]",
+        "alternatives": [
+          "and transmit, unclear"
+        ],
+        "evidence": "Whisper adds and transmit; historical Feishu and Qwen end this sentence at channel. Do not silently choose the longer or shorter version.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "df9363ca7a4201805e9c6e249a6ce558bbc34c72813d272cff45431b3d36462e",
+    "source_header": "原标说话人 1  00:26:12",
+    "proposed_text": "原标说话人 1  00:26:12\nSo B is entitled to access the channel [and transmit, unclear].\n所以，B 有资格接入信道[并发送，待听辨]。\nSo it will transmit its data packet.\n所以，它会发送自己的数据包。\nThe data packet clearly is intended for the access point because, as we said, we are considering unicast packets.\n这个数据包显然是发给接入点的，因为，正如我们说过的，我们考虑的是单播数据包。\nAnd in this network topology, network architecture, all Wi-Fi user nodes communicate with the access point only.\n而在这种网络拓扑，网络架构中，所有 Wi-Fi 用户节点都只与接入点通信。\nLet's again be optimistic.\n让我们再乐观一点。\nSo this means that this packet is received successfully by the access point, which will send back an acknowledgement after SIFS.\n所以，这意味着接入点成功接收到了这个数据包，它会在 SIFS 之后发回一个确认。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 25,
+    "block_id": "doxcnjesWjxP2UoK4xKj5IVh7dh",
+    "time_anchor": "00:27:02",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Upon the data transmission by B, the other nodes, right, can set their NAV.",
+        "zh": "在 B 发送数据时，其他节点，对吧，可以设置自己的 NAV。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=29,30; source block(s) 63,65; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 2, absolute 1615.22–1629.16s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "They can read the Duration field in the header of the data packet.",
+        "zh": "它们可以读取数据包首部中的 Duration 字段。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=29,30; source block(s) 63,65; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 3, absolute 1629.60–1639.36s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So we need also to highlight this, that both A and also C will set their NAV, right?",
+        "zh": "所以，我们还需要强调这一点，就是 A，还有 C，都会设置自己的 NAV，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=29,30; source block(s) 63,65; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 4, absolute 1640.20–1659.38s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So what does it mean for A?",
+        "zh": "所以，这对 A 来说意味着什么？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=29,30; source block(s) 63,65; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 5, absolute 1660.28–1668.90s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "This is okay, fine, it doesn't have anything to do, so that's [not okay / okay, unclear].",
+        "zh": "这没问题，很好，它没有什么要做的，所以那是[不行的／没问题的，待听辨]。",
+        "uncertainty": "Feishu and Whisper say not okay; Qwen says okay. The contradictory wording is not repaired for logic.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=29,30; source block(s) 63,65; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 5, absolute 1660.28–1668.90s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "But for C, this means that [it / you, unclear] will have to freeze its backoff counter for this duration, right?",
+        "zh": "但是对 C 来说，这意味着[它／你，待听辨]必须在这段时间内冻结它的退避计数器，对吧？",
+        "uncertainty": "Qwen says it will; Whisper says you will. Feishu truncates before the predicate. The following right is near the 28:03 boundary.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=29,30; source block(s) 63,65; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 6, absolute 1668.90–1682.96s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Upon the data transmission by B, the other nodes, right, can set their NAV. They can read the Duration field in the header of the data packet. So we need also to highlight this, that both A and also C will set their NAV, right? So what does it mean for A? This is okay, fine, it doesn't have anything to do, so that's [not okay / okay, unclear]. But for C, this means that [it / you, unclear] will have to freeze its backoff counter for this duration, right?",
+    "chinese": "在 B 发送数据时，其他节点，对吧，可以设置自己的 NAV。它们可以读取数据包首部中的 Duration 字段。所以，我们还需要强调这一点，就是 A，还有 C，都会设置自己的 NAV，对吧？所以，这对 A 来说意味着什么？这没问题，很好，它没有什么要做的，所以那是[不行的／没问题的，待听辨]。但是对 C 来说，这意味着[它／你，待听辨]必须在这段时间内冻结它的退避计数器，对吧？",
+    "changes": [
+      {
+        "before": "Upon B's data transmission, the other nodes can set their NAV. They can read the Duration field in the data packet's header. We also need to highlight that both A and C set their NAV. What does this mean for A? It's fine; it doesn't have anything to do. But for C, it means that it must freeze its backoff counter for this duration.",
+        "after": "Upon the data transmission by B, the other nodes, right, can set their NAV. They can read the Duration field in the header of the data packet. So we need also to highlight this, that both A and also C will set their NAV, right? So what does it mean for A? This is okay, fine, it doesn't have anything to do, so that's [not okay / okay, unclear]. But for C, this means that [it / you, unclear] will have to freeze its backoff counter for this duration, right?",
+        "reason": "Restore Upon the data transmission by B, both A and also C, repeated So, will, right, and a source conflict around so thats not okay/okay. NAV is an explicit acronym spelling normalization, not a semantic paraphrase.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=29,30; source block(s) 63,65; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=14, absolute 1540.00–1660.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-009,chunk-010"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 5,
+        "phrase": "[not okay / okay, unclear]",
+        "alternatives": [
+          "not okay",
+          "okay, unclear"
+        ],
+        "evidence": "Feishu and Whisper say not okay; Qwen says okay. The contradictory wording is not repaired for logic.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 6,
+        "phrase": "[it / you, unclear]",
+        "alternatives": [
+          "it",
+          "you, unclear"
+        ],
+        "evidence": "Qwen says it will; Whisper says you will. Feishu truncates before the predicate. The following right is near the 28:03 boundary.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "d857101127ea48fa37212bda3b638ebf8acef5f5e2aa0b77bb6cb087b9568e86",
+    "source_header": "原标说话人 1  00:27:02",
+    "proposed_text": "原标说话人 1  00:27:02\nUpon the data transmission by B, the other nodes, right, can set their NAV.\n在 B 发送数据时，其他节点，对吧，可以设置自己的 NAV。\nThey can read the Duration field in the header of the data packet.\n它们可以读取数据包首部中的 Duration 字段。\nSo we need also to highlight this, that both A and also C will set their NAV, right?\n所以，我们还需要强调这一点，就是 A，还有 C，都会设置自己的 NAV，对吧？\nSo what does it mean for A?\n所以，这对 A 来说意味着什么？\nThis is okay, fine, it doesn't have anything to do, so that's [not okay / okay, unclear].\n这没问题，很好，它没有什么要做的，所以那是[不行的／没问题的，待听辨]。\nBut for C, this means that [it / you, unclear] will have to freeze its backoff counter for this duration, right?\n但是对 C 来说，这意味着[它／你，待听辨]必须在这段时间内冻结它的退避计数器，对吧？",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 26,
+    "block_id": "doxcn6Oy9GIVWByK2HSBhV2xtLV",
+    "time_anchor": "00:28:03",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Because now the channel is busy, so C cannot decrease its counter, it has to suspend the countdown.",
+        "zh": "因为现在信道是忙的，所以 C 不能递减计数器，它必须暂停倒计时。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=31; source block(s) 67; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 7, absolute 1682.96–1694.54s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Okay, so during all this time C will be essentially blocked, and what it does is to wait for the channel to become idle again.",
+        "zh": "好，所以，在这整个时间里，C 基本上会被阻住，而它做的就是等待信道再次变为空闲。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=31; source block(s) 67; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 8,9, absolute 1697.04–1711.48s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "[It / he, unclear] makes sure that the channel is idle for DIFS, and then [it / he, unclear] can resume decreasing its backoff [counter / count, unclear], [right, unclear]?",
+        "zh": "[它／他，待听辨]确认信道空闲了一个 DIFS 的时间，然后[它／他，待听辨]就可以恢复递减它的退避[计数器／计数，待听辨]，[对吧，待听辨]？",
+        "uncertainty": "Feishu and Qwen use it; Whisper uses he. Feishu has right; both ASR runs omit that filler. Counter/count is left unresolved rather than silently substituted.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=31; source block(s) 67; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 10, absolute 1711.48–1725.44s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "It has still three time slots to go, so [it / he, unclear] will sense the channel for a [time slot, possibly incomplete].",
+        "zh": "它还剩三个时隙，所以[它／他，待听辨]会侦听信道一个[时隙，此处可能没说完，待听辨]。",
+        "uncertainty": "Qwen has it will sense the channel for a yes; Whisper has he will change the channel followed by yes. Do not silently supply a complete time-slot phrase.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=31; source block(s) 67; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 11, absolute 1725.44–1738.36s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Yes, this is idle, so it can decrease the backoff counter by one.",
+        "zh": "是的，这是空闲的，所以它可以把退避计数器减一。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=31; source block(s) 67; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 12, absolute 1738.36–1768.16s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Then it senses the channel again for a time slot.",
+        "zh": "然后，它再次侦听信道一个时隙的时间。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=31; source block(s) 67; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 12, absolute 1738.36–1768.16s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "The channel is idle, it can decrease the counter by one, and then again, the channel is idle for one more time slot, it can decrease its counter by one.",
+        "zh": "信道是空闲的，它可以把计数器减一，然后再一次，信道又空闲了一个时隙，它可以把计数器减一。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=31; source block(s) 67; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 12, absolute 1738.36–1768.16s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Because now the channel is busy, so C cannot decrease its counter, it has to suspend the countdown. Okay, so during all this time C will be essentially blocked, and what it does is to wait for the channel to become idle again. [It / he, unclear] makes sure that the channel is idle for DIFS, and then [it / he, unclear] can resume decreasing its backoff [counter / count, unclear], [right, unclear]? It has still three time slots to go, so [it / he, unclear] will sense the channel for a [time slot, possibly incomplete]. Yes, this is idle, so it can decrease the backoff counter by one. Then it senses the channel again for a time slot. The channel is idle, it can decrease the counter by one, and then again, the channel is idle for one more time slot, it can decrease its counter by one.",
+    "chinese": "因为现在信道是忙的，所以 C 不能递减计数器，它必须暂停倒计时。好，所以，在这整个时间里，C 基本上会被阻住，而它做的就是等待信道再次变为空闲。[它／他，待听辨]确认信道空闲了一个 DIFS 的时间，然后[它／他，待听辨]就可以恢复递减它的退避[计数器／计数，待听辨]，[对吧，待听辨]？它还剩三个时隙，所以[它／他，待听辨]会侦听信道一个[时隙，此处可能没说完，待听辨]。是的，这是空闲的，所以它可以把退避计数器减一。然后，它再次侦听信道一个时隙的时间。信道是空闲的，它可以把计数器减一，然后再一次，信道又空闲了一个时隙，它可以把计数器减一。",
+    "changes": [
+      {
+        "before": "The channel is now busy, so C cannot decrease its counter; it has to suspend the countdown. During all this time C is essentially blocked and waits for the channel to become idle again. It makes sure the channel is idle for DIFS, then resumes decreasing its backoff counter. It still has three time slots to go. It senses the channel for a time slot: yes, it is idle, so it can decrease the counter by one. It senses the channel again for another time slot; it is idle, so it can decrease the counter by one. Then again, the channel is idle for one more time slot, so it decreases the counter by one.",
+        "after": "Because now the channel is busy, so C cannot decrease its counter, it has to suspend the countdown. Okay, so during all this time C will be essentially blocked, and what it does is to wait for the channel to become idle again. [It / he, unclear] makes sure that the channel is idle for DIFS, and then [it / he, unclear] can resume decreasing its backoff [counter / count, unclear], [right, unclear]? It has still three time slots to go, so [it / he, unclear] will sense the channel for a [time slot, possibly incomplete]. Yes, this is idle, so it can decrease the backoff counter by one. Then it senses the channel again for a time slot. The channel is idle, it can decrease the counter by one, and then again, the channel is idle for one more time slot, it can decrease its counter by one.",
+        "reason": "Restore Because now, Okay so, will be essentially blocked, what it does, It has still, and the repeated per-slot description. Leave the possibly unfinished for a... and pronoun/counter-count choices unresolved.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=31; source block(s) 67; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-010"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 3,
+        "phrase": "[It / he, unclear]",
+        "alternatives": [
+          "It",
+          "he, unclear"
+        ],
+        "evidence": "Feishu and Qwen use it; Whisper uses he. Feishu has right; both ASR runs omit that filler. Counter/count is left unresolved rather than silently substituted.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 3,
+        "phrase": "[it / he, unclear]",
+        "alternatives": [
+          "it",
+          "he, unclear"
+        ],
+        "evidence": "Feishu and Qwen use it; Whisper uses he. Feishu has right; both ASR runs omit that filler. Counter/count is left unresolved rather than silently substituted.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 3,
+        "phrase": "[counter / count, unclear]",
+        "alternatives": [
+          "counter",
+          "count, unclear"
+        ],
+        "evidence": "Feishu and Qwen use it; Whisper uses he. Feishu has right; both ASR runs omit that filler. Counter/count is left unresolved rather than silently substituted.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 3,
+        "phrase": "[right, unclear]",
+        "alternatives": [
+          "right, unclear"
+        ],
+        "evidence": "Feishu and Qwen use it; Whisper uses he. Feishu has right; both ASR runs omit that filler. Counter/count is left unresolved rather than silently substituted.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 4,
+        "phrase": "[it / he, unclear]",
+        "alternatives": [
+          "it",
+          "he, unclear"
+        ],
+        "evidence": "Qwen has it will sense the channel for a yes; Whisper has he will change the channel followed by yes. Do not silently supply a complete time-slot phrase.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 4,
+        "phrase": "[time slot, possibly incomplete]",
+        "alternatives": [
+          "time slot, possibly incomplete"
+        ],
+        "evidence": "Qwen has it will sense the channel for a yes; Whisper has he will change the channel followed by yes. Do not silently supply a complete time-slot phrase.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "734bb2325f02782a34d224f4fef74dd9554a7c09888d255776a17052af08991e",
+    "source_header": "原标说话人 1  00:28:03",
+    "proposed_text": "原标说话人 1  00:28:03\nBecause now the channel is busy, so C cannot decrease its counter, it has to suspend the countdown.\n因为现在信道是忙的，所以 C 不能递减计数器，它必须暂停倒计时。\nOkay, so during all this time C will be essentially blocked, and what it does is to wait for the channel to become idle again.\n好，所以，在这整个时间里，C 基本上会被阻住，而它做的就是等待信道再次变为空闲。\n[It / he, unclear] makes sure that the channel is idle for DIFS, and then [it / he, unclear] can resume decreasing its backoff [counter / count, unclear], [right, unclear]?\n[它／他，待听辨]确认信道空闲了一个 DIFS 的时间，然后[它／他，待听辨]就可以恢复递减它的退避[计数器／计数，待听辨]，[对吧，待听辨]？\nIt has still three time slots to go, so [it / he, unclear] will sense the channel for a [time slot, possibly incomplete].\n它还剩三个时隙，所以[它／他，待听辨]会侦听信道一个[时隙，此处可能没说完，待听辨]。\nYes, this is idle, so it can decrease the backoff counter by one.\n是的，这是空闲的，所以它可以把退避计数器减一。\nThen it senses the channel again for a time slot.\n然后，它再次侦听信道一个时隙的时间。\nThe channel is idle, it can decrease the counter by one, and then again, the channel is idle for one more time slot, it can decrease its counter by one.\n信道是空闲的，它可以把计数器减一，然后再一次，信道又空闲了一个时隙，它可以把计数器减一。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 27,
+    "block_id": "doxcnSnQ01WcspkpN5GGhyjECig",
+    "time_anchor": "00:29:23",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Now its backoff counter is down to zero, so [it / you, unclear] can access the channel and transmit its data packet.",
+        "zh": "现在，它的退避计数器降到了零，所以[它／你，待听辨]可以接入信道并发送它的数据包。",
+        "uncertainty": "Feishu and Qwen say it; Whisper says you.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=32; source block(s) 69; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 13, absolute 1768.16–1780.12s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And again, being optimistic, we say that this is successful, so [it / we, unclear] will receive the acknowledgement after SIFS.",
+        "zh": "再一次，乐观地说，我们说这次是成功的，所以[它／我们，待听辨]会在 SIFS 之后收到确认。",
+        "uncertainty": "Qwen says it will receive; Feishu and Whisper say we will receive.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=32; source block(s) 69; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-010, segment(s) 13,14, absolute 1768.16–1788.62s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And we are all happy because all nodes could transmit [their data packet successfully, unclear].",
+        "zh": "我们都很高兴，因为所有节点都能够[成功发送各自的数据包，待听辨]。",
+        "uncertainty": "The final words are corrupted across all three sources: Feishu data packet.Success; Qwen all nice good transmit that part, success; Whisper all knots go towards making that part successful. The displayed wording is an explicit provisional reading, not a certified restoration.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=32; source block(s) 69; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 1, absolute 1785.00–1794.20s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Okay, so this is an example of how we apply [in the, unclear] backoff procedure, in particular under this condition, right?",
+        "zh": "好，所以，这是一个我们如何应用[此处有不清楚的词]退避过程的例子，特别是在这种情况下，对吧？",
+        "uncertainty": "All three sources retain a disfluent word sequence before backoff; do not silently smooth it into applying the backoff procedure.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=32; source block(s) 69; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 2,3, absolute 1798.44–1810.02s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "But it allows [us, unclear] also to understand the importance of backoff.",
+        "zh": "但是，它也让[我们，待听辨]理解退避的重要性。",
+        "uncertainty": "Whisper includes us; Qwen omits it; this continuation is absent in the mapped Feishu paragraph but present in both raw ASR windows.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=32; source block(s) 69; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 4, absolute 1812.54–1824.50s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "That's the final goal [that I, unclear], the ultimate goal that I was aiming.",
+        "zh": "这就是最后的目标[我所，待听辨]，我所追求的最终目标。",
+        "uncertainty": "Qwen retains that I before the restart; Whisper omits it. Preserve final goal and ultimate goal rather than merging them.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=32; source block(s) 69; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 4, absolute 1812.54–1824.50s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Now its backoff counter is down to zero, so [it / you, unclear] can access the channel and transmit its data packet. And again, being optimistic, we say that this is successful, so [it / we, unclear] will receive the acknowledgement after SIFS. And we are all happy because all nodes could transmit [their data packet successfully, unclear]. Okay, so this is an example of how we apply [in the, unclear] backoff procedure, in particular under this condition, right? But it allows [us, unclear] also to understand the importance of backoff. That's the final goal [that I, unclear], the ultimate goal that I was aiming.",
+    "chinese": "现在，它的退避计数器降到了零，所以[它／你，待听辨]可以接入信道并发送它的数据包。再一次，乐观地说，我们说这次是成功的，所以[它／我们，待听辨]会在 SIFS 之后收到确认。我们都很高兴，因为所有节点都能够[成功发送各自的数据包，待听辨]。好，所以，这是一个我们如何应用[此处有不清楚的词]退避过程的例子，特别是在这种情况下，对吧？但是，它也让[我们，待听辨]理解退避的重要性。这就是最后的目标[我所，待听辨]，我所追求的最终目标。",
+    "changes": [
+      {
+        "before": "Now its backoff counter is down to zero, so it can access the channel and transmit its data packet. Again, being optimistic, we say that this is successful, so it receives the acknowledgment after SIFS. We are all happy because all nodes could transmit their data packets successfully. This is an example of applying the backoff procedure under this condition. It also allows us to understand the importance of backoff. That is the ultimate goal I was aiming for.",
+        "after": "Now its backoff counter is down to zero, so [it / you, unclear] can access the channel and transmit its data packet. And again, being optimistic, we say that this is successful, so [it / we, unclear] will receive the acknowledgement after SIFS. And we are all happy because all nodes could transmit [their data packet successfully, unclear]. Okay, so this is an example of how we apply [in the, unclear] backoff procedure, in particular under this condition, right? But it allows [us, unclear] also to understand the importance of backoff. That's the final goal [that I, unclear], the ultimate goal that I was aiming.",
+        "reason": "Restore And again, future receive, okay/right, But, and final goal / ultimate goal restart. Mark corrupted all-nodes-success clause and disfluent apply-in-the words; do not certify the existing smooth wording.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=32; source block(s) 69; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=15, absolute 1650.00–1770.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-010,chunk-011"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 1,
+        "phrase": "[it / you, unclear]",
+        "alternatives": [
+          "it",
+          "you, unclear"
+        ],
+        "evidence": "Feishu and Qwen say it; Whisper says you.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 2,
+        "phrase": "[it / we, unclear]",
+        "alternatives": [
+          "it",
+          "we, unclear"
+        ],
+        "evidence": "Qwen says it will receive; Feishu and Whisper say we will receive.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 3,
+        "phrase": "[their data packet successfully, unclear]",
+        "alternatives": [
+          "their data packet successfully, unclear"
+        ],
+        "evidence": "The final words are corrupted across all three sources: Feishu data packet.Success; Qwen all nice good transmit that part, success; Whisper all knots go towards making that part successful. The displayed wording is an explicit provisional reading, not a certified restoration.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 4,
+        "phrase": "[in the, unclear]",
+        "alternatives": [
+          "in the, unclear"
+        ],
+        "evidence": "All three sources retain a disfluent word sequence before backoff; do not silently smooth it into applying the backoff procedure.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 5,
+        "phrase": "[us, unclear]",
+        "alternatives": [
+          "us, unclear"
+        ],
+        "evidence": "Whisper includes us; Qwen omits it; this continuation is absent in the mapped Feishu paragraph but present in both raw ASR windows.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 6,
+        "phrase": "[that I, unclear]",
+        "alternatives": [
+          "that I, unclear"
+        ],
+        "evidence": "Qwen retains that I before the restart; Whisper omits it. Preserve final goal and ultimate goal rather than merging them.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "dea5a7b326b64f9381feae119d9e860901856a745ab4d3b62bc90e30805ab3bd",
+    "source_header": "原标说话人 1  00:29:23",
+    "proposed_text": "原标说话人 1  00:29:23\nNow its backoff counter is down to zero, so [it / you, unclear] can access the channel and transmit its data packet.\n现在，它的退避计数器降到了零，所以[它／你，待听辨]可以接入信道并发送它的数据包。\nAnd again, being optimistic, we say that this is successful, so [it / we, unclear] will receive the acknowledgement after SIFS.\n再一次，乐观地说，我们说这次是成功的，所以[它／我们，待听辨]会在 SIFS 之后收到确认。\nAnd we are all happy because all nodes could transmit [their data packet successfully, unclear].\n我们都很高兴，因为所有节点都能够[成功发送各自的数据包，待听辨]。\nOkay, so this is an example of how we apply [in the, unclear] backoff procedure, in particular under this condition, right?\n好，所以，这是一个我们如何应用[此处有不清楚的词]退避过程的例子，特别是在这种情况下，对吧？\nBut it allows [us, unclear] also to understand the importance of backoff.\n但是，它也让[我们，待听辨]理解退避的重要性。\nThat's the final goal [that I, unclear], the ultimate goal that I was aiming.\n这就是最后的目标[我所，待听辨]，我所追求的最终目标。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 28,
+    "block_id": "doxcnflAqqxvBp3Q5Cl2hIhippc",
+    "time_anchor": "00:30:26",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "How can we understand the importance of backoff?",
+        "zh": "我们怎样才能理解退避的重要性？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=33,34; source block(s) 71,73; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 5, absolute 1826.42–1830.98s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Well, let's make a little game that is, scientifically speaking, is called ablation study, okay?",
+        "zh": "嗯，让我们做一个小游戏，这就是，从科学上说，是叫作消融研究的东西，好吗？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=33,34; source block(s) 71,73; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 6, absolute 1830.98–1843.66s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "An ablation study is when you remove a feature of a system, and you study the behavior of that system without that feature.",
+        "zh": "消融研究就是，你去掉一个系统的某个特性，然后研究没有那个特性时这个系统的行为。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=33,34; source block(s) 71,73; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 7,8, absolute 1843.66–1856.84s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So our small game is an ablation study of this particular [um, unclear] backoff procedure, or, or Wi-Fi channel access.",
+        "zh": "所以，我们这个小游戏是对这个特定的[嗯，待听辨]退避过程，或者，或者 Wi-Fi 信道接入，做一个消融研究。",
+        "uncertainty": "Qwen records um; Feishu and Whisper omit it. The repeated or, or is present in Feishu and Qwen and is retained.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=33,34; source block(s) 71,73; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 9, absolute 1856.84–1869.88s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So let's make this [a, unclear] small game and think, what would happen if the backoff were not there?",
+        "zh": "所以，让我们做这个[这里是否有 a，待听辨]小游戏并想一想，如果没有退避，会发生什么？",
+        "uncertainty": "Qwen and Whisper say this a small game; Feishu says this small game. No grammatical cleanup is applied.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=33,34; source block(s) 71,73; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 10, absolute 1869.88–1882.16s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "How can we understand the importance of backoff? Well, let's make a little game that is, scientifically speaking, is called ablation study, okay? An ablation study is when you remove a feature of a system, and you study the behavior of that system without that feature. So our small game is an ablation study of this particular [um, unclear] backoff procedure, or, or Wi-Fi channel access. So let's make this [a, unclear] small game and think, what would happen if the backoff were not there?",
+    "chinese": "我们怎样才能理解退避的重要性？嗯，让我们做一个小游戏，这就是，从科学上说，是叫作消融研究的东西，好吗？消融研究就是，你去掉一个系统的某个特性，然后研究没有那个特性时这个系统的行为。所以，我们这个小游戏是对这个特定的[嗯，待听辨]退避过程，或者，或者 Wi-Fi 信道接入，做一个消融研究。所以，让我们做这个[这里是否有 a，待听辨]小游戏并想一想，如果没有退避，会发生什么？",
+    "changes": [
+      {
+        "before": "How can we understand the importance of backoff? Let's make a little game that, scientifically speaking, is called an ablation study. An ablation study is when you remove a feature of a system and study the behavior of that system without that feature. Our small game is an ablation study of this particular backoff procedure, or Wi-Fi channel access. Let's think: what would happen if backoff were not there?",
+        "after": "How can we understand the importance of backoff? Well, let's make a little game that is, scientifically speaking, is called ablation study, okay? An ablation study is when you remove a feature of a system, and you study the behavior of that system without that feature. So our small game is an ablation study of this particular [um, unclear] backoff procedure, or, or Wi-Fi channel access. So let's make this [a, unclear] small game and think, what would happen if the backoff were not there?",
+        "reason": "Restore Well, that is...is, okay, repeated or, or and lets make this small game. Mark um and this a conflicts rather than deleting fillers or grammatically repairing the doubled is.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=33,34; source block(s) 71,73; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=16, absolute 1760.00–1880.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-011"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 4,
+        "phrase": "[um, unclear]",
+        "alternatives": [
+          "um, unclear"
+        ],
+        "evidence": "Qwen records um; Feishu and Whisper omit it. The repeated or, or is present in Feishu and Qwen and is retained.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 5,
+        "phrase": "[a, unclear]",
+        "alternatives": [
+          "a, unclear"
+        ],
+        "evidence": "Qwen and Whisper say this a small game; Feishu says this small game. No grammatical cleanup is applied.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "d777be26bb231b0eee71864fa4ff0315763457e5f8c6eee6d2f79f08420aca9a",
+    "source_header": "原标说话人 1  00:30:26",
+    "proposed_text": "原标说话人 1  00:30:26\nHow can we understand the importance of backoff?\n我们怎样才能理解退避的重要性？\nWell, let's make a little game that is, scientifically speaking, is called ablation study, okay?\n嗯，让我们做一个小游戏，这就是，从科学上说，是叫作消融研究的东西，好吗？\nAn ablation study is when you remove a feature of a system, and you study the behavior of that system without that feature.\n消融研究就是，你去掉一个系统的某个特性，然后研究没有那个特性时这个系统的行为。\nSo our small game is an ablation study of this particular [um, unclear] backoff procedure, or, or Wi-Fi channel access.\n所以，我们这个小游戏是对这个特定的[嗯，待听辨]退避过程，或者，或者 Wi-Fi 信道接入，做一个消融研究。\nSo let's make this [a, unclear] small game and think, what would happen if the backoff were not there?\n所以，让我们做这个[这里是否有 a，待听辨]小游戏并想一想，如果没有退避，会发生什么？",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 29,
+    "block_id": "doxcnAnl1U8JJCpnEoEzHr9c7lb",
+    "time_anchor": "00:31:22",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Okay, so let's roll back the story, let's start from the beginning, but this time let's assume that there is no backoff, okay?",
+        "zh": "好，所以，让我们把这个故事倒回去，让我们从头开始，但这次我们假设没有退避，好吗？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=35; source block(s) 75; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 11,12, absolute 1882.16–1900.02s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So what would be the behavior of our nodes?",
+        "zh": "那么，我们的节点会有怎样的行为？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=35; source block(s) 75; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 12,13, absolute 1891.18–1906.84s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Okay, so let's roll back the story, let's start from the beginning, but this time let's assume that there is no backoff, okay? So what would be the behavior of our nodes?",
+    "chinese": "好，所以，让我们把这个故事倒回去，让我们从头开始，但这次我们假设没有退避，好吗？那么，我们的节点会有怎样的行为？",
+    "changes": [
+      {
+        "before": "Let's roll back the story and start from the beginning, but this time assume there is no backoff. What would be the behavior of our nodes?",
+        "after": "Okay, so let's roll back the story, let's start from the beginning, but this time let's assume that there is no backoff, okay? So what would be the behavior of our nodes?",
+        "reason": "Restore Okay, so, lets start, lets assume and the final okay. Preserve the spoken two lets clauses instead of connecting them with and.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=35; source block(s) 75; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-011"
+        ]
+      }
+    ],
+    "unresolved": [],
+    "expected_original_text_sha256": "5a5570b2c333bf1e13e6a8e0ba56b30af547581ac6b574eee77ccf52eb120b94",
+    "source_header": "原标说话人 1  00:31:22",
+    "proposed_text": "原标说话人 1  00:31:22\nOkay, so let's roll back the story, let's start from the beginning, but this time let's assume that there is no backoff, okay?\n好，所以，让我们把这个故事倒回去，让我们从头开始，但这次我们假设没有退避，好吗？\nSo what would be the behavior of our nodes?\n那么，我们的节点会有怎样的行为？",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 30,
+    "block_id": "doxcnEeDj97Jx5ls3DFI6r5ApEb",
+    "time_anchor": "00:31:43",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Well, at the beginning everything is the same because the only node that has got a packet to transmit is A, right?",
+        "zh": "嗯，在一开始，一切都是一样的，因为唯一拿到了一个要发送的数据包的节点是 A，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=36; source block(s) 77; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 13,14, absolute 1900.02–1914.68s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So it will listen to the channel, the channel is idle for DIFS.",
+        "zh": "所以，它会侦听信道，信道空闲了一个 DIFS 的时间。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=36; source block(s) 77; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 14,15, absolute 1906.84–1921.78s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "It will access the channel and transmit the packet.",
+        "zh": "它会接入信道并发送这个数据包。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=36; source block(s) 77; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 15, absolute 1914.68–1921.78s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Well, at the beginning everything is the same because the only node that has got a packet to transmit is A, right? So it will listen to the channel, the channel is idle for DIFS. It will access the channel and transmit the packet.",
+    "chinese": "嗯，在一开始，一切都是一样的，因为唯一拿到了一个要发送的数据包的节点是 A，对吧？所以，它会侦听信道，信道空闲了一个 DIFS 的时间。它会接入信道并发送这个数据包。",
+    "changes": [
+      {
+        "before": "At the beginning everything is the same because the only node with a packet to transmit is A. It listens to the channel, the channel is idle for DIFS, and it accesses the channel and transmits the packet.",
+        "after": "Well, at the beginning everything is the same because the only node that has got a packet to transmit is A, right? So it will listen to the channel, the channel is idle for DIFS. It will access the channel and transmit the packet.",
+        "reason": "Restore Well, the only node that has got, right, So, and both will clauses. Do not substitute simple-present actions for the spoken future forms.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=36; source block(s) 77; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-011"
+        ]
+      }
+    ],
+    "unresolved": [],
+    "expected_original_text_sha256": "af41a6baf7de3a805c4c3ef802ec9181f15055ae882ca2c9f6807b7ba36a0024",
+    "source_header": "原标说话人 1  00:31:43",
+    "proposed_text": "原标说话人 1  00:31:43\nWell, at the beginning everything is the same because the only node that has got a packet to transmit is A, right?\n嗯，在一开始，一切都是一样的，因为唯一拿到了一个要发送的数据包的节点是 A，对吧？\nSo it will listen to the channel, the channel is idle for DIFS.\n所以，它会侦听信道，信道空闲了一个 DIFS 的时间。\nIt will access the channel and transmit the packet.\n它会接入信道并发送这个数据包。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 31,
+    "block_id": "doxcnL5doQmZhvSVxCEH7EvQeUc",
+    "time_anchor": "00:32:02",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "And again, let's be optimistic.",
+        "zh": "再一次，让我们乐观一点。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 16, absolute 1921.78–1928.20s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "The access point sends back [the / an / no article, unclear] acknowledgement, and the other nodes, B and C, both set their NAV, right?",
+        "zh": "接入点发回确认，[英文这里的冠词待听辨]，而其他节点 B 和 C 都设置自己的 NAV，对吧？",
+        "uncertainty": "Acknowledgement article differs across sources. NAV is explicit technical normalization of NAF/knobs/now variants; historical Feishu incorrectly has send their packets.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 16,17, absolute 1921.78–1936.66s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "This is exactly as before.",
+        "zh": "这和之前完全一样。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 17, absolute 1928.20–1936.66s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And again, B and C at different points in time, assume that they [get / got, unclear] also a packet to transmit.",
+        "zh": "再一次，B 和 C 在不同的时间点，假设它们也[拿到／拿到了，待听辨]一个要发送的数据包。",
+        "uncertainty": "Feishu and Whisper say get; Qwen says got. The loose sentence structure is retained.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 18, absolute 1936.66–1947.46s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "But again, now we do not have backoff, okay?",
+        "zh": "但是，再说一次，现在我们没有退避，好吗？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 19, absolute 1947.46–1957.10s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So we have to think, what would happen if backoff were not there?",
+        "zh": "所以，我们必须想一想，如果没有退避，会发生什么？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 20, absolute 1957.10–1966.56s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So what would B and C do?",
+        "zh": "那么，B 和 C 会做什么？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 20, absolute 1957.10–1966.56s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Well, we still have carrier sensing, right, multiple access.",
+        "zh": "嗯，我们仍然有载波侦听，对吧，多址接入。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-011, segment(s) 21, absolute 1967.94–1977.04s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So since both B and C sense the channel as busy because they have their NAV set, they cannot access the channel, right?",
+        "zh": "所以，由于 B 和 C 都侦听到信道为忙，因为它们设置了 NAV，它们就不能接入信道，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 2, absolute 1977.64–1986.52s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Till the channel is busy, I cannot access the channel.",
+        "zh": "直到信道忙着的时候，我不能接入信道。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 3, absolute 1986.52–1996.24s; source text retained in review packet",
+          "Documented disfluency, boundary or notation note: Till is retained as heard in Feishu and Whisper, even though while would be standard English here; no silent lexical substitution is made."
+        ]
+      },
+      {
+        "en": "So for sure B and C will again wait for the channel to be idle, make sure that the channel is idle.",
+        "zh": "所以，B 和 C 肯定会再次等待信道变为空闲，确认信道是空闲的。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 3,4, absolute 1986.52–2003.98s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "But then if there is no backoff, they can just access the channel, right?",
+        "zh": "但是随后，如果没有退避，它们就可以直接接入信道，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 5, absolute 2005.34–2014.24s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Because now the channel is idle, so they say, oh, channel idle, I can access the channel and transmit.",
+        "zh": "因为现在信道是空闲的，所以它们说，哦，信道空闲，我可以接入信道并发送。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 6, absolute 2014.24–2020.60s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Remember, we are playing this small game assuming that there is no backoff.",
+        "zh": "记住，我们是在玩这个小游戏，假设没有退避。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 7, absolute 2020.60–2026.28s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So what we have is that, no backoff, we have both transmitting their data packet after having sensed the channel idle.",
+        "zh": "所以，我们得到的情况是，没有退避，我们有两个节点都在侦听到信道空闲之后发送自己的数据包。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 8,9, absolute 2026.58–2049.66s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So what do we have here?",
+        "zh": "所以，我们这里有什么？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 10, absolute 2051.52–2063.28s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Collision, right?",
+        "zh": "碰撞，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 10, absolute 2051.52–2063.28s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "They both access the channel at the same time with probability one.",
+        "zh": "它们以概率一同时接入信道。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 10, absolute 2051.52–2063.28s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "It is sure that they will do that, and of course they will fail because they overlap, their transmissions overlap.",
+        "zh": "它们肯定会这样做，当然它们会失败，因为它们重叠了，它们的传输重叠了。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 11,12, absolute 2063.28–2078.16s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And the access point will not be able to demodulate correctly either this packet.",
+        "zh": "而接入点将无法正确解调这两个数据包中的任何一个。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 13, absolute 2078.16–2087.28s; source text retained in review packet",
+          "Documented disfluency, boundary or notation note: The nonstandard wording either this packet is retained in all three source streams rather than repaired to either packet."
+        ]
+      }
+    ],
+    "english": "And again, let's be optimistic. The access point sends back [the / an / no article, unclear] acknowledgement, and the other nodes, B and C, both set their NAV, right? This is exactly as before. And again, B and C at different points in time, assume that they [get / got, unclear] also a packet to transmit. But again, now we do not have backoff, okay? So we have to think, what would happen if backoff were not there? So what would B and C do? Well, we still have carrier sensing, right, multiple access. So since both B and C sense the channel as busy because they have their NAV set, they cannot access the channel, right? Till the channel is busy, I cannot access the channel. So for sure B and C will again wait for the channel to be idle, make sure that the channel is idle. But then if there is no backoff, they can just access the channel, right? Because now the channel is idle, so they say, oh, channel idle, I can access the channel and transmit. Remember, we are playing this small game assuming that there is no backoff. So what we have is that, no backoff, we have both transmitting their data packet after having sensed the channel idle. So what do we have here? Collision, right? They both access the channel at the same time with probability one. It is sure that they will do that, and of course they will fail because they overlap, their transmissions overlap. And the access point will not be able to demodulate correctly either this packet.",
+    "chinese": "再一次，让我们乐观一点。接入点发回确认，[英文这里的冠词待听辨]，而其他节点 B 和 C 都设置自己的 NAV，对吧？这和之前完全一样。再一次，B 和 C 在不同的时间点，假设它们也[拿到／拿到了，待听辨]一个要发送的数据包。但是，再说一次，现在我们没有退避，好吗？所以，我们必须想一想，如果没有退避，会发生什么？那么，B 和 C 会做什么？嗯，我们仍然有载波侦听，对吧，多址接入。所以，由于 B 和 C 都侦听到信道为忙，因为它们设置了 NAV，它们就不能接入信道，对吧？直到信道忙着的时候，我不能接入信道。所以，B 和 C 肯定会再次等待信道变为空闲，确认信道是空闲的。但是随后，如果没有退避，它们就可以直接接入信道，对吧？因为现在信道是空闲的，所以它们说，哦，信道空闲，我可以接入信道并发送。记住，我们是在玩这个小游戏，假设没有退避。所以，我们得到的情况是，没有退避，我们有两个节点都在侦听到信道空闲之后发送自己的数据包。所以，我们这里有什么？碰撞，对吧？它们以概率一同时接入信道。它们肯定会这样做，当然它们会失败，因为它们重叠了，它们的传输重叠了。而接入点将无法正确解调这两个数据包中的任何一个。",
+    "changes": [
+      {
+        "before": "Again, let's be optimistic: the access point sends back an acknowledgment, and the other nodes B and C both set their NAV. This is exactly as before. Assume that B and C also get a packet to transmit at different points in time. But now we do not have backoff. We have to think what would happen if backoff were not there. What would B and C do? We still have carrier-sense multiple access. Since B and C both sense the channel as busy because their NAV is set, they cannot access the channel while it is busy. They will wait for it to become idle and make sure it is idle. But if there is no backoff, they can then access the channel. They say: the channel is idle, I can access it and transmit. Remember, in this game we assume there is no backoff. Both transmit their data packets after sensing the channel idle. What do we have here? A collision. They both access the channel at the same time with probability one. It is certain they will do that, and they fail because their transmissions overlap. The access point will not be able to demodulate either packet correctly.",
+        "after": "And again, let's be optimistic. The access point sends back [the / an / no article, unclear] acknowledgement, and the other nodes, B and C, both set their NAV, right? This is exactly as before. And again, B and C at different points in time, assume that they [get / got, unclear] also a packet to transmit. But again, now we do not have backoff, okay? So we have to think, what would happen if backoff were not there? So what would B and C do? Well, we still have carrier sensing, right, multiple access. So since both B and C sense the channel as busy because they have their NAV set, they cannot access the channel, right? Till the channel is busy, I cannot access the channel. So for sure B and C will again wait for the channel to be idle, make sure that the channel is idle. But then if there is no backoff, they can just access the channel, right? Because now the channel is idle, so they say, oh, channel idle, I can access the channel and transmit. Remember, we are playing this small game assuming that there is no backoff. So what we have is that, no backoff, we have both transmitting their data packet after having sensed the channel idle. So what do we have here? Collision, right? They both access the channel at the same time with probability one. It is sure that they will do that, and of course they will fail because they overlap, their transmissions overlap. And the access point will not be able to demodulate correctly either this packet.",
+        "reason": "Restore repeated questions, Okay/So/Well/right, Till...I cannot, no backoff restart, and because they overlap, their transmissions overlap. Preserve the grammatically awkward either this packet. Article and get/got remain flagged.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=37,38; source block(s) 79,81; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=17, absolute 1870.00–1990.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-011,chunk-012"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 2,
+        "phrase": "[the / an / no article, unclear]",
+        "alternatives": [
+          "the",
+          "an",
+          "no article, unclear"
+        ],
+        "evidence": "Acknowledgement article differs across sources. NAV is explicit technical normalization of NAF/knobs/now variants; historical Feishu incorrectly has send their packets.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 4,
+        "phrase": "[get / got, unclear]",
+        "alternatives": [
+          "get",
+          "got, unclear"
+        ],
+        "evidence": "Feishu and Whisper say get; Qwen says got. The loose sentence structure is retained.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "e4bc0d7462d7f60eed5f5440f866686f1d6232872b1f364be55b8261ef69fbd4",
+    "source_header": "原标说话人 1  00:32:02",
+    "proposed_text": "原标说话人 1  00:32:02\nAnd again, let's be optimistic.\n再一次，让我们乐观一点。\nThe access point sends back [the / an / no article, unclear] acknowledgement, and the other nodes, B and C, both set their NAV, right?\n接入点发回确认，[英文这里的冠词待听辨]，而其他节点 B 和 C 都设置自己的 NAV，对吧？\nThis is exactly as before.\n这和之前完全一样。\nAnd again, B and C at different points in time, assume that they [get / got, unclear] also a packet to transmit.\n再一次，B 和 C 在不同的时间点，假设它们也[拿到／拿到了，待听辨]一个要发送的数据包。\nBut again, now we do not have backoff, okay?\n但是，再说一次，现在我们没有退避，好吗？\nSo we have to think, what would happen if backoff were not there?\n所以，我们必须想一想，如果没有退避，会发生什么？\nSo what would B and C do?\n那么，B 和 C 会做什么？\nWell, we still have carrier sensing, right, multiple access.\n嗯，我们仍然有载波侦听，对吧，多址接入。\nSo since both B and C sense the channel as busy because they have their NAV set, they cannot access the channel, right?\n所以，由于 B 和 C 都侦听到信道为忙，因为它们设置了 NAV，它们就不能接入信道，对吧？\nTill the channel is busy, I cannot access the channel.\n直到信道忙着的时候，我不能接入信道。\nSo for sure B and C will again wait for the channel to be idle, make sure that the channel is idle.\n所以，B 和 C 肯定会再次等待信道变为空闲，确认信道是空闲的。\nBut then if there is no backoff, they can just access the channel, right?\n但是随后，如果没有退避，它们就可以直接接入信道，对吧？\nBecause now the channel is idle, so they say, oh, channel idle, I can access the channel and transmit.\n因为现在信道是空闲的，所以它们说，哦，信道空闲，我可以接入信道并发送。\nRemember, we are playing this small game assuming that there is no backoff.\n记住，我们是在玩这个小游戏，假设没有退避。\nSo what we have is that, no backoff, we have both transmitting their data packet after having sensed the channel idle.\n所以，我们得到的情况是，没有退避，我们有两个节点都在侦听到信道空闲之后发送自己的数据包。\nSo what do we have here?\n所以，我们这里有什么？\nCollision, right?\n碰撞，对吧？\nThey both access the channel at the same time with probability one.\n它们以概率一同时接入信道。\nIt is sure that they will do that, and of course they will fail because they overlap, their transmissions overlap.\n它们肯定会这样做，当然它们会失败，因为它们重叠了，它们的传输重叠了。\nAnd the access point will not be able to demodulate correctly either this packet.\n而接入点将无法正确解调这两个数据包中的任何一个。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 32,
+    "block_id": "doxcnH4jHHn6Pl1bEysoXgDtTjo",
+    "time_anchor": "00:34:43",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Okay, so what is the first conclusion here?",
+        "zh": "好，所以，这里的第一个结论是什么？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=39; source block(s) 83; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 13,14, absolute 2078.16–2095.88s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "That the backoff procedure has been introduced in our system in order to avoid collisions between contending nodes.",
+        "zh": "就是，在我们的系统中引入退避过程，是为了避免竞争节点之间的碰撞。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=39; source block(s) 83; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 14,15, absolute 2087.28–2108.04s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Our contending nodes in these examples are B and C, right?",
+        "zh": "在这些例子中，我们的竞争节点是 B 和 C，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=39; source block(s) 83; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 16, absolute 2108.04–2116.90s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "They are contending for the channel.",
+        "zh": "它们在竞争信道。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=39; source block(s) 83; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 16, absolute 2108.04–2116.90s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And the backoff procedure is there to avoid the collision between them.",
+        "zh": "退避过程就是用来避免它们之间的碰撞的。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=39; source block(s) 83; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 17, absolute 2116.90–2127.72s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So again, remember that we said Wi-Fi is a CSMA scheme with collision avoidance, [right, unclear]?",
+        "zh": "所以，再说一次，记住我们说过，Wi-Fi 是一种带碰撞避免的 CSMA 方案，[对吧，待听辨]？",
+        "uncertainty": "Qwen includes right; Whisper does not. This continuation is supported by both ASR windows though absent from the mapped Feishu block.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=39; source block(s) 83; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 17,18, absolute 2116.90–2137.26s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Okay, so what is the first conclusion here? That the backoff procedure has been introduced in our system in order to avoid collisions between contending nodes. Our contending nodes in these examples are B and C, right? They are contending for the channel. And the backoff procedure is there to avoid the collision between them. So again, remember that we said Wi-Fi is a CSMA scheme with collision avoidance, [right, unclear]?",
+    "chinese": "好，所以，这里的第一个结论是什么？就是，在我们的系统中引入退避过程，是为了避免竞争节点之间的碰撞。在这些例子中，我们的竞争节点是 B 和 C，对吧？它们在竞争信道。退避过程就是用来避免它们之间的碰撞的。所以，再说一次，记住我们说过，Wi-Fi 是一种带碰撞避免的 CSMA 方案，[对吧，待听辨]？",
+    "changes": [
+      {
+        "before": "The first conclusion is that backoff was introduced in our system to avoid collisions between contending nodes. In this example B and C contend for the channel, and backoff is there to avoid their collision. Remember that we said Wi-Fi is a CSMA scheme with collision avoidance.",
+        "after": "Okay, so what is the first conclusion here? That the backoff procedure has been introduced in our system in order to avoid collisions between contending nodes. Our contending nodes in these examples are B and C, right? They are contending for the channel. And the backoff procedure is there to avoid the collision between them. So again, remember that we said Wi-Fi is a CSMA scheme with collision avoidance, [right, unclear]?",
+        "reason": "Restore the question-and-answer opening, our contending nodes in these examples, They are contending..., and So again remember that we said. The Wi-Fi/CSMA continuation is corroborated by both raw ASR windows.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=39; source block(s) 83; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=18, absolute 1980.00–2100.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-012"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 6,
+        "phrase": "[right, unclear]",
+        "alternatives": [
+          "right, unclear"
+        ],
+        "evidence": "Qwen includes right; Whisper does not. This continuation is supported by both ASR windows though absent from the mapped Feishu block.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "ebd6035fb6a2023cc5b0a6b92dfec0d1dfa28ceca54d430b18343c7395f05c2d",
+    "source_header": "原标说话人 1  00:34:43",
+    "proposed_text": "原标说话人 1  00:34:43\nOkay, so what is the first conclusion here?\n好，所以，这里的第一个结论是什么？\nThat the backoff procedure has been introduced in our system in order to avoid collisions between contending nodes.\n就是，在我们的系统中引入退避过程，是为了避免竞争节点之间的碰撞。\nOur contending nodes in these examples are B and C, right?\n在这些例子中，我们的竞争节点是 B 和 C，对吧？\nThey are contending for the channel.\n它们在竞争信道。\nAnd the backoff procedure is there to avoid the collision between them.\n退避过程就是用来避免它们之间的碰撞的。\nSo again, remember that we said Wi-Fi is a CSMA scheme with collision avoidance, [right, unclear]?\n所以，再说一次，记住我们说过，Wi-Fi 是一种带碰撞避免的 CSMA 方案，[对吧，待听辨]？",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 33,
+    "block_id": "doxcnaHvvyUzO5ghSRmyafl5mXf",
+    "time_anchor": "00:35:39",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "This backoff is a mechanism that helps to avoid collisions.",
+        "zh": "这个退避是一种帮助避免碰撞的机制。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=40; source block(s) 85; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-012, segment(s) 19, absolute 2138.04–2152.50s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So the basic principle, the basic idea is very simple.",
+        "zh": "所以，基本原理，基本想法，非常简单。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=40; source block(s) 85; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 1, absolute 2145.00–2161.26s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Whenever there is a crowded situation, right, you try to desynchronize from the others so that you find a free [route / road, unclear] ahead, and this is exactly the same thing.",
+        "zh": "每当出现拥挤的情况，对吧，你就试着与其他人错开，使你前面有一条空闲的[路线／道路，待听辨]，而这完全是同一回事。",
+        "uncertainty": "Qwen and Whisper support desynchronize against the Feishu synchronize error. Route is in Qwen and one Whisper overlap, road in Feishu; keep the lexical conflict.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=40; source block(s) 85; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 2,3, absolute 2161.26–2179.78s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So if there is peak hour, you don't want to jump into the traffic, right, [as all / as for, unclear] the others.",
+        "zh": "所以，如果是高峰时段，你就不想冲进车流，对吧，[像其他所有人／至于其他人，待听辨]。",
+        "uncertainty": "Feishu has as all the others; Qwen has as for the others; Whisper has or the others. Do not recast this as like everyone else.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=40; source block(s) 85; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 4, absolute 2179.78–2185.36s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "This backoff is a mechanism that helps to avoid collisions. So the basic principle, the basic idea is very simple. Whenever there is a crowded situation, right, you try to desynchronize from the others so that you find a free [route / road, unclear] ahead, and this is exactly the same thing. So if there is peak hour, you don't want to jump into the traffic, right, [as all / as for, unclear] the others.",
+    "chinese": "这个退避是一种帮助避免碰撞的机制。所以，基本原理，基本想法，非常简单。每当出现拥挤的情况，对吧，你就试着与其他人错开，使你前面有一条空闲的[路线／道路，待听辨]，而这完全是同一回事。所以，如果是高峰时段，你就不想冲进车流，对吧，[像其他所有人／至于其他人，待听辨]。",
+    "changes": [
+      {
+        "before": "Backoff is a mechanism that helps avoid collisions. The basic idea is very simple: whenever there is a crowded situation, you try to desynchronize from the others so that you find a free road ahead. It is exactly the same thing. If it is peak hour, you don't want to jump into the traffic like everyone else.",
+        "after": "This backoff is a mechanism that helps to avoid collisions. So the basic principle, the basic idea is very simple. Whenever there is a crowded situation, right, you try to desynchronize from the others so that you find a free [route / road, unclear] ahead, and this is exactly the same thing. So if there is peak hour, you don't want to jump into the traffic, right, [as all / as for, unclear] the others.",
+        "reason": "Restore the basic principle, the basic idea restart and right. Keep route/road and as all/as for conflicts visible. Desynchronize is supported by both independent model families against Feishu synchronize.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=40; source block(s) 85; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-012,chunk-013"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 3,
+        "phrase": "[route / road, unclear]",
+        "alternatives": [
+          "route",
+          "road, unclear"
+        ],
+        "evidence": "Qwen and Whisper support desynchronize against the Feishu synchronize error. Route is in Qwen and one Whisper overlap, road in Feishu; keep the lexical conflict.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 4,
+        "phrase": "[as all / as for, unclear]",
+        "alternatives": [
+          "as all",
+          "as for, unclear"
+        ],
+        "evidence": "Feishu has as all the others; Qwen has as for the others; Whisper has or the others. Do not recast this as like everyone else.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "5261b73e44cc835a2cd13cb6db68c54b9898f83574620949e33eeed209d33873",
+    "source_header": "原标说话人 1  00:35:39",
+    "proposed_text": "原标说话人 1  00:35:39\nThis backoff is a mechanism that helps to avoid collisions.\n这个退避是一种帮助避免碰撞的机制。\nSo the basic principle, the basic idea is very simple.\n所以，基本原理，基本想法，非常简单。\nWhenever there is a crowded situation, right, you try to desynchronize from the others so that you find a free [route / road, unclear] ahead, and this is exactly the same thing.\n每当出现拥挤的情况，对吧，你就试着与其他人错开，使你前面有一条空闲的[路线／道路，待听辨]，而这完全是同一回事。\nSo if there is peak hour, you don't want to jump into the traffic, right, [as all / as for, unclear] the others.\n所以，如果是高峰时段，你就不想冲进车流，对吧，[像其他所有人／至于其他人，待听辨]。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 34,
+    "block_id": "doxcnYoikxJiKfhskkvbqwaXuzb",
+    "time_anchor": "00:36:25",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "You try to pick, you wait, you try to pick a time at which not many other people will be there.",
+        "zh": "你试着挑选，你等待，你试着挑选一个没有太多其他人会在那里的时间。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=41; source block(s) 87; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 5, absolute 2185.36–2193.50s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And this is exactly the same principle.",
+        "zh": "而这完全是同一个原理。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=41; source block(s) 87; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 6, absolute 2193.50–2201.58s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "You try to pick a time in order to desynchronize your action with respect to the others, and this way you avoid meeting, [unclear words], colliding with the others, or finding yourself in a, in a traffic jam.",
+        "zh": "你试着挑选一个时间，让你的行动与其他人的行动错开，这样你就避免遇到，[此处词语不清楚]，与其他人发生碰撞，或者发现自己陷在一个，一个交通堵塞中。",
+        "uncertainty": "Feishu/Qwen have meeting like they colliding; Whisper has meeting and fake aligning. The connecting words remain unclear. The repeated in a, in a is supported by Feishu and Qwen, not removed for fluency.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=41; source block(s) 87; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 6,7,8, absolute 2193.50–2217.24s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "[Hmm, unclear], that's exactly the same principle.",
+        "zh": "[嗯，待听辨]，这完全是同一个原理。",
+        "uncertainty": "Hmm occurs in the historical snapshot only.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=41; source block(s) 87; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 9, absolute 2218.68–2228.88s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "You try to pick, you wait, you try to pick a time at which not many other people will be there. And this is exactly the same principle. You try to pick a time in order to desynchronize your action with respect to the others, and this way you avoid meeting, [unclear words], colliding with the others, or finding yourself in a, in a traffic jam. [Hmm, unclear], that's exactly the same principle.",
+    "chinese": "你试着挑选，你等待，你试着挑选一个没有太多其他人会在那里的时间。而这完全是同一个原理。你试着挑选一个时间，让你的行动与其他人的行动错开，这样你就避免遇到，[此处词语不清楚]，与其他人发生碰撞，或者发现自己陷在一个，一个交通堵塞中。[嗯，待听辨]，这完全是同一个原理。",
+    "changes": [
+      {
+        "before": "You wait and try to pick a time when not many other people will be there. It is the same principle. You pick a time to desynchronize your action from the others, avoiding collisions with them or finding yourself in a traffic jam. That's exactly the same principle.",
+        "after": "You try to pick, you wait, you try to pick a time at which not many other people will be there. And this is exactly the same principle. You try to pick a time in order to desynchronize your action with respect to the others, and this way you avoid meeting, [unclear words], colliding with the others, or finding yourself in a, in a traffic jam. [Hmm, unclear], that's exactly the same principle.",
+        "reason": "Restore You try to pick, you wait, you try to pick, with respect to the others, and in a, in a. Leave corrupted linking words before colliding and possible Hmm unresolved rather than inventing a smooth sentence.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=41; source block(s) 87; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=19, absolute 2090.00–2210.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-013"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 3,
+        "phrase": "[unclear words]",
+        "alternatives": [
+          "unclear words"
+        ],
+        "evidence": "Feishu/Qwen have meeting like they colliding; Whisper has meeting and fake aligning. The connecting words remain unclear. The repeated in a, in a is supported by Feishu and Qwen, not removed for fluency.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 4,
+        "phrase": "[Hmm, unclear]",
+        "alternatives": [
+          "Hmm, unclear"
+        ],
+        "evidence": "Hmm occurs in the historical snapshot only.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "e9f9ab5031ab3a93d4063bb4be37d4ee7364d76eec6f302309523c5761e092f9",
+    "source_header": "原标说话人 1  00:36:25",
+    "proposed_text": "原标说话人 1  00:36:25\nYou try to pick, you wait, you try to pick a time at which not many other people will be there.\n你试着挑选，你等待，你试着挑选一个没有太多其他人会在那里的时间。\nAnd this is exactly the same principle.\n而这完全是同一个原理。\nYou try to pick a time in order to desynchronize your action with respect to the others, and this way you avoid meeting, [unclear words], colliding with the others, or finding yourself in a, in a traffic jam.\n你试着挑选一个时间，让你的行动与其他人的行动错开，这样你就避免遇到，[此处词语不清楚]，与其他人发生碰撞，或者发现自己陷在一个，一个交通堵塞中。\n[Hmm, unclear], that's exactly the same principle.\n[嗯，待听辨]，这完全是同一个原理。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 35,
+    "block_id": "doxcn5gHcCr2H8OejWkUDf8rjJg",
+    "time_anchor": "00:37:02",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Now what I would like to underline is that, so we observe, our first observation is that backoff is a mechanism for avoiding collisions, but it is still probabilistic, okay?",
+        "zh": "现在，我想强调的是，所以我们观察到，我们的第一个观察是，退避是一种避免碰撞的机制，但它仍然是概率性的，好吗？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=42; source block(s) 89; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 9,10,11, absolute 2218.68–2244.54s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Why?",
+        "zh": "为什么？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=42; source block(s) 89; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 11, absolute 2235.60–2244.54s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Because if, like in our example, both B and C draw the same value of backoff, they are going to collide.",
+        "zh": "因为，如果像我们的例子中那样，B 和 C 都抽到同一个退避值，它们就会发生碰撞。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=42; source block(s) 89; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 12, absolute 2244.54–2272.20s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Okay, so if, for example, C too drew two as an integer, then they will not be [synchronized / desynchronized, unclear] from each other, okay?",
+        "zh": "好，所以，如果，例如，C 也抽到了二这个整数，那么它们彼此就不会[同步／错开，待听辨]，好吗？",
+        "uncertainty": "Historical Feishu and Qwen say synchronized; Whisper skips the relevant phrase. The expected technical meaning would suggest desynchronized, but that is not authority to replace the spoken word.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=42; source block(s) 89; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 13, absolute 2272.20–2302.10s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Because they will both decrease the [the, unclear] backoff counter during the first time slot, and then again during the second time slot.",
+        "zh": "因为它们都会在第一个时隙内递减这个[英文这里是否重复 the，待听辨]退避计数器，然后在第二个时隙内再递减一次。",
+        "uncertainty": "Qwen has the the; historical Feishu has the once; Whisper drops part of this clause. The potential repetition is not silently either added or removed.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=42; source block(s) 89; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 14, absolute 2302.10–2311.88s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "But under the assumption that they now both drew two as an integer, they will decrease the backoff counter to zero exactly at the same time.",
+        "zh": "但是，在假设它们现在都抽到了二这个整数的情况下，它们会在完全相同的时刻把退避计数器减到零。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=42; source block(s) 89; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 15,16, absolute 2312.98–2330.68s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "That means that they will access the channel exactly at the same time and collide.",
+        "zh": "这意味着，它们会在完全相同的时刻接入信道，并发生碰撞。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=42; source block(s) 89; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 17, absolute 2331.32–2336.42s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Now what I would like to underline is that, so we observe, our first observation is that backoff is a mechanism for avoiding collisions, but it is still probabilistic, okay? Why? Because if, like in our example, both B and C draw the same value of backoff, they are going to collide. Okay, so if, for example, C too drew two as an integer, then they will not be [synchronized / desynchronized, unclear] from each other, okay? Because they will both decrease the [the, unclear] backoff counter during the first time slot, and then again during the second time slot. But under the assumption that they now both drew two as an integer, they will decrease the backoff counter to zero exactly at the same time. That means that they will access the channel exactly at the same time and collide.",
+    "chinese": "现在，我想强调的是，所以我们观察到，我们的第一个观察是，退避是一种避免碰撞的机制，但它仍然是概率性的，好吗？为什么？因为，如果像我们的例子中那样，B 和 C 都抽到同一个退避值，它们就会发生碰撞。好，所以，如果，例如，C 也抽到了二这个整数，那么它们彼此就不会[同步／错开，待听辨]，好吗？因为它们都会在第一个时隙内递减这个[英文这里是否重复 the，待听辨]退避计数器，然后在第二个时隙内再递减一次。但是，在假设它们现在都抽到了二这个整数的情况下，它们会在完全相同的时刻把退避计数器减到零。这意味着，它们会在完全相同的时刻接入信道，并发生碰撞。",
+    "changes": [
+      {
+        "before": "What I want to underline is that our first observation is that backoff is a collision-avoidance mechanism, but it is still probabilistic. Why? If B and C draw the same backoff value, they are going to collide. If C too drew two as its integer, then they would not be desynchronized from each other. Both decrease their counters during the first time slot and again during the second. Under the assumption that both drew two, their counters reach zero at exactly the same time. They access the channel at exactly the same time and collide.",
+        "after": "Now what I would like to underline is that, so we observe, our first observation is that backoff is a mechanism for avoiding collisions, but it is still probabilistic, okay? Why? Because if, like in our example, both B and C draw the same value of backoff, they are going to collide. Okay, so if, for example, C too drew two as an integer, then they will not be [synchronized / desynchronized, unclear] from each other, okay? Because they will both decrease the [the, unclear] backoff counter during the first time slot, and then again during the second time slot. But under the assumption that they now both drew two as an integer, they will decrease the backoff counter to zero exactly at the same time. That means that they will access the channel exactly at the same time and collide.",
+        "reason": "Restore Now what I would like to underline, so we observe, our first observation; restore because/okay/future clauses. Do not silently turn synchronized into technically expected desynchronized; retain both as pending listening.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=42; source block(s) 89; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=20, absolute 2200.00–2320.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-013,chunk-014"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 4,
+        "phrase": "[synchronized / desynchronized, unclear]",
+        "alternatives": [
+          "synchronized",
+          "desynchronized, unclear"
+        ],
+        "evidence": "Historical Feishu and Qwen say synchronized; Whisper skips the relevant phrase. The expected technical meaning would suggest desynchronized, but that is not authority to replace the spoken word.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 5,
+        "phrase": "[the, unclear]",
+        "alternatives": [
+          "the, unclear"
+        ],
+        "evidence": "Qwen has the the; historical Feishu has the once; Whisper drops part of this clause. The potential repetition is not silently either added or removed.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "91eabedfa12ae3a532c8803a8f23b6c6eca2288431034f8a3d12d256196ac0b3",
+    "source_header": "原标说话人 1  00:37:02",
+    "proposed_text": "原标说话人 1  00:37:02\nNow what I would like to underline is that, so we observe, our first observation is that backoff is a mechanism for avoiding collisions, but it is still probabilistic, okay?\n现在，我想强调的是，所以我们观察到，我们的第一个观察是，退避是一种避免碰撞的机制，但它仍然是概率性的，好吗？\nWhy?\n为什么？\nBecause if, like in our example, both B and C draw the same value of backoff, they are going to collide.\n因为，如果像我们的例子中那样，B 和 C 都抽到同一个退避值，它们就会发生碰撞。\nOkay, so if, for example, C too drew two as an integer, then they will not be [synchronized / desynchronized, unclear] from each other, okay?\n好，所以，如果，例如，C 也抽到了二这个整数，那么它们彼此就不会[同步／错开，待听辨]，好吗？\nBecause they will both decrease the [the, unclear] backoff counter during the first time slot, and then again during the second time slot.\n因为它们都会在第一个时隙内递减这个[英文这里是否重复 the，待听辨]退避计数器，然后在第二个时隙内再递减一次。\nBut under the assumption that they now both drew two as an integer, they will decrease the backoff counter to zero exactly at the same time.\n但是，在假设它们现在都抽到了二这个整数的情况下，它们会在完全相同的时刻把退避计数器减到零。\nThat means that they will access the channel exactly at the same time and collide.\n这意味着，它们会在完全相同的时刻接入信道，并发生碰撞。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 36,
+    "block_id": "doxcnMJm7xgchJDesFLgciG9Hwf",
+    "time_anchor": "00:38:58",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "So backoff is a way to avoid collisions, but it does not avoid collisions with probability one.",
+        "zh": "所以，退避是一种避免碰撞的方法，但它并不是以概率一避免碰撞。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=43; source block(s) 91; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-013, segment(s) 18, absolute 2338.64–2347.62s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "There is still a certain probability with which the nodes, the contending nodes, may collide, [right / okay, unclear]?",
+        "zh": "仍然存在一定的概率，使这些节点，这些竞争节点，可能发生碰撞，[对吧／好吗，待听辨]？",
+        "uncertainty": "Feishu has right; Qwen has okay; Whisper omits the filler. The nodes, the contending nodes restart is supported by all three.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=43; source block(s) 91; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 4, absolute 2347.66–2358.02s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So it's a probabilistic collision-avoidance mechanism.",
+        "zh": "所以，它是一种概率性的碰撞避免机制。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=43; source block(s) 91; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 5, absolute 2358.74–2366.68s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "So backoff is a way to avoid collisions, but it does not avoid collisions with probability one. There is still a certain probability with which the nodes, the contending nodes, may collide, [right / okay, unclear]? So it's a probabilistic collision-avoidance mechanism.",
+    "chinese": "所以，退避是一种避免碰撞的方法，但它并不是以概率一避免碰撞。仍然存在一定的概率，使这些节点，这些竞争节点，可能发生碰撞，[对吧／好吗，待听辨]？所以，它是一种概率性的碰撞避免机制。",
+    "changes": [
+      {
+        "before": "Backoff is a way to avoid collisions, but it does not avoid them with probability one. There is still a certain probability that contending nodes may collide. It is a probabilistic collision-avoidance mechanism.",
+        "after": "So backoff is a way to avoid collisions, but it does not avoid collisions with probability one. There is still a certain probability with which the nodes, the contending nodes, may collide, [right / okay, unclear]? So it's a probabilistic collision-avoidance mechanism.",
+        "reason": "Restore So, repeated collisions instead of them, and the nodes, the contending nodes restart. Keep the right/okay filler conflict visible.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=43; source block(s) 91; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-013,chunk-014"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 2,
+        "phrase": "[right / okay, unclear]",
+        "alternatives": [
+          "right",
+          "okay, unclear"
+        ],
+        "evidence": "Feishu has right; Qwen has okay; Whisper omits the filler. The nodes, the contending nodes restart is supported by all three.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "71c127a6633c58e52f40b3c8677b2f579bac4b0c9de171e58f209c4be7c365c9",
+    "source_header": "原标说话人 1  00:38:58",
+    "proposed_text": "原标说话人 1  00:38:58\nSo backoff is a way to avoid collisions, but it does not avoid collisions with probability one.\n所以，退避是一种避免碰撞的方法，但它并不是以概率一避免碰撞。\nThere is still a certain probability with which the nodes, the contending nodes, may collide, [right / okay, unclear]?\n仍然存在一定的概率，使这些节点，这些竞争节点，可能发生碰撞，[对吧／好吗，待听辨]？\nSo it's a probabilistic collision-avoidance mechanism.\n所以，它是一种概率性的碰撞避免机制。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 37,
+    "block_id": "doxcnFC44DVHPRPxjnurob5RDFf",
+    "time_anchor": "00:39:28",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Okay, this is our first observation.",
+        "zh": "好，这是我们的第一个观察。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=44; source block(s) 93; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 6, absolute 2368.46–2375.20s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Is it clear so far?",
+        "zh": "到目前为止清楚吗？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=44; source block(s) 93; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 6, absolute 2368.46–2375.20s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Okay, now if this is clear, let me make a second, [sorry, check this, because today is a bit different, unclear].",
+        "zh": "好，现在，如果这点清楚了，让我作第二个，[抱歉，检查一下这个，因为今天有点不同，待听辨]。",
+        "uncertainty": "The historical snapshot contains this aside; Qwen corrupts it into Say, check this time. This was the possibility; Whisper drops it. Do not present the fluent existing aside as independently verified.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=44; source block(s) 93; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 7, absolute 2375.20–2395.72s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Okay, we have a second observation to make.",
+        "zh": "好，我们要作第二个观察。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=44; source block(s) 93; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 7, absolute 2375.20–2395.72s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "We are close to the break, but let me start introducing it, and then we will finish after [the / a, unclear] short break.",
+        "zh": "我们快到休息时间了，但让我先开始介绍它，然后我们会在短暂休息之后把它讲完，[英文冠词是 the 还是 a，待听辨]。",
+        "uncertainty": "Feishu and Whisper have the short break; Qwen has a short break.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=44; source block(s) 93; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 8, absolute 2395.98–2407.34s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Okay, this is our first observation. Is it clear so far? Okay, now if this is clear, let me make a second, [sorry, check this, because today is a bit different, unclear]. Okay, we have a second observation to make. We are close to the break, but let me start introducing it, and then we will finish after [the / a, unclear] short break.",
+    "chinese": "好，这是我们的第一个观察。到目前为止清楚吗？好，现在，如果这点清楚了，让我作第二个，[抱歉，检查一下这个，因为今天有点不同，待听辨]。好，我们要作第二个观察。我们快到休息时间了，但让我先开始介绍它，然后我们会在短暂休息之后把它讲完，[英文冠词是 the 还是 a，待听辨]。",
+    "changes": [
+      {
+        "before": "This is our first observation. Is it clear so far? If so, let me make a second one. Sorry, let me check this, because today is a bit different. We have a second observation to make. We are close to the break, but let me start introducing it, then we will finish after the short break.",
+        "after": "Okay, this is our first observation. Is it clear so far? Okay, now if this is clear, let me make a second, [sorry, check this, because today is a bit different, unclear]. Okay, we have a second observation to make. We are close to the break, but let me start introducing it, and then we will finish after [the / a, unclear] short break.",
+        "reason": "Restore Okay, now if this is clear, let me make a second and the repeated second observation. Mark the aside found in Feishu but corrupted/omitted in both models instead of declaring it verified.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=44; source block(s) 93; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-014"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 3,
+        "phrase": "[sorry, check this, because today is a bit different, unclear]",
+        "alternatives": [
+          "sorry, check this, because today is a bit different, unclear"
+        ],
+        "evidence": "The historical snapshot contains this aside; Qwen corrupts it into Say, check this time. This was the possibility; Whisper drops it. Do not present the fluent existing aside as independently verified.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 5,
+        "phrase": "[the / a, unclear]",
+        "alternatives": [
+          "the",
+          "a, unclear"
+        ],
+        "evidence": "Feishu and Whisper have the short break; Qwen has a short break.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "0e4c6a9a7f229a7cd0ff36ebbc85f438bb0134abee16f46332a1225c070df42c",
+    "source_header": "原标说话人 1  00:39:28",
+    "proposed_text": "原标说话人 1  00:39:28\nOkay, this is our first observation.\n好，这是我们的第一个观察。\nIs it clear so far?\n到目前为止清楚吗？\nOkay, now if this is clear, let me make a second, [sorry, check this, because today is a bit different, unclear].\n好，现在，如果这点清楚了，让我作第二个，[抱歉，检查一下这个，因为今天有点不同，待听辨]。\nOkay, we have a second observation to make.\n好，我们要作第二个观察。\nWe are close to the break, but let me start introducing it, and then we will finish after [the / a, unclear] short break.\n我们快到休息时间了，但让我先开始介绍它，然后我们会在短暂休息之后把它讲完，[英文冠词是 the 还是 a，待听辨]。",
+    "boundary_note": null
+  },
+  {
+    "ordinal": 38,
+    "block_id": "doxcnXhZOazuwIoJDnSvi0fuhad",
+    "time_anchor": "00:40:13",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "So the second observation that I want to make is about the benefit of increasing the contention window parameter every time we need to perform a backoff procedure for a given data packet, okay?",
+        "zh": "所以，我想作的第二个观察，是关于每次需要为一个给定数据包执行退避过程时，增大竞争窗口参数的好处，好吗？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 9,10, absolute 2413.42–2436.42s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So let's consider still the same example as before.",
+        "zh": "所以，让我们仍然考虑和之前相同的例子。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 11, absolute 2436.42–2446.76s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So we still have the access point, A, B and C.",
+        "zh": "所以，我们仍然有接入点、A、B 和 C。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 11,12, absolute 2436.42–2453.36s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "A talk with the access point, then B and C get the packet, both of them, while the channel is busy.",
+        "zh": "A 与接入点交谈，然后 B 和 C 拿到数据包，它们两个都是在信道忙的时候拿到的。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 12,13, absolute 2446.76–2460.72s; source text retained in review packet",
+          "Documented disfluency, boundary or notation note: The nonstandard A talk is retained across all three sources; not changed to A talks."
+        ]
+      },
+      {
+        "en": "So they need to apply the backoff, and they need to draw [unclear words], after having sensed the channel as idle for DIFS, an integer out of, as we know, out of this range of values, because this is the first time that they run the backoff for the packet.",
+        "zh": "所以，它们需要执行退避，而且它们需要抽取[此处词语不清楚]，在侦听到信道空闲一个 DIFS 的时间之后，抽取一个整数，从，我们知道，从这个取值范围中抽取，因为这是它们第一次为这个数据包执行退避。",
+        "uncertainty": "The phrase after draw is corrupted as the forum / the pour / the quorum across sources. It is explicitly left unresolved, not replaced with a connective that makes the sentence smoother.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 14,15, absolute 2461.56–2483.90s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So they both use zero, contention window minimum, as a possible range, as a range of possible integers to be selected.",
+        "zh": "所以，它们都使用零、最小竞争窗口，作为一个可能的范围，作为可供选择的整数的范围。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 16,17, absolute 2483.90–2503.56s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So how many values are [in / in in, unclear] this range?",
+        "zh": "那么，这个范围里有多少个值，[英文这里是否重复 in，待听辨]？",
+        "uncertainty": "Qwen has in in; Whisper has in once; the question is absent in the mapped Feishu source block.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-014, segment(s) 17, absolute 2492.68–2503.56s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "There are CW_min...",
+        "zh": "有 CW_min……",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 1, absolute 2505.00–2511.08s; source text retained in review packet",
+          "Documented disfluency, boundary or notation note: This sentence crosses the existing 00:41:48 anchor. Whisper words CW_min end at 41:47.64 and plus starts at 41:48.48; the continuation is retained at the start of paragraph 39 rather than duplicated."
+        ]
+      }
+    ],
+    "english": "So the second observation that I want to make is about the benefit of increasing the contention window parameter every time we need to perform a backoff procedure for a given data packet, okay? So let's consider still the same example as before. So we still have the access point, A, B and C. A talk with the access point, then B and C get the packet, both of them, while the channel is busy. So they need to apply the backoff, and they need to draw [unclear words], after having sensed the channel as idle for DIFS, an integer out of, as we know, out of this range of values, because this is the first time that they run the backoff for the packet. So they both use zero, contention window minimum, as a possible range, as a range of possible integers to be selected. So how many values are [in / in in, unclear] this range? There are CW_min...",
+    "chinese": "所以，我想作的第二个观察，是关于每次需要为一个给定数据包执行退避过程时，增大竞争窗口参数的好处，好吗？所以，让我们仍然考虑和之前相同的例子。所以，我们仍然有接入点、A、B 和 C。A 与接入点交谈，然后 B 和 C 拿到数据包，它们两个都是在信道忙的时候拿到的。所以，它们需要执行退避，而且它们需要抽取[此处词语不清楚]，在侦听到信道空闲一个 DIFS 的时间之后，抽取一个整数，从，我们知道，从这个取值范围中抽取，因为这是它们第一次为这个数据包执行退避。所以，它们都使用零、最小竞争窗口，作为一个可能的范围，作为可供选择的整数的范围。那么，这个范围里有多少个值，[英文这里是否重复 in，待听辨]？有 CW_min……",
+    "changes": [
+      {
+        "before": "The second observation concerns the benefit of increasing the contention window every time we need to perform backoff for a given data packet. Consider the same example as before: the access point, A, B, and C. A talks with the access point, then B and C both get a packet while the channel is busy. They need to apply backoff and, after sensing the channel idle for DIFS, draw an integer from this range of values. Since this is the first time they run backoff for this packet, both use zero to CW_min as the range of possible integers. How many values are there? There are CW_min plus one integers.",
+        "after": "So the second observation that I want to make is about the benefit of increasing the contention window parameter every time we need to perform a backoff procedure for a given data packet, okay? So let's consider still the same example as before. So we still have the access point, A, B and C. A talk with the access point, then B and C get the packet, both of them, while the channel is busy. So they need to apply the backoff, and they need to draw [unclear words], after having sensed the channel as idle for DIFS, an integer out of, as we know, out of this range of values, because this is the first time that they run the backoff for the packet. So they both use zero, contention window minimum, as a possible range, as a range of possible integers to be selected. So how many values are [in / in in, unclear] this range? There are CW_min...",
+        "reason": "Restore parameter, given, Okay/So, A talk, both of them, the corrupted phrase following draw, out of...out of, as a possible range, as a range. Keep in/in in unresolved. Split the CW_min sentence at the existing 41:48 anchor according to new word times; do not duplicate the continuation.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=45,46; source block(s) 95,97; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=21, absolute 2310.00–2430.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-014,chunk-015"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 5,
+        "phrase": "[unclear words]",
+        "alternatives": [
+          "unclear words"
+        ],
+        "evidence": "The phrase after draw is corrupted as the forum / the pour / the quorum across sources. It is explicitly left unresolved, not replaced with a connective that makes the sentence smoother.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      },
+      {
+        "sentence_index": 7,
+        "phrase": "[in / in in, unclear]",
+        "alternatives": [
+          "in",
+          "in in, unclear"
+        ],
+        "evidence": "Qwen has in in; Whisper has in once; the question is absent in the mapped Feishu source block.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "d7e6ba545f2843f1bea27e778c0d831602a808006d585e73599c6393f6e06522",
+    "source_header": "原标说话人 1  00:40:13",
+    "proposed_text": "原标说话人 1  00:40:13\nSo the second observation that I want to make is about the benefit of increasing the contention window parameter every time we need to perform a backoff procedure for a given data packet, okay?\n所以，我想作的第二个观察，是关于每次需要为一个给定数据包执行退避过程时，增大竞争窗口参数的好处，好吗？\nSo let's consider still the same example as before.\n所以，让我们仍然考虑和之前相同的例子。\nSo we still have the access point, A, B and C.\n所以，我们仍然有接入点、A、B 和 C。\nA talk with the access point, then B and C get the packet, both of them, while the channel is busy.\nA 与接入点交谈，然后 B 和 C 拿到数据包，它们两个都是在信道忙的时候拿到的。\nSo they need to apply the backoff, and they need to draw [unclear words], after having sensed the channel as idle for DIFS, an integer out of, as we know, out of this range of values, because this is the first time that they run the backoff for the packet.\n所以，它们需要执行退避，而且它们需要抽取[此处词语不清楚]，在侦听到信道空闲一个 DIFS 的时间之后，抽取一个整数，从，我们知道，从这个取值范围中抽取，因为这是它们第一次为这个数据包执行退避。\nSo they both use zero, contention window minimum, as a possible range, as a range of possible integers to be selected.\n所以，它们都使用零、最小竞争窗口，作为一个可能的范围，作为可供选择的整数的范围。\nSo how many values are [in / in in, unclear] this range?\n那么，这个范围里有多少个值，[英文这里是否重复 in，待听辨]？\nThere are CW_min...\n有 CW_min……",
+    "boundary_note": "The existing 41:48 timestamp falls inside There are CW_min plus one integers. This candidate retains CW_min in 38 and the spoken continuation in 39; no overlap duplication."
+  },
+  {
+    "ordinal": 39,
+    "block_id": "doxcnRO13xWA67GmmCsSSXmP1Dc",
+    "time_anchor": "00:41:48",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Plus one integers, right?",
+        "zh": "加一这么多个整数，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=47; source block(s) 99; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 1, absolute 2505.00–2511.08s; source text retained in review packet",
+          "Documented disfluency, boundary or notation note: Continuation of There are CW_min in paragraph 38; the existing 41:48 anchor falls inside this spoken sentence. The intended count is CW_min+1, not one added integer, but the English fragment is not rewritten."
+        ]
+      },
+      {
+        "en": "Because [unclear words], including the zero is plus one.",
+        "zh": "因为[此处词语不清楚]，包括零就是加一。",
+        "uncertainty": "Whisper has Because the subunit; Qwen has We call this minimum; the Feishu source is corrupted. Only including the zero is plus one has stable support.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=47; source block(s) 99; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 2, absolute 2511.46–2515.36s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Okay, this is the number of integers in that range.",
+        "zh": "好，这就是那个范围里的整数个数。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=47; source block(s) 99; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 3, absolute 2515.82–2518.48s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Plus one integers, right? Because [unclear words], including the zero is plus one. Okay, this is the number of integers in that range.",
+    "chinese": "加一这么多个整数，对吧？因为[此处词语不清楚]，包括零就是加一。好，这就是那个范围里的整数个数。",
+    "changes": [
+      {
+        "before": "Including zero makes it plus one. This is the number of integers in that range.",
+        "after": "Plus one integers, right? Because [unclear words], including the zero is plus one. Okay, this is the number of integers in that range.",
+        "reason": "Restore Plus one integers, right? at the 41:48 anchor as the continuation of paragraph 38. Mark unclear words before including the zero rather than reducing the whole utterance to Including zero makes it plus one. Boundary adjustment is explicit.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=47; source block(s) 99; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-014,chunk-015"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 2,
+        "phrase": "[unclear words]",
+        "alternatives": [
+          "unclear words"
+        ],
+        "evidence": "Whisper has Because the subunit; Qwen has We call this minimum; the Feishu source is corrupted. Only including the zero is plus one has stable support.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "06e9e0fc4190bf0c6c8b2dfd77c55592471ffe4eb0a4dd6c738eb551822cc695",
+    "source_header": "原标说话人 1  00:41:48",
+    "proposed_text": "原标说话人 1  00:41:48\nPlus one integers, right?\n加一这么多个整数，对吧？\nBecause [unclear words], including the zero is plus one.\n因为[此处词语不清楚]，包括零就是加一。\nOkay, this is the number of integers in that range.\n好，这就是那个范围里的整数个数。",
+    "boundary_note": "The existing 41:48 timestamp falls inside There are CW_min plus one integers. This candidate retains CW_min in 38 and the spoken continuation in 39; no overlap duplication."
+  },
+  {
+    "ordinal": 40,
+    "block_id": "doxcn28MvP7iScVrFLXjKMXm82e",
+    "time_anchor": "00:41:59",
+    "status": "candidate_not_audio_certified",
+    "sentences": [
+      {
+        "en": "Okay, so what we want to compute, since we said that backoff is a probabilistic collision-avoidance mechanism, is the probability that B and C collide.",
+        "zh": "好，所以，我们想计算的，既然我们说过退避是一种概率性的碰撞避免机制，就是 B 和 C 发生碰撞的概率。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 4,5,6, absolute 2519.66–2533.06s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Okay, that's the probability that we want to compute.",
+        "zh": "好，这就是我们想计算的概率。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 4, absolute 2519.66–2522.40s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Okay, now we know already that they will collide if they draw the same integer out of this range.",
+        "zh": "好，现在我们已经知道，如果它们从这个范围里抽到同一个整数，它们就会碰撞。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 8, absolute 2561.74–2576.98s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "And remember that the way a node draws an integer out of this range is with uniform probability, right?",
+        "zh": "还要记住，一个节点从这个范围里抽取整数的方式，是采用均匀概率，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 9, absolute 2576.98–2587.36s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So same probability for every value to be selected by the node.",
+        "zh": "所以，每个值被节点选中的概率相同。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 10, absolute 2587.36–2594.72s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So if we consider the probability for a node to draw a generic integer n out of this range, this probability is given by one over CW_min plus one, right?",
+        "zh": "所以，如果我们考虑一个节点从这个范围中抽到任意一个整数 n 的概率，这个概率由一除以（CW_min 加一）给出，对吧？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 11,12, absolute 2594.72–2623.04s; source text retained in review packet",
+          "Documented disfluency, boundary or notation note: Formula grouping is spoken without written parentheses; the surrounding statement establishes the denominator CW_min+1. The English wording is preserved; no equation is silently substituted."
+        ]
+      },
+      {
+        "en": "Because this is the number of integers in the range.",
+        "zh": "因为这就是这个范围中的整数个数。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 3, absolute 2515.82–2518.48s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "Since we draw each value with equal probability, uniform probability, it's easy to see that the probability that an integer, a generic integer, is drawn out of this range by a node is given by one over CW_min plus one.",
+        "zh": "由于我们以相等的概率，均匀的概率，抽取每个值，很容易看出，一个整数，一个任意的整数，被一个节点从这个范围里抽到的概率，由一除以（CW_min 加一）给出。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 13,14,15, absolute 2623.04–2646.68s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "This is basic probability theory, okay?",
+        "zh": "这是基本的概率论，好吗？",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 16, absolute 2646.68–2661.26s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "So in this way you can see that they are selected exactly, each of them with the same probability.",
+        "zh": "所以，这样你就可以看到，它们被选择时，恰好，每一个都具有相同的概率。",
+        "uncertainty": null,
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 17, absolute 2661.26–2667.58s; source text retained in review packet"
+        ]
+      },
+      {
+        "en": "[Okay, unclear], this probability is the same for all of them.",
+        "zh": "[好，待听辨]，这个概率对它们所有值都是一样的。",
+        "uncertainty": "The final Okay occurs in Qwen but not Feishu or Whisper.",
+        "source_support": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted: chunk-015, segment(s) 18, absolute 2667.58–2674.84s; source text retained in review packet"
+        ]
+      }
+    ],
+    "english": "Okay, so what we want to compute, since we said that backoff is a probabilistic collision-avoidance mechanism, is the probability that B and C collide. Okay, that's the probability that we want to compute. Okay, now we know already that they will collide if they draw the same integer out of this range. And remember that the way a node draws an integer out of this range is with uniform probability, right? So same probability for every value to be selected by the node. So if we consider the probability for a node to draw a generic integer n out of this range, this probability is given by one over CW_min plus one, right? Because this is the number of integers in the range. Since we draw each value with equal probability, uniform probability, it's easy to see that the probability that an integer, a generic integer, is drawn out of this range by a node is given by one over CW_min plus one. This is basic probability theory, okay? So in this way you can see that they are selected exactly, each of them with the same probability. [Okay, unclear], this probability is the same for all of them.",
+    "chinese": "好，所以，我们想计算的，既然我们说过退避是一种概率性的碰撞避免机制，就是 B 和 C 发生碰撞的概率。好，这就是我们想计算的概率。好，现在我们已经知道，如果它们从这个范围里抽到同一个整数，它们就会碰撞。还要记住，一个节点从这个范围里抽取整数的方式，是采用均匀概率，对吧？所以，每个值被节点选中的概率相同。所以，如果我们考虑一个节点从这个范围中抽到任意一个整数 n 的概率，这个概率由一除以（CW_min 加一）给出，对吧？因为这就是这个范围中的整数个数。由于我们以相等的概率，均匀的概率，抽取每个值，很容易看出，一个整数，一个任意的整数，被一个节点从这个范围里抽到的概率，由一除以（CW_min 加一）给出。这是基本的概率论，好吗？所以，这样你就可以看到，它们被选择时，恰好，每一个都具有相同的概率。[好，待听辨]，这个概率对它们所有值都是一样的。",
+    "changes": [
+      {
+        "before": "What we want to compute, since we said that backoff is a probabilistic collision-avoidance mechanism, is the probability that B and C collide. That's the probability we want to compute. We already know that they will collide if they draw the same integer from this range. Remember that a node draws an integer with uniform probability: the same probability for every value. If we consider the probability that a node draws a generic integer n, it is one over (CW_min + 1), because this is the number of integers in the range. Since each value has equal probability, it is easy to see that the probability that an integer, a generic integer, is drawn from this range by a node is one over (CW_min + 1). This is basic probability theory. Each integer is selected with exactly the same probability. This probability is the same for all of them.",
+        "after": "Okay, so what we want to compute, since we said that backoff is a probabilistic collision-avoidance mechanism, is the probability that B and C collide. Okay, that's the probability that we want to compute. Okay, now we know already that they will collide if they draw the same integer out of this range. And remember that the way a node draws an integer out of this range is with uniform probability, right? So same probability for every value to be selected by the node. So if we consider the probability for a node to draw a generic integer n out of this range, this probability is given by one over CW_min plus one, right? Because this is the number of integers in the range. Since we draw each value with equal probability, uniform probability, it's easy to see that the probability that an integer, a generic integer, is drawn out of this range by a node is given by one over CW_min plus one. This is basic probability theory, okay? So in this way you can see that they are selected exactly, each of them with the same probability. [Okay, unclear], this probability is the same for all of them.",
+        "reason": "Restore repeated Okay, now, we know already, And remember, same probability fragment, equal probability, uniform probability, and an integer, a generic integer. Keep spoken formula words and standard Chinese denominator grouping; do not replace them with a cleaner derivation.",
+        "sources": [
+          "Feishu historical snapshot mapped source_index_zero_based=48,49,50; source block(s) 101,103,105; may contain earlier edits and ASR errors",
+          "Qwen recovery rerun raw: window_index=22, absolute 2420.00–2540.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=23, absolute 2530.00–2650.00s; broad context window, not a word-aligned paragraph",
+          "Qwen recovery rerun raw: window_index=24, absolute 2640.00–2760.00s; broad context window, not a word-aligned paragraph",
+          "Whisper medium.en unprompted core/context chunks: chunk-014,chunk-015"
+        ]
+      }
+    ],
+    "unresolved": [
+      {
+        "sentence_index": 11,
+        "phrase": "[Okay, unclear]",
+        "alternatives": [
+          "Okay, unclear"
+        ],
+        "evidence": "The final Okay occurs in Qwen but not Feishu or Whisper.",
+        "decision": "Retained visibly unresolved or explicitly documented as a faithful disfluency; requires source/audio review. Not certified."
+      }
+    ],
+    "expected_original_text_sha256": "620a9647ecc8e06122f56c896e6c0baf51c9a7495bf095c15f86a289c770c526",
+    "source_header": "原标说话人 1  00:41:59",
+    "proposed_text": "原标说话人 1  00:41:59\nOkay, so what we want to compute, since we said that backoff is a probabilistic collision-avoidance mechanism, is the probability that B and C collide.\n好，所以，我们想计算的，既然我们说过退避是一种概率性的碰撞避免机制，就是 B 和 C 发生碰撞的概率。\nOkay, that's the probability that we want to compute.\n好，这就是我们想计算的概率。\nOkay, now we know already that they will collide if they draw the same integer out of this range.\n好，现在我们已经知道，如果它们从这个范围里抽到同一个整数，它们就会碰撞。\nAnd remember that the way a node draws an integer out of this range is with uniform probability, right?\n还要记住，一个节点从这个范围里抽取整数的方式，是采用均匀概率，对吧？\nSo same probability for every value to be selected by the node.\n所以，每个值被节点选中的概率相同。\nSo if we consider the probability for a node to draw a generic integer n out of this range, this probability is given by one over CW_min plus one, right?\n所以，如果我们考虑一个节点从这个范围中抽到任意一个整数 n 的概率，这个概率由一除以（CW_min 加一）给出，对吧？\nBecause this is the number of integers in the range.\n因为这就是这个范围中的整数个数。\nSince we draw each value with equal probability, uniform probability, it's easy to see that the probability that an integer, a generic integer, is drawn out of this range by a node is given by one over CW_min plus one.\n由于我们以相等的概率，均匀的概率，抽取每个值，很容易看出，一个整数，一个任意的整数，被一个节点从这个范围里抽到的概率，由一除以（CW_min 加一）给出。\nThis is basic probability theory, okay?\n这是基本的概率论，好吗？\nSo in this way you can see that they are selected exactly, each of them with the same probability.\n所以，这样你就可以看到，它们被选择时，恰好，每一个都具有相同的概率。\n[Okay, unclear], this probability is the same for all of them.\n[好，待听辨]，这个概率对它们所有值都是一样的。",
+    "boundary_note": null
+  }
+]
