@@ -1,0 +1,481 @@
+{
+  "lesson": "20261012-1530",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/EsHBd3OOCo6ODAxhlMKc6JxNn9d",
+  "audited_at_utc": "2026-10-18T15:29:03.768693+00:00",
+  "remote_mutations": false,
+  "audit_snapshot": "blocks-final.json",
+  "audit_snapshot_sha256": "316b94f6433b8cd04f2897b755fd68bf4c630bfecc265bd6c954a2520bd62a29",
+  "paragraph_count": 44,
+  "original_image_count": 9,
+  "visually_verified_image_count": 9,
+  "aligned_images": 9,
+  "images_needing_move": [],
+  "confirmed_missing_pdf_slides": [],
+  "unresolved_source_gaps": [
+    {
+      "id": "pcf-polling-classroom-drawing",
+      "paragraph_spans": [
+        [
+          24,
+          32
+        ],
+        [
+          41,
+          42
+        ]
+      ],
+      "status": "unresolved_classroom_visual_source_not_found",
+      "title": "A/C/D参与列表和PCF逐站轮询、fast ACK、NULL、CF-End课堂时序图",
+      "evidence": "第24段明确说“let me draw here an example”；25段列A/C/D参加而B/E不参加；26–32段在该示意中逐步画beacon、poll A、A DATA、poll C+DATA、fast ACK、poll D、NULL、CF-End；41段回指poll/null交换。",
+      "source_search": "固定74页PDF全文检索poll/null/TBTT/contention-free，视觉检查第16、17、18、27–33、40–43页。图57/59是文字机制，图58只有宏观CFP/CP；第41页802.11e图为后续HCCA/QSTA/CAP，不是此A/C/D PCF例子。",
+      "action": "保留相关图57/58/59与全部正文；不使用后续802.11e图冒充，不凭文字重绘。"
+    },
+    {
+      "id": "beacon-delay-classroom-timeline",
+      "paragraph_spans": [
+        [
+          33,
+          37
+        ],
+        [
+          43,
+          44
+        ]
+      ],
+      "status": "unresolved_classroom_visual_source_not_found",
+      "title": "DCF DATA/ACK跨越TBTT并延迟beacon的具体课堂时间线",
+      "evidence": "第34–37段指节点在beacon之前DIFS后占信道、完成DATA/ACK，再PIFS后发beacon；43段指图中移动的superframe起点。图58仅显示规则superframe，没有跨TBTT的DATA/ACK延迟细节。",
+      "source_search": "同一固定PDF搜索beacon/TBTT/delay并检查第29–31、41–43页；图60有文字解释，未找到与课堂描述相同的详细时序图。",
+      "action": "保留图58/60，记录源图未找到；不认定缺了一张能从该PDF恢复的幻灯片。"
+    }
+  ],
+  "unresolved_source_gap_count": 2,
+  "all_lecture_visuals_recovered": false,
+  "audio_fidelity_verified": false,
+  "navigation_complete": true,
+  "slides_audit_complete": true,
+  "source_pdf": {
+    "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+    "local_path": "/workspace/shared/02-WiFi_1-7.pdf",
+    "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+    "pages": 74,
+    "provenance": "使用已存在的固定PDF，SHA256与前序已审课程来源清单相同"
+  },
+  "images": [
+    {
+      "image_ordinal": 1,
+      "block_id": "doxcnhqJgZ7aHCx5mJHgikj1sug",
+      "figure_number": 53,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第27页上半页 · 图53（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-053.png",
+      "after_paragraph": 1,
+      "before_paragraph": 2,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-053.png\",\n    \"size_bytes\": 78160\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "e7d3dc8b55dcac69f5bd01c43248ae6e4ec10ed6ebd24a7205713b4c6ecb2c9b",
+      "title": "EIFS: Extended Interframe Space",
+      "pdf_page": 27,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          11
+        ]
+      ],
+      "alignment_reason_zh": "第1段00:00:02明确引入EIFS，解释物理忙但无法设置NAV、出错；第2段继续解释双重侦听不一致。图紧跟第1段，定义与后文保护ACK解释一致。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 1,
+        "timestamp": "00:00:02",
+        "block_id": "doxcnvVr1DkoYHSNJmEQivDO1zg",
+        "heading": "01 · 00:00:02 · 扩展IFS的使用条件"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 2,
+        "timestamp": "00:01:13",
+        "block_id": "doxcn36g1j0u8ebdQfjTIvGFWzd",
+        "heading": "02 · 00:01:13 · 双重侦听不一致与三节点示例"
+      }
+    },
+    {
+      "image_ordinal": 2,
+      "block_id": "doxcnuGpgWY0ADM2kFSK7nLrIYf",
+      "figure_number": 54,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第27页下半页 · 图54（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-054.png",
+      "after_paragraph": 5,
+      "before_paragraph": 6,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-054.png\",\n    \"size_bytes\": 59389\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "27cafeecb21cf2ef30d4396a0350615e3626538cdeef29919c490acce0a4cf34",
+      "title": "EIFS in Action",
+      "pdf_page": 27,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          2,
+          11
+        ]
+      ],
+      "alignment_reason_zh": "第2–5段依次建立B向C发DATA、C等待SIFS发ACK、A在C覆盖范围外并错误解调B；第4段明确指向右上拓扑图，图中A/B/C位置、三条时间线及received in error均吻合。图在第5段后，后接第6–11段NAV失败、EIFS与ACK碰撞反例，保留。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 5,
+        "timestamp": "00:04:48",
+        "block_id": "doxcnVeaH2f72bptHrXYkhrQp9C",
+        "heading": "05 · 00:04:48 · 随机信道错误导致首部解调失败"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 6,
+        "timestamp": "00:06:36",
+        "block_id": "doxcnZ5autxIbne0DLVsvRgqlQg",
+        "heading": "06 · 00:06:36 · 无法读取Duration就不能设置NAV"
+      }
+    },
+    {
+      "image_ordinal": 3,
+      "block_id": "doxcnTM9GdmtKTFz200FEd61KqW",
+      "figure_number": 35,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第18页上半页 · 图35（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-035.png",
+      "after_paragraph": 11,
+      "before_paragraph": 12,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-035.png\",\n    \"size_bytes\": 83444\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "eeec6c8923547528e531010aef340011b5cef8f041b15a1bfd3c6c910e5788af",
+      "title": "DCF Basic Rules",
+      "pdf_page": 18,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          7,
+          11
+        ]
+      ],
+      "alignment_reason_zh": "第10段反事实推演没有EIFS时A等待DIFS可能干扰C的ACK，第11段回到真实规则：出错、不理解信道时空闲后继续等待。图35第一条明确错误后等EIFS；放11段后是规则回引，不应按PDF编号移到课首。图上的忙后退避为已学背景，未将其误判为当前新讲内容。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 11,
+        "timestamp": "00:11:24",
+        "block_id": "doxcnxZoJE2e2EdkVSrTm0lEQZe",
+        "heading": "11 · 00:11:24 · 侦听不一致后必须额外等待"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 12,
+        "timestamp": "00:12:10",
+        "block_id": "doxcn3nGDHgdBnrHhty9mX7Bbdg",
+        "heading": "12 · 00:12:10 · 正确收到首部后提前结束EIFS"
+      }
+    },
+    {
+      "image_ordinal": 4,
+      "block_id": "doxcnLs8llbcvuFDfQCri2oEeFg",
+      "figure_number": 55,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第28页上半页 · 图55（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-055.png",
+      "after_paragraph": 12,
+      "before_paragraph": 13,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-055.png\",\n    \"size_bytes\": 66472\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "3de242c9a2757ee1ce420e61a82aab440da915d6b0d56b5f1428702fe204ee9a",
+      "title": "EIFS: the Recovery Rule",
+      "pdf_page": 28,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          12,
+          13
+        ]
+      ],
+      "alignment_reason_zh": "第12段00:12:10说EIFS中正确读到首部及Duration即可立即恢复正常，第13段再次总结恢复正常。图55第二点和蓝色提前结束规则逐项吻合。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 12,
+        "timestamp": "00:12:10",
+        "block_id": "doxcn3nGDHgdBnrHhty9mX7Bbdg",
+        "heading": "12 · 00:12:10 · 正确收到首部后提前结束EIFS"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 13,
+        "timestamp": "00:13:04",
+        "block_id": "doxcnhEp6t1MkpSCR40nmrQcnAc",
+        "heading": "13 · 00:13:04 · 重新理解信道状态便恢复正常"
+      }
+    },
+    {
+      "image_ordinal": 5,
+      "block_id": "doxcnwAs8Tdssehx6xC8qTzTXfg",
+      "figure_number": 58,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第29页下半页 · 图58（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-058.png",
+      "after_paragraph": 20,
+      "before_paragraph": 21,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-058.png\",\n    \"size_bytes\": 43081\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "e56e53509742be4f858a3a1d9241ed20c979d05218d1a1972a4570d4c1d18199",
+      "title": "PCF Superframe Structure",
+      "pdf_page": 29,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          19,
+          23
+        ],
+        [
+          33,
+          36
+        ],
+        [
+          43,
+          44
+        ]
+      ],
+      "alignment_reason_zh": "第20段定义连续beacon之间的superframe；紧随其后的21–23段解释CFP先、CP/DCF后并反复循环。图58的B/CFP/CP、重复区间与文字一致，原位置恰好在定义后。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 20,
+        "timestamp": "00:16:48",
+        "block_id": "doxcnB44BvL59A9rJyYvf7MBX0g",
+        "heading": "20 · 00:16:48 · 连续信标之间的超帧"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 21,
+        "timestamp": "00:17:23",
+        "block_id": "doxcn2e6iNtA93fiH3RR6Hv9tdh",
+        "heading": "21 · 00:17:23 · PCF阶段与无竞争期"
+      }
+    },
+    {
+      "image_ordinal": 6,
+      "block_id": "doxcnfVboKtDFO8u1f1SlyBSBXg",
+      "figure_number": 59,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第30页上半页 · 图59（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-059.png",
+      "after_paragraph": 23,
+      "before_paragraph": 24,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-059.png\",\n    \"size_bytes\": 92038\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "ffbcdd686073ec2dcc4da7c16a8e7a66f12dd30dd2b8543cba2e4ee31ce165bb",
+      "title": "PCF and DCF Coexistence",
+      "pdf_page": 30,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          19,
+          23
+        ],
+        [
+          26,
+          32
+        ]
+      ],
+      "alignment_reason_zh": "第23段明确PCF和DCF在同一superframe内时分共存，图59第一点准确对应；后续26–32段展开poll、数据/ACK捎带和CF-End。位于23段后是本节机制概览，应保留。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 23,
+        "timestamp": "00:19:08",
+        "block_id": "doxcnMzliFTtrFNPxr7BwN0xnnd",
+        "heading": "23 · 00:19:08 · 两种接入方案在超帧内时分共存"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 24,
+        "timestamp": "00:19:46",
+        "block_id": "doxcnr1mlcUuHMHx8UFPQaLPiFb",
+        "heading": "24 · 00:19:46 · PCF参与站点列表与关联阶段"
+      }
+    },
+    {
+      "image_ordinal": 7,
+      "block_id": "doxcnEUX76MKvIcPH4ZN8vU1Lyf",
+      "figure_number": 57,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第29页上半页 · 图57（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-057.png",
+      "after_paragraph": 24,
+      "before_paragraph": 25,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-057.png\",\n    \"size_bytes\": 82877\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "4c22304f089a43aaa698bc6827be99ee151da4845e7adfc6664cc5863940f91c",
+      "title": "PCF: Basic Characteristics",
+      "pdf_page": 29,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          18,
+          18
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          39,
+          42
+        ]
+      ],
+      "alignment_reason_zh": "第24段00:19:46明确AP持有节点列表、在association时声明愿否参加PCF；第25段举A/C/D参加而B/E不参加。图57最后一条就是Association Request与static polling list，原图紧跟24段恰当；不能仅凭57小于58/59就提前。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 24,
+        "timestamp": "00:19:46",
+        "block_id": "doxcnr1mlcUuHMHx8UFPQaLPiFb",
+        "heading": "24 · 00:19:46 · PCF参与站点列表与关联阶段"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 25,
+        "timestamp": "00:21:23",
+        "block_id": "doxcn2w0RsE3EMXSKx8o3CuvLDu",
+        "heading": "25 · 00:21:23 · 接入点按列表轮询各站点"
+      }
+    },
+    {
+      "image_ordinal": 8,
+      "block_id": "doxcnLAi3eX5pfpllViehJuLu1g",
+      "figure_number": 34,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第17页下半页 · 图34（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-034.png",
+      "after_paragraph": 37,
+      "before_paragraph": 38,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-034.png\",\n    \"size_bytes\": 98249\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "ad08fea1e9b0aec1af066707cc7a9e04fee618902bb9202475c58848eb0ffca1",
+      "title": "The Four Interframe Spaces",
+      "pdf_page": 17,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          37,
+          38
+        ]
+      ],
+      "alignment_reason_zh": "第37段00:35:39明确SIFS<PIFS<DIFS、AP以PIFS获取发送beacon优先权；第38段继续说明PIFS目的。图34的PIFS定义及优先级排序与相邻内容直接对应。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 37,
+        "timestamp": "00:35:39",
+        "block_id": "doxcnz8HTssZEU922HX23J6j8se",
+        "heading": "37 · 00:35:39 · PIFS为接入点发送信标提供优先权"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 38,
+        "timestamp": "00:37:01",
+        "block_id": "doxcn6D1xph9At000t8IwXMK0Jd",
+        "heading": "38 · 00:37:01 · PIFS作用与PCF实践问题"
+      }
+    },
+    {
+      "image_ordinal": 9,
+      "block_id": "doxcnUA0UtNOFZB3YwkrgnVtUge",
+      "figure_number": 60,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第30页下半页 · 图60（按PDF顺序）",
+      "image_path": "/workspace/shared/course-1012-1530/slide-images/slide-060.png",
+      "after_paragraph": 42,
+      "before_paragraph": 43,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1530/slide-images/slide-060.png\",\n    \"size_bytes\": 111469\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "7083682347699d58af27b7d29211018e4ff307b9adaf0ba880cb0b50f859231a",
+      "title": "Why PCF Never Really Happened",
+      "pdf_page": 30,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "semantic_paragraph_spans": [
+        [
+          38,
+          44
+        ]
+      ],
+      "alignment_reason_zh": "第41–42段讲poll/null浪费与静态列表缺少实时队列信息；第43段讲beacon延迟不可预测；44段预告第三个问题。图60相应列出static polling list、unpredictable beacon delay及unknown transmission duration，放42段后连接已讲第一项与将讲第二项。第三条属于已展示的预告，不能据此声称本课已展开第三问题。",
+      "identity_verified": "逐张查看已下载的原始Feishu PNG，并与固定PDF相应页视觉比较；标题、要点、图形与布局相同。",
+      "after_paragraph_detail": {
+        "ordinal": 42,
+        "timestamp": "00:41:36",
+        "block_id": "doxcng1C6qW3nWEk5Cs5T7dqALf",
+        "heading": "42 · 00:41:36 · 静态轮询列表缺少实时队列信息"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 43,
+        "timestamp": "00:42:58",
+        "block_id": "doxcnPY6Psac918ce7XcRMKYAtb",
+        "heading": "43 · 00:42:58 · 信标推迟导致不可预测的服务延迟"
+      }
+    }
+  ],
+  "not_missing": [
+    {
+      "figure_number": 56,
+      "reason": "第14–17段仅安排次日练习并说结束基础DCF，没有逐项总结DATA/ACK、NAV、RTS/CTS、collision/backoff，也没有明确指向该summary页；不能单凭53–55后缺56补入。"
+    },
+    {
+      "figure_number": 61,
+      "reason": "本课末尾仍在PCF局限并预告休息后第三问题，没有进入完整DCF/PCF总结；不能按页码续接。"
+    },
+    {
+      "figure_number": 33,
+      "reason": "第38段提到IFS优先级阶梯，但紧邻原图34已有完整SIFS<PIFS<DIFS<EIFS及定义；无明确重新展示图33的证据，不重复插图。"
+    }
+  ],
+  "scope": "完整读44段；下载并逐张看9张原图；逐张比较固定PDF对应页；搜索固定PDF并视觉审查候选页；不改正文、图片、导航、原minutes、原transcript；未下载/打包私人音频。",
+  "manifest_update_recommendation": {
+    "slides_audit_pending": false,
+    "slides_audit_complete": true,
+    "slides_aligned_count": 9,
+    "slides_missing_confirmed_count": 0,
+    "slides_misaligned_count": 0,
+    "unresolved_visual_source_gaps": 2,
+    "all_lecture_visuals_recovered": false,
+    "audio_fidelity_verified": false
+  },
+  "cautions": [
+    "仅检查原双语文本中的语义对应，未用原音认证转写。",
+    "原图标题密集和个别小页脚裁边是原始图像布局，未改写或重绘。",
+    "PDF图号是讲义顺序；页脚章节编号并非图号；不得按图号重排文档。",
+    "未远端写入，也未发布本地审计包。"
+  ]
+}
