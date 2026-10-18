@@ -1,0 +1,25 @@
+{
+  "recording_id": "20261014-1000",
+  "paragraph_pairs": 112,
+  "source_block_count": 130,
+  "source_speech_sha256": "387f3d26378f2f33542875b023b730bc1819c38dee084b78fa7e125667266fd3",
+  "bilingual_sha256": "992b88e13d1c296c770e7f1737d4badd2c959bc92c52543730793956db033fc6",
+  "status": "all_source_blocks_translated_and_read_through_with_uncertainties",
+  "cleaned_timestamp_speaker_editorial_markers": true,
+  "substantive_uncertainty_preserved": {
+    "The wording of this fragmentary break conversation is uncertain.": "这段课间谈话零散，措辞不确定。",
+    "the original says two, while the independent transcription says twenty yuan.": "原文为二，独立转写为二十元。",
+    "Both transcripts say ‘diversification’": "两份转写都写作‘多样化’",
+    "The lecturer says ‘nodes’ in the comparison": "讲者在比较时说的是‘节点’",
+    "the original reads EDCA, while the independent transcription reads EDCF.": "原文为EDCA，独立转写为EDCF。",
+    "the original reads ‘globally’, while the independent transcription reads ‘probably’.": "原文是‘从全局看’，独立转写是‘可能’。",
+    "whether the person is described as a colleague or as a classmate.": "称呼的是同事还是同学。",
+    "I don't eat rice": "我不吃米饭"
+  },
+  "all_130_source_blocks_mapped_once": true,
+  "no_unreliable_asr_promoted_to_speech": true,
+  "raw_commit": "69ec68759543fe35a26b4dd58be38b498229607a",
+  "terminology_addendum_prepared": true,
+  "terminology_review_public_append_pending": true,
+  "updated_at": "2026-10-18T07:00:48.379576+00:00"
+}

@@ -1,0 +1,81 @@
+{
+  "recording_id": "20261014-1000",
+  "source_block_count": 130,
+  "displayed_paragraph_count": 112,
+  "merged_groups": 16,
+  "false_boundary_merges": 18,
+  "all_source_blocks_once_in_original_order": true,
+  "source_extraction_byte_exact_against_capture": true,
+  "full_text_read_complete": true,
+  "full_text_review_method": "Read all130 source blocks, all60 main windows text/raw_decoded, all10 split checks and final90-second tail; not manual audio listening",
+  "independent_asr_complete": true,
+  "all_samples_processed": true,
+  "all_recorded_speech_reliably_transcribed": false,
+  "main_asr_chunks": 60,
+  "split_checks": 10,
+  "independent_final_tail_processed": true,
+  "independent_final_tail_reliable": false,
+  "audio_duration_seconds": 6605.3805,
+  "coverage_start_seconds": 0,
+  "coverage_end_seconds": 6605.3805,
+  "all_asr_flags_empty": false,
+  "flagged_main_windows": [
+    {
+      "window_index_zero_based": 3,
+      "start_seconds": 330.0,
+      "end_seconds": 450.0,
+      "flags": [
+        "generation_cap"
+      ]
+    },
+    {
+      "window_index_zero_based": 4,
+      "start_seconds": 440.0,
+      "end_seconds": 560.0,
+      "flags": [
+        "generation_cap"
+      ]
+    },
+    {
+      "window_index_zero_based": 25,
+      "start_seconds": 2750.0,
+      "end_seconds": 2870.0,
+      "flags": [
+        "generation_cap"
+      ]
+    },
+    {
+      "window_index_zero_based": 26,
+      "start_seconds": 2860.0,
+      "end_seconds": 2980.0,
+      "flags": [
+        "generation_cap"
+      ]
+    },
+    {
+      "window_index_zero_based": 27,
+      "start_seconds": 2970.0,
+      "end_seconds": 3090.0,
+      "flags": [
+        "generation_cap"
+      ]
+    }
+  ],
+  "anomaly_handling": "主窗口3（330–450秒）、4（440–560秒）、25（2750–2870秒）、26（2860–2980秒）、27（2970–3090秒）均达到1024 token生成上限，raw_decoded中出现长串“嗯”“是”“这个是不是在”等循环。拆分00003_b、00004_a、00025_b、00026_b、00027_a也达到上限；00003_a、00004_b、00025_a恢复了可与原文／邻窗核对的操作或讲课句。00026_a及00027_b无flags，仍含不稳定中文、语义跳跃或金额冲突；不得由无flags认证其全部文字，也不得由循环或空白判断静音。初始窗口0的中文同样无flags却与来源大量不一致，预算、人数及不连贯物品词按原文保留并明示不确定。课间原片段不删除，但没有将未经可靠验证的新姓名、价格、地铁、multicast／DSS等拼成确定谈话。\n\n独立最后90秒覆盖6515.3805–6605.3805秒；虽生成724 token后以正常结束token收尾且flags为空，raw_decoded仍出现212次“Let's”的退化重复，未可靠转写饮食段与最终告别。因此tail_reliable_for_closing_conversation=false，不能把独立尾部处理完成说成结尾讲话全部确认。闭幕内容由完整主窗口59（6490–6605.3805秒）与原段128–130对读；只有考试后／fine／go right after等尾部前段在主窗和独立尾部相互支持。时间仍仅作近似锚点，没有逐段人工复听。\n\n开头故障形容词Negative／Active、活动空间修饰词、课间金额2／20、diversification对应密集化的语境、固定节点数比较中说maximum number of nodes、EDCA／EDCF、globally／probably、缺课问答、游览邀请与寺庙／餐厅名称、聚餐时间衔接和colleague／classmate等仍明确披露。rice在原文和主窗59均出现，保留“不吃米饭”，不因素食语境改成fish；主窗59另有未核实的and fish，不作为确定发言新增。没有出现足以确认的新健康、账户或具体未成年人信息；关于幼儿园儿童是课堂的一般应用例子。",
+  "raw_commit": "69ec68759543fe35a26b4dd58be38b498229607a",
+  "raw_files_published": 72,
+  "raw_publication_verification": "Parent explicitly confirmed full raw publication and readback before final local outputs",
+  "model": "Qwen/Qwen3-ASR-0.6B-hf",
+  "model_revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+  "uncertainty_retained": true,
+  "bilingual_complete_for_all_source_blocks": true,
+  "edited_english_source_blocks": 130,
+  "translated_chinese_source_blocks": 130,
+  "original_text_sha256": "a516a3d0025bb82029858b8c2fac878f6a8f6da09e28087ce25d8f71c11534ab",
+  "original_capture_sha256": "fd01156723429c78eab928d6b997c044d7f59e6ac5e9ca043aeaf03a0eb8b8cf",
+  "raw_asr_recording_sha256": "0ed8d48f4d3742dfd5354aa24a0d909db6b296226bfed111c3a16c2bc30e4602",
+  "speech_sha256": "387f3d26378f2f33542875b023b730bc1819c38dee084b78fa7e125667266fd3",
+  "bilingual_sha256": "992b88e13d1c296c770e7f1737d4badd2c959bc92c52543730793956db033fc6",
+  "terminology_addendum_prepared": true,
+  "updated_at": "2026-10-18T07:00:48.379576+00:00"
+}
