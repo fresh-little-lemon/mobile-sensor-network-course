@@ -1,0 +1,225 @@
+{
+  "document_title": "双语对照：录音机-20261009-0845",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/PnXMd5tSLoFiWDxmYvDcS6BJnfe",
+  "original_transcript_url": "https://lcn6dqn3m0yr.feishu.cn/docx/VKf7dDrMLoRYZmx3BGzc2pBrnJf",
+  "original_audio_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmv9fk5hm84t98k493855",
+  "prepared_for": "授权的课程私仓同步准备；未执行远程发布",
+  "source_pdfs": [
+    {
+      "filename": "02-WiFi_1-7.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+      "pages": 74,
+      "figures_used": [
+        5,
+        6
+      ],
+      "local_provenance": "Reused the exact pinned PDF already downloaded for the authorized 0759 course audit; SHA256 verified against its manifest."
+    }
+  ],
+  "audited_at_utc": "2026-10-18T14:26:00Z",
+  "audit_scope": "All88 bilingual paragraphs fully read. Original figure6 downloaded read-only and visually compared with pinned PDF page3. Figure5 original PNG reused from the verified 0759 course audit and visually compared with page3. Pages4,10,11 reviewed to assess excluded neighboring and preview-only material. Text of architecture/association boundary slides checked. Audit worker made no remote edits.",
+  "paragraph_count": 88,
+  "original_image_count": 1,
+  "added_image_count": 1,
+  "image_count": 2,
+  "confirmed_defects": [
+    {
+      "id": "missing-protocol-stack-slide",
+      "type": "missing_source_image",
+      "figure_number": 5,
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 3,
+      "pdf_half": "upper",
+      "paragraph_spans": [
+        [
+          5,
+          22
+        ],
+        [
+          26,
+          46
+        ],
+        [
+          67,
+          68
+        ]
+      ],
+      "evidence": "第5–22段讲收发端PHY/MAC及上层、解调、ACK和停止等待；第26–46段继续讲协议层与分工，第67–68段明确Wi-Fi仅规定PHY和MAC。图5直接展示这些层及对应功能，本录音在前一节基础上继续详讲，不能只依赖另一篇文档里的同图。",
+      "remediation": "Parent added original figure5 PNG after paragraph6 H2 and before unchanged paragraph6. Original figure6 preserved. Remote download is byte-identical to the source PNG.",
+      "new_block_id": "doxcnkOa9ujQfzSooFcIqqvKQJg",
+      "status": "resolved_and_verified_in_full_document_readback",
+      "write_receipt": "receipts/add-slide-005.json",
+      "write_revision": 96
+    }
+  ],
+  "original_images_misaligned_count": 0,
+  "not_missing": [
+    {
+      "figure_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "This recording resumes the protocol-stack explanation after administrative remarks. It does not restart the cover/roadmap/section introduction. Figure5 covers the repeated PHY/MAC scope without unnecessary duplication of figure4."
+    },
+    {
+      "figure_numbers": [
+        7,
+        8,
+        9
+      ],
+      "reason": "The recording does not develop non-throughput amendments, generation naming, or the separate full-history visualization. Figure6 is the table explicitly described and is already present."
+    },
+    {
+      "figure_numbers": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reason": "Paragraphs23–41 add general background about a phone, AP, routers, IP, core and Internet. They do not introduce BSS/BSA/IBSS/ESS, roaming, scanning, authentication, or association. Board-drawing cues include the request for better markers at paragraph30; the later slides are not established as omitted lecture figures."
+    },
+    {
+      "figure_numbers": [
+        19,
+        20,
+        21
+      ],
+      "reason": "Paragraphs73–82 explain channel subsets and interference as a preview while discussing the evolution table, explicitly saying the detail will be seen later. They do not teach the 14-channel layout, 22 MHz widths, 5 MHz spacing, or the 1/6/11 labels shown in figures20–21. No confirmed omission; do not insert later detailed figures solely for mentioning three channels."
+    },
+    {
+      "figure_numbers_from": 22,
+      "reason": "The recording ends after the evolution-table PHY-technique and peak-rate discussion. It does not yet develop detailed rate adaptation, half-duplex, MAC algorithms, modulation diagrams or later generations. OFDM/MIMO are named only as table entries and promised for later explanation."
+    }
+  ],
+  "cautions": [
+    "All original bilingual text, including spoken/source inconsistencies and interjections, is retained verbatim; this is not a scientific correction or audio-to-text verification.",
+    "Repeated timestamps, especially the long 00:28:28 run, are preserved as given.",
+    "Paragraph15 Muy, paragraph25 Ours, paragraph40 Laughter and their Chinese text remain intact.",
+    "Paragraph16 says the antenna travels; paragraph46 places CRC in a header; paragraph85 gives an unusual OFDM expansion. These are preserved, not silently corrected.",
+    "Channel counts and peak-rate explanations are lecture claims, not independently updated technical guidance.",
+    "Only the source-status count may be updated by the parent to reflect the inserted figure and navigation; original body and original image remain unchanged.",
+    "Prepared only for the authorized private course repository; no independent public redistribution rights review."
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "figure_number": 5,
+      "slide_number": 5,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or overall document image order",
+      "title": "Where 802.11 Sits in the Protocol Stack",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 3,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=3",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-005.png",
+      "sha256": "a103053407f5cf107442970076d98ff1ce911dd703a45bc94e8b2a66b4bc6058",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnkOa9ujQfzSooFcIqqvKQJg",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第3页上半页 · 图5（802.11在协议栈中的位置）",
+      "original_caption": null,
+      "status": "added_and_verified_in_remote_document",
+      "after_paragraph": {
+        "ordinal": 5,
+        "timestamp": "00:04:30",
+        "block_id": "doxcndOEFmzRuqZxEWcqU6bRdll",
+        "heading": "05 · 00:04:30 · 接收端接入点与路由器的协议栈"
+      },
+      "before_paragraph": {
+        "ordinal": 6,
+        "timestamp": "00:05:52",
+        "block_id": "doxcnsCCv70ye48zl4jZNWUc9gh",
+        "heading": "06 · 00:05:52 · 接收端的物理层和MAC层"
+      },
+      "semantic_paragraph_spans": [
+        [
+          5,
+          22
+        ],
+        [
+          26,
+          46
+        ],
+        [
+          67,
+          68
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, text, table and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第5–22段讲收发端PHY/MAC及上层、解调、ACK和停止等待；第26–46段继续讲协议层与分工，第67–68段明确Wi-Fi仅规定PHY和MAC。图5直接展示这些层及对应功能，本录音在前一节基础上继续详讲，不能只依赖另一篇文档里的同图。",
+      "placement": "After paragraph6 H2 and before unchanged paragraph6",
+      "source_document": "https://lcn6dqn3m0yr.feishu.cn/docx/GSiDdfhZHoJ99Ux1XducLUkgn6b",
+      "source_image_block_id": "doxcnfmNIOxLJZDe1uRJxfNWcpd",
+      "source_download_receipt": "../course-1009-0759/audit/download-results.json",
+      "remote_download_sha256": "a103053407f5cf107442970076d98ff1ce911dd703a45bc94e8b2a66b4bc6058",
+      "remote_download_receipt": "audit/download-added-slide-005-receipt.json"
+    },
+    {
+      "image_ordinal": 2,
+      "figure_number": 6,
+      "slide_number": 6,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or overall document image order",
+      "title": "Standards Evolution: the Throughput Line",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 3,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=3",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-006.png",
+      "sha256": "d7a36a66b1a7d330499643f49a1b200d1c9ea0ec4d1489fe51286dd57f802c29",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnJYI54vtWLxMi5CNvK9pBeg",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第3页下半页 · 图6（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第3页下半页 · 图6（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 69,
+        "timestamp": "00:37:27",
+        "block_id": "doxcnznstErx3v6OxgBb10l2Sic",
+        "heading": "69 · 00:37:27 · 用版本演进表理解Wi-Fi发展"
+      },
+      "before_paragraph": {
+        "ordinal": 70,
+        "timestamp": "00:37:27",
+        "block_id": "doxcnJnYXCOw3hVz5tQtLpYlrAf",
+        "heading": "70 · 00:37:27 · Wi-Fi频段从2.4扩展到5和6GHz"
+      },
+      "semantic_paragraph_spans": [
+        [
+          69,
+          87
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, text, table and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第69段明确介绍这张标准演进表，第70–82段围绕频段演进和频率资源展开，第83–87段逐项讲PHY技术与峰值速率，与表的列对应。图6紧接第69段，位置准确。"
+    }
+  ],
+  "final_remote_verification": {
+    "snapshot": "blocks-final.json",
+    "snapshot_sha256": "f1251710ec3ae7fbdd9d7693f28862d26b719afd2d4a05e8bd97c94f55d6d040",
+    "all_original_non_root_blocks_except_status_unchanged": true,
+    "only_updated_original_content_block": "doxcnke8okIInKPl0hGiBnrmEJh",
+    "status_line_updated_to_correct_counts": true,
+    "status_has_no_stale_count_suffix": true,
+    "paragraph_count": 88,
+    "image_count": 2,
+    "heading2_count": 88,
+    "heading1_count": 8,
+    "original_image_order_and_neighbors_preserved": true,
+    "added_image_before_paragraph6_and_after_its_h2": true,
+    "added_image_bytes_identical_to_original_source": true
+  }
+}

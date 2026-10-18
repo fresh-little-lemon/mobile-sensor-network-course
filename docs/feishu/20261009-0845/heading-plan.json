@@ -1,0 +1,882 @@
+[
+  {
+    "ordinal": 1,
+    "block_id": "doxcn5NrMnd4nUK7DjeJnDVtCLb",
+    "text": "原标说话人 1  00:00:00\nChat in my laptop. I have other messaging applications that you cannot use. And so, I need to speak with the administrative staff, so that I can give the slides to them, and perhaps they can share them with you on WeChat or whatever you guys can use.\n我笔记本电脑上的聊天。我有其他消息应用，但你们不能使用。所以，我需要和行政工作人员谈一下，这样我可以把幻灯片交给他们，也许他们能通过微信或者你们大家能用的任何东西分享给你们。",
+    "timestamp": "00:00:00",
+    "text_sha256": "77bad227f04fb30c8cb658c2ca013e0b068c1f6a6175743f5727c543385fa259",
+    "heading": "01 · 00:00:00 · 协调行政人员分享课程幻灯片",
+    "h1_before": "一、课程幻灯片分享安排",
+    "anchor": "doxcnId6lcHnarenTFcsGQ9804c"
+  },
+  {
+    "ordinal": 2,
+    "block_id": "doxcnig1QWGeI1O0AaPjNPva5fb",
+    "text": "原标说话人 1  00:00:00\nBecause unfortunately, we don't have the same applications. I have got WeChat on my phone, but not on my laptop, and I cannot transfer all the slides into my phone, and then to share them using WeChat, so sorry about that, but we need the help of the administrative staff to do that.\n因为不幸的是，我们没有相同的应用。我的手机上有微信，但笔记本电脑上没有，而且我不能把所有幻灯片传到手机里，再用微信分享，所以对此很抱歉，不过，我们需要行政工作人员的帮助才能做到。",
+    "timestamp": "00:00:00",
+    "text_sha256": "986f7030dd5c94b7b1a48d7530d0c1fae3f9abc9908661616bdd57cf58f48f16",
+    "heading": "02 · 00:00:00 · 跨设备与微信传课件的困难",
+    "h1_before": "",
+    "anchor": "doxcnKffKzO8Cwaj6k1WXGzjXmh"
+  },
+  {
+    "ordinal": 3,
+    "block_id": "doxcnb6cJCTzRHjxTnpSPMqz7mc",
+    "text": "原标说话人 1  00:00:00\nOK, when we have the long break, I will go upstairs and ask the administrative staff how to do that, so hopefully by today we will receive the slides.\n好，等到长课间休息时，我会上楼问问行政工作人员该怎么做，所以，希望今天之内我们能收到幻灯片。",
+    "timestamp": "00:00:00",
+    "text_sha256": "29e6c666d0d564f9a8ac8692c226ca963e5349066877498e2aa639717e5a16ed",
+    "heading": "03 · 00:00:00 · 计划在课间联系行政人员",
+    "h1_before": "",
+    "anchor": "doxcnieu32OJ46rQlZViXie9Pjm"
+  },
+  {
+    "ordinal": 4,
+    "block_id": "doxcngDcUsCbNLz1900ExsCpWwe",
+    "text": "原标说话人 1  00:04:30\nOK, so, let's resume. So, this was the example of what happens as we said, of your phone when you want to upload to the phone and picture, for example.\n好，那么，我们继续。所以，这就是我们说过的那个例子，你的手机上会发生什么，比如，当你想上传到手机和图片时。",
+    "timestamp": "00:04:30",
+    "text_sha256": "823da5707d93c2e200a982e97ffed275ef2c8c12ca05e6b49050baf1f6211a02",
+    "heading": "04 · 00:04:30 · 恢复手机上传照片的例子",
+    "h1_before": "二、Wi-Fi收发两端与停止等待",
+    "anchor": "doxcn7W4ycIDYSSHbDChS7KanVg"
+  },
+  {
+    "ordinal": 5,
+    "block_id": "doxcndOEFmzRuqZxEWcqU6bRdll",
+    "text": "原标说话人 1  00:04:30\nSimilarly, we have a stack of layers at the receiver, OK? That in our case is the Wi-Fi access point, plus typically, if you're at home in your apartment, you have the access point plus a device, it is called router. If you don't know what a router is, don't worry, forget about it. OK? But let's just call it access point.\n同样，在接收端，我们有一个层次栈，好吗？在我们的情况下，它就是 Wi-Fi 接入点，再加上通常，如果你在家里、在自己的公寓里，会有接入点加上一个设备，它叫路由器。如果你不知道路由器是什么，不用担心，先忘掉它。好吗？不过，我们就把它叫接入点。",
+    "timestamp": "00:04:30",
+    "text_sha256": "3afee222853cf4ef930a4901e34df81186ccce861a67d9415a91ff717f689d13",
+    "heading": "05 · 00:04:30 · 接收端接入点与路由器的协议栈",
+    "h1_before": "",
+    "anchor": "doxcnYvvzEngLB7CjDjAPK3Strh"
+  },
+  {
+    "ordinal": 6,
+    "block_id": "doxcnsCCv70ye48zl4jZNWUc9gh",
+    "text": "原标说话人 1  00:05:52\nNow, on the receiver, you have again, the physical layer, the MAC layer, and then, somewhere, there are other other layers. OK? Let's focus on these layers that are Wi-Fi.\n现在，在接收端，同样有物理层、MAC 层，然后，在某个地方，还有其他、其他层。好吗？我们集中看这些属于 Wi-Fi 的层。",
+    "timestamp": "00:05:52",
+    "text_sha256": "1807aa7408a6391c812b4b7f9d27bffb5af0cc70241b54bab6b43ccdc4957fed",
+    "heading": "06 · 00:05:52 · 接收端的物理层和MAC层",
+    "h1_before": "",
+    "anchor": "doxcnAHuTnVtyMrUG8COShu8yYf"
+  },
+  {
+    "ordinal": 7,
+    "block_id": "doxcnuzqzvMtDoAXTGRADiX3Qxg",
+    "text": "原标说话人 1  00:05:52\nSo, your transmitter when it transmits the signal on the air, this signal travels till the antenna of the receiver, and here at the physical layer, we have the demodulation operation that we mentioned yesterday. Right?\n所以，当发射端把信号发射到空气中时，这个信号会一直传播到接收端的天线，而在这里的物理层，我们进行昨天提到过的解调操作。对吧？",
+    "timestamp": "00:05:52",
+    "text_sha256": "4206cc00b8969ef8d6bfbead59b333dc2aafe1580e293d45e0ef9a55b06f93aa",
+    "heading": "07 · 00:05:52 · 无线信号到达天线并进行解调",
+    "h1_before": "",
+    "anchor": "doxcni1KSwRLD3hRqS6SkFtQTmf"
+  },
+  {
+    "ordinal": 8,
+    "block_id": "doxcnr87gsLselxA41Dg4EZ22zt",
+    "text": "原标说话人 1  00:05:52\nSo, the signal gets demodulated. That means that we extract the bits from the signal. Ok? And also here they are grouped into packets. And this packet is then sent up to the MAC layer, that in WiFi will apply the stop and wait technique that we explain this morning. OK, so the receiver applies in Wi-Fi exactly the technique that we explained this morning, and understands whether this packet was received successfully or not.\n所以，信号被解调。这意味着我们从信号中提取比特。好吗？而在这里，它们也被分组成数据包。然后，这个数据包被向上送到 MAC 层，在 Wi-Fi 中，这一层会采用我们今天早上解释的停止等待技术。好，所以，在 Wi-Fi 中，接收端采用的正是我们今天早上解释的技术，并弄清这个数据包是否接收成功。",
+    "timestamp": "00:05:52",
+    "text_sha256": "57f71a5e12f0527010f65826daeedb76820e559de07b5b0d6d577308b9163e76",
+    "heading": "08 · 00:05:52 · 解调数据包并由MAC层执行停止等待",
+    "h1_before": "",
+    "anchor": "doxcn4sVZmsT50Y2BziQVc7T8Xf"
+  },
+  {
+    "ordinal": 9,
+    "block_id": "doxcnZTGmEcbqHW9chtAlUABEYe",
+    "text": "原标说话人 1  00:05:52\nIf the packet is received successfully, then it is sent to the higher layer, goes up.\n如果数据包接收成功，那么它就被发送到更高层，向上走。",
+    "timestamp": "00:05:52",
+    "text_sha256": "3f7c70fc56e17aec47d6b6ed15dbcfc424fa92630589e7c2eaa0dfb70c8e3b90",
+    "heading": "09 · 00:05:52 · 正确接收的数据包向上交付",
+    "h1_before": "",
+    "anchor": "doxcn6rPuWF3OlAeXk0HkroHMiW"
+  },
+  {
+    "ordinal": 10,
+    "block_id": "doxcnq1sm58gBVXsb4NUpjQVAcg",
+    "text": "原标说话人 1  00:08:16\nIf instead the ARQ technique and the MAC layer says the packet failed, then the MAC layer of Wi-Fi will send the acknowledgment, sorry, if it's correct, it goes up, and it sends the acknowledgment that is a packet that travels back to the transmitter.\n相反，如果 ARQ 技术和 MAC 层说数据包失败了，那么 Wi-Fi 的 MAC 层就会发送确认，对不起，如果它是正确的，它才向上走，而且它会发送确认，也就是一个返回发射端的数据包。",
+    "timestamp": "00:08:16",
+    "text_sha256": "5eb9fd78aabc0c23b1ab81635cf058653db0a888309a6bb9d41fe2a5fdc600db",
+    "heading": "10 · 00:08:16 · 成功接收后向上交付并发送确认",
+    "h1_before": "",
+    "anchor": "doxcniPuYFLxe2oBkeP0pLzRixy"
+  },
+  {
+    "ordinal": 11,
+    "block_id": "doxcnxovDr2BZLeMpC435Da6aDg",
+    "text": "原标说话人 1  00:08:16\nOtherwise, it says the packet failed, and he will do nothing. OK, good.\n否则，它会说数据包失败了，什么也不做。好，很好。",
+    "timestamp": "00:08:16",
+    "text_sha256": "4ab39205857bd5244cde75933afd26447caeb9bb8fdb4b1a3836066eb2fe4d48",
+    "heading": "11 · 00:08:16 · 接收失败时不发送确认",
+    "h1_before": "",
+    "anchor": "doxcnatOjVVuynvvZN0VRUQud8b"
+  },
+  {
+    "ordinal": 12,
+    "block_id": "doxcn6RASbQsrgrjpoJ7l2UchsV",
+    "text": "原标说话人 1  00:08:16\nSo let me repeat again because this is important. We are considering the user cell phone as a transmitter. So, we are considering that there is an application that generates data and generates packets.\n所以，让我再重复一遍，因为这很重要。我们把用户手机视为发射端。所以，我们考虑的是，有一个应用生成数据并生成数据包。",
+    "timestamp": "00:08:16",
+    "text_sha256": "291f2d08c38b577c89fa047ce693d9cfa99977dd05ec8561e3df7976fee2b1ed",
+    "heading": "12 · 00:08:16 · 回顾手机应用生成数据包",
+    "h1_before": "",
+    "anchor": "doxcnsBHJ5Pgk24quYluOGSasDh"
+  },
+  {
+    "ordinal": 13,
+    "block_id": "doxcn872HSrOkOeyqeiGONtQDTB",
+    "text": "原标说话人 1  00:08:16\nThose are application layer packets. These application layer packets are sent down through different functions that are called layers till they reach the MAC layer. If we are using Wi-Fi, the MAC layer, as we will explain better later, tells when a packet can be transmitted.\n那些是应用层数据包。这些应用层数据包通过称为层的不同功能向下发送，直到到达 MAC 层。如果我们使用 Wi-Fi，MAC 层，正如稍后会更详细解释的，会说明一个数据包什么时候可以发送。",
+    "timestamp": "00:08:16",
+    "text_sha256": "9a7a0c791ac93ddb986c8f09188d71c3c4ea519b66c2af1328f7d719369bfbca",
+    "heading": "13 · 00:08:16 · 应用数据逐层下行与MAC发送许可",
+    "h1_before": "",
+    "anchor": "doxcnHTLlhFb29p1NEosTSDOaTe"
+  },
+  {
+    "ordinal": 14,
+    "block_id": "doxcnJ05syjOyHNPzAwwoHrYdcb",
+    "text": "原标说话人 1  00:08:16\nWhen the MAC of Wi-Fi says the packet can be transmitted, then the packet is sent to the physical layer, where we perform, for example, modulation. And then we transmit the electromagnetic wave through the antenna.\n当 Wi-Fi 的 MAC 层说数据包可以发送时，数据包就被发送到物理层，在那里我们执行，例如，调制。然后，我们通过天线发射电磁波。",
+    "timestamp": "00:08:16",
+    "text_sha256": "51e83272c72361119f3d6e442567d7f1bb4cde74903fa9f0f8e026a3100b841b",
+    "heading": "14 · 00:08:16 · MAC批准后由物理层调制发送",
+    "h1_before": "",
+    "anchor": "doxcnepzvyFDBWqDwz62Zy1yN3b"
+  },
+  {
+    "ordinal": 15,
+    "block_id": "doxcnZxV8yrWAxCZroAqHlgIzoN",
+    "text": "原标说话人 1  00:10:17\nMuy.\nMuy。",
+    "timestamp": "00:10:17",
+    "text_sha256": "8811b11a2cf1cc4a3f3068b5ca1a42e78705f2f48ce5c22dc89c29984bf3a70e",
+    "heading": "15 · 00:10:17 · 课堂短句记录",
+    "h1_before": "",
+    "anchor": "doxcnVRud0eS6MvlRVs0JuOsWob"
+  },
+  {
+    "ordinal": 16,
+    "block_id": "doxcn9LlwidVa8dwbcUVn3ErZzB",
+    "text": "原标说话人 1  00:10:32\nThe antenna travels through the air, it reaches the antenna of the access point. It is received, we perform demodulation, that means we extract the bits, and then we group them into a packet that is sent to the MAC layer of the access point. OK, the access point is our receiver in this example.\n天线在空气中传播，到达接入点的天线。它被接收，我们进行解调，也就是提取比特，然后把它们分组成一个数据包，发送给接入点的 MAC 层。好，在这个例子里，接入点就是接收端。",
+    "timestamp": "00:10:32",
+    "text_sha256": "6778fafdfd104fd6fab804a58a0fee5a6ee66a6ca3fb5696b24f9852848d6f48",
+    "heading": "16 · 00:10:32 · 接入点解调并向MAC层交付",
+    "h1_before": "",
+    "anchor": "doxcn9WMi8clot2srGaePniZ7bg"
+  },
+  {
+    "ordinal": 17,
+    "block_id": "doxcntgxGZW1zuoJF51YUMjHxIh",
+    "text": "原标说话人 1  00:10:32\nAt the MAC layer of Wi-Fi, we apply the ARQ technique that we explained this morning.\n在 Wi-Fi 的 MAC 层，我们采用今天早上解释的 ARQ 技术。",
+    "timestamp": "00:10:32",
+    "text_sha256": "d303781d231b0a15d3b37d08b58fa7cbfbf8f5ba8b8bf337c723c07d02bd55ae",
+    "heading": "17 · 00:10:32 · 接收端MAC层使用ARQ",
+    "h1_before": "",
+    "anchor": "doxcnu9O2StilJi2l8alHObJUNf"
+  },
+  {
+    "ordinal": 18,
+    "block_id": "doxcnENCs6G3DeflzVSjPoMayah",
+    "text": "原标说话人 1  00:11:28\nSo, if the packet is received successfully, the MAC layer sends the packet up to other layers, and he generates an acknowledgment.\n所以，如果数据包接收成功，MAC 层就把数据包向上发送给其他层，并生成一个确认。",
+    "timestamp": "00:11:28",
+    "text_sha256": "2cd67c04f31491bfb4539ce2ddd18b99cd629b4503c4eef32c10cb90ef5147a5",
+    "heading": "18 · 00:11:28 · 接收成功后的上交与确认生成",
+    "h1_before": "",
+    "anchor": "doxcnxxXy0cOxK0BVX4uII2GxVf"
+  },
+  {
+    "ordinal": 19,
+    "block_id": "doxcnKkstsPsUebbFS3rhC3l620",
+    "text": "原标说话人 1  00:11:28\nThe acknowledgment is sent back, so down to the physical layer so that it can be sent back to the transmitter. The transmitter will get this acknowledgment, right? The signal. Now it demodulates the signal, extracts the bits from the acknowledgment, and sends this to the MAC layer of the transmitter, that understands that the packet was successful.\n确认被发回去，所以先向下到物理层，以便把它发回发射端。发射端会得到这个确认，对吧？这个信号。现在，它解调信号，从确认中提取比特，并把这个送到发射端的 MAC 层，后者便明白数据包成功了。",
+    "timestamp": "00:11:28",
+    "text_sha256": "94bf9ffc7a31375fc3cc942b89ac5d9fc66589ce0859d38a13d3c9aacda604c1",
+    "heading": "19 · 00:11:28 · ACK返回发射端的逐层处理",
+    "h1_before": "",
+    "anchor": "doxcnA9u7LqLv9RdnAaCRiy85Lc"
+  },
+  {
+    "ordinal": 20,
+    "block_id": "doxcnuLC9cT26pOByMHC2gYaDSe",
+    "text": "原标说话人 1  00:11:28\nIf instead, at the receiver, at the MAC layer of the receiver, we detect that the packet transmission failed, then the MAC does not send the packet up, because the packet is wrong, and it does not send any acknowledgment.\n相反，如果在接收端，在接收端的 MAC 层，我们检测到数据包传输失败，那么 MAC 层不会把数据包向上发送，因为数据包是错的，而且它不会发送任何确认。",
+    "timestamp": "00:11:28",
+    "text_sha256": "c3106429196caf2028ad7993a9239ed1ae88aa7b60a78b701e6bb5fb795daf1d",
+    "heading": "20 · 00:11:28 · 接收错误时不上交也不确认",
+    "h1_before": "",
+    "anchor": "doxcnISCMI8Uhp2C5LIVkbIP6qb"
+  },
+  {
+    "ordinal": 21,
+    "block_id": "doxcnZt9t9qVYFik4hJLA8GlaGf",
+    "text": "原标说话人 1  00:11:28\nOK, so in this case, according to the ARQ stop and wait technique, the transmitter just at the MAC layer just waits. Right? After the timeout says I did not receive any acknowledgment. So, it means that my packet transmission failed, and it will repeat, it will repeat the transmission.\n好，所以，在这种情况下，按照 ARQ 停止等待技术，发射端就在 MAC 层，只是等待。对吧？超时之后，它说，我没有收到任何确认。所以，这意味着我的数据包传输失败了，而它会重复，它会重复传输。",
+    "timestamp": "00:11:28",
+    "text_sha256": "cc13fe9974234749f710b2e49eb367ebe51d367dc72444a9b8ad226794f7a6da",
+    "heading": "21 · 00:11:28 · 等待超时后重传数据包",
+    "h1_before": "",
+    "anchor": "doxcnSEUiXttTmt5oovzyGieh9n"
+  },
+  {
+    "ordinal": 22,
+    "block_id": "doxcnnnCMbvhM6YhS9E2i4zcaIg",
+    "text": "原标说话人 1  00:11:28\nSo, this is just to connect the dots, OK? Because we explain the modulation, the modulation yesterday; today we explain the stop and wait technique. So, this is to put things together, and understand how these techniques are used in an transmitter and receiver, in particular considering Wi-Fi. OK? Good, is this clear? OK, so, let me add something else that is related to networking background, just to be sure that we all have that. Now.\n所以，这只是为了把各点串起来，好吗？因为我们昨天解释了调制、调制；今天解释了停止等待技术。因此，这是把这些内容组合起来，并理解这些技术在一个发射端和接收端中是如何使用的，特别是考虑 Wi-Fi 的时候。好吗？好，这清楚吗？好，那么，让我再补充一点与网络背景知识有关的内容，只是确保我们都有这些知识。现在。",
+    "timestamp": "00:11:28",
+    "text_sha256": "a8164c69a8fef1d66e55a07f0e3f5b881e62e2baa97c12093e2a66109c66e8e2",
+    "heading": "22 · 00:11:28 · 串联调制、停止等待与Wi-Fi收发",
+    "h1_before": "",
+    "anchor": "doxcn8J2pY20zL9p1za0aPb7Mtd"
+  },
+  {
+    "ordinal": 23,
+    "block_id": "doxcnsoCcaVVqMlEEeuSj6F8HQg",
+    "text": "原标说话人 1  00:14:59\nRemember what we said yesterday about network architectures in general. OK? Remember that we said we have wireless host or user device, can be a cell phone that is connected wirelessly with a point of access in Wi-Fi, the point of access is the access point. OK?\n回想一下昨天我们谈到的一般网络架构。好吗？记得我们说过，有无线主机或用户设备，它可以是一部手机，通过无线方式与一个接入节点连接，在 Wi-Fi 中，接入节点就是接入点。好吗？",
+    "timestamp": "00:14:59",
+    "text_sha256": "ebce370ec6e02cb6a399d5170cf0af39ed252f723fdaed0e83708a1826317ef7",
+    "heading": "23 · 00:14:59 · 无线主机与接入点的网络架构",
+    "h1_before": "三、接入点、路由器与互联网",
+    "anchor": "doxcnyKHUgkE2ULc0eVOIfBxjOc"
+  },
+  {
+    "ordinal": 24,
+    "block_id": "doxcnPNpLL9cmS8nfKs9D3dzTLb",
+    "text": "原标说话人 1  00:14:59\nAnd then we said the access point. The access point is connected through cables to what we called was the core or infrastructure, infrastructure network. OK? Good. So, the core we said is then connected through cables with the internet.\n然后，我们说了接入点。接入点通过线缆连接到我们称为核心或基础设施、基础设施网络的部分。好吗？好。那么，我们说过，核心随后通过线缆与互联网连接。",
+    "timestamp": "00:14:59",
+    "text_sha256": "e0286cf94c2fc39addf8071448ae3c2ad8c442b8807e7d36aed9151fe11d4b55",
+    "heading": "24 · 00:14:59 · 接入点、核心网络与互联网连接",
+    "h1_before": "",
+    "anchor": "doxcnolY5DgaCUpPoSTnJLPIoMe"
+  },
+  {
+    "ordinal": 25,
+    "block_id": "doxcnsSeivKLMULp1M5K8MBeEzA",
+    "text": "原标说话人 1  00:16:27\nOurs.\n我们的。",
+    "timestamp": "00:16:27",
+    "text_sha256": "a78cafbe7c3136db077ffc3721928e43f2f7cc7a3ced3ac1a9bd8f81ef8ac36b",
+    "heading": "25 · 00:16:27 · 课堂短句续接",
+    "h1_before": "",
+    "anchor": "doxcn3KTJ4frUo6hNYFOlSitLtR"
+  },
+  {
+    "ordinal": 26,
+    "block_id": "doxcnaPdi8lGImXx4FKpbk4Cc9b",
+    "text": "原标说话人 1  00:16:30\nNow, what we said this morning is, OK, this user consider Wi-Fi is the electronic, with the Wi-Fi card implements these layers, right? We call them layers, where we have the application, and then other layers that we mention being an TCP/IP, for example, others, and then we said there is the MAC, the Wi-Fi MAC, because now we are considering Wi-Fi, and the Wi-Fi physical layer. OK?\n现在，我们今天早上说的是，好，这个用户，考虑 Wi-Fi，是电子的，用 Wi-Fi 网卡实现这些层，对吧？我们把它们叫作层，其中有应用，然后是其他层，我们提过，例如 TCP/IP，以及其他的，然后我们说，有 MAC，Wi-Fi 的 MAC，因为现在考虑的是 Wi-Fi，还有 Wi-Fi 的物理层。好吗？",
+    "timestamp": "00:16:30",
+    "text_sha256": "2cd52e8bed6874fdf22ba6fccccf9ee19a36b41d03ea41b701c54aa8e4bb5bfc",
+    "heading": "26 · 00:16:30 · 用户设备中的应用、TCP/IP与Wi-Fi层",
+    "h1_before": "",
+    "anchor": "doxcn82IcVLhBBOd9u0YbYLJTfd"
+  },
+  {
+    "ordinal": 27,
+    "block_id": "doxcnWDuHUobjv7PX255x4yWGmb",
+    "text": "原标说话人 1  00:16:30\nNow, to be concrete, most of the Wi-Fi, sorry, of the physical layer is implemented in hardware, okay, mostly. All the rest is software, okay? So these functions that operate on the different layers are software.\n现在，具体来说，大部分 Wi-Fi，对不起，是大部分物理层，是用硬件实现的，好，主要是这样。其余全部是软件，好吗？所以，在不同层运行的这些功能是软件。",
+    "timestamp": "00:16:30",
+    "text_sha256": "c3e82fdeb8abc17f7b9fa191553e170e4ec7125a7f7766801014365575907dcd",
+    "heading": "27 · 00:16:30 · 协议层功能的硬件和软件实现",
+    "h1_before": "",
+    "anchor": "doxcn5M28IycyVRcPNh9xVSaBJ0"
+  },
+  {
+    "ordinal": 28,
+    "block_id": "doxcnDjSiJXCP4zeVzeiP6wJU9d",
+    "text": "原标说话人 1  00:17:56\nOK, and we said, when we generate, for example, a photo on the application layer, the bits are sent back through these software layers, okay? Software functions till they reach the physical layer. There we have a mix of physical and hardware.\n好，而且我们说过，比如，当我们在应用层生成一张照片时，比特会通过这些软件层往回发送，好吗？这些软件功能，直到它们到达物理层。在那里，我们有物理的东西与硬件的混合。",
+    "timestamp": "00:17:56",
+    "text_sha256": "d18f3aec7bc5632a7af7a082c5477ccfe87620d933df3fda4276b5e62354d145",
+    "heading": "28 · 00:17:56 · 照片数据穿过软件层到达物理层",
+    "h1_before": "",
+    "anchor": "doxcnVdjGUxlL8l2HeDNhpNRMTf"
+  },
+  {
+    "ordinal": 29,
+    "block_id": "doxcnYBbFPK6KyrkPkau9zW9YYe",
+    "text": "原标说话人 1  00:17:56\nFor example, the antenna is clearly hardware, okay. And then the signal is transferred wirelessly.\n例如，天线显然是硬件，好。然后，信号通过无线方式传输。",
+    "timestamp": "00:17:56",
+    "text_sha256": "3a6af5503d33461165a2ce36be4a409349d2317e44b09c5afff77d0c090817e0",
+    "heading": "29 · 00:17:56 · 天线硬件与无线信号传输",
+    "h1_before": "",
+    "anchor": "doxcnHvbbVJ4hWKxVlsXjPaOOEc"
+  },
+  {
+    "ordinal": 30,
+    "block_id": "doxcnU9Bc6HwecB0cCAk9yNIfBb",
+    "text": "原标说话人 1  00:18:35\nWe need to ask for better markers, because they don't work. We transfer the signal toward the access point, and in the access point, there are the physical layer, and then the MAC layer, and then other layers, OK?\n我们得要一些更好用的记号笔，因为这些不好使。我们把信号传向接入点，而在接入点中，有物理层，然后是 MAC 层，然后是其他层，好吗？",
+    "timestamp": "00:18:35",
+    "text_sha256": "65b7c7b680c3685c40cd49f243bec3f280e71c76288e3e657783e41f50deca68",
+    "heading": "30 · 00:18:35 · 接入点中的物理层和MAC层",
+    "h1_before": "",
+    "anchor": "doxcnZTf5lNpwGrWBK0h2qCLNGd"
+  },
+  {
+    "ordinal": 31,
+    "block_id": "doxcnS8hOaXSyxe5F5lsovRMNTy",
+    "text": "原标说话人 1  00:18:35\nNow, at the access point, there are no many layers, not as many as in the cell phone or user device. There is just one more layer here on top. And then, as I said, if you are at home, your access point comes with a router. So, you have an access point on top of it a router. And the router, for those of you who know what a router is, implements an IP layer, the network layer.\n现在，在接入点，没有很多层，不像手机或用户设备里那么多。这里上面只有另外一层。然后，正如我所说，如果你在家里，接入点会带着一个路由器。所以，你有一个接入点，在它上面有一个路由器。而路由器，对于你们当中知道路由器是什么的人来说，它实现一个 IP 层，也就是网络层。",
+    "timestamp": "00:18:35",
+    "text_sha256": "aa5537f345cf079eb464beb9404b1d09c925b145b34695716fe048688d39f3f5",
+    "heading": "31 · 00:18:35 · 家用接入点与路由器的IP层",
+    "h1_before": "",
+    "anchor": "doxcnggs9tKtfJJaTLkEFEj70Wc"
+  },
+  {
+    "ordinal": 32,
+    "block_id": "doxcn2a9180MiLaJ3C3xBH99HNd",
+    "text": "原标说话人 1  00:18:35\nBut then we're missing all the other layers, OK? Why? Because this layer, the IP layer. OK, the router is actually connected with the core, right?\n但这样一来，所有其他层就不在这里了，好吗？为什么？因为这一层，IP 层。好，路由器实际上是连接到核心的，对吧？",
+    "timestamp": "00:18:35",
+    "text_sha256": "aaf6d1746f13f8f4381e61039ad99fc45a32ccbf3bd7171036c919f35deb7278",
+    "heading": "32 · 00:18:35 · 路由器与核心网络的连接",
+    "h1_before": "",
+    "anchor": "doxcnCYdHl2YonpYWJAxlzM9bQb"
+  },
+  {
+    "ordinal": 33,
+    "block_id": "doxcn8wOZUILA2DvnyhUpNEDHng",
+    "text": "原标说话人 1  00:18:35\nAnd in the core, we have more routers, OK? Other network devices, other network nodes that are called routers, and each router will have its own physical layer, MAC layer, and then the IP, ok, network layer.\n而在核心中，我们有更多路由器，好吗？其他网络设备、其他称为路由器的网络节点，而每个路由器都有自己的物理层、MAC 层，然后是 IP，好，网络层。",
+    "timestamp": "00:18:35",
+    "text_sha256": "f0af9a679f30b0b3114272ce0a41add764b80eea73d05a2d396764240ad3da9f",
+    "heading": "33 · 00:18:35 · 核心路由器的物理、MAC与网络层",
+    "h1_before": "",
+    "anchor": "doxcngNRLckYgYqMC2pdBzAR9ie"
+  },
+  {
+    "ordinal": 34,
+    "block_id": "doxcnKL629NqvEE1vl9upc3nqFh",
+    "text": "原标说话人 1  00:18:35\nSo what happens is that the access point then is connected through cables with the physical layer of another router that, at the MAC layer, receives the data from its physical layer, sends the data up, up till the IP layer.\n所以，发生的事情是，接入点随后通过线缆连接到另一台路由器的物理层，后者在 MAC 层接收来自自己物理层的数据，把数据向上发送，向上，直到 IP 层。",
+    "timestamp": "00:18:35",
+    "text_sha256": "7f262cb4e857f7d8c3385cc42985afb8062ff7516bd98091241919c8726ad11d",
+    "heading": "34 · 00:18:35 · 通过有线链路向下一台路由器交付",
+    "h1_before": "",
+    "anchor": "doxcnKxG3QwSiKVuWXHuyHQtzhh"
+  },
+  {
+    "ordinal": 35,
+    "block_id": "doxcnqKhyRkrLOlgXq62xpZv5Hf",
+    "text": "原标说话人 1  00:21:06\nMaybe connected through other routers till we reach a router that is also a gateway toward the internet. So, this is a router that is also a gateway toward the internet. And this router again has got the physical layer, the MAC layer, this layer here that is the LLC, but it doesn't matter, and the IP layer, OK?\n可能还会通过其他路由器连接，直到我们到达一台也作为通往互联网网关的路由器。所以，这是一台也作为通往互联网网关的路由器。而这台路由器同样有物理层、MAC 层、这里这个 LLC 层，不过这不重要，还有 IP 层，好吗？",
+    "timestamp": "00:21:06",
+    "text_sha256": "af086dd56500c286a03e7a9a82763391de173430c4f538d2f0ff1585b32158cf",
+    "heading": "35 · 00:21:06 · 经过多台路由器抵达互联网网关",
+    "h1_before": "",
+    "anchor": "doxcnCmGJ0qE16u1SwqAktrblZe"
+  },
+  {
+    "ordinal": 36,
+    "block_id": "doxcnU1M6xQ1Jn04weCjROgGk1d",
+    "text": "原标说话人 1  00:21:06\nSo, these routers communicate with each other through cables, and again, through their physical layer they communicate. This physical layer will send packets to this physical layer, it will go up in the IP layer, and then to other routers that are in the internet. So, this is how networks work.\n所以，这些路由器通过线缆相互通信，而且，同样，它们通过自己的物理层通信。这个物理层会把数据包发送给那个物理层，它会向上进入 IP 层，然后到达互联网中的其他路由器。所以，这就是网络的工作方式。",
+    "timestamp": "00:21:06",
+    "text_sha256": "45b62e6ea3f0455c68110f07036cb547d6af69e51de7d2382c8d6275e7a8a02a",
+    "heading": "36 · 00:21:06 · 路由器之间的逐层通信",
+    "h1_before": "",
+    "anchor": "doxcn0gRHtrtP2IvdnAcEnb1bRd"
+  },
+  {
+    "ordinal": 37,
+    "block_id": "doxcnQCtsWT1apEZJLLpF91mmrd",
+    "text": "原标说话人 1  00:22:17\nOk. We are going to focus on Wi-Fi in our case, so, only on this wireless connectivity between the user device and the access point, but it is important that you understand what is beyond the Wi-Fi access point.\n好。在我们的情况下，我们会集中讲 Wi-Fi，所以，只讲用户设备与接入点之间的这段无线连接，但理解 Wi-Fi 接入点后面是什么也很重要。",
+    "timestamp": "00:22:17",
+    "text_sha256": "4f9d48ef42a9b9908ece88bc74e6e7c5483718f9ce3d877e2a3f54bc07b62681",
+    "heading": "37 · 00:22:17 · Wi-Fi链路与接入点后方网络",
+    "h1_before": "",
+    "anchor": "doxcnEJ1drUyv9SWXNZDt90Bymd"
+  },
+  {
+    "ordinal": 38,
+    "block_id": "doxcnwTbFF6jQxtScZ1lGOe2qLc",
+    "text": "原标说话人 1  00:22:47\nBeyond the Wi-Fi access point, there are routers. Routers are network nodes where we find physical layer, the MAC layer, another layer that it doesn't matter right now, and the IP layer. And routers are able to route packets toward the internet. OK? So packets will hop from one router to another till we reach the router that is the first router that is in the internet, that is called gateway to the internet. And then once you're there, you are in the internet. Okay? And there are other routers that route your packet depending on where the packet has to go.\nWi-Fi 接入点后面是路由器。路由器是网络节点，在里面有物理层、MAC 层、另一个现在不重要的层，以及 IP 层。而路由器能够把数据包路由到互联网。好吗？所以，数据包会从一个路由器跳到另一个，直到我们到达那台路由器，也就是互联网中的第一台路由器，它叫作通往互联网的网关。然后，一旦到了那里，你就在互联网里了。好吗？而且，还有其他路由器，根据数据包需要去哪里来路由你的数据包。",
+    "timestamp": "00:22:47",
+    "text_sha256": "31adb425b6aa0b9a3828898361077bf33ba8d978c0de51b4e9a745b80556b17f",
+    "heading": "38 · 00:22:47 · 数据包逐跳路由进入互联网",
+    "h1_before": "",
+    "anchor": "doxcnYG8hjJeAHYtMQ7eckSUZzR"
+  },
+  {
+    "ordinal": 39,
+    "block_id": "doxcnWF5Ln2ui8z68zUrZzCXCfh",
+    "text": "原标说话人 1  00:23:50\nSimilarly, when we want to receive information, let's say you want to download a video, or again, photo, whatever, you do that from the internet, right? You download something from the internet.\n同样，当我们想接收信息时，比如，你想下载一段视频，或者还是一张照片，随便什么，你从互联网上这样做，对吧？你从互联网下载某个东西。",
+    "timestamp": "00:23:50",
+    "text_sha256": "28c4a838ce7981d91438370c75e75130977d801e8b95ade577e2dbb586e51db4",
+    "heading": "39 · 00:23:50 · 从互联网下载视频或照片",
+    "h1_before": "",
+    "anchor": "doxcnK7BPN49bds7jZRGCzKutKd"
+  },
+  {
+    "ordinal": 40,
+    "block_id": "doxcnCMalsIBcb4jqKiyHt8BVAc",
+    "text": "原标说话人 1  00:24:13\nLaughter.\n笑声。",
+    "timestamp": "00:24:13",
+    "text_sha256": "c0a146aa41afcfba7262feb73ddbbc20c3d173daa7d883ce70fc3822117f030d",
+    "heading": "40 · 00:24:13 · 课堂笑声记录",
+    "h1_before": "",
+    "anchor": "doxcnXPV698MfLdJTiKjgCiwUNc"
+  },
+  {
+    "ordinal": 41,
+    "block_id": "doxcn80xfkEXFjYeRj9cU4PONmh",
+    "text": "原标说话人 1  00:24:15\nThe packets come from the internet. They are sent through the routers toward where you are. So, from router to router in that case, the packet travel till they reach the access point where you are connected. So, the access point gets these packets, and it transmits this packet to you. Right? So, the packets come from this way, they are handled by these functions, these layers, and then transmitted toward you, toward your Wi-Fi card. Is it clear how packet information flow? You want me to repeat? This is something important, so everybody needs to understand that. So just tell me if something was unclear.\n数据包来自互联网。它们经过路由器，向你所在的位置发送。因此，在这种情况下，从一个路由器到另一个路由器，数据包一直传输，直到到达你所连接的接入点。所以，接入点得到这些数据包，然后把这个数据包发送给你。对吧？所以，数据包从这个方向过来，由这些功能、这些层处理，然后发送给你，发向你的 Wi-Fi 网卡。数据包信息怎样流动，清楚吗？要我重复吗？这是很重要的内容，所以每个人都需要理解。因此，如果哪里不清楚，就告诉我。",
+    "timestamp": "00:24:15",
+    "text_sha256": "9393a8a569d46d5c03634879a17f8d591e956bfc58e57ea050db7906bc232d3a",
+    "heading": "41 · 00:24:15 · 下载数据经路由器和接入点返回用户",
+    "h1_before": "",
+    "anchor": "doxcnPeqM0oX9hg1SpdF005yvie"
+  },
+  {
+    "ordinal": 42,
+    "block_id": "doxcnxfl1Y7O7V6MQ9UPfYBZnhE",
+    "text": "原标说话人 1  00:25:46\nGuys, you let me know, because then, in the end, we have a test, an easy test, but we have a test. So, at that point, I'm going to ask these kind of questions, so, on the main concepts, but I'm going to ask, you know, information about the main concepts. So, if you do not understand, let me know. I assume that this is clear. OK, that's all.\n同学们，要告诉我，因为之后，最后，我们有一次考试，一次简单的考试，但我们有考试。所以，到那个时候，我会问这类问题，也就是关于主要概念的问题，不过我会问，你们知道的，关于主要概念的信息。所以，如果没理解，请告诉我。我假设这一点已经清楚了。好，就这些。",
+    "timestamp": "00:25:46",
+    "text_sha256": "99418d85b26e9fe3ebe9267f553ffd92d0758a50ee06d9d766f78bbd63b15d69",
+    "heading": "42 · 00:25:46 · 考试围绕核心概念与及时答疑",
+    "h1_before": "",
+    "anchor": "doxcnevGOmIZrkxToQZZT4fTWUe"
+  },
+  {
+    "ordinal": 43,
+    "block_id": "doxcn1DvXEzZ4P1yErUReQ40kld",
+    "text": "原标说话人 1  00:26:17\nWi-Fi specify how the physical and MAC layer work. OK? Now we understood, I hope how the physical layer, what the physical layer does, more or less, right?\nWi-Fi 规定物理层和 MAC 层如何工作。好吗？现在，我们理解了，希望如此，物理层如何，物理层做什么，大体上，对吧？",
+    "timestamp": "00:26:17",
+    "text_sha256": "54aa20d6801b0c89c5fd4b36fdea000c9d60cb190648b177547d62c1ff54733b",
+    "heading": "43 · 00:26:17 · Wi-Fi规定物理层与MAC层功能",
+    "h1_before": "四、物理层与MAC层功能回顾",
+    "anchor": "doxcnfPBzhReWl9xVH8MAZlADIh"
+  },
+  {
+    "ordinal": 44,
+    "block_id": "doxcnUN8cNBRwYQSF6hcxBaQZwd",
+    "text": "原标说话人 1  00:26:17\nAt the transmitter it modulates the signal, it transmits the signal through the antenna, at the receiver, it gets the signal, and it demodulates the signal, so it extracts the bits. That's in a nutshell what the physical layer does.\n在发射端，它调制信号，通过天线发射信号；在接收端，它得到信号，并解调信号，也就是提取比特。简而言之，这就是物理层做的事情。",
+    "timestamp": "00:26:17",
+    "text_sha256": "b373bd31a9fbb066e3f19409198503186089149526a2ebbf41e81ad8c79cb042",
+    "heading": "44 · 00:26:17 · 物理层的调制发送与解调接收",
+    "h1_before": "",
+    "anchor": "doxcnqWaldcDNVXfOH0t3ZLf2xc"
+  },
+  {
+    "ordinal": 45,
+    "block_id": "doxcnAYSFhhjbhXryS9p6cNFdKf",
+    "text": "原标说话人 1  00:26:17\nNow, what does the MAC layer do? The MAC layer, as we said, at the transmitter decides when the packet should be transmitted, and sends the packet to the physical layer that actually transmits the packet. OK?\n现在，MAC 层做什么呢？正如我们说过的，在发射端，MAC 层决定数据包应该什么时候发送，并把数据包送到真正发送数据包的物理层。好吗？",
+    "timestamp": "00:26:17",
+    "text_sha256": "1c5c94245f4182cbc80f17374ba00239ce1af02df8e9c7da234d792f7bacbd84",
+    "heading": "45 · 00:26:17 · 发送端MAC层决定发送时机",
+    "h1_before": "",
+    "anchor": "doxcnxq75DYVbUc9T0Pkc3FZFhf"
+  },
+  {
+    "ordinal": 46,
+    "block_id": "doxcnd7nMYF3pi7JDCSk7pg7EMg",
+    "text": "原标说话人 1  00:26:17\nAt the receiver, as we said, it will get the bits that the physical layer has understood, right? The packet that the physical layer understood, and checks if the packet has been received correctly or not. So, as a receiver, we know what the MAC layer does, right? It compares the CRC computed locally. To what? To the CRC that was included in the packet header? Remember what we said this morning? So, that's the operation that is performed at the receiver's MAC layer.\n在接收端，正如我们说过的，它会得到物理层理解出来的比特，对吧？物理层理解出来的数据包，并检查数据包是否被正确接收。所以，作为接收端，我们知道 MAC 层做什么，对吧？它把本地计算的 CRC 进行比较。跟什么比？跟数据包首部中包含的 CRC 比？还记得今天早上我们说过的吗？所以，这就是接收端 MAC 层执行的操作。",
+    "timestamp": "00:26:17",
+    "text_sha256": "bc6570b12c8acd433060c2967cf582a37971277a50ac23bf3aed86527ba69bfb",
+    "heading": "46 · 00:26:17 · 接收端MAC层通过CRC检查数据包",
+    "h1_before": "",
+    "anchor": "doxcnuzPR8kXTp8RgiBPCnmsDlf"
+  },
+  {
+    "ordinal": 47,
+    "block_id": "doxcnQGxV47iKQBFhzrJyz5KLPb",
+    "text": "原标说话人 1  00:28:28\nAt the transmitter's MAC layer, we said it decides when the packet has to be transmitted, OK?\n在发射端的 MAC 层，我们说过，它决定数据包什么时候必须发送，好吗？",
+    "timestamp": "00:28:28",
+    "text_sha256": "0c6c293f91fb1be7936dad0dce0fc22e794eb441bb4d69df29ad862b9cd5258c",
+    "heading": "47 · 00:28:28 · 再次明确MAC层的发送决策",
+    "h1_before": "",
+    "anchor": "doxcnVD2atMiubZDLOou5nArSXe"
+  },
+  {
+    "ordinal": 48,
+    "block_id": "doxcnzH0CieJRgtnhOdb3AEhYUh",
+    "text": "原标说话人 1  00:28:28\nWe will provide details on how this transmission is made, that's the main point of Wi-Fi. OK, how Wi-Fi MAC layer does that?\n我们会详细介绍这种传输如何进行，那是 Wi-Fi 的主要内容。好，Wi-Fi 的 MAC 层怎么做到这一点呢？",
+    "timestamp": "00:28:28",
+    "text_sha256": "a43429bf4bbb08f98bc688dedf4cd5ee5c8973d75d5af828dc62b4107763799b",
+    "heading": "48 · 00:28:28 · 引出Wi-Fi的介质访问机制",
+    "h1_before": "",
+    "anchor": "doxcnNKdSWmShlcdlQUSTkLEaec"
+  },
+  {
+    "ordinal": 49,
+    "block_id": "doxcnLuJsGxsf8M2fPGbuNb9Mgd",
+    "text": "原标说话人 1  00:28:28\nBut let me just give you an example of a MAC layer function that we humans use.\n不过，让我先给你们举一个我们人类也使用的 MAC 层功能的例子。",
+    "timestamp": "00:28:28",
+    "text_sha256": "52329dfffc82358ae61fabf4961ec5393fcdb702c8dd23cb333e65556ad510cc",
+    "heading": "49 · 00:28:28 · 用人类行为类比MAC功能",
+    "h1_before": "五、课堂发言类比介质访问控制",
+    "anchor": "doxcnFVoQMna0qW7b172XPp7G1g"
+  },
+  {
+    "ordinal": 50,
+    "block_id": "doxcnUjQeQhNkeUmGDnwfnXRISg",
+    "text": "原标说话人 1  00:28:28\nWhen we are in a classroom, at least in Italy, I think you are doing something similar here, we are in a shared environment, right? It's a classroom. So, if one speaks, everyone else can listen and hopefully understand the information, right?\n当我们在教室里时，至少在意大利如此，我想你们这里也做着类似的事，我们处在一个共享环境里，对吧？它是一间教室。所以，如果一个人讲话，其他所有人都能听见，并且希望能理解信息，对吧？",
+    "timestamp": "00:28:28",
+    "text_sha256": "e52f65936c29023d93a308604afa1ef75314c78d8d5da9e566bf11ea2eb9ba80",
+    "heading": "50 · 00:28:28 · 教室作为共享通信环境",
+    "h1_before": "",
+    "anchor": "doxcn4qdvmj0qqUjQ09elZTs67c"
+  },
+  {
+    "ordinal": 51,
+    "block_id": "doxcnnjIVQw2uNIOA53c9AX5kvb",
+    "text": "原标说话人 1  00:28:28\nSo, the classroom is like the wireless channel, the air, because if I say something, it travels everywhere in the classroom. Right? If we have a Wi-Fi card that transmits a signal, the signal travels everywhere.\n所以，教室就像无线信道、空气，因为如果我说些什么，它就会传播到教室里的各个地方。对吧？如果有一块 Wi-Fi 网卡发射信号，信号就会传播到各处。",
+    "timestamp": "00:28:28",
+    "text_sha256": "54345e0b86cfacfbbb3c5941dc52a753beca4fa6ae8b84a9576b43ee503e5891",
+    "heading": "51 · 00:28:28 · 课堂声音与无线信号的传播类比",
+    "h1_before": "",
+    "anchor": "doxcnuCjQ1jYsxRx0YPXoPs7SCh"
+  },
+  {
+    "ordinal": 52,
+    "block_id": "doxcn10mxaopEFJpRRc1atnCQlr",
+    "text": "原标说话人 1  00:28:28\nSo, the classroom is like the wireless channel here, through which the Wi-Fi signal travels. OK, so it's our physical medium.\n所以，教室就像这里的无线信道，Wi-Fi 信号通过它传播。好，所以，它是我们的物理介质。",
+    "timestamp": "00:28:28",
+    "text_sha256": "6a66b764fc5fec4042ccad645b8f4464d1ae8d7214647d17b1b8b8b356881dc8",
+    "heading": "52 · 00:28:28 · 共享无线信道作为物理介质",
+    "h1_before": "",
+    "anchor": "doxcnyNBFMxRkZaPfhkyp9NbIXc"
+  },
+  {
+    "ordinal": 53,
+    "block_id": "doxcnrJwgtBvhDtrMTKn4NBGKUh",
+    "text": "原标说话人 1  00:28:28\nOK, we in the classroom are like Wi-Fi cards, I can be the access point. You can be the Wi-Fi cards, OK?\n好，我们在教室里的人就像 Wi-Fi 网卡，我可以是接入点。你们可以是 Wi-Fi 网卡，好吗？",
+    "timestamp": "00:28:28",
+    "text_sha256": "9f2add46e231b29fd0bf0815724f5664a9058bb6a08aff42ced2713d521dd862",
+    "heading": "53 · 00:28:28 · 师生分别类比接入点与Wi-Fi网卡",
+    "h1_before": "",
+    "anchor": "doxcnSSsa8Upj3mzbPXY5muaKbV"
+  },
+  {
+    "ordinal": 54,
+    "block_id": "doxcni3IE1VKtLERU00qPjdA8hb",
+    "text": "原标说话人 1  00:28:28\nNow, consider that there are several Wi-Fi cards that want to send something to the access point. So, it's like students that would like to say, to tell me something. OK? If you s, I mean, if the students who want to say something, start talking at the same time, I will not understand.\n现在，假设有好几块 Wi-Fi 网卡想向接入点发送一些东西。所以，这就像学生想说、想告诉我些什么。好吗？如果你说，我的意思是，如果想说话的学生同时开始讲话，我就无法理解。",
+    "timestamp": "00:28:28",
+    "text_sha256": "3952df77dc5c2a26b06ce2a224792dce7bedd3d2e5e53234f98655573a0df5c3",
+    "heading": "54 · 00:28:28 · 多人同时说话类比同时发射",
+    "h1_before": "",
+    "anchor": "doxcnU1RDgcFWMTtNuohCXMRUCh"
+  },
+  {
+    "ordinal": 55,
+    "block_id": "doxcnNSG1OXYANTPStdXnMgOPve",
+    "text": "原标说话人 1  00:28:28\nWhy? Because their voices, their signals overlap, right? And the SNR that I get is too low.\n为什么？因为他们的声音、他们的信号重叠了，对吧？而我得到的信噪比太低。",
+    "timestamp": "00:28:28",
+    "text_sha256": "b0612ea2604bf55ebf9c6a866b7bd5005e9227710d58906e2bf27530c5d7f7aa",
+    "heading": "55 · 00:28:28 · 信号重叠导致接收信噪比降低",
+    "h1_before": "",
+    "anchor": "doxcn6FamygJHQ8nst3ZOZJ0Iwd"
+  },
+  {
+    "ordinal": 56,
+    "block_id": "doxcns9rAK5EXQjsRRLDIoDAJl0",
+    "text": "原标说话人 1  00:28:28\nWhy? Because the voice, the power of the useful signal of a student is interfered by the voice of another student.\n为什么？因为一个学生的声音、有用信号的功率，受到了另一个学生声音的干扰。",
+    "timestamp": "00:28:28",
+    "text_sha256": "f16fc867047b3e7bba4ccd3dc6155f2cd6b454b1aa81de7e2b0b8ea85e13cb2e",
+    "heading": "56 · 00:28:28 · 其他发言者造成有用信号干扰",
+    "h1_before": "",
+    "anchor": "doxcnD0GHfF0kqNirE4r7FrjtUe"
+  },
+  {
+    "ordinal": 57,
+    "block_id": "doxcnr3ilHKlHPOY3BCCjsLiEIe",
+    "text": "原标说话人 1  00:28:28\nSo, the SNR that I measure for the voice of a student is too low. We have the power of one voice at the numerator, and at the denominator there is noise, it's low, OK? But there is interference power, the power of the other voices that interfere.\n所以，我测得的某个学生声音的信噪比太低。分子里是一个声音的功率，而分母里有噪声，它很低，好吗？不过还有干扰功率，也就是其他造成干扰的声音的功率。",
+    "timestamp": "00:28:28",
+    "text_sha256": "bae77549ad63d7593766837a29ae2819841630e4785ecf9f45ab001957b46a0b",
+    "heading": "57 · 00:28:28 · 声音例子中的信号、噪声与干扰功率",
+    "h1_before": "",
+    "anchor": "doxcnTkrhdIR7Z4Ov7C2OSkfzih"
+  },
+  {
+    "ordinal": 58,
+    "block_id": "doxcnO82KYz4LikfldWsfqzBwNg",
+    "text": "原标说话人 1  00:28:28\nSo, the SNR is too low, the SINR is too low, and I cannot understand. OK?\n所以，信噪比太低，信干噪比太低，我就无法理解。好吗？",
+    "timestamp": "00:28:28",
+    "text_sha256": "b1f8e5ad3332efba655d608d62beda86e9239db11c20894a23cf199914446ace",
+    "heading": "58 · 00:28:28 · 信干噪比过低导致无法理解",
+    "h1_before": "",
+    "anchor": "doxcnwhrIBNV7Gns7m8nHDOEbPd"
+  },
+  {
+    "ordinal": 59,
+    "block_id": "doxcn1KSrDhmXinoFXQQXKP7dEg",
+    "text": "原标说话人 1  00:28:28\nSo, in the Wi-Fi, we have exactly the same issue, same problem. If there are several Wi-Fi cards that want to send data to the same access point, if they transmit their signals at the same time, we say that they are going to collide, because they overlap, and the access point cannot demodulate any signal correctly. So all the information will be lost. That's why we need an MAC layer at the transmitter that decides when it can transmit.\n因此，在 Wi-Fi 中，我们有完全相同的情况、相同的问题。如果有好几块 Wi-Fi 网卡想向同一个接入点发送数据，如果它们同时发射信号，我们就说它们将发生碰撞，因为它们重叠了，接入点无法正确解调任何一个信号。所以，所有信息都会丢失。这就是为什么我们在发射端需要一个 MAC 层，由它决定何时可以发送。",
+    "timestamp": "00:28:28",
+    "text_sha256": "6baef0045a3b04b2730d3586a1194f953dba33b5afab84981d7337eaf8e67e66",
+    "heading": "59 · 00:28:28 · 同时发射碰撞与MAC协调的必要性",
+    "h1_before": "",
+    "anchor": "doxcnjXE6y5jl9L8yGUEENMb0dW"
+  },
+  {
+    "ordinal": 60,
+    "block_id": "doxcnYSCN6u72oktjEJnILLOgZe",
+    "text": "原标说话人 1  00:28:28\nWhat is the MAC function that students use in a classroom to decide when they can speak, when they can access the channel? What is your MAC function doing? When you want to say something in a classroom, what do you do?\n学生在教室里使用什么 MAC 功能，来决定什么时候可以讲话、什么时候可以接入信道呢？你们的 MAC 功能在做什么？当你们想在教室里说些什么时，你们会怎么做？",
+    "timestamp": "00:28:28",
+    "text_sha256": "7d6c6543897ffa65ce8ec6a296dc4bbb0695a7d1727c4f71d33ccbded71617b3",
+    "heading": "60 · 00:28:28 · 课堂发言如何决定接入时机",
+    "h1_before": "",
+    "anchor": "doxcn7kdtGJsJgtg729qxCnhEig"
+  },
+  {
+    "ordinal": 61,
+    "block_id": "doxcngTjdKQ1ejufcmSvRKqVrkd",
+    "text": "原标说话人 1  00:34:01\nThis is a simple question. What do you do? When you, you would like to say something to me, what do you do in the classroom here if others are speaking? Right, right. That's one thing that you do for sure.\n这是一个简单的问题。你们会怎么做？当你、你想对我说些什么时，如果其他人正在讲话，你在这里的教室里会怎么做？对，对。这肯定是你们会做的一件事。",
+    "timestamp": "00:34:01",
+    "text_sha256": "cb041094443397b1bf8855f2f1b7bfa320b1e6e907b409d8061c81ec6b023579",
+    "heading": "61 · 00:34:01 · 讨论他人讲话时的发言方式",
+    "h1_before": "",
+    "anchor": "doxcnqj3C3wgrhDdmOBwq65yvUg"
+  },
+  {
+    "ordinal": 62,
+    "block_id": "doxcnirRWgquluvdTTzHF1hc0pe",
+    "text": "原标说话人 1  00:34:01\nAnd then if, for example, someone is speaking, but you want to speak as well, what do you do? Wait. Wait, right?\n然后，例如，如果有人在讲话，但你也想讲话，你会怎么做？等待。等待，对吧？",
+    "timestamp": "00:34:01",
+    "text_sha256": "e824f87bcfa1979c76734a5dede972e4ee1f3aef9239228ae0a5244a0234e2e2",
+    "heading": "62 · 00:34:01 · 等待他人结束后再发言",
+    "h1_before": "",
+    "anchor": "doxcn5Vy93BrVzWZ0c93ED1CNrg"
+  },
+  {
+    "ordinal": 63,
+    "block_id": "doxcnegFzvUsVPhBGhSz6kYeE3g",
+    "text": "原标说话人 1  00:34:37\nIn Italy, actually, what we do, so everyone has got different MAC functions, right? Italian students raise their hand.\n在意大利，实际上，我们的做法，所以，每个人都有不同的 MAC 功能，对吧？意大利学生会举手。",
+    "timestamp": "00:34:37",
+    "text_sha256": "7363421fed2140d98842ea5addbcfd52dfa06787bbb928c4651c7c03cd2cb750",
+    "heading": "63 · 00:34:37 · 举手发言作为另一种接入规则",
+    "h1_before": "",
+    "anchor": "doxcnvSUtdw7CIWXAwTpQPWq8if"
+  },
+  {
+    "ordinal": 64,
+    "block_id": "doxcnpELWWg6ywB0rN8sFNsas1d",
+    "text": "原标说话人 1  00:34:37\nSo, even if nobody is speaking, they do not start speaking. They first raise their hands. OK, so, see, there are different MAC functions. OK, so countries are like technologies, right? Cultures are like technologies, and we have different, let's say different protocols, automatically. But you got the idea of what a MAC protocol does. Hmm. OK, so, this is what we humans do.\n所以，即使没有人讲话，他们也不会开始讲话。他们先举手。好，所以，你看，有不同的 MAC 功能。好，所以，国家就像技术，对吧？文化就像技术，而我们有不同的，可以说，不同的协议，自然而然地。不过，你们已经明白 MAC 协议做什么了。嗯。好，那么，这就是我们人类的做法。",
+    "timestamp": "00:34:37",
+    "text_sha256": "6c11ddbeb60ad36bdf5df06896268112c83c76b67ad8b8f545492130677f51ee",
+    "heading": "64 · 00:34:37 · 不同课堂规则类比不同MAC协议",
+    "h1_before": "",
+    "anchor": "doxcne9dGbTQVgdx5fpSigm1Zx0"
+  },
+  {
+    "ordinal": 65,
+    "block_id": "doxcnXrZcADBQXfK3cADkjtZB1f",
+    "text": "原标说话人 1  00:34:37\nThe Wi-Fi MAC protocol, okay, the MAC layer function has certain rules according to which it would say, OK, now I can transmit this packet, and it sends the packet down to the physical layer. OK, and the Wi-Fi MAC layer will do something very similar to what you said.\nWi-Fi 的 MAC 协议，好，MAC 层功能有一定的规则，它会根据这些规则说，好，现在我可以发送这个数据包，然后把数据包向下送到物理层。好，而且 Wi-Fi 的 MAC 层会做与你们说的非常相似的事情。",
+    "timestamp": "00:34:37",
+    "text_sha256": "362eb24f8495d25917da1f64608e3fb43c8664b085a5bab59c840fa7d38276fd",
+    "heading": "65 · 00:34:37 · Wi-Fi MAC依据规则允许发送",
+    "h1_before": "",
+    "anchor": "doxcnh40wPs7DcPYxEQSrTo6jtb"
+  },
+  {
+    "ordinal": 66,
+    "block_id": "doxcnh112if0EI98x5xWWnRaote",
+    "text": "原标说话人 1  00:36:06\nOK, the rules that it follows are actually very similar to human behavior that you described. Very, very similar. Almost the same. OK, that's sad. Let me, before going into the technical details, let me give you just some, let's say historical introduction to Wi-Fi.\n好，它遵循的规则实际上与你们描述的人类行为非常相似。非常、非常相似。几乎一样。好，这很遗憾。让我，在进入技术细节之前，让我给你们作一点，可以说，关于 Wi-Fi 的历史介绍。",
+    "timestamp": "00:36:06",
+    "text_sha256": "b7e467b4e2492ab8e65e81ece7c5167c9039af05e929ffe6bbff5cc8d2d5f2ea",
+    "heading": "66 · 00:36:06 · 从人类接入行为转向Wi-Fi历史",
+    "h1_before": "六、Wi-Fi标准与频段演进",
+    "anchor": "doxcnAqIOCPcbJrYWFGBS7Fe4Dg"
+  },
+  {
+    "ordinal": 67,
+    "block_id": "doxcn2KjNgKQ1g2G2GzHiltCAjb",
+    "text": "原标说话人 1  00:36:06\nSo, as I said, the first standard appeared in 1997, many years ago, and as I said, we had some rules specified by Wi-Fi that essentially specify what the physical layer and the MAC layer do. OK? So, see, this is the standard IEEE 802.11 that we said denotes the Wi-Fi documents. OK.\n所以，正如我说过的，第一个标准出现在 1997 年，很多年前了，而正如我说过的，Wi-Fi 规定了一些规则，这些规则基本上规定物理层和 MAC 层做什么。好吗？所以，看，这就是 IEEE 802.11 标准，我们说过，它表示那些 Wi-Fi 文档。好。",
+    "timestamp": "00:36:06",
+    "text_sha256": "59d04f4f7ebccdbd22fb27f62e021f65857ec50532c019591bfb7a1213961ced",
+    "heading": "67 · 00:36:06 · 1997年首版802.11与两层规范",
+    "h1_before": "",
+    "anchor": "doxcnfxmtOzIH43LpumuVjH0HNf"
+  },
+  {
+    "ordinal": 68,
+    "block_id": "doxcnpCXzKUomAQXoS3npF5Xe6d",
+    "text": "原标说话人 1  00:36:06\nOther layers on top are specified by other standards. OK. Wi-Fi is only about physical and MAC functions. Specifies only those functions.\n上面的其他层由其他标准规定。好。Wi-Fi 只涉及物理功能和 MAC 功能。只规定那些功能。",
+    "timestamp": "00:36:06",
+    "text_sha256": "d5c31ecb6902c54b61c0a88e79c4c315fa8d19e12b5320861210f19a8ab028a4",
+    "heading": "68 · 00:36:06 · Wi-Fi上层由其他标准规定",
+    "h1_before": "",
+    "anchor": "doxcnIQlRQQSfUanQSA54vvJPFe"
+  },
+  {
+    "ordinal": 69,
+    "block_id": "doxcnznstErx3v6OxgBb10l2Sic",
+    "text": "原标说话人 1  00:37:27\nOK, so this is a table that presents many information that you don't have to remember. OK, but the table is useful to understand how the technology has evolved through the years, and what is the trend of evolution of Wi-Fi. So, here you have the specific name of the standard document. And as I said, they are called 802.11, but since through the years, they have produced many different standards versions of Wi-Fi, they have distinguished the documents by adding letters, A, B, and so on. OK? So this denotes just the version of WiFi from the oldest one, as you can see here, to the more recent one.\n好，那么，这是一张给出了许多信息的表，你们不需要记住这些信息。好，不过，这张表有助于理解这项技术这些年来如何演进，以及 Wi-Fi 的演进趋势是什么。所以，这里有标准文档的具体名称。正如我说过的，它们叫 802.11，不过，由于这些年来产生了许多不同的标准、Wi-Fi 的版本，他们通过添加字母 A、B 等等来区分这些文档。好吗？因此，这只是表示 Wi-Fi 的版本，正如你们在这里看到的，从最老的版本到更新的版本。",
+    "timestamp": "00:37:27",
+    "text_sha256": "2916087c09a2946220c272cb2091908cf0091ff6e1fd934fc2178a8d6c981283",
+    "heading": "69 · 00:37:27 · 用版本演进表理解Wi-Fi发展",
+    "h1_before": "",
+    "anchor": "doxcnpO9ciV8cVvxbAm0EwaU0Zb"
+  },
+  {
+    "ordinal": 70,
+    "block_id": "doxcnJnYXCOw3hVz5tQtLpYlrAf",
+    "text": "原标说话人 1  00:37:27\nAs I said, the Wi-Fi evolution is still going on, so we have some specifications that are actually going on. OK, now let's consider the portion of the spectrum in which Wi-Fi operates. The first version operated at 2.4 gigahertz, and the second one, then they started operating at 5 gigahertz. Then they used both 2.4 and 5. And now we have 2.4,5 and 6 gigahertz. OK.\n正如我说过的，Wi-Fi 的演进仍在继续，所以，实际上有一些规范还在推进中。好，现在我们考虑 Wi-Fi 所工作的那部分频谱。第一个版本工作在 2.4 吉赫兹，而第二个版本，随后它们开始工作在 5 吉赫兹。然后，它们同时使用 2.4 和 5。现在，我们有 2.4、5 和 6 吉赫兹。好。",
+    "timestamp": "00:37:27",
+    "text_sha256": "3c6be95f503f9aeb74614fb1c467fcd626129da8bd29c6cfd3d66862387d82a0",
+    "heading": "70 · 00:37:27 · Wi-Fi频段从2.4扩展到5和6GHz",
+    "h1_before": "",
+    "anchor": "doxcn0grXvPBiW240ipFtnq0tUh"
+  },
+  {
+    "ordinal": 71,
+    "block_id": "doxcnLIllWwvfAdANDyRFEoanub",
+    "text": "原标说话人 1  00:37:27\nNow, what we see is that the frequency at which Wi-Fi operates has increased, and this matches what we said yesterday. The trend in wireless communication is to use higher and higher frequencies.\n现在，我们看到，Wi-Fi 工作的频率已经提高了，这与我们昨天说的相符。无线通信的趋势是使用越来越高的频率。",
+    "timestamp": "00:37:27",
+    "text_sha256": "584d365a6aea3f2f05201d91838bdd3baccfca967e8950c7b7026b9cf14b5e5f",
+    "heading": "71 · 00:37:27 · 无线通信使用更高频率的趋势",
+    "h1_before": "",
+    "anchor": "doxcncA40iTLNNAKq7keUFYWaag"
+  },
+  {
+    "ordinal": 72,
+    "block_id": "doxcn0zqff8DUhZBMEpCRuh2QBf",
+    "text": "原标说话人 1  00:39:59\nSo, this matches what we said yesterday. And also yesterday we mentioned that Wi-Fi operates in portions of the spectrum that are free. So, you don't need to pay any license to operate with Wi-Fi.\n所以，这与我们昨天说的相符。而且昨天我们还提到，Wi-Fi 工作在频谱中免费的部分。因此，使用 Wi-Fi 工作时，你不需要支付任何许可证费用。",
+    "timestamp": "00:39:59",
+    "text_sha256": "7ab0b2415160bd2644f61763cf26b5910b8caf61d2f2176fdea37f49d884db2d",
+    "heading": "72 · 00:39:59 · Wi-Fi使用免许可频谱",
+    "h1_before": "",
+    "anchor": "doxcnA3qOCdR6iq8LomV4elFZsZ"
+  },
+  {
+    "ordinal": 73,
+    "block_id": "doxcnJquOrauBTHDjNLjxxf3S0f",
+    "text": "原标说话人 1  00:40:28\nOK, now that said, it is important then as we will specify also, also later, to say that depending on which portion of the spectrum, Wi-Fi works, whether at 2.4 or at 5, or at 6 GHz, there may be different frequency bands, frequency channels that can be used a different number.\n好，现在，讲到这里，接下来重要的是，正如我们稍后也会、也会具体说明的，要指出，根据 Wi-Fi 工作在哪部分频谱，是 2.4、5，还是 6 GHz，可能会有不同的频带、频率信道可以使用，数量也不同。",
+    "timestamp": "00:40:28",
+    "text_sha256": "0e2327600c4b993b21a5058e52fefe12df6a71f53acdf4a4c509c19ae687c72f",
+    "heading": "73 · 00:40:28 · 不同工作频段的可用信道数量",
+    "h1_before": "",
+    "anchor": "doxcnkMQaCqhDMfT1RUmqnZ4zzh"
+  },
+  {
+    "ordinal": 74,
+    "block_id": "doxcnFRhI35Mav8Kd8kb7XktUSh",
+    "text": "原标说话人 1  00:40:28\nSo, for example, if this is, we'll see that also later, but if this is the portion of spectrum around 2.4 gigahertz, here Wi-Fi can use three channels, OK? Three sub-portions of this spectrum. This is a portion of a sub-portion of the frequencies, it's called channel, frequency channel. This is another sub portion of these frequencies, it is another frequency channel, and here is a third subportion of the frequencies that is called the third frequency channel. OK.\n所以，例如，如果这是，我们稍后也会看，不过，如果这是 2.4 吉赫兹附近的那部分频谱，那么这里 Wi-Fi 可以使用三个信道，好吗？这部分频谱的三个子区域。这是频率的一个部分、一个子区域，它叫信道、频率信道。这是这些频率的另一个子区域，它是另一个频率信道，而这里是频率的第三个子区域，叫作第三个频率信道。好。",
+    "timestamp": "00:40:28",
+    "text_sha256": "fbdeb40cc444786221f6113bceabea130a4d31ea34a6aefb72fb14269daad864",
+    "heading": "74 · 00:40:28 · 2.4GHz频谱划分与三个信道示例",
+    "h1_before": "",
+    "anchor": "doxcnfbN54KJzUCBj9QqTvs14hg"
+  },
+  {
+    "ordinal": 75,
+    "block_id": "doxcni0zuDU8LIJrXnQmrzNZ2Af",
+    "text": "原标说话人 1  00:40:28\nSo, when Wi-Fi operates around 2.4 gigahertz, there, there are three possible frequency bands, frequency channels that can be used.\n所以，当 Wi-Fi 工作在 2.4 吉赫兹附近时，那里、那里有三个可能使用的频带、频率信道。",
+    "timestamp": "00:40:28",
+    "text_sha256": "ffbb1eb0a6d29d59cc8768a6c31afcc6d38ab21c1f4b50aa6252c2f17ff4e3d7",
+    "heading": "75 · 00:40:28 · 2.4GHz可选频率信道回顾",
+    "h1_before": "",
+    "anchor": "doxcnR7WvMQ30wQxDudpIwG3cvf"
+  },
+  {
+    "ordinal": 76,
+    "block_id": "doxcnd8JyT8maunQmjjlITiWAMe",
+    "text": "原标说话人 1  00:42:25\nThat means that a Wi-Fi card can actually transmit and receive either here or this subportion, or over this portion, or over this portion, but not, cannot, in the early versions, you cannot use all these frequencies at once. OK? You can only use one of this frequency channels at the time.\n这意味着，一块 Wi-Fi 网卡实际上可以在这里，或这个子区域，或这个区域，或这个区域发射和接收，不过不能，不能，在早期版本中，你不能同时使用所有这些频率。好吗？一次只能使用这些频率信道中的一个。",
+    "timestamp": "00:42:25",
+    "text_sha256": "c02b99d64e57cbe6e533ecbfa823d28c02fb12c7f57211d400086cb9feabaf0e",
+    "heading": "76 · 00:42:25 · 早期版本一次只使用一个信道",
+    "h1_before": "",
+    "anchor": "doxcnIp5Q0ffxTFroEfzsn56Hee"
+  },
+  {
+    "ordinal": 77,
+    "block_id": "doxcnFwQJGGP3rChqIKzX0dfFlh",
+    "text": "原标说话人 1  00:42:25\nOK, when we are operating at 5 GHz, we have 12 possible frequency channels, right? Not three, but twelve. When we operate at six gigahertz, we may have up to 24 frequency channels. So, this means that when we move from 2.4 to using 2.4, 5 or 6, this means that here we could use only, for in general, for Wi-Fi, one of these three frequency channels. If we are here, we can choose one of the possible channels that are three at 2.4 gigahertz, twelve at 5 gigahertz, twenty-four and 6 gigahertz. So many more.\n好，当我们工作在 5 GHz 时，有 12 个可能的频率信道，对吧？不是三个，而是十二个。当我们工作在六吉赫兹时，最多可能有 24 个频率信道。所以，这意味着，当我们从 2.4 转向使用 2.4、5 或 6 时，这意味着在这里我们只能使用，对于一般的 Wi-Fi 而言，这三个频率信道中的一个。如果我们在这里，就可以选择这些可能信道中的一个，它们在 2.4 吉赫兹处有三个，在 5 吉赫兹处有十二个，在 6 吉赫兹处有二十四个。所以，多得多。",
+    "timestamp": "00:42:25",
+    "text_sha256": "4a60562f447a35ab669dc6d675ed9a5f85d3878a0f9b5566f7b3b51cfde23dcc",
+    "heading": "77 · 00:42:25 · 比较2.4、5与6GHz的信道数量",
+    "h1_before": "",
+    "anchor": "doxcnzhBuB4LXKOE2XdMDsAMhNz"
+  },
+  {
+    "ordinal": 78,
+    "block_id": "doxcnY6JE4J5aut3zv2AduCAWDd",
+    "text": "原标说话人 1  00:44:18\nAnd this matches the indeed evolution of the technology popularity, because Wi-Fi has become more and more popular. So, at the beginning, these three channels were enough. Now that we have access points everywhere, we needed to use more frequency channels. Why? Because in this way, we can avoid interference.\n而这确实与这项技术普及程度的演进相符，因为 Wi-Fi 已经越来越普及。因此，一开始，这三个信道就够了。如今，接入点到处都是，我们就需要使用更多频率信道。为什么？因为通过这种方式，我们可以避免干扰。",
+    "timestamp": "00:44:18",
+    "text_sha256": "12c5885cb250a3dcf13db462ce418093a0a1720d56224b0579eaafb5152f370d",
+    "heading": "78 · 00:44:18 · 接入点普及推动更多信道需求",
+    "h1_before": "七、信道扩展与干扰隔离",
+    "anchor": "doxcn2qBvKEXoK4dZVeW1dm37Ch"
+  },
+  {
+    "ordinal": 79,
+    "block_id": "doxcn8GHDGWvN27IgNbCpJrxzvc",
+    "text": "原标说话人 1  00:44:18\nConsider this case. If you have two different access points, you may want to let one access point operate here, and the second access point operate here. So that they use different frequencies, so their transmissions are separated, because they use different frequencies.\n考虑这种情况。如果有两个不同的接入点，你可能会想让一个接入点工作在这里，让第二个接入点工作在那里。这样，它们使用不同频率，因此传输被分开，因为它们使用不同频率。",
+    "timestamp": "00:44:18",
+    "text_sha256": "09e7f35818955a4eed5faba0bd6eac971d3d06e9b44ee343cce9c70c5f974fa1",
+    "heading": "79 · 00:44:18 · 不同接入点使用不同频率减少干扰",
+    "h1_before": "",
+    "anchor": "doxcn2aLQ2aS1ORRYI4XbhAYHSc"
+  },
+  {
+    "ordinal": 80,
+    "block_id": "doxcnByVsLYLke0YqPFUFz4sFnd",
+    "text": "原标说话人 1  00:44:18\nSo, it's like one frequency channel is like one classroom, 206 where we are. These other frequency channel is 204, the other classroom. This one is the other classroom, 202. So, if there are three professors, one teaching in one classroom, another one in the other classroom, another in the in the other classroom. OK, I may hear a faint voice, but we are separated, right? So, we do not interfere, we do not disturb each other. If we have four professors, right, and only three classrooms, then we are in trouble. Because\n所以，这就像，一个频率信道就像一间教室，我们所在的 206。这另一个频率信道是 204，另一间教室。这个是另一间教室，202。所以，如果有三位教授，一位在一间教室教课，另一位在另一间教室，还有一位在、在另外一间教室。好，我可能会听到微弱的声音，不过我们是隔开的，对吧？所以，我们不会相互干扰，不会相互打扰。如果有四位教授，对吧，但只有三间教室，那我们就有麻烦了。因为",
+    "timestamp": "00:44:18",
+    "text_sha256": "2087d9229e5ebc853a6dce63b7dd61fdedd30ded1f2d37e77cdf25995be3d677",
+    "heading": "80 · 00:44:18 · 不同信道类比不同教室",
+    "h1_before": "",
+    "anchor": "doxcnTVHdyxXeSsf8C4c98RT2te"
+  },
+  {
+    "ordinal": 81,
+    "block_id": "doxcn7QBAgJjmCxRjfbEDvSkath",
+    "text": "原标说话人 1  00:46:36\nanother professor will teach in this same classroom, and then the interference would be very very high. We can't do that, right? So, that's why, as we get more and more access points working because the technology has become very popular, when we had to allocate more frequency channels.\n另一位教授也会在同一间教室里教课，随后干扰就会非常、非常大。我们不能这样做，对吧？所以，这就是为什么随着这项技术变得非常普及，工作的接入点越来越多，我们就必须分配更多频率信道。",
+    "timestamp": "00:46:36",
+    "text_sha256": "a421436b740ad1c0782eeeb22657aaf0ff857d6ba0f463e61ee34562670a9d7d",
+    "heading": "81 · 00:46:36 · 教室不足类比同频干扰增加",
+    "h1_before": "",
+    "anchor": "doxcnADTm8tnE4UXrT3l5LV2XU0"
+  },
+  {
+    "ordinal": 82,
+    "block_id": "doxcnB57VVEKrHPjp2VBQnXPJva",
+    "text": "原标说话人 1  00:47:03\nIt's like having more and more professors that have to teach at the same time, and we need more classrooms. Right? So, that's the trend in Wi-Fi.\n这就像越来越多的教授必须同时授课，而我们需要更多教室。对吧？所以，这就是 Wi-Fi 的趋势。",
+    "timestamp": "00:47:03",
+    "text_sha256": "5de5e4e7c9baee4d889fc51eb692a6328f4d98c99bad8f6f600f048a4daa0b4d",
+    "heading": "82 · 00:47:03 · 更多接入点需要更多可用信道",
+    "h1_before": "",
+    "anchor": "doxcn0zs3wPG9RUL4h07wm7pmdd"
+  },
+  {
+    "ordinal": 83,
+    "block_id": "doxcnP8Zonw0A8PK6GV8TfLIn0Y",
+    "text": "原标说话人 1  00:47:03\nOK, that said, the other thing to notice is that, as the standard evolve, they used more and more sophisticated ways to transmit the signal at the physical layer.\n好，说到这里，另一个要注意的事情是，随着标准演进，它们在物理层使用了越来越复杂精细的方法来发射信号。",
+    "timestamp": "00:47:03",
+    "text_sha256": "6cba5106d9122718ea720948892fc6f63fc7d422d4493b4e54f12f568cff8814",
+    "heading": "83 · 00:47:03 · 标准演进中的物理层复杂化",
+    "h1_before": "八、物理层技术与速率演进",
+    "anchor": "doxcnxwK0hDKBQzchxdNrugEBAb"
+  },
+  {
+    "ordinal": 84,
+    "block_id": "doxcnod3zKJza8bQJjWW4QYytx4",
+    "text": "原标说话人 1  00:47:42\nDon't worry, we will focus mostly on the MAC layer, and the MAC layer has slightly changed over the different evolutions. So, it will not be too complicated, OK? But just to know that at the physical layer, so here the functions that allow us to modulate the signal and then transmit the signal has become more and more complex as the Wi-Fi technology has evolved.\n不要担心，我们主要关注 MAC 层，而 MAC 层在不同的演进阶段只发生了小幅变化。所以，它不会太复杂，好吗？不过，只是要知道，在物理层，也就是这里让我们能够调制信号、然后发射信号的那些功能，随着 Wi-Fi 技术的演进，已经变得越来越复杂。",
+    "timestamp": "00:47:42",
+    "text_sha256": "b031c49e20c1af8618986da4ae60b7485eb153a4002a08ed8bb7d036b473406e",
+    "heading": "84 · 00:47:42 · 课程侧重MAC并概述物理层演进",
+    "h1_before": "",
+    "anchor": "doxcny8FPGsogk01dCrC6F3juBg"
+  },
+  {
+    "ordinal": 85,
+    "block_id": "doxcnfmAdAOxmWjMHWnTCNmuhhc",
+    "text": "原标说话人 1  00:48:25\nRight now, we are using, as you can see, OFDM. OK, OFDM is the most used modulation. It means orthogonal frequency the gram modulation, and we are going to explain how how it works. It is used also in cellular communications, so it's very very popular, it's very efficient.\n目前，我们正在使用，正如你们看到的，OFDM。好，OFDM 是使用最多的调制。它的意思是“orthogonal frequency the gram modulation”，而我们会解释它怎样、怎样工作。蜂窝通信也使用它，所以它非常、非常普及，效率非常高。",
+    "timestamp": "00:48:25",
+    "text_sha256": "638b709a653fe14a056a49a269d6d4b93c22fb907f199ae3c72f22d8c6eb5a5f",
+    "heading": "85 · 00:48:25 · 引入OFDM及其应用",
+    "h1_before": "",
+    "anchor": "doxcnHLLQCCKmWXgSDY5Fk4P7Rh"
+  },
+  {
+    "ordinal": 86,
+    "block_id": "doxcnQM85hhayMj5TvI045f1Flf",
+    "text": "原标说话人 1  00:48:25\nBut you can also see that through the years, I mean through the different evolutions, they have something more than OFDM, OK? They have OFDM plus MIMO, and we are going to see what that is. They have got OFDM plus multiuser MIMO, and many other things. So, the physical layer has become more and more sophisticated in order to improve how the signal is actually transmitted over the air.\n不过，你们还可以看到，这些年来，我的意思是在不同的演进阶段，它们有了比 OFDM 更多的东西，好吗？它们有 OFDM 加 MIMO，而我们会看看那是什么。它们有 OFDM 加多用户 MIMO，以及许多其他东西。所以，物理层已经变得越来越复杂精细，以改善信号实际在空气中发射的方式。",
+    "timestamp": "00:48:25",
+    "text_sha256": "330ac61d2234c03233145a4745cc09cd70c43ba2a86385af21a6496a459a6ef5",
+    "heading": "86 · 00:48:25 · OFDM结合MIMO与多用户MIMO",
+    "h1_before": "",
+    "anchor": "doxcnJ0TG3qOPd8XiQJKr7q3Wyb"
+  },
+  {
+    "ordinal": 87,
+    "block_id": "doxcn8uo80k83QYbL76H7SM6jee",
+    "text": "原标说话人 1  00:49:34\nOK, and in parallel with these evolutions, so as the physical layer has got better and better, they were able to provide higher and higher speeds. This is the number of bits that can be transmitted per second by a Wi-Fi card. As you can see that at the beginning, we started with one or two megabits per second, and now it's up to 46 gigabits per second. A gigabit means 46,10 to the 9 bits per second, while mega is 10 to the 6. OK, so we increase by three orders of magnitude, more or less. Huge increase in the speed at which the Wi-Fi cards can transmit bits. OK, this is the trend.\n好，而且，与这些演进并行，也就是说，随着物理层变得越来越好，它们能够提供越来越高的速度。这是 Wi-Fi 网卡每秒能够发送的比特数量。正如你们看到的，最初我们从每秒一或两个兆比特开始，而现在最高达到每秒 46 吉比特。一个吉比特意味着 46、每秒 10 的 9 次方比特，而兆是 10 的 6 次方。好，所以，我们提高了大约三个数量级，差不多。Wi-Fi 网卡传输比特的速度有了巨大的增长。好，这就是趋势。",
+    "timestamp": "00:49:34",
+    "text_sha256": "1b4c398f25d35424963d2fad9a29372d888f960b5bc68375cdcc42408feeb714",
+    "heading": "87 · 00:49:34 · 物理层演进带来的传输速率增长",
+    "h1_before": "",
+    "anchor": "doxcnAB6jFVR5lI0iTd56u5ayWj"
+  },
+  {
+    "ordinal": 88,
+    "block_id": "doxcnVXzzoWpBbTKSQ1PhJs2FBg",
+    "text": "原标说话人 1  00:50:49\nOK, let's stop for 25 minutes. I will go upstairs and try to speak with the administrative staff, and then I will come back. Hopefully, I will sort it out in 20 minutes.\n好，我们停下来休息 25 分钟。我会上楼试着与行政工作人员谈一下，然后回来。希望我能在 20 分钟内把这件事解决。",
+    "timestamp": "00:50:49",
+    "text_sha256": "8ce487e17d8cf38a9289d4ca89dc348380b17b92fe73fe756876c8fca08a12bf",
+    "heading": "88 · 00:50:49 · 长课间休息与课件分享安排",
+    "h1_before": "",
+    "anchor": "doxcnUak1E6ldGnv66qDoFdgsOg"
+  }
+]
