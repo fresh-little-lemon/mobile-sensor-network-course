@@ -21,7 +21,7 @@
     "sections": 18,
     "sentence_pairs": 124,
     "specific_change_records": 70,
-    "unresolved_records": 48,
+    "unresolved_records": 49,
     "all_block_ids_match_current_snapshot": true,
     "all_sentence_joins_validated": true,
     "all_nonempty_before_quotes_found_in_current_english": true
@@ -4265,8 +4265,8 @@
           "uncertainty": "Qwen49尾部but it is，Qwen50/F/medium that is；此候选按相邻更完整窗口及F保留that is，不新增which从句。"
         },
         {
-          "en": "Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous four interframe space, the extended IFS.",
-          "zh": "好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的四个帧间间隔，扩展IFS。",
+          "en": "Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous [four/for/form unclear] interframe space, the extended IFS.",
+          "zh": "好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的〔four/for/form，确切措辞待听辨〕帧间间隔，扩展IFS。",
           "source_support": [
             "Feishu historical snapshot 08e6132, original source paragraph 96",
             "Feishu historical snapshot 08e6132, original source paragraph 97",
@@ -4274,7 +4274,7 @@
             "Qwen recovery raw commit2887ed5, window 50",
             "new unprompted medium.en chunk-031, absolute 5500.96–5528.54s"
           ],
-          "uncertainty": "保留introduce后缺宾语、what actually与singular space；F last piece for.Of，Q/W last piece of，介词可能是假起句，标疑；W needed，F/Q need。"
+          "uncertainty": "保留introduce后缺宾语、what actually与singular space；F last piece for.Of，Q/W last piece of，介词可能是假起句，标疑；W needed，F/Q need。 原Feishu为for、Qwen50为four、medium031 segment18为form；不按协议知识强定four或fourth，正文显式待听辨。"
         },
         {
           "en": "Remember the extended IFS. Remember the priority ladder, we have SIFS, PIFS, [DIFS/PIFS unclear], and extended IFS.",
@@ -4337,8 +4337,8 @@
         },
         {
           "before": "We just need to introduce it, and we will do that after the break: this last piece of the protocol, related to something we already know about, the famous four interframe spaces, the extended IFS.",
-          "after": "Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous four interframe space, the extended IFS.",
-          "reason": "恢复Okay/so、原省略宾语、do时态、what actually、know already词序与space单数；不保留编辑增补it/will。need/needed及起句介词冲突标疑。",
+          "after": "Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous [four/for/form unclear] interframe space, the extended IFS.",
+          "reason": "恢复Okay/so、原省略宾语、do时态、what actually、know already词序与space单数；不保留编辑增补it/will。need/needed及起句介词冲突标疑。 famous后原Feishu for、Qwen50 four、medium031 segment18 form近音不稳，补显式待听辨；不定译四个。",
           "sources": [
             "Feishu historical snapshot 08e6132, original source paragraph 96",
             "Feishu historical snapshot 08e6132, original source paragraph 97",
@@ -4456,13 +4456,23 @@
           ],
           "evidence": "F/Q50 so；Qtail/W or",
           "decision": "相关位置保留待听辨，不把标准说法或流畅语法当原话。"
+        },
+        {
+          "phrase": "famous four/for/form interframe space",
+          "alternatives": [
+            "four",
+            "for",
+            "form"
+          ],
+          "evidence": "Feishu source paragraph97: the famous for interframe space; Qwen window50: The famous four interframe space; medium chunk031 segment18 absolute5519.40–5528.54: the famous form in the frame space.",
+          "decision": "补正文英中显式疑点；fourth不是已识别候选，不凭协议语义强定四个或第四。"
         }
       ],
-      "english": "Okay, that said, we are just missing one last mechanism in the Wi-Fi channel access, and then we are done with the basic version of Wi-Fi, that is the most important one. Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous four interframe space, the extended IFS. Remember the extended IFS. Remember the priority ladder, we have SIFS, PIFS, [DIFS/PIFS unclear], and extended IFS. So, we [said/start unclear], let's first focus on SIFS and [DIFS/PIFS unclear], understand how they are used, and then we'll go back to the other [time/timing unclear] intervals. So, now it's time to talk about the longest among these [time/timing unclear] intervals. That was indeed the extended IFS. And just to give you an idea, this extended IFS, [so/or unclear] this [time/timing unclear] interval, can be as long as about three hundred microseconds, so definitely longer than the others that we have considered so far.",
-      "chinese": "好，说到这里，我们在Wi-Fi信道接入中就只剩最后一个机制还没有讲，然后我们就讲完Wi-Fi的基础版本了，那是最重要的一个版本。好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的四个帧间间隔，扩展IFS。记住扩展IFS。记住这个优先级阶梯，我们有SIFS、PIFS、〔DIFS/PIFS待听辨〕，还有扩展IFS。所以，我们〔said/start，确切措辞待听辨〕，我们先关注SIFS和〔DIFS/PIFS待听辨〕，理解它们是怎样使用的，然后我们再回到其他的〔time/timing，时间修饰词待听辨〕间隔。所以，现在到了讨论这些〔time/timing，时间修饰词待听辨〕间隔中最长的那个的时候了。那确实就是扩展IFS。而且，只是为了让你有个概念，这个扩展IFS，〔so/or，所以/或者，待听辨〕这个〔time/timing，时间修饰词待听辨〕间隔，可以长到大约三百微秒，所以肯定比我们到目前为止考虑过的其他那些更长。",
+      "english": "Okay, that said, we are just missing one last mechanism in the Wi-Fi channel access, and then we are done with the basic version of Wi-Fi, that is the most important one. Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous [four/for/form unclear] interframe space, the extended IFS. Remember the extended IFS. Remember the priority ladder, we have SIFS, PIFS, [DIFS/PIFS unclear], and extended IFS. So, we [said/start unclear], let's first focus on SIFS and [DIFS/PIFS unclear], understand how they are used, and then we'll go back to the other [time/timing unclear] intervals. So, now it's time to talk about the longest among these [time/timing unclear] intervals. That was indeed the extended IFS. And just to give you an idea, this extended IFS, [so/or unclear] this [time/timing unclear] interval, can be as long as about three hundred microseconds, so definitely longer than the others that we have considered so far.",
+      "chinese": "好，说到这里，我们在Wi-Fi信道接入中就只剩最后一个机制还没有讲，然后我们就讲完Wi-Fi的基础版本了，那是最重要的一个版本。好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的〔four/for/form，确切措辞待听辨〕帧间间隔，扩展IFS。记住扩展IFS。记住这个优先级阶梯，我们有SIFS、PIFS、〔DIFS/PIFS待听辨〕，还有扩展IFS。所以，我们〔said/start，确切措辞待听辨〕，我们先关注SIFS和〔DIFS/PIFS待听辨〕，理解它们是怎样使用的，然后我们再回到其他的〔time/timing，时间修饰词待听辨〕间隔。所以，现在到了讨论这些〔time/timing，时间修饰词待听辨〕间隔中最长的那个的时候了。那确实就是扩展IFS。而且，只是为了让你有个概念，这个扩展IFS，〔so/or，所以/或者，待听辨〕这个〔time/timing，时间修饰词待听辨〕间隔，可以长到大约三百微秒，所以肯定比我们到目前为止考虑过的其他那些更长。",
       "expected_original_text_sha256": "329e1098915d700ccac9cb1d5a5147c606804f6c3f83d6e66b731a1944c0d704",
       "source_header": "原标说话人 1  01:31:25",
-      "proposed_text": "原标说话人 1  01:31:25\nOkay, that said, we are just missing one last mechanism in the Wi-Fi channel access, and then we are done with the basic version of Wi-Fi, that is the most important one. Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous four interframe space, the extended IFS. Remember the extended IFS. Remember the priority ladder, we have SIFS, PIFS, [DIFS/PIFS unclear], and extended IFS. So, we [said/start unclear], let's first focus on SIFS and [DIFS/PIFS unclear], understand how they are used, and then we'll go back to the other [time/timing unclear] intervals. So, now it's time to talk about the longest among these [time/timing unclear] intervals. That was indeed the extended IFS. And just to give you an idea, this extended IFS, [so/or unclear] this [time/timing unclear] interval, can be as long as about three hundred microseconds, so definitely longer than the others that we have considered so far.\n好，说到这里，我们在Wi-Fi信道接入中就只剩最后一个机制还没有讲，然后我们就讲完Wi-Fi的基础版本了，那是最重要的一个版本。好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的四个帧间间隔，扩展IFS。记住扩展IFS。记住这个优先级阶梯，我们有SIFS、PIFS、〔DIFS/PIFS待听辨〕，还有扩展IFS。所以，我们〔said/start，确切措辞待听辨〕，我们先关注SIFS和〔DIFS/PIFS待听辨〕，理解它们是怎样使用的，然后我们再回到其他的〔time/timing，时间修饰词待听辨〕间隔。所以，现在到了讨论这些〔time/timing，时间修饰词待听辨〕间隔中最长的那个的时候了。那确实就是扩展IFS。而且，只是为了让你有个概念，这个扩展IFS，〔so/or，所以/或者，待听辨〕这个〔time/timing，时间修饰词待听辨〕间隔，可以长到大约三百微秒，所以肯定比我们到目前为止考虑过的其他那些更长。",
+      "proposed_text": "原标说话人 1  01:31:25\nOkay, that said, we are just missing one last mechanism in the Wi-Fi channel access, and then we are done with the basic version of Wi-Fi, that is the most important one. Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous [four/for/form unclear] interframe space, the extended IFS. Remember the extended IFS. Remember the priority ladder, we have SIFS, PIFS, [DIFS/PIFS unclear], and extended IFS. So, we [said/start unclear], let's first focus on SIFS and [DIFS/PIFS unclear], understand how they are used, and then we'll go back to the other [time/timing unclear] intervals. So, now it's time to talk about the longest among these [time/timing unclear] intervals. That was indeed the extended IFS. And just to give you an idea, this extended IFS, [so/or unclear] this [time/timing unclear] interval, can be as long as about three hundred microseconds, so definitely longer than the others that we have considered so far.\n好，说到这里，我们在Wi-Fi信道接入中就只剩最后一个机制还没有讲，然后我们就讲完Wi-Fi的基础版本了，那是最重要的一个版本。好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的〔four/for/form，确切措辞待听辨〕帧间间隔，扩展IFS。记住扩展IFS。记住这个优先级阶梯，我们有SIFS、PIFS、〔DIFS/PIFS待听辨〕，还有扩展IFS。所以，我们〔said/start，确切措辞待听辨〕，我们先关注SIFS和〔DIFS/PIFS待听辨〕，理解它们是怎样使用的，然后我们再回到其他的〔time/timing，时间修饰词待听辨〕间隔。所以，现在到了讨论这些〔time/timing，时间修饰词待听辨〕间隔中最长的那个的时候了。那确实就是扩展IFS。而且，只是为了让你有个概念，这个扩展IFS，〔so/or，所以/或者，待听辨〕这个〔time/timing，时间修饰词待听辨〕间隔，可以长到大约三百微秒，所以肯定比我们到目前为止考虑过的其他那些更长。",
       "source_english": "That said, we are missing just one last mechanism in Wi-Fi channel access, and then we are done with the basic version of Wi-Fi, which is the most important one. We just need to introduce it, and we will do that after the break: this last piece of the protocol, related to something we already know about, the famous four interframe spaces, the extended IFS. Remember the extended IFS and the priority ladder: SIFS, PIFS, DIFS, and extended IFS. We said we would first focus on SIFS and DIFS and understand how they are used, then return to the other timing intervals. Now it is time to talk about the longest of these intervals, the extended IFS. To give you an idea, it can be as long as about three hundred microseconds, so it is definitely longer than the others we have considered.",
       "source_chinese": "话虽如此，Wi-Fi 的信道接入机制现在只剩最后一个还没介绍，然后我们就讲完 Wi-Fi 的基础版本了，而这也是最重要的版本。我们只需要介绍一下这个机制，我们会在休息之后来讲：协议的最后这一部分，与我们已经了解的内容有关，也就是那四种著名的帧间间隔中的扩展 IFS。还记得扩展 IFS 以及优先级顺序吗：SIFS、PIFS、DIFS 和扩展 IFS。我们说过，先重点介绍 SIFS 和 DIFS，理解它们如何使用，然后再回头讨论其他时间间隔。现在该讲这些间隔中最长的一个，也就是扩展 IFS 了。为了给大家一个概念，它可以长达大约三百微秒，因此明显比前面讨论过的其他间隔更长。",
       "mechanical_word_diff": [
@@ -4540,6 +4550,11 @@
           "op": "delete",
           "before": "know",
           "after": ""
+        },
+        {
+          "op": "insert",
+          "before": "",
+          "after": "for form unclear"
         },
         {
           "op": "replace",
@@ -4650,15 +4665,15 @@
       "status": "candidate_not_audio_certified",
       "sentences": [
         {
-          "en": "Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, you can be considered equal to three hundred microseconds.",
-          "zh": "好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，你可以被认为等于三百微秒。",
+          "en": "Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, [you can be considered; subject/construction unclear] equal to three hundred microseconds.",
+          "zh": "好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，〔你可以被认为；主语/句式待听辨〕等于三百微秒。",
           "source_support": [
             "Feishu historical snapshot 08e6132, original source paragraph 98",
             "Qwen recovery raw commit2887ed5, window 50",
             "Qwen recovery raw commit2887ed5, window tail",
             "new unprompted medium.en chunk-032, absolute 5586.7–5616.34s"
           ],
-          "uncertainty": "原Feishu justyeah，Qwen just you know，新medium just to keep in mind；保留you can be considered这一三方共有但不自然的口语，不改成you can consider it。中文逐字保留主语以免替讲者修理；其意思或转写仍需回听。"
+          "uncertainty": "原Feishu justyeah，Qwen just you know，新medium just to keep in mind；保留you can be considered这一三方共有但不自然的口语，不改成you can consider it。中文逐字保留主语以免替讲者修理；其意思或转写仍需回听。 即使多源表面一致，you can be considered主语/句式仍可能共同识别错误；正文英中同步标疑，不擅自改为it。"
         },
         {
           "en": "[Okay unclear], so just to [have an idea / verify / evaluate; unclear].",
@@ -4688,8 +4703,8 @@
       "changes": [
         {
           "before": "It depends on the version of Wi-Fi we consider, but to keep an approximate figure in mind, you can consider it equal to three hundred microseconds.",
-          "after": "Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, you can be considered equal to three hundred microseconds.",
-          "reason": "恢复Okay/that/just/again及三方原口语you can be considered；删去旧稿无来源的approximate figure和主语语法改写；语气词冲突标疑。",
+          "after": "Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, [you can be considered; subject/construction unclear] equal to three hundred microseconds.",
+          "reason": "恢复Okay/that/just/again及三方原口语you can be considered；删去旧稿无来源的approximate figure和主语语法改写；语气词冲突标疑。 多源相同仍不能排除共同ASR误识，主语/句式补正文显式待听辨，不擅改it。",
           "sources": [
             "Feishu historical snapshot 08e6132, original source paragraph 98",
             "Qwen recovery raw commit2887ed5, window 50",
@@ -4751,14 +4766,14 @@
             "you can consider it equal (旧校订)"
           ],
           "evidence": "F/Q/W均近似you can be considered equal，旧稿改为you can consider it equal",
-          "decision": "保留三方共同口语表面形式；是否共同ASR错仍需听辨，不标为完成音证。"
+          "decision": "保留三方表面词串但用正文英中括号明确主语/句式待听辨；不擅改it，不标为完成音证。"
         }
       ],
-      "english": "Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, you can be considered equal to three hundred microseconds. [Okay unclear], so just to [have an idea / verify / evaluate; unclear]. So if I'm not wrong, now we stop for twenty-five minutes. Okay.",
-      "chinese": "好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，你可以被认为等于三百微秒。〔Okay有无待听辨〕，所以只是为了〔have an idea / verify / evaluate，有个概念/核实/评估，待听辨〕。所以，如果我没有记错，现在我们停二十五分钟。好。",
+      "english": "Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, [you can be considered; subject/construction unclear] equal to three hundred microseconds. [Okay unclear], so just to [have an idea / verify / evaluate; unclear]. So if I'm not wrong, now we stop for twenty-five minutes. Okay.",
+      "chinese": "好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，〔你可以被认为；主语/句式待听辨〕等于三百微秒。〔Okay有无待听辨〕，所以只是为了〔have an idea / verify / evaluate，有个概念/核实/评估，待听辨〕。所以，如果我没有记错，现在我们停二十五分钟。好。",
       "expected_original_text_sha256": "9f2eab41bdab1b95b846093fbb6d2e0a73378114bd71708b947a6c20878088c1",
       "source_header": "原标说话人 1  01:33:12",
-      "proposed_text": "原标说话人 1  01:33:12\nOkay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, you can be considered equal to three hundred microseconds. [Okay unclear], so just to [have an idea / verify / evaluate; unclear]. So if I'm not wrong, now we stop for twenty-five minutes. Okay.\n好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，你可以被认为等于三百微秒。〔Okay有无待听辨〕，所以只是为了〔have an idea / verify / evaluate，有个概念/核实/评估，待听辨〕。所以，如果我没有记错，现在我们停二十五分钟。好。",
+      "proposed_text": "原标说话人 1  01:33:12\nOkay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, [you can be considered; subject/construction unclear] equal to three hundred microseconds. [Okay unclear], so just to [have an idea / verify / evaluate; unclear]. So if I'm not wrong, now we stop for twenty-five minutes. Okay.\n好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，〔你可以被认为；主语/句式待听辨〕等于三百微秒。〔Okay有无待听辨〕，所以只是为了〔have an idea / verify / evaluate，有个概念/核实/评估，待听辨〕。所以，如果我没有记错，现在我们停二十五分钟。好。",
       "source_english": "It depends on the version of Wi-Fi we consider, but to keep an approximate figure in mind, you can consider it equal to three hundred microseconds. Just to have an idea. If I'm not wrong, we now stop for twenty-five minutes. Okay.",
       "source_chinese": "具体数值取决于我们考虑的是哪个 Wi-Fi 版本，但为了记住一个大致的数字，可以把它看作三百微秒。只是有个概念。如果我没弄错，现在我们休息二十五分钟。好。",
       "mechanical_word_diff": [
@@ -4790,7 +4805,7 @@
         {
           "op": "replace",
           "before": "consider it",
-          "after": "be considered"
+          "after": "be considered subject construction unclear"
         },
         {
           "op": "replace",
