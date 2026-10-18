@@ -1,0 +1,2342 @@
+_id": "doxcnSmtplK58miMnHnF4llLLVh",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "51 · 01:05:37 · 高发射功率对应稠密通信图",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnXftcTNARXaWO1dCstYqJ5b",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:05:37",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo for example, if you set the transmit power to a value that is too high, if you represent your network as a graph with vertices and edges, where the edges are communication links, if the nodes use too much transmit power, they can reach many other nodes, right? In your graph you will have plenty of edges. Then this is the representation of the case where your nodes use a very high transmit-power level. So if you look at it, modeling the system as a graph, you will have the vertices that represent the nodes, and the edges that represent the communication links connecting the nodes. And in this case you have many communication links, right?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "例如，如果把发射功率设得过高，把网络表示成由顶点和边组成的图，其中边表示通信链路，那么节点使用过高发射功率时，就能到达很多其他节点，对吧？图中就会有很多边。这里画的就是节点使用非常高发射功率的情况。把系统建模为图来看，就会有这些顶点，它们表示节点；还有边，表示连接节点的通信链路。这里就有很多通信链路，对吧？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn78SURqotEJ4SEmX1YWiRfc",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：03-D2D-Networks.pdf · PDF第13页下半页 · 图26（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "Z7SJbwdhpo9B0nxtfKicCXCGnRb",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnw5qQWXq3Ko2mIwAWoYurXd",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcngcpadFEaQ6J59t0A25o3ZV",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "52 · 01:06:41 · 较多链路提供失效后的替代选择",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnMldx8wTzjNXUFzcTJiwxjf",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:06:41",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nBecause all nodes transmit at very high power, they can reach many, many other nodes. Okay, you can say, well, that's good, because in case some links break, then there are others that they can use.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "因为所有节点都以非常高的功率发送，所以它们能到达很多、很多其他节点。好，你可以说，嗯，这很好，因为万一某些链路断开，那么它们还有其他链路可以使用。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnkb2FjvN1CsuYt5grdA29zb",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnntkmreZBcTZlhpuvNqHH8b",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "53 · 01:06:58 · 过高功率如同大喊导致相互干扰",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcns4XcNAgYzhSAxGiLaywmEd",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:06:58",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nWell, true, but maybe in this case there are too many, right? So it gives you the visual impression of a very crowded scenario. It's as if our nodes were shouting. They were not just talking, they are shouting. And everybody is shouting, and they will interfere with each other, right?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "是的，但这种情况下可能太多了，对吧？这张图给人一种非常拥挤的感觉。就好像节点都在大喊，而不是普通地说话，它们是在大喊。大家都在喊，就会相互干扰，对吧？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnjoLP7uycamPPgfrVaDWrGe",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnvSKZCqQYKxxgu4KKqXIyTc",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "54 · 01:07:22 · 降低功率可能削弱网络连通性",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnLviCOOOCHlDM2zGmHFp0Sd",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:07:22",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nIn the opposite case, where you set the transmit power to, sorry, to a lower value, then of course you reduce the number of communication links that nodes can establish. So you reduce the level of interference, right? That's really good. You reduce the amount of power that they consume, which is good. The drawback here may be that if some links get disrupted, they fail, then the network may get disconnected, so some nodes may get isolated. If some links get disrupted, because we do not have so many, right? [A final phrase in the independent ASR is unclear.]\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "相反，如果把发射功率设为，抱歉，设为一个更低的值，当然就减少了节点能够建立的通信链路数量。因此干扰程度降低了，对吧？这很好，消耗的功率也降低了，也很好。缺点可能是，如果某些链路中断、失效，网络就可能断开，一些节点可能被孤立。如果一些链路中断，因为我们没有那么多链路，对吧？独立ASR中最后还有一句话不清楚。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcntmnrsN32zR9V7kl7LHz5Pc",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：03-D2D-Networks.pdf · PDF第14页上半页 · 图27（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "UGvdbgfIloLqIPxgERTc3BnRnEc",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnUJIRiFqhpjeGpfOpaa7Yye",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcncx5UlV8j0GN7nsjjJnfe6d",
+        "block_type": 3,
+        "heading1": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "七、活动调度与休眠深度的权衡",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnmq8voqlYFd9Wxysm3jBt9b",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "55 · 01:08:26 · 活动调度中的节能与收包权衡",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnsG8qLHcxH1oKP7SdCOhokg",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:08:26",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, that said, there are many scientific works that have been proposed in order to optimize also the scheduling of node activity. So there are many works that try to optimize the power-control function that we looked at before, but also many works that try to optimize the schedule of activity of the nodes. As I said, this means that we want to optimize when a device should be active or should be sleeping. Because when it sleeps it cannot receive, it cannot transmit, so it might miss some traffic. If someone needs to deliver, transmit traffic to that node, and that node is sleeping, the traffic will be lost, right? So there is a trade-off here between sleeping and saving energy, and being active and receiving and handling traffic. It's a trade-off.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，说到这里，也有许多科学研究提出了优化节点活动调度的方法。很多研究试图优化刚才讲的功率控制功能，还有很多研究试图优化节点的活动安排。正如所说，要优化设备什么时候应该处于活动状态、什么时候应该休眠。因为休眠时不能接收，也不能发送，所以可能错过一些流量。如果有人需要向这个节点交付、发送流量，而它正在休眠，那么流量就会丢失，对吧？因此，休眠以节省能量，与保持活动以接收和处理流量之间，需要权衡。这是一个权衡。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnk7wO32TtKaWuuakZZgfi8g",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：03-D2D-Networks.pdf · PDF第14页下半页 · 图28（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "MbedbYMWFo9Za4xlJEIcKgzYnMf",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcngOorQI7dhxU3Z3T857zGme",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnDhjUc6r5qwAyKhcpVYaWFc",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "56 · 01:09:52 · 浅休眠和深休眠的唤醒差异",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnecH5zecvqJtsaXWw8joPtc",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:09:52",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOne more thing that we can emphasize through this figure is that, like in Bluetooth, which I was saying is very efficient from this point of view, we may have not just one sleeping state, but several different sleeping states. What does it mean? It means that there are shallower sleeping states or deeper sleeping states. Shallow sleeping states are like when you sleep but you are not really, really deeply asleep, right? So a small noise is enough and you will wake up. If you are deeply asleep, then someone needs to, needs to shake you up, right? It's the same concept here. In our devices we can put the receiver and other components of the device into a shallow sleeping state, and this means that if that component needs to become active again, it will take a very short time to do that. If instead you let that component sleep deeply, you will need more time to wake that component up. Now, shallow sleeping states therefore are better in terms of quality of service, right? Because if you need to wake that component up and activate the node again, you can quickly do it.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "这张图还可以强调一点：就像蓝牙，刚才说它在这方面非常高效，我们不一定只有一种休眠状态，也可以有多种不同的休眠状态。什么意思？就是有较浅的休眠状态，也有较深的休眠状态。浅睡眠就像你虽然睡着了，但睡得并不是很深、很深，对吧？一点小动静就足以把你唤醒。如果睡得很深，别人就需要，需要把你摇醒，对吧？这里也是同样的概念。在设备中，可以让接收机和其他部件进入浅休眠。这样，如果这个部件需要重新活动，很短时间就能做到。如果让它进入深休眠，就需要更多时间才能把它唤醒。所以，浅休眠状态在服务质量方面更好，对吧？因为如果需要唤醒部件，让节点重新活动，很快就能做到。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnebcGatvkGzkJPsgflQg8af",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn5mPzlWkthfvqESgxGVLfzc",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "57 · 01:11:56 · 快速唤醒与更低功耗的取舍",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcn5OiWxo8QoBwEIof3JoKYQd",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:11:56",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo you may miss some packets, but then quickly you are awake again and you can work. But in that case, while in a shallow sleeping state, you can save some power, but not too much. Instead, when our devices are put into deep sleep, it takes time to wake them up, that's the drawback, but they can save more power.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "因此，你可能错过一些数据包，但很快就又醒过来，可以工作了。不过，在浅休眠状态下，虽然能够节省一些功率，却节省不了太多。相反，设备进入深休眠时，需要时间才能唤醒，这是缺点；但它们能够节省更多功率。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnANLhy5JeTpcxVz7pW717Vf",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnLgP9FaIFxFIMF5bD8oSA1g",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "58 · 01:12:31 · 休眠层次及D2D四大问题总结",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnlCwSr4UfbjcyryMoakOTnd",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:12:31",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so it's clearly, as I was saying, a trade-off. And for example, just to give you an idea, in Bluetooth we have essentially three different sleep states. From the shallowest one to the deepest one, there are three different states in Bluetooth technology. Okay, so as a summary, we essentially discussed our device-to-device networks. We said that there are four main, four main issues. One is the time-varying network topology. The second one is channel access. The third one is multi-hop communication, which is also related to the issue of routing data packets in the network. And the fourth one is the fact that we would like to consume low power, so save energy as much as possible.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，正如刚才说的，这显然是一个权衡。举个例子，让大家有个概念：蓝牙中基本上有三种不同的休眠状态。从最浅到最深，蓝牙技术中有三种不同的状态。好，总结一下，我们讨论了设备到设备网络。我们说过，有四个主要、四个主要问题。第一个是随时间变化的网络拓扑。第二个是信道接入。第三个是多跳通信，它也与网络中数据包的路由问题有关。第四个问题是希望降低功率消耗，从而尽可能节省能量。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn4H3d9IAh2RQvHy1glqsyRh",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：03-D2D-Networks.pdf · PDF第15页下半页 · 图30（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "PolxbnqHfoEY7AxWOSfcuf7Nnwg",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnNg89AALDBAStT5UMKJh2mc",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn4tDY90zP9AM5iDtVuNsrwg",
+        "block_type": 3,
+        "heading1": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "八、分布式网络与技术实例",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnKPwbZGcF1swbXuu1ZDmBMh",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "59 · 01:13:43 · 自主自组织网络需要分布式算法",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnYyQbfQ2WpNFuVLh0Kv6FLc",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:13:43",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nJust one more general comment about our device-to-device communication networks. As we already said, those networks are sets of devices that can communicate with each other, and these networks do not need any infrastructure. There might be infrastructure in the hybrid case, but in principle we don't need it. They are therefore, in principle, completely autonomous. They may be completely autonomous, and they may be completely spontaneous, meaning that when you have a set of devices nearby, they may need to communicate on the spot. Now due to the nature of this kind of communication network, what we will need in these networks is to use distributed algorithms. We already know what distributed algorithms mean, right? Because DCF in Wi-Fi is an example of a distributed algorithm for channel access.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "再对设备到设备通信网络作一个总体说明。我们已经说过，这类网络由能够相互通信的设备构成，不需要任何基础设施。混合型情况下可能有基础设施，但原则上不需要。因此，原则上它们完全自主，可以完全自主，也可以完全自发形成。也就是说，一组设备彼此靠近时，可能就地需要通信。由于这类通信网络的这种性质，网络中需要采用分布式算法。我们已经知道分布式算法是什么意思，对吧？因为Wi-Fi中的DCF就是用于信道接入的分布式算法实例。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnvaJRLJSBsWZNiQ87iV7B1g",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：03-D2D-Networks.pdf · PDF第15页上半页 · 图29（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "AVdkbtCLqotEYCxOyc1cL5JBn9b",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnWdkgzrWW8yE63AbiXJI0qg",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnheAwOmjoIuOwHrFTRawLOc",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "60 · 01:14:59 · 分布式决策与集中式决策",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnU2vIS2OqbvqfMLFdsmGRuf",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:14:59",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo distributed means that, distributed decision algorithms mean that every node should make a decision based on the information that it has got and independently of the others, right? That's what distributed decision algorithms mean, correct? And it's the opposite of centralized decision-making, where instead there is only one node that has global knowledge and makes the decisions for everyone, okay? So our systems are going to be distributed, and we will need, as I said, distributed decision-making.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "分布式的意思是，分布式决策算法意味着每个节点根据自己掌握的信息，独立于其他节点作出决策，对吧？这就是分布式决策算法的意思，对吗？它与集中式决策相反；集中式决策中，只有一个节点掌握全局信息，并替所有节点作决定。因此，这些系统会是分布式的，正如所说，需要分布式决策。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnJBedrfAheRKjxEhAHviSXe",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnMzruMSjbIi8eGNHxpZ0HtW",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "61 · 01:15:51 · Wi-Fi、蜂窝、车联网与蓝牙实例",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnnd9MotHcB1ipd7DojP5swc",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:15:51",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nNow before moving to sensor networks, okay, let me just remind you of technologies that are examples of device-to-device communication networks. We already mentioned, for example, that Wi-Fi, which is a wireless LAN technology, in the ad hoc configuration of the network architecture, is a technology that enables device-to-device communication, right? When we have the ad hoc network architecture, then we enable that. We already mentioned that cellular communications can also accommodate device-to-device communication according to the standards. We are not used to that in practice, but by the standards they are allowed to do that. Other systems that we mentioned are vehicular ad hoc networks, also called connected cars, connected vehicles. They also represent an example of device-to-device communication networks. Wireless personal area networks: these can be realized with Bluetooth. Bluetooth is also a technology for device-to-device communication networks.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "在进入传感器网络之前，先回顾一下设备到设备通信网络的技术实例。我们已经提到，Wi-Fi是一种无线局域网技术，在网络架构采用ad hoc自组织形式时，能够支持设备到设备通信，对吧？采用ad hoc网络架构，就可以实现这种通信。我们也提到，按照标准，蜂窝通信同样可以支持设备到设备通信。实际中我们不太习惯这样使用，但标准允许这么做。其他提到的系统还有车载自组织网络，也叫联网汽车、联网车辆，它们也是设备到设备通信网络的实例。还有无线个域网，可以通过蓝牙来实现。蓝牙也是设备到设备通信网络的一种技术。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnop3cfdRJHalN0MUU7nIJUd",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：03-D2D-Networks.pdf · PDF第16页上半页 · 图31（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "E1rVbfwSNoSuifxIXvJcczGxnud",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnK8KnLVNfgczLfmTpOfxJkg",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnSSzCHGQVbCdyU38WsNxLvd",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "62 · 01:17:37 · 体域网应用与传感器网络导入",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnAhRZPvlIOnta4WTlFIQMKe",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:17:37",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd another one that we have not mentioned, but is actually important, is the so-called body area network. What does it mean? It means that we have sensors on the human body and these sensors are connected together. This is a real thing, okay? It is used in sport, it is used for health reasons, it is used to help disabled people interact with the environment. So it is when we get sensors on us, on our body. They are also used for drug administration. So you actually need to take some drugs during the day. Diabetes and other illnesses require people to actually take these drugs during the day, at certain times of the day. And you may have these sensors and devices on your body that actually do that. So you don't need to remember to take the drug at a certain point during the day, but depending on the level of certain parameters in your blood, these devices will just release the drug into your body. So these are very important for health, and also, as I was saying, to help disabled people like blind people or deaf people, and so on. And then we have our sensor networks, right? That is what we are going to focus on in the next slides.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "还有一个我们没有提到、但实际上很重要的，叫作体域网。什么意思？意思是我们的人体上有传感器，而且这些传感器连接在一起。这是实际存在的，好吗？它用于运动，用于健康原因，用于帮助残障人士与环境交互。所以，就是当我们身上、我们身体上装有传感器时。它们也用于给药。所以，你实际上需要在一天中服用一些药物。糖尿病和其他疾病要求人们实际上在一天中，在一天中的某些时刻，服用这些药物。而你的身体上可以有这些传感器和设备，实际完成这件事。所以，你不需要记住在一天中的某个时刻服药，而是根据血液中某些参数的水平，这些设备就会把药物释放到你的身体内。所以，这些对健康非常重要，也正如我刚才所说，可以帮助残障人士，例如盲人或聋人，等等。然后我们还有传感器网络，对吧？那就是我们接下来几页幻灯片要重点讲的内容。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn4P6pcUgJXXgnInKxgeHxbe",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：03-D2D-Networks.pdf · PDF第17页下半页 · 图34（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "E5BMbAaQJo09VMxxfzMc1o0WnQ4",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnGEnhmu2OK4G8rLOOt2Cvhd",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnDOSdfh3tbfplUdwSlOJaJf",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "63 · 01:19:44 · 参考链接与转入传感器网络",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnZWllTc7yW79oT5pZJTIWCg",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:19:44",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nHere you just have a few links to some of these, I mean web pages where they talk about this. Just in case you are interested, you can go over these slides, but they are not, let's say, so important. It's just for your information. Otherwise you can, you can skip those slides. Okay, now let's move to sensor networks. Um.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "这里有一些这些内容的链接，我是说，谈论这些内容的网页。只是以防你感兴趣，你可以浏览这些幻灯片，但它们并不是，比如说，那么重要。这只是供你参考。否则你可以，你可以跳过那些幻灯片。好，现在我们转向传感器网络。嗯。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnSzY2iENK6B9kD6uYJjDWBb",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：03-D2D-Networks.pdf · PDF第16页下半页 · 图32（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "PYNAbS1aSoywH7x2emJcAW64nSe",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnLhs4QxwMJeJQohjDK3I6sf",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnydylz8UcYFYxpadHq3BPpd",
+        "block_type": 3,
+        "heading1": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "九、传感器网络及信号采样",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnd1aIeWN6xmViskSRDk9vvu",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "64 · 01:21:04 · 传感器作为物联网主要组成部分",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnT4mElk3ULQXZlOEzpFzwHh",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:21:04",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo as already mentioned, sensors are indeed the major component of what we also call the Internet of Things, right? When we have things that need to be connected, eventually also to the Internet, typically. So this is an example of a sensor, a sensor network.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，正如已经提到的，传感器确实是我们也称为物联网的事物的主要组成部分，对吧？当我们有需要连接起来的物体时，通常最终也连接到互联网。所以，这是一个传感器、一个传感器网络的例子。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnZjjMOwvX4Z7X0JASVduvUh",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第1页上半页 · 图1（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "X8JibVpyvo4snkxOSD6cZYBnnRd",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnMuxCHkjoUak6JRil6IgTKA",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnkgvpNwqwBNPD5bb5wxVMcf",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "65 · 01:21:32 · 恶劣与冰冻地区的远程监测",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcn88v1Pq7g71TqT7Je7CqsBe",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:21:32",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nThis is a scenario that is very, very common. That is, we have large areas, sometimes parks, or sometimes, as I was saying, areas contaminated by chemicals where humans cannot go or cannot stay for a long time. For example, in cold areas, like in Europe we have a country called Finland, which is up close to the North Pole. And in Finland they have very large areas that are essentially frozen during the winter. And I guess that in China, the northeastern parts of China, Harbin and those areas, in winter I guess they are also frozen. So a colleague from Finland was telling me that they use these sensor networks to monitor those areas that they have up north. They are mostly frozen, and the roads to reach those areas are icy too. So they don't want to go there directly, and they perform this surveillance and monitoring through sensor networks. Okay.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "这是一个非常、非常常见的场景：有大片区域，有时是公园，有时是前面说过的受化学物质污染的区域，人不能进入，或者不能久留。再比如寒冷地区。在欧洲有一个国家叫芬兰，位于靠近北极的地方。芬兰冬季有大片区域基本上都结冰了。我想，中国东北部，比如哈尔滨及周边地区，冬天应该也会结冰。一位芬兰同事曾告诉我，他们使用这些传感器网络来监测北部那些区域。那里大部分地方都结冰了，通往那里的道路也结冰，所以他们不愿意亲自去，而是通过传感器网络进行监视和监测。好。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnabPxX2MUZVy3IBzQYPUfOh",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第1页下半页 · 图2（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "N49MbEcH3o3ZrtxPRDNcL1jpnLh",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnLK0JgLkblaQb8yI66ehYEi",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnQ9HGcNbBOZ7jJ9kDItwPkf",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "66 · 01:23:10 · 通过传感器尽早探测火灾",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnu8DLmvK4D9Wd9PHPspY0Lf",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:23:10",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo they are used very, very often. They are also used nowadays to detect fires. So for example you may know that in Australia or in California they have had very, very large fires that devastated large areas of vegetation. So they really need to detect when there is a fire as soon as possible in order to intervene and try to extinguish the fire, right? It's very important.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，这类网络使用得非常、非常多。现在也用于探测火灾。例如，大家可能知道，澳大利亚或加利福尼亚发生过非常、非常大的火灾，大片植被遭到破坏。因此，一旦发生火灾，确实需要尽早发现，以便干预并设法扑灭，对吧？这非常重要。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnnukjgOpcUvk7qyFYnAoet3",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnaw2cEGHQL5KRvgEOEXMsYd",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "67 · 01:23:48 · 温度阈值告警与小型电池限制",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcn1XgHCToqlcroAKkpYHyItx",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:23:48",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo they have these large networks of sensors that detect temperatures, and when the temperature is above a threshold, then they say, well, there is a fire, and they send a signal to notify that, okay? So there are many applications where we do have these kinds of sensors. So typically these sensors, represented through these purple dots here, are small devices, clearly, because they need to be in parks, in a, in a, in a, in a, in a, in a wood, and so on. [The source contains six repetitions of “in a” here. The independent ASR loops at this point, so the exact spoken repetition count is unverified.] So they are small sensors. They are of course battery-powered. In this case the battery is very, very small, so power consumption is a big, big issue.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，它们有这些检测温度的大型传感器网络，而当温度高于一个阈值时，它们就会说，嗯，这里有火灾，然后发送一个信号来通知这件事，好吗？所以，有很多应用确实使用这类传感器。所以，通常这些传感器，在这里用这些紫色点表示，显然是小型设备，因为它们需要放在公园里，放在一片、放在一片、放在一片、放在一片、放在一片、放在一片树林里，等等。[原转写这里有六次“in a”的重复。独立ASR在这一点陷入循环，所以实际口头重复次数未经核实。] 所以，它们是小型传感器。它们当然由电池供电。在这种情况下，电池非常、非常小，所以功耗是一个很大、很大的问题。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcny1Mlyc5sHBrzVI73BPzqWO",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcng4WIf8ULJDU4y4XHeLDbmg",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "68 · 01:24:47 · 汇聚节点连接传感器网络与互联网",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcncm5O3nIdE7SsZ1PRs6OuGc",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:24:47",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd these sensors can communicate with each other through wireless links. And typically, as also shown later, they will end up at one node that is also a gateway, called the sink. That is the node that has longer-range connectivity to the Internet. Okay, so we have this device-to-device communication network: nodes that communicate with each other. Those are the sensors. And then eventually some of them will be connected to a gateway, which is then further connected to a server on the Internet. Okay, that is the usual network topology.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "这些传感器可以通过无线链路相互通信。通常，后面也会画出来，最终会到达一个同时充当网关的节点，叫汇聚节点，也就是sink。这个节点具有通向互联网的较长距离连接。因此，这就是一个设备到设备通信网络：节点彼此通信，这些节点就是传感器。最终，其中一些节点会连接到一个网关，网关再连接到互联网上的服务器。好，这就是通常的网络拓扑。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcncmz0KbhoGll0N6TXjFLf2f",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnjjrVHNsItagP2ZbitvZPhg",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "69 · 01:25:41 · 低功耗低速率特征及标准介绍",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcn2QPB7GQXHxyF6e3nvYyogg",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:25:41",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nNow, as we said, these small sensors have got small batteries, and typically they also transmit at low power, because they have this small battery and need to save power, so they need to transmit at low power. And they transmit, may transmit, a few bits per second, so they don't need a very high data rate. Typically, it depends on the application. Why am I saying that? Because, for example, if they just need to measure temperature or humidity, you don't need, right, to measure that every millisecond, okay? And when you measure the temperature or humidity, that information fits in a few bytes, or even one byte. They are often referred to as low-power, low-data-rate nodes. And there is an IEEE standard that specifically tells you how to design this protocol stack for these kinds of devices, right, these sensor nodes. And here you have the name of the IEEE standard. It is similar to the one for Wi-Fi, but as you may notice here we have 15. In Wi-Fi amendments we had 11. Here it is 15, because it's specifically for this kind of sensor. [The full standard number is not recoverable from either transcription of this passage.]\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "正如所说，这些小型传感器配有小电池，通常也采用低发射功率。因为电池小，需要省电，所以必须低功率发送。它们发送，可能每秒只发送几比特，因此不需要很高的数据速率。通常，这取决于应用。为什么这样说？例如，如果只测量温度或湿度，就不必每毫秒测一次，对吧？而一次温度或湿度测量的信息，只需要几个字节，甚至一个字节就能表示。因此，它们经常被称为低功率、低数据速率节点。有一个IEEE标准，专门说明这类设备、这类传感器节点的协议栈应当如何设计。这里显示了IEEE标准的名字，与Wi-Fi那个很相似，但可以注意到，这里是15。Wi-Fi的修订标准中是11。这里是15，因为它专门面向这类传感器。这段的两份转写都无法还原完整的标准编号。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn4jajLyhGJHh8V1wHWZ1Y8g",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnCqGU1QjSTzIbviMGwl1pEb",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "70 · 01:27:34 · 传感板、信号处理与时空采样",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnvyAGmNMwHccj9zIjrUiYcc",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:27:34",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nNow here we look into a single sensor device. So it's like zooming into a sensor device, and we can see that of course we have a wireless network interface that allows the sensor to communicate with other nodes. But as you can see, there are inside other modules, right? So let's look at how the sensors are composed and how they work. So they have a sensing board. This is the actual sensor, right, the sensing board. And the characteristics of this sensing board vary depending on what type of physical field, physical phenomenon, we need to measure. So if it's temperature, humidity, lightning [possibly lighting; both transcripts say “lightning” here, while the next sentence says “light”], there are different sensors, types of sensing boards. Now this sensor physically senses the phenomenon, like light, as I was saying, and temperature, et cetera, and then reports this value to this module that performs signal processing. Now why do we need signal processing there? Because our sensor is going to sample a phenomenon, a physical field, right, like light or temperature. Now the physical field, the phenomenon, is typically represented by a continuous signal. So physically what we are sensing is continuous, and it can evolve in time, clearly, and also it may vary in space. So the physical field that we are sensing depends on time as well as on x, y and z, where these are the spatial coordinates. So we can represent this physical field as a signal that changes in time and space. Now what does this sensing board do? It samples this signal, right? When we have a sensor network over an area, so this is the spatial area, we have sensors deployed in this spatial area. Each of them senses, for example, the temperature and therefore collects measurements, right, the samples. And these samples, therefore, this will be the location x1, y1, z1; this will be location x2, y2, z2; and so on. Each of them will sense the signal at a different point in space, and then over time, clearly at different points in time.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "现在来看单个传感器设备的内部，相当于把一个传感器设备放大。可以看到，当然有一个无线网络接口，使传感器能够与其他节点通信。但也可以看到，里面还有其他模块，对吧？接下来看看传感器怎样构成、怎样工作。它有一个传感板。这才是真正的传感器，对吧，就是传感板。传感板的特性取决于需要测量哪种物理场、哪种物理现象。例如，如果要测温度、湿度或闪电（这里也可能是光照；两份转写在此都写作“lightning”，但后一句说的是光），就有不同的传感器、不同类型的传感板。传感器实际感知这些现象，比如刚才说的光、温度等等，然后把数值报告给执行信号处理的模块。为什么需要信号处理？因为传感器要对某种现象、某个物理场进行采样，对吧，比如光或温度。物理场、物理现象通常用连续信号表示。因此，实际感知的对象是连续的，显然会随时间变化，也可能随空间变化。所以，所感知的物理场取决于时间，也取决于x、y和z，也就是空间坐标。因此，可以把这个物理场表示成一个随时间和空间变化的信号。传感板做什么？它对这个信号进行采样，对吧？当我们在一片区域内布设传感器网络时，这里就是这个空间区域，我们在这片区域中部署了传感器。每个传感器都会感知比如温度，因此收集测量值，对吧，也就是样本。因此，这些样本，这里的位置是x1、y1、z1，那里是x2、y2、z2，等等。每个传感器在不同的空间位置感知信号，随着时间推移，也会在不同的时刻进行感知。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnghE7XeTUZPRaiB4cge3mNe",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第2页上半页 · 图3（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "WflUbZ8ubo9einxWIwwcTTaMnch",
+          "width": 1232
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcnw8KCOB8ShwKeI82J9af4Cf",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnClY4ERCVkTseoP7cq02G4g",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "71 · 01:31:38 · 由离散测量重建连续物理信号",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh"
+      },
+      {
+        "block_id": "doxcndUsBLUAiBjMB4rTHsc2pwb",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:31:38",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo what do we get from that? Our sensor network will provide us with a set of measurements, right? They are samples, they are discrete, because they are values taken at certain points in time and at certain points in space. What you need to do is to use all these measurements and reconstruct this continuous signal. So you have to get these discrete values, and it's like, for example, interpolating the discrete values and being able to get a continuous signal. You know what interpolation is, right? So that's essentially the job of this signal-processing unit here. It gets the samples and locally, using the samples of, in this case, a single sensor, tries to reconstruct the physical field that we want to get: temperature, humidity, light, and so on. Okay? Good. Let's stop here for the long break, and then we will continue by describing the other components of a sensor.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，我们从中得到了什么？我们的传感器网络将为我们提供一组测量值，对吧？它们是样本，它们是离散的，因为这些数值是在特定时刻和特定空间位置获取的。你需要做的是利用所有这些测量值，重建这个连续信号。所以，你必须取得这些离散值，这就像，比如说，对离散值进行插值，从而能够得到一个连续信号。你们知道什么是插值，对吧？所以，这基本上就是这里这个信号处理单元的工作。它取得样本，在本地利用样本，在这种情况下是单个传感器的样本，尝试重建我们想得到的物理场：温度、湿度、光，等等。好吗？好。我们在这里停下来，休息一段较长的时间，然后继续介绍传感器的其他组成部分。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn7gdc6r7QJaaa713xhAprhV",
+        "block_type": 2,
+        "parent_id": "SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ]
+  }
+}
