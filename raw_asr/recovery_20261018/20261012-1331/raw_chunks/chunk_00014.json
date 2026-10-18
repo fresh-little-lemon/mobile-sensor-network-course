@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1540.0,
+  "end_seconds": 1660.0,
+  "text": "So we decrease it by its own counter by one. Then next time slot, again B senses the channel is idle, decreases its because counter by one. And C will do the same. But now the because counter of B has reached zero. So B is entitled to access the channel. So it will try to meet its data packet. The data packet clearly is intended for the access point because as we said, we are considering unique access packets. And in this network topology, network architecture, all Wi-Fi user nodes communicate with the access point only. Let's again be optimistic. So this means that this packet is received successfully by the access point, which will send back an acknowledgement after shifts. Upon the data transmission by B, the other nodes can set their now. They can read the duration field in the header of the data packet. So we need also to highlight this that both A and also C will set their now.",
+  "raw_decoded": "language English<asr_text>So we decrease it by its own counter by one. Then next time slot, again B senses the channel is idle, decreases its because counter by one. And C will do the same. But now the because counter of B has reached zero. So B is entitled to access the channel. So it will try to meet its data packet. The data packet clearly is intended for the access point because as we said, we are considering unique access packets. And in this network topology, network architecture, all Wi-Fi user nodes communicate with the access point only. Let's again be optimistic. So this means that this packet is received successfully by the access point, which will send back an acknowledgement after shifts. Upon the data transmission by B, the other nodes can set their now. They can read the duration field in the header of the data packet. So we need also to highlight this that both A and also C will set their now.<|im_end|>",
+  "generated_tokens": 191,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.878808618999756,
+  "at": "2026-10-18T02:52:15.264995+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

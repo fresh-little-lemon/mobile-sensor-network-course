@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1650.0,
+  "end_seconds": 1770.0,
+  "text": "A, and also C will send their numbers, right? So what does it mean for A? This is okay, fine. It doesn't tell anything to do. So that's okay. But for C, this means that it will have to freeze its, because counter for this duration, right? Because now the channel is busy. So C cannot decrease its counter. It has to suspend the countdown. Okay, so during all this time, C will be essentially blocked. And what it does is to wait for the channel to become idle again. It makes sure that the channel is idle for this, and then it can resume decreasing its, because count. It has still three times slots to go. So it will sense the channel for a yes. This is idle, so it can decrease the because counter by one. Then it senses the channel again for a time slot. The channel is idle. It can decrease the counter by one, and then again. The channel is idle for one more time slot. It can decrease its counter by one. Now its because counter is down to zero. So.",
+  "raw_decoded": "language English<asr_text>A, and also C will send their numbers, right? So what does it mean for A? This is okay, fine. It doesn't tell anything to do. So that's okay. But for C, this means that it will have to freeze its, because counter for this duration, right? Because now the channel is busy. So C cannot decrease its counter. It has to suspend the countdown. Okay, so during all this time, C will be essentially blocked. And what it does is to wait for the channel to become idle again. It makes sure that the channel is idle for this, and then it can resume decreasing its, because count. It has still three times slots to go. So it will sense the channel for a yes. This is idle, so it can decrease the because counter by one. Then it senses the channel again for a time slot. The channel is idle. It can decrease the counter by one, and then again. The channel is idle for one more time slot. It can decrease its counter by one. Now its because counter is down to zero. So.<|im_end|>",
+  "generated_tokens": 227,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.26292405300046,
+  "at": "2026-10-18T02:52:43.528712+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

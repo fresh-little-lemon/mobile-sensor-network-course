@@ -1,0 +1,12 @@
+{
+  "start_seconds": 110.0,
+  "end_seconds": 230.0,
+  "text": "Every time we will increase the value of contention window, and we said roughly speaking, this value of contention window doubles every time, right? So now to be more precise, the relation according to which the CW parameter increases is the following. So CW value is actually expressed as a power of two minus one, where this exponent is called backoff exponent. Okay? So for example, the first time that we use the backoff procedure for a data packet, we set the so the first time we set the backoff exponent to the backoff exponent minimum. Okay? Now by default in the early versions of Wi-Fi, this is equal to five. Okay? This is an example that refers to the early versions of Wi-Fi. Okay? Now, so if we take this example here, this example value here, we see that.",
+  "raw_decoded": "language English<asr_text>Every time we will increase the value of contention window, and we said roughly speaking, this value of contention window doubles every time, right? So now to be more precise, the relation according to which the CW parameter increases is the following. So CW value is actually expressed as a power of two minus one, where this exponent is called backoff exponent. Okay? So for example, the first time that we use the backoff procedure for a data packet, we set the so the first time we set the backoff exponent to the backoff exponent minimum. Okay? Now by default in the early versions of Wi-Fi, this is equal to five. Okay? This is an example that refers to the early versions of Wi-Fi. Okay? Now, so if we take this example here, this example value here, we see that.<|im_end|>",
+  "generated_tokens": 172,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 22.528274931999476,
+  "at": "2026-10-18T02:46:05.055598+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1430.0,
+  "end_seconds": 1550.0,
+  "text": "That the channel is idle for this. The channel will be idle because nobody else is doing anything, so the channel is idle. And you will do will draw an integer with equal probability out of this same range of values. Okay. So let's assume that the value drawn by B, the integer, is equal to two. And let's assume that the integer drawn by C is equal to five. This is just an example. Okay. So if this is the case, then we know that B will compute it's because time that will be equal to two times the time slot duration, right? And similarly, C will compute it's because time that will be five timeslots. And then each of them will have to decrease its own because counter timeslot by timeslot. So B will start sensing the channel for a timeslot. The channel is currently idle, so it will decrease its because counter by one. And the same will do C, right? So it will decrease it by its own counter by one. Then next timeslot again.",
+  "raw_decoded": "language English<asr_text>That the channel is idle for this. The channel will be idle because nobody else is doing anything, so the channel is idle. And you will do will draw an integer with equal probability out of this same range of values. Okay. So let's assume that the value drawn by B, the integer, is equal to two. And let's assume that the integer drawn by C is equal to five. This is just an example. Okay. So if this is the case, then we know that B will compute it's because time that will be equal to two times the time slot duration, right? And similarly, C will compute it's because time that will be five timeslots. And then each of them will have to decrease its own because counter timeslot by timeslot. So B will start sensing the channel for a timeslot. The channel is currently idle, so it will decrease its because counter by one. And the same will do C, right? So it will decrease it by its own counter by one. Then next timeslot again.<|im_end|>",
+  "generated_tokens": 216,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.234364941999956,
+  "at": "2026-10-18T02:51:50.385410+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

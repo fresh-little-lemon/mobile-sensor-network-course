@@ -1,0 +1,12 @@
+{
+  "start_seconds": 440.0,
+  "end_seconds": 560.0,
+  "text": "The because exponent at the previous step increased by one, right? And at the generic step i, the contention window will be computed as two to the power of the because exponent at step i minus one. Okay, this is the general expression that we use to compute the the because exponent and the corresponding contention window at each step. Okay, that said, therefore we understand that at every time that we need to perform the because for a given data packet, we roughly double the contention window as we said. Okay, so we are going to launch the possible values integer values that we can draw to compute the because the because time. Okay, so before explaining why we do that, okay, why they stand us at let's double the contention window every time we need to perform a because to transmit a packet. So before explaining the reason because we do that, let me mention what was reported in one of the earlier slides, but I didn't comment on that because I didn't want to put too many things at the same time. But one more thing that we need to say important about the because.",
+  "raw_decoded": "language English<asr_text>The because exponent at the previous step increased by one, right? And at the generic step i, the contention window will be computed as two to the power of the because exponent at step i minus one. Okay, this is the general expression that we use to compute the the because exponent and the corresponding contention window at each step. Okay, that said, therefore we understand that at every time that we need to perform the because for a given data packet, we roughly double the contention window as we said. Okay, so we are going to launch the possible values integer values that we can draw to compute the because the because time. Okay, so before explaining why we do that, okay, why they stand us at let's double the contention window every time we need to perform a because to transmit a packet. So before explaining the reason because we do that, let me mention what was reported in one of the earlier slides, but I didn't comment on that because I didn't want to put too many things at the same time. But one more thing that we need to say important about the because.<|im_end|>",
+  "generated_tokens": 225,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.86089786299999,
+  "at": "2026-10-18T02:47:24.605644+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 550.0,
+  "end_seconds": 670.0,
+  "text": "At the same time. But one more thing that we need to say, important, about the become, is that the become procedure, of course, it is performed as we said, when we have essentially a packet, right, that has been transmitted and it failed, so we need to re contend for the channel and transmit the packet again, right? This is the case that we have considered so far, under which we need to perform the become. However, there are two more situations under which we need to perform a become procedure, exactly as we explained, the same procedure that we just explained. This procedure indeed needs to be performed also, when a known transmitter has got a packet to transmit, it sends the channel, but the channel is busy, right? So we already know that in this case, we cannot access the channel right away because of the carrier sensing multiple access principle, right? So if we sense the channel, we got a packet from the higher layers. At the mark layer, we sense the channel, for this, but the channel is busy. Okay, so what we knew so far is that in this case.",
+  "raw_decoded": "language English<asr_text>At the same time. But one more thing that we need to say, important, about the become, is that the become procedure, of course, it is performed as we said, when we have essentially a packet, right, that has been transmitted and it failed, so we need to re contend for the channel and transmit the packet again, right? This is the case that we have considered so far, under which we need to perform the become. However, there are two more situations under which we need to perform a become procedure, exactly as we explained, the same procedure that we just explained. This procedure indeed needs to be performed also, when a known transmitter has got a packet to transmit, it sends the channel, but the channel is busy, right? So we already know that in this case, we cannot access the channel right away because of the carrier sensing multiple access principle, right? So if we sense the channel, we got a packet from the higher layers. At the mark layer, we sense the channel, for this, but the channel is busy. Okay, so what we knew so far is that in this case.<|im_end|>",
+  "generated_tokens": 234,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.615786714999558,
+  "at": "2026-10-18T02:47:54.222146+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

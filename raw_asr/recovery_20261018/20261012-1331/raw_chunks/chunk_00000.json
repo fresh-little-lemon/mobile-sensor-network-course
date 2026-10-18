@@ -1,0 +1,12 @@
+{
+  "start_seconds": 0.0,
+  "end_seconds": 120.0,
+  "text": "We start to see this, and we send them. Whenever a Wi-Fi node needs to re contend for the channel, because this node has to re transmit a packet that failed, then this node will perform the backoff procedure. And we explained how the backoff procedure works. Okay. Now, we send that first a node needs to wait for the channel to be idle for this. Then it will draw an integer out of a range of possible values, with equal probability, selecting each of them with equal probability. And this range of values goes from zero to the contention window parameter. Okay. The first time that we use the backoff procedure to transmit a packet, we set this contention window parameter to its minimum value. And then, if we need to perform the backoff procedure again in order to transmit this packet, because, for example, we fail and fail and fail. Every time we will increase the value of contention window, and we set around.",
+  "raw_decoded": "language English<asr_text>We start to see this, and we send them. Whenever a Wi-Fi node needs to re contend for the channel, because this node has to re transmit a packet that failed, then this node will perform the backoff procedure. And we explained how the backoff procedure works. Okay. Now, we send that first a node needs to wait for the channel to be idle for this. Then it will draw an integer out of a range of possible values, with equal probability, selecting each of them with equal probability. And this range of values goes from zero to the contention window parameter. Okay. The first time that we use the backoff procedure to transmit a packet, we set this contention window parameter to its minimum value. And then, if we need to perform the backoff procedure again in order to transmit this packet, because, for example, we fail and fail and fail. Every time we will increase the value of contention window, and we set around.<|im_end|>",
+  "generated_tokens": 198,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.881930667999768,
+  "at": "2026-10-18T02:45:42.526522+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

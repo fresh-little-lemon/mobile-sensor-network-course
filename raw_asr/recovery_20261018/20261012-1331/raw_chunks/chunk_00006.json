@@ -1,0 +1,12 @@
+{
+  "start_seconds": 660.0,
+  "end_seconds": 780.0,
+  "text": "For this, but the channel is busy. Okay. So what we knew so far is that in this case, we cannot access the channel, right? Because the channel is busy. We are like polite people. We don't want to interrupt someone who is talking already. So we wait. We wait. That's what we send. But now we need to be more precise. What do we do? We mean exactly that we need to wait for how long? Well, in reality, also in this case, what we need to do is to apply the backoff procedure. So how long do we wait for? We will wait for the backoff time, according to this procedure. So this is the rule again. Also in this first case, one we have that the node wifi node gets a new packet from the higher layers. And the MAC needs to apply the protocol in order to transmit the packet. So we know that first of all we need to send the channel for this. If the channel is sent busy, then what we do is apply the backoff. That is, first of all, we need to wait for the channel to become idle again and send the channel idle for this. Then draw an integer with equal probability out of.",
+  "raw_decoded": "language English<asr_text>For this, but the channel is busy. Okay. So what we knew so far is that in this case, we cannot access the channel, right? Because the channel is busy. We are like polite people. We don't want to interrupt someone who is talking already. So we wait. We wait. That's what we send. But now we need to be more precise. What do we do? We mean exactly that we need to wait for how long? Well, in reality, also in this case, what we need to do is to apply the backoff procedure. So how long do we wait for? We will wait for the backoff time, according to this procedure. So this is the rule again. Also in this first case, one we have that the node wifi node gets a new packet from the higher layers. And the MAC needs to apply the protocol in order to transmit the packet. So we know that first of all we need to send the channel for this. If the channel is sent busy, then what we do is apply the backoff. That is, first of all, we need to wait for the channel to become idle again and send the channel idle for this. Then draw an integer with equal probability out of.<|im_end|>",
+  "generated_tokens": 257,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.676170131000617,
+  "at": "2026-10-18T02:48:24.899070+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}
