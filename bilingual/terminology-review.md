@@ -1,6 +1,6 @@
 # 双语课程稿术语核对
 
-核对日期：2026-10-18。当前覆盖：按录音顺序的前6份课程，共403组双语段落。后续课程逐份补充。
+核对日期：2026-10-18。当前覆盖：按录音顺序的前7份课程，共588组双语段落。后续课程逐份补充。
 
 ## 采用的译法与依据
 
@@ -217,3 +217,39 @@
 [19] MathWorks，Wireless Communications（MIMO与OFDM）：https://www.mathworks.com/help/phased/mimo-communication.html
 
 [20] Cisco Live 2024，BRKEWN-3004：https://www.ciscolive.com/c/dam/r/ciscolive/global-event/docs/2024/pdf/BRKEWN-3004.pdf
+
+## 20261009-1000：接入流程、吞吐量、OFDM与MIMO
+
+| 英文 | 中文译法 | 核对与说明 |
+|---|---|---|
+| throughput / physical-layer data rate | 吞吐量／物理层数据速率 | 前者计入观察时间中的等待与失败，后者描述发射时速率；计算时还要说明统计哪一层的比特 |
+| BSS / ESS / DS | 基本服务集／扩展服务集／分布式系统 | DS也常译分布系统；统一本稿译法，基础设施BSS与自组织IBSS区分 |
+| station / access point | 站点／接入点 | STA为站点；AP承担接入点角色，不能将所有STA都等同终端用户 |
+| scanning / authentication / association | 扫描／认证／关联 | 三种过程，不把关联译为登录；实际安全建立顺序取决于配置[21][22] |
+| beacon / probe request / probe response | 信标／探测请求／探测响应 | 主动探测的应答不是简单地“立即发一个信标”[21] |
+| association request / response | 关联请求／关联响应 | frame译帧；packet作为一般分组概念，不能认为各层严格相同 |
+| basic rate set | 基本速率集 | 一组要求支持的速率，不是唯一的“最低数据速率” |
+| rate adaptation | 速率自适应 | 依据链路质量或传输结果等选择速率，不只改变调制，还可能涉及编码等配置 |
+| half-/full-duplex | 半双工／全双工 | 描述是否能同时双向通信，不由器件名字或收发器数量单独决定 |
+| transceiver | 收发器 | 能承担发送和接收功能的电路／设备 |
+| subcarrier / orthogonality | 子载波／正交性 | 正交性是接收积分／内积条件，不是“频谱重叠少”[18] |
+| spatial stream / MIMO channel rank | 空间流／MIMO信道秩 | 可分离流数受信道秩及信噪比等约束，不是直接等于天线数[23] |
+
+### 必须区分的课堂简化与实际机制
+
+1. “Wi-Fi认证已被应用层用户名密码替代”不成立。网页门户登录、802.1X/EAP、WPA2/WPA3的安全建立是不同层面的机制。WPA3-SAE仍有明确的无线认证过程[22]。本稿保留原讲述并在这里指出区别。
+2. 主动扫描通常使用Probe Request与Probe Response；有指定SSID的请求也可能采用广播目的MAC地址，不能把“指定网络名”直接等同于链路层单播[21]。现代设备的扫描隐私策略也因系统与版本而异，不把课堂缓存示例当作所有设备固定行为。
+3. 网络列表名称通常涉及SSID，BSSID用于识别具体BSS；手机信号图标不必直接由SNR生成，不能把RSSI、接收功率和SNR视为同一量。
+4. ESS可通过DS连接，DS实现不必总是有线。漫游也不必每次从头完整扫描并重新进行所有认证，缓存、快速转换等机制会影响流程。
+5. “基本速率就是最低速率”“所有发送都至少2 Mbit/s”是课堂简化。基本速率集、支持速率集、管理／控制帧速率及数据帧速率应分别分析。
+6. 半双工Wi-Fi链路不意味着设备里永远只有一条射频链。多天线、多频段和多链路设备不能按“一个收发器”概括；同频同时收发还涉及自干扰问题。
+7. OFDM子载波频谱可以显著重叠；理想同步条件下，其符号区间内内积为零才是正交的关键。sinc频谱对应特定时间窗模型，不是所有电磁信号频域都呈sinc形状[18]。
+8. MIMO中每根接收天线通常收到所有发射天线信号的叠加，而不是与某根发射天线一一对应。半波长间距也不保证信道独立。独立空间流数量受信道矩阵秩、散射条件及信噪比限制，天线数增加不保证速率线性增长[23]。
+9. 课堂中的室内90／70／50米、室外160米和Wi-Fi代际名称按原文保留，不作为全球设备性能或认证名称的保证。课间中文闲聊保留原文，未当作课程专业内容解释。
+10. GDPR相关内容仅为课堂原话的翻译，本次没有作法律适用性判断。
+
+[21] Cisco，Catalyst CW9166D1 Access Point Deployment Guide（Probe Request/Response）：https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9164-series-access-points/catalyst-9166i-9164i-dg.html
+
+[22] Microsoft Learn，WiFiCx WPA3-SAE authentication：https://learn.microsoft.com/en-us/windows-hardware/drivers/netcx/wificx-wpa3-sae-authentication
+
+[23] MathWorks，What Is MIMO?：https://www.mathworks.com/help/comm/ug/what-is-mimo.html
