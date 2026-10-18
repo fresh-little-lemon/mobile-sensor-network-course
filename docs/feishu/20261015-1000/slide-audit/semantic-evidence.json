@@ -1,0 +1,318 @@
+{
+  "summary": "82段全文核验、26张原图逐张与固定PDF比较，全部位置正确；0需移动、0确切缺图。分类图18/19/21分别为两类总览、调度类强调、竞争类强调，严格匹配P52/P53/P72，不因含CSMA关键词改位。",
+  "images": {
+    "3": {
+      "title": "Sensor Architecture",
+      "semantic_paragraph_spans": [
+        [
+          2,
+          4
+        ]
+      ],
+      "alignment_reason_zh": "P2明确回到sensor内部结构图，P3沿采样→signal processing→event detection→wireless/actuator逐块讲，P4回指无线接口；布局完整对应。"
+    },
+    "4": {
+      "title": "Sensor Networks: transmission media",
+      "semantic_paragraph_spans": [
+        [
+          4,
+          9
+        ]
+      ],
+      "alignment_reason_zh": "P5射频/红外/光信号与视距，P6点Smart Dust，P7–9讲5–150m、1–500kbps、1mW/0dBm等本页参数。"
+    },
+    "5": {
+      "title": "Requirements",
+      "semantic_paragraph_spans": [
+        [
+          9,
+          10
+        ]
+      ],
+      "alignment_reason_zh": "P9小、便宜，P10明确用一美分硬币比较传感器尺寸，对应原图硬币与电路板。"
+    },
+    "6": {
+      "title": "Sensor Network Characteristics",
+      "semantic_paragraph_spans": [
+        [
+          10,
+          16
+        ]
+      ],
+      "alignment_reason_zh": "P10–12节点多/汇聚/上行不对称，P13明确point four为地址，P15第五点同步和定位，逐项吻合五条清单。"
+    },
+    "7": {
+      "title": "Applications",
+      "semantic_paragraph_spans": [
+        [
+          16,
+          19
+        ]
+      ],
+      "alignment_reason_zh": "P16环境火灾滑坡动物和海洋，P17建筑车辆智能电网，P18–19发电管理，均是应用列表。"
+    },
+    "8": {
+      "title": "Embedded Networked Sensing Potential",
+      "semantic_paragraph_spans": [
+        [
+          19,
+          20
+        ]
+      ],
+      "alignment_reason_zh": "P19明确这些应用图片，再点水中微生物与土壤污染，分别对应marine microorganisms及contaminant transport图片，P20继续污染监测。"
+    },
+    "9": {
+      "title": "Power Shortage: Spain Apr.2025",
+      "semantic_paragraph_spans": [
+        [
+          21,
+          23
+        ]
+      ],
+      "alignment_reason_zh": "P21引入西班牙2025事件，P22–23停电与光伏发电变化，原页标题/手机截图相符；不以审计任务认证或改写事件因果。"
+    },
+    "10": {
+      "title": "Libelium Waspmote",
+      "semantic_paragraph_spans": [
+        [
+          24,
+          27
+        ]
+      ],
+      "alignment_reason_zh": "P24指商业传感器，P25–26多接口/hibernate/deep sleep/不同射程，P27依次列gas/temperature/liquid/weight/pressure等sensing boards，与本页完整条目一致。"
+    },
+    "11": {
+      "title": "Typical Network Scenario",
+      "semantic_paragraph_spans": [
+        [
+          28,
+          31
+        ]
+      ],
+      "alignment_reason_zh": "P28说明以后参照图，P29–31传感器多跳至sink再去Internet、有限能力与上行不对称，与双传感器云和sink图精确匹配。"
+    },
+    "12": {
+      "title": "Wireless Sensor Network Protocols",
+      "semantic_paragraph_spans": [
+        [
+          32,
+          36
+        ]
+      ],
+      "alignment_reason_zh": "P32 PHY及MAC，P33 MAC时间/定位及network topology/routing，P35–36上层cache/query/aggregate/external database与纵向层框逐项对应。"
+    },
+    "13": {
+      "title": "MAC Solutions",
+      "semantic_paragraph_spans": [
+        [
+          40,
+          41
+        ]
+      ],
+      "alignment_reason_zh": "P40回到slides并转MAC，P41预告802.15.4前先讲通用MAC，章节标题正确。"
+    },
+    "14": {
+      "title": "Primary MAC Attributes",
+      "semantic_paragraph_spans": [
+        [
+          42,
+          45
+        ]
+      ],
+      "alignment_reason_zh": "P42–43分布式决策仍需避碰，P44能效/规模扩展，P45拓扑适应，与三项主要要求对应。"
+    },
+    "15": {
+      "title": "Other MAC Attributes",
+      "semantic_paragraph_spans": [
+        [
+          45,
+          48
+        ]
+      ],
+      "alignment_reason_zh": "P45末信道高效利用，P46延迟，P47吞吐，P48公平，正是本页四条次要属性。"
+    },
+    "16": {
+      "title": "Identifying the Energy Consumers",
+      "semantic_paragraph_spans": [
+        [
+          48,
+          50
+        ]
+      ],
+      "alignment_reason_zh": "P48传感板，P49CPU及TX/RX/idle/sleep耗电，P50休眠省能，原柱形图及ETX≈ERX≈EIDLE>>ESLEEP与讲解一致。"
+    },
+    "17": {
+      "title": "Energy Efficiency in MAC",
+      "semantic_paragraph_spans": [
+        [
+          50,
+          52
+        ]
+      ],
+      "alignment_reason_zh": "P50–51要减idle listening，P51避碰/overhead/overhearing，P52区别Wi-Fi未重视长idle，原页waste列表精确匹配。"
+    },
+    "18": {
+      "title": "Classification of MAC Protocols: overview",
+      "semantic_paragraph_spans": [
+        [
+          52,
+          52
+        ]
+      ],
+      "alignment_reason_zh": "P52引出schedule-based与contention-based两类的总览；本图双方不突出，尚未展开CSMA，保留此概览位置。"
+    },
+    "19": {
+      "title": "Classification: schedule-based emphasis",
+      "semantic_paragraph_spans": [
+        [
+          53,
+          53
+        ]
+      ],
+      "alignment_reason_zh": "P53切第一类并预告LEACH，原页只对Schedule-based加粗；不能因与18内容近似就删掉或移到竞争类。"
+    },
+    "20": {
+      "title": "Scheduled Protocols: LEACH",
+      "semantic_paragraph_spans": [
+        [
+          54,
+          71
+        ]
+      ],
+      "alignment_reason_zh": "P54全称及簇结构，P55–57簇内TDMA，P58–62簇间CDMA，P63–70能耗不均/轮换/扩展问题，全部对应LEACH列表。具体课堂两簇和时隙画图不在该文字页。"
+    },
+    "21": {
+      "title": "Classification: contention-based emphasis",
+      "semantic_paragraph_spans": [
+        [
+          72,
+          72
+        ]
+      ],
+      "alignment_reason_zh": "P72明确现在转第二类contention-based，原图正突出该行；和P53调度类图不是误放的CSMA图。"
+    },
+    "22": {
+      "title": "The IEEE 802.15.4 Standard",
+      "semantic_paragraph_spans": [
+        [
+          72,
+          73
+        ]
+      ],
+      "alignment_reason_zh": "P72报标准全名并转入该部分，标题页紧跟分类页合适。"
+    },
+    "23": {
+      "title": "IEEE 802.15.4 and ZigBee",
+      "semantic_paragraph_spans": [
+        [
+          73,
+          74
+        ]
+      ],
+      "alignment_reason_zh": "P73–74解释IEEE PHY/MAC与ZigBee联盟上层规范，对应双方条目。"
+    },
+    "24": {
+      "title": "802.15.4 Network Components",
+      "semantic_paragraph_spans": [
+        [
+          75,
+          76
+        ]
+      ],
+      "alignment_reason_zh": "P75预告拓扑/类型，P76明确full-function与reduced-function及路由能力，对应FFD/RFD对照。"
+    },
+    "25": {
+      "title": "Network Topologies",
+      "semantic_paragraph_spans": [
+        [
+          77,
+          82
+        ]
+      ],
+      "alignment_reason_zh": "P77进入星形及mesh，P80继续cluster-tree，概览列三类型，放P77后是拓扑段开场。"
+    },
+    "26": {
+      "title": "802.15.4 Star Topology",
+      "semantic_paragraph_spans": [
+        [
+          77,
+          77
+        ]
+      ],
+      "alignment_reason_zh": "P77前半讲中心FFD/PAN coordinator和外围可RFD，对应蓝中心红蓝叶子星形图。"
+    },
+    "27": {
+      "title": "802.15.4 P2P Topology",
+      "semantic_paragraph_spans": [
+        [
+          77,
+          79
+        ]
+      ],
+      "alignment_reason_zh": "P77后半已讲第二类mesh且全FFD，P78协调器入网记录，P79peer-to-peer命名，图中全蓝节点对应；与星形同P77后并列准确。"
+    },
+    "28": {
+      "title": "Cluster-tree Topology",
+      "semantic_paragraph_spans": [
+        [
+          80,
+          82
+        ]
+      ],
+      "alignment_reason_zh": "P80多个星形连成网，P81FFD簇头及全网协调器，P82可覆盖大范围并混合FFD/RFD，原图红蓝节点簇树符合。"
+    }
+  },
+  "confirmed_missing_pdf_slides": [],
+  "unresolved_source_gaps": [
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        54,
+        55,
+        58,
+        62
+      ],
+      "description": "LEACH例子中两个簇、两个簇头和普通传感器的具体示意，P54指cluster1/cluster2；当前图20只有文字条目，固定PDF没有相同两簇及本课节点标号的原图。不能用D2D三簇通用图代替。"
+    },
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        56,
+        57,
+        66,
+        69
+      ],
+      "description": "重复time frame内slot1→S1、slot2→S3、slot3→S5以及新S6/S7无slot的课堂时序/分配示意；当前LEACH页只说Static TDMA frame，没有该图。"
+    }
+  ],
+  "not_missing": [
+    {
+      "source": "04-Sensors-MAC.pdf",
+      "figure_numbers": [
+        18,
+        19,
+        21
+      ],
+      "reason": "三页文字近似但高亮阶段不同，分别服务分类总览、调度、竞争过渡，不删改。"
+    },
+    {
+      "source": "04-Sensors-MAC.pdf",
+      "figure_numbers": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "reason": "P82明确PHY与MAC细节次日讲，本课不提前补之后物理层或时序页。"
+    },
+    {
+      "source": "04-Sensors-MAC.pdf",
+      "reason": "PDF页脚编号多处跳号，是固定讲义自身编排；不能把未提供的印刷页号当作本课确切缺图。"
+    }
+  ],
+  "cautions": [
+    "本审计只匹配课件和讲解位置，不认证老师对Smart Dust、西班牙停电、产品参数等事实的准确性；原正文不改。",
+    "P46低延迟实例数值存在原转写差异，保留原不确定注记。"
+  ],
+  "publish_recommendation": "26原图及正文导航保持，无需远端变更。审计检查点可直接独立发布；2项具体课堂示意需原图才能补。"
+}

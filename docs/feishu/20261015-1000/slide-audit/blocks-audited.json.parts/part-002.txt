@@ -1,0 +1,3740 @@
+耗，这是其中一个重要的方面，对吧，是我们希望信道接入方案具有的属性，正如我们已经说过的，不过让我再把这一点解释得更清楚一些。在一个传感器节点内，我们会消耗功率，是因为节点内部有各种不同的组件。例如，传感板本身在感测物理场时，当然会消耗一些功率。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn0RITSHHNzelJLFwbrCTi5e",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第8页下半页 · 图16（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "XPpZb28LAovjkdxrTRWc3CVKnve",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcncWXOpq4ooyS0Vztd7d5UDc",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnbzudYUspVknxRdERB1ea3f",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "49 · 01:00:38 · CPU及无线接口不同状态的功耗",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnFygIwWt26pV9PmAqimbqrs",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:00:38",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nWe typically have a CPU, of course, to make it work, and the CPU may, of course, consume power. And then we have the radio interface, right? The radio interface consumes power as well. How much power depends on what the interface is doing. So, if it transmits, you will have the power consumption of the transceiver plus the power that is radiated, right, the transmit power that we radiate to transmit the signal. When it receives, it is a little bit lower, because we only have the power consumption of the transceiver, but we don't have to radiate any signal; we are receiving in that case. When it is idle, if it needs to sense the channel, then it is going to consume something, right? And the consumption is essentially the same as that of the receiver; typically, it is comparable. If we put our interface into sleep mode, then, of course, we are not able to transmit or receive, but the power consumption of the interface will drop significantly.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "通常，我们当然会有一个CPU，来让它工作，而这个CPU当然可能会消耗功率。然后，我们还有无线电接口，对吧？无线电接口也会消耗功率。消耗多少功率，取决于这个接口在做什么。所以，如果它在发送，那么你就会有收发器的功耗，再加上辐射出去的功率，对吧，也就是我们为了发送信号而辐射出去的发射功率。当它在接收时，功耗会低一点，因为我们只有收发器的功耗，却不必辐射任何信号；在那种情况下，我们是在接收。当它空闲时，如果它需要感测信道，那么它也会有所消耗，对吧？而这种消耗基本上与接收器的消耗相同；通常，两者是相当的。如果我们把接口置于睡眠模式，那么，我们当然就不能发送或接收了，但是接口的功耗会显著下降。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnM3LjVOYIMmAkOaNC6oPiUg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcncMfFn50EzvR4Ml7ig6s8Oh",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "50 · 01:02:02 · 尽量休眠并减少接口空闲时间",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcniGtyUbU8NBWA8mhAuKELnb",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:02:02",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo it is in our interest, in order to save energy, power, to put the interface into sleep mode as often as possible. And also it is, of course, important not to keep it active unless it is necessary. In particular, it would be great if we could reduce the time spent by the interface in idle mode. Why? Because when you transmit, you are doing something useful, right? You are transmitting data. When you receive data, useful data that is intended for you, that is also useful.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，为了节省能量、功率，尽可能频繁地把接口置于睡眠模式，是对我们有利的。而且，当然，除非有必要，否则不要让它保持活动状态，这一点也很重要。特别是，如果我们能够减少接口处于空闲模式的时间，那就很好。为什么？因为当你发送时，你在做有用的事情，对吧？你在发送数据。当你接收数据，接收发给你的有用数据时，那也是有用的。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnQZjM1DwPOhGp9op29cZavh",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnY9T2lNcqbPv8MWYc3egyJ3",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "51 · 01:03:00 · 空闲侦听、碰撞、开销与旁听",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnHF5Gq6sqLhiOyWFdfYnae1",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:03:00",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nBut being idle means that you are doing nothing and you still consume a lot of power. That is something that you would like to avoid, right? So one of our goals would be to reduce the time that the interface spends in idle mode. Also, it would be very good, of course, to avoid collisions, to avoid overhead; we know that already. But it would also be very good to avoid so-called overhearing. What does overhearing mean? It is when you hear someone else talking, like when, for example, you demodulate the header. So, in that case, those packets are not intended for you. You are not the intended receiver, but you still overhear those packets and demodulate the header, right?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "但是，处于空闲状态意味着你什么都没做，却仍然消耗大量功率。这是你想要避免的事情，对吧？所以，我们的一个目标会是，减少接口处于空闲模式的时间。另外，当然，能够避免碰撞、避免开销也会非常好；这一点我们已经知道了。但是，能够避免所谓的旁听，也会非常好。旁听是什么意思？就是你听到别人在讲话，比如说，例如，你解调首部的时候。所以，在那种情况下，那些分组并不是发给你的。你不是预定的接收者，但是你仍然旁听了那些分组，并且解调了首部，对吧？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnmy3dSLCM6vyBA1yKtxaxah",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第9页上半页 · 图17（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "IN28bLQ0fo2Yu7xLEUUc8EW8nuf",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnet3cb5DzrJxyNy4KCLT27d",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcni1W70THh8CedUA29vLqmWf",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "52 · 01:04:05 · 避免低效并区分调度与竞争接入",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnkgv1gofcbdoDVf4BEG9dUe",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:04:05",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo that is something that you would like to avoid, because it is a cost, but you are not actually the intended receiver of that data packet. So, if possible, it would be good to avoid it. So those will be the aspects on which we try to act. Our channel-access scheme should be designed to avoid all those inefficiencies. Let's say some of them, some inefficiencies, were also in Wi-Fi; we know that already. But here we really want to solve those points. And, as I said, we want to reduce the time spent in idle time. That was not one of the goals of Wi-Fi, right? In Wi-Fi they were always there, sensing the channel, and Wi-Fi doesn't care about that. Okay, now, even if we are going to focus on, as I said, the channel-access scheme specified by the IEEE standard, we must be aware of the fact that there are many, many different channel-access schemes for sensor networks, okay? And there might be sensor products, commercial products available on the market, that implement their own channel-access scheme as a proprietary solution. So, before understanding how the one specified by the IEEE standard works, let's provide examples of strategies that are also used by proprietary solutions for sensor networks, okay? Now, there are two main strategies that can be applied for channel access in sensor networks. One is schedule-based, and the other one is contention-based. The access scheme specified by the IEEE standard for sensors falls into this family, the contention-based family.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，这是你想要避免的事情，因为它会带来成本，可你实际上并不是那个数据分组预定的接收者。所以，如果可能的话，能够避免它会很好。因此，这些就是我们尝试着手处理的方面。我们的信道接入方案应该被设计成能够避免所有这些低效之处。可以说，其中有些，有些低效之处，在Wi-Fi中也存在；这一点我们已经知道了。但是，在这里，我们确实想解决这些问题。而且，正如我说过的，我们想减少处于空闲状态的时间。这并不是Wi-Fi的目标之一，对吧？在Wi-Fi中，它们始终都在那里，感测着信道，而Wi-Fi并不在意这一点。好，现在，即使我们接下来要重点关注的，正如我说过的，是IEEE标准规定的信道接入方案，我们也必须知道这样一个事实：传感器网络有很多、很多种不同的信道接入方案，好吗？而且，市场上可能会有一些传感器产品，一些商业产品，它们实现了自己的信道接入方案，作为一种专有解决方案。所以，在理解IEEE标准规定的那个方案如何工作之前，我们先举一些策略的例子，这些策略也被传感器网络的专有解决方案采用，好吗？现在，可以用于传感器网络信道接入的主要策略有两种。一种是基于调度的，另一种是基于竞争的。IEEE针对传感器规定的接入方案属于这一类，基于竞争的这一类。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnk41zMGpjVFbqfR8TckOwl0",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第9页下半页 · 图18（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "ZxwxboextorpC4xRfaScMgR7n6d",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnhuyIe8chBcM9kaE9eCfyPh",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcngG4lBfoWI691w0J0gnGdhf",
+        "block_type": 3,
+        "heading1": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "八、LEACH的TDMA与CDMA机制",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnr2Sc4sQJ7WLve1mzBcCxzb",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "53 · 01:06:39 · 以LEACH介绍基于调度的方案",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnPgvdWfWHoIwDFz3ir2Zjgf",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:06:39",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nIt is going to be a type of algorithm and protocol that is contention-based [opening wording uncertain]. Let me, however, give you an example of a scheme that has been proposed and implemented; it is very, very famous, and instead falls into this first family of schemes, okay, of strategies, the schedule-based family. It is called LEACH. If you Google LEACH, you will find it. There are thousands of documents that you can find, more, hundreds of thousands of documents on, on LEACH. And, as I was saying, many proprietary solutions for sensor channel access are based on, on, on this LEACH.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "它将是一种基于竞争的算法和协议【开头措辞不确定】。不过，让我给你们举一个已经被提出并实现的方案的例子；它非常、非常有名，而且它反而属于第一类方案，好吗，第一类策略，也就是基于调度的这一类。它叫作LEACH。如果你用Google搜索LEACH，你就会找到它。你能找到数千份文档，还要更多，数十万份关于、关于LEACH的文档。而且，正如我刚才说的，许多用于传感器信道接入的专有解决方案都是基于、基于、基于这个LEACH的。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnGMTQyu9FTriwvAR9C1stfh",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第10页上半页 · 图19（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "JNt6bQaWkobMU4x2JLpchIuBnPc",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnQB908ayEf1rGaSkkhw5pTe",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnBOwcMH8z2xtRwBTzDSWowb",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "54 · 01:07:57 · LEACH含义与分簇网络拓扑",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnG3i3EepaALs9RC92FmIjKb",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:07:57",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOh, okay, so LEACH. It is important at least to get an idea of how this works. LEACH is an acronym that stands for Low-Energy Adaptive Clustering Hierarchy. Now the main point here is that we consider sensor-network topologies that are cluster-based. Remember that the cluster-based topology was one of those that we said, along with the flat and the tree ones, is among the most widely used, okay? So imagine that we had groups, clusters of nodes. And, for example, let's consider two clusters. This is cluster one, this is cluster two. In each cluster, we have, let's see here, in each cluster we have a cluster head. This is the cluster head for cluster one, and this is the cluster head for cluster two. And then we have some ordinary nodes, right? Remember this topology? So we had the ordinary nodes in each cluster that can communicate with the cluster head, right? So let's say that this belongs to this.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "哦，好，那么，LEACH。至少对它如何工作有一个大致的了解，这一点很重要。LEACH是一个首字母缩写，代表Low-Energy Adaptive Clustering Hierarchy，也就是低能耗自适应分簇层次结构。现在，这里的主要之处在于，我们考虑的是基于簇的传感器网络拓扑。还记得吗，基于簇的拓扑是我们说过的那些拓扑之一，它和扁平拓扑、树形拓扑一起，属于使用最广泛的拓扑，好吗？所以，想象我们有一些组，一些节点组成的簇。而且，例如，让我们考虑两个簇。这是簇一，这是簇二。在每个簇中，我们有，让我们看这里，在每个簇中，我们都有一个簇头。这是簇一的簇头，而这是簇二的簇头。然后，我们还有一些普通节点，对吧？记得这个拓扑吗？所以，我们在每个簇中有这些普通节点，它们能够与簇头通信，对吧？那么，我们就说这个属于这个。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcniwxtlaclmrju2Cs4cwJPth",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第10页下半页 · 图20（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "LsTQb9rmRoGFGzxUwg2coQHSnUd",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnY35MUa3OttJTPaWwYWz45d",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnoICrdOliC4pMSfuc5N3bud",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "55 · 01:10:02 · 簇内使用TDMA与簇头通信",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcn9h2pSdZ5BVYnO6Sx3P7OMh",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:10:02",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nThis was the cluster-based topology. Okay, so when we apply LEACH, we consider that our network has got this kind of topology. LEACH can be applied when we have this kind of topology. And what LEACH does is to say: within each cluster, the nodes, the ordinary nodes, communicate with the cluster head using time-division multiple access.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "这就是基于簇的拓扑。好，所以，当我们应用LEACH时，我们认为我们的网络具有这种拓扑。当我们有这种拓扑时，就可以应用LEACH。而LEACH的做法就是说：在每个簇内，节点，也就是普通节点，使用时分多址与簇头通信。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnNy42upOUJC4SbfcmBBQpng",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnjX1DD9UfkwBztnSSbuEFD9",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "56 · 01:10:51 · 同频发送按节点分配时隙",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcn9GZn2C1o6pVFuPJHQlSTlc",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:10:51",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nWhat does it mean? It means that they will all use the same frequency channel, okay? So the same frequencies, all of them use the same frequencies. And how do you separate transmissions from the sensors to the cluster head so that they do not collide? Well, you consider that time is divided into time slots, and then you assign a time slot to each sensor. So this is, for example, time slot one, and it is assigned to sensor one. Time slot two is assigned to sensor three. Time slot three is assigned to sensor five. Okay, okay, each sensor has got its own time slot. So this is a possible assignment.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "这是什么意思？意思是，它们都会使用同一个频率信道，好吗？也就是说，相同的频率，它们所有节点都使用相同的频率。那么，你如何把从传感器到簇头的各次发送分隔开来，使它们不会碰撞呢？嗯，你考虑把时间划分为时隙，然后给每个传感器分配一个时隙。所以，例如，这是时隙一，它被分配给传感器一。时隙二被分配给传感器三。时隙三被分配给传感器五。好，好，每个传感器都有它自己的时隙。所以，这是一种可能的分配方式。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn3wcyAwn5cDGJT8qqdk02Ld",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnKlYj8lmohdxY7MTFwNEq9l",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "57 · 01:12:18 · 周期性时间帧与传感器发送安排",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcn9OdmfaZbL47oJBONMBymzc",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:12:18",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd then this is a frame, it is called a frame. Sorry, I know that we used ‘frame’ as a packet in Wi-Fi, but here a frame is a time period, okay? So this is the so-called time frame. And the time frame repeats itself, okay? The time frame repeats itself. So here we are again: time slot one, where S1 can transmit; then we have time slot two, where S3 can transmit; and so on and so on, okay? So this configuration of the time frame repeats over and over, and within each time frame we have time slots. Each time slot is assigned to a different sensor. And this is how, within a cluster, sensor nodes can transfer their data, their measurements, to their cluster head. Okay, good.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "然后，这就是一帧，它被称为一帧。抱歉，我知道我们在Wi-Fi中用“帧”来表示一个分组，但是在这里，一帧是一个时间段，好吗？所以，这就是所谓的时间帧。而时间帧会不断重复，好吗？时间帧会不断重复。所以，这里我们又有了：时隙一，S1可以在这里发送；然后我们有时隙二，S3可以在这里发送；以此类推，以此类推，好吗？所以，时间帧的这个配置会一遍又一遍地重复，而在每个时间帧内，我们都有一些时隙。每个时隙被分配给一个不同的传感器。而这就是在一个簇内，传感器节点如何把它们的数据、它们的测量值传送给它们的簇头。好，很好。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnmCHtA9jXturHCz5tZyMqEf",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnV874WxmuwtvuLWHFAZnQjg",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "58 · 01:13:41 · 簇内无碰撞及簇间CDMA通信",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnLL45cHH4VBOKGnDuSVIXPc",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:13:41",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo now we understand how data are transmitted within a cluster, avoiding collisions, right? They do not collide because they are active one at a time. Each of them has got its own time slot; it is not going to overlap with the others, okay? Now, however, LEACH is a hierarchical scheme, right, as also indicated by the name. Why? Because we consider having a higher hierarchical level, the communication between clusters. So cluster heads of nearby clusters communicate with each other, and they communicate using the so-called CDMA scheme. What does it mean? That our cluster heads, again, will use exactly the same frequency band. They can communicate at the same time, so there is no time division.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，现在我们明白了数据如何在一个簇内传输，同时避免碰撞，对吧？它们不会碰撞，因为它们一次只有一个处于活动状态。它们每一个都有自己的时隙；它不会与其他节点的时隙重叠，好吗？不过，现在，LEACH是一种层次化的方案，对吧，正如它的名字也表明的那样。为什么？因为我们考虑存在一个更高的层级，也就是簇之间的通信。所以，相邻簇的簇头会相互通信，而它们使用所谓的CDMA方案来通信。这是什么意思？就是我们的簇头，同样，会使用完全相同的频带。它们可以同时通信，所以这里没有时间上的划分。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnsEfmFA3UbJ5LcmrN88rjWf",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcncYQafSxTnZ5a3ocJ6mAsVf",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "59 · 01:15:03 · 用鸡尾酒会引出不同码",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcn4kpeW5cILS4Ql6RBZ8ziKh",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:15:03",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nThey can communicate at the same time, but they will use different codes. What do I mean? Codes are like languages for us, for human beings. There is the famous example of the cocktail party. So there are people at the cocktail party, and these people are international. Some are Chinese, Italian, German, English, etcetera, okay?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "它们可以同时通信，但是它们会使用不同的码。我是什么意思？对我们而言，对人类而言，码就像语言。有一个著名的鸡尾酒会的例子。所以，鸡尾酒会上有一些人，而这些人来自不同的国家。有些是中国人、意大利人、德国人、英国人，等等，好吗？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn93nrx1uUDNhuLKcNjBASsc",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnwMMRGoLFm1K0iBLpy1L7Rd",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "60 · 01:15:37 · 不同语言对交谈注意力的影响",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnfO2QExzW6AdlpO6uAOjqfg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:15:37",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nNow, you may have experienced that, right, because you live in a kind of international environment here in the Sino-Italian Center. So if there is someone speaking Italian, unless you know Italian, but probably you don't, if they talk your brain just removes that noise. So if, I don't know if you can speak, yes, for sure you can speak Chinese and English, right? So if you are in a room and you are speaking in Chinese with your friend, if there is a loud pair of, of people speaking English, you may actually be disturbed by this ongoing conversation in English. Because your brain, you know, you can understand English, so your brain gets distracted by the English conversation. Instead, if there are some loud Italians talking to each other in Italian, you don't care, you don't get disturbed. And, I mean, probably you have not realized that, but try, and it is true. Believe me. So, for example, I can speak German and, okay, English, Italian. But, for example, for me German is very disturbing. So if there are people talking in German near me, my brain gets distracted.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "现在，你们可能体验过这种情况，对吧，因为你们在这里，在中意中心，生活在一种国际化的环境中。所以，如果有人在说意大利语，除非你懂意大利语，不过你大概不懂，那么当他们说话时，你的大脑就直接把那种噪声排除了。所以，如果，我不知道你们会不会说，是的，你们肯定会说中文和英语，对吧？所以，如果你在一个房间里，正和你的朋友用中文交谈，如果有一对、一对大声说英语的人，你实际上可能会受到这场正在进行的英语对话的干扰。因为你的大脑，你知道，你能够听懂英语，所以你的大脑就会被那场英语对话分散注意力。相反，如果有几个声音很大的意大利人在用意大利语相互交谈，你就不会在意，你不会受到干扰。而且，我是说，也许你们还没有意识到这一点，但是试试看，这是真的。相信我。所以，例如，我会说德语，还有，好，英语、意大利语。但是，例如，对我来说，德语非常容易造成干扰。所以，如果有人在我附近用德语交谈，我的大脑就会分心。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnavt9P9tG8RMbG43HgdC5Ve",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnHjWVDURAx5qs9uo6ACIAAh",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "61 · 01:17:27 · 熟悉语言与陌生语言的干扰类比",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcny6vYcS8NS8UegALzcSRFif",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:17:27",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd even if I speak my mother tongue, which is Italian, with someone else, I get confused because these people are speaking German and I can understand what they are saying. So part of my brain is, is following their conversation. Instead, if they were probably speaking Chinese, unfortunately I cannot understand Chinese, so for me that would just be noise that I do not care about. My brain would be focused only on the Italian language, okay?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "而且，即使我在和别人说我的母语，也就是意大利语，我也会感到混乱，因为这些人在说德语，而我能够理解他们在说什么。所以，我的大脑有一部分在、在跟着他们的对话走。相反，如果他们也许是在说中文，很遗憾，我听不懂中文，所以，对我来说，那就只是我不在意的噪声。我的大脑就只会专注于意大利语，好吗？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnlnk9fl4gqsaaCJ819i707d",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnphatYZvzRHErtreCKymBIv",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "62 · 01:18:02 · 以不同语言说明码分多址",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnfOFl6eC5mqDlopQDDDtiYg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:18:02",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, for us human beings, languages are a kind of code, okay? We have a code that is Italian, a code that is German, a code that is Chinese, a code that is English. Try, and you will see that indeed this is true. So the concept in CDMA is code-division multiple access, meaning that you assign to nodes a different code, like a different language to use, okay? So that if, for example, these two cluster heads, let's say, are speaking Italian, if nearby there are other cluster heads that are speaking German or whatever, they will not disturb each other, okay? So the trick here is to assign different codes to different conversations that may happen in the same room, so using the same frequencies and at the same time, so that they do not interfere with each other. And these codes are essentially like languages for us. So that is the idea in LEACH, and LEACH works quite well. That is why it has been, as I was saying, used in many proprietary solutions. However, it also has some drawbacks.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，对我们人类来说，语言就是一种码，好吗？我们有一个码是意大利语，一个码是德语，一个码是中文，一个码是英语。试试看，你们就会发现，这确实是真的。所以，CDMA中的这个概念是码分多址，意思是，你给节点分配不同的码，就像让它们使用不同的语言，好吗？这样，如果，例如，这两个簇头，我们假设，在说意大利语，如果附近还有其他簇头在说德语或者其他什么语言，它们就不会相互干扰，好吗？所以，这里的诀窍就是，给可能在同一个房间里发生的不同对话分配不同的码，也就是说，使用相同的频率，并且在相同的时间进行，使它们不会相互干扰。而这些码，基本上就像对我们而言的语言一样。所以，这就是LEACH中的思路，而且LEACH工作得相当好。这就是为什么，正如我刚才说的，它已经被用在许多专有解决方案中。不过，它也有一些缺点。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnyYpQo3NXGFY1wgzKV8xUyZ",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnEaCyA42OEahuV31eZr4Ezh",
+        "block_type": 3,
+        "heading1": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "九、LEACH能耗分配与扩展局限",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnbi5AjmAeAaeUUk4CAursZf",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "63 · 01:19:42 · 簇头负担导致节点能耗不均",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnG1cXbsQRuhPQD87kshSaDb",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:19:42",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so we always need to look at these technologies and see: okay, they are good ideas, but what are the drawbacks? Because there is always a drawback, unfortunately. Well, an important drawback is that, as we said, LEACH relies on cluster-based topologies, where cluster heads have to collect the data from the ordinary nodes that are part of their cluster, and they also need to be able to communicate with other cluster heads, right? So what does it mean? It means that cluster heads are going to be very busy. So can they go to sleep? No, because if the cluster head goes to sleep, the cluster, the whole cluster, will not work. Okay, so the cluster head has a very important role, responsibilities. It cannot sleep too often, right? Sometimes maybe it can go to sleep, but not too often. So we will have uneven energy consumption at the nodes. Cluster heads are going to consume much more than the others. So if we have sensors that act as cluster heads, then the poor guys are going to deplete their batteries much sooner than the other nodes. And this is a disadvantage. Another disadvantage, this is even more serious, because in being a cluster head, let's say, you may also take turns.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，所以，我们总是需要看一看这些技术，然后看看：好，它们是不错的想法，但是缺点是什么呢？因为，很遗憾，总会有一个缺点。嗯，一个重要的缺点是，正如我们说过的，LEACH依赖于基于簇的拓扑，在这种拓扑中，簇头必须从属于它们簇的普通节点那里收集数据，而且它们还需要能够与其他簇头通信，对吧？那么，这是什么意思呢？意思是，簇头会非常忙。那么，它们能去睡觉吗？不能，因为如果簇头去睡觉，这个簇，整个簇，就不能工作了。好，所以，簇头有非常重要的作用，承担着责任。它不能太经常睡觉，对吧？有时也许它可以去睡觉，但是不能太经常。所以，我们各个节点的能量消耗会不均匀。簇头将比其他节点消耗多得多的能量。所以，如果我们有一些传感器担任簇头，那么这些可怜的家伙就会比其他节点早得多地耗尽它们的电池。而这是一个缺点。另一个缺点，这个更加严重，因为在担任簇头这件事上，可以说，你们还可以轮流来做。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnzfEHqB0uQ4RRxQn1O4y63g",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnm4sxAb6dvtanR0uF1VeWWe",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "64 · 01:21:32 · 轮换簇头可分摊能耗负担",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnLEJle1CVKvwOfK0XKNfBRb",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:21:32",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd in this case you may, let's say, distribute the burden of being a cluster head among the nodes, right? But this second problem is instead much, much more serious; it cannot be solved so easily.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "而在这种情况下，你们可以，可以这么说，把担任簇头的负担分摊到各个节点之间，对吧？但是，这第二个问题却要严重得多、得多；它不能那么容易地解决。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnDfBox5kRzHI3CukX5a8Moe",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcntf2mKm5oRfC8SywcP2qKxf",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "65 · 01:21:49 · LEACH的节点扩展问题",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnYyKDMyAiMF1SWE30Oy5trf",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:21:49",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nThe scalability problem. Remember, we want to be scalable; that means the scheme needs to work well even if we have a large number of nodes in the network. Is this scheme scalable? Look at what we said. Can we easily accommodate, for example, new nodes that may be added to the network?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "可扩展性问题。记住，我们想要具有可扩展性；这意味着，即使我们的网络中有大量节点，这个方案也需要能够良好地工作。这个方案具有可扩展性吗？看看我们说过的内容。例如，对于可能被加入网络的新节点，我们能够轻松地容纳它们吗？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnYkFLP4yuRWU7TPbst7Jojc",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn1YYa8hPQmjbSL5WFNKmXGd",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "66 · 01:22:23 · 簇内节点增加对时隙安排的影响",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnLtqWyFIHN4K28fjVgs2pBd",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:22:23",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nNot really, not really, because within each cluster we said that we assign time slots within a time frame to each node. Now, if the number of nodes, ordinary nodes within a cluster, increases, what is the problem?\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "不太能，不太能，因为我们说过，在每个簇内，我们在一个时间帧内为每个节点分配时隙。现在，如果节点的数量，一个簇内普通节点的数量增加了，问题是什么呢？",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn7yNECsaN0zXA5remXBnahg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn8WohPJ0nAkF7S75ggAPJzd",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "67 · 01:22:58 · 新节点加入却无空余时隙",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcn23mBuSN8lkbLDvCsYt7f9Z",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:22:58",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nIf we, we have new nodes, sensor six and seven, joining the cluster, there are no time slots for them, right? So if we have already filled up the whole time frame, assigned all the available time slots, there are no more time slots.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "如果我们、我们有新节点，传感器六和七，加入这个簇，就没有给它们的时隙了，对吧？所以，如果我们已经填满了整个时间帧，分配了所有可用的时隙，就没有更多时隙了。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnoRAVKavrEXhsCbGitPD3ke",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn77TtNEvEbQ3tQ2TdEgbKLe",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "68 · 01:23:22 · 修改调度与降低单节点发送频率",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnYv2QxRT92M3JmjOrlgBSJg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:23:22",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo nodes can take turns, probably yes, but we need to change the schedule. And then a node, at that point, may need to skip some frames, right, and be able to transmit more rarely. So that is an issue. And the same with cluster heads.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，节点可以轮流来，大概是可以的，但是我们需要改变调度安排。然后，到了那个时候，一个节点可能需要跳过一些帧，对吧，能够发送的频率就会更低。所以，这是一个问题。簇头的情况也一样。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnK5FORtFeOHiEuf2QYUmSKb",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnKRo6RXkdqeiCNwi8cFgD5R",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "69 · 01:23:45 · 簇数量增长可能耗尽可用码",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnhhuGamftYXcur76aNa6Vqg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:23:45",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nIf we increase the number of clusters, well, like the number of languages, there are many languages, but they are in a fi-, finite number, okay? So if we increase the number of clusters too much, and therefore of cluster heads, we may run out of codes to differentiate the different transmissions.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "如果我们增加簇的数量，嗯，就像语言的数量一样，有许多种语言，但是它们的数量是有、有限的，好吗？所以，如果我们把簇的数量增加得太多，从而也把簇头的数量增加得太多，我们就可能用尽那些用来区分不同发送的码。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnJn98i6tUxpGFuKMG8Jp0vL",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnC2lX8QKHhe1Oa4hGeAxF4d",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "70 · 01:24:12 · 重复用码带来干扰与方案局限",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnKOQeIaGs4PNn78IVusqIqg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:24:12",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo at a certain point, two pairs of cluster heads may speak Chinese, both of them, and interfere a lot, right? So this LEACH is good, is good, but it also has some drawbacks that we need to account for.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，到了某个时候，两对簇头可能都说中文，它们两对都是，于是产生很大的相互干扰，对吧？所以，这个LEACH是好的，是好的，但是它也有一些我们需要考虑进去的缺点。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnJSKKY1Li12d4gHkLHkHrQh",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnxuuxgRQV5EBZJy8bunVEJb",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "71 · 01:24:35 · 总结基于调度的接入方式",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcn4yCtgMDWdjBZXqWCf99RHD",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:24:35",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, that is it. That was the most, let's say, prominent example of this family of channel-access schemes that are based on a schedule, right? Because now we understand what schedule-based means, because we were scheduling the transmissions, right? So inside the frame we were, for example, assigning different time slots. That means that we were scheduling.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，就是这些。这是这一类基于调度的信道接入方案中，可以这么说，最突出的一个例子，对吧？因为现在我们明白基于调度是什么意思了，因为我们是在对发送进行调度，对吧？所以，在帧内，例如，我们是在分配不同的时隙。这就意味着，我们是在进行调度。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnu5lJfkxqZrEFud4cpiAGLM",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn1IjErHyKuiGTGDB1Tdvj4d",
+        "block_type": 3,
+        "heading1": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "十、IEEE 802.15.4与Zigbee",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnfjBjvLEdqIqazYKeKkEiPf",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "72 · 01:25:06 · 转向IEEE 802.15.4竞争接入",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnRLRZKXmeunuanLY6DUErHU",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:25:06",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nInstead, now we move to the second family, which is contention-based. In particular, we are going to look, as we said, at the scheme that is standardized by IEEE, with the name of the amendment, which is 802.15.4. So this is a standard by IEEE.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "而现在，我们转向第二类，也就是基于竞争的这一类。具体来说，正如我们说过的，我们要看看由IEEE标准化的那个方案，它的修订名称是802.15.4。所以，这是IEEE的一个标准。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcneExIr4tTYU2Vi12AHVfwqg",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第11页上半页 · 图21（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "O0KhbbMceopDU0xgQjTcGxAhn3b",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnwgJRtdrHUNOvAtxFYRRIBc",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第11页下半页 · 图22（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "NSDFbwNiZozhsaxgYXXcoUBDn0d",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnOgWkCz51lAQsJGyE9AIYBh",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnsVYc6htib1k9dbAizM7P4g",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "73 · 01:25:35 · IEEE底层规范与Zigbee的关系",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnpN0aj5kXNITZsDPg4k7ESE",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:25:35",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd again, as for Wi-Fi, this standard is going to specify how the physical layer and the MAC layer work, okay? So the standard is about these two layers, as with Wi-Fi. Okay, that said, however, you may also find the name Zigbee referring to networks made of low-power, low-data-rate sensors. Okay, Zigbee is often used to refer to this kind of technology. So you may wonder, okay, what is Zigbee? Why do we already have the name of the standard? Why do we have a second name, Zigbee, for this kind of system? Because Zigbee is an alliance of industries that operate in the field of sensors. And this group of industries also issues specifications for sensor networks. And what they did was to say, ‘Well, as the Zigbee Alliance, we are going to reuse the IEEE specifications for the physical and MAC layers of the sensor nodes that we are producing.’\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "而且，同样，与Wi-Fi一样，这个标准将规定物理层和MAC层如何工作，好吗？所以，这个标准讲的是这两层，就和Wi-Fi一样。好，不过，话虽如此，你们也可能会看到Zigbee这个名字，用来指由低功耗、低数据速率的传感器组成的网络。好，Zigbee经常被用来指这类技术。所以，你们可能会想，好，Zigbee是什么？为什么我们已经有了标准的名字？为什么对于这种系统，我们还会有第二个名字，Zigbee？因为Zigbee是一个由在传感器领域开展业务的企业组成的联盟。而这组企业也会发布传感器网络的规范。而它们所做的就是说：“嗯，作为Zigbee联盟，对于我们正在生产的传感器节点的物理层和MAC层，我们将复用IEEE的规范。”",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnhHsFtKtT3i3rUxLRiFCm7B",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第12页上半页 · 图23（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "QiK1bN5bioRHXGx74g8cmrZinHb",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnHPHSmEjT57chZEDsCJbOGh",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnyRydib30EtLCQlrstdBW6c",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "74 · 01:27:29 · Zigbee网络层与IEEE物理、MAC层",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnJinaw4YLF6bPv2ZbsScJyb",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:27:29",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd then we consider specifying, issuing our own specifications for the network layer, where, as we know, we have routing and topology-adaptation algorithms, okay? So the Zigbee Alliance, which is this group of industries, adopts IEEE standard 802.15.4 for the physical and MAC layers, and then they issued their own specifications for routing and adaptation of the topology, to be implemented at the network layer, so on top of the MAC, okay? So I am saying that because otherwise you may find documents, right, and they may actually use ‘Zigbee’, and if you don't know what it is, you may wonder what we studied. But essentially, at the physical and MAC layers, IEEE 802.15.4 and Zigbee coincide; they are the same thing because Zigbee adopted the IEEE standard.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "然后，我们考虑进行规定，发布我们自己的网络层规范，而在网络层，正如我们知道的，有路由算法和拓扑自适应算法，好吗？所以，Zigbee联盟，也就是这组企业，在物理层和MAC层采用IEEE 802.15.4标准，然后它们发布了自己的路由和拓扑自适应规范，这些规范要在网络层实现，也就是在MAC层之上，好吗？所以，我说这些，是因为不然的话，你们可能会找到一些文档，对吧，而它们实际上可能会使用“Zigbee”这个词，如果你们不知道它是什么，你们可能就会疑惑我们学的是什么。但是，基本上，在物理层和MAC层，IEEE 802.15.4和Zigbee是一致的；它们是同一个东西，因为Zigbee采用了IEEE标准。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnKMQUkNrRl5U49weqnXaCVe",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnnF64eFtq1u3fOppx9AGR8d",
+        "block_type": 3,
+        "heading1": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "十一、设备类型、拓扑与协调器",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnnHO8NM7yNpx3hjjAqfyEUb",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "75 · 01:29:03 · 设备类型与网络拓扑导入",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnQq4mip4iuAFCSNxVbDIH4e",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:29:03",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, now before looking at the physical layer, about which we will say a couple of words very, very quickly, but before describing the MAC channel-access scheme for these low-power, low-data-rate sensors standardized by IEEE, we again need to consider the topology, okay? Because the standard also specifies, a little bit, the topologies that we can have in our networks and the types of devices that we have. So let me just mention this.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，现在，在看物理层之前，关于物理层，我们会非常、非常迅速地说上几句，但是，在描述IEEE为这些低功耗、低数据速率传感器标准化的MAC信道接入方案之前，我们又需要考虑一下拓扑，好吗？因为，这个标准也稍微规定了一些我们网络中可以有的拓扑，以及我们所具有的设备类型。所以，让我简单提一下这一点。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcneXFA6eS2wbFPKIurSx7Oyd",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnGkMOhEH3x3zgcIzt8HZJlc",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "76 · 01:29:50 · 全功能与精简功能设备的区别",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnPHgM35cJigHQWS0FV0OSNh",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:29:50",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nWe have, first of all, two types of devices, sensor devices that the standard considers. One is, is called a full-function device, and the other type is called a reduced-function device. In a nutshell, a full-function device is a sensor node where we have implemented at least all these three layers: physical, MAC and network. So our sensors, if they are full-function, will also be able to route traffic, okay? The reduced-function devices, instead, are those that implement only the first two layers, physical and MAC. They cannot route traffic. Okay, that is essentially the definition, so that is what you need to keep in mind.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "首先，我们有两类设备，两类标准所考虑的传感器设备。一类是、是叫作全功能设备，而另一类叫作精简功能设备。简而言之，全功能设备是一种传感器节点，我们在其中至少实现了所有这三层：物理层、MAC层和网络层。所以，我们的传感器如果是全功能的，它们还能够对流量进行路由，好吗？而精简功能设备，则是只实现了前两层，也就是物理层和MAC层的那些设备。它们不能对流量进行路由。好，这基本上就是定义，所以，这就是你们需要记住的内容。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnAluOb6772GE5lAdhCTg39e",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第12页下半页 · 图24（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "IfTWbEwjwol2jwx3OP7cUmO8nId",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnKst9xHKv8KMMjMArZk0ddd",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcntEgt5OjQzI92r0LOLwHRbb",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "77 · 01:31:09 · 星形、网状拓扑与协调器",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcneAe4CBHsrvMXnM9F2b38Rg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:31:09",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nThat said, what are the possible network topologies that we may have? Very simply, one possible network topology is the star. It is like having one cluster only, right? So we have a center of the star and then ordinary nodes. It is like having one cluster. This is used when you have few sensors in your network. The central node, the cluster head, the center of the star, needs to be a full-function device, while all the other nodes may also be reduced-function devices. So very simple. As we know already, each of these ordinary nodes can only communicate with the cluster head, with the center of the star. The center of the star will be the coordinator of our network. So it is also called the PAN, personal area network, coordinator. It is the one that essentially coordinates the network. The second type of topology is essentially what we were calling ‘flat’ before, okay? So it is just a mesh topology. Notice that in this case all nodes need to be full-function devices. Why? Because they need to route traffic across the network, okay? They need to apply multi-hop communications, so they need to be able to route traffic. So they need to have the network layer implemented. Among these nodes, one of them will act as the coordinator of the network.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "说到这里，我们可能会有哪些网络拓扑呢？很简单，一种可能的网络拓扑是星形拓扑。它就像只有一个簇，对吧？所以，我们有一个星形的中心，然后还有普通节点。它就像只有一个簇。当你的网络中只有少量传感器时，就会使用这种拓扑。中心节点，簇头，星形的中心，需要是一个全功能设备，而所有其他节点也可以是精简功能设备。所以，非常简单。正如我们已经知道的，这些普通节点中的每一个，都只能与簇头，与星形的中心通信。星形的中心将是我们网络的协调器。所以，它也被称为PAN，也就是个域网，协调器。它基本上就是协调这个网络的那个节点。第二类拓扑，基本上就是我们之前称为“扁平”的那一种，好吗？所以，它就是一种网状拓扑。注意，在这种情况下，所有节点都需要是全功能设备。为什么？因为它们需要在整个网络中对流量进行路由，好吗？它们需要采用多跳通信，所以它们需要能够对流量进行路由。因此，它们需要实现网络层。在这些节点中，其中一个会充当这个网络的协调器。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn7XdtKK7HX6mOVd36hmHmnc",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第13页上半页 · 图25（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "Mq6bbwALJoDZQ4x414nc1PCinlb",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnH4pBWMgNKT7DpNORApzYCf",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第13页下半页 · 图26（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "Ayaybb5QOoIE0Tx1PQhc9iIsnue",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnTPxZ3aCi36T7ha9G7KTOWf",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第14页上半页 · 图27（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "JLgmbipPPoRYrVx8GiXcoRn1nOb",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnkw7pkTG5Vuhv4fPSWxxt8f",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnqcPTJYGt2gzJQeUSCaqxAd",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "78 · 01:33:22 · 协调器记录节点加入和离开",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnfj0Bqeq2wy0Px12BeY8EZf",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:33:22",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd essentially, the coordinator of the network is the one that admits new sensors when we have new sensors joining the network, for example. Or when some sensors fail, so they disappear, it records that. So it keeps, you know, a record of the network: who is there, who is leaving, who is joining. That is essentially what the coordinator does.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "而且，基本上，这个网络的协调器就是接纳新传感器的那个节点，例如，当我们有新的传感器加入网络时。或者，当一些传感器失效，也就是它们消失时，它会把这一点记录下来。所以，它保存着，你知道，一份网络的记录：谁在那里，谁正在离开，谁正在加入。这基本上就是协调器所做的事情。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnJXQPP3VgemblpqfiIVUimg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnEMCNKmRtd6IAC7CfQNQPab",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "79 · 01:33:52 · 协调器同步及对等拓扑覆盖",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnsg6hdzRzcV4Sbdo45FqtKg",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:33:52",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd the coordinator may, not always, but may also provide synchronization to all the other nodes. So those are the tasks of the coordinator. This kind of topology, in the standard terminology, is called peer-to-peer topology, and it is used when we have to cover a larger area.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "而且，协调器可能，并非总是如此，但是也可能为所有其他节点提供同步。所以，这些就是协调器的任务。这种拓扑，在标准的术语中，被称为对等拓扑，而当我们必须覆盖更大的区域时，就会使用它。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcncAKxp6JC4GIvvLtkcNRJ1f",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnnydQyA9gJLQZcssvc3wKWw",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "80 · 01:34:17 · 相连星形构成分簇拓扑",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnbEWihQoS1zohS2KTUsB7Kd",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:34:17",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so we need a larger network. And then we have the last one, which is essentially our cluster-based topology, okay, where, however, we have different clusters, different stars that are connected to each other. So, if you look closely, you can see that this topology is made of clusters, of stars, oops, sorry, that are connected, that are connected with each other. So this means that you can accommodate both full-function devices and reduced-function devices. Why? Because reduced-function devices may be part of a star. They can communicate only with their center, the center of their star, with their cluster head.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，所以，我们需要一个更大的网络。然后，我们还有最后一种，它基本上就是我们的基于簇的拓扑，好吗，不过，在这里，我们有不同的簇，不同的相互连接的星形。所以，如果你仔细看，就可以看到，这个拓扑是由簇、由星形组成的，哦，抱歉，它们是连接的，是相互连接的。所以，这意味着，你既可以容纳全功能设备，也可以容纳精简功能设备。为什么？因为精简功能设备可以是某个星形的一部分。它们只能与它们的中心，它们所在星形的中心，与它们的簇头通信。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn15AyQMLwS97a3Dx4yKVNih",
+        "block_type": 27,
+        "image": {
+          "align": 2,
+          "caption": {
+            "content": "课件：04-Sensors-MAC.pdf · PDF第14页下半页 · 图28（按PDF顺序）"
+          },
+          "height": 926,
+          "scale": 0.665584,
+          "token": "NFHTbuL3no9iV3xf4p3cLFg9nSh",
+          "width": 1232
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnpA8rkQAfa20W95TeESs36b",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnodOEAFaASM3Ifm9kTnII5d",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "81 · 01:35:27 · 全功能簇头与全网协调器",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnJZFCflQjUWOcjCDmQNAsub",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:35:27",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nAnd then the cluster head, as we said also before, is going to be a full-function device that can be connected with others, right? So it is a mix of the previous topology situations. And again, one of the full-function devices will be elected or will act as a coordinator, so as coordinator of the whole network.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "然后，簇头，正如我们之前也说过的，将是一个能够与其他设备连接的全功能设备，对吧？所以，它是前面几种拓扑情形的混合。而且，同样，其中一个全功能设备会被选举出来，或者会充当一个协调器，也就是整个网络的协调器。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnn7JawbLZI65mHjznAn5rie",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnpii941LNP62eM7lotkd7qc",
+        "block_type": 4,
+        "heading2": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "82 · 01:35:59 · 混合设备覆盖优势与次日安排",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        },
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf"
+      },
+      {
+        "block_id": "doxcnpTFmPxFC9oxG8Db1fKgLCb",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  01:35:59",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nClearly, this topology has the advantage that it can cover large areas and can include both full-function devices and reduced-function devices. Okay, that is it. So for today we are done. We are going to stop here, and we are going to look, as I said, very briefly at the physical layer tomorrow and more in depth at the MAC layer, and then discuss whatever questions or points you would like to raise. Okay, so that is the plan for tomorrow. Thank you.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "显然，这种拓扑有这样一个优点：它能够覆盖大的区域，并且能够同时包含全功能设备和精简功能设备。好，就是这些。所以，今天我们就结束了。我们将在这里停下来，而且，正如我说过的，明天我们会非常简短地看一下物理层，更深入地看一下MAC层，然后讨论你们想要提出的任何问题或者要点。好，这就是明天的计划。谢谢。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnKztNNOXnVUPjvSvOSDOsHc",
+        "block_type": 2,
+        "parent_id": "Onm4dp9S1oLG5hxAtzVcrCXknGf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ]
+  }
+}
