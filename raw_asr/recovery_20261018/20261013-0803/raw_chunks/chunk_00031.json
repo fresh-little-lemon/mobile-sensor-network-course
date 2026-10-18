@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3410.0,
+  "end_seconds": 3530.0,
+  "text": "And this is indeed what we represented here, right? So this is as long as this. And so they will have exactly the same duration. Right, that's a fact. Because EBCA works in this way, we have the same transmission opportunity limit because we are considering two queues of the same priority within a and within. Okay, so now what is the throughput enjoyed by a? Again, also EBCA is fair to all Wi-Fi cards in terms of chances to access the channel, right? So we can say, okay, during this time period, say that a gets access to the channel n times. Okay, every time it gets access to the channel, it will be able to transmit for the transmission opportunity limit. And how many bits do we fit into that time? It depends on the bit rate, on the speed used by a. Okay, so it's like when you run on a on a field, right? You have, for example, let's say the how many meters are you able to run.",
+  "raw_decoded": "language English<asr_text>And this is indeed what we represented here, right? So this is as long as this. And so they will have exactly the same duration. Right, that's a fact. Because EBCA works in this way, we have the same transmission opportunity limit because we are considering two queues of the same priority within a and within. Okay, so now what is the throughput enjoyed by a? Again, also EBCA is fair to all Wi-Fi cards in terms of chances to access the channel, right? So we can say, okay, during this time period, say that a gets access to the channel n times. Okay, every time it gets access to the channel, it will be able to transmit for the transmission opportunity limit. And how many bits do we fit into that time? It depends on the bit rate, on the speed used by a. Okay, so it's like when you run on a on a field, right? You have, for example, let's say the how many meters are you able to run.<|im_end|>",
+  "generated_tokens": 214,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.854852499000117,
+  "at": "2026-10-18T03:49:06.588583+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

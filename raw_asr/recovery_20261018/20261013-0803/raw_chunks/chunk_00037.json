@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4070.0,
+  "end_seconds": 4190.0,
+  "text": "This match throughput, that is not what you are asking for, is a bit lower, but this is what I can offer. And the Wi-Fi card would say, okay, I take it, fine, I restart, my traffic flow, or you can say, no, no, no, this does not work for me, I will wait, there is no way to to send, the traffic flow in an efficient manner for me, I give up or I will do it later, okay. Or the access point can just say, look, there is no room at all, forget about starting a new traffic flow. So there is a sort of the so called, call admission control, it's a call admission control mechanism. Through which the access point, can control up front the amount of traffic. That is handled within its BSS. So it can avoid having too many traffic flows, too many stations transmitting or trying to transmit. In the BSS, it can reduce the level of contention. In the BSS, so that during the contention period, there will be fewer.",
+  "raw_decoded": "language English<asr_text>This match throughput, that is not what you are asking for, is a bit lower, but this is what I can offer. And the Wi-Fi card would say, okay, I take it, fine, I restart, my traffic flow, or you can say, no, no, no, this does not work for me, I will wait, there is no way to to send, the traffic flow in an efficient manner for me, I give up or I will do it later, okay. Or the access point can just say, look, there is no room at all, forget about starting a new traffic flow. So there is a sort of the so called, call admission control, it's a call admission control mechanism. Through which the access point, can control up front the amount of traffic. That is handled within its BSS. So it can avoid having too many traffic flows, too many stations transmitting or trying to transmit. In the BSS, it can reduce the level of contention. In the BSS, so that during the contention period, there will be fewer.<|im_end|>",
+  "generated_tokens": 224,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.73958613800096,
+  "at": "2026-10-18T03:51:57.161277+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

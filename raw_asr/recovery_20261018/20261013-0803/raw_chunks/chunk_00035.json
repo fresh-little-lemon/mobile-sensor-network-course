@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3850.0,
+  "end_seconds": 3970.0,
+  "text": "Um, this version of WiFi. We already know how then both the centralized and the distributed channel access schemes work. And we said one important thing is that now the access point gets informed, notified about the traffic that each WiFi card has got in its queues, right? And that allows the access point to plan to schedule traffic efficiently so that we can meet the quality of service requirements. Okay, that said, let me add that there is one more thing that helps the access point to control the traffic of the BSS. Okay, what is this additional feature? Is this called traffic signaling? So traffic signaling may happen through the Quality of Service control subfield in the MAC header as we said before. But it can also happen through an explicit handshake between access point and WiFi card station. When a WiFi card, so a user, wants to start a new traffic flow, so for example wants.",
+  "raw_decoded": "language English<asr_text>Um, this version of WiFi. We already know how then both the centralized and the distributed channel access schemes work. And we said one important thing is that now the access point gets informed, notified about the traffic that each WiFi card has got in its queues, right? And that allows the access point to plan to schedule traffic efficiently so that we can meet the quality of service requirements. Okay, that said, let me add that there is one more thing that helps the access point to control the traffic of the BSS. Okay, what is this additional feature? Is this called traffic signaling? So traffic signaling may happen through the Quality of Service control subfield in the MAC header as we said before. But it can also happen through an explicit handshake between access point and WiFi card station. When a WiFi card, so a user, wants to start a new traffic flow, so for example wants.<|im_end|>",
+  "generated_tokens": 184,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.68429614100023,
+  "at": "2026-10-18T03:50:58.483504+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

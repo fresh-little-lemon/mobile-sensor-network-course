@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2310.0,
+  "end_seconds": 2430.0,
+  "text": "Was the fact that the beacon could get delayed because in the second phase we have a contention period, so we use the contention based distributed channel access. And if a station gets the channel at the end, then it will be entitled to transmit, and this may go beyond the target and the time of the superframe. Okay, so it may cause a delay of the beacon. Now unfortunately, we still have that. Why? Because this is this phase is based on contention. We apply the announced distributed channel access scheme here. If a queue gets access to the channel, it can transmit for its transmission opportunity limit. Okay, so nobody can interrupt that. So in this case, the beacon of the subsequent superframe may be delayed. That issue is still there, but but in this new version, there is actually a change that has been done to the contention period phase. It is still true that during this phase we are using the distributed channel access. However, we give the possibility to the access point to size the channel and pull.",
+  "raw_decoded": "language English<asr_text>Was the fact that the beacon could get delayed because in the second phase we have a contention period, so we use the contention based distributed channel access. And if a station gets the channel at the end, then it will be entitled to transmit, and this may go beyond the target and the time of the superframe. Okay, so it may cause a delay of the beacon. Now unfortunately, we still have that. Why? Because this is this phase is based on contention. We apply the announced distributed channel access scheme here. If a queue gets access to the channel, it can transmit for its transmission opportunity limit. Okay, so nobody can interrupt that. So in this case, the beacon of the subsequent superframe may be delayed. That issue is still there, but but in this new version, there is actually a change that has been done to the contention period phase. It is still true that during this phase we are using the distributed channel access. However, we give the possibility to the access point to size the channel and pull.<|im_end|>",
+  "generated_tokens": 213,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.470811495000817,
+  "at": "2026-10-18T03:45:56.145479+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

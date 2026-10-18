@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2200.0,
+  "end_seconds": 2320.0,
+  "text": "It is not the possibility to transmit a packet. It is the possibility to transmit for a transmission opportunity. So the access point can call the station and tell that station, look, you are entitled now to transmit, but for this transmission opportunity limit, no more than that. Okay, so second issue that we had in PCF is solved, because now we have control on how long each pole station will transmit. So the access point can plan ahead very well, who is going to transmit and for how long. So now the access point may can have full control of these transmissions. Okay, so we have full control of the channel access delay of the Wi-Fi nodes during the contention period. So this scheme works very well, full control. That is what we wanted to provide quality of service. Is this clear? Okay, now you may remember that there was a third issue with PCF, which was the fact that the beacon could get delayed because in the.",
+  "raw_decoded": "language English<asr_text>It is not the possibility to transmit a packet. It is the possibility to transmit for a transmission opportunity. So the access point can call the station and tell that station, look, you are entitled now to transmit, but for this transmission opportunity limit, no more than that. Okay, so second issue that we had in PCF is solved, because now we have control on how long each pole station will transmit. So the access point can plan ahead very well, who is going to transmit and for how long. So now the access point may can have full control of these transmissions. Okay, so we have full control of the channel access delay of the Wi-Fi nodes during the contention period. So this scheme works very well, full control. That is what we wanted to provide quality of service. Is this clear? Okay, now you may remember that there was a third issue with PCF, which was the fact that the beacon could get delayed because in the.<|im_end|>",
+  "generated_tokens": 198,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.432928876000005,
+  "at": "2026-10-18T03:45:28.673999+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

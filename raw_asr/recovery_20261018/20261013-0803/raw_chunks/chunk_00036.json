@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3960.0,
+  "end_seconds": 4080.0,
+  "text": "Car, so a user, wants to start a new traffic flow. So for example, wants to upload a new video or a new photo. He can actually contact the access point in advance, and say, look, I'd like to start this traffic flow, but I need this throughput for this traffic flow. I need to achieve this throughput, and for example, this maximum delay and this maximum packet loss probability. Okay. So the access point can reply to this Wi-Fi car saying, look, that's fine, I have enough radio resources, enough space, in the VSS to accommodate your traffic flow, and allows you to achieve this quality of service that you want. At that point, the user can start the traffic flow, or the access point may say, I don't have so much room in the VSS right now. So if you want to start this new traffic flow, fine, but look, I can give you this much throughput. That is not what you are asking for. It's a bit lower, but this is what I can offer. And the Wi-Fi.",
+  "raw_decoded": "language English<asr_text>Car, so a user, wants to start a new traffic flow. So for example, wants to upload a new video or a new photo. He can actually contact the access point in advance, and say, look, I'd like to start this traffic flow, but I need this throughput for this traffic flow. I need to achieve this throughput, and for example, this maximum delay and this maximum packet loss probability. Okay. So the access point can reply to this Wi-Fi car saying, look, that's fine, I have enough radio resources, enough space, in the VSS to accommodate your traffic flow, and allows you to achieve this quality of service that you want. At that point, the user can start the traffic flow, or the access point may say, I don't have so much room in the VSS right now. So if you want to start this new traffic flow, fine, but look, I can give you this much throughput. That is not what you are asking for. It's a bit lower, but this is what I can offer. And the Wi-Fi.<|im_end|>",
+  "generated_tokens": 226,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.93670820599982,
+  "at": "2026-10-18T03:51:28.421100+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

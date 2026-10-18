@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3190.0,
+  "end_seconds": 3310.0,
+  "text": "Representation, graphical representation. We represented graphically what happens on average, what we expect to see on average. That is, A transmits, then B transmits, then A transmits, then B transmits, and so on and so forth. Because they both access the channel a number of times equal to n during this observation time t. And what we represented here is also the fact that since we are using this graph, okay, each node, each station, may transmit a packet, one packet every time, but the packets may be of different sizes, right? So we may, in data in this example, have that the length of the packet transmitted by A, that is denoted by la, is shorter than the length of the packet transmitted by B, that is denoted by lb. Okay. So for example, if this is true, if if in this case la is less than lb, then based on our computation, what we will see is that the throughput of A will be less than the throughput of B, right? Right. Instead, if they are got.",
+  "raw_decoded": "language English<asr_text>Representation, graphical representation. We represented graphically what happens on average, what we expect to see on average. That is, A transmits, then B transmits, then A transmits, then B transmits, and so on and so forth. Because they both access the channel a number of times equal to n during this observation time t. And what we represented here is also the fact that since we are using this graph, okay, each node, each station, may transmit a packet, one packet every time, but the packets may be of different sizes, right? So we may, in data in this example, have that the length of the packet transmitted by A, that is denoted by la, is shorter than the length of the packet transmitted by B, that is denoted by lb. Okay. So for example, if this is true, if if in this case la is less than lb, then based on our computation, what we will see is that the throughput of A will be less than the throughput of B, right? Right. Instead, if they are got.<|im_end|>",
+  "generated_tokens": 225,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.262940834998517,
+  "at": "2026-10-18T03:48:09.391511+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

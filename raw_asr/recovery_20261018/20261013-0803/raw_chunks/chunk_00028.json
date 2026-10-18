@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3080.0,
+  "end_seconds": 3200.0,
+  "text": "And also, we have this, and here, so it's a little bit more clear. So I'm not changing the program. It's just a different way to present them. Hopefully, it's a bit more more clear. Okay, so, this, this was what we had right in DCF. This means multiplied by. Okay, this symbol means multiplied by. So as we said in DCF, our two stations AMB. I mean this example refers to that scenario. Okay, where the nodes AMB always have packets to transmit. They have their queues activated. They get the same chances to access the channel, right? Because the protocol is fair. So we do not buy n. N is the number of times that a node gets chance to access the channel. And since they get the same chance to access the channel over a time period of e, each of them will access the channel n times. Exactly. Okay, so n times. And through this representation, graphical representation, we represented graphically what happens on average, what we expect to.",
+  "raw_decoded": "language English<asr_text>And also, we have this, and here, so it's a little bit more clear. So I'm not changing the program. It's just a different way to present them. Hopefully, it's a bit more more clear. Okay, so, this, this was what we had right in DCF. This means multiplied by. Okay, this symbol means multiplied by. So as we said in DCF, our two stations AMB. I mean this example refers to that scenario. Okay, where the nodes AMB always have packets to transmit. They have their queues activated. They get the same chances to access the channel, right? Because the protocol is fair. So we do not buy n. N is the number of times that a node gets chance to access the channel. And since they get the same chance to access the channel over a time period of e, each of them will access the channel n times. Exactly. Okay, so n times. And through this representation, graphical representation, we represented graphically what happens on average, what we expect to.<|im_end|>",
+  "generated_tokens": 221,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.78873258599924,
+  "at": "2026-10-18T03:47:42.127819+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}
