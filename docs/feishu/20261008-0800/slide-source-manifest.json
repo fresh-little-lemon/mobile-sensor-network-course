@@ -1,0 +1,688 @@
+{
+  "document_title": "双语对照：录音机-20261008-0800",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/SJM4dzPKHo4upfxK4yjcLTz9nBj",
+  "original_transcript_url": "https://lcn6dqn3m0yr.feishu.cn/docx/IjRndiT2ToGDrvxiLFXcOAYknkh",
+  "original_audio_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnhw2u2k55n7u2x29fylgr",
+  "source_pdf": {
+    "filename": "01_Introduction_MSN_26-27.pdf",
+    "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf",
+    "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+    "sha256": "d785951c6fbc9a6acf674b3f1306a61400820718ceeb0a70724896ac6b74dc83",
+    "pages": 16,
+    "numbered_slides": 31
+  },
+  "audited_at_utc": "2026-10-18T13:53:00Z",
+  "audit_scope": "Read-only image identity and semantic alignment against all 121 original bilingual paragraphs; no Feishu/source/minutes/transcript edits.",
+  "image_count": 24,
+  "slide_numbers": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "omissions": [
+    {
+      "slide_number": 4,
+      "classification": "explained_omission_not_confirmed_defect",
+      "reason": "At 00:11:26 the lecturer says to ignore the grading slide and that it will be changed; only slide 5 Exam rules is included. The pinned PDF says pass >=60, max100. Do not treat that as an independently confirmed current exam rule."
+    },
+    {
+      "slide_numbers": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "classification": "not_discussed_in_this_recording",
+      "reason": "The recording ends after discussion of slide25, followed by a five-minute break. No matching map/train/people-site paragraphs found."
+    }
+  ],
+  "images": [
+    {
+      "slide_number": 1,
+      "title": "Welcome to MOBILE and SENSOR NETWORKS",
+      "pdf_page": 1,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=1",
+      "image_path": "slide-images/slide-001.png",
+      "sha256": "4b2154476c407cc6e7931d811f89ea646232c2722577c89b484e25aab78ace4d",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnLq4LsAFFPOWmxGiL3WRU3e",
+      "after_paragraph": {
+        "ordinal": 28,
+        "timestamp": "00:06:43",
+        "block_id": "doxcnLijcf3GSJLu5HaWI2b3KPU",
+        "heading": "28 · 00:06:43 · 课程开场与反馈联系方式"
+      },
+      "before_paragraph": {
+        "ordinal": 29,
+        "timestamp": "00:07:19",
+        "block_id": "doxcnyMUerIbxNArrMlKQMVH5Nj"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "教授开课、自我介绍和电子邮箱，与封面一致。"
+    },
+    {
+      "slide_number": 2,
+      "title": "Schedule",
+      "pdf_page": 1,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=1",
+      "image_path": "slide-images/slide-002.png",
+      "sha256": "850b5f91a1796cbefcb7a839acc07effdf376a06091f89e763eea218d6f13041",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnpeMunqWLUth3O8qWkh37bf",
+      "after_paragraph": {
+        "ordinal": 32,
+        "timestamp": "00:09:33",
+        "block_id": "doxcnpoFlSLInvKHiqT9Wg3XGEf",
+        "heading": "32 · 00:09:33 · 课程主题、数值练习与学习材料"
+      },
+      "before_paragraph": {
+        "ordinal": 33,
+        "timestamp": "00:11:10",
+        "block_id": "doxcnNbNr5MjvEFyJgrMYa61qnb"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "授课、数值练习、课程主题和最后主题视进度而定，与课程计划一致。"
+    },
+    {
+      "slide_number": 3,
+      "title": "Available material",
+      "pdf_page": 2,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=2",
+      "image_path": "slide-images/slide-003.png",
+      "sha256": "82d004e697f91634d2916653483e7c0706170832c60882d5bb19e27dc7378e5e",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnDNCuKxxpeE1A12TRnbL5ae",
+      "after_paragraph": {
+        "ordinal": 32,
+        "timestamp": "00:09:33",
+        "block_id": "doxcnpoFlSLInvKHiqT9Wg3XGEf",
+        "heading": "32 · 00:09:33 · 课程主题、数值练习与学习材料"
+      },
+      "before_paragraph": {
+        "ordinal": 33,
+        "timestamp": "00:11:10",
+        "block_id": "doxcnNbNr5MjvEFyJgrMYa61qnb"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "参考书目、课件与笔记足够，与学习资料页一致。"
+    },
+    {
+      "slide_number": 5,
+      "title": "Exam rules",
+      "pdf_page": 3,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=3",
+      "image_path": "slide-images/slide-005.png",
+      "sha256": "776dd59cf0e76f54fc2a116f41028949bf7a625661fb4608a5145f71bbdbd180",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnAiPIJhEp3Sa99ZmvxkkZfd",
+      "after_paragraph": {
+        "ordinal": 34,
+        "timestamp": "00:11:26",
+        "block_id": "doxcnE0weKhPZAHHDmtZozGuL67",
+        "heading": "34 · 00:11:26 · 闭卷考试规则与携带用品"
+      },
+      "before_paragraph": {
+        "ordinal": 35,
+        "timestamp": "00:11:26",
+        "block_id": "doxcn49PFXDj1plRxq8QVRqCbwd"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "闭卷、禁止交谈及电子设备、笔试练习，与考试规则一致。"
+    },
+    {
+      "slide_number": 6,
+      "title": "Available thesis",
+      "pdf_page": 3,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=3",
+      "image_path": "slide-images/slide-006.png",
+      "sha256": "4ea8983077e3acd1aa3ca872152370e419f845d46b81cd520e61420afacd12af",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnlwMIYqhtD9z2a8u1t3d2Ye",
+      "after_paragraph": {
+        "ordinal": 35,
+        "timestamp": "00:11:26",
+        "block_id": "doxcn49PFXDj1plRxq8QVRqCbwd",
+        "heading": "35 · 00:11:26 · 硕士论文与移动网络研究"
+      },
+      "before_paragraph": {
+        "ordinal": 36,
+        "timestamp": "00:11:26",
+        "block_id": "doxcn3SwQP5369TuTlAo5QSXdPf"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "硕士课题、移动网络、AI/ML、传感器融合、卫星、边缘计算等连续段落，与课题列表一致。"
+    },
+    {
+      "slide_number": 7,
+      "title": "A real-world experimental infrastructure",
+      "pdf_page": 4,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=4",
+      "image_path": "slide-images/slide-007.png",
+      "sha256": "7fd870050b37cc2e9a0f17f3cdc27f7d415e2fa6fa4a2ddba3012fb2718b0ff9",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnaVzCLaHcB4yLvuUflptSSh",
+      "after_paragraph": {
+        "ordinal": 41,
+        "timestamp": "00:16:13",
+        "block_id": "doxcnMxUP7MHOiK3BfRIoFAvV9e",
+        "heading": "41 · 00:16:13 · 校园实验设施与无人机试验笼"
+      },
+      "before_paragraph": {
+        "ordinal": 42,
+        "timestamp": "00:16:13",
+        "block_id": "doxcnRpWOsEMMnD51aLx601Bwpd"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "实验平台、5G小区、无人机试验笼及校园位置，与园区基础设施图一致。"
+    },
+    {
+      "slide_number": 8,
+      "title": "Coverage and latency, measured on the street",
+      "pdf_page": 4,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=4",
+      "image_path": "slide-images/slide-008.png",
+      "sha256": "222d05d5e56fd89df1928fccd550428d2da722bebe4a93c853a8279c82c12037",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnhwpAeUKyZB1HRFqll2TWZo",
+      "after_paragraph": {
+        "ordinal": 44,
+        "timestamp": "00:19:16",
+        "block_id": "doxcng2fF6mOfH8vDRNNxYVldjH",
+        "heading": "44 · 00:19:16 · 5G车联网与GPU边缘实验平台"
+      },
+      "before_paragraph": {
+        "ordinal": 45,
+        "timestamp": "00:20:53",
+        "block_id": "doxcnY7USLPX7bTXcsQbiaNB6gb"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "汽车移动测量及实验设施连续讲解，与街道覆盖和时延测量图一致。"
+    },
+    {
+      "slide_number": 9,
+      "title": "Edge computing and hardware acceleration",
+      "pdf_page": 5,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=5",
+      "image_path": "slide-images/slide-009.png",
+      "sha256": "5b735ed524baf2eb785f8d3338971b02c708b5c910ca8815356d68a280a00a81",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnRRniD2XfCjJMKoY48UPcuf",
+      "after_paragraph": {
+        "ordinal": 44,
+        "timestamp": "00:19:16",
+        "block_id": "doxcng2fF6mOfH8vDRNNxYVldjH",
+        "heading": "44 · 00:19:16 · 5G车联网与GPU边缘实验平台"
+      },
+      "before_paragraph": {
+        "ordinal": 45,
+        "timestamp": "00:20:53",
+        "block_id": "doxcnY7USLPX7bTXcsQbiaNB6gb"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "同一段落后半讲边缘计算及GPU，与服务器硬件图一致。"
+    },
+    {
+      "slide_number": 10,
+      "title": "QUESTIONS?",
+      "pdf_page": 5,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=5",
+      "image_path": "slide-images/slide-010.png",
+      "sha256": "771f4aec3138011c115ef4c562f86d04e683c352c5824fc7821d898f3e2efc51",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnPwWFyg9LNAgfvCZ6AGGdVe",
+      "after_paragraph": {
+        "ordinal": 45,
+        "timestamp": "00:20:53",
+        "block_id": "doxcnY7USLPX7bTXcsQbiaNB6gb",
+        "heading": "45 · 00:20:53 · 无线网络导论与先修知识确认"
+      },
+      "before_paragraph": {
+        "ordinal": 46,
+        "timestamp": "00:20:53",
+        "block_id": "doxcnODM8tIE4ce5qDKjwuYWWCf"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "段落开头邀请提问，随后过渡到无线网络导论，与Questions过渡页一致。"
+    },
+    {
+      "slide_number": 11,
+      "title": "Introduction to Wireless Networks",
+      "pdf_page": 6,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=6",
+      "image_path": "slide-images/slide-011.png",
+      "sha256": "aacef75512b9af7e9e3a399e8d40465853a5318c1c8aafa797348daef709ff6c",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnSUxCFe2JX8ABiIu9GylGzg",
+      "after_paragraph": {
+        "ordinal": 47,
+        "timestamp": "00:22:46",
+        "block_id": "doxcnr5qq7yRSilHMQixtbTIo7f",
+        "heading": "47 · 00:22:46 · 家庭Wi-Fi与移动互联网流量"
+      },
+      "before_paragraph": {
+        "ordinal": 48,
+        "timestamp": "00:22:46",
+        "block_id": "doxcnFhUYLnwTMLRu42NMYhaZVb"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "80%家庭宽带/Wi-Fi、60%移动设备与用户数量趋势图，与该页图表一致。"
+    },
+    {
+      "slide_number": 12,
+      "title": "Wireless applications and their needs",
+      "pdf_page": 6,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=6",
+      "image_path": "slide-images/slide-012.png",
+      "sha256": "0e647cf6d7ec357a2c220af8c53fd6f23164ceb74e4abfb11cf5a0de9462fb7c",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnpQDfCEvQqJd4dfnjQkgCod",
+      "after_paragraph": {
+        "ordinal": 49,
+        "timestamp": "00:22:46",
+        "block_id": "doxcnj93Tj5QZPcpwoGa66rRmPc",
+        "heading": "49 · 00:22:46 · 广域与局域无线应用"
+      },
+      "before_paragraph": {
+        "ordinal": 50,
+        "timestamp": "00:24:25",
+        "block_id": "doxcn6I444qHx446tnQg3fZQQ7e"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "广域/局域、固定无线、卫星、线缆替代、IoT及需求指标的连续讲解，与应用及需求图一致。"
+    },
+    {
+      "slide_number": 13,
+      "title": "Elements of a wireless network: overview",
+      "pdf_page": 7,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=7",
+      "image_path": "slide-images/slide-013.png",
+      "sha256": "e05133261a1e6bb86921eadcccd20d54eb0303069d3f9cf75d59130d83cb9e80",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcn8kMFoLWKGx5C7vclME5gub",
+      "after_paragraph": {
+        "ordinal": 59,
+        "timestamp": "00:29:27",
+        "block_id": "doxcnLZSIDi4vGX6kePcCMnq0A2",
+        "heading": "59 · 00:29:27 · 无线主机与有线基础设施"
+      },
+      "before_paragraph": {
+        "ordinal": 60,
+        "timestamp": "00:29:27",
+        "block_id": "doxcnPsePLnVQUGoVA4uAqAqWxe"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "有线基础设施、无线用户、接入点、直接通信与桥接拓扑，与网络总览图一致。"
+    },
+    {
+      "slide_number": 14,
+      "title": "Elements of a wireless network: wireless hosts",
+      "pdf_page": 7,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=7",
+      "image_path": "slide-images/slide-014.png",
+      "sha256": "07f1e1fbcc1dcec74850d8614dab860935064eadf0c3ffc43f9893b6eb6780ea",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcn7zJYjzJGQF3M8O67QUmBOh",
+      "after_paragraph": {
+        "ordinal": 63,
+        "timestamp": "00:31:50",
+        "block_id": "doxcnMwIG5qQUpY3aGtrQA1y50f",
+        "heading": "63 · 00:31:50 · 无线主机的含义"
+      },
+      "before_paragraph": {
+        "ordinal": 64,
+        "timestamp": "00:31:50",
+        "block_id": "doxcnol8oWLIxyzwDdSKIqcTMSh"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "无线主机、承载应用与设备例子，与主机要素页一致。"
+    },
+    {
+      "slide_number": 15,
+      "title": "Elements of a wireless network: Point of Access",
+      "pdf_page": 8,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=8",
+      "image_path": "slide-images/slide-015.png",
+      "sha256": "6c4aab8447d31a0e2a0f4f6302443494c89e73df7342773eb21f26ce266903df",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnTnaSkoNJIQ1G9J7SM3vdnM",
+      "after_paragraph": {
+        "ordinal": 65,
+        "timestamp": "00:32:57",
+        "block_id": "doxcnvvUNGFGF006awMlr8SNZZg",
+        "heading": "65 · 00:32:57 · 接入点、基站与网关"
+      },
+      "before_paragraph": {
+        "ordinal": 66,
+        "timestamp": "00:34:02",
+        "block_id": "doxcnArogzMBWAag21ar7NTib6e"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "接入点、Wi-Fi AP、蜂窝基站、网关及有线基础设施，与接入点页一致。"
+    },
+    {
+      "slide_number": 16,
+      "title": "Elements of a wireless network: wireless link",
+      "pdf_page": 8,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=8",
+      "image_path": "slide-images/slide-016.png",
+      "sha256": "8f253f2de1becd80608335fc5d9a9a1771f2f40e0d0d51d9046453d098264c3c",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcni2GbBf75az4oZZAMHj7Jlg",
+      "after_paragraph": {
+        "ordinal": 66,
+        "timestamp": "00:34:02",
+        "block_id": "doxcnArogzMBWAag21ar7NTib6e",
+        "heading": "66 · 00:34:02 · 无线链路及其连接对象"
+      },
+      "before_paragraph": {
+        "ordinal": 67,
+        "timestamp": "00:34:43",
+        "block_id": "doxcnxwWRkpWr1x2lMC954X1yC1"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "主机至接入点或设备间无线链路，与无线链路页一致。"
+    },
+    {
+      "slide_number": 17,
+      "title": "Elements of a wireless network: wireless device radio",
+      "pdf_page": 9,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=9",
+      "image_path": "slide-images/slide-017.png",
+      "sha256": "7a4ac5e766b9fd23c64552c7fbb5ed162b54e26db82204f67df847a928b6741d",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnbyy3f9ijhvEHO6PIIp4gdh",
+      "after_paragraph": {
+        "ordinal": 68,
+        "timestamp": "00:34:43",
+        "block_id": "doxcnK3FfGYJgW3BdhyjUhl7bUe",
+        "heading": "68 · 00:34:43 · 手机中的多个无线接口"
+      },
+      "before_paragraph": {
+        "ordinal": 69,
+        "timestamp": "00:35:22",
+        "block_id": "doxcnp1gDCIA0QmL9K0qIBPP6zj"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "手机含多个无线接口及Wi-Fi/蓝牙/蜂窝/NFC，与无线电接口页一致。"
+    },
+    {
+      "slide_number": 18,
+      "title": "Classification",
+      "pdf_page": 9,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=9",
+      "image_path": "slide-images/slide-018.png",
+      "sha256": "2504368210939e984e0b0a97cbb98a2aaac4b29f32ee7191b85563db0885495b",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnuxpcxbrZWxUadguVEcUVed",
+      "after_paragraph": {
+        "ordinal": 71,
+        "timestamp": "00:35:54",
+        "block_id": "doxcncLQviUpgPrZ8ww0m5RQsqb",
+        "heading": "71 · 00:35:54 · 覆盖范围与节点移动性标准"
+      },
+      "before_paragraph": {
+        "ordinal": 72,
+        "timestamp": "00:37:01",
+        "block_id": "doxcn6vqtkI85zdgaQErD7K0hBb"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "覆盖范围、节点移动性和网络架构三个分类标准，与分类页一致。"
+    },
+    {
+      "slide_number": 19,
+      "title": "Coverage: Characteristics of selected wireless links",
+      "pdf_page": 10,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=10",
+      "image_path": "slide-images/slide-019.png",
+      "sha256": "ab38e733282bb7a243702be82560df15da9592342553cb37c38af2dfd2d162ba",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnSU3YJCRssCc3XKXELB1URe",
+      "after_paragraph": {
+        "ordinal": 74,
+        "timestamp": "00:37:50",
+        "block_id": "doxcnppBrcRiZgkbdD7gIUD2Zuf",
+        "heading": "74 · 00:37:50 · 蓝牙的米级覆盖"
+      },
+      "before_paragraph": {
+        "ordinal": 75,
+        "timestamp": "00:37:50",
+        "block_id": "doxcndkahmZptyM5fbqQKjVRsaf"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "蓝牙、不同802.11版本、蜂窝和卫星覆盖范围，与覆盖对比图一致。"
+    },
+    {
+      "slide_number": 20,
+      "title": "Networks architecture: edge and core",
+      "pdf_page": 10,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=10",
+      "image_path": "slide-images/slide-020.png",
+      "sha256": "485a9e4902bec65e83008682a8541df9532fcc7c05f08d2148b849a97768692d",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnyqVZ7DkkRfzALVnULnGELk",
+      "after_paragraph": {
+        "ordinal": 82,
+        "timestamp": "00:39:47",
+        "block_id": "doxcnLYoVYJpC43U4tGvR0vnOlr",
+        "heading": "82 · 00:39:47 · Wi-Fi接入点与有线网络"
+      },
+      "before_paragraph": {
+        "ordinal": 83,
+        "timestamp": "00:41:52",
+        "block_id": "doxcnGJ4a6lUq9fKskXYi67Iihh"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "Wi-Fi与蜂窝用户、AP/基站、有线核心网和edge/core，与两种架构图一致。"
+    },
+    {
+      "slide_number": 21,
+      "title": "Network architecture: Taxonomy",
+      "pdf_page": 11,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=11",
+      "image_path": "slide-images/slide-021.png",
+      "sha256": "9442fd107dcebfa85218ed5d9553e2f2e897265ae914016b53ae5030ca1f50a4",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnLNWHL5CdhxXvi2mwsGwDfc",
+      "after_paragraph": {
+        "ordinal": 86,
+        "timestamp": "00:43:47",
+        "block_id": "doxcn2oeaN3zjDJhYFkJHehVd2b",
+        "heading": "86 · 00:43:47 · Wi-Fi与蜂窝基础设施架构小结"
+      },
+      "before_paragraph": {
+        "ordinal": 87,
+        "timestamp": "00:43:47",
+        "block_id": "doxcnLcINBUVIVZUOoIEcyz9Q2c"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "基础设施架构至ad hoc/D2D架构的过渡，与有/无基础设施的分类矩阵一致。"
+    },
+    {
+      "slide_number": 22,
+      "title": "With infrastructure",
+      "pdf_page": 11,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=11",
+      "image_path": "slide-images/slide-022.png",
+      "sha256": "73d13c3c363e2bc2bb457d16d82e0a16894ad1182f034f52ba2a81dcb8a7152a",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnZLiclPLnTNnfj5mBgWOHKd",
+      "after_paragraph": {
+        "ordinal": 101,
+        "timestamp": "00:50:36",
+        "block_id": "doxcnPNf5Rvc3Ukjd0K6OTAksxf",
+        "heading": "101 · 00:50:36 · 切换流程：handoff与handover"
+      },
+      "before_paragraph": {
+        "ordinal": 102,
+        "timestamp": "00:52:47",
+        "block_id": "doxcnegfGcssXzUCSnY1qRQJ39e"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "handoff/handover与移动用户切换接入点，与基础设施和切换页一致。"
+    },
+    {
+      "slide_number": 23,
+      "title": "No infrastructure",
+      "pdf_page": 12,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=12",
+      "image_path": "slide-images/slide-023.png",
+      "sha256": "85569cd7a19f0e579a628c841a579a097f350a51a70d309c63790419a36553d7",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnAflG7X81Mf3HwhubMlKcMe",
+      "after_paragraph": {
+        "ordinal": 103,
+        "timestamp": "00:52:47",
+        "block_id": "doxcnJyZmDI181JmJa7B4AimSTh",
+        "heading": "103 · 00:52:47 · 直接通信与基础设施混合架构"
+      },
+      "before_paragraph": {
+        "ordinal": 104,
+        "timestamp": "00:54:39",
+        "block_id": "doxcn4qf4OO7MvWw2IjgPltsBed"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "段落首句明确指向device-to-device模式图，然后过渡到混合架构；本图对应该首句。"
+    },
+    {
+      "slide_number": 24,
+      "title": "The hybrid case: Connected Cars",
+      "pdf_page": 12,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=12",
+      "image_path": "slide-images/slide-024.png",
+      "sha256": "441e24e8f1035aaf083c99534f86274923d66925a76c0c0bae1ba70a04d14568",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnR4vwZlE2AWsBSfedNGZDCb",
+      "after_paragraph": {
+        "ordinal": 104,
+        "timestamp": "00:54:39",
+        "block_id": "doxcn4qf4OO7MvWw2IjgPltsBed",
+        "heading": "104 · 00:54:39 · 网联自动驾驶与路侧单元"
+      },
+      "before_paragraph": {
+        "ordinal": 105,
+        "timestamp": "00:54:39",
+        "block_id": "doxcnANMouavHoaMj5CSxjEwyBg"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "网联自动驾驶汽车既直接通信也连接路侧单元，与混合架构图片一致。"
+    },
+    {
+      "slide_number": 25,
+      "title": "Wireless Mesh Networks",
+      "pdf_page": 13,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=13",
+      "image_path": "slide-images/slide-025.png",
+      "sha256": "b141f51fe7b70d29be0d8246f696cc22ffc7383699a12853dac0891b593abdf8",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnfs0lEsxUYCqgb4lwAEwT3d",
+      "after_paragraph": {
+        "ordinal": 110,
+        "timestamp": "00:56:29",
+        "block_id": "doxcnyJC6Qe3xb6PTfeSpF9X1qE",
+        "heading": "110 · 00:56:29 · 楼宇接入点与邻近路由器互联"
+      },
+      "before_paragraph": {
+        "ordinal": 111,
+        "timestamp": "00:56:29",
+        "block_id": "doxcng1VEutcnjbESOVzKbo3EdT"
+      },
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared against the pinned source PDF, including title, figure, and slide number.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "IEEE 802.11网状网络、建筑物中的红色网关/蓝色节点、多跳与共享上网费用，与本页楼宇图一致。"
+    }
+  ]
+}
