@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5170.0,
+  "end_seconds": 5290.0,
+  "text": "Access point two will deliver the packet to B. This happens in an extended service set. Now in this case, A is the sender, the transmitter, so it's the original source and also transmitter of the packet. And access point one is the receiver, but the final destination is B. So this packet that travels from A to access point one will have A as the transmitter address, which is also the source's address. You will have access point one address as a receiver, and then you will have the destination address, the B's address as destination address. So it needs to have three addresses in the MAC header. Once the packet is received at access point one, access point one has to send the packet to access point two so that the packet eventually can be delivered to the final destination. This packet, when the packets here, it needs four addresses in the MAC header. Why? Because we need to specify that this packet originally came from source A. The transmitter now is access point.",
+  "raw_decoded": "language English<asr_text>Access point two will deliver the packet to B. This happens in an extended service set. Now in this case, A is the sender, the transmitter, so it's the original source and also transmitter of the packet. And access point one is the receiver, but the final destination is B. So this packet that travels from A to access point one will have A as the transmitter address, which is also the source's address. You will have access point one address as a receiver, and then you will have the destination address, the B's address as destination address. So it needs to have three addresses in the MAC header. Once the packet is received at access point one, access point one has to send the packet to access point two so that the packet eventually can be delivered to the final destination. This packet, when the packets here, it needs four addresses in the MAC header. Why? Because we need to specify that this packet originally came from source A. The transmitter now is access point.<|im_end|>",
+  "generated_tokens": 205,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.559690030000638,
+  "at": "2026-10-18T03:06:56.652206+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}
