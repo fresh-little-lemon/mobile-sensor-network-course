@@ -1,0 +1,812 @@
+[
+  {
+    "paragraph": 1,
+    "original_indices_zero_based": [
+      0
+    ],
+    "time_anchor": "00:00:00",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c0257e9ffc86b0c7e724aa857d250e69bcbcbe8e0893a551ddbe3157a2421cb4"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      1
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 2,
+    "original_indices_zero_based": [
+      1,
+      2
+    ],
+    "time_anchor": "00:01:12",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "703a8510ad0db0789818cbeeae085e6fae005343851c733d55caec4e33ee8691",
+      "e17f0f223a36d95d38b2ffd8f910ce71d09c2103715854284b508132d740dfde"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      1,
+      2
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 3,
+    "original_indices_zero_based": [
+      3
+    ],
+    "time_anchor": "00:03:32",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5b5988f76509672e9a652990a0855c8363587dd4fd8755d8f9bb0c8632463352"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      2,
+      3
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 4,
+    "original_indices_zero_based": [
+      4
+    ],
+    "time_anchor": "00:03:56",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "704b33b90e8880cd5ca30d4bee8de8dbd742a8d26dde47f8cc271227022f966b"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      3
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 5,
+    "original_indices_zero_based": [
+      5
+    ],
+    "time_anchor": "00:04:48",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1356151f2b24596936c72ee3de193a2e6b02b39cefd2fefca52bacdc741e9d9c"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      3
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 6,
+    "original_indices_zero_based": [
+      6
+    ],
+    "time_anchor": "00:05:30",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a60287d77fb4da5b3b4acb5c42253c55e88181bdf392fcdd66de3d23560f60e0"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      3,
+      4
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 7,
+    "original_indices_zero_based": [
+      7
+    ],
+    "time_anchor": "00:05:56",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "bec9b55d1458070212158ea4a4f6fd8395b2bfe5f08ecbc12c779e2e42409cae"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      4
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 8,
+    "original_indices_zero_based": [
+      8
+    ],
+    "time_anchor": "00:06:44",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c42d721ef2f879c3f7f51502610baffbf8791aaf3e2dfa997d0d5c8f56825853"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      4
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 9,
+    "original_indices_zero_based": [
+      9
+    ],
+    "time_anchor": "00:07:04",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "2d60f66c0734f802cb769381068fb9b254a1afc6d3b3ee9ef47fec70b35af173"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      4,
+      5
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 10,
+    "original_indices_zero_based": [
+      10
+    ],
+    "time_anchor": "00:07:52",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d252b02a964debdab9fb3a898b0e6d3157e01cc30ff2e258fbf5eb21c9c3c9f0"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      5
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 11,
+    "original_indices_zero_based": [
+      11
+    ],
+    "time_anchor": "00:09:01",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1f0e296c0c738de6f22ee6e3e8b519017d4dfb4f96b99f6070170107bfb28362"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      5,
+      6
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 12,
+    "original_indices_zero_based": [
+      12
+    ],
+    "time_anchor": "00:09:49",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1eea69d94585d82554ae784fa764a224c6e2e918197a996517235a9b2317d017"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      6,
+      7
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 13,
+    "original_indices_zero_based": [
+      13
+    ],
+    "time_anchor": "00:11:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a18ce3e8335425326da1b3280824b57d0c2775880f71fb812c9c071a7afcb6f3"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      7
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 14,
+    "original_indices_zero_based": [
+      14
+    ],
+    "time_anchor": "00:12:09",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "539eaa0dab0a2a12c9ad9b879ff0ee9473579631b481436c6ed6b7adc04b36be"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      7
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 15,
+    "original_indices_zero_based": [
+      15
+    ],
+    "time_anchor": "00:12:26",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "2092b49bf1c8ba5fb9c1e1aecbd92049b53b9de750ca12a37eb232729167f073"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      7
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 16,
+    "original_indices_zero_based": [
+      16
+    ],
+    "time_anchor": "00:12:43",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fc231223cd29b134dfa0a82e6ad4d47db89fc7a513e94e9a250bba84b9a52e27"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      7,
+      8
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 17,
+    "original_indices_zero_based": [
+      17
+    ],
+    "time_anchor": "00:14:15",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "94704fd2b8987d276e34a11ce16a3675cdd8758adff72b87473836ab2e8f8d35"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      8,
+      9
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 18,
+    "original_indices_zero_based": [
+      18
+    ],
+    "time_anchor": "00:14:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "70176c6a62dae01d0fed686fa5687efb7655f1ee118159f516c14c8a71f52965"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      9
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 19,
+    "original_indices_zero_based": [
+      19
+    ],
+    "time_anchor": "00:15:40",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d7c4aaac5b6ba1ab5343cc004446183d7604ea49bb3816763d226378eb1404e1"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      9,
+      10
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 20,
+    "original_indices_zero_based": [
+      20
+    ],
+    "time_anchor": "00:16:39",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "27e67eeaacd5a57564fc3ad55c08fbcdabdba77782f69f7b883ebfe7a61ea02d"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      9,
+      10,
+      11
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 21,
+    "original_indices_zero_based": [
+      21
+    ],
+    "time_anchor": "00:19:07",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "202e3b6365bb79beaac9022834692afea703952e375f0cd5e860dd8c30202951"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      11
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 22,
+    "original_indices_zero_based": [
+      22
+    ],
+    "time_anchor": "00:20:00",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "9abc3df5a1c073895d91eef2d6345f537e959aa81d303bf5749f71ffeb6b5df1"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      11,
+      12
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 23,
+    "original_indices_zero_based": [
+      23
+    ],
+    "time_anchor": "00:20:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "923293754aa0acd46395395e93cc9c8099e21e22dfc1b71f582b43a86d846b6e"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      11,
+      12
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 24,
+    "original_indices_zero_based": [
+      24
+    ],
+    "time_anchor": "00:20:47",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1af6cf1c13db0b60982504322a9b5cafd9298c40fe3ade9bc4812acd2c6adc9b"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      12
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 25,
+    "original_indices_zero_based": [
+      25
+    ],
+    "time_anchor": "00:21:16",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "39ff2aa571bac57b3990ab1302088318efb839ab34db0019b52365d06a08ef4e"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      12
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 26,
+    "original_indices_zero_based": [
+      26,
+      27
+    ],
+    "time_anchor": "00:21:48",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "9d3b8e330815b1cb2c4eb264ef107bf64cae04c74e733470bcf34b57c9f2583a",
+      "fce8b2f7020f0076ac5a3d321e156eea7e8df7c3603f2d3e8b1d2ec0a414fee3"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      12,
+      13
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 27,
+    "original_indices_zero_based": [
+      28
+    ],
+    "time_anchor": "00:22:57",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "958d1e98694f0a62a72409f4b305a52188ba2cac76b3375f501a12dc76eff32f"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      13
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 28,
+    "original_indices_zero_based": [
+      29
+    ],
+    "time_anchor": "00:23:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d6733740ae49b6c59bd4bce7ed0d912bd5a30d1dec88958f218b56b85b92c86b"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      13,
+      14
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 29,
+    "original_indices_zero_based": [
+      30,
+      31
+    ],
+    "time_anchor": "00:24:03",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "94edb26b54704341caa2f0ae64afe1d5e4b5cec5dbb5eafd910597d3c9f8a215",
+      "87f8010e32865bcc49c2d88340ccff0623412ed03abd7718db8af652c460525f"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      14
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 30,
+    "original_indices_zero_based": [
+      32,
+      33
+    ],
+    "time_anchor": "00:24:57",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c0c83728160274273afb9dcafad698254eb92603730217ac0267ffd85f082f4a",
+      "697e0a5df5f597ebfc692cd7ae08dae6bda36501bdf7d09797e5fce7d471d536"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      14,
+      15
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 31,
+    "original_indices_zero_based": [
+      34
+    ],
+    "time_anchor": "00:26:04",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b0492fe2d4ae2800f010f1848aae24f163323882d728dbfbe5e68ba248f90fc0"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      15
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 32,
+    "original_indices_zero_based": [
+      35
+    ],
+    "time_anchor": "00:26:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "65c3e579aa9100c5fafeececba3bf79f6cd4bbf6981d64d86ce3e7e585ea704d"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      15
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 33,
+    "original_indices_zero_based": [
+      36
+    ],
+    "time_anchor": "00:26:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8f7b50fa03f889ba78580bcedb7c2210f0604f90520f9969e2380a93cd80f8c7"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      15,
+      16
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 34,
+    "original_indices_zero_based": [
+      37,
+      38
+    ],
+    "time_anchor": "00:27:45",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ae53a3a38b982f8827a125c06083e183b6341ca0e11c3c93355665bcae5ad7b6",
+      "7442e17add755c0706bab9b013b7c9dca8223f031d0f85cc8215c8fa81b54ae9"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      16
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 35,
+    "original_indices_zero_based": [
+      39
+    ],
+    "time_anchor": "00:28:43",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7b5b418a69d5a8787a874030e63f785ed411a480edd91b00e4bc23d54e1f380f"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      16
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 36,
+    "original_indices_zero_based": [
+      40,
+      41
+    ],
+    "time_anchor": "00:29:03",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8b88d68cda44103cb237f74d7220d590d4980129bd2b4816dd674a23e03f03db",
+      "f7e26488de92fd8fc9ec020924cf05e399225ccc211cad96cdceb11359af0e8b"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      16,
+      17,
+      18
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 37,
+    "original_indices_zero_based": [
+      42
+    ],
+    "time_anchor": "00:31:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f9028944a5a265f062181804196d79b1ba5cbd91880f2c870a6cb2a7d80c5bfb"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      17,
+      18
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 38,
+    "original_indices_zero_based": [
+      43
+    ],
+    "time_anchor": "00:31:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "63f44f463e6d71530aad71522fd775b04a83151030638b01eb253478c955cf8e"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      18
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 39,
+    "original_indices_zero_based": [
+      44
+    ],
+    "time_anchor": "00:32:49",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d009bccf09b11ede702038d418f091e07cc78ef28e5515a637df43a294d1ae20"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      18,
+      19
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 40,
+    "original_indices_zero_based": [
+      45
+    ],
+    "time_anchor": "00:33:39",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4ee3788508ccfdfe33b47e5a319279604658b2c335059209e4498da6ccaa402c"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      19
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 41,
+    "original_indices_zero_based": [
+      46
+    ],
+    "time_anchor": "00:33:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ce20005bd1f2c9bc84c67bf0562ea4f0bb77cc50068d02238e984c18fb6141f0"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      19
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 42,
+    "original_indices_zero_based": [
+      47,
+      48,
+      49
+    ],
+    "time_anchor": "00:34:30",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fd96e42d9f7974a271373b60fa637d8f90db670f23e1abc41fc81fc41efce397",
+      "94258aa042fe2a21723092f79b876cf18b964b86f0a17411cb5655e358bc1fed",
+      "828a2f00fd6110f9855f01794674cdd837d3ffd1f02547d1327d9ac7b052c0eb"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      19,
+      20,
+      21
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 43,
+    "original_indices_zero_based": [
+      50
+    ],
+    "time_anchor": "00:36:56",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7afb295305ac78953d084a93f330a67573e84109d5c0607b26ff9016604ec046"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      21
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 44,
+    "original_indices_zero_based": [
+      51
+    ],
+    "time_anchor": "00:38:13",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "be88db19fcf2d23754a82600af49e3d3d4a67cae9c73f1356d6f8896ef917c22"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      21,
+      22
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 45,
+    "original_indices_zero_based": [
+      52
+    ],
+    "time_anchor": "00:39:55",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8812c157b9ea8f97721f095754881fc873a4730cfe61666cde6064273b367954"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      22,
+      23
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 46,
+    "original_indices_zero_based": [
+      53
+    ],
+    "time_anchor": "00:40:41",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "2263fc2ac3dbea058cfdcf22805c7d203120670b0df0520f79553ce50b2f663c"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      23
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 47,
+    "original_indices_zero_based": [
+      54
+    ],
+    "time_anchor": "00:41:21",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d31d6cc0575d34fb89e7170bbaae2ece48438992e33a7908a5623a020ef6568c"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      23
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 48,
+    "original_indices_zero_based": [
+      55,
+      56
+    ],
+    "time_anchor": "00:41:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "12846600750091b0c05acda8d3afb3f01ed4c8a1bf2d8fcae5bb40e27f030af0",
+      "b2287ba540d9f06a9c9481824d8f0009d27982fc4783fdcd911c84e07669da9a"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      23,
+      24
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 49,
+    "original_indices_zero_based": [
+      57
+    ],
+    "time_anchor": "00:43:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b483faa5ee5f0d5337871b438cc9f5e9b9ba0449c25e47a4cdc19ac8a33519a0"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      24
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 50,
+    "original_indices_zero_based": [
+      58
+    ],
+    "time_anchor": "00:43:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7d47ef9b42bccced85dfe3149cbfd76548a6961ced8d096003f1cd7a9a4688e8"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      24,
+      25
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  },
+  {
+    "paragraph": 51,
+    "original_indices_zero_based": [
+      59
+    ],
+    "time_anchor": "00:44:25",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a870b8d3046d392a506e8b93cd3a4cbea95fe83cd37259e94b2b953e1b54b07f"
+    ],
+    "independent_asr_windows_intersecting_source_anchor_range": [
+      25
+    ],
+    "asr_alignment_note": "Window overlap is a locator only; source timestamps are approximate paragraph anchors, not exact word boundaries"
+  }
+]
