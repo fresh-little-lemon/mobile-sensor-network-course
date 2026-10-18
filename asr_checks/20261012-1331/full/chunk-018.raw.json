@@ -1,0 +1,2448 @@
+{
+  "run_metadata": {
+    "chunk": {
+      "index": 18,
+      "label": "chunk-018",
+      "core_start_seconds": 3060,
+      "core_end_seconds": 3240,
+      "window_start_seconds": 3045,
+      "window_end_seconds": 3255,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    "model": {
+      "repo": "Systran/faster-whisper-medium.en",
+      "revision": "a29b04bd15381511a9af671baec01072039215e3",
+      "requested_model": "medium.en"
+    },
+    "source_audio_filename": "20261012-1331.m4a",
+    "source_audio_sha256": "b710201745efeb5071757d4e3b086ce30937f038bbe1bbe6ae18bd74aa7239ff",
+    "audio_window_filename": "chunk-018.wav",
+    "audio_window_sha256": "991dcbe3013c282caaa93b168db8eccde5b85cd78794543c2fb0c6583f5c2b44",
+    "absolute_offset_seconds": 3045,
+    "parameters": {
+      "language": "en",
+      "beam_size": 5,
+      "temperature": 0.0,
+      "initial_prompt": null,
+      "condition_on_previous_text": false,
+      "vad_filter": false,
+      "word_timestamps": true
+    },
+    "runtime": {
+      "faster_whisper": "1.2.1",
+      "ctranslate2": "4.8.3",
+      "device": "cpu",
+      "compute_type": "int8",
+      "cpu_threads": 4
+    },
+    "elapsed_seconds": 57.0557444699989,
+    "machine_utc_completed": "2026-10-18T15:10:42.416600+00:00",
+    "verification": "Raw ASR output. Not human-listened. Context overlap retained intact. Not a corrected transcript."
+  },
+  "transcription_info": {
+    "language": "en",
+    "language_probability": 1,
+    "duration": 209.9946875,
+    "duration_after_vad": 209.9946875,
+    "all_language_probs": null,
+    "transcription_options": {
+      "beam_size": 5,
+      "best_of": 5,
+      "patience": 1,
+      "length_penalty": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "log_prob_threshold": -1.0,
+      "no_speech_threshold": 0.6,
+      "compression_ratio_threshold": 2.4,
+      "condition_on_previous_text": false,
+      "prompt_reset_on_temperature": 0.5,
+      "temperatures": [
+        0.0
+      ],
+      "initial_prompt": null,
+      "prefix": null,
+      "suppress_blank": true,
+      "suppress_tokens": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        14,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        90,
+        91,
+        92,
+        93,
+        357,
+        366,
+        438,
+        532,
+        685,
+        705,
+        796,
+        930,
+        1058,
+        1220,
+        1267,
+        1279,
+        1303,
+        1343,
+        1377,
+        1391,
+        1635,
+        1782,
+        1875,
+        2162,
+        2361,
+        2488,
+        3467,
+        4008,
+        4211,
+        4600,
+        4808,
+        5299,
+        5855,
+        6329,
+        7203,
+        9609,
+        9959,
+        10563,
+        10786,
+        11420,
+        11709,
+        11907,
+        13163,
+        13697,
+        13700,
+        14808,
+        15306,
+        16410,
+        16791,
+        17992,
+        19203,
+        19510,
+        20724,
+        22305,
+        22935,
+        27007,
+        30109,
+        30420,
+        33409,
+        34949,
+        40283,
+        40493,
+        40549,
+        47282,
+        49146,
+        50257,
+        50357,
+        50358,
+        50359,
+        50360,
+        50361
+      ],
+      "without_timestamps": false,
+      "max_initial_timestamp": 1.0,
+      "word_timestamps": true,
+      "prepend_punctuations": "\"'“¿([{-",
+      "append_punctuations": "\"'.。,，!！?？:：”)]}、",
+      "multilingual": false,
+      "max_new_tokens": null,
+      "clip_timestamps": [
+        0.0
+      ],
+      "hallucination_silence_threshold": null,
+      "hotwords": null
+    },
+    "vad_options": null
+  },
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 17.64,
+      "text": " B drew N, so this is the so-called conditioned property. Now remember our scheme is actually very",
+      "tokens": [
+        50363,
+        347,
+        9859,
+        399,
+        11,
+        523,
+        428,
+        318,
+        262,
+        523,
+        12,
+        7174,
+        31964,
+        3119,
+        13,
+        2735,
+        3505,
+        674,
+        7791,
+        318,
+        1682,
+        845,
+        51239
+      ],
+      "avg_logprob": -0.34696107831868256,
+      "compression_ratio": 1.3426573426573427,
+      "no_speech_prob": 0.0030386350117623806,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.74,
+          "word": " B",
+          "probability": 0.48949289321899414
+        },
+        {
+          "start": 0.74,
+          "end": 2.86,
+          "word": " drew",
+          "probability": 0.36658623814582825
+        },
+        {
+          "start": 2.86,
+          "end": 5.6,
+          "word": " N,",
+          "probability": 0.698625922203064
+        },
+        {
+          "start": 6.82,
+          "end": 9.88,
+          "word": " so",
+          "probability": 0.2320626974105835
+        },
+        {
+          "start": 9.88,
+          "end": 10.2,
+          "word": " this",
+          "probability": 0.8089103102684021
+        },
+        {
+          "start": 10.2,
+          "end": 10.34,
+          "word": " is",
+          "probability": 0.9019849300384521
+        },
+        {
+          "start": 10.34,
+          "end": 10.58,
+          "word": " the",
+          "probability": 0.798494279384613
+        },
+        {
+          "start": 10.58,
+          "end": 10.72,
+          "word": " so",
+          "probability": 0.926375687122345
+        },
+        {
+          "start": 10.72,
+          "end": 11.04,
+          "word": "-called",
+          "probability": 0.7805832922458649
+        },
+        {
+          "start": 11.04,
+          "end": 11.94,
+          "word": " conditioned",
+          "probability": 0.4152093827724457
+        },
+        {
+          "start": 11.94,
+          "end": 12.52,
+          "word": " property.",
+          "probability": 0.4094730019569397
+        },
+        {
+          "start": 13.22,
+          "end": 13.42,
+          "word": " Now",
+          "probability": 0.9276298880577087
+        },
+        {
+          "start": 13.42,
+          "end": 15.22,
+          "word": " remember",
+          "probability": 0.44894981384277344
+        },
+        {
+          "start": 15.22,
+          "end": 16.38,
+          "word": " our",
+          "probability": 0.6625142693519592
+        },
+        {
+          "start": 16.38,
+          "end": 16.8,
+          "word": " scheme",
+          "probability": 0.9824569821357727
+        },
+        {
+          "start": 16.8,
+          "end": 17.04,
+          "word": " is",
+          "probability": 0.9965493679046631
+        },
+        {
+          "start": 17.04,
+          "end": 17.36,
+          "word": " actually",
+          "probability": 0.9910265803337097
+        },
+        {
+          "start": 17.36,
+          "end": 17.64,
+          "word": " very",
+          "probability": 0.9975113868713379
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 17.64,
+      "end": 28.04,
+      "text": " simple because it's distributed and as we said every node makes its own decisions according to",
+      "tokens": [
+        51239,
+        2829,
+        780,
+        340,
+        338,
+        9387,
+        290,
+        355,
+        356,
+        531,
+        790,
+        10139,
+        1838,
+        663,
+        898,
+        5370,
+        1864,
+        284,
+        51755
+      ],
+      "avg_logprob": -0.34696107831868256,
+      "compression_ratio": 1.3426573426573427,
+      "no_speech_prob": 0.0030386350117623806,
+      "words": [
+        {
+          "start": 17.64,
+          "end": 18.2,
+          "word": " simple",
+          "probability": 0.9867464900016785
+        },
+        {
+          "start": 18.2,
+          "end": 19.04,
+          "word": " because",
+          "probability": 0.8369281888008118
+        },
+        {
+          "start": 19.04,
+          "end": 19.34,
+          "word": " it's",
+          "probability": 0.9204998314380646
+        },
+        {
+          "start": 19.34,
+          "end": 20.02,
+          "word": " distributed",
+          "probability": 0.9976227879524231
+        },
+        {
+          "start": 20.02,
+          "end": 21.72,
+          "word": " and",
+          "probability": 0.9434887170791626
+        },
+        {
+          "start": 21.72,
+          "end": 22.02,
+          "word": " as",
+          "probability": 0.9601185917854309
+        },
+        {
+          "start": 22.02,
+          "end": 22.24,
+          "word": " we",
+          "probability": 0.9971237778663635
+        },
+        {
+          "start": 22.24,
+          "end": 22.66,
+          "word": " said",
+          "probability": 0.992606520652771
+        },
+        {
+          "start": 22.66,
+          "end": 23.3,
+          "word": " every",
+          "probability": 0.8345266580581665
+        },
+        {
+          "start": 23.3,
+          "end": 23.7,
+          "word": " node",
+          "probability": 0.9202354550361633
+        },
+        {
+          "start": 23.7,
+          "end": 24.8,
+          "word": " makes",
+          "probability": 0.9919266700744629
+        },
+        {
+          "start": 24.8,
+          "end": 25.24,
+          "word": " its",
+          "probability": 0.9584107398986816
+        },
+        {
+          "start": 25.24,
+          "end": 25.46,
+          "word": " own",
+          "probability": 0.998272180557251
+        },
+        {
+          "start": 25.46,
+          "end": 26.18,
+          "word": " decisions",
+          "probability": 0.9728873372077942
+        },
+        {
+          "start": 26.18,
+          "end": 27.5,
+          "word": " according",
+          "probability": 0.932098388671875
+        },
+        {
+          "start": 27.5,
+          "end": 28.04,
+          "word": " to",
+          "probability": 0.9988006353378296
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 2804,
+      "start": 28.04,
+      "end": 35.06,
+      "text": " protocol rules but it makes its own decisions independently from the others",
+      "tokens": [
+        50363,
+        8435,
+        3173,
+        475,
+        340,
+        1838,
+        663,
+        898,
+        5370,
+        14799,
+        422,
+        262,
+        1854,
+        50708
+      ],
+      "avg_logprob": -0.23254918932914734,
+      "compression_ratio": 1.5202702702702702,
+      "no_speech_prob": 0.0008094280492514372,
+      "words": [
+        {
+          "start": 28.04,
+          "end": 28.88,
+          "word": " protocol",
+          "probability": 0.601958155632019
+        },
+        {
+          "start": 28.88,
+          "end": 29.68,
+          "word": " rules",
+          "probability": 0.9866347908973694
+        },
+        {
+          "start": 29.68,
+          "end": 30.76,
+          "word": " but",
+          "probability": 0.6586820483207703
+        },
+        {
+          "start": 30.76,
+          "end": 30.92,
+          "word": " it",
+          "probability": 0.9545612335205078
+        },
+        {
+          "start": 30.92,
+          "end": 31.18,
+          "word": " makes",
+          "probability": 0.996422290802002
+        },
+        {
+          "start": 31.18,
+          "end": 31.4,
+          "word": " its",
+          "probability": 0.9708884358406067
+        },
+        {
+          "start": 31.4,
+          "end": 31.56,
+          "word": " own",
+          "probability": 0.9938596487045288
+        },
+        {
+          "start": 31.56,
+          "end": 32.16,
+          "word": " decisions",
+          "probability": 0.9705699682235718
+        },
+        {
+          "start": 32.16,
+          "end": 33.2,
+          "word": " independently",
+          "probability": 0.9942216277122498
+        },
+        {
+          "start": 33.2,
+          "end": 34.56,
+          "word": " from",
+          "probability": 0.9711849689483643
+        },
+        {
+          "start": 34.56,
+          "end": 34.7,
+          "word": " the",
+          "probability": 0.9935476183891296
+        },
+        {
+          "start": 34.7,
+          "end": 35.06,
+          "word": " others",
+          "probability": 0.9521576762199402
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 2804,
+      "start": 35.06,
+      "end": 46.06,
+      "text": " right so the fact that B drew N will not affect the probability the C draws N",
+      "tokens": [
+        50708,
+        826,
+        523,
+        262,
+        1109,
+        326,
+        347,
+        9859,
+        399,
+        481,
+        407,
+        2689,
+        262,
+        12867,
+        262,
+        327,
+        14293,
+        399,
+        51249
+      ],
+      "avg_logprob": -0.23254918932914734,
+      "compression_ratio": 1.5202702702702702,
+      "no_speech_prob": 0.0008094280492514372,
+      "words": [
+        {
+          "start": 35.06,
+          "end": 35.88,
+          "word": " right",
+          "probability": 0.371025025844574
+        },
+        {
+          "start": 35.88,
+          "end": 36.9,
+          "word": " so",
+          "probability": 0.39474910497665405
+        },
+        {
+          "start": 36.9,
+          "end": 37.42,
+          "word": " the",
+          "probability": 0.73973548412323
+        },
+        {
+          "start": 37.42,
+          "end": 37.74,
+          "word": " fact",
+          "probability": 0.9986252784729004
+        },
+        {
+          "start": 37.74,
+          "end": 38.3,
+          "word": " that",
+          "probability": 0.9923810362815857
+        },
+        {
+          "start": 38.3,
+          "end": 38.94,
+          "word": " B",
+          "probability": 0.7244772911071777
+        },
+        {
+          "start": 38.94,
+          "end": 39.78,
+          "word": " drew",
+          "probability": 0.896092414855957
+        },
+        {
+          "start": 39.78,
+          "end": 40.32,
+          "word": " N",
+          "probability": 0.8140624165534973
+        },
+        {
+          "start": 40.32,
+          "end": 41.32,
+          "word": " will",
+          "probability": 0.9545337557792664
+        },
+        {
+          "start": 41.32,
+          "end": 41.64,
+          "word": " not",
+          "probability": 0.999032735824585
+        },
+        {
+          "start": 41.64,
+          "end": 42.32,
+          "word": " affect",
+          "probability": 0.9960112571716309
+        },
+        {
+          "start": 42.32,
+          "end": 43.66,
+          "word": " the",
+          "probability": 0.9832530617713928
+        },
+        {
+          "start": 43.66,
+          "end": 44.34,
+          "word": " probability",
+          "probability": 0.9963110089302063
+        },
+        {
+          "start": 44.34,
+          "end": 44.7,
+          "word": " the",
+          "probability": 0.4919116199016571
+        },
+        {
+          "start": 44.7,
+          "end": 45.04,
+          "word": " C",
+          "probability": 0.9605174660682678
+        },
+        {
+          "start": 45.04,
+          "end": 45.38,
+          "word": " draws",
+          "probability": 0.9106955528259277
+        },
+        {
+          "start": 45.38,
+          "end": 46.06,
+          "word": " N",
+          "probability": 0.9595803022384644
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 2804,
+      "start": 46.06,
+      "end": 54.36,
+      "text": " C does whatever it likes based on what decisions it makes following the",
+      "tokens": [
+        51249,
+        327,
+        857,
+        4232,
+        340,
+        7832,
+        1912,
+        319,
+        644,
+        5370,
+        340,
+        1838,
+        1708,
+        262,
+        51673
+      ],
+      "avg_logprob": -0.23254918932914734,
+      "compression_ratio": 1.5202702702702702,
+      "no_speech_prob": 0.0008094280492514372,
+      "words": [
+        {
+          "start": 46.06,
+          "end": 46.9,
+          "word": " C",
+          "probability": 0.18580865859985352
+        },
+        {
+          "start": 46.9,
+          "end": 47.34,
+          "word": " does",
+          "probability": 0.9487749338150024
+        },
+        {
+          "start": 47.34,
+          "end": 47.92,
+          "word": " whatever",
+          "probability": 0.9589184522628784
+        },
+        {
+          "start": 47.92,
+          "end": 48.36,
+          "word": " it",
+          "probability": 0.23787185549736023
+        },
+        {
+          "start": 48.36,
+          "end": 49.1,
+          "word": " likes",
+          "probability": 0.8783696889877319
+        },
+        {
+          "start": 49.1,
+          "end": 49.62,
+          "word": " based",
+          "probability": 0.9746389389038086
+        },
+        {
+          "start": 49.62,
+          "end": 49.94,
+          "word": " on",
+          "probability": 0.9959461092948914
+        },
+        {
+          "start": 49.94,
+          "end": 50.82,
+          "word": " what",
+          "probability": 0.9555237293243408
+        },
+        {
+          "start": 50.82,
+          "end": 52.6,
+          "word": " decisions",
+          "probability": 0.7372552156448364
+        },
+        {
+          "start": 52.6,
+          "end": 52.94,
+          "word": " it",
+          "probability": 0.9124943614006042
+        },
+        {
+          "start": 52.94,
+          "end": 53.44,
+          "word": " makes",
+          "probability": 0.9955453872680664
+        },
+        {
+          "start": 53.44,
+          "end": 54.1,
+          "word": " following",
+          "probability": 0.9872996211051941
+        },
+        {
+          "start": 54.1,
+          "end": 54.36,
+          "word": " the",
+          "probability": 0.9955888986587524
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 5436,
+      "start": 54.36,
+      "end": 65.18,
+      "text": " but it's not affected by what other nodes do. So this is actually equal to",
+      "tokens": [
+        50363,
+        475,
+        340,
+        338,
+        407,
+        5676,
+        416,
+        644,
+        584,
+        13760,
+        466,
+        13,
+        1406,
+        428,
+        318,
+        1682,
+        4961,
+        284,
+        50963
+      ],
+      "avg_logprob": -0.23944267204829625,
+      "compression_ratio": 1.0136986301369864,
+      "no_speech_prob": 0.004127224441617727,
+      "words": [
+        {
+          "start": 54.36,
+          "end": 55.26,
+          "word": " but",
+          "probability": 0.17056356370449066
+        },
+        {
+          "start": 55.26,
+          "end": 56.72,
+          "word": " it's",
+          "probability": 0.691922128200531
+        },
+        {
+          "start": 56.72,
+          "end": 56.96,
+          "word": " not",
+          "probability": 0.9982168078422546
+        },
+        {
+          "start": 56.96,
+          "end": 57.66,
+          "word": " affected",
+          "probability": 0.9885138869285583
+        },
+        {
+          "start": 57.66,
+          "end": 58.84,
+          "word": " by",
+          "probability": 0.9924392700195312
+        },
+        {
+          "start": 58.84,
+          "end": 59.32,
+          "word": " what",
+          "probability": 0.9765889644622803
+        },
+        {
+          "start": 59.32,
+          "end": 59.74,
+          "word": " other",
+          "probability": 0.9828883409500122
+        },
+        {
+          "start": 59.74,
+          "end": 60.06,
+          "word": " nodes",
+          "probability": 0.9818183779716492
+        },
+        {
+          "start": 60.06,
+          "end": 60.88,
+          "word": " do.",
+          "probability": 0.9887606501579285
+        },
+        {
+          "start": 61.64,
+          "end": 62.1,
+          "word": " So",
+          "probability": 0.8089799284934998
+        },
+        {
+          "start": 62.1,
+          "end": 62.78,
+          "word": " this",
+          "probability": 0.906790554523468
+        },
+        {
+          "start": 62.78,
+          "end": 62.96,
+          "word": " is",
+          "probability": 0.9427058696746826
+        },
+        {
+          "start": 62.96,
+          "end": 63.54,
+          "word": " actually",
+          "probability": 0.646111249923706
+        },
+        {
+          "start": 63.54,
+          "end": 64.1,
+          "word": " equal",
+          "probability": 0.9877580404281616
+        },
+        {
+          "start": 64.1,
+          "end": 65.18,
+          "word": " to",
+          "probability": 0.9955548644065857
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 6518,
+      "start": 66.36,
+      "end": 88.94,
+      "text": " the probability that C draws N, simply that, because it doesn't matter what B does, C will",
+      "tokens": [
+        50363,
+        262,
+        12867,
+        326,
+        327,
+        14293,
+        399,
+        11,
+        2391,
+        326,
+        11,
+        780,
+        340,
+        1595,
+        470,
+        2300,
+        644,
+        347,
+        857,
+        11,
+        327,
+        481,
+        51573
+      ],
+      "avg_logprob": -0.38113343238830566,
+      "compression_ratio": 1.0975609756097562,
+      "no_speech_prob": 0.0022854553535580635,
+      "words": [
+        {
+          "start": 66.36,
+          "end": 67.48,
+          "word": " the",
+          "probability": 0.34821754693984985
+        },
+        {
+          "start": 67.48,
+          "end": 68.42,
+          "word": " probability",
+          "probability": 0.9852856993675232
+        },
+        {
+          "start": 68.42,
+          "end": 74.4,
+          "word": " that",
+          "probability": 0.9641649127006531
+        },
+        {
+          "start": 74.4,
+          "end": 75.18,
+          "word": " C",
+          "probability": 0.5275865197181702
+        },
+        {
+          "start": 75.18,
+          "end": 78.86,
+          "word": " draws",
+          "probability": 0.9682173728942871
+        },
+        {
+          "start": 78.86,
+          "end": 81.06,
+          "word": " N,",
+          "probability": 0.5333051681518555
+        },
+        {
+          "start": 82.28,
+          "end": 83.38,
+          "word": " simply",
+          "probability": 0.9401328563690186
+        },
+        {
+          "start": 83.38,
+          "end": 83.76,
+          "word": " that,",
+          "probability": 0.9848681092262268
+        },
+        {
+          "start": 83.94,
+          "end": 84.4,
+          "word": " because",
+          "probability": 0.9669591188430786
+        },
+        {
+          "start": 84.4,
+          "end": 84.9,
+          "word": " it",
+          "probability": 0.9799380898475647
+        },
+        {
+          "start": 84.9,
+          "end": 85.18,
+          "word": " doesn't",
+          "probability": 0.9679335951805115
+        },
+        {
+          "start": 85.18,
+          "end": 85.56,
+          "word": " matter",
+          "probability": 0.994675874710083
+        },
+        {
+          "start": 85.56,
+          "end": 86.14,
+          "word": " what",
+          "probability": 0.9888730645179749
+        },
+        {
+          "start": 86.14,
+          "end": 86.5,
+          "word": " B",
+          "probability": 0.8938912749290466
+        },
+        {
+          "start": 86.5,
+          "end": 87.02,
+          "word": " does,",
+          "probability": 0.9923074245452881
+        },
+        {
+          "start": 87.5,
+          "end": 88.4,
+          "word": " C",
+          "probability": 0.4263583719730377
+        },
+        {
+          "start": 88.4,
+          "end": 88.94,
+          "word": " will",
+          "probability": 0.9854469299316406
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 8894,
+      "start": 88.94,
+      "end": 97.32,
+      "text": " do things by themselves. Okay, so what is the probability that C draws N? So what is the",
+      "tokens": [
+        50363,
+        466,
+        1243,
+        416,
+        2405,
+        13,
+        16805,
+        11,
+        523,
+        644,
+        318,
+        262,
+        12867,
+        326,
+        327,
+        14293,
+        399,
+        30,
+        1406,
+        644,
+        318,
+        262,
+        50779
+      ],
+      "avg_logprob": -0.29960635243629924,
+      "compression_ratio": 1.3902439024390243,
+      "no_speech_prob": 0.011182744055986404,
+      "words": [
+        {
+          "start": 88.94,
+          "end": 89.52,
+          "word": " do",
+          "probability": 0.3727984130382538
+        },
+        {
+          "start": 89.52,
+          "end": 90.04,
+          "word": " things",
+          "probability": 0.987195611000061
+        },
+        {
+          "start": 90.04,
+          "end": 90.48,
+          "word": " by",
+          "probability": 0.7413858771324158
+        },
+        {
+          "start": 90.48,
+          "end": 91.54,
+          "word": " themselves.",
+          "probability": 0.1591946929693222
+        },
+        {
+          "start": 92.68,
+          "end": 92.84,
+          "word": " Okay,",
+          "probability": 0.8523266315460205
+        },
+        {
+          "start": 92.88,
+          "end": 93.26,
+          "word": " so",
+          "probability": 0.9881591796875
+        },
+        {
+          "start": 93.26,
+          "end": 93.84,
+          "word": " what",
+          "probability": 0.8903306126594543
+        },
+        {
+          "start": 93.84,
+          "end": 94.0,
+          "word": " is",
+          "probability": 0.9986555576324463
+        },
+        {
+          "start": 94.0,
+          "end": 94.18,
+          "word": " the",
+          "probability": 0.9976708292961121
+        },
+        {
+          "start": 94.18,
+          "end": 94.9,
+          "word": " probability",
+          "probability": 0.9953501224517822
+        },
+        {
+          "start": 94.9,
+          "end": 95.28,
+          "word": " that",
+          "probability": 0.993127703666687
+        },
+        {
+          "start": 95.28,
+          "end": 95.6,
+          "word": " C",
+          "probability": 0.7901540994644165
+        },
+        {
+          "start": 95.6,
+          "end": 95.94,
+          "word": " draws",
+          "probability": 0.9641520977020264
+        },
+        {
+          "start": 95.94,
+          "end": 96.5,
+          "word": " N?",
+          "probability": 0.5159521102905273
+        },
+        {
+          "start": 96.72,
+          "end": 96.86,
+          "word": " So",
+          "probability": 0.9506385922431946
+        },
+        {
+          "start": 96.86,
+          "end": 97.06,
+          "word": " what",
+          "probability": 0.9495124220848083
+        },
+        {
+          "start": 97.06,
+          "end": 97.18,
+          "word": " is",
+          "probability": 0.9985212683677673
+        },
+        {
+          "start": 97.18,
+          "end": 97.32,
+          "word": " the",
+          "probability": 0.8313636183738708
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 8894,
+      "start": 97.32,
+      "end": 108.4,
+      "text": " probability that an integer is selected out of the range 0, C, W, N? Well, we have",
+      "tokens": [
+        50779,
+        12867,
+        326,
+        281,
+        18253,
+        318,
+        6163,
+        503,
+        286,
+        262,
+        2837,
+        657,
+        11,
+        327,
+        11,
+        370,
+        11,
+        399,
+        30,
+        3894,
+        11,
+        356,
+        423,
+        51329
+      ],
+      "avg_logprob": -0.29960635243629924,
+      "compression_ratio": 1.3902439024390243,
+      "no_speech_prob": 0.011182744055986404,
+      "words": [
+        {
+          "start": 97.32,
+          "end": 97.96,
+          "word": " probability",
+          "probability": 0.9940693378448486
+        },
+        {
+          "start": 97.96,
+          "end": 98.38,
+          "word": " that",
+          "probability": 0.9938830137252808
+        },
+        {
+          "start": 98.38,
+          "end": 98.68,
+          "word": " an",
+          "probability": 0.9886202812194824
+        },
+        {
+          "start": 98.68,
+          "end": 99.16,
+          "word": " integer",
+          "probability": 0.9941440224647522
+        },
+        {
+          "start": 99.16,
+          "end": 99.74,
+          "word": " is",
+          "probability": 0.9962627291679382
+        },
+        {
+          "start": 99.74,
+          "end": 100.62,
+          "word": " selected",
+          "probability": 0.9981841444969177
+        },
+        {
+          "start": 100.62,
+          "end": 102.0,
+          "word": " out",
+          "probability": 0.781455934047699
+        },
+        {
+          "start": 102.0,
+          "end": 102.48,
+          "word": " of",
+          "probability": 0.9933360815048218
+        },
+        {
+          "start": 102.48,
+          "end": 102.66,
+          "word": " the",
+          "probability": 0.9137066006660461
+        },
+        {
+          "start": 102.66,
+          "end": 103.12,
+          "word": " range",
+          "probability": 0.9996769428253174
+        },
+        {
+          "start": 103.12,
+          "end": 103.88,
+          "word": " 0,",
+          "probability": 0.6373446583747864
+        },
+        {
+          "start": 104.28,
+          "end": 104.46,
+          "word": " C,",
+          "probability": 0.7951595187187195
+        },
+        {
+          "start": 104.48,
+          "end": 104.76,
+          "word": " W,",
+          "probability": 0.8949973583221436
+        },
+        {
+          "start": 105.04,
+          "end": 105.16,
+          "word": " N?",
+          "probability": 0.5976839065551758
+        },
+        {
+          "start": 106.76,
+          "end": 107.08,
+          "word": " Well,",
+          "probability": 0.36914917826652527
+        },
+        {
+          "start": 107.72,
+          "end": 108.0,
+          "word": " we",
+          "probability": 0.9952280521392822
+        },
+        {
+          "start": 108.0,
+          "end": 108.4,
+          "word": " have",
+          "probability": 0.9972176551818848
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 10840,
+      "start": 108.4,
+      "end": 117.86,
+      "text": " written that here right this is the probability okay so now we know that",
+      "tokens": [
+        50363,
+        3194,
+        326,
+        994,
+        826,
+        428,
+        318,
+        262,
+        12867,
+        8788,
+        523,
+        783,
+        356,
+        760,
+        326,
+        50815
+      ],
+      "avg_logprob": -0.1418270935883393,
+      "compression_ratio": 1.505050505050505,
+      "no_speech_prob": 0.001921274815686047,
+      "words": [
+        {
+          "start": 108.4,
+          "end": 108.92,
+          "word": " written",
+          "probability": 0.9254428148269653
+        },
+        {
+          "start": 108.92,
+          "end": 109.56,
+          "word": " that",
+          "probability": 0.7218554019927979
+        },
+        {
+          "start": 109.56,
+          "end": 110.28,
+          "word": " here",
+          "probability": 0.9662883281707764
+        },
+        {
+          "start": 110.28,
+          "end": 110.98,
+          "word": " right",
+          "probability": 0.37236136198043823
+        },
+        {
+          "start": 110.98,
+          "end": 111.8,
+          "word": " this",
+          "probability": 0.6537535786628723
+        },
+        {
+          "start": 111.8,
+          "end": 111.94,
+          "word": " is",
+          "probability": 0.9984350800514221
+        },
+        {
+          "start": 111.94,
+          "end": 112.12,
+          "word": " the",
+          "probability": 0.9971482157707214
+        },
+        {
+          "start": 112.12,
+          "end": 112.78,
+          "word": " probability",
+          "probability": 0.9962708950042725
+        },
+        {
+          "start": 112.78,
+          "end": 113.4,
+          "word": " okay",
+          "probability": 0.6003889441490173
+        },
+        {
+          "start": 113.4,
+          "end": 114.14,
+          "word": " so",
+          "probability": 0.918592095375061
+        },
+        {
+          "start": 114.14,
+          "end": 115.38,
+          "word": " now",
+          "probability": 0.9920084476470947
+        },
+        {
+          "start": 115.38,
+          "end": 115.58,
+          "word": " we",
+          "probability": 0.9952012300491333
+        },
+        {
+          "start": 115.58,
+          "end": 117.08,
+          "word": " know",
+          "probability": 0.997108519077301
+        },
+        {
+          "start": 117.08,
+          "end": 117.86,
+          "word": " that",
+          "probability": 0.9804322719573975
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 10840,
+      "start": 119.60000000000001,
+      "end": 129.20000000000002,
+      "text": " given that b has drawn n the probability that c will also draw n is this one",
+      "tokens": [
+        50923,
+        1813,
+        326,
+        275,
+        468,
+        7428,
+        299,
+        262,
+        12867,
+        326,
+        269,
+        481,
+        635,
+        3197,
+        299,
+        318,
+        428,
+        530,
+        51403
+      ],
+      "avg_logprob": -0.1418270935883393,
+      "compression_ratio": 1.505050505050505,
+      "no_speech_prob": 0.001921274815686047,
+      "words": [
+        {
+          "start": 119.42,
+          "end": 120.08,
+          "word": " given",
+          "probability": 0.9662295579910278
+        },
+        {
+          "start": 120.08,
+          "end": 120.88,
+          "word": " that",
+          "probability": 0.9960319399833679
+        },
+        {
+          "start": 120.88,
+          "end": 121.92,
+          "word": " b",
+          "probability": 0.6475456953048706
+        },
+        {
+          "start": 121.92,
+          "end": 122.6,
+          "word": " has",
+          "probability": 0.9957439303398132
+        },
+        {
+          "start": 122.6,
+          "end": 122.96,
+          "word": " drawn",
+          "probability": 0.9922598004341125
+        },
+        {
+          "start": 122.96,
+          "end": 123.48,
+          "word": " n",
+          "probability": 0.8878167867660522
+        },
+        {
+          "start": 123.48,
+          "end": 123.82,
+          "word": " the",
+          "probability": 0.838552713394165
+        },
+        {
+          "start": 123.82,
+          "end": 124.62,
+          "word": " probability",
+          "probability": 0.9988692402839661
+        },
+        {
+          "start": 124.62,
+          "end": 125.34,
+          "word": " that",
+          "probability": 0.9988418221473694
+        },
+        {
+          "start": 125.34,
+          "end": 125.94,
+          "word": " c",
+          "probability": 0.984272837638855
+        },
+        {
+          "start": 125.94,
+          "end": 126.62,
+          "word": " will",
+          "probability": 0.9975284934043884
+        },
+        {
+          "start": 126.62,
+          "end": 127.16,
+          "word": " also",
+          "probability": 0.9989432692527771
+        },
+        {
+          "start": 127.16,
+          "end": 127.56,
+          "word": " draw",
+          "probability": 0.9644901752471924
+        },
+        {
+          "start": 127.56,
+          "end": 128.08,
+          "word": " n",
+          "probability": 0.9903481006622314
+        },
+        {
+          "start": 128.08,
+          "end": 128.84,
+          "word": " is",
+          "probability": 0.9907011985778809
+        },
+        {
+          "start": 128.84,
+          "end": 129.1,
+          "word": " this",
+          "probability": 0.9974719882011414
+        },
+        {
+          "start": 129.1,
+          "end": 129.76,
+          "word": " one",
+          "probability": 0.9762600064277649
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 12976,
+      "start": 131.26000000000002,
+      "end": 140.78,
+      "text": " So condition to the fact that B drew N, then this is the collision probability",
+      "tokens": [
+        50363,
+        1406,
+        4006,
+        284,
+        262,
+        1109,
+        326,
+        347,
+        9859,
+        399,
+        11,
+        788,
+        428,
+        318,
+        262,
+        17661,
+        12867,
+        50923
+      ],
+      "avg_logprob": -0.2571628313689005,
+      "compression_ratio": 1.5288461538461537,
+      "no_speech_prob": 0.0005252626142464578,
+      "words": [
+        {
+          "start": 131.26000000000002,
+          "end": 132.18,
+          "word": " So",
+          "probability": 0.5055074691772461
+        },
+        {
+          "start": 132.18,
+          "end": 133.1,
+          "word": " condition",
+          "probability": 0.41765061020851135
+        },
+        {
+          "start": 133.1,
+          "end": 133.54,
+          "word": " to",
+          "probability": 0.946966290473938
+        },
+        {
+          "start": 133.54,
+          "end": 133.82,
+          "word": " the",
+          "probability": 0.9551301002502441
+        },
+        {
+          "start": 133.82,
+          "end": 134.06,
+          "word": " fact",
+          "probability": 0.9938367009162903
+        },
+        {
+          "start": 134.06,
+          "end": 134.54,
+          "word": " that",
+          "probability": 0.9884467124938965
+        },
+        {
+          "start": 134.54,
+          "end": 135.0,
+          "word": " B",
+          "probability": 0.760165274143219
+        },
+        {
+          "start": 135.0,
+          "end": 135.4,
+          "word": " drew",
+          "probability": 0.9152094125747681
+        },
+        {
+          "start": 135.4,
+          "end": 136.98,
+          "word": " N,",
+          "probability": 0.7937920093536377
+        },
+        {
+          "start": 137.02,
+          "end": 137.96,
+          "word": " then",
+          "probability": 0.8372483253479004
+        },
+        {
+          "start": 137.96,
+          "end": 138.92,
+          "word": " this",
+          "probability": 0.9674401879310608
+        },
+        {
+          "start": 138.92,
+          "end": 139.36,
+          "word": " is",
+          "probability": 0.9914326667785645
+        },
+        {
+          "start": 139.36,
+          "end": 139.78,
+          "word": " the",
+          "probability": 0.9880499243736267
+        },
+        {
+          "start": 139.78,
+          "end": 140.2,
+          "word": " collision",
+          "probability": 0.9495492577552795
+        },
+        {
+          "start": 140.2,
+          "end": 140.78,
+          "word": " probability",
+          "probability": 0.9845902919769287
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 13,
+      "seek": 12976,
+      "start": 140.78,
+      "end": 152.04,
+      "text": " condition to the fact that B drew N. What we need to do is to now to compute the",
+      "tokens": [
+        50923,
+        4006,
+        284,
+        262,
+        1109,
+        326,
+        347,
+        9859,
+        399,
+        13,
+        1867,
+        356,
+        761,
+        284,
+        466,
+        318,
+        284,
+        783,
+        284,
+        24061,
+        262,
+        51472
+      ],
+      "avg_logprob": -0.2571628313689005,
+      "compression_ratio": 1.5288461538461537,
+      "no_speech_prob": 0.0005252626142464578,
+      "words": [
+        {
+          "start": 140.78,
+          "end": 141.64,
+          "word": " condition",
+          "probability": 0.679093599319458
+        },
+        {
+          "start": 141.64,
+          "end": 142.1,
+          "word": " to",
+          "probability": 0.4542756676673889
+        },
+        {
+          "start": 142.1,
+          "end": 142.28,
+          "word": " the",
+          "probability": 0.9713190793991089
+        },
+        {
+          "start": 142.28,
+          "end": 142.56,
+          "word": " fact",
+          "probability": 0.993107795715332
+        },
+        {
+          "start": 142.56,
+          "end": 142.96,
+          "word": " that",
+          "probability": 0.9665310382843018
+        },
+        {
+          "start": 142.96,
+          "end": 143.72,
+          "word": " B",
+          "probability": 0.956436812877655
+        },
+        {
+          "start": 143.72,
+          "end": 144.04,
+          "word": " drew",
+          "probability": 0.9395474195480347
+        },
+        {
+          "start": 144.04,
+          "end": 145.26,
+          "word": " N.",
+          "probability": 0.9793269634246826
+        },
+        {
+          "start": 146.78,
+          "end": 147.7,
+          "word": " What",
+          "probability": 0.8212026953697205
+        },
+        {
+          "start": 147.7,
+          "end": 148.0,
+          "word": " we",
+          "probability": 0.9977147579193115
+        },
+        {
+          "start": 148.0,
+          "end": 148.2,
+          "word": " need",
+          "probability": 0.9970904588699341
+        },
+        {
+          "start": 148.2,
+          "end": 148.42,
+          "word": " to",
+          "probability": 0.9969198703765869
+        },
+        {
+          "start": 148.42,
+          "end": 148.8,
+          "word": " do",
+          "probability": 0.9972725510597229
+        },
+        {
+          "start": 148.8,
+          "end": 149.38,
+          "word": " is",
+          "probability": 0.8437888622283936
+        },
+        {
+          "start": 149.38,
+          "end": 149.78,
+          "word": " to",
+          "probability": 0.8947075605392456
+        },
+        {
+          "start": 149.78,
+          "end": 150.38,
+          "word": " now",
+          "probability": 0.5479944348335266
+        },
+        {
+          "start": 150.38,
+          "end": 150.84,
+          "word": " to",
+          "probability": 0.639966607093811
+        },
+        {
+          "start": 150.84,
+          "end": 151.38,
+          "word": " compute",
+          "probability": 0.9972092509269714
+        },
+        {
+          "start": 151.38,
+          "end": 152.04,
+          "word": " the",
+          "probability": 0.933925449848175
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 14,
+      "seek": 15204,
+      "start": 152.04,
+      "end": 163.72,
+      "text": " probability is to decondition and make the computation for any possible n. So",
+      "tokens": [
+        50363,
+        12867,
+        318,
+        284,
+        875,
+        623,
+        653,
+        290,
+        787,
+        262,
+        29964,
+        329,
+        597,
+        1744,
+        299,
+        13,
+        1406,
+        50940
+      ],
+      "avg_logprob": -0.19037924592311567,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 0.0018638293258845806,
+      "words": [
+        {
+          "start": 152.04,
+          "end": 153.44,
+          "word": " probability",
+          "probability": 0.021516822278499603
+        },
+        {
+          "start": 153.44,
+          "end": 154.24,
+          "word": " is",
+          "probability": 0.8940207958221436
+        },
+        {
+          "start": 154.24,
+          "end": 154.56,
+          "word": " to",
+          "probability": 0.9637026190757751
+        },
+        {
+          "start": 154.56,
+          "end": 155.72,
+          "word": " decondition",
+          "probability": 0.8647252917289734
+        },
+        {
+          "start": 155.72,
+          "end": 158.04,
+          "word": " and",
+          "probability": 0.9196715950965881
+        },
+        {
+          "start": 158.04,
+          "end": 158.42,
+          "word": " make",
+          "probability": 0.9171082973480225
+        },
+        {
+          "start": 158.42,
+          "end": 158.82,
+          "word": " the",
+          "probability": 0.7859297394752502
+        },
+        {
+          "start": 158.82,
+          "end": 159.68,
+          "word": " computation",
+          "probability": 0.97709059715271
+        },
+        {
+          "start": 159.68,
+          "end": 160.32,
+          "word": " for",
+          "probability": 0.4720469117164612
+        },
+        {
+          "start": 160.32,
+          "end": 160.92,
+          "word": " any",
+          "probability": 0.8438801765441895
+        },
+        {
+          "start": 160.92,
+          "end": 161.62,
+          "word": " possible",
+          "probability": 0.99058598279953
+        },
+        {
+          "start": 161.62,
+          "end": 162.22,
+          "word": " n.",
+          "probability": 0.6370745897293091
+        },
+        {
+          "start": 163.16,
+          "end": 163.72,
+          "word": " So",
+          "probability": 0.8897806406021118
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 15,
+      "seek": 15204,
+      "start": 163.72,
+      "end": 177.08,
+      "text": " what we want to now do is to compute in general the probability that B and C",
+      "tokens": [
+        50940,
+        644,
+        356,
+        765,
+        284,
+        783,
+        466,
+        318,
+        284,
+        24061,
+        287,
+        2276,
+        262,
+        12867,
+        326,
+        347,
+        290,
+        327,
+        51611
+      ],
+      "avg_logprob": -0.19037924592311567,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 0.0018638293258845806,
+      "words": [
+        {
+          "start": 163.72,
+          "end": 164.42,
+          "word": " what",
+          "probability": 0.8736011385917664
+        },
+        {
+          "start": 164.42,
+          "end": 164.66,
+          "word": " we",
+          "probability": 0.998290479183197
+        },
+        {
+          "start": 164.66,
+          "end": 164.96,
+          "word": " want",
+          "probability": 0.9928157329559326
+        },
+        {
+          "start": 164.96,
+          "end": 165.4,
+          "word": " to",
+          "probability": 0.9933886528015137
+        },
+        {
+          "start": 165.4,
+          "end": 166.14,
+          "word": " now",
+          "probability": 0.9263020753860474
+        },
+        {
+          "start": 166.14,
+          "end": 168.16,
+          "word": " do",
+          "probability": 0.9828677177429199
+        },
+        {
+          "start": 168.16,
+          "end": 169.42,
+          "word": " is",
+          "probability": 0.9885468482971191
+        },
+        {
+          "start": 169.42,
+          "end": 173.04,
+          "word": " to",
+          "probability": 0.7683970928192139
+        },
+        {
+          "start": 173.04,
+          "end": 173.56,
+          "word": " compute",
+          "probability": 0.9942829608917236
+        },
+        {
+          "start": 173.56,
+          "end": 174.14,
+          "word": " in",
+          "probability": 0.9035402536392212
+        },
+        {
+          "start": 174.14,
+          "end": 174.68,
+          "word": " general",
+          "probability": 0.9819760322570801
+        },
+        {
+          "start": 174.68,
+          "end": 175.34,
+          "word": " the",
+          "probability": 0.9482962489128113
+        },
+        {
+          "start": 175.34,
+          "end": 175.92,
+          "word": " probability",
+          "probability": 0.9782337546348572
+        },
+        {
+          "start": 175.92,
+          "end": 176.22,
+          "word": " that",
+          "probability": 0.9556969404220581
+        },
+        {
+          "start": 176.22,
+          "end": 176.54,
+          "word": " B",
+          "probability": 0.7086713314056396
+        },
+        {
+          "start": 176.54,
+          "end": 176.76,
+          "word": " and",
+          "probability": 0.9833635091781616
+        },
+        {
+          "start": 176.76,
+          "end": 177.08,
+          "word": " C",
+          "probability": 0.9880422353744507
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 16,
+      "seek": 17708,
+      "start": 177.08,
+      "end": 188.26,
+      "text": " collide without conditioning to any event. So that is, we need to consider all possible",
+      "tokens": [
+        50363,
+        46592,
+        1231,
+        21143,
+        284,
+        597,
+        1785,
+        13,
+        1406,
+        326,
+        318,
+        11,
+        356,
+        761,
+        284,
+        2074,
+        477,
+        1744,
+        50935
+      ],
+      "avg_logprob": -0.18619374965512475,
+      "compression_ratio": 1.3615384615384616,
+      "no_speech_prob": 0.0004958359058946371,
+      "words": [
+        {
+          "start": 177.08,
+          "end": 177.82,
+          "word": " collide",
+          "probability": 0.76483553647995
+        },
+        {
+          "start": 177.82,
+          "end": 178.64,
+          "word": " without",
+          "probability": 0.8074731826782227
+        },
+        {
+          "start": 178.64,
+          "end": 179.5,
+          "word": " conditioning",
+          "probability": 0.9848775863647461
+        },
+        {
+          "start": 179.5,
+          "end": 180.24,
+          "word": " to",
+          "probability": 0.9640296101570129
+        },
+        {
+          "start": 180.24,
+          "end": 180.7,
+          "word": " any",
+          "probability": 0.9907717704772949
+        },
+        {
+          "start": 180.7,
+          "end": 181.34,
+          "word": " event.",
+          "probability": 0.9964442849159241
+        },
+        {
+          "start": 182.56,
+          "end": 182.76,
+          "word": " So",
+          "probability": 0.816093921661377
+        },
+        {
+          "start": 182.76,
+          "end": 183.32,
+          "word": " that",
+          "probability": 0.848866879940033
+        },
+        {
+          "start": 183.32,
+          "end": 184.04,
+          "word": " is,",
+          "probability": 0.9936406016349792
+        },
+        {
+          "start": 185.1,
+          "end": 186.02,
+          "word": " we",
+          "probability": 0.9902724623680115
+        },
+        {
+          "start": 186.02,
+          "end": 186.22,
+          "word": " need",
+          "probability": 0.9992018342018127
+        },
+        {
+          "start": 186.22,
+          "end": 186.38,
+          "word": " to",
+          "probability": 0.9997767806053162
+        },
+        {
+          "start": 186.38,
+          "end": 186.86,
+          "word": " consider",
+          "probability": 0.9995920062065125
+        },
+        {
+          "start": 186.86,
+          "end": 187.42,
+          "word": " all",
+          "probability": 0.9984028935432434
+        },
+        {
+          "start": 187.42,
+          "end": 188.26,
+          "word": " possible",
+          "probability": 0.9990043044090271
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 17,
+      "seek": 17708,
+      "start": 188.26,
+      "end": 204.94,
+      "text": " values of integer from 0 to cwmin and for any n we know that the probability of collision",
+      "tokens": [
+        50935,
+        3815,
+        286,
+        18253,
+        422,
+        657,
+        284,
+        269,
+        86,
+        1084,
+        290,
+        329,
+        597,
+        299,
+        356,
+        760,
+        326,
+        262,
+        12867,
+        286,
+        17661,
+        51751
+      ],
+      "avg_logprob": -0.18619374965512475,
+      "compression_ratio": 1.3615384615384616,
+      "no_speech_prob": 0.0004958359058946371,
+      "words": [
+        {
+          "start": 188.26,
+          "end": 189.2,
+          "word": " values",
+          "probability": 0.9990334510803223
+        },
+        {
+          "start": 189.2,
+          "end": 189.74,
+          "word": " of",
+          "probability": 0.9960179924964905
+        },
+        {
+          "start": 189.74,
+          "end": 190.18,
+          "word": " integer",
+          "probability": 0.7257452607154846
+        },
+        {
+          "start": 190.18,
+          "end": 190.98,
+          "word": " from",
+          "probability": 0.9021028280258179
+        },
+        {
+          "start": 190.98,
+          "end": 191.5,
+          "word": " 0",
+          "probability": 0.6095646619796753
+        },
+        {
+          "start": 191.5,
+          "end": 192.24,
+          "word": " to",
+          "probability": 0.992914080619812
+        },
+        {
+          "start": 192.24,
+          "end": 194.2,
+          "word": " cwmin",
+          "probability": 0.3943617145220439
+        },
+        {
+          "start": 194.2,
+          "end": 197.3,
+          "word": " and",
+          "probability": 0.7934622168540955
+        },
+        {
+          "start": 197.3,
+          "end": 197.68,
+          "word": " for",
+          "probability": 0.9924597144126892
+        },
+        {
+          "start": 197.68,
+          "end": 198.5,
+          "word": " any",
+          "probability": 0.9939152598381042
+        },
+        {
+          "start": 198.5,
+          "end": 199.16,
+          "word": " n",
+          "probability": 0.9487339854240417
+        },
+        {
+          "start": 199.16,
+          "end": 200.08,
+          "word": " we",
+          "probability": 0.819108247756958
+        },
+        {
+          "start": 200.08,
+          "end": 200.56,
+          "word": " know",
+          "probability": 0.9993958473205566
+        },
+        {
+          "start": 200.56,
+          "end": 201.76,
+          "word": " that",
+          "probability": 0.9946686625480652
+        },
+        {
+          "start": 201.76,
+          "end": 203.12,
+          "word": " the",
+          "probability": 0.9967318773269653
+        },
+        {
+          "start": 203.12,
+          "end": 203.78,
+          "word": " probability",
+          "probability": 0.9974151849746704
+        },
+        {
+          "start": 203.78,
+          "end": 204.28,
+          "word": " of",
+          "probability": 0.9993405938148499
+        },
+        {
+          "start": 204.28,
+          "end": 204.94,
+          "word": " collision",
+          "probability": 0.9837548136711121
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 18,
+      "seek": 20494,
+      "start": 204.94,
+      "end": 209.22,
+      "text": " A is want, B is probability",
+      "tokens": [
+        50363,
+        317,
+        318,
+        765,
+        11,
+        347,
+        318,
+        12867,
+        50681
+      ],
+      "avg_logprob": -0.9291639804840088,
+      "compression_ratio": 0.84375,
+      "no_speech_prob": 0.3929564952850342,
+      "words": [
+        {
+          "start": 204.94,
+          "end": 205.96,
+          "word": " A",
+          "probability": 0.2064724713563919
+        },
+        {
+          "start": 205.96,
+          "end": 206.28,
+          "word": " is",
+          "probability": 0.2429700791835785
+        },
+        {
+          "start": 206.28,
+          "end": 206.88,
+          "word": " want,",
+          "probability": 0.6970201134681702
+        },
+        {
+          "start": 208.1,
+          "end": 208.32,
+          "word": " B",
+          "probability": 0.3398876488208771
+        },
+        {
+          "start": 208.32,
+          "end": 208.66,
+          "word": " is",
+          "probability": 0.3134002387523651
+        },
+        {
+          "start": 208.66,
+          "end": 209.22,
+          "word": " probability",
+          "probability": 0.9589642882347107
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

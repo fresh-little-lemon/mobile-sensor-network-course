@@ -1,0 +1,23 @@
+[00:56:45.000 --> 00:56:59.660] here is 1 over the contention window plus 1. Now if you are able to follow
+[00:56:59.660 --> 00:57:14.980] the computation grade, it's a simple probability computation, but if your
+[00:57:14.980 --> 00:57:24.440] anywhere in your previous courses, do not worry. The important thing is that you
+[00:57:24.440 --> 00:57:31.440] retain the final message. The final message is, in our simple example
+[00:57:31.440 --> 00:57:39.960] that we are considering, the probability that V and C collide while
+[00:57:39.960 --> 00:57:51.040] performing the Pecov procedure is equal to this ratio, that clearly will
+[00:57:51.760 --> 00:58:02.360] decrease as the value of contention window minimum increases, the
+[00:58:02.360 --> 00:58:10.160] larger the contention window, the lower this ratio, so the lower the collision
+[00:58:10.160 --> 00:58:21.420] probability. This is something that everybody can understand. Okay now so this means that okay this refers
+[00:58:21.420 --> 00:58:28.040] as I said to the previous simple example but it's a general rule the
+[00:58:28.040 --> 00:58:38.780] collision probability in the cuff procedure decreases as the value of
+[00:58:38.780 --> 00:58:52.900] contraction window increases. So now what does this tell you? Why am I
+[00:58:52.900 --> 00:58:59.580] marking this and making this second observation because remember we wanted
+[00:58:59.580 --> 00:59:08.000] to understand the reason why in Wi-Fi we say every time we perform the BECAF
+[00:59:08.000 --> 00:59:15.940] procedure for a given data packet we roughly speaking double the
+[00:59:15.940 --> 00:59:24.660] content showing. So we increase it very significantly every time. Why do we do
+[00:59:24.660 --> 00:59:34.880] that? To reduce the probability of collision among contented nodes. So
+[00:59:34.880 --> 00:59:43.120] Bekoff is a probabilistic mechanism and essentially Wi-Fi assumes
+[00:59:43.120 --> 00:59:50.760] that the reason why a transmitter is failing, failing, failing is because there are too
+[00:59:50.760 --> 00:59:57.840] many nodes in the network that try to access the channel to transmit a packet, the
+[00:59:57.840 --> 01:00:04.920] situation is too crowded so what Wi-Fi says is if you fail, every time
+[01:00:04.920 --> 01:00:11.840] you fail means that there are other nodes trying and you are selecting the
+[01:00:11.840 --> 01:00:14.840] same because you have the same because time

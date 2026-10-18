@@ -1,0 +1,16 @@
+[00:53:45.000 --> 00:53:59.240] to any event. So that is, we need to consider all possible values of integer from 0 to c w min
+[00:54:02.040 --> 00:54:11.880] and for any n we know that the probability of collision is what?
+[00:54:11.880 --> 00:54:24.660] the probability that C draws N if also B has drawn N, right? So let's first write the probability
+[00:54:24.660 --> 00:54:35.560] that B draws N, the probability that B draws N is again this one, so we can write 1 over C
+[00:54:35.640 --> 00:54:49.400] w min plus 1, this is the probability that B draws n and then given that we
+[00:54:49.400 --> 00:54:56.960] know that the collision happens if C also draws n, that happens with this
+[00:54:56.960 --> 00:55:12.460] probability. So we multiply by again 1 over cw min plus 1 which is the probability that c grows n.
+[00:55:12.460 --> 00:55:31.380] so what we have is simply sum over n that goes from 0 to cw min of 1 over cw min plus 1
+[00:55:33.280 --> 00:55:46.320] squared. Now this is a constant term, we are inside a sum, so we are summing
+[00:55:46.320 --> 00:55:57.940] this constant term how many times? cw min plus one times. So this is equal
+[00:55:57.940 --> 00:56:20.720] 2 CW min plus 1 divided by CW min plus 1 squared, we simplify numerator and denominator and we
+[00:56:20.720 --> 00:56:36.180] 1 over C W min plus 1. So the final result of all these computations is that
+[00:56:36.180 --> 00:56:44.720] the probability that B and C collide in our simple example that we presented
+[00:56:44.720 --> 00:56:59.700] earlier, is 1 over the contention window plus 1. Now if you were able to follow
+[00:56:59.700 --> 00:57:14.480] the computation grade, it's a simple probability computation, but if your
+[00:57:14.480 --> 00:57:14.780] ability.

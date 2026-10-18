@@ -1,0 +1,18 @@
+[00:50:45.000 --> 00:51:02.640] B drew N, so this is the so-called conditioned property. Now remember our scheme is actually very
+[00:51:02.640 --> 00:51:13.040] simple because it's distributed and as we said every node makes its own decisions according to
+[00:51:13.040 --> 00:51:20.060] protocol rules but it makes its own decisions independently from the others
+[00:51:20.060 --> 00:51:31.060] right so the fact that B drew N will not affect the probability the C draws N
+[00:51:31.060 --> 00:51:39.360] C does whatever it likes based on what decisions it makes following the
+[00:51:39.360 --> 00:51:50.180] but it's not affected by what other nodes do. So this is actually equal to
+[00:51:51.360 --> 00:52:13.940] the probability that C draws N, simply that, because it doesn't matter what B does, C will
+[00:52:13.940 --> 00:52:22.320] do things by themselves. Okay, so what is the probability that C draws N? So what is the
+[00:52:22.320 --> 00:52:33.400] probability that an integer is selected out of the range 0, C, W, N? Well, we have
+[00:52:33.400 --> 00:52:42.860] written that here right this is the probability okay so now we know that
+[00:52:44.600 --> 00:52:54.200] given that b has drawn n the probability that c will also draw n is this one
+[00:52:56.260 --> 00:53:05.780] So condition to the fact that B drew N, then this is the collision probability
+[00:53:05.780 --> 00:53:17.040] condition to the fact that B drew N. What we need to do is to now to compute the
+[00:53:17.040 --> 00:53:28.720] probability is to decondition and make the computation for any possible n. So
+[00:53:28.720 --> 00:53:42.080] what we want to now do is to compute in general the probability that B and C
+[00:53:42.080 --> 00:53:53.260] collide without conditioning to any event. So that is, we need to consider all possible
+[00:53:53.260 --> 00:54:09.940] values of integer from 0 to cwmin and for any n we know that the probability of collision
+[00:54:09.940 --> 00:54:14.220] A is want, B is probability
