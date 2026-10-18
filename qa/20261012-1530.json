@@ -1,0 +1,22 @@
+{
+  "recording_id": "20261012-1530",
+  "source_block_count": 49,
+  "displayed_paragraph_count": 44,
+  "false_boundary_merges": 5,
+  "all_source_blocks_once_in_original_order": true,
+  "full_text_read_complete": true,
+  "full_text_review_method": "Read all 49 original speech blocks and all 25 independent ASR windows plus the final 90-second tail; context-based editorial reconciliation, not manual audio listening",
+  "independent_asr_complete": true,
+  "main_asr_chunks": 25,
+  "independent_final_tail_complete": true,
+  "audio_duration_seconds": 2718.7548125,
+  "raw_remote_verified_files": 27,
+  "raw_commit": "85887d7752bb3bcc1805878a5adf154fc3f2f9e0",
+  "raw_publication_verification": "Parent confirmed raw publication and readback before this editorial assignment",
+  "uncertainty_retained": true,
+  "bilingual_complete": true,
+  "edited_english_source_blocks": 49,
+  "original_text_sha256": "76a0fbc31f7c74a0501fda93ab75b93300aa4e74068e14d2c71ac1e22cf2fbca",
+  "speech_sha256": "6690f6160fa15dffa3bbaf554619bac493f8ff00f2752e7f27e7cd84559d1466",
+  "updated_at": "2026-10-18T03:44:35.555335+00:00"
+}
