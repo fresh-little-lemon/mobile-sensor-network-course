@@ -1,0 +1,1324 @@
+[
+  {
+    "paragraph": 1,
+    "original_indices_zero_based": [
+      0
+    ],
+    "original_blocks_one_based": [
+      1
+    ],
+    "time_anchor": "00:00:20",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1d35efebfd903911ad43d69e181d9ff02cc8e576d380ff44dbb7b1e8625ab9bd"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 2,
+    "original_indices_zero_based": [
+      1
+    ],
+    "original_blocks_one_based": [
+      2
+    ],
+    "time_anchor": "00:01:02",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "91867c0d7ab3df53ba22185bc118b48119e059f249c61a5a4457414404aab68e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0,
+      1
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 3,
+    "original_indices_zero_based": [
+      2,
+      3
+    ],
+    "original_blocks_one_based": [
+      3,
+      4
+    ],
+    "time_anchor": "00:01:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b4e6387441d5a6c14b33155e2798a93ede98f2cd253c4c117430861b7c76b7de",
+      "fe78da9cb18f2d6da4ce568b339f4ee8ac9592bed762e339e87735abc8063c65"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 4,
+    "original_indices_zero_based": [
+      4,
+      5
+    ],
+    "original_blocks_one_based": [
+      5,
+      6
+    ],
+    "time_anchor": "00:05:32",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f8306c2fb0d122b3e69cf65128036218798b79dba3ae90f406169feb52b6afea",
+      "ae90639474fb5f888bd09fe0d99efdea5c47339ebcf86520dcbb0891bfc58bf2"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      2,
+      3
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 5,
+    "original_indices_zero_based": [
+      6
+    ],
+    "original_blocks_one_based": [
+      7
+    ],
+    "time_anchor": "00:06:12",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8837b01f964e69bef09b63a149476d029caf4556074702f991664e3fa9c51a98"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      3,
+      4
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 6,
+    "original_indices_zero_based": [
+      7,
+      8,
+      9
+    ],
+    "original_blocks_one_based": [
+      8,
+      9,
+      10
+    ],
+    "time_anchor": "00:07:49",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "bf743cd18ced1e5310d09094b2a8541bff30a04ec9996874149d114268431ed8",
+      "ceaf457b487f0dd30ede9b3fad59d0586f075bc880d9d733b64cac0516c8ad71",
+      "d772d144820b0b98f9e488317a00087aea432ac6c8d69602a0125fe207cb18fb"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      4,
+      5
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 7,
+    "original_indices_zero_based": [
+      10
+    ],
+    "original_blocks_one_based": [
+      11
+    ],
+    "time_anchor": "00:10:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e0cd8cc7627aa6b155348e219da2157c8fed14b2ec301b9bd2e391e3b9e9fc36"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      5,
+      6
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 8,
+    "original_indices_zero_based": [
+      11
+    ],
+    "original_blocks_one_based": [
+      12
+    ],
+    "time_anchor": "00:11:20",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5d48699f98f05befc5f3b43ef40accc7f4cd7ef7ed0618f822f3a544a6e91d97"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      6
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 9,
+    "original_indices_zero_based": [
+      12
+    ],
+    "original_blocks_one_based": [
+      13
+    ],
+    "time_anchor": "00:11:42",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e688bb62aa222c24ddf2143b6b9c24893228843a32edd0293facc1facaeaf573"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      6
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 10,
+    "original_indices_zero_based": [
+      13,
+      14
+    ],
+    "original_blocks_one_based": [
+      14,
+      15
+    ],
+    "time_anchor": "00:12:05",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4bc30e26a95be04e98ade79aaf258c1d8df152f4cc35ad197a22f97cbb4d7d7f",
+      "d735ba035ab5369810e8797cd2ed3737ec11c581db18b27ff1bdcc2f23ddf544"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      6,
+      7
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 11,
+    "original_indices_zero_based": [
+      15
+    ],
+    "original_blocks_one_based": [
+      16
+    ],
+    "time_anchor": "00:13:17",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ee5306e8543da0cb77c2027af66445652b329698030e44107f6f0b75d273f87e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      7
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 12,
+    "original_indices_zero_based": [
+      16
+    ],
+    "original_blocks_one_based": [
+      17
+    ],
+    "time_anchor": "00:13:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7d3e21e02e42139882f7a9953b6b8c29b23227a24b046baadf61cd55e9d32405"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      7
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 13,
+    "original_indices_zero_based": [
+      17,
+      18
+    ],
+    "original_blocks_one_based": [
+      18,
+      19
+    ],
+    "time_anchor": "00:14:30",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c12e041dcddd8f85fb54cc32602cc8628ef1dd16bdc0bbe27865b0bce28b861c",
+      "4e4ac77563c6e051ee17ba4a2b9932842e2a60ee5722d135aba402af0660e383"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      7,
+      8,
+      9
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 14,
+    "original_indices_zero_based": [
+      19,
+      20
+    ],
+    "original_blocks_one_based": [
+      20,
+      21
+    ],
+    "time_anchor": "00:16:45",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "2aeb14697310c457ca263d059e84ef32d0ee069c2fd1f903c548854111a3119c",
+      "4e36d7a0d0690a90f102731441e82a80f7043c852d8550d7a1eb025f768bc7b1"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      9,
+      10
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 15,
+    "original_indices_zero_based": [
+      21
+    ],
+    "original_blocks_one_based": [
+      22
+    ],
+    "time_anchor": "00:19:09",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "795afa99636fdaacdd2522901600934873067d1705045becbf08d772f9147fb8"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 16,
+    "original_indices_zero_based": [
+      22,
+      23
+    ],
+    "original_blocks_one_based": [
+      23,
+      24
+    ],
+    "time_anchor": "00:20:03",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "dd989ea0565c8bbf8f443a165431624d35e610818753f9694a5390b9bb9380d5",
+      "05e11367598a3b8412d40e65983beeeb6f47df0481ccbe8e807ee26b6d8978de"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10,
+      11
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 17,
+    "original_indices_zero_based": [
+      24
+    ],
+    "original_blocks_one_based": [
+      25
+    ],
+    "time_anchor": "00:21:10",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f73b14b734346f237084a944eb767480282ec51bcecb8166bb94ddb7f53ab742"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      11
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 18,
+    "original_indices_zero_based": [
+      25
+    ],
+    "original_blocks_one_based": [
+      26
+    ],
+    "time_anchor": "00:21:39",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "3f02e4e64a0fcad707eebf2721f0faf15c404768aaa2b8cdb204fc1944fbeee7"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      11,
+      12
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 19,
+    "original_indices_zero_based": [
+      26,
+      27,
+      28
+    ],
+    "original_blocks_one_based": [
+      27,
+      28,
+      29
+    ],
+    "time_anchor": "00:22:10",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "94ccb0f788c4be7f0f01aff10d787c75b61e457a16ae4e00520338f4dc24057e",
+      "50932667aa51e92c8fa8b50ceef8c38c90a65a940cc3ad2eb0af5be9c3b61783",
+      "b1521924f4a77a47356c4fb45a80bd54930baf98552f4a560d48a1c230ac5d9f"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      12,
+      13
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 20,
+    "original_indices_zero_based": [
+      29
+    ],
+    "original_blocks_one_based": [
+      30
+    ],
+    "time_anchor": "00:24:57",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "bac5ed53868abd5ac8b9c7a10847e978b9e701a46684b6a20bef0fd61b3ecc1c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      13,
+      14
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 21,
+    "original_indices_zero_based": [
+      30
+    ],
+    "original_blocks_one_based": [
+      31
+    ],
+    "time_anchor": "00:25:49",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "eb6b8564ca60c16b4dae50326ab3ebb23bd49a48390b598eef022eb2e40c902e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      13,
+      14,
+      15
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 22,
+    "original_indices_zero_based": [
+      31,
+      32
+    ],
+    "original_blocks_one_based": [
+      32,
+      33
+    ],
+    "time_anchor": "00:29:09",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "16e0d2047e588145edfabe1876bd93475f518c243abab1902e46052971fbd04c",
+      "a1d2da2d443169fa71e45ed293559e371be703314736d1ec8d8cb78bc6caf678"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      15,
+      16
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 23,
+    "original_indices_zero_based": [
+      33,
+      34,
+      35
+    ],
+    "original_blocks_one_based": [
+      34,
+      35,
+      36
+    ],
+    "time_anchor": "00:30:58",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "6b4171ca4d4e623081f9871b0ccbf9f0b93c262830bbac0a77f454b8d00846fd",
+      "2769c7e3322631793483ecd93e0e63380dbb8313308a15a53e4435253a6a2b31",
+      "e90906ad4c22b587a5be569e14cd1053fa776efc1d55aee3c087e88133b1fc4d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      16,
+      17,
+      18
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 24,
+    "original_indices_zero_based": [
+      36
+    ],
+    "original_blocks_one_based": [
+      37
+    ],
+    "time_anchor": "00:33:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fdc91bf941630e22e026a718e412d1d07035ae2141daafe02cf3588c729874ea"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      18
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 25,
+    "original_indices_zero_based": [
+      37
+    ],
+    "original_blocks_one_based": [
+      38
+    ],
+    "time_anchor": "00:34:10",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4c92c9046c275637cf1f759d22ea0b507d8ab5dae3f916d008eba958716b544d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      18,
+      19
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 26,
+    "original_indices_zero_based": [
+      38
+    ],
+    "original_blocks_one_based": [
+      39
+    ],
+    "time_anchor": "00:35:04",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "986802054ab1440142ad0cb951e9d58d06b55cd800ca3577735b3bcd7e9ff17c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      19
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 27,
+    "original_indices_zero_based": [
+      39,
+      40,
+      41
+    ],
+    "original_blocks_one_based": [
+      40,
+      41,
+      42
+    ],
+    "time_anchor": "00:35:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "0635cfbec03584601d99ee48d73beb306571d67d8d043d21a5446ef8c59623b6",
+      "deafa151b233533d7cc17fbc426b61481389be14ade5a956bb54713324b28184",
+      "0466dc7346a2ba350e0c1bfef7130e4b8da9e17e69a48e47b102c23524552748"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      19,
+      20
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 28,
+    "original_indices_zero_based": [
+      42
+    ],
+    "original_blocks_one_based": [
+      43
+    ],
+    "time_anchor": "00:38:15",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "57539e6e3469010ae577c247d3a07ce9445fec315d205adbe22eb71050b0052b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      20,
+      21
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 29,
+    "original_indices_zero_based": [
+      43,
+      44
+    ],
+    "original_blocks_one_based": [
+      44,
+      45
+    ],
+    "time_anchor": "00:38:48",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "cf2515874dce11d8179bf9e927d92e3959b0ccde1ad48d013543e48303aa56b0",
+      "7ed2b0b288fafae826a0955121ee47853cda666e9face2505ca2241a9b0c2304"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      21,
+      22
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 30,
+    "original_indices_zero_based": [
+      45
+    ],
+    "original_blocks_one_based": [
+      46
+    ],
+    "time_anchor": "00:40:23",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c03474d4b35d22357b7e6c71f26eeb28bc8f5a50c08775f4eecaa697a97169cc"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      21,
+      22
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 31,
+    "original_indices_zero_based": [
+      46
+    ],
+    "original_blocks_one_based": [
+      47
+    ],
+    "time_anchor": "00:41:39",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "50ef98d8bf28f9e369fa912880f8bb09e0c066ba587fd93c79374ff51ed9cdc6"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      22,
+      23
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 32,
+    "original_indices_zero_based": [
+      47
+    ],
+    "original_blocks_one_based": [
+      48
+    ],
+    "time_anchor": "00:42:11",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "bd3fc945177af8e332d9c0fdc736b3c4823a538239ac9084931027fc19571deb"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      22,
+      23
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 33,
+    "original_indices_zero_based": [
+      48
+    ],
+    "original_blocks_one_based": [
+      49
+    ],
+    "time_anchor": "00:43:29",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "53cb81bceb71dd76b183ad037f70cdba98045d81988257ccfdf41fb37a1f73a6"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      23,
+      24
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 34,
+    "original_indices_zero_based": [
+      49,
+      50
+    ],
+    "original_blocks_one_based": [
+      50,
+      51
+    ],
+    "time_anchor": "00:44:25",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "961d22027f3952bb636c8cc49ddc70598c4a0fa23630deb0b934c49de13c6933",
+      "920b315f0fed6bba076cd6ffc9e8deca2736f9a0e04854e7ae26984dc08901ac"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      24
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 35,
+    "original_indices_zero_based": [
+      51
+    ],
+    "original_blocks_one_based": [
+      52
+    ],
+    "time_anchor": "00:45:43",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "80424bf728c02fe247677b2efa31bab28ac05833dbc9de08801dbbf47dc4a5b4"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      24,
+      25
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 36,
+    "original_indices_zero_based": [
+      52,
+      53
+    ],
+    "original_blocks_one_based": [
+      53,
+      54
+    ],
+    "time_anchor": "00:46:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "51b77b3af2a23fdfb1b686acb7c0b3006c999652aff3b290fdb7ead6156ce257",
+      "216c26bfeeddd45b634cfef46e4ed4d42aba7530b70f2c9f685cc2f8039c02b3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      25,
+      26
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 37,
+    "original_indices_zero_based": [
+      54,
+      55
+    ],
+    "original_blocks_one_based": [
+      55,
+      56
+    ],
+    "time_anchor": "00:48:20",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "95b1e5315bc130dafd4d766ffe48b2f7318ea449a7ac1d1b6db97bb003e81bb9",
+      "9bae107003e1f2562c8828af13bd0190773f2d024891bb2b6fea7f9357709a71"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      26
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 38,
+    "original_indices_zero_based": [
+      56
+    ],
+    "original_blocks_one_based": [
+      57
+    ],
+    "time_anchor": "00:49:17",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "eabcf9ec25a647b6e83d0c1b5d5eddef81a834bff2542bbb8ccab8ea4a6a24d9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      26,
+      27
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 39,
+    "original_indices_zero_based": [
+      57
+    ],
+    "original_blocks_one_based": [
+      58
+    ],
+    "time_anchor": "00:49:54",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "cd3b0a0121d4b933a93bbb2a1c772b917d73c8dec2a87179156d5e80e1de9575"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 40,
+    "original_indices_zero_based": [
+      58
+    ],
+    "original_blocks_one_based": [
+      59
+    ],
+    "time_anchor": "00:55:41",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "811c84ce5605030ae90366f31e4112f598e9b6e09a25941722063f0743a10ea2"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      30,
+      31
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 41,
+    "original_indices_zero_based": [
+      59,
+      60,
+      61
+    ],
+    "original_blocks_one_based": [
+      60,
+      61,
+      62
+    ],
+    "time_anchor": "00:57:19",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1693e1066ed655ae2e19c715716a45c0d608c1ebb9111638e1e5585aa1ec678d",
+      "768fca92f27cea758fc8671638defcc021143ca0e37890d82011794265256d94",
+      "534ed76e00fcce98add7e6087a909a2bc959bb609a6bbc6ae372f63d04a9d36e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      31,
+      32
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 42,
+    "original_indices_zero_based": [
+      62,
+      63
+    ],
+    "original_blocks_one_based": [
+      63,
+      64
+    ],
+    "time_anchor": "00:59:30",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "246ab98cdec6b4e87e8f08d466f3d31f9f2516b4a7392c8ec225b29594fc748f",
+      "12121f93fb28ff33d0d6b1182fdae6649514594a3ce82451b6e9d82ce9337d30"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32,
+      33
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 43,
+    "original_indices_zero_based": [
+      64
+    ],
+    "original_blocks_one_based": [
+      65
+    ],
+    "time_anchor": "01:00:33",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8b577c3aad08be8eac49beb2db9ca8b17a2728ee9dd1971b6abf4f1ed5941e5c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32,
+      33
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 44,
+    "original_indices_zero_based": [
+      65,
+      66,
+      67
+    ],
+    "original_blocks_one_based": [
+      66,
+      67,
+      68
+    ],
+    "time_anchor": "01:00:56",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "531fce0d55b3009a790a5372624897d82ff495b26a1b38a5a8e7f65ba0a548eb",
+      "cb302f645daf41d31dab4536a857ed3d7ea078be96319f79c2d57ec688fe382e",
+      "5c90a79a1856a4371de45ce632d57ef84fdabb184f3767416cc3f75c762ea6ff"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 45,
+    "original_indices_zero_based": [
+      68
+    ],
+    "original_blocks_one_based": [
+      69
+    ],
+    "time_anchor": "01:02:13",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "56ca1808218bf693abb9c157f48643e063b4ea2e41b67c307d53252199b28b45"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33,
+      34
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 46,
+    "original_indices_zero_based": [
+      69,
+      70
+    ],
+    "original_blocks_one_based": [
+      70,
+      71
+    ],
+    "time_anchor": "01:02:49",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "293ed25492e01f168901f131ef0b773b2b6e4a1ee065f598e80bb7fba242e435",
+      "960a156dd94383780a64824800e1e89e158dc57aee5dca0fe5a7b45ad438aeae"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      34,
+      35
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 47,
+    "original_indices_zero_based": [
+      71
+    ],
+    "original_blocks_one_based": [
+      72
+    ],
+    "time_anchor": "01:04:33",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "77ce496af8b773d82a95d7803b7c2da2c7d55d74fc95d04e4f1b343b8cf29dc1"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      35
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 48,
+    "original_indices_zero_based": [
+      72
+    ],
+    "original_blocks_one_based": [
+      73
+    ],
+    "time_anchor": "01:05:29",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ba2621161c8ec3fd2e51e202989bcc64110d1c89df08621f2605254983ff4d9f"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      35
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 49,
+    "original_indices_zero_based": [
+      73
+    ],
+    "original_blocks_one_based": [
+      74
+    ],
+    "time_anchor": "01:05:46",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7adb7e381d14638b47722b437a0ed6546bb0fb06d42b4ddda72a12e6e4e4573e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      35,
+      36
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 50,
+    "original_indices_zero_based": [
+      74,
+      75
+    ],
+    "original_blocks_one_based": [
+      75,
+      76
+    ],
+    "time_anchor": "01:07:05",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fc6f86ad5ab5dd65c5006653aa415e8cee21c5c3b889796b855d9d87fecdbb3c",
+      "915b7c5364b92e4e6c134e2fdccfacd3d1c22aed39e52ea39453dbd5bdb8ed44"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      36,
+      37
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 51,
+    "original_indices_zero_based": [
+      76,
+      77
+    ],
+    "original_blocks_one_based": [
+      77,
+      78
+    ],
+    "time_anchor": "01:08:48",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "995ef767d7745d02d99d126724a929dbaf6defacf5fb7dbda5c5ca2e334423be",
+      "3c4eb520b8107f7ce65910d7087dfdb6eba2bf0d7c73c4837f4f826d8c5c2c9e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 52,
+    "original_indices_zero_based": [
+      78
+    ],
+    "original_blocks_one_based": [
+      79
+    ],
+    "time_anchor": "01:20:25",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "daecc689b16fa7ee485e2eb2d0f32213008cd47a1f06589c25fac2476c5fbbe5"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      43,
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 53,
+    "original_indices_zero_based": [
+      79
+    ],
+    "original_blocks_one_based": [
+      80
+    ],
+    "time_anchor": "01:20:53",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "73ffe49ebdf37a75189e7fbc7368b94569c2558819bbd901f9079a9aea6ac2bf"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 54,
+    "original_indices_zero_based": [
+      80
+    ],
+    "original_blocks_one_based": [
+      81
+    ],
+    "time_anchor": "01:21:09",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d3afb3cf54c591cdf1a6831edb0636fd433f89bafc49168eadbe63d8ab44aea2"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 55,
+    "original_indices_zero_based": [
+      81
+    ],
+    "original_blocks_one_based": [
+      82
+    ],
+    "time_anchor": "01:21:33",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "56b47486ec47e0dc6a7074f4c4502473157fa64f37af25d24c7d6cdd6c46c183"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 56,
+    "original_indices_zero_based": [
+      82
+    ],
+    "original_blocks_one_based": [
+      83
+    ],
+    "time_anchor": "01:22:06",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b7b95af9d99aee3afdddf3296b3b23a80845ce22c5d6e047fc9df6b18238030c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44,
+      45
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 57,
+    "original_indices_zero_based": [
+      83,
+      84
+    ],
+    "original_blocks_one_based": [
+      84,
+      85
+    ],
+    "time_anchor": "01:22:45",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "016151e56bc38d297c5038d76a523b4fd2da878e8af8ab1aac3c5dfd65dcf412",
+      "c78612b1f2c7ac112e562e95cc9d8c5d0bfa8f7266d5b4a0f41c7d43a3c927cd"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 58,
+    "original_indices_zero_based": [
+      85
+    ],
+    "original_blocks_one_based": [
+      86
+    ],
+    "time_anchor": "01:24:09",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "41427d61566230130004eacb39785f8f47ec3a85b54adfb8746b9ae858c913cb"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45,
+      46
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 59,
+    "original_indices_zero_based": [
+      86,
+      87,
+      88
+    ],
+    "original_blocks_one_based": [
+      87,
+      88,
+      89
+    ],
+    "time_anchor": "01:25:03",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f362805f63a604e9f03c03858e6664f6885d1a0d204758db45e4e05f7452f238",
+      "62f0cf921a03dbad9d6cd5937d4cdb48283a446a0896f4999dbb70c99f5f4f77",
+      "b956a1a8f7c3a00974dab24f79cfe9021221d0f62fd256137b0a17208c51852b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      46,
+      47
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 60,
+    "original_indices_zero_based": [
+      89
+    ],
+    "original_blocks_one_based": [
+      90
+    ],
+    "time_anchor": "01:26:35",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "6f3bad141f675a014cd74fec7dcf1dd4dade554a5127bc180aecba0a811310a4"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      47,
+      48
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 61,
+    "original_indices_zero_based": [
+      90,
+      91,
+      92,
+      93
+    ],
+    "original_blocks_one_based": [
+      91,
+      92,
+      93,
+      94
+    ],
+    "time_anchor": "01:29:46",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d103e9d8558a8e7b8ce38b8490f28b5be450c846c8edb4a391020dc8da4e07de",
+      "eba11598872988ade35277d94d4353e3e629851c2d0fbf2e53502c2f5a29f8cc",
+      "96bf2d9caaa101bd587f00f8937311774f7d24c3cdc0ec7b2b06d8f5c6b423c0",
+      "f3ec7f588bec19cf98137e367a2b8a7ec8d4ee42cd05f464b6a2ecbd4409d0ff"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      48,
+      49
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 62,
+    "original_indices_zero_based": [
+      94
+    ],
+    "original_blocks_one_based": [
+      95
+    ],
+    "time_anchor": "01:31:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "20d14ca4eba6b9b88e3ee7d400a3d39f83e3f3dc50e10289c859e170dc916bc3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      49,
+      50
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 63,
+    "original_indices_zero_based": [
+      95,
+      96,
+      97,
+      98
+    ],
+    "original_blocks_one_based": [
+      96,
+      97,
+      98,
+      99
+    ],
+    "time_anchor": "01:32:43",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "3c73e6a503ceafcb1eac3e2a62dfd30834e51e3fdee073c744e53910eabb03e3",
+      "03bca418dd55a7aab3c3b3c3fdbf543655bd46a61d1d39f3a45c6f2024a75360",
+      "ddeed0a0c6bdc8d67bd3f520fb84e2a9cedb72bfd98ab76ce64714d9c7e28e55",
+      "e48e681b0740fc5252e82129273fc3971fb3183a5dbb4ad0f1c7a620cb2ebc56"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      50,
+      51,
+      52
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 64,
+    "original_indices_zero_based": [
+      99,
+      100
+    ],
+    "original_blocks_one_based": [
+      100,
+      101
+    ],
+    "time_anchor": "01:35:24",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8de5de09160e79debd49a7ed0e770b4d75e068b25bcc799a89e7ad6d2945ca18",
+      "dd5d90cf6faca248b194c7a23c05c7816c4099b9acae4500b6ce6625f7a7fb03"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      51,
+      52
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. A locator can include a break or exercise interval and does not certify every ASR word as reliable speech."
+  }
+]
