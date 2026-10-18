@@ -1,0 +1,21 @@
+[00:09:10.000 --> 00:09:19.440] at the same time. But one more thing that we need to say important about the
+[00:09:19.440 --> 00:09:30.580] buckles is that the buckles procedure of course it is performed as we said when
+[00:09:30.580 --> 00:09:38.000] And we have essentially a packet that has been transmitted
+[00:09:38.780 --> 00:09:39.740] and it failed.
+[00:09:40.580 --> 00:09:44.520] So we need to recontend for the channel and trust
+[00:09:44.520 --> 00:09:45.620] in the packet again.
+[00:09:46.060 --> 00:09:48.960] This is the phase that we have considered so far,
+[00:09:49.780 --> 00:09:53.140] under which we need to perform the become.
+[00:09:54.220 --> 00:10:03.640] However, there are two more situations under which we need to perform a bit of procedure,
+[00:10:05.180 --> 00:10:10.580] exactly as we explained, the same procedure that we just explained.
+[00:10:13.220 --> 00:10:26.440] This procedure, indeed, needs to be performed also one end note, a prospector, has got a
+[00:10:26.440 --> 00:10:35.900] pocket to trust me, he senses the channel, but the channel is busy, right?
+[00:10:35.900 --> 00:10:49.480] So we already know that in this case, we cannot access the channel right away because of the carrier sensing multiple access principle, right?
+[00:10:50.120 --> 00:10:54.540] So if we sense the channel, we got the pocket from the higher layers.
+[00:10:55.260 --> 00:11:03.420] At the monthly layer, we sense the channel for this, but the channel is this.
+[00:11:05.120 --> 00:11:14.120] So what we knew so far is that in this case, we cannot access the channel, right, because
+[00:11:14.120 --> 00:11:20.200] the channel is busy, we are like polite people, we don't want to interact with someone who
+[00:11:20.200 --> 00:11:22.400] is talking already, so we wait.
+[00:11:25.380 --> 00:11:31.460] We wait, that's what we said, but now we need to be more precise.
+[00:11:31.460 --> 00:11:42.220] size. What do we mean exactly that we need to wait? Or how long? Well, in reality also
+[00:11:42.220 --> 00:11:49.480] in this case, what we need to do is to apply the Bechhoff procedure.

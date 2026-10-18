@@ -1,0 +1,77 @@
+{
+  "course": "20261012-1331",
+  "target_section": "09",
+  "original_start_label": "00:09:40",
+  "source_audio": {
+    "filename": "20261012-1331.m4a",
+    "sha256": "b710201745efeb5071757d4e3b086ce30937f038bbe1bbe6ae18bd74aa7239ff",
+    "bytes": 139451685,
+    "duration_seconds": 5622.281333
+  },
+  "window": {
+    "absolute_start_seconds": 550,
+    "absolute_end_seconds": 710,
+    "sample_rate_hz": 16000,
+    "channels": 1,
+    "format": "PCM signed 16-bit WAV",
+    "sha256": "2c0c982ddba76c71f2c87caace541949afe560e69f05c799dedbc2c4b70232cf"
+  },
+  "status": "Two real independent unprompted ASR runs completed; textual comparison in progress; no auditory verification; no remote document edit",
+  "runs": [
+    {
+      "model": {
+        "repo": "Systran/faster-whisper-base.en",
+        "revision": "3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+        "requested_model": "base.en"
+      },
+      "raw_json_filename": "base.en-unprompted.raw.json",
+      "raw_json_sha256": "0d24a7463f7e767ad36eb64b0705b7aedbdc96b41d306ac984f9e7f5e4dd94e3",
+      "parameters": {
+        "language": "en",
+        "beam_size": 5,
+        "temperature": 0.0,
+        "initial_prompt": null,
+        "condition_on_previous_text": false,
+        "vad_filter": false,
+        "word_timestamps": true
+      },
+      "runtime": {
+        "faster_whisper": "1.2.1",
+        "ctranslate2": "4.8.3",
+        "python": "3.12.14",
+        "device": "cpu",
+        "compute_type": "int8",
+        "cpu_threads": 4
+      },
+      "elapsed_seconds": 7.001637968998693
+    },
+    {
+      "model": {
+        "repo": "Systran/faster-whisper-small.en",
+        "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+        "requested_model": "small.en"
+      },
+      "raw_json_filename": "small.en-unprompted.raw.json",
+      "raw_json_sha256": "751dbaecdc1a7a64d35c17f7f42a54e9c40913cbb401b8a5b3ad6793e05f5c0d",
+      "parameters": {
+        "language": "en",
+        "beam_size": 5,
+        "temperature": 0.0,
+        "initial_prompt": null,
+        "condition_on_previous_text": false,
+        "vad_filter": false,
+        "word_timestamps": true
+      },
+      "runtime": {
+        "faster_whisper": "1.2.1",
+        "ctranslate2": "4.8.3",
+        "python": "3.12.14",
+        "device": "cpu",
+        "compute_type": "int8",
+        "cpu_threads": 4
+      },
+      "elapsed_seconds": 17.26600869399772
+    }
+  ],
+  "note": "Model word probabilities are decoder scores, not calibrated probabilities of transcript correctness. Both runs use the Whisper family and are not independent architecture checks."
+}
