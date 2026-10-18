@@ -1,0 +1,926 @@
+{
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/LN0Xdi9daou8cFxTeT8cSCsbnnh",
+  "expected_pairs": 76,
+  "captured_pairs": 76,
+  "operation": "Insert native H1/H2 blocks before existing paragraph blocks; do not replace or rewrite bilingual paragraph text. Match exact timestamp plus speaker and text prefix, then verify whole text hash where API representation permits.",
+  "capture_audit": {
+    "missing_pairs_detected": 0,
+    "special_speaker": "00:45:56 uses 2、1（合并段）, not numeric-only speaker pattern",
+    "limitations": "Visible DOM capture covers all 76 claimed pairs. This verifies count and captured text, not fidelity against original recording. Virtual-scroll screenshots repeat paragraphs; deduplicated by timestamp, retaining longest occurrence. No original API block IDs are available.",
+    "preserve_uncertainty": "Keep ［数字不清楚］ at 01:34:32; do not fill it from slides. Keep lecturer corrections and project discussion verbatim.",
+    "duplicate_text_variants": 0
+  },
+  "slide_placements": [
+    {
+      "figure": 41,
+      "pdf_page": 21,
+      "half": "upper",
+      "current_after": "00:09:31",
+      "proposed": "after heading 00:07:25, before its original paragraph",
+      "verified_title": "Solving It: Explicit Channel Reservation"
+    },
+    {
+      "figure": 42,
+      "pdf_page": 21,
+      "half": "lower",
+      "current_after": "00:10:56",
+      "proposed": "keep after original paragraph 00:10:56",
+      "verified_title": "DCF with Handshaking: Full RTS/CTS Exchange"
+    },
+    {
+      "figure": 43,
+      "pdf_page": 22,
+      "half": "upper",
+      "current_after": "00:24:30",
+      "proposed": "after heading 00:23:56, before its original paragraph",
+      "verified_title": "RTS/CTS Resolves the Hidden-Terminal Problem",
+      "caption_note": "原课件图保留旧标号；按课堂00:22:37及00:52:16的更正，从左到右对应A、接入点1、B、接入点2。A和B均关联接入点1；接入点2是附近的同频接入点。原图未包含01:06:17之后临时加入的节点C。"
+    },
+    {
+      "figure": 44,
+      "pdf_page": 22,
+      "half": "lower",
+      "current_after": "00:34:23",
+      "proposed": "keep after original paragraph 00:34:23",
+      "verified_title": "Notice That… (RTS/CTS — EDGE CASES)"
+    },
+    {
+      "figure": 46,
+      "pdf_page": 23,
+      "half": "lower",
+      "current_after": "01:24:30",
+      "proposed": "after heading 01:20:11, before its original paragraph",
+      "verified_title": "Backoff Procedure (Collision Avoidance)"
+    }
+  ],
+  "paragraphs": [
+    {
+      "speaker": "1",
+      "timestamp": "00:00:00",
+      "ordinal": 1,
+      "heading_level": 2,
+      "heading": "01 · 00:00:00 · 更新课件中的节点标号",
+      "text_sha256": "7e1cba5d296c488c74c7b822c37145e32ebf21e363ee113c83d33624ad1cceb4",
+      "h1_before": "隐藏终端与基本DCF的碰撞",
+      "match_prefix": "Resume. As mentioned, I changed the label of these nodes in order to make it easier for you, so that we are always assuming Wi-Fi working wi"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:00:44",
+      "ordinal": 2,
+      "heading_level": 2,
+      "heading": "02 · 00:00:44 · 引入隐藏终端场景",
+      "text_sha256": "d3bf160598d70a24082c6b844b10e6cd2cea76edfc202c1cab07e0509a94a184",
+      "h1_before": null,
+      "match_prefix": "Now, as mentioned, we now move from the simple scenario, the simple scenario that we considered earlier, where we had an access point and al"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:01:59",
+      "ordinal": 3,
+      "heading_level": 2,
+      "heading": "03 · 00:01:59 · 无线覆盖范围与相互隐藏",
+      "text_sha256": "95c911164ee533b06a528d2b7d9e20c209bcadb01d3f2afc04e47b3ce5d334f0",
+      "h1_before": null,
+      "match_prefix": "And they are hidden with respect to each other because they cannot, let's say, see, electromagnetically speaking, each other. They cannot he"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:03:50",
+      "ordinal": 4,
+      "heading_level": 2,
+      "heading": "04 · 00:03:50 · A先发送、B随后侦听",
+      "text_sha256": "75a4aa1c1ffbada56c7f5ef5d466a88837ea47ea89fdd89e670f3187a42975d4",
+      "h1_before": null,
+      "match_prefix": "OK, now, is this scenario clear? OK, so let's assume that both A and B now have got a packet to transmit. Actually, A gets this packet, data"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:05:23",
+      "ordinal": 5,
+      "heading_level": 2,
+      "heading": "05 · 00:05:23 · 隐藏终端碰撞与ACK缺失",
+      "text_sha256": "98ce31ce8bfd683f1a160f998597504685b8c3a124da38455c4381d9588ce18c",
+      "h1_before": null,
+      "match_prefix": "Remember, A and B cannot hear each other, right? So even if A is already transmitting to the access point, B senses the channel as, as idle."
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:07:25",
+      "ordinal": 6,
+      "heading_level": 2,
+      "heading": "06 · 00:07:25 · 引入带握手的DCF",
+      "text_sha256": "f710d84fb1880906329206f0be2c33d9f3a8e8d5d289411bd5dbb287067fbffc",
+      "h1_before": "RTS/CTS握手与NAV",
+      "match_prefix": "OK, so this is bad, because we just wasted radio resources, right? The two nodes try to transmit, both of them fail, total failure. This mea"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:09:31",
+      "ordinal": 7,
+      "heading_level": 2,
+      "heading": "07 · 00:09:31 · RTS请求与CTS许可",
+      "text_sha256": "335d1e4990f8c6640a4535c1e81a5a4919486c5982475346d70a8f254694c83d",
+      "h1_before": null,
+      "match_prefix": "So here it is like if node A in the previous example first of all greets the access point, says, hi, access point, nice to meet you, and the"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:10:56",
+      "ordinal": 8,
+      "heading_level": 2,
+      "heading": "08 · 00:10:56 · DIFS侦听与RTS/CTS交换",
+      "text_sha256": "9ae4775b3866c474ffb12b53e914522a165da748c1e4f881bd4ee79ed45be8e8",
+      "h1_before": null,
+      "match_prefix": "So the way now the dialogue happens is the following. Our transmitter, as before, first of all needs to sense the channel. Now we know that "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:12:45",
+      "ordinal": 9,
+      "heading_level": 2,
+      "heading": "09 · 00:12:45 · SIFS间隔、数据与ACK",
+      "text_sha256": "34a349a41a7561a84974a2ad3396d0fe5c76ccb86d2b2a4d703588410d944ac3",
+      "h1_before": null,
+      "match_prefix": "Now A understands, OK, I can start transmitting my data. Here I didn't mark it, but there is another SIFS, OK? Between a CTS and data there "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:13:42",
+      "ordinal": 10,
+      "heading_level": 2,
+      "heading": "10 · 00:13:42 · 隐藏节点通过CTS获知通信",
+      "text_sha256": "29dda47178aad8c34e8d4cbc02fc866bc762ae7162f5875bd0dea6c50e35e5e5",
+      "h1_before": null,
+      "match_prefix": "Now, what do the other nodes do? For example, in our example, B. Well, when the RTS is transmitted by A, remember what we said: everyone can"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:15:20",
+      "ordinal": 11,
+      "heading_level": 2,
+      "heading": "11 · 00:15:20 · CTS设置NAV与虚拟侦听",
+      "text_sha256": "634ef48163836588e43a9b7bb2f39c6730ffab0d395cbf3086ceeac9d27e5855",
+      "h1_before": null,
+      "match_prefix": "So when B hears the CTS, it demodulates the CTS, reads the Duration field, and sets its NAV to the expected remaining, at this point, expect"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:17:51",
+      "ordinal": 12,
+      "heading_level": 2,
+      "heading": "12 · 00:17:51 · RTS/CTS预留无线资源",
+      "text_sha256": "8f9310eb8a2544e6c7598eafce93d55161400b04e7bdb593349ac2db56016053",
+      "h1_before": null,
+      "match_prefix": "OK, so this means that using RTS and CTS, we may avoid collisions. This is one of the mechanisms that we can apply in order to avoid collisi"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:19:08",
+      "ordinal": 13,
+      "heading_level": 2,
+      "heading": "13 · 00:19:08 · 双方邻居如何保持静默",
+      "text_sha256": "23c47809393e5f9b75a159ae70dc23591a1b92b5c16b1e7e71b27ca13eaa754b",
+      "h1_before": null,
+      "match_prefix": "OK, and everyone who can hear—the transmitter will say that by sending the RTS; the receiver will say that by sending the CTS. So whoever ca"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:20:58",
+      "ordinal": 14,
+      "heading_level": 2,
+      "heading": "14 · 00:20:58 · 同频接入点与信道预留示例",
+      "text_sha256": "ff0058931f9e558d3cd8b3bb77f636c616ba9689bf92fd2c57530e2ac7d5ef0b",
+      "h1_before": "同频接入点中的显式信道预留",
+      "match_prefix": "RTS and CTS, as I was saying, is called DCF with handshake, but it is also referred to as explicit channel reservation, because it's like if"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:22:05",
+      "ordinal": 15,
+      "heading_level": 2,
+      "heading": "15 · 00:22:05 · 识别示例中的无线覆盖范围",
+      "text_sha256": "67b91bb4421e002e08777dbbe1379a3d747b3448c02e7e5be2f7b269a1d0a651",
+      "h1_before": null,
+      "match_prefix": "Now, as reported here again, the radio ranges highlight, in particular, the radio range of access point one and the radio range of B. So we "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:22:37",
+      "ordinal": 16,
+      "heading_level": 2,
+      "heading": "16 · 00:22:37 · 更正拓扑：A和B均连接AP1",
+      "text_sha256": "d454e5c95e69ac1db81b7c44ac7ef61c1cdf68bab948ff35c416ca0020782bbb",
+      "h1_before": null,
+      "match_prefix": "OK, now what we have is that, essentially, we are using the scheme with RTS and CTS. Sorry, just because I changed it earlier, so I just nee"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:23:36",
+      "ordinal": 17,
+      "heading_level": 2,
+      "heading": "17 · 00:23:36 · 两个接入点使用同一信道",
+      "text_sha256": "9528af707771ca538733bf9af7e7b89df2f7eefc93345a5b33cb67221dcb4139",
+      "h1_before": null,
+      "match_prefix": "As I said before, access point one and access point two, they both use the same frequencies, right, the same frequency channel. So if they b"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:23:56",
+      "ordinal": 18,
+      "heading_level": 2,
+      "heading": "18 · 00:23:56 · AP1向B发送的场景设定",
+      "text_sha256": "7774cbf791f7bc1a236d16b7952e9fd07ebe00605115215c6aa3e8f07c965a35",
+      "h1_before": null,
+      "match_prefix": "OK, now in this example, access point one wants to transmit a packet to the user node B. So the two nodes who want to start the dialogue are"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:24:30",
+      "ordinal": 19,
+      "heading_level": 2,
+      "heading": "19 · 00:24:30 · AP1发送RTS并通知邻居",
+      "text_sha256": "30e1fa0930fb4932e8e75f0be12aa34c7670acf2ce5ec98013c321dede3d380a",
+      "h1_before": null,
+      "match_prefix": "So initially assume that the channel is idle for everyone. Access point one will sense the channel for DIFS. The channel is idle both at the"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:26:21",
+      "ordinal": 20,
+      "heading_level": 2,
+      "heading": "20 · 00:26:21 · A根据RTS设置NAV",
+      "text_sha256": "5632c108e05632714e11cac0fae22a114dc4815491935fe9a8e18226c20f0b6c",
+      "h1_before": null,
+      "match_prefix": "So A, who is a neighbor of access point one, right, A is connected with access point one, will be informed that there will be a dialogue goi"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:27:50",
+      "ordinal": 21,
+      "heading_level": 2,
+      "heading": "21 · 00:27:50 · B发送CTS并通知邻居",
+      "text_sha256": "a9f876a2031c7bb043981e7dd3a9b041db792d861fc8b5bce4853fe1753598b0",
+      "h1_before": null,
+      "match_prefix": "Now, if B is available for reception, then it will send back the CTS, right? Again, the CTS is a way to inform all the neighbors of B that i"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:28:44",
+      "ordinal": 22,
+      "heading_level": 2,
+      "heading": "22 · 00:28:44 · CTS的Duration字段与NAV",
+      "text_sha256": "c349384d5e5cbaef7358cfd9ba47f9fdd87dd69df0a89593898f7ec1868c6606",
+      "h1_before": null,
+      "match_prefix": "So how do we do that? Because the protocol says all the nodes that can hear the CTS, it's a control packet, demodulate the header, and they "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:29:31",
+      "ordinal": 23,
+      "heading_level": 2,
+      "heading": "23 · 00:29:31 · 显式信道预留的作用",
+      "text_sha256": "eb97d4df693a8f35118172532d8f5ab06e8f5c3d82b2a154dbbf7fd112ca5456",
+      "h1_before": null,
+      "match_prefix": "So now I hope we better understand why RTS and CTS represent an explicit channel reservation, because whoever sends RTS informs all its neig"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:30:25",
+      "ordinal": 24,
+      "heading_level": 2,
+      "heading": "24 · 00:30:25 · 控制帧基本速率与时间开销",
+      "text_sha256": "3cd270f6c1e93773ab70984b1a4981a1961568d128ba347c2ca530942cf53e66",
+      "h1_before": "握手开销、失败风险与RTS阈值",
+      "match_prefix": "OK, so you may think, well, RTS and CTS is great, solves all our problems, right? Well, there are some drawbacks here. What are the drawback"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:32:48",
+      "ordinal": 25,
+      "heading_level": 2,
+      "heading": "25 · 00:32:48 · 协议开销降低效率",
+      "text_sha256": "1a4912bce55d579aa07356cdaa7a68ff440a3c99d4f867f598dc059c86eff61f",
+      "h1_before": null,
+      "match_prefix": "So the overhead associated with the Wi-Fi protocol increases, and that's bad. Overhead is bad. Overhead is something that you don't want. It"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:33:09",
+      "ordinal": 26,
+      "heading_level": 2,
+      "heading": "26 · 00:33:09 · 邻居漏收RTS的干扰风险",
+      "text_sha256": "b94fabe908b54835516866e3c12fadb4104f7951c12992ff78d280fcfeaee3d5",
+      "h1_before": null,
+      "match_prefix": "The other one, the second problem, is that unfortunately things do not go so well always in practice. Why? Because, for example, an RTS that"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:34:23",
+      "ordinal": 27,
+      "heading_level": 2,
+      "heading": "27 · 00:34:23 · 目的节点漏收RTS与无效等待",
+      "text_sha256": "4ce3ef1ebb91f221c87c61019631c72c0c7d362fc1a738900e6076da6aa282bd",
+      "h1_before": null,
+      "match_prefix": "The RTS transmission may also fail because, again, channel errors at the intended destination. So A may transmit the RTS, all other neighbor"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:36:26",
+      "ordinal": 28,
+      "heading_level": 2,
+      "heading": "28 · 00:36:26 · CTS漏收、信道变化与握手局限",
+      "text_sha256": "6be28e4cca8a7919db41874df47d792e4752ef6aa1f00361d6a5acd4ea2a2bee",
+      "h1_before": null,
+      "match_prefix": "Or the CTS may not be demodulated correctly by the source. In this case, the neighbors of the intended destination will be blocked if they r"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:38:12",
+      "ordinal": 29,
+      "heading_level": 2,
+      "heading": "29 · 00:38:12 · 按数据包大小选择RTS阈值",
+      "text_sha256": "8e1c046033b33a34f4651b821c7e4b79280ec2db48ea456792b76c59c4a3719f",
+      "h1_before": null,
+      "match_prefix": "The idea is good in theory; it could work well, but then the drawbacks are too much, too many drawbacks compared to the advantages. One impo"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:41:45",
+      "ordinal": 30,
+      "heading_level": 2,
+      "heading": "30 · 00:41:45 · 课堂阈值示例与恶劣环境",
+      "text_sha256": "0152e780c1ea1c9fd1e71d5cd5a4d3504d1c3f134e15c4004c578d8c7755e8ab",
+      "h1_before": null,
+      "match_prefix": "Now, typical values of the RTS threshold are 400 bytes or slightly higher than that. Why? Because most Wi-Fi payloads are 400 bytes or below"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:43:53",
+      "ordinal": 31,
+      "heading_level": 2,
+      "heading": "31 · 00:43:53 · 停止等待与失败重传预告",
+      "text_sha256": "e688ea9fae1631ddc3da95cff92c4a7d76328fe7dd1e147bf91b5aabf895ab42",
+      "h1_before": "重传预告、提问与课间讨论",
+      "match_prefix": "We know already that we are applying stop-and-wait, so we expect that when a packet fails, the transmitter will have to retransmit. We know "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:44:14",
+      "ordinal": 32,
+      "heading_level": 2,
+      "heading": "32 · 00:44:14 · 课间后回到基本DCF",
+      "text_sha256": "73c703159f281f69b8e378b1a14b100d4fad5cec982858a02417581a76a15e29",
+      "h1_before": null,
+      "match_prefix": "Just consider that after the short break we will go back to the basic version of DCF. Forget about RTS/CTS for now, and set your mind back t"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:44:45",
+      "ordinal": 33,
+      "heading_level": 2,
+      "heading": "33 · 00:44:45 · 无ACK场景与五分钟休息",
+      "text_sha256": "0f1d859f537a64db56c4c5226f3b55572492c04b14a0797f16aa5ffc9d7fea0d",
+      "h1_before": null,
+      "match_prefix": "This one. Set your mind to this. What we are going to look at is the case where there is no ACK because the packet failed. That's what we ar"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:45:46",
+      "ordinal": 34,
+      "heading_level": 2,
+      "heading": "34 · 00:45:46 · 提问：隐藏节点能否同时发RTS",
+      "text_sha256": "a70bd23aca512860ef342753ec45d12775b0e0586d780543ffac4027e80ceafc",
+      "h1_before": null,
+      "match_prefix": "Question: Since A and B cannot hear each other, could they send RTS at the same time? No, no, that's not the... I mean, they might, they may"
+    },
+    {
+      "speaker": "2、1（合并段）",
+      "timestamp": "00:45:56",
+      "ordinal": 35,
+      "heading_level": 2,
+      "heading": "35 · 00:45:56 · 追问：其他节点如何听到回答",
+      "text_sha256": "eccc27b57bbc23cfbacacae50826c6ab54effb4437bc72ba5704dc73cdfe5a19",
+      "h1_before": null,
+      "match_prefix": "So... But how, how can others... ...hear the answer from A? 所以……但是，其他节点怎样、怎样才能……听到A的回答？"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:46:02",
+      "ordinal": 36,
+      "heading_level": 2,
+      "heading": "36 · 00:46:02 · 约定课间后重讲",
+      "text_sha256": "e2f570efec784ff080d7d3a2535a7d94187bbbea891fae60bc856d3df0f59249",
+      "h1_before": null,
+      "match_prefix": "Okay, so let me go back to this after the break, because if it's not clear, we need to repeat it. 好，那么，休息之后让我再回到这一点，因为如果不清楚，我们就需要重复讲一遍。"
+    },
+    {
+      "speaker": "2",
+      "timestamp": "00:48:46",
+      "ordinal": 37,
+      "heading_level": 2,
+      "heading": "37 · 00:48:46 · 课间讨论：图像处理项目选题",
+      "text_sha256": "607208500302121d220779125a0be164c58518b6e92246392a73520c09aa5c5e",
+      "h1_before": null,
+      "match_prefix": "So the image-processing topic will not be combined with the other projects. It feels difficult to connect them. A computer-vision topic migh"
+    },
+    {
+      "speaker": "2",
+      "timestamp": "00:49:20",
+      "ordinal": 38,
+      "heading_level": 2,
+      "heading": "38 · 00:49:20 · 课间讨论：聚焦项目题目",
+      "text_sha256": "02afe6a217163846e10bd9abf125a511bdd7d6ac1fb791e645e5ef1885b7cedf",
+      "h1_before": null,
+      "match_prefix": "I feel that, based on the requirements, we should choose a more focused topic. 我觉得，根据要求，我们应该选择一个更有针对性的题目。"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:51:59",
+      "ordinal": 39,
+      "heading_level": 2,
+      "heading": "39 · 00:51:59 · 恢复课堂讲解",
+      "text_sha256": "0073029424b9da6615d9a72c794f0b090095b861fe6fce19e19a100824699ae1",
+      "h1_before": "拓扑重讲与各节点NAV时序",
+      "match_prefix": "Let me tell you. 让我告诉你。"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:52:16",
+      "ordinal": 40,
+      "heading_level": 2,
+      "heading": "40 · 00:52:16 · 重讲AP1向B发送的拓扑",
+      "text_sha256": "afa81c69d5ca60995586baa9e0033bc60b7f6c8eff77bf3b3feac13ef2bcd1a2",
+      "h1_before": null,
+      "match_prefix": "Okay, so let me go back to the previous case, because maybe we need to clarify things. So, let me again consider this example in terms of ne"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:54:04",
+      "ordinal": 41,
+      "heading_level": 2,
+      "heading": "41 · 00:54:04 · 绘制各节点的时间轴",
+      "text_sha256": "548fc38f7f7dcea673d9f6cd8e009ea8c6059e8e238b1be4385ea053acd2b8c8",
+      "h1_before": null,
+      "match_prefix": "Now let me draw the behavior of the nodes over time. This is the timeline; the line represents the time evolution. We have access point one,"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:54:41",
+      "ordinal": 42,
+      "heading_level": 2,
+      "heading": "42 · 00:54:41 · 区分无线可听范围与关联关系",
+      "text_sha256": "f7cc31f4ca025790bc7c176adc4f45698e527a21aa7c9cbc043af2ea59ff0b55",
+      "h1_before": null,
+      "match_prefix": "As we said, A and B are both connected with access point one, but A and B are hidden with respect to each other. They cannot hear each other"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:55:35",
+      "ordinal": 43,
+      "heading_level": 2,
+      "heading": "43 · 00:55:35 · AP1等待DIFS后接入",
+      "text_sha256": "eca298c1c84dab9c0d529470135f855413c23bb8a7224be596900a16da3f6bfa",
+      "h1_before": null,
+      "match_prefix": "But it can hear what access point two says, as when we pass by someone who is talking to someone else. Now, that said, access point one, in "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:56:26",
+      "ordinal": 44,
+      "heading_level": 2,
+      "heading": "44 · 00:56:26 · 大数据包触发RTS与A的NAV",
+      "text_sha256": "b8683f95588cf2073255ea9925a4ebf767cc1a9fdbc6de1927d1cd945cce9983",
+      "h1_before": null,
+      "match_prefix": "But the packet, the data packet payload, is larger than the RTS threshold. What access point one transmits upon accessing the channel is not"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "00:59:19",
+      "ordinal": 45,
+      "heading_level": 2,
+      "heading": "45 · 00:59:19 · B回复CTS与AP2旁听",
+      "text_sha256": "2a034235e73c440159a5c2d61861dc6923d1ef85500fb5ac14d9cef2e3f7078c",
+      "h1_before": null,
+      "match_prefix": "Now let's look at the CTS. The CTS is a reply, a response to this RTS, and says: I am available to receive. Clearly the R... sorry, the CTS "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:00:44",
+      "ordinal": 46,
+      "heading_level": 2,
+      "heading": "46 · 01:00:44 · AP2设置NAV及数据帧更新",
+      "text_sha256": "8906e2331d82c275794f0e36475c4ec595adbffdc0b25ffd603f1c2a68e3b768",
+      "h1_before": null,
+      "match_prefix": "So it reads the Duration field in the CTS and sets its NAV to the remaining expected duration of the dialogue. This means that all the neigh"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:02:28",
+      "ordinal": 47,
+      "heading_level": 2,
+      "heading": "47 · 01:02:28 · 数据接收成功后回复ACK",
+      "text_sha256": "61c795efafab8cc9db6bb4ba7a96540b16d40c4ff658ec19d58a93c2a37c6ff6",
+      "h1_before": null,
+      "match_prefix": "Now the practical effect is no change, because we already have the NAV set. This is no news, but to be precise, whenever I hear a Duration f"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:03:18",
+      "ordinal": 48,
+      "heading_level": 2,
+      "heading": "48 · 01:03:18 · 理解时序图中的其他节点",
+      "text_sha256": "a2c0dd592bd77d1bc33a7c5b1debb62a6923af415779389a578ffe56338473eb",
+      "h1_before": null,
+      "match_prefix": "In this case, in this example, everything worked fine. We were able to block the neighbors of the transmitter and block the neighbors of the"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:04:41",
+      "ordinal": 49,
+      "heading_level": 2,
+      "heading": "49 · 01:04:41 · 将其他节点对应到A和AP2",
+      "text_sha256": "506543fa2bb2dd955154d60853a4ea0a2ade05f611459d0ffd421bc1f45b849a",
+      "h1_before": null,
+      "match_prefix": "In this example, the example that we have here, 'others' are A and access point two. If it's clearer, we can actually modify these slides an"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:05:34",
+      "ordinal": 50,
+      "heading_level": 2,
+      "heading": "50 · 01:05:34 · A与AP2分别由RTS、CTS触发",
+      "text_sha256": "c8fae21cb912611105795e8c883da991a4e48419031c436f604ad52064d168a1",
+      "h1_before": null,
+      "match_prefix": "Working. Okay, now this is the topology and this is the corresponding diagram. Clearly, as we said, when we say 'others' and mean A, A will "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:06:17",
+      "ordinal": 51,
+      "heading_level": 2,
+      "heading": "51 · 01:06:17 · 加入同时听到双方的节点C",
+      "text_sha256": "f1bb3945552161bcd34fe752be8cbae2df0601dcf0f670bbbb785804f53624a6",
+      "h1_before": null,
+      "match_prefix": "If we consider a similar topology but add a node, for example here, C, that is in radio range of both the source and the destination, then n"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:07:03",
+      "ordinal": 52,
+      "heading_level": 2,
+      "heading": "52 · 01:07:03 · C先设置再刷新NAV",
+      "text_sha256": "9e779f6cf7387c4fe447b14380855df7bddfccd36efc215afdb718f2857db0c2",
+      "h1_before": null,
+      "match_prefix": "If we add a node C there in the middle, it will set its NAV here in correspondence with the RTS. It will also hear the CTS, so it will updat"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:08:24",
+      "ordinal": 53,
+      "heading_level": 2,
+      "heading": "53 · 01:08:24 · 继续调整课堂图示",
+      "text_sha256": "7941d12ec79edfad31a03c744d66d95485cd92800f6e3c2bf00cb18da40de96e",
+      "h1_before": null,
+      "match_prefix": "Like, for this. 就像，对于这个。"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:08:34",
+      "ordinal": 54,
+      "heading_level": 2,
+      "heading": "54 · 01:08:34 · 标注C的NAV设置与刷新",
+      "text_sha256": "6e86785bb31a4ddcc00c7c489e47f5afc5b32156641e594066796a6ba87209aa",
+      "h1_before": null,
+      "match_prefix": "Okay, and C sets its NAV based on the RTS and refreshes the NAV based on the CTS. In these other cases, where we had A and access point two,"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:09:08",
+      "ordinal": 55,
+      "heading_level": 2,
+      "heading": "55 · 01:09:08 · 区分AP2的CTS触发时间",
+      "text_sha256": "c89943e64f4210d7c2995f9b9f7dcc74069b9b399dd6510a82e451347de5a6fa",
+      "h1_before": null,
+      "match_prefix": "And then we can add this one, access point two. Let me distinguish the two of them, and we let this NAV be set from CTS. 然后，我们可以加上这一个，接入点二。让"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:10:01",
+      "ordinal": 56,
+      "heading_level": 2,
+      "heading": "56 · 01:10:01 · 对比A与AP2的NAV时间轴",
+      "text_sha256": "36488ebcd3f4b7a0215a43711bc343e707bba15cb90dbc8f606f23076a26826e",
+      "h1_before": null,
+      "match_prefix": "I hope that now it's clearer by distinguishing the behavior of every neighbor. If we have this example, then this is the timeline, and we mo"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:10:34",
+      "ordinal": 57,
+      "heading_level": 2,
+      "heading": "57 · 01:10:34 · 补充C并汇总各节点行为",
+      "text_sha256": "d7faa6b0907a41c714ef895265c9ace5bb309f2d789f3de4f490bded183f5fd0",
+      "h1_before": null,
+      "match_prefix": "In this other example, where we added a node in the middle, the behavior of the other nodes is the same. Just highlighting the behavior of C"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:11:41",
+      "ordinal": 58,
+      "heading_level": 2,
+      "heading": "58 · 01:11:41 · 确认讲解与答疑",
+      "text_sha256": "a9c0a78cfef533d616827ff201eb5801f8da9ad936c65e16418778e6d56ff747",
+      "h1_before": null,
+      "match_prefix": "In this way you have all the nodes' behavior there. Is it clear now? Okay, perfect. Are there other questions or points that are unclear? 这样"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:12:08",
+      "ordinal": 59,
+      "heading_level": 2,
+      "heading": "59 · 01:12:08 · 回到所有节点互相可听的DCF",
+      "text_sha256": "a1c66817b93e5e7a4cc7335d550315850952c230a2b5beaa04f69fdf1a9dd574",
+      "h1_before": "基本DCF失败、ACK超时与重新竞争",
+      "match_prefix": "Let me know, and of course we can go back to any slide you may want to see again. If that is clear now, let me check my time. It's 10:25, ri"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:13:47",
+      "ordinal": 60,
+      "heading_level": 2,
+      "heading": "60 · 01:13:47 · 基本DCF中的数据发送失败",
+      "text_sha256": "5065a3446a201b7f7a1d0ec98a2e169c63561fabaf844afc1fbee8f2a02995f1",
+      "h1_before": null,
+      "match_prefix": "Now let's consider that A has waited for DIFS. The channel is idle as before. A could access the channel and transmit the data packet. The d"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:15:04",
+      "ordinal": 61,
+      "heading_level": 2,
+      "heading": "61 · 01:15:04 · 无ACK时旁听节点仍保持NAV",
+      "text_sha256": "41e9c1cfcff97c0015a73e33dc2a409117767b83a3a5fcff1e23539fc2bd4f16",
+      "h1_before": null,
+      "match_prefix": "The result is that if the packet transmission fails, we cannot consider the acknowledgment. No ACK, according to the stop-and-wait mechanism"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:16:17",
+      "ordinal": 62,
+      "heading_level": 2,
+      "heading": "62 · 01:16:17 · 发送端等待ACK超时",
+      "text_sha256": "8577a2888886f85b65a39e14b80ffed6e6e0418c43aca0c07387dcfac938f5ae",
+      "h1_before": null,
+      "match_prefix": "What we know is that the access point, the intended destination, will not send back any acknowledgment. The transmitter, when it finishes tr"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:17:08",
+      "ordinal": 63,
+      "heading_level": 2,
+      "heading": "63 · 01:17:08 · 失败等待时间T_F与重新竞争",
+      "text_sha256": "bbdf5b754ffeebd73de9923ae7875eaa649e3f1733dd5f9e26d5029284a4cb87",
+      "h1_before": null,
+      "match_prefix": "Let's call this T_F; F stands for failure. Let's consider that this is the time during which the sender will wait for the acknowledgment. If"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:18:17",
+      "ordinal": 64,
+      "heading_level": 2,
+      "heading": "64 · 01:18:17 · DIFS后引入随机退避",
+      "text_sha256": "10aa273e6b7dde0ee50697b5f1fcb56077455865397d3cc634d79109f8156e29",
+      "h1_before": "随机退避、冻结与恢复",
+      "match_prefix": "Our sender, once it understands that it has failed, in order to try again cannot just sense the channel for DIFS and, if the channel is idle"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:20:11",
+      "ordinal": 65,
+      "heading_level": 2,
+      "heading": "65 · 01:20:11 · 退避三步骤与CW_min",
+      "text_sha256": "57529e6bba98a23c708b4a76c7b8cd1c0bf87643bfb109b4dd2852b803c2bad5",
+      "h1_before": null,
+      "match_prefix": "The backoff procedure is essentially composed of three main steps. Make sure the channel is idle for DIFS; this is step one. Step two: compu"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:22:23",
+      "ordinal": 66,
+      "heading_level": 2,
+      "heading": "66 · 01:22:23 · 均匀抽取整数计算首次退避",
+      "text_sha256": "bd230e2d148da48c288f51c7c8eeaeb4cabf5b0c1ca1e06c97fdcc2e1616310e",
+      "h1_before": null,
+      "match_prefix": "Now, in order to compute this backoff, in this example this is the first time that we are computing the backoff time in order to eventually "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:23:45",
+      "ordinal": 67,
+      "heading_level": 2,
+      "heading": "67 · 01:23:45 · 时隙与退避计数器",
+      "text_sha256": "448829aef91082c8235a97fdc4939684af9eeea3f4bb2701e368846f8f363efb",
+      "h1_before": null,
+      "match_prefix": "Now we understand why we had the time slot. The time slot is useful. This is the integer that is drawn with equal probability out of this ra"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:24:30",
+      "ordinal": 68,
+      "heading_level": 2,
+      "heading": "68 · 01:24:30 · 逐时隙递减与忙时冻结",
+      "text_sha256": "d45838babd3f2e0727c2e395577f52895ef4eb750a1ffcb5eae6b4b927a5f5e0",
+      "h1_before": null,
+      "match_prefix": "What it does, so we are now at step two, is: I computed the backoff time; now I'm going to decrease this backoff counter time slot by time s"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:27:27",
+      "ordinal": 69,
+      "heading_level": 2,
+      "heading": "69 · 01:27:27 · 非完整空闲时隙不递减",
+      "text_sha256": "857f5a00d490c252221ca015386ec23eecb1f4e2ee22a5c9862899f6d513e31a",
+      "h1_before": null,
+      "match_prefix": "During this time slot, initially the time slot was idle, but at a certain point the channel has become busy. Can I decrease the backoff coun"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:29:11",
+      "ordinal": 70,
+      "heading_level": 2,
+      "heading": "70 · 01:29:11 · 再次空闲DIFS后恢复计数",
+      "text_sha256": "79ac0c3090e0edc9a62fee1feb1c498bc996df812978093dcdbc5c0486cdf0c4",
+      "h1_before": null,
+      "match_prefix": "What I have to do is, first of all, make sure that the channel remains idle for DIFS. I really have to be sure that now the channel is idle "
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:29:53",
+      "ordinal": 71,
+      "heading_level": 2,
+      "heading": "71 · 01:29:53 · 计数器归零后发送",
+      "text_sha256": "ae5b47c5aa784ee50679fd69a71320a5f5d81cfe00cff9ce84ba65ee4eee38b3",
+      "h1_before": null,
+      "match_prefix": "Now I have only one time slot left. If the channel remains idle, I wait one time slot more. At that point the counter reaches zero; I can ac"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:30:12",
+      "ordinal": 72,
+      "heading_level": 2,
+      "heading": "72 · 01:30:12 · 再次失败与重复退避",
+      "text_sha256": "b71b2b29ef5326a636e51e4f14b6ec1bc82da030ab33aa2ba7e69227fbab676f",
+      "h1_before": "重复重传与竞争窗口增长",
+      "match_prefix": "This is how backoff works. Is it clear? We have five more minutes. Let me say one more thing. Next time we will make more examples and under"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:32:41",
+      "ordinal": 73,
+      "heading_level": 2,
+      "heading": "73 · 01:32:41 · 竞争窗口从31扩展到63",
+      "text_sha256": "3abffccd415a32e68b5396258554fc755c67031680cc3d58c730f67c0a35b0fd",
+      "h1_before": null,
+      "match_prefix": "This is the second time that we use backoff for that same data packet. I'm not using this contention window minimum of 31; I use a larger va"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:34:32",
+      "ordinal": 74,
+      "heading_level": 2,
+      "heading": "74 · 01:34:32 · 窗口增长上限CW_max",
+      "text_sha256": "4874c3ed99d13f978803287fe66821b8a36a77e485f35d5f07a63212277b5400",
+      "h1_before": null,
+      "match_prefix": "If I fail again and have to repeat the procedure, again it is the same procedure, but this is the third time that I'm running backoff for th"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:36:06",
+      "ordinal": 75,
+      "heading_level": 2,
+      "heading": "75 · 01:36:06 · 新数据包从CW_min重新开始",
+      "text_sha256": "56f795f2b2bc6d3919cdfa6cf6a3244065937e7ac3630f991409ad12ae8be18b",
+      "h1_before": null,
+      "match_prefix": "If I have to use backoff for a new data packet, for that new data packet I will start from scratch, that is, from CW_min. For every new pack"
+    },
+    {
+      "speaker": "1",
+      "timestamp": "01:36:38",
+      "ordinal": 76,
+      "heading_level": 2,
+      "heading": "76 · 01:36:38 · 下课与下次课程安排",
+      "text_sha256": "3adf7d1a5fde54f3427b121f3be4bbd4597056eb62cdb5c1bf81fcc9498d6ee5",
+      "h1_before": null,
+      "match_prefix": "Okay, good. We will see more next time, but for today we are done. We're good to go. Great. We'll meet Monday afternoon. Time to relax. 好，很好"
+    }
+  ],
+  "missing_slide_insertions": [
+    {
+      "figure": 40,
+      "pdf_page": 20,
+      "half": "lower",
+      "action": "insert_missing_image_once",
+      "proposed": "after heading 00:00:44, before its original paragraph",
+      "timestamp": "00:00:44",
+      "verified_title": "The Hidden-Terminal Problem",
+      "verified_visually": true,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第20页下半页 · 图40（按PDF顺序）",
+      "caption_note": "原课件保留旧标号；根据课堂00:00:00–00:01:59，从左到右原图A、B、C分别对应课堂A、接入点、B。两端用户节点相互隐藏，均可与中间接入点通信。",
+      "alignment_evidence": "00:00:44–00:05:23介绍三节点拓扑、覆盖范围及在接入点处碰撞。",
+      "local_png": "/workspace/shared/course-1000-slide-crops/02-WiFi_1-7_pdf20_lower_fig40.png",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "sha256": "99d75af2970796be381e8dc9648275997445277e7899b3b582e4e72324ba50f2",
+      "pixel_size": [
+        1592,
+        896
+      ],
+      "crop_pdf_points": [
+        98.0,
+        486.0,
+        496.0,
+        710.0
+      ]
+    },
+    {
+      "figure": 36,
+      "pdf_page": 18,
+      "half": "lower",
+      "action": "insert_missing_image_once",
+      "proposed": "after heading 01:12:08, before its original paragraph",
+      "timestamp": "01:12:08",
+      "verified_title": "DCF Basic Access: Unicast DATA + ACK",
+      "verified_visually": true,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第18页下半页 · 图36（按PDF顺序）",
+      "caption_note": "此图为课件中的成功传输基线。课堂01:13:47–01:17:08在此基础上改为失败情形：没有ACK，发送端等待T_F后重新竞争；原图未作改写。",
+      "alignment_evidence": "01:12:08明确回到基本DCF并绘制Source/Destination/Others时间轴，01:13:47回顾DIFS、DATA、ACK及旁听节点NAV，然后转入失败。",
+      "local_png": "/workspace/shared/course-1000-slide-crops/02-WiFi_1-7_pdf18_lower_fig36.png",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "sha256": "9471ddd893660301a8db19184eb2a1187a891bf85b82fe3e59af308a74ce2f8d",
+      "pixel_size": [
+        1592,
+        896
+      ],
+      "crop_pdf_points": [
+        98.0,
+        486.0,
+        496.0,
+        710.0
+      ]
+    },
+    {
+      "figure": 47,
+      "pdf_page": 24,
+      "half": "upper",
+      "action": "insert_missing_image_once",
+      "proposed": "after heading 01:30:12, before its original paragraph",
+      "timestamp": "01:30:12",
+      "verified_title": "Backoff Value: Binary Exponential Backoff",
+      "verified_visually": true,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第24页上半页 · 图47（按PDF顺序）",
+      "caption_note": "此页展示课件的完整CW更新公式；课堂本段先说明重复退避与窗口大致翻倍，并表示下次再解释精确计算。正文仍保留课堂原话。",
+      "alignment_evidence": "01:30:12再次失败后更换抽样范围；01:32:41解释翻倍，01:34:32解释CW_max封顶。均匀抽样与CW_min已于01:20:11–01:23:45讲到。",
+      "local_png": "/workspace/shared/course-1000-slide-crops/02-WiFi_1-7_pdf24_upper_fig47.png",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "sha256": "a5d4509ef1f9b6dffb38852e0c33d9a699ab4b10eb45f759b104f9fcbe1ee6d8",
+      "pixel_size": [
+        1592,
+        896
+      ],
+      "crop_pdf_points": [
+        98.0,
+        131.0,
+        496.0,
+        355.0
+      ]
+    },
+    {
+      "figure": 48,
+      "pdf_page": 24,
+      "half": "lower",
+      "action": "insert_missing_image_once",
+      "proposed": "after heading 01:32:41, before its original paragraph",
+      "timestamp": "01:32:41",
+      "verified_title": "Example: CW Growth (802.11b, CWmin = 31, CWmax = 1023)",
+      "verified_visually": true,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第24页下半页 · 图48（按PDF顺序）",
+      "caption_note": "课件示例列出31、63、127等窗口及1023上限；课堂01:32:41明确讲到31→63，01:34:32的上限数值在原转写中标为［数字不清楚］。课件数值不替换该不确定标记；表中平均退避时延是课件信息，本段未逐项讲解。",
+      "alignment_evidence": "01:32:41明确从0–31扩为0–63，01:34:32继续增加直到CW_max。",
+      "local_png": "/workspace/shared/course-1000-slide-crops/02-WiFi_1-7_pdf24_lower_fig48.png",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "sha256": "09642deed7e2d53976c55348227594e5a8d8c53a2f033736ff94f17d2e8f3df1",
+      "pixel_size": [
+        1592,
+        896
+      ],
+      "crop_pdf_points": [
+        98.0,
+        486.0,
+        496.0,
+        710.0
+      ]
+    }
+  ],
+  "final_image_count_after_inserting": 9,
+  "image_policy": "Retain all existing 5 images; insert these 4 distinct missing images once. Native original image pixels/labels preserved; classroom mappings and source-only facts remain separate captions."
+}
