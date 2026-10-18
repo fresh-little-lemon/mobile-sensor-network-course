@@ -1,0 +1,1381 @@
+[
+  {
+    "paragraph": 1,
+    "original_indices_zero_based": [
+      0
+    ],
+    "original_blocks_one_based": [
+      1
+    ],
+    "time_anchor": "00:00:02",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "2da1fd83edb871595bb93199e89e48d07424a35212f647c3bc4cb58b0e3f7b00"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 2,
+    "original_indices_zero_based": [
+      1,
+      2
+    ],
+    "original_blocks_one_based": [
+      2,
+      3
+    ],
+    "time_anchor": "00:00:40",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "2be2640ff47bcab277e5ae55dee2d4252934e21566871e22b4b3f06cdf8e927b",
+      "52ab535bbd3c769f1f24d8be7a2a665657f7f0a93c633f7b0731dfa2b497e9e3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0,
+      1
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 3,
+    "original_indices_zero_based": [
+      3
+    ],
+    "original_blocks_one_based": [
+      4
+    ],
+    "time_anchor": "00:01:54",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c605f0a7ea9e97326fb69b86939198516b18da82fe068ec0284358aabda2d941"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0,
+      1
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 4,
+    "original_indices_zero_based": [
+      4
+    ],
+    "original_blocks_one_based": [
+      5
+    ],
+    "time_anchor": "00:03:39",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5280a2abb2567d639d7d4599178f4c817181e577810d5eea29b9e2d94eea85fe"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      1,
+      2
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 5,
+    "original_indices_zero_based": [
+      5,
+      6
+    ],
+    "original_blocks_one_based": [
+      6,
+      7
+    ],
+    "time_anchor": "00:04:34",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5361b0a26ba028396806aa3fb946d27b213b49feaf7a89a3047b6eca732fac23",
+      "a6128125fe6308b5a03ea00a8d7f091bf75686391b6684ace649bdf2aea1e272"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      2,
+      3
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 6,
+    "original_indices_zero_based": [
+      7,
+      8
+    ],
+    "original_blocks_one_based": [
+      8,
+      9
+    ],
+    "time_anchor": "00:06:20",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "9db01a33355ba4096f0598fc422cf302e052326641667a54bfa81ac07ba37602",
+      "e49f2ccd352af846cfc507a82928b842ba3f75c55ce76b334b9061699c3e0fbe"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      3,
+      4
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 7,
+    "original_indices_zero_based": [
+      9
+    ],
+    "original_blocks_one_based": [
+      10
+    ],
+    "time_anchor": "00:08:32",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8e41299fcaa23e9ee7c66328e870860ded1fac5e005f48e91ec499a096f0f4fe"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      4,
+      5
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 8,
+    "original_indices_zero_based": [
+      10,
+      11,
+      12
+    ],
+    "original_blocks_one_based": [
+      11,
+      12,
+      13
+    ],
+    "time_anchor": "00:09:45",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e8a4cdbe876c2fe8598914b4c322a137b99dfbf2291d031b2c1c9d586b00a9e7",
+      "565ba211ab44f944f3b7e13ef99a32e3f35e4ab3939d63068171cc631569fbc8",
+      "3b99c4b6cf75ae780b3bfd9806a44233aa672a06d96df52fa3342627dd96ce82"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      5,
+      6
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 9,
+    "original_indices_zero_based": [
+      13
+    ],
+    "original_blocks_one_based": [
+      14
+    ],
+    "time_anchor": "00:12:32",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "eaafbcdb3bcea2f70b982cfc27e598ce8d320d33adc65c37311a5cd27d5959db"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      6,
+      7
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 10,
+    "original_indices_zero_based": [
+      14,
+      15
+    ],
+    "original_blocks_one_based": [
+      15,
+      16
+    ],
+    "time_anchor": "00:13:11",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b03a24d79b221cac3becd5c23c2fd0ee7141aaeb0af4b30186fa040064ccaa2b",
+      "5ddc72bb334710cbd1d79c72970196ffdf0de32a8e4b211fb5bc5ee257a0a672"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      7
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 11,
+    "original_indices_zero_based": [
+      16
+    ],
+    "original_blocks_one_based": [
+      17
+    ],
+    "time_anchor": "00:14:17",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "6fb6357e8cbf9902c4cdeddc1b248cb1e0f9045b29df2af2397de125cba57baf"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      7,
+      8
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 12,
+    "original_indices_zero_based": [
+      17,
+      18
+    ],
+    "original_blocks_one_based": [
+      18,
+      19
+    ],
+    "time_anchor": "00:14:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "34ecae2011f06c67dbf78445b79a16145b27406cff752738965f3309874c398d",
+      "cecf9b7540965474ed821db942b47f5173aa3889359bfc651df5a414fa833ccb"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      8
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 13,
+    "original_indices_zero_based": [
+      19,
+      20
+    ],
+    "original_blocks_one_based": [
+      20,
+      21
+    ],
+    "time_anchor": "00:16:05",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "efdc98c426fc9ef4dd3b57c35b1462be299471d4171e22c1855176156b05c08d",
+      "0d2a2eac3db522043b4236d184d8fa71448f32889446334f63c87c2c6a2de129"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      8,
+      9
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 14,
+    "original_indices_zero_based": [
+      21
+    ],
+    "original_blocks_one_based": [
+      22
+    ],
+    "time_anchor": "00:17:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d21631413d875207e3fc8d6d97948bb0c504d692bfca4ea4affa0c9eea91f03a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      9
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 15,
+    "original_indices_zero_based": [
+      22,
+      23
+    ],
+    "original_blocks_one_based": [
+      23,
+      24
+    ],
+    "time_anchor": "00:18:00",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7d673df08f457ffb91048915589dd67b7582c94ec8060fce5a948d6254ed5af2",
+      "4e93d1bae46547789f15460b5365c009c078d06f666ca5339c311b2709547833"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      9,
+      10
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 16,
+    "original_indices_zero_based": [
+      24
+    ],
+    "original_blocks_one_based": [
+      25
+    ],
+    "time_anchor": "00:19:30",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5605968ab06e310971afbcbd6881aa4774f2d12ec1d7ca9a422e9f3dd7f43b5a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 17,
+    "original_indices_zero_based": [
+      25
+    ],
+    "original_blocks_one_based": [
+      26
+    ],
+    "time_anchor": "00:19:53",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "605e9ac7694521a9b0814f2653c7772cae5919a4c80b919083140e19096490e5"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10,
+      11
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 18,
+    "original_indices_zero_based": [
+      26,
+      27,
+      28
+    ],
+    "original_blocks_one_based": [
+      27,
+      28,
+      29
+    ],
+    "time_anchor": "00:20:15",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1cd4083a3aea200cb04d8c1ebb3f3a67ba69a25c89b51202c66c2b7a1854086c",
+      "3070d75ec1bd188d1a196386ae6e19e09bfe8083d0b728fb0fe8f3da6c28ea10",
+      "1d1dd3f29a315147efc04e34bc545e4a83b43642fb6398a9dc4491b22dbe47ea"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10,
+      11,
+      12
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 19,
+    "original_indices_zero_based": [
+      29
+    ],
+    "original_blocks_one_based": [
+      30
+    ],
+    "time_anchor": "00:22:28",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e8e925b881ecf1cd7b2bdfd27fd43042f4e989ed1f6f30540c1945e2e8198920"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      12
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 20,
+    "original_indices_zero_based": [
+      30
+    ],
+    "original_blocks_one_based": [
+      31
+    ],
+    "time_anchor": "00:23:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "dc3f6699cbf1591239f81fc9ac16a58123133187bed8883129b759ce0d32dd5c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      12,
+      13
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 21,
+    "original_indices_zero_based": [
+      31
+    ],
+    "original_blocks_one_based": [
+      32
+    ],
+    "time_anchor": "00:24:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fe0ed3a9cd09f5fafb345b212bf5af45cc5ac7f9298d2469118115ccffc8184a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      13,
+      14
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 22,
+    "original_indices_zero_based": [
+      32,
+      33
+    ],
+    "original_blocks_one_based": [
+      33,
+      34
+    ],
+    "time_anchor": "00:25:42",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ddc4228aa24522ed4358f0cc79f050d5b1ce36cb234d8d7ce131ef3c7bae55de",
+      "bd836f2e61675c57edb21ec61c01a2a51adb2c2e64b0dbecad926afd0249393f"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      13,
+      14,
+      15
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 23,
+    "original_indices_zero_based": [
+      34
+    ],
+    "original_blocks_one_based": [
+      35
+    ],
+    "time_anchor": "00:28:37",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "65aa9acd15e12f2481ea3a970462f424a58accd8c5bb587d964595039e9d25c9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      15,
+      16
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 24,
+    "original_indices_zero_based": [
+      35
+    ],
+    "original_blocks_one_based": [
+      36
+    ],
+    "time_anchor": "00:29:44",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5996665919af485acfbe08fe37ab06bf1e4de8af7bb94cdd6d08677ec11d6277"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      16
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 25,
+    "original_indices_zero_based": [
+      36
+    ],
+    "original_blocks_one_based": [
+      37
+    ],
+    "time_anchor": "00:30:28",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a1ef2fd7004f721148a2bd866614329d713dab333bee12640374111260f0fb6b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      16,
+      17,
+      18
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 26,
+    "original_indices_zero_based": [
+      37
+    ],
+    "original_blocks_one_based": [
+      38
+    ],
+    "time_anchor": "00:33:13",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "dc90aa3fd61ce03d8efe09ed62fdfaff578e031fc9813f449a3e1f1721463c6b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      18,
+      19
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 27,
+    "original_indices_zero_based": [
+      38
+    ],
+    "original_blocks_one_based": [
+      39
+    ],
+    "time_anchor": "00:34:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a82dac1a6ff16035f099fea54a64e3ffab56b6d5e5e4faea5f0903b015b1e54d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      18,
+      19
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 28,
+    "original_indices_zero_based": [
+      39
+    ],
+    "original_blocks_one_based": [
+      40
+    ],
+    "time_anchor": "00:35:25",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7c88fd64f9f8a7f7cc8b0ba41ad5a3c65d742b6ca01ebc0b7b121c83ddfa86e9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      19,
+      20
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 29,
+    "original_indices_zero_based": [
+      40
+    ],
+    "original_blocks_one_based": [
+      41
+    ],
+    "time_anchor": "00:36:52",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "edb6e7647dd434dfc27f50e0343633b651a43cecb3bbb68f47387769d5b34d2d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      20
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 30,
+    "original_indices_zero_based": [
+      41
+    ],
+    "original_blocks_one_based": [
+      42
+    ],
+    "time_anchor": "00:38:20",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "23c9c2b0d33fbbfa1bd673f32d71a37878c1cadb99219a552f04312ee271674e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      20,
+      21
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 31,
+    "original_indices_zero_based": [
+      42
+    ],
+    "original_blocks_one_based": [
+      43
+    ],
+    "time_anchor": "00:39:55",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "daa937392e383df72561ab4279c06ce188335a36ad8f6495313e4bdce4e87e6d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      21,
+      22
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 32,
+    "original_indices_zero_based": [
+      43,
+      44
+    ],
+    "original_blocks_one_based": [
+      44,
+      45
+    ],
+    "time_anchor": "00:41:45",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f188bdc32a1067fe49eaeaeca397274ce1056e0ebb212667d0009ee1be259c2a",
+      "16301ca5f88f9bc3704f353b502ba007b1db46d3df1e7c03cfa7eb98313be300"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      22,
+      23
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 33,
+    "original_indices_zero_based": [
+      45
+    ],
+    "original_blocks_one_based": [
+      46
+    ],
+    "time_anchor": "00:43:35",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "79e5d64a1a5439d8b45b9fdacea0b177d90e7f6213a9333d67a2037198373ae7"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 34,
+    "original_indices_zero_based": [
+      46,
+      47,
+      48
+    ],
+    "original_blocks_one_based": [
+      47,
+      48,
+      49
+    ],
+    "time_anchor": "00:49:23",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fb38172add7a1981a2621872b1f8347b6068f0ca5ea4cd90bdaa41d2bce476a1",
+      "30ee555f98be1fc825854400c2acd45da5a796e2a5b65c3f34a9c3e52f4ccbf0",
+      "4b49d940440801bdb96c9836b9cd658bf35ef9044b8f3ba3c83424f86df5389c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      26,
+      27,
+      28
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 35,
+    "original_indices_zero_based": [
+      49,
+      50,
+      51,
+      52
+    ],
+    "original_blocks_one_based": [
+      50,
+      51,
+      52,
+      53
+    ],
+    "time_anchor": "00:51:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a2a9cdfbd5578c0a1e1b1718a40c40a1d70cee2bda7cdafb52f1eb5e6d0f62fb",
+      "f02cf5f5366b10eb82d7b5804e50f8275759154560926619431ff4b8b5e09a6a",
+      "5002eea61f760b3ba36c60e2451af72a8fac746db6d2eb0a45e3b23df90f7602",
+      "0d0fbd1f1ed8aebfb50096c8f2e47fbe61257f3b5912a8b01d154a35dbc7ef7c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      28,
+      29,
+      30
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 36,
+    "original_indices_zero_based": [
+      53
+    ],
+    "original_blocks_one_based": [
+      54
+    ],
+    "time_anchor": "00:55:13",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7642fcf44dd4c16f7c9aa4be7cdf3a9e5f980ae38fe5a8edeac97bcf652579f4"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      30
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 37,
+    "original_indices_zero_based": [
+      54
+    ],
+    "original_blocks_one_based": [
+      55
+    ],
+    "time_anchor": "00:55:39",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "dc43f70b19f82adb89f69d3771f01b61a5a03e86d91df53dee984b1ed50b6a82"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      30
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 38,
+    "original_indices_zero_based": [
+      55
+    ],
+    "original_blocks_one_based": [
+      56
+    ],
+    "time_anchor": "00:56:22",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "da6bc88c79467bccdb811f8d4f51233222a3bc1f81cc35e21053c3ed7519059b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      30,
+      31
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 39,
+    "original_indices_zero_based": [
+      56,
+      57
+    ],
+    "original_blocks_one_based": [
+      57,
+      58
+    ],
+    "time_anchor": "00:57:10",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "220916ad582a71bc3607667b9b414552953224aeea5882ea46560fda43f141b9",
+      "a7756f14249b74714b62fba82e5d1f5f0a76020dc81a21118f7441185520b5df"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      31,
+      32
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 40,
+    "original_indices_zero_based": [
+      58
+    ],
+    "original_blocks_one_based": [
+      59
+    ],
+    "time_anchor": "00:59:13",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "913a9f1d5caa58ae5691cd5bee4784c2a997b081aef4291576a932a9bfe53d68"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 41,
+    "original_indices_zero_based": [
+      59
+    ],
+    "original_blocks_one_based": [
+      60
+    ],
+    "time_anchor": "00:59:41",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "463dddbbea235d3f8633c9855b95a1902d5def62ba2218549ffab25d9c2b6c86"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 42,
+    "original_indices_zero_based": [
+      60
+    ],
+    "original_blocks_one_based": [
+      61
+    ],
+    "time_anchor": "01:00:25",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f43bb74ed83d6b63909a4e69e4a332a6f316743c3b7c4602712a0bea2f34b74b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32,
+      33
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 43,
+    "original_indices_zero_based": [
+      61
+    ],
+    "original_blocks_one_based": [
+      62
+    ],
+    "time_anchor": "01:00:46",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4526850e7eb3d2ad95ced3c0a45fbede621751618b71d83a318526769777ee43"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 44,
+    "original_indices_zero_based": [
+      62
+    ],
+    "original_blocks_one_based": [
+      63
+    ],
+    "time_anchor": "01:01:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "922207e3e14f81f9acb0430c7708f4ecd314d55fe0d1ce553245df4ccd55d88c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 45,
+    "original_indices_zero_based": [
+      63
+    ],
+    "original_blocks_one_based": [
+      64
+    ],
+    "time_anchor": "01:01:40",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fa4d34996eda2f388e25c67f2f92dd259e90c05007a341c70900dbf61068ad00"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 46,
+    "original_indices_zero_based": [
+      64
+    ],
+    "original_blocks_one_based": [
+      65
+    ],
+    "time_anchor": "01:02:16",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "073e824c00888e865f31dda4d2046bf548d69399991a7cf7227d0f66f1e32d31"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33,
+      34
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 47,
+    "original_indices_zero_based": [
+      65
+    ],
+    "original_blocks_one_based": [
+      66
+    ],
+    "time_anchor": "01:03:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e72bf542a1c3a1fcaeafbe2179d02c019a226d2457c1102f699e776d993ba50b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      34,
+      35
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 48,
+    "original_indices_zero_based": [
+      66
+    ],
+    "original_blocks_one_based": [
+      67
+    ],
+    "time_anchor": "01:05:30",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c84e1683dfc4dc15374614edf17259267b72495544f27057dfdb1b87f290b54b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      35,
+      36
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 49,
+    "original_indices_zero_based": [
+      67,
+      68,
+      69
+    ],
+    "original_blocks_one_based": [
+      68,
+      69,
+      70
+    ],
+    "time_anchor": "01:07:21",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "cab542469386f4278180f0b7322c0d8de819022d28b0edd1034ab77a90a05819",
+      "fc3a65d2b54939cfdd59d46fa043415d06104b71160d57ce9e82058f8b671d32",
+      "9ff458afa316a71b0f27e06ebc7bc2d5bb85e7e5f7e976d23c23f05b0d970a15"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      36,
+      37,
+      38
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 50,
+    "original_indices_zero_based": [
+      70
+    ],
+    "original_blocks_one_based": [
+      71
+    ],
+    "time_anchor": "01:10:16",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1eceb0c0c8fad2490a872239ef38121bf888f1b4685fc182dc08d3eace4b937d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      38
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 51,
+    "original_indices_zero_based": [
+      71
+    ],
+    "original_blocks_one_based": [
+      72
+    ],
+    "time_anchor": "01:11:16",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7ca2e261b3a3863230dab9fc7c156fc4a7c7e07d2b5deabbdcd1bd94624117ac"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      38,
+      39
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 52,
+    "original_indices_zero_based": [
+      72,
+      73,
+      74
+    ],
+    "original_blocks_one_based": [
+      73,
+      74,
+      75
+    ],
+    "time_anchor": "01:12:00",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7b33524f85494d23d33308142ab4d6d5a8b73bfceb48f471a2f0f5123e2e935c",
+      "749909b26084c782b9480b13c80ad4a7669b28989c1956d02ef39004462b9f65",
+      "7b12d5abe528934ca7f52a384bc413be5e7a6914b75a6dc43b231660e5b11ef6"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      39,
+      40
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 53,
+    "original_indices_zero_based": [
+      75,
+      76
+    ],
+    "original_blocks_one_based": [
+      76,
+      77
+    ],
+    "time_anchor": "01:15:00",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "6535491189d5b9ab13734f909e8c0c01e8477cf0cea703839c95f33f48a70739",
+      "3e1aab313f03e46a028d3920764ecb3848846d96c8504f96c68093427bc40a88"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      40,
+      41
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 54,
+    "original_indices_zero_based": [
+      77
+    ],
+    "original_blocks_one_based": [
+      78
+    ],
+    "time_anchor": "01:16:48",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a9140fa42ee7c45adbff4d1cd644dab08adb8d55ac468d51bcd32f0496d28ca7"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      41,
+      42
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 55,
+    "original_indices_zero_based": [
+      78
+    ],
+    "original_blocks_one_based": [
+      79
+    ],
+    "time_anchor": "01:18:13",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "df1eb5c468e00aaecd1a5a0121d6fcd0f39310e9c722a68241073d9d17b280f8"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      42,
+      43
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 56,
+    "original_indices_zero_based": [
+      79
+    ],
+    "original_blocks_one_based": [
+      80
+    ],
+    "time_anchor": "01:19:30",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "be94612bb4fd2e4a2bfdbeb8180fb82f5bd62134699a3e28cc64ccb905215a44"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      43
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 57,
+    "original_indices_zero_based": [
+      80
+    ],
+    "original_blocks_one_based": [
+      81
+    ],
+    "time_anchor": "01:20:07",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "71764d073948109b77c88004bc7ad9160bfb1aef589931ec7c2c5897874ad558"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      43,
+      44
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 58,
+    "original_indices_zero_based": [
+      81
+    ],
+    "original_blocks_one_based": [
+      82
+    ],
+    "time_anchor": "01:20:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "030bf7dc82b52d296b6fe11867b224ce699c8468e7c35b30399dd5adc78aa936"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 59,
+    "original_indices_zero_based": [
+      82
+    ],
+    "original_blocks_one_based": [
+      83
+    ],
+    "time_anchor": "01:22:19",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "288ea376f830704c3714f3353b3788ced6cde0344ae2c1b44c4c8b0a114dd53b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44,
+      45
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 60,
+    "original_indices_zero_based": [
+      83
+    ],
+    "original_blocks_one_based": [
+      84
+    ],
+    "time_anchor": "01:23:17",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e3eeb7f316bd0a7550956e4871457342674253b61f07aba52ace306de717af71"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45,
+      46
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 61,
+    "original_indices_zero_based": [
+      84
+    ],
+    "original_blocks_one_based": [
+      85
+    ],
+    "time_anchor": "01:24:26",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4751426526ef5b0716eba37b00e6651e298aa5d88e70cfd7a18e02db706ffce1"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45,
+      46
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 62,
+    "original_indices_zero_based": [
+      85
+    ],
+    "original_blocks_one_based": [
+      86
+    ],
+    "time_anchor": "01:25:45",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "3fe04a41cb0718801a841d1c3f6fe6190afb53d1b3d6a258fd68296c91eeb8d3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      46,
+      47
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 63,
+    "original_indices_zero_based": [
+      86,
+      87
+    ],
+    "original_blocks_one_based": [
+      87,
+      88
+    ],
+    "time_anchor": "01:26:25",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "6ecbce512e8a48f1069dacfa4bd0e7e6c98733daf061d0d022e89c477bd2cd36",
+      "276dd4acb3d31a8a0d0f140f89c8bc86e8feaae0a0be92dd4cb77867df0aef90"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      47
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 64,
+    "original_indices_zero_based": [
+      88
+    ],
+    "original_blocks_one_based": [
+      89
+    ],
+    "time_anchor": "01:27:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "3fccaf0b732c25f08e2470fba806731f4a930af4ceda788bc06b5b52f8b55ab1"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      47,
+      48
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 65,
+    "original_indices_zero_based": [
+      89
+    ],
+    "original_blocks_one_based": [
+      90
+    ],
+    "time_anchor": "01:28:08",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b5bc8f21daeef64142703bba8f3df0ff8e576f2b18648b9687aeebaf9a751782"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      47,
+      48
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 66,
+    "original_indices_zero_based": [
+      90
+    ],
+    "original_blocks_one_based": [
+      91
+    ],
+    "time_anchor": "01:29:00",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "9d3e8c1b73dc399807fb8629f68dc95d3a0c11e833a9b1ffd4740555343d3f38"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      48,
+      49
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 67,
+    "original_indices_zero_based": [
+      91,
+      92
+    ],
+    "original_blocks_one_based": [
+      92,
+      93
+    ],
+    "time_anchor": "01:30:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8c1d60b5c65810aecdc35914002d038a1560177cdaf2aff3122b3453a23066f9",
+      "16756fa7de63d144e8b24c2a6bb45dbdcb474997c8e71e8ab3df5245ad2d6803"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      49
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 68,
+    "original_indices_zero_based": [
+      93
+    ],
+    "original_blocks_one_based": [
+      94
+    ],
+    "time_anchor": "01:31:20",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "90b99e253512b21d0628608c993221635b3cf0528848417d47e9afc9357a431f"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      49
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  },
+  {
+    "paragraph": 69,
+    "original_indices_zero_based": [
+      94
+    ],
+    "original_blocks_one_based": [
+      95
+    ],
+    "time_anchor": "01:31:40",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "94e4cfa20cc0c7e1407bc620ec3e5d076f5310936a7363196379534f0e57cb9b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "asr_alignment_note": "Locator windows intersect approximate source-anchor ranges, not word-level alignment. Failed or unsupported output in windows51–53 is not reliable speech evidence; the last source block ends before the recording ends."
+  }
+]
