@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1210.0,
+  "end_seconds": 1330.0,
+  "text": "Let me draw here an example. Remember we are focusing on PCF. So let's consider one superframe. The superframe starts with the beacon that is transmitted by the access point. And then what happens is that the access point has got a list of user stations that are connected to that access point. We said that already during association, these nodes told the access point if they intend to participate in the PCF phase that as we said is also called contention-free period or not. Okay. So the access point has this list of stations. Let's say A wants to participate, B doesn't, C wants to participate, B wants to participate, E doesn't, F wants and so on. Okay, he has got this list. Now remember this list according to the standard has been compiled during the association phase. So at the very beginning when these nodes joined. Okay. Now at every superframe after the beacon, the access point will go through this list using the so called polling scheme. The polling scheme.",
+  "raw_decoded": "language English<asr_text>Let me draw here an example. Remember we are focusing on PCF. So let's consider one superframe. The superframe starts with the beacon that is transmitted by the access point. And then what happens is that the access point has got a list of user stations that are connected to that access point. We said that already during association, these nodes told the access point if they intend to participate in the PCF phase that as we said is also called contention-free period or not. Okay. So the access point has this list of stations. Let's say A wants to participate, B doesn't, C wants to participate, B wants to participate, E doesn't, F wants and so on. Okay, he has got this list. Now remember this list according to the standard has been compiled during the association phase. So at the very beginning when these nodes joined. Okay. Now at every superframe after the beacon, the access point will go through this list using the so called polling scheme. The polling scheme.<|im_end|>",
+  "generated_tokens": 210,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.870886788999996,
+  "at": "2026-10-18T03:15:14.248803+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

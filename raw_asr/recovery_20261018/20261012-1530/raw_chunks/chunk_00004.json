@@ -1,0 +1,12 @@
+{
+  "start_seconds": 440.0,
+  "end_seconds": 560.0,
+  "text": "Mac layer function says. So in this case, A is like us when we hear something, but we cannot make any sense of it. So semantically, we do not understand. We hear the voice, but semantically, we do not understand what they are telling us. So what we do is, of course, finish hearing what the other person has to say, and then what we do unconsciously is wait, right, and this is what indeed A will do. We'll wait for this extended IFS time, and then after having sensed the channel as idle for this extended IFS time interval, A will resume the normal behavior. Now again, why do we have this in the protocol? Well, because Wi-Fi, as we know already, has a goal to always try and preserve ongoing dialogues, right? That's one of the goals of Wi-Fi now. So if we look at this case here, we have indeed this ongoing dialogue, right, between B and C, and this dialogue is actually taking place successfully. So what Wi-Fi wants to avoid is that others may access the channel and disrupt ongoing dialogues, and.",
+  "raw_decoded": "language English<asr_text>Mac layer function says. So in this case, A is like us when we hear something, but we cannot make any sense of it. So semantically, we do not understand. We hear the voice, but semantically, we do not understand what they are telling us. So what we do is, of course, finish hearing what the other person has to say, and then what we do unconsciously is wait, right, and this is what indeed A will do. We'll wait for this extended IFS time, and then after having sensed the channel as idle for this extended IFS time interval, A will resume the normal behavior. Now again, why do we have this in the protocol? Well, because Wi-Fi, as we know already, has a goal to always try and preserve ongoing dialogues, right? That's one of the goals of Wi-Fi now. So if we look at this case here, we have indeed this ongoing dialogue, right, between B and C, and this dialogue is actually taking place successfully. So what Wi-Fi wants to avoid is that others may access the channel and disrupt ongoing dialogues, and.<|im_end|>",
+  "generated_tokens": 236,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.800006208000923,
+  "at": "2026-10-18T03:11:41.547405+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

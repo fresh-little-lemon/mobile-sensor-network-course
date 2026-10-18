@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2628.7548125,
+  "end_seconds": 2718.7548125,
+  "text": "And we don't know in advance if that will be delayed or for how long. That's another problem because again, your goal in PCF was to provide deterministic channel access and control the delay. Right, you don't want an unpredictable delay in access in the channel. You want to control the delay. So if you are not sure about when a superframe can actually start, but that's not a good start at all to control the delay. So this is a second major issue with PCF. Okay, no ability to control when actually the PCF phase, the superframe, and of course the next PCF phase can start. And then there is a third issue that we are going to explain in five minutes. That's the last one. If you want to think about it, while we have a short break, you can look at that picture and try to guess what could be this third issue.",
+  "raw_decoded": "language English<asr_text>And we don't know in advance if that will be delayed or for how long. That's another problem because again, your goal in PCF was to provide deterministic channel access and control the delay. Right, you don't want an unpredictable delay in access in the channel. You want to control the delay. So if you are not sure about when a superframe can actually start, but that's not a good start at all to control the delay. So this is a second major issue with PCF. Okay, no ability to control when actually the PCF phase, the superframe, and of course the next PCF phase can start. And then there is a third issue that we are going to explain in five minutes. That's the last one. If you want to think about it, while we have a short break, you can look at that picture and try to guess what could be this third issue.<|im_end|>",
+  "generated_tokens": 189,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 21.072330195000177,
+  "at": "2026-10-18T03:22:01.652889+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

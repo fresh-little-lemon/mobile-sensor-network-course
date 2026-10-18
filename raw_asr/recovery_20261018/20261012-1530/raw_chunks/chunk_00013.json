@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1430.0,
+  "end_seconds": 1550.0,
+  "text": "Has got some data to send to C. So in this case, he will of course send, it's in the poll. So, but he will also send a payload with data, right? Because he wants to poll C. But he has got also some data to send that node. So he will send poll, that is a control information plus data. And notice that in this case after sleeps. We have that C is entitled to transmit access the channel and transmit a data packet. Again, assuming that C has something to send. Okay. So the poll scheme is very simple. The other point that each station, while they can access the. So one important observation that we made already is that whenever a station is entitled to access the channel, it accesses the channel and transmits one packet. For how long we don't know a priori, right? It depends on the payload size and the data speed at which that node transmits. Okay. That's that's the first thing that we already said. The other thing that we need to say is how acknowledgments take place in this case, right? Because so far.",
+  "raw_decoded": "language English<asr_text>Has got some data to send to C. So in this case, he will of course send, it's in the poll. So, but he will also send a payload with data, right? Because he wants to poll C. But he has got also some data to send that node. So he will send poll, that is a control information plus data. And notice that in this case after sleeps. We have that C is entitled to transmit access the channel and transmit a data packet. Again, assuming that C has something to send. Okay. So the poll scheme is very simple. The other point that each station, while they can access the. So one important observation that we made already is that whenever a station is entitled to access the channel, it accesses the channel and transmits one packet. For how long we don't know a priori, right? It depends on the payload size and the data speed at which that node transmits. Okay. That's that's the first thing that we already said. The other thing that we need to say is how acknowledgments take place in this case, right? Because so far.<|im_end|>",
+  "generated_tokens": 234,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.685023625999747,
+  "at": "2026-10-18T03:16:12.393871+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

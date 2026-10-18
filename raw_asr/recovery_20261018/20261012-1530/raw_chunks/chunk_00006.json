@@ -1,0 +1,12 @@
+{
+  "start_seconds": 660.0,
+  "end_seconds": 780.0,
+  "text": "The signal from A would collide with the acknowledgement sent by C. And our B, that is now supposed to receive, will have two signals overlapping, and will not be able to demodulate them correctly. So even if in principle this dialogue could have been successful, you'll say, \"And WiFi doesn't want that.\" So what the protocol says is, if you are a node and you are not understanding what is going on on the channel because your physical layer, MAC layer sensing functions, do not match, then as soon as the channel becomes idle again, do nothing, just wait, and this waiting extends for this IFS time. Okay. Now, however, if while a node is waiting for this extended IFS to be completed, if during this time it receives a packet header and is able to read that header and the duration field in that header, then it resumes the normal behavior immediately because it means that at that point it is again understanding what is going on on the channel, so its physical layer and MAC layer sensing function match again, so no need.",
+  "raw_decoded": "language English<asr_text>The signal from A would collide with the acknowledgement sent by C. And our B, that is now supposed to receive, will have two signals overlapping, and will not be able to demodulate them correctly. So even if in principle this dialogue could have been successful, you'll say, \"And WiFi doesn't want that.\" So what the protocol says is, if you are a node and you are not understanding what is going on on the channel because your physical layer, MAC layer sensing functions, do not match, then as soon as the channel becomes idle again, do nothing, just wait, and this waiting extends for this IFS time. Okay. Now, however, if while a node is waiting for this extended IFS to be completed, if during this time it receives a packet header and is able to read that header and the duration field in that header, then it resumes the normal behavior immediately because it means that at that point it is again understanding what is going on on the channel, so its physical layer and MAC layer sensing function match again, so no need.<|im_end|>",
+  "generated_tokens": 221,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.420371321000857,
+  "at": "2026-10-18T03:12:40.651334+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

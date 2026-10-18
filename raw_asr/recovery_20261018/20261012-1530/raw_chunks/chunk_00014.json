@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1540.0,
+  "end_seconds": 1660.0,
+  "text": "What we need to say is how acknowledgments take place in this case, right? Because so far we have not highlighted any acknowledgement here. So what is the acknowledgement? Well, when the station that has been polled by the access point transmits a data packet, if this data packet is correctly received by the access point, then when the access point polls the next station in the header, it will also include a bit that represents the acknowledgement for the station that transmitted earlier. This is called fast ACK. That means we don't wait for the access point to poll that station A in our example again in order to send an ACK to A. Even if here the access point is polling a new station C, the ACK bit in the header of this packet will refer to the previous transmission. So that upon reading the header of this new packet sent by the access point, the previous station can see if its packet was successful or not. Okay, and if the access point.",
+  "raw_decoded": "language English<asr_text>What we need to say is how acknowledgments take place in this case, right? Because so far we have not highlighted any acknowledgement here. So what is the acknowledgement? Well, when the station that has been polled by the access point transmits a data packet, if this data packet is correctly received by the access point, then when the access point polls the next station in the header, it will also include a bit that represents the acknowledgement for the station that transmitted earlier. This is called fast ACK. That means we don't wait for the access point to poll that station A in our example again in order to send an ACK to A. Even if here the access point is polling a new station C, the ACK bit in the header of this packet will refer to the previous transmission. So that upon reading the header of this new packet sent by the access point, the previous station can see if its packet was successful or not. Okay, and if the access point.<|im_end|>",
+  "generated_tokens": 199,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.191171845999634,
+  "at": "2026-10-18T03:16:40.585770+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

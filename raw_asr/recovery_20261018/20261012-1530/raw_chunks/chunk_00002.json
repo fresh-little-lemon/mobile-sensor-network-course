@@ -1,0 +1,12 @@
+{
+  "start_seconds": 220.0,
+  "end_seconds": 340.0,
+  "text": "C are within the same radio range, and let's assume that this data packet transmission in principle is successful. So C can demodulate everything correctly, and is also therefore transmitting back an acknowledgement after a cease. So so far so good. We know this is the let's say usual way of behavior, usual way our nodes behave in Wi-Fi. Now A, as you can see from the top right figure there, can hear B, but is outside the radio range of C. So it means that in this case, what it means is that A can correctly receive from B, but it cannot correctly demodulate the signal any signal coming from from C. Okay. Now, however, we are in a particular let's say unlucky situation, where although typically A can demodulate correctly what B transmits. In this specific case, because remember that channel conditions are always random, right? We are determined by the presence of obstacles, how these obstacles move, where they are. So the quality of the wireless channel is actually can be represented as, statist stochastic. So what A actually does is to hear a signal from B.",
+  "raw_decoded": "language English<asr_text>C are within the same radio range, and let's assume that this data packet transmission in principle is successful. So C can demodulate everything correctly, and is also therefore transmitting back an acknowledgement after a cease. So so far so good. We know this is the let's say usual way of behavior, usual way our nodes behave in Wi-Fi. Now A, as you can see from the top right figure there, can hear B, but is outside the radio range of C. So it means that in this case, what it means is that A can correctly receive from B, but it cannot correctly demodulate the signal any signal coming from from C. Okay. Now, however, we are in a particular let's say unlucky situation, where although typically A can demodulate correctly what B transmits. In this specific case, because remember that channel conditions are always random, right? We are determined by the presence of obstacles, how these obstacles move, where they are. So the quality of the wireless channel is actually can be represented as, statist stochastic. So what A actually does is to hear a signal from B.<|im_end|>",
+  "generated_tokens": 233,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.335473217999606,
+  "at": "2026-10-18T03:10:44.766683+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

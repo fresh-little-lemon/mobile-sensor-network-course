@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2530.0,
+  "end_seconds": 2650.0,
+  "text": "Of the fact that the polling list has been compiled at the beginning, and we do not have real time information on the status of the queues, how many packets each node actually has to transmit. So, we just follow this initial list. That's not efficient. So that's the first problem, kind of stale information in the polling list because we just follow what the the expression of interest of the nodes, but not their actual need to transmit the packet at a certain point in time. So this is the first problem that we have. Another another problem that we have is that as mentioned, right, sorry, here we have at the end of the PCF we have the DCF phase, like shown on battery in that picture, and after the DCF then we have again the beacon. But as discussed already, the beacon may need to be shifted. So whatever traffic should have been pulled here in this new super frame will be delayed, and we don't know in advance if that will be delayed or for how long. That's another problem because again your goal in PCF was to provide deterministic channel access and control the delay, right.",
+  "raw_decoded": "language English<asr_text>Of the fact that the polling list has been compiled at the beginning, and we do not have real time information on the status of the queues, how many packets each node actually has to transmit. So, we just follow this initial list. That's not efficient. So that's the first problem, kind of stale information in the polling list because we just follow what the the expression of interest of the nodes, but not their actual need to transmit the packet at a certain point in time. So this is the first problem that we have. Another another problem that we have is that as mentioned, right, sorry, here we have at the end of the PCF we have the DCF phase, like shown on battery in that picture, and after the DCF then we have again the beacon. But as discussed already, the beacon may need to be shifted. So whatever traffic should have been pulled here in this new super frame will be delayed, and we don't know in advance if that will be delayed or for how long. That's another problem because again your goal in PCF was to provide deterministic channel access and control the delay, right.<|im_end|>",
+  "generated_tokens": 235,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.815990421000606,
+  "at": "2026-10-18T03:21:22.499566+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

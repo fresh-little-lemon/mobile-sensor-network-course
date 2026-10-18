@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1100.0,
+  "end_seconds": 1220.0,
+  "text": "You trust me, so there is no contention. It's the access point that makes decisions about who is going to broadcast. So there is first this phase, and then when this phase first phase ends, we have a second phase within the superframe, where instead we apply the DCF scheme. That is, as we know, a contention based protocol, right? It's distributed, so nodes will contend for the channel, and indeed, this second phase is called contention period. Okay, and then things repeat over and over. So essentially, if we had both PCF and DCF implemented in our WiFi cards, the two schemes PCF and DCF will coexist within the same superframe, and they would be essentially divided, separated, only on a time division basis. Okay, so that's it. This is important, as I was saying. We know already what to do in the second phase of the superframe. When we use the DCF, what we need to explain now, sorry, too much, is what happens when we use PCF. So for for clarity, let me draw here an example. Remember, we are focusing on PCF.",
+  "raw_decoded": "language English<asr_text>You trust me, so there is no contention. It's the access point that makes decisions about who is going to broadcast. So there is first this phase, and then when this phase first phase ends, we have a second phase within the superframe, where instead we apply the DCF scheme. That is, as we know, a contention based protocol, right? It's distributed, so nodes will contend for the channel, and indeed, this second phase is called contention period. Okay, and then things repeat over and over. So essentially, if we had both PCF and DCF implemented in our WiFi cards, the two schemes PCF and DCF will coexist within the same superframe, and they would be essentially divided, separated, only on a time division basis. Okay, so that's it. This is important, as I was saying. We know already what to do in the second phase of the superframe. When we use the DCF, what we need to explain now, sorry, too much, is what happens when we use PCF. So for for clarity, let me draw here an example. Remember, we are focusing on PCF.<|im_end|>",
+  "generated_tokens": 242,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.564671409998482,
+  "at": "2026-10-18T03:14:49.376951+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

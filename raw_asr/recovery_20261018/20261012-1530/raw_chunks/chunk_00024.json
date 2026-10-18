@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2640.0,
+  "end_seconds": 2718.7548125,
+  "text": "Your goal in PCL was to provide deterministic channel access, and control the delay. Right, you don't want an unpredictable delay in accessing the channel. You want to control the delay. So if you are not sure about when a superframe can actually start, well that's not a good start at all to control the delay. So this is a second major issue with PCL. Okay, no ability to control when actually the PCL phase, the superframe, and before the next PCL phase can start. And then there is a third issue that we are going to explain in five minutes. That's the last one. You want to think about it. We have a short break. You can look at that picture and try to think what could be this third issue.",
+  "raw_decoded": "language English<asr_text>Your goal in PCL was to provide deterministic channel access, and control the delay. Right, you don't want an unpredictable delay in accessing the channel. You want to control the delay. So if you are not sure about when a superframe can actually start, well that's not a good start at all to control the delay. So this is a second major issue with PCL. Okay, no ability to control when actually the PCL phase, the superframe, and before the next PCL phase can start. And then there is a third issue that we are going to explain in five minutes. That's the last one. You want to think about it. We have a short break. You can look at that picture and try to think what could be this third issue.<|im_end|>",
+  "generated_tokens": 162,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 18.077654910001,
+  "at": "2026-10-18T03:21:40.579544+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

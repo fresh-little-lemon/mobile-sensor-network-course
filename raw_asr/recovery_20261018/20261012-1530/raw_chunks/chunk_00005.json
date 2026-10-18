@@ -1,0 +1,12 @@
+{
+  "start_seconds": 550.0,
+  "end_seconds": 670.0,
+  "text": "May access the channel and disrupt ongoing dialogues. And the use of extended FAS will serve that purpose. Why? Because again, a malicious study our little gamer. If we didn't have these extended FAS, what could happen? Is that A, during this time, okay, the channel is busy at the physical layer. But then after that, here the channel for A is idle both at the physical layer and at the MAC layer because A could not start its now. So if A gets a packet, it can sense the channel as idle for gifts here. And potentially access the channel and transmit. In that case, if A did that, then we would have at the receiver essentially the possibility. Of so the receiver of the acknowledgement is B, right? So we'll have at B the possibility that these two transmissions collide. Because during this time, B will receive the acknowledgment. If A started transmitting, the signal from A would collide with the acknowledgement sent by C. And our B.",
+  "raw_decoded": "language English<asr_text>May access the channel and disrupt ongoing dialogues. And the use of extended FAS will serve that purpose. Why? Because again, a malicious study our little gamer. If we didn't have these extended FAS, what could happen? Is that A, during this time, okay, the channel is busy at the physical layer. But then after that, here the channel for A is idle both at the physical layer and at the MAC layer because A could not start its now. So if A gets a packet, it can sense the channel as idle for gifts here. And potentially access the channel and transmit. In that case, if A did that, then we would have at the receiver essentially the possibility. Of so the receiver of the acknowledgement is B, right? So we'll have at B the possibility that these two transmissions collide. Because during this time, B will receive the acknowledgment. If A started transmitting, the signal from A would collide with the acknowledgement sent by C. And our B.<|im_end|>",
+  "generated_tokens": 206,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.68221721000009,
+  "at": "2026-10-18T03:12:09.230298+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

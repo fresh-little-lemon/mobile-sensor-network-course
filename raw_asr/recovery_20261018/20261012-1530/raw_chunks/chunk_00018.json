@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1980.0,
+  "end_seconds": 2100.0,
+  "text": "The DCF function that we know about. Okay. Is this clear so far? Okay. So now we are here, right? We are at the end of the superframe. As we know, we'll have the beacon and a new superframe. We start and everything will repeat again and again. But let's think about for a moment what happens at the end of this contention period when we apply DCF. Okay. Why? Because we know that the beacon is a packet that the access point should broadcast periodically. But what if a station sizes the channel right before the beacon time? TBTT means target beacon transmission time. So this is the time at which in theory the beacon should be transmitted every 100 milliseconds. But the beacon can be transmitted when we finish DCF. Right. And during DCF our nodes contend for the channel according to the rules that we already know. So assume that a node here has got a packet to transmit. Sizes the channel as idle for this. And then it can access the channel and transmit the packet. And a packet transmission of course will run.",
+  "raw_decoded": "language English<asr_text>The DCF function that we know about. Okay. Is this clear so far? Okay. So now we are here, right? We are at the end of the superframe. As we know, we'll have the beacon and a new superframe. We start and everything will repeat again and again. But let's think about for a moment what happens at the end of this contention period when we apply DCF. Okay. Why? Because we know that the beacon is a packet that the access point should broadcast periodically. But what if a station sizes the channel right before the beacon time? TBTT means target beacon transmission time. So this is the time at which in theory the beacon should be transmitted every 100 milliseconds. But the beacon can be transmitted when we finish DCF. Right. And during DCF our nodes contend for the channel according to the rules that we already know. So assume that a node here has got a packet to transmit. Sizes the channel as idle for this. And then it can access the channel and transmit the packet. And a packet transmission of course will run.<|im_end|>",
+  "generated_tokens": 229,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.00903804799964,
+  "at": "2026-10-18T03:18:35.517833+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 330.0,
+  "end_seconds": 450.0,
+  "text": "So what A actually does is to hear a signal from B, but it cannot, because of a channel error, demodulate correctly what B is transmitting. So we are in a lucky case where suddenly the wireless channel between A and B deteriorates due to multipath fading, for example. So as Mark here, A in this unfortunate situation will sense the channel as busy because it can hear B, of course. But as I said, we have an error in the modulation stage, and A cannot extract the value of the duration field correctly. So if I cannot read the duration field, clearly I cannot set the now, right? So what A will do during this time is to have the physical sensing, the physical layer sensing function saying the channel is busy. But at the MAC layer, A cannot set the now. So the virtual sensing function at the MAC layer will say channel idle. So we have a mismatch between what the physical layer sensing function says and what the MAC layer function says. So in this case, A is like us when we hear.",
+  "raw_decoded": "language English<asr_text>So what A actually does is to hear a signal from B, but it cannot, because of a channel error, demodulate correctly what B is transmitting. So we are in a lucky case where suddenly the wireless channel between A and B deteriorates due to multipath fading, for example. So as Mark here, A in this unfortunate situation will sense the channel as busy because it can hear B, of course. But as I said, we have an error in the modulation stage, and A cannot extract the value of the duration field correctly. So if I cannot read the duration field, clearly I cannot set the now, right? So what A will do during this time is to have the physical sensing, the physical layer sensing function saying the channel is busy. But at the MAC layer, A cannot set the now. So the virtual sensing function at the MAC layer will say channel idle. So we have a mismatch between what the physical layer sensing function says and what the MAC layer function says. So in this case, A is like us when we hear.<|im_end|>",
+  "generated_tokens": 218,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.97941860500032,
+  "at": "2026-10-18T03:11:11.746732+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

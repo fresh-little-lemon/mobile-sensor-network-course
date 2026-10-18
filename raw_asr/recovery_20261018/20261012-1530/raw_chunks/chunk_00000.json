@@ -1,0 +1,12 @@
+{
+  "start_seconds": 0.0,
+  "end_seconds": 120.0,
+  "text": "As we said, now we need this last piece. We understand this because it's him. That is the use of external FS. So the definition is actually simple, although I can understand that it might be a bit obscure at the beginning, meaning that this external FS is used whenever node knows. Senses the channel as busy at the physical layer, but at the mic layer, you cannot say it's not. Essentially, at the mic layer, the channel is still sensed as idle, although the node actually senses that the channel in a way is busy at the physical layer. So clearly, it's used in the case of an error. Something is wrong, right? Because we get different feedbacks from the physical layer and from the mic layer about the state of the channel. So there is a mismatch between physical and environmental sensing. That's when we use the external FS. Now, if you think about it again, is what we do as human beings when someone is talking. So we we know that someone is talking, but we do not understand what this guy is saying. Clearly.",
+  "raw_decoded": "language English<asr_text>As we said, now we need this last piece. We understand this because it's him. That is the use of external FS. So the definition is actually simple, although I can understand that it might be a bit obscure at the beginning, meaning that this external FS is used whenever node knows. Senses the channel as busy at the physical layer, but at the mic layer, you cannot say it's not. Essentially, at the mic layer, the channel is still sensed as idle, although the node actually senses that the channel in a way is busy at the physical layer. So clearly, it's used in the case of an error. Something is wrong, right? Because we get different feedbacks from the physical layer and from the mic layer about the state of the channel. So there is a mismatch between physical and environmental sensing. That's when we use the external FS. Now, if you think about it again, is what we do as human beings when someone is talking. So we we know that someone is talking, but we do not understand what this guy is saying. Clearly.<|im_end|>",
+  "generated_tokens": 225,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.81610420600009,
+  "at": "2026-10-18T03:09:39.334420+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}

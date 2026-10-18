@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2420.0,
+  "end_seconds": 2540.0,
+  "text": "You can transmit, so it's more deterministic. So you may wonder again, it's a good thing, it could help to support quality service, reduce the delay that a node may experience when it needs to access the channel and transmit packet. Why didn't they implement it? So what do you think? Why? Why didn't they implement this scheme? What is wrong with that? One thing, and hint that I want to give you is, for example, focus on this possibility. Is this exchange useful? Is this efficient? No right, it's full null, where are the data there? No data, so we waste time for really nothing. Because this may happen, the access point may poll a station that does not have any data. The access point does not have any data for that station and still, according to PCF, if D is in the list, I have to poll it. The access point has to poll it. This is not good, right? There is the possibility of having a significant inefficiency there because of the fact that the poll list has been compiled at the beginning and we do not have real time information on these.",
+  "raw_decoded": "language English<asr_text>You can transmit, so it's more deterministic. So you may wonder again, it's a good thing, it could help to support quality service, reduce the delay that a node may experience when it needs to access the channel and transmit packet. Why didn't they implement it? So what do you think? Why? Why didn't they implement this scheme? What is wrong with that? One thing, and hint that I want to give you is, for example, focus on this possibility. Is this exchange useful? Is this efficient? No right, it's full null, where are the data there? No data, so we waste time for really nothing. Because this may happen, the access point may poll a station that does not have any data. The access point does not have any data for that station and still, according to PCF, if D is in the list, I have to poll it. The access point has to poll it. This is not good, right? There is the possibility of having a significant inefficiency there because of the fact that the poll list has been compiled at the beginning and we do not have real time information on these.<|im_end|>",
+  "generated_tokens": 239,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 36.22102925699983,
+  "at": "2026-10-18T03:20:50.682893+00:00",
+  "source_sha256": "fc488dfbf481dadbf3c425151474822e4e8c1549c5c3a4f960f8ec16e26e44da"
+}
