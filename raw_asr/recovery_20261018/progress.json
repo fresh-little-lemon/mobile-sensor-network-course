@@ -1,8 +1,11 @@
 {
-  "status": "running",
+  "status": "partial_raw_asr_published",
   "recording_id": "20261010-1000",
-  "completed_chunks": 8,
-  "covered_until_seconds": 890.0,
+  "published_chunks": 33,
+  "covered_until_seconds": 3640,
   "duration_seconds": 5838.8665625,
-  "at": "2026-10-18T02:24:55.965273+00:00"
+  "whole_recording_complete": false,
+  "commit": "66b89eba41a726ebd42928ade4201727e0ab9b00",
+  "remote_byte_verification": "all_33_match",
+  "verified_at": "2026-10-18T02:36:23+00:00"
 }
