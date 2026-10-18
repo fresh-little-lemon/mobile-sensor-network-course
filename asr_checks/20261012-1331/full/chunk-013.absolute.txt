@@ -1,0 +1,19 @@
+[00:35:45.000 --> 00:36:01.260] avoid collisions. So the basic principle, the basic idea is very simple. Whenever
+[00:36:01.260 --> 00:36:09.600] there is a crowded situation, you try to desynchronize from the others
+[00:36:09.600 --> 00:36:19.780] so that you find a free route ahead and this is exactly the same thing so if there is
+[00:36:19.780 --> 00:36:25.360] peak hour you don't want to jump into the traffic right or the others you
+[00:36:25.360 --> 00:36:33.500] try to pick, you wait, you try to pick a time at which not many other people
+[00:36:33.500 --> 00:36:41.580] will be there and this is exactly the same principle. You try to pick a time in
+[00:36:41.580 --> 00:36:50.260] order to desynchronize your action with respect to the others and this way you
+[00:36:50.260 --> 00:36:57.240] avoid meeting and fake aligning with the others or finding yourself in a
+[00:36:58.680 --> 00:37:08.880] That's exactly the same principle. Now what I would like to underline is that
+[00:37:08.880 --> 00:37:15.040] so we observe with our first observation is that the cough is a
+[00:37:15.600 --> 00:37:24.540] mechanism for avoiding collisions but it is still probabilistic. Why?
+[00:37:24.540 --> 00:37:52.200] because if, like in our example, both B and C draw the same value of the cough
+[00:37:52.200 --> 00:38:22.100] they are going to collide okay so if for example C2 drew two as an integer then they will not be
+[00:38:22.100 --> 00:38:31.880] the cough counter during the first time slot and then again during the second time slot
+[00:38:32.980 --> 00:38:40.500] but under the assumption that they now both drew 2 as an integer
+[00:38:42.100 --> 00:38:50.680] they will decrease the cough counter to zero exactly at the same time
+[00:38:51.320 --> 00:38:56.420] that means that they will access the channel exactly at the same time and collide.
+[00:38:58.640 --> 00:39:07.620] So the cough is a way to avoid collisions but it does not avoid collisions with probability one.
+[00:39:09.680 --> 00:39:14.700] There is still a certain probability with which

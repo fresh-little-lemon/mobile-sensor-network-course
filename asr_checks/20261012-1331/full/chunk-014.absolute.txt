@@ -1,0 +1,20 @@
+[00:38:45.000 --> 00:38:52.720] give the cough counter to zero exactly at the same time. That means that they will
+[00:38:52.720 --> 00:39:01.640] access the channel exactly at the same time and collide. So the cough is a way
+[00:39:01.640 --> 00:39:07.660] to avoid collisions but it does not avoid collisions with probability one.
+[00:39:07.660 --> 00:39:18.020] Now, there is still a certain probability with which the nodes, the contending nodes,
+[00:39:18.740 --> 00:39:26.680] may collide, so it's a probabilistic collision avoidance mechanism.
+[00:39:28.460 --> 00:39:35.200] Okay, this is our first observation, is it clear so far?
+[00:39:35.200 --> 00:39:55.720] Now, if this is clear, let me make a second, we have a second observation to make, we
+[00:39:55.980 --> 00:40:07.340] close to the break but let me start introducing it and then we will finish after the short break
+[00:40:13.420 --> 00:40:24.320] so the second observation that i want to make is about the benefit of increasing
+[00:40:24.320 --> 00:40:36.420] the contention window parameter every time we need to perform a COF procedure for a
+[00:40:36.420 --> 00:40:46.760] given data packet. So let's consider still the same example as before, so we still have
+[00:40:46.760 --> 00:40:53.360] access point, A, B and C, A, talk with the access point, then B and C get the packet,
+[00:40:54.000 --> 00:41:00.720] both of them, while the channel is busy, so they need to apply it to the path
+[00:41:01.560 --> 00:41:08.740] and they need to draw the quorum after having sensed the channel as either for dips
+[00:41:08.740 --> 00:41:23.900] an integer. Out of, as we know, out of this range of values, because this is the first time that they run the
+[00:41:23.900 --> 00:41:32.680] backoff for the packet, so they both use zero contention with the minimum as a possible range,
+[00:41:32.680 --> 00:41:43.560] as a range of possible integers to be selected. So how many values are in this range?
+[00:41:45.020 --> 00:41:55.340] There are c, w, min, plus one integers, right? Because the subunit including the zero is plus one.
+[00:41:55.340 --> 00:42:05.160] this is the number of integers in that range. Okay, so what we want to compute, since we
+[00:42:05.160 --> 00:42:14.960] said that because it's a probabilistic collision avoidance mechanism, is the

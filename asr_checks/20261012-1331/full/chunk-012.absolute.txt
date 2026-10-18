@@ -1,0 +1,21 @@
+[00:32:45.000 --> 00:32:57.020] B and C do? Well we still have carrier sensing right multiple access so since both B and C
+[00:32:57.640 --> 00:33:06.520] sense the channel as busy because they have their mouth set they cannot access the channel
+[00:33:06.520 --> 00:33:16.240] right, till the channel is busy. I cannot access the channel. So for sure B and C will again
+[00:33:17.240 --> 00:33:23.980] wait for the channel to be idle, make sure that the channel is idle,
+[00:33:25.340 --> 00:33:34.240] but then if there is no because, they can just access the channel, right, because now the
+[00:33:34.240 --> 00:33:40.600] channel is idle, so they say oh channel idle I can access the channel and
+[00:33:40.600 --> 00:33:46.280] transmit, remember we are playing this small game assuming that there is no
+[00:33:46.580 --> 00:34:02.860] off. So what we have is that, no because, we have both transmitting their data packet
+[00:34:04.180 --> 00:34:09.660] after having sensed the channel item.
+[00:34:11.520 --> 00:34:23.280] so what we have here collision right they both access the channel at the same
+[00:34:23.280 --> 00:34:31.140] time with probability one it is sure that they will do that and of course
+[00:34:31.140 --> 00:34:38.160] they will fail because they overlap their transmissions overlap and the
+[00:34:38.160 --> 00:34:47.280] point will not be able to demodulate correctly either this part. So what is
+[00:34:47.280 --> 00:34:55.880] the first conclusion here? That the BECAF procedure has been introduced in our
+[00:34:55.880 --> 00:35:08.040] system in order to avoid collisions between contending nodes. Our contending
+[00:35:08.040 --> 00:35:16.900] nodes in these examples are B and C, right? They are contending for the channel. And the BECAF
+[00:35:16.900 --> 00:35:27.720] procedure is there to avoid the collision between them. So again, remember that we said
+[00:35:28.440 --> 00:35:37.260] Wi-Fi is a CSMA scheme with collision avoidance.
+[00:35:38.040 --> 00:35:52.500] This payoff is a mechanism that helps to avoid collisions. So the basic
+[00:35:52.500 --> 00:36:04.440] principle, the basic idea is very simple. Whenever there is a crowded situation
+[00:36:04.440 --> 00:36:13.280] right? You try to desynchronize from the others so that you'll find a free...
