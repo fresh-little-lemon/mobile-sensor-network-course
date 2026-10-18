@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4730.0,
+  "end_seconds": 4850.0,
+  "text": "WiFi five, six, seven. B four min works very well. So now, when we have our phone that, for example, communicates through WiFi with our home access point, there is actually a beam between the WiFi card in the phone and the access point at all. Okay, the transmission and reception happens over this beam. Okay, so that's that's something useful at the physical layer. The other the other thing that we have in WiFi four and even more in the subsequent versions is that. Remember what we said about the usage of the spectrum, right? WiFi may work at 2.4 gigahertz, 5 gigahertz, or 6 gigahertz. And when it works at 2.4 gigahertz, there are three possible channels available. We represented them in this way, if you remember the figure. When we work at 5 gigahertz, there are actually two alt. When we work, and we are not laughing, when we work at 6 gigahertz, there are even more, we are not laughing. And each of these frequency bands we said, just to give a roughly roughly number, is 20 megahertz wide. Okay, so the width of each channel is one less 20 megahertz.",
+  "raw_decoded": "language English<asr_text>WiFi five, six, seven. B four min works very well. So now, when we have our phone that, for example, communicates through WiFi with our home access point, there is actually a beam between the WiFi card in the phone and the access point at all. Okay, the transmission and reception happens over this beam. Okay, so that's that's something useful at the physical layer. The other the other thing that we have in WiFi four and even more in the subsequent versions is that. Remember what we said about the usage of the spectrum, right? WiFi may work at 2.4 gigahertz, 5 gigahertz, or 6 gigahertz. And when it works at 2.4 gigahertz, there are three possible channels available. We represented them in this way, if you remember the figure. When we work at 5 gigahertz, there are actually two alt. When we work, and we are not laughing, when we work at 6 gigahertz, there are even more, we are not laughing. And each of these frequency bands we said, just to give a roughly roughly number, is 20 megahertz wide. Okay, so the width of each channel is one less 20 megahertz.<|im_end|>",
+  "generated_tokens": 266,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 39.56416081200041,
+  "at": "2026-10-18T03:55:00.775616+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

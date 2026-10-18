@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4840.0,
+  "end_seconds": 4960.0,
+  "text": "Twenty megahertz wide, okay. So the width of each channel is one less twenty megahertz. Okay, so what in Wi-Fi they try to do was to try and increase the speed of transmission of the nodes, right? We want to be as fast as possible. So in order to give the possibility to the Wi-Fi nodes to increase the speed, they allow the VSS and for the access point stations to use not just one channel, but for example to work on two channels at the same time. So to aggregate two channels, and this means that instead of transmitting only on this portion of the spectrum, you have now double the bandwidth. So you can essentially double your speed, your transmission speed by doing that, okay. So you can use essentially instead of twenty, you can use forty megahertz as a bandwidth, which makes your transmissions faster, as I was saying. Also, if you remember what we said about modulations, we now accommodate for more efficient modulations. This means that essentially you have sixteen signals in your constellation.",
+  "raw_decoded": "language English<asr_text>Twenty megahertz wide, okay. So the width of each channel is one less twenty megahertz. Okay, so what in Wi-Fi they try to do was to try and increase the speed of transmission of the nodes, right? We want to be as fast as possible. So in order to give the possibility to the Wi-Fi nodes to increase the speed, they allow the VSS and for the access point stations to use not just one channel, but for example to work on two channels at the same time. So to aggregate two channels, and this means that instead of transmitting only on this portion of the spectrum, you have now double the bandwidth. So you can essentially double your speed, your transmission speed by doing that, okay. So you can use essentially instead of twenty, you can use forty megahertz as a bandwidth, which makes your transmissions faster, as I was saying. Also, if you remember what we said about modulations, we now accommodate for more efficient modulations. This means that essentially you have sixteen signals in your constellation.<|im_end|>",
+  "generated_tokens": 218,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.713862074000644,
+  "at": "2026-10-18T03:55:27.490123+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}

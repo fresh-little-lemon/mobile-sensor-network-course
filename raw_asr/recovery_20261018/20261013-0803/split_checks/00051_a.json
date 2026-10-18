@@ -1,0 +1,14 @@
+{
+  "start_seconds": 5610.0,
+  "end_seconds": 5675.0,
+  "text": "",
+  "raw_decoded": "language None<asr_text><|im_end|>",
+  "generated_tokens": 4,
+  "last_token": 151645,
+  "flags": [
+    "empty_output"
+  ],
+  "inference_seconds": 2.5923780579996674,
+  "at": "2026-10-18T04:00:13.578652+00:00",
+  "source_sha256": "8a8d6435cf537922faf62fdde757de95505603a6ec49f509e222a101f67b851b"
+}
