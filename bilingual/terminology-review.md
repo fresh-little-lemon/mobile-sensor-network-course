@@ -330,3 +330,21 @@
 - **广播/多播确认**：讲者讲的是基础传统组播/广播发送，不逐个接收者返回普通单播ACK；“只发一次”应在该课堂范围内理解，不能据此否认其他版本或增强机制。未用后续标准功能改写课堂发言。
 - **BSS、ESS与地址字段**：原段86的“独立BSS只需发射/接收两个地址”是过度简化；标准数据帧即使源/发送者、目的/接收者身份重合，也仍可能有第三个BSSID字段。RA/TA是当前无线一跳收发者，SA/DA是端到端源/目的；不能把逻辑角色数直接当作帧中字段数。四地址帧对应To DS=From DS=1的无线分布场景，而不是只要两个AP通过有线网络连接、属于ESS，就必然在它们之间传四地址802.11帧。正文保留讲者原话，并在校订版标明范围问题。[Cisco帧地址字段说明](https://community.cisco.com/t5/networking-knowledge-base/802-11-frames-a-starter-guide-to-learn-wireless-sniffer-traces/ta-p/3110019) · [Cisco对WDS无线AP互联的定义](https://www.cisco.com/c/en/us/support/docs/smb/wireless/cisco-small-business-100-series-wireless-access-points/smb2040-connect-multiple-access-points-together-through-wireless-dis.html?dtid=osscdc000283)
 - **开销、basic rate与50–55%效率**：前导、PHY头、MAC头、帧间间隔及ACK占用时间是课堂解释重点。不同PHY前导/头的发送规则并不能全部概括成“一个basic rate”；1 Mb/s是本段示例。50–55%是讲者给出的粗略效率估计，录音未提供负载、帧长、PHY速率、聚合和重传等实验条件，不把它写成所有Wi-Fi版本的固定上限或经验证结论。
+
+
+
+## 20261012-1530｜EIFS、PCF轮询与信标延迟
+
+以下是独立技术核查，不是讲者新增发言，也不用于把听不清的片段补成标准条文。正文保留讲者的历史协议讲解和教学简化；本节注明适用范围。
+
+- **EIFS／Extended Interframe Space／扩展帧间间隔**：external FS、extended effects、external force等均按同课明确的extended IFS统一。讲者用“物理层与MAC层侦听不一致”解释动机；正式条件更具体，包括接收结束报告错误或MAC FCS错误，不是任何忙闲不一致都触发。提前结束EIFS的标准表述是收到无差错帧后恢复接入规则，不只是“能读出头部”；恢复后仍按DIFS及必要的退避操作，不能理解为立即发送。[IEEE 802.11-2012，9.3.2.3.7（历史标准，第三方镜像）](https://mrncciew.com/wp-content/uploads/2014/10/ieee-802-11-2012.pdf#page=926)
+- **NAV／Network Allocation Vector／网络分配向量**：本例A听到B却无法正确接收其Duration信息，因而没有从该帧建立预留；“NAV空闲”不等于物理信道必然空闲。原文闹钟、nap、now等据上下文修复。A/B/C的无线范围和信道衰落条件保留原例，不推断新的拓扑。
+- **PCF／Point Coordination Function／点协调功能**与**DCF／Distributed Coordination Function／分布式协调功能**：PCF是AP内点协调器控制的轮询接入，DCF是课堂前文的竞争接入。原文PCS、PCL、VCS及ASR将协议名误作PIFS的地方按整段对象区分，不能将协议PCF与帧间隔PIFS混同。
+- **CFP／无竞争期与CP／竞争期**：课堂采用一个信标间隔内先CFP后CP的简化图。历史标准还允许CFP按若干信标/DTIM间隔重复，并非每个信标之后都必有CFP。正文照录“superframe”，不把示例扩展为所有配置的定义。[IEEE历史PCF方案，5.3.1及图5-16](https://www.ieee802.org/11/Documents/DocumentArchives/1995_docs/1195101_scan.pdf#page=4)
+- **CF-Poll、数据与确认的合并**：讲者的fast ACK是在解释对前一传输的及时捎带确认；正式帧子类型使用CF-ACK，可与Data、CF-Poll组合。它不是把一个完整ACK分组塞进另一个MAC头部。正文“ACK packet in the header”两种转写均有，故保留并在此说明，未无声改口。历史资料明确允许发往新站点的帧携带对上一站点的确认。[IEEE历史PCF方案，5.3.3.1](https://www.ieee802.org/11/Documents/DocumentArchives/1995_docs/1195101_scan.pdf#page=8)
+- **Null frame／空帧**：表示此轮没有数据可发的课堂说明保留；“control packet”是用途描述，不等于MAC Type字段的Control分类。不能把Null frame理解成根本没有发送任何帧。**CF-End／无竞争结束帧**结束CFP；原文contention free period and按上下文推定为end，校订版保留推定标记。[IEEE历史PCF方案，5.3.3.1](https://www.ieee802.org/11/Documents/DocumentArchives/1995_docs/1195101_scan.pdf#page=9)
+- **SIFS、PIFS、DIFS**：本例连续成功交换用SIFS；“PCF期间所有分组一律SIFS、完全不侦听”不能泛化。未收到预期响应时可用PIFS恢复控制，历史方案也明确列出CCA条件。PIFS比DCF竞争使用的DIFS短；正文第二个比较项的ASR不可靠，按论证推定DIFS并保留不确定性。[IEEE历史PCF方案，5.3.2.1与5.3.3.1](https://www.ieee802.org/11/Documents/DocumentArchives/1995_docs/1195101_scan.pdf#page=6)
+- **TBTT／Target Beacon Transmission Time／目标信标发送时间**：信标可因正在进行的DCF交换而延迟，目标时刻与实际发送时刻要区分。课堂每100毫秒是示例，不是标准固定值；100 TU等于102.4毫秒。原段40的100 seconds由独立ASR直接支持修为100 milliseconds，不将讲者数字改为100 TU。[Linux Wireless对TBTT与TU的说明](https://linuxwireless.sipsolutions.net/en/developers/Documentation/ieee80211/power-savings/__v3.html)
+- **Polling list／轮询列表与实时队列信息**：关联时表达参与意愿，不代表标准要求列表永不更新。历史标准有重关联和动态加入列表的机制；课堂关于轮询空队列、缺乏精细实时状态所导致低效的论证仍然保留。[IEEE 802.11-2012，9.4.5.3（历史标准，第三方镜像）](https://mrncciew.com/wp-content/uploads/2014/10/ieee-802-11-2012.pdf#page=950)
+- **“PCF仍在标准中”是有年代限制的课堂陈述**：不应将其作为当前标准状态。IEEE TGmd的2018年1月工作记录已经记载批准删除PCF；正文仍照录讲者说法，而不替讲者改写。“商用产品未实现”也没有在本次转写核查中作为覆盖全部产品的市场调查结论验证。[IEEE工作组2018年1月记录](https://grouper.ieee.org/groups/802/11/email/stds-802-11-cac/msg02707.html)
+- **时延与未讲完的第三个问题**：本段讲了轮询空队列的开销及信标起点被延迟的问题，最后只预告第三点。可变载荷及发送速率已在正文出现，但不能据此把下一段录音的完整第三点提前写入本段。
