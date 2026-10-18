@@ -1,0 +1,93 @@
+{
+  "20261013-0803_0005610000_0005625000.json": {
+    "original_file": "whisper/20261013-0803_0005610000_0005625000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.40178900957107544,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005625000_0005640000.json": {
+    "original_file": "whisper/20261013-0803_0005625000_0005640000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.37244442105293274,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005640000_0005655000.json": {
+    "original_file": "whisper/20261013-0803_0005640000_0005655000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.5552062392234802,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005655000_0005670000.json": {
+    "original_file": "whisper/20261013-0803_0005655000_0005670000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.47282537817955017,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005670000_0005685000.json": {
+    "original_file": "whisper/20261013-0803_0005670000_0005685000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.33526742458343506,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005685000_0005700000.json": {
+    "original_file": "whisper/20261013-0803_0005685000_0005700000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.2893095910549164,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005700000_0005715000.json": {
+    "original_file": "whisper/20261013-0803_0005700000_0005715000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.4042065143585205,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005715000_0005730000.json": {
+    "original_file": "whisper/20261013-0803_0005715000_0005730000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.2870073616504669,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005730000_0005745000.json": {
+    "original_file": "whisper/20261013-0803_0005730000_0005745000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.684082567691803,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005745000_0005760000.json": {
+    "original_file": "whisper/20261013-0803_0005745000_0005760000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.3457198739051819,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005760000_0005775000.json": {
+    "original_file": "whisper/20261013-0803_0005760000_0005775000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.47346219420433044,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005775000_0005790000.json": {
+    "original_file": "whisper/20261013-0803_0005775000_0005790000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.3281998634338379,
+    "not_in_top5_means_unavailable_not_zero": true
+  },
+  "20261013-0803_0005790000_0005805000.json": {
+    "original_file": "whisper/20261013-0803_0005790000_0005805000.json",
+    "correction": "Original no_speech_probability used an unsupported tokenizer alias; it is invalid. HF Whisper uses <|nocaptions|>. Correct value recovered exactly from saved first-token distribution where available. No output text changed.",
+    "no_speech_token": "<|nocaptions|>",
+    "correct_no_speech_probability": 0.42918479442596436,
+    "not_in_top5_means_unavailable_not_zero": true
+  }
+}
