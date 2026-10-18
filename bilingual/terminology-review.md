@@ -314,3 +314,19 @@
 6. “其他节点是B”在两种转写中均出现，但后续修改后的例子明确指A和接入点二。这是保留的讲话疑点，并非译文擅自改换节点。
 
 [26] Cisco，DPC/EPC系列无线参数说明，RTS Threshold默认值：https://www.cisco.com/en/US/docs/video/at_home/Cable_Modems/2300_Series/4042832_A.pdf
+
+
+## 20261012-1331｜竞争窗口、概率退避与发送后退避
+
+本节将录音校订与专业解释分开。以下补充不是讲者新增发言，也不用于填补听不清的词句。
+
+- **Backoff／退避**：随机计数器按空闲时隙递减；忙时冻结，重新满足等待条件后继续，不能把冻结理解成重新随机抽取。本录音中的backup、because、kickoff、beak of等统一按退避语境修订。
+- **CW、CW_min、CW_max与退避指数**：课堂写法为CW=2^BE−1。未到上限时递增指数对应CW_new=2(CW_old+1)−1，因此31变63，不是精确的31×2。随机整数范围[0,CW]包含CW+1个值。CW_min不是每次失败都增大的变量；原段7的“contention window minimum value”是讲者口头用语，英文留标记。早期示例BE=5、CW_min=31不代表所有PHY或接入类别都用31。[IEEE工作组关于CW递增式的说明](https://www.ieee802.org/11/email/stds-802-11/msg02014.html)
+- **碰撞概率1/(CW+1)**：课堂推导是在两个节点独立地从相同的CW+1个整数中均匀抽取、同时开始倒计时且其余条件相同的简化例子中成立：Σ_n P(B=n)P(C=n)=(CW+1)/(CW+1)^2。不能把它直接当成任意节点数或真实网络负载下的总体碰撞概率。这是对讲稿推导适用条件的说明。
+- **Post-backoff／发送后退避**：这里讨论成功传输后的退避及公平性，不是叫“fast backoff”的另一种快速算法。早期两种转写都近似fast，但同一录音后文反复明确post-backoff，所以标注为上下文推定。讲者提到“仅有一点不同”，本段录音没有完整展开所有队列与计数器细节，不自行补讲。商业网卡实验的研究者和型号未在来源中明确，未补造引用或名称。
+- **失败不等于碰撞**：ACK缺失也可能来自信道差错；讲者的“Wi-Fi假设拥挤”是在解释退避设计，不表示协议能准确判定每次失败原因。扩大窗口可能增加接入时延，这一点保留原口语论述。
+- **DIFS、SIFS、PIFS、EIFS**：数据竞争前的DIFS与ACK前的SIFS不能混用；末尾ASR的PIFS/SIFS混淆依据原始文本及语境修正。50 μs DIFS属于课堂所取的早期参数示例；DIFS=SIFS+2×slot time，数值依PHY而变，不能推广到所有Wi-Fi。约300 μs EIFS也是讲者给的近似量级。[Cisco的早期DCF时序示例](https://www.cisco.com/en/US/docs/solutions/Enterprise/Mobility/emob30dg/WANQoS.html)
+- **NAV、Duration字段**：NAV是虚拟载波侦听所用的网络分配向量，记录介质预留时间；原文nuts、noth、now等按上下文改为NAV。物理侦听与NAV共同影响媒介忙闲判断。
+- **广播/多播确认**：讲者讲的是基础传统组播/广播发送，不逐个接收者返回普通单播ACK；“只发一次”应在该课堂范围内理解，不能据此否认其他版本或增强机制。未用后续标准功能改写课堂发言。
+- **BSS、ESS与地址字段**：原段86的“独立BSS只需发射/接收两个地址”是过度简化；标准数据帧即使源/发送者、目的/接收者身份重合，也仍可能有第三个BSSID字段。RA/TA是当前无线一跳收发者，SA/DA是端到端源/目的；不能把逻辑角色数直接当作帧中字段数。四地址帧对应To DS=From DS=1的无线分布场景，而不是只要两个AP通过有线网络连接、属于ESS，就必然在它们之间传四地址802.11帧。正文保留讲者原话，并在校订版标明范围问题。[Cisco帧地址字段说明](https://community.cisco.com/t5/networking-knowledge-base/802-11-frames-a-starter-guide-to-learn-wireless-sniffer-traces/ta-p/3110019) · [Cisco对WDS无线AP互联的定义](https://www.cisco.com/c/en/us/support/docs/smb/wireless/cisco-small-business-100-series-wireless-access-points/smb2040-connect-multiple-access-points-together-through-wireless-dis.html?dtid=osscdc000283)
+- **开销、basic rate与50–55%效率**：前导、PHY头、MAC头、帧间间隔及ACK占用时间是课堂解释重点。不同PHY前导/头的发送规则并不能全部概括成“一个basic rate”；1 Mb/s是本段示例。50–55%是讲者给出的粗略效率估计，录音未提供负载、帧长、PHY速率、聚合和重传等实验条件，不把它写成所有Wi-Fi版本的固定上限或经验证结论。
