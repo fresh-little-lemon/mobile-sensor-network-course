@@ -1,0 +1,11 @@
+[00:09:39.000 --> 00:09:45.900] And it failed, so we need to recontend for the channel and transmit the packet again.
+[00:09:46.140 --> 00:09:53.360] This is the phase that we have considered so far, under which we need to perform the backoff.
+[00:09:54.960 --> 00:10:07.920] However, there are two more situations under which we need to perform a backoff procedure, exactly as we explained.
+[00:10:07.920 --> 00:10:18.180] the same procedure that we just explained. This procedure indeed needs to be
+[00:10:18.180 --> 00:10:31.200] performed also when a node, a transmitter, has got a pocket to transmit, it senses
+[00:10:31.200 --> 00:10:43.260] the channel but the channel is busy right so we already know that in this case we cannot access
+[00:10:43.260 --> 00:10:51.140] the channel right away because of the carrier sensing multiple access principle right so if we
+[00:10:51.140 --> 00:10:58.640] sense the channel we got the packet from the higher layers at the matte layer we sense the
+[00:10:58.640 --> 00:11:09.640] channel for dibs but the channel is busy. So what we knew so far is that in this case
+[00:11:10.720 --> 00:11:17.380] we cannot access the channel right because the channel is busy we are like polite people
+[00:11:17.380 --> 00:11:22.540] we don't want to interrupt someone who is talking already so we wait.

@@ -1,0 +1,17 @@
+[00:09:10.000 --> 00:09:19.660] at the same time but one more thing that we need to say important about the
+[00:09:19.660 --> 00:09:30.840] BECOS is that the BECOS receiver of course it is performed as we said when
+[00:09:30.840 --> 00:09:41.260] we have essentially a packet right that has been transmitted and it failed so we
+[00:09:41.260 --> 00:09:46.680] need to recontend for the channel and transmit the packet again right this is
+[00:09:46.680 --> 00:09:52.800] the phase that we have considered so far under which we need to perform the
+[00:09:52.800 --> 00:10:01.600] become. However, there are two more situations under which we need to
+[00:10:01.600 --> 00:10:09.840] perform a betoff procedure exactly as we explained, the same procedure that
+[00:10:09.840 --> 00:10:24.400] we just explained. This procedure indeed needs to be performed also when a node, a
+[00:10:24.400 --> 00:10:33.440] transmitter, has got a packet to transmit, it senses the channel but the
+[00:10:34.050 --> 00:10:44.730] is busy right so we already know that in this case we cannot access the channel right away
+[00:10:44.730 --> 00:10:52.130] because of the carrier sensing multiple access principle right so if we sense the channel
+[00:10:52.130 --> 00:10:59.230] we got the packet from the higher layers at the max layer we sense the channel
+[00:10:59.230 --> 00:11:11.270] for this but the channel is busy okay so what we knew so far is that in this case we cannot
+[00:11:11.270 --> 00:11:17.850] access the channel right because the channel is busy we are like polite people we don't
+[00:11:17.850 --> 00:11:27.750] want to interrupt someone who is talking already so we wait we wait that's what
+[00:11:27.750 --> 00:11:37.670] we said but now we need to be more precise. What do we mean exactly that we need to wait or how long?
+[00:11:39.230 --> 00:11:49.770] Well in reality also in this case what we need to do is to apply the Bekoff procedure.

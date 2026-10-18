@@ -1,0 +1,130 @@
+{
+  "course": "20261012-1331",
+  "section": "09",
+  "runs": [
+    {
+      "label": "medium.en-unprompted",
+      "model": {
+        "repo": "Systran/faster-whisper-medium.en",
+        "revision": "a29b04bd15381511a9af671baec01072039215e3",
+        "requested_model": "medium.en"
+      },
+      "audio_filename": "window-0910-1150.wav",
+      "audio_sha256": "2c0c982ddba76c71f2c87caace541949afe560e69f05c799dedbc2c4b70232cf",
+      "absolute_offset_seconds": 550.0,
+      "parameters": {
+        "language": "en",
+        "beam_size": 5,
+        "temperature": 0.0,
+        "initial_prompt": null,
+        "condition_on_previous_text": false,
+        "vad_filter": false,
+        "word_timestamps": true
+      },
+      "runtime": {
+        "faster_whisper": "1.2.1",
+        "ctranslate2": "4.8.3",
+        "python": "3.12.14",
+        "device": "cpu",
+        "compute_type": "int8",
+        "cpu_threads": 4
+      },
+      "elapsed_seconds": 50.53279161200044,
+      "raw_json_sha256": "a390df7542127c3f7835c466b5b8ca9edb19e9db7c5a9e7406dde4af7b5532f6"
+    },
+    {
+      "label": "small.en-termlist",
+      "model": {
+        "repo": "Systran/faster-whisper-small.en",
+        "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+        "requested_model": "small.en"
+      },
+      "audio_filename": "window-0939-1124.wav",
+      "audio_sha256": "8614304a4ed4df12cd760584559d208358c92e3a320a94c804fbd99c2c55610e",
+      "absolute_offset_seconds": 579.0,
+      "parameters": {
+        "language": "en",
+        "beam_size": 5,
+        "temperature": 0.0,
+        "initial_prompt": "Wi-Fi, backoff, contention window, MAC layer, DIFS, carrier sensing multiple access.",
+        "condition_on_previous_text": false,
+        "vad_filter": false,
+        "word_timestamps": true
+      },
+      "runtime": {
+        "faster_whisper": "1.2.1",
+        "ctranslate2": "4.8.3",
+        "python": "3.12.14",
+        "device": "cpu",
+        "compute_type": "int8",
+        "cpu_threads": 4
+      },
+      "elapsed_seconds": 13.026435146999574,
+      "raw_json_sha256": "fe7c5aaeafd8b455271593ca0f1054ff56dd17d03915e492a0c344e6468575a1"
+    },
+    {
+      "label": "medium.en-termlist",
+      "model": {
+        "repo": "Systran/faster-whisper-medium.en",
+        "revision": "a29b04bd15381511a9af671baec01072039215e3",
+        "requested_model": "medium.en"
+      },
+      "audio_filename": "window-0939-1124.wav",
+      "audio_sha256": "8614304a4ed4df12cd760584559d208358c92e3a320a94c804fbd99c2c55610e",
+      "absolute_offset_seconds": 579.0,
+      "parameters": {
+        "language": "en",
+        "beam_size": 5,
+        "temperature": 0.0,
+        "initial_prompt": "Wi-Fi, backoff, contention window, MAC layer, DIFS, carrier sensing multiple access.",
+        "condition_on_previous_text": false,
+        "vad_filter": false,
+        "word_timestamps": true
+      },
+      "runtime": {
+        "faster_whisper": "1.2.1",
+        "ctranslate2": "4.8.3",
+        "python": "3.12.14",
+        "device": "cpu",
+        "compute_type": "int8",
+        "cpu_threads": 4
+      },
+      "elapsed_seconds": 29.58140132400149,
+      "raw_json_sha256": "b59e262fb366ea400077a00238f3dd308bec40b6effa119b6d8d652dd9347d72"
+    },
+    {
+      "label": "small.en-node-short-unprompted",
+      "model": {
+        "repo": "Systran/faster-whisper-small.en",
+        "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+        "requested_model": "small.en"
+      },
+      "audio_filename": "short-1017-1032.wav",
+      "audio_sha256": "6c7b79989e8dcc1c89aaa0a42987f11cc868842e016fb2b50bc5e088571a5148",
+      "absolute_offset_seconds": 617.0,
+      "parameters": {
+        "language": "en",
+        "beam_size": 5,
+        "temperature": 0.0,
+        "initial_prompt": null,
+        "condition_on_previous_text": false,
+        "vad_filter": false,
+        "word_timestamps": true
+      },
+      "runtime": {
+        "faster_whisper": "1.2.1",
+        "ctranslate2": "4.8.3",
+        "python": "3.12.14",
+        "device": "cpu",
+        "compute_type": "int8",
+        "cpu_threads": 4
+      },
+      "elapsed_seconds": 4.6763448329984385,
+      "raw_json_sha256": "26cb296da254e06f645c80e8e914a9328825549d1b0ebfb373700e5a81931fe0"
+    }
+  ],
+  "human_listening_review": false,
+  "revision_status": "draft_requires_listening_review",
+  "remote_document_modified": false,
+  "audio_included": false
+}

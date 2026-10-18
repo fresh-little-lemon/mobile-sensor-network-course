@@ -1,0 +1,14 @@
+{
+  "status": "draft_requires_listening_review",
+  "section": 9,
+  "timestamp": "00:09:40",
+  "english": "So we need to recontend for the channel and transmit the packet again, right? This is the [phase/case: needs listening review] that we have considered so far under which we need to perform the backoff. However, there are two more situations under which we need to perform a backoff procedure, exactly as we explained, the same procedure that we just explained. This procedure, indeed, needs to be performed also when a node, a transmitter, has got a packet to transmit. [It/he: needs listening review] senses the channel, but the channel is busy, right? So we already know that in this case we cannot access the channel right away because of the carrier sensing multiple access principle, right? So if we sense the channel, we got the packet from the higher layers. At the MAC layer we sense the channel for DIFS, but the channel is busy, [right/okay: needs listening review]? So what we knew so far is that in this case we cannot access the channel, right? Because the channel is busy. We are like polite people. We don't want to [interrupt / interact with: needs listening review] someone who is talking already.",
+  "chinese_literal": "所以，我们需要重新竞争信道，再次发送这个数据包，对吧？这就是我们到目前为止考虑过的、需要执行退避的这种[阶段／情况，待听辨]。不过，还有另外两种情况，在这些情况下，我们需要执行一个退避过程，完全按照我们解释过的那样，就是我们刚才解释过的同一个过程。实际上，当一个节点，一个发送方，拿到了一个要发送的数据包时，也需要执行这个过程。[它／他，待听辨]侦听信道，但是信道是忙的，对吧？所以我们已经知道，在这种情况下，因为载波侦听多路访问的原则，我们不能立即接入信道，对吧？所以，如果我们侦听信道，我们从高层拿到了这个数据包。在MAC层，我们侦听信道一个DIFS的时间，但是信道是忙的，[对吧／好吗，待听辨]？所以，到目前为止我们知道的是，在这种情况下，我们不能接入信道，对吧？因为信道是忙的。我们就像有礼貌的人。我们不想[打断／与之互动，待听辨]一个已经在说话的人。",
+  "explicit_technical_normalization": [
+    "backoff",
+    "MAC",
+    "DIFS"
+  ],
+  "audio_listened_by_agent": false,
+  "remote_document_modified": false
+}

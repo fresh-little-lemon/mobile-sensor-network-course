@@ -1,0 +1,3 @@
+原标说话人 1  00:11:21
+So we wait. That's what we said, but now we need to be more precise: what exactly do we mean by waiting, and for how long? In reality, also in this case we need to apply the backoff procedure. We wait for the backoff time according to this procedure. This is the rule again also in this first case, when a Wi-Fi node gets a new packet from the higher layers and the MAC needs to apply the protocol to transmit it.
+所以，我们就等待。之前我们是这样说的，但现在需要说得更准确一些：这里的等待究竟是什么意思，又要等多久？实际上，这种情况下也需要采用退避过程。我们按照这个过程等待相应的退避时间。这条规则同样适用于这里的第一种情况，也就是 Wi-Fi 节点从高层收到一个新数据包，需要由 MAC 按照协议将它发送出去的情况。

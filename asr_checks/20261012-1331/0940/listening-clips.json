@@ -1,0 +1,30 @@
+[
+  {
+    "filename": "0944-0956-case-phase.mp3",
+    "absolute_start_seconds": 584,
+    "absolute_end_seconds": 596,
+    "reason": "case或phase与backoff术语",
+    "sha256": "07eb9bc0ed43387da1f294b6c04bc274db3d8dd71edae87fbd65ff58edda5493"
+  },
+  {
+    "filename": "1017-1032-when-a-node.mp3",
+    "absolute_start_seconds": 617,
+    "absolute_end_seconds": 632,
+    "reason": "when a node、end node或其他词，以及a transmitter插入语",
+    "sha256": "80fc5cc6d4ddece0d929cd508c09c0318724717c6e0fc002ae45112552b43a24"
+  },
+  {
+    "filename": "1053-1105-mac-difs.mp3",
+    "absolute_start_seconds": 653,
+    "absolute_end_seconds": 665,
+    "reason": "MAC与DIFS术语",
+    "sha256": "4f68fdb915d10f5caa545aeaa364ea4d1cd8fc09dacdc421ac4ea8fa5321792e"
+  },
+  {
+    "filename": "1114-1129-interrupt-repeat.mp3",
+    "absolute_start_seconds": 674,
+    "absolute_end_seconds": 689,
+    "reason": "interrupt或interact with，以及So we wait. We wait.跨段重复",
+    "sha256": "579354cda4b5ffed9e28eba67ae3992cf2f01dbebff67709e3a0d009d1fcf05a"
+  }
+]

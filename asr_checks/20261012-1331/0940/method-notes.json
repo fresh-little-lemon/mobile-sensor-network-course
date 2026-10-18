@@ -1,0 +1,8 @@
+{
+  "input_decode": "Original m4a -> ffmpeg PCM signed 16-bit mono 16 kHz WAV -> stdlib wave -> float32 samples /32768 -> faster-whisper",
+  "initial_runtime_issue": "PyAV 19.0.1 open() rejected metadata_errors used by faster-whisper 1.2.1. No ASR output was produced by those initial attempts. Successful runs use PCM array input and bypass only that incompatible decoder API.",
+  "audio_never_uploaded_to_asr_service": true,
+  "prompt_policy": "Main base.en, small.en, medium.en runs have language en only and initial_prompt null. One separately named small.en-termlist run uses only a documented short glossary. The existing manuscript was never used as a model prompt.",
+  "human_listening_review": false,
+  "reason": "This agent interface does not support audio input; no claim of personal listening is made."
+}
