@@ -1,0 +1,12 @@
+{
+  "start_seconds": 880.0,
+  "end_seconds": 1000.0,
+  "text": "It's not there because B cannot hear it. Okay. However, when the access point transmits the CTS back to A, B can hear the access point, right? So it will be able to demodulate the CTS. And these are control packets only headers, but remembering the header there is the duration field. So when B hears the CTS, the modulates the CTS, reads the duration field, and sets its enough to the expected remaining at this point expected duration of the dialogue. So the enough of B will be set to a value that covers all this time interval. Okay. What does it mean? It means that even if B gets a packet from entire layers. Now, assume that he gets this packet from entire layers at this point in time. Okay. Now, if B senses the channel of the physical layer, the channel is idle. Okay, why? Because B cannot hear A. So the channel is idle for B.",
+  "raw_decoded": "language English<asr_text>It's not there because B cannot hear it. Okay. However, when the access point transmits the CTS back to A, B can hear the access point, right? So it will be able to demodulate the CTS. And these are control packets only headers, but remembering the header there is the duration field. So when B hears the CTS, the modulates the CTS, reads the duration field, and sets its enough to the expected remaining at this point expected duration of the dialogue. So the enough of B will be set to a value that covers all this time interval. Okay. What does it mean? It means that even if B gets a packet from entire layers. Now, assume that he gets this packet from entire layers at this point in time. Okay. Now, if B senses the channel of the physical layer, the channel is idle. Okay, why? Because B cannot hear A. So the channel is idle for B.<|im_end|>",
+  "generated_tokens": 200,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.212372370000594,
+  "at": "2026-10-18T02:25:20.177888+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

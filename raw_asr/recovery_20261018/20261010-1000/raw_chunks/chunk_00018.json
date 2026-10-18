@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1980.0,
+  "end_seconds": 2100.0,
+  "text": "Bad, already something that you don't want, but it reduces your efficiency. Okay. So that's the first problem, the other. The second problem is that unfortunately things do not go so well always in practice. Why? Well, because, for example, an RPS that is transmitted by the transmitter may not be received correctly by other nodes because of channel errors. This still may happen, even if I transmit the RPS of the base rate slowly and so on. It might happen that there is a channel error, and in that case, the neighbors of the transmitter will not receive the RPS correctly. So they will not understand that the channel is reserved for dialogue, and they might actually access the channel if they sense it either. And this rough data. First of all, the RPS transmission may also fail because again channel errors are the intended destination. Right? So A may transmit the RPS. All other neighbors of A may receive it correctly. So they block their path. That's fine, okay. But unfortunately, the dest they intend the destination does not receive the RPS.",
+  "raw_decoded": "language English<asr_text>Bad, already something that you don't want, but it reduces your efficiency. Okay. So that's the first problem, the other. The second problem is that unfortunately things do not go so well always in practice. Why? Well, because, for example, an RPS that is transmitted by the transmitter may not be received correctly by other nodes because of channel errors. This still may happen, even if I transmit the RPS of the base rate slowly and so on. It might happen that there is a channel error, and in that case, the neighbors of the transmitter will not receive the RPS correctly. So they will not understand that the channel is reserved for dialogue, and they might actually access the channel if they sense it either. And this rough data. First of all, the RPS transmission may also fail because again channel errors are the intended destination. Right? So A may transmit the RPS. All other neighbors of A may receive it correctly. So they block their path. That's fine, okay. But unfortunately, the dest they intend the destination does not receive the RPS.<|im_end|>",
+  "generated_tokens": 227,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.007616095999765,
+  "at": "2026-10-18T02:30:15.207635+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

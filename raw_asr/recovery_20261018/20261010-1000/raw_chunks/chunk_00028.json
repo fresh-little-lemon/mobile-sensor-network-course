@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3080.0,
+  "end_seconds": 3200.0,
+  "text": "Okay, so let me go back to the previous case because maybe we need to clarify things. So let me again consider actually this example as in terms of network topology. Okay, this is the network topology that we are considering. Again, I change the labels with respect to the slide that you had. Okay, so we need to update the labels. We have that A and B are connected with axis point one. Okay, but with respect to the initial scenario with the hidden terminals, I added also this node here, axis point two. Okay, so now the example that I made in this case is the following: so these two nodes want to communicate with each other.",
+  "raw_decoded": "language English<asr_text>Okay, so let me go back to the previous case because maybe we need to clarify things. So let me again consider actually this example as in terms of network topology. Okay, this is the network topology that we are considering. Again, I change the labels with respect to the slide that you had. Okay, so we need to update the labels. We have that A and B are connected with axis point one. Okay, but with respect to the initial scenario with the hidden terminals, I added also this node here, axis point two. Okay, so now the example that I made in this case is the following: so these two nodes want to communicate with each other.<|im_end|>",
+  "generated_tokens": 140,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 18.182137735999277,
+  "at": "2026-10-18T02:33:56.533783+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

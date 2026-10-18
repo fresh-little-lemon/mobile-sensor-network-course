@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3190.0,
+  "end_seconds": 3310.0,
+  "text": "That I made in this case is the following: so these two nodes, one two communicate with each other. In particular, access point one wants to send a packet to B. And let's assume at this point we know what the RTS resolution is. So let's assume that the packet size is greater than RTS resolution. So we are going to use RTS and CTS, right? The version with handshake in order to transmit this packet. So assume that initially the channel is idle. Okay, for everyone. Now let me draw here the behavior of the nodes over time. So this is the timeline. The line represents the time evolution. We have a access point one, we have B, and we have another BSS. Okay, access point two. This is another BSS nearby. Okay. Now as we said, A and B are both connected with access point one, but A and B are hidden with respect to each other. Right? They cannot hear each other. And B, on the other hand, is exposed to.",
+  "raw_decoded": "language English<asr_text>That I made in this case is the following: so these two nodes, one two communicate with each other. In particular, access point one wants to send a packet to B. And let's assume at this point we know what the RTS resolution is. So let's assume that the packet size is greater than RTS resolution. So we are going to use RTS and CTS, right? The version with handshake in order to transmit this packet. So assume that initially the channel is idle. Okay, for everyone. Now let me draw here the behavior of the nodes over time. So this is the timeline. The line represents the time evolution. We have a access point one, we have B, and we have another BSS. Okay, access point two. This is another BSS nearby. Okay. Now as we said, A and B are both connected with access point one, but A and B are hidden with respect to each other. Right? They cannot hear each other. And B, on the other hand, is exposed to.<|im_end|>",
+  "generated_tokens": 214,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.833467115999156,
+  "at": "2026-10-18T02:34:22.367946+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

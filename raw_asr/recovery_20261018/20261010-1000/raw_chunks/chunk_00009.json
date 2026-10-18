@@ -1,0 +1,12 @@
+{
+  "start_seconds": 990.0,
+  "end_seconds": 1110.0,
+  "text": "Okay, why? Because B cannot hear A. So the channel is idle for B. But at the Mark layer, B accepts the nav in correspondence of the CTS. So at the Mark layer, B will say the channel for my Mark layer is busy. So B must say the channel is busy. Therefore, even if it receives a packet from its higher layers at this point in time, and even if its physical layer says the channel is idle, you will have to consider the channel as busy. So it cannot access. Till one, till the nav expires, and the channel becomes actually idle both at the physical and at the Mark layer. Okay, so this means that using RPS and CTS, we may avoid collisions. Okay, so this is one of the mechanisms that we can apply in order to avoid collisions. So what? I will explain later. What? The use of RPS and.",
+  "raw_decoded": "language English<asr_text>Okay, why? Because B cannot hear A. So the channel is idle for B. But at the Mark layer, B accepts the nav in correspondence of the CTS. So at the Mark layer, B will say the channel for my Mark layer is busy. So B must say the channel is busy. Therefore, even if it receives a packet from its higher layers at this point in time, and even if its physical layer says the channel is idle, you will have to consider the channel as busy. So it cannot access. Till one, till the nav expires, and the channel becomes actually idle both at the physical and at the Mark layer. Okay, so this means that using RPS and CTS, we may avoid collisions. Okay, so this is one of the mechanisms that we can apply in order to avoid collisions. So what? I will explain later. What? The use of RPS and.<|im_end|>",
+  "generated_tokens": 189,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.225685353999324,
+  "at": "2026-10-18T02:25:43.404245+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

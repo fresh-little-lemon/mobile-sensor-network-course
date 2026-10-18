@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3410.0,
+  "end_seconds": 3530.0,
+  "text": "Okay, RTS is a control packet. Of course, is intended for B, right? Because we have as a destination address in the header B. So clearly the RTS is a request to send intended for B. But since it is a control packet, everyone who hears this control packet will be modulated because it's just header and everyone as we said is the modulating packet headers. So what does it mean? Who is going to modulate this RTS? Well, clearly B, okay, clearly B. But also A, right? In our scenario. So what B will do is, oh, I get, I got an RTS for me. I'm available to receive. So B is going to reply after receives because this is the same dialogue, right? It's going to reply with a packet that is clear to send. What about A? Because we said this RTS is received also by A, right? A will read this RTS. Of course, it understands that the RTS is not for himself, right? That's clear. But it will read the duration field. And the duration field reports a value that covers all the expected duration of the dialogue. So it must set its knob to this duration.",
+  "raw_decoded": "language English<asr_text>Okay, RTS is a control packet. Of course, is intended for B, right? Because we have as a destination address in the header B. So clearly the RTS is a request to send intended for B. But since it is a control packet, everyone who hears this control packet will be modulated because it's just header and everyone as we said is the modulating packet headers. So what does it mean? Who is going to modulate this RTS? Well, clearly B, okay, clearly B. But also A, right? In our scenario. So what B will do is, oh, I get, I got an RTS for me. I'm available to receive. So B is going to reply after receives because this is the same dialogue, right? It's going to reply with a packet that is clear to send. What about A? Because we said this RTS is received also by A, right? A will read this RTS. Of course, it understands that the RTS is not for himself, right? That's clear. But it will read the duration field. And the duration field reports a value that covers all the expected duration of the dialogue. So it must set its knob to this duration.<|im_end|>",
+  "generated_tokens": 250,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.46637138200094,
+  "at": "2026-10-18T02:35:25.184582+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

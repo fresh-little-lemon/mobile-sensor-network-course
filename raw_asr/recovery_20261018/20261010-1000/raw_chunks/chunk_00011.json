@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1210.0,
+  "end_seconds": 1330.0,
+  "text": "That that node wants to receive, right? He wants to talk with someone else. So, in institutional. All the neighbors of the transmitter of the source and all the neighbors of the intended destination will be informed that a dialogue is going to start. And they need to be silent, right? So that's why. Is uh RTS and CTS as I was saying is called the CAF with a shake, but it is also referred to as explicit channel reservation because it's like if. The transmitter, the source, and the intended destination were reserving the channel for their dialogue by exchanging these control packets RTS and CTS. Okay. So the typical, the typical, uh, scenario that allow us to fully understand. Uh, this explicit channel reservation is this one, where as you can see we have two access points. Okay. Let's assume that the two access points are operating on the same frequency channel. Okay. This may indeed happen. A is a user connected with access point one. And B is a user connected with access point two. Now, as reported here again, the.",
+  "raw_decoded": "language English<asr_text>That that node wants to receive, right? He wants to talk with someone else. So, in institutional. All the neighbors of the transmitter of the source and all the neighbors of the intended destination will be informed that a dialogue is going to start. And they need to be silent, right? So that's why. Is uh RTS and CTS as I was saying is called the CAF with a shake, but it is also referred to as explicit channel reservation because it's like if. The transmitter, the source, and the intended destination were reserving the channel for their dialogue by exchanging these control packets RTS and CTS. Okay. So the typical, the typical, uh, scenario that allow us to fully understand. Uh, this explicit channel reservation is this one, where as you can see we have two access points. Okay. Let's assume that the two access points are operating on the same frequency channel. Okay. This may indeed happen. A is a user connected with access point one. And B is a user connected with access point two. Now, as reported here again, the.<|im_end|>",
+  "generated_tokens": 226,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.111042067999733,
+  "at": "2026-10-18T02:26:41.276459+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

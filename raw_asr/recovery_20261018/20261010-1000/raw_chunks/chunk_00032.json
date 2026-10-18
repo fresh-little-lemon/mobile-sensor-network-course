@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3520.0,
+  "end_seconds": 3640.0,
+  "text": "Of the dialogue. So it must send its snap to this duration. Okay. So now A, who is a neighbor of the transmitter, right? It's a neighbor of the transmitter. Has sent its snap according to what, according to the duration field included in the RTS. And since its snap is sent to a value greater than zero for all this time, during all this time A must be silent. Okay. Now let's look at the CTS. Okay, CTS is a reply, a response to this RTS. As says, I am available to receive. So clearly the RTS is intended for the access point one, course. So access point one upon receiving the CTS, he says, oh good, B is available to receive my packet. So I'm going to send a packet, and the packet will be sent after sixs because it's still belonging to the same dialogue. Okay. Now who, as hears this CTS, according to our example topology. Access point two, right? Because access point two can hear me. So he will demodulate or hears the headers of this CTS. And will understand that the channel.",
+  "raw_decoded": "language English<asr_text>Of the dialogue. So it must send its snap to this duration. Okay. So now A, who is a neighbor of the transmitter, right? It's a neighbor of the transmitter. Has sent its snap according to what, according to the duration field included in the RTS. And since its snap is sent to a value greater than zero for all this time, during all this time A must be silent. Okay. Now let's look at the CTS. Okay, CTS is a reply, a response to this RTS. As says, I am available to receive. So clearly the RTS is intended for the access point one, course. So access point one upon receiving the CTS, he says, oh good, B is available to receive my packet. So I'm going to send a packet, and the packet will be sent after sixs because it's still belonging to the same dialogue. Okay. Now who, as hears this CTS, according to our example topology. Access point two, right? Because access point two can hear me. So he will demodulate or hears the headers of this CTS. And will understand that the channel.<|im_end|>",
+  "generated_tokens": 239,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.73737910899945,
+  "at": "2026-10-18T02:35:54.922620+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

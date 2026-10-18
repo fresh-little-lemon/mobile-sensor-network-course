@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2640.0,
+  "end_seconds": 2760.0,
+  "text": "Back that one, and packet fails. The transmitter will have to retransmit the one. Okay, so we know already that, but we are going to specify a little bit better how that happens. Just consider that after the break, the short break, we will go back to the basic version of DCF. So forget about the CCFs for now, and set your mind back to the case where we have the scenario that we considered earlier. Okay, this one. Set your mind to this, and what we are going to look at is the case where there is no ACK because the packet failed. That's what we are going to see after the short break. Okay, so we'll start again in five minutes. Sure. Yes, since A and B they can't hear from each other. So A and B. So they may send RTS at the same time. No, no, that's not the. I mean, they may, but this is not the case that we may. So, but how how can RTS?",
+  "raw_decoded": "language English<asr_text>Back that one, and packet fails. The transmitter will have to retransmit the one. Okay, so we know already that, but we are going to specify a little bit better how that happens. Just consider that after the break, the short break, we will go back to the basic version of DCF. So forget about the CCFs for now, and set your mind back to the case where we have the scenario that we considered earlier. Okay, this one. Set your mind to this, and what we are going to look at is the case where there is no ACK because the packet failed. That's what we are going to see after the short break. Okay, so we'll start again in five minutes. Sure. Yes, since A and B they can't hear from each other. So A and B. So they may send RTS at the same time. No, no, that's not the. I mean, they may, but this is not the case that we may. So, but how how can RTS?<|im_end|>",
+  "generated_tokens": 216,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.661947381000573,
+  "at": "2026-10-18T02:33:13.813833+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

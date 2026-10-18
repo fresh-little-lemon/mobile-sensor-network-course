@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1540.0,
+  "end_seconds": 1660.0,
+  "text": "With the RTS, right? So essentially, the first consequence is that Access Point One by sending the RTS is like asking for permission to transmit to B. But the other important effect that we want to highlight with this example is that by sending the RTS, Access Point One notifies to A that it will be engaged into a dialogue with B. So A, who is a neighbor of Access Point One, right? So A is connected with Access Point One. Will be informed that there will be a dialogue going on happening, and therefore it must be silent, right? So how do we make sure that A is silent? Because as we said, the RTS is a control packet, it has got a duration field. So when A, that can hear the Access Point One's RTS, they modulate the RTS. He will set its knob to the duration field reported in this RTS. Okay, so all the nodes that are neighbors of Access Point One will modulate the RTS and understand that they cannot speak. Okay, because Access Point One wants to speak to someone, and they cannot interfere, they cannot disrupt that dialogue.",
+  "raw_decoded": "language English<asr_text>With the RTS, right? So essentially, the first consequence is that Access Point One by sending the RTS is like asking for permission to transmit to B. But the other important effect that we want to highlight with this example is that by sending the RTS, Access Point One notifies to A that it will be engaged into a dialogue with B. So A, who is a neighbor of Access Point One, right? So A is connected with Access Point One. Will be informed that there will be a dialogue going on happening, and therefore it must be silent, right? So how do we make sure that A is silent? Because as we said, the RTS is a control packet, it has got a duration field. So when A, that can hear the Access Point One's RTS, they modulate the RTS. He will set its knob to the duration field reported in this RTS. Okay, so all the nodes that are neighbors of Access Point One will modulate the RTS and understand that they cannot speak. Okay, because Access Point One wants to speak to someone, and they cannot interfere, they cannot disrupt that dialogue.<|im_end|>",
+  "generated_tokens": 229,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.13557319500069,
+  "at": "2026-10-18T02:28:09.874808+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

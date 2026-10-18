@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1430.0,
+  "end_seconds": 1550.0,
+  "text": "They both transmit, okay, they transmit exactly on the same frequency band, okay. Now let's say in this example, the Access Point One wants to transmit a packet to the user node B, okay. So the two nodes who wants to start a dialogue are these central nodes, Access Point One and. And let's assume that they use the DHCP with and shape. So initially, assume that the channel is idle for everyone. The Access Point One will sense the channel for B. The channel is idle, both at the physical and MAC layer. So the channel is idle. The Access Point One can access the channel, but we're using the scheme with and shape, right? So what the Access Point One starts with is by sending the RTS. The RTS is intended for B, okay. Now what is the consequence of the fact that Access Point One sends the RTS? The consequence is that B, first of all, understands that Access Point One wants to send a packet to it. And if B is a bell bull, so it's doing nothing, it will reply with the CTS, right? So essentially, the first consequence is that Access Point One by sending the RTS.",
+  "raw_decoded": "language English<asr_text>They both transmit, okay, they transmit exactly on the same frequency band, okay. Now let's say in this example, the Access Point One wants to transmit a packet to the user node B, okay. So the two nodes who wants to start a dialogue are these central nodes, Access Point One and. And let's assume that they use the DHCP with and shape. So initially, assume that the channel is idle for everyone. The Access Point One will sense the channel for B. The channel is idle, both at the physical and MAC layer. So the channel is idle. The Access Point One can access the channel, but we're using the scheme with and shape, right? So what the Access Point One starts with is by sending the RTS. The RTS is intended for B, okay. Now what is the consequence of the fact that Access Point One sends the RTS? The consequence is that B, first of all, understands that Access Point One wants to send a packet to it. And if B is a bell bull, so it's doing nothing, it will reply with the CTS, right? So essentially, the first consequence is that Access Point One by sending the RTS.<|im_end|>",
+  "generated_tokens": 244,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.470043378999435,
+  "at": "2026-10-18T02:27:41.738560+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

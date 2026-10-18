@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2310.0,
+  "end_seconds": 2430.0,
+  "text": "Something to say is that, however, the BSS with an shake is part of the standard. It is implemented in our Wi-Fi cards. Is there this possibility to use RPS and CPS? Is there? So what is the criterion under which they are used or not? Well, when you have a network with an access point, you configure your network using a parameter that is called RPS threshold. And whenever the size of your data packet is larger than the RPS threshold, then you apply RPS CPS. If instead the size of your packet is below the RPS threshold, so it's shorter, then you do not apply RPS CPS. Okay? So it is not that a BSS works always with the basic version or always with the version with an shake. No. In a BSS, depending on which packet has to be transmitted, the transmitter will apply the basic version or the version with an shake, depending on the size of the packet that it has to transmit. So the rationale is: if the packet is large, you try to protect its transmission by using RPS and CPS. So.",
+  "raw_decoded": "language English<asr_text>Something to say is that, however, the BSS with an shake is part of the standard. It is implemented in our Wi-Fi cards. Is there this possibility to use RPS and CPS? Is there? So what is the criterion under which they are used or not? Well, when you have a network with an access point, you configure your network using a parameter that is called RPS threshold. And whenever the size of your data packet is larger than the RPS threshold, then you apply RPS CPS. If instead the size of your packet is below the RPS threshold, so it's shorter, then you do not apply RPS CPS. Okay? So it is not that a BSS works always with the basic version or always with the version with an shake. No. In a BSS, depending on which packet has to be transmitted, the transmitter will apply the basic version or the version with an shake, depending on the size of the packet that it has to transmit. So the rationale is: if the packet is large, you try to protect its transmission by using RPS and CPS. So.<|im_end|>",
+  "generated_tokens": 231,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.451359726999726,
+  "at": "2026-10-18T02:31:43.334571+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

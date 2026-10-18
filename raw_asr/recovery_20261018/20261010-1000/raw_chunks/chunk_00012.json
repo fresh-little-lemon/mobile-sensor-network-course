@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1320.0,
+  "end_seconds": 1440.0,
+  "text": "And B is a user connected with Access Point 2. Now, as reported here again, the radio ranges highlight in particular the radio range of Access Point 1 and the radio range of B. Okay. So we can see that A can hear Access Point 1. Access Point 1 can hear both A and B. And B is connected with Access Point 2. Okay. Now, what we have is that if essentially we are using the scheme with RTS and CTS. Uh, sorry, just the. If I change it, every resort just need to check. Uh, if I change it for that one. Ah, okay, so sorry now. So the the scenario that I consider here is the following: with we have an Access Point 1. And both A and B are connected with Access Point 1. And Access Point 2 is a nearby Access Point. Okay. As I said before, Access Point 1 and Access Point 2 they both use the same frequencies. Okay, with same frequency channel. So if they both transmit, okay, they transmit exactly on the same frequency band. Okay. Now that said.",
+  "raw_decoded": "language English<asr_text>And B is a user connected with Access Point 2. Now, as reported here again, the radio ranges highlight in particular the radio range of Access Point 1 and the radio range of B. Okay. So we can see that A can hear Access Point 1. Access Point 1 can hear both A and B. And B is connected with Access Point 2. Okay. Now, what we have is that if essentially we are using the scheme with RTS and CTS. Uh, sorry, just the. If I change it, every resort just need to check. Uh, if I change it for that one. Ah, okay, so sorry now. So the the scenario that I consider here is the following: with we have an Access Point 1. And both A and B are connected with Access Point 1. And Access Point 2 is a nearby Access Point. Okay. As I said before, Access Point 1 and Access Point 2 they both use the same frequencies. Okay, with same frequency channel. So if they both transmit, okay, they transmit exactly on the same frequency band. Okay. Now that said.<|im_end|>",
+  "generated_tokens": 237,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.990646850000303,
+  "at": "2026-10-18T02:27:10.267822+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

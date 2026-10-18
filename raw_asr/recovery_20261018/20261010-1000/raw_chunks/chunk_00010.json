@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1100.0,
+  "end_seconds": 1220.0,
+  "text": "What, I will explain later. What the use of RTS and CTS do is, as I was saying, to reserve radio resources. Why? Because through RTS and CTS, the transmitter and the receiver will announce to their neighbors, respective neighbors, that they are going to be engaged in a dialogue. So everybody will know that. It's like saying, \"Okay, now everyone, shut up, because I need to talk with this person.\" Okay? And everyone who can hear, and the transmitter will say that by sending the RTS. The receiver will say that by sending the CTS. So whoever can hear the transmitter, upon receiving an RTS, if it's not the intended destination, well, this RTS actually says that A wants to talk to someone. And the CTS says, \"I'm available to talk to someone.\" Okay? So whoever is around A, will let them relay the RTS and be informed that A wants to talk. So it needs to shut up. Whoever can hear the CTS sent by the intended destination, will know that that node wants to receive. Right? He wants to talk with someone else. So it needs to shut up. All they need.",
+  "raw_decoded": "language English<asr_text>What, I will explain later. What the use of RTS and CTS do is, as I was saying, to reserve radio resources. Why? Because through RTS and CTS, the transmitter and the receiver will announce to their neighbors, respective neighbors, that they are going to be engaged in a dialogue. So everybody will know that. It's like saying, \"Okay, now everyone, shut up, because I need to talk with this person.\" Okay? And everyone who can hear, and the transmitter will say that by sending the RTS. The receiver will say that by sending the CTS. So whoever can hear the transmitter, upon receiving an RTS, if it's not the intended destination, well, this RTS actually says that A wants to talk to someone. And the CTS says, \"I'm available to talk to someone.\" Okay? So whoever is around A, will let them relay the RTS and be informed that A wants to talk. So it needs to shut up. Whoever can hear the CTS sent by the intended destination, will know that that node wants to receive. Right? He wants to talk with someone else. So it needs to shut up. All they need.<|im_end|>",
+  "generated_tokens": 246,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.759915350000483,
+  "at": "2026-10-18T02:26:14.164780+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

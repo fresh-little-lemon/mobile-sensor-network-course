@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3300.0,
+  "end_seconds": 3420.0,
+  "text": "And B, on the other hand, is exposed to both Access Point One and Access Point Two. He's connected with Access Point One, okay, but B and Access Point Two can hear each other. As we said, hearing is different from having a communication link in place. So if B wants to transmit something, it will be transmitted to Access Point One, but it can hear what Access Point Two says, okay, as when we pass by someone who is talking to someone else. Okay, now that said, Access Point One, in order to transmit its packet to B, will send first, right, the channel for a time equal to diffs, because this is a regular data packet. We said the channel initially is idle for everyone, so Access Point One will start the process to transmit its packet. But the packet, the data packet payload, is larger than RTS packet. So what Access Point One transmits upon accessing the channel is not the data packet, right, at the beginning, but it is transmitting first an RTS, right? Okay, RTS is a control packet, of course, is intended for B, right, because we have as a destination address in.",
+  "raw_decoded": "language English<asr_text>And B, on the other hand, is exposed to both Access Point One and Access Point Two. He's connected with Access Point One, okay, but B and Access Point Two can hear each other. As we said, hearing is different from having a communication link in place. So if B wants to transmit something, it will be transmitted to Access Point One, but it can hear what Access Point Two says, okay, as when we pass by someone who is talking to someone else. Okay, now that said, Access Point One, in order to transmit its packet to B, will send first, right, the channel for a time equal to diffs, because this is a regular data packet. We said the channel initially is idle for everyone, so Access Point One will start the process to transmit its packet. But the packet, the data packet payload, is larger than RTS packet. So what Access Point One transmits upon accessing the channel is not the data packet, right, at the beginning, but it is transmitting first an RTS, right? Okay, RTS is a control packet, of course, is intended for B, right, because we have as a destination address in.<|im_end|>",
+  "generated_tokens": 245,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.348856147000333,
+  "at": "2026-10-18T02:34:51.717582+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}
