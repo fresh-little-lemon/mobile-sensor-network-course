@@ -27,10 +27,11 @@
   "original_capture_sha256": "b1810fba94034a69e89f2ceac026eea0fa91af5aed3cde9e0a46e32b59693954",
   "raw_asr_recording_sha256": "25becefd71d0a827967fd5131d1ef67150d3eb5c3667b99d75923d6108d4b1bf",
   "speech_sha256": "b4c67b94c2a10485f029bb2b3f6767d89bb089cf318a9d0ee99733006ad7cc6d",
-  "bilingual_sha256": "1319d2435ad84c85413cd7c1cd082e3d4da55d1245e979427d83f81565b0ba31",
+  "bilingual_sha256": "1596ec51a1864fc500dcb97f960a67012f98f947c4bc327e77bee4f3c486fc67",
   "terminology_addendum_prepared": true,
   "updated_at": "2026-10-18T03:58:18.584700+00:00",
   "final_structure_and_hash_checks_passed": true,
   "independent_diff_recomputed_and_matched": true,
-  "full_bilingual_read_through_complete": true
+  "full_bilingual_read_through_complete": true,
+  "current_bilingual_manifest": "qa/bilingual-manifest.json"
 }

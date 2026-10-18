@@ -23,5 +23,6 @@
   "raw_asr_recording_sha256": "efdc06c4cdb75517f7538b81ba811a566f2ddc37954f89565b9fb60cf6ec5d8e",
   "bilingual_sha256": "0a84bb00f85b3343631c80ca306387aceba8b070e255455fb960a0dc9d36de89",
   "full_faithful_translation_review_complete": true,
-  "updated_at": "2026-10-18T08:05:45.958464+00:00"
+  "updated_at": "2026-10-18T08:05:45.958464+00:00",
+  "current_bilingual_manifest": "qa/bilingual-manifest.json"
 }

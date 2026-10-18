@@ -24,48 +24,48 @@
   "flagged_main_windows": [
     {
       "window_index_zero_based": 11,
-      "start_seconds": 1210.0,
-      "end_seconds": 1330.0,
+      "start_seconds": 1210,
+      "end_seconds": 1330,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 12,
-      "start_seconds": 1320.0,
-      "end_seconds": 1440.0,
+      "start_seconds": 1320,
+      "end_seconds": 1440,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 13,
-      "start_seconds": 1430.0,
-      "end_seconds": 1550.0,
+      "start_seconds": 1430,
+      "end_seconds": 1550,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 14,
-      "start_seconds": 1540.0,
-      "end_seconds": 1660.0,
+      "start_seconds": 1540,
+      "end_seconds": 1660,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 15,
-      "start_seconds": 1650.0,
-      "end_seconds": 1770.0,
+      "start_seconds": 1650,
+      "end_seconds": 1770,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 28,
-      "start_seconds": 3080.0,
-      "end_seconds": 3200.0,
+      "start_seconds": 3080,
+      "end_seconds": 3200,
       "flags": [
         "generation_cap"
       ]
@@ -85,8 +85,9 @@
   "original_capture_sha256": "1acf9efc9a89deb08dedb240580f51edfd275666cfca8449dd3470590d0bad44",
   "raw_asr_recording_sha256": "6d06577b2473baf31b75d7b4b56f054c3773acdb4c8d75697edb89de28253b2f",
   "speech_sha256": "bd09eeb4ceb1da51db254d810c020fc85118749fb69039a942f40ab5c3974567",
-  "bilingual_sha256": "94977fd06cf503a17bb07aa8fddc449dcb64468948f32464afaa4a1266caf2bf",
+  "bilingual_sha256": "998ae2c72f4e48988142c82328125c35bb8a3170232175c66e6717534180c782",
   "terminology_addendum_prepared": true,
   "additional_independent_model_repetition_audit_status": "pending_separate_followup",
-  "updated_at": "2026-10-18T05:08:38.454612+00:00"
+  "updated_at": "2026-10-18T05:08:38.454612+00:00",
+  "current_bilingual_manifest": "qa/bilingual-manifest.json"
 }

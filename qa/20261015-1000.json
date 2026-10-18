@@ -26,16 +26,16 @@
   "flagged_main_windows": [
     {
       "window_index_zero_based": 26,
-      "start_seconds": 2860.0,
-      "end_seconds": 2980.0,
+      "start_seconds": 2860,
+      "end_seconds": 2980,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 27,
-      "start_seconds": 2970.0,
-      "end_seconds": 3090.0,
+      "start_seconds": 2970,
+      "end_seconds": 3090,
       "flags": [
         "generation_cap"
       ]
@@ -60,7 +60,7 @@
   "bilingual_sha256": "a6c4f1b1c0b200ab7d275fbe0d660f3579434e09be1f5aa8ad96bdaa927de88b",
   "terminology_addendum_prepared": true,
   "terminology_addendum_sha256": "a66a58e2322d4b66fb11fb3c004d1be78d4e93329d7157c0701a4b1d7cfcf5ca",
-  "terminology_review_global_append_pending": true,
+  "terminology_review_global_append_pending": false,
   "exhaustive_word_diff_reconstruction_verified": true,
   "manual_audio_listening_performed": false,
   "additional_independent_model_repetition_audit_status": "not_performed; original-vs-Qwen text/raw_decoded comparison complete",
@@ -73,5 +73,8 @@
   "faithful_translation_audit_file": "faithful-translation-20261015-1000.json",
   "faithful_translation_audit_sha256": "318d9780443d241e2c99cdf9db18306f4ab0d9e953c0747790aeab3d26d56cc6",
   "faithful_translation_canonical": "faithful_zh82.override.json",
-  "publication_status": "local_validated_not_published"
+  "publication_status": "published_and_exact_readback_verified",
+  "editorial_commit": "6e3e64786e943878b246c00296468a656d7ab924",
+  "word_diff_commit": "4026eeeb6e3c3cfb80bba978a9f50a7649ebb67c",
+  "current_bilingual_manifest": "qa/bilingual-manifest.json"
 }

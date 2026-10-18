@@ -23,40 +23,40 @@
   "flagged_main_windows": [
     {
       "window_index_zero_based": 27,
-      "start_seconds": 2970.0,
-      "end_seconds": 3090.0,
+      "start_seconds": 2970,
+      "end_seconds": 3090,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "window_index_zero_based": 28,
-      "start_seconds": 3080.0,
-      "end_seconds": 3200.0,
+      "start_seconds": 3080,
+      "end_seconds": 3200,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "window_index_zero_based": 29,
-      "start_seconds": 3190.0,
-      "end_seconds": 3310.0,
+      "start_seconds": 3190,
+      "end_seconds": 3310,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 39,
-      "start_seconds": 4290.0,
-      "end_seconds": 4410.0,
+      "start_seconds": 4290,
+      "end_seconds": 4410,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 42,
-      "start_seconds": 4620.0,
-      "end_seconds": 4740.0,
+      "start_seconds": 4620,
+      "end_seconds": 4740,
       "flags": [
         "empty_output"
       ]
@@ -76,7 +76,7 @@
   "original_capture_sha256": "b68b3172d18bbf818f60fb4f8076b4d56f746834484f58ef552bc8d12d33d9c4",
   "raw_asr_recording_sha256": "4131f18520d963de6b31e2387e68857cbe2ddaeedeec8393f8ec3af41e5d7ac4",
   "speech_sha256": "6d3f0efc914cc2e4dcdeb86c4fc6d5cdef8b54a7efbfe9f167cd44d32730ca0c",
-  "bilingual_sha256": "8141418c53cfee276234ddc90aaf75b5eedfcb71849ef9e63751dac335ebac2d",
+  "bilingual_sha256": "9c9331175cb2cd76baff2d28269a259187e239040f18231a304085b4ba26d277",
   "terminology_addendum_prepared": true,
   "updated_at": "2026-10-18T05:00:21.776102+00:00",
   "additional_independent_model_repetition_audit_report": "https://github.com/fresh-little-lemon/mobile-sensor-network-course/blob/main/qa/asr-repetition-audit-20261018/README.md",
@@ -97,5 +97,6 @@
     "original_raw_preserved": true,
     "revised_or_bilingual_words_changed_by_audit": false,
     "finding": "Recognition remains unstable; differing short-window guesses do not resolve wording or establish silence. Keep editorial uncertainty."
-  }
+  },
+  "current_bilingual_manifest": "qa/bilingual-manifest.json"
 }

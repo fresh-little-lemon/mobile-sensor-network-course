@@ -22,32 +22,32 @@
   "flagged_main_windows": [
     {
       "window_index_zero_based": 24,
-      "start_seconds": 2640.0,
-      "end_seconds": 2760.0,
+      "start_seconds": 2640,
+      "end_seconds": 2760,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 25,
-      "start_seconds": 2750.0,
-      "end_seconds": 2870.0,
+      "start_seconds": 2750,
+      "end_seconds": 2870,
       "flags": [
         "empty_output"
       ]
     },
     {
       "window_index_zero_based": 51,
-      "start_seconds": 5610.0,
-      "end_seconds": 5730.0,
+      "start_seconds": 5610,
+      "end_seconds": 5730,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "window_index_zero_based": 52,
-      "start_seconds": 5720.0,
-      "end_seconds": 5840.0,
+      "start_seconds": 5720,
+      "end_seconds": 5840,
       "flags": [
         "generation_cap"
       ]
@@ -56,32 +56,32 @@
   "failed_split_checks": [
     {
       "file": "00051_a.json",
-      "start_seconds": 5610.0,
-      "end_seconds": 5675.0,
+      "start_seconds": 5610,
+      "end_seconds": 5675,
       "flags": [
         "empty_output"
       ]
     },
     {
       "file": "00051_b.json",
-      "start_seconds": 5665.0,
-      "end_seconds": 5730.0,
+      "start_seconds": 5665,
+      "end_seconds": 5730,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "file": "00052_a.json",
-      "start_seconds": 5720.0,
-      "end_seconds": 5785.0,
+      "start_seconds": 5720,
+      "end_seconds": 5785,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "file": "00052_b.json",
-      "start_seconds": 5775.0,
-      "end_seconds": 5840.0,
+      "start_seconds": 5775,
+      "end_seconds": 5840,
       "flags": [
         "generation_cap"
       ]
@@ -105,7 +105,7 @@
   "original_capture_sha256": "8cefc845baefe9b74ceb876db1f37cfc8e59a2df47e16a0475de0468a4050221",
   "raw_asr_recording_sha256": "0962ea7bb6ed56ef9487f9e55fbdb531215f5fe1b348b678552d03224e6d309f",
   "speech_sha256": "4b8487327df8db716045c0849c4321017165b4ab4160235458333febd6a1b53b",
-  "bilingual_sha256": "d64fb81f13260420db327ea90c66d1de05599c91b3d414bc02118df3084e4ebd",
+  "bilingual_sha256": "bb7617dbd234ea9df2a66a839f7c953358d522368eebcdb4057a27f2b6e883a4",
   "terminology_addendum_prepared": true,
   "updated_at": "2026-10-18T05:00:21.771162+00:00",
   "additional_independent_model_repetition_audit_status": "computational_comparison_complete_speech_unresolved",
@@ -127,5 +127,6 @@
     "original_raw_preserved": true,
     "revised_or_bilingual_words_changed_by_audit": false,
     "finding": "Recognition remains unstable; differing short-window guesses do not resolve wording or establish silence. Keep editorial uncertainty."
-  }
+  },
+  "current_bilingual_manifest": "qa/bilingual-manifest.json"
 }

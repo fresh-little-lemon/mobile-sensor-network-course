@@ -22,40 +22,40 @@
   "flagged_main_windows": [
     {
       "window_index_zero_based": 3,
-      "start_seconds": 330.0,
-      "end_seconds": 450.0,
+      "start_seconds": 330,
+      "end_seconds": 450,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "window_index_zero_based": 4,
-      "start_seconds": 440.0,
-      "end_seconds": 560.0,
+      "start_seconds": 440,
+      "end_seconds": 560,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "window_index_zero_based": 25,
-      "start_seconds": 2750.0,
-      "end_seconds": 2870.0,
+      "start_seconds": 2750,
+      "end_seconds": 2870,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "window_index_zero_based": 26,
-      "start_seconds": 2860.0,
-      "end_seconds": 2980.0,
+      "start_seconds": 2860,
+      "end_seconds": 2980,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "window_index_zero_based": 27,
-      "start_seconds": 2970.0,
-      "end_seconds": 3090.0,
+      "start_seconds": 2970,
+      "end_seconds": 3090,
       "flags": [
         "generation_cap"
       ]
@@ -75,7 +75,8 @@
   "original_capture_sha256": "fd01156723429c78eab928d6b997c044d7f59e6ac5e9ca043aeaf03a0eb8b8cf",
   "raw_asr_recording_sha256": "0ed8d48f4d3742dfd5354aa24a0d909db6b296226bfed111c3a16c2bc30e4602",
   "speech_sha256": "387f3d26378f2f33542875b023b730bc1819c38dee084b78fa7e125667266fd3",
-  "bilingual_sha256": "992b88e13d1c296c770e7f1737d4badd2c959bc92c52543730793956db033fc6",
+  "bilingual_sha256": "5c482cbbd5aff48cc66cbe7a6ab130356c36aa91bc7a565fdd3f230e65cb7d71",
   "terminology_addendum_prepared": true,
-  "updated_at": "2026-10-18T07:00:48.379576+00:00"
+  "updated_at": "2026-10-18T07:00:48.379576+00:00",
+  "current_bilingual_manifest": "qa/bilingual-manifest.json"
 }

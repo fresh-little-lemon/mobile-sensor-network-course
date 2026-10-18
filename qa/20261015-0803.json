@@ -26,16 +26,16 @@
   "flagged_main_windows": [
     {
       "window_index_zero_based": 24,
-      "start_seconds": 2640.0,
-      "end_seconds": 2760.0,
+      "start_seconds": 2640,
+      "end_seconds": 2760,
       "flags": [
         "generation_cap"
       ]
     },
     {
       "window_index_zero_based": 46,
-      "start_seconds": 5060.0,
-      "end_seconds": 5180.0,
+      "start_seconds": 5060,
+      "end_seconds": 5180,
       "flags": [
         "generation_cap"
       ]
@@ -55,9 +55,10 @@
   "original_capture_sha256": "fdc7cc813237c7fa8557c2dc31ef70a43a7f8a699e6c32a1da374193fa336b02",
   "raw_asr_recording_sha256": "43a56e2dc1df9db7954e2a9d9be7d01f534376064832f3749e17d7f4738e0ad6",
   "speech_sha256": "815e6febd46153627c405e43f23f6bd38998caafb8bfb19b166c1572c53b057b",
-  "bilingual_sha256": "cbf49026d7e25d6b1546d588cb06a60763529790eee79d36ab1b27eae42535a7",
+  "bilingual_sha256": "0a259508c94739f3ce64df03259f74787370f841f63bd425924e6870c26be710",
   "terminology_addendum_prepared": true,
   "terminology_review_public_append_pending": true,
   "additional_independent_model_repetition_audit_status": "pending_separate_followup",
-  "updated_at": "2026-10-18T07:02:13.255958+00:00"
+  "updated_at": "2026-10-18T07:02:13.255958+00:00",
+  "current_bilingual_manifest": "qa/bilingual-manifest.json"
 }
