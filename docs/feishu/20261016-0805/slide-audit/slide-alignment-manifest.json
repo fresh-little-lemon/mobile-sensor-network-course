@@ -1,0 +1,1258 @@
+{
+  "lesson": "20261016-0805",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/H8UxdBbx7owjVmxCeMbcnihengg",
+  "audited_at_utc": "2026-10-18T16:13:53.965007+00:00",
+  "remote_mutations": true,
+  "audit_snapshot": "blocks-final.json",
+  "audit_snapshot_sha256": "9763627c0cd3498a31e0cfb5aa97b106dbb8695d60a26e43f5b8d93a9387c016",
+  "paragraph_count": 87,
+  "original_image_count": 22,
+  "visually_verified_image_count": 22,
+  "aligned_images": 22,
+  "images_needing_move": [],
+  "confirmed_missing_pdf_slides": [
+    {
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "figure_number": 36,
+      "pdf_page": 18,
+      "pdf_half": "lower",
+      "title": "DCF Basic Access: Unicast DATA + ACK",
+      "semantic_paragraphs": [
+        66,
+        68
+      ],
+      "paragraph_ordinal": 66,
+      "insert_after_heading2_block_id": "doxcnaYknFIjdLGzhNXN9cg0eP0",
+      "before_body_block_id": "doxcnR4WaXTAk1trcGsRaF2uxAh",
+      "evidence": "P66明确回到最初overview time diagram，P67按Source DATA、Destination SIFS ACK、others读Duration设NAV逐行说明；固定WiFi图36恰是该三行时序，而此课后半一张WiFi图都没有。角色A/AP/B的课堂命名不在源页，不能冒充恢复命名拓扑。",
+      "status": "resolved_and_verified",
+      "receipt_stem": "wifi036",
+      "new_image_block_id": "doxcncBgrYotI4yESwbY59QA8Ec",
+      "image_sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c",
+      "remote_download_sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c"
+    },
+    {
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "figure_number": 45,
+      "pdf_page": 23,
+      "pdf_half": "upper",
+      "title": "When Does a Station (Re)contend? — the Backoff Cases",
+      "semantic_paragraphs": [
+        72,
+        72
+      ],
+      "paragraph_ordinal": 72,
+      "insert_after_heading2_block_id": "doxcnxOPQa9n0tEUKCBK6bkWP0e",
+      "before_body_block_id": "doxcnS4u9sgspPGuzpo1AZOcsSf",
+      "evidence": "P72明确说backoff在three possible situations使用，go back to the slide/read the slide；固定WiFi图45正好列且仅列三个触发情形，为明确页回指，不靠关键词补图。",
+      "status": "resolved_and_verified",
+      "receipt_stem": "wifi045",
+      "new_image_block_id": "doxcnzjyJMBG5argogg6y2Ibagc",
+      "image_sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e",
+      "remote_download_sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e"
+    }
+  ],
+  "unresolved_source_gaps": [
+    {
+      "kind": "classroom_drawing_not_in_fixed_pdf",
+      "paragraphs": [
+        33,
+        39,
+        44,
+        45
+      ],
+      "description": "sensor与sink两行DATA-SIFS-ACK-SIFS及192微秒收发转换课堂时序。Sensors图43/51只有文字规则，没有现场两行绘图；不据规则自行重画当原图。"
+    },
+    {
+      "kind": "classroom_annotation_not_in_fixed_pdf",
+      "paragraphs": [
+        66,
+        67
+      ],
+      "description": "A、B、AP互相可听的命名拓扑/时序批注；WiFi图36可恢复通用Source/Destination/Others原页，但不含课堂A/B/AP拓扑及手写标注。"
+    },
+    {
+      "kind": "classroom_drawing_not_in_fixed_pdf",
+      "paragraphs": [
+        74,
+        79
+      ],
+      "description": "A/B同起发送，C和AP碰撞后NAV=0而PHY忙，随后D插入使C提前结束EIFS的多节点课堂图。固定WiFi图54仅B→C数据与A错误接收，不是此例。"
+    },
+    {
+      "kind": "classroom_drawing_not_in_fixed_pdf",
+      "paragraphs": [
+        80,
+        82
+      ],
+      "description": "A短包、B长包同起碰撞，A收完自身短包后只听到B尾部而需EIFS的课堂图。所供固定PDF未含该双包长图，不能替以通用EIFS页。"
+    }
+  ],
+  "all_lecture_visuals_recovered": false,
+  "audio_fidelity_verified": false,
+  "navigation_complete": true,
+  "slides_audit_complete": true,
+  "source_pdfs": [
+    {
+      "filename": "04-Sensors-MAC.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/04-Sensors-MAC.pdf",
+      "local_path": "/workspace/shared/04-Sensors-MAC.pdf",
+      "sha256": "ea5f2788f3180267cc079e54cde419563b5529a46a72cd2ec3a3e5f69742b647",
+      "pages": 26
+    },
+    {
+      "filename": "02-WiFi_1-7.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "local_path": "/workspace/shared/02-WiFi_1-7.pdf",
+      "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+      "pages": 74
+    }
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "block_id": "doxcn6DXmfeTJtCTDGeOrUkWj3d",
+      "figure_number": 31,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第16页上半页 · 图31（按PDF顺序）",
+      "token": "KR8ibF3vCoZlFYx5TU9cUra0n2e",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-031.png",
+      "after_paragraph": 1,
+      "before_paragraph": 2,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-031.png\",\n    \"size_bytes\": 69594\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "96217a9b02340e62c1daa31187d7c5c67ad883ab51f9815402302a803627e345",
+      "title": "Operating Frequency Bands",
+      "semantic_paragraph_spans": [
+        [
+          1,
+          1
+        ]
+      ],
+      "alignment_reason_zh": "P1逐项比较868/915MHz窄带与2.4GHz宽带、频宽和速率，原图三组频带及1MHz/5MHz视觉结构相符。",
+      "pdf_page": 16,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 1,
+        "timestamp": "00:00:00",
+        "block_id": "doxcn6AkgqfvSkoEIxrJyFNuKhg",
+        "heading": "01 · 00:00:00 · 信道带宽与可达比特率"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 2,
+        "timestamp": "00:00:48",
+        "block_id": "doxcnE1gP6yZex7X3lxR7iGlAec",
+        "heading": "02 · 00:00:48 · 物理层调制提示与分组格式"
+      }
+    },
+    {
+      "image_ordinal": 2,
+      "block_id": "doxcnrRytRP2AeBq1GaxioYBn3c",
+      "figure_number": 32,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第16页下半页 · 图32（按PDF顺序）",
+      "token": "OLEKbx6xoonWMTxMkigcjBqVntf",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-032.png",
+      "after_paragraph": 2,
+      "before_paragraph": 3,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-032.png\",\n    \"size_bytes\": 121544\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "365dad9a44bbd081fb91a3b997e6b95cdd41ae306c670b8bb8c9d80176b77345",
+      "title": "PHY Layer",
+      "semantic_paragraph_spans": [
+        [
+          2,
+          4
+        ]
+      ],
+      "alignment_reason_zh": "P2指这张调制页不用背、转看PHY包长；P3明确6B头和127B最大payload，与页底粗体一致。",
+      "pdf_page": 16,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 2,
+        "timestamp": "00:00:48",
+        "block_id": "doxcnE1gP6yZex7X3lxR7iGlAec",
+        "heading": "02 · 00:00:48 · 物理层调制提示与分组格式"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 3,
+        "timestamp": "00:01:23",
+        "block_id": "doxcnprRP1xMQQs0lEGxqAx0TZc",
+        "heading": "03 · 00:01:23 · 短首部与小型有效载荷"
+      }
+    },
+    {
+      "image_ordinal": 3,
+      "block_id": "doxcnFQbwLAof6wdCuhRlE8h0Kd",
+      "figure_number": 33,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第17页上半页 · 图33（按PDF顺序）",
+      "token": "Pl3TbMacGovkhhxTPvqc9W3xnxe",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-033.png",
+      "after_paragraph": 4,
+      "before_paragraph": 5,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-033.png\",\n    \"size_bytes\": 38878\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "cb8199e239c84faf471b0fc7d426a3411873a253d8344e4462e1ea99af3c9a39",
+      "title": "MAC LAYER",
+      "semantic_paragraph_spans": [
+        [
+          4,
+          5
+        ]
+      ],
+      "alignment_reason_zh": "P4明确Now let us move to the MAC layer，标题页放在此过渡段后正确。",
+      "pdf_page": 17,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 4,
+        "timestamp": "00:01:57",
+        "block_id": "doxcnhNyBTdPrbZVNHWeftPWqYb",
+        "heading": "04 · 00:01:57 · 低速率设计与转入MAC层"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 5,
+        "timestamp": "00:02:43",
+        "block_id": "doxcnNkG3xjSfcPSG6Yp7LJhCVg",
+        "heading": "05 · 00:02:43 · PAN协调器管理网络并发送信标"
+      }
+    },
+    {
+      "image_ordinal": 4,
+      "block_id": "doxcn7dl0c5pj7dQ64Dp9JwqDYf",
+      "figure_number": 34,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第17页下半页 · 图34（按PDF顺序）",
+      "token": "SHAYbQnEYowZT7xitHrcorD1nBd",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-034.png",
+      "after_paragraph": 5,
+      "before_paragraph": 6,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-034.png\",\n    \"size_bytes\": 101220\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "98ca34e02d1393af29e8d269b43df453b328623e815c90578982de7d93e4942c",
+      "title": "MAC Layer: beacon-enabled mode",
+      "semantic_paragraph_spans": [
+        [
+          5,
+          7
+        ]
+      ],
+      "alignment_reason_zh": "P5协调器定期beacon，P6超帧时间参考，P7明确beacon-enabled，正是三项概览。",
+      "pdf_page": 17,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 5,
+        "timestamp": "00:02:43",
+        "block_id": "doxcnNkG3xjSfcPSG6Yp7LJhCVg",
+        "heading": "05 · 00:02:43 · PAN协调器管理网络并发送信标"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 6,
+        "timestamp": "00:03:34",
+        "block_id": "doxcncfrPSwuCZJSlM52cfOSrgd",
+        "heading": "06 · 00:03:34 · 信标为超帧和节点提供时间参考"
+      }
+    },
+    {
+      "image_ordinal": 5,
+      "block_id": "doxcnwCdIfXBPZRoN1JiDDanBbg",
+      "figure_number": 35,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第18页上半页 · 图35（按PDF顺序）",
+      "token": "QoZibZjy6oRSUtxUZHrca4sVnKe",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-035.png",
+      "after_paragraph": 8,
+      "before_paragraph": 9,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-035.png\",\n    \"size_bytes\": 122818\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "89423c92a538353cfc8908c676f9d440c0e478a3cb4895f1d4edafacb7f5c6ef",
+      "title": "Optional Superframe Structure",
+      "semantic_paragraph_spans": [
+        [
+          7,
+          10
+        ]
+      ],
+      "alignment_reason_zh": "P7引出picture，P8按beacon间隔、先CAP再CFP讲解；P9时隙，P10 CFP按TDMA分配，图中顺序和颜色分区均相符。",
+      "pdf_page": 18,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 8,
+        "timestamp": "00:04:34",
+        "block_id": "doxcnsjUeuklDJQGFas2Bq6Cuqd",
+        "heading": "08 · 00:04:34 · 超帧内先竞争再无竞争接入"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 9,
+        "timestamp": "00:05:31",
+        "block_id": "doxcnK7K52booDV38VVW4g3hD1b",
+        "heading": "09 · 00:05:31 · 同步时隙与标准术语差异"
+      }
+    },
+    {
+      "image_ordinal": 6,
+      "block_id": "doxcny2m5YkQW4qbsmh5pIh7ICc",
+      "figure_number": 36,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第18页下半页 · 图36（按PDF顺序）",
+      "token": "KoizbWIi4oU5f5xTxIbc0wWynu7",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-036.png",
+      "after_paragraph": 10,
+      "before_paragraph": 11,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-036.png\",\n    \"size_bytes\": 75497\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "ab6054f7a45f45e49c4322e4858d7e492e12a873c0a255356156afa36083dd3c",
+      "title": "Energy Saving: whole-network idle",
+      "semantic_paragraph_spans": [
+        [
+          10,
+          10
+        ]
+      ],
+      "alignment_reason_zh": "P10后半明确as represented here全网包括coordinator可休眠，对应超帧后Idle白区；与同段CFP说明衔接合理。",
+      "pdf_page": 18,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 10,
+        "timestamp": "00:06:26",
+        "block_id": "doxcnqOB2lMQ4Ao2Xo9luYTTmyC",
+        "heading": "10 · 00:06:26 · 无竞争期时隙分配与节点休眠"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 11,
+        "timestamp": "00:09:30",
+        "block_id": "doxcnq9qpr8xzb9bxf9vHWR7Kxc",
+        "heading": "11 · 00:09:30 · 协调器缓存负担及时隙CSMA/CA导入"
+      }
+    },
+    {
+      "image_ordinal": 7,
+      "block_id": "doxcnapgARX8rJCHcmvjedGWZmc",
+      "figure_number": 37,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第19页上半页 · 图37（按PDF顺序）",
+      "token": "ZqObbqINpo4IBQxyMCqclL5AnOb",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-037.png",
+      "after_paragraph": 11,
+      "before_paragraph": 12,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-037.png\",\n    \"size_bytes\": 75037\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "e9cb9fb4256f68a45c7dc26d1c5bbab3e7768ebf68536d37f942e49e41300a8d",
+      "title": "Energy Saving: individual nodes",
+      "semantic_paragraph_spans": [
+        [
+          10,
+          11
+        ]
+      ],
+      "alignment_reason_zh": "P10末单节点睡眠、P11缓存/存储压力与丢包，正对应本页individual LP、data storage、delay，不移至全网休眠图前。",
+      "pdf_page": 19,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 11,
+        "timestamp": "00:09:30",
+        "block_id": "doxcnq9qpr8xzb9bxf9vHWR7Kxc",
+        "heading": "11 · 00:09:30 · 协调器缓存负担及时隙CSMA/CA导入"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 12,
+        "timestamp": "00:12:25",
+        "block_id": "doxcn0Cd4wFUeWLLtqKG00YUgif",
+        "heading": "12 · 00:12:25 · 同步时隙中仍采用分布式竞争"
+      }
+    },
+    {
+      "image_ordinal": 8,
+      "block_id": "doxcnZk3LJHzeZcKmvdbb6OySCb",
+      "figure_number": 38,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第19页下半页 · 图38（按PDF顺序）",
+      "token": "XpsYbetxBoE2sxxvh2dckAwHn5b",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-038.png",
+      "after_paragraph": 11,
+      "before_paragraph": 12,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-038.png\",\n    \"size_bytes\": 91536\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "452229dcc51fa9e4affe43a3382c777ede199390e4177932c938734dba861304",
+      "title": "Slotted CSMA-CA overview",
+      "semantic_paragraph_spans": [
+        [
+          11,
+          15
+        ]
+      ],
+      "alignment_reason_zh": "P11后半明确focus contention-based interval/slotted CSMA-CA，P12同步但分布式，P15进入内外块。与本页CAP/对齐/两模块一一相符。",
+      "pdf_page": 19,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 11,
+        "timestamp": "00:09:30",
+        "block_id": "doxcnq9qpr8xzb9bxf9vHWR7Kxc",
+        "heading": "11 · 00:09:30 · 协调器缓存负担及时隙CSMA/CA导入"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 12,
+        "timestamp": "00:12:25",
+        "block_id": "doxcn0Cd4wFUeWLLtqKG00YUgif",
+        "heading": "12 · 00:12:25 · 同步时隙中仍采用分布式竞争"
+      }
+    },
+    {
+      "image_ordinal": 9,
+      "block_id": "doxcnn7WojpX2n9YjmwS85QMUMd",
+      "figure_number": 40,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第20页下半页 · 图40（按PDF顺序）",
+      "token": "GL2db1Niro0p88xsX1ec7YKFn9e",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-040.png",
+      "after_paragraph": 15,
+      "before_paragraph": 16,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-040.png\",\n    \"size_bytes\": 88058\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "d0fbca07c1753489e3022c36d37192ee355baf65ab7639aca0d4217764d659a2",
+      "title": "Slotted CSMA-CA Procedure: Outer Block",
+      "semantic_paragraph_spans": [
+        [
+          15,
+          19
+        ]
+      ],
+      "alignment_reason_zh": "P15先讲外层NF=0，P16把inner当黑盒并逐步讲Transmit/ACK，P17重试、P18直接failure。图40先于图39是实际讲解次序，必须保留。",
+      "pdf_page": 20,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 15,
+        "timestamp": "00:14:16",
+        "block_id": "doxcnPWUyTckirgSr6cgoEc5Kdh",
+        "heading": "15 · 00:14:16 · 内外模块与发送尝试计数初始化"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 16,
+        "timestamp": "00:17:00",
+        "block_id": "doxcnk8CvOQ1IwCkm4irgjE7Mwg",
+        "heading": "16 · 00:17:00 · 内层允许发送后等待ACK"
+      }
+    },
+    {
+      "image_ordinal": 10,
+      "block_id": "doxcnOukWzwQiYYq3uXsNWEAEvb",
+      "figure_number": 39,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第20页上半页 · 图39（按PDF顺序）",
+      "token": "TVBHbY3VyoO1L3xlm1Rcatppnfb",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-039.png",
+      "after_paragraph": 20,
+      "before_paragraph": 21,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-039.png\",\n    \"size_bytes\": 143519\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "cbad365d6c00cc86c3cfc51f48076486aa04bee84a3d46472a41d16d12707e7a",
+      "title": "Slotted CSMA-CA Algorithm: Variables",
+      "semantic_paragraph_spans": [
+        [
+          20,
+          21
+        ]
+      ],
+      "alignment_reason_zh": "P20进入inner时才细讲NB/CW，P21 BE；变量表在这里与内层流程图41并列正合适，不因PDF顺序排回40之前。",
+      "pdf_page": 20,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 20,
+        "timestamp": "00:21:59",
+        "block_id": "doxcnAoWHIWWQMjo6BJUtDhrjSc",
+        "heading": "20 · 00:21:59 · 初始化NB与两时隙侦听窗口"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 21,
+        "timestamp": "00:23:16",
+        "block_id": "doxcnbwFAQikycztrwmO4yAs6kb",
+        "heading": "21 · 00:23:16 · 初始化退避指数BE"
+      }
+    },
+    {
+      "image_ordinal": 11,
+      "block_id": "doxcnB69ewCxW2WCuxHbCdH3yfc",
+      "figure_number": 41,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第21页上半页 · 图41（按PDF顺序）",
+      "token": "TS92bC9WUoqyk2xZCBGcZU8hnMf",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-041.png",
+      "after_paragraph": 20,
+      "before_paragraph": 21,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-041.png\",\n    \"size_bytes\": 101370\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "e08e3b41369ffdde0b13ff7df137fb4af6133956f6a1fcad612131b02439d31a",
+      "title": "Slotted CSMA-CA Procedure: Inner Block",
+      "semantic_paragraph_spans": [
+        [
+          19,
+          27
+        ]
+      ],
+      "alignment_reason_zh": "P19说show diagram，P20初始化NB0/CW2，P22–26定位边界→随机退避→CCA→双slot感知/重置，P27超限failure，原流程箭头吻合。",
+      "pdf_page": 21,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 20,
+        "timestamp": "00:21:59",
+        "block_id": "doxcnAoWHIWWQMjo6BJUtDhrjSc",
+        "heading": "20 · 00:21:59 · 初始化NB与两时隙侦听窗口"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 21,
+        "timestamp": "00:23:16",
+        "block_id": "doxcnbwFAQikycztrwmO4yAs6kb",
+        "heading": "21 · 00:23:16 · 初始化退避指数BE"
+      }
+    },
+    {
+      "image_ordinal": 12,
+      "block_id": "doxcntYgoDJJ0hh9Gp8y1IAwQkc",
+      "figure_number": 42,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第21页下半页 · 图42（按PDF顺序）",
+      "token": "VJkjbhZpTo3WoXxh1oIcYBW5nid",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-042.png",
+      "after_paragraph": 27,
+      "before_paragraph": 28,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-042.png\",\n    \"size_bytes\": 118046\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "59daa1cfceb6774b112e02fd8c33e00c85e3d7e31e0d450c0b50ce1f4bd8e05f",
+      "title": "Slotted CSMA-CA Algorithm: Inner Block summary",
+      "semantic_paragraph_spans": [
+        [
+          27,
+          30
+        ]
+      ],
+      "alignment_reason_zh": "P27明确to summarize，先退避后感知、busy重试，与本页文字小结相符；P28回顾外层不要求把此图换为其他图。",
+      "pdf_page": 21,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 27,
+        "timestamp": "00:29:13",
+        "block_id": "doxcnE09wkEkQqdTpD7Sbdd8kEf",
+        "heading": "27 · 00:29:13 · 内层重试次数耗尽导致丢包"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 28,
+        "timestamp": "00:31:29",
+        "block_id": "doxcndov11rJwwmYZ9UdMawrXHh",
+        "heading": "28 · 00:31:29 · 内外层串联后的成功发送流程"
+      }
+    },
+    {
+      "image_ordinal": 13,
+      "block_id": "doxcnW6o6KqEfYF1pTUpatiLfXb",
+      "figure_number": 44,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第22页下半页 · 图44（按PDF顺序）",
+      "token": "VDqcbrKiqomRqUx72WOcAdmqnj9",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-044.png",
+      "after_paragraph": 30,
+      "before_paragraph": 31,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-044.png\",\n    \"size_bytes\": 93717\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "966d3422d64b872c5b7921ab463b71b263914620a9fb65c239e90bc988323a41",
+      "title": "Remarks: Failure Handling",
+      "semantic_paragraph_spans": [
+        [
+          29,
+          30
+        ]
+      ],
+      "alignment_reason_zh": "P29区分两类失败，P30重进inner NB reset0是本页末行粗体精确内容。老师先讲此页再讲SIFS，因此44→43正确。",
+      "pdf_page": 22,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 30,
+        "timestamp": "00:33:30",
+        "block_id": "doxcnDGig3HQzw5wfeLX0KuZEgg",
+        "heading": "30 · 00:33:30 · 每次重入内层重新初始化NB"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 31,
+        "timestamp": "00:35:11",
+        "block_id": "doxcnoZQgl5aJgHnmRtWVWSLBkh",
+        "heading": "31 · 00:35:11 · 建议结合流程图反复复习"
+      }
+    },
+    {
+      "image_ordinal": 14,
+      "block_id": "doxcn5lcG01XaYdEr18w4lKo8oj",
+      "figure_number": 43,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第22页上半页 · 图43（按PDF顺序）",
+      "token": "BJIXbU8hJomx0NxTCkZcPKzZn3f",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-043.png",
+      "after_paragraph": 38,
+      "before_paragraph": 39,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-043.png\",\n    \"size_bytes\": 95162\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "d66dd8a969503fceee01af1b7b00a1c3851257aa891380e6bed948b0eff25cc5",
+      "title": "Remarks: Backoff and Timings",
+      "semantic_paragraph_spans": [
+        [
+          33,
+          39
+        ]
+      ],
+      "alignment_reason_zh": "P33–39讲sensor/sink时序，P38–39强调DATA-SIFS-ACK-SIFS才能再次接收，对应本页第二bullet；原图位于P38后恰承接关键第二个SIFS。",
+      "pdf_page": 22,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 38,
+        "timestamp": "00:38:58",
+        "block_id": "doxcnuOFXSPbsAInxWrlst2QrKb",
+        "heading": "38 · 00:38:58 · 简单设备较长SIFS及ACK后等待"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 39,
+        "timestamp": "00:40:03",
+        "block_id": "doxcnXgH63VBxHzc1owzCiyWi5j",
+        "heading": "39 · 00:40:03 · ACK后切换期间汇聚节点无法接收"
+      }
+    },
+    {
+      "image_ordinal": 15,
+      "block_id": "doxcnjcvtAeqJO7TaNfDXAe13vb",
+      "figure_number": 45,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第23页上半页 · 图45（按PDF顺序）",
+      "token": "AKBWb3OBYoqVe3xSH6UcjSGbn2f",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-045.png",
+      "after_paragraph": 40,
+      "before_paragraph": 41,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-045.png\",\n    \"size_bytes\": 76347\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "3e82e10e4a246451365f1cd77919354edd6af0445d73f8eaa1a87ff457f573f1",
+      "title": "No Beacon-enabled Mode",
+      "semantic_paragraph_spans": [
+        [
+          40,
+          40
+        ]
+      ],
+      "alignment_reason_zh": "休息后P40明确no beacon/no superframe/unslotted，当前转场匹配本页。",
+      "pdf_page": 23,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 40,
+        "timestamp": "00:47:14",
+        "block_id": "doxcnFokavDrI2odCHn44cm7C9g",
+        "heading": "40 · 00:47:14 · 无信标模式与相同的外层流程"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 41,
+        "timestamp": "00:51:11",
+        "block_id": "doxcnQmFkLNIlHqZ9TkGcZDqOee",
+        "heading": "41 · 00:51:11 · 接入失败和重传耗尽两类丢包"
+      }
+    },
+    {
+      "image_ordinal": 16,
+      "block_id": "doxcnymeJWberrIdmR98JPc8rsg",
+      "figure_number": 47,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第24页上半页 · 图47（按PDF顺序）",
+      "token": "ItttbfbW9o2x7lxWt5Rc9233nae",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-047.png",
+      "after_paragraph": 40,
+      "before_paragraph": 41,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-047.png\",\n    \"size_bytes\": 84829\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "ed8fbdeb61d0ae8bbc6a92543eaf0acf7a76598a55d764562bd1677382471fc5",
+      "title": "Unslotted CSMA-CA: Outer Block",
+      "semantic_paragraph_spans": [
+        [
+          40,
+          41
+        ]
+      ],
+      "alignment_reason_zh": "P40在同段后半逐步重讲NF0、inner两种输出、ACK和重传，P41两种失败，对应外层图；先47后46是实际先外层后内层顺序。",
+      "pdf_page": 24,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 40,
+        "timestamp": "00:47:14",
+        "block_id": "doxcnFokavDrI2odCHn44cm7C9g",
+        "heading": "40 · 00:47:14 · 无信标模式与相同的外层流程"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 41,
+        "timestamp": "00:51:11",
+        "block_id": "doxcnQmFkLNIlHqZ9TkGcZDqOee",
+        "heading": "41 · 00:51:11 · 接入失败和重传耗尽两类丢包"
+      }
+    },
+    {
+      "image_ordinal": 17,
+      "block_id": "doxcnYV5Thn1MQexzoGiPF371B9",
+      "figure_number": 52,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第26页下半页 · 图52（按PDF顺序）",
+      "token": "OcDBbTRX0oH6FXxKFACcpQ7HnVb",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-052.png",
+      "after_paragraph": 41,
+      "before_paragraph": 42,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-052.png\",\n    \"size_bytes\": 94291\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "6bcfaddd643edbb19378fec19463d10fcaec17e759673a839e86e6fa325b8eb2",
+      "title": "Remarks: Failure Handling (unslotted)",
+      "semantic_paragraph_spans": [
+        [
+          40,
+          41
+        ]
+      ],
+      "alignment_reason_zh": "P40末引出two causes，P41整段区分inner负结果和最大重传，图52恰作失败小结，不应机械移到全章最后。",
+      "pdf_page": 26,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 41,
+        "timestamp": "00:51:11",
+        "block_id": "doxcnQmFkLNIlHqZ9TkGcZDqOee",
+        "heading": "41 · 00:51:11 · 接入失败和重传耗尽两类丢包"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 42,
+        "timestamp": "00:52:33",
+        "block_id": "doxcnWejTvwyKdiv3SawrLirZad",
+        "heading": "42 · 00:52:33 · 非时隙内层无需等待时隙边界"
+      }
+    },
+    {
+      "image_ordinal": 18,
+      "block_id": "doxcn9k9OWVJXWvzFsGgwFRYwPK",
+      "figure_number": 46,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第23页下半页 · 图46（按PDF顺序）",
+      "token": "PFibbPMezocHenxIjwvcfRjUnub",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-046.png",
+      "after_paragraph": 42,
+      "before_paragraph": 43,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-046.png\",\n    \"size_bytes\": 135530\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "3a3bf0c1d4ad9e2978d630bfd175005d1d6423ad77618dbfa47196b86713286e",
+      "title": "Unslotted CSMA-CA Algorithm: Variables",
+      "semantic_paragraph_spans": [
+        [
+          42,
+          43
+        ]
+      ],
+      "alignment_reason_zh": "P42初始化内层变量、P43随机退避，变量页没有CW，紧挨无slot边界内层图48正确。",
+      "pdf_page": 23,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 42,
+        "timestamp": "00:52:33",
+        "block_id": "doxcnWejTvwyKdiv3SawrLirZad",
+        "heading": "42 · 00:52:33 · 非时隙内层无需等待时隙边界"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 43,
+        "timestamp": "00:54:05",
+        "block_id": "doxcnP4DJjf3zfvLIrV7nkefajd",
+        "heading": "43 · 00:54:05 · 连续退避结束后进行CCA"
+      }
+    },
+    {
+      "image_ordinal": 19,
+      "block_id": "doxcnBlBxuARx4Ob2y1YkVMJ6Gd",
+      "figure_number": 48,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第24页下半页 · 图48（按PDF顺序）",
+      "token": "BVHXbvVXso87lgxZKincjUOEnah",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-048.png",
+      "after_paragraph": 42,
+      "before_paragraph": 43,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-048.png\",\n    \"size_bytes\": 69117\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "34e4885b8f4a3ee44cbf7234ddcd5f7f3e6afb1fcb5df3584728177a3a52fdb1",
+      "title": "Unslotted CSMA-CA: Inner Block flow",
+      "semantic_paragraph_spans": [
+        [
+          42,
+          44
+        ]
+      ],
+      "alignment_reason_zh": "P42明确fewer blocks/arrows、无需slot对齐，P43持续倒数后CCA，P44空闲发送或busy重试/超限，精确对应此图。",
+      "pdf_page": 24,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 42,
+        "timestamp": "00:52:33",
+        "block_id": "doxcnWejTvwyKdiv3SawrLirZad",
+        "heading": "42 · 00:52:33 · 非时隙内层无需等待时隙边界"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 43,
+        "timestamp": "00:54:05",
+        "block_id": "doxcnP4DJjf3zfvLIrV7nkefajd",
+        "heading": "43 · 00:54:05 · 连续退避结束后进行CCA"
+      }
+    },
+    {
+      "image_ordinal": 20,
+      "block_id": "doxcnkQi4FqKgUGVbAkf8VYniVf",
+      "figure_number": 49,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第25页上半页 · 图49（按PDF顺序）",
+      "token": "VbZkbXejdou4CRxK0t4cfIb4nCf",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-049.png",
+      "after_paragraph": 44,
+      "before_paragraph": 45,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-049.png\",\n    \"size_bytes\": 94613\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "5c0374977f3b4473ae5bd4ec36182687950765992c0cb1d20d6ca26d1742c43e",
+      "title": "Unslotted CSMA-CA: Inner Block summary",
+      "semantic_paragraph_spans": [
+        [
+          43,
+          44
+        ]
+      ],
+      "alignment_reason_zh": "P43–44连续退避/感知/忙时再退避以及ACK经SIFS，与文字小结一致。",
+      "pdf_page": 25,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 44,
+        "timestamp": "00:54:52",
+        "block_id": "doxcntilrsqBLfgbAOYqJn0Rgff",
+        "heading": "44 · 00:54:52 · 侦听结果、重试限制与双向SIFS"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 45,
+        "timestamp": "00:56:39",
+        "block_id": "doxcn9IQVc57TySkjQAuO4BBU0e",
+        "heading": "45 · 00:56:39 · ACK后的SIFS内发送会失败"
+      }
+    },
+    {
+      "image_ordinal": 21,
+      "block_id": "doxcnyPLIxjEj3Ql2cEmZrXESpb",
+      "figure_number": 50,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第25页下半页 · 图50（按PDF顺序）",
+      "token": "AJHPbqHrqodi5qxm5ybcAQu2n5b",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-050.png",
+      "after_paragraph": 44,
+      "before_paragraph": 45,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-050.png\",\n    \"size_bytes\": 39769\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "c95b83ab1fbe988b69c878769fa746cee2cfec4ba4d972f0ba90a1549ac3c3ef",
+      "title": "Remarks: same observations",
+      "semantic_paragraph_spans": [
+        [
+          44,
+          45
+        ]
+      ],
+      "alignment_reason_zh": "P44强调also in this case/as before，回指相同backoff/timing/failure，是本页唯一bullet，放在无时隙小结内合理。",
+      "pdf_page": 25,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 44,
+        "timestamp": "00:54:52",
+        "block_id": "doxcntilrsqBLfgbAOYqJn0Rgff",
+        "heading": "44 · 00:54:52 · 侦听结果、重试限制与双向SIFS"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 45,
+        "timestamp": "00:56:39",
+        "block_id": "doxcn9IQVc57TySkjQAuO4BBU0e",
+        "heading": "45 · 00:56:39 · ACK后的SIFS内发送会失败"
+      }
+    },
+    {
+      "image_ordinal": 22,
+      "block_id": "doxcnWiwUxvlT24Z0IuG8tjcChd",
+      "figure_number": 51,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第26页上半页 · 图51（按PDF顺序）",
+      "token": "Jgvbb2wxno6xCgxVo3yc1EESngg",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-051.png",
+      "after_paragraph": 44,
+      "before_paragraph": 45,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1016-0805/slide-images/slide-051.png\",\n    \"size_bytes\": 95306\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "ccaab492bd732843b596c1d2401f23f23d33d138058a2732c112c471ff6ff4c2",
+      "title": "Remarks: Backoff and Timings (unslotted)",
+      "semantic_paragraph_spans": [
+        [
+          44,
+          45
+        ]
+      ],
+      "alignment_reason_zh": "P44后半和P45再次强调ACK后的SIFS转换期不得接收；本页明列packet1-SIFS-ACK-SIFS-packet2，与图49/50同段保留。",
+      "pdf_page": 26,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 44,
+        "timestamp": "00:54:52",
+        "block_id": "doxcntilrsqBLfgbAOYqJn0Rgff",
+        "heading": "44 · 00:54:52 · 侦听结果、重试限制与双向SIFS"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 45,
+        "timestamp": "00:56:39",
+        "block_id": "doxcn9IQVc57TySkjQAuO4BBU0e",
+        "heading": "45 · 00:56:39 · ACK后的SIFS内发送会失败"
+      }
+    },
+    {
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "figure_number": 36,
+      "pdf_page": 18,
+      "pdf_half": "lower",
+      "title": "DCF Basic Access: Unicast DATA + ACK",
+      "semantic_paragraphs": [
+        66,
+        68
+      ],
+      "paragraph_ordinal": 66,
+      "insert_after_heading2_block_id": "doxcnaYknFIjdLGzhNXN9cg0eP0",
+      "before_body_block_id": "doxcnR4WaXTAk1trcGsRaF2uxAh",
+      "evidence": "P66明确回到最初overview time diagram，P67按Source DATA、Destination SIFS ACK、others读Duration设NAV逐行说明；固定WiFi图36恰是该三行时序，而此课后半一张WiFi图都没有。角色A/AP/B的课堂命名不在源页，不能冒充恢复命名拓扑。",
+      "status": "added_and_remote_verified",
+      "receipt_stem": "wifi036",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-wifi-036.png",
+      "sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c",
+      "clip": [
+        99,
+        487,
+        495,
+        710
+      ],
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第18页下半页 · 图36（按PDF顺序）",
+      "block_id": "doxcncBgrYotI4yESwbY59QA8Ec",
+      "token": "F6Bvb6pofo68coxbWhjcLlRmnNh",
+      "remote_download_sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c",
+      "exact_placement_verified": true,
+      "after_paragraph": 65,
+      "before_paragraph": 66,
+      "semantic_paragraph_spans": [
+        [
+          66,
+          68
+        ]
+      ],
+      "identity_verified": "固定PDF原样4倍栅格化并逐图视觉检查，远端下载SHA256完全一致。",
+      "alignment_reason_zh": "P66明确回到最初overview time diagram，P67按Source DATA、Destination SIFS ACK、others读Duration设NAV逐行说明；固定WiFi图36恰是该三行时序，而此课后半一张WiFi图都没有。角色A/AP/B的课堂命名不在源页，不能冒充恢复命名拓扑。"
+    },
+    {
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "figure_number": 45,
+      "pdf_page": 23,
+      "pdf_half": "upper",
+      "title": "When Does a Station (Re)contend? — the Backoff Cases",
+      "semantic_paragraphs": [
+        72,
+        72
+      ],
+      "paragraph_ordinal": 72,
+      "insert_after_heading2_block_id": "doxcnxOPQa9n0tEUKCBK6bkWP0e",
+      "before_body_block_id": "doxcnS4u9sgspPGuzpo1AZOcsSf",
+      "evidence": "P72明确说backoff在three possible situations使用，go back to the slide/read the slide；固定WiFi图45正好列且仅列三个触发情形，为明确页回指，不靠关键词补图。",
+      "status": "added_and_remote_verified",
+      "receipt_stem": "wifi045",
+      "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-wifi-045.png",
+      "sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e",
+      "clip": [
+        99,
+        132,
+        495,
+        355
+      ],
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第23页上半页 · 图45（按PDF顺序）",
+      "block_id": "doxcnzjyJMBG5argogg6y2Ibagc",
+      "token": "UfURbchAwoRfO6xweBrciOp9nUe",
+      "remote_download_sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e",
+      "exact_placement_verified": true,
+      "after_paragraph": 71,
+      "before_paragraph": 72,
+      "semantic_paragraph_spans": [
+        [
+          72,
+          72
+        ]
+      ],
+      "identity_verified": "固定PDF原样4倍栅格化并逐图视觉检查，远端下载SHA256完全一致。",
+      "alignment_reason_zh": "P72明确说backoff在three possible situations使用，go back to the slide/read the slide；固定WiFi图45正好列且仅列三个触发情形，为明确页回指，不靠关键词补图。"
+    }
+  ],
+  "not_missing": [
+    {
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "figures": [
+        29,
+        30
+      ],
+      "reason": "本录音从频带图31续讲；29/30不因页码前缺就补。"
+    },
+    {
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "sequence": [
+        40,
+        39,
+        41,
+        44,
+        43,
+        45,
+        47,
+        52,
+        46,
+        48,
+        49,
+        50,
+        51
+      ],
+      "reason": "先外层后内层变量、先failure后timing、unslotted回顾失败后再进入inner，全部跟实际段落走，不按PDF重排。"
+    },
+    {
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "figures": [
+        35,
+        38,
+        41,
+        46,
+        53,
+        54,
+        55
+      ],
+      "reason": "答疑提到相关概念不自动证明逐页展示；其中54与实际碰撞例不符。除36/45明确回指外不扩大补图。"
+    },
+    {
+      "kind": "review_question_list",
+      "paragraphs": [
+        47,
+        50,
+        62,
+        72,
+        84,
+        87
+      ],
+      "reason": "学生收集问题被读出，未证明是PPT原图；不虚称可恢复的固定课件页。"
+    }
+  ],
+  "scope": "完整逐图语义审计；仅补经核准固定PDF图并更新文首图数，所有原正文/导航/录音/原图及其顺序已逐块核验保持不变。",
+  "cautions": [
+    "图号按PDF半页顺序，不等于页内印刷页码。",
+    "审计不改既有正文ASR未定标注，包括P86可能漏否定及SIFS数值口误。",
+    "未用原音认证转写；未打包私人音频。",
+    "不按图号或主题关键词机械补图或重排。",
+    "仅在已核准锚点补固定PDF图并将文首图数22更新为24；其他原块及顺序完全不变；原音/原transcript/minutes未动。"
+  ],
+  "unresolved_source_gap_count": 4,
+  "manifest_update_recommendation": {
+    "slides_audit_pending": false,
+    "slides_audit_complete": true,
+    "slides_aligned_count": 24,
+    "slides_missing_confirmed_count": 0,
+    "slides_misaligned_count": 0,
+    "unresolved_visual_source_gaps": 4,
+    "audio_fidelity_verified": false,
+    "slides_missing_resolved_count": 2,
+    "image_count": 24,
+    "original_images_count": 22
+  },
+  "added_image_count": 2,
+  "final_image_count": 24,
+  "final_remote_verification": {
+    "all_original_nonroot_blocks_except_status_unchanged": true,
+    "original_image_count": 22,
+    "original_images_unchanged": true,
+    "original_order_unchanged": true,
+    "all_original_bilingual_paragraph_blocks_unchanged": true,
+    "paragraph_count": 87,
+    "original_recording_and_resource_blocks_unchanged": true,
+    "heading2_count": 87,
+    "heading1_count": 10,
+    "final_image_count": 24,
+    "new_images": [
+      {
+        "source_pdf": "02-WiFi_1-7.pdf",
+        "figure_number": 36,
+        "pdf_page": 18,
+        "pdf_half": "lower",
+        "title": "DCF Basic Access: Unicast DATA + ACK",
+        "semantic_paragraphs": [
+          66,
+          68
+        ],
+        "paragraph_ordinal": 66,
+        "insert_after_heading2_block_id": "doxcnaYknFIjdLGzhNXN9cg0eP0",
+        "before_body_block_id": "doxcnR4WaXTAk1trcGsRaF2uxAh",
+        "evidence": "P66明确回到最初overview time diagram，P67按Source DATA、Destination SIFS ACK、others读Duration设NAV逐行说明；固定WiFi图36恰是该三行时序，而此课后半一张WiFi图都没有。角色A/AP/B的课堂命名不在源页，不能冒充恢复命名拓扑。",
+        "status": "inserted_and_fully_verified",
+        "receipt_stem": "wifi036",
+        "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-wifi-036.png",
+        "sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c",
+        "clip": [
+          99,
+          487,
+          495,
+          710
+        ],
+        "caption": "课件：02-WiFi_1-7.pdf · PDF第18页下半页 · 图36（按PDF顺序）",
+        "block_id": "doxcncBgrYotI4yESwbY59QA8Ec",
+        "token": "F6Bvb6pofo68coxbWhjcLlRmnNh",
+        "remote_download_sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c",
+        "exact_placement_verified": true
+      },
+      {
+        "source_pdf": "02-WiFi_1-7.pdf",
+        "figure_number": 45,
+        "pdf_page": 23,
+        "pdf_half": "upper",
+        "title": "When Does a Station (Re)contend? — the Backoff Cases",
+        "semantic_paragraphs": [
+          72,
+          72
+        ],
+        "paragraph_ordinal": 72,
+        "insert_after_heading2_block_id": "doxcnxOPQa9n0tEUKCBK6bkWP0e",
+        "before_body_block_id": "doxcnS4u9sgspPGuzpo1AZOcsSf",
+        "evidence": "P72明确说backoff在three possible situations使用，go back to the slide/read the slide；固定WiFi图45正好列且仅列三个触发情形，为明确页回指，不靠关键词补图。",
+        "status": "inserted_and_fully_verified",
+        "receipt_stem": "wifi045",
+        "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-wifi-045.png",
+        "sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e",
+        "clip": [
+          99,
+          132,
+          495,
+          355
+        ],
+        "caption": "课件：02-WiFi_1-7.pdf · PDF第23页上半页 · 图45（按PDF顺序）",
+        "block_id": "doxcnzjyJMBG5argogg6y2Ibagc",
+        "token": "UfURbchAwoRfO6xweBrciOp9nUe",
+        "remote_download_sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e",
+        "exact_placement_verified": true
+      }
+    ],
+    "exact_placement_verified": true,
+    "all_new_remote_image_bytes_identical": true,
+    "before_snapshot_sha256": "9763627c0cd3498a31e0cfb5aa97b106dbb8695d60a26e43f5b8d93a9387c016",
+    "after_snapshot_sha256": "c6ee50fa6e0db41d4e739770495250d776ceacc72e2b6921aef14c21d232e4b0",
+    "status_block_id": "doxcnOzC3HRIxtds0Xelx6QoPsd",
+    "old_status_fragment": "已匹配插入22张课件图",
+    "new_status_fragment": "已匹配插入24张课件图"
+  },
+  "missing_slide_remediation_complete": true,
+  "all_confirmed_pdf_slides_present": true,
+  "final_visually_verified_image_count": 24,
+  "final_aligned_image_count": 24,
+  "current_confirmed_missing_pdf_slide_count": 0
+}

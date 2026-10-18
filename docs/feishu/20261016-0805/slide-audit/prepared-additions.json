@@ -1,0 +1,62 @@
+[
+  {
+    "source_pdf": "02-WiFi_1-7.pdf",
+    "figure_number": 36,
+    "pdf_page": 18,
+    "pdf_half": "lower",
+    "title": "DCF Basic Access: Unicast DATA + ACK",
+    "semantic_paragraphs": [
+      66,
+      68
+    ],
+    "paragraph_ordinal": 66,
+    "insert_after_heading2_block_id": "doxcnaYknFIjdLGzhNXN9cg0eP0",
+    "before_body_block_id": "doxcnR4WaXTAk1trcGsRaF2uxAh",
+    "evidence": "P66明确回到最初overview time diagram，P67按Source DATA、Destination SIFS ACK、others读Duration设NAV逐行说明；固定WiFi图36恰是该三行时序，而此课后半一张WiFi图都没有。角色A/AP/B的课堂命名不在源页，不能冒充恢复命名拓扑。",
+    "status": "inserted_and_fully_verified",
+    "receipt_stem": "wifi036",
+    "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-wifi-036.png",
+    "sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c",
+    "clip": [
+      99,
+      487,
+      495,
+      710
+    ],
+    "caption": "课件：02-WiFi_1-7.pdf · PDF第18页下半页 · 图36（按PDF顺序）",
+    "block_id": "doxcncBgrYotI4yESwbY59QA8Ec",
+    "token": "F6Bvb6pofo68coxbWhjcLlRmnNh",
+    "remote_download_sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c",
+    "exact_placement_verified": true
+  },
+  {
+    "source_pdf": "02-WiFi_1-7.pdf",
+    "figure_number": 45,
+    "pdf_page": 23,
+    "pdf_half": "upper",
+    "title": "When Does a Station (Re)contend? — the Backoff Cases",
+    "semantic_paragraphs": [
+      72,
+      72
+    ],
+    "paragraph_ordinal": 72,
+    "insert_after_heading2_block_id": "doxcnxOPQa9n0tEUKCBK6bkWP0e",
+    "before_body_block_id": "doxcnS4u9sgspPGuzpo1AZOcsSf",
+    "evidence": "P72明确说backoff在three possible situations使用，go back to the slide/read the slide；固定WiFi图45正好列且仅列三个触发情形，为明确页回指，不靠关键词补图。",
+    "status": "inserted_and_fully_verified",
+    "receipt_stem": "wifi045",
+    "image_path": "/workspace/shared/course-1016-0805/slide-images/slide-wifi-045.png",
+    "sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e",
+    "clip": [
+      99,
+      132,
+      495,
+      355
+    ],
+    "caption": "课件：02-WiFi_1-7.pdf · PDF第23页上半页 · 图45（按PDF顺序）",
+    "block_id": "doxcnzjyJMBG5argogg6y2Ibagc",
+    "token": "UfURbchAwoRfO6xweBrciOp9nUe",
+    "remote_download_sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e",
+    "exact_placement_verified": true
+  }
+]
