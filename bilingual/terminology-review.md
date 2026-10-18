@@ -582,3 +582,135 @@ DCF、SIFS/DIFS/EIFS、时隙和竞争窗口的概念见[RFC 8325 §1.6及§6.1]
 - 练习暂停、课间空输出不能证明静音；生成上限后的“嗯”“学习”等长重复串也不等于真实重复。原课间中文片段保留并译出，模型新出现的学校/退学等不稳定语句不当作可靠私人谈话补入正文
 
 以上核查不会把标准条文变成讲者新增内容。最终数字、残片及尾部结论以独立修改记录的逐段证据为准。
+
+
+## 20261014-1000｜设备到设备网络、空间复用与多跳路由
+
+以下是独立术语和技术范围核查，不是讲者发言。源块编号从1开始，独立ASR窗口索引从0开始。没有看过本课图示或板书，数学推导和标准知识不充当听不清原话的转写证据。原段79的n−1由窗口38明确识别后才补回，并非依据树的性质代填原话。
+
+### 一、术语统一
+
+- device-to-device communication（D2D）：设备到设备通信；ad hoc network：自组织网络。两者密切相关，但不宜把所有D2D功能都定义成无基础设施、多跳、移动的网络
+- spatial reuse：空间复用；spectrum/frequency reuse：频谱／频率复用；densification：密集化；radio resources：无线电资源
+- unicast／broadcast／multicast／geocast／anycast：单播／广播／多播／地理广播／任播。geogas、any gas等为语境明确的近音误识
+- neighbor：邻居节点；radio range：无线电覆盖范围；interference range：干扰范围；half-duplex：半双工
+- flat/mesh topology：平面／网状拓扑；tree topology：树形拓扑；cluster-based topology：基于簇的拓扑；cluster head：簇头；bridge node：桥接节点
+- relay：中继；hop：跳；multihop：多跳；routing：路由；network layer：网络层；MAC：媒体访问控制；physical layer：物理层；IP：互联网协议
+- DCF：分布式协调功能；EDCA：增强型分布式信道接入。原DCS、VCF、VCA等必须按上下文区分，不能当作额外协议。原段89–90的第二个缩写，原文为EDCA，独立ASR窗口43为EDCF；正文保留EDCA并明确记录冲突，不因标准术语更常见就断定发音。二者机制及QoS差异见[RFC 8325 §6](https://www.rfc-editor.org/rfc/rfc8325.html#section-6)
+
+### 二、D2D、蜂窝侧链路与自组织网络不是同一范围
+
+讲者说明D2D可属于4G/5G规范，又用无基础设施网络解释其便利性。正文保留这两种应用场景。LTE的ProSe及5GS的ProSe是有具体服务、授权和架构约束的标准体系，不能据“支持D2D”断定任何手机都能不经配置建立任意多跳网络。参考[3GPP ProSe研究条目](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=653)及[3GPP TS 23.304：5GS ProSe](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3855)。音乐会歌词分发是课堂示例，未据此声称某个实际演唱会部署过该服务。
+
+### 三、空间复用和环形范围是课堂模型
+
+原段32的diversification在原文和独立ASR中都出现；上下文可能指densification，但正文保留diversification并提示，不把这项语义判断冒充确定转写。
+
+降低发射功率、缩短收发距离可以使同频并行通信成为可能，但“低功率”本身不保证没有干扰。还需考虑期望信号、噪声、其他发射机、传播条件和可接受解码门限。讲者用两个远离的短链路和同室低声说话来作解释，保留这些类比，不把它们提升为所有蜂窝系统的资源分配定理。
+
+无线电覆盖范围与干扰范围画成圆及圆环，是简化建模。实际链路可受障碍物、功率和同频干扰影响，还可能不对称；“邻居一定能可靠双向通信”是本课假设。[RFC 2501 §3](https://www.rfc-editor.org/rfc/rfc2501.html#section-3)明确讨论移动、发射／接收覆盖、功率、干扰和双向／单向链路。正文不把能检测能量、能解调、可成功交付混为一谈，也不将原话中的“不会干扰”静默改成另一个论断。
+
+### 四、Geocast与Anycast
+
+本课的路面结冰通知按目标地理区域传播，与GeoBroadcast的目标区域概念一致。ETSI同时定义了向目标区域内任意一个站点传送的GeoAnycast；这些通信都可能跨多跳，不能只按发射机附近一跳来理解。参见[ETSI EN 302 636-2 V1.2.1 §4、§5.4–5.5](https://www.etsi.org/deliver/etsi_en/302600_302699/30263602/01.02.01_60/en_30263602v010201p.pdf#page=6)。
+
+讲者把anycast概括为“附近任意一个节点收到即可”。在IP任播中，目标是同一任播地址标识的接口集合中的一个，通常由路由度量选择；不是任意陌生节点，也不保证地理最近，更不是“广播后碰巧有一个收到”就算任播。参见[RFC 4291 §2及§2.6](https://www.rfc-editor.org/rfc/rfc4291.html#section-2.6)。正文保留讲者的简化，不替换为标准定义。
+
+### 五、图、树和“fully connected”
+
+n个顶点的无向简单图最多有n(n−1)/2条边，因为每一对不同顶点至多对应一条无向边。n个顶点的树有n−1条边，是连通且无环的情况；不是任何称作“平面”的实际无线拓扑都拥有最大边数。原段80的maximum number of nodes在两份转写中均出现，尽管上下文固定节点数、比较链路数；正文保留nodes并提示该混用，不静默改成links。树中任一边断开会破坏整棵树的连通性，而有替代路径的网状图可能维持相应节点对的连通。这是对课堂数学模型的独立核查，不据公式填造转写缺口。
+
+讲者在簇间桥接时说fully connected，同时解释为“不希望有孤岛、整个网络相连”。这里应理解为连通，不是每对节点都有直接边的完全图。不同簇结构也不一定都要求普通节点只能与簇头通信；该要求属于本课采用的簇内星形模型。
+
+### 六、Bluetooth的角色与桥接
+
+手机／耳机的“更重要角色”应理解为示例中的通信控制角色，不是设备本体或人的等级。Bluetooth BR/EDR的piconet中有Central与Peripheral角色；Peripheral之间不在同一个piconet信道上直接通信，同一设备可分时参与多个piconet。但参与scatternet本身并不自动提供网络层路由。LE的拓扑和多连接角色又有不同约束，不能将BR/EDR限制无差别推广到所有Bluetooth。依据[Bluetooth Core 6.2 Architecture §3.3.1.1.3及§4.1](https://www.bluetooth.com/wp-content/uploads/Files/Specification/HTML/Core-62/out/en/architecture%2C-change-history%2C-and-conventions/architecture.html)。
+
+### 七、路由器与协议分层
+
+本课假定多跳网络中的节点能转发别人的包，因而称每个节点为路由器。不能推出每个D2D、蓝牙或Wi-Fi终端天然都实现IP路由。MANET可以让节点同时担当主机和路由器，也可以连接固定互联网；见[RFC 2501 §1、§5](https://www.rfc-editor.org/rfc/rfc2501.html#section-1)。家用“无线路由器”经常组合AP和网络层路由功能，AP这一角色本身不能与路由器完全等同。
+
+### 八、多跳不必然使全网总能耗增加
+
+原段116的一处修饰词在原文中为globally、独立ASR中为probably；正文显式保留这项不确定性，不能把它当作确定的全局断言。随后原段117及窗口54又明确说增加总能耗，因此保留后一句的无条件说法。原段116–117反复强调，每一次中继都会新增收发操作，因而全网总能耗增加。正文保留该说法和传递物品的类比。但独立技术核查需要区分：额外接收、电子电路开销会增加，长距离发射放大器所需能量则可能因分段而降低。总能耗取决于距离、路径损耗、硬件、重传和跳数，不能只由“收发次数多”推出必然增加，也不能反向认定多跳必然节能。
+
+[Heinzelman、Chandrakasan与Balakrishnan，HICSS 2000，§2–3及式(1)–(7)](https://pdos.csail.mit.edu/archive/decouto/papers/heinzelman00.pdf#page=2)的原始研究明确比较直接传输和多跳：在短距离或电子电路开销较高时，直接传输可能更省总能量；不同参数下结果可变。这里仅作范围说明，不把论文的数值或模型插入讲者正文。
+
+### 九、RFID与寻物标签
+
+窗口7补回讲者的RFID标签示例，正文保留该技术名称。RFID包含不同频段与有源／无源实现；无源标签利用读写器供给的射频能量及反向散射通信，不能把所有标签都理解成自主发射、任意手机均能直接远距离定位的设备。这个范围提醒不将讲者原话悄悄改成Bluetooth或UWB。参见[GS1：有源与无源标签的区别](https://support.gs1.org/support/solutions/articles/43000733398-what-is-the-difference-between-passive-and-active-tags-)及[GS1 EPC UHF Gen2](https://www.gs1.org/standards/rfid/uhf-air-interface-protocol)。
+
+
+## 20261015-0803｜隐藏节点算例、路由与能量管理、传感器采样
+
+以下是独立术语与技术范围核查，不是讲者发言。原段编号从1开始。没有查看本课板书或幻灯片图，不用标准知识补造原转写缺句；具体转写证据和未决处以本课独立修改记录为准。
+
+### 一、术语统一
+
+- NAV：网络分配向量；ACK：确认；DIFS：DCF帧间间隔；SIFS：短帧间间隔；backoff：退避；backoff counter：退避计数器；contention window：竞争窗口；CWmin：最小竞争窗口
+- hidden nodes：隐藏节点；half-duplex：半双工；transceiver turnaround：收发切换；Duration field：持续时间字段；freeze/resume：冻结/恢复倒计数
+- routing：路由；route：路径；source：源节点；relay/intermediate node：中继/中间节点；next hop：下一跳；primary/backup route：主/备用路径；multi-hop：多跳
+- MAC：媒体访问控制；PHY：物理层；network layer：网络层；protocol stack：协议栈；spatial reuse：空间复用，不是special reuse
+- transmit power：发射功率；power control：功率控制；energy consumption：能量消耗；battery capacity：电池容量；ampere-hour：安时；sleep state：休眠状态；wake-up delay：唤醒时延
+- distributed decision-making：分布式决策；ad hoc network：自组织网络；WPAN：无线个域网；body area network：体域网；UAV：无人机；IoT：物联网
+- sink：汇聚节点；gateway：网关；sensing board：传感板；physical field：物理场；sample：样本/采样；interpolation：插值；signal reconstruction：信号重建；spatial coordinates：空间坐标
+
+NAV、DIFS/SIFS、竞争窗口等基本术语可参看[RFC 8325 §1.6与§6.1](https://www.rfc-editor.org/rfc/rfc8325.html#section-6.1)。这里只用于核验术语，不把另一标准版本的参数代入本题。
+
+### 二、本题退避值的总数与余数（原段1–16）
+
+讲者给定A抽1、C抽5；B最初抽取的总整数需大于16。B抽17、18、19、20时，先消耗16个时隙后分别余1、2、3、4，因此在C之前接入；抽21时剩5，与C同时到0而碰撞；抽22–31时在C之后接入。这里是对讲者内部算术的核对，不是独立重画了未见的时间图。
+
+“16不能取”的解释同时涉及A发送完成、AP收发切换及ACK发送。B听不到A，不代表AP可以同时发送ACK和接收B；B听得到AP，在ACK期间会冻结倒计数，所以不能把整个ACK时长机械地加进最初抽取的退避整数。正文保留完整问答和讲者的切换说明。
+
+31是本题采用的CWmin值，不是所有PHY、所有重试阶段的统一上限。窗口会随所用接入机制、参数及重试状态变化；同上RFC的DCF/EDCA讨论不能被缩写成“退避只能抽0至31”。
+
+NAV是虚拟载波侦听机制，接收中的实际信道忙也可来自物理载波侦听。正文关于“按数据包+SIFS+ACK设置NAV”的图示语言保留，不能由此推断每个ACK都会建立非零NAV，也不能把某个字段的剩余预约时长与整次交换的总时长混为一谈。
+
+### 三、多跳、总能耗和备用路径（原段20–42）
+
+正文保留讲者“多跳需要更多次收发，所以全网总能耗更高”的原说法。应把它理解为课堂所比较的开销，而不是无条件定理：比较全网能量需同时计入各跳发射功率、发送时长、接收电路、重传和空闲开销。仅增加收发次数，不能单独决定两种路由的总能量孰高。降低单个源节点发射能量，也不等于已经求出了全网最优。
+
+备用路径已经存好可以减少重新寻找路径的等待，但是否仍然可用，仍取决于其链路当时的状态。此处是术语范围提醒，未为讲者添加新的路由算法或假设。
+
+### 四、电池容量不是功率（原段46–53）
+
+讲者把battery capacity解释为可提供的最大“power”，正文保留该词。严格量纲上，Ah度量电荷；1 Ah = 3600 C。功率的单位是W，能量的单位是J或Wh。能量还与端电压有关，不能把Ah单独当作Wh，也不能把电池容量当成额定输出功率。1 A持续1 h的课堂例子说明了电荷容量的含义，并不保证任意实际电池在各种放电条件下都恰好工作1小时。
+
+依据：[NIST SI单位表](https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes)、[NIST单位换算表中的ampere hour → coulomb](https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9)。正文仍保留讲者重复解释1安时的两个句子，没有改写为教科书段落。
+
+### 五、Wi-Fi与Bluetooth休眠的适用范围（原段55–73）
+
+讲者先说Wi-Fi节点总是醒着，随后也承认可使网卡休眠，并以用户是否手动关闭Wi-Fi解释实际使用习惯。应区分接口“开着”、MAC节能模式及无线电当前处于awake/doze状态，不能把这些概念合并。IEEE 802.11已有节能机制；官方工作组概览也明确提到活动TDLS会话中的站点可以进入power save mode。参看[IEEE 802.11工作组概览的TGz条目](https://www.ieee802.org/11/overview.html)。正文未把讲者评价静默改成技术反驳。
+
+“蓝牙有三种休眠状态”有历史语境：Bluetooth SIG的2008年白皮书列出Sniff、Hold、Park，但也指出Park不鼓励使用并预期移除。不能将此无条件扩展为现代BR/EDR与Bluetooth LE共享、严格按浅到深排列的三种状态。白皮书还说明Sniff安排与同步业务等限制，不能把“没有业务就立刻睡眠”当作所有蓝牙运行模式的规则。参看[Bluetooth SIG白皮书§2.4，PDF第10页](https://www.bluetooth.com/wp-content/uploads/2019/03/Sniff-and-Sniff-Sub-rating-Modes_WP_V10.pdf#page=10)。
+
+较新的[Bluetooth Core 6.1，BR/EDR Baseband §8.7–8.8](https://www.bluetooth.com/wp-content/uploads/Files/Specification/HTML/Core-61/out/en/br-edr-controller/baseband-specification.html)分别规定Sniff和Hold的行为，包含约定的监听/恢复时机。以上只是独立范围核查，正文没有替讲者补出未明确说过的三种模式名称。
+
+### 六、路径损耗与功率控制（原段60–68）
+
+固定频率与天线条件的自由空间模型中，接收功率随距离平方反比变化，对应常用路径损耗指数2。自由空间本身有理想化和距离条件，不能只凭这条知识将原音中的缺失数值当作已核实讲话；本次正文的2由独立ASR窗口34明确补回。依据：[ITU-R P.525-5，Calculation of free-space attenuation](https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.525-5-202411-I%21%21PDF-E.pdf)。
+
+正文保留“真实环境指数大于2”及“所有无线设备都有功率控制”的课堂概括；读者应注意，它们不是对所有传播环境、所有设备控制机制的逐项保证。高发射功率带来更多可达链路与干扰、过低功率可能使网络断连，是本课图示强调的权衡，没有据未见图计算最优功率。
+
+### 七、802.15.4不是完整应用协议栈（原段84）
+
+讲者通过“15”和Wi-Fi中的“11”作对比，并把标准说成指导这类设备的协议栈设计。独立核查中，与低速率低功耗传感器语境相符的是IEEE 802.15.4；它规定PHY与MAC子层，不是单独规定从物理层到应用层的所有协议，也不专属于某一种传感器应用。正文是否出现完整编号，只以实际转写证据为准。
+
+依据：[IEEE 802.15.4-2024官方范围说明](https://standards.ieee.org/ieee/802.15.4/11041/)。本课的“每秒几比特”是应用可能产生的数据量示例，不应误作该标准全部PHY的固定速率。
+
+### 八、采样与插值（原段85–90）
+
+正文区分空间位置x、y、z与时间t，保留讲者从离散测量值重建连续物理场、以及单个传感器在本地处理样本的说明。严格意义的精确重建需要信号及采样条件；插值本身并不保证任意有限、不规则或有噪声的样本能完全恢复未知连续场。单个固定位置的时间样本，也不能无条件恢复整个空间场。
+
+依据：[MIT Signals and Systems Lecture 16: Sampling](https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/resources/lecture-16-sampling/)、[Lecture 17: Interpolation](https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/resources/lecture-17-interpolation/)。这里没有把采样定理的前提补写为讲者当时已经说出的内容。
+
+### 九、转写差异仍需保留
+
+- 原段1的0.1缺少明确单位，独立ASR的小数措辞也不稳定，未据图推定具体绝对时刻
+- 原段11本处为20，窗口5为17；后面两份转写都列17、18、19、20，正文保留原值并说明差异
+- 原段13两份转写都出现C before C；没有按预期主语静默改成B
+- 原段37和40的节点D在独立ASR中为B；未见图，不凭路径常识裁定
+- 原段82原文六次有限in a保留，但窗口46与拆分46a均触及生成上限并长循环，真实口头重复次数尚未独立核实
+- 原段86两份转写均写lightning，而后一句明确说light；正文保留闪电/可能光照的不确定性，未静默更换测量对象
+- 原课间中文保留、译出并标明未决词；末尾新出现的设备/白板片段只在原始ASR保留，未作为可靠新增讲话

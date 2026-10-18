@@ -25,7 +25,9 @@
   "no_unreliable_asr_promoted_to_speech": true,
   "raw_commit": "0754406b293c84d4d5f8755dae80abb789b85d82",
   "terminology_addendum_prepared": true,
-  "terminology_review_public_append_pending": true,
+  "terminology_review_public_append_pending": false,
   "additional_independent_model_repetition_audit_status": "pending_separate_followup",
-  "updated_at": "2026-10-18T07:02:13.255958+00:00"
+  "updated_at": "2026-10-18T07:02:13.255958+00:00",
+  "terminology_review_repository_append_complete": true,
+  "repository_visibility_at_publication": "private"
 }

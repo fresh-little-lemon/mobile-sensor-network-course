@@ -1,5 +1,5 @@
 {
-  "completed": 15,
+  "completed": 17,
   "total": 19,
   "files": [
     {
@@ -76,6 +76,16 @@
       "file": "bilingual/20261014-0801.en-zh.md",
       "pairs": 62,
       "sha256": "94977fd06cf503a17bb07aa8fddc449dcb64468948f32464afaa4a1266caf2bf"
+    },
+    {
+      "file": "bilingual/20261014-1000.en-zh.md",
+      "pairs": 112,
+      "sha256": "992b88e13d1c296c770e7f1737d4badd2c959bc92c52543730793956db033fc6"
+    },
+    {
+      "file": "bilingual/20261015-0803.en-zh.md",
+      "pairs": 71,
+      "sha256": "cbf49026d7e25d6b1546d588cb06a60763529790eee79d36ab1b27eae42535a7"
     }
   ],
   "checks": [
@@ -84,6 +94,7 @@
     "source hashes in per-recording QA"
   ],
   "note": "Chinese-source fragments are translated to English, retaining source Chinese in paired paragraph.",
-  "paragraph_pairs": 1113,
-  "updated_at": "2026-10-18T05:09:31.474230+00:00"
+  "paragraph_pairs": 1296,
+  "updated_at": "2026-10-18T07:05:16.045749+00:00",
+  "repository_visibility": "private"
 }
