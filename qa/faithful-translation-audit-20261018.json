@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-10-18T07:40:40Z",
+  "scope": "Published records 1–17; in progress. Only listed records below are reviewed.",
+  "method": "Read each English paragraph and corresponding Chinese paragraph. Retranslate compressed files; retain already complete translation and repair specific omitted repetitions, clauses, and terminology. English paragraphs remain unchanged. Counts and hashes verify structure, not semantic fidelity.",
+  "reviewed": [
+    {
+      "record": "20261008-0800",
+      "pairs": 121,
+      "mode": "complete retranslation"
+    },
+    {
+      "record": "20261008-0910",
+      "pairs": 46,
+      "mode": "complete retranslation"
+    },
+    {
+      "record": "20261008-1000",
+      "pairs": 81,
+      "mode": "complete retranslation"
+    },
+    {
+      "record": "20261008-1049",
+      "pairs": 88,
+      "mode": "complete retranslation"
+    },
+    {
+      "record": "20261009-0759",
+      "pairs": 67,
+      "mode": "complete retranslation"
+    },
+    {
+      "record": "20261009-0845",
+      "pairs": 88,
+      "mode": "complete retranslation"
+    },
+    {
+      "record": "20261009-1000",
+      "pairs": 97,
+      "mode": "complete retranslation"
+    },
+    {
+      "record": "20261010-1000",
+      "pairs": 76,
+      "mode": "complete retranslation"
+    },
+    {
+      "record": "20261012-1331",
+      "pairs": 78,
+      "mode": "all pairs read; 5 Chinese paragraphs corrected"
+    },
+    {
+      "record": "20261012-1530",
+      "pairs": 44,
+      "mode": "all pairs read; 15 Chinese paragraphs corrected"
+    },
+    {
+      "record": "20261012-1620",
+      "pairs": 51,
+      "mode": "all pairs read; 12 Chinese paragraphs corrected"
+    }
+  ],
+  "pending": [
+    "20261010-0800",
+    "20261013-0803",
+    "20261013-1000",
+    "20261014-0801",
+    "20261014-1000",
+    "20261015-0803"
+  ],
+  "limits": [
+    "Not a new audio verification pass",
+    "Pre-existing English uncertainty text retained",
+    "Existing technically questionable assertions translated as stated, not silently replaced with technical summaries"
+  ]
+}
