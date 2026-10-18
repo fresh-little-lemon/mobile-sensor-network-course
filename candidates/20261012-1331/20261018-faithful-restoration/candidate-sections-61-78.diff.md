@@ -1001,8 +1001,8 @@ Wi-Fi中的MAC首部大小实际上可能会变化，这取决于，例如，你
 1. That said, we are missing just one last mechanism in Wi-Fi channel access, → Okay, that said, we are just missing one last mechanism in the Wi-Fi channel access,
    - 理由：恢复Okay、are just missing词序和the；不改为更顺的叙述。
    - 来源：Feishu historical snapshot 08e6132, original source paragraph 96；Qwen recovery raw commit2887ed5, window 49；Qwen recovery raw commit2887ed5, window 50；new unprompted medium.en chunk-031, absolute 5481–5509s
-2. We just need to introduce it, and we will do that after the break: this last piece of the protocol, related to something we already know about, the famous four interframe spaces, the extended IFS. → Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous four interframe space, the extended IFS.
-   - 理由：恢复Okay/so、原省略宾语、do时态、what actually、know already词序与space单数；不保留编辑增补it/will。need/needed及起句介词冲突标疑。
+2. We just need to introduce it, and we will do that after the break: this last piece of the protocol, related to something we already know about, the famous four interframe spaces, the extended IFS. → Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous [four/for/form unclear] interframe space, the extended IFS.
+   - 理由：恢复Okay/so、原省略宾语、do时态、what actually、know already词序与space单数；不保留编辑增补it/will。need/needed及起句介词冲突标疑。 famous后原Feishu for、Qwen50 four、medium031 segment18 form近音不稳，补显式待听辨；不定译四个。
    - 来源：Feishu historical snapshot 08e6132, original source paragraph 96；Feishu historical snapshot 08e6132, original source paragraph 97；Qwen recovery raw commit2887ed5, window 50；new unprompted medium.en chunk-031, absolute 5500–5528s
 3. Remember the extended IFS and the priority ladder: SIFS, PIFS, DIFS, and extended IFS. → Remember the extended IFS. Remember the priority ladder, we have SIFS, PIFS, [DIFS/PIFS unclear], and extended IFS.
    - 理由：恢复两次Remember与we have；列表部分漏识/近音冲突不按标准顺序无标记补齐。
@@ -1023,10 +1023,10 @@ Wi-Fi中的MAC首部大小实际上可能会变化，这取决于，例如，你
 好，说到这里，我们在Wi-Fi信道接入中就只剩最后一个机制还没有讲，然后我们就讲完Wi-Fi的基础版本了，那是最重要的一个版本。
    - Feishu historical snapshot 08e6132, original source paragraph 96；Qwen recovery raw commit2887ed5, window 49；Qwen recovery raw commit2887ed5, window 50；new unprompted medium.en chunk-031, absolute 5481.06–5509.24s
    - 限制：Qwen49尾部but it is，Qwen50/F/medium that is；此候选按相邻更完整窗口及F保留that is，不新增which从句。
-2. Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous four interframe space, the extended IFS.
-好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的四个帧间间隔，扩展IFS。
+2. Okay, so we just [need/needed unclear] to introduce, and we do that after the break, this last piece [for ... unclear] of the protocol that is related to what, actually, something that we know already about, the famous [four/for/form unclear] interframe space, the extended IFS.
+好，所以我们只是〔need/needed，时态待听辨〕需要介绍，而且我们在休息之后来做这件事，这最后一部分〔for，起句词有无待听辨〕协议，它关联到什么，实际上，关联到我们已经知道的一些东西，那著名的〔four/for/form，确切措辞待听辨〕帧间间隔，扩展IFS。
    - Feishu historical snapshot 08e6132, original source paragraph 96；Feishu historical snapshot 08e6132, original source paragraph 97；Qwen recovery raw commit2887ed5, window 49；Qwen recovery raw commit2887ed5, window 50；new unprompted medium.en chunk-031, absolute 5500.96–5528.54s
-   - 限制：保留introduce后缺宾语、what actually与singular space；F last piece for.Of，Q/W last piece of，介词可能是假起句，标疑；W needed，F/Q need。
+   - 限制：保留introduce后缺宾语、what actually与singular space；F last piece for.Of，Q/W last piece of，介词可能是假起句，标疑；W needed，F/Q need。 原Feishu为for、Qwen50为four、medium031 segment18为form；不按协议知识强定four或fourth，正文显式待听辨。
 3. Remember the extended IFS. Remember the priority ladder, we have SIFS, PIFS, [DIFS/PIFS unclear], and extended IFS.
 记住扩展IFS。记住这个优先级阶梯，我们有SIFS、PIFS、〔DIFS/PIFS待听辨〕，还有扩展IFS。
    - Feishu historical snapshot 08e6132, original source paragraph 97；Qwen recovery raw commit2887ed5, window 50；Qwen recovery raw commit2887ed5, window tail；new unprompted medium.en chunk-031, absolute 5528.54–5551.26s
@@ -1074,6 +1074,10 @@ Wi-Fi中的MAC首部大小实际上可能会变化，这取决于，例如，你
   - 候选：so / or
   - 证据：F/Q50 so；Qtail/W or
   - 处理：相关位置保留待听辨，不把标准说法或流畅语法当原话。
+- famous four/for/form interframe space
+  - 候选：four / for / form
+  - 证据：Feishu source paragraph97: the famous for interframe space; Qwen window50: The famous four interframe space; medium chunk031 segment18 absolute5519.40–5528.54: the famous form in the frame space.
+  - 处理：补正文英中显式疑点；fourth不是已识别候选，不凭协议语义强定四个或第四。
 
 ## 78 · 01:33:12
 
@@ -1082,8 +1086,8 @@ Wi-Fi中的MAC首部大小实际上可能会变化，这取决于，例如，你
 
 ### 具体修改
 
-1. It depends on the version of Wi-Fi we consider, but to keep an approximate figure in mind, you can consider it equal to three hundred microseconds. → Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, you can be considered equal to three hundred microseconds.
-   - 理由：恢复Okay/that/just/again及三方原口语you can be considered；删去旧稿无来源的approximate figure和主语语法改写；语气词冲突标疑。
+1. It depends on the version of Wi-Fi we consider, but to keep an approximate figure in mind, you can consider it equal to three hundred microseconds. → Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, [you can be considered; subject/construction unclear] equal to three hundred microseconds.
+   - 理由：恢复Okay/that/just/again及三方原口语you can be considered；删去旧稿无来源的approximate figure和主语语法改写；语气词冲突标疑。 多源相同仍不能排除共同ASR误识，主语/句式补正文显式待听辨，不擅改it。
    - 来源：Feishu historical snapshot 08e6132, original source paragraph 98；Qwen recovery raw commit2887ed5, window 50；Qwen recovery raw commit2887ed5, window tail；new unprompted medium.en chunk-032, absolute 5586–5616s
 2. Just to have an idea. → [Okay unclear], so just to [have an idea / verify / evaluate; unclear].
    - 理由：恢复可能Okay/so；have an idea并非一致结果，全文保留精确片语冲突。
@@ -1094,10 +1098,10 @@ Wi-Fi中的MAC首部大小实际上可能会变化，这取决于，例如，你
 
 ### 逐句证据
 
-1. Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, you can be considered equal to three hundred microseconds.
-好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，你可以被认为等于三百微秒。
+1. Okay, it depends on the version of Wi-Fi that we consider, but just [yeah / you know / no filler; unclear], to keep in mind, again, [you can be considered; subject/construction unclear] equal to three hundred microseconds.
+好，这取决于我们考虑的是Wi-Fi的哪个版本，但是只是〔yeah / you know / 无语气词；待听辨〕，为了记在心里，再说一次，〔你可以被认为；主语/句式待听辨〕等于三百微秒。
    - Feishu historical snapshot 08e6132, original source paragraph 98；Qwen recovery raw commit2887ed5, window 50；Qwen recovery raw commit2887ed5, window tail；new unprompted medium.en chunk-032, absolute 5586.7–5616.34s
-   - 限制：原Feishu justyeah，Qwen just you know，新medium just to keep in mind；保留you can be considered这一三方共有但不自然的口语，不改成you can consider it。中文逐字保留主语以免替讲者修理；其意思或转写仍需回听。
+   - 限制：原Feishu justyeah，Qwen just you know，新medium just to keep in mind；保留you can be considered这一三方共有但不自然的口语，不改成you can consider it。中文逐字保留主语以免替讲者修理；其意思或转写仍需回听。 即使多源表面一致，you can be considered主语/句式仍可能共同识别错误；正文英中同步标疑，不擅自改为it。
 2. [Okay unclear], so just to [have an idea / verify / evaluate; unclear].
 〔Okay有无待听辨〕，所以只是为了〔have an idea / verify / evaluate，有个概念/核实/评估，待听辨〕。
    - Feishu historical snapshot 08e6132, original source paragraph 98；Qwen recovery raw commit2887ed5, window 50；Qwen recovery raw commit2887ed5, window 51；Qwen recovery raw commit2887ed5, window tail；new unprompted medium.en chunk-032, absolute 5603.2–5616.34s
@@ -1120,5 +1124,5 @@ Wi-Fi中的MAC首部大小实际上可能会变化，这取决于，例如，你
 - you can be considered equal
   - 候选：you can be considered equal (三方文本) / you can consider it equal (旧校订)
   - 证据：F/Q/W均近似you can be considered equal，旧稿改为you can consider it equal
-  - 处理：保留三方共同口语表面形式；是否共同ASR错仍需听辨，不标为完成音证。
+  - 处理：保留三方表面词串但用正文英中括号明确主语/句式待听辨；不擅改it，不标为完成音证。
 
