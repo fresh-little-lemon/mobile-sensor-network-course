@@ -1,0 +1,7 @@
+[00:49:18.900 --> 00:49:37.880] Okay, good. So let's look at our computation. So the probability that B and C collide is, as we said, very simply, so do not worry, this is a very, very simple derivation.
+[00:49:37.880 --> 00:50:04.720] is the probability that B and C draw the same value, let's say n, the same value, the same
+[00:50:04.720 --> 00:50:16.020] Let's start this computation by considering that B draws
+[00:50:20.720 --> 00:50:30.880] n, a given integer n, whatever this is. So what we are first computing is the
+[00:50:30.880 --> 00:50:56.060] condition probability, so the probability that C draws also n, so n, given that B drew N, okay, so this is the so-called
+[00:50:56.060 --> 00:51:05.020] conditioned probability. Now remember our scheme is actually very simple because it's distributed
+[00:51:06.380 --> 00:51:14.660] and as we said every node makes its own decisions according to the protocol rules

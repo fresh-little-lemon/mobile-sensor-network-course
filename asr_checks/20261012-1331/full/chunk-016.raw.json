@@ -1,0 +1,408 @@
+{
+  "run_metadata": {
+    "chunk": {
+      "index": 16,
+      "label": "chunk-016",
+      "core_start_seconds": 2700,
+      "core_end_seconds": 2880,
+      "window_start_seconds": 2685,
+      "window_end_seconds": 2895,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    "model": {
+      "repo": "Systran/faster-whisper-medium.en",
+      "revision": "a29b04bd15381511a9af671baec01072039215e3",
+      "requested_model": "medium.en"
+    },
+    "source_audio_filename": "20261012-1331.m4a",
+    "source_audio_sha256": "b710201745efeb5071757d4e3b086ce30937f038bbe1bbe6ae18bd74aa7239ff",
+    "audio_window_filename": "chunk-016.wav",
+    "audio_window_sha256": "b40ce8462f71b027d327b2731513af0c36ee1adffcae63b375f3147aeec1c004",
+    "absolute_offset_seconds": 2685,
+    "parameters": {
+      "language": "en",
+      "beam_size": 5,
+      "temperature": 0.0,
+      "initial_prompt": null,
+      "condition_on_previous_text": false,
+      "vad_filter": false,
+      "word_timestamps": true
+    },
+    "runtime": {
+      "faster_whisper": "1.2.1",
+      "ctranslate2": "4.8.3",
+      "device": "cpu",
+      "compute_type": "int8",
+      "cpu_threads": 4
+    },
+    "elapsed_seconds": 30.863091552000697,
+    "machine_utc_completed": "2026-10-18T15:09:34.311495+00:00",
+    "verification": "Raw ASR output. Not human-listened. Context overlap retained intact. Not a corrected transcript."
+  },
+  "transcription_info": {
+    "language": "en",
+    "language_probability": 1,
+    "duration": 209.9946875,
+    "duration_after_vad": 209.9946875,
+    "all_language_probs": null,
+    "transcription_options": {
+      "beam_size": 5,
+      "best_of": 5,
+      "patience": 1,
+      "length_penalty": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "log_prob_threshold": -1.0,
+      "no_speech_threshold": 0.6,
+      "compression_ratio_threshold": 2.4,
+      "condition_on_previous_text": false,
+      "prompt_reset_on_temperature": 0.5,
+      "temperatures": [
+        0.0
+      ],
+      "initial_prompt": null,
+      "prefix": null,
+      "suppress_blank": true,
+      "suppress_tokens": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        14,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        90,
+        91,
+        92,
+        93,
+        357,
+        366,
+        438,
+        532,
+        685,
+        705,
+        796,
+        930,
+        1058,
+        1220,
+        1267,
+        1279,
+        1303,
+        1343,
+        1377,
+        1391,
+        1635,
+        1782,
+        1875,
+        2162,
+        2361,
+        2488,
+        3467,
+        4008,
+        4211,
+        4600,
+        4808,
+        5299,
+        5855,
+        6329,
+        7203,
+        9609,
+        9959,
+        10563,
+        10786,
+        11420,
+        11709,
+        11907,
+        13163,
+        13697,
+        13700,
+        14808,
+        15306,
+        16410,
+        16791,
+        17992,
+        19203,
+        19510,
+        20724,
+        22305,
+        22935,
+        27007,
+        30109,
+        30420,
+        33409,
+        34949,
+        40283,
+        40493,
+        40549,
+        47282,
+        49146,
+        50257,
+        50357,
+        50358,
+        50359,
+        50360,
+        50361
+      ],
+      "without_timestamps": false,
+      "max_initial_timestamp": 1.0,
+      "word_timestamps": true,
+      "prepend_punctuations": "\"'“¿([{-",
+      "append_punctuations": "\"'.。,，!！?？:：”)]}、",
+      "multilingual": false,
+      "max_new_tokens": null,
+      "clip_timestamps": [
+        0.0
+      ],
+      "hallucination_silence_threshold": null,
+      "hotwords": null
+    },
+    "vad_options": null
+  },
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.08,
+      "text": " and see how this probability of collision can be computed.",
+      "tokens": [
+        50363,
+        290,
+        766,
+        703,
+        428,
+        12867,
+        286,
+        17661,
+        460,
+        307,
+        29231,
+        13,
+        50713
+      ],
+      "avg_logprob": -0.3657130407435553,
+      "compression_ratio": 0.9354838709677419,
+      "no_speech_prob": 0.14244921505451202,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 1.08,
+          "word": " and",
+          "probability": 0.4590594470500946
+        },
+        {
+          "start": 1.08,
+          "end": 1.84,
+          "word": " see",
+          "probability": 0.890998363494873
+        },
+        {
+          "start": 1.84,
+          "end": 2.36,
+          "word": " how",
+          "probability": 0.9938192963600159
+        },
+        {
+          "start": 2.36,
+          "end": 2.74,
+          "word": " this",
+          "probability": 0.6960411667823792
+        },
+        {
+          "start": 2.74,
+          "end": 3.26,
+          "word": " probability",
+          "probability": 0.6064931750297546
+        },
+        {
+          "start": 3.26,
+          "end": 3.66,
+          "word": " of",
+          "probability": 0.9902404546737671
+        },
+        {
+          "start": 3.66,
+          "end": 4.14,
+          "word": " collision",
+          "probability": 0.9640191197395325
+        },
+        {
+          "start": 4.14,
+          "end": 4.48,
+          "word": " can",
+          "probability": 0.9822474122047424
+        },
+        {
+          "start": 4.48,
+          "end": 4.68,
+          "word": " be",
+          "probability": 0.9890073537826538
+        },
+        {
+          "start": 4.68,
+          "end": 5.08,
+          "word": " computed.",
+          "probability": 0.9946140646934509
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 15000,
+      "start": 155.94,
+      "end": 179.98,
+      "text": " I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,",
+      "tokens": [
+        50363,
+        314,
+        1101,
+        7926,
+        11,
+        314,
+        1101,
+        7926,
+        11,
+        314,
+        1101,
+        7926,
+        11,
+        314,
+        1101,
+        7926,
+        11,
+        314,
+        1101,
+        7926,
+        11,
+        314,
+        1101,
+        7926,
+        11,
+        314,
+        1101,
+        7926,
+        11,
+        314,
+        1101,
+        7926,
+        11,
+        50713
+      ],
+      "avg_logprob": -0.7334466321127755,
+      "compression_ratio": 3.9545454545454546,
+      "no_speech_prob": 0.6191928386688232,
+      "words": [
+        {
+          "start": 155.94,
+          "end": 157.34,
+          "word": " I'm",
+          "probability": 0.1797519251704216
+        },
+        {
+          "start": 157.34,
+          "end": 157.34,
+          "word": " sorry,",
+          "probability": 0.2270434945821762
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " I'm",
+          "probability": 0.39209283888339996
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " sorry,",
+          "probability": 0.5507591962814331
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " I'm",
+          "probability": 0.8351947367191315
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " sorry,",
+          "probability": 0.9144122004508972
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " I'm",
+          "probability": 0.8762331604957581
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " sorry,",
+          "probability": 0.9496243000030518
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " I'm",
+          "probability": 0.8873272240161896
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " sorry,",
+          "probability": 0.9673192501068115
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " I'm",
+          "probability": 0.9042720198631287
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " sorry,",
+          "probability": 0.9716634750366211
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " I'm",
+          "probability": 0.9081524014472961
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " sorry,",
+          "probability": 0.9779005646705627
+        },
+        {
+          "start": 172.16,
+          "end": 172.16,
+          "word": " I'm",
+          "probability": 0.9072104692459106
+        },
+        {
+          "start": 172.16,
+          "end": 179.98,
+          "word": " sorry,",
+          "probability": 0.9787044525146484
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

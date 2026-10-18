@@ -1,0 +1,21 @@
+[00:41:45.000 --> 00:41:51.080] There are CW mean plus one integers, right?
+[00:41:51.460 --> 00:41:55.360] We call this a unit, including the zero is plus one.
+[00:41:55.820 --> 00:41:58.480] This is the number of integers in that range.
+[00:41:59.660 --> 00:42:02.400] Okay, so what we want to compute,
+[00:42:04.300 --> 00:42:07.040] since we said that because
+[00:42:07.560 --> 00:42:13.060] is the probabilistic collision avoidance mechanism,
+[00:42:13.060 --> 00:42:41.740] is the probability that B and C collide okay that's the probability that we
+[00:42:41.740 --> 00:42:56.980] collide if they draw the same integer out of this range and remember that the
+[00:42:56.980 --> 00:43:07.360] way a node draws an integer out of this range is with uniform probability
+[00:43:07.360 --> 00:43:14.720] right? So same probability for every value to be selected by the node. So if
+[00:43:14.720 --> 00:43:29.660] we consider the probability for a node to draw a generic integer n out of this
+[00:43:29.660 --> 00:43:43.040] range this probability is given by 1 over CW min plus 1 right because this
+[00:43:43.040 --> 00:43:50.120] is the number of integers in the range since we draw each value with equal
+[00:43:50.120 --> 00:43:57.100] probability uniform probability it's easy to see that the probability that
+[00:43:57.100 --> 00:44:06.680] an integer, a generic integer, is drawn out of this range by a node is given by
+[00:44:06.680 --> 00:44:21.260] 1 over CW min plus 1. This is basic probability theory. Okay, so in this way
+[00:44:21.260 --> 00:44:27.580] you can see that they are selected exactly, each of them with the same
+[00:44:27.580 --> 00:44:34.840] probability. This probability is the same for all of them. Now let's stop
+[00:44:34.840 --> 00:44:44.360] for five minutes and then use the short break if I'm not wrong and then we will
+[00:44:44.360 --> 00:44:50.080] resume and see how this probability of collision can be computed.
+[00:45:14.360 --> 00:45:14.840] Thank you.
