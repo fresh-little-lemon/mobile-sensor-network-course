@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4840.0,
+  "end_seconds": 4960.0,
+  "text": "No, right? Because you cannot, because the overlap, right? So the SIR at C will be too long. You cannot, modulate correctly the header of these data packets. So can C say it's not? No, not right. But at the physical layer, C senses power. The channel is busy. So we have physical layer says channel busy. Mark layer meaning the enough says channel idle. Right, this is a mismatch between physical and mark. So this means that as soon as the channel becomes idle again, then C has to wait for the extended IFS before taking action. Okay. Then we said also by the way also the the access point, okay same behavior. What's called access point we have the same behavior. So here we have the extended IFS. Also we said well, a node can stop waiting for the extended IFS only if during this time another access is the channel and the for example if there is another node B here that could. Here only A for example, it will say enough and then it's got the packet to transmit and.",
+  "raw_decoded": "language English<asr_text>No, right? Because you cannot, because the overlap, right? So the SIR at C will be too long. You cannot, modulate correctly the header of these data packets. So can C say it's not? No, not right. But at the physical layer, C senses power. The channel is busy. So we have physical layer says channel busy. Mark layer meaning the enough says channel idle. Right, this is a mismatch between physical and mark. So this means that as soon as the channel becomes idle again, then C has to wait for the extended IFS before taking action. Okay. Then we said also by the way also the the access point, okay same behavior. What's called access point we have the same behavior. So here we have the extended IFS. Also we said well, a node can stop waiting for the extended IFS only if during this time another access is the channel and the for example if there is another node B here that could. Here only A for example, it will say enough and then it's got the packet to transmit and.<|im_end|>",
+  "generated_tokens": 225,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.50976504699793,
+  "at": "2026-10-18T07:13:12.385693+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

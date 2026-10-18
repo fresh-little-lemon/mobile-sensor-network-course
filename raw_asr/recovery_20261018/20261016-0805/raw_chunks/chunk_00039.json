@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4290.0,
+  "end_seconds": 4410.0,
+  "text": "After sees the the access point, we send back the ACK. And then we said, what the other nodes do in this case? They, the modulate the header of the data packet, read the duration field, and at the Mac layer, they set a counter to the value that represents the expected duration of the dialog, right? So this is this is the now, the now is a counter. Setting the now means that you are reading the duration field in the header of the packet. This packet will be also HTTP or HTTPS or the data packet, even acknowledgement has got a duration field here. Okay. You read the duration field and you set your now counter to the value that you read in that field of the other. That's the usage of now. Okay. So is there any because here? Indeed. So the now, as we explained, is a counter whose usage at the Mac layer is essentially represents the sensing virtual sensing function at the Mac layer. So it tells you whether the channel is idle or busy. And it's done through a counter at the Mac layer. So.",
+  "raw_decoded": "language English<asr_text>After sees the the access point, we send back the ACK. And then we said, what the other nodes do in this case? They, the modulate the header of the data packet, read the duration field, and at the Mac layer, they set a counter to the value that represents the expected duration of the dialog, right? So this is this is the now, the now is a counter. Setting the now means that you are reading the duration field in the header of the packet. This packet will be also HTTP or HTTPS or the data packet, even acknowledgement has got a duration field here. Okay. You read the duration field and you set your now counter to the value that you read in that field of the other. That's the usage of now. Okay. So is there any because here? Indeed. So the now, as we explained, is a counter whose usage at the Mac layer is essentially represents the sensing virtual sensing function at the Mac layer. So it tells you whether the channel is idle or busy. And it's done through a counter at the Mac layer. So.<|im_end|>",
+  "generated_tokens": 226,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.7791253050018,
+  "at": "2026-10-18T07:10:31.783136+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

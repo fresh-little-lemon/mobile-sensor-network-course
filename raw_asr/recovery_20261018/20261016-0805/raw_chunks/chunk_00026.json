@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2860.0,
+  "end_seconds": 2980.0,
+  "text": "Coordinator, the fan coordinator will still be there, but it will not issue beacons. So in this case, we do not have super frames, and the only way we have for our sensors to access the channel is to use the support on slotted CSMAC. So on slotted emphasizes the case where now we may not have synchronization among the nodes as previously when we had the beacon enabled. And the result is that we have a slightly different scheme that is indeed this on slotted CSMAC, which is essentially simpler than the one we saw before. So very nice seminar is just simpler. So this is I think easy to to explain. So again, we have the outer block and inner block, so same structure of the algorithm. And again, the good news is that the outer block is exactly the same as before, exactly the same. So consider a sensor that has got a packet to transmit. It will first in the outer block initialize the number of transmissions performed for a packet to zero. It will enter the inner block again as outcome of the inner block.",
+  "raw_decoded": "language English<asr_text>Coordinator, the fan coordinator will still be there, but it will not issue beacons. So in this case, we do not have super frames, and the only way we have for our sensors to access the channel is to use the support on slotted CSMAC. So on slotted emphasizes the case where now we may not have synchronization among the nodes as previously when we had the beacon enabled. And the result is that we have a slightly different scheme that is indeed this on slotted CSMAC, which is essentially simpler than the one we saw before. So very nice seminar is just simpler. So this is I think easy to to explain. So again, we have the outer block and inner block, so same structure of the algorithm. And again, the good news is that the outer block is exactly the same as before, exactly the same. So consider a sensor that has got a packet to transmit. It will first in the outer block initialize the number of transmissions performed for a packet to zero. It will enter the inner block again as outcome of the inner block.<|im_end|>",
+  "generated_tokens": 222,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.630936777997704,
+  "at": "2026-10-18T07:02:48.823783+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

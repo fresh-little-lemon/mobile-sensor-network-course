@@ -1,0 +1,12 @@
+{
+  "start_seconds": 330.0,
+  "end_seconds": 450.0,
+  "text": "Now, if we look into each of these phases, we can see here that we have essentially sort of time slots, right? So the time within these two phases, since the whole system is considered to be synchronized, is divided indeed in time slots. Now, the terminology used by this standard is a bit different, and as we will see also, it's a bit confusing. With respect to the terminology used in Wi-Fi, this is just an heads up. We will detail how the contention based access works under this beacon enabled mode. But let me just say something about this contention free period first. That is essentially very little because the standard does not specifying how the nodes should behave in this period in such a different manner. What the standard says is that during the contention free period, as we expect, we have that the power coordinator can give access to the sensors by assigning the sensors.",
+  "raw_decoded": "language English<asr_text>Now, if we look into each of these phases, we can see here that we have essentially sort of time slots, right? So the time within these two phases, since the whole system is considered to be synchronized, is divided indeed in time slots. Now, the terminology used by this standard is a bit different, and as we will see also, it's a bit confusing. With respect to the terminology used in Wi-Fi, this is just an heads up. We will detail how the contention based access works under this beacon enabled mode. But let me just say something about this contention free period first. That is essentially very little because the standard does not specifying how the nodes should behave in this period in such a different manner. What the standard says is that during the contention free period, as we expect, we have that the power coordinator can give access to the sensors by assigning the sensors.<|im_end|>",
+  "generated_tokens": 184,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.756555911997566,
+  "at": "2026-10-18T06:52:15.199655+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

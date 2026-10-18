@@ -1,0 +1,12 @@
+{
+  "start_seconds": 440.0,
+  "end_seconds": 560.0,
+  "text": "Give access to the sensors by assigning the sensors a given time slot. So we have the M in time division multiple access, exactly like in Lich. Remember Lich that we discussed yesterday, and we said within a cluster we are using time division multiple access. So we have the figures of times that are divided into slots, and then the cluster head that now would be our coordinator assigns slots to the sensors. Okay, so if we have this contention period, then essentially this is all we need to know on how the nodes will access the channel during that period. So it's not complicated. The interesting part here is that we may have nodes going to sleep very often because remember we need to save energy. So we may also have cases where the whole network goes to sleep. So we may have, as represented here, super frames during which nobody is up, not even the coordinator. Okay, so everyone goes to sleep. This is a kind of extreme case, but it is possible. What happened? In other cases, the coordinator remains awake.",
+  "raw_decoded": "language English<asr_text>Give access to the sensors by assigning the sensors a given time slot. So we have the M in time division multiple access, exactly like in Lich. Remember Lich that we discussed yesterday, and we said within a cluster we are using time division multiple access. So we have the figures of times that are divided into slots, and then the cluster head that now would be our coordinator assigns slots to the sensors. Okay, so if we have this contention period, then essentially this is all we need to know on how the nodes will access the channel during that period. So it's not complicated. The interesting part here is that we may have nodes going to sleep very often because remember we need to save energy. So we may also have cases where the whole network goes to sleep. So we may have, as represented here, super frames during which nobody is up, not even the coordinator. Okay, so everyone goes to sleep. This is a kind of extreme case, but it is possible. What happened? In other cases, the coordinator remains awake.<|im_end|>",
+  "generated_tokens": 216,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.01989900800254,
+  "at": "2026-10-18T06:52:47.220254+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

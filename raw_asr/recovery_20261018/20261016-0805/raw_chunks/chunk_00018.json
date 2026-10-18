@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1980.0,
+  "end_seconds": 2100.0,
+  "text": "Inside the inner block, we will run. We need to run several BCF procedures. And if eventually we find the channel idle, then okay, we can get out and proceed. But otherwise, if we hit the maximum number of BCF procedures that are allowed and we have not been able to access the channel, that's a failure. So it is not actually difficult. The only thing that we will like to to remark about the inner block, one more thing, is that notice that every time we enter the inner block again, we reset the number of BCF procedures performed to zero. So every time we enter the inner block, we reset the counter of the BCF procedures. That means that we will have this maximum number of BCF procedures available. Okay, every time we enter the inner block. And as we already said, let me let me remark that. We re-enter the inner block every time we actually transmit a packet on the channel. Okay, so if we actually transmit a packet on the channel and we do not receive any ACK, we get.",
+  "raw_decoded": "language English<asr_text>Inside the inner block, we will run. We need to run several BCF procedures. And if eventually we find the channel idle, then okay, we can get out and proceed. But otherwise, if we hit the maximum number of BCF procedures that are allowed and we have not been able to access the channel, that's a failure. So it is not actually difficult. The only thing that we will like to to remark about the inner block, one more thing, is that notice that every time we enter the inner block again, we reset the number of BCF procedures performed to zero. So every time we enter the inner block, we reset the counter of the BCF procedures. That means that we will have this maximum number of BCF procedures available. Okay, every time we enter the inner block. And as we already said, let me let me remark that. We re-enter the inner block every time we actually transmit a packet on the channel. Okay, so if we actually transmit a packet on the channel and we do not receive any ACK, we get.<|im_end|>",
+  "generated_tokens": 221,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.45914478100167,
+  "at": "2026-10-18T07:00:15.012764+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

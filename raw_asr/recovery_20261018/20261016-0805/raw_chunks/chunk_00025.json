@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2750.0,
+  "end_seconds": 2870.0,
+  "text": "Okay, so let's resume our class. So now the very last thing that we need to look at is the case where we have no beacon. Okay, this possibility: the coordinator, the pan coordinator, will still be there, but it will not issue beacons.",
+  "raw_decoded": "language English<asr_text>Okay, so let's resume our class. So now the very last thing that we need to look at is the case where we have no beacon. Okay, this possibility: the coordinator, the pan coordinator, will still be there, but it will not issue beacons.<|im_end|>",
+  "generated_tokens": 59,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 11.536589467999875,
+  "at": "2026-10-18T07:02:21.192233+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 110.0,
+  "end_seconds": 230.0,
+  "text": "127 bytes, which is very small, very small. So this is to say, this confirms the fact that these kind of sensors have been designed to work on low bitrate. We don't need high throughput, and indeed, each packet has got also a small payload. Now let's move to the Mac layer. In the Mac, remember when we talked yesterday about the network topologies, and we said that there is going to be a coordinator, right? We call it fan coordinator. Now we briefly mentioned the fact that this coordinator is there in order to manage the network, record the nodes that are part of the network, those that live, stop functioning, those that join in. But also it can provide, we said synchronization, a synchronization, so a time reference to all the other nodes. And indeed, in our network, the coordinator on the Mac layer can periodically send beacons, exactly like in in Wi-Fi. So we have a super frame that starts with with a beacon, and this beacon is indeed a way to provide time reference for all the other nodes.",
+  "raw_decoded": "language English<asr_text>127 bytes, which is very small, very small. So this is to say, this confirms the fact that these kind of sensors have been designed to work on low bitrate. We don't need high throughput, and indeed, each packet has got also a small payload. Now let's move to the Mac layer. In the Mac, remember when we talked yesterday about the network topologies, and we said that there is going to be a coordinator, right? We call it fan coordinator. Now we briefly mentioned the fact that this coordinator is there in order to manage the network, record the nodes that are part of the network, those that live, stop functioning, those that join in. But also it can provide, we said synchronization, a synchronization, so a time reference to all the other nodes. And indeed, in our network, the coordinator on the Mac layer can periodically send beacons, exactly like in in Wi-Fi. So we have a super frame that starts with with a beacon, and this beacon is indeed a way to provide time reference for all the other nodes.<|im_end|>",
+  "generated_tokens": 223,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.330832380001084,
+  "at": "2026-10-18T06:51:22.790222+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

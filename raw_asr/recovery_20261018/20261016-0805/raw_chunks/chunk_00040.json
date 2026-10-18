@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4400.0,
+  "end_seconds": 4520.0,
+  "text": "Tells you whether the channel is idle or busy. And it's done through a counter in the MacLayer. So it's not a physical function, it's a virtual function. And we said, no, we could see that the channel as idle only if both the sensing function at the physical layer, then it's called the CCA. I we call that because we also mentioned this morning for the sensors and the virtual sensing function on the MacLayer represented by the knob. Say the channel is idle. Okay. Now, when a node is closed, okay, it's about the knob. Now, when a node has count at the count counter set to a positive value, we know that you can decrease the count counter as long as the channel is idle. But as soon as the channel becomes busy, it has to freeze the counter. Okay. When does a node say that the channel is busy? So if I am a Wi-Fi card, when I say, well, for me the channel is busy. When do I say that? When, first of all, if at the physical layer, I CCA function senses power above the threshold, right? That's physical sensing. Or, and if at the MacLayer I've got the knob set, right?",
+  "raw_decoded": "language English<asr_text>Tells you whether the channel is idle or busy. And it's done through a counter in the MacLayer. So it's not a physical function, it's a virtual function. And we said, no, we could see that the channel as idle only if both the sensing function at the physical layer, then it's called the CCA. I we call that because we also mentioned this morning for the sensors and the virtual sensing function on the MacLayer represented by the knob. Say the channel is idle. Okay. Now, when a node is closed, okay, it's about the knob. Now, when a node has count at the count counter set to a positive value, we know that you can decrease the count counter as long as the channel is idle. But as soon as the channel becomes busy, it has to freeze the counter. Okay. When does a node say that the channel is busy? So if I am a Wi-Fi card, when I say, well, for me the channel is busy. When do I say that? When, first of all, if at the physical layer, I CCA function senses power above the threshold, right? That's physical sensing. Or, and if at the MacLayer I've got the knob set, right?<|im_end|>",
+  "generated_tokens": 262,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.41448895600115,
+  "at": "2026-10-18T07:11:04.198369+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

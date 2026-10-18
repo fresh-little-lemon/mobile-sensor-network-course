@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4730.0,
+  "end_seconds": 4850.0,
+  "text": "80 success. The channel is idle. Or vice versa. For example, whenever we have a mismatch. Okay. So the examples that we made probably clarify better. This usage of extended IFS. You may remember. That we presented in particular two examples. Two situations under which. We use the extended IFS. That is one situation was the following. We have, for example, a. And b that are hidden, respect to each other, or they are in video visibility. It doesn't really matter here. But anyway, they transmit a data packet at the same time. Okay. They access the channel at the same time and transmit. Now clearly, these packets at the access point cannot be successfully received because we have a collision. Right. Let's consider that C also is exposed to both signals. So it can hear both signals. C is another node there in the process. But in this case, will C be able to modulate the header on these packets? No, right. It cannot. Because they overlap. Right. So the S.",
+  "raw_decoded": "language English<asr_text>80 success. The channel is idle. Or vice versa. For example, whenever we have a mismatch. Okay. So the examples that we made probably clarify better. This usage of extended IFS. You may remember. That we presented in particular two examples. Two situations under which. We use the extended IFS. That is one situation was the following. We have, for example, a. And b that are hidden, respect to each other, or they are in video visibility. It doesn't really matter here. But anyway, they transmit a data packet at the same time. Okay. They access the channel at the same time and transmit. Now clearly, these packets at the access point cannot be successfully received because we have a collision. Right. Let's consider that C also is exposed to both signals. So it can hear both signals. C is another node there in the process. But in this case, will C be able to modulate the header on these packets? No, right. It cannot. Because they overlap. Right. So the S.<|im_end|>",
+  "generated_tokens": 220,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.39668279399848,
+  "at": "2026-10-18T07:12:39.875306+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1650.0,
+  "end_seconds": 1770.0,
+  "text": "Many times slots, two times slots, right? Because see down we said two. If the channel is idle for this time, sensing time, then we can access the channel. After this time of two times slots, if the channel was idle, we can just access the channel and trust with the one. If instead, while sensing the channel, and notice that this a physical layer sensing, okay, is a channel layer assessment function implemented by the physical layer, is physical layer some some layer sensing. If the channel while sensing is detected as busy, so no idle, then we need to reset the sensing time to increase the n b the number of the koff procedure, and then increase also the koff exponent, and go back to the koff procedure if possible because we cannot run the koff for a packet more than a given maximum number of times, okay. So if we still have the possibility to run another koff procedure, we go back and in draw a new random number as the reset. When we hit the.",
+  "raw_decoded": "language English<asr_text>Many times slots, two times slots, right? Because see down we said two. If the channel is idle for this time, sensing time, then we can access the channel. After this time of two times slots, if the channel was idle, we can just access the channel and trust with the one. If instead, while sensing the channel, and notice that this a physical layer sensing, okay, is a channel layer assessment function implemented by the physical layer, is physical layer some some layer sensing. If the channel while sensing is detected as busy, so no idle, then we need to reset the sensing time to increase the n b the number of the koff procedure, and then increase also the koff exponent, and go back to the koff procedure if possible because we cannot run the koff for a packet more than a given maximum number of times, okay. So if we still have the possibility to run another koff procedure, we go back and in draw a new random number as the reset. When we hit the.<|im_end|>",
+  "generated_tokens": 213,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.226416132998565,
+  "at": "2026-10-18T06:58:42.011029+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

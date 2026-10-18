@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2420.0,
+  "end_seconds": 2540.0,
+  "text": "As again to turn around its transmitter from receive mode, transmit mode, where it transmits data, to receive mode. So during this time, that is six after the acknowledgement, the sink cannot receive anything. So if any sensor tries to transmit something during this time, it will not be received correctly. Okay, because during this time, the sink cannot do anything. It's just performing again to turn around of its transmitter. Okay, good. So let's stop for five minutes, and then we are going to see the last scheme. Ah, last scheme.",
+  "raw_decoded": "language English<asr_text>As again to turn around its transmitter from receive mode, transmit mode, where it transmits data, to receive mode. So during this time, that is six after the acknowledgement, the sink cannot receive anything. So if any sensor tries to transmit something during this time, it will not be received correctly. Okay, because during this time, the sink cannot do anything. It's just performing again to turn around of its transmitter. Okay, good. So let's stop for five minutes, and then we are going to see the last scheme. Ah, last scheme.<|im_end|>",
+  "generated_tokens": 118,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 16.0000172129985,
+  "at": "2026-10-18T07:01:58.721462+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

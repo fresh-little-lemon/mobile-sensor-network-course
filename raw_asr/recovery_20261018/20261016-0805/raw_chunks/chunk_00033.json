@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3630.0,
+  "end_seconds": 3750.0,
+  "text": "The first thing, probably that they did, what was the first thing that they were doing. No. That's collision avoidance. So we cough and set is collision avoidance. But now we are focusing on CSMA, right? Carrier sensing multiple access. So think of the numerical problems examples. What was a node doing when it got a packet from its other layers? The first thing was to sense. Carrier sensing, we need to sense the channel, okay. But what you think about is okay the action of sensing the channel. And you may actually visualize that that sensing was for how long. This right. So this app is a particular channel access scheme. That uses the CSMA approach. Meaning the CSMA approach is a general way of behaving. That is, sense the channel if the channel is idle transmit if the channel is busy defer the transmission. Am I telling you sense the channel for this? No. If I explain what CSMA is, I just say sense the channel if the channel is idle transmit if the channel is busy defer the transmission. That's it. I'm not saying.",
+  "raw_decoded": "language English<asr_text>The first thing, probably that they did, what was the first thing that they were doing. No. That's collision avoidance. So we cough and set is collision avoidance. But now we are focusing on CSMA, right? Carrier sensing multiple access. So think of the numerical problems examples. What was a node doing when it got a packet from its other layers? The first thing was to sense. Carrier sensing, we need to sense the channel, okay. But what you think about is okay the action of sensing the channel. And you may actually visualize that that sensing was for how long. This right. So this app is a particular channel access scheme. That uses the CSMA approach. Meaning the CSMA approach is a general way of behaving. That is, sense the channel if the channel is idle transmit if the channel is busy defer the transmission. Am I telling you sense the channel for this? No. If I explain what CSMA is, I just say sense the channel if the channel is idle transmit if the channel is busy defer the transmission. That's it. I'm not saying.<|im_end|>",
+  "generated_tokens": 227,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.645523905001028,
+  "at": "2026-10-18T07:06:39.793632+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

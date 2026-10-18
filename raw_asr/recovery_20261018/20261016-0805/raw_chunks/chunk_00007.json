@@ -1,0 +1,12 @@
+{
+  "start_seconds": 770.0,
+  "end_seconds": 890.0,
+  "text": "Divided into time intervals, right? We are equal enabled, all the nodes are synchronized, so all of them can actually apply this time division into slots. But even if we have this division into time slots, during the contention based access scheme phase, we have a distributed scheme. Time in this contention based really is contention based. So it's distributed, really. And indeed, as we said, we are applying the principles of CSMA/CA. The bad news is that the scheme is similar but not exactly the same as in Wi-Fi. So that's why we're saying it's a bit confusing because both the terminology and the scheme may be similar, but we have to be a bit careful because it is not exactly as in Wi-Fi. This is a different system with different requirements. So they design a different channel access scheme. Now the channel access scheme, defined as adopted CSMA/CA, is defined through an algorithm. And the algorithm includes an inner block and outer block. So this is the representation. Of the of the overall of the overall algorithm, we have.",
+  "raw_decoded": "language English<asr_text>Divided into time intervals, right? We are equal enabled, all the nodes are synchronized, so all of them can actually apply this time division into slots. But even if we have this division into time slots, during the contention based access scheme phase, we have a distributed scheme. Time in this contention based really is contention based. So it's distributed, really. And indeed, as we said, we are applying the principles of CSMA/CA. The bad news is that the scheme is similar but not exactly the same as in Wi-Fi. So that's why we're saying it's a bit confusing because both the terminology and the scheme may be similar, but we have to be a bit careful because it is not exactly as in Wi-Fi. This is a different system with different requirements. So they design a different channel access scheme. Now the channel access scheme, defined as adopted CSMA/CA, is defined through an algorithm. And the algorithm includes an inner block and outer block. So this is the representation. Of the of the overall of the overall algorithm, we have.<|im_end|>",
+  "generated_tokens": 224,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.002296478000062,
+  "at": "2026-10-18T06:54:34.261490+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

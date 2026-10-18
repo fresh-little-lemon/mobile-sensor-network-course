@@ -1,0 +1,12 @@
+{
+  "start_seconds": 660.0,
+  "end_seconds": 780.0,
+  "text": "Then that's an issue, okay. After a while, it may actually need to drop some buckets because there is no room anymore for all all the buckets. Okay, that said, we are now going to look at the contention based time interval. Still in the case where we have the beacon enabled mode, okay. So we are still considering beacon enabled mode when we have beacon super frames, the two phases, and what we are going to focus now is on this phase, okay, and detail how our sensors can access the channel during this time period. Okay, so this is called Sloten CSMA CA. So let's say that the good news is that we still have a carrier sensing multiple access with collision avoidance. So we know the main principles of this scheme because these principles were also applied used by Wi-Fi, right? This good news. It is called Sloten because as we just said, time is considered to be divided into time intervals, right? We are beacon enabled, all the nodes are synchronized, so all of them can access.",
+  "raw_decoded": "language English<asr_text>Then that's an issue, okay. After a while, it may actually need to drop some buckets because there is no room anymore for all all the buckets. Okay, that said, we are now going to look at the contention based time interval. Still in the case where we have the beacon enabled mode, okay. So we are still considering beacon enabled mode when we have beacon super frames, the two phases, and what we are going to focus now is on this phase, okay, and detail how our sensors can access the channel during this time period. Okay, so this is called Sloten CSMA CA. So let's say that the good news is that we still have a carrier sensing multiple access with collision avoidance. So we know the main principles of this scheme because these principles were also applied used by Wi-Fi, right? This good news. It is called Sloten because as we just said, time is considered to be divided into time intervals, right? We are beacon enabled, all the nodes are synchronized, so all of them can access.<|im_end|>",
+  "generated_tokens": 217,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.074930692000635,
+  "at": "2026-10-18T06:54:06.258053+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

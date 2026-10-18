@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5170.0,
+  "end_seconds": 5290.0,
+  "text": "Point A has to wait for the channel to become idle again, and use extended IFs. Okay. So, if we want a simple rule, okay, to simplify things, whenever in a node, its physical layer senses the channel as busy and physically. But the number is set to zero. So the MAC layer says channel idle. Then we have a mismatch, and that means that we need to use e extended IFs as soon as the channel becomes idle. Okay. Good. Next. These things always required before the call. Yes, unless we use e extended IFs. Right. If the call countdown is interrupted by the channel becoming busy and is later resumed, does the station still need to wait for this before continuing? Yes. If a station has waited extended IFs and then finds the channel busy, does it enter the call directly or does it still need to wait for use first? What do you mean? Because a station that does not have any packet transmission, you will wait extended IFs, but then you will not need to perform any because. So, no. I mean, in general, let's say that the question is not well posed. Because.",
+  "raw_decoded": "language English<asr_text>Point A has to wait for the channel to become idle again, and use extended IFs. Okay. So, if we want a simple rule, okay, to simplify things, whenever in a node, its physical layer senses the channel as busy and physically. But the number is set to zero. So the MAC layer says channel idle. Then we have a mismatch, and that means that we need to use e extended IFs as soon as the channel becomes idle. Okay. Good. Next. These things always required before the call. Yes, unless we use e extended IFs. Right. If the call countdown is interrupted by the channel becoming busy and is later resumed, does the station still need to wait for this before continuing? Yes. If a station has waited extended IFs and then finds the channel busy, does it enter the call directly or does it still need to wait for use first? What do you mean? Because a station that does not have any packet transmission, you will wait extended IFs, but then you will not need to perform any because. So, no. I mean, in general, let's say that the question is not well posed. Because.<|im_end|>",
+  "generated_tokens": 243,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.811044031001074,
+  "at": "2026-10-18T07:14:54.178625+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

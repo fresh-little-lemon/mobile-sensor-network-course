@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1320.0,
+  "end_seconds": 1440.0,
+  "text": "Let's look at the interface that regulates the inner block. Also in this case we have some parameters and variables that we need to so variables need to be initialized to some parameters. In particular, we have here a variable that is the number of the cough procedure that we are performing in order to transmit the data. Initially, this is set to zero. Then we have, and this is confusing, I know, but unfortunately this is terminology. This is actually a sensing time. Okay, a time during which our sensor will have to sense the channel. It's called contention window. Unfortunately, but because the meaning is different from the contention window in Wi-Fi, and it's set to two time slots. Okay, and then we have the cough exponent that is essentially the same as in Wi-Fi. So that's the good news. And it is initialized to the minimum value of cough exponent. Okay, now remember we are in a synchronized system, right? And we act on the basis of this time division. So what we need to do is first of all, remember we are we have the node that is not a party to transmit.",
+  "raw_decoded": "language English<asr_text>Let's look at the interface that regulates the inner block. Also in this case we have some parameters and variables that we need to so variables need to be initialized to some parameters. In particular, we have here a variable that is the number of the cough procedure that we are performing in order to transmit the data. Initially, this is set to zero. Then we have, and this is confusing, I know, but unfortunately this is terminology. This is actually a sensing time. Okay, a time during which our sensor will have to sense the channel. It's called contention window. Unfortunately, but because the meaning is different from the contention window in Wi-Fi, and it's set to two time slots. Okay, and then we have the cough exponent that is essentially the same as in Wi-Fi. So that's the good news. And it is initialized to the minimum value of cough exponent. Okay, now remember we are in a synchronized system, right? And we act on the basis of this time division. So what we need to do is first of all, remember we are we have the node that is not a party to transmit.<|im_end|>",
+  "generated_tokens": 234,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.4299812270001,
+  "at": "2026-10-18T06:57:07.568609+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

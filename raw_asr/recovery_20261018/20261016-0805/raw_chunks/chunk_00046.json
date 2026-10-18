@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5060.0,
+  "end_seconds": 5180.0,
+  "text": "The layer of C says channel busy, while the MAC layer of C says channel idle. Exactly as before, so we have to wait for the channel to become idle, and then use extended life as for C. It's the same as before. But we have then one more situation here. If you remember, that was about A. Why? Because A transmitted its packet. It failed because it was overlapping with B's transmission. And then after stopping because its packet was shorter, it would turn into reception, hoping to receive the acknowledgement. But what we could hear is the ending of this transmission. That is nothing. I mean, it's a signal, the physical layer, but clearly it's not going to demodulate anything. It's not an header. It's the ending of the packet. So again, here we have physical layer of A says channel channel busy because there is the signal on the channel, but its MAC has got the N of set to zero. So for the MAC, the channel is idle. Again, mismatch. Okay, physical layer says busy, MAC layer says idle. So mismatch. So at that point, A has to wait for the channel to become idle again, and use extended.",
+  "raw_decoded": "language English<asr_text>The layer of C says channel busy, while the MAC layer of C says channel idle. Exactly as before, so we have to wait for the channel to become idle, and then use extended life as for C. It's the same as before. But we have then one more situation here. If you remember, that was about A. Why? Because A transmitted its packet. It failed because it was overlapping with B's transmission. And then after stopping because its packet was shorter, it would turn into reception, hoping to receive the acknowledgement. But what we could hear is the ending of this transmission. That is nothing. I mean, it's a signal, the physical layer, but clearly it's not going to demodulate anything. It's not an header. It's the ending of the packet. So again, here we have physical layer of A says channel channel busy because there is the signal on the channel, but its MAC has got the N of set to zero. So for the MAC, the channel is idle. Again, mismatch. Okay, physical layer says busy, MAC layer says idle. So mismatch. So at that point, A has to wait for the channel to become idle again, and use extended.<|im_end|>",
+  "generated_tokens": 253,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 34.632805440000084,
+  "at": "2026-10-18T07:14:20.366874+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

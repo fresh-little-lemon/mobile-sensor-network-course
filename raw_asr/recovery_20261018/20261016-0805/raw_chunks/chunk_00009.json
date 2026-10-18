@@ -1,0 +1,12 @@
+{
+  "start_seconds": 990.0,
+  "end_seconds": 1110.0,
+  "text": "Into stop and wait, that we have a maximum number of attempts available. After which, the packet has to be discarded. So indeed, if we look at the bottom here, we can already see that this nf cannot exceed a maximum value. Okay, this is our maximum number of attempts to transmit a packet. So so far, nothing new. This is stop and wait, right? Okay, now after having initialized this variable that keeps count of the number of times that a packet has been transmitted over the channel, we enter this inner block. For now, let's look at inner block just as a black box. Okay, for now, let's see now. And let's focus instead on what outcome we may get from this inner block. Okay, so the possible outcome are a positive one that says transmit, access the channel, and transmit the packet. Okay, good. If we get that outcome, then it means that the node can transmit the packet, and then it has to wait for an acknowledgement. If the packet is correctly received, then success. If instead the packet transmission fails.",
+  "raw_decoded": "language English<asr_text>Into stop and wait, that we have a maximum number of attempts available. After which, the packet has to be discarded. So indeed, if we look at the bottom here, we can already see that this nf cannot exceed a maximum value. Okay, this is our maximum number of attempts to transmit a packet. So so far, nothing new. This is stop and wait, right? Okay, now after having initialized this variable that keeps count of the number of times that a packet has been transmitted over the channel, we enter this inner block. For now, let's look at inner block just as a black box. Okay, for now, let's see now. And let's focus instead on what outcome we may get from this inner block. Okay, so the possible outcome are a positive one that says transmit, access the channel, and transmit the packet. Okay, good. If we get that outcome, then it means that the node can transmit the packet, and then it has to wait for an acknowledgement. If the packet is correctly received, then success. If instead the packet transmission fails.<|im_end|>",
+  "generated_tokens": 226,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.00307490200066,
+  "at": "2026-10-18T06:55:31.596740+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

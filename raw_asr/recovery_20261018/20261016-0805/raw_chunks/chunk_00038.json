@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4180.0,
+  "end_seconds": 4300.0,
+  "text": "Okay. Actually, the short answer then we're going to clarify, but short answer is, because freezing may happen, may happen, when you set the knob. Okay, but the knob is totally different. So let's explain better. So remember what we said at the very beginning when we were giving the overview of how DCF works. In the simple case where we had access point, and then for example A and B. Ah, let's consider to see in a moment that can all hear each other right. So we said, let's consider the time diagram. It was one of the initial ones that we showed. So we said, let's consider that A has got the packet to transmit. So what DCF says is that in this case A gets the packet from its higher layers at that point. As we already said, but this morning it needs to sense the channel for this. If the channel is idle, then it can transmit its data packet. If this data packet is received successfully, after receives the access point, we send back the ACK. And then we said, what the other nodes do.",
+  "raw_decoded": "language English<asr_text>Okay. Actually, the short answer then we're going to clarify, but short answer is, because freezing may happen, may happen, when you set the knob. Okay, but the knob is totally different. So let's explain better. So remember what we said at the very beginning when we were giving the overview of how DCF works. In the simple case where we had access point, and then for example A and B. Ah, let's consider to see in a moment that can all hear each other right. So we said, let's consider the time diagram. It was one of the initial ones that we showed. So we said, let's consider that A has got the packet to transmit. So what DCF says is that in this case A gets the packet from its higher layers at that point. As we already said, but this morning it needs to sense the channel for this. If the channel is idle, then it can transmit its data packet. If this data packet is received successfully, after receives the access point, we send back the ACK. And then we said, what the other nodes do.<|im_end|>",
+  "generated_tokens": 231,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.322191548002593,
+  "at": "2026-10-18T07:10:03.003398+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

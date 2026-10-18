@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3740.0,
+  "end_seconds": 3805.0,
+  "text": "I just say, \"Since the channel, if the channel is idle, transmit; if the channel is busy, defer the transmission.\" Let's see. I'm not saying a node that receives a packet from the layers has to sense the channel for diffs. If the channel is idle for diffs, then it can access the channel. Otherwise, it has to perform blah blah blah blah. Okay? See the difference. In one case, I'm not just describing the general approach, the general principle of carrier sensing multiple access. In the other case, I'm specifying exactly what a node does, essentially how we apply the general principle of carrier sensing multiple access in the WiFi technology. Do you see the difference? So this app is a specific channel.",
+  "raw_decoded": "language English<asr_text>I just say, \"Since the channel, if the channel is idle, transmit; if the channel is busy, defer the transmission.\" Let's see. I'm not saying a node that receives a packet from the layers has to sense the channel for diffs. If the channel is idle for diffs, then it can access the channel. Otherwise, it has to perform blah blah blah blah. Okay? See the difference. In one case, I'm not just describing the general approach, the general principle of carrier sensing multiple access. In the other case, I'm specifying exactly what a node does, essentially how we apply the general principle of carrier sensing multiple access in the WiFi technology. Do you see the difference? So this app is a specific channel.<|im_end|>",
+  "generated_tokens": 155,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 16.923307739998563,
+  "at": "2026-10-18T07:07:30.628058+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1760.0,
+  "end_seconds": 1880.0,
+  "text": "Procedure: We go back, and in draw a new random number. Essentially, when we hit the maximum number of backoff procedures that we have performed within this inner loop, inner block, we cannot do anything else. We get out of the inner block with outcome failure, and the packet is discarded. Okay, so within the block, essentially, to summarize, first of all, we perform the backoff. That's the very first thing that we do. Perform the backoff, decrease it continuously. When we reach zero, sense the channel. If the channel is idle, transmit. If the channel is sensed as busy, then you cannot transmit. Of course, you have to defer your transmission. How do we do that? By going back and running the backoff again. This is an option. Okay, as we send, we can get out of this inner block also with a failure outcome, and that happens when we have tried, tried, tried to sense the channel as idle. But unfortunately, every time we have performed right this procedure, we have found the channel busy, and we do not have any more backoff procedures essentially available. So.",
+  "raw_decoded": "language English<asr_text>Procedure: We go back, and in draw a new random number. Essentially, when we hit the maximum number of backoff procedures that we have performed within this inner loop, inner block, we cannot do anything else. We get out of the inner block with outcome failure, and the packet is discarded. Okay, so within the block, essentially, to summarize, first of all, we perform the backoff. That's the very first thing that we do. Perform the backoff, decrease it continuously. When we reach zero, sense the channel. If the channel is idle, transmit. If the channel is sensed as busy, then you cannot transmit. Of course, you have to defer your transmission. How do we do that? By going back and running the backoff again. This is an option. Okay, as we send, we can get out of this inner block also with a failure outcome, and that happens when we have tried, tried, tried to sense the channel as idle. But unfortunately, every time we have performed right this procedure, we have found the channel busy, and we do not have any more backoff procedures essentially available. So.<|im_end|>",
+  "generated_tokens": 239,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.935976127002505,
+  "at": "2026-10-18T06:59:13.947603+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

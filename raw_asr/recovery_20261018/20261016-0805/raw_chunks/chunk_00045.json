@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4950.0,
+  "end_seconds": 5070.0,
+  "text": "Could hear only A, for example. If Sdenav and Diana's got a packet to transmit and it accesses the channel, for example, at this point in time, okay. If C can hear D, Diana, he can hear this header of the packet, and in this case, he can resume its normal behavior because it's now able to send its stuff and everything is back to normal. So the external fs can be let's say interrupted. If during the ifs I can hear something, I understand what that is, and then I can resume my normal behavior. So that was one situation under which a node, for example, has to use external fs, right? Because we have this mismatch. The second, a second example where we stand that our node, our node is going to use the extended ifs. Was, if you remember that example where we had two packets of different duration, right? So we still had a collision, as before. C also could not understand the header of the packets. So here for C, we have exactly the same situation as before. Physical layer of C says channel busy, while the MAC layer of C says channel idle, okay.",
+  "raw_decoded": "language English<asr_text>Could hear only A, for example. If Sdenav and Diana's got a packet to transmit and it accesses the channel, for example, at this point in time, okay. If C can hear D, Diana, he can hear this header of the packet, and in this case, he can resume its normal behavior because it's now able to send its stuff and everything is back to normal. So the external fs can be let's say interrupted. If during the ifs I can hear something, I understand what that is, and then I can resume my normal behavior. So that was one situation under which a node, for example, has to use external fs, right? Because we have this mismatch. The second, a second example where we stand that our node, our node is going to use the extended ifs. Was, if you remember that example where we had two packets of different duration, right? So we still had a collision, as before. C also could not understand the header of the packets. So here for C, we have exactly the same situation as before. Physical layer of C says channel busy, while the MAC layer of C says channel idle, okay.<|im_end|>",
+  "generated_tokens": 243,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.34711831999812,
+  "at": "2026-10-18T07:13:45.733437+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}

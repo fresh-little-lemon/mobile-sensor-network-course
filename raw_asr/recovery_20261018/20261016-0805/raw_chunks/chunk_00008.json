@@ -1,0 +1,12 @@
+{
+  "start_seconds": 880.0,
+  "end_seconds": 1000.0,
+  "text": "So, of the of the overall of your overall library, we have some parameters and variables. And here essentially, what we represent is the outer block. Okay. Now we start considering a sensor that has got a packet to transmit. So it wants to transmit the packet, access the channel and transmit the packet. Then our sensor first of all needs to initialize this variable called nf to zero. Okay. Now what is this variable? This variable counts the number of times that a packet is transmitted. Because we still have a sort of stop and wait mechanism, also in this case. So if the packet eventually is transmitted on the channel, but the transmission fails, then our node should again try to access the channel and retransmit the packet. Okay. So this variable nf helps us to keep track of how many times we have transmitted the packet. And we know already according to stop and wait that we have a maximum number of attempts available. Okay. After which the.",
+  "raw_decoded": "language English<asr_text>So, of the of the overall of your overall library, we have some parameters and variables. And here essentially, what we represent is the outer block. Okay. Now we start considering a sensor that has got a packet to transmit. So it wants to transmit the packet, access the channel and transmit the packet. Then our sensor first of all needs to initialize this variable called nf to zero. Okay. Now what is this variable? This variable counts the number of times that a packet is transmitted. Because we still have a sort of stop and wait mechanism, also in this case. So if the packet eventually is transmitted on the channel, but the transmission fails, then our node should again try to access the channel and retransmit the packet. Okay. So this variable nf helps us to keep track of how many times we have transmitted the packet. And we know already according to stop and wait that we have a maximum number of attempts available. Okay. After which the.<|im_end|>",
+  "generated_tokens": 200,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.330412821997015,
+  "at": "2026-10-18T06:54:59.592527+00:00",
+  "source_sha256": "02365229981b7dbeac6f05318b22ca51adb77f9977fdab66a8115242cc336aba"
+}
