@@ -26,6 +26,26 @@
   "raw_commit": "bbf211800300d1419305ac4eaf903faf199cdea6",
   "terminology_addendum_prepared": true,
   "terminology_review_public_append_pending": false,
-  "updated_at": "2026-10-18T04:17:27.437433+00:00",
-  "terminology_review": "bilingual/terminology-review.md"
+  "updated_at": "2026-10-18T05:00:21.773986+00:00",
+  "terminology_review": "bilingual/terminology-review.md",
+  "additional_independent_model_repetition_audit_status": "computational_comparison_complete_speech_unresolved",
+  "additional_independent_model_repetition_audit_report": "https://github.com/fresh-little-lemon/mobile-sensor-network-course/blob/main/qa/asr-repetition-audit-20261018/README.md",
+  "additional_independent_model_repetition_audit": {
+    "models": [
+      "openai/whisper-small",
+      "Qwen/Qwen3-ASR-0.6B-hf"
+    ],
+    "total_windows_both_recordings": 40,
+    "total_model_outputs": 80,
+    "window_duration_seconds": [
+      15,
+      20
+    ],
+    "clear_english_positive_controls_passed": 2,
+    "unreliable_repetition_independently_confirmed_as_spoken": false,
+    "manual_listening": false,
+    "original_raw_preserved": true,
+    "revised_or_bilingual_words_changed_by_audit": false,
+    "finding": "Recognition remains unstable; differing short-window guesses do not resolve wording or establish silence. Keep editorial uncertainty."
+  }
 }
