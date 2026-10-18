@@ -86,3 +86,40 @@
 [7] Bluetooth SIG，蓝牙信道探测：https://www.bluetooth.com/zh-cn/learn-about-bluetooth/feature-enhancements/channel-sounding/
 
 [8] Bluetooth SIG，蓝牙网状网络入门指南：https://www.bluetooth.com/zh-cn/bluetooth-mesh-networking-primer/
+
+## 20261008-1000：调制、传播与空间复用
+
+| 英文 | 采用译法 | 区分与依据 |
+|---|---|---|
+| Gaussian noise | 高斯噪声 | 指概率分布模型，不等于所有干扰；MathWorks AWGN文档[9] |
+| noise power density | 噪声功率谱密度 | 本课N0的语境是每单位带宽功率，区别于空间中的功率密度；单边／双边定义须随公式一致[9] |
+| QAM | 正交幅度调制 | MathWorks中文标题使用“正交调幅”；本稿采用常用完整译名，缩写相同[2] |
+| free-space path loss | 自由空间路径损耗 | MathWorks给出20 log10(4πR/λ)的dB形式[10] |
+| attenuation | 衰减 | 本课以发射功率／接收功率的线性比表示，注意不要将线性比与dB数值混算 |
+| wavelength | 波长 | λ=c/f，区别于信号持续时间[10] |
+| antenna gain / isotropic antenna | 天线增益／各向同性天线 | 三维各向同性辐射覆盖4π球面立体角[11] |
+| directional antenna | 定向天线 | 不译为“方向天线”；强调辐射方向图 |
+| spatial reuse | 空间复用 | 此课具体指不同小区在空间上重复使用相同频谱，不等同于MIMO空间复用流 |
+| densification | 网络密集化 | 指节点部署及通信距离的变化，不是数据压缩 |
+| licensed spectrum | 授权频谱 | 指使用权许可，不把许可表达为对频谱本身的永久所有权 |
+| bit duration / symbol duration | 比特持续时间／符号持续时间 | 与对应速率的倒数关系一致 |
+| energy per bit | 每比特能量 | 在本课条件下Eb=P×Tb=P/Rb |
+| dB / dBm | 分贝／相对于1毫瓦的功率单位 | dB表达比值；dBm以1 mW为参考表示功率 |
+
+### 原讲述中的科学核对
+
+1. 原文“48 dB of power”没有给出参考功率，不能作为完整的绝对发射功率值。正文保留48 dB，不能自行补成48 dBm或48 dBW。
+2. 原文把各向同性天线辐射范围说成2π。二维方位角可取2π，但三维各向同性辐射对应4π sr，增益为1（0 dBi）；全向天线在一个平面内均匀也不等于三维各向同性[11]。
+3. 自由空间损耗随f²变化的比较需要保持距离和天线增益等条件一致；若固定的是物理孔径，增益也会随频率改变，不能笼统推出所有高频链路一定更差[10]。
+4. “避免覆盖区重叠”是课堂理想化的频谱复用例子。实际蜂窝覆盖可以重叠，关键在于同频干扰、频率规划、功率和调度，而不是把任何覆盖重叠都视为不可用。
+5. “地球曲率使信号不沿直线传播”混合了地平线遮挡与射线弯曲两件事。地球曲率会限制视距；大气折射才会使传播路径偏折，不能把两者直接等同。
+6. “20 GHz附近水蒸气吸收”是粗略表述。代表性水汽谱线约为22.235 GHz，具体链路影响与距离、湿度等有关，并非任何20 GHz附近频率都无法通信[12]。
+7. 16-QAM每符号4比特、256-QAM每符号8比特符合k=log2(M)的映射关系；实际净信息速率还会受编码率和协议开销影响[2][9]。
+
+[9] MathWorks，AWGN信道：https://ww2.mathworks.cn/help/comm/ug/awgn-channel.html
+
+[10] MathWorks，fspl：https://www.mathworks.com/help/phased/ref/fspl.html
+
+[11] MathWorks，Element and Array Radiation and Response Patterns：https://www.mathworks.com/help/phased/ug/element-and-array-radiation-patterns-and-responses.html
+
+[12] EUMETSAT，MW/sub-mm Spectroscopy Literature Review（水汽谱线）：https://www-cdn.eumetsat.int/files/2024-03/Task1_report_submm_literature_review_pdf.pdf
