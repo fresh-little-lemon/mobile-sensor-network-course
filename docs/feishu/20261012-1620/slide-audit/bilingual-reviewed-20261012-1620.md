@@ -1,0 +1,408 @@
+说明：本Git检查点不含图片二进制；图像请在飞书原文或完整ZIP中查看。相对图片路径为完整恢复包内的路径。
+
+# 双语对照：录音机-20261012-1620
+
+https://lcn6dqn3m0yr.feishu.cn/docx/BEhKd4SRwo8qxexUkBjcSpTMnfE
+
+核验状态：51段及原导航保留；原13图保留，补图60后共14图；1项课堂时序原图来源待确认；未作原音转写认证。
+
+会议主题：录音机-20261012-1620
+课程：移动与传感器网络 / Mobile Sensor Networks
+上传时间：2026年10月14日（周三） 09:55 （GMT+08）
+音频时长：约 00:45:47
+整理日期：2026年10月18日
+版本：完整忠实双语稿 · 913cf98f5b3c
+状态：双语正文已完成（51 对）；课件图共14张（保留原13张，补充1张）；51个分段标题与8个主题标题已核验
+
+[原录音附件块保留，音频二进制未打包]
+
+录音文件：点击打开原始录音并播放
+
+原资源链接：https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl19lby5819dn131ii54f
+
+文字来源：原始文字记录
+
+原资源链接：https://lcn6dqn3m0yr.feishu.cn/docx/FE7xdY0jooYHAgxAbCKc7rspn8e
+
+课件来源：02-WiFi_1-7.pdf
+
+原资源链接：https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf
+
+# 一、课件范围与PCF接入时延问题
+
+## 01 · 00:00:00 · 课件范围与较新Wi-Fi版本的选学内容
+
+原标说话人 1  00:00:00
+Just as a heads-up, this slide deck is pretty large. It includes many slides, but don't worry, because actually we will not go over all the slides, okay? So at a certain point, at a certain point, we will stop, and we leave the rest of the slides for you to read if you are interested in the details of the more recent versions of Wi-Fi. So we will just go through them very quickly, and that will be only, you know, something that you can listen to during the class, but you don't have to review those slides unless you are interested in knowing more details on these and retaining more details on the more recent versions of Wi-Fi. Otherwise, it's just for your information.
+先提醒一下，这套幻灯片相当大。它包含许多页幻灯片，但是不用担心，因为实际上我们不会讲完所有幻灯片，好吗？所以，到某个地方，到某个地方，我们会停下来，把剩下的幻灯片留给你们阅读，如果你们对较新Wi-Fi版本的细节感兴趣的话。所以，我们只会非常快地过一遍，而那只是，你们知道，课堂上可以听一听的内容；但是，你们不必复习那些幻灯片，除非你们有兴趣了解这些内容的更多细节，并且记住较新Wi-Fi版本的更多细节。否则，它只是供你们了解。
+
+## 02 · 00:01:12 · PCF第三个问题：被轮询站点的发送时长未知
+
+![图60：Why PCF Never Really Happened](../slide-images/slide-060.png)
+
+课件：02-WiFi_1-7.pdf · PDF第30页下半页 · 图60（按PDF顺序）
+
+原标说话人 1  00:01:12
+Okay, so no worries. We go on a little bit more just to give the basis of what the most recent developments are, but in detail we will not look at all, all the slides of this slide deck. Instead, we will then move to device-to-device, in general device-to-device communication networks and sensor networks, okay? And we'll see how sensors access the channel, and you will see that it's kind of similar to this one, okay? So this is essentially the DCF, the basic DCF [name uncertain], which is the hardest part. From now on, related to channel access, everything will be downhill. Okay, so we, yeah, okay. So the third major problem we have with PCF, what is that? Well, it's actually related. It was not easy, it's not easy to spot. It is related to something that I said, but, you know, I said that while explaining the overall way nodes access the channel. So maybe you have not grasped this, this piece of information. But if we go back to what I said about PCF, you might now remember that I mentioned, we said that whenever the access point polls a user, we do not actually know for how long that user will transmit, right? Because it depends on the size of the payload, if it's got a payload to transmit first of all, on the size of the payload, and on the speed at which the node is able to transmit.
+好，所以不用担心。我们再稍微往下讲一点，只是为了给出最新发展的基础，但是在细节上，我们不会看这套幻灯片的全部、全部幻灯片。相反，我们之后会转向设备到设备，一般意义上的设备到设备通信网络，以及传感器网络，好吗？我们会看传感器如何接入信道，而你们会看到，它有点类似这里这个，好吗？所以，这基本上就是DCF，基本DCF［名称不确定］，它是最难的部分。从现在起，就信道接入而言，后面都会是下坡路。好，所以我们，是的，好。所以，我们在PCF中遇到的第三个主要问题是什么？嗯，它实际上有关联。它不容易，不容易看出来。它与我说过的某个内容有关，但是，你们知道，我是在解释节点接入信道的整体方式时说的。所以，也许你们没有抓住这条、这条信息。但是，如果我们回到我关于PCF所说的话，你们现在可能记得我提到过，我们说过，每当接入点轮询一个用户时，我们实际上不知道那个用户会发送多久，对吧？因为它取决于有效载荷的大小，首先要看有没有有效载荷要发送，取决于有效载荷大小，以及节点能够发送的速度。
+
+## 03 · 00:03:32 · 接入点无法预知各站点占用信道的时长
+
+原标说话人 1  00:03:32
+So how long is, for example, A occupying the channel? For how long? We don't know. The access point does not know that. And for how long will C hold the channel? Again, we don't know.
+那么，比如 A 会占用信道多长时间？到底多长时间？我们不知道，接入点也不知道。C 又会占用信道多长时间呢？同样，我们不知道。
+
+## 04 · 00:03:56 · 发送时长不确定妨碍PCF控制接入时延
+
+原标说话人 1  00:03:56
+So again, remember, the goal of PCF is to control the delay, channel-access delay. How can we control channel-access delay at the access point if the access point does not know for how long a polled user will keep the channel? It might be that within one PCF phase, the access point may not be able to poll all stations, right? Because at a certain point the phase finishes. For sure, we cannot go over the superframe termination. That's, that's for sure.
+所以，同样，记住，PCF的目标是控制时延，信道接入时延。如果接入点不知道一个被轮询的用户会占有信道多久，我们怎样在接入点控制信道接入时延？可能在一个PCF阶段内，接入点无法轮询所有站点，对吧？因为在某个时刻，这个阶段就结束了。肯定的是，我们不能超过超帧的结束。那是、那是肯定的。
+
+## 05 · 00:04:48 · PCF无法充分控制接入时延的局限
+
+原标说话人 1  00:04:48
+So it really depends on who has got data to transmit, what kind of data payload they have got, how fast they are. But we have no control, and that's really, really bad, because our goal was to have control on channel access, right? So that's the major, third major issue of PCF. Now we understand why, if the goal of PCF was really to have control on channel-access delay: not good, not good enough. So that's why it has never been implemented.
+所以，这真的取决于谁有数据要发送、他们有什么样的数据载荷，以及他们有多快。但是我们无法控制，而这非常、非常不好，因为我们的目标本来就是控制信道接入，对吧？所以，这就是 PCF 的第三个主要问题。现在我们就明白了：如果 PCF 的目标真的是控制信道接入时延，那么它不行，还不够好。因此它一直没有得到实现。
+
+## 06 · 00:05:30 · 初始DCF与PCF机制的差异小结
+
+原标说话人 1  00:05:30
+Okay, good. Now, if this is clear, then we are really done with this initial version of DCF and PCF, so of the Wi-Fi MAC scheme. This is a slide that highlights the differences between DCF and PCF.
+好，很好。如果这里清楚了，那么我们就真正讲完了 DCF 和 PCF 的这个初始版本，也就是 Wi-Fi 的 MAC 机制。这张幻灯片列出了 DCF 和 PCF 之间的区别。
+
+![图61：DCF vs. PCF: the Bottom Line](../slide-images/slide-061.png)
+
+课件：02-WiFi_1-7.pdf · PDF第31页上半页 · 图61（按PDF顺序）
+
+## 07 · 00:05:56 · 记住PCF机制及问题以理解后续改进
+
+原标说话人 1  00:05:56
+As mentioned, what we really need to retain from what we said about PCF is the major things, right? We described how it works and the major issues that you've got. Why? Because in the more recent versions of Wi-Fi, we have slightly different specifications about both, actually, DCF and PCF, so the distributed and centralized channel-access schemes. And this time they are both implemented, because in this Wi-Fi 4 version they solved the PCF issues.
+正如前面所说，对于 PCF，我们真正需要记住的是主要内容，对吧？我们讲了它怎样工作，也讲了它存在的主要问题。为什么？因为在较新版本的 Wi-Fi 中，DCF 和 PCF 这两方面，也就是分布式和集中式信道接入机制，其规范都有了一些变化。这一次，两种机制都得到了实现，因为在这个 Wi-Fi 4 版本中，他们解决了 PCF 的问题。
+
+## 08 · 00:06:44 · 改进分布式机制与新集中式接入机制
+
+原标说话人 1  00:06:44
+Okay, they improved the distributed scheme, and they specified a new centralized scheme that is, let's say, a 2.0 version of PCF. And now this new version of the centralized access scheme works.
+好，他们改进了分布式机制，又规定了一种新的集中式机制，可以说是 PCF 的 2.0 版。现在，这个新版本的集中式接入机制能够正常工作了。
+
+# 二、服务质量需求与HCF接入机制
+
+## 09 · 00:07:04 · 新章节的学习范围与重要性
+
+原标说话人 1  00:07:04
+Okay, so now we enter a new chapter in our Wi-Fi slides. This chapter is still important, okay? This is not something that you can just overlook. This part of the Wi-Fi slides is still to be considered as important material, okay? But as I said, no worries, because from now on everything is going downhill. As you will see, this part is going to be very easy to acquire compared to what we have gone through, okay? So no worries.
+好，那么，现在我们进入Wi-Fi幻灯片的新一章。这一章仍然重要，好吗？这不是你们可以直接忽略的内容。Wi-Fi幻灯片的这一部分仍应被视为重要材料，好吗？但是，正如我说过的，不用担心，因为从现在起，一切都在走下坡路。正如你们将看到的，与我们已经经历过的内容相比，这一部分会非常容易掌握，好吗？所以，不用担心。
+
+![图62：Wi-Fi 4 (802.11e) — Quality of Service](../slide-images/slide-062.png)
+
+课件：02-WiFi_1-7.pdf · PDF第31页下半页 · 图62（按PDF顺序）
+
+## 10 · 00:07:52 · 应用需求推动Wi-Fi支持服务质量
+
+原标说话人 1  00:07:52
+Now, as the first slide says, Wi-Fi 4, or if you want to use the name of the technical amendment of the standard, is referred to as 802.11e. But that's a detail. Wi-Fi 4 has been introduced, so they changed the access scheme in more recent versions of Wi-Fi because indeed there was this pressing need to support quality of service, right? So we moved from the times, old times, when the major type of traffic that we had to transmit was data files between, mostly between computers, to the new era when we have user applications, right, that require low latency, require high data rates or high throughput.
+现在，正如第一张幻灯片所说，Wi-Fi 4，或者，如果你想使用标准的技术修订案名称，它被称为802.11e。但是，那是一个细节。Wi-Fi 4被引入了，所以，他们在较新Wi-Fi版本中改变接入方案，是因为确实存在支持服务质量的迫切需求，对吧？所以，我们从那个时代、过去的时代，当时必须传输的主要流量类型，是计算机之间、主要在计算机之间的数据文件，转向了新时代，在这个时代，我们有用户应用，对吧，它们要求低时延，要求高数据速率或者高吞吐量。
+
+![图63：Why Wi-Fi 4? Two Amendments, One Brand](../slide-images/slide-063.png)
+
+课件：02-WiFi_1-7.pdf · PDF第32页上半页 · 图63（按PDF顺序）
+
+## 11 · 00:09:01 · 语音视频对可靠传输与低时延的要求
+
+原标说话人 1  00:09:01
+You need to be sure that your data are reliably transmitted, and they need to be transmitted fast, right? Otherwise, as we said, voice, video, video calls do not work. So since the interests and needs of the users changed, they had to update, let's say, enhance the Wi-Fi technology as well to satisfy, to meet the users' needs. And this is why they moved to this Wi-Fi 4. So the major objective here, as we said, is to guarantee quality of service.
+你需要确保你的数据被可靠地传输，而且它们需要快速传输，对吧？否则，正如我们说过的，语音、视频、视频通话都无法工作。所以，由于用户的兴趣和需求改变了，他们也必须更新，可以说，增强Wi-Fi技术，来满足、来符合用户的需求。这就是为什么他们转向了这个Wi-Fi 4。所以，正如我们说过的，这里的主要目标是保证服务质量。
+
+## 12 · 00:09:49 · HCF及其EDCA与HCCA两种接入机制
+
+原标说话人 1  00:09:49
+Now, this improved version of the channel-access scheme, this is mostly about terminology, okay? So it's not very important, but for your information, this new version of the access scheme is called hybrid coordination function, HCF. It's made, as we said, it's made of two channel-access schemes, one distributed and one centralized. The distributed one, as I said, is an enhanced version of DCF. And since it's an enhanced version of DCF, they had to change the name, sorry, and now this is called EDCA, enhanced distributed channel access. Also, the centralized scheme, now it's a centralized scheme that works. It's not like PCF, which did not work, right? So they changed it, they improved it, and now they named it in a different way. Yeah, sorry for all these names, but just for your information, let's say the new PCF is called HCF [initial acronym unclear]. Okay, sorry, it's called HCCA, so HCF controlled channel access. So HCCA is the new name.
+现在来看这个改进版的信道接入机制。这主要涉及术语，好吗？所以不是特别重要，但给大家介绍一下：这个新版本的接入机制叫作混合协调功能，也就是 HCF。正如我们所说，它由两种信道接入机制组成，一种是分布式的，一种是集中式的。分布式机制是 DCF 的增强版。既然它是 DCF 的增强版，他们就得改个名字，不好意思，现在它叫 EDCA，也就是增强型分布式信道接入。至于集中式机制，现在它是一种能正常工作的集中式机制，不像之前无法正常工作的 PCF，对吧？他们改变了它、改进了它，现在也换了一个名字。是的，这么多名称，抱歉，不过只是供大家了解。可以说，新的 PCF 叫 HCF［最初说出的缩写不清］。好，不好意思，应该是 HCCA，也就是 HCF 控制信道接入。所以 HCCA 是新的名称。
+
+![图64：The Hybrid Coordination Function (HCF)](../slide-images/slide-064.png)
+
+课件：02-WiFi_1-7.pdf · PDF第32页下半页 · 图64（按PDF顺序）
+
+## 13 · 00:11:27 · QoS相关名称与混合协调器术语
+
+原标说话人 1  00:11:27
+That said, again, just for your information, whenever talking about a BSS or a Wi-Fi station, they actually put the Q in front to underline the fact that this version of Wi-Fi aims at quality of service. So that Q stands for quality of service. It's a terminology thing, no need to remember it, okay? It's just a detail. The access point also is typically referred to as hybrid coordinator. Let me change this.
+说到这里，同样只是供大家了解：提到 BSS 或 Wi-Fi 站点时，他们会在前面加一个 Q，强调这个 Wi-Fi 版本的目标是服务质量。因此，这个 Q 代表服务质量。这只是术语上的事情，不需要记住，好吗？只是一个细节。接入点通常也会被称为混合协调器。我改一下这里。
+
+## 14 · 00:12:09 · 从术语细节转向关键的新概念
+
+原标说话人 1  00:12:09
+All these are, you know, details, okay? I mention them to be precise, but you can forget about them. What is instead important? It is this last point here. This is important.
+这些都只是一些细节，好吗？我提到它们是为了说得准确一些，但你们可以不记。真正重要的是什么？是这里最后这一点。这一点很重要。
+
+# 三、传输机会TXOP与基于时间的接入
+
+## 15 · 00:12:26 · 传输机会是新接入机制的重要创新
+
+原标说话人 1  00:12:26
+Transmission opportunity. What is that? Well, they introduced this concept in Wi-Fi 4, and I would say that this is one of the main innovations in this new access scheme.
+传输机会。它是什么？他们在 Wi-Fi 4 中引入了这个概念，而我认为这是这种新接入机制最主要的创新之一。
+
+## 16 · 00:12:43 · TXOP定义及其时长上限内的多分组传输
+
+原标说话人 1  00:12:43
+Transmission opportunity. What is the transmission opportunity? When you have the opportunity to transmit, right? So in this new version, when a node gets the chance to access the channel, what is it, what does it win? It's not the possibility to transmit one packet, but it is the possibility to transmit for a certain period of time. So what it wins is a transmission opportunity. The transmission opportunity is a period of time during which a node can transmit. It can transmit one packet, two packets, three packets, up to a maximum duration that is called the transmission opportunity limit, right? So given that you have a transmission opportunity limit, let's say five milliseconds, in those five milliseconds you can do whatever you like, right? You can transmit one packet, two packets, three packets, or a very, very long packet that covers the whole five milliseconds. As you like, it's your transmission opportunity, okay?
+传输机会。什么叫传输机会？就是你有机会发送的时候，对吧？在这个新版本中，当一个节点获得接入信道的机会时，它赢得的是什么？它赢得的不是发送一个分组的机会，而是在某个时间段内发送的机会。所以，它赢得的是一个传输机会。传输机会就是节点可以发送的一段时间。它可以发送一个分组、两个分组、三个分组，直到达到一个最长持续时间，这个上限叫作传输机会时长上限，对吧？假设你的传输机会时长上限是五毫秒，那么在这五毫秒内，你想怎么用就怎么用，对吧？可以发送一个分组、两个分组、三个分组，或者一个非常、非常长的分组，占满整整五毫秒。随你怎么用，这是你的传输机会，好吗？
+
+![图65：Some Definitions](../slide-images/slide-065.png)
+
+课件：02-WiFi_1-7.pdf · PDF第33页上半页 · 图65（按PDF顺序）
+
+![图74：EDCA Bursting](../slide-images/slide-074.png)
+
+课件：02-WiFi_1-7.pdf · PDF第37页下半页 · 图74（按PDF顺序）
+
+## 17 · 00:14:15 · 从按分组接入转向基于时间的接入
+
+原标说话人 1  00:14:15
+So while in the previous version of Wi-Fi we had the so-called per-packet channel access, because when we were able to access the channel we were transmitting one packet, now we have time-based channel access, meaning that what we get when we have access to the channel is the possibility to transmit for a time interval in which we can fit more than one packet if we want, okay?
+所以，在之前版本的 Wi-Fi 中，我们采用的是所谓的按分组接入信道，因为获得信道接入时，我们发送的是一个分组。而现在采用的是基于时间的信道接入，也就是说，当我们接入信道时，获得的是在一个时间区间内发送的机会。如果愿意，我们可以在这个区间里放入不止一个分组，好吗？
+
+# 四、EDCA四队列与流量优先级
+
+## 18 · 00:14:59 · 增强型分布式信道接入EDCA导入
+
+原标说话人 1  00:14:59
+So it's actually a different way of thinking of channel access. This is very important. Okay, that said, let's start by looking at, again, the distributed version of the channel-access scheme in this Wi-Fi 4, which, as we said, is an enhanced version of the previous one. And for this reason it's called EDCA, where the initial letter E stands indeed for enhanced.
+所以，这实际上是对信道接入的一种不同思考方式。这非常重要。好，说完这些，让我们再次从这个Wi-Fi 4中信道接入方案的分布式版本开始看，正如我们说过的，它是前一个版本的增强版。因此，它叫作EDCA，其中第一个字母E确实代表增强。
+
+## 19 · 00:15:40 · 用队列与服务者模型回顾Wi-Fi的MAC层
+
+原标说话人 1  00:15:40
+Now, there is a very, a very simple way to understand how this distributed channel-access scheme has been enhanced. Let me show you this, and you will immediately understand how it works, okay? Remember what we said, right? We know that already. That's the big advantage. Now we know that the MAC layer in Wi-Fi can be modeled using a queue and a server, right? That's what we discussed already, we said many times. So in the previous version, we were looking at the MAC layer of a Wi-Fi node, and we said, well, this can be modeled as a queue where packets coming from the higher layers get in.
+现在，有一个非常、非常简单的方法，可以理解这个分布式信道接入机制究竟得到了怎样的增强。我给你们看看，你们马上就会明白它怎样工作，好吗？还记得我们说过的吗？这些我们已经知道了，这就是很大的优势。我们现在知道，Wi-Fi 的 MAC 层可以用一个队列和一个服务者来建模，对吧？这是我们已经讨论过、说过很多次的内容。在前一个版本中，我们看的是一个 Wi-Fi 节点的 MAC 层。我们说，可以把它建模为一个队列，来自更高层的分组会进入这个队列。
+
+## 20 · 00:16:39 · 从单个FIFO队列扩展为四个虚拟站点
+
+原标说话人 1  00:16:39
+And then this queue works according to the FIFO policy, first input, first output, so the first one that arrives gets served, right? So packets may be queued in the same order as they arrive, and then they get served one at a time. And this is the server that applies the rules of the DCF function. That's something that we already knew. And we also knew that when the server services a packet, it means that it tries to get this packet through and send it to the physical layer so that the packet can then be transmitted over the wireless channel. Well, it has to follow the rules of the protocol. And the protocol, the MAC protocol, DCF, works using certain parameters, right? SIFS, DIFS, PIFS [interval names uncertain], the extended IFS, the backoff procedure, we all know that. And backoff makes use of the contention window minimum, the contention window maximum. We all know that. Okay, now, in the enhanced version of this, what we have is within the same Wi-Fi card, so the same Wi-Fi card does not have only one queue. It has got four queues that are called access category zero, access category one, access category two, access category three. Okay, there are four queues. Each queue essentially works exactly as before, okay? So that's why these four queues are also called virtual stations, because they are physically within the same Wi-Fi card, but each of them behaves as a station in the previous version of the standard.
+然后，这个队列按照 FIFO 策略工作，也就是“先输入、先输出”，所以先到达的分组先得到服务，对吧？分组按照到达顺序排队，然后一个一个地得到服务。这里的服务者采用 DCF 功能的规则，这也是我们已经知道的。我们还知道，当服务者为一个分组提供服务时，就是尝试让这个分组通过，并把它交给物理层，让分组随后能够在无线信道上传输。它必须遵守协议的规则。而这个协议，也就是 MAC 协议 DCF，会使用一些参数，对吧？SIFS、DIFS、PIFS［间隔名称不确定］、扩展 IFS，以及退避过程，这些我们都知道。退避还会用到竞争窗口最小值和竞争窗口最大值，这些我们也都知道。好，在增强版中，同一块 Wi-Fi 网卡不再只有一个队列，而是有四个队列，分别称为接入类别零、接入类别一、接入类别二、接入类别三。好，总共有四个队列。每个队列基本上都和以前一样工作。因此，这四个队列也叫作虚拟站点，因为它们在物理上位于同一块 Wi-Fi 网卡中，但每一个的行为都像前一版标准中的一个站点。
+
+![图66：EDCA: Crucial Features](../slide-images/slide-066.png)
+
+课件：02-WiFi_1-7.pdf · PDF第33页下半页 · 图66（按PDF顺序）
+
+![图73：Virtual Stations and Internal (Virtual) Collisions（队列结构图）](../slide-images/slide-073.png)
+
+课件：02-WiFi_1-7.pdf · PDF第37页上半页 · 图73（按PDF顺序）
+
+## 21 · 00:19:07 · 四个队列分别承载不同类型的流量
+
+原标说话人 1  00:19:07
+So virtually, it's like having four different stations all together deployed on, in the same, within the same Wi-Fi card. So you may wonder, okay, why do we move from one to four? Remember, the goal is quality of service, right? So what we do is to use each queue for a different type of traffic. We put voice here in zero, in access category zero. We put video here in number one. And then we put traffic originating from, for example, browsing here in number two.
+所以，从虚拟的角度看，就像把四个不同的站点全部一起部署在、在同一块、在同一块Wi-Fi网卡里面。所以，你们可能想，好，为什么我们从一个变成四个？记住，目标是服务质量，对吧？所以，我们所做的，就是用每个队列处理一种不同的流量。我们把语音放在这里的零号、接入类别零。把视频放在这里的一号。然后，把比如说浏览所产生的流量放在这里的二号。
+
+## 22 · 00:20:00 · 时延容忍的数据文件进入低优先级队列
+
+原标说话人 1  00:20:00
+And then when we have, you know, just data files, very delay-tolerant traffic, best effort, best-effort traffic, we put it here in number three.
+最后，如果只是数据文件，是很能容忍时延的流量，也就是尽力而为、尽力而为的流量，我们就把它放在这里的三号。
+
+## 23 · 00:20:14 · 按优先级分流与语音的低时延需求
+
+原标说话人 1  00:20:14
+So the key idea is that each of these queues will host packets that have got different priorities. Voice is very high-priority traffic. Why? Because voice is not delay-tolerant at all, okay? It's a type of traffic that you really need to send as soon as possible.
+所以，核心思想是让每个队列容纳不同优先级的分组。语音是非常高优先级的流量。为什么？因为语音完全不能容忍时延，好吗？这是一种必须尽快发送的流量。
+
+## 24 · 00:20:47 · 过期语音分组失去价值与及时发送要求
+
+原标说话人 1  00:20:47
+If a voice packet waits too long, accumulates too much delay, then you can just discard it, because at that point, even if you send it, it's useless, okay? So voice traffic needs to be sent really, really promptly. High priority, it goes in queue zero. Then we have video streaming.
+如果一个语音分组等得太久，累积了太多时延，那么你可以直接把它丢掉，因为到了那个时候，即使发出去了也没用，好吗？所以，语音流量真的必须非常、非常及时地发送。它的优先级高，因此放进零号队列。然后我们来看视频流。
+
+## 25 · 00:21:16 · 视频播放缓冲区可以吸收部分时延
+
+原标说话人 1  00:21:16
+Well, also video frames are, let's say, they can tolerate some delay. We know that we have playout buffers, right? So when we watch streaming, we know that there is a playout buffer that essentially can absorb some of the delay. So even if the traffic arrives with some delay, we have this playout buffer that fills up at the beginning when you start watching a movie.
+视频帧呢，可以说也能容忍一定的时延。我们知道有播放缓冲区，对吧？观看流媒体时，有一个播放缓冲区，基本上可以吸收一部分时延。所以，即使流量有些延迟才到达，我们也有这个播放缓冲区，它会在你刚开始看电影的时候先填充起来。
+
+## 26 · 00:21:48 · 初始缓冲与持续播放如何吸收网络时延
+
+原标说话人 1  00:21:48
+Right, there is always some initial delay. You press, and then there is some initial delay. That's when the video packets actually start arriving at your TV or laptop, whatever, and this playout buffer fills up, and then the video starts. Why do they do that? Because in this way they have already got some packets at the beginning. So as the movie plays, even if the subsequent packets experience some delay, it doesn't matter, because you still have packets in the queue. And so if they come late, well, by the time they arrive, it's fine, you have watched, let's say, the previous packets that were in the buffer, right? So this playout buffer is there to absorb these delays that there might be with the traffic coming to your TV, okay?
+对，总是会有一点初始延迟。你按下播放，然后会有一点初始延迟。这时视频分组开始到达你的电视、笔记本电脑或者其他设备，播放缓冲区逐渐填满，然后视频才开始播放。他们为什么这样做？因为这样一来，开始时就已经准备了一些分组。因此，在电影播放的过程中，即使后续分组经历了一些时延，也没有关系，因为队列里仍然有分组。所以，即使它们晚到了，到它们抵达的时候也没问题，因为你刚才观看的是缓冲区里之前那些分组对应的内容，对吧？因此，这个播放缓冲区就是用来吸收流量到达电视时可能出现的这些时延，好吗？
+
+## 27 · 00:22:57 · 缓冲耗尽造成卡顿及视频的时延容忍度
+
+原标说话人 1  00:22:57
+Do you see? So video, of course, if the delay is too much, then your playout buffer empties and the video stops, and you get angry, right? Oh, what is going on? I want to watch the movie. So clearly we need to deliver these video packets quickly, but we have more tolerance with respect to voice packets.
+明白了吗？当然，如果视频的时延太大，播放缓冲区就会耗尽，视频也就停住，你就会生气，对吧？“怎么回事？我要看电影。”所以，我们显然需要尽快交付这些视频分组，但相对于语音分组，视频能容忍更多的时延。
+
+## 28 · 00:23:27 · 视频队列优先级与网页浏览流量
+
+原标说话人 1  00:23:27
+So that's why they are important, but not as high-priority as voice, so they go into queue number one. Okay, then we have browsing, that is, you want to buy tickets, you use whatever you use as a browser, so you send requests and you get answers, right? I know that you are using WeChat a lot, but anyway, you can also use the browser.
+因此，它们很重要，但优先级没有语音那么高，所以进入一号队列。好，然后是网页浏览。比如你想买票，就使用你习惯的浏览器，发送请求，然后得到回答，对吧？我知道你们经常用微信，不过也可以使用浏览器。
+
+## 29 · 00:24:03 · 网页浏览允许更长的响应时延
+
+原标说话人 1  00:24:03
+In that case, it's just, you know, you send, for example, a request about where a shop is, right? And you get the answer. So that's not as, let's say, high-priority as voice or video. The user actually tolerates slightly more delay in that case. So if you think about it, indeed, you look for a route to go somewhere, and it's okay if it takes five milliseconds, or it takes thirty milliseconds, or a hundred milliseconds. You don't perceive this difference. So it's more delay-tolerant, and that's why it goes to two.
+在这种情况下，你只是发送一个请求，比如问某家商店在哪里，对吧？然后得到回答。所以，这种流量的优先级没有语音或者视频那么高。在这种情况下，用户实际上能够容忍稍多一点的时延。你们仔细想一想，确实如此，比如你查找去某个地方的路线，用五毫秒、三十毫秒，或者一百毫秒，都没有关系，你感觉不到这种区别。所以，它更能容忍时延，这就是为什么它会进入二号队列。
+
+## 30 · 00:24:57 · 文件同步的低优先级与四队列的QoS分流
+
+原标说话人 1  00:24:57
+And then, as I said, when there is just data transfer between your laptop and your phone, or whatever, you want to synchronize the data files between the two devices, that's something that you, you know, you start and you leave it there, and they will exchange the files. So that's low priority, and it goes into queue number three, presumably. Okay, so now we understand why we have four different queues within our Wi-Fi card, because we want to separate traffic that has got different quality-of-service requirements. And then, of course, we will need to serve the packets that are in each queue a little bit differently, one from the other. So now you can actually say, well, but you told us that actually they were behaving as in the previous case. There was no difference.
+最后，正如我说的，如果只是笔记本电脑和手机等设备之间的数据传输，你想让两台设备的数据文件保持同步，那么你通常只要启动这个过程，然后把它放在那里，它们就会自行交换文件。所以，这是低优先级的流量，应该进入三号队列。好，现在我们明白为什么一块 Wi-Fi 网卡里要有四个不同的队列了，因为我们想把具有不同服务质量要求的流量分开。当然，接下来我们就需要用略有不同的方式为各个队列中的分组提供服务。现在你们可能会说，可是你刚才告诉我们，它们的行为其实和之前一样，没有区别。
+
+# 五、AIFS与竞争窗口的差异化参数
+
+## 31 · 00:26:04 · 各队列仍然遵循相同的基本接入规则
+
+原标说话人 1  00:26:04
+So now you are saying that they behave a little bit differently. Why? What is going on? Well, the rules that each server of these queues follows are exactly the same as before, okay? So we don't need to really learn new things.
+现在你又说，它们的行为有一点不同。为什么？到底怎么回事？每个队列的服务者遵守的规则，实际上和以前完全一样，好吗？所以，我们其实不需要学习新的东西。
+
+## 32 · 00:26:27 · 通过不同MAC参数区分队列的接入行为
+
+原标说话人 1  00:26:27
+There are just a few details that we will keep in mind. In principle, they follow exactly the same rules. What changes is the value of the MAC parameters, of the parameters that they use to apply the rules. For example, rule number one: if you want to transmit a data packet, you have to sense the channel for DIFS, right?
+只是有几个细节需要记住。原则上，它们遵循完全相同的规则。改变的是 MAC 参数的取值，也就是执行这些规则时所使用的参数值。比如第一条规则：如果你要发送一个数据分组，就必须侦听信道，持续一个 DIFS，对吧？
+
+## 33 · 00:26:59 · 不同优先级队列采用不同信道侦听时长
+
+原标说话人 1  00:26:59
+Unless it's an ACK, in that case it's SIFS, or we are within a dialogue, then SIFS. But otherwise, if you want to transmit a new data packet, you have to sense the channel for DIFS, okay? So the sensing time of this high-priority queue will be indeed DIFS, right? But this other queue that has got lower-priority traffic will have a sensing time a little bit longer than DIFS, and this queue a little bit more, and this queue a little bit more.
+除非要发送的是 ACK，那样就是 SIFS；或者处于一次交互过程中，那也是 SIFS。但除此之外，如果你想发送一个新的数据分组，就必须侦听一个 DIFS，好吗？因此，这个高优先级队列的侦听时间确实就是 DIFS，对吧？但另一个队列承载的是优先级较低的流量，它的侦听时间就要比 DIFS 稍长一点。这个队列再长一点，这个队列还要再长一点。
+
+## 34 · 00:27:45 · 仲裁帧间间隔AIFS与优先级差异
+
+原标说话人 1  00:27:45
+Okay, so now, since we have four different sensing times, we cannot use one name for all of them, right? Because they're different. So actually, again, sorry for this new name, but this is now called arbitration IFS zero, and arbitration IFS zero is DIFS. Arbitration IFS one is a bit longer. Arbitration IFS two is even longer, and arbitration IFS three is definitely longer. Okay, same with the backoff. There, our parameter was the contention window, in particular contention window minimum.
+好，现在我们有四种不同的侦听时间，就不能对它们都使用同一个名字了，对吧？因为它们不同。所以，又要引入新名字了，不好意思，这个现在叫零号仲裁 IFS，而零号仲裁 IFS 就是 DIFS。一号仲裁 IFS 稍长一点，二号仲裁 IFS 更长一些，而三号仲裁 IFS 就明显更长。好，退避也是同样的道理。在退避那里，我们使用的参数是竞争窗口，特别是竞争窗口最小值。
+
+![图68：Traffic Differentiation: How Priority Is Enforced](../slide-images/slide-068.png)
+
+课件：02-WiFi_1-7.pdf · PDF第34页下半页 · 图68（按PDF顺序）
+
+## 35 · 00:28:43 · 高优先级流量应减少退避等待
+
+原标说话人 1  00:28:43
+So if you have high-priority traffic, you don't want that traffic to waste too much time waiting for the backoff, right? So I mean, spending time decreasing the backoff counter. So you want to give that traffic an advantage.
+所以，如果你有高优先级的流量，你不希望它花太多时间等待退避，对吧？我的意思是，不希望花太多时间去递减退避计数器。因此，你想给这种流量一个优势。
+
+## 36 · 00:29:03 · 不同CWmin如何改变平均退避时间
+
+原标说话人 1  00:29:03
+So that's why this queue, when this queue needs to apply, the server needs to apply the backoff procedure, it will apply the backoff procedure using a value of CWmin that is very small, like three. This has got lower priority, it will use seven. This has got even lower priority, it will use fifteen. And this is low priority, thirty-one, okay? So on average, this is on average, because remember, backoff integers are selected with equal probability within zero to the CW value, right? So, but on average, if this queue uses three as CWmin, it selects a value of backoff, the first time that it runs backoff for a packet, that is smaller than this server. Why? Because here we have only zero, one, two, three as possible values. Here we have zero, one, two, three, four, five, six, seven. Here we have zero, one, two, three, four, five, up to fifteen. So on average, clearly, this guy is going to draw a shorter backoff time than this guy, right? So when this server has to serve these packets, high-priority packets, and has to apply the backoff procedure, it will on average experience a lower, shorter backoff time. So the channel access will be faster. I don't need to spend much time decreasing my backoff time.
+所以，这就是为什么这个队列，当这个队列需要应用、服务者需要应用退避过程时，它会用一个非常小的CWmin值，比如三，来应用退避过程。这个优先级较低，它会使用七。这个优先级更低，它会使用十五。而这个是低优先级，三十一，好吗？所以，平均来说，这是平均来说，因为记住，退避整数是在零到CW值之间以相等概率选择的，对吧？所以，但是，平均来说，如果这个队列使用三作为CWmin，那么在它第一次为一个数据包运行退避时，它选取的退避值比这个服务者的小。为什么？因为这里的可能值只有零、一、二、三。这里有零、一、二、三、四、五、六、七。这里有零、一、二、三、四、五，一直到十五。所以，平均来说，显然，这个家伙会比那个家伙抽到更短的退避时间，对吧？所以，当这个服务者必须服务这些数据包、高优先级数据包，而且必须应用退避过程时，它平均会经历一个更低、更短的退避时间。所以，信道接入会更快。我不需要花太多时间减少自己的退避时间。
+
+# 六、TXOP上限与不同流量的需求
+
+## 37 · 00:31:14 · CWmax影响与新增TXOP时长上限参数
+
+原标说话人 1  00:31:14
+Hmm, CWmax is also different depending on the queue that we are considering, but honestly, CWmax does not have a great impact, okay? What is really important is that CWmin is different. And then there is one more parameter that we need to consider at the MAC layer, and this is actually new, okay? This is specific to this enhanced version of the protocol. What is this? The transmission opportunity limit.
+嗯，CWmax 也会随着所考虑的队列不同而不同，但说实话，CWmax 的影响并不大，好吗？真正重要的是 CWmin 不同。接下来，在 MAC 层还有一个需要考虑的参数，而它确实是新的。这是这个增强版协议所特有的参数。它是什么？就是传输机会时长上限。
+
+## 38 · 00:31:59 · 一次竞争获胜可在TXOP内发送多个分组
+
+原标说话人 1  00:31:59
+Remember, we have a big innovation now. The real big innovation is transmission opportunity. And we said, when the server, right, gets a packet through, I mean, it serves, it contends, sorry, contends for the channel, and it wins the opportunity to access the channel, actually it will not send only one packet. It may actually serve multiple packets, provided that they fit within a transmission opportunity limit. So the transmission opportunity limit is the duration of your transmission opportunity.
+记住，我们现在有一个很大的创新。真正很大的创新是传输机会。我们说过，当服务者，对吧，让一个数据包通过，我的意思是，它服务，它竞争，抱歉，竞争信道，并赢得接入信道的机会时，实际上它不会只发送一个数据包。它实际上可以服务多个数据包，只要它们能装进一个传输机会时长上限之内。所以，传输机会时长上限就是你的传输机会的持续时间。
+
+## 39 · 00:32:49 · 不同队列的TXOP时长上限如何分配
+
+原标说话人 1  00:32:49
+When a queue gets access to the channel, then the server of that queue can transmit for a transmission opportunity limit that is different for these high-priority or lower-priority queues. Now, intuitively, what would you say? Who has got the largest, longest transmission opportunity limit? Which queue will get the longest transmission opportunity limit? Give me your intuitive answer.
+当一个队列获得信道接入时，这个队列的服务者就可以在传输机会时长上限所允许的时间内发送，而高优先级和低优先级队列的这个上限是不同的。现在，凭直觉你们会怎么说？谁的传输机会时长上限最大、最长？哪个队列会获得最长的传输机会时长上限？告诉我你们的直觉答案。
+
+## 40 · 00:33:39 · 最高优先级队列应有最长TXOP的直觉
+
+原标说话人 1  00:33:39
+Which one? Zero. Correct, meaning that intuitively it's correct, and this is also the answer that I would give if someone asked me, right? Because intuitively, that's high priority, I give all that I can to that queue [wording uncertain], right?
+哪一个？零号。正确，我的意思是，从直觉上看是正确的。如果有人这样问我，我也会给出这个答案，对吧？因为直觉上，它的优先级高，我能给这个队列多少，就给它多少［此处措辞不确定］，对吧？
+
+## 41 · 00:33:59 · TXOP上限还必须考虑流量类型
+
+原标说话人 1  00:33:59
+It is correct from the point of view of intuition, but we need to consider here, so that was actually a bit tricky, sorry. That's my game. We need to consider the type of traffic that each queue has to handle, okay? So let's think more, let's think twice about it. What did we say? Queue zero is for voice.
+从直觉的角度看，这个答案是对的，但在这里我们需要考虑一些事情。所以，刚才其实是个有点绕的问题，不好意思，这是我玩的一个小把戏。我们需要考虑每个队列处理的流量类型，好吗？再多想一点，再想一遍。我们说过什么？零号队列用于语音。
+
+## 42 · 00:34:30 · 语音短分组与视频数据流的不同TXOP需求
+
+原标说话人 1  00:34:30
+Now, I know it's not easy, because you may not know that, but voice packets are short, okay? So voice is coded in a way, I mean, it's not high-data-rate traffic, okay? Voice can be compressed very efficiently, so that the voice that we emit as information can be recorded digitally, converted, compressed. Essentially, we generate, as audio packets corresponding to voice, we generate packets that are very short. So when they are generated, then they need to be transmitted as soon as possible, as we said. But the packets themselves are short. So this means that this queue does not actually need a large transmission opportunity limit, because you will have only one packet at a time. That packet needs to be transmitted as fast as possible, as soon as possible. But you don't need to fit many packets into a transmission opportunity. So the transmission opportunity limit of actually this queue is actually short, okay? Instead, for video, for data files of different types, the ones that you download through the browser, or other data files when you synchronize, for example, your devices on the repositories that you've got, whatever, well, in that case, the transmission opportunity limit, of course, should be large, okay? Because clearly you typically have a lot of traffic to transmit. So video packets, their size actually may vary. They are, of course, not that small. Data-file packets are also typically large, so in that case, of course, you need your transmission opportunity limit not to be too short.
+我知道这不容易，因为你们可能还不知道这一点：语音分组很短，好吗？语音的编码方式使它不是一种高数据率的流量。语音可以非常高效地压缩，所以，我们发出的语音信息可以被数字化记录、转换、压缩。实际上，对于语音所对应的音频分组，我们产生的是很短的分组。正如前面说过的，这些分组一旦产生，就需要尽快发送。但是，分组本身很短。这意味着这个队列实际上不需要很大的传输机会时长上限，因为每次只会有一个分组。这个分组需要以尽可能快的速度、尽可能早地发送出去。但你不需要在一个传输机会里塞入很多分组。所以，这个队列的传输机会时长上限实际上很短，好吗？相反，对于视频、各种类型的数据文件，比如你通过浏览器下载的文件，或者其他数据文件，例如同步设备与已有存储库时涉及的文件等等，在这些情况下，传输机会时长上限当然应该较大。因为通常会有很多流量要传输。视频分组的大小实际上可能变化，但它们当然不会那么小。数据文件的分组通常也比较大。因此，在这些情况下，你当然需要让传输机会时长上限不要太短。
+
+# 七、EDCA规则总结与协议开销
+
+## 43 · 00:36:56 · EDCA原理小结与VO、VI、BE、后台类别
+
+原标说话人 1  00:36:56
+Okay, so this is actually, from the point of view of main principles, main rules, what we need to know, okay, about this enhanced distributed function. So as I told you, much, much easier and much faster, because it builds on what we already know. There are just a few things to mention. They are, of course, reported, reported here, by the way. So going just through the slides here, you have essentially the main principles of this enhanced distributed channel-access scheme. Here you have the access categories, right? These are the four queues, and as you see now, they are actually referred to by the type of traffic that they host. So VO stands for voice, VI stands for video, BE stands for best effort, and background.
+好，所以，从主要原理、主要规则的角度看，这实际上就是我们需要了解的，好，关于这个增强型分布式功能的内容。所以，正如我告诉你们的，容易得多、容易得多，而且快得多，因为它建立在我们已经知道的东西之上。只有几件事要提一下。当然，顺便说一下，它们已经列出、列出在这里了。所以，只要顺着这里的幻灯片看，你们基本上就有了这个增强型分布式信道接入方案的主要原理。这里有接入类别，对吧？这些就是四个队列，而且正如现在看到的，它们实际上按照各自容纳的流量类型来称呼。所以，VO代表语音，VI代表视频，BE代表尽力而为，还有后台。
+
+![图67：The Four Access Categories](../slide-images/slide-067.png)
+
+课件：02-WiFi_1-7.pdf · PDF第34页上半页 · 图67（按PDF顺序）
+
+## 44 · 00:38:13 · AIFS示意与缩短等待时间减少协议开销
+
+原标说话人 1  00:38:13
+Okay, this is just a graphical representation regarding the usage of the arbitration IFS. So from higher priority to lower priorities, here you have represented only access category zero, one, or two, but it's just an example. And by the way, you have also the duration of the parameters in this new version of the standard. So as you may see, for example, the interval, apparently DIFS, in this new version is not fifty microseconds anymore, it's thirty-four microseconds. It's not that you have to remember that, but just as a side comment, as they evolved with Wi-Fi, they tried to make Wi-Fi more efficient. That means to reduce the overhead. And a way to reduce the overhead is to reduce the duration of these waiting times, like DIFS, or the extended IFS, or the slot time. It was twenty microseconds, now it's nine microseconds. So we reduced all these durations in order to make the protocol more efficient and reduce the overhead, as we said. Also, this is a graphical representation of the backoff and the update of the contention window.
+好，这只是关于仲裁 IFS 使用方式的示意图。从较高优先级到较低优先级，这里只画出了接入类别零、一、二，不过这只是一个例子。另外，这里还列出了新版标准中这些参数的持续时间。比如你们可以看到，这个间隔，应该是 DIFS，在这个新版本中不再是五十微秒，而是三十四微秒。不是说你们必须记住这些数字，只是顺便说一下：随着 Wi-Fi 的发展，他们努力让 Wi-Fi 更高效，也就是减少开销。减少开销的一种方法，就是缩短这些等待时间，比如 DIFS、扩展 IFS，或者时隙时间。时隙原来是二十微秒，现在是九微秒。所以，我们缩短了这些时间，目的就是让协议更高效，并减少前面说过的开销。另外，这张图还展示了退避和竞争窗口更新的过程。
+
+![图69：Traffic Differentiation: How Priority Is Enforced（AIFS时间图）](../slide-images/slide-069.png)
+
+课件：02-WiFi_1-7.pdf · PDF第35页上半页 · 图69（按PDF顺序）
+
+## 45 · 00:39:55 · 较小CWmin使高优先级流量统计上更快接入
+
+原标说话人 1  00:39:55
+So as you see, the rules are exactly, essentially, as before. Here the expression is reported in a slightly different way, but it's exactly the same as before. But thanks to the fact that we have the contention window minimum that is now different for each access category, with the higher-priority category getting the smaller contention window minimum, statistically we have that the high-priority traffic will have to wait a shorter time as a backoff time. That is essentially what we said. So it's just a graphical representation of what we said.
+因此，你们可以看到，规则基本上和以前完全一样。这里的表达式写得略有不同，但和以前是一样的。不过，现在每个接入类别的竞争窗口最小值都不同，优先级较高的类别得到更小的竞争窗口最小值，所以从统计上看，高优先级流量需要等待的退避时间更短。这基本上就是我们刚才讲过的内容，所以这只是对前面内容的图示。
+
+![图70：Backoff and CW](../slide-images/slide-070.png)
+
+课件：02-WiFi_1-7.pdf · PDF第35页下半页 · 图70（按PDF顺序）
+
+## 46 · 00:40:41 · EDCA沿用RTS/CTS及其载荷阈值规则
+
+原标说话人 1  00:40:41
+By the way, also in this enhanced version of the distributed scheme, we can use RTS and CTS, okay? And the rule is the same as before. If the payload size is below the RTS threshold, then we do not use RTS/CTS. If the payload of the packet is above the RTS threshold, then we use RTS and CTS. It's exactly the same as before.
+顺便说一下，在这个增强版的分布式机制中，我们同样可以使用 RTS 和 CTS，好吗？规则和以前相同：如果载荷大小低于 RTS 阈值，就不使用 RTS/CTS；如果分组的载荷高于 RTS 阈值，就使用 RTS 和 CTS。和以前完全一样。
+
+# 八、MAC头部的QoS控制与后续安排
+
+## 47 · 00:41:21 · 数据分组MAC头部中的重要变化
+
+原标说话人 1  00:41:21
+One detail that I would like to mention before finishing tonight is also the fact that there is a change that seems to be a detail but is actually important in the MAC header of a packet, okay, of the data packet. When we transmit a data packet, of course we have the physical preamble, the physical header, and the MAC header.
+今晚结束前，我还想提一个细节：有一项变化看起来只是细节，实际上却很重要，它发生在分组的 MAC 头部，也就是数据分组的 MAC 头部。当我们发送数据分组时，当然会有物理层前导、物理层头部，以及 MAC 头部。
+
+## 48 · 00:41:50 · QoS控制子字段标识流量类别与队列状态
+
+原标说话人 1  00:41:50
+In the MAC header, as I mentioned, we have many, some fields: duration, right, duration fields, we already knew that; four possible addresses, and we already explained why we may need up to four. We have the CRC, of course, that's to apply stop-and-wait, and we clearly still have stop-and-wait also here. But we have also this quality-of-service control subfield in the MAC header, and this is new. So why do we have this new field? Well, in particular, in the distributed access scheme, it's used to signal the type of traffic that is in the payload. So if that packet essentially came from access category zero, or access category one, or access category two, or access category three, okay? So the type of traffic carried in the payload is specified in this subfield of the MAC header. Also, this MAC header subfield may carry information about the status of the queue.
+在MAC首部中，正如我提到的，我们有很多、有一些字段：持续时间，对，持续时间字段，我们已经知道这一点；四个可能的地址，而且我们已经解释了，为什么可能需要多达四个。当然，我们有CRC，那是为了应用停止等待，而且这里显然仍然有停止等待。但是，我们还在MAC首部中有这个服务质量控制子字段，而这是新的。那么，为什么我们有这个新字段？嗯，特别是在分布式接入方案中，它用于指示有效载荷中的流量类型。所以，也就是那个包基本上是来自接入类别零，或者接入类别一，或者接入类别二，或者接入类别三，好吗？所以，有效载荷所携带的流量类型，在MAC首部的这个子字段中加以指明。另外，这个MAC首部子字段还可以携带关于队列状态的信息。
+
+![图71：MAC Header with QoS Control Field](../slide-images/slide-071.png)
+
+课件：02-WiFi_1-7.pdf · PDF第36页上半页 · 图71（按PDF顺序）
+
+## 49 · 00:43:27 · 通过QoS子字段报告队列剩余分组数
+
+原标说话人 1  00:43:27
+That is, if it's carrying traffic related to access category, for example, zero, here the sender can also include some information about how many more packets are waiting in the queue, access category zero.
+也就是说，比如它承载的是接入类别零的流量，那么发送方还可以在这里加入信息，说明接入类别零的队列中还有多少分组在等待。
+
+## 50 · 00:43:51 · 向接入点报告队列状态的后续用途
+
+原标说话人 1  00:43:51
+Okay, so you can provide information. For example, if this is transmitted by a user node, you can provide information to the access point about the state of its queue. And this probably doesn't sound really important now, but we'll see tomorrow that instead it is something important, useful. Okay, good.
+好，所以你可以提供信息。例如，如果这个分组是由某个用户节点发送的，它就可以向接入点报告自己队列的状态。现在这听起来可能还不太重要，但明天我们会看到，它实际上是很重要、很有用的。好，很好。
+
+## 51 · 00:44:25 · 下课安排与次日确认机制内容预告
+
+原标说话人 1  00:44:25
+So, oops, okay. So we are done for tonight, and we're going to finish up with the acknowledgments and a few more remarks about this enhanced version tomorrow, okay? If you have questions, of course feel free to ask now or tomorrow, whatever you like, whenever you want. I guess for tonight you are good. If you have questions, please feel free to ask also at the beginning of the class tomorrow morning.
+那么，哦，好。今晚就到这里，明天我们会把确认机制讲完，再补充几点关于这个增强版本的说明，好吗？如果有问题，当然可以现在问，也可以明天问，随你们喜欢，什么时候都可以。我想今晚你们应该没问题了。如果有问题，也请随时在明天早晨上课开始时提出来。
+

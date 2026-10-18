@@ -1,0 +1,706 @@
+{
+  "lesson": "20261012-1620",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/BEhKd4SRwo8qxexUkBjcSpTMnfE",
+  "audited_at_utc": "2026-10-18T15:32:15.648230+00:00",
+  "remote_mutations": true,
+  "audit_snapshot": "blocks-final.json",
+  "audit_snapshot_sha256": "fa340bc334a82d157050adf9e6bd67062ea154e27a27dddfec4efcce16153cd4",
+  "paragraph_count": 51,
+  "original_image_count": 13,
+  "visually_verified_image_count": 13,
+  "aligned_images": 13,
+  "images_needing_move": [],
+  "confirmed_missing_pdf_slides": [
+    {
+      "figure_number": 60,
+      "title": "Why PCF Never Really Happened",
+      "pdf_page": 30,
+      "pdf_half": "lower",
+      "paragraph_spans": [
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "resolved_and_verified",
+      "evidence": "第2段01:12正式续讲PCF第三问题，明确说被轮询用户持续多久取决于payload和速率；第3段以A/C占用多久提问；第4–5段解释无法预知时长便无法控制delay。这正对应图60的Unknown transmission duration/variable frame sizes make scheduling difficult，而本课13图不含60。第6段之后才是61的DCF/PCF比较。",
+      "placement": "第2段原H2后、原文前",
+      "prepared_image_source": "/workspace/shared/course-1012-1530/slide-images/slide-060.png",
+      "provenance": "该PNG是上一课授权Feishu原图，已逐张对照固定PDF第30页下半页确认；可复用忠实原图，或从固定PDF重新栅格化。",
+      "not_based_on_page_gap": "判断来自第2–5段连续机制讲解，不是因为61之前缺60。",
+      "new_image_block_id": "doxcnmf3Se0kTYE1lRPBJAzZERd",
+      "image_sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7",
+      "remote_download_sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7",
+      "write_receipt": "audit-readonly/insert-slide060-receipt.json"
+    }
+  ],
+  "unresolved_source_gaps": [
+    {
+      "id": "pcf-a-c-polling-continuation",
+      "title": "A/C各发送多久的PCF课堂轮询时间线",
+      "paragraph_spans": [
+        [
+          2,
+          4
+        ]
+      ],
+      "status": "unresolved_classroom_visual_source_not_found",
+      "evidence": "第3段具体询问A与C各占信道多久，承接上一课现场画的A/C/D轮询图；固定PDF的图58仅宏观CFP/CP，图60为文字总结，没有该详细时序。",
+      "action": "补图60可覆盖机制总结，但不能声称恢复现场原图；沿用上一课的源图待确认说明。"
+    }
+  ],
+  "all_lecture_visuals_recovered": false,
+  "audio_fidelity_verified": false,
+  "navigation_complete": true,
+  "slides_audit_complete": true,
+  "source_pdf": {
+    "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+    "local_path": "/workspace/shared/02-WiFi_1-7.pdf",
+    "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+    "pages": 74,
+    "provenance": "已存在固定PDF，与前序审计清单SHA256一致"
+  },
+  "images": [
+    {
+      "figure_number": 60,
+      "title": "Why PCF Never Really Happened",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-060.png",
+      "sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7",
+      "block_id": "doxcnmf3Se0kTYE1lRPBJAzZERd",
+      "pdf_page": 30,
+      "pdf_half": "lower",
+      "status": "added_and_remote_verified",
+      "after_paragraph": 1,
+      "before_paragraph": 2,
+      "after_heading_block_id": "doxcnuv4TOvBHQQ9K14px8wt6kd",
+      "semantic_paragraph_spans": [
+        [
+          2,
+          5
+        ]
+      ],
+      "identity_verified": "从固定PDF第30页下半页原样4倍栅格化，视觉检查后上传；远端下载PNG字节哈希完全一致。",
+      "alignment_reason_zh": "第2段01:12正式续讲PCF第三问题，明确说被轮询用户持续多久取决于payload和速率；第3段以A/C占用多久提问；第4–5段解释无法预知时长便无法控制delay。这正对应图60的Unknown transmission duration/variable frame sizes make scheduling difficult，而本课13图不含60。第6段之后才是61的DCF/PCF比较。",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第30页下半页 · 图60（按PDF顺序）"
+    },
+    {
+      "image_ordinal": 1,
+      "block_id": "doxcneuEvb3naEgRCNq7JKBREVL",
+      "figure_number": 61,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第31页上半页 · 图61（按PDF顺序）",
+      "token": "W22EbJ1q3o4mXnxRZZKcfgymn0g",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-061.png",
+      "after_paragraph": 6,
+      "before_paragraph": 7,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-061.png\",\n    \"size_bytes\": 90443\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "a302a8026ce226ec7566a8876d8c440390d1a623208eacc26eab4b54533c38a9",
+      "title": "DCF vs. PCF: the Bottom Line",
+      "semantic_paragraph_spans": [
+        [
+          2,
+          8
+        ]
+      ],
+      "alignment_reason_zh": "第6段明确说This is a slide that highlights the differences between DCF and PCF，图61正是DCF/PCF两栏比较；第2–5段收束PCF问题，7–8段转入改进版，位置准确。",
+      "pdf_page": 31,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 6,
+        "timestamp": "00:05:30",
+        "block_id": "doxcn7KVBINYTEF9HFZobH9aAGc",
+        "heading": "06 · 00:05:30 · 初始DCF与PCF机制的差异小结"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 7,
+        "timestamp": "00:05:56",
+        "block_id": "doxcnlaC0kLIEskCV68GkOs7ZQh",
+        "heading": "07 · 00:05:56 · 记住PCF机制及问题以理解后续改进"
+      }
+    },
+    {
+      "image_ordinal": 2,
+      "block_id": "doxcnFjE7Hp8akgjVx8AuqDcGug",
+      "figure_number": 62,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第31页下半页 · 图62（按PDF顺序）",
+      "token": "UoMQbyGBao1prexeTT4ccHfinyb",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-062.png",
+      "after_paragraph": 9,
+      "before_paragraph": 10,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-062.png\",\n    \"size_bytes\": 66967\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "73ef0cb5147dfacac39f9558ff10a85011441166c3d5d0966244331f6e3a8cd8",
+      "title": "Wi-Fi 4 (802.11e) — Quality of Service",
+      "semantic_paragraph_spans": [
+        [
+          9,
+          12
+        ]
+      ],
+      "alignment_reason_zh": "第9段明确进入new chapter；第10–12段引入QoS、HCF、EDCA/HCCA。章节页在第9段后准确。",
+      "pdf_page": 31,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 9,
+        "timestamp": "00:07:04",
+        "block_id": "doxcnTZEM6K3awpftEGV1sc2Xth",
+        "heading": "09 · 00:07:04 · 新章节的学习范围与重要性"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 10,
+        "timestamp": "00:07:52",
+        "block_id": "doxcnslnQ4o6jL7QkAHQzw4oNOf",
+        "heading": "10 · 00:07:52 · 应用需求推动Wi-Fi支持服务质量"
+      }
+    },
+    {
+      "image_ordinal": 3,
+      "block_id": "doxcn0ZK29zGiIEYYeuiQALzJEg",
+      "figure_number": 63,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第32页上半页 · 图63（按PDF顺序）",
+      "token": "EaRKbnihBo1QAIxdrv6cnIkMnIc",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-063.png",
+      "after_paragraph": 10,
+      "before_paragraph": 11,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-063.png\",\n    \"size_bytes\": 84929\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "10bd0992a2a726c47c05473e579c07cc1c0f4a6fedcacb8ada405651dbf72416",
+      "title": "Why Wi-Fi 4? Two Amendments, One Brand",
+      "semantic_paragraph_spans": [
+        [
+          10,
+          11
+        ]
+      ],
+      "alignment_reason_zh": "第10段指first slide并讲应用从文件传输转向低时延、高吞吐；第11段具体说voice/video/video calls，正对应图63应用需求部分。正文沿用原文，不额外校订其Wi-Fi名称表述。",
+      "pdf_page": 32,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 10,
+        "timestamp": "00:07:52",
+        "block_id": "doxcnslnQ4o6jL7QkAHQzw4oNOf",
+        "heading": "10 · 00:07:52 · 应用需求推动Wi-Fi支持服务质量"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 11,
+        "timestamp": "00:09:01",
+        "block_id": "doxcnL9K9bt6n6PDf3A8s21HDPc",
+        "heading": "11 · 00:09:01 · 语音视频对可靠传输与低时延的要求"
+      }
+    },
+    {
+      "image_ordinal": 4,
+      "block_id": "doxcnhHyn4jUEV3GjOqLxnju1jh",
+      "figure_number": 64,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第32页下半页 · 图64（按PDF顺序）",
+      "token": "PrZ4bK6yvoOUawxXBxhcSULxn0e",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-064.png",
+      "after_paragraph": 12,
+      "before_paragraph": 13,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-064.png\",\n    \"size_bytes\": 77992\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "a45ca37250ced6b8071fa0cdf8f1c695688fb57a01a107b4fe4e105b501f66f8",
+      "title": "The Hybrid Coordination Function (HCF)",
+      "semantic_paragraph_spans": [
+        [
+          12,
+          12
+        ]
+      ],
+      "alignment_reason_zh": "第12段逐个解释HCF包含分布式EDCA与集中式HCCA，图64定义相同，紧跟12段准确。",
+      "pdf_page": 32,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 12,
+        "timestamp": "00:09:49",
+        "block_id": "doxcnUgFP9mq0umMyNnSU5YwQre",
+        "heading": "12 · 00:09:49 · HCF及其EDCA与HCCA两种接入机制"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 13,
+        "timestamp": "00:11:27",
+        "block_id": "doxcnZHInA5MVlsFOKIzdqP3KDc",
+        "heading": "13 · 00:11:27 · QoS相关名称与混合协调器术语"
+      }
+    },
+    {
+      "image_ordinal": 5,
+      "block_id": "doxcnX3hJDzU1DGjNYpjOqKyGfg",
+      "figure_number": 65,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第33页上半页 · 图65（按PDF顺序）",
+      "token": "OtT7bqQp9oyyxyxOTaWc728Pnxc",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-065.png",
+      "after_paragraph": 16,
+      "before_paragraph": 17,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-065.png\",\n    \"size_bytes\": 88700\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "b97361786ab329d796f7aa8b73c4da32e70de961dde7917ef0d7c75a3f72fe29",
+      "title": "Some Definitions",
+      "semantic_paragraph_spans": [
+        [
+          13,
+          17
+        ]
+      ],
+      "alignment_reason_zh": "第13段解释QBSS/QSTA/HC，14段指last point，15–17段定义TXOP及TXOP limit；图65末项正是TXOP，放16段后完整覆盖这组定义。",
+      "pdf_page": 33,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 16,
+        "timestamp": "00:12:43",
+        "block_id": "doxcnCZHaqYc3yUMeAsQX9Iq0It",
+        "heading": "16 · 00:12:43 · TXOP定义及其时长上限内的多分组传输"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 17,
+        "timestamp": "00:14:15",
+        "block_id": "doxcnkHKNwJ1J9UX8Ia5tuKimae",
+        "heading": "17 · 00:14:15 · 从按分组接入转向基于时间的接入"
+      }
+    },
+    {
+      "image_ordinal": 6,
+      "block_id": "doxcnqXDqC9g5Qidfnmq6L3cxCc",
+      "figure_number": 74,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第37页下半页 · 图74（按PDF顺序）",
+      "token": "YzpwbgHYwowCSaxnMPmce9MAnIc",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-074.png",
+      "after_paragraph": 16,
+      "before_paragraph": 17,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-074.png\",\n    \"size_bytes\": 68312\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "8f1fa6ab6358dac2bd36e7a54e797cf2ccebcb64de48725d4a97e4adee33e553",
+      "title": "EDCA Bursting",
+      "semantic_paragraph_spans": [
+        [
+          16,
+          17
+        ],
+        [
+          38,
+          42
+        ]
+      ],
+      "alignment_reason_zh": "第16–17段明确一次接入可在时间上限内发一个、两个、三个分组；图74前两条正是多帧burst和TXOP_Limit。图中SIFS和Block ACK细节留到下节，51段明确预告acknowledgments明天讲，但不因此移动与当前多包概念直接相关的原图。",
+      "pdf_page": 37,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 16,
+        "timestamp": "00:12:43",
+        "block_id": "doxcnCZHaqYc3yUMeAsQX9Iq0It",
+        "heading": "16 · 00:12:43 · TXOP定义及其时长上限内的多分组传输"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 17,
+        "timestamp": "00:14:15",
+        "block_id": "doxcnkHKNwJ1J9UX8Ia5tuKimae",
+        "heading": "17 · 00:14:15 · 从按分组接入转向基于时间的接入"
+      }
+    },
+    {
+      "image_ordinal": 7,
+      "block_id": "doxcnKs3uoEwfSRGlxBoFkROOle",
+      "figure_number": 66,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第33页下半页 · 图66（按PDF顺序）",
+      "token": "MgCbbOykkoodOBxWvYlcmrhTnRg",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-066.png",
+      "after_paragraph": 20,
+      "before_paragraph": 21,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-066.png\",\n    \"size_bytes\": 85247\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "c9f04f38c3a94006d56c1c1870701b3422b490796770eb074656062537ec1254",
+      "title": "EDCA: Crucial Features",
+      "semantic_paragraph_spans": [
+        [
+          18,
+          23
+        ],
+        [
+          31,
+          42
+        ]
+      ],
+      "alignment_reason_zh": "第18–20段引入增强DCF并从一队列改为四队列/虚拟站点，后续31–42段解释各AC参数不同。图66列四AC及独立CSMA/CA，20段后正确。",
+      "pdf_page": 33,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 20,
+        "timestamp": "00:16:39",
+        "block_id": "doxcnzKP7FI4jwWL9OUwyGtOQVb",
+        "heading": "20 · 00:16:39 · 从单个FIFO队列扩展为四个虚拟站点"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 21,
+        "timestamp": "00:19:07",
+        "block_id": "doxcnmV8TPYAIrzoVAFCCequKTh",
+        "heading": "21 · 00:19:07 · 四个队列分别承载不同类型的流量"
+      }
+    },
+    {
+      "image_ordinal": 8,
+      "block_id": "doxcnKFkz3uMpfAXURqP4OclNed",
+      "figure_number": 73,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第37页上半页 · 图73（按PDF顺序）",
+      "token": "KraRbgvnzoxNoXxf3Qpcej1Enjf",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-073.png",
+      "after_paragraph": 20,
+      "before_paragraph": 21,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-073.png\",\n    \"size_bytes\": 88662\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "de44f3a55a78f421b0e4866ca707911865c02639ac63d586e9c567fae042c283",
+      "title": "Virtual Stations and Internal (Virtual) Collisions（队列结构图）",
+      "semantic_paragraph_spans": [
+        [
+          19,
+          24
+        ],
+        [
+          30,
+          42
+        ]
+      ],
+      "alignment_reason_zh": "图实际左侧为legacy单队列+server、右侧为AC0–3四队列及AIFS/CW/TX，与19–20段画queue/server再扩展四虚拟站点逐项一致。虽然标题含virtual collisions，本课并未展开内碰撞；不因标题或页码把该结构图移走。",
+      "pdf_page": 37,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 20,
+        "timestamp": "00:16:39",
+        "block_id": "doxcnzKP7FI4jwWL9OUwyGtOQVb",
+        "heading": "20 · 00:16:39 · 从单个FIFO队列扩展为四个虚拟站点"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 21,
+        "timestamp": "00:19:07",
+        "block_id": "doxcnmV8TPYAIrzoVAFCCequKTh",
+        "heading": "21 · 00:19:07 · 四个队列分别承载不同类型的流量"
+      }
+    },
+    {
+      "image_ordinal": 9,
+      "block_id": "doxcnc0Cmt8pBliDO0o5AfRlEKf",
+      "figure_number": 68,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第34页下半页 · 图68（按PDF顺序）",
+      "token": "FMvAbf4fYoKH5WxtB3RcQhMan5f",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-068.png",
+      "after_paragraph": 34,
+      "before_paragraph": 35,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-068.png\",\n    \"size_bytes\": 97578\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "3f64d7b009b41e791968441082fcaa9b18f9c585ff96c9e8ebee8b661bf3aa23",
+      "title": "Traffic Differentiation: How Priority Is Enforced",
+      "semantic_paragraph_spans": [
+        [
+          32,
+          42
+        ],
+        [
+          47,
+          50
+        ]
+      ],
+      "alignment_reason_zh": "第32–34段从相同规则转向参数差异，34段定义AIFS并开始CWmin，后续35–42段讲CW和TXOP limit；图68三参数概览放34段后合适。QoS字段由47–50段补充。",
+      "pdf_page": 34,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 34,
+        "timestamp": "00:27:45",
+        "block_id": "doxcnrIzFJcHeMAcxDd4u4ko6lc",
+        "heading": "34 · 00:27:45 · 仲裁帧间间隔AIFS与优先级差异"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 35,
+        "timestamp": "00:28:43",
+        "block_id": "doxcndjJ1OxUQpqG0FQKz4dmRod",
+        "heading": "35 · 00:28:43 · 高优先级流量应减少退避等待"
+      }
+    },
+    {
+      "image_ordinal": 10,
+      "block_id": "doxcngqb6H1B4LdeaISFmv3P3cb",
+      "figure_number": 67,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第34页上半页 · 图67（按PDF顺序）",
+      "token": "FCJybz4dHoDJtXxH76zcXziKnMe",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-067.png",
+      "after_paragraph": 43,
+      "before_paragraph": 44,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-067.png\",\n    \"size_bytes\": 79068\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "80d06bb1410c1fb4ff87b6d00af61fc49fa3f2f1e17aa689b235ecc93182567d",
+      "title": "The Four Access Categories",
+      "semantic_paragraph_spans": [
+        [
+          21,
+          30
+        ],
+        [
+          43,
+          43
+        ]
+      ],
+      "alignment_reason_zh": "第43段明确说Here you have the access categories并按图读VO、VI、BE、background；图67四行表正对应，因此保持43段后而非按67<68提前。",
+      "pdf_page": 34,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 43,
+        "timestamp": "00:36:56",
+        "block_id": "doxcnN1M6qU2cMda1EtD7k922ec",
+        "heading": "43 · 00:36:56 · EDCA原理小结与VO、VI、BE、后台类别"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 44,
+        "timestamp": "00:38:13",
+        "block_id": "doxcnT9lYSqeB5ZYuUjEZAeLKTf",
+        "heading": "44 · 00:38:13 · AIFS示意与缩短等待时间减少协议开销"
+      }
+    },
+    {
+      "image_ordinal": 11,
+      "block_id": "doxcnQaE1LCqxxxKSytSwgM27vf",
+      "figure_number": 69,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第35页上半页 · 图69（按PDF顺序）",
+      "token": "UGlUbvKyDoTZm6xT1c7cdvpUnUb",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-069.png",
+      "after_paragraph": 44,
+      "before_paragraph": 45,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-069.png\",\n    \"size_bytes\": 90312\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "4b0a86ff3ff1e494d58c8467f2fd53cd8cc575fdd2f5b71aa76b0a1166210283",
+      "title": "Traffic Differentiation: How Priority Is Enforced（AIFS时间图）",
+      "semantic_paragraph_spans": [
+        [
+          33,
+          34
+        ],
+        [
+          44,
+          44
+        ]
+      ],
+      "alignment_reason_zh": "第44段明确说graphical representation regarding arbitration IFS，只画AC0/1/2；还读取DIFS 34µs、slot 9µs。图69恰有三个AIFS和底部数值，位置精准。",
+      "pdf_page": 35,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 44,
+        "timestamp": "00:38:13",
+        "block_id": "doxcnT9lYSqeB5ZYuUjEZAeLKTf",
+        "heading": "44 · 00:38:13 · AIFS示意与缩短等待时间减少协议开销"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 45,
+        "timestamp": "00:39:55",
+        "block_id": "doxcnh6AMKUYbQGka4PSNX3JBFy",
+        "heading": "45 · 00:39:55 · 较小CWmin使高优先级流量统计上更快接入"
+      }
+    },
+    {
+      "image_ordinal": 12,
+      "block_id": "doxcnnhDHiNh6GtKnHUGwI8jFfh",
+      "figure_number": 70,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第35页下半页 · 图70（按PDF顺序）",
+      "token": "CZUYbO7zsoQyEGxYcaEcojrZnNb",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-070.png",
+      "after_paragraph": 45,
+      "before_paragraph": 46,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-070.png\",\n    \"size_bytes\": 120137\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "60cecbb449f59e0e7fc553487e4d937385567d312fd7d77bc714a7b39b2cf0d8",
+      "title": "Backoff and CW",
+      "semantic_paragraph_spans": [
+        [
+          35,
+          37
+        ],
+        [
+          44,
+          46
+        ]
+      ],
+      "alignment_reason_zh": "44段末转到backoff/CW图，45段解释CW更新式及较小CWmin统计上更快，46段补RTS/CTS；图70有更新公式和RTS/CTS时间线，45段后正确。",
+      "pdf_page": 35,
+      "pdf_half": "lower",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 45,
+        "timestamp": "00:39:55",
+        "block_id": "doxcnh6AMKUYbQGka4PSNX3JBFy",
+        "heading": "45 · 00:39:55 · 较小CWmin使高优先级流量统计上更快接入"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 46,
+        "timestamp": "00:40:41",
+        "block_id": "doxcnNaiIpIIJb1jwZLWmafWvVe",
+        "heading": "46 · 00:40:41 · EDCA沿用RTS/CTS及其载荷阈值规则"
+      }
+    },
+    {
+      "image_ordinal": 13,
+      "block_id": "doxcnt01ZEobX5XQm9VbbpZNiTf",
+      "figure_number": 71,
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第36页上半页 · 图71（按PDF顺序）",
+      "token": "FiK2bnIAAovw4Oxa5B4c8NEonzb",
+      "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-071.png",
+      "after_paragraph": 48,
+      "before_paragraph": 49,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1012-1620/slide-images/slide-071.png\",\n    \"size_bytes\": 75757\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "4d9bff2791463b5524ab39ee22db8ab6803826370b4dbe0bd56ed6f9446795b7",
+      "title": "MAC Header with QoS Control Field",
+      "semantic_paragraph_spans": [
+        [
+          47,
+          50
+        ]
+      ],
+      "alignment_reason_zh": "47段开始MAC header，48段逐项点Duration、四地址、CRC和新增QoS Control字段，49–50段讲队列信息；图71框架及高亮QoS字段直接对应48段。",
+      "pdf_page": 36,
+      "pdf_half": "upper",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 48,
+        "timestamp": "00:41:50",
+        "block_id": "doxcnyGROFHnZLfaso91MYUoqxg",
+        "heading": "48 · 00:41:50 · QoS控制子字段标识流量类别与队列状态"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 49,
+        "timestamp": "00:43:27",
+        "block_id": "doxcneFtkJYfQbbIh3un0bCEcne",
+        "heading": "49 · 00:43:27 · 通过QoS子字段报告队列剩余分组数"
+      }
+    }
+  ],
+  "not_missing": [
+    {
+      "figure_number": 72,
+      "reason": "本课只解释四虚拟队列和参数差异，没有说明同一站内部两个计数器同时归零、高优先级胜出、低优先级翻倍CW，故不能仅凭队列关键词补内碰撞文字页。"
+    },
+    {
+      "figure_numbers": [
+        75,
+        76,
+        77
+      ],
+      "reason": "第51段明确把acknowledgments留到明天，本课未讲Block ACK请求/bitmap/延迟确认；不能因74已有便续插75–77。"
+    }
+  ],
+  "scope": "完整阅读51段双语稿的讲解语义；下载并逐张查看13张原图，与固定PDF对应页比较；不改远端正文/导航/图片/录音/原始文字记录/智能纪要。",
+  "cautions": [
+    "只做语义对图，不修改原文中Wi-Fi 4/802.11e、HCCA实现范围等既有表述。",
+    "未用原音认证转写；未打包私人音频。",
+    "图号为固定PDF讲义顺序，不是文档顺序或小页脚章节编号；不按图号机械重排。",
+    "仅补图60并更新文首图数；原始minutes/transcript、正文、全部原图、导航和音频均不变；未发布备份。"
+  ],
+  "unresolved_source_gap_count": 1,
+  "manifest_update_recommendation": {
+    "slides_audit_pending": false,
+    "slides_audit_complete": true,
+    "slides_aligned_count": 13,
+    "slides_missing_confirmed_count": 0,
+    "slides_misaligned_count": 0,
+    "unresolved_visual_source_gaps": 1,
+    "audio_fidelity_verified": false,
+    "slides_missing_resolved_count": 1,
+    "image_count": 14,
+    "original_images_count": 13
+  },
+  "added_image_count": 1,
+  "final_image_count": 14,
+  "final_remote_verification": {
+    "all_original_nonroot_blocks_except_status_unchanged": true,
+    "original_image_count": 13,
+    "original_images_unchanged": true,
+    "original_order_unchanged": true,
+    "all_51_bilingual_paragraph_blocks_unchanged": true,
+    "original_recording_and_resource_blocks_unchanged": true,
+    "heading2_count": 51,
+    "heading1_count": 8,
+    "final_image_count": 14,
+    "new_image_block_id": "doxcnmf3Se0kTYE1lRPBJAzZERd",
+    "exact_placement_verified": true,
+    "remote_download_sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7",
+    "prepared_image_sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7",
+    "remote_image_bytes_identical": true,
+    "before_snapshot_sha256": "fa340bc334a82d157050adf9e6bd67062ea154e27a27dddfec4efcce16153cd4",
+    "after_snapshot_sha256": "62d90c84996aa0a028295cd978fff1c02776e9dbbd882eb2656c6868d4cf1adf",
+    "status_block_id": "doxcnNzVutUuuZengd04qxP3Khg",
+    "status_text": "会议主题：录音机-20261012-1620\n课程：移动与传感器网络 / Mobile Sensor Networks\n上传时间：2026年10月14日（周三） 09:55 （GMT+08）\n音频时长：约 00:45:47\n整理日期：2026年10月18日\n版本：完整忠实双语稿 · 913cf98f5b3c\n状态：双语正文已完成（51 对）；课件图共14张（保留原13张，补充1张）；51个分段标题与8个主题标题已核验"
+  },
+  "missing_slide_remediation_complete": true,
+  "all_confirmed_pdf_slides_present": true
+}

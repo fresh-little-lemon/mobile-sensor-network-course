@@ -1,0 +1,35 @@
+{
+  "figure_number": 60,
+  "title": "Why PCF Never Really Happened",
+  "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=30",
+  "source_pdf_sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+  "pdf_page": 30,
+  "pdf_half": "lower",
+  "render": {
+    "library": "PyMuPDF",
+    "version": "1.26.6",
+    "clip_points": [
+      99,
+      487,
+      495,
+      710
+    ],
+    "matrix": [
+      4,
+      4
+    ],
+    "alpha": false
+  },
+  "image_path": "/workspace/shared/course-1012-1620/slide-images/slide-060.png",
+  "sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7",
+  "width": 1584,
+  "height": 892,
+  "caption": "课件：02-WiFi_1-7.pdf · PDF第30页下半页 · 图60（按PDF顺序）",
+  "after_heading_block_id": "doxcnuv4TOvBHQQ9K14px8wt6kd",
+  "before_paragraph_block_id": "doxcnlUgt8Rdk8ugKb7iU3lGVsc",
+  "paragraph_ordinal": 2,
+  "paragraph_timestamp": "00:01:12",
+  "status": "inserted_and_fully_verified",
+  "new_image_block_id": "doxcnmf3Se0kTYE1lRPBJAzZERd",
+  "remote_download_sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7"
+}
