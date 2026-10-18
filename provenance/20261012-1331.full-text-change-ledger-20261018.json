@@ -1,0 +1,7862 @@
+{
+  "method": "source-map aligned word tokens; not ASR error classification",
+  "sources": 98,
+  "paragraphs": 78,
+  "changed_paragraphs": 78,
+  "operations": {
+    "replace": 843,
+    "delete": 332,
+    "insert": 110
+  },
+  "rows": [
+    {
+      "paragraph": 1,
+      "anchor": "00:00:03",
+      "source_indices_one_based": [
+        1
+      ],
+      "source_block_ids": [
+        "5"
+      ],
+      "revised_line": 11,
+      "raw_chunk_indices": [
+        0
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "a"
+        },
+        {
+          "op": "replace",
+          "old": "this node",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "Packet",
+          "new": "a packet"
+        },
+        {
+          "op": "replace",
+          "old": "fade then",
+          "new": "failed"
+        },
+        {
+          "op": "replace",
+          "old": "back off",
+          "new": "backoff"
+        }
+      ]
+    },
+    {
+      "paragraph": 2,
+      "anchor": "00:00:29",
+      "source_indices_one_based": [
+        2
+      ],
+      "source_block_ids": [
+        "7"
+      ],
+      "revised_line": 13,
+      "raw_chunk_indices": [
+        0,
+        1
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "And we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "back off",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "Ok Now we said that first",
+          "new": "First"
+        },
+        {
+          "op": "replace",
+          "old": "towait",
+          "new": "to wait"
+        },
+        {
+          "op": "replace",
+          "old": "dips then",
+          "new": "DIFS Then"
+        },
+        {
+          "op": "replace",
+          "old": "with equal probability Selecting",
+          "new": "selecting"
+        },
+        {
+          "op": "replace",
+          "old": "And this",
+          "new": "This"
+        },
+        {
+          "op": "delete",
+          "old": "of values",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "OK",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "We",
+          "new": "we"
+        },
+        {
+          "op": "delete",
+          "old": "contention window",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And then if",
+          "new": "If"
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "procedure",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "in order",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Because",
+          "new": "because"
+        },
+        {
+          "op": "delete",
+          "old": "will",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "value of",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And we",
+          "new": "We"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "that"
+        },
+        {
+          "op": "replace",
+          "old": "of contention window Now to",
+          "new": "doubles every time To"
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "parameter",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So",
+          "new": "The"
+        },
+        {
+          "op": "replace",
+          "old": "Value",
+          "new": "value"
+        },
+        {
+          "op": "delete",
+          "old": "actually",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "minus one where this exponent is called the backoff exponent"
+        }
+      ]
+    },
+    {
+      "paragraph": 3,
+      "anchor": "00:02:48",
+      "source_indices_one_based": [
+        3,
+        4,
+        5
+      ],
+      "source_block_ids": [
+        "9",
+        "11",
+        "13"
+      ],
+      "revised_line": 15,
+      "raw_chunk_indices": [
+        1,
+        2
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK so for",
+          "new": "For"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "backup",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "so the first time We set the backup",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "The break off exponent",
+          "new": "its"
+        },
+        {
+          "op": "replace",
+          "old": "OK Now by",
+          "new": "By"
+        },
+        {
+          "op": "replace",
+          "old": "WiFi",
+          "new": "Wi Fi"
+        },
+        {
+          "op": "replace",
+          "old": "2 5 OK this is an",
+          "new": "to five This"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "WiFi OK Now so if",
+          "new": "Wi Fi If"
+        },
+        {
+          "op": "delete",
+          "old": "here this example",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "here",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "thatas",
+          "new": "that as"
+        },
+        {
+          "op": "replace",
+          "old": "Exponent",
+          "new": "we use this contention window minimum the value will be two to the power of the minimum exponent"
+        },
+        {
+          "op": "replace",
+          "old": "since",
+          "new": "Since"
+        },
+        {
+          "op": "replace",
+          "old": "5 right This",
+          "new": "five it"
+        },
+        {
+          "op": "replace",
+          "old": "2",
+          "new": "two"
+        },
+        {
+          "op": "replace",
+          "old": "5",
+          "new": "five"
+        },
+        {
+          "op": "replace",
+          "old": "right So that's",
+          "new": "That is"
+        },
+        {
+          "op": "delete",
+          "old": "yes",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "saturday",
+          "new": "Saturday"
+        },
+        {
+          "op": "replace",
+          "old": "introduce",
+          "new": "introduced"
+        },
+        {
+          "op": "replace",
+          "old": "We",
+          "new": "we"
+        },
+        {
+          "op": "delete",
+          "old": "well",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "conventional",
+          "new": "contention"
+        },
+        {
+          "op": "replace",
+          "old": "OK Then the",
+          "new": "The"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the backup procedure",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "pocket",
+          "new": "packet"
+        },
+        {
+          "op": "replace",
+          "old": "toincrease",
+          "new": "to increase"
+        },
+        {
+          "op": "replace",
+          "old": "back off This point So if",
+          "new": "backoff exponent If"
+        },
+        {
+          "op": "replace",
+          "old": "sorry we'll",
+          "new": "we will"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "a"
+        },
+        {
+          "op": "delete",
+          "old": "right That is equal to what is",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 4,
+      "anchor": "00:05:24",
+      "source_indices_one_based": [
+        6
+      ],
+      "source_block_ids": [
+        "15"
+      ],
+      "revised_line": 17,
+      "raw_chunk_indices": [
+        2,
+        3
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK So this",
+          "new": "This"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "have to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "This",
+          "new": "it"
+        },
+        {
+          "op": "delete",
+          "old": "be",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "to 2",
+          "new": "two"
+        },
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "on",
+          "new": "at"
+        },
+        {
+          "op": "replace",
+          "old": "which",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "2",
+          "new": "two"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "power of the"
+        },
+        {
+          "op": "replace",
+          "old": "on",
+          "new": "at"
+        },
+        {
+          "op": "replace",
+          "old": "Minus",
+          "new": "minus"
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 5,
+      "anchor": "00:06:01",
+      "source_indices_one_based": [
+        7
+      ],
+      "source_block_ids": [
+        "17"
+      ],
+      "revised_line": 19,
+      "raw_chunk_indices": [
+        3
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So now",
+          "new": "In our example"
+        },
+        {
+          "op": "delete",
+          "old": "to the power in our example",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "OK So this",
+          "new": "This"
+        },
+        {
+          "op": "delete",
+          "old": "theContention with",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "contention window"
+        },
+        {
+          "op": "replace",
+          "old": "till as we said",
+          "new": "until"
+        },
+        {
+          "op": "replace",
+          "old": "this value CW max",
+          "new": "CW_max"
+        },
+        {
+          "op": "replace",
+          "old": "we reach",
+          "new": "reaching"
+        },
+        {
+          "op": "replace",
+          "old": "notincrease the",
+          "new": "not increase"
+        },
+        {
+          "op": "delete",
+          "old": "value any longer",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "this value",
+          "new": "it"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "still"
+        },
+        {
+          "op": "delete",
+          "old": "still",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the backup procedure",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "time",
+          "new": "packet"
+        }
+      ]
+    },
+    {
+      "paragraph": 6,
+      "anchor": "00:06:57",
+      "source_indices_one_based": [
+        8
+      ],
+      "source_block_ids": [
+        "19"
+      ],
+      "revised_line": 21,
+      "raw_chunk_indices": [
+        3,
+        4
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "So the general",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "I",
+          "new": "i"
+        },
+        {
+          "op": "replace",
+          "old": "I",
+          "new": "i"
+        },
+        {
+          "op": "replace",
+          "old": "becau",
+          "new": "backoff"
+        },
+        {
+          "op": "delete",
+          "old": "at step I",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "becau",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "at"
+        },
+        {
+          "op": "replace",
+          "old": "view",
+          "new": "previous"
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 7,
+      "anchor": "00:07:28",
+      "source_indices_one_based": [
+        9
+      ],
+      "source_block_ids": [
+        "21"
+      ],
+      "revised_line": 23,
+      "raw_chunk_indices": [
+        3,
+        4
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "And at",
+          "new": "At"
+        },
+        {
+          "op": "replace",
+          "old": "will be",
+          "new": "is"
+        },
+        {
+          "op": "replace",
+          "old": "2",
+          "new": "two"
+        },
+        {
+          "op": "replace",
+          "old": "cost",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "I 1 OK this",
+          "new": "i minus one This"
+        },
+        {
+          "op": "replace",
+          "old": "that we use",
+          "new": "used"
+        },
+        {
+          "op": "replace",
+          "old": "the convex point",
+          "new": "backoff exponent"
+        },
+        {
+          "op": "replace",
+          "old": "OK that's sad Therefore we understand that every",
+          "new": "Every"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Performed because",
+          "new": "perform backoff"
+        },
+        {
+          "op": "replace",
+          "old": "as we said OK so we are going to",
+          "new": "We"
+        },
+        {
+          "op": "delete",
+          "old": "values",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Difficult",
+          "new": "the backoff"
+        },
+        {
+          "op": "replace",
+          "old": "OK so before",
+          "new": "Before"
+        },
+        {
+          "op": "delete",
+          "old": "why we do that OK",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "said let's",
+          "new": "says to"
+        },
+        {
+          "op": "replace",
+          "old": "a retransmit",
+          "new": "backoff"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "a packet let me mention something reported in one of"
+        },
+        {
+          "op": "replace",
+          "old": "packet",
+          "new": "earlier slides"
+        }
+      ]
+    },
+    {
+      "paragraph": 8,
+      "anchor": "00:09:04",
+      "source_indices_one_based": [
+        10
+      ],
+      "source_block_ids": [
+        "23"
+      ],
+      "revised_line": 25,
+      "raw_chunk_indices": [
+        4,
+        5
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "But",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "together"
+        },
+        {
+          "op": "replace",
+          "old": "But one",
+          "new": "One"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "important"
+        },
+        {
+          "op": "delete",
+          "old": "that we need",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "Important",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the becau",
+          "new": "backoff"
+        },
+        {
+          "op": "delete",
+          "old": "the becau receiver",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "when we have a packet that has been transmitted and failed"
+        }
+      ]
+    },
+    {
+      "paragraph": 9,
+      "anchor": "00:09:40",
+      "source_indices_one_based": [
+        11
+      ],
+      "source_block_ids": [
+        "25"
+      ],
+      "revised_line": 27,
+      "raw_chunk_indices": [
+        5,
+        6
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "under",
+          "new": "in"
+        },
+        {
+          "op": "replace",
+          "old": "The back off",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "under",
+          "new": "in"
+        },
+        {
+          "op": "replace",
+          "old": "a back off",
+          "new": "exactly the same backoff"
+        },
+        {
+          "op": "replace",
+          "old": "okay Exactly as we explained okay The same procedure that we just explained This procedure indeed",
+          "new": "It also"
+        },
+        {
+          "op": "replace",
+          "old": "Also one and",
+          "new": "when a transmitting"
+        },
+        {
+          "op": "delete",
+          "old": "transmitter",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "got",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "It",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "But the channel is",
+          "new": "and finds it"
+        },
+        {
+          "op": "replace",
+          "old": "right So we",
+          "new": "We"
+        },
+        {
+          "op": "delete",
+          "old": "in this case",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "sensing",
+          "new": "sense"
+        },
+        {
+          "op": "replace",
+          "old": "Right So if we sense the channel we got the",
+          "new": "We get a"
+        },
+        {
+          "op": "replace",
+          "old": "At",
+          "new": "and at"
+        },
+        {
+          "op": "replace",
+          "old": "mark",
+          "new": "MAC"
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "DIFS"
+        },
+        {
+          "op": "replace",
+          "old": "the channel",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "OK So what",
+          "new": "What"
+        },
+        {
+          "op": "delete",
+          "old": "in this case",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "because it is busy We are like polite people we don't want to interrupt someone who is already talking"
+        }
+      ]
+    },
+    {
+      "paragraph": 10,
+      "anchor": "00:11:21",
+      "source_indices_one_based": [
+        12,
+        13
+      ],
+      "source_block_ids": [
+        "27",
+        "29"
+      ],
+      "revised_line": 29,
+      "raw_chunk_indices": [
+        6
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "that's",
+          "new": "That's"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "what exactly"
+        },
+        {
+          "op": "replace",
+          "old": "exactly that we need to wait For",
+          "new": "by waiting and for"
+        },
+        {
+          "op": "replace",
+          "old": "Well in",
+          "new": "In"
+        },
+        {
+          "op": "delete",
+          "old": "what",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "do is to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "backup",
+          "new": "backoff"
+        },
+        {
+          "op": "delete",
+          "old": "So how long do we wait for",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "will",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "backup",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "According",
+          "new": "according"
+        },
+        {
+          "op": "replace",
+          "old": "so this",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "Also",
+          "new": "also"
+        },
+        {
+          "op": "replace",
+          "old": "we have that the node",
+          "new": "a"
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "mark",
+          "new": "MAC"
+        },
+        {
+          "op": "delete",
+          "old": "in order",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "that packet",
+          "new": "it"
+        }
+      ]
+    },
+    {
+      "paragraph": 11,
+      "anchor": "00:12:27",
+      "source_indices_one_based": [
+        14
+      ],
+      "source_block_ids": [
+        "31"
+      ],
+      "revised_line": 31,
+      "raw_chunk_indices": [
+        6,
+        7
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So we know that first of all",
+          "new": "First"
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "DIFS"
+        },
+        {
+          "op": "replace",
+          "old": "sense",
+          "new": "sensed"
+        },
+        {
+          "op": "replace",
+          "old": "then what will do isapply the",
+          "new": "we apply"
+        },
+        {
+          "op": "replace",
+          "old": "That is first of all",
+          "new": "First"
+        },
+        {
+          "op": "delete",
+          "old": "need to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the channel",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "the channel",
+          "new": "it as"
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "DIFS"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "we"
+        },
+        {
+          "op": "replace",
+          "old": "out Of",
+          "new": "from"
+        },
+        {
+          "op": "replace",
+          "old": "0 CW mean sent",
+          "new": "zero to CW_min set the backoff time to"
+        },
+        {
+          "op": "delete",
+          "old": "as backoff time",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "then",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "at a certain point",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "still",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "backoff",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "We",
+          "new": "we"
+        },
+        {
+          "op": "replace",
+          "old": "the counter right And",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "And then when",
+          "new": "When"
+        },
+        {
+          "op": "delete",
+          "old": "will",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the channel For leaves if it's",
+          "new": "it for DIFS If it stays"
+        },
+        {
+          "op": "delete",
+          "old": "of course",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "will",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "our backoff counter Till we do that till",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "until it"
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the counter",
+          "new": "it"
+        },
+        {
+          "op": "delete",
+          "old": "then",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "And then of course it depends",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "that's fine we're",
+          "new": "in which case we are"
+        },
+        {
+          "op": "delete",
+          "old": "in that case",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "have to",
+          "new": "must"
+        },
+        {
+          "op": "delete",
+          "old": "by",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the backup receiver Right OK so now",
+          "new": "backoff Now"
+        },
+        {
+          "op": "delete",
+          "old": "that actually there are",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "one or two",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "will",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the back off",
+          "new": "backoff"
+        }
+      ]
+    },
+    {
+      "paragraph": 12,
+      "anchor": "00:14:39",
+      "source_indices_one_based": [
+        15
+      ],
+      "source_block_ids": [
+        "33"
+      ],
+      "revised_line": 33,
+      "raw_chunk_indices": [
+        7,
+        8
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "OK",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "For",
+          "new": "for"
+        },
+        {
+          "op": "replace",
+          "old": "OK before",
+          "new": "Before"
+        },
+        {
+          "op": "replace",
+          "old": "the third condition",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "when",
+          "new": "where"
+        },
+        {
+          "op": "replace",
+          "old": "the because And what",
+          "new": "backoff With this example"
+        },
+        {
+          "op": "delete",
+          "old": "to do with this example Is",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "are using the",
+          "new": "use"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "it"
+        },
+        {
+          "op": "delete",
+          "old": "the backoff",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "OK",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 13,
+      "anchor": "00:15:26",
+      "source_indices_one_based": [
+        16
+      ],
+      "source_block_ids": [
+        "35"
+      ],
+      "revised_line": 35,
+      "raw_chunk_indices": [
+        8,
+        9
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK because the",
+          "new": "The"
+        },
+        {
+          "op": "delete",
+          "old": "OK",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "to",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "to"
+        },
+        {
+          "op": "delete",
+          "old": "actually",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Right By",
+          "new": "by"
+        },
+        {
+          "op": "replace",
+          "old": "so it's",
+          "new": "It's"
+        },
+        {
+          "op": "replace",
+          "old": "But it's",
+          "new": "but it is"
+        },
+        {
+          "op": "replace",
+          "old": "rational okay",
+          "new": "rationale"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "do"
+        },
+        {
+          "op": "replace",
+          "old": "fact thatthis",
+          "new": "thing this"
+        },
+        {
+          "op": "replace",
+          "old": "OK To strengthen",
+          "new": "strengthening"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "a"
+        },
+        {
+          "op": "replace",
+          "old": "in",
+          "new": "when"
+        },
+        {
+          "op": "replace",
+          "old": "OK because there",
+          "new": "There"
+        },
+        {
+          "op": "delete",
+          "old": "what",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "do is",
+          "new": "learn how"
+        },
+        {
+          "op": "replace",
+          "old": "look",
+          "new": "reason about things and understand the solutions that have been created"
+        }
+      ]
+    },
+    {
+      "paragraph": 14,
+      "anchor": "00:16:47",
+      "source_indices_one_based": [
+        17
+      ],
+      "source_block_ids": [
+        "37"
+      ],
+      "revised_line": 37,
+      "raw_chunk_indices": [
+        9
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK that's",
+          "new": "That's"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So this is understanding",
+          "new": "Understanding"
+        },
+        {
+          "op": "delete",
+          "old": "OK",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "OK good So let's",
+          "new": "Good Let's"
+        },
+        {
+          "op": "delete",
+          "old": "we have",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 15,
+      "anchor": "00:17:18",
+      "source_indices_one_based": [
+        18
+      ],
+      "source_block_ids": [
+        "39"
+      ],
+      "revised_line": 39,
+      "raw_chunk_indices": [
+        9
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "OK",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "are"
+        },
+        {
+          "op": "replace",
+          "old": "we",
+          "new": "they"
+        },
+        {
+          "op": "delete",
+          "old": "of course",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "these",
+          "new": "this"
+        },
+        {
+          "op": "replace",
+          "old": "that",
+          "new": "which"
+        },
+        {
+          "op": "replace",
+          "old": "And also let's",
+          "new": "Let's"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "can hear each other Now let's represent their behavior over time"
+        }
+      ]
+    },
+    {
+      "paragraph": 16,
+      "anchor": "00:17:58",
+      "source_indices_one_based": [
+        19
+      ],
+      "source_block_ids": [
+        "41"
+      ],
+      "revised_line": 41,
+      "raw_chunk_indices": [
+        9,
+        10
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So this",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "represent it by drawing",
+          "new": "draw"
+        },
+        {
+          "op": "replace",
+          "old": "Access",
+          "new": "the access"
+        },
+        {
+          "op": "replace",
+          "old": "OK now Let's assume",
+          "new": "Assume"
+        },
+        {
+          "op": "delete",
+          "old": "what",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "is",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "OK its",
+          "new": "Its"
+        },
+        {
+          "op": "delete",
+          "old": "So",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "and this mark",
+          "new": "at its MAC"
+        },
+        {
+          "op": "delete",
+          "old": "A",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "and",
+          "new": "to"
+        },
+        {
+          "op": "replace",
+          "old": "this packet Right So we",
+          "new": "it We"
+        },
+        {
+          "op": "replace",
+          "old": "I will find out",
+          "new": "a Wi Fi node"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "sense the channel for DIFS Let's assume that the channel is idle"
+        }
+      ]
+    },
+    {
+      "paragraph": 17,
+      "anchor": "00:19:08",
+      "source_indices_one_based": [
+        20
+      ],
+      "source_block_ids": [
+        "43"
+      ],
+      "revised_line": 43,
+      "raw_chunk_indices": [
+        10
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So we know that in",
+          "new": "In"
+        },
+        {
+          "op": "replace",
+          "old": "That",
+          "new": "It"
+        },
+        {
+          "op": "delete",
+          "old": "data",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "so it is",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Access",
+          "new": "access"
+        },
+        {
+          "op": "replace",
+          "old": "and let's",
+          "new": "Let's"
+        },
+        {
+          "op": "delete",
+          "old": "let's",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "this data packet",
+          "new": "it"
+        },
+        {
+          "op": "delete",
+          "old": "we know that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "six",
+          "new": "SIFS"
+        }
+      ]
+    },
+    {
+      "paragraph": 18,
+      "anchor": "00:19:49",
+      "source_indices_one_based": [
+        21
+      ],
+      "source_block_ids": [
+        "45"
+      ],
+      "revised_line": 45,
+      "raw_chunk_indices": [
+        10,
+        11
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Ok we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "they modulate the header right on",
+          "new": "demodulate"
+        },
+        {
+          "op": "replace",
+          "old": "packet",
+          "new": "packet's header"
+        },
+        {
+          "op": "replace",
+          "old": "The duration",
+          "new": "the Duration"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "nuts",
+          "new": "NAV"
+        },
+        {
+          "op": "replace",
+          "old": "and this will extend",
+          "new": "extending"
+        },
+        {
+          "op": "delete",
+          "old": "all",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 19,
+      "anchor": "00:20:25",
+      "source_indices_one_based": [
+        22
+      ],
+      "source_block_ids": [
+        "47"
+      ],
+      "revised_line": 47,
+      "raw_chunk_indices": [
+        11
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK so so",
+          "new": "So"
+        },
+        {
+          "op": "delete",
+          "old": "here",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "that"
+        },
+        {
+          "op": "delete",
+          "old": "also",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "they have",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "nuts Set with",
+          "new": "NAV is set to a"
+        },
+        {
+          "op": "delete",
+          "old": "we'll",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "their"
+        },
+        {
+          "op": "replace",
+          "old": "So this means that for",
+          "new": "For"
+        },
+        {
+          "op": "delete",
+          "old": "in time",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that is",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "mark",
+          "new": "MAC"
+        },
+        {
+          "op": "delete",
+          "old": "let's assume that C",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "other"
+        },
+        {
+          "op": "replace",
+          "old": "in time",
+          "new": "C"
+        }
+      ]
+    },
+    {
+      "paragraph": 20,
+      "anchor": "00:21:21",
+      "source_indices_one_based": [
+        23,
+        24
+      ],
+      "source_block_ids": [
+        "49",
+        "51"
+      ],
+      "revised_line": 49,
+      "raw_chunk_indices": [
+        11,
+        12
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK So now while we have this",
+          "new": "While the"
+        },
+        {
+          "op": "replace",
+          "old": "Between a",
+          "new": "between A"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "is"
+        },
+        {
+          "op": "replace",
+          "old": "we have b",
+          "new": "B"
+        },
+        {
+          "op": "replace",
+          "old": "c who",
+          "new": "C now also"
+        },
+        {
+          "op": "replace",
+          "old": "as well Now clearly they have got",
+          "new": "Clearly"
+        },
+        {
+          "op": "replace",
+          "old": "node",
+          "new": "NAV is"
+        },
+        {
+          "op": "replace",
+          "old": "so they",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "Access the channel right That's",
+          "new": "access it That is"
+        },
+        {
+          "op": "replace",
+          "old": "Situation Number",
+          "new": "situation number"
+        },
+        {
+          "op": "replace",
+          "old": "right Be an SEA Games Get",
+          "new": "B and C get"
+        },
+        {
+          "op": "delete",
+          "old": "they",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "that"
+        },
+        {
+          "op": "replace",
+          "old": "So what",
+          "new": "What"
+        },
+        {
+          "op": "replace",
+          "old": "right So this means",
+          "new": "Remember"
+        },
+        {
+          "op": "delete",
+          "old": "both B and C remember",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Scheme",
+          "new": "scheme"
+        },
+        {
+          "op": "replace",
+          "old": "everyone",
+          "new": "each node"
+        },
+        {
+          "op": "replace",
+          "old": "by",
+          "new": "for"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "based on the state of the system that it observes B will say I got a packet but the channel is busy"
+        }
+      ]
+    },
+    {
+      "paragraph": 21,
+      "anchor": "00:22:43",
+      "source_indices_one_based": [
+        25,
+        26
+      ],
+      "source_block_ids": [
+        "53",
+        "55"
+      ],
+      "revised_line": 51,
+      "raw_chunk_indices": [
+        12,
+        13
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "back off So what you will do is wait",
+          "new": "backoff It waits"
+        },
+        {
+          "op": "replace",
+          "old": "Again since the channel",
+          "new": "again senses it as"
+        },
+        {
+          "op": "replace",
+          "old": "dfs",
+          "new": "DIFS"
+        },
+        {
+          "op": "delete",
+          "old": "then",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "is",
+          "new": "stays"
+        },
+        {
+          "op": "replace",
+          "old": "dfs",
+          "new": "DIFS"
+        },
+        {
+          "op": "replace",
+          "old": "will be able to",
+          "new": "can"
+        },
+        {
+          "op": "replace",
+          "old": "Right Out of what Out",
+          "new": "out"
+        },
+        {
+          "op": "replace",
+          "old": "0 CW min And the",
+          "new": "zero to CW_min The"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "applies to"
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "at this point in time",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "oh",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "dress me But",
+          "new": "transmit but"
+        },
+        {
+          "op": "replace",
+          "old": "So again it",
+          "new": "It"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "a",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "So what it will do",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "will wait",
+          "new": "waits"
+        },
+        {
+          "op": "replace",
+          "old": "Then",
+          "new": "and verifies that"
+        },
+        {
+          "op": "replace",
+          "old": "needs to verify that the channel is",
+          "new": "remains"
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "DIFS"
+        },
+        {
+          "op": "replace",
+          "old": "Because",
+          "new": "because"
+        },
+        {
+          "op": "delete",
+          "old": "so the channel is idle",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 22,
+      "anchor": "00:24:00",
+      "source_indices_one_based": [
+        27
+      ],
+      "source_block_ids": [
+        "57"
+      ],
+      "revised_line": 53,
+      "raw_chunk_indices": [
+        13
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "And if we two will draw",
+          "new": "It too draws"
+        },
+        {
+          "op": "replace",
+          "old": "out of this",
+          "new": "from the"
+        },
+        {
+          "op": "replace",
+          "old": "OK So let's",
+          "new": "Let's"
+        },
+        {
+          "op": "replace",
+          "old": "That the value drawn by",
+          "new": "that"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "draws"
+        },
+        {
+          "op": "replace",
+          "old": "is equal to 2 And let's assume that the integer drawn by",
+          "new": "two and"
+        },
+        {
+          "op": "replace",
+          "old": "is equal to 5",
+          "new": "draws five"
+        }
+      ]
+    },
+    {
+      "paragraph": 23,
+      "anchor": "00:24:36",
+      "source_indices_one_based": [
+        28
+      ],
+      "source_block_ids": [
+        "59"
+      ],
+      "revised_line": 55,
+      "raw_chunk_indices": [
+        13,
+        14
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK so if this is the",
+          "new": "In that"
+        },
+        {
+          "op": "delete",
+          "old": "then we know that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "will compute it because",
+          "new": "computes a backoff"
+        },
+        {
+          "op": "delete",
+          "old": "that will be",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "2 times",
+          "new": "twice"
+        },
+        {
+          "op": "replace",
+          "old": "Right AndSimilarly",
+          "new": "Similarly"
+        },
+        {
+          "op": "replace",
+          "old": "will compute its",
+          "new": "computes a"
+        },
+        {
+          "op": "replace",
+          "old": "that will be 5",
+          "new": "of five"
+        },
+        {
+          "op": "replace",
+          "old": "And then each",
+          "new": "Each"
+        },
+        {
+          "op": "replace",
+          "old": "will have to decrease",
+          "new": "decreases"
+        },
+        {
+          "op": "delete",
+          "old": "time",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "time",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "So",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "will start sensing",
+          "new": "senses"
+        },
+        {
+          "op": "replace",
+          "old": "a",
+          "new": "one"
+        },
+        {
+          "op": "replace",
+          "old": "will decrease",
+          "new": "decreases"
+        },
+        {
+          "op": "delete",
+          "old": "backoff",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "C does"
+        },
+        {
+          "op": "replace",
+          "old": "will do C right So it will decrease it by",
+          "new": "decreasing"
+        },
+        {
+          "op": "replace",
+          "old": "Then",
+          "new": "In the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "B"
+        },
+        {
+          "op": "delete",
+          "old": "B",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "is",
+          "new": "as"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "and"
+        },
+        {
+          "op": "delete",
+          "old": "backoff",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "C does the same but now B's backoff counter has reached zero"
+        }
+      ]
+    },
+    {
+      "paragraph": 24,
+      "anchor": "00:26:12",
+      "source_indices_one_based": [
+        29
+      ],
+      "source_block_ids": [
+        "61"
+      ],
+      "revised_line": 57,
+      "raw_chunk_indices": [
+        14
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "So",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So",
+          "new": "so"
+        },
+        {
+          "op": "replace",
+          "old": "will transmit",
+          "new": "transmits"
+        },
+        {
+          "op": "replace",
+          "old": "bucket",
+          "new": "packet"
+        },
+        {
+          "op": "delete",
+          "old": "data",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "clearly",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "as we said",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "and"
+        },
+        {
+          "op": "delete",
+          "old": "network topology",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "only"
+        },
+        {
+          "op": "replace",
+          "old": "only Let's again",
+          "new": "Again let's"
+        },
+        {
+          "op": "replace",
+          "old": "so this means that this",
+          "new": "the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "successfully"
+        },
+        {
+          "op": "replace",
+          "old": "successfully by",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "accesspoint which will send back",
+          "new": "access point sends"
+        },
+        {
+          "op": "replace",
+          "old": "receives",
+          "new": "SIFS"
+        }
+      ]
+    },
+    {
+      "paragraph": 25,
+      "anchor": "00:27:02",
+      "source_indices_one_based": [
+        30,
+        31
+      ],
+      "source_block_ids": [
+        "63",
+        "65"
+      ],
+      "revised_line": 59,
+      "raw_chunk_indices": [
+        14,
+        15
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "upon the",
+          "new": "Upon B's"
+        },
+        {
+          "op": "delete",
+          "old": "by B",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "send",
+          "new": "set"
+        },
+        {
+          "op": "replace",
+          "old": "now they",
+          "new": "NAV They"
+        },
+        {
+          "op": "replace",
+          "old": "reach梨",
+          "new": "read the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "data packet's"
+        },
+        {
+          "op": "replace",
+          "old": "of the data packet So we",
+          "new": "We also"
+        },
+        {
+          "op": "delete",
+          "old": "also",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "this",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "also",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "We let sand there now right So what",
+          "new": "set their NAV What"
+        },
+        {
+          "op": "replace",
+          "old": "it",
+          "new": "this"
+        },
+        {
+          "op": "replace",
+          "old": "This is okay",
+          "new": "It's"
+        },
+        {
+          "op": "delete",
+          "old": "so that's not okay",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "it"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "it must freeze its backoff counter for this duration"
+        }
+      ]
+    },
+    {
+      "paragraph": 26,
+      "anchor": "00:28:03",
+      "source_indices_one_based": [
+        32
+      ],
+      "source_block_ids": [
+        "67"
+      ],
+      "revised_line": 61,
+      "raw_chunk_indices": [
+        15,
+        16
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Because now the",
+          "new": "The"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "now"
+        },
+        {
+          "op": "replace",
+          "old": "OK so during",
+          "new": "During"
+        },
+        {
+          "op": "replace",
+          "old": "will be",
+          "new": "is"
+        },
+        {
+          "op": "replace",
+          "old": "what it does is to wait",
+          "new": "waits"
+        },
+        {
+          "op": "replace",
+          "old": "To",
+          "new": "to"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "this and",
+          "new": "DIFS"
+        },
+        {
+          "op": "replace",
+          "old": "it can resume",
+          "new": "resumes"
+        },
+        {
+          "op": "replace",
+          "old": "count Right",
+          "new": "counter"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "still"
+        },
+        {
+          "op": "delete",
+          "old": "still",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "so it will change",
+          "new": "It senses"
+        },
+        {
+          "op": "replace",
+          "old": "Yes di sis i dont",
+          "new": "a time slot yes it is idle"
+        },
+        {
+          "op": "replace",
+          "old": "i",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "be crease",
+          "new": "decrease"
+        },
+        {
+          "op": "delete",
+          "old": "biic off",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "want Dan sensus lagi",
+          "new": "one It senses the channel again for another time slot it is idle so it can decrease the counter by one Then again the channel is idle for one more time slot so it decreases the counter by one"
+        }
+      ]
+    },
+    {
+      "paragraph": 27,
+      "anchor": "00:29:23",
+      "source_indices_one_based": [
+        33
+      ],
+      "source_block_ids": [
+        "69"
+      ],
+      "revised_line": 63,
+      "raw_chunk_indices": [
+        15,
+        16
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "it's because",
+          "new": "its backoff"
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "And again",
+          "new": "Again"
+        },
+        {
+          "op": "replace",
+          "old": "we will receive",
+          "new": "it receives"
+        },
+        {
+          "op": "replace",
+          "old": "sixes And we",
+          "new": "SIFS We"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "their"
+        },
+        {
+          "op": "replace",
+          "old": "packet Success OK So this",
+          "new": "packets successfully This"
+        },
+        {
+          "op": "replace",
+          "old": "how we apply in",
+          "new": "applying"
+        },
+        {
+          "op": "replace",
+          "old": "Laparoscopic",
+          "new": "backoff"
+        },
+        {
+          "op": "delete",
+          "old": "in particular",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Right",
+          "new": "It also allows us to understand the importance of backoff That is the ultimate goal I was aiming for"
+        }
+      ]
+    },
+    {
+      "paragraph": 28,
+      "anchor": "00:30:26",
+      "source_indices_one_based": [
+        34,
+        35
+      ],
+      "source_block_ids": [
+        "71",
+        "73"
+      ],
+      "revised_line": 65,
+      "raw_chunk_indices": [
+        16,
+        17
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "the cough Well let'smake",
+          "new": "backoff Let's make"
+        },
+        {
+          "op": "delete",
+          "old": "is",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "an"
+        },
+        {
+          "op": "delete",
+          "old": "Okay",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "you",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Feature So our",
+          "new": "feature Our"
+        },
+        {
+          "op": "replace",
+          "old": "wake up",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "or wi fi",
+          "new": "Wi Fi"
+        },
+        {
+          "op": "replace",
+          "old": "So let's make this small game and thinkwhat",
+          "new": "Let's think what"
+        },
+        {
+          "op": "replace",
+          "old": "the beak of",
+          "new": "backoff"
+        }
+      ]
+    },
+    {
+      "paragraph": 29,
+      "anchor": "00:31:22",
+      "source_indices_one_based": [
+        36
+      ],
+      "source_block_ids": [
+        "75"
+      ],
+      "revised_line": 67,
+      "raw_chunk_indices": [
+        17
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK so let's",
+          "new": "Let's"
+        },
+        {
+          "op": "replace",
+          "old": "let's",
+          "new": "and"
+        },
+        {
+          "op": "delete",
+          "old": "let's",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "beak of OK So what",
+          "new": "backoff What"
+        }
+      ]
+    },
+    {
+      "paragraph": 30,
+      "anchor": "00:31:43",
+      "source_indices_one_based": [
+        37
+      ],
+      "source_block_ids": [
+        "77"
+      ],
+      "revised_line": 69,
+      "raw_chunk_indices": [
+        17
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Well at",
+          "new": "At"
+        },
+        {
+          "op": "replace",
+          "old": "that has got",
+          "new": "with"
+        },
+        {
+          "op": "replace",
+          "old": "Right So it will listen",
+          "new": "It listens"
+        },
+        {
+          "op": "replace",
+          "old": "dips It will access",
+          "new": "DIFS and it accesses"
+        },
+        {
+          "op": "replace",
+          "old": "transmit",
+          "new": "transmits"
+        }
+      ]
+    },
+    {
+      "paragraph": 31,
+      "anchor": "00:32:02",
+      "source_indices_one_based": [
+        38,
+        39
+      ],
+      "source_block_ids": [
+        "79",
+        "81"
+      ],
+      "revised_line": 71,
+      "raw_chunk_indices": [
+        17,
+        18
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "And again",
+          "new": "Again"
+        },
+        {
+          "op": "replace",
+          "old": "The",
+          "new": "the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "an"
+        },
+        {
+          "op": "replace",
+          "old": "send",
+          "new": "set"
+        },
+        {
+          "op": "replace",
+          "old": "packets Right",
+          "new": "NAV"
+        },
+        {
+          "op": "replace",
+          "old": "And again",
+          "new": "Assume that"
+        },
+        {
+          "op": "replace",
+          "old": "are",
+          "new": "also get a packet to transmit at"
+        },
+        {
+          "op": "delete",
+          "old": "Assume that they get also a packet to transmit",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "again",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "back off Okay So we",
+          "new": "backoff We"
+        },
+        {
+          "op": "replace",
+          "old": "If the car",
+          "new": "if backoff"
+        },
+        {
+          "op": "replace",
+          "old": "so what",
+          "new": "What"
+        },
+        {
+          "op": "replace",
+          "old": "Well we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "sensing right Multiple",
+          "new": "sense multiple"
+        },
+        {
+          "op": "replace",
+          "old": "So since both",
+          "new": "Since"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "both"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "their NAV is set"
+        },
+        {
+          "op": "delete",
+          "old": "have their node set They",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "right Till the channel",
+          "new": "while it"
+        },
+        {
+          "op": "replace",
+          "old": "I cannot",
+          "new": "They will wait for it to become idle and make sure it is idle But if there is no backoff they can then"
+        },
+        {
+          "op": "replace",
+          "old": "So for sure BNC will again wait for the channel to be idle Make sure that",
+          "new": "They say"
+        },
+        {
+          "op": "delete",
+          "old": "But then if there is no because they can just access the channel right Because now the channel is idle so they say oh channel idle",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the channel",
+          "new": "it and transmit Remember"
+        },
+        {
+          "op": "replace",
+          "old": "trust Remember",
+          "new": "this game"
+        },
+        {
+          "op": "replace",
+          "old": "are playing this small game assuming that",
+          "new": "assume"
+        },
+        {
+          "op": "replace",
+          "old": "So what we have is that no backoff we have both transmitting",
+          "new": "Both transmit"
+        },
+        {
+          "op": "replace",
+          "old": "packet After having sensed",
+          "new": "packets after sensing"
+        },
+        {
+          "op": "replace",
+          "old": "so what",
+          "new": "What"
+        },
+        {
+          "op": "replace",
+          "old": "Collision right",
+          "new": "A collision"
+        },
+        {
+          "op": "replace",
+          "old": "sure that",
+          "new": "certain"
+        },
+        {
+          "op": "delete",
+          "old": "of course",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "will",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "they overlap",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And the",
+          "new": "The"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "either packet"
+        },
+        {
+          "op": "delete",
+          "old": "either this packet",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 32,
+      "anchor": "00:34:43",
+      "source_indices_one_based": [
+        40
+      ],
+      "source_block_ids": [
+        "83"
+      ],
+      "revised_line": 73,
+      "raw_chunk_indices": [
+        18,
+        19
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK So what is the",
+          "new": "The"
+        },
+        {
+          "op": "replace",
+          "old": "here That the",
+          "new": "is that"
+        },
+        {
+          "op": "replace",
+          "old": "procedure has been",
+          "new": "was"
+        },
+        {
+          "op": "delete",
+          "old": "in order",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Our contending nodes in these examples are",
+          "new": "In this example"
+        },
+        {
+          "op": "replace",
+          "old": "right They are contending",
+          "new": "contend"
+        },
+        {
+          "op": "replace",
+          "old": "And the backup procedure",
+          "new": "and backoff"
+        },
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "their"
+        },
+        {
+          "op": "replace",
+          "old": "between them",
+          "new": "Remember that we said Wi Fi is a CSMA scheme with collision avoidance"
+        }
+      ]
+    },
+    {
+      "paragraph": 33,
+      "anchor": "00:35:39",
+      "source_indices_one_based": [
+        41
+      ],
+      "source_block_ids": [
+        "85"
+      ],
+      "revised_line": 75,
+      "raw_chunk_indices": [
+        19
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "This backoff",
+          "new": "Backoff"
+        },
+        {
+          "op": "delete",
+          "old": "to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So the basic principle the",
+          "new": "The"
+        },
+        {
+          "op": "replace",
+          "old": "Whenever",
+          "new": "whenever"
+        },
+        {
+          "op": "replace",
+          "old": "right You",
+          "new": "you"
+        },
+        {
+          "op": "replace",
+          "old": "synchronize",
+          "new": "desynchronize"
+        },
+        {
+          "op": "replace",
+          "old": "youfind",
+          "new": "you find"
+        },
+        {
+          "op": "replace",
+          "old": "and this",
+          "new": "It"
+        },
+        {
+          "op": "replace",
+          "old": "So if there",
+          "new": "If it"
+        },
+        {
+          "op": "replace",
+          "old": "right As all the others",
+          "new": "like everyone else"
+        }
+      ]
+    },
+    {
+      "paragraph": 34,
+      "anchor": "00:36:25",
+      "source_indices_one_based": [
+        42
+      ],
+      "source_block_ids": [
+        "87"
+      ],
+      "revised_line": 77,
+      "raw_chunk_indices": [
+        19,
+        20
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "try to pick you",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "you",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "at which",
+          "new": "when"
+        },
+        {
+          "op": "replace",
+          "old": "And this",
+          "new": "It"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "the same principle You pick a time to desynchronize your action from the others avoiding collisions with them or finding yourself in a traffic jam That's"
+        },
+        {
+          "op": "delete",
+          "old": "You try to pick a time In order to desynchronize your action with respect to the others and this way you avoid meeting like they colliding with the others or finding yourself in an in a traffic jam Hmm that's exactly the same principle",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 35,
+      "anchor": "00:37:02",
+      "source_indices_one_based": [
+        43
+      ],
+      "source_block_ids": [
+        "89"
+      ],
+      "revised_line": 79,
+      "raw_chunk_indices": [
+        20,
+        21
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Now what",
+          "new": "What"
+        },
+        {
+          "op": "replace",
+          "old": "would like",
+          "new": "want"
+        },
+        {
+          "op": "delete",
+          "old": "so we observe the",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "back off",
+          "new": "backoff"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "collision avoidance"
+        },
+        {
+          "op": "replace",
+          "old": "for avoiding collisions But",
+          "new": "but"
+        },
+        {
+          "op": "replace",
+          "old": "Probabilistic OK",
+          "new": "probabilistic"
+        },
+        {
+          "op": "replace",
+          "old": "Because if like in our example both",
+          "new": "If"
+        },
+        {
+          "op": "replace",
+          "old": "Draw",
+          "new": "draw"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "backoff"
+        },
+        {
+          "op": "delete",
+          "old": "of because",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "re",
+          "new": "are"
+        },
+        {
+          "op": "delete",
+          "old": "OK so",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "for example c two",
+          "new": "C too"
+        },
+        {
+          "op": "replace",
+          "old": "an",
+          "new": "its"
+        },
+        {
+          "op": "replace",
+          "old": "will",
+          "new": "would"
+        },
+        {
+          "op": "replace",
+          "old": "synchronized",
+          "new": "desynchronized"
+        },
+        {
+          "op": "replace",
+          "old": "okay Because they will both",
+          "new": "Both"
+        },
+        {
+          "op": "replace",
+          "old": "theback off counter",
+          "new": "their counters"
+        },
+        {
+          "op": "delete",
+          "old": "then",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "time slot But under",
+          "new": "Under"
+        },
+        {
+          "op": "delete",
+          "old": "they now",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "as an integer they willdecrease the backoff counter to",
+          "new": "their counters reach"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "at"
+        },
+        {
+          "op": "delete",
+          "old": "at",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "That means that they will",
+          "new": "They"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "at"
+        },
+        {
+          "op": "delete",
+          "old": "at",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 36,
+      "anchor": "00:38:58",
+      "source_indices_one_based": [
+        44
+      ],
+      "source_block_ids": [
+        "91"
+      ],
+      "revised_line": 81,
+      "raw_chunk_indices": [
+        21
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So backoff",
+          "new": "Backoff"
+        },
+        {
+          "op": "replace",
+          "old": "collisions",
+          "new": "them"
+        },
+        {
+          "op": "replace",
+          "old": "with which the nodes the containing",
+          "new": "that contending"
+        },
+        {
+          "op": "replace",
+          "old": "Right So it's",
+          "new": "It is"
+        }
+      ]
+    },
+    {
+      "paragraph": 37,
+      "anchor": "00:39:28",
+      "source_indices_one_based": [
+        45
+      ],
+      "source_block_ids": [
+        "93"
+      ],
+      "revised_line": 83,
+      "raw_chunk_indices": [
+        21
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK this",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "OK now if this is clear",
+          "new": "If so"
+        },
+        {
+          "op": "replace",
+          "old": "sorry",
+          "new": "one Sorry let me"
+        },
+        {
+          "op": "replace",
+          "old": "Because",
+          "new": "because"
+        },
+        {
+          "op": "replace",
+          "old": "Okay we",
+          "new": "We"
+        },
+        {
+          "op": "delete",
+          "old": "and",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Short",
+          "new": "short"
+        }
+      ]
+    },
+    {
+      "paragraph": 38,
+      "anchor": "00:40:13",
+      "source_indices_one_based": [
+        46,
+        47
+      ],
+      "source_block_ids": [
+        "95",
+        "97"
+      ],
+      "revised_line": 85,
+      "raw_chunk_indices": [
+        21,
+        22
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So the",
+          "new": "The"
+        },
+        {
+          "op": "replace",
+          "old": "that I want to make is about",
+          "new": "concerns"
+        },
+        {
+          "op": "delete",
+          "old": "parameter",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Perform and the cough procedure",
+          "new": "perform backoff"
+        },
+        {
+          "op": "replace",
+          "old": "OK So let's consider still",
+          "new": "Consider"
+        },
+        {
+          "op": "delete",
+          "old": "So we still have",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "talk",
+          "new": "talks"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "both"
+        },
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "a"
+        },
+        {
+          "op": "delete",
+          "old": "Both of them",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "so they",
+          "new": "They"
+        },
+        {
+          "op": "replace",
+          "old": "the off",
+          "new": "backoff"
+        },
+        {
+          "op": "delete",
+          "old": "they need to draw the forum",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "having sense",
+          "new": "sensing"
+        },
+        {
+          "op": "replace",
+          "old": "as either",
+          "new": "idle"
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "DIFS draw"
+        },
+        {
+          "op": "replace",
+          "old": "Out of as we know Out of",
+          "new": "from"
+        },
+        {
+          "op": "replace",
+          "old": "because",
+          "new": "Since"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "this"
+        },
+        {
+          "op": "delete",
+          "old": "So they",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "contention window minimum",
+          "new": "to CW_min"
+        },
+        {
+          "op": "replace",
+          "old": "a possible Range as a",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "to be select",
+          "new": "How many values are there There are CW_min plus one integers"
+        }
+      ]
+    },
+    {
+      "paragraph": 39,
+      "anchor": "00:41:48",
+      "source_indices_one_based": [
+        48
+      ],
+      "source_block_ids": [
+        "99"
+      ],
+      "revised_line": 87,
+      "raw_chunk_indices": [
+        22
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Flashwanna interjurbrive de Zero Is",
+          "new": "Including zero makes it"
+        },
+        {
+          "op": "replace",
+          "old": "One can",
+          "new": "one This"
+        },
+        {
+          "op": "replace",
+          "old": "90 years",
+          "new": "number of integers"
+        },
+        {
+          "op": "replace",
+          "old": "the Trains",
+          "new": "that range"
+        }
+      ]
+    },
+    {
+      "paragraph": 40,
+      "anchor": "00:41:59",
+      "source_indices_one_based": [
+        49,
+        50,
+        51
+      ],
+      "source_block_ids": [
+        "101",
+        "103",
+        "105"
+      ],
+      "revised_line": 89,
+      "raw_chunk_indices": [
+        22,
+        23,
+        24
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "O K so what we want to compu Sins with sunshine dant Beck of y se probabilistic Hol Lision Emboitan Mecanis Es de OK that's the probability that",
+          "new": "What"
+        },
+        {
+          "op": "replace",
+          "old": "OK now",
+          "new": "since"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "said that backoff is a probabilistic collision avoidance mechanism is the probability that B and C collide That's the probability we want to compute We already"
+        },
+        {
+          "op": "delete",
+          "old": "already",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "out of",
+          "new": "from"
+        },
+        {
+          "op": "replace",
+          "old": "and remember",
+          "new": "Remember"
+        },
+        {
+          "op": "delete",
+          "old": "the way",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "Out of this range is",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "right So",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "to be selected by the note So if",
+          "new": "If"
+        },
+        {
+          "op": "replace",
+          "old": "For",
+          "new": "that"
+        },
+        {
+          "op": "replace",
+          "old": "to draw",
+          "new": "draws"
+        },
+        {
+          "op": "replace",
+          "old": "out of this range this probability",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "given by",
+          "new": "one over CW_min"
+        },
+        {
+          "op": "replace",
+          "old": "over cw Plus one right Because",
+          "new": "because"
+        },
+        {
+          "op": "delete",
+          "old": "we draw",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "with",
+          "new": "has"
+        },
+        {
+          "op": "replace",
+          "old": "uniform probability it's",
+          "new": "it is"
+        },
+        {
+          "op": "replace",
+          "old": "A",
+          "new": "a"
+        },
+        {
+          "op": "replace",
+          "old": "out of",
+          "new": "from"
+        },
+        {
+          "op": "delete",
+          "old": "given by",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "CW mean plus one",
+          "new": "CW_min 1"
+        },
+        {
+          "op": "replace",
+          "old": "Ok So In this way you can see that they are",
+          "new": "Each integer is"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "with"
+        },
+        {
+          "op": "delete",
+          "old": "each of them with",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 41,
+      "anchor": "00:44:32",
+      "source_indices_one_based": [
+        52
+      ],
+      "source_block_ids": [
+        "107"
+      ],
+      "revised_line": 91,
+      "raw_chunk_indices": [
+        24,
+        25,
+        26
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Ok now let's",
+          "new": "Let's"
+        },
+        {
+          "op": "replace",
+          "old": "5",
+          "new": "five"
+        },
+        {
+          "op": "replace",
+          "old": "way you cannot run Ok and then",
+          "new": "break Then"
+        },
+        {
+          "op": "delete",
+          "old": "Let's",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "these two",
+          "new": "the collision"
+        },
+        {
+          "op": "delete",
+          "old": "of collision",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 42,
+      "anchor": "00:49:19",
+      "source_indices_one_based": [
+        53
+      ],
+      "source_block_ids": [
+        "109"
+      ],
+      "revised_line": 93,
+      "raw_chunk_indices": [
+        26,
+        27,
+        28
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK good Now let's",
+          "new": "Good Let's"
+        },
+        {
+          "op": "replace",
+          "old": "So the",
+          "new": "The"
+        },
+        {
+          "op": "replace",
+          "old": "simply",
+          "new": "simple"
+        },
+        {
+          "op": "delete",
+          "old": "very",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Is",
+          "new": "It is"
+        },
+        {
+          "op": "replace",
+          "old": "thatB",
+          "new": "that B"
+        },
+        {
+          "op": "replace",
+          "old": "The",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "OK A",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "value a same image That's what we said alright",
+          "new": "integer"
+        },
+        {
+          "op": "delete",
+          "old": "this computation",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "n",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "So what",
+          "new": "What"
+        },
+        {
+          "op": "delete",
+          "old": "are",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "computing",
+          "new": "compute"
+        },
+        {
+          "op": "delete",
+          "old": "so the probability",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "also"
+        },
+        {
+          "op": "delete",
+          "old": "Also n so",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "through",
+          "new": "drew"
+        },
+        {
+          "op": "replace",
+          "old": "OK So this is the so called conditioned probability Now remember Our",
+          "new": "Remember that our"
+        },
+        {
+          "op": "delete",
+          "old": "actually very",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "it's",
+          "new": "it is"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "Every node makes its own decisions according to the protocol rules independently of the others"
+        }
+      ]
+    },
+    {
+      "paragraph": 43,
+      "anchor": "00:51:21",
+      "source_indices_one_based": [
+        54
+      ],
+      "source_block_ids": [
+        "111"
+      ],
+      "revised_line": 95,
+      "raw_chunk_indices": [
+        27,
+        28
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So the",
+          "new": "The"
+        },
+        {
+          "op": "replace",
+          "old": "The",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "an",
+          "new": "n"
+        },
+        {
+          "op": "replace",
+          "old": "let's say he likes based on what decisions he makes",
+          "new": "it decides"
+        },
+        {
+          "op": "replace",
+          "old": "Right But it's",
+          "new": "but it is"
+        },
+        {
+          "op": "replace",
+          "old": "So this",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "actually",
+          "new": "therefore"
+        },
+        {
+          "op": "replace",
+          "old": "toThe",
+          "new": "to the"
+        },
+        {
+          "op": "replace",
+          "old": "That",
+          "new": "that"
+        },
+        {
+          "op": "replace",
+          "old": "an N",
+          "new": "n"
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "will do",
+          "new": "does"
+        }
+      ]
+    },
+    {
+      "paragraph": 44,
+      "anchor": "00:52:17",
+      "source_indices_one_based": [
+        55
+      ],
+      "source_block_ids": [
+        "113"
+      ],
+      "revised_line": 97,
+      "raw_chunk_indices": [
+        28,
+        29
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK so what",
+          "new": "What"
+        },
+        {
+          "op": "replace",
+          "old": "an N So what",
+          "new": "n What"
+        },
+        {
+          "op": "replace",
+          "old": "Out of the range",
+          "new": "from"
+        },
+        {
+          "op": "replace",
+          "old": "CW mean well we",
+          "new": "to CW_min We"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "it here Given"
+        },
+        {
+          "op": "replace",
+          "old": "here right This is the probability Okay so now we know that given thatB",
+          "new": "B"
+        },
+        {
+          "op": "replace",
+          "old": "and",
+          "new": "n"
+        },
+        {
+          "op": "delete",
+          "old": "Will",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "draw",
+          "new": "draws"
+        },
+        {
+          "op": "replace",
+          "old": "Ok so condition to the fact that",
+          "new": "Conditioned on"
+        },
+        {
+          "op": "replace",
+          "old": "drew",
+          "new": "drawing"
+        },
+        {
+          "op": "delete",
+          "old": "then",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "conditional"
+        },
+        {
+          "op": "delete",
+          "old": "condition to the fact that B drew n Right",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 45,
+      "anchor": "00:53:12",
+      "source_indices_one_based": [
+        56
+      ],
+      "source_block_ids": [
+        "115"
+      ],
+      "revised_line": 99,
+      "raw_chunk_indices": [
+        28,
+        29
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "What we need to do is to now to",
+          "new": "To"
+        },
+        {
+          "op": "replace",
+          "old": "is",
+          "new": "we now need"
+        },
+        {
+          "op": "replace",
+          "old": "decondition",
+          "new": "remove the conditioning"
+        },
+        {
+          "op": "replace",
+          "old": "make the computation for",
+          "new": "consider"
+        },
+        {
+          "op": "replace",
+          "old": "end So what we",
+          "new": "n We"
+        },
+        {
+          "op": "replace",
+          "old": "now Do isCW mean",
+          "new": "compute the probability that B"
+        },
+        {
+          "op": "replace",
+          "old": "for",
+          "new": "C collide without conditioning on any event We need to consider all possible integer values from zero to CW_min For"
+        },
+        {
+          "op": "delete",
+          "old": "We know that",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "collision"
+        },
+        {
+          "op": "replace",
+          "old": "of collision is what The",
+          "new": "involves the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "B has"
+        },
+        {
+          "op": "delete",
+          "old": "B hasis",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 46,
+      "anchor": "00:54:22",
+      "source_indices_one_based": [
+        57
+      ],
+      "source_block_ids": [
+        "117"
+      ],
+      "revised_line": 101,
+      "raw_chunk_indices": [
+        29
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So let's",
+          "new": "Let's"
+        },
+        {
+          "op": "replace",
+          "old": "The probability that B draws n",
+          "new": "It"
+        },
+        {
+          "op": "delete",
+          "old": "this",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So we can write",
+          "new": "over CW_min"
+        },
+        {
+          "op": "replace",
+          "old": "over C W min Plus one this is the probability that B draws n and then given that we know",
+          "new": "Given"
+        },
+        {
+          "op": "replace",
+          "old": "a That",
+          "new": "if C also draws n and that"
+        }
+      ]
+    },
+    {
+      "paragraph": 47,
+      "anchor": "00:54:59",
+      "source_indices_one_based": [
+        58
+      ],
+      "source_block_ids": [
+        "119"
+      ],
+      "revised_line": 103,
+      "raw_chunk_indices": [
+        29,
+        30
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Multiply Buy and Wana",
+          "new": "We multiply by one"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "CW_min 1 the probability that"
+        },
+        {
+          "op": "replace",
+          "old": "Wanna Last one which is di probability dan se Chao amor me head y simply Samuel",
+          "new": "draws n We therefore sum"
+        },
+        {
+          "op": "replace",
+          "old": "heinn and",
+          "new": "n from zero to CW_min"
+        },
+        {
+          "op": "replace",
+          "old": "Post on Zero Tú sida ilumina A Juana Uber WW Mean plus one square right Now this",
+          "new": "term 1 CW_min 1 2 This"
+        },
+        {
+          "op": "delete",
+          "old": "we are",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "a",
+          "new": "the"
+        },
+        {
+          "op": "delete",
+          "old": "so we are summing this constant term",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "CW mean plus one",
+          "new": "do we sum it CW_min 1"
+        },
+        {
+          "op": "replace",
+          "old": "right So this is equal Gantung si win Last one di by the by Si dari minang Last one Squad Mesin refund Sebenarnya itu namanya itu And we gan One over C W mina last one",
+          "new": "This gives CW_min 1 CW_min 1 2 We simplify numerator and denominator and get 1 CW_min 1"
+        }
+      ]
+    },
+    {
+      "paragraph": 48,
+      "anchor": "00:56:35",
+      "source_indices_one_based": [
+        59
+      ],
+      "source_block_ids": [
+        "121"
+      ],
+      "revised_line": 105,
+      "raw_chunk_indices": [
+        30,
+        31
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Esta de",
+          "new": "The final result is that the"
+        },
+        {
+          "op": "replace",
+          "old": "Con line Inaugurar",
+          "new": "that B and C collide in our"
+        },
+        {
+          "op": "replace",
+          "old": "ex andall that",
+          "new": "example is one over the contention window plus one If"
+        },
+        {
+          "op": "delete",
+          "old": "in presented es One over The contention Windows Plus One You",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Evil",
+          "new": "able"
+        },
+        {
+          "op": "replace",
+          "old": "Fund lo The",
+          "new": "follow the"
+        },
+        {
+          "op": "replace",
+          "old": "rate It's",
+          "new": "great It is"
+        },
+        {
+          "op": "replace",
+          "old": "computation But",
+          "new": "calculation but"
+        },
+        {
+          "op": "delete",
+          "old": "therefore",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "anywhere",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "your",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Do",
+          "new": "do"
+        },
+        {
+          "op": "replace",
+          "old": "that you",
+          "new": "to"
+        }
+      ]
+    },
+    {
+      "paragraph": 49,
+      "anchor": "00:57:27",
+      "source_indices_one_based": [
+        60,
+        61
+      ],
+      "source_block_ids": [
+        "123",
+        "125"
+      ],
+      "revised_line": 107,
+      "raw_chunk_indices": [
+        31,
+        32
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "The final message is in",
+          "new": "In"
+        },
+        {
+          "op": "delete",
+          "old": "right that we are considering",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "collided",
+          "new": "collide"
+        },
+        {
+          "op": "replace",
+          "old": "the pickoff procedure Is equal to",
+          "new": "backoff equals"
+        },
+        {
+          "op": "replace",
+          "old": "that clearly will decrease",
+          "new": "which decreases"
+        },
+        {
+          "op": "delete",
+          "old": "value of",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "Right",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "The",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "so",
+          "new": "and therefore"
+        },
+        {
+          "op": "delete",
+          "old": "i think",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Okay now so this means that okay this",
+          "new": "This"
+        },
+        {
+          "op": "delete",
+          "old": "as I said",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "previous",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "But it's",
+          "new": "but it expresses"
+        },
+        {
+          "op": "delete",
+          "old": "The",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the back off procedure",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "value of confession",
+          "new": "contention"
+        },
+        {
+          "op": "delete",
+          "old": "So now",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "A",
+          "new": "Why am I making this second observation We wanted to understand why in Wi Fi every time we perform backoff for a"
+        },
+        {
+          "op": "delete",
+          "old": "speaking",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So we",
+          "new": "We"
+        },
+        {
+          "op": "delete",
+          "old": "very",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "do we do that Do re do you",
+          "new": "To reduce the probability of collision among contending nodes"
+        }
+      ]
+    },
+    {
+      "paragraph": 50,
+      "anchor": "00:59:34",
+      "source_indices_one_based": [
+        62
+      ],
+      "source_block_ids": [
+        "127"
+      ],
+      "revised_line": 109,
+      "raw_chunk_indices": [
+        32,
+        33
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So backoff",
+          "new": "Backoff"
+        },
+        {
+          "op": "delete",
+          "old": "and essentially",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "essentially"
+        },
+        {
+          "op": "delete",
+          "old": "the reason why",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Failing Is",
+          "new": "failing failing"
+        },
+        {
+          "op": "delete",
+          "old": "there are",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "in the network that try",
+          "new": "are trying"
+        },
+        {
+          "op": "delete",
+          "old": "to transmit the packet",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So what wi fi says is if you FL feel Fe When",
+          "new": "It assumes that when"
+        },
+        {
+          "op": "replace",
+          "old": "means that there are",
+          "new": "fail fail"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "are"
+        },
+        {
+          "op": "replace",
+          "old": "and",
+          "new": "too"
+        },
+        {
+          "op": "replace",
+          "old": "are selecting the same backoff you have",
+          "new": "select"
+        },
+        {
+          "op": "replace",
+          "old": "And you",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "So in order to",
+          "new": "To"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "collision"
+        },
+        {
+          "op": "delete",
+          "old": "of collision",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "the range of possible integer values from which it can choose"
+        }
+      ]
+    },
+    {
+      "paragraph": 51,
+      "anchor": "01:00:35",
+      "source_indices_one_based": [
+        63,
+        64
+      ],
+      "source_block_ids": [
+        "129",
+        "131"
+      ],
+      "revised_line": 111,
+      "raw_chunk_indices": [
+        32,
+        33,
+        34
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "when you have",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "with",
+          "new": "of"
+        },
+        {
+          "op": "replace",
+          "old": "if",
+          "new": "If"
+        },
+        {
+          "op": "delete",
+          "old": "if there are",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the candy Clearly they",
+          "new": "candies"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "clearly both"
+        },
+        {
+          "op": "replace",
+          "old": "Strawberry but if instead",
+          "new": "strawberry If"
+        },
+        {
+          "op": "delete",
+          "old": "then",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "candy",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "will reduce So this is exactly",
+          "new": "decreases It's"
+        },
+        {
+          "op": "replace",
+          "old": "OK so you",
+          "new": "You"
+        },
+        {
+          "op": "delete",
+          "old": "well",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "WiFi really takes care of this",
+          "new": "Wi Fi deals with a"
+        },
+        {
+          "op": "replace",
+          "old": "allow",
+          "new": "lets"
+        },
+        {
+          "op": "delete",
+          "old": "to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "butthis is this works this is a good idea to double",
+          "new": "doubling"
+        },
+        {
+          "op": "delete",
+          "old": "every time you perform a backup Transmitting pocket it works but it",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "why a transmitter",
+          "new": "for failure"
+        },
+        {
+          "op": "replace",
+          "old": "failing is indeed because it keeps colliding with others",
+          "new": "repeated collisions"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "that"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "also"
+        },
+        {
+          "op": "delete",
+          "old": "Also",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So you",
+          "new": "You"
+        },
+        {
+          "op": "replace",
+          "old": "one in the network",
+          "new": "node"
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "and"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "correctly You still have to follow"
+        },
+        {
+          "op": "replace",
+          "old": "signal correct To",
+          "new": "protocol rules If you fail repeatedly because of channel errors these rules mean that every time you have to"
+        },
+        {
+          "op": "replace",
+          "old": "confidence",
+          "new": "contention"
+        },
+        {
+          "op": "replace",
+          "old": "and statistically it's",
+          "new": "Statistically it becomes"
+        },
+        {
+          "op": "delete",
+          "old": "will",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "long",
+          "new": "longer"
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "back of",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "right So is",
+          "new": "Is"
+        },
+        {
+          "op": "replace",
+          "old": "Hmm",
+          "new": "Not really You are"
+        },
+        {
+          "op": "replace",
+          "old": "really good right Because",
+          "new": "failing because you collide with other nodes"
+        },
+        {
+          "op": "delete",
+          "old": "why you're failing is not because there are others and you're colliding that's not the reason The reason is that the channel",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "of poor",
+          "new": "channel"
+        },
+        {
+          "op": "replace",
+          "old": "and this",
+          "new": "This"
+        },
+        {
+          "op": "delete",
+          "old": "help to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "that"
+        },
+        {
+          "op": "replace",
+          "old": "Right Actually this method in",
+          "new": "In"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "Why Because",
+          "new": "because"
+        },
+        {
+          "op": "replace",
+          "old": "makes you delay",
+          "new": "delays"
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "accessing the channel being able to",
+          "new": "you can"
+        },
+        {
+          "op": "replace",
+          "old": "the packet With no reason because the problem is not collision",
+          "new": "even though"
+        },
+        {
+          "op": "replace",
+          "old": "So it",
+          "new": "not collision It"
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Doesn't",
+          "new": "and does not"
+        },
+        {
+          "op": "replace",
+          "old": "anything",
+          "new": "that problem"
+        }
+      ]
+    },
+    {
+      "paragraph": 52,
+      "anchor": "01:04:00",
+      "source_indices_one_based": [
+        65
+      ],
+      "source_block_ids": [
+        "133"
+      ],
+      "revised_line": 113,
+      "raw_chunk_indices": [
+        34,
+        35
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK so we need to be aware that well we",
+          "new": "We"
+        },
+        {
+          "op": "delete",
+          "old": "certain techniques",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "But we need",
+          "new": "but"
+        },
+        {
+          "op": "delete",
+          "old": "always to look at this Mechanisms or techniques or solutions with a critical eye That means we need to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "and ask ourselves is this really",
+          "new": "critically Is a solution"
+        },
+        {
+          "op": "delete",
+          "old": "in",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "under all situations Or not There may be",
+          "new": "and in every situation Some"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "a"
+        },
+        {
+          "op": "replace",
+          "old": "that are not that good",
+          "new": "may"
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "be good and"
+        },
+        {
+          "op": "replace",
+          "old": "OK so whenever we design",
+          "new": "When designing"
+        },
+        {
+          "op": "replace",
+          "old": "forpossible",
+          "new": "for possible"
+        },
+        {
+          "op": "replace",
+          "old": "that may arise So an",
+          "new": "An"
+        },
+        {
+          "op": "delete",
+          "old": "be good to",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "it might actually",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "in other situations We need to look at the big picture when designing a technology and this is an example"
+        }
+      ]
+    },
+    {
+      "paragraph": 53,
+      "anchor": "01:05:29",
+      "source_indices_one_based": [
+        66
+      ],
+      "source_block_ids": [
+        "135"
+      ],
+      "revised_line": 115,
+      "raw_chunk_indices": [
+        35,
+        36
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "would like",
+          "new": "want"
+        },
+        {
+          "op": "replace",
+          "old": "and then we go",
+          "new": "on before moving"
+        },
+        {
+          "op": "replace",
+          "old": "Is remember",
+          "new": "is"
+        },
+        {
+          "op": "replace",
+          "old": "how to transmit unicas",
+          "new": "unicast"
+        },
+        {
+          "op": "replace",
+          "old": "right We said",
+          "new": "Let me mention again"
+        },
+        {
+          "op": "replace",
+          "old": "let me just",
+          "new": "multicast and broadcast data packets are much simpler because we do not expect acknowledgments"
+        }
+      ]
+    },
+    {
+      "paragraph": 54,
+      "anchor": "01:06:05",
+      "source_indices_one_based": [
+        67
+      ],
+      "source_block_ids": [
+        "137"
+      ],
+      "revised_line": 117,
+      "raw_chunk_indices": [
+        35,
+        36
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Indeed since",
+          "new": "Since"
+        },
+        {
+          "op": "replace",
+          "old": "We",
+          "new": "we"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "all the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "acknowledgments"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "If all those"
+        },
+        {
+          "op": "replace",
+          "old": "because all these acknowledgments if",
+          "new": "were"
+        },
+        {
+          "op": "replace",
+          "old": "we",
+          "new": "they would"
+        },
+        {
+          "op": "replace",
+          "old": "each other",
+          "new": "one another"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "that would be"
+        }
+      ]
+    },
+    {
+      "paragraph": 55,
+      "anchor": "01:06:45",
+      "source_indices_one_based": [
+        68,
+        69
+      ],
+      "source_block_ids": [
+        "139",
+        "141"
+      ],
+      "revised_line": 119,
+      "raw_chunk_indices": [
+        36,
+        37
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "insert",
+          "old": "",
+          "new": "If you had to desynchronize the acknowledgment transmissions that would be very very complicated and would increase the protocol overhead"
+        },
+        {
+          "op": "replace",
+          "old": "that's",
+          "new": "that is"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "well",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "isbroadcast",
+          "new": "is broadcast"
+        },
+        {
+          "op": "replace",
+          "old": "The",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "the channel",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "the channel",
+          "new": "it"
+        },
+        {
+          "op": "delete",
+          "old": "of course",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Because",
+          "new": "because"
+        },
+        {
+          "op": "delete",
+          "old": "then",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Ok you're",
+          "new": "you are"
+        },
+        {
+          "op": "replace",
+          "old": "because you",
+          "new": "You"
+        },
+        {
+          "op": "replace",
+          "old": "if",
+          "new": "whether"
+        },
+        {
+          "op": "replace",
+          "old": "Verdad Note",
+          "new": "Broadcast and multicast packets are transmitted only once You may need"
+        },
+        {
+          "op": "replace",
+          "old": "self Bronx manticas para You",
+          "new": "run backoff for those data packets but only if when you want to access the channel you"
+        },
+        {
+          "op": "replace",
+          "old": "OK Then once",
+          "new": "Once"
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "and you ask",
+          "new": "access"
+        },
+        {
+          "op": "replace",
+          "old": "you're",
+          "new": "you are"
+        },
+        {
+          "op": "replace",
+          "old": "OK if",
+          "new": "If"
+        },
+        {
+          "op": "replace",
+          "old": "Let",
+          "new": "let"
+        },
+        {
+          "op": "replace",
+          "old": "OK so if we are good",
+          "new": "Okay"
+        },
+        {
+          "op": "delete",
+          "old": "now",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "That is well we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "Under",
+          "new": "in"
+        },
+        {
+          "op": "replace",
+          "old": "the back off",
+          "new": "backoff"
+        },
+        {
+          "op": "delete",
+          "old": "actually",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "OK is",
+          "new": "It"
+        },
+        {
+          "op": "replace",
+          "old": "What is this third situation It is called in",
+          "new": "thing In"
+        },
+        {
+          "op": "replace",
+          "old": "a fast back off just",
+          "new": "post backoff"
+        },
+        {
+          "op": "replace",
+          "old": "with respect to the back off",
+          "new": "from backoff"
+        },
+        {
+          "op": "replace",
+          "old": "under",
+          "new": "in"
+        }
+      ]
+    },
+    {
+      "paragraph": 56,
+      "anchor": "01:09:19",
+      "source_indices_one_based": [
+        70
+      ],
+      "source_block_ids": [
+        "143"
+      ],
+      "revised_line": 121,
+      "raw_chunk_indices": [
+        37,
+        38
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So what",
+          "new": "What"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "It"
+        },
+        {
+          "op": "replace",
+          "old": "So you",
+          "new": "You"
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "In this case",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "and",
+          "new": "I'm"
+        },
+        {
+          "op": "replace",
+          "old": "the wifi",
+          "new": "Wi Fi"
+        },
+        {
+          "op": "replace",
+          "old": "trust me in",
+          "new": "transmitted"
+        },
+        {
+          "op": "replace",
+          "old": "pocket you're",
+          "new": "packet and you are"
+        },
+        {
+          "op": "replace",
+          "old": "Yurisir BA",
+          "new": "receiving the ACK"
+        },
+        {
+          "op": "replace",
+          "old": "recer Unit",
+          "new": "receiver you need"
+        },
+        {
+          "op": "replace",
+          "old": "evact",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "sit up BUMN As",
+          "new": "to CW_min as the"
+        }
+      ]
+    },
+    {
+      "paragraph": 57,
+      "anchor": "01:10:13",
+      "source_indices_one_based": [
+        71
+      ],
+      "source_block_ids": [
+        "145"
+      ],
+      "revised_line": 123,
+      "raw_chunk_indices": [
+        38
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So again",
+          "new": "Again"
+        },
+        {
+          "op": "replace",
+          "old": "right I mean this",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "OK",
+          "new": "okay"
+        },
+        {
+          "op": "replace",
+          "old": "why",
+          "new": "Why"
+        },
+        {
+          "op": "replace",
+          "old": "Well the",
+          "new": "The"
+        },
+        {
+          "op": "replace",
+          "old": "noses",
+          "new": "nodes"
+        }
+      ]
+    },
+    {
+      "paragraph": 58,
+      "anchor": "01:10:32",
+      "source_indices_one_based": [
+        72
+      ],
+      "source_block_ids": [
+        "147"
+      ],
+      "revised_line": 125,
+      "raw_chunk_indices": [
+        38,
+        39
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK So let",
+          "new": "Let"
+        },
+        {
+          "op": "delete",
+          "old": "and",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "in beat the Understand",
+          "new": "understand"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "to run post backoff"
+        },
+        {
+          "op": "replace",
+          "old": "you",
+          "new": "we"
+        },
+        {
+          "op": "replace",
+          "old": "run this post back off So let's",
+          "new": "Let's"
+        },
+        {
+          "op": "delete",
+          "old": "again",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "so that will be easy Access",
+          "new": "again an access"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "node A"
+        },
+        {
+          "op": "delete",
+          "old": "then node a And then we can also consider",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "right Same",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So we",
+          "new": "We already"
+        },
+        {
+          "op": "delete",
+          "old": "that if",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "so"
+        },
+        {
+          "op": "replace",
+          "old": "So the story",
+          "new": "It"
+        },
+        {
+          "op": "delete",
+          "old": "got",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "leaves",
+          "new": "senses the channel for DIFS finds it idle and transmits its unicast data packet to the access point The transmission is successful so the access point sends back the ACK"
+        }
+      ]
+    },
+    {
+      "paragraph": 59,
+      "anchor": "01:11:51",
+      "source_indices_one_based": [
+        73
+      ],
+      "source_block_ids": [
+        "149"
+      ],
+      "revised_line": 127,
+      "raw_chunk_indices": [
+        39
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "And as",
+          "new": "As"
+        },
+        {
+          "op": "delete",
+          "old": "so",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "will send",
+          "new": "therefore set"
+        },
+        {
+          "op": "replace",
+          "old": "noth And same as",
+          "new": "NAV As"
+        },
+        {
+          "op": "replace",
+          "old": "B and Cget",
+          "new": "they get"
+        },
+        {
+          "op": "replace",
+          "old": "packet",
+          "new": "packets"
+        }
+      ]
+    },
+    {
+      "paragraph": 60,
+      "anchor": "01:12:20",
+      "source_indices_one_based": [
+        74
+      ],
+      "source_block_ids": [
+        "151"
+      ],
+      "revised_line": 129,
+      "raw_chunk_indices": [
+        39,
+        40
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Right And we",
+          "new": "We already"
+        },
+        {
+          "op": "delete",
+          "old": "already",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "fine",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "ison a OK",
+          "new": "is on A"
+        },
+        {
+          "op": "replace",
+          "old": "a",
+          "new": "A"
+        },
+        {
+          "op": "replace",
+          "old": "performs",
+          "new": "performed its transmission successfully so it"
+        },
+        {
+          "op": "delete",
+          "old": "transmission successful so it's",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And according",
+          "new": "According"
+        },
+        {
+          "op": "replace",
+          "old": "now we know that a actually wants it",
+          "new": "once A"
+        },
+        {
+          "op": "replace",
+          "old": "transmission Meet in",
+          "new": "transmitting"
+        },
+        {
+          "op": "replace",
+          "old": "receive",
+          "new": "received"
+        },
+        {
+          "op": "replace",
+          "old": "act",
+          "new": "ACK it"
+        },
+        {
+          "op": "replace",
+          "old": "this fast bake off procedure right So I will have",
+          "new": "post backoff It has"
+        },
+        {
+          "op": "replace",
+          "old": "leaves",
+          "new": "DIFS"
+        },
+        {
+          "op": "delete",
+          "old": "we will have to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Out of the range",
+          "new": "from"
+        },
+        {
+          "op": "replace",
+          "old": "cwm And of course for b",
+          "new": "to CW_min B"
+        },
+        {
+          "op": "replace",
+          "old": "c we'll have the same behavior",
+          "new": "C behave"
+        },
+        {
+          "op": "replace",
+          "old": "We",
+          "new": "we"
+        },
+        {
+          "op": "replace",
+          "old": "that's ready so B and and C will",
+          "new": "that already They"
+        },
+        {
+          "op": "replace",
+          "old": "kickoff",
+          "new": "backoff"
+        }
+      ]
+    },
+    {
+      "paragraph": 61,
+      "anchor": "01:13:44",
+      "source_indices_one_based": [
+        75
+      ],
+      "source_block_ids": [
+        "153"
+      ],
+      "revised_line": 131,
+      "raw_chunk_indices": [
+        40
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So again in order",
+          "new": "Again"
+        },
+        {
+          "op": "replace",
+          "old": "is Our",
+          "new": "or"
+        },
+        {
+          "op": "replace",
+          "old": "right So let's",
+          "new": "Let's"
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "back off",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "So what",
+          "new": "What"
+        },
+        {
+          "op": "replace",
+          "old": "a",
+          "new": "A"
+        },
+        {
+          "op": "replace",
+          "old": "anypossible cause Well let's",
+          "new": "any post backoff Let's"
+        },
+        {
+          "op": "delete",
+          "old": "better",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 62,
+      "anchor": "01:14:31",
+      "source_indices_one_based": [
+        76
+      ],
+      "source_block_ids": [
+        "155"
+      ],
+      "revised_line": 133,
+      "raw_chunk_indices": [
+        40,
+        41
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Has got",
+          "new": "has"
+        },
+        {
+          "op": "replace",
+          "old": "pocket",
+          "new": "packet"
+        },
+        {
+          "op": "delete",
+          "old": "a",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "mark",
+          "new": "MAC"
+        },
+        {
+          "op": "replace",
+          "old": "mark",
+          "new": "MAC"
+        },
+        {
+          "op": "replace",
+          "old": "modern Right",
+          "new": "modeled"
+        },
+        {
+          "op": "delete",
+          "old": "So let's consider that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "that A",
+          "new": "it"
+        },
+        {
+          "op": "delete",
+          "old": "got",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "So",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "right Successfully this is",
+          "new": "successfully that's"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "But now A has another packet right here"
+        }
+      ]
+    },
+    {
+      "paragraph": 63,
+      "anchor": "01:15:22",
+      "source_indices_one_based": [
+        77
+      ],
+      "source_block_ids": [
+        "157"
+      ],
+      "revised_line": 135,
+      "raw_chunk_indices": [
+        41
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So when he s",
+          "new": "When it is"
+        },
+        {
+          "op": "replace",
+          "old": "we ll have",
+          "new": "it has"
+        },
+        {
+          "op": "replace",
+          "old": "So what",
+          "new": "What"
+        },
+        {
+          "op": "replace",
+          "old": "didn t",
+          "new": "didn't"
+        },
+        {
+          "op": "replace",
+          "old": "cost",
+          "new": "post backoff"
+        },
+        {
+          "op": "replace",
+          "old": "Well he will have to Sends",
+          "new": "It would sense"
+        },
+        {
+          "op": "replace",
+          "old": "this the channel is",
+          "new": "DIFS find it"
+        },
+        {
+          "op": "delete",
+          "old": "you will",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the channel Trust me So you will have to",
+          "new": "it and"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "packet This may be successful Would that be fair with respect to B and C"
+        }
+      ]
+    },
+    {
+      "paragraph": 64,
+      "anchor": "01:16:10",
+      "source_indices_one_based": [
+        78,
+        79
+      ],
+      "source_block_ids": [
+        "159",
+        "161"
+      ],
+      "revised_line": 137,
+      "raw_chunk_indices": [
+        41,
+        42
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "The poor",
+          "new": "Poor"
+        },
+        {
+          "op": "replace",
+          "old": "right there",
+          "new": "for"
+        },
+        {
+          "op": "replace",
+          "old": "back off",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "bucket",
+          "new": "packet"
+        },
+        {
+          "op": "replace",
+          "old": "go",
+          "new": "goes"
+        },
+        {
+          "op": "replace",
+          "old": "So this",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "and indeed if",
+          "new": "If"
+        },
+        {
+          "op": "delete",
+          "old": "got",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "under",
+          "new": "in"
+        },
+        {
+          "op": "replace",
+          "old": "pass the cost We",
+          "new": "post backoff it will"
+        },
+        {
+          "op": "replace",
+          "old": "Its",
+          "new": "its"
+        },
+        {
+          "op": "replace",
+          "old": "with",
+          "new": "With"
+        },
+        {
+          "op": "delete",
+          "old": "actually",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Transmit",
+          "new": "transmit"
+        },
+        {
+          "op": "delete",
+          "old": "will",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Confused And this",
+          "new": "continuously This"
+        },
+        {
+          "op": "delete",
+          "old": "Also",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "years",
+          "new": "Years"
+        },
+        {
+          "op": "replace",
+          "old": "made experiments",
+          "new": "experimented"
+        },
+        {
+          "op": "replace",
+          "old": "They",
+          "new": "that"
+        },
+        {
+          "op": "replace",
+          "old": "They claimed all",
+          "new": "All"
+        },
+        {
+          "op": "delete",
+          "old": "For",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "But actually",
+          "new": "but"
+        },
+        {
+          "op": "replace",
+          "old": "of these cards",
+          "new": "card"
+        },
+        {
+          "op": "delete",
+          "old": "OK as",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "but the cost became off",
+          "new": "except post backoff"
+        }
+      ]
+    },
+    {
+      "paragraph": 65,
+      "anchor": "01:17:42",
+      "source_indices_one_based": [
+        80
+      ],
+      "source_block_ids": [
+        "163"
+      ],
+      "revised_line": 139,
+      "raw_chunk_indices": [
+        42
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "And what these",
+          "new": "The"
+        },
+        {
+          "op": "delete",
+          "old": "Was",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "WiFi",
+          "new": "Wi Fi"
+        },
+        {
+          "op": "replace",
+          "old": "was obtaining a",
+          "new": "obtained"
+        },
+        {
+          "op": "replace",
+          "old": "that means the ability to",
+          "new": "meaning it could"
+        },
+        {
+          "op": "replace",
+          "old": "While",
+          "new": "while"
+        },
+        {
+          "op": "delete",
+          "old": "WiFi",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "so",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "A",
+          "new": "It was a"
+        },
+        {
+          "op": "delete",
+          "old": "and this is because this was",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "wi fi",
+          "new": "Wi Fi"
+        },
+        {
+          "op": "delete",
+          "old": "at that time",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the prospect of procedure",
+          "new": "post backoff"
+        }
+      ]
+    },
+    {
+      "paragraph": 66,
+      "anchor": "01:18:22",
+      "source_indices_one_based": [
+        81,
+        82
+      ],
+      "source_block_ids": [
+        "165",
+        "167"
+      ],
+      "revised_line": 141,
+      "raw_chunk_indices": [
+        42,
+        43,
+        44
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So this",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "to be you know",
+          "new": "like"
+        },
+        {
+          "op": "replace",
+          "old": "orone",
+          "new": "or one"
+        },
+        {
+          "op": "replace",
+          "old": "I know that",
+          "new": "a node"
+        },
+        {
+          "op": "replace",
+          "old": "it's actually",
+          "new": "it is"
+        },
+        {
+          "op": "replace",
+          "old": "to ensure",
+          "new": "for"
+        },
+        {
+          "op": "replace",
+          "old": "wifi",
+          "new": "Wi Fi"
+        },
+        {
+          "op": "replace",
+          "old": "we want to",
+          "new": "and"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "everyone"
+        },
+        {
+          "op": "replace",
+          "old": "to everyone in",
+          "new": "of"
+        },
+        {
+          "op": "replace",
+          "old": "So it",
+          "new": "It"
+        },
+        {
+          "op": "replace",
+          "old": "importantfeature and now is",
+          "new": "important feature Notice"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "without post backoff even"
+        },
+        {
+          "op": "replace",
+          "old": "we didn't have the post back of procedure",
+          "new": "A had no packet immediately after successfully completing its dialogue"
+        },
+        {
+          "op": "delete",
+          "old": "A right after it'sits completion successful completion of of its dialogue didn't have any pocket But even in the case where",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "gets",
+          "new": "got"
+        },
+        {
+          "op": "replace",
+          "old": "pocket right after",
+          "new": "packet a"
+        },
+        {
+          "op": "replace",
+          "old": "after",
+          "new": "later"
+        },
+        {
+          "op": "replace",
+          "old": "will",
+          "new": "would"
+        },
+        {
+          "op": "replace",
+          "old": "get",
+          "new": "have"
+        },
+        {
+          "op": "replace",
+          "old": "respect to",
+          "new": "over"
+        },
+        {
+          "op": "replace",
+          "old": "Who",
+          "new": "who"
+        },
+        {
+          "op": "replace",
+          "old": "the vehicle So that's",
+          "new": "backoff That's"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "the state of"
+        },
+        {
+          "op": "replace",
+          "old": "mark",
+          "new": "MAC"
+        },
+        {
+          "op": "delete",
+          "old": "state",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "we don't care Once",
+          "new": "once"
+        },
+        {
+          "op": "replace",
+          "old": "the Prospect of procedure right So that's it's that's manual We",
+          "new": "post backoff It is mandatory we"
+        },
+        {
+          "op": "delete",
+          "old": "anything",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "We",
+          "new": "Do we"
+        },
+        {
+          "op": "replace",
+          "old": "three five five plus three",
+          "new": "number unclear"
+        },
+        {
+          "op": "replace",
+          "old": "Okay so we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "15",
+          "new": "fifteen"
+        },
+        {
+          "op": "replace",
+          "old": "before let",
+          "new": "Let"
+        },
+        {
+          "op": "replace",
+          "old": "i",
+          "new": "I"
+        },
+        {
+          "op": "replace",
+          "old": "Need",
+          "new": "I need"
+        },
+        {
+          "op": "replace",
+          "old": "of course Okay so we run",
+          "new": "We have"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "gone"
+        },
+        {
+          "op": "delete",
+          "old": "you have",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "is"
+        },
+        {
+          "op": "replace",
+          "old": "OK so what",
+          "new": "What I"
+        },
+        {
+          "op": "replace",
+          "old": "that is",
+          "new": "presented"
+        },
+        {
+          "op": "delete",
+          "old": "presented in the slides",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Figures that are used in these",
+          "new": "figures"
+        },
+        {
+          "op": "replace",
+          "old": "is",
+          "new": "They"
+        },
+        {
+          "op": "delete",
+          "old": "to",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "But",
+          "new": "but"
+        },
+        {
+          "op": "replace",
+          "old": "indeed Concrete",
+          "new": "a concrete"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "emphasize it"
+        },
+        {
+          "op": "replace",
+          "old": "emphasize this That is we",
+          "new": "We"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "But",
+          "new": "but"
+        },
+        {
+          "op": "delete",
+          "old": "got",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that is",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "right",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So now",
+          "new": "Now"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "the"
+        },
+        {
+          "op": "delete",
+          "old": "is a",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "to that",
+          "new": "of it"
+        }
+      ]
+    },
+    {
+      "paragraph": 67,
+      "anchor": "01:21:58",
+      "source_indices_one_based": [
+        83,
+        84
+      ],
+      "source_block_ids": [
+        "169",
+        "171"
+      ],
+      "revised_line": 143,
+      "raw_chunk_indices": [
+        44,
+        45
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So we know thatin the case where",
+          "new": "When"
+        },
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "a"
+        },
+        {
+          "op": "delete",
+          "old": "of all",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "need to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "dips",
+          "new": "DIFS"
+        },
+        {
+          "op": "replace",
+          "old": "dips",
+          "new": "DIFS"
+        },
+        {
+          "op": "replace",
+          "old": "50",
+          "new": "fifty"
+        },
+        {
+          "op": "replace",
+          "old": "So that's for sure something that",
+          "new": "That is certainly time"
+        },
+        {
+          "op": "replace",
+          "old": "for Then if",
+          "new": "If"
+        },
+        {
+          "op": "replace",
+          "old": "The",
+          "new": "the"
+        },
+        {
+          "op": "delete",
+          "old": "that we transmit we already know that",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "got some",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "right Actually we",
+          "new": "We"
+        },
+        {
+          "op": "delete",
+          "old": "got",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that is",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "essentially",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "And",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "to",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Wal they test speaker istrand So at",
+          "new": "what the transmitter sends At"
+        },
+        {
+          "op": "replace",
+          "old": "Communication And then",
+          "new": "communication Then"
+        },
+        {
+          "op": "delete",
+          "old": "there is",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Where",
+          "new": "where for example"
+        },
+        {
+          "op": "delete",
+          "old": "for example",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "duration So all this haters arjust Control",
+          "new": "Duration field All these headers are just control"
+        },
+        {
+          "op": "replace",
+          "old": "It's",
+          "new": "They are"
+        },
+        {
+          "op": "delete",
+          "old": "something that is there It is",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "not they're",
+          "new": "these are"
+        },
+        {
+          "op": "replace",
+          "old": "right So they're",
+          "new": "They are"
+        },
+        {
+          "op": "replace",
+          "old": "butfrom",
+          "new": "but from"
+        },
+        {
+          "op": "replace",
+          "old": "application from what would be the application layer",
+          "new": "application's"
+        },
+        {
+          "op": "replace",
+          "old": "That's something that is",
+          "new": "they are"
+        },
+        {
+          "op": "replace",
+          "old": "it's not",
+          "new": "or"
+        }
+      ]
+    },
+    {
+      "paragraph": 68,
+      "anchor": "01:23:51",
+      "source_indices_one_based": [
+        85
+      ],
+      "source_block_ids": [
+        "173"
+      ],
+      "revised_line": 145,
+      "raw_chunk_indices": [
+        45,
+        46
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK So but we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "to transmit these",
+          "new": "transmitting this"
+        },
+        {
+          "op": "replace",
+          "old": "physical layer",
+          "new": "and"
+        },
+        {
+          "op": "replace",
+          "old": "So as",
+          "new": "As"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "already"
+        },
+        {
+          "op": "delete",
+          "old": "already",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "So the art",
+          "new": "so they are"
+        },
+        {
+          "op": "replace",
+          "old": "at low speed",
+          "new": "If as in this example the basic rate is one megabit per second you have to wait this takes time Then we have the MAC header"
+        }
+      ]
+    },
+    {
+      "paragraph": 69,
+      "anchor": "01:24:28",
+      "source_indices_one_based": [
+        86
+      ],
+      "source_block_ids": [
+        "175"
+      ],
+      "revised_line": 147,
+      "raw_chunk_indices": [
+        45,
+        46
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "The",
+          "new": "Again the"
+        },
+        {
+          "op": "replace",
+          "old": "again are we say non interesting",
+          "new": "consists of uninteresting"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "application's"
+        },
+        {
+          "op": "replace",
+          "old": "of the application The",
+          "new": "Its"
+        },
+        {
+          "op": "delete",
+          "old": "of the mac header",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "wi fi",
+          "new": "Wi Fi"
+        },
+        {
+          "op": "delete",
+          "old": "actually",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "on",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "on"
+        },
+        {
+          "op": "replace",
+          "old": "So if",
+          "new": "If"
+        },
+        {
+          "op": "replace",
+          "old": "a VSS",
+          "new": "an"
+        },
+        {
+          "op": "replace",
+          "old": "VSS as",
+          "new": "BSS like"
+        },
+        {
+          "op": "delete",
+          "old": "that you've got",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Dia",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "drasis dan yuni",
+          "new": "addresses you need are"
+        },
+        {
+          "op": "replace",
+          "old": "RD Transmitter address",
+          "new": "transmitter"
+        },
+        {
+          "op": "delete",
+          "old": "a",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "address",
+          "new": "addresses"
+        }
+      ]
+    },
+    {
+      "paragraph": 70,
+      "anchor": "01:25:04",
+      "source_indices_one_based": [
+        87
+      ],
+      "source_block_ids": [
+        "177"
+      ],
+      "revised_line": 149,
+      "raw_chunk_indices": [
+        46
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "delete",
+          "old": "your",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "tongji",
+          "new": "the Tongji"
+        },
+        {
+          "op": "replace",
+          "old": "where we have",
+          "new": "with"
+        },
+        {
+          "op": "delete",
+          "old": "you know",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "the wide",
+          "new": "wired"
+        },
+        {
+          "op": "delete",
+          "old": "Then",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "and the",
+          "new": "The"
+        },
+        {
+          "op": "delete",
+          "old": "for that",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "In",
+          "new": "in"
+        },
+        {
+          "op": "replace",
+          "old": "you",
+          "new": "we"
+        },
+        {
+          "op": "replace",
+          "old": "as we know",
+          "new": "access points connected to each other We already explained the network architecture"
+        }
+      ]
+    },
+    {
+      "paragraph": 71,
+      "anchor": "01:25:52",
+      "source_indices_one_based": [
+        88
+      ],
+      "source_block_ids": [
+        "179"
+      ],
+      "revised_line": 151,
+      "raw_chunk_indices": [
+        46,
+        47
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Well then you have to",
+          "new": "You"
+        },
+        {
+          "op": "replace",
+          "old": "your packet",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "with This access",
+          "new": "to Access"
+        },
+        {
+          "op": "replace",
+          "old": "will send the packet",
+          "new": "sends it"
+        },
+        {
+          "op": "delete",
+          "old": "then",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "will deliver the packet",
+          "new": "delivers it"
+        }
+      ]
+    },
+    {
+      "paragraph": 72,
+      "anchor": "01:26:20",
+      "source_indices_one_based": [
+        89,
+        90,
+        91
+      ],
+      "source_block_ids": [
+        "181",
+        "183",
+        "185"
+      ],
+      "revised_line": 153,
+      "raw_chunk_indices": [
+        47,
+        48
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "Ok Now in",
+          "new": "In"
+        },
+        {
+          "op": "replace",
+          "old": "a",
+          "new": "A"
+        },
+        {
+          "op": "replace",
+          "old": "ok The",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "So it's your",
+          "new": "so it is the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "the"
+        },
+        {
+          "op": "replace",
+          "old": "And access",
+          "new": "Access"
+        },
+        {
+          "op": "replace",
+          "old": "Is",
+          "new": "is"
+        },
+        {
+          "op": "replace",
+          "old": "So this",
+          "new": "The"
+        },
+        {
+          "op": "replace",
+          "old": "that travels",
+          "new": "traveling"
+        },
+        {
+          "op": "replace",
+          "old": "will have",
+          "new": "has"
+        },
+        {
+          "op": "replace",
+          "old": "Address",
+          "new": "address"
+        },
+        {
+          "op": "replace",
+          "old": "sources",
+          "new": "source"
+        },
+        {
+          "op": "replace",
+          "old": "You will have",
+          "new": "It has"
+        },
+        {
+          "op": "replace",
+          "old": "one",
+          "new": "one's"
+        },
+        {
+          "op": "replace",
+          "old": "a",
+          "new": "the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "address"
+        },
+        {
+          "op": "delete",
+          "old": "then you will have the Destination address the",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "the"
+        },
+        {
+          "op": "delete",
+          "old": "to have",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "mark",
+          "new": "MAC"
+        },
+        {
+          "op": "replace",
+          "old": "Can",
+          "new": "Once the packet is received at access point one that access point has to send it to access point two so that it eventually can"
+        },
+        {
+          "op": "replace",
+          "old": "This",
+          "new": "Here the"
+        },
+        {
+          "op": "replace",
+          "old": "when the packet's here it means",
+          "new": "needs"
+        },
+        {
+          "op": "replace",
+          "old": "Because we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "this packet",
+          "new": "it"
+        },
+        {
+          "op": "replace",
+          "old": "The",
+          "new": "the"
+        },
+        {
+          "op": "delete",
+          "old": "now",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "and"
+        },
+        {
+          "op": "delete",
+          "old": "where this packet has to go",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Right So in",
+          "new": "In"
+        },
+        {
+          "op": "replace",
+          "old": "the wi fi",
+          "new": "Wi Fi"
+        },
+        {
+          "op": "replace",
+          "old": "So this",
+          "new": "This"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "MAC header's"
+        },
+        {
+          "op": "delete",
+          "old": "of the MAC header",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "OK maybe",
+          "new": "it can be"
+        },
+        {
+          "op": "delete",
+          "old": "so",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "this",
+          "new": "DIFS the"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "physical header and MAC header The payload is the useful interesting part so it is not overhead"
+        }
+      ]
+    },
+    {
+      "paragraph": 73,
+      "anchor": "01:29:08",
+      "source_indices_one_based": [
+        92
+      ],
+      "source_block_ids": [
+        "187"
+      ],
+      "revised_line": 155,
+      "raw_chunk_indices": [
+        48
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "But then",
+          "new": "Then"
+        },
+        {
+          "op": "replace",
+          "old": "so",
+          "new": "delivered successfully"
+        },
+        {
+          "op": "replace",
+          "old": "delivered successfully you have sips That",
+          "new": "there"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "SIFS"
+        },
+        {
+          "op": "delete",
+          "old": "time you have",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And then",
+          "new": "Then comes the"
+        },
+        {
+          "op": "delete",
+          "old": "that is",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "controlled",
+          "new": "control"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "it is"
+        },
+        {
+          "op": "replace",
+          "old": "application",
+          "new": "application's"
+        }
+      ]
+    },
+    {
+      "paragraph": 74,
+      "anchor": "01:29:30",
+      "source_indices_one_based": [
+        93
+      ],
+      "source_block_ids": [
+        "189"
+      ],
+      "revised_line": 157,
+      "raw_chunk_indices": [
+        48,
+        49
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "And the",
+          "new": "The"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "a"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "and"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "there are"
+        },
+        {
+          "op": "replace",
+          "old": "be transmitted And that's",
+          "new": "transmit That is"
+        },
+        {
+          "op": "replace",
+          "old": "So",
+          "new": "To transmit the payload"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "have to wait for DIFS transmission of the physical layer preamble physical layer header and MAC header then SIFS and then ACK Lots of time just"
+        },
+        {
+          "op": "replace",
+          "old": "pillow You to wait dewes Transmission of Physical Ambos",
+          "new": "payload"
+        }
+      ]
+    },
+    {
+      "paragraph": 75,
+      "anchor": "01:30:04",
+      "source_indices_one_based": [
+        94
+      ],
+      "source_block_ids": [
+        "191"
+      ],
+      "revised_line": 159,
+      "raw_chunk_indices": [
+        49
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So you",
+          "new": "You had"
+        },
+        {
+          "op": "replace",
+          "old": "And this",
+          "new": "This"
+        },
+        {
+          "op": "replace",
+          "old": "if your",
+          "new": "If"
+        },
+        {
+          "op": "replace",
+          "old": "performback off",
+          "new": "perform backoff"
+        },
+        {
+          "op": "replace",
+          "old": "retries me",
+          "new": "retransmit"
+        },
+        {
+          "op": "delete",
+          "old": "Then",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "have to",
+          "new": "must"
+        },
+        {
+          "op": "replace",
+          "old": "Dips back off",
+          "new": "DIFS backoff"
+        },
+        {
+          "op": "replace",
+          "old": "Hope that",
+          "new": "and hope"
+        },
+        {
+          "op": "replace",
+          "old": "and",
+          "new": "so that"
+        },
+        {
+          "op": "replace",
+          "old": "decrease",
+          "new": "keep decreasing"
+        },
+        {
+          "op": "replace",
+          "old": "back off",
+          "new": "backoff"
+        },
+        {
+          "op": "replace",
+          "old": "continuously and over time reach",
+          "new": "until it reaches"
+        },
+        {
+          "op": "replace",
+          "old": "and then",
+          "new": "Then"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "then SIFS"
+        },
+        {
+          "op": "replace",
+          "old": "the seeds and the ark",
+          "new": "ACK"
+        },
+        {
+          "op": "replace",
+          "old": "Just again",
+          "new": "just"
+        },
+        {
+          "op": "replace",
+          "old": "trust me",
+          "new": "transmit"
+        },
+        {
+          "op": "replace",
+          "old": "failure",
+          "new": "payload again"
+        }
+      ]
+    },
+    {
+      "paragraph": 76,
+      "anchor": "01:30:46",
+      "source_indices_one_based": [
+        95
+      ],
+      "source_block_ids": [
+        "193"
+      ],
+      "revised_line": 161,
+      "raw_chunk_indices": [
+        49
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "So we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "the",
+          "new": "Wi Fi's"
+        },
+        {
+          "op": "delete",
+          "old": "of Wi Fi",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "And",
+          "new": "Unfortunately"
+        },
+        {
+          "op": "delete",
+          "old": "unfortunately",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "Okay we",
+          "new": "We"
+        },
+        {
+          "op": "replace",
+          "old": "it's actually",
+          "new": "it is"
+        },
+        {
+          "op": "replace",
+          "old": "And on",
+          "new": "On"
+        },
+        {
+          "op": "replace",
+          "old": "that the",
+          "new": "this scheme's"
+        },
+        {
+          "op": "replace",
+          "old": "of this scheme is",
+          "new": "to be"
+        },
+        {
+          "op": "replace",
+          "old": "50 55 Which",
+          "new": "fifty to fifty five percent which"
+        },
+        {
+          "op": "replace",
+          "old": "right The maximum",
+          "new": "Maximum"
+        },
+        {
+          "op": "replace",
+          "old": "100",
+          "new": "one hundred percent"
+        }
+      ]
+    },
+    {
+      "paragraph": 77,
+      "anchor": "01:31:25",
+      "source_indices_one_based": [
+        96,
+        97
+      ],
+      "source_block_ids": [
+        "195",
+        "197"
+      ],
+      "revised_line": 163,
+      "raw_chunk_indices": [
+        49,
+        50
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK that",
+          "new": "That"
+        },
+        {
+          "op": "replace",
+          "old": "We",
+          "new": "we"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "missing"
+        },
+        {
+          "op": "delete",
+          "old": "missing",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "the",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "That",
+          "new": "which"
+        },
+        {
+          "op": "replace",
+          "old": "OK So we",
+          "new": "We"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "it"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "will"
+        },
+        {
+          "op": "replace",
+          "old": "After",
+          "new": "after"
+        },
+        {
+          "op": "replace",
+          "old": "This",
+          "new": "this"
+        },
+        {
+          "op": "replace",
+          "old": "peace for Of",
+          "new": "piece of"
+        },
+        {
+          "op": "delete",
+          "old": "that is",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "what actually",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "already"
+        },
+        {
+          "op": "delete",
+          "old": "already",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "for",
+          "new": "four"
+        },
+        {
+          "op": "replace",
+          "old": "space the extended IFS remember",
+          "new": "spaces"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "extended IFS and the"
+        },
+        {
+          "op": "replace",
+          "old": "lander we have sieves peeves diffs",
+          "new": "ladder SIFS PIFS DIFS"
+        },
+        {
+          "op": "replace",
+          "old": "So",
+          "new": "We said"
+        },
+        {
+          "op": "replace",
+          "old": "said let's",
+          "new": "would"
+        },
+        {
+          "op": "replace",
+          "old": "a sieves",
+          "new": "SIFS"
+        },
+        {
+          "op": "replace",
+          "old": "diffs",
+          "new": "DIFS and"
+        },
+        {
+          "op": "delete",
+          "old": "and",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "we'll go back",
+          "new": "return"
+        },
+        {
+          "op": "replace",
+          "old": "So now it's",
+          "new": "Now it is"
+        },
+        {
+          "op": "replace",
+          "old": "among",
+          "new": "of"
+        },
+        {
+          "op": "delete",
+          "old": "time",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "That was indeed",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "and just to",
+          "new": "To"
+        },
+        {
+          "op": "replace",
+          "old": "these extended IFS so this time interval Can",
+          "new": "it can"
+        },
+        {
+          "op": "replace",
+          "old": "300",
+          "new": "three hundred"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "it is"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "so far",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "paragraph": 78,
+      "anchor": "01:33:12",
+      "source_indices_one_based": [
+        98
+      ],
+      "source_block_ids": [
+        "199"
+      ],
+      "revised_line": 165,
+      "raw_chunk_indices": [
+        50,
+        51
+      ],
+      "current_feishu_english_equals_revision_clean": true,
+      "operations": [
+        {
+          "op": "replace",
+          "old": "OK it",
+          "new": "It"
+        },
+        {
+          "op": "delete",
+          "old": "that",
+          "new": ""
+        },
+        {
+          "op": "delete",
+          "old": "justyeah",
+          "new": ""
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "an approximate figure"
+        },
+        {
+          "op": "delete",
+          "old": "again",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "be considered",
+          "new": "consider it"
+        },
+        {
+          "op": "replace",
+          "old": "300",
+          "new": "three hundred"
+        },
+        {
+          "op": "replace",
+          "old": "OK so just",
+          "new": "Just"
+        },
+        {
+          "op": "replace",
+          "old": "So if i'm",
+          "new": "have an idea If I'm"
+        },
+        {
+          "op": "insert",
+          "old": "",
+          "new": "we"
+        },
+        {
+          "op": "delete",
+          "old": "we",
+          "new": ""
+        },
+        {
+          "op": "replace",
+          "old": "25",
+          "new": "twenty five"
+        },
+        {
+          "op": "replace",
+          "old": "OK",
+          "new": "Okay"
+        }
+      ]
+    }
+  ]
+}
