@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5280.0,
+  "end_seconds": 5400.0,
+  "text": "By B finish exactly at the same time, okay? Because this is zero point one plus the data packet transmitted by A that is zero point three. This is t zero plus zero point four milliseconds, right? And the transmission by B lasts zero point four milliseconds. So it starts at t zero, but it goes on till t zero plus zero point four milliseconds. So this means that these two transmissions at the beginning, the one by A and the one by B, collide, okay? For sure at the access point we do have a collision, but the data packets end at the same time because A starts a little bit late. So the last hint that I will give you is that initially, since C could read the header of this packet and set its nav accordingly. How long will C's nav be? It will cover the whole duration of this transmission. And you also remember always that nav covers the expected duration of the dialogue, right? So it will also account.",
+  "raw_decoded": "language English<asr_text>By B finish exactly at the same time, okay? Because this is zero point one plus the data packet transmitted by A that is zero point three. This is t zero plus zero point four milliseconds, right? And the transmission by B lasts zero point four milliseconds. So it starts at t zero, but it goes on till t zero plus zero point four milliseconds. So this means that these two transmissions at the beginning, the one by A and the one by B, collide, okay? For sure at the access point we do have a collision, but the data packets end at the same time because A starts a little bit late. So the last hint that I will give you is that initially, since C could read the header of this packet and set its nav accordingly. How long will C's nav be? It will cover the whole duration of this transmission. And you also remember always that nav covers the expected duration of the dialogue, right? So it will also account.<|im_end|>",
+  "generated_tokens": 200,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.21023135699943,
+  "at": "2026-10-18T05:04:45.632923+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

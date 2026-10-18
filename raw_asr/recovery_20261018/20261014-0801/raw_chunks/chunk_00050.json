@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5500.0,
+  "end_seconds": 5620.0,
+  "text": "Now is device-to-device communication networks, wireless communication networks. We now already what this means, right? So we necessarily we may not have a piece of infrastructure. We might have pure ad hoc network topologies, where the nodes are able to communicate with each other directly. Or we may have a gateway and node that acts as a gateway toward the infrastructure, but the important concept here is that given a set of communication nodes, they can communicate with each other. Okay, that's the meaning of device-to-device networks that we already explained in our introductory slides. So in this case we have nodes that can communicate with each other. Okay, it is not like in WiFi with infrastructure with access point, where the nodes can only communicate with the access point, right? This is based on device-to-device communication, so in this case the nodes can talk to each other. Okay, so if they are sensors, if they are user nodes, it doesn't matter, they will be able to communicate. So not just hear each other, but communicate. Okay, and that's what we are going to.",
+  "raw_decoded": "language English<asr_text>Now is device-to-device communication networks, wireless communication networks. We now already what this means, right? So we necessarily we may not have a piece of infrastructure. We might have pure ad hoc network topologies, where the nodes are able to communicate with each other directly. Or we may have a gateway and node that acts as a gateway toward the infrastructure, but the important concept here is that given a set of communication nodes, they can communicate with each other. Okay, that's the meaning of device-to-device networks that we already explained in our introductory slides. So in this case we have nodes that can communicate with each other. Okay, it is not like in WiFi with infrastructure with access point, where the nodes can only communicate with the access point, right? This is based on device-to-device communication, so in this case the nodes can talk to each other. Okay, so if they are sensors, if they are user nodes, it doesn't matter, they will be able to communicate. So not just hear each other, but communicate. Okay, and that's what we are going to.<|im_end|>",
+  "generated_tokens": 226,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.188488714000414,
+  "at": "2026-10-18T05:05:41.467204+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}
