@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4400.0,
+  "end_seconds": 4520.0,
+  "text": "Zero CWM. And of course, for B and C, we'll have the same behavior as before. We know that's ready. So B and C will have to run a let's say regular, the go procedure. So again, in order to understand how useful the mechanism is or solution is. Let's play our little game of ablation. Right, so let's remove the post go and see what happens. So what if A does not have to run any any post go. Well, let's add an event here to better understand what would happen considering all possible cases. Let's consider that A has got another packet in its mark queue. Remember that we said the mark layer can be modded right as a queue with a server. So let's consider that A has transmitted the packet here successfully, but let's assume that A has put another packet in the queue waiting to be transmitted. So this first packet goes through right successfully. This is what we represented here. But now A is going.",
+  "raw_decoded": "language English<asr_text>Zero CWM. And of course, for B and C, we'll have the same behavior as before. We know that's ready. So B and C will have to run a let's say regular, the go procedure. So again, in order to understand how useful the mechanism is or solution is. Let's play our little game of ablation. Right, so let's remove the post go and see what happens. So what if A does not have to run any any post go. Well, let's add an event here to better understand what would happen considering all possible cases. Let's consider that A has got another packet in its mark queue. Remember that we said the mark layer can be modded right as a queue with a server. So let's consider that A has transmitted the packet here successfully, but let's assume that A has put another packet in the queue waiting to be transmitted. So this first packet goes through right successfully. This is what we represented here. But now A is going.<|im_end|>",
+  "generated_tokens": 209,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.145127862000663,
+  "at": "2026-10-18T03:03:20.777275+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

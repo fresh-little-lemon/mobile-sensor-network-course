@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4510.0,
+  "end_seconds": 4630.0,
+  "text": "Successfully, this is what we represented here. But now A has got another packet right here, right? So when it's done with this dialogue, we'll have another packet to deal with. So what if A didn't have any possible cost to run? Well, it will have to. Since the channel for B's, the channel is idle, and it will be able to access the channel. So it will have to transmit its own data. This may be successful, and what would be that? Would that be fear? We respect to B and C, the poor B and C are waiting right there because time, and A just gets the next packet and go ahead with its transmission. So this is unfair. And indeed, if a Wi-Fi card like A has got several packets to transmit, under this situation without possible cost, we just continue accessing the channel and transmitting its packets. With very high probability, you will actually size the channel for a very long time and transmit, transmit, transmit. While the others, we have to wait, wait, wait because the channel will become busy confused. And this was indeed observed also experimentally years ago. Some research.",
+  "raw_decoded": "language English<asr_text>Successfully, this is what we represented here. But now A has got another packet right here, right? So when it's done with this dialogue, we'll have another packet to deal with. So what if A didn't have any possible cost to run? Well, it will have to. Since the channel for B's, the channel is idle, and it will be able to access the channel. So it will have to transmit its own data. This may be successful, and what would be that? Would that be fear? We respect to B and C, the poor B and C are waiting right there because time, and A just gets the next packet and go ahead with its transmission. So this is unfair. And indeed, if a Wi-Fi card like A has got several packets to transmit, under this situation without possible cost, we just continue accessing the channel and transmitting its packets. With very high probability, you will actually size the channel for a very long time and transmit, transmit, transmit. While the others, we have to wait, wait, wait because the channel will become busy confused. And this was indeed observed also experimentally years ago. Some research.<|im_end|>",
+  "generated_tokens": 241,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.060530872000527,
+  "at": "2026-10-18T03:03:50.838410+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

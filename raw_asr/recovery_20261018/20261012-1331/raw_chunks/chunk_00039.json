@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4290.0,
+  "end_seconds": 4410.0,
+  "text": "Packet leaves, channel idle, transmission the data packet, unique state packet to the access point. This packet transmission is successful, so the access points have back the ACK. And as we said before, all nodes are in radio visibility of each other, they can hear each other. So B and C will say they are not. And same as before, at certain point B and C get a packet from their respective higher layers, so they will have to transmit their packet, right? And we know already how things work, fine. But now our attention is on A, okay? Let's focus on A. A is the one that performs its transmission successfully, so it's done. And according to the protocol, now we know that A actually once it has finished transmitting the packet and received the ACK, needs to perform this past backoff procedure, right? So it will have to sense the channel for leaves, and then it will have to draw an integer out of the range zero CW min. And of course, for B and C, will have the same behavior as before.",
+  "raw_decoded": "language English<asr_text>Packet leaves, channel idle, transmission the data packet, unique state packet to the access point. This packet transmission is successful, so the access points have back the ACK. And as we said before, all nodes are in radio visibility of each other, they can hear each other. So B and C will say they are not. And same as before, at certain point B and C get a packet from their respective higher layers, so they will have to transmit their packet, right? And we know already how things work, fine. But now our attention is on A, okay? Let's focus on A. A is the one that performs its transmission successfully, so it's done. And according to the protocol, now we know that A actually once it has finished transmitting the packet and received the ACK, needs to perform this past backoff procedure, right? So it will have to sense the channel for leaves, and then it will have to draw an integer out of the range zero CW min. And of course, for B and C, will have the same behavior as before.<|im_end|>",
+  "generated_tokens": 222,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.911169698998492,
+  "at": "2026-10-18T03:02:52.631333+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}
