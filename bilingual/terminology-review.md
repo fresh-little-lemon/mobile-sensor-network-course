@@ -1,6 +1,6 @@
 # 双语课程稿术语核对
 
-核对日期：2026-10-18。当前覆盖：按录音顺序的前7份课程，共588组双语段落。后续课程逐份补充。
+核对日期：2026-10-18。当前覆盖：按录音顺序的前8份课程，共669组双语段落。后续课程逐份补充。
 
 ## 采用的译法与依据
 
@@ -253,3 +253,35 @@
 [22] Microsoft Learn，WiFiCx WPA3-SAE authentication：https://learn.microsoft.com/en-us/windows-hardware/drivers/netcx/wificx-wpa3-sae-authentication
 
 [23] MathWorks，What Is MIMO?：https://www.mathworks.com/help/comm/ug/what-is-mimo.html
+
+## 20261010-0800：DCF、帧间间隔与虚拟载波侦听
+
+| 英文 | 中文译法 | 核对与说明 |
+|---|---|---|
+| DCF / PCF | 分布式协调功能／点协调功能 | 区分分布式争用和集中协调；现代机制还有扩展，不以此概括全部Wi-Fi |
+| CSMA / CD / CA | 载波侦听多路访问／碰撞检测／碰撞避免 | 标准英文CSMA通常展开Carrier Sense Multiple Access；CA降低风险而不保证零碰撞[24][25] |
+| FIFO | 先进先出 | First In, First Out；本课“first input, first output”不是通常展开 |
+| queue / server | 队列／服务台 | 排队模型里的server不是必须指计算服务器 |
+| unicast / multicast / broadcast | 单播／组播／广播 | 按目标接收集合区分，不意味着无线能量只传播到对应目的地 |
+| uplink / downlink | 上行／下行 | 用户至接入端／接入端至用户，与实际安装高度无必然关系 |
+| slot time / turnaround time | 时隙长度／收发转换时间 | 具体值依PHY而定，20微秒不是所有Wi-Fi通用值 |
+| SIFS / PIFS / DIFS / EIFS | 短／点协调功能／分布式协调功能／扩展帧间间隔 | DIFS=SIFS+2×SlotTime；涉及随机退避等条件时不能仅按DIFS判可发[25] |
+| Duration / NAV | 持续时间字段／网络分配向量 | NAV在此作为虚拟预留计时器理解，不是普通的随机退避计数器 |
+| physical / virtual carrier sensing | 物理／虚拟载波侦听 | 区分PHY检测与MAC时间预留 |
+| MPDU | MAC协议数据单元 | 原文“PD means ...”有缩写误识；标准术语为MPDU |
+
+### 原讲述中的技术核对
+
+- 原文把使用CSMA/CD的以太网称为全双工，这是错误的。经典共享介质以太网的CSMA/CD用于半双工；全双工以太网不使用CSMA/CD。边发边检测碰撞不等于全双工数据通信[24]。
+- “DCF连续空闲DIFS后即可发送”只是这一节尚未展开退避的简化示意。完整分析还要考虑随机退避、退避冻结恢复、重传和后退避等条件[25]。
+- SIFS主要保护ACK、CTS等规定响应及已获准交换，不是任意应用把包标为重要就能绕过争用直接用SIFS发送。
+- 信标包含时间同步信息，但DCF不是所有节点按信标起点统一分配全局发送槽位的TDMA系统。时隙、TSF时钟同步及退避启动条件不能混为一谈。
+- Duration字段常以微秒编码预留时长，NAV不能一般地按“固定五个时隙”理解。基础DATA/ACK交换中，数据帧Duration通常指该帧之后的SIFS及ACK预留；不能把当前数据帧本身也无条件重复计入。原讲述的时间线是示意。
+- 物理载波侦听除能量检测外，还可涉及前导码／信号检测；实际CCA门限不是简单地与瞬时纯噪声能量比较。
+- “人人解调每个帧首部”依赖可接收和可解码条件，不能保证所有站点总能读出Duration。
+- “PCF从未实现”的表述过强；本课聚焦常用DCF并把PCF作补充，不据此宣称全部厂商全部历史实现均不存在PCF。
+- 对话类比和原文混合语言用于保持课堂上下文，不能作为标准协议的精确描述。
+
+[24] Cisco，Troubleshooting Ethernet：https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1904.html
+
+[25] IETF，RFC 8325，Mapping Diffserv to IEEE 802.11：https://datatracker.ietf.org/doc/html/rfc8325
