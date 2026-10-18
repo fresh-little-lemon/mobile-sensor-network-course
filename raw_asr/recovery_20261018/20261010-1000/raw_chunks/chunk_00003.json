@@ -1,0 +1,12 @@
+{
+  "start_seconds": 330.0,
+  "end_seconds": 450.0,
+  "text": "A is already transmitting to the axis point. B senses the channel as idle. Thank you, as idle. Okay, good. So this means that B two we start a meeting toward the axis point after a diff time. So now we have a partial overlap of the two transmissions at the axis point. So that means that part of these packets cannot be demodulated correctly by the axis point. Right? So that part that overlaps is wasted. So the axis point will not acknowledge any of these packets because both of them will report errors. Right? Partially for both of them, the S and R, the S I and R will be too low. And the axis point is experiencing this collision right because the two signals at the axis point collide. Will not be able to demodulate either packet correctly. So as I said, there is no acknowledgement for anybody here. Both transmissions fail. You agree? Okay, so this is bad. Because we just.",
+  "raw_decoded": "language English<asr_text>A is already transmitting to the axis point. B senses the channel as idle. Thank you, as idle. Okay, good. So this means that B two we start a meeting toward the axis point after a diff time. So now we have a partial overlap of the two transmissions at the axis point. So that means that part of these packets cannot be demodulated correctly by the axis point. Right? So that part that overlaps is wasted. So the axis point will not acknowledge any of these packets because both of them will report errors. Right? Partially for both of them, the S and R, the S I and R will be too low. And the axis point is experiencing this collision right because the two signals at the axis point collide. Will not be able to demodulate either packet correctly. So as I said, there is no acknowledgement for anybody here. Both transmissions fail. You agree? Okay, so this is bad. Because we just.<|im_end|>",
+  "generated_tokens": 199,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.57391555600043,
+  "at": "2026-10-18T02:22:50.132816+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

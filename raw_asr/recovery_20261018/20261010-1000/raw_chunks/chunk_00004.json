@@ -1,0 +1,12 @@
+{
+  "start_seconds": 440.0,
+  "end_seconds": 560.0,
+  "text": "Transmission's fail. Do you agree? Okay, so this is bad because we just wasted radio resources. Right? The two nodes try to transmit both of them fail total failure. So this means that the basic scheme that we look at earlier is not working really good when there are hidden nodes. So what the standard says is: well, let's introduce a slightly different version of the basic scheme that can be used to make channel access more efficient. And this is the scheme with the so called explicit channel reservation, or is also called DCF with handshake. Okay, why? Why? Because let me show you a figure that is easier to understand. Because in this second version of the DCF, what we have is the possibility to have an handshake before the actual data packet transmission. And a handshake is when you shake hands, right? We saw one. So is a phase an initial phase during which transmitter and receiver essentially meet each other.",
+  "raw_decoded": "language English<asr_text>Transmission's fail. Do you agree? Okay, so this is bad because we just wasted radio resources. Right? The two nodes try to transmit both of them fail total failure. So this means that the basic scheme that we look at earlier is not working really good when there are hidden nodes. So what the standard says is: well, let's introduce a slightly different version of the basic scheme that can be used to make channel access more efficient. And this is the scheme with the so called explicit channel reservation, or is also called DCF with handshake. Okay, why? Why? Because let me show you a figure that is easier to understand. Because in this second version of the DCF, what we have is the possibility to have an handshake before the actual data packet transmission. And a handshake is when you shake hands, right? We saw one. So is a phase an initial phase during which transmitter and receiver essentially meet each other.<|im_end|>",
+  "generated_tokens": 194,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.45384987899979,
+  "at": "2026-10-18T02:23:17.587466+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

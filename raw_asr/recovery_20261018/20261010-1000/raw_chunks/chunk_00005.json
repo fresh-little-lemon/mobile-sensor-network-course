@@ -1,0 +1,12 @@
+{
+  "start_seconds": 550.0,
+  "end_seconds": 670.0,
+  "text": "In which transmitter and receiver essentially meet each other, and then the transmitter actually transmits the packet. So the transmitter starts saying something important, right? So here is like if node A in the previous example, first of all greets the access point, say \"Hi, access point, nice meeting you,\" and the access point says \"Ah, very nice meeting you, node A,\" and then node A starts talking to the access point, okay? Why? Why they do that? So because by doing that they essentially agree on talking, right, on starting a dialogue, and they do that by exchanging these two control packets that are called request to send. This is what the transmitter will send, and if the intended receiver is available to receive, okay, to engage to be engaged in this dialogue, he will reply with another control packet called clear to send. Okay, so request to send really means \"May I send you something?\" and clear to send means \"You are clear to go ahead,\" okay? So the way now the dialogue happens is the following: our transmitter, as before, first of all needs to sense the channel.",
+  "raw_decoded": "language English<asr_text>In which transmitter and receiver essentially meet each other, and then the transmitter actually transmits the packet. So the transmitter starts saying something important, right? So here is like if node A in the previous example, first of all greets the access point, say \"Hi, access point, nice meeting you,\" and the access point says \"Ah, very nice meeting you, node A,\" and then node A starts talking to the access point, okay? Why? Why they do that? So because by doing that they essentially agree on talking, right, on starting a dialogue, and they do that by exchanging these two control packets that are called request to send. This is what the transmitter will send, and if the intended receiver is available to receive, okay, to engage to be engaged in this dialogue, he will reply with another control packet called clear to send. Okay, so request to send really means \"May I send you something?\" and clear to send means \"You are clear to go ahead,\" okay? So the way now the dialogue happens is the following: our transmitter, as before, first of all needs to sense the channel.<|im_end|>",
+  "generated_tokens": 234,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.877586869999504,
+  "at": "2026-10-18T02:23:48.465994+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

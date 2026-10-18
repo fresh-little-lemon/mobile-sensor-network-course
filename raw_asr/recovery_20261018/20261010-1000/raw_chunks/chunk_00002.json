@@ -1,0 +1,12 @@
+{
+  "start_seconds": 220.0,
+  "end_seconds": 340.0,
+  "text": "Transmit potentially to them. If they are outside my radio range, it means that they are outside my reach. Okay. Now is this scenario clear? Okay, so let's assume that both A and B now have got a packet to transmit. Okay, actually A gets this radio this packet data packet from the entire layers first. It senses the channel. The channel currently is idle. A listens to the channel for diffs, right? For diffs. The channel is idle, so A says, \"Well, I can transmit my packet,\" and starts transmitting the packet to the access point. While this is going on, also B gets a packet from entire layers. The packet reaches right the max server at B. So this mark function B starts listening to the channel and listens to the channel for diffs. Remember, A and B cannot hear each other, right? So even if A is already transmitting to the access point, B senses the channel as.",
+  "raw_decoded": "language English<asr_text>Transmit potentially to them. If they are outside my radio range, it means that they are outside my reach. Okay. Now is this scenario clear? Okay, so let's assume that both A and B now have got a packet to transmit. Okay, actually A gets this radio this packet data packet from the entire layers first. It senses the channel. The channel currently is idle. A listens to the channel for diffs, right? For diffs. The channel is idle, so A says, \"Well, I can transmit my packet,\" and starts transmitting the packet to the access point. While this is going on, also B gets a packet from entire layers. The packet reaches right the max server at B. So this mark function B starts listening to the channel and listens to the channel for diffs. Remember, A and B cannot hear each other, right? So even if A is already transmitting to the access point, B senses the channel as.<|im_end|>",
+  "generated_tokens": 196,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.525123526000243,
+  "at": "2026-10-18T02:22:25.558301+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

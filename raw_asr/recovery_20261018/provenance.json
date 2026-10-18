@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen3-ASR-0.6B-hf",
+  "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.1",
+  "dtype": "bfloat16",
+  "device": "cpu",
+  "threads": 6,
+  "window": 120,
+  "overlap": 10,
+  "max_new_tokens": 1024,
+  "prompt": null,
+  "language": "auto",
+  "generation": "greedy",
+  "rerun_date": "2026-10-18T02:20:48.907288+00:00",
+  "note": "Recovery rerun in new runtime, not byte-identical replay of lost outputs."
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 770.0,
+  "end_seconds": 890.0,
+  "text": "Transmitting my data. Here I didn't mark it, but there is another seals. Okay, between a CPS and data, there is another seals. Why? Because all these are part of the same dialog. All these packets are part of the same dialog, so they are spaced by seals. Okay, so after seals, the node A starts transmitting the data packet. Assuming the data packet is correctly received by the access point. After seals, the access point will send back the ACK control part. Okay. So as you see, we have we send the shake first, and then the actual transmission. Now, what do the other nodes do? For example, in our example B. Well, upon the RTS is transmitted by A. Remember what we said. Everyone can, you are delayed if they hear. Okay. Now in our example, however, B, if you remember, cannot hear A, right? So so far, well, let's say that our other node B will do actually nothing. In our example, okay, because it cannot hear A. Okay. So consider that this part in referring to our previous example is now there, because B cannot hear A. Okay. However, when the.",
+  "raw_decoded": "language English<asr_text>Transmitting my data. Here I didn't mark it, but there is another seals. Okay, between a CPS and data, there is another seals. Why? Because all these are part of the same dialog. All these packets are part of the same dialog, so they are spaced by seals. Okay, so after seals, the node A starts transmitting the data packet. Assuming the data packet is correctly received by the access point. After seals, the access point will send back the ACK control part. Okay. So as you see, we have we send the shake first, and then the actual transmission. Now, what do the other nodes do? For example, in our example B. Well, upon the RTS is transmitted by A. Remember what we said. Everyone can, you are delayed if they hear. Okay. Now in our example, however, B, if you remember, cannot hear A, right? So so far, well, let's say that our other node B will do actually nothing. In our example, okay, because it cannot hear A. Okay. So consider that this part in referring to our previous example is now there, because B cannot hear A. Okay. However, when the.<|im_end|>",
+  "generated_tokens": 251,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.21241983300024,
+  "at": "2026-10-18T02:24:55.964882+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}
