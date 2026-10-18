@@ -1,0 +1,21 @@
+[00:14:46.460 --> 00:14:55.120] Before introducing the third condition, I want to present an example of a situation
+[00:14:56.280 --> 00:15:07.140] when we apply the Bekoff and what I want to do with this example is to clarify why.
+[00:15:07.600 --> 00:15:09.700] Why we are using the Bekoff?
+[00:15:09.700 --> 00:15:19.300] why is the becoff actually useful okay and why the standard says that every
+[00:15:19.300 --> 00:15:24.380] time we perform the becoff for a given pattern we need to double the contention
+[00:15:24.380 --> 00:15:34.180] window pattern okay because the main thing here when we study Wi-Fi okay
+[00:15:34.180 --> 00:15:41.780] is to, of course, learn how we use a technology that is actually used every day, right, by
+[00:15:41.780 --> 00:15:49.940] almost everyone. So it's good to know how things work, but it's also important to understand
+[00:15:49.940 --> 00:15:59.820] the rationale, okay, why things happen, why do we make certain choices while developing
+[00:15:59.820 --> 00:16:13.440] a technology. That's the really important fact that this class should give you, to strengthen
+[00:16:13.440 --> 00:16:26.820] your ability to understand why certain things have been decided in certain manner in designing
+[00:16:26.820 --> 00:16:34.660] a system okay because there is always a reason and what we need to do is to learn
+[00:16:34.660 --> 00:16:45.560] how to reason about things and understand the solutions that have been
+[00:16:45.560 --> 00:16:51.780] created okay that's the important attitude that we need to develop so this
+[00:16:51.780 --> 00:17:00.060] is understanding Wi-Fi is a kind of mental exercise that we need to do.
+[00:17:01.180 --> 00:17:14.640] Okay good, so let's consider a simple topology where we have an access point and then we have
+[00:17:14.640 --> 00:17:30.160] A, B and C. The access point is here, these are our user nodes and we are of course part of this
+[00:17:30.160 --> 00:17:40.100] BSS, that means they can talk with the access point and also let's consider the simple case
+[00:17:40.100 --> 00:17:58.160] where all nodes can hear each other. Now let's represent the behavior of these nodes over time.
+[00:17:58.600 --> 00:18:09.860] So this is the timeline, we will represent it by drawing a timeline for each node. Access point
+[00:18:10.100 --> 00:18:14.740] User A, User B

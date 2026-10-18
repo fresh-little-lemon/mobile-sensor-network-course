@@ -1,0 +1,20 @@
+[00:17:45.000 --> 00:17:59.680] each other. Now let's represent the behavior of these nodes over time. So this is the timeline
+[00:17:59.680 --> 00:18:18.300] we will represent it by drawing a timeline for each node. Access point, user A, user B, and user C.
+[00:18:18.300 --> 00:18:31.720] Okay, now let's assume that when we start looking at the system, what we observe is
+[00:18:31.720 --> 00:18:40.680] that A has received a packet from its higher layers, its application layer has generated
+[00:18:40.680 --> 00:18:51.440] some data. So A gets this packet at this MAC layer and A understands that it has to try and
+[00:18:51.440 --> 00:19:01.680] transmit this packet. So we know that in this case a Wi-Fi node will first sense the channel
+[00:19:01.680 --> 00:19:11.100] or diffs, let's assume that the channel is idle, so we know that in this
+[00:19:11.100 --> 00:19:16.880] case A can access the channel and transmit its data packet, that is a
+[00:19:16.880 --> 00:19:25.660] unicast data packet, so it is intended for the access point and let's be
+[00:19:25.660 --> 00:19:34.140] optimistic and let's consider that this data bucket is successfully received by
+[00:19:34.140 --> 00:19:40.740] the access point, therefore we know that the access point will send an
+[00:19:40.740 --> 00:19:49.280] acknowledgement after SIFs. This is the usual story that we have told many times.
+[00:19:49.280 --> 00:20:04.860] Okay, we also know that under these conditions, the other nodes B and C demodulate the header, right, of the data packet.
+[00:20:04.860 --> 00:20:13.540] They read the duration fields so that they can set their node counter.
+[00:20:14.860 --> 00:20:24.180] and this will extend over the all expected duration of the dialogue.
+[00:20:25.960 --> 00:20:35.660] So far so good is exactly what we did in the past. Now let's add some events here.
+[00:20:35.660 --> 00:20:50.700] Let's say B and also C, while they have their nav set to a positive value, will also receive
+[00:20:50.700 --> 00:21:01.760] a data packet from their respective upper layers, so this means that for example at
+[00:21:01.760 --> 00:21:12.560] this point in time B gets a packet that is queued at its mug layer and let's
+[00:21:12.560 --> 00:21:14.980] assume that C at this point

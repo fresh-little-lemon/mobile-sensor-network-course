@@ -1,0 +1,20 @@
+[00:20:45.000 --> 00:20:58.000] to a positive value will also receive a data packet from their respective upper
+[00:20:58.000 --> 00:21:07.300] layers so this means that for example at this point in time B gets a packet
+[00:21:07.300 --> 00:21:15.500] that is skewed at its month layer and let's assume that C at this point in
+[00:21:15.500 --> 00:21:26.720] time also gets a packet from its higher layers okay so now while we have this
+[00:21:26.720 --> 00:21:35.960] dialogue between A and the axis point going on we have B and C who have a
+[00:21:35.960 --> 00:21:46.800] to grass meat as well. Now clearly they have got their knobs set so they know the channel is busy
+[00:21:47.560 --> 00:21:53.940] so they cannot access the channel right that's the principle of carrier sensing.
+[00:21:55.720 --> 00:22:04.760] We are essentially in this situation, situation number one right B and C get a new packet
+[00:22:04.760 --> 00:22:15.920] but they sense the channel as busy. So what do we have to do? Apply back off, right?
+[00:22:16.920 --> 00:22:27.480] So this means that both B and C, remember our scheme is distributed, so everyone
+[00:22:27.480 --> 00:22:38.800] makes decisions by itself based on the state of the system that it observes. So B will say
+[00:22:38.800 --> 00:22:48.020] I got the packet but the channel is busy. What I need to do is to apply Bekoff, so what you
+[00:22:48.020 --> 00:22:58.960] do is wait for the channel to become idle again, sends the channel idle for
+[00:22:58.960 --> 00:23:11.800] diffs and then if the channel is idle for diffs it will be able to draw an
+[00:23:11.800 --> 00:23:30.300] integer, out of what? out of the range 0 CW min and the same C, C at this
+[00:23:30.300 --> 00:23:37.500] point in time says oh I got a packet to trust me but the channel is busy so
+[00:23:37.500 --> 00:23:46.120] again it knows that it has to perform back off so what it will do it will wait for the channel to
+[00:23:46.120 --> 00:23:54.560] become idle then it needs to verify that the channel is idle for this the channel will be
+[00:23:54.560 --> 00:24:03.520] idle because nobody else is doing anything so the channel is idle and it will do will draw
+[00:24:03.520 --> 00:24:14.820] an integer with equal probability out of this same range of values. So let's assume
