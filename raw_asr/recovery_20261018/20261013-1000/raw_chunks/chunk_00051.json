@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5610.0,
+  "end_seconds": 5730.0,
+  "text": "It increases by 14 timeslots, and then A can access the channel. At that point, B, who started 13, will have to send the enough. So here we have the enough, while A proceeds with its transmission. Transmission by A is successful. It will receive the acknowledgement. B's knob will over all this time. During this time, of course, B's wakeoff counter is frozen. It cannot decrease it. Only after the end of the dialogue between A and the access point, we'll have that B will sense the channel again as idle for this, and then resume its own decrease of the wakeoff. And when its own wakeoff counter which is zero again, it can access the channel, transmit to the access point. The transmission is successful, and we're done. Okay. So as mentioned, this is similar to the previous one, but there was some differences here. We have some examples of cases where a node should use indeed the extended IFS instead of this. Any any question? Everything here so far. Of course, you can review both this.",
+  "raw_decoded": "language English<asr_text>It increases by 14 timeslots, and then A can access the channel. At that point, B, who started 13, will have to send the enough. So here we have the enough, while A proceeds with its transmission. Transmission by A is successful. It will receive the acknowledgement. B's knob will over all this time. During this time, of course, B's wakeoff counter is frozen. It cannot decrease it. Only after the end of the dialogue between A and the access point, we'll have that B will sense the channel again as idle for this, and then resume its own decrease of the wakeoff. And when its own wakeoff counter which is zero again, it can access the channel, transmit to the access point. The transmission is successful, and we're done. Okay. So as mentioned, this is similar to the previous one, but there was some differences here. We have some examples of cases where a node should use indeed the extended IFS instead of this. Any any question? Everything here so far. Of course, you can review both this.<|im_end|>",
+  "generated_tokens": 228,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.70258033999926,
+  "at": "2026-10-18T04:36:31.473454+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

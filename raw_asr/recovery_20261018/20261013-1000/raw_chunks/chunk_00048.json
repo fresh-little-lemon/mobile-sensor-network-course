@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5280.0,
+  "end_seconds": 5400.0,
+  "text": "Becomes idle again. He needs to wait longer. He needs to use the extended ifs. So now is that here, a of course will have to perform the because in order to contend for the channel every transmit. But instead of sensing the channel as idle for diffs, he needs to sense the channel as idle for the extended ifs. So the extended ifs here for a replaces the diffs. After the extended ifs, then he can draw the because integer sent in the because counter and start increasing the because count. But there is this difference, okay. So he needs to use the extended ifs instead of diffs after the if, because during the if there was a mismatch between sensing the physical layer and the mark layer. I mean, he could send something on the physical layer, but on the mark layer he didn't know what to do. So when you don't know what to do, you need to wait for the channel to become idle again, and then wait longer. Wait the extended ifs, use the extended ifs. Okay. Good. So now looking back at C, we know that C uses the or.",
+  "raw_decoded": "language English<asr_text>Becomes idle again. He needs to wait longer. He needs to use the extended ifs. So now is that here, a of course will have to perform the because in order to contend for the channel every transmit. But instead of sensing the channel as idle for diffs, he needs to sense the channel as idle for the extended ifs. So the extended ifs here for a replaces the diffs. After the extended ifs, then he can draw the because integer sent in the because counter and start increasing the because count. But there is this difference, okay. So he needs to use the extended ifs instead of diffs after the if, because during the if there was a mismatch between sensing the physical layer and the mark layer. I mean, he could send something on the physical layer, but on the mark layer he didn't know what to do. So when you don't know what to do, you need to wait for the channel to become idle again, and then wait longer. Wait the extended ifs, use the extended ifs. Okay. Good. So now looking back at C, we know that C uses the or.<|im_end|>",
+  "generated_tokens": 230,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.3918670009989,
+  "at": "2026-10-18T04:35:04.817050+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

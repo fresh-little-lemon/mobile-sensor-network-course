@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4950.0,
+  "end_seconds": 5070.0,
+  "text": "To the modulated packet correctly, so the packets cannot be received successfully. Okay, neither of them. And the same holds for C, right? C also clearly cannot read the duration field in the packets header, so it could not send. Enough, so I will experience a mismatch between the sensing of the physical layer and the sensing of the MAC layer. Right, same as before. So for all this time, C senses the channel as busy at the physical layer, but it's not it's not sent to anything. So clearly, it has to use the extended IFS. It is same as before. So it has to wait for the channel to become idle, and then wait for the extended IFS. Okay, now remember that C has got now a packet to transmit as well. Right, while A and B were transmitting, we said it got a packet from higher layers. Of course, it cannot transmit. Why? Because the physical layer sensing says that the channel is busy. So we need to say, well, channel busy, right? It cannot access. Okay, so this is the situation for A, B, and C, and Y-axis point. But if we look a little bit closer.",
+  "raw_decoded": "language English<asr_text>To the modulated packet correctly, so the packets cannot be received successfully. Okay, neither of them. And the same holds for C, right? C also clearly cannot read the duration field in the packets header, so it could not send. Enough, so I will experience a mismatch between the sensing of the physical layer and the sensing of the MAC layer. Right, same as before. So for all this time, C senses the channel as busy at the physical layer, but it's not it's not sent to anything. So clearly, it has to use the extended IFS. It is same as before. So it has to wait for the channel to become idle, and then wait for the extended IFS. Okay, now remember that C has got now a packet to transmit as well. Right, while A and B were transmitting, we said it got a packet from higher layers. Of course, it cannot transmit. Why? Because the physical layer sensing says that the channel is busy. So we need to say, well, channel busy, right? It cannot access. Okay, so this is the situation for A, B, and C, and Y-axis point. But if we look a little bit closer.<|im_end|>",
+  "generated_tokens": 251,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.879535090998615,
+  "at": "2026-10-18T04:33:34.798655+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

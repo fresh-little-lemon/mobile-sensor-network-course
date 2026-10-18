@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3410.0,
+  "end_seconds": 3530.0,
+  "text": "Standard ifs. Okay. Now considering also the duration of the standard ifs, we have that in principle if nothing happens, C will have to wait till t zero plus one point two. That's where we are. Okay. What about A and B? We said after TF they realize that they failed. We know that under this condition we need to re contend for the channel, right? And we can do that by performing the backoff. So now both actually A and B independently from each other, they will wait for TF. They have not received any acknowledgement, so they know that they need to perform this backoff procedure. That means that they will need to sense the channel as idle for briefs. And then they select an integer out of zero, one, two, three, with equal probability. But in our problem, these are given, right? So we know that A throws ten and B throws eleven. So this is this is eleven. And okay, so.",
+  "raw_decoded": "language English<asr_text>Standard ifs. Okay. Now considering also the duration of the standard ifs, we have that in principle if nothing happens, C will have to wait till t zero plus one point two. That's where we are. Okay. What about A and B? We said after TF they realize that they failed. We know that under this condition we need to re contend for the channel, right? And we can do that by performing the backoff. So now both actually A and B independently from each other, they will wait for TF. They have not received any acknowledgement, so they know that they need to perform this backoff procedure. That means that they will need to sense the channel as idle for briefs. And then they select an integer out of zero, one, two, three, with equal probability. But in our problem, these are given, right? So we know that A throws ten and B throws eleven. So this is this is eleven. And okay, so.<|im_end|>",
+  "generated_tokens": 202,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.287604997998642,
+  "at": "2026-10-18T04:28:59.684301+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

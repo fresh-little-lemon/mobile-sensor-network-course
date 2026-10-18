@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4510.0,
+  "end_seconds": 4630.0,
+  "text": "哎，不会说。嗯，没事。哎，我那个草原，啥都有。我们老家草原。啊。",
+  "raw_decoded": "language Chinese<asr_text>哎，不会说。嗯，没事。哎，我那个草原，啥都有。我们老家草原。啊。<|im_end|>",
+  "generated_tokens": 28,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 6.623269665999032,
+  "at": "2026-10-18T04:32:20.211698+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

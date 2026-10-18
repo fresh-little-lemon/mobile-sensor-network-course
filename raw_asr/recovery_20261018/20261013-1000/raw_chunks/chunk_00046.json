@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5060.0,
+  "end_seconds": 5180.0,
+  "text": "B and C, and the axis point. But if we look a little bit closer, and what A experiences, we can see that while A, yes, at the beginning he transmits his packet, right? Then it stops, its packet is shorter, so the packet transmission is shorter, it stops. It turns around its transceiver from transmit mode to receive mode, hoping to receive the ACK. But the ACK is not there clearly. And what? And what it does is to wait for this time, the PFS time. And during this time, it doesn't hear any ACK, but it can hear the signal coming from B. So again, we have a mismatch from what we experience at the physical layer and what we experience at the MAC layer because A is expecting an acknowledgement. Acknowledgement is not there. And the physical layer is senses something, but it cannot understand because this is just the ending of the packet transmitted by B. So at the physical layer, the channel is idle, but at the MAC layer, we don't know what to do. So again, this is a situation under which.",
+  "raw_decoded": "language English<asr_text>B and C, and the axis point. But if we look a little bit closer, and what A experiences, we can see that while A, yes, at the beginning he transmits his packet, right? Then it stops, its packet is shorter, so the packet transmission is shorter, it stops. It turns around its transceiver from transmit mode to receive mode, hoping to receive the ACK. But the ACK is not there clearly. And what? And what it does is to wait for this time, the PFS time. And during this time, it doesn't hear any ACK, but it can hear the signal coming from B. So again, we have a mismatch from what we experience at the physical layer and what we experience at the MAC layer because A is expecting an acknowledgement. Acknowledgement is not there. And the physical layer is senses something, but it cannot understand because this is just the ending of the packet transmitted by B. So at the physical layer, the channel is idle, but at the MAC layer, we don't know what to do. So again, this is a situation under which.<|im_end|>",
+  "generated_tokens": 231,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.381795261999287,
+  "at": "2026-10-18T04:34:03.181129+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

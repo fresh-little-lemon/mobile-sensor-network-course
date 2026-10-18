@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5500.0,
+  "end_seconds": 5620.0,
+  "text": "After five times slots, and that you will access the channel and transmit. All the other nodes will hear C transmitting. This time, he's the only one that transmits, so the others can demodulate the duration field correctly. And at this point, they can send their knob and freeze their big off counters. So there you have marked the number of slots by which A and B were able to decrease their big off counter. A was able to decrease it by five times slots, while B was able to decrease it by eleven times slots. Okay, because it's not in the area. Okay, C's packet is received successfully by the access point, so we have C's and then the knob covers all this duration. After that, A and B will send the channel again for diffs. So this smaller interval here is diffs, and that they can resume decreasing their big off counter. The first one then, which zero is B's counter. So after fourteen more times slots, so is A's counter. The total was nineteen. So five plus fourteen, it increases by fourteen times slots, and then A can access the channel. At that point, B.",
+  "raw_decoded": "language English<asr_text>After five times slots, and that you will access the channel and transmit. All the other nodes will hear C transmitting. This time, he's the only one that transmits, so the others can demodulate the duration field correctly. And at this point, they can send their knob and freeze their big off counters. So there you have marked the number of slots by which A and B were able to decrease their big off counter. A was able to decrease it by five times slots, while B was able to decrease it by eleven times slots. Okay, because it's not in the area. Okay, C's packet is received successfully by the access point, so we have C's and then the knob covers all this duration. After that, A and B will send the channel again for diffs. So this smaller interval here is diffs, and that they can resume decreasing their big off counter. The first one then, which zero is B's counter. So after fourteen more times slots, so is A's counter. The total was nineteen. So five plus fourteen, it increases by fourteen times slots, and then A can access the channel. At that point, B.<|im_end|>",
+  "generated_tokens": 241,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.842001250000976,
+  "at": "2026-10-18T04:36:04.770254+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}
