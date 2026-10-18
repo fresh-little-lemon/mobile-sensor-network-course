@@ -123,3 +123,40 @@
 [11] MathWorks，Element and Array Radiation and Response Patterns：https://www.mathworks.com/help/phased/ug/element-and-array-radiation-patterns-and-responses.html
 
 [12] EUMETSAT，MW/sub-mm Spectroscopy Literature Review（水汽谱线）：https://www-cdn.eumetsat.int/files/2024-03/Task1_report_submm_literature_review_pdf.pdf
+
+## 20261008-1049：多径、信噪比和差错控制
+
+| 英文 | 中文译法 | 核对与使用范围 |
+|---|---|---|
+| diffraction / reflection / scattering | 衍射／反射／散射 | 三种传播机制分开使用，不能都用“反射”替代 |
+| constructive / destructive interference | 相长干涉／相消干涉 | 本段指同一信号不同路径的相干叠加，与其他发射机造成的干扰区分 |
+| multipath fading | 多径衰落 | 不同传播路径的信号叠加导致接收幅相变化 |
+| slow / fast fading | 慢衰落／快衰落 | 相对于符号、传输或应用时间尺度描述信道变化；MathWorks慢衰落示例以连续符号共享系数为假设[13] |
+| shadowing | 阴影衰落 | 遮挡引起的大尺度功率变化，与快慢变化分类不完全等价 |
+| SNR / SINR | 信噪比／信干噪比 | SNR=S/N；SINR=S/(I+N)，这里S、I、N均为同带宽内的线性功率 |
+| intra-/inter-technology interference | 同技术内／跨技术干扰 | 注意不是intra/inter-cell的同小区／小区间干扰 |
+| error detection / correction | 检错／纠错 | 发现错误不等于恢复正确内容 |
+| forward error correction (FEC) | 前向纠错 | 发送冗余使接收端可在一定条件下纠错[14] |
+| information / redundant bits | 信息比特／冗余比特 | k个信息比特编码为n比特码字，码率k/n[14] |
+| code rate | 码率 | 此处是无量纲比值k/n，不是单位bit/s的比特率 |
+| repetition code / majority rule | 重复码／多数判决 | 按各次接收结果的多数决定比特 |
+| parity bit | 奇偶校验位 | 本例使总的1的数量为偶数，因此具体为偶校验 |
+| convolutional code | 卷积码 | 不是“卷积神经网络”；编码器带有寄存器状态 |
+| ARQ | 自动重传请求 | 通行英文展开为Automatic Repeat reQuest；原讲述的automatic retransmission request保留于英文原稿[15] |
+| packet / header / payload | 数据包（分组）／首部／有效载荷 | 正文统一优先用数据包；header用“首部”，payload用“有效载荷” |
+
+### 原讲述中的科学核对
+
+- 衍射不能严格定义为“碰撞障碍物后复制出多个信号”。边缘绕射、反射、散射均可能形成不同传播分量；水滴粒子引起的传播影响也不能一概归为衍射。
+- 两个分量只有在相反相位且幅度相等时才能完全抵消；反相本身不足以推出接收功率为零。
+- 静止环境也可能存在很深的衰落。“慢衰落也叫shadowing”是本课的简化，快慢描述变化速度，阴影描述遮挡机制，两组概念不严格同义。快衰落也并非绝对无法补偿，可结合信道估计、分集、均衡和编码等处理。
+- SNR与SINR公式必须使用线性功率相加，不能直接相加以dBm表示的干扰和噪声。
+- 冗余位增多并不单独保证任意编码都更强，还需看码结构、最小距离、信道和译码方式。单校验位可检出奇数个位翻转，但可能漏掉偶数个位翻转，校验通过不证明内容一定正确。
+- 本课二维行列校验的单比特定位依赖所述单错模型；多个错误可能产生不同检错或漏检情形，不扩展成任意多错纠正。
+- 包首部字段随协议而异。课堂中的寄信类比有助入门，但并非每层每个包都同时含有源地址和目的地址；有效载荷也可能是上一层完整的包。
+
+[13] MathWorks，berfading：https://www.mathworks.com/help/comm/ref/berfading.html
+
+[14] MathWorks，Block Codes：https://www.mathworks.com/help/comm/ug/block-codes.html
+
+[15] MathWorks，SDA Optical Communication Terminal Waveform Generation：https://www.mathworks.com/help/satcom/ug/sda-oct-waveform-generation.html
