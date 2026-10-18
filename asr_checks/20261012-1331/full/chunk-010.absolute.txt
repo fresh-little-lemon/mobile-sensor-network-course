@@ -1,0 +1,17 @@
+[00:26:45.000 --> 00:26:55.220] that this packet is received successfully by the access point which will send back
+[00:26:55.220 --> 00:27:09.160] an acknowledgement after SIFS. Upon the data transmission by B, the other notes
+[00:27:09.600 --> 00:27:19.360] and set their nouns, they can reach the duration field in the header of the data packet.
+[00:27:20.200 --> 00:27:39.380] So we need also to highlight this, that both A and also C will set their nouns, right?
+[00:27:40.280 --> 00:27:48.900] so what does it mean for A this is okay fine it doesn't have anything to do so that's not okay
+[00:27:48.900 --> 00:28:02.960] but for C this means that you will have to freeze it's the cough counter for this duration
+[00:28:02.960 --> 00:28:14.540] right because now the channel is busy so C cannot decrease its counter it has to suspend the countdown
+[00:28:17.040 --> 00:28:23.880] okay so during all this time C will be essentially blocked
+[00:28:25.440 --> 00:28:31.480] and what it does is to wait for the channel to become idle
+[00:28:31.480 --> 00:28:45.440] again, he makes sure that the channel is idle for diffs and then he can resume decreasing
+[00:28:45.440 --> 00:28:58.360] its wake-up count. It has still three time slots to go, so he will change the channel
+[00:28:58.360 --> 00:29:28.160] yes, this is idle, so it can decrease the Bechov counter by one, then it senses the channel again for a time slot, the channel is idle, it can decrease the counter by one, and then again the channel is idle for one more time slot, it can decrease it's counter by one, now it's Bechov counter is down to zero,
+[00:29:28.160 --> 00:29:40.120] so you can access the channel and transmit its data packet and again be optimistic, we say that
+[00:29:40.120 --> 00:29:48.620] this is successful so we will receive the acknowledgement after SIFs and we are all happy
+[00:29:48.620 --> 00:29:59.840] because all knots go towards making that part successful. So this is an
+[00:29:59.840 --> 00:30:09.320] example of how we apply English in the top procedure in particular under this
+[00:30:09.320 --> 00:30:14.960] condition. But it allows us

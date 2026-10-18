@@ -1,0 +1,23 @@
+[00:29:45.000 --> 00:29:54.200] after sieves and we are all happy because all non-screw tries to make their body successful, okay?
+[00:29:58.440 --> 00:30:06.000] So this is an example of how we apply in the cough procedure,
+[00:30:06.800 --> 00:30:10.020] in particular under this condition.
+[00:30:12.540 --> 00:30:24.500] But, it allows us also to understand the importance of the cough, that's the final goal, the ultimate goal that I was aiming.
+[00:30:26.420 --> 00:30:30.980] How can we understand the importance of the cough?
+[00:30:30.980 --> 00:30:43.660] Well, let's make a little game that is, scientifically speaking, is called ablation study, and ablation
+[00:30:43.660 --> 00:30:51.680] study is when you remove a feature of a system and you study the behavior of that system
+[00:30:52.220 --> 00:30:56.840] without that feature.
+[00:30:56.840 --> 00:31:09.880] So our small game is an ablation study of this particular bake-off procedure or Wi-Fi channel
+[00:31:09.880 --> 00:31:22.160] access to you. So let's make this a small game and think what would happen if the bake-off were
+[00:31:22.160 --> 00:31:31.180] not there okay so let's roll back the story let's start from the beginning but
+[00:31:31.180 --> 00:31:40.020] this time let's assume that there is no bake-off okay so what would be the
+[00:31:40.020 --> 00:31:46.840] behavior of our nodes? Well at the beginning everything is the same because the
+[00:31:46.840 --> 00:31:54.680] node that has got the packet to transmit is A, so it will listen to the
+[00:31:54.680 --> 00:32:01.780] channel, the channel is idle for lives, it will access the channel and transmit the
+[00:32:01.780 --> 00:32:08.200] packet. And again let's be optimistic, the access point sends back the acknowledgement
+[00:32:08.200 --> 00:32:16.660] and the other nodes, B and C, both exactly enough, right? This is exactly as
+[00:32:16.660 --> 00:32:27.460] before. And again, B and C at different points in time. Assume that they get
+[00:32:27.460 --> 00:32:37.100] also a packet to transmit. But again, now we do not have back off, okay? So we
+[00:32:37.100 --> 00:32:46.560] to think what would happen if the cars were not there. So what would B and C do?
+[00:32:47.940 --> 00:32:57.040] Well we still have carrier sensing, multiple access, so since both B and C
+[00:32:57.040 --> 00:33:04.900] sense the channel as busy because they have their knobs set, they cannot
+[00:33:04.900 --> 00:33:14.900] access the channel, right? Tila, the channel is busy. I cannot access the channel. So for sure, BNC

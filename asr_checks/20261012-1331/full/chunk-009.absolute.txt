@@ -1,0 +1,19 @@
+[00:23:45.000 --> 00:23:52.820] for the channel to become idle then it needs to verify that the channel is idle for this
+[00:23:52.820 --> 00:23:59.820] the channel will be idle because nobody else is doing anything so the channel is idle
+[00:24:00.360 --> 00:24:11.380] and it will do, will draw an integer with equal probability out of this same range of values
+[00:24:11.380 --> 00:24:26.600] okay, so let's assume that the value drawn by b, the integer, is equal to 2 and let's assume
+[00:24:26.600 --> 00:24:38.680] that the integer drawn by c is equal to 5. This is just an example. Okay, so if this is the case
+[00:24:38.680 --> 00:24:54.340] then we know that B will compute its Bechov time, that will be equal to 2 times B time slot duration.
+[00:24:55.500 --> 00:25:06.000] And similarly C will compute its Bechov time, that will be 5 time slots.
+[00:25:06.000 --> 00:25:17.760] and then each of them will have two degrees its own Bekow counter, time slot by time slot.
+[00:25:18.940 --> 00:25:30.560] So B will start sensing the channel for a time slot, the channel is currently idle so it will
+[00:25:30.560 --> 00:25:44.340] decrease its Bekow counter by one and the same will do C, right? So it will decrease it by its own
+[00:25:44.880 --> 00:25:55.460] counter by one. Then next time slot again B senses the channel as idle, decreases its
+[00:25:55.460 --> 00:26:11.120] because counter by one and C will do the same but now the because counter of B has reached zero
+[00:26:12.500 --> 00:26:21.740] so B is entitled to answer the channel and transmit. So it will transmit its data packet,
+[00:26:21.740 --> 00:26:28.480] the data packet clearly is intended for the access point because as we said we
+[00:26:28.480 --> 00:26:34.880] are considering unicast packets and in this network topology, network architecture
+[00:26:34.880 --> 00:26:43.080] all Wi-Fi user nodes communicate with the access point only. Let's again be
+[00:26:43.080 --> 00:26:50.700] optimistic so this means that this packet is received successfully by the
+[00:26:50.700 --> 00:27:06.680] point which will stand back and acknowledgement after sieves. Upon the data transmission by B,
+[00:27:07.920 --> 00:27:14.860] The other notes, right, can set their nouns, they can read the duration.
