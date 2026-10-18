@@ -1,0 +1,177 @@
+Use that, probably today, or the latest, I would say tomorrow.And then two open questions, and of course, I cannot tell you in advance the topic of the open questions.As already mentioned is a closed book exam, OK?So, closed book exam.That means that the test sheets will be provided, and you only need to have pen, or pencil, preferably pen.Rubber, and a simple calculator.​
+
+OK, so of course, if you bring with you a pencil, then in the solution of the numerical problems, you are free to erase what you write.As you like, but the final answer should be written in a pen.​
+
+OK?And the number of points assigned to each of the components of the test will be 30 points maximum.Of course, the minimum is zero.Maximum is 30 points for each of the numerical.Exercises and maximum number of points for each open question.​
+
+OK, so that would be about the final exam.Now, let me close these slides.And let me,ok,sharing, let me instead go back to our numerical problems that we already.​
+
+Look at yesterday.​
+
+So, this was the first problem, and this was the first solution that we presented.There were doubts or questions on this first solution.Was this not?Ok, is that fine?Info everyone.Oke now we hadi second right mereka.Problems, and probably here we have something to double check.What was your question?Sorry.​
+
+The the backup for the node C.The backup of node B, node B,C.Uh, C, sorry, C, OK, so,just to recall the context here, we have the access point A, B, and C.All nodes can hear each other.At the beginning, we have a collision between A and B, because they start.To access the channel exactly at the same than instant that is T zero.And then we have that of course they, there is a collision, so they fail.There is a collision at the access point, and indeed the access point will not send back any acknowledgment.​
+
+So, the difference with respect to the previous problem was, as you may remember, that A and B have got packets of different length.So, A will finish its transmission area, and after that, it will check for a time duration TF, whether it is able to receive the ack or not.​
+
+Of course.There is no ack, so after this timeout, well, what A will do is to run the extended fs.Why?Because during this time, while it was listening to the channel hoping to receive the ack, actually.What A does is to hear the ending of this packet.So clearly cannot make any sense of it, it is not a duration field, the bucket header, right?So, we have a mismatch between the physical layer of A that is sending a signal, and it's MAC layer that does not understand what this is.Right?So, this is a case under whichand now do we use the extended fast as soon as the channel becomes idle again?OK.So, A, of course, needs to perform the backoff procedure in order to try and retransmit the packet that failed.But what we said is that it's going to use the extended IFS instead of diffs.Because of what we explained before.Okay, that's for A.So now, A runs six times faster, and then.Luis Miranda Vintager that wino ishiko attunna en Tina.​
+
+For B, we'll have a let's say a similar behavior, but when B's transceiver is turned from transmit to receive mode.What B hears is justother channel, so, you can just wait for the timeout, and this is still TFS, and then it will run it.Let's say regular backup procedure, so it sends the channel for diffs, draw the random integer that for b is 30.And we start decreasing each week of count.​
+
+Now, regarding C, we have indeed a difference with respect to the previous problem.Why?Because now C gets a packet from its higher layers to be transmitted.Why we have this collision going on, right?​
+
+像。​
+
+So, again, C senses the channel is busy at the physical layer, but at the MAC layer, could not start its job.So, again, this is a situation under which a node is supposed to use the extended IFS.And this means that when the channel becomes idle, it must wait for extended IFS, OK?Butnotice that c received a packet here, right?And when it got this packet from its higher layers, so this packet has to be transmitted then by the mac layer of c.So when c gets this packet from its higher layers, the.Here, we say channel busy, so the channel is busy.So this means that this packet cannot be transmitted right away.Right, we'll have to wait for the channel to become idle, and then as you may remember, this is a condition under which we need to perform a backoff.So, it will perform the backoff procedure, but it's like for a, right?They bothhad to run the SN IFS, they had to run the extended IFS.So, they will not use diffs, they will use the extended IFS.And then.​
+
+Is it clear so far?OK, so, at this point, we have three contending nodes, A, B, and C.Each of them has got the back of counter set, but A has got 19, B 30, and C.Five.So, if we look at the diagram and and we make some computation, we see that the first one that is able to decrease its backoff counter to zero is C.So, after 5 times slots.C will be able to transmit its data packet.​
+
+OK.The others, A and that point will here and modulate the duration field, so it will say it's none, and the same for B.So, these two nodes will not do anything, right?​
+
+During the dialogue between C and the access point, and both A and B have got there because counter as frozen.And then the story continues.Is it, is it clear?Any doubt or question?​
+
+OK, so that was the second problem that we presented.So this morning before proceeding with the slides, we need to see a few more,this is the third one that we are going to solve.This is a bit more complicated, OK?But it is good to see different cases.In order to train ourselves, so in this case, we have an access point, and again, three nodes, A, B, and C.And the story is a bit more complicated, because A and B cannot hear each other.OK, so A, M, B, are hidden nodes.This means that if we look at the network topology, we have something like that, right?Where, of course, each node can communicate with the access point.But only this subset of nodes can hear each other.Access point A and C can all hear each other, as well as these other subset of nodes.That is access point B and C can hear each other.Instead, A and B are hidden with respect to each other.OK?So, they cannot hear each other.OK?So, again, we are using the basic VCS.And then we have the transmission duration of the packets already given, so we don't have to compute anything.The duration of the packet transmitted by A or by C is 0.2 milliseconds.And the duration of a packet transmitted by B is 0.4 millisecond.​
+
+And then we have the values of the MAC layer parameters.So the usual duration of the acknowledgment, the duration of the diffs, duration of sieves,the duration of the extended life.Duration of the time slot, let's remember that the conventional window minimum that we are.​
+
+Parameter mi contention, Windows mínimo.​
+
+That is DF equal to 150 microseconds.Now, what is alsoto be precise, it is useful to say that the radio channel conditions are always good.That's what we assume for simplicity in our problems.So, packets may fail only because of collisions.OK, so we don't have failures due to channel errors.This is because we want to make things simpler.​
+
+OK, that said, the story now is that at the initial time instant t0, B gets two packets from its upper layers.So not just one, but two.OK, andT0 plus 0.35 milliseconds, C gets a packet from its upper layers, that is T0 plus 0.65 milliseconds.A gets a packet from its upper layers, and whenever A or C need to use a backup.They will draw as an integer, the integer seven.So, for A and C, we know which value of the integer they are going to use if they have to compute at the cost time.​
+
+Now, the problem asks something.About what is going to happen in our network.So, this means that we do not just need to draw the temporal diagram representing the node behavior.This is something that we have to do, but this is not the only thing that we have to do.We have also to compute the value of possible that we can draw so that it will not.Collide again, or in in general it does not collide, so no collision for B, and it will be able to transmit both its packets before C successfully.​
+
+OK, so what is the value of prospect of that B can extract, can draw, in order to be able to transmit successfully its packets before C accesses the channel?So, what you have to compute is the integer value of used for the cost back off.​
+
+Remember that indeed, whenever we have, we transmit a packet, right?After transmitting a packet.Hopefully successfully, then we know that right after the successful transmission, we need to.Run the post begin.OK, so in the previous problems, we neglected that because it did not affect the node's behavior.The nodes had only one packet to transmit, so the post because was there.But we did not highlighted that for simplicity, because in the previous cases, in the previous numerical problems.Every node had at most one packet only to transmit.So.​
+
+So, in this case, it is important to also account for the post back off procedure.OK.So, take a few minutes to try and figure out how the nodes behave.The first thing to do, of course, again.​
+
+OK, that's the starting point.And of course, at the beginning, you need just to follow what the problem says.So.D zero, you have certain events, and add, just mark on the timeline what the problem says that is happening.And then starting from there, try to figure out how our nodes will behave.Together.​
+
+OK, let me know when you.Like to look at the solution when you' re ready.​
+
+OK， now.Let's, I know that maybe you have not been able to first complete the solution, but you're not, you don't have to complete everything.This is let's say thethe the, you say the first of these type of problems, we'll have one more, actuallyJust check if the share is correct.So, we have one more that is very, very similar.Hopefully it's correct.​
+
+Later, so, let's start looking at this solution together.Oke so bisa Anda ke bi.Oong kan?Two packets from its higher layers, and this means that, so at P0, the problem does not say that B starts transmitting.Right?It just says that it gets packets from its higher layers.So, this means that the first thing that B will do is to sense the channel for gifts, and then the channel is idle.So it can transmit its first packet.​
+
+Right, so this is the very first, let's say action that he's taking.Now.When it be trust means who can here be.So, it is always useful to draw on a side of your paper sheet or tablet, what you are currently using, the network topology that reminds you about which nodes can hear each other.Right?So, if we look at this, whocan hear B, access point and C, right?So, the access point will receive the packet from B, and also C will hear that packet.​
+
+Now.Nobody else is going to do anything during this time at the beginning, so there is no collision at the beginning.This means that C can set its own, correct?Based on the duration field that is reported in B's packet.​
+
+Header, so C will have its node set.This is what happens at the beginning.Now this is important, why?Because as reported in the problem, the certain point C gets all the packet from its higher layers.​
+
+So, see, just gets the num set, no issue with that.There is a that will getpacket from entire layers later on.So we also can see that safely the access point.Karena keredly.Receive this packet and send back the acknowledgment.So the first packet transmitted by the is successful, and we are happy with that.Ok.​
+
+It does not mean mark, it's basically, but this gap here is due to the sips.OK, now we are at this point in time.Right after the ack, what is it going to happen?Well, for C, that's easy to say, because we know that C got a packet to transmit from its higher layers.The channel was busy, so it had to defer its transmission.So clearly, it's going to run a backoff.And since here.Everything was normal, is that it's now, everything was well.He just needs to sense the channel for leaves as idle, and then draw its break off integer, right?And the break off integer is being provided.​
+
+In the numerical problem, so C will send its backoff counter, and we start decreasing its backoff.Good, what about, for example, B, right?Because B successfully transmitted, while this is a condition we know.Under which, B has to run the ball.So after día y Huila Sanz de.Channel for , this is , the channel is going to be idle, as you can see here, and it will draw the past backoff integer.That we don't know what it is, right?It's something that we have to determine, but we know that it will draw.Some value as possible.​
+
+OK, so let's leave it there.Let's first look at A before going back to B.So, A did nothing at the beginning, because it didn't have anything to transmit.It could not hear B, so it did nothing at the beginning.​
+
+So now, A2 is a contending node, enters the game, and what it does.Is, he gets a packet from his higher layers, he senses the channel for dips, the channel is idle, so what it does is to start transmitting.Remember A and B.Cannot hear each other.So whatever B does, A cannot hear that.OK.A could hear C, but C is there just decreasing its kickoff counter.So, for A, everything is very quiet.Channel idle, therefore it accesses the channel and transmits.When a A starts transmitting its packet, who can hear A?Let's look at the network topology, the access points, right?So, C we set an up.You will freeze its backup counter, set it enough, and just of course wait, because it has got enough set.Now, what do we have to do here?​
+
+So, it is important that we determine the pass back of B, so that B does not.Access the channel, right?While A is transmitting, because otherwise they will collide.Remember A and B cannot hear each other, so when A transmits, B cannot set the noise, cannot freeze its counter.Right?For B, the channel is idle.So, it is important that the value of the cost that we determine for B allows essentially B to refrain from transmitting during this time.B cannot transmit during this time, otherwise it will collide.Now, how long must the pause because of B B in order to avoid the collision?It is important that it covers all this time period.Plus something else, OK?Because otherwise it collides with the acknowledgment, so it needs to be all this time at least plus one time slot.So.Assuming that therefore the possible of B is all this time that you can compute it, it is equal to 13 time slots plus at least one time slot.Okay?Because otherwise we are going to transmit here.And collided with your judgment.So, if we make this assumption, then B during this time, it will just decrease its perspective.Then at a certain point, when the access point acknowledges the packet transmitted by A.B can hear the exit point.So, B will set its nap upon hearing the acknowledgment, and it will freeze its past back off counter.It will read the duration field.​
+
+In the map header of the ack, right?The ack is a control packet.We said control packets do not have payload, but they do have the headers, right?They are all headers.So, it will read the duration field in correspondence of the ack, it will send its none.​
+
+So, now, we are in a very good situation.Why?Because at the end of the arc sent by the access point, A has successfully transmitted.So.Out of the game is done, and the only contending nodes that are left are B and C, and B and C can hear each other.So this situation is quite easy to handle.Right?Because what we have is that at the end of the acknowledgment, C will again sense the channel to verify that it's idle.It will do that for this, and then it will resume to decrease its backoff count.And B again will sense the channel as idle for this, and will resume the decrease of its past.​
+
+Now, so let's answer right the question that was posed in the problem.What values of pause back off allows B to avoid any collision, and remember transmit before C.That was the question.So, we know that C has still 5 time slots to go, because it decreased its backoff counter by 2 earlier.Now it has got 5 time slots.So, if we want B to transmit.​
+
+Before C, we can consider that here, B has got only one time slot to go, or two time slots to go, or three time slots to go.Or four.Time slots to go.Those are the possibilities.Not 5, because if you set 5, then B and C are going to access the channel exactly at the same time and instant.And they will collide.So, you cannot think of B having still five times loss, not as many as C has got.OK?They need to be fewer than that, less than that.​
+
+So, the possibilities are that B here is still one or two.Or three or four time slots to go.So the possible, so there is not just one possible pass back of value that allows B to transmit successfully both.​
+
+Packets before C.There are several possibilities.There are 13+1 time slots, 13+2 time slots, 13+3 time slots, or 13+4 time slots.OK, so essentially, 14,15,16, these are the possible cost break off values that B can draw, and if it does so.We are sure that it will not collide.And it will transmit before C.OK, so that's, oops, sorry, we're over the time.So that's the solution now, let's stop for 5 minutes, and of course, if in the meanwhile.You notice something that is unclear that you want me to repeat.After the short break, we can go back to the solution and look at it together again.Ok?​
+
+Question, can it be zero?The the red one the back of time.You cannot, now we have the short break.OK.After the break, I will answer and explain why.​
+
+嗯。然后这个，这个时候就重置。对。就是，就是你，你如果说退役时间到这个，但是现在还是在.​
+
+嗯。​
+
+OK, so, I think we can now.​
+
+OK.So, let's consider, thank you for the question by the way.OK, so let's just wait a few seconds.But what we are going to to do, let me just replicate the figure of the network.Topology here, so that we can make this second run of the solution by making the assumption.That your fellows didn't suggested in order to explain why it would not work.OK.So, as we said, we have that the method ofology is this one.I hope you can see there is no light reflection.And we said A and B cannot get each other.​
+
+OK, so, this is as a general suggestion.It would be good always to have, as I said, drawn on a side the network topology, so that you can double check if you are considering whether the nodes that can hear each other or not.OK, it would be easier.To record that.OK, so, now, let's draw here the case wherewe were considering that.So, I will not replicate everything, OK?But just this part of the diagram, right?So, after, I think that we are all good, till here, that is when B complete successfully its first transmission.Right.Unless there are questions there.You're all good.​
+
+OK, so, we are here, OK, at this time instant, and so, let me represent only the part.Of the diagram that essentially starts here.OK?Now, this is essentially when C starts sensing the channel for dips.B will do the same, and A has, is going to, I mean it's, for A, the channel is idle, and it's going to receive a packet from its higher layers at t=0+,0.065.So, we are there, and this means that here we can consider the back of counter of C that has started, right?For.Two time slots, and then we have that also B has started to decrease its cost because of.​
+
+Counter, OK?And then there is a, OK?As you can see here, a will receive its packet from the higher layers, and the four is going tosenses the channel for this.And we said the channel is going to be either for A.Remember A can only hear the access point and C.So independently of B, from what it's, its behavior is completely independent.In this case, what B is going to do, OK?Because A and B cannot hear each other, so we don't have to specify any behavior of B here, to understand that A will sense the channel.Since the channel for A is idle, no matter what B does, OK?It will access the channel and transmit its data packet.​
+
+OK.So, I think that we are all all good on saying well clearly.The pass back off for B cannot be in this case from here zero, OK?Because otherwise, it will access the channel.And transmit, and we'll have a collision, right?Between A and B, because remember A and B cannot hear each other.So, as we said, even if B hear transmits A, we transmit, because for A, the channel is going to be idle.Whatever b does, right?So, for sure, b's perspective here cannot be zero, because otherwise, a and b are going to collide.Ok, so, the perspective of b, in order to avoid the collision betweenA and B must be sufficiently long to cover all this time period that corresponds to the time during which A is transmitting.So that even if B cannot hear A, so B does not know that the channel is idle.Sorry, it's busy, right?Because cannot hear it.So, for the access point, and for C, clearly, the channel here is busy because of A's transmission, but B does not know that.So, we need to, let's say, protect.B, OK, by letting B wait at pass because that covers all this time.Is it OK?OK.​
+
+Now, actually, a little bit more to be precise.Why?Because the channel will become busy for everyone, only when the access point transmits the ark, right?So, clearly, B's transmission cannot overlap with the ack, because otherwise, it will fail.So, we want B to besuccessful, right?So, we need B to avoid colliding with Y.​
+
+Once the acknowledgment by the access point starts, we are good.Why?Because also Bwould hear the ack and sent it's not according.And then if assuming that it does that, then we have that after the ack, everyone is sensing the channel for dips.The channel is idle, so as mark, there C can resume decreasing its kickoff counter, and B two can resume decreasing its.Past big golf counter, and what we said.​
+
+Notice that the shifts, if you check, this is 10 microseconds.The time slot is 20 microseconds.OK.So, we sent this 15 time slots, then we can add a choice here.We can say, OK, then B has got only one.Times lost more, and in this case is fine, because it means that it will start this transmission here.B will stop, set it's not fine, or it could have two more times lost, and that will be also fine, right?Because it means that in this case it will start.Here with the data.See we hear that.Or we said it could be three more, and again, that's fine, because if we start from here, see, we'll just set it's none.And everything is fine.Or it could be four time slots.And then start the data.​
+
+And that would be also fine, because this means that C will decrease its backoff counter by one more time slot.And then.Sad enough, and everything is fine.What is important is that 1,2,3,4, we don't have a fifth time slot here.Why?Because in that case, they are going to decrease both of them.Their, the cost counter by five time slots reach zero, and start transmitting their data packet exactly at the same time.​
+
+So, this means that the possibilities for the past betas or b are 13 plus.Let's say nana, where n belongs to 1,2,3 or 4.OK?This set of possible values.OK, now let's answer the question, why?I cannot consider zero here, right?That was the question.So, why B cannot wait thirteen slots?That's it.Well, because if you make the computation, if B waits thirteen time slots.​
+
+essentially, it covers this time period, and then its乒乓of counter which is zero, right?​
+
+And it will access the channel.So, it will access the channel, and it will collide with the access point.Because here we have only shifts, right?That is used by the access point to perform the turn around of its transceiver.So during that time clearly the access point.Cannot do anything, right?Cannot transmit, cannot receive.It's a transceiver turnaround time.It's just the time during which we are switching the transceiver.The transceiver does not work.​
+
+So, the access point here is getting ready to transmit to the AP.And it will transmit the ACK, because it has the demodulated the data packet from A correctly.So, here the access point is just getting ready to transmit the acknowledgment.It will transmit acknowledgment, as we said.So, if the access point is transmitting the acknowledgment, is transmitting, if B instead ofwaiting.Right?One some more time starts transmitting, who is going to receive that part?Because remember our nodes are half duplex, if they transmit.They cannot receive.So, if B transmits its packet here, so right after the 13 time slots, then the access point is transmitting.It cannot receive it.So, this packet will fail.​
+
+We need to make sure that this transmission starts after the arc.OK, and it is enough to consider therefore that its pass back off is 13 time slots that cover this time period.Plus one, at least one.Then it can be two, three or four, but at least plus one.So, here, we need to consider at least one more time slot.​
+
+Need to wait, right?For one more time slot.You cannot access the channel when the access point is transmitting the acknowledgment.So, we want to avoid that.Okay.So, since it has got one more time slot to go, this means that that will go after.​
+
+The access points acknowledgment transmission, that is here.So, if we say again, it's 13+1, that's the time instant at which B will start transmitting its back.If we say 13+2.It will start here, 13+3 it will start here, 13+4 it will start here.​
+
+As we said, 13+5 does not work, because that will be exactly when also C decreases its.Pass with a counter to zero.OK, so, in that case, BNC would collide.So, 5 cannot be an acceptable value.OK?Good.Now notice that we only.Insider, pepel and Placean Pepín Classroom Teppelin Flash.​
+
+13+4 as as possibilities.The contention window minimum we said is 31, right?So, we're good.I mean, I just want to remark that we're good because.Fortinas Listin.Sixteen and seventeen are all possible integers, because they are all integers that fall in the 0.31 range.OK, so they are feasible, they are feasible integers.​
+
+Because clearly five we said is absolutely a no no, but what, for example, if B.​
+
+Well, in that case, we would have that C transmits first, right?Because C at that point decreases its post breakoff counter to zero first.So, C will transmit.B good start is enough, because B and C can hear each other.So, B at that point will wait longer, we'll have the transmission by C successful.And then B will transmit later on, OK?​
+
+So, in that case, we would still have successful transmissions by B, but we did not consider values.Greater than 18, for the post because of B, because.The problem said that we needed to compute a cost become value for b.Dan sorry, this is not i.Wes the ok.That allows B, the post become by B, so that B does not collide, and it transmits both packets before C.So, we did not consider values.​
+
+Because in that case, it would have been a still true that B would not collide.But you would have transmitted after C, and instead, the problem specified that we should transmit before C.OK?​
+
+But I leave it for you to look at in the afternoon or tonight, and then we are going to solve it together.But in this way you have more time to look at the at the problem, OK?So, this my last comment that I made is actually useful to you when you look at the next numerical problem.Which is similar to this one.But you will see that this my last comment will help you.OK?​
+
+So, for now, let me just here present, this is our solution, present the problem.You can take a picture, and so that you can look at the problem again in the afternoon.And if you have time, of course it's optional, if you have time, you can try and solve it.Otherwise, we in any case, we will look at the solution together,tomorrow.OK, so let me just explain it so that the test will be, the text of the problem will be clear.So, in this case.​
+
+The network topology is essentially the same as the one that we have.Just consider.So, this means that we do have an access point really, and then we have all the stations that can communicate with their access point.A compose assess.​
+
+And C.You can consider C here in the middle, so that we can say, well, access point A and C cannot all hear each other.And also the access point.C and B can hear each other.Instead, as before.​
+
+Again, we use the basic BCF, and we have indicated the duration of the transmission of A and C.So, when A and C have got a packet, if they transmit the packet, this packet will last 0.3 millisecond.When instead B accesses the channel and transmits the packet, its packet will be 0.4 milliseconds.Math parameters, more or less same as before.​
+
+We have the duration of the acknowledgment packet, 140 seconds.We have the diffs, sifs, extended IFS, and time slots.OK, all these durations are.Againa Rimant đang đi condession with me.A da gà nó sẽ biết Pro đến Is A you School.​
+
+Or a lost backup.OK.And then the usual time, TS, this is the timeout after which an node that has transmitted may realize that it has failed.​
+
+Now, we will consider in this problem that at the initial time t zero, B starts transmitting.OK, so there is no need to consider the initial leaves, because the problem saysat t=0, B starts first meeting.That's a fact.And we have that A instead starts first meeting at t=0+0.1ms, that is a little bit later than B.So, you may wonder how is that possible?Since when B starts transmitting the channel becomes busy.Well, again, it's because if we look at the network topology, we can see that A and B are hidden with respect to each other.So, when B transmits for A, the channel is still idle.So the problem says, at t=0+0.1 ms, A2 starts its speech.That's a fact.So you just need to represent that on the timeline.​
+
+Also, notice that the problem says sincethe transmission by B and the transmission by A do not start at the same time.Right?A starts a little bit later.C with ear and will be able to hear both, right?A and B.C, however, is able tothey modulate the header of the packet sent by B correctly.OK?Why?Because A's transmission starts from here.So, essentially, that note means look.C, who can hear me during this time, it can demodulate the header of this packet correctly.OK, because the A transmission by A will start later on.So, during this time, essentially, we have that C reads the duration field.​
+
+Based on the duration field that it reads in this data packet transmitted by B.OK, so this note here means that C indeed allows, so that that C is allowed to read correctly the duration field.​
+
+And then we know that also C will have a packet to transmit, it will get it from entire layers at a certain point that is T0 plus 0.7 milliseconds.Also, if a and c perform a bicusp procedure, then they will draw one and.​
+
+And again, what you should do is draw the usual temporal diagram representing the node's behavior.Determina.Value of back off for b that allows b to collide at most once.Well, we know that once he collides for sure, right?That's what the problem says.So, we need to determine the because value for b, so that its second transmission is successful.Ok, that's what we need to do, what the problem asks for.​
+
+Ok, so, as said,try to solve this problem by yourself.And we'll look at the solution together tomorrow.When you start, right?Maybe the start will be something like that.Essentially, when you start, also, remember to make some computation here, because.​
+
+And what we have is that A starts transmitting at T0+0.1 milliseconds.Hmm.So what does it mean if you make the computation?It means thatthese two packets that collided at the beginning, the one sent by A, and the one sent by B.Finish exactly at the same time.OK?Because this is 0.1.Plus the data packet transmitted by A, that is 0.3, this is t0 plus 0.4 milliseconds, right?And the transmission by B lasts 0.4 milliseconds.So it start at t zero, but it goes on till t zero plus 0.4 milliseconds.So this means that these two transmissions at the beginning, the one by A and the one by B.​
+
+Polite.OK, for sure, at the access point, we do have a collision, but the data packets end at the same time, because A starts a little bit late.So, the last hint that I will give you is that initially.Sin- since C could read the header of this packet and set its accordingly, how long will C's be?It will cover the old duration of this transmission, and it also remember always that now covers the expected duration of the dialogue.Right?So, it will also account for.​
+
+Seifs and a possible ark.The ark will not be there, of course, but the naf is based on the duration field, and the duration field reports the expected duration of the dialogue.And the expected duration of the dialogue includes seifs and ark.Even if thieves and ark are not there.Okay?So this is essentially how the diagram starts, and then feed free this afternoon to.​
+
+Let me now, so, we go back to that tomorrow, and now, we let move instead tothese set those lines.Radio has.Bu radi.Let me jose the prepare everything.Soda pops.​
+
+As already mentioned, what we are going to do with now is,device to device communication networks.Wireless communication networks.We know already what this means, right?So, we may not have a piece of infrastructure,we might have pure ad hoc network topologies where the nodes are able to communicate with each other directly.Or we may have a gateway node that acts as a gateway toward the infrastructure, butThe important.​
+
+That's the meaning of device to device networks thatwe already explained in our introductory slides.So, in this case, we'll have nodes that can communicate with each other.OK?It is not like in Wi-Fi with infrastructure with access point, where the nodes can only communicate with the access point.Right, this is based on device to device communication, so in this case, the nodes can talk to each other.So, if they are sensors, if they are user nodes, it doesn't matter, they will be able to communicate, so not just hear each other.But communicate.OK, and that's what we're going to look at after the.Long break.Of course, if you have any questions, feel free to ask after the break.​
