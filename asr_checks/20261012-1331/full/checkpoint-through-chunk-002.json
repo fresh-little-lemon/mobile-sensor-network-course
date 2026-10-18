@@ -1,0 +1,61 @@
+{
+  "included_chunks": [
+    "chunk-001",
+    "chunk-002"
+  ],
+  "completed_count_when_packaged": 2,
+  "total_chunks": 32,
+  "elapsed_seconds": 58.592298893996485,
+  "files": [
+    {
+      "path": "chunk-001.raw.json",
+      "bytes": 49556,
+      "sha256": "a4a5d580c45f3bb21e52254f598cbcf4755af234292b1f98895962f1b1b9fba2"
+    },
+    {
+      "path": "chunk-001.raw.jsonl",
+      "bytes": 27476,
+      "sha256": "d503c47d8c2a20e997b17ab9949a03f3d4be0c3af84f214d140d4efd528ed00f"
+    },
+    {
+      "path": "chunk-001.absolute.txt",
+      "bytes": 1847,
+      "sha256": "5dc6f5599db15f6485f7d1f1ae9e403fc1d6371547bafe5d1697e8b224d9c1b6"
+    },
+    {
+      "path": "chunk-001.sha256",
+      "bytes": 260,
+      "sha256": "130e2dfc75923890b94ace75e556cb32d654694e15c1cc779320a4b1f5a76086"
+    },
+    {
+      "path": "chunk-002.raw.json",
+      "bytes": 54278,
+      "sha256": "665a8138943c2c0e2159de0f919bca2ef5727c22247d5b04d4a64cff78d5d705"
+    },
+    {
+      "path": "chunk-002.raw.jsonl",
+      "bytes": 30194,
+      "sha256": "27724367b99c098e263d4462c1d38895667fc2ad7a184278679bbb6f42fe0753"
+    },
+    {
+      "path": "chunk-002.absolute.txt",
+      "bytes": 1886,
+      "sha256": "8f1dfde70ae06ab7f8d0379fada5beb112ef55c5541f4b7e803625403fd213f1"
+    },
+    {
+      "path": "chunk-002.sha256",
+      "bytes": 260,
+      "sha256": "0ea1298d8d30efac1ec509ff63746e9f81831b635961cae216d6a27dd802de80"
+    },
+    {
+      "path": "run-manifest.json",
+      "bytes": 11056,
+      "sha256": "d61cbee65ae0e672cec8e2c69d4bec19a31c7dd590caa3ef8a97f165572cf7cd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1200,
+      "sha256": "642d8d6e87673d5f8caec61eaf5e1dd3a7a74886363a96f84f1a22347fa1952f"
+    }
+  ]
+}

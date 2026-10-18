@@ -1,0 +1,17 @@
+[00:02:45.000 --> 00:02:58.200] Bechov exponent. So for example the first time that we use the Bechov
+[00:02:58.280 --> 00:03:09.780] procedure for a data packet we set the, so the first time, we set the
+[00:03:09.780 --> 00:03:23.820] break-off exponent to the break-off exponent minimum, okay? Now by default in the
+[00:03:23.820 --> 00:03:40.080] versions of phi phi, this is equal to phi. This is an example that refers to the early versions of phi phi.
+[00:03:41.000 --> 00:03:51.560] Now, so if we take this example here, this example value here, we see that as we
+[00:03:51.560 --> 00:04:00.920] said last time, the first time that we use this
+[00:04:02.440 --> 00:04:14.700] contention with the minimum, the value will be 2 to the power of the minimum exponent minus 1
+[00:04:14.700 --> 00:04:27.800] since this is 5 right this will be 2 to the 5 minus 1 which is 31 right so that's
+[00:04:27.800 --> 00:04:36.380] why yes on Saturday when we produce this procedure we said well let's
+[00:04:36.700 --> 00:04:50.500] consider the minimum contention window 31. Then the second time that we use the
+[00:04:50.500 --> 00:04:59.840] Bekoff procedure for the same packet we are going to increase the Bekoff
+[00:04:59.840 --> 00:05:12.780] a point so if this was our first value the second time we'll have second value
+[00:05:12.780 --> 00:05:26.080] right that is equal to what is equal to the previous one plus one okay so this
+[00:05:26.080 --> 00:05:34.840] means that the second time that we have to compute the contention window this
+[00:05:34.840 --> 00:05:46.260] will be equal to 2 to the power of the Bechov exponent on the second step
+[00:05:47.960 --> 00:06:00.600] minus 1 which is 2 to the cot exponent on the first step increased by 1 minus 1 right
+[00:06:01.140 --> 00:06:13.980] so now this is 2 to the power in our example to the power of 6 minus 1 which is 63 okay

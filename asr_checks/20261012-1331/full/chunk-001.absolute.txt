@@ -1,0 +1,16 @@
+[00:00:00.000 --> 00:00:12.500] I want you to stop to see the reports, and we said that whenever the Wi-Fi node needs to
+[00:00:12.500 --> 00:00:22.680] recontend for the channel, because this node has to reclassmate the packet that failed,
+[00:00:22.680 --> 00:00:35.080] then this node will perform the bake-off procedure, and we explained how the bake-off procedure works.
+[00:00:36.680 --> 00:00:51.100] Now, we said that first a node needs to wait for the channel to be idle for bifs,
+[00:00:51.100 --> 00:01:04.120] then you will draw an integer out of a range of possible values with equal probability,
+[00:01:04.500 --> 00:01:13.340] selecting each of them with equal probability and this range of values goes from zero to
+[00:01:13.340 --> 00:01:26.300] the contention window parameter. The first time that we use the becoff procedure to transmit a
+[00:01:26.300 --> 00:01:37.520] packet we set this contention window parameter to its minimum value and then if we need to
+[00:01:37.520 --> 00:01:46.100] perform the cuff procedure again in order to transmit this packet because for
+[00:01:46.100 --> 00:01:56.560] example we fail and fail and fail, every time we will increase the value of
+[00:01:56.560 --> 00:02:04.040] contention window and we said roughly speaking this value of contention
+[00:02:04.040 --> 00:02:16.360] window doubles every time, right? Now, to be more precise, the relation according to which
+[00:02:17.640 --> 00:02:26.660] the cw parameter increases is the following. So cw
+[00:02:26.660 --> 00:02:45.160] value is actually expressed as a power of 2 minus 1, where this exponent is called
+[00:02:47.540 --> 00:03:03.720] So, for example, the first time that we use the Beckhoff procedure for a data packet,
+[00:03:03.720 --> 00:03:14.500] Okay, we set the, so the first time, we set the Bekow exponent to the...

@@ -1,0 +1,315 @@
+{
+  "course": "20261012-1331",
+  "duration_seconds": 5622.281333,
+  "source_audio_sha256": "b710201745efeb5071757d4e3b086ce30937f038bbe1bbe6ae18bd74aa7239ff",
+  "model": {
+    "repo": "Systran/faster-whisper-medium.en",
+    "revision": "a29b04bd15381511a9af671baec01072039215e3",
+    "requested_model": "medium.en"
+  },
+  "parameters": {
+    "language": "en",
+    "beam_size": 5,
+    "temperature": 0.0,
+    "initial_prompt": null,
+    "condition_on_previous_text": false,
+    "vad_filter": false,
+    "word_timestamps": true
+  },
+  "core_seconds": 180,
+  "context_each_side_seconds": 15,
+  "parallel_workers": 2,
+  "cpu_threads_per_worker": 4,
+  "chunks": [
+    {
+      "index": 1,
+      "label": "chunk-001",
+      "core_start_seconds": 0,
+      "core_end_seconds": 180,
+      "window_start_seconds": 0,
+      "window_end_seconds": 195,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 2,
+      "label": "chunk-002",
+      "core_start_seconds": 180,
+      "core_end_seconds": 360,
+      "window_start_seconds": 165,
+      "window_end_seconds": 375,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 3,
+      "label": "chunk-003",
+      "core_start_seconds": 360,
+      "core_end_seconds": 540,
+      "window_start_seconds": 345,
+      "window_end_seconds": 555,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 4,
+      "label": "chunk-004",
+      "core_start_seconds": 540,
+      "core_end_seconds": 720,
+      "window_start_seconds": 525,
+      "window_end_seconds": 735,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 5,
+      "label": "chunk-005",
+      "core_start_seconds": 720,
+      "core_end_seconds": 900,
+      "window_start_seconds": 705,
+      "window_end_seconds": 915,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 6,
+      "label": "chunk-006",
+      "core_start_seconds": 900,
+      "core_end_seconds": 1080,
+      "window_start_seconds": 885,
+      "window_end_seconds": 1095,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 7,
+      "label": "chunk-007",
+      "core_start_seconds": 1080,
+      "core_end_seconds": 1260,
+      "window_start_seconds": 1065,
+      "window_end_seconds": 1275,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 8,
+      "label": "chunk-008",
+      "core_start_seconds": 1260,
+      "core_end_seconds": 1440,
+      "window_start_seconds": 1245,
+      "window_end_seconds": 1455,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 9,
+      "label": "chunk-009",
+      "core_start_seconds": 1440,
+      "core_end_seconds": 1620,
+      "window_start_seconds": 1425,
+      "window_end_seconds": 1635,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 10,
+      "label": "chunk-010",
+      "core_start_seconds": 1620,
+      "core_end_seconds": 1800,
+      "window_start_seconds": 1605,
+      "window_end_seconds": 1815,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 11,
+      "label": "chunk-011",
+      "core_start_seconds": 1800,
+      "core_end_seconds": 1980,
+      "window_start_seconds": 1785,
+      "window_end_seconds": 1995,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 12,
+      "label": "chunk-012",
+      "core_start_seconds": 1980,
+      "core_end_seconds": 2160,
+      "window_start_seconds": 1965,
+      "window_end_seconds": 2175,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 13,
+      "label": "chunk-013",
+      "core_start_seconds": 2160,
+      "core_end_seconds": 2340,
+      "window_start_seconds": 2145,
+      "window_end_seconds": 2355,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 14,
+      "label": "chunk-014",
+      "core_start_seconds": 2340,
+      "core_end_seconds": 2520,
+      "window_start_seconds": 2325,
+      "window_end_seconds": 2535,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 15,
+      "label": "chunk-015",
+      "core_start_seconds": 2520,
+      "core_end_seconds": 2700,
+      "window_start_seconds": 2505,
+      "window_end_seconds": 2715,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 16,
+      "label": "chunk-016",
+      "core_start_seconds": 2700,
+      "core_end_seconds": 2880,
+      "window_start_seconds": 2685,
+      "window_end_seconds": 2895,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 17,
+      "label": "chunk-017",
+      "core_start_seconds": 2880,
+      "core_end_seconds": 3060,
+      "window_start_seconds": 2865,
+      "window_end_seconds": 3075,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 18,
+      "label": "chunk-018",
+      "core_start_seconds": 3060,
+      "core_end_seconds": 3240,
+      "window_start_seconds": 3045,
+      "window_end_seconds": 3255,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 19,
+      "label": "chunk-019",
+      "core_start_seconds": 3240,
+      "core_end_seconds": 3420,
+      "window_start_seconds": 3225,
+      "window_end_seconds": 3435,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 20,
+      "label": "chunk-020",
+      "core_start_seconds": 3420,
+      "core_end_seconds": 3600,
+      "window_start_seconds": 3405,
+      "window_end_seconds": 3615,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 21,
+      "label": "chunk-021",
+      "core_start_seconds": 3600,
+      "core_end_seconds": 3780,
+      "window_start_seconds": 3585,
+      "window_end_seconds": 3795,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 22,
+      "label": "chunk-022",
+      "core_start_seconds": 3780,
+      "core_end_seconds": 3960,
+      "window_start_seconds": 3765,
+      "window_end_seconds": 3975,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 23,
+      "label": "chunk-023",
+      "core_start_seconds": 3960,
+      "core_end_seconds": 4140,
+      "window_start_seconds": 3945,
+      "window_end_seconds": 4155,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 24,
+      "label": "chunk-024",
+      "core_start_seconds": 4140,
+      "core_end_seconds": 4320,
+      "window_start_seconds": 4125,
+      "window_end_seconds": 4335,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 25,
+      "label": "chunk-025",
+      "core_start_seconds": 4320,
+      "core_end_seconds": 4500,
+      "window_start_seconds": 4305,
+      "window_end_seconds": 4515,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 26,
+      "label": "chunk-026",
+      "core_start_seconds": 4500,
+      "core_end_seconds": 4680,
+      "window_start_seconds": 4485,
+      "window_end_seconds": 4695,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 27,
+      "label": "chunk-027",
+      "core_start_seconds": 4680,
+      "core_end_seconds": 4860,
+      "window_start_seconds": 4665,
+      "window_end_seconds": 4875,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 28,
+      "label": "chunk-028",
+      "core_start_seconds": 4860,
+      "core_end_seconds": 5040,
+      "window_start_seconds": 4845,
+      "window_end_seconds": 5055,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 29,
+      "label": "chunk-029",
+      "core_start_seconds": 5040,
+      "core_end_seconds": 5220,
+      "window_start_seconds": 5025,
+      "window_end_seconds": 5235,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 30,
+      "label": "chunk-030",
+      "core_start_seconds": 5220,
+      "core_end_seconds": 5400,
+      "window_start_seconds": 5205,
+      "window_end_seconds": 5415,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 31,
+      "label": "chunk-031",
+      "core_start_seconds": 5400,
+      "core_end_seconds": 5580,
+      "window_start_seconds": 5385,
+      "window_end_seconds": 5595,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    },
+    {
+      "index": 32,
+      "label": "chunk-032",
+      "core_start_seconds": 5580,
+      "core_end_seconds": 5622.281333,
+      "window_start_seconds": 5565,
+      "window_end_seconds": 5622.281333,
+      "overlap_policy": "15 seconds of context on each available side. Full raw outputs retained; no automatic deduplication."
+    }
+  ],
+  "audio_not_in_text_publish_batch": true,
+  "raw_first_no_correction": true
+}
