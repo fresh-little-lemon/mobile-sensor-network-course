@@ -1,0 +1,396 @@
+{
+  "document_title": "双语对照：录音机-20261009-0759",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/GSiDdfhZHoJ99Ux1XducLUkgn6b",
+  "original_transcript_url": "https://lcn6dqn3m0yr.feishu.cn/docx/CMG4dzvZXofeCIxg1egcUhomnrh",
+  "original_audio_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnilq3l168ny9wfob7ad83",
+  "prepared_for": "授权的课程私仓同步准备；未执行远程发布",
+  "source_pdfs": [
+    {
+      "filename": "001-BasicConcepts.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "b03d550cf3d45a59f19220ed258504ab8f0d6c7e32f57413a3fdb664a4335776",
+      "pages": 27,
+      "figures_used": [
+        51,
+        52,
+        54
+      ],
+      "local_provenance": "Reused earlier pinned PDF download from this authorized course audit; hash recorded here."
+    },
+    {
+      "filename": "02-WiFi_1-7.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+      "pages": 74,
+      "figures_used": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "local_provenance": "Reused earlier pinned PDF download from this authorized course audit; hash recorded here."
+    }
+  ],
+  "audited_at_utc": "2026-10-18T14:20:00Z",
+  "audit_scope": "All67 bilingual paragraphs fully read; all6 original images downloaded read-only and visually compared with pinned source PDFs; missing BasicConcepts figure52 original PNG visually verified and prepared. BasicConcepts pages26–27 and WiFi pages1–4 reviewed, including boundary/excluded slides. Audit worker made no remote edits.",
+  "paragraph_count": 67,
+  "original_image_count": 6,
+  "added_image_count": 1,
+  "image_count": 7,
+  "confirmed_defects": [
+    {
+      "id": "missing-crc-packet-header-slide",
+      "type": "missing_source_image",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_number": 52,
+      "pdf_page": 26,
+      "pdf_half": "lower",
+      "paragraph_span": [
+        8,
+        16
+      ],
+      "timestamps": [
+        "00:06:05",
+        "00:11:50"
+      ],
+      "evidence": "第8段解释首部与有效载荷，第10–16段详细解释CRC摘要被写入首部以及收发双方计算比较；图52的PCI/SDU及首部校验位展开图直接对应。原稿图51仅给出FEC/ARQ用途比较，图54的发包/确认示意没有首部校验位展开，不能代替图52。",
+      "remediation": "Parent added original slide52 PNG after paragraph11 H2 and before unchanged paragraph11. Six original images preserved. Remote download is byte-identical to the source PNG.",
+      "new_block_id": "doxcnFhwixXhWINmCc7mefzksde",
+      "status": "resolved_and_verified_in_full_document_readback",
+      "write_receipt": "receipts/add-slide-052.json",
+      "write_revision": 94
+    }
+  ],
+  "original_images_misaligned_count": 0,
+  "not_missing": [
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_number": 53,
+      "reason": "Sequence numbers are not introduced in this recording. The lecturer explicitly limits ARQ coverage to stop-and-wait; no sequence-number explanation is present."
+    },
+    {
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "figure_number": 2,
+      "reason": "The roadmap is not discussed item by item. Paragraph47 gives a general reassurance and paragraph48 begins Introduction & Architecture, already covered by figure3. The generic reference alone does not confirm a missing roadmap figure."
+    },
+    {
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "figure_numbers": [
+        6,
+        7,
+        8
+      ],
+      "reason": "Paragraphs43–44 briefly name standard evolution and amendment letters, but do not develop the throughput/date/PHY tables, amendment categories, or Wi-Fi-generation naming. Figure4 already mentions 1997 and ongoing standard development; no confirmed omission."
+    },
+    {
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "figure_numbers_from": 9,
+      "reason": "The recording ends after the protocol-stack explanation with a five-minute break at paragraph67; later network architectures and connection procedures are not developed here."
+    }
+  ],
+  "cautions": [
+    "The first paragraph is originally timestamped00:01:04; no00:00:00 timestamp was invented.",
+    "All67 source paragraphs, including spoken/source inconsistencies, are retained verbatim. This is not a technical correction or audio-to-text verification.",
+    "Original figure4 is retained after paragraph49; its earlier topic introduction does not require moving or duplicating it.",
+    "Source figure54 lists three ARQ methods; the lecture explicitly discusses only stop-and-wait.",
+    "Only the original status metadata line was updated by the parent to reflect seven images and the added headings; all other original non-root blocks remain unchanged.",
+    "Prepared only for the authorized private course repository; no independent public redistribution rights review."
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "figure_number": 51,
+      "slide_number": 51,
+      "numbering_basis": "PDF handout sequence within each source PDF, not the small printed footer or overall document image order",
+      "title": "FEC vs. ARQ: error correction and CRC detection",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 26,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=26",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-051.png",
+      "sha256": "e2c9a2773e9b435715bbcfb206d539ed4571a5ac31c873cfa4c69fc44acc9ad8",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnb2QWmkkiibpQdDlLvasx0g",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第26页上半页 · 图51（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第26页上半页 · 图51（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:09:00",
+        "block_id": "doxcnFvKsQAIcChGbilA9ISkR6d",
+        "heading": "10 · 00:09:00 · CRC作为有效载荷摘要"
+      },
+      "before_paragraph": {
+        "ordinal": 11,
+        "timestamp": "00:10:19",
+        "block_id": "doxcnVirHa0WA2SgGUpRHZXnpxd",
+        "heading": "11 · 00:10:19 · 把CRC加入首部并发送数据包"
+      },
+      "semantic_paragraph_span": [
+        6,
+        16
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第6段回顾FEC与重复码，第7–16段引入ARQ及CRC检错，图中纠错/检错用途比较对应。"
+    },
+    {
+      "image_ordinal": 2,
+      "figure_number": 52,
+      "slide_number": 52,
+      "numbering_basis": "PDF handout sequence within each source PDF, not the small printed footer or overall document image order",
+      "title": "Packet header: parity bits in the header",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 26,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=26",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-052.png",
+      "sha256": "4d106a3cb6dbf3ff0538aea8db05bd20f2e288f7fce7dae2baec20cf10934953",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnFhwixXhWINmCc7mefzksde",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第26页下半页 · 图52（首部与校验位示意）",
+      "original_caption": null,
+      "status": "added_and_verified_in_remote_document",
+      "after_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:09:00",
+        "block_id": "doxcnFvKsQAIcChGbilA9ISkR6d",
+        "heading": "10 · 00:09:00 · CRC作为有效载荷摘要"
+      },
+      "before_paragraph": {
+        "ordinal": 11,
+        "timestamp": "00:10:19",
+        "block_id": "doxcnVirHa0WA2SgGUpRHZXnpxd",
+        "heading": "11 · 00:10:19 · 把CRC加入首部并发送数据包"
+      },
+      "semantic_paragraph_span": [
+        8,
+        16
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第8段解释首部与载荷，第10–16段详细说明CRC摘要放入首部及收发双方计算比较，图中PCI/SDU及首部校验位展开直接对应。",
+      "placement": "After paragraph11 H2, before unchanged paragraph11",
+      "reused_from_document": "https://lcn6dqn3m0yr.feishu.cn/docx/ENxEdQVrvoRZ6lxgUeAcu5yBnng",
+      "reused_from_image_block_id": "doxcnMvuwNgGbt8Xz2OgLTFWpLU",
+      "download_receipt": "/workspace/shared/course-1008-1049/audit/download-results.json",
+      "remote_download_sha256": "4d106a3cb6dbf3ff0538aea8db05bd20f2e288f7fce7dae2baec20cf10934953",
+      "remote_download_receipt": "audit/download-added-slide-052-receipt.json"
+    },
+    {
+      "image_ordinal": 3,
+      "figure_number": 54,
+      "slide_number": 54,
+      "numbering_basis": "PDF handout sequence within each source PDF, not the small printed footer or overall document image order",
+      "title": "ARQ: stop-and-wait and acknowledgments",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 27,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=27",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-054.png",
+      "sha256": "ad2f16dbd028299cf21486850b5887059ed74cf59140a841c7e0ace92e6dd64e",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcna9EGnc8qZkBuT7Qkz4Kxrh",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第27页下半页 · 图54（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第27页下半页 · 图54（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 19,
+        "timestamp": "00:16:58",
+        "block_id": "doxcnQDp9nRQdeOVrrr0J735fdc",
+        "heading": "19 · 00:16:58 · 校验成功后返回ACK"
+      },
+      "before_paragraph": {
+        "ordinal": 20,
+        "timestamp": "00:17:38",
+        "block_id": "doxcn5voF526eZXSQnhZmM1iWah",
+        "heading": "20 · 00:17:38 · ACK确认包的含义"
+      },
+      "semantic_paragraph_span": [
+        17,
+        29
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第17段说明只讲停止等待，第18–29段讲数据包、确认、超时重传与次数上限。图中发送端/接收端、PCI/SDU和反向控制包对应；另外两种ARQ仅在源图列表中，正文未展开。"
+    },
+    {
+      "image_ordinal": 4,
+      "figure_number": 1,
+      "slide_number": 1,
+      "numbering_basis": "PDF handout sequence within each source PDF, not the small printed footer or overall document image order",
+      "title": "Wireless LANs: From IEEE 802.11 to Wi-Fi 7",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 1,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=1",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-001.png",
+      "sha256": "b7da3313dd337806c644271a977cf999ed177b3cf8706b165216b27df3bc9b42",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnF2q3IknFTKi8SxNQ606pAh",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第1页上半页 · 图1（按PDF顺序）\n",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第1页上半页 · 图1（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 36,
+        "timestamp": "00:26:28",
+        "block_id": "doxcniwuG0SqUcw1w1TXLxNW9Wg",
+        "heading": "36 · 00:26:28 · 开始学习Wi-Fi工作原理"
+      },
+      "before_paragraph": {
+        "ordinal": 37,
+        "timestamp": "00:27:26",
+        "block_id": "doxcnP320HqwTttqX5AYCRRr1zg",
+        "heading": "37 · 00:27:26 · 按专业背景区分技术学习重点"
+      },
+      "semantic_paragraph_span": [
+        36,
+        47
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第36段明确开始Wi-Fi新课件，随后介绍技术、IEEE、802.11和有限范围覆盖；课程封面位置合理。"
+    },
+    {
+      "image_ordinal": 5,
+      "figure_number": 3,
+      "slide_number": 3,
+      "numbering_basis": "PDF handout sequence within each source PDF, not the small printed footer or overall document image order",
+      "title": "Introduction & 802.11 Architecture",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 2,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=2",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-003.png",
+      "sha256": "851e7dfc2b53a2037bbdb1d1c33ada782102e3c96109fc6ca77fedceeeb9af93",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnFGqqQ62x2VrTSTNKa9U66c",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第2页上半页 · 图3（按PDF顺序）\n",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第2页上半页 · 图3（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 48,
+        "timestamp": "00:30:07",
+        "block_id": "doxcn6CHBMfFHtUXQD6O9PxuUJb",
+        "heading": "48 · 00:30:07 · Wi-Fi简介与网络架构"
+      },
+      "before_paragraph": {
+        "ordinal": 49,
+        "timestamp": "00:30:07",
+        "block_id": "doxcn7KtQgNBJDy06ulKNWIrsXd",
+        "heading": "49 · 00:30:07 · 无线用户连接与802.11标准"
+      },
+      "semantic_paragraph_span": [
+        48,
+        48
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第48段明确开始Wi-Fi简介与网络架构，与章节封面一致。"
+    },
+    {
+      "image_ordinal": 6,
+      "figure_number": 4,
+      "slide_number": 4,
+      "numbering_basis": "PDF handout sequence within each source PDF, not the small printed footer or overall document image order",
+      "title": "What is IEEE 802.11?",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 2,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=2",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-004.png",
+      "sha256": "8a5bfbee2a3ed7683ae92dc1b955212c8f7d357a92c793c97e4a03cf3ded756c",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnAh6HM7A9ESZ9pF9UuMfkHd",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第2页下半页 · 图4（按PDF顺序）\n",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第2页下半页 · 图4（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 49,
+        "timestamp": "00:30:07",
+        "block_id": "doxcn7KtQgNBJDy06ulKNWIrsXd",
+        "heading": "49 · 00:30:07 · 无线用户连接与802.11标准"
+      },
+      "before_paragraph": {
+        "ordinal": 50,
+        "timestamp": "00:30:07",
+        "block_id": "doxcnPNgUXkdPNtJWD4wJZ9vtAe",
+        "heading": "50 · 00:30:07 · Wi-Fi定义物理层和MAC层"
+      },
+      "semantic_paragraph_span": [
+        39,
+        50
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第39–46段已介绍IEEE、802.11、1997年、版本和WLAN，第49段再次概括WLAN与标准；原图位于该完整概括后，语义合理，无须移动至首次提及。"
+    },
+    {
+      "image_ordinal": 7,
+      "figure_number": 5,
+      "slide_number": 5,
+      "numbering_basis": "PDF handout sequence within each source PDF, not the small printed footer or overall document image order",
+      "title": "Where 802.11 Sits in the Protocol Stack",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 3,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=3",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-005.png",
+      "sha256": "a103053407f5cf107442970076d98ff1ce911dd703a45bc94e8b2a66b4bc6058",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnfmNIOxLJZDe1uRJxfNWcpd",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第3页上半页 · 图5（按PDF顺序）\n",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第3页上半页 · 图5（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 50,
+        "timestamp": "00:30:07",
+        "block_id": "doxcnPNgUXkdPNtJWD4wJZ9vtAe",
+        "heading": "50 · 00:30:07 · Wi-Fi定义物理层和MAC层"
+      },
+      "before_paragraph": {
+        "ordinal": 51,
+        "timestamp": "00:30:07",
+        "block_id": "doxcn9isVsexAolG6TUBXCN5wlh",
+        "heading": "51 · 00:30:07 · 通过手机Wi-Fi网卡理解协议栈"
+      },
+      "semantic_paragraph_span": [
+        50,
+        66
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第50段明确PHY与MAC两层，第51–66段逐项解释物理层发信号、MAC决定何时发包、应用/TCP/IP及向下传递，协议栈图完整对应。"
+    }
+  ],
+  "final_remote_verification": {
+    "snapshot": "blocks-final.json",
+    "snapshot_sha256": "ff4e230a9fdf489e1d67db196230a46325df6368a2cfdf412a3e124c72f4a86d",
+    "all_original_non_root_blocks_except_status_unchanged": true,
+    "only_updated_original_content_block": "doxcnLafNdpxHQpsOcfZIlV3yPf",
+    "status_line_updated_to_correct_counts": true,
+    "paragraph_count": 67,
+    "image_count": 7,
+    "heading2_count": 67,
+    "heading1_count": 7,
+    "original_image_order_and_neighbors_preserved": true,
+    "added_image_before_paragraph11_and_after_its_h2": true,
+    "added_image_bytes_identical_to_original_source": true
+  }
+}

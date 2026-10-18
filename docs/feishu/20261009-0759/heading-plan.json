@@ -1,0 +1,672 @@
+[
+  {
+    "ordinal": 1,
+    "block_id": "doxcnenayjsjNmeFq5sEIcugYed",
+    "text": "原标说话人 1  00:01:04\nGood morning. What I would like to ask you is to write next to your name, the bachelor degree that you've got, so, what kind of study you have done as an undergraduate student? OK, can you do that for me? Thank you. So that I know better your background, and for the final test that try to签签到。Adjust your background. So, I will talk with the technology professors and see how to make things suitable for all of you, so that the final tests can suit your background and ability to learn new concepts but starting from what you know already. OK?你能写中文吗？\n早上好。我想请大家做的是，在姓名旁边写上你获得的本科学位，也就是，你作为本科生做过哪方面的学习？好，能帮我这样做吗？谢谢。这样我就能更好地了解你们的背景，而对于最后的考试，就试着签签到。适应你们的背景。所以，我会和技术方面的教授沟通，看看怎样让事情适合你们所有人，让最后的考试能够适合你们的背景以及学习新概念的能力，不过，是从你们已经知道的内容开始。好吗？你能写中文吗？",
+    "timestamp": "00:01:04",
+    "text_sha256": "97afc62d562128d8b45d25c9d7366ee8da1c22323a6cf1f5e11cb55890ca1c1f",
+    "heading": "01 · 00:01:04 · 本科背景登记与考试安排",
+    "h1_before": "一、学习背景与基础概念回顾",
+    "anchor": "doxcnEqDTiacFZ5ClAEXFTUYyld"
+  },
+  {
+    "ordinal": 2,
+    "block_id": "doxcnTAuje0gtNYPFRA8GMmzIYc",
+    "text": "原标说话人 1  00:02:27\nAny any questions or anything that you would like me to repeat or better explain about what we said yesterday? Feel free to ask for clarification or if you missed anything, please ask. Anything that you would like to hear again? OK, so, then let me ask you, just to see if we are all good so far.\n关于我们昨天讲的内容，有没有、有没有问题，或者有什么希望我重复一下，或者解释得更清楚的？请随意要求澄清，或者如果你漏掉了什么，请提问。有什么想再听一遍的吗？好，那么，让我来问问大家，只是看看我们到目前为止是不是都没问题。",
+    "timestamp": "00:02:27",
+    "text_sha256": "6e5d818c5a4e54abae5ac8cf84f5b608e3c8be7c45cca077b00e2dc91af443c4",
+    "heading": "02 · 00:02:27 · 前一课内容答疑",
+    "h1_before": "",
+    "anchor": "doxcn1zKukrnKSV9ncwDTR5HHZe"
+  },
+  {
+    "ordinal": 3,
+    "block_id": "doxcnrC3hoKPosUmRwlBRoTd2Uh",
+    "text": "原标说话人 1  00:02:27\nSo, when we have a transmitter and a receiver of information, how can we transfer information data from a transmitter to a receiver? How can we do that?\n那么，当我们有一个信息发射端和一个接收端时，怎样把信息数据从发射端传到接收端？我们怎么做到呢？",
+    "timestamp": "00:02:27",
+    "text_sha256": "a0e640f0f257b7d027a355d513c58e06803cbc50a561979ebb0264c063f242ca",
+    "heading": "03 · 00:02:27 · 发射端如何向接收端传递信息",
+    "h1_before": "",
+    "anchor": "doxcnaPBpspS0AqGRQXw8PCMkaf"
+  },
+  {
+    "ordinal": 4,
+    "block_id": "doxcnqoEpADDrNDS6eRikcel3yg",
+    "text": "原标说话人 1  00:03:59\nHow can we impress information bits on the signal electromagnetic wave that travels from transmitter to receiver? Modulation. Okay, but I know you have got an ICT background. Okay, thanks.\n我们怎样把信息比特加载到从发射端传播到接收端的信号、电磁波上？调制。好，不过我知道你有信息与通信技术背景。好，谢谢。",
+    "timestamp": "00:03:59",
+    "text_sha256": "ddd1a1e3637e194feacfd2f6aaa55b2f84c79efde406e6f6b368e782fcc134dd",
+    "heading": "04 · 00:03:59 · 通过调制把比特加载到电磁波",
+    "h1_before": "",
+    "anchor": "doxcnZSDiR4VgE3qERYMwI8kJZd"
+  },
+  {
+    "ordinal": 5,
+    "block_id": "doxcnI8TE9IRE8OG0yW72fvePQc",
+    "text": "原标说话人 1  00:04:29\nSo, modulation, modulation is the operation that allow us to impress bits on a signal, right? And we can do that by changing amplitude or frequency or phase of the signal, OK?\n所以，调制，调制就是让我们能够把比特加载到信号上的操作，对吧？我们可以通过改变信号的幅度、频率或相位来做到这一点，好吗？",
+    "timestamp": "00:04:29",
+    "text_sha256": "2f4cc78c09900a14c6fcf85b2c0a04a0fb1ede67cc716a89cb0b4c4e79cfc10b",
+    "heading": "05 · 00:04:29 · 幅度、频率与相位调制回顾",
+    "h1_before": "",
+    "anchor": "doxcnfYz4ivDW6j6zJL4Zlj3tGb"
+  },
+  {
+    "ordinal": 6,
+    "block_id": "doxcnfTcWywitGRo0ZeYecE7reg",
+    "text": "原标说话人 1  00:04:52\nAlso, we said at the receiver, when the power of the received signal is too low compare to noise interference, we may make mistakes, and we said there are techniques to help the receiver to receive correctly the information. A possible family group of techniques is the forward error correction codes, and we made the example of the repetition code, very simple. And it's what we do, we humans do, to repeat information whenever the receiver is not able to understand correctly.\n另外，我们说过，在接收端，当接收信号的功率相对于噪声、干扰太低时，我们可能会犯错，而且我们说过，有一些技术能帮助接收端正确地接收信息。一类可能的技术、一组技术是前向纠错码，而我们举了重复码的例子，非常简单。这也是我们所做的，我们人类所做的，在接收者无法正确理解时重复信息。",
+    "timestamp": "00:04:52",
+    "text_sha256": "7d1c5a6110f7f5ac8b4392b7c6115fb5d2742f2b96a4edd1db4ca40d854e46b7",
+    "heading": "06 · 00:04:52 · 接收错误与前向纠错重复码",
+    "h1_before": "",
+    "anchor": "doxcnUVUZl9NHtMz3ug1oJbjiuf"
+  },
+  {
+    "ordinal": 7,
+    "block_id": "doxcnKyFEkrSj8YIRykM2iQlqvc",
+    "text": "原标说话人 1  00:06:05\nThe second type of technique that we are going to discuss today is ARQ, automatic retransmission request. OK, this is what we are going to explain in a minute, but what we already said yesterday is that in this second case we handle bits grouped into packets. OK? So, we do not look at the single bits, but we look at a group of bits that are carried into a packet, and the packet we said is like a message, an email that we send, right? And the single bits are like the letters that we write in the message, in the email message. Okay?\n我们今天要讨论的第二类技术是 ARQ，自动重传请求。好，这就是我们马上要解释的内容，不过，我们昨天已经说过，在这第二种情况下，我们处理的是分组成数据包的比特。好吗？所以，我们不看单个比特，而是看装在一个数据包中的一组比特，而我们说过，数据包就像我们发出的一条消息、一封电子邮件，对吧？而单个比特就像我们在消息里、在电子邮件消息里写下的字母。好吗？",
+    "timestamp": "00:06:05",
+    "text_sha256": "6c5866d6c7f3c52c1f082ddf45c1cbd94f728d4fbc88eeae26ede5b997692ac1",
+    "heading": "07 · 00:06:05 · ARQ与按数据包处理比特",
+    "h1_before": "二、数据包结构与CRC检错",
+    "anchor": "doxcnO3WsP5gopewkB9zZ1aq0gb"
+  },
+  {
+    "ordinal": 8,
+    "block_id": "doxcnGlK39aSYoZorte1nKLJmpc",
+    "text": "原标说话人 1  00:06:05\nSo, we send a packet from a transmitter to a receiver. So, we can think of it in our daily life as an email message. And we let this packet get a header in front. That means like when we write an email, we said we are going to add our address, and of course, the address of the destination. Right? So that kind of information is the header of the email message that we write, and the same holds here, we have the base, the information that is included in the payload. And then we have the header that carries the so called control information. Examples are the sender's address and the destination's address. OK.\n所以，我们从发射端向接收端发送一个数据包。因此，我们可以把它想成日常生活中的一封电子邮件消息。我们让这个数据包在前面带上一个首部。也就是说，就像我们写电子邮件时，我们说过，要加上自己的地址，当然，还有目的地址。对吧？所以，这类信息就是我们所写电子邮件消息的首部，而这里也一样，我们有基本的内容，也就是包含在有效载荷中的信息。然后，我们有携带所谓控制信息的首部。例子就是发送者地址和目的地址。好。",
+    "timestamp": "00:06:05",
+    "text_sha256": "7efe5925054e24757fabc927815d708687033cea748463008edc0a50d0a6fea3",
+    "heading": "08 · 00:06:05 · 电子邮件类比：首部与有效载荷",
+    "h1_before": "",
+    "anchor": "doxcn1jMZKZl27NZXuxtbAyRHAf"
+  },
+  {
+    "ordinal": 9,
+    "block_id": "doxcnjL7X8UN1z0VNWN386K9xWc",
+    "text": "原标说话人 1  00:06:05\nNow, in this header, there may be other control information on top of the transmitters' and receivers' address.\n现在，在这个首部中，除了发射端和接收端的地址之外，可能还有其他控制信息。",
+    "timestamp": "00:06:05",
+    "text_sha256": "760896d3edc5672539da854aea5af7be572baec18f8ed00a015f96575c516286",
+    "heading": "09 · 00:06:05 · 数据包首部中的其他控制信息",
+    "h1_before": "",
+    "anchor": "doxcnzn9oRM578CsNeiyZvQN7be"
+  },
+  {
+    "ordinal": 10,
+    "block_id": "doxcnFvKsQAIcChGbilA9ISkR6d",
+    "text": "原标说话人 1  00:09:00\nNow, in a ARQ techniques, what we do is given an transmitter and a receiver, and given a packet that the transmitter sends to the receiver, we are going to, to include in the packet header at the transmitter a digest of the payload. That means a summary of the payload. That is called CRC code. OK, so, it's still a kind of a code, it's called CRC code, and it is a digest. Sorry, let me write a simple answer for it.\n现在，在 ARQ 技术中，我们所做的是，给定一个发射端和一个接收端，以及一个由发射端发送给接收端的数据包，我们会在发射端把有效载荷的摘要包含、包含在数据包首部中。也就是有效载荷的概括。它叫作 CRC 码。好，所以，它仍然是一种码，叫 CRC 码，而它是一个摘要。对不起，让我给它写一个简单的答案。",
+    "timestamp": "00:09:00",
+    "text_sha256": "118813c73f6b41ed64970b68e7954283405d996f50990f4094b3ad5da531f898",
+    "heading": "10 · 00:09:00 · CRC作为有效载荷摘要",
+    "h1_before": "",
+    "anchor": "doxcn2N9PaoZUU8BCTDHfxKjcyX"
+  },
+  {
+    "ordinal": 11,
+    "block_id": "doxcnVirHa0WA2SgGUpRHZXnpxd",
+    "text": "原标说话人 1  00:10:19\nThis is a digest of the payload. OK, a digest summary of the information bits. This CRC, this digest of the information bits is included by the transmitter into the packet header, and then the transmitter transmits everything, the payload and the header, to the intended receiver. OK?\n这是有效载荷的摘要。好，是信息比特的摘要、概括。这个 CRC，这个信息比特的摘要，由发射端放进数据包首部，然后发射端把所有内容、有效载荷和首部，发送给预期接收端。好吗？",
+    "timestamp": "00:10:19",
+    "text_sha256": "82fea467411abf0c454c5675839647aefa74921f095e225aa28a3cb960258c54",
+    "heading": "11 · 00:10:19 · 把CRC加入首部并发送数据包",
+    "h1_before": "",
+    "anchor": "doxcnILCzvNOPkdHNwc35YH6Lng"
+  },
+  {
+    "ordinal": 12,
+    "block_id": "doxcnvNspHZh4vSeFJM4cYfRd9c",
+    "text": "原标说话人 1  00:10:19\nThe intended receiver will try to demodulate what it receives. So, to extract all the bits. OK. Assume that the header of the packet is always received correctly at the receiver. Let's make this assumption. So first, it demodulates the header and extracts the CRC that was computed by the transmitter.\n预期接收端会试着解调收到的东西。也就是提取出所有比特。好。假设数据包的首部在接收端总能被正确接收。我们作这个假设。那么，首先，它解调首部，并提取出发射端计算的 CRC。",
+    "timestamp": "00:10:19",
+    "text_sha256": "9c12b1c427a9b96f26b54888db1ba7669cdc2e879af921a5f53af640bb7c09ab",
+    "heading": "12 · 00:10:19 · 接收端解调首部并提取CRC",
+    "h1_before": "",
+    "anchor": "doxcnWrysPSBk6xy8CZEnzxWEyz"
+  },
+  {
+    "ordinal": 13,
+    "block_id": "doxcn3KH0ciF27D15G3Zbs2hIIe",
+    "text": "原标说话人 1  00:11:50\nOK? So, the receiver demodulates first the CRC that was computed at the transmitter, and then it demodulates the payload, the information bits.\n好吗？所以，接收端先解调在发射端计算出来的 CRC，然后解调有效载荷，也就是信息比特。",
+    "timestamp": "00:11:50",
+    "text_sha256": "b76dd0ce448329af90d400d338229354dafc1d1556451b536e8943daab942538",
+    "heading": "13 · 00:11:50 · 依次解调CRC与有效载荷",
+    "h1_before": "",
+    "anchor": "doxcnluGSY6MRmGYbwWnG2LH8pf"
+  },
+  {
+    "ordinal": 14,
+    "block_id": "doxcnVCAPsfDjyIwDC3ErJYnWSf",
+    "text": "原标说话人 1  00:11:50\nNow, after that, the receiver itself computes the CRC, the digest of the information bits of the payload that it has demodulated. OK, so, based on what it understood from the payload that it has received, it computes its own CRC. OK, so we have a value of CRC computed at the receiver that is a digest of what the receiver has understood from the thing that it has received.\n现在，在那之后，接收端自身计算 CRC，也就是它所解调出的有效载荷的信息比特摘要。好，所以，根据它从收到的有效载荷中理解到的内容，它计算自己的 CRC。好，所以，我们有了一个在接收端计算出的 CRC 值，它是对接收端从收到的东西中理解到的内容所作的摘要。",
+    "timestamp": "00:11:50",
+    "text_sha256": "2fbd9db726b5e70d9b77b52dea435336b708d1db87da53a416fc0bf8ce19d58c",
+    "heading": "14 · 00:11:50 · 接收端根据收到的载荷计算CRC",
+    "h1_before": "",
+    "anchor": "doxcnfeedaxDjTLqsJel2b1GHkf"
+  },
+  {
+    "ordinal": 15,
+    "block_id": "doxcnP6y3Lisc8Dk2KIOyzDfRZg",
+    "text": "原标说话人 1  00:11:50\nOK, now, at the receiver, we have both the CRC that was transmitted by the transmitter, and the CRC that the receiver has computed locally. If they are the same, if they are equal, if they are the same, then the receiver says I received everything correctly.\n好，现在，在接收端，我们既有发射端传来的 CRC，也有接收端在本地计算的 CRC。如果它们相同，如果它们相等，如果它们相同，那么接收端就说，我已经正确收到了一切。",
+    "timestamp": "00:11:50",
+    "text_sha256": "c2903a8f6481b1b0c7435f07e52e12d78ba9d08d94bddf105baeab30a9898c24",
+    "heading": "15 · 00:11:50 · 比较CRC并判断正确接收",
+    "h1_before": "",
+    "anchor": "doxcnbatyk9meErAWR3C2rv3epe"
+  },
+  {
+    "ordinal": 16,
+    "block_id": "doxcn25UL3v7bzUfMwywyLo73Oc",
+    "text": "原标说话人 1  00:11:50\nOkay. If instead, the two values are different, then the receiver says, I failed, I could not receive the packet correctly. OK, so the packet transmission failed.\n好。相反，如果这两个值不同，那么接收端就说，我失败了，我没能正确接收这个数据包。好，所以，数据包传输失败了。",
+    "timestamp": "00:11:50",
+    "text_sha256": "5bfb5a861c84fc3c83696fdf1b75fe9fc0cd85716546b425bc78b09ed64fcd62",
+    "heading": "16 · 00:11:50 · CRC不一致表示传输失败",
+    "h1_before": "",
+    "anchor": "doxcn6CRNs3nrFYL3PzlDrRzJCd"
+  },
+  {
+    "ordinal": 17,
+    "block_id": "doxcnMwpl7qlCA0rA8vEsomdhFe",
+    "text": "原标说话人 1  00:11:50\nOK, now, that said, when we apply ARQ, there might be different ARQ techniques that one can implement, but we will look only at one of them, that is the simplest ARQ technique. And this is called stop and wait. Ok, this is the only ARQ technique that we are going to discuss. How does the stop and wait work?\n好，现在，说到这里，当我们应用 ARQ 时，可能有不同的 ARQ 技术可供实现，但我们只看其中一种，也就是最简单的 ARQ 技术。它叫作停止等待。好，这是我们要讨论的唯一一种 ARQ 技术。停止等待怎样工作呢？",
+    "timestamp": "00:11:50",
+    "text_sha256": "03dcf4fe1ff5a2667bb971d3d991ea6fad644cd2cb4fccb57a050fe115a9d785",
+    "heading": "17 · 00:11:50 · 引入停止等待ARQ",
+    "h1_before": "三、停止等待ARQ与确认重传",
+    "anchor": "doxcngJaAWxeFwf0fSAJ0fYQJvb"
+  },
+  {
+    "ordinal": 18,
+    "block_id": "doxcnGEb28JUeXo0nvEOsoJrGJg",
+    "text": "原标说话人 1  00:15:44\nOK, how does the stop and wait technique work? As we said, the transmitter transmits the packet payload plus header. In the header, there is the CRC computed by the transmitter. The receiver demodulates the header, and we assume that it always demodulates the header correctly. Therefore, it extracts the CRC computed by the transmitter. Then, as we said, it demodulates the payload of the packet, and based on what the receiver got, the modulated computes its own summary of the payload, and this is the CRC computed at the receiver.\n好，停止等待技术怎样工作呢？正如我们说过的，发射端发送数据包有效载荷加上首部。首部里有发射端计算出的 CRC。接收端解调首部，而我们假设它总能正确解调首部。因此，它提取出发射端计算的 CRC。然后，正如我们所说，它解调数据包的有效载荷，并根据接收端得到的内容，调制后的内容计算出它自己的有效载荷摘要，这就是接收端计算的 CRC。",
+    "timestamp": "00:15:44",
+    "text_sha256": "dc2873a3d87f295089140a5607cef4b4f99c3b3ee41b35b5dfbc4e7e99dcffe2",
+    "heading": "18 · 00:15:44 · 停止等待中的发送与CRC计算",
+    "h1_before": "",
+    "anchor": "doxcnYwovzFseQKhUXfDiL1OIRh"
+  },
+  {
+    "ordinal": 19,
+    "block_id": "doxcnQDp9nRQdeOVrrr0J735fdc",
+    "text": "原标说话人 1  00:16:58\nAnd then it checks whether these two values are equal or different. If they are equal, then he says, I have received the packet correctly. And at this point, he will send back an control packet, that is called acknowledgment. So, it will send back an ACK, an acknowledgment to the transmitter.\n然后，它检查这两个值相等还是不同。如果相等，它就说，我已经正确接收了这个数据包。而这时，它会返回一个控制数据包，叫作确认。因此，它会向发射端返回一个 ACK，一个确认。",
+    "timestamp": "00:16:58",
+    "text_sha256": "36f7c8d4bd44597cc64ae4550385a5bc7232f26b681f2dcd7cc6341498f1c22f",
+    "heading": "19 · 00:16:58 · 校验成功后返回ACK",
+    "h1_before": "",
+    "anchor": "doxcn580iUVtX05apBOJA7FSzPr"
+  },
+  {
+    "ordinal": 20,
+    "block_id": "doxcn5voF526eZXSQnhZmM1iWah",
+    "text": "原标说话人 1  00:17:38\nThe acknowledgment is a control packet. It means that it does not carry any useful user information. It just says, I received your packet correctly. OK, that's the meaning of acknowledgment.\n确认是一个控制数据包。这意味着它不携带任何有用的用户信息。它只是说，我已经正确收到了你的数据包。好，这就是确认的含义。",
+    "timestamp": "00:17:38",
+    "text_sha256": "ebfa6de551537aad8091ae7282204f0b4d2004eddcf41a9ff326814a879fafaf",
+    "heading": "20 · 00:17:38 · ACK确认包的含义",
+    "h1_before": "",
+    "anchor": "doxcnSOYva4o6iPcCDypkLOmd9g"
+  },
+  {
+    "ordinal": 21,
+    "block_id": "doxcny1HBs7VZdBqHZGqxkwkqXb",
+    "text": "原标说话人 1  00:18:04\nWhen the transmitter receives the acknowledgment from the receiver, it understands that its packet was successful. So, he's happy with that, and he will proceed with the next packet transmission, if it has something more to drive.\n当发射端收到接收端的确认时，它就明白自己的数据包成功了。所以，它对此很高兴，如果还有更多东西要驱动，它就会继续进行下一个数据包的传输。",
+    "timestamp": "00:18:04",
+    "text_sha256": "28fed8b5cddbde5bf3005b101c9834ddcbea129f4c5e22930ece99c6ccafee7e",
+    "heading": "21 · 00:18:04 · 收到ACK后发送下一个数据包",
+    "h1_before": "",
+    "anchor": "doxcnFFCgTUTISSw0Uj0DyKUbNg"
+  },
+  {
+    "ordinal": 22,
+    "block_id": "doxcnZuY4JfEWTCRuCMtyqmcK0H",
+    "text": "原标说话人 1  00:18:04\nIf instead, as the receiver, we find that these two values are different, then the receiver will say the transmission of the packet failed, and it will not send back anything. OK, so no acknowledgment in this case.\n相反，如果我们作为接收端发现这两个值不同，那么接收端就会说，这个数据包的传输失败了，而且它什么也不会返回。好，所以，在这种情况下，没有确认。",
+    "timestamp": "00:18:04",
+    "text_sha256": "d7746c17144c52d8940a3a39a7e5cc116fca6a25761c3118d7ab92b93f501db3",
+    "heading": "22 · 00:18:04 · 校验失败时不返回ACK",
+    "h1_before": "",
+    "anchor": "doxcnloRyyh7JadNsLo0t3ypRFb"
+  },
+  {
+    "ordinal": 23,
+    "block_id": "doxcnCsDdfqRdUM3U7fcl2eXQWz",
+    "text": "原标说话人 1  00:19:18\nThe receiver, therefore, in this case does not receive any acknowledgment, and it understands that its transmission failed. OK, there is a timeout, if the receiver does not receive any ACK after this time, it says, oh, my packet failed. And what it will do is to transmit the same packet again, and we repeat the procedure. So, it sends the packet again, the receiver receives the signal, it demodulates the header first, gets the CRC computed by the transmitter, and demodulates again the payload, computes the CRC locally.\n因此，在这种情况下，接收端没有收到任何确认，它就明白自己的传输失败了。好，这里有一个超时时间，如果接收端在这段时间之后没有收到任何 ACK，它就说，哦，我的数据包失败了。而它会做的就是再次发送同一个数据包，我们再重复这个过程。因此，它再次发送数据包，接收端接收信号，先解调首部，得到发射端计算的 CRC，然后再次解调有效载荷，在本地计算 CRC。",
+    "timestamp": "00:19:18",
+    "text_sha256": "03545f333594dd387db6a9ac5f5a0786b75dac6819c5349fc18ea577d70db69f",
+    "heading": "23 · 00:19:18 · 等待超时与同一数据包重传",
+    "h1_before": "",
+    "anchor": "doxcn2VsmZ8NCg08H75V5m4kEee"
+  },
+  {
+    "ordinal": 24,
+    "block_id": "doxcnplCy3fqWqX5JAbvoPb1TUd",
+    "text": "原标说话人 1  00:19:18\nAgain he compares the two values, and if they are the same, OK, then he says, well, now I understand I received the packet correctly, and sends back ACK. If they are again different, it would say the transmission failed again. And it will not send back anything.\n它再次比较这两个值，如果相同，好，那么它就说，嗯，现在我明白了，我已经正确收到数据包，并返回 ACK。如果它们再次不同，它会说，传输又失败了。而它不会返回任何东西。",
+    "timestamp": "00:19:18",
+    "text_sha256": "7263e35b9fc6c49501d132f1d38a01b62b7fd5dca7cd64a8c0b0ce529d2a1c6f",
+    "heading": "24 · 00:19:18 · 重传后的CRC比较与确认",
+    "h1_before": "",
+    "anchor": "doxcnlP5yNdYMoerizmR1ZVBSzb"
+  },
+  {
+    "ordinal": 25,
+    "block_id": "doxcnXzCl5m1XIAdPF4PbOY9VVc",
+    "text": "原标说话人 1  00:21:06\nSo, the transmitter after a timeout understands that its packet transmission failed, and will try again, and so on, and so forth, till we either get the packet transmission successful, or we reach a maximum number of attempts, after which the transmitter gives up and discards the packet. Ok?\n所以，发射端在超时之后，明白自己的数据包传输失败了，于是再次尝试，如此等等，诸如此类，直到数据包传输成功，或者达到最大尝试次数，此后发射端就会放弃并丢弃数据包。好吗？",
+    "timestamp": "00:21:06",
+    "text_sha256": "9ba3e0648f9cba1f0ac7486932693f227d678f7b2d137cbf7a3bcb2ff1a63d6e",
+    "heading": "25 · 00:21:06 · 最大重试次数与丢弃数据包",
+    "h1_before": "",
+    "anchor": "doxcnMy8xBMp6UKeattDQLZ4ANd"
+  },
+  {
+    "ordinal": 26,
+    "block_id": "doxcnLtfoLea0na6twNt3uo1tl9",
+    "text": "原标说话人 1  00:21:06\nSo, this technique is called stop and wait, because the transmitter, after having transmitted the packet, will stop and wait for the acknowledgment from the receiver.\n所以，这种技术叫作停止等待，因为发射端在发送完数据包之后，就会停止并等待接收端的确认。",
+    "timestamp": "00:21:06",
+    "text_sha256": "321e37cdad09810604468d9b29f7d9027df51a1ae6a24597a462cc5e5c8e8f39",
+    "heading": "26 · 00:21:06 · 停止等待名称的由来",
+    "h1_before": "",
+    "anchor": "doxcnsgdcdEjTTvKsS4MtuWqFWb"
+  },
+  {
+    "ordinal": 27,
+    "block_id": "doxcnr8GwANxZjwBvHhqV0VxgIg",
+    "text": "原标说话人 1  00:22:19\nIf it receives the acknowledgment, fine, we can proceed with a new packet transmission.\n如果它收到确认，很好，我们就可以继续进行新数据包的传输。",
+    "timestamp": "00:22:19",
+    "text_sha256": "d52526c2dada70008abd2aa9679250104590600005369fa30d77c530bd8cd6a8",
+    "heading": "27 · 00:22:19 · 确认成功后继续新包传输",
+    "h1_before": "",
+    "anchor": "doxcniAXX7UHSQ14yJOgtJ4GrMb"
+  },
+  {
+    "ordinal": 28,
+    "block_id": "doxcnduivM4k1iY5zb2HE1l7nDh",
+    "text": "原标说话人 1  00:22:19\nInstead, if the packet transmission fails, the transmitter will repeat the transmission, OK? This process of repeating the transmission, as we said, goes on till a maximum number of times. Okay, we do not continue to infinity, we stop at a certain point, and if the transmitter cannot transmit the packet successfully after a maximum number of attempts, it just discards the packet.\n相反，如果数据包传输失败，发射端就会重复传输，好吗？正如我们说过的，这个重复传输的过程会持续到最大次数。好，我们不会无限继续，我们会在某一点停下来，而如果发射端在最大次数的尝试之后仍然不能成功发送数据包，它就会直接丢弃数据包。",
+    "timestamp": "00:22:19",
+    "text_sha256": "76c221a68e15df0381e7fee2403ee3a2c9960c8ecdd9949a7a77033e1598ae41",
+    "heading": "28 · 00:22:19 · 重传次数上限与失败丢包",
+    "h1_before": "",
+    "anchor": "doxcnaRy35A0kiMH8VgSXPiReQc"
+  },
+  {
+    "ordinal": 29,
+    "block_id": "doxcnW0dKF4tiLIKdK6PnI7blie",
+    "text": "原标说话人 1  00:22:19\nOK, now, as we said, this kind of techniques are called ARQ, right? Automatic retransmission request, and now we understand also why they are called automatic retransmission request, because the receiver by not sending the acknowledgment will implicitly request a retransmission by the receiver.\n好，现在，正如我们说过的，这类技术称为 ARQ，对吧？自动重传请求，而现在我们也理解了，它们为什么叫自动重传请求，因为接收端通过不发送确认，就会隐式地请求接收端进行重传。",
+    "timestamp": "00:22:19",
+    "text_sha256": "f864d2748e63b5422d9f212ee489317e85f4684cf35d906facae01ca862d35c4",
+    "heading": "29 · 00:22:19 · 不返回确认所表达的重传请求",
+    "h1_before": "",
+    "anchor": "doxcnNJD4iyDFRPZKMu9iPUDidh"
+  },
+  {
+    "ordinal": 30,
+    "block_id": "doxcnsBeG7sJ1y53plmaZ9R7Dwd",
+    "text": "原标说话人 1  00:22:19\nOK, good. So, it is important that more or less all of you get the idea of how things work.\n好，很好。所以，重要的是，你们所有人都能大体理解事情是怎样运作的。",
+    "timestamp": "00:22:19",
+    "text_sha256": "4e211b04fb5866f7ffaa18008e81a239144ab29a7aa0698e70daf712b92dc459",
+    "heading": "30 · 00:22:19 · 理解ARQ整体工作过程",
+    "h1_before": "四、基础概念答疑与学习要求",
+    "anchor": "doxcnIDxbEY4hquOd9s6uJ7nFhg"
+  },
+  {
+    "ordinal": 31,
+    "block_id": "doxcnPP3arUH5Q3iOXcSotCUajd",
+    "text": "原标说话人 1  00:22:19\nThose of you who have got a background in ICT, then they can grasp also some details, which is good. But otherwise, if you do not have any background on ICT, it is OK that you get the concept, the idea of how things work. Ok, that's enough.\n你们当中有信息与通信技术背景的人，还能够掌握一些细节，这很好。不过，如果你没有任何信息与通信技术背景，那也没关系，只要理解这个概念，理解事情怎样运作的思路就可以。好，那就够了。",
+    "timestamp": "00:22:19",
+    "text_sha256": "30321518af3531269653bc03f7691627d054122ce7d187f98cd67d144a8d6792",
+    "heading": "31 · 00:22:19 · 不同背景学生的学习要求",
+    "h1_before": "",
+    "anchor": "doxcnLeSqzyghB1LxDbSYYYF7sb"
+  },
+  {
+    "ordinal": 32,
+    "block_id": "doxcnbDhNSLoKunBEHMv0LXXpOc",
+    "text": "原标说话人 1  00:22:19\nBut if the concept is not clear, please do let me know.\n但如果概念不清楚，请一定告诉我。",
+    "timestamp": "00:22:19",
+    "text_sha256": "1a32444d6a7346c4f545f48664e5a0b191d054a73100bd92ab3ba6348f2dd542",
+    "heading": "32 · 00:22:19 · 概念不清楚时及时反馈",
+    "h1_before": "",
+    "anchor": "doxcnhdNxbMTxrvMteuEPUTDTdg"
+  },
+  {
+    "ordinal": 33,
+    "block_id": "doxcnAP8xe4FTxp5sCiu0wcOUhe",
+    "text": "原标说话人 1  00:22:19\nOK, good. OK, so, are we all good, or is there anything that you want me to repeat? All good?\n好，很好。好，那么，大家都没问题吗，还是有什么想让我重复一下的？都没问题吗？",
+    "timestamp": "00:22:19",
+    "text_sha256": "74e9aaa2cb5be3b277d5dc20506da2362b9e5e77a8c387e1cf6e4039394ca2fb",
+    "heading": "33 · 00:22:19 · 停止等待内容答疑",
+    "h1_before": "",
+    "anchor": "doxcn26S8pgkwgwIV5Pc4qKAemf"
+  },
+  {
+    "ordinal": 34,
+    "block_id": "doxcnSip5NmNyJCxm3j49FNatqd",
+    "text": "原标说话人 1  00:25:37\nOK, now we are done with this set of slides. Again, if there is anything also that we explained yesterday that is not clear as a concept, please let me know, and we can go back to that topic. OK? So, once again, is there anything that you missed yesterday? Don't be shy, just ask.\n好，现在这组幻灯片讲完了。再说一次，如果昨天讲过的任何内容在概念上仍然不清楚，也请告诉我，我们可以回到那个主题。好吗？所以，再问一次，昨天有什么漏掉的吗？不要害羞，尽管问。",
+    "timestamp": "00:25:37",
+    "text_sha256": "c92171805b273e9ddd867feb72e3437b106414ed1817ea9b758c87d41e496752",
+    "heading": "34 · 00:25:37 · 基础概念幻灯片收尾与答疑",
+    "h1_before": "",
+    "anchor": "doxcnEHLjtbwF6xmzAA9kFchg0g"
+  },
+  {
+    "ordinal": 35,
+    "block_id": "doxcnwYuOTvlF6ci6cvmD0WHGMb",
+    "text": "原标说话人 1  00:26:28\nSo, I assume you are good about these set of slides, but if you're not, please speak up. OK? We can repeat anything you like.\n所以，我假设大家对这组幻灯片都没有问题，但如果有问题，请说出来。好吗？你们想重复什么，我们都可以重复。",
+    "timestamp": "00:26:28",
+    "text_sha256": "4044ec004f55de2e6d0217d8371153fdee9810b51a7f3897bd26319a0dc82c5c",
+    "heading": "35 · 00:26:28 · 确认前一组幻灯片理解情况",
+    "h1_before": "",
+    "anchor": "doxcnSuknanii9OzcnqHffbpjAt"
+  },
+  {
+    "ordinal": 36,
+    "block_id": "doxcniwuG0SqUcw1w1TXLxNW9Wg",
+    "text": "原标说话人 1  00:26:28\nOK, so, now, we are going to start a new set of slides that explains how Wi-Fi works. Wi-Fi is something that we all use, okay, in our daily life.\n好，那么，现在，我们要开始一组新的幻灯片，它解释 Wi-Fi 如何工作。Wi-Fi 是我们大家都会使用的东西，好吗，在我们的日常生活中。",
+    "timestamp": "00:26:28",
+    "text_sha256": "44d7057041f06079af3ee173b83369d94be042197638dd5a2a55aec39b831375",
+    "heading": "36 · 00:26:28 · 开始学习Wi-Fi工作原理",
+    "h1_before": "五、Wi-Fi与IEEE 802.11标准",
+    "anchor": "doxcncnoN9zdDRWKzjTtzP1kkyf"
+  },
+  {
+    "ordinal": 37,
+    "block_id": "doxcnP320HqwTttqX5AYCRRr1zg",
+    "text": "原标说话人 1  00:27:26\nThese set of slides may get a bit technical. OK, but again, depending on your background, I will tell you what it is important that you learn from these slides, and what you can just listen to, but it is not important whether you remember that or not.\n这组幻灯片可能会稍微偏技术一些。好，不过，还是那句话，根据你们的背景，我会告诉你们，从这些幻灯片中学会哪些内容很重要，以及哪些内容只需听一听，记不记住并不重要。",
+    "timestamp": "00:27:26",
+    "text_sha256": "f02a7f024406538e9ff3f7dd524b2ee1df1ae62cc6e6c93bd2bfe3b67116a513",
+    "heading": "37 · 00:27:26 · 按专业背景区分技术学习重点",
+    "h1_before": "",
+    "anchor": "doxcnzsQEDRwVN3yeO2fl9f3Qse"
+  },
+  {
+    "ordinal": 38,
+    "block_id": "doxcn4PclGJxWa6YkKqhrb8qj0u",
+    "text": "原标说话人 1  00:28:02\nOK? So, do not worry if you see many details. If your background is not in ICT, you can just forget about that, OK? But there are a few concepts that instead, I like you all to understand. So I'm going to ask you about these main concepts, if they are clear or not.\n好吗？所以，如果你看到很多细节，不要担心。如果你的背景不是信息与通信技术，这些你可以直接不去记，好吗？不过，反过来，有几个概念，我希望你们所有人都能理解。所以，我会就这些主要概念问大家，看看清楚不清楚。",
+    "timestamp": "00:28:02",
+    "text_sha256": "d1e8899469c6d1646d8d31a26192f467afff6a92ca292b3f9e17d3bb009ee95f",
+    "heading": "38 · 00:28:02 · 重点掌握核心概念",
+    "h1_before": "",
+    "anchor": "doxcnSBAjCEiIUqaXCxUOf4dOeb"
+  },
+  {
+    "ordinal": 39,
+    "block_id": "doxcnNL7MQQe5T8johOGVQm3YJi",
+    "text": "原标说话人 1  00:28:39\nOK? Please help me by providing feedback. OK? Good. So, Wi-Fi is the name of the technology. But, Wi-Fi is also an IEEE standard. IEEE is an association, a scientific association based in the US.\n好吗？请通过提供反馈来帮助我。好吗？好。那么，Wi-Fi 是这项技术的名称。不过，Wi-Fi 也是一个 IEEE 标准。IEEE 是一个协会，一个总部位于美国的科学协会。",
+    "timestamp": "00:28:39",
+    "text_sha256": "309844de80d5a189bcb69b7eda0c957d25412388fa41cfdbe3f095e36607cb19",
+    "heading": "39 · 00:28:39 · Wi-Fi与IEEE协会",
+    "h1_before": "",
+    "anchor": "doxcniUGnV0ajIsmjYIB7LaEEZg"
+  },
+  {
+    "ordinal": 40,
+    "block_id": "doxcnTpb60XdNQ6I2WxzmgWbfL4",
+    "text": "原标说话人 1  00:28:39\nFor example, IEEE organizes also scientific conferences at international level. And your professors, at Tongji, who work on electrical engineering, electronics engineering, telecommunications, so all ICT, aerospace, all of them publish papers in IEEE conferences and journals. OK, so it's one of the big main, probably the main scientific associations in the world.\n例如，IEEE 也组织国际级的科学会议。而你们同济的教授，那些从事电气工程、电子工程、电信，也就是所有信息与通信技术领域，还有航空航天的人，他们都会在 IEEE 会议和期刊上发表论文。好，所以，它是世界上大型的、主要的科学协会之一，可能就是最主要的科学协会。",
+    "timestamp": "00:28:39",
+    "text_sha256": "c796b925ab211ee7365c49eb34fa7a009a27a81e193d3ce34aec367b4df23159",
+    "heading": "40 · 00:28:39 · IEEE的学术会议与期刊",
+    "h1_before": "",
+    "anchor": "doxcnN8HOFAvoAuTCmbXZuIGvfe"
+  },
+  {
+    "ordinal": 41,
+    "block_id": "doxcnvRviZp1IW5FNA1eKBYmBXb",
+    "text": "原标说话人 1  00:30:07\nIEEE also issues standards for technologies.\nIEEE 也发布技术标准。",
+    "timestamp": "00:30:07",
+    "text_sha256": "1f602fc3a4ff688fec632c34bff95a64b2dad9b8743e1db3aa246d880ef7f116",
+    "heading": "41 · 00:30:07 · IEEE发布技术标准",
+    "h1_before": "",
+    "anchor": "doxcnQ1ylZ0P270hKLrl50azy3g"
+  },
+  {
+    "ordinal": 42,
+    "block_id": "doxcn1aiebDXTD7BfkqUosBahAc",
+    "text": "原标说话人 1  00:30:07\nAnd the standard for Wi-Fi that has been issued by IEEE specifies how Wi-Fi works. OK, so how the technology works is specified by an IEEE standard, and the name of the standard is 802.11. Okay, now as we will see, there are many documents that compose this standard. And these documents specify the characteristics of the different versions of Wi-Fi.\n而 IEEE 发布的 Wi-Fi 标准规定了 Wi-Fi 如何工作。好，所以，这项技术如何工作，由一个 IEEE 标准来规定，而这个标准的名称是 802.11。好，现在，正如我们将会看到的，有许多文档组成这个标准。而这些文档规定了不同 Wi-Fi 版本的特性。",
+    "timestamp": "00:30:07",
+    "text_sha256": "3371b4a8557ad59beae58b1baa84595dc618ea12134bf0043dcaad56327bb6da",
+    "heading": "42 · 00:30:07 · IEEE 802.11标准与Wi-Fi版本",
+    "h1_before": "",
+    "anchor": "doxcnvrN8yxEyac9un5UT6AQAqd"
+  },
+  {
+    "ordinal": 43,
+    "block_id": "doxcnyIvJyxkoOhqLcAcqBgYnGc",
+    "text": "原标说话人 1  00:30:07\nWhy do we have many versions of Wi-Fi? Because Wi-Fi has been designed initially in 1997, many many years ago, and then it has evolved, and we have very recent standard versions of the standard that specify new capabilities of the technology, and the revolution is still going on. It is still, the technology is still evolving, and there are always new standards. OK?\n为什么我们有许多 Wi-Fi 版本？因为 Wi-Fi 最初是在 1997 年设计的，那是很多、很多年前了，之后它不断演进，而我们有非常新的标准版本、这个标准的版本，规定了这项技术的新能力，而且这场变革仍在继续。它仍然，这项技术仍然在演进，而且总会有新的标准。好吗？",
+    "timestamp": "00:30:07",
+    "text_sha256": "2415606eabe88d6eb59aaa6f6c34f55a62a659a8af3a36ab266fc4ee3aa20207",
+    "heading": "43 · 00:30:07 · Wi-Fi从1997年起的持续演进",
+    "h1_before": "",
+    "anchor": "doxcnOEFSeDCxFqmf5B3QhBgxRf"
+  },
+  {
+    "ordinal": 44,
+    "block_id": "doxcn1nhROjb5oCEaKVFIrwKxNh",
+    "text": "原标说话人 1  00:30:07\nNow, that said, these documents, standard documents, since there are many, they are denoted by different letters. So, we'll have 802.11 A, B, G, E, B, I, H, R, A, X, B, E, B, D, many. You do not need to remember all these names.\n现在，讲到这里，这些文档，标准文档，因为数量很多，所以用不同的字母来标识。因此，我们会有 802.11 A、B、G、E、B、I、H、R、A、X、B、E、B、D，很多。你们不需要记住所有这些名称。",
+    "timestamp": "00:30:07",
+    "text_sha256": "0a04f8107dce7a9e9832003bd274f082ce1dda2831320426beccb770617a0fd7",
+    "heading": "44 · 00:30:07 · 802.11标准文档的字母标识",
+    "h1_before": "",
+    "anchor": "doxcnlTHZQPGCtqihXhZjmp2Cho"
+  },
+  {
+    "ordinal": 45,
+    "block_id": "doxcn2d9FtDgSFrIZ1hJ2THt9vb",
+    "text": "原标说话人 1  00:30:07\nOK, OK, the other thing that I would like to say is that Wi-Fi is a technology to provide connectivity over a limited area. OK, so, the coverage of Wi-Fi, as said yesterday, is relatively small, I would say medium. The range of coverage of an access point, an Wi-Fi access point is of the order of tens or hundreds of meters. OK? So, you can consider on average 100 meters on average. That's the range of the coverage of Wi-Fi.\n好，好，我还想说的另一点是，Wi-Fi 是一种在有限区域内提供连接的技术。好，所以，正如昨天所说，Wi-Fi 的覆盖范围相对较小，我会说是中等。一个接入点，一个 Wi-Fi 接入点的覆盖距离，是几十米或几百米的数量级。好吗？所以，你可以按平均 100 米来考虑，平均而言。这就是 Wi-Fi 的覆盖距离。",
+    "timestamp": "00:30:07",
+    "text_sha256": "9143ecfb493f565eb9e09cdfe716602fffb039257de73c8889df0cee9ca6302f",
+    "heading": "45 · 00:30:07 · Wi-Fi接入点的覆盖距离",
+    "h1_before": "",
+    "anchor": "doxcnbA8VPx5mlRcpHHZvEZhVmc"
+  },
+  {
+    "ordinal": 46,
+    "block_id": "doxcnOfULRjZsI4lQICeNSTmSEd",
+    "text": "原标说话人 1  00:30:07\nIndeed, Wi-Fi is a technology to provide the so called wireless local area networks. OK, so, to provide connectivity to users locally, to implement the so called local area networks.\n确实，Wi-Fi 是一种用于提供所谓无线局域网的技术。好，也就是在局部范围内向用户提供连接，来实现所谓的局域网。",
+    "timestamp": "00:30:07",
+    "text_sha256": "e399f87cef947dce6b18caa2bf0546e8a46eff0672105ca69d554f0d123f58c3",
+    "heading": "46 · 00:30:07 · Wi-Fi与无线局域网",
+    "h1_before": "",
+    "anchor": "doxcnh0UM7J1mjZlx7aFfFSuCqc"
+  },
+  {
+    "ordinal": 47,
+    "block_id": "doxcnGnw0Ng2KhUiD7fwMuxeLyb",
+    "text": "原标说话人 1  00:30:07\nOK, so that said, this is what we are going to look at, but as I said, do not get scared. OK, we try to keep things simple. That if you have an ICT background, you may retain more information.\n好，那么，说到这里，这就是我们要看的内容，不过，正如我所说，不要害怕。好，我们尽量把事情讲得简单。而如果你有信息与通信技术背景，你可以记住更多信息。",
+    "timestamp": "00:30:07",
+    "text_sha256": "167594931933f502f70424e6f2cea6b6bc23f580ea1500c9c028650533381ca4",
+    "heading": "47 · 00:30:07 · 按背景掌握Wi-Fi技术细节",
+    "h1_before": "",
+    "anchor": "doxcn6yWof9QYh7rHSHXTn5xece"
+  },
+  {
+    "ordinal": 48,
+    "block_id": "doxcn6CHBMfFHtUXQD6O9PxuUJb",
+    "text": "原标说话人 1  00:30:07\nSo, let's start from an introduction to Wi-Fi, and to look at the network architecture of Wi-Fi.\n那么，我们从 Wi-Fi 简介开始，并看看 Wi-Fi 的网络架构。",
+    "timestamp": "00:30:07",
+    "text_sha256": "c39541d7a864d8e17b03167dbfbcb7500b8e72192a3376a98dc4db55bb6cd1e6",
+    "heading": "48 · 00:30:07 · Wi-Fi简介与网络架构",
+    "h1_before": "六、Wi-Fi协议栈与两层分工",
+    "anchor": "doxcnoxEF5rbxRNVgCpWcDEChif"
+  },
+  {
+    "ordinal": 49,
+    "block_id": "doxcn7KtQgNBJDy06ulKNWIrsXd",
+    "text": "原标说话人 1  00:30:07\nSo, we already said that Wi-Fi is a technology to implement wireless local area networks to provide connectivity to wireless users. As we said, this is a standard also. The technology is specified by the IEEE 802.11 standard.\n所以，我们已经说过，Wi-Fi 是一种实现无线局域网、为无线用户提供连接的技术。正如我们所说，它也是一个标准。这项技术由 IEEE 802.11 标准规定。",
+    "timestamp": "00:30:07",
+    "text_sha256": "fdf8b9129ec323900eb20f7e26ec6bc773d903c7cc76fbfa5f5c5dc2178945f4",
+    "heading": "49 · 00:30:07 · 无线用户连接与802.11标准",
+    "h1_before": "",
+    "anchor": "doxcnNarvPWbBhbaCSB4dwHJ5hK"
+  },
+  {
+    "ordinal": 50,
+    "block_id": "doxcnPNgUXkdPNtJWD4wJZ9vtAe",
+    "text": "原标说话人 1  00:30:07\nAnd the standard of Wi-Fi defines two layers of the protocol stack, the physical layer and the MAC layer.\n而 Wi-Fi 标准定义了协议栈中的两层，物理层和 MAC 层。",
+    "timestamp": "00:30:07",
+    "text_sha256": "212c7dbfc7165a82e1813e3521ea4c4d9e692c2447b620f8f538a6fd0a113575",
+    "heading": "50 · 00:30:07 · Wi-Fi定义物理层和MAC层",
+    "h1_before": "",
+    "anchor": "doxcn0V4mnfqNBPCRlRAStGLzeh"
+  },
+  {
+    "ordinal": 51,
+    "block_id": "doxcn9isVsexAolG6TUBXCN5wlh",
+    "text": "原标说话人 1  00:30:07\nNow, I know that you have different backgrounds, so let me just recall what is a protocol stack. OK, so let's consider the Wi-Fi card that we have in our phone. Okay, there is a Wi-Fi card inside. What is this wi fi card? The Wi-Fi card is an device, a drawing device that implements different functions.\n现在，我知道你们有不同的背景，所以让我简单回顾一下，什么是协议栈。好，那么，考虑我们手机里的 Wi-Fi 网卡。好，里面有一块 Wi-Fi 网卡。这个 Wi-Fi 网卡是什么？Wi-Fi 网卡是一种设备，一种绘图设备，它实现不同的功能。",
+    "timestamp": "00:30:07",
+    "text_sha256": "7904cf6cb689056299e7e2eed241a1f1026b0491351cda70171f22cad2974f94",
+    "heading": "51 · 00:30:07 · 通过手机Wi-Fi网卡理解协议栈",
+    "h1_before": "",
+    "anchor": "doxcnke3oCe9JmlVGMmxiNbD0Og"
+  },
+  {
+    "ordinal": 52,
+    "block_id": "doxcnH5WqPjBwehD8egT5MyGioe",
+    "text": "原标说话人 1  00:30:07\nSome functions are used to transmit the signal. OK, so, it is these functions are called physical, physical layer, physical layer functions. Why? Because they are used to physically transmit the signal.\n一些功能用于发射信号。好，所以，这些功能称为物理、物理层、物理层功能。为什么？因为它们用于实际发射信号。",
+    "timestamp": "00:30:07",
+    "text_sha256": "8dc825c8e4bf618cb3a935b6d877d991c989d02356bd25203ee9bc113a062d18",
+    "heading": "52 · 00:30:07 · 物理层负责实际发射信号",
+    "h1_before": "",
+    "anchor": "doxcnMFiKZ0jWbLZzvwBUV5O4Me"
+  },
+  {
+    "ordinal": 53,
+    "block_id": "doxcnXszTr92t7vCSALtOsjDPRf",
+    "text": "原标说话人 1  00:30:07\nOn top of these functions, we have the so called MAC layer.\n在这些功能之上，我们有所谓的 MAC 层。",
+    "timestamp": "00:30:07",
+    "text_sha256": "69a19ddb5dcfb73e5ac6765a5ca8f34d364624564057fd0b717dd993a71d3199",
+    "heading": "53 · 00:30:07 · 物理层之上的MAC层",
+    "h1_before": "",
+    "anchor": "doxcnHJNhpxdTyhjh99fLDCwMMb"
+  },
+  {
+    "ordinal": 54,
+    "block_id": "doxcnXWjjB9blHgdWTKjBzFxymh",
+    "text": "原标说话人 1  00:38:35\nThe MAC layer, MAC means medium access control. The MAC layer groups those functions that are used by the Wi-Fi card to understand when you can send a packet.\nMAC 层，MAC 的意思是介质访问控制。MAC 层把 Wi-Fi 网卡用来弄清什么时候可以发送一个数据包的那些功能归为一组。",
+    "timestamp": "00:38:35",
+    "text_sha256": "4722016f258083e23dbfe051f676d4b7c3766c4df4481fa27966b8f39ffbca6d",
+    "heading": "54 · 00:38:35 · MAC层决定何时发送数据包",
+    "h1_before": "",
+    "anchor": "doxcnTPLDrIUy77IhUCvt6dbaGr"
+  },
+  {
+    "ordinal": 55,
+    "block_id": "doxcnjB1d7qjBRTnoJvtRGgHF6d",
+    "text": "原标说话人 1  00:38:35\nOkay, so think of any application you use, TikTok,\n好，那么，想一想你使用的任何应用，TikTok，",
+    "timestamp": "00:38:35",
+    "text_sha256": "2c67c7bb345e4edf7cc27f4004a9ea61164f852f093bb319913cab76418fb6a4",
+    "heading": "55 · 00:38:35 · 以TikTok等应用为例",
+    "h1_before": "",
+    "anchor": "doxcnbXj7Bia9kMwgGEJLCUZfsg"
+  },
+  {
+    "ordinal": 56,
+    "block_id": "doxcnxJl1FEEY227vaXrYzOygta",
+    "text": "原标说话人 1  00:39:17\nwhatever you use as an application.\n无论你使用什么应用。",
+    "timestamp": "00:39:17",
+    "text_sha256": "4ce545e403c0ddc28d9a2fb26ebd01c77007c1944ab201634d9358a8f6331e08",
+    "heading": "56 · 00:39:17 · 应用举例的续接",
+    "h1_before": "",
+    "anchor": "doxcnGL9iJi48oUmsGDOOow4Mjh"
+  },
+  {
+    "ordinal": 57,
+    "block_id": "doxcnhxkxjniapCD62X2zirbtRg",
+    "text": "原标说话人 1  00:39:17\nYour application stands here, on the very top of this stack. OK? The application is TikTok, or I don't know what kind of applications you use guys here. But if you heard of YouTube, whatever you can use here, and as an application.\n你的应用位于这里，在这个协议栈的最顶端。好吗？应用是 TikTok，或者我不知道你们大家在这里使用什么样的应用。但如果你们听说过 YouTube，无论你们在这里能用什么，作为一个应用。",
+    "timestamp": "00:39:17",
+    "text_sha256": "0b83e7b602837922613c432078ae4e184e106e794e2134da545a2a816c097994",
+    "heading": "57 · 00:39:17 · 应用位于协议栈顶端",
+    "h1_before": "",
+    "anchor": "doxcnik2I7ddRKCBun0yqkQomBA"
+  },
+  {
+    "ordinal": 58,
+    "block_id": "doxcna7JtSIDtfVjvd1TmNsrl7c",
+    "text": "原标说话人 1  00:39:17\nThe application generates packets, packets of bits, and useful bits, the user.\n应用生成数据包，比特的数据包，以及有用的比特，用户。",
+    "timestamp": "00:39:17",
+    "text_sha256": "afd018d69fedf3617d80400959733551ff321aa313256367d28986bc37984a36",
+    "heading": "58 · 00:39:17 · 应用生成携带用户信息的数据包",
+    "h1_before": "",
+    "anchor": "doxcnKT4hA70jfNUTyqzoBQl9Ch"
+  },
+  {
+    "ordinal": 59,
+    "block_id": "doxcnYkfvCPP1VZi07Ta6xLNyZe",
+    "text": "原标说话人 1  00:40:00\nOK, now, assume that you have a picture, OK, photo that you want to upload. So, the picture, the photo, is what your application for pictures in your phone will generate, OK? And a photo is made of pixels, right? They are data, they can be encoded into bits. OK, so now we have these bits that correspond to a photo. These bits are grouped into packets, so we have the packets generated by the application.\n好，现在，假设你有一张图片，好，一张想上传的照片。所以，图片、照片，就是你手机里的图片应用会生成的内容，好吗？而一张照片是由像素组成的，对吧？它们是数据，可以编码成比特。好，所以，现在我们有了这些对应一张照片的比特。这些比特被分组成数据包，因此，我们有了由应用生成的数据包。",
+    "timestamp": "00:40:00",
+    "text_sha256": "f42c91e60161dec81ccf60a34eeee70e41aa120d45fa6cf35e4c3c420ed40d2b",
+    "heading": "59 · 00:40:00 · 照片像素编码成比特并分包",
+    "h1_before": "七、照片上传与逐层发送过程",
+    "anchor": "doxcnWLkhbegT6FtMaCsZUsjEod"
+  },
+  {
+    "ordinal": 60,
+    "block_id": "doxcnGNzXXyLUAzJMhqC9aJZMIh",
+    "text": "原标说话人 1  00:40:00\nOkay, now each of these packets need to be uploaded, right? Because you want to upload your picture. So, these packets need to be transferred over the access point, and then from the access point to the internet.\n好，现在，这些数据包中的每一个都需要上传，对吧？因为你想上传图片。因此，这些数据包需要传送到接入点，然后从接入点传送到互联网。",
+    "timestamp": "00:40:00",
+    "text_sha256": "3994fa71518f96269434b7fb6ad896b4540246e292a444fc928c83ad56389510",
+    "heading": "60 · 00:40:00 · 上传数据经接入点进入互联网",
+    "h1_before": "",
+    "anchor": "doxcnGhCWGxHjJ0Fi1ify8yL608"
+  },
+  {
+    "ordinal": 61,
+    "block_id": "doxcnrA1VL0UAacnDIyK86UsW4b",
+    "text": "原标说话人 1  00:40:00\nOkay, so then the picture will be stored, for example, in a repository. So the goal is to transfer the application packets to the access point, and then to the internet.\n好，那么，图片随后会被存储，例如，存储在一个存储库中。所以，目标是把应用数据包传送到接入点，然后传送到互联网。",
+    "timestamp": "00:40:00",
+    "text_sha256": "78aa126a018338cb5a930c974a3501f48e655865d493bb4d8e3c65e6bf15af0f",
+    "heading": "61 · 00:40:00 · 将应用数据包传往互联网存储",
+    "h1_before": "",
+    "anchor": "doxcnRhDTDYSeuxSHed0oQneVqd"
+  },
+  {
+    "ordinal": 62,
+    "block_id": "doxcnyIy3M4kJSJiddwVpkJRDRf",
+    "text": "原标说话人 1  00:40:00\nWhat Wi-Fi will do is to transfer these packets from your Wi-Fi card in your phone to the access point. That's what Wi-Fi does. OK, so, Wi-Fi acts at these layers. Hmm.\nWi-Fi 所做的，就是把这些数据包从手机里的 Wi-Fi 网卡传送到接入点。这就是 Wi-Fi 做的事情。好，所以，Wi-Fi 在这些层起作用。嗯。",
+    "timestamp": "00:40:00",
+    "text_sha256": "e5dbcd680451e6a67bed0083f49800c67b1ba896e3e28544abffadbdd83e5c2b",
+    "heading": "62 · 00:40:00 · Wi-Fi负责手机到接入点的传输",
+    "h1_before": "",
+    "anchor": "doxcn6dNls45CqVvZIZZINUGQWc"
+  },
+  {
+    "ordinal": 63,
+    "block_id": "doxcnV61VuaWbKpt0QExpMcscSd",
+    "text": "原标说话人 1  00:40:00\nSo, to let these packets be transmitted to the access point, inside your phone, inside your phone, these packets need to be moved from this application to these other layers of this stack of layers, okay, till they reach the MAC layer, and then they go down to the physical layer. This is Wi-Fi, and then they are transmitted over the air to the access point.\n所以，为了让这些数据包能够被发送到接入点，在你的手机内部，在你的手机内部，这些数据包需要从这个应用移动到这个层次栈中的其他这些层，好，直到到达 MAC 层，然后再向下到物理层。这就是 Wi-Fi，然后它们通过空气被发送到接入点。",
+    "timestamp": "00:40:00",
+    "text_sha256": "e5fe7fe6c4a39bcfc33e8a8c22e5183e767359375c5008bb363fbff61392f261",
+    "heading": "63 · 00:40:00 · 数据包沿协议栈下行至无线发送",
+    "h1_before": "",
+    "anchor": "doxcnr5sufCD6l7M7DrkWN85sFg"
+  },
+  {
+    "ordinal": 64,
+    "block_id": "doxcn8QhIczCeEV8FuIlFzgaupe",
+    "text": "原标说话人 1  00:40:00\nJust as an example, these intermediate layers between the application and your Wi-Fi layers, let's call them like Wi-Fi layers, they include TCP, if you have heard of TCP, or IP, if you heard of IP, otherwise don't worry, OK? If you heard of that, fine, but just to say that here we have TCP, we have IP, these are transport layer or network layer used in the internet. Don't worry if you don't know them.\n仅举个例子，应用与你的 Wi-Fi 层之间的这些中间层，我们姑且把它们叫作 Wi-Fi 层，其中包括 TCP，如果你听说过 TCP，或者 IP，如果你听说过 IP，否则不用担心，好吗？如果听说过，很好，不过，这里只是要说，我们有 TCP，有 IP，这些是互联网使用的传输层或网络层。如果不知道它们，不用担心。",
+    "timestamp": "00:40:00",
+    "text_sha256": "29db6f01552db64f360caf7465b668d97a0b325386f42fb2b31b950f6ca629e5",
+    "heading": "64 · 00:40:00 · 应用与Wi-Fi之间的TCP和IP层",
+    "h1_before": "",
+    "anchor": "doxcnBs5YyGHTkDkmS6FLtJd916"
+  },
+  {
+    "ordinal": 65,
+    "block_id": "doxcnNxEoWHTc3G1LUv6Dbv7skb",
+    "text": "原标说话人 1  00:40:00\nOK, but just to say that between your application layer that generates the photo, and where Wi-Fi operates inside your phone or inside your laptop, there are other layers, OK? The packet generated by the application goes down through these layers inside your phone till it reaches the MAC layer.\n好，不过，只是想说，在生成照片的应用层与你手机内部或笔记本电脑内部 Wi-Fi 工作的位置之间，还有其他层，好吗？应用生成的数据包，在你的手机内部通过这些层向下走，直到到达 MAC 层。",
+    "timestamp": "00:40:00",
+    "text_sha256": "e6ede69d4dc6ac510af83f59dddbd244c99117fed4a9b58a397d734e16a14b2d",
+    "heading": "65 · 00:40:00 · 应用数据包逐层下行至MAC层",
+    "h1_before": "",
+    "anchor": "doxcnnZ3gLAIZBuD54qwFga5m4c"
+  },
+  {
+    "ordinal": 66,
+    "block_id": "doxcnX92WIBOH1T9QwKVRnsxhGh",
+    "text": "原标说话人 1  00:44:46\nThen we see how the Wi-Fi MAC layer works, and then the MAC layer sends the packet to the physical layer, and then the physical layer transmits physically the bits. How? By impressing the bits into the electromagnetic wave, and then travels through the air and goes to the antenna. OK, so what we discuss yesterday, modulation is performed here at the physical layer. And then the physical layer generates this electromagnetic signal that is actually transmitted through the antenna that is here at the physical layer. And then through the antenna we send the signal. OK? Wi-Fi specifies how these two layers work.\n然后，我们看看 Wi-Fi 的 MAC 层如何工作，接着 MAC 层把数据包发给物理层，然后物理层实际发射比特。怎么做？把比特加载到电磁波上，然后在空气中传播，到达天线。好，所以，我们昨天讨论的调制，是在这里的物理层执行的。然后，物理层生成这个电磁信号，它实际上通过位于这里物理层的天线发送出去。再然后，我们通过天线发射信号。好吗？Wi-Fi 规定了这两层如何工作。",
+    "timestamp": "00:44:46",
+    "text_sha256": "efa0130d16141333cb3dda773a302b4eac173b549b0c41f98af01301a5de25f3",
+    "heading": "66 · 00:44:46 · 物理层调制与天线发射",
+    "h1_before": "",
+    "anchor": "doxcnlWE4IozPYoRGBZjpqO0woh"
+  },
+  {
+    "ordinal": 67,
+    "block_id": "doxcn6rBypFiBmrMqGuaaKF8uxh",
+    "text": "原标说话人 1  00:44:46\nOK, now we stop for 5 minutes, and then we continue. Thank you so much.\n好，现在我们停下来休息 5 分钟，然后继续。非常感谢。",
+    "timestamp": "00:44:46",
+    "text_sha256": "bbd73e8bb72ce9634ee5aad6a5b966577360e566e8dfe5a592951ad51e80335e",
+    "heading": "67 · 00:44:46 · 课间休息安排",
+    "h1_before": "",
+    "anchor": "doxcn5QGXM9utFoGjIiTURTVCvh"
+  }
+]

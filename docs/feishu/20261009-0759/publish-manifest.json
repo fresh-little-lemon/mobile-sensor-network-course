@@ -1,0 +1,21 @@
+{
+  "full_zip": {
+    "name": "course-20261009-0759-completed.zip",
+    "bytes": 6370411,
+    "sha256": "d4e4848804020865c515bf294e9e7a6cf274644284512930f4bb4ae2d37b5e28",
+    "delivery": "Separate attachment; not included in this GitHub directory"
+  },
+  "compact_evidence": {
+    "name": "course-20261009-0759-evidence.zip",
+    "bytes": 146227,
+    "sha256": "691e42b6ba0e791b58f4c2c03b7a466adb82ba4051eb78c26fc86f3d6a6b9c3f",
+    "members": 83,
+    "excludes": [
+      "PNG images",
+      "PDF source"
+    ]
+  },
+  "original_markdown_sha256": "06af2092372db7549c9772306cf44ccba0ed8aca6b73056589abd12ec2b1639f",
+  "github_markdown_sha256": "abbf7c7e5430df9c1948534821b599416f3431bc2a84cffcbb4579dcdfd0214d",
+  "conversion": "Only 7 image references replaced by links to original Feishu image blocks"
+}
