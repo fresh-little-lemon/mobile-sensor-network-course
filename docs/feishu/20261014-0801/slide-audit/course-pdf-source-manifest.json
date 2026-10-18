@@ -1,0 +1,38 @@
+{
+  "repository": "freshlittlelemon/mobile-sensor-network-course",
+  "repository_type": "dataset",
+  "revision": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+  "retrieved_utc": "2026-10-18T15:46:41.929508+00:00",
+  "files": [
+    {
+      "filename": "Exam_Information.pdf",
+      "local_path": "/workspace/shared/Exam_Information.pdf",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/resolve/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/Exam_Information.pdf",
+      "sha256": "901a9e6927af00b8a450a8c9f759e6485735bc9bcfbc31449fea9a4f342d7d11",
+      "bytes": 38656,
+      "pages": 1,
+      "http_status": 200,
+      "content_type": "application/pdf"
+    },
+    {
+      "filename": "03-D2D-Networks.pdf",
+      "local_path": "/workspace/shared/03-D2D-Networks.pdf",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/resolve/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/03-D2D-Networks.pdf",
+      "sha256": "32577de32b488a6078b341071f97818b5b4bbd884936f241b47cbfaaf7e50424",
+      "bytes": 796246,
+      "pages": 18,
+      "http_status": 200,
+      "content_type": "application/pdf"
+    },
+    {
+      "filename": "04-Sensors-MAC.pdf",
+      "local_path": "/workspace/shared/04-Sensors-MAC.pdf",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/resolve/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/04-Sensors-MAC.pdf",
+      "sha256": "ea5f2788f3180267cc079e54cde419563b5529a46a72cd2ec3a3e5f69742b647",
+      "bytes": 1181330,
+      "pages": 26,
+      "http_status": 200,
+      "content_type": "application/pdf"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "lesson": "20261014-0801",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/Z6bvdAi7wo7stVxgwETcOt25nDf",
+  "audited_at_utc": "2026-10-18T15:48:09.258366+00:00",
+  "remote_mutations": false,
+  "audit_snapshot": "blocks-final.json",
+  "audit_snapshot_sha256": "1df4651f296829cb9985d1f983ee86a46fff659ae28b7eadead1ea8ed36925dc",
+  "paragraph_count": 62,
+  "original_image_count": 2,
+  "visually_verified_image_count": 2,
+  "aligned_images": 2,
+  "images_needing_move": [],
+  "confirmed_missing_pdf_slides": [],
+  "unresolved_source_gaps": [
+    {
+      "kind": "unprovided_numerical_problem_deck",
+      "paragraphs": [
+        5,
+        14
+      ],
+      "description": "回看前一课第2道题：全互听AP/A/B/C、A/B包长不同、A19/B30/C5、C先发与NAV冻结的原题/解答时序图。提供的02-WiFi课件没有此完整题与数值时序。"
+    },
+    {
+      "kind": "unprovided_numerical_problem_deck",
+      "paragraphs": [
+        15,
+        33
+      ],
+      "description": "第3题：A/B隐藏、A/C0.2ms与B0.4ms、B两包、A0.65ms到达、C到达0.35/0.55ms未定、A/C退避7、求B后退避14至17的原题与解答图未提供。"
+    },
+    {
+      "kind": "classroom_whiteboard_not_in_pdf",
+      "paragraphs": [
+        37,
+        50
+      ],
+      "description": "P37明确重新画拓扑、P38只重画B首包成功后的局部时序；解释13+n、SIFS/ACK、n=0或5失败、n1至4可行的实际手绘图。与原题解答相关但属于现场追加图，不能拿一般DCF图或猜绘补。"
+    },
+    {
+      "kind": "unprovided_numerical_problem_deck",
+      "paragraphs": [
+        52,
+        59
+      ],
+      "description": "第4题原题截图及开头提示图：A/B隐藏，A/C0.3ms、B0.4ms，B在t0发/A在t0+0.1发，C0.7ms到达，A/C退避1/5，C读B首部设置含期望ACK的NAV，求B最多一次碰撞。老师让学生拍照并次日讲解，当前源文件没有。"
+    }
+  ],
+  "all_lecture_visuals_recovered": false,
+  "audio_fidelity_verified": false,
+  "navigation_complete": true,
+  "slides_audit_complete": true,
+  "source_pdfs": [
+    {
+      "filename": "Exam_Information.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/Exam_Information.pdf",
+      "local_path": "/workspace/shared/Exam_Information.pdf",
+      "sha256": "901a9e6927af00b8a450a8c9f759e6485735bc9bcfbc31449fea9a4f342d7d11",
+      "pages": 1
+    },
+    {
+      "filename": "03-D2D-Networks.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/03-D2D-Networks.pdf",
+      "local_path": "/workspace/shared/03-D2D-Networks.pdf",
+      "sha256": "32577de32b488a6078b341071f97818b5b4bbd884936f241b47cbfaaf7e50424",
+      "pages": 18
+    },
+    {
+      "filename": "02-WiFi_1-7.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "local_path": "/workspace/shared/02-WiFi_1-7.pdf",
+      "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+      "pages": 74
+    }
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "block_id": "doxcneAmxHOPVHTYeGhuAa0kd0e",
+      "figure_number": 1,
+      "caption": "课件：Exam_Information.pdf · PDF第1页整页 · 图1（按PDF顺序）",
+      "token": "Na4YbaC7AojHssxZ0G2csOAun3g",
+      "image_path": "/workspace/shared/course-1014-0801/slide-images/slide-Exam_Information-001.png",
+      "after_paragraph": 1,
+      "before_paragraph": 2,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-0801/slide-images/slide-Exam_Information-001.png\",\n    \"size_bytes\": 172640\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "876de14f5189d492d5e414024fc2be62f0054318dd6ecd0fddff4ec32cff838e",
+      "title": "Information about the final exam",
+      "semantic_paragraph_spans": [
+        [
+          1,
+          4
+        ]
+      ],
+      "alignment_reason_zh": "原图为完整考试说明页；P1说明闭卷、笔/橡皮/计算器，P2补充最终答案用笔，P3讨论各题分值，P4明确关闭考试slides，放P1后直接覆盖本话题。注意PDF两道数值题各30、两道开放题各20，P3口述看似将开放题也说成30；这是源信息差异，不能据PDF改正文。",
+      "pdf_page": 1,
+      "pdf_half": "whole",
+      "source_pdf": "Exam_Information.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 1,
+        "timestamp": "00:00:03",
+        "block_id": "doxcn3Xz3kFXDb5IUhybnD9ajCc",
+        "heading": "01 · 00:00:03 · 闭卷考试形式与所需文具"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 2,
+        "timestamp": "00:00:44",
+        "block_id": "doxcnR59uwo5NXBNRHTRDPboa3e",
+        "heading": "02 · 00:00:44 · 计算过程与最终答案的书写要求"
+      }
+    },
+    {
+      "image_ordinal": 2,
+      "block_id": "doxcnclDSJvHyPjOO3QZUWbYMXe",
+      "figure_number": 1,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第1页上半页 · 图1（按PDF顺序）",
+      "token": "Ry8pbONJyo5pg6xuzidc58jInbd",
+      "image_path": "/workspace/shared/course-1014-0801/slide-images/slide-03-D2D-Networks-001.png",
+      "after_paragraph": 61,
+      "before_paragraph": 62,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-0801/slide-images/slide-03-D2D-Networks-001.png\",\n    \"size_bytes\": 45196\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "2b41ed31805063cef3b3c187de45e894bfe81b49f88078dd7256646337803f6a",
+      "title": "Wireless D2D Networks",
+      "semantic_paragraph_spans": [
+        [
+          60,
+          62
+        ]
+      ],
+      "alignment_reason_zh": "P60明确切到已发的下一套slides并准备休息后课程；P61首次报Device-to-device communication networks，P62预告设备直接互通与基础设施Wi-Fi差异。标题页在P61后准确承接新课件开场，没有将概念页猜插进习题部分。",
+      "pdf_page": 1,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 61,
+        "timestamp": "01:31:35",
+        "block_id": "doxcnS8JE4hPPSh0BPmsbpF1fFj",
+        "heading": "61 · 01:31:35 · 设备到设备网络与网关角色"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 62,
+        "timestamp": "01:32:44",
+        "block_id": "doxcna6pGJlbIxU3AL32bDZHt0b",
+        "heading": "62 · 01:32:44 · 直接互通与基础设施型Wi-Fi的区别"
+      }
+    }
+  ],
+  "not_missing": [
+    {
+      "source": "03-D2D-Networks.pdf",
+      "figure_numbers": [
+        2,
+        3,
+        4
+      ],
+      "reason": "最后3段只为休息后新课开场，未讲Outline条目或具体示意图；不能因提到D2D就把后续整套概念图提前插入。"
+    },
+    {
+      "source": "02-WiFi_1-7.pdf",
+      "reason": "数值题讲EIFS、NAV、后退避不等于再次展示通用机制课件；没有所讲相同拓扑/数值，不能替换缺失习题页。"
+    }
+  ],
+  "scope": "完整阅读62段双语稿讲解语义；下载并逐张查看2张原图，与固定PDF对应页比较；不改远端正文/导航/图片/录音/原始文字记录/智能纪要。",
+  "cautions": [
+    "P3考试评分口述与Exam_Information.pdf原页不同：PDF开放题各20分；本任务不作正文/ASR纠错。",
+    "P17到达时刻、P42时隙数和P54时长单位的不确定性原样保留。",
+    "已读HF课程仓库文件清单，没有独立numerical problems/solutions文件；清单回执随包。",
+    "两张图均称图1但来源PDF不同，本地恢复文件名已按课件名区分，避免覆盖。",
+    "未用原音认证转写；未打包私人音频。",
+    "不按图号或主题关键词机械补图或重排。",
+    "本审计任务没有远端修改或发布。"
+  ],
+  "unresolved_source_gap_count": 4,
+  "manifest_update_recommendation": {
+    "slides_audit_pending": false,
+    "slides_audit_complete": true,
+    "slides_aligned_count": 2,
+    "slides_missing_confirmed_count": 0,
+    "slides_misaligned_count": 0,
+    "unresolved_visual_source_gaps": 4,
+    "audio_fidelity_verified": false
+  }
+}

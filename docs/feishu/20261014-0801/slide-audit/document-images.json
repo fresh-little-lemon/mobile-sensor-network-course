@@ -1,0 +1,34 @@
+[
+  {
+    "image_ordinal": 1,
+    "block_id": "doxcneAmxHOPVHTYeGhuAa0kd0e",
+    "figure_number": 1,
+    "caption": "课件：Exam_Information.pdf · PDF第1页整页 · 图1（按PDF顺序）",
+    "token": "Na4YbaC7AojHssxZ0G2csOAun3g",
+    "image_path": "/workspace/shared/course-1014-0801/slide-images/slide-Exam_Information-001.png",
+    "after_paragraph": 1,
+    "before_paragraph": 2,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-0801/slide-images/slide-Exam_Information-001.png\",\n    \"size_bytes\": 172640\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "876de14f5189d492d5e414024fc2be62f0054318dd6ecd0fddff4ec32cff838e"
+  },
+  {
+    "image_ordinal": 2,
+    "block_id": "doxcnclDSJvHyPjOO3QZUWbYMXe",
+    "figure_number": 1,
+    "caption": "课件：03-D2D-Networks.pdf · PDF第1页上半页 · 图1（按PDF顺序）",
+    "token": "Ry8pbONJyo5pg6xuzidc58jInbd",
+    "image_path": "/workspace/shared/course-1014-0801/slide-images/slide-03-D2D-Networks-001.png",
+    "after_paragraph": 61,
+    "before_paragraph": 62,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-0801/slide-images/slide-03-D2D-Networks-001.png\",\n    \"size_bytes\": 45196\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "2b41ed31805063cef3b3c187de45e894bfe81b49f88078dd7256646337803f6a"
+  }
+]
