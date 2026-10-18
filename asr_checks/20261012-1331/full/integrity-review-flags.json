@@ -1,0 +1,5231 @@
+{
+  "note": "Heuristic review flags only; decoder scores are not calibrated correctness probabilities. Silence and stop-start speech can cause long/zero-duration anchors. No words changed.",
+  "completed_chunks": 32,
+  "planned_chunks": 32,
+  "results": [
+    {
+      "label": "chunk-001",
+      "raw_json_sha256": "a4a5d580c45f3bb21e52254f598cbcf4755af234292b1f98895962f1b1b9fba2",
+      "verified_hash": true,
+      "segment_count": 16,
+      "first_segment_start_absolute": 0.0,
+      "last_segment_end_absolute": 194.5,
+      "alert_count": 24,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " I",
+          "start": 0.0,
+          "end": 0.3,
+          "score": 0.1300460547208786
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " want",
+          "start": 0.3,
+          "end": 0.52,
+          "score": 0.25137996673583984
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " you",
+          "start": 0.52,
+          "end": 0.84,
+          "score": 0.1521078199148178
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " stop",
+          "start": 1.12,
+          "end": 1.34,
+          "score": 0.3624238073825836
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Wi",
+          "start": 9.52,
+          "end": 9.74,
+          "score": 0.2613723576068878
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " then",
+          "start": 22.68,
+          "end": 23.6,
+          "score": 0.4491848051548004
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " bake",
+          "start": 27.14,
+          "end": 27.6,
+          "score": 0.12018045037984848
+        },
+        {
+          "type": "long_word_duration",
+          "word": " out",
+          "start": 55.36,
+          "end": 57.48
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 73.34,
+          "end": 75.0,
+          "score": 0.18586575984954834
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 86.66,
+          "end": 87.88,
+          "score": 0.3394032120704651
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cuff",
+          "start": 99.16,
+          "end": 99.62,
+          "score": 0.13253341615200043
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " window",
+          "start": 124.04,
+          "end": 125.1,
+          "score": 0.34019652009010315
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " right?",
+          "start": 128.72,
+          "end": 128.72
+        },
+        {
+          "type": "long_word_duration",
+          "word": " value",
+          "start": 146.66,
+          "end": 149.02
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " value",
+          "start": 146.66,
+          "end": 149.02,
+          "score": 0.17251525819301605
+        },
+        {
+          "type": "long_word_duration",
+          "word": " minus",
+          "start": 154.66,
+          "end": 158.48
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " So,",
+          "start": 167.54000000000002,
+          "end": 168.9,
+          "score": 0.1895693987607956
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Beckhoff",
+          "start": 177.78,
+          "end": 178.42,
+          "score": 0.4003005102276802
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " procedure",
+          "start": 178.42,
+          "end": 179.28,
+          "score": 0.4089299738407135
+        },
+        {
+          "type": "long_word_duration",
+          "word": " for",
+          "start": 179.28,
+          "end": 181.6
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Okay,",
+          "start": 183.72,
+          "end": 183.8,
+          "score": 0.09724374115467072
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Bekow",
+          "start": 189.76,
+          "end": 190.04,
+          "score": 0.3585692768295606
+        },
+        {
+          "type": "long_word_duration",
+          "word": " the...",
+          "start": 191.7,
+          "end": 194.5
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the...",
+          "start": 191.7,
+          "end": 194.5,
+          "score": 0.3806568682193756
+        }
+      ]
+    },
+    {
+      "label": "chunk-002",
+      "raw_json_sha256": "665a8138943c2c0e2159de0f919bca2ef5727c22247d5b04d4a64cff78d5d705",
+      "verified_hash": true,
+      "segment_count": 17,
+      "first_segment_start_absolute": 165.0,
+      "last_segment_end_absolute": 373.98,
+      "alert_count": 25,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " Bechov",
+          "start": 165.0,
+          "end": 166.28,
+          "score": 0.315379327783982
+        },
+        {
+          "type": "long_word_duration",
+          "word": " the",
+          "start": 171.66,
+          "end": 173.68
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 171.66,
+          "end": 173.68,
+          "score": 0.3595699071884155
+        },
+        {
+          "type": "long_word_duration",
+          "word": " for",
+          "start": 179.3,
+          "end": 181.54
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 183.78,
+          "end": 185.34,
+          "score": 0.3882949650287628
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " we",
+          "start": 189.07999999999998,
+          "end": 189.07999999999998
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " break",
+          "start": 189.78,
+          "end": 189.98,
+          "score": 0.06716371327638626
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " versions",
+          "start": 203.82,
+          "end": 204.78,
+          "score": 0.18129697442054749
+        },
+        {
+          "type": "long_word_duration",
+          "word": " that",
+          "start": 235.18,
+          "end": 238.38
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " contention",
+          "start": 242.44,
+          "end": 243.07999999999998,
+          "score": 0.09850188344717026
+        },
+        {
+          "type": "long_word_duration",
+          "word": " exponent",
+          "start": 251.3,
+          "end": 253.48000000000002
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " since",
+          "start": 254.7,
+          "end": 256.1,
+          "score": 0.42401382327079773
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 257.34000000000003,
+          "end": 258.46,
+          "score": 0.13856743276119232
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " consider",
+          "start": 276.7,
+          "end": 277.32,
+          "score": 0.1807858794927597
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " a",
+          "start": 299.84000000000003,
+          "end": 300.94,
+          "score": 0.18013626337051392
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 301.32,
+          "end": 301.82,
+          "score": 0.4392583966255188
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " second",
+          "start": 310.24,
+          "end": 312.2,
+          "score": 0.15903061628341675
+        },
+        {
+          "type": "long_word_duration",
+          "word": " plus",
+          "start": 319.56,
+          "end": 322.22
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " means",
+          "start": 326.08000000000004,
+          "end": 326.4,
+          "score": 0.2141779661178589
+        },
+        {
+          "type": "long_word_duration",
+          "word": " the",
+          "start": 340.86,
+          "end": 343.02
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Bechov",
+          "start": 343.02,
+          "end": 343.96000000000004,
+          "score": 0.2572714400788148
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " 1",
+          "start": 349.08000000000004,
+          "end": 349.82,
+          "score": 0.37381479144096375
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cot",
+          "start": 353.68,
+          "end": 354.28,
+          "score": 0.3786444664001465
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " on",
+          "start": 355.08000000000004,
+          "end": 355.48,
+          "score": 0.3578721284866333
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 360.14,
+          "end": 360.6,
+          "score": 0.27960529923439026
+        }
+      ]
+    },
+    {
+      "label": "chunk-003",
+      "raw_json_sha256": "adbd92072caade9cd08d01cdac952f92b69c21aaa01299dbad0ad15113c9efae",
+      "verified_hash": true,
+      "segment_count": 19,
+      "first_segment_start_absolute": 345.0,
+      "last_segment_end_absolute": 554.97,
+      "alert_count": 28,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " on",
+          "start": 345.0,
+          "end": 345.24,
+          "score": 0.3283171057701111
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " 1,",
+          "start": 349.1,
+          "end": 349.88,
+          "score": 0.3729671835899353
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cub",
+          "start": 353.68,
+          "end": 354.22,
+          "score": 0.0322561152279377
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " increased",
+          "start": 356.36,
+          "end": 356.96,
+          "score": 0.38196635246276855
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 372.66,
+          "end": 373.92,
+          "score": 0.11869873851537704
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 388.08,
+          "end": 388.64,
+          "score": 0.4212578237056732
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " max.",
+          "start": 392.88,
+          "end": 393.7,
+          "score": 0.3073546290397644
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Bekoff",
+          "start": 412.35,
+          "end": 412.83,
+          "score": 0.34719547629356384
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " time.",
+          "start": 414.45,
+          "end": 415.15,
+          "score": 0.3406274616718292
+        },
+        {
+          "type": "long_word_duration",
+          "word": " rule",
+          "start": 419.31,
+          "end": 423.23
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " rule",
+          "start": 419.31,
+          "end": 423.23,
+          "score": 0.35739246010780334
+        },
+        {
+          "type": "long_word_duration",
+          "word": " is",
+          "start": 423.23,
+          "end": 426.59000000000003
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " at",
+          "start": 427.05,
+          "end": 428.11,
+          "score": 0.39462339878082275
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Bekoff",
+          "start": 434.97,
+          "end": 435.37,
+          "score": 0.44495752453804016
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " 1,",
+          "start": 446.57,
+          "end": 446.95,
+          "score": 0.2691987454891205
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " right?",
+          "start": 447.83,
+          "end": 447.83
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " two",
+          "start": 457.23,
+          "end": 457.65,
+          "score": 0.1988329142332077
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 460.11,
+          "end": 460.39,
+          "score": 0.13902424275875092
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " That",
+          "start": 483.71000000000004,
+          "end": 484.83000000000004,
+          "score": 0.24214144051074982
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 497.25,
+          "end": 497.93,
+          "score": 0.24492114782333374
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " contention",
+          "start": 499.49,
+          "end": 499.93,
+          "score": 0.2855793535709381
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " So",
+          "start": 501.45,
+          "end": 501.69,
+          "score": 0.40496334433555603
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " bit",
+          "start": 511.35,
+          "end": 511.55,
+          "score": 0.38473090529441833
+        },
+        {
+          "type": "long_word_duration",
+          "word": " why",
+          "start": 519.01,
+          "end": 521.37
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " standards",
+          "start": 524.09,
+          "end": 524.37,
+          "score": 0.40873903036117554
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " say",
+          "start": 524.37,
+          "end": 525.01,
+          "score": 0.30101943016052246
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " every",
+          "start": 531.09,
+          "end": 531.35,
+          "score": 0.3712424635887146
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " in",
+          "start": 540.59,
+          "end": 541.03,
+          "score": 0.20189321041107178
+        }
+      ]
+    },
+    {
+      "label": "chunk-004",
+      "raw_json_sha256": "b442d647f72d7d10eb78a45ea6610868aef5dd23a7083a14c6340474ec625c6e",
+      "verified_hash": true,
+      "segment_count": 23,
+      "first_segment_start_absolute": 525.0,
+      "last_segment_end_absolute": 734.97,
+      "alert_count": 19,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " recast",
+          "start": 531.28,
+          "end": 531.78,
+          "score": 0.3234100788831711
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " at",
+          "start": 550.16,
+          "end": 550.94,
+          "score": 0.40108808875083923
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " procedure",
+          "start": 564.0,
+          "end": 564.56,
+          "score": 0.34434759616851807
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 574.56,
+          "end": 575.3,
+          "score": 0.3175429701805115
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " betoff",
+          "start": 602.72,
+          "end": 603.08,
+          "score": 0.2925461381673813
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " exactly",
+          "start": 603.96,
+          "end": 605.6,
+          "score": 0.43541303277015686
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " just",
+          "start": 610.0,
+          "end": 610.3199999999999,
+          "score": 0.33789464831352234
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 634.75,
+          "end": 636.05,
+          "score": 0.3795623183250427
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 636.05,
+          "end": 636.75,
+          "score": 0.4086219072341919
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " max",
+          "start": 655.99,
+          "end": 656.15,
+          "score": 0.17384515702724457
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " for",
+          "start": 659.23,
+          "end": 660.65,
+          "score": 0.20127667486667633
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " but",
+          "start": 661.09,
+          "end": 662.05,
+          "score": 0.3388340473175049
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 663.69,
+          "end": 664.91,
+          "score": 0.10255582630634308
+        },
+        {
+          "type": "long_word_duration",
+          "word": " we",
+          "start": 682.73,
+          "end": 685.45
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " what",
+          "start": 687.4300000000001,
+          "end": 687.75,
+          "score": 0.3638335168361664
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " but",
+          "start": 688.39,
+          "end": 689.03,
+          "score": 0.43653273582458496
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " or",
+          "start": 696.47,
+          "end": 696.97,
+          "score": 0.44879430532455444
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 719.95,
+          "end": 721.29,
+          "score": 0.28254055976867676
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " wi",
+          "start": 730.99,
+          "end": 731.37,
+          "score": 0.15709972381591797
+        }
+      ]
+    },
+    {
+      "label": "chunk-005",
+      "raw_json_sha256": "2ac91cab89c2d1eb8776f5ad6ece52c2ad866e98e4b1d72adde319c0122b60a8",
+      "verified_hash": true,
+      "segment_count": 22,
+      "first_segment_start_absolute": 705.0,
+      "last_segment_end_absolute": 913.98,
+      "alert_count": 23,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " to",
+          "start": 705.0,
+          "end": 705.2,
+          "score": 0.22513793408870697
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " when",
+          "start": 726.58,
+          "end": 726.78,
+          "score": 0.21649836003780365
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 729.02,
+          "end": 730.34,
+          "score": 0.4310242533683777
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " note",
+          "start": 730.34,
+          "end": 730.98,
+          "score": 0.3026588261127472
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Wi",
+          "start": 730.98,
+          "end": 731.44,
+          "score": 0.1545211225748062
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " pocket",
+          "start": 733.18,
+          "end": 733.68,
+          "score": 0.08512704819440842
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " mask",
+          "start": 738.94,
+          "end": 739.02,
+          "score": 0.2938024699687958
+        },
+        {
+          "type": "long_word_duration",
+          "word": " needs",
+          "start": 739.02,
+          "end": 741.1
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " packet.",
+          "start": 745.96,
+          "end": 746.34,
+          "score": 0.35990387201309204
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 761.7,
+          "end": 761.96,
+          "score": 0.3752056658267975
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 780.9,
+          "end": 781.4,
+          "score": 0.0423743911087513
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " 0,",
+          "start": 781.4,
+          "end": 781.84,
+          "score": 0.4359118342399597
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 788.96,
+          "end": 789.14,
+          "score": 0.17603465914726257
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Bekow",
+          "start": 807.3,
+          "end": 807.8199999999999,
+          "score": 0.41728875041007996
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 811.48,
+          "end": 812.44,
+          "score": 0.39184319972991943
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " if",
+          "start": 823.64,
+          "end": 825.1800000000001,
+          "score": 0.33344656229019165
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 837.3,
+          "end": 837.9,
+          "score": 0.3256290853023529
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " packet",
+          "start": 845.22,
+          "end": 845.6800000000001,
+          "score": 0.3643641769886017
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " then",
+          "start": 846.54,
+          "end": 846.7,
+          "score": 0.42809438705444336
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 863.96,
+          "end": 864.96,
+          "score": 0.19237568974494934
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 864.96,
+          "end": 866.1,
+          "score": 0.4024732708930969
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " leave",
+          "start": 881.3199999999999,
+          "end": 881.84,
+          "score": 0.17334209382534027
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 898.84,
+          "end": 899.36,
+          "score": 0.41254982352256775
+        }
+      ]
+    },
+    {
+      "label": "chunk-006",
+      "raw_json_sha256": "4c04ba3379897b64227db42e711ca3fbfbefff368d1ea9481402541c2188844e",
+      "verified_hash": true,
+      "segment_count": 21,
+      "first_segment_start_absolute": 886.46,
+      "last_segment_end_absolute": 1094.74,
+      "alert_count": 20,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " Before",
+          "start": 886.46,
+          "end": 887.44,
+          "score": 0.38262230157852173
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " why",
+          "start": 909.7,
+          "end": 910.38,
+          "score": 0.3617429733276367
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 913.96,
+          "end": 915.2,
+          "score": 0.1298939436674118
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " for",
+          "start": 921.1,
+          "end": 921.36,
+          "score": 0.21043488383293152
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 925.44,
+          "end": 926.28,
+          "score": 0.34278929233551025
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Wi",
+          "start": 931.82,
+          "end": 932.7,
+          "score": 0.32302460074424744
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 934.18,
+          "end": 934.6,
+          "score": 0.4404739439487457
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay,",
+          "start": 951.78,
+          "end": 951.96,
+          "score": 0.36329108476638794
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " a",
+          "start": 959.8199999999999,
+          "end": 960.2,
+          "score": 0.3931899964809418
+        },
+        {
+          "type": "long_word_duration",
+          "word": " fact",
+          "start": 964.0,
+          "end": 967.08
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " you,",
+          "start": 970.98,
+          "end": 971.42,
+          "score": 0.435910165309906
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " a",
+          "start": 986.8199999999999,
+          "end": 987.38,
+          "score": 0.3426552712917328
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 987.8,
+          "end": 988.66,
+          "score": 0.17125385999679565
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 1011.78,
+          "end": 1012.64,
+          "score": 0.23086436092853546
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 1017.56,
+          "end": 1018.44,
+          "score": 0.4385191798210144
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Okay",
+          "start": 1021.1800000000001,
+          "end": 1021.34,
+          "score": 0.3350283205509186
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 1044.92,
+          "end": 1046.94
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " So",
+          "start": 1078.6,
+          "end": 1078.6
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " So",
+          "start": 1078.6,
+          "end": 1078.6,
+          "score": 0.36291423439979553
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " User",
+          "start": 1090.1,
+          "end": 1091.52,
+          "score": 0.3723318576812744
+        }
+      ]
+    },
+    {
+      "label": "chunk-007",
+      "raw_json_sha256": "09dc43d4eb237a33ec19bdc11be0f265e6388e016fbf5bd045b3ba64184dc3d0",
+      "verified_hash": true,
+      "segment_count": 20,
+      "first_segment_start_absolute": 1065.0,
+      "last_segment_end_absolute": 1274.98,
+      "alert_count": 16,
+      "alerts": [
+        {
+          "type": "near_zero_duration",
+          "word": " So",
+          "start": 1078.6,
+          "end": 1078.6
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " So",
+          "start": 1078.6,
+          "end": 1078.6,
+          "score": 0.3436363935470581
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Okay,",
+          "start": 1098.3,
+          "end": 1099.4,
+          "score": 0.2339271754026413
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Wi",
+          "start": 1137.66,
+          "end": 1137.86,
+          "score": 0.10588890314102173
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " or",
+          "start": 1141.68,
+          "end": 1142.76,
+          "score": 0.417322039604187
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " A",
+          "start": 1151.52,
+          "end": 1151.98,
+          "score": 0.40965536236763
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " transmit",
+          "start": 1154.12,
+          "end": 1154.6,
+          "score": 0.36429208517074585
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " bucket",
+          "start": 1170.02,
+          "end": 1170.56,
+          "score": 0.44906115531921387
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Okay,",
+          "start": 1189.28,
+          "end": 1190.06,
+          "score": 0.21953082084655762
+        },
+        {
+          "type": "long_word_duration",
+          "word": " demodulate",
+          "start": 1198.16,
+          "end": 1201.08
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " node",
+          "start": 1211.2,
+          "end": 1211.7,
+          "score": 0.1701568365097046
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " nav",
+          "start": 1243.84,
+          "end": 1244.24,
+          "score": 0.42154642939567566
+        },
+        {
+          "type": "long_word_duration",
+          "word": " upper",
+          "start": 1255.4,
+          "end": 1258.02
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " this",
+          "start": 1261.76,
+          "end": 1262.0,
+          "score": 0.3762870132923126
+        },
+        {
+          "type": "long_word_duration",
+          "word": " B",
+          "start": 1263.3600000000001,
+          "end": 1265.5
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " mug",
+          "start": 1269.84,
+          "end": 1270.3,
+          "score": 0.17089836299419403
+        }
+      ]
+    },
+    {
+      "label": "chunk-008",
+      "raw_json_sha256": "62adbb96cd8238674e6a54e64b39f7b7d826669fee25f8aad2a9ae6ff6e1bbf6",
+      "verified_hash": true,
+      "segment_count": 20,
+      "first_segment_start_absolute": 1245.0,
+      "last_segment_end_absolute": 1454.82,
+      "alert_count": 19,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " will",
+          "start": 1247.16,
+          "end": 1249.06,
+          "score": 0.18356260657310486
+        },
+        {
+          "type": "long_word_duration",
+          "word": " upper",
+          "start": 1255.26,
+          "end": 1258.0
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 1258.5,
+          "end": 1259.58,
+          "score": 0.3743858337402344
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " month",
+          "start": 1269.86,
+          "end": 1270.3,
+          "score": 0.23127727210521698
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 1281.84,
+          "end": 1282.74,
+          "score": 0.2052571326494217
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " to",
+          "start": 1295.96,
+          "end": 1296.36,
+          "score": 0.08461985737085342
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " grass",
+          "start": 1296.36,
+          "end": 1296.7,
+          "score": 0.38120129704475403
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 1303.28,
+          "end": 1304.52,
+          "score": 0.3950144648551941
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " packet",
+          "start": 1324.2,
+          "end": 1324.76,
+          "score": 0.4455111622810364
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " will",
+          "start": 1357.46,
+          "end": 1358.4,
+          "score": 0.27636030316352844
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " I",
+          "start": 1358.8,
+          "end": 1359.48,
+          "score": 0.2171376794576645
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 1359.7,
+          "end": 1359.96,
+          "score": 0.3750845193862915
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " do",
+          "start": 1368.02,
+          "end": 1368.46,
+          "score": 0.17211924493312836
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 1380.18,
+          "end": 1382.22
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " out",
+          "start": 1393.94,
+          "end": 1395.6,
+          "score": 0.43915510177612305
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " CW",
+          "start": 1401.52,
+          "end": 1402.78,
+          "score": 0.09872747957706451
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 1403.98,
+          "end": 1407.46
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " oh",
+          "start": 1411.8,
+          "end": 1412.54,
+          "score": 0.42352160811424255
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " it",
+          "start": 1418.06,
+          "end": 1418.44,
+          "score": 0.3802665174007416
+        }
+      ]
+    },
+    {
+      "label": "chunk-009",
+      "raw_json_sha256": "d33208ea8e4dd7bb2993616547f78006bd6ef389a789f8e5dba951bc38f73e5b",
+      "verified_hash": true,
+      "segment_count": 19,
+      "first_segment_start_absolute": 1425.0,
+      "last_segment_end_absolute": 1634.8600000000001,
+      "alert_count": 21,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 1432.82,
+          "end": 1433.56,
+          "score": 0.3246898949146271
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " will",
+          "start": 1441.96,
+          "end": 1442.64,
+          "score": 0.4256080985069275
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay,",
+          "start": 1451.38,
+          "end": 1452.3,
+          "score": 0.40124064683914185
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " its",
+          "start": 1484.88,
+          "end": 1485.64,
+          "score": 0.3766334354877472
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " time",
+          "start": 1492.38,
+          "end": 1492.94,
+          "score": 0.3899785876274109
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " decrease",
+          "start": 1530.56,
+          "end": 1531.26,
+          "score": 0.32762327790260315
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 1533.6,
+          "end": 1535.92
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " So",
+          "start": 1540.82,
+          "end": 1540.94,
+          "score": 0.43876177072525024
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " it",
+          "start": 1540.94,
+          "end": 1541.38,
+          "score": 0.3314278721809387
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " because",
+          "start": 1555.46,
+          "end": 1556.16,
+          "score": 0.17941376566886902
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 1565.4,
+          "end": 1566.0,
+          "score": 0.3853265941143036
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 1572.38,
+          "end": 1572.96,
+          "score": 0.3450750708580017
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 1581.74,
+          "end": 1582.66,
+          "score": 0.12437170743942261
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " all",
+          "start": 1594.88,
+          "end": 1595.92,
+          "score": 0.34451940655708313
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 1603.84,
+          "end": 1604.46,
+          "score": 0.37969622015953064
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " point",
+          "start": 1610.7,
+          "end": 1611.52,
+          "score": 0.25789904594421387
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " sieves.",
+          "start": 1617.84,
+          "end": 1619.04,
+          "score": 0.44153164327144623
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " The",
+          "start": 1627.92,
+          "end": 1628.66,
+          "score": 0.2877312898635864
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " can",
+          "start": 1630.54,
+          "end": 1630.68,
+          "score": 0.2285917103290558
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " set",
+          "start": 1630.68,
+          "end": 1631.06,
+          "score": 0.3694398105144501
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " their",
+          "start": 1631.06,
+          "end": 1631.42,
+          "score": 0.2646419405937195
+        }
+      ]
+    },
+    {
+      "label": "chunk-010",
+      "raw_json_sha256": "412a88c38c97dfa7e73c34d99551093c79ec7b920c98614635b3bcf3f8e5f565",
+      "verified_hash": true,
+      "segment_count": 17,
+      "first_segment_start_absolute": 1605.0,
+      "last_segment_end_absolute": 1814.96,
+      "alert_count": 24,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 1605.0,
+          "end": 1605.68,
+          "score": 0.40839675068855286
+        },
+        {
+          "type": "long_word_duration",
+          "word": " SIFS.",
+          "start": 1617.84,
+          "end": 1620.94
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 1629.6,
+          "end": 1630.66,
+          "score": 0.09125248342752457
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " packet.",
+          "start": 1638.92,
+          "end": 1639.36,
+          "score": 0.39111337065696716
+        },
+        {
+          "type": "long_word_duration",
+          "word": " A",
+          "start": 1648.28,
+          "end": 1650.94
+        },
+        {
+          "type": "long_word_duration",
+          "word": " will",
+          "start": 1653.76,
+          "end": 1655.96
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 1660.28,
+          "end": 1661.16,
+          "score": 0.09965626895427704
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " have",
+          "start": 1665.5,
+          "end": 1665.74,
+          "score": 0.4261400103569031
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " not",
+          "start": 1667.82,
+          "end": 1668.16,
+          "score": 0.34671056270599365
+        },
+        {
+          "type": "long_word_duration",
+          "word": " it's",
+          "start": 1675.8,
+          "end": 1678.5
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " because",
+          "start": 1683.4,
+          "end": 1683.82,
+          "score": 0.3832399845123291
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 1697.04,
+          "end": 1697.96,
+          "score": 0.44993066787719727
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " again,",
+          "start": 1711.48,
+          "end": 1713.0,
+          "score": 0.4258432686328888
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " change",
+          "start": 1737.18,
+          "end": 1737.46,
+          "score": 0.43256524205207825
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " yes,",
+          "start": 1738.3600000000001,
+          "end": 1739.4,
+          "score": 0.06231790408492088
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Bechov",
+          "start": 1743.62,
+          "end": 1743.96,
+          "score": 0.38490066925684613
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 1768.16,
+          "end": 1769.24,
+          "score": 0.43380504846572876
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " knots",
+          "start": 1789.8600000000001,
+          "end": 1790.34,
+          "score": 0.1559896618127823
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " go",
+          "start": 1790.34,
+          "end": 1790.76,
+          "score": 0.306449294090271
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " towards",
+          "start": 1790.76,
+          "end": 1791.22,
+          "score": 0.37818583846092224
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " part",
+          "start": 1791.9,
+          "end": 1792.24,
+          "score": 0.21451252698898315
+        },
+        {
+          "type": "long_word_duration",
+          "word": " this",
+          "start": 1795.38,
+          "end": 1799.48
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " English",
+          "start": 1804.02,
+          "end": 1804.66,
+          "score": 0.08967819809913635
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " top",
+          "start": 1805.26,
+          "end": 1805.42,
+          "score": 0.31880655884742737
+        }
+      ]
+    },
+    {
+      "label": "chunk-011",
+      "raw_json_sha256": "ce593877eb146def47210245b5a64890cc424cc02c02ee0e870819ec75be8942",
+      "verified_hash": true,
+      "segment_count": 23,
+      "first_segment_start_absolute": 1785.0,
+      "last_segment_end_absolute": 1994.9,
+      "alert_count": 27,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " non",
+          "start": 1789.84,
+          "end": 1790.18,
+          "score": 0.3405049741268158
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " tries",
+          "start": 1790.76,
+          "end": 1791.22,
+          "score": 0.1278410702943802
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " to",
+          "start": 1791.22,
+          "end": 1791.44,
+          "score": 0.2998731732368469
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " their",
+          "start": 1791.6,
+          "end": 1791.9,
+          "score": 0.16453418135643005
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " body",
+          "start": 1791.9,
+          "end": 1792.3,
+          "score": 0.3118315041065216
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " in",
+          "start": 1804.0,
+          "end": 1804.42,
+          "score": 0.2317790389060974
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 1804.42,
+          "end": 1804.76,
+          "score": 0.3963835835456848
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 1804.76,
+          "end": 1805.4,
+          "score": 0.36192557215690613
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " But,",
+          "start": 1812.54,
+          "end": 1813.42,
+          "score": 0.44138047099113464
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 1842.36,
+          "end": 1843.22,
+          "score": 0.4073135554790497
+        },
+        {
+          "type": "long_word_duration",
+          "word": " that",
+          "start": 1852.88,
+          "end": 1855.4
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " bake",
+          "start": 1865.46,
+          "end": 1867.14,
+          "score": 0.23804530501365662
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " to",
+          "start": 1870.26,
+          "end": 1870.54,
+          "score": 0.27859315276145935
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " not",
+          "start": 1882.16,
+          "end": 1882.42,
+          "score": 0.3355552554130554
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 1882.88,
+          "end": 1884.82,
+          "score": 0.2504459619522095
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " bake",
+          "start": 1894.48,
+          "end": 1894.88,
+          "score": 0.3210824728012085
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " at",
+          "start": 1903.6,
+          "end": 1903.76,
+          "score": 0.4376378059387207
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " node",
+          "start": 1906.84,
+          "end": 1907.66,
+          "score": 0.13268916308879852
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 1912.26,
+          "end": 1912.76,
+          "score": 0.4349686801433563
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " lives,",
+          "start": 1917.3,
+          "end": 1917.7,
+          "score": 0.15503054857254028
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 1928.2,
+          "end": 1929.44,
+          "score": 0.3903978168964386
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " B",
+          "start": 1931.46,
+          "end": 1931.46
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " exactly",
+          "start": 1932.84,
+          "end": 1933.46,
+          "score": 0.04867430776357651
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " get",
+          "start": 1947.06,
+          "end": 1947.46,
+          "score": 0.35579419136047363
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 1955.82,
+          "end": 1956.08,
+          "score": 0.09840358793735504
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " to",
+          "start": 1957.1,
+          "end": 1957.4,
+          "score": 0.29788193106651306
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cars",
+          "start": 1961.06,
+          "end": 1961.32,
+          "score": 0.1622915416955948
+        }
+      ]
+    },
+    {
+      "label": "chunk-012",
+      "raw_json_sha256": "f5c849b3540ef526705889d968074f3b77fb0783d098d92e1cbde783a271127e",
+      "verified_hash": true,
+      "segment_count": 21,
+      "first_segment_start_absolute": 1965.0,
+      "last_segment_end_absolute": 2173.28,
+      "alert_count": 23,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " B",
+          "start": 1965.0,
+          "end": 1965.32,
+          "score": 0.08575385808944702
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 1968.18,
+          "end": 1968.38,
+          "score": 0.2671158015727997
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 1970.36,
+          "end": 1971.26,
+          "score": 0.3074313998222351
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right,",
+          "start": 1986.52,
+          "end": 1987.0,
+          "score": 0.37423256039619446
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " till",
+          "start": 1988.28,
+          "end": 1988.28
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " channel.",
+          "start": 1991.68,
+          "end": 1991.68
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " because,",
+          "start": 2007.3,
+          "end": 2007.76,
+          "score": 0.357714980840683
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " oh",
+          "start": 2016.76,
+          "end": 2017.1,
+          "score": 0.41358092427253723
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " I",
+          "start": 2017.9,
+          "end": 2018.6,
+          "score": 0.3260704576969147
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " off.",
+          "start": 2026.58,
+          "end": 2027.02,
+          "score": 0.14275334775447845
+        },
+        {
+          "type": "long_word_duration",
+          "word": " transmitting",
+          "start": 2036.6,
+          "end": 2039.14
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " having",
+          "start": 2044.94,
+          "end": 2045.86,
+          "score": 0.4084177017211914
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " item.",
+          "start": 2048.46,
+          "end": 2049.66,
+          "score": 0.2651396691799164
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 2051.52,
+          "end": 2052.6,
+          "score": 0.17135968804359436
+        },
+        {
+          "type": "long_word_duration",
+          "word": " collision",
+          "start": 2054.38,
+          "end": 2057.38
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " point",
+          "start": 2078.16,
+          "end": 2078.76,
+          "score": 0.24771182239055634
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " nodes",
+          "start": 2108.04,
+          "end": 2108.48,
+          "score": 0.11629258096218109
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " BECAF",
+          "start": 2116.54,
+          "end": 2116.9,
+          "score": 0.4028651292125384
+        },
+        {
+          "type": "long_word_duration",
+          "word": " CSMA",
+          "start": 2130.82,
+          "end": 2132.92
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " This",
+          "start": 2138.04,
+          "end": 2139.74,
+          "score": 0.3110402822494507
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " payoff",
+          "start": 2139.74,
+          "end": 2140.98,
+          "score": 0.16093935072422028
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " So",
+          "start": 2150.54,
+          "end": 2150.54
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right?",
+          "start": 2164.44,
+          "end": 2164.9,
+          "score": 0.39248666167259216
+        }
+      ]
+    },
+    {
+      "label": "chunk-013",
+      "raw_json_sha256": "9421a5a5f81b5a3efd42f0bf15c8b96df2f856ba005d6811584718107f0b6bc6",
+      "verified_hash": true,
+      "segment_count": 19,
+      "first_segment_start_absolute": 2145.0,
+      "last_segment_end_absolute": 2354.7,
+      "alert_count": 23,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " avoid",
+          "start": 2145.0,
+          "end": 2146.02,
+          "score": 0.03028072789311409
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " you",
+          "start": 2165.1,
+          "end": 2165.7,
+          "score": 0.4279552400112152
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " or",
+          "start": 2183.4,
+          "end": 2184.18,
+          "score": 0.19724346697330475
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " action",
+          "start": 2204.9,
+          "end": 2205.7,
+          "score": 0.4070351719856262
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " fake",
+          "start": 2212.4,
+          "end": 2212.62,
+          "score": 0.1693718135356903
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 2228.88,
+          "end": 2230.06,
+          "score": 0.2463597059249878
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " with",
+          "start": 2231.18,
+          "end": 2231.5,
+          "score": 0.3253357410430908
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 2233.56,
+          "end": 2233.82,
+          "score": 0.2745738625526428
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 2233.82,
+          "end": 2234.18,
+          "score": 0.3923601508140564
+        },
+        {
+          "type": "long_word_duration",
+          "word": " probabilistic.",
+          "start": 2240.64,
+          "end": 2242.78
+        },
+        {
+          "type": "long_word_duration",
+          "word": " B",
+          "start": 2252.38,
+          "end": 2256.4
+        },
+        {
+          "type": "long_word_duration",
+          "word": " draw",
+          "start": 2257.68,
+          "end": 2262.24
+        },
+        {
+          "type": "long_word_duration",
+          "word": " the",
+          "start": 2262.24,
+          "end": 2265.2
+        },
+        {
+          "type": "long_word_duration",
+          "word": " value",
+          "start": 2266.02,
+          "end": 2268.54
+        },
+        {
+          "type": "long_word_duration",
+          "word": " okay",
+          "start": 2276.46,
+          "end": 2278.88
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 2276.46,
+          "end": 2278.88,
+          "score": 0.25800958275794983
+        },
+        {
+          "type": "long_word_duration",
+          "word": " as",
+          "start": 2284.7,
+          "end": 2286.8
+        },
+        {
+          "type": "long_word_duration",
+          "word": " not",
+          "start": 2291.24,
+          "end": 2301.46
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 2302.1,
+          "end": 2303.3,
+          "score": 0.19793513417243958
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 2303.3,
+          "end": 2303.58,
+          "score": 0.1805417239665985
+        },
+        {
+          "type": "long_word_duration",
+          "word": " during",
+          "start": 2304.28,
+          "end": 2306.36
+        },
+        {
+          "type": "long_word_duration",
+          "word": " decrease",
+          "start": 2322.96,
+          "end": 2325.08
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 2339.46,
+          "end": 2339.76,
+          "score": 0.31712815165519714
+        }
+      ]
+    },
+    {
+      "label": "chunk-014",
+      "raw_json_sha256": "9195494332c8944e814f41bc75755a42d7ece616d0b386d3a9282c7fae07642a",
+      "verified_hash": true,
+      "segment_count": 20,
+      "first_segment_start_absolute": 2325.0,
+      "last_segment_end_absolute": 2534.96,
+      "alert_count": 26,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " give",
+          "start": 2325.0,
+          "end": 2325.6,
+          "score": 0.2764745354652405
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 2325.98,
+          "end": 2326.14,
+          "score": 0.24169467389583588
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " but",
+          "start": 2343.22,
+          "end": 2343.58,
+          "score": 0.3180362284183502
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Now,",
+          "start": 2347.66,
+          "end": 2347.72,
+          "score": 0.13663959503173828
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " contending",
+          "start": 2356.98,
+          "end": 2357.38,
+          "score": 0.43416909873485565
+        },
+        {
+          "type": "long_word_duration",
+          "word": " so",
+          "start": 2360.36,
+          "end": 2363.4
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 2360.36,
+          "end": 2363.4,
+          "score": 0.30705779790878296
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Okay,",
+          "start": 2368.46,
+          "end": 2368.68,
+          "score": 0.3085348606109619
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Now,",
+          "start": 2375.2,
+          "end": 2376.62,
+          "score": 0.20469307899475098
+        },
+        {
+          "type": "long_word_duration",
+          "word": " we",
+          "start": 2384.68,
+          "end": 2387.5
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 2384.68,
+          "end": 2387.5,
+          "score": 0.2728825807571411
+        },
+        {
+          "type": "long_word_duration",
+          "word": " a",
+          "start": 2387.82,
+          "end": 2391.04
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " close",
+          "start": 2395.98,
+          "end": 2396.54,
+          "score": 0.26990392804145813
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 2413.14,
+          "end": 2413.72,
+          "score": 0.32875192165374756
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 2424.32,
+          "end": 2425.6,
+          "score": 0.3573693335056305
+        },
+        {
+          "type": "long_word_duration",
+          "word": " perform",
+          "start": 2431.62,
+          "end": 2433.9
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " So",
+          "start": 2439.4,
+          "end": 2440.44,
+          "score": 0.4321010708808899
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " access",
+          "start": 2446.76,
+          "end": 2447.18,
+          "score": 0.3843112587928772
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " talk",
+          "start": 2450.28,
+          "end": 2450.42,
+          "score": 0.40779244899749756
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " path",
+          "start": 2460.64,
+          "end": 2460.72,
+          "score": 0.1631111055612564
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " either",
+          "start": 2467.64,
+          "end": 2468.14,
+          "score": 0.3247068524360657
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " an",
+          "start": 2468.74,
+          "end": 2469.74,
+          "score": 0.11931559443473816
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " Out",
+          "start": 2471.5,
+          "end": 2471.5
+        },
+        {
+          "type": "long_word_duration",
+          "word": " range",
+          "start": 2475.98,
+          "end": 2478.96
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 2511.76,
+          "end": 2512.04,
+          "score": 0.24663038551807404
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " this",
+          "start": 2515.34,
+          "end": 2516.28,
+          "score": 0.09136636555194855
+        }
+      ]
+    },
+    {
+      "label": "chunk-015",
+      "raw_json_sha256": "9125c182ecbed49d4f4c3309ecd46296a6280dc4fb0466c4c999ae51912b4f39",
+      "verified_hash": true,
+      "segment_count": 21,
+      "first_segment_start_absolute": 2505.0,
+      "last_segment_end_absolute": 2714.84,
+      "alert_count": 28,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " CW",
+          "start": 2505.66,
+          "end": 2506.64,
+          "score": 0.33135250210762024
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " mean",
+          "start": 2506.64,
+          "end": 2507.66,
+          "score": 0.44344615936279297
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " We",
+          "start": 2511.46,
+          "end": 2511.56,
+          "score": 0.2158142477273941
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " unit,",
+          "start": 2512.14,
+          "end": 2512.38,
+          "score": 0.06508424878120422
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " This",
+          "start": 2515.82,
+          "end": 2516.28,
+          "score": 0.429688423871994
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " because",
+          "start": 2526.44,
+          "end": 2527.04,
+          "score": 0.41983163356781006
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 2527.3,
+          "end": 2527.72,
+          "score": 0.41913866996765137
+        },
+        {
+          "type": "long_word_duration",
+          "word": " that",
+          "start": 2536.96,
+          "end": 2539.72
+        },
+        {
+          "type": "long_word_duration",
+          "word": " B",
+          "start": 2539.72,
+          "end": 2542.52
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 2542.52,
+          "end": 2544.92
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 2547.16,
+          "end": 2548.46,
+          "score": 0.1769881397485733
+        },
+        {
+          "type": "long_word_duration",
+          "word": " that",
+          "start": 2550.26,
+          "end": 2561.14
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " collide",
+          "start": 2561.74,
+          "end": 2562.34,
+          "score": 0.13438045978546143
+        },
+        {
+          "type": "long_word_duration",
+          "word": " a",
+          "start": 2602.3,
+          "end": 2605.12
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " this",
+          "start": 2610.54,
+          "end": 2611.64,
+          "score": 0.4177299439907074
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " CW",
+          "start": 2615.94,
+          "end": 2617.1,
+          "score": 0.35113686323165894
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " min",
+          "start": 2617.1,
+          "end": 2617.96,
+          "score": 0.37141695618629456
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 2620.14,
+          "end": 2621.14,
+          "score": 0.4143165051937103
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " an",
+          "start": 2637.1,
+          "end": 2637.98,
+          "score": 0.19885744154453278
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " CW",
+          "start": 2648.86,
+          "end": 2650.64,
+          "score": 0.26857277750968933
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Okay,",
+          "start": 2657.22,
+          "end": 2657.3,
+          "score": 0.260392427444458
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " This",
+          "start": 2668.8,
+          "end": 2668.94,
+          "score": 0.32265743613243103
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Now",
+          "start": 2673.08,
+          "end": 2673.74,
+          "score": 0.387767493724823
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " if",
+          "start": 2680.96,
+          "end": 2681.26,
+          "score": 0.38239410519599915
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 2682.0,
+          "end": 2683.6,
+          "score": 0.36977535486221313
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " resume",
+          "start": 2684.36,
+          "end": 2685.38,
+          "score": 0.3104309141635895
+        },
+        {
+          "type": "high_no_speech_score",
+          "segment_id": 21,
+          "value": 0.6266679763793945
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Thank",
+          "start": 2714.36,
+          "end": 2714.62,
+          "score": 0.027505388483405113
+        }
+      ]
+    },
+    {
+      "label": "chunk-016",
+      "raw_json_sha256": "8892f7f36d924424ae88e73cebd2bd1218330cee0dd9924f6c31d87230065f05",
+      "verified_hash": true,
+      "segment_count": 2,
+      "first_segment_start_absolute": 2685.0,
+      "last_segment_end_absolute": 2864.98,
+      "alert_count": 19,
+      "alerts": [
+        {
+          "type": "high_no_speech_score",
+          "segment_id": 2,
+          "value": 0.6191928386688232
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " I'm",
+          "start": 2840.94,
+          "end": 2842.34,
+          "score": 0.1797519251704216
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " sorry,",
+          "start": 2842.34,
+          "end": 2842.34
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " sorry,",
+          "start": 2842.34,
+          "end": 2842.34,
+          "score": 0.2270434945821762
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " I'm",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " I'm",
+          "start": 2857.16,
+          "end": 2857.16,
+          "score": 0.39209283888339996
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " sorry,",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " I'm",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " sorry,",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " I'm",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " sorry,",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " I'm",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " sorry,",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " I'm",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " sorry,",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " I'm",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " sorry,",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " I'm",
+          "start": 2857.16,
+          "end": 2857.16
+        },
+        {
+          "type": "long_word_duration",
+          "word": " sorry,",
+          "start": 2857.16,
+          "end": 2864.98
+        }
+      ]
+    },
+    {
+      "label": "chunk-017",
+      "raw_json_sha256": "832aab85c5b30e623f0bce9854145c59eac57d7f4e12c0d08c7b9d2bdb0dd232",
+      "verified_hash": true,
+      "segment_count": 7,
+      "first_segment_start_absolute": 2958.9,
+      "last_segment_end_absolute": 3074.66,
+      "alert_count": 18,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " Okay,",
+          "start": 2958.9,
+          "end": 2959.6,
+          "score": 0.33250996470451355
+        },
+        {
+          "type": "long_word_duration",
+          "word": " C",
+          "start": 2983.92,
+          "end": 2987.12
+        },
+        {
+          "type": "long_word_duration",
+          "word": " the",
+          "start": 2989.08,
+          "end": 2994.5
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " n,",
+          "start": 2997.5,
+          "end": 2998.44,
+          "score": 0.4312896728515625
+        },
+        {
+          "type": "long_word_duration",
+          "word": " the",
+          "start": 3001.32,
+          "end": 3004.72
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " same",
+          "start": 3004.72,
+          "end": 3004.72
+        },
+        {
+          "type": "long_word_duration",
+          "word": " draws",
+          "start": 3013.6,
+          "end": 3016.02
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " n,",
+          "start": 3020.44,
+          "end": 3021.08,
+          "score": 0.3574967086315155
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " so",
+          "start": 3033.64,
+          "end": 3033.64
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " C",
+          "start": 3035.08,
+          "end": 3035.84,
+          "score": 0.4352262616157532
+        },
+        {
+          "type": "long_word_duration",
+          "word": " draws",
+          "start": 3035.84,
+          "end": 3038.1
+        },
+        {
+          "type": "long_word_duration",
+          "word": " also",
+          "start": 3038.1,
+          "end": 3041.18
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " n,",
+          "start": 3041.18,
+          "end": 3041.58,
+          "score": 0.41030630469322205
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 3041.78,
+          "end": 3041.88,
+          "score": 0.36081600189208984
+        },
+        {
+          "type": "long_word_duration",
+          "word": " drew",
+          "start": 3045.74,
+          "end": 3047.92
+        },
+        {
+          "type": "long_word_duration",
+          "word": " N,",
+          "start": 3047.92,
+          "end": 3051.14
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " N,",
+          "start": 3047.92,
+          "end": 3051.14,
+          "score": 0.1040295735001564
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " probability.",
+          "start": 3056.96,
+          "end": 3057.56,
+          "score": 0.14717745780944824
+        }
+      ]
+    },
+    {
+      "label": "chunk-018",
+      "raw_json_sha256": "e1597dc864cb22dd882eb78f37e1bd3869f9d23c6e27ea80f942807caebcafc7",
+      "verified_hash": true,
+      "segment_count": 18,
+      "first_segment_start_absolute": 3045.0,
+      "last_segment_end_absolute": 3254.22,
+      "alert_count": 33,
+      "alerts": [
+        {
+          "type": "long_word_duration",
+          "word": " drew",
+          "start": 3045.74,
+          "end": 3047.86
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " drew",
+          "start": 3045.74,
+          "end": 3047.86,
+          "score": 0.36658623814582825
+        },
+        {
+          "type": "long_word_duration",
+          "word": " N,",
+          "start": 3047.86,
+          "end": 3050.6
+        },
+        {
+          "type": "long_word_duration",
+          "word": " so",
+          "start": 3051.82,
+          "end": 3054.88
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 3051.82,
+          "end": 3054.88,
+          "score": 0.2320626974105835
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " conditioned",
+          "start": 3056.04,
+          "end": 3056.94,
+          "score": 0.4152093827724457
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " property.",
+          "start": 3056.94,
+          "end": 3057.52,
+          "score": 0.4094730019569397
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " remember",
+          "start": 3058.42,
+          "end": 3060.22,
+          "score": 0.44894981384277344
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 3080.06,
+          "end": 3080.88,
+          "score": 0.371025025844574
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 3080.88,
+          "end": 3081.9,
+          "score": 0.39474910497665405
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " C",
+          "start": 3091.06,
+          "end": 3091.9,
+          "score": 0.18580865859985352
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " it",
+          "start": 3092.92,
+          "end": 3093.36,
+          "score": 0.23787185549736023
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " but",
+          "start": 3099.36,
+          "end": 3100.26,
+          "score": 0.17056356370449066
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 3111.36,
+          "end": 3112.48,
+          "score": 0.34821754693984985
+        },
+        {
+          "type": "long_word_duration",
+          "word": " that",
+          "start": 3113.42,
+          "end": 3119.4
+        },
+        {
+          "type": "long_word_duration",
+          "word": " draws",
+          "start": 3120.18,
+          "end": 3123.86
+        },
+        {
+          "type": "long_word_duration",
+          "word": " N,",
+          "start": 3123.86,
+          "end": 3126.06
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " C",
+          "start": 3132.5,
+          "end": 3133.4,
+          "score": 0.4263583719730377
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " do",
+          "start": 3133.94,
+          "end": 3134.52,
+          "score": 0.3727984130382538
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " themselves.",
+          "start": 3135.48,
+          "end": 3136.54,
+          "score": 0.1591946929693222
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Well,",
+          "start": 3151.76,
+          "end": 3152.08,
+          "score": 0.36914917826652527
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 3155.28,
+          "end": 3155.98,
+          "score": 0.37236136198043823
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " condition",
+          "start": 3177.18,
+          "end": 3178.1,
+          "score": 0.41765061020851135
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " probability",
+          "start": 3197.04,
+          "end": 3198.44,
+          "score": 0.021516822278499603
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 3200.72,
+          "end": 3203.04
+        },
+        {
+          "type": "long_word_duration",
+          "word": " do",
+          "start": 3211.14,
+          "end": 3213.16
+        },
+        {
+          "type": "long_word_duration",
+          "word": " to",
+          "start": 3214.42,
+          "end": 3218.04
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cwmin",
+          "start": 3237.24,
+          "end": 3239.2,
+          "score": 0.3943617145220439
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 3239.2,
+          "end": 3242.3
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " A",
+          "start": 3249.94,
+          "end": 3250.96,
+          "score": 0.2064724713563919
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 3250.96,
+          "end": 3251.28,
+          "score": 0.2429700791835785
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " B",
+          "start": 3253.1,
+          "end": 3253.32,
+          "score": 0.3398876488208771
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 3253.32,
+          "end": 3253.66,
+          "score": 0.3134002387523651
+        }
+      ]
+    },
+    {
+      "label": "chunk-019",
+      "raw_json_sha256": "fcd2a14499cdb0e9731a0f7ed138fa01a476d9bc610e07b7d824b6f7f649ba16",
+      "verified_hash": true,
+      "segment_count": 16,
+      "first_segment_start_absolute": 3225.0,
+      "last_segment_end_absolute": 3434.78,
+      "alert_count": 21,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " w",
+          "start": 3238.32,
+          "end": 3238.78,
+          "score": 0.31590116024017334
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 3251.88,
+          "end": 3253.26,
+          "score": 0.3308713436126709
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " C",
+          "start": 3255.46,
+          "end": 3255.94,
+          "score": 0.3267185091972351
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " w",
+          "start": 3275.64,
+          "end": 3276.72,
+          "score": 0.036086998879909515
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " min",
+          "start": 3276.72,
+          "end": 3277.5,
+          "score": 0.43479546904563904
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " 1,",
+          "start": 3278.64,
+          "end": 3279.44,
+          "score": 0.4313582479953766
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " draws",
+          "start": 3283.24,
+          "end": 3283.82,
+          "score": 0.41674163937568665
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cw",
+          "start": 3303.1,
+          "end": 3304.52,
+          "score": 0.4210095852613449
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 3312.46,
+          "end": 3314.32,
+          "score": 0.19654889404773712
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " squared.",
+          "start": 3333.28,
+          "end": 3334.4,
+          "score": 0.3578606843948364
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " CW",
+          "start": 3359.16,
+          "end": 3360.44,
+          "score": 0.11366605013608932
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " 1",
+          "start": 3380.72,
+          "end": 3382.46,
+          "score": 0.10549446195363998
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " C",
+          "start": 3383.18,
+          "end": 3385.16,
+          "score": 0.344600111246109
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " W",
+          "start": 3385.16,
+          "end": 3385.58,
+          "score": 0.24471983313560486
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " earlier,",
+          "start": 3404.72,
+          "end": 3405.38,
+          "score": 0.22565647959709167
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " grade,",
+          "start": 3421.4,
+          "end": 3422.24,
+          "score": 0.42972004413604736
+        },
+        {
+          "type": "long_word_duration",
+          "word": " it's",
+          "start": 3422.62,
+          "end": 3425.04
+        },
+        {
+          "type": "long_word_duration",
+          "word": " if",
+          "start": 3428.08,
+          "end": 3432.28
+        },
+        {
+          "type": "long_word_duration",
+          "word": " your",
+          "start": 3432.28,
+          "end": 3434.48
+        },
+        {
+          "type": "high_no_speech_score",
+          "segment_id": 16,
+          "value": 0.81855309009552
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " ability.",
+          "start": 3434.48,
+          "end": 3434.78,
+          "score": 0.2025568038225174
+        }
+      ]
+    },
+    {
+      "label": "chunk-020",
+      "raw_json_sha256": "71ae0a8af7ccabf3ee1b78f3a20a6db0b0994865b92015bd15500d028840083e",
+      "verified_hash": true,
+      "segment_count": 23,
+      "first_segment_start_absolute": 3405.0,
+      "last_segment_end_absolute": 3614.84,
+      "alert_count": 24,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " here",
+          "start": 3405.0,
+          "end": 3405.42,
+          "score": 0.4022705554962158
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " are",
+          "start": 3418.12,
+          "end": 3418.28,
+          "score": 0.42906510829925537
+        },
+        {
+          "type": "long_word_duration",
+          "word": " if",
+          "start": 3428.08,
+          "end": 3432.24
+        },
+        {
+          "type": "long_word_duration",
+          "word": " your",
+          "start": 3432.24,
+          "end": 3434.98
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " The",
+          "start": 3447.52,
+          "end": 3447.52
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 3451.44,
+          "end": 3452.26,
+          "score": 0.35707417130470276
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " V",
+          "start": 3457.16,
+          "end": 3457.52,
+          "score": 0.43558788299560547
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Pecov",
+          "start": 3461.42,
+          "end": 3462.0,
+          "score": 0.4098212718963623
+        },
+        {
+          "type": "long_word_duration",
+          "word": " as",
+          "start": 3472.92,
+          "end": 3475.86
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " This",
+          "start": 3493.72,
+          "end": 3493.72
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 3494.9,
+          "end": 3495.14,
+          "score": 0.43023285269737244
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " Okay",
+          "start": 3497.3,
+          "end": 3497.3
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Okay",
+          "start": 3497.3,
+          "end": 3497.3,
+          "score": 0.25974616408348083
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " now",
+          "start": 3497.3,
+          "end": 3498.12,
+          "score": 0.41904911398887634
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 3500.38,
+          "end": 3500.78,
+          "score": 0.41488808393478394
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cuff",
+          "start": 3511.12,
+          "end": 3511.82,
+          "score": 0.16431832313537598
+        },
+        {
+          "type": "long_word_duration",
+          "word": " decreases",
+          "start": 3512.7,
+          "end": 3515.74
+        },
+        {
+          "type": "long_word_duration",
+          "word": " what",
+          "start": 3524.24,
+          "end": 3526.44
+        },
+        {
+          "type": "long_word_duration",
+          "word": " we",
+          "start": 3551.46,
+          "end": 3553.54
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " content",
+          "start": 3555.94,
+          "end": 3556.28,
+          "score": 0.18685024976730347
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Wi",
+          "start": 3581.52,
+          "end": 3581.96,
+          "score": 0.43661031126976013
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " failing,",
+          "start": 3588.16,
+          "end": 3588.16
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 3599.1,
+          "end": 3600.36,
+          "score": 0.44442683458328247
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " because",
+          "start": 3614.14,
+          "end": 3614.42,
+          "score": 0.19815069437026978
+        }
+      ]
+    },
+    {
+      "label": "chunk-021",
+      "raw_json_sha256": "ccc6cd959c77464351d13644476fee645526c500d9dda4536fcfbad06323f70b",
+      "verified_hash": true,
+      "segment_count": 28,
+      "first_segment_start_absolute": 3585.0,
+      "last_segment_end_absolute": 3794.7,
+      "alert_count": 25,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " a",
+          "start": 3585.0,
+          "end": 3585.98,
+          "score": 0.36897632479667664
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " failing,",
+          "start": 3588.2,
+          "end": 3588.2
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " it",
+          "start": 3605.42,
+          "end": 3605.64,
+          "score": 0.2788527011871338
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 3612.38,
+          "end": 3612.64,
+          "score": 0.11468811333179474
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 3613.56,
+          "end": 3613.84,
+          "score": 0.3981333374977112
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " week",
+          "start": 3614.16,
+          "end": 3614.3,
+          "score": 0.34827911853790283
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " each",
+          "start": 3623.22,
+          "end": 3623.66,
+          "score": 0.32804808020591736
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " If",
+          "start": 3643.56,
+          "end": 3645.08,
+          "score": 0.41617491841316223
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 3669.88,
+          "end": 3670.68,
+          "score": 0.19996598362922668
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " Wi",
+          "start": 3674.3,
+          "end": 3674.3
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that,",
+          "start": 3681.26,
+          "end": 3681.74,
+          "score": 0.32477036118507385
+        },
+        {
+          "type": "long_word_duration",
+          "word": " this",
+          "start": 3685.08,
+          "end": 3687.48
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 3694.46,
+          "end": 3694.92,
+          "score": 0.30706727504730225
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " channel",
+          "start": 3718.78,
+          "end": 3719.1,
+          "score": 0.15885527431964874
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " bad",
+          "start": 3730.56,
+          "end": 3730.8,
+          "score": 0.4114116132259369
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cannot",
+          "start": 3732.32,
+          "end": 3733.16,
+          "score": 0.3695927560329437
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " of",
+          "start": 3739.46,
+          "end": 3740.4,
+          "score": 0.3972567319869995
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " rules",
+          "start": 3742.04,
+          "end": 3742.68,
+          "score": 0.10418086498975754
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " contention",
+          "start": 3755.76,
+          "end": 3756.66,
+          "score": 0.11897552013397217
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 3767.26,
+          "end": 3767.64,
+          "score": 0.21322889626026154
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 3768.54,
+          "end": 3769.02,
+          "score": 0.36691731214523315
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 3769.02,
+          "end": 3770.18,
+          "score": 0.2186422049999237
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " that",
+          "start": 3784.12,
+          "end": 3784.12
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " to",
+          "start": 3790.88,
+          "end": 3791.36,
+          "score": 0.22844760119915009
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " a",
+          "start": 3791.86,
+          "end": 3792.28,
+          "score": 0.0794106051325798
+        }
+      ]
+    },
+    {
+      "label": "chunk-022",
+      "raw_json_sha256": "a2ec679fbd931318f0ed751a9c1fe53be9c2e080ace98443fc41fa9c3fc67745",
+      "verified_hash": true,
+      "segment_count": 24,
+      "first_segment_start_absolute": 3765.68,
+      "last_segment_end_absolute": 3974.96,
+      "alert_count": 15,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " longer",
+          "start": 3765.68,
+          "end": 3766.28,
+          "score": 0.23387247323989868
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 3767.12,
+          "end": 3767.62,
+          "score": 0.26943591237068176
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " well",
+          "start": 3843.9,
+          "end": 3845.86,
+          "score": 0.34257012605667114
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 3869.06,
+          "end": 3870.18,
+          "score": 0.2843250036239624
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " design",
+          "start": 3891.44,
+          "end": 3892.0,
+          "score": 0.41814282536506653
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 3893.94,
+          "end": 3894.8,
+          "score": 0.18466199934482574
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " So",
+          "start": 3904.1,
+          "end": 3904.1
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " a",
+          "start": 3919.9,
+          "end": 3920.48,
+          "score": 0.33026987314224243
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 3921.08,
+          "end": 3923.1
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 3921.08,
+          "end": 3923.1,
+          "score": 0.2302730679512024
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " go",
+          "start": 3933.32,
+          "end": 3933.6,
+          "score": 0.3945830166339874
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " buckets,",
+          "start": 3945.56,
+          "end": 3946.16,
+          "score": 0.33583375811576843
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " let",
+          "start": 3946.54,
+          "end": 3947.22,
+          "score": 0.20779922604560852
+        },
+        {
+          "type": "long_word_duration",
+          "word": " me",
+          "start": 3947.22,
+          "end": 3949.32
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " packet",
+          "start": 3957.58,
+          "end": 3957.98,
+          "score": 0.26039910316467285
+        }
+      ]
+    },
+    {
+      "label": "chunk-023",
+      "raw_json_sha256": "28b2e366d76e32bb2fd2c68be2763b78c772ea03b040b845b5f1255221ce5f90",
+      "verified_hash": true,
+      "segment_count": 22,
+      "first_segment_start_absolute": 3945.0,
+      "last_segment_end_absolute": 4154.62,
+      "alert_count": 27,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " let",
+          "start": 3946.76,
+          "end": 3947.24,
+          "score": 0.3632148802280426
+        },
+        {
+          "type": "long_word_duration",
+          "word": " me",
+          "start": 3947.24,
+          "end": 3949.32
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " packet",
+          "start": 3957.64,
+          "end": 3958.0,
+          "score": 0.42330408096313477
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " within",
+          "start": 3985.84,
+          "end": 3987.4,
+          "score": 0.42392271757125854
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " transmissions,",
+          "start": 3995.82,
+          "end": 3996.08,
+          "score": 0.4309501349925995
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " order",
+          "start": 4002.76,
+          "end": 4002.88,
+          "score": 0.08756814897060394
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " So",
+          "start": 4005.82,
+          "end": 4005.82
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " transmitter",
+          "start": 4014.74,
+          "end": 4014.74
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " needs",
+          "start": 4015.46,
+          "end": 4015.84,
+          "score": 0.2701254189014435
+        },
+        {
+          "type": "long_word_duration",
+          "word": " transmit,",
+          "start": 4020.54,
+          "end": 4023.48
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 4032.74,
+          "end": 4033.26,
+          "score": 0.13030901551246643
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 4039.4,
+          "end": 4039.7,
+          "score": 0.31855541467666626
+        },
+        {
+          "type": "long_word_duration",
+          "word": " that's",
+          "start": 4040.32,
+          "end": 4043.06
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 4053.98,
+          "end": 4055.62,
+          "score": 0.19706252217292786
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Bekoff",
+          "start": 4067.88,
+          "end": 4068.24,
+          "score": 0.356441135207812
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " when",
+          "start": 4073.0,
+          "end": 4074.2,
+          "score": 0.2585383951663971
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " you",
+          "start": 4086.0,
+          "end": 4086.34,
+          "score": 0.44207629561424255
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " let",
+          "start": 4096.26,
+          "end": 4097.06,
+          "score": 0.34084123373031616
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " no",
+          "start": 4098.66,
+          "end": 4099.58,
+          "score": 0.3389366567134857
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " tackle",
+          "start": 4106.34,
+          "end": 4106.92,
+          "score": 0.34992584586143494
+        },
+        {
+          "type": "long_word_duration",
+          "word": " well",
+          "start": 4111.3,
+          "end": 4113.66
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " which",
+          "start": 4117.66,
+          "end": 4118.32,
+          "score": 0.31544074416160583
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " And",
+          "start": 4138.64,
+          "end": 4138.64
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " it",
+          "start": 4138.64,
+          "end": 4139.12,
+          "score": 0.33812057971954346
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " fast",
+          "start": 4142.52,
+          "end": 4143.18,
+          "score": 0.29078012704849243
+        },
+        {
+          "type": "long_word_duration",
+          "word": " difference",
+          "start": 4148.04,
+          "end": 4150.98
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 4152.7,
+          "end": 4154.04,
+          "score": 0.08014605939388275
+        }
+      ]
+    },
+    {
+      "label": "chunk-024",
+      "raw_json_sha256": "38e5e8d1933daf61c0c323cb60ead5995d27402ecaff0ec7d35cd69e3b2f09a9",
+      "verified_hash": true,
+      "segment_count": 18,
+      "first_segment_start_absolute": 4125.0,
+      "last_segment_end_absolute": 4334.68,
+      "alert_count": 32,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " In",
+          "start": 4138.62,
+          "end": 4139.08,
+          "score": 0.39286214113235474
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " fast",
+          "start": 4142.48,
+          "end": 4143.18,
+          "score": 0.08664087951183319
+        },
+        {
+          "type": "long_word_duration",
+          "word": " difference",
+          "start": 4148.02,
+          "end": 4150.98
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 4153.04,
+          "end": 4153.84,
+          "score": 0.13330166041851044
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " run",
+          "start": 4154.1,
+          "end": 4154.64,
+          "score": 0.3609216809272766
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " It",
+          "start": 4161.58,
+          "end": 4161.58
+        },
+        {
+          "type": "long_word_duration",
+          "word": " transmits",
+          "start": 4164.18,
+          "end": 4166.36
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " well",
+          "start": 4171.28,
+          "end": 4171.54,
+          "score": 0.37698307633399963
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " wi",
+          "start": 4184.8,
+          "end": 4184.8
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " wi",
+          "start": 4184.8,
+          "end": 4184.8,
+          "score": 0.16659767925739288
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Bechov",
+          "start": 4198.24,
+          "end": 4198.7,
+          "score": 0.34640508393446606
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " want",
+          "start": 4214.74,
+          "end": 4214.88,
+          "score": 0.434560090303421
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " right,",
+          "start": 4216.22,
+          "end": 4216.22
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right,",
+          "start": 4216.22,
+          "end": 4216.22,
+          "score": 0.40162625908851624
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " well",
+          "start": 4223.82,
+          "end": 4224.94,
+          "score": 0.38396063446998596
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " winter,",
+          "start": 4241.04,
+          "end": 4241.6,
+          "score": 0.1899574100971222
+        },
+        {
+          "type": "long_word_duration",
+          "word": " they",
+          "start": 4247.72,
+          "end": 4250.0
+        },
+        {
+          "type": "long_word_duration",
+          "word": " run",
+          "start": 4255.2,
+          "end": 4257.58
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " run",
+          "start": 4255.2,
+          "end": 4257.58,
+          "score": 0.4399681091308594
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " hospital.",
+          "start": 4257.96,
+          "end": 4258.44,
+          "score": 0.2749859690666199
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 4263.18,
+          "end": 4263.48,
+          "score": 0.3244088590145111
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 4263.48,
+          "end": 4263.7,
+          "score": 0.3127053678035736
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " access",
+          "start": 4264.78,
+          "end": 4266.26,
+          "score": 0.4227004647254944
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 4269.36,
+          "end": 4271.52
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " same",
+          "start": 4277.5,
+          "end": 4278.82,
+          "score": 0.4458361268043518
+        },
+        {
+          "type": "long_word_duration",
+          "word": " as",
+          "start": 4278.82,
+          "end": 4281.0
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " with",
+          "start": 4282.64,
+          "end": 4282.78,
+          "score": 0.42271530628204346
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " easier",
+          "start": 4284.06,
+          "end": 4284.52,
+          "score": 0.44219478964805603
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " have",
+          "start": 4309.66,
+          "end": 4309.9,
+          "score": 0.26583245396614075
+        },
+        {
+          "type": "long_word_duration",
+          "word": " are",
+          "start": 4315.68,
+          "end": 4322.84
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " out",
+          "start": 4323.38,
+          "end": 4323.8,
+          "score": 0.23982000350952148
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 4326.3,
+          "end": 4326.9,
+          "score": 0.32244303822517395
+        }
+      ]
+    },
+    {
+      "label": "chunk-025",
+      "raw_json_sha256": "dc74bcb4c8f2f9ae53223f5837c5db4edfd53edbb3f05b39047feb4bf17e139c",
+      "verified_hash": true,
+      "segment_count": 18,
+      "first_segment_start_absolute": 4305.0,
+      "last_segment_end_absolute": 4514.78,
+      "alert_count": 27,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " successful.",
+          "start": 4305.0,
+          "end": 4306.2,
+          "score": 0.3195722699165344
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " have",
+          "start": 4309.66,
+          "end": 4309.94,
+          "score": 0.44091591238975525
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 4310.24,
+          "end": 4310.58,
+          "score": 0.4005086123943329
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " NAT",
+          "start": 4323.26,
+          "end": 4323.66,
+          "score": 0.21374104917049408
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 4323.66,
+          "end": 4324.86,
+          "score": 0.41584497690200806
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " at",
+          "start": 4326.3,
+          "end": 4326.9,
+          "score": 0.2726121246814728
+        },
+        {
+          "type": "long_word_duration",
+          "word": " their",
+          "start": 4337.78,
+          "end": 4340.34
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 4340.74,
+          "end": 4341.26,
+          "score": 0.32439830899238586
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " attention",
+          "start": 4349.54,
+          "end": 4350.22,
+          "score": 0.3132752478122711
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " receive",
+          "start": 4376.9,
+          "end": 4377.5,
+          "score": 0.38699236512184143
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " post",
+          "start": 4380.66,
+          "end": 4382.16,
+          "score": 0.3012540936470032
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " bake",
+          "start": 4384.34,
+          "end": 4384.82,
+          "score": 0.44318288564682007
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " you",
+          "start": 4394.9,
+          "end": 4395.26,
+          "score": 0.2181072235107422
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " will",
+          "start": 4395.26,
+          "end": 4395.48,
+          "score": 0.3287610709667206
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cwmin",
+          "start": 4400.96,
+          "end": 4401.94,
+          "score": 0.30158867438634235
+        },
+        {
+          "type": "long_word_duration",
+          "word": " we",
+          "start": 4409.54,
+          "end": 4411.9
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " ready",
+          "start": 4412.7,
+          "end": 4413.1,
+          "score": 0.2573341131210327
+        },
+        {
+          "type": "long_word_duration",
+          "word": " so",
+          "start": 4413.1,
+          "end": 4415.6
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 4421.2,
+          "end": 4422.1,
+          "score": 0.09374603629112244
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cough",
+          "start": 4422.1,
+          "end": 4422.36,
+          "score": 0.14372248947620392
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " procedure.",
+          "start": 4422.36,
+          "end": 4422.92,
+          "score": 0.19351597130298615
+        },
+        {
+          "type": "long_word_duration",
+          "word": " how",
+          "start": 4427.2,
+          "end": 4429.22
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " pass",
+          "start": 4441.6,
+          "end": 4441.94,
+          "score": 0.021246518939733505
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " AE",
+          "start": 4446.96,
+          "end": 4448.12,
+          "score": 0.23665250837802887
+        },
+        {
+          "type": "long_word_duration",
+          "word": " pass",
+          "start": 4452.36,
+          "end": 4454.98
+        },
+        {
+          "type": "long_word_duration",
+          "word": " what",
+          "start": 4465.0,
+          "end": 4467.02
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " got",
+          "start": 4499.76,
+          "end": 4500.02,
+          "score": 0.43413329124450684
+        }
+      ]
+    },
+    {
+      "label": "chunk-026",
+      "raw_json_sha256": "0b1c961be3978c40fae8385214f33b0b0643cd5aa77cc8dc43210509c861af8d",
+      "verified_hash": true,
+      "segment_count": 22,
+      "first_segment_start_absolute": 4485.0,
+      "last_segment_end_absolute": 4694.2,
+      "alert_count": 27,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " be",
+          "start": 4485.0,
+          "end": 4485.36,
+          "score": 0.3877994120121002
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " this",
+          "start": 4506.86,
+          "end": 4506.86
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " represented",
+          "start": 4512.8,
+          "end": 4513.8,
+          "score": 0.41813644766807556
+        },
+        {
+          "type": "long_word_duration",
+          "word": " but",
+          "start": 4516.08,
+          "end": 4518.16
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " phospho",
+          "start": 4537.08,
+          "end": 4537.78,
+          "score": 0.26510027796030045
+        },
+        {
+          "type": "long_word_duration",
+          "word": " sense",
+          "start": 4541.86,
+          "end": 4543.88
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 4553.06,
+          "end": 4553.36,
+          "score": 0.2585411071777344
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " ask",
+          "start": 4556.2,
+          "end": 4556.62,
+          "score": 0.39476728439331055
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " its",
+          "start": 4556.94,
+          "end": 4558.28,
+          "score": 0.3134678602218628
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " very",
+          "start": 4573.74,
+          "end": 4574.16,
+          "score": 0.4341236650943756
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " good,",
+          "start": 4574.16,
+          "end": 4574.42,
+          "score": 0.24692286550998688
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " their",
+          "start": 4574.56,
+          "end": 4574.66,
+          "score": 0.2504217326641083
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " wi",
+          "start": 4588.78,
+          "end": 4588.92,
+          "score": 0.36847439408302307
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " under",
+          "start": 4593.56,
+          "end": 4593.66,
+          "score": 0.28817978501319885
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cost",
+          "start": 4596.46,
+          "end": 4596.92,
+          "score": 0.14267854392528534
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " because",
+          "start": 4596.92,
+          "end": 4597.36,
+          "score": 0.2508905231952667
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " for",
+          "start": 4609.86,
+          "end": 4610.42,
+          "score": 0.16671298444271088
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " thrash",
+          "start": 4611.9,
+          "end": 4612.18,
+          "score": 0.30315056443214417
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Wi",
+          "start": 4632.44,
+          "end": 4632.78,
+          "score": 0.404390811920166
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " claimed",
+          "start": 4639.42,
+          "end": 4640.14,
+          "score": 0.43560490012168884
+        },
+        {
+          "type": "long_word_duration",
+          "word": " was",
+          "start": 4649.9,
+          "end": 4652.24
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " post",
+          "start": 4659.76,
+          "end": 4660.4,
+          "score": 0.3815133273601532
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 4660.4,
+          "end": 4660.88,
+          "score": 0.15725067257881165
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " cop",
+          "start": 4660.88,
+          "end": 4661.12,
+          "score": 0.25992658734321594
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " very",
+          "start": 4670.28,
+          "end": 4670.88,
+          "score": 0.36715567111968994
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 4671.88,
+          "end": 4672.14,
+          "score": 0.36552414298057556
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " this",
+          "start": 4691.6,
+          "end": 4691.98,
+          "score": 0.2764382064342499
+        }
+      ]
+    },
+    {
+      "label": "chunk-027",
+      "raw_json_sha256": "00a0e50072516f4c4b7b8abd4988d11eaf5c514c30c10cbbc2a75d53649306bb",
+      "verified_hash": true,
+      "segment_count": 25,
+      "first_segment_start_absolute": 4665.0,
+      "last_segment_end_absolute": 4874.92,
+      "alert_count": 21,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " was",
+          "start": 4665.0,
+          "end": 4665.72,
+          "score": 0.3291543424129486
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " very",
+          "start": 4670.9,
+          "end": 4671.22,
+          "score": 0.43856281042099
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 4671.9,
+          "end": 4672.16,
+          "score": 0.20721061527729034
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 4680.64,
+          "end": 4681.32,
+          "score": 0.38921162486076355
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 4690.2,
+          "end": 4690.46,
+          "score": 0.11633700877428055
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " prospect",
+          "start": 4700.12,
+          "end": 4700.7,
+          "score": 0.18474659323692322
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " you",
+          "start": 4704.28,
+          "end": 4704.62,
+          "score": 0.26742735505104065
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 4716.6,
+          "end": 4716.86,
+          "score": 0.1891985386610031
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " axis",
+          "start": 4722.86,
+          "end": 4723.32,
+          "score": 0.2537795901298523
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 4723.32,
+          "end": 4724.64,
+          "score": 0.25174957513809204
+        },
+        {
+          "type": "long_word_duration",
+          "word": " the",
+          "start": 4730.02,
+          "end": 4732.76
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " A,",
+          "start": 4741.18,
+          "end": 4741.76,
+          "score": 0.3072175681591034
+        },
+        {
+          "type": "long_word_duration",
+          "word": " completion,",
+          "start": 4745.42,
+          "end": 4748.48
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " right",
+          "start": 4760.66,
+          "end": 4761.58,
+          "score": 0.3876403272151947
+        },
+        {
+          "type": "low_decoder_score",
+          "word": "-step",
+          "start": 4780.54,
+          "end": 4781.04,
+          "score": 0.38846099376678467
+        },
+        {
+          "type": "long_word_duration",
+          "word": " you",
+          "start": 4784.9,
+          "end": 4808.74
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " Oh,",
+          "start": 4810.36,
+          "end": 4810.36
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Oh,",
+          "start": 4810.36,
+          "end": 4810.36,
+          "score": 0.041054219007492065
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " 15",
+          "start": 4820.5,
+          "end": 4820.86,
+          "score": 0.24204207956790924
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " one",
+          "start": 4824.48,
+          "end": 4824.62,
+          "score": 0.43344107270240784
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " I",
+          "start": 4826.36,
+          "end": 4826.38,
+          "score": 0.36352041363716125
+        }
+      ]
+    },
+    {
+      "label": "chunk-028",
+      "raw_json_sha256": "59febcda93993136a3d1188cea61a1bd33658a6db75c79b90d669b288517214e",
+      "verified_hash": true,
+      "segment_count": 32,
+      "first_segment_start_absolute": 4845.0,
+      "last_segment_end_absolute": 5053.46,
+      "alert_count": 16,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " also",
+          "start": 4845.0,
+          "end": 4845.92,
+          "score": 0.292573481798172
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " concrete",
+          "start": 4875.18,
+          "end": 4876.86,
+          "score": 0.4004734456539154
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " first",
+          "start": 4923.16,
+          "end": 4923.94,
+          "score": 0.3039160966873169
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " this,",
+          "start": 4926.52,
+          "end": 4926.7,
+          "score": 0.30475756525993347
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " pocket",
+          "start": 4946.42,
+          "end": 4946.9,
+          "score": 0.13792221248149872
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " packet",
+          "start": 4949.58,
+          "end": 4949.98,
+          "score": 0.4389483630657196
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " said",
+          "start": 4955.94,
+          "end": 4956.34,
+          "score": 0.3910519778728485
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " meter",
+          "start": 4971.46,
+          "end": 4971.94,
+          "score": 0.0199987031519413
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " MAC",
+          "start": 4991.14,
+          "end": 4991.46,
+          "score": 0.4219563901424408
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Mac",
+          "start": 5006.06,
+          "end": 5006.18,
+          "score": 0.3005732297897339
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " but",
+          "start": 5013.18,
+          "end": 5014.04,
+          "score": 0.4021659791469574
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " perspective,",
+          "start": 5025.18,
+          "end": 5026.34,
+          "score": 0.22633633017539978
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " layer",
+          "start": 5037.32,
+          "end": 5037.56,
+          "score": 0.3872806131839752
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " basic",
+          "start": 5047.42,
+          "end": 5047.74,
+          "score": 0.4290541708469391
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " So",
+          "start": 5050.06,
+          "end": 5050.06
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " meet",
+          "start": 5050.66,
+          "end": 5051.08,
+          "score": 0.2316051572561264
+        }
+      ]
+    },
+    {
+      "label": "chunk-029",
+      "raw_json_sha256": "485bab81c730d9727e95bbe0171240afe383266a5e9a1611697e51955525e1b7",
+      "verified_hash": true,
+      "segment_count": 24,
+      "first_segment_start_absolute": 5025.0,
+      "last_segment_end_absolute": 5234.82,
+      "alert_count": 19,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " layer",
+          "start": 5025.0,
+          "end": 5025.58,
+          "score": 0.0211383905261755
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 5026.44,
+          "end": 5027.68,
+          "score": 0.2336873561143875
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " this",
+          "start": 5036.0,
+          "end": 5036.68,
+          "score": 0.34194159507751465
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " layer",
+          "start": 5037.32,
+          "end": 5037.6,
+          "score": 0.3176352381706238
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 5049.52,
+          "end": 5050.04,
+          "score": 0.3372187912464142
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " at",
+          "start": 5052.18,
+          "end": 5052.76,
+          "score": 0.4337427020072937
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " The",
+          "start": 5068.88,
+          "end": 5068.88
+        },
+        {
+          "type": "long_word_duration",
+          "word": " are",
+          "start": 5071.1,
+          "end": 5073.22
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " mount",
+          "start": 5079.52,
+          "end": 5079.76,
+          "score": 0.12649211287498474
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " header",
+          "start": 5079.76,
+          "end": 5080.16,
+          "score": 0.34346911311149597
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " have",
+          "start": 5094.32,
+          "end": 5094.48,
+          "score": 0.44044002890586853
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " a",
+          "start": 5101.7,
+          "end": 5101.8,
+          "score": 0.43020281195640564
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Tongji",
+          "start": 5109.56,
+          "end": 5110.14,
+          "score": 0.43347324058413506
+        },
+        {
+          "type": "long_word_duration",
+          "word": " the",
+          "start": 5115.56,
+          "end": 5118.2
+        },
+        {
+          "type": "long_word_duration",
+          "word": " service",
+          "start": 5131.84,
+          "end": 5134.56
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " if",
+          "start": 5150.32,
+          "end": 5151.28,
+          "score": 0.4127429723739624
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " packet",
+          "start": 5174.24,
+          "end": 5174.54,
+          "score": 0.42454665899276733
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " sources",
+          "start": 5221.04,
+          "end": 5221.54,
+          "score": 0.39230069518089294
+        },
+        {
+          "type": "long_word_duration",
+          "word": " and",
+          "start": 5229.88,
+          "end": 5232.76
+        }
+      ]
+    },
+    {
+      "label": "chunk-030",
+      "raw_json_sha256": "3b911196070385b930d6d8e140d193d7ec34d47a03930b833fe21728bf186222",
+      "verified_hash": true,
+      "segment_count": 24,
+      "first_segment_start_absolute": 5205.0,
+      "last_segment_end_absolute": 5414.82,
+      "alert_count": 16,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " and",
+          "start": 5231.72,
+          "end": 5232.72,
+          "score": 0.43212369084358215
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " then",
+          "start": 5232.72,
+          "end": 5233.04,
+          "score": 0.4282646179199219
+        },
+        {
+          "type": "near_zero_duration",
+          "word": " the",
+          "start": 5237.14,
+          "end": 5237.14
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " 1",
+          "start": 5253.96,
+          "end": 5254.34,
+          "score": 0.4431210458278656
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " MAC",
+          "start": 5273.76,
+          "end": 5273.94,
+          "score": 0.30804935097694397
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " header.",
+          "start": 5273.94,
+          "end": 5274.18,
+          "score": 0.36737897992134094
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " specifying",
+          "start": 5276.64,
+          "end": 5277.42,
+          "score": 0.33368176221847534
+        },
+        {
+          "type": "long_word_duration",
+          "word": " so",
+          "start": 5318.92,
+          "end": 5321.18
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " maybe",
+          "start": 5327.7,
+          "end": 5329.06,
+          "score": 0.23414327204227448
+        },
+        {
+          "type": "long_word_duration",
+          "word": " so",
+          "start": 5332.38,
+          "end": 5334.62
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " but",
+          "start": 5346.8,
+          "end": 5348.16,
+          "score": 0.27690690755844116
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " sieves,",
+          "start": 5357.02,
+          "end": 5357.68,
+          "score": 0.4282196909189224
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " is",
+          "start": 5372.52,
+          "end": 5372.86,
+          "score": 0.41537731885910034
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " Mach",
+          "start": 5377.2,
+          "end": 5377.32,
+          "score": 0.3307005763053894
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " header,",
+          "start": 5377.32,
+          "end": 5377.74,
+          "score": 0.26617640256881714
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " dips,",
+          "start": 5388.3,
+          "end": 5388.68,
+          "score": 0.1705026775598526
+        }
+      ]
+    },
+    {
+      "label": "chunk-031",
+      "raw_json_sha256": "f537983245e9ac3c34a376ec51329cb7044c96d60f9abbd91c1e4b82cf7be67f",
+      "verified_hash": true,
+      "segment_count": 25,
+      "first_segment_start_absolute": 5385.0,
+      "last_segment_end_absolute": 5594.98,
+      "alert_count": 26,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " this",
+          "start": 5388.4,
+          "end": 5388.6,
+          "score": 0.23766034841537476
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " transmission",
+          "start": 5388.6,
+          "end": 5390.08,
+          "score": 0.4216477572917938
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 5393.06,
+          "end": 5393.16,
+          "score": 0.3120266795158386
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " amber",
+          "start": 5393.16,
+          "end": 5393.4,
+          "score": 0.44863250851631165
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " MAC",
+          "start": 5395.44,
+          "end": 5395.68,
+          "score": 0.35636088252067566
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " okay",
+          "start": 5410.12,
+          "end": 5411.1,
+          "score": 0.19329601526260376
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " back",
+          "start": 5417.62,
+          "end": 5418.14,
+          "score": 0.41641244292259216
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " off",
+          "start": 5418.14,
+          "end": 5418.58,
+          "score": 0.4151107966899872
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " re",
+          "start": 5419.36,
+          "end": 5419.58,
+          "score": 0.13615535199642181
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " This,",
+          "start": 5424.6,
+          "end": 5424.8,
+          "score": 0.08531531691551208
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 5439.62,
+          "end": 5439.82,
+          "score": 0.28678375482559204
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " realized",
+          "start": 5447.22,
+          "end": 5447.64,
+          "score": 0.4481402039527893
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " have",
+          "start": 5459.68,
+          "end": 5459.9,
+          "score": 0.422675758600235
+        },
+        {
+          "type": "low_decoder_score",
+          "word": "%",
+          "start": 5475.38,
+          "end": 5476.02,
+          "score": 0.4055895209312439
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " needed",
+          "start": 5505.0,
+          "end": 5505.6,
+          "score": 0.08628325909376144
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " break,",
+          "start": 5509.24,
+          "end": 5509.72,
+          "score": 0.3515617251396179
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " the",
+          "start": 5522.94,
+          "end": 5524.48,
+          "score": 0.4352141320705414
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " form",
+          "start": 5525.2,
+          "end": 5526.0,
+          "score": 0.24536007642745972
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " we",
+          "start": 5537.1,
+          "end": 5538.66,
+          "score": 0.0446673259139061
+        },
+        {
+          "type": "long_word_duration",
+          "word": " said",
+          "start": 5538.66,
+          "end": 5543.38
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " said",
+          "start": 5538.66,
+          "end": 5543.38,
+          "score": 0.17059539258480072
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " will",
+          "start": 5551.26,
+          "end": 5551.58,
+          "score": 0.2391863465309143
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " intervals.",
+          "start": 5554.46,
+          "end": 5555.02,
+          "score": 0.3571152091026306
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " that",
+          "start": 5563.74,
+          "end": 5564.76,
+          "score": 0.4132310152053833
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " this",
+          "start": 5572.78,
+          "end": 5574.44,
+          "score": 0.3516359031200409
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " or",
+          "start": 5576.36,
+          "end": 5576.7,
+          "score": 0.3737042248249054
+        }
+      ]
+    },
+    {
+      "label": "chunk-032",
+      "raw_json_sha256": "f61587d858bdcec8ca20064f1243e13a6e5af18448ab63bfc8cebf0ede93a22a",
+      "verified_hash": true,
+      "segment_count": 5,
+      "first_segment_start_absolute": 5565.0,
+      "last_segment_end_absolute": 5616.34,
+      "alert_count": 8,
+      "alerts": [
+        {
+          "type": "low_decoder_score",
+          "word": " this",
+          "start": 5572.78,
+          "end": 5574.46,
+          "score": 0.2803965210914612
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " or",
+          "start": 5576.34,
+          "end": 5576.72,
+          "score": 0.4066070020198822
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " but",
+          "start": 5597.96,
+          "end": 5598.84,
+          "score": 0.42047935724258423
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " you",
+          "start": 5602.38,
+          "end": 5602.66,
+          "score": 0.3270885944366455
+        },
+        {
+          "type": "long_word_duration",
+          "word": " microseconds,",
+          "start": 5605.9,
+          "end": 5608.02
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " so",
+          "start": 5609.02,
+          "end": 5609.74,
+          "score": 0.30071911215782166
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " evaluate.",
+          "start": 5610.8,
+          "end": 5612.12,
+          "score": 0.09519987553358078
+        },
+        {
+          "type": "low_decoder_score",
+          "word": " So",
+          "start": 5613.22,
+          "end": 5613.32,
+          "score": 0.4350944459438324
+        }
+      ]
+    }
+  ]
+}

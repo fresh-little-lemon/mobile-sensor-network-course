@@ -1,0 +1,53 @@
+{
+  "human_listening_review": false,
+  "checks": [
+    {
+      "window_seconds": [
+        2705,
+        2720
+      ],
+      "raw_file": "small.en-4505.raw.json",
+      "raw_sha256": "464f121350f2a42b4c68b24ea15b2d6ef7ee1e45e1c1e2b6e547fc6a9afccd00",
+      "main_chunk": "chunk-015",
+      "assessment": "The medium chunk ends with Thank you at 45:14.36-45:14.84 with high no-speech score. Independent small.en short-window output is empty. Treat as unsupported candidate speech; do not assume all detected repetitions or closing phrases are real.",
+      "older_qwen_windows": [
+        {
+          "start_seconds": 2640.0,
+          "end_seconds": 2760.0,
+          "text": "A generic integer is drawn out of this range by a node, is given by one over t w minus plus one. This is basic probability theory. Okay, so in this way you can see that they are selected exactly each of them with the same probability. Okay, this probability is the same for all of them. Okay, now let's stop for five minutes. And then use the shortcut if I'm not wrong. Okay, and then we will resume and see how these probabilities of collision can be computed.",
+          "raw_decoded": "language English<asr_text>A generic integer is drawn out of this range by a node, is given by one over t w minus plus one. This is basic probability theory. Okay, so in this way you can see that they are selected exactly each of them with the same probability. Okay, this probability is the same for all of them. Okay, now let's stop for five minutes. And then use the shortcut if I'm not wrong. Okay, and then we will resume and see how these probabilities of collision can be computed.<|im_end|>",
+          "generated_tokens": 107,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 15.237044909999895,
+          "at": "2026-10-18T02:56:40.785199+00:00",
+          "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+        }
+      ]
+    },
+    {
+      "window_seconds": [
+        3425,
+        3440
+      ],
+      "raw_file": "small.en-5705.raw.json",
+      "raw_sha256": "f8fdd923bfed50a16d02d5d3744d19c988f4e867fe6b35cb6b94586e3c16544d",
+      "main_chunk": "chunk-019",
+      "assessment": "The medium chunk has an isolated ability fragment at 57:14.48-57:14.78 with high no-speech score. Independent small.en detects real contextual speech about probability and prior courses. This is a boundary/fragment review, not evidence that the interval is silent. Check adjacent medium chunk-020 and older Qwen before correcting.",
+      "older_qwen_windows": [
+        {
+          "start_seconds": 3410.0,
+          "end_seconds": 3530.0,
+          "text": "Contention window plus one. Okay. Now, if you were able to follow the computation, great. It's a simple probability computation, but if your background is different, and therefore you have not seen probability anywhere in your previous courses, do not worry. The important thing is that you retain the final message. The final message is, in our simple example, right, that we are considering, the probability that B and C collide while performing the Bechov procedure, is equal to this ratio. That clearly will decrease as the value of contention window minimum increases. Right, the larger the contention window, the lower this ratio. So the lower the collision probability. This is I think something that everybody understands. Okay. Now, so this means that okay, this refers as I said to the previous simple example, but it's a general rule. The collision probability in the Bechov procedure decreases as the value of contention window increases. So now, what does this tell you?",
+          "raw_decoded": "language English<asr_text>Contention window plus one. Okay. Now, if you were able to follow the computation, great. It's a simple probability computation, but if your background is different, and therefore you have not seen probability anywhere in your previous courses, do not worry. The important thing is that you retain the final message. The final message is, in our simple example, right, that we are considering, the probability that B and C collide while performing the Bechov procedure, is equal to this ratio. That clearly will decrease as the value of contention window minimum increases. Right, the larger the contention window, the lower this ratio. So the lower the collision probability. This is I think something that everybody understands. Okay. Now, so this means that okay, this refers as I said to the previous simple example, but it's a general rule. The collision probability in the Bechov procedure decreases as the value of contention window increases. So now, what does this tell you?<|im_end|>",
+          "generated_tokens": 202,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 24.579270186999565,
+          "at": "2026-10-18T02:58:54.609703+00:00",
+          "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+        }
+      ]
+    }
+  ]
+}

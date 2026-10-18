@@ -1,0 +1,386 @@
+{
+  "run_metadata": {
+    "model": {
+      "repo": "Systran/faster-whisper-small.en",
+      "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+      "requested_model": "small.en"
+    },
+    "audio": "/workspace/shared/course-1012-1331/asr-0940/short-5705.wav",
+    "audio_sha256": "5ebbfc7fa3bba2ceaea8079361cb09db75c9d056c2a650f3ee955cdf230e6149",
+    "absolute_offset_seconds": 3425.0,
+    "parameters": {
+      "language": "en",
+      "beam_size": 5,
+      "temperature": 0.0,
+      "initial_prompt": null,
+      "condition_on_previous_text": false,
+      "vad_filter": false,
+      "word_timestamps": true
+    },
+    "runtime": {
+      "faster_whisper": "1.2.1",
+      "ctranslate2": "4.8.3",
+      "python": "3.12.14",
+      "device": "cpu",
+      "compute_type": "int8",
+      "cpu_threads": 4
+    },
+    "model_load_seconds": 1.6421564949996537,
+    "total_wall_seconds": 18.531466587999603,
+    "machine_utc_time": "2026-10-18T15:17:15.679813+00:00",
+    "verification": "Raw ASR output, not a manually listened transcript"
+  },
+  "transcription_info": {
+    "language": "en",
+    "language_probability": 1,
+    "duration": 15.006625,
+    "duration_after_vad": 15.006625,
+    "all_language_probs": null,
+    "transcription_options": {
+      "beam_size": 5,
+      "best_of": 5,
+      "patience": 1,
+      "length_penalty": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "log_prob_threshold": -1.0,
+      "no_speech_threshold": 0.6,
+      "compression_ratio_threshold": 2.4,
+      "condition_on_previous_text": false,
+      "prompt_reset_on_temperature": 0.5,
+      "temperatures": [
+        0.0
+      ],
+      "initial_prompt": null,
+      "prefix": null,
+      "suppress_blank": true,
+      "suppress_tokens": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        14,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        90,
+        91,
+        92,
+        93,
+        357,
+        366,
+        438,
+        532,
+        685,
+        705,
+        796,
+        930,
+        1058,
+        1220,
+        1267,
+        1279,
+        1303,
+        1343,
+        1377,
+        1391,
+        1635,
+        1782,
+        1875,
+        2162,
+        2361,
+        2488,
+        3467,
+        4008,
+        4211,
+        4600,
+        4808,
+        5299,
+        5855,
+        6329,
+        7203,
+        9609,
+        9959,
+        10563,
+        10786,
+        11420,
+        11709,
+        11907,
+        13163,
+        13697,
+        13700,
+        14808,
+        15306,
+        16410,
+        16791,
+        17992,
+        19203,
+        19510,
+        20724,
+        22305,
+        22935,
+        27007,
+        30109,
+        30420,
+        33409,
+        34949,
+        40283,
+        40493,
+        40549,
+        47282,
+        49146,
+        50257,
+        50357,
+        50358,
+        50359,
+        50360,
+        50361
+      ],
+      "without_timestamps": false,
+      "max_initial_timestamp": 1.0,
+      "word_timestamps": true,
+      "prepend_punctuations": "\"'“¿([{-",
+      "append_punctuations": "\"'.。,，!！?？:：”)]}、",
+      "multilingual": false,
+      "max_new_tokens": null,
+      "clip_timestamps": [
+        0.0
+      ],
+      "hallucination_silence_threshold": null,
+      "hotwords": null
+    },
+    "vad_options": null
+  },
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.86,
+      "text": " It's a simple probability computation, but if your background is different and therefore",
+      "tokens": [
+        50363,
+        632,
+        338,
+        257,
+        2829,
+        12867,
+        29964,
+        11,
+        475,
+        611,
+        534,
+        4469,
+        318,
+        1180,
+        290,
+        4361,
+        50763
+      ],
+      "avg_logprob": -0.41315285818917413,
+      "compression_ratio": 1.32,
+      "no_speech_prob": 0.006284182425588369,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.0,
+          "word": " It's",
+          "probability": 0.4842495694756508
+        },
+        {
+          "start": 0.0,
+          "end": 0.16,
+          "word": " a",
+          "probability": 0.9822421073913574
+        },
+        {
+          "start": 0.16,
+          "end": 0.64,
+          "word": " simple",
+          "probability": 0.9927011728286743
+        },
+        {
+          "start": 0.64,
+          "end": 1.8,
+          "word": " probability",
+          "probability": 0.9776908755302429
+        },
+        {
+          "start": 1.8,
+          "end": 2.64,
+          "word": " computation,",
+          "probability": 0.9901883006095886
+        },
+        {
+          "start": 2.8,
+          "end": 3.02,
+          "word": " but",
+          "probability": 0.9897111058235168
+        },
+        {
+          "start": 3.02,
+          "end": 3.54,
+          "word": " if",
+          "probability": 0.971439778804779
+        },
+        {
+          "start": 3.54,
+          "end": 3.88,
+          "word": " your",
+          "probability": 0.756691038608551
+        },
+        {
+          "start": 3.88,
+          "end": 4.34,
+          "word": " background",
+          "probability": 0.9120041728019714
+        },
+        {
+          "start": 4.34,
+          "end": 4.78,
+          "word": " is",
+          "probability": 0.995997428894043
+        },
+        {
+          "start": 4.78,
+          "end": 5.4,
+          "word": " different",
+          "probability": 0.9982360601425171
+        },
+        {
+          "start": 5.4,
+          "end": 6.98,
+          "word": " and",
+          "probability": 0.6455271244049072
+        },
+        {
+          "start": 6.98,
+          "end": 7.86,
+          "word": " therefore",
+          "probability": 0.9095713496208191
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.86,
+      "end": 14.98,
+      "text": " you have now seen a probability anywhere in your previous courses, do not...",
+      "tokens": [
+        50763,
+        345,
+        423,
+        783,
+        1775,
+        257,
+        12867,
+        6609,
+        287,
+        534,
+        2180,
+        10902,
+        11,
+        466,
+        407,
+        986,
+        51113
+      ],
+      "avg_logprob": -0.41315285818917413,
+      "compression_ratio": 1.32,
+      "no_speech_prob": 0.006284182425588369,
+      "words": [
+        {
+          "start": 7.86,
+          "end": 8.34,
+          "word": " you",
+          "probability": 0.7971826791763306
+        },
+        {
+          "start": 8.34,
+          "end": 8.48,
+          "word": " have",
+          "probability": 0.7748433947563171
+        },
+        {
+          "start": 8.48,
+          "end": 8.7,
+          "word": " now",
+          "probability": 0.3985206186771393
+        },
+        {
+          "start": 8.7,
+          "end": 9.06,
+          "word": " seen",
+          "probability": 0.9876803159713745
+        },
+        {
+          "start": 9.06,
+          "end": 9.26,
+          "word": " a",
+          "probability": 0.5468922853469849
+        },
+        {
+          "start": 9.26,
+          "end": 9.72,
+          "word": " probability",
+          "probability": 0.9948807954788208
+        },
+        {
+          "start": 9.72,
+          "end": 10.56,
+          "word": " anywhere",
+          "probability": 0.9823118448257446
+        },
+        {
+          "start": 10.56,
+          "end": 11.2,
+          "word": " in",
+          "probability": 0.9575286507606506
+        },
+        {
+          "start": 11.2,
+          "end": 11.44,
+          "word": " your",
+          "probability": 0.9966905117034912
+        },
+        {
+          "start": 11.44,
+          "end": 11.92,
+          "word": " previous",
+          "probability": 0.9989820122718811
+        },
+        {
+          "start": 11.92,
+          "end": 12.62,
+          "word": " courses,",
+          "probability": 0.9824585318565369
+        },
+        {
+          "start": 14.46,
+          "end": 14.74,
+          "word": " do",
+          "probability": 0.9322301745414734
+        },
+        {
+          "start": 14.74,
+          "end": 14.98,
+          "word": " not...",
+          "probability": 0.5980375409126282
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

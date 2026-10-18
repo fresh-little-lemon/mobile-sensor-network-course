@@ -1,0 +1,727 @@
+RAW ASR WINDOWS, NOT CORRECTED TRANSCRIPT. Overlap retained; do not treat repeated context as repeated speech. Absolute timestamps are model estimates.
+
+chunk-001 | window 0.000-195.000s | core 0.000-180.000s
+[00:00:00.000 --> 00:00:12.500] I want you to stop to see the reports, and we said that whenever the Wi-Fi node needs to
+[00:00:12.500 --> 00:00:22.680] recontend for the channel, because this node has to reclassmate the packet that failed,
+[00:00:22.680 --> 00:00:35.080] then this node will perform the bake-off procedure, and we explained how the bake-off procedure works.
+[00:00:36.680 --> 00:00:51.100] Now, we said that first a node needs to wait for the channel to be idle for bifs,
+[00:00:51.100 --> 00:01:04.120] then you will draw an integer out of a range of possible values with equal probability,
+[00:01:04.500 --> 00:01:13.340] selecting each of them with equal probability and this range of values goes from zero to
+[00:01:13.340 --> 00:01:26.300] the contention window parameter. The first time that we use the becoff procedure to transmit a
+[00:01:26.300 --> 00:01:37.520] packet we set this contention window parameter to its minimum value and then if we need to
+[00:01:37.520 --> 00:01:46.100] perform the cuff procedure again in order to transmit this packet because for
+[00:01:46.100 --> 00:01:56.560] example we fail and fail and fail, every time we will increase the value of
+[00:01:56.560 --> 00:02:04.040] contention window and we said roughly speaking this value of contention
+[00:02:04.040 --> 00:02:16.360] window doubles every time, right? Now, to be more precise, the relation according to which
+[00:02:17.640 --> 00:02:26.660] the cw parameter increases is the following. So cw
+[00:02:26.660 --> 00:02:45.160] value is actually expressed as a power of 2 minus 1, where this exponent is called
+[00:02:47.540 --> 00:03:03.720] So, for example, the first time that we use the Beckhoff procedure for a data packet,
+[00:03:03.720 --> 00:03:14.500] Okay, we set the, so the first time, we set the Bekow exponent to the...
+
+
+chunk-002 | window 165.000-375.000s | core 180.000-360.000s
+[00:02:45.000 --> 00:02:58.200] Bechov exponent. So for example the first time that we use the Bechov
+[00:02:58.280 --> 00:03:09.780] procedure for a data packet we set the, so the first time, we set the
+[00:03:09.780 --> 00:03:23.820] break-off exponent to the break-off exponent minimum, okay? Now by default in the
+[00:03:23.820 --> 00:03:40.080] versions of phi phi, this is equal to phi. This is an example that refers to the early versions of phi phi.
+[00:03:41.000 --> 00:03:51.560] Now, so if we take this example here, this example value here, we see that as we
+[00:03:51.560 --> 00:04:00.920] said last time, the first time that we use this
+[00:04:02.440 --> 00:04:14.700] contention with the minimum, the value will be 2 to the power of the minimum exponent minus 1
+[00:04:14.700 --> 00:04:27.800] since this is 5 right this will be 2 to the 5 minus 1 which is 31 right so that's
+[00:04:27.800 --> 00:04:36.380] why yes on Saturday when we produce this procedure we said well let's
+[00:04:36.700 --> 00:04:50.500] consider the minimum contention window 31. Then the second time that we use the
+[00:04:50.500 --> 00:04:59.840] Bekoff procedure for the same packet we are going to increase the Bekoff
+[00:04:59.840 --> 00:05:12.780] a point so if this was our first value the second time we'll have second value
+[00:05:12.780 --> 00:05:26.080] right that is equal to what is equal to the previous one plus one okay so this
+[00:05:26.080 --> 00:05:34.840] means that the second time that we have to compute the contention window this
+[00:05:34.840 --> 00:05:46.260] will be equal to 2 to the power of the Bechov exponent on the second step
+[00:05:47.960 --> 00:06:00.600] minus 1 which is 2 to the cot exponent on the first step increased by 1 minus 1 right
+[00:06:01.140 --> 00:06:13.980] so now this is 2 to the power in our example to the power of 6 minus 1 which is 63 okay
+
+
+chunk-003 | window 345.000-555.000s | core 360.000-540.000s
+[00:05:45.000 --> 00:05:56.960] on the second step, minus 1, which is 2 to the cub exponent on the first step increased
+[00:05:56.960 --> 00:06:00.660] by 1, minus 1, right?
+[00:06:01.260 --> 00:06:12.660] So now this is 2 to the power, in our example, to the power of 6, minus 1, which is 63.
+[00:06:12.660 --> 00:06:28.080] okay so this is the way we increase the contention with a minimum value every time till as we said
+[00:06:28.080 --> 00:06:42.780] we reach this value Cw max. After we reach this value we do not increase this Cw
+[00:06:42.780 --> 00:06:52.120] value any longer behind this value even if we need to still perform the
+[00:06:52.350 --> 00:07:12.150] Bekoff procedure for the same time. So the general rule is that at step i, the generic step i,
+[00:07:12.150 --> 00:07:27.830] we set the Bekoff exponent as step i equal to the Bekoff exponent and the previous step increased by 1, right?
+[00:07:28.470 --> 00:07:38.710] and at the generic step i the contention window will be computed as two to the power
+[00:07:38.710 --> 00:07:52.450] of the cough exponent at step i minus one. This is the general expression that we use to compute
+[00:07:52.450 --> 00:08:02.290] the context point and the corresponding contention window at each step.
+[00:08:03.710 --> 00:08:17.250] That said, therefore we understand that every time that we need to perform the cost for a given data
+[00:08:17.250 --> 00:08:25.230] we roughly double the contention window as we said. So we are going to enlarge the possible
+[00:08:25.230 --> 00:08:33.050] values, integer values, that we can draw to compute the bit of time.
+[00:08:33.050 --> 00:08:48.070] Okay, so before explaining why we do that, why the standards say let's double the contention
+[00:08:48.070 --> 00:08:53.210] window every time we need to perform every cost to transmit the packet.
+[00:08:54.170 --> 00:09:00.590] So before explaining the reason, because we do that, let me mention what was reported
+[00:09:00.590 --> 00:09:07.990] in one of the earlier slides but I didn't comment on that because I didn't
+[00:09:07.990 --> 00:09:14.970] want to put too many things at the same time but one more thing
+
+
+chunk-004 | window 525.000-735.000s | core 540.000-720.000s
+[00:08:45.000 --> 00:08:53.220] let's double the contention window every time we need to perform a recast to transmit the packet.
+[00:08:54.160 --> 00:09:02.320] So before explaining the reason, because we do that, let me mention what was reported in one of
+[00:09:02.320 --> 00:09:10.160] the earlier slides but I didn't comment on that because I didn't want to put too many things
+[00:09:10.160 --> 00:09:19.660] at the same time but one more thing that we need to say important about the
+[00:09:19.660 --> 00:09:30.820] BECOS is that the BECOS procedure of course it is performed as we said when
+[00:09:30.820 --> 00:09:41.240] we have essentially a packet right that has been transmitted and it failed so we
+[00:09:41.240 --> 00:09:46.660] need to recontend for the channel and transmit the packet again right this is
+[00:09:46.660 --> 00:09:52.800] the phase that we have considered so far under which we need to perform the
+[00:09:52.800 --> 00:10:01.580] become. However, there are two more situations under which we need to
+[00:10:01.580 --> 00:10:10.000] perform a betoff procedure exactly as we explained, the same procedure that we
+[00:10:10.000 --> 00:10:24.380] just this way. This procedure indeed needs to be performed also when a node, a
+[00:10:24.380 --> 00:10:33.440] transmitter, has got a packet to transmit, it senses the channel but the
+[00:10:34.030 --> 00:10:44.710] is busy right so we already know that in this case we cannot access the channel right away
+[00:10:44.710 --> 00:10:52.130] because of the carrier sensing multiple access principle right so if we sense the channel
+[00:10:52.130 --> 00:10:59.230] we got the packet from the higher layers at the max layer we sense the channel
+[00:10:59.230 --> 00:11:09.690] for this but the channel is busy okay so what we knew so far is that in this case
+[00:11:10.670 --> 00:11:17.390] we cannot access the channel right because the channel is busy we are like polite people
+[00:11:17.390 --> 00:11:27.430] we don't want to interrupt someone who is talking already so we wait we wait that's
+[00:11:27.430 --> 00:11:35.450] what we said but now we need to be more precise. What do we mean exactly that
+[00:11:35.450 --> 00:11:44.870] we need to wait or how long? Well in reality also in this case what we need
+[00:11:44.870 --> 00:11:54.710] to do is to apply the Bekoff procedure. So how long do we wait for? We will
+[00:11:54.710 --> 00:12:03.270] wait for the back-off time according to this procedure so this is the rule again
+[00:12:04.390 --> 00:12:14.970] also in this first case one we have that the note wi-fi note gets a new packet from the
+
+
+chunk-005 | window 705.000-915.000s | core 720.000-900.000s
+[00:11:45.000 --> 00:11:55.320] to do is to apply the Bekoff procedure. So how long do we wait for? We will wait
+[00:11:55.320 --> 00:12:03.520] for the Bekoff time according to this procedure. So this is the rule again.
+[00:12:04.580 --> 00:12:13.180] Also in this first case, when we have that the note Wi-Fi note gets a new
+[00:12:13.180 --> 00:12:24.300] pocket from the higher layers and the mask needs to apply the protocol in
+[00:12:24.300 --> 00:12:30.020] order to transmit that packet. So we know that first of all we need to sense the
+[00:12:30.020 --> 00:12:41.420] channel for dips, if the channel is sense busy then what we'll do is apply
+[00:12:41.420 --> 00:12:49.580] the back-off. That is, first of all, we need to wait for the channel to become idle again and
+[00:12:49.580 --> 00:13:00.900] sense the channel idle for this. Then draw an integer with equal probability out of the range
+[00:13:00.900 --> 00:13:11.280] is 0, cwmin, set that integer multiplied by the time slot as back-of-time and then
+[00:13:11.280 --> 00:13:21.120] decrease the back-of-counter, slot by slot, as long as the channel is idle. If the
+[00:13:21.120 --> 00:13:27.300] channel becomes busy at a certain point, while we are still decreasing the
+[00:13:27.300 --> 00:13:37.240] Bekow counter we need to stop the counter and freeze it, we cannot decrease it and then when
+[00:13:37.240 --> 00:13:46.940] the channel becomes idle again we will sense the channel for dips if it's idle of course for that
+[00:13:47.460 --> 00:13:56.960] time we will resume decreasing our Bekow counter till we do that till the counter reaches zero
+[00:13:57.300 --> 00:14:05.680] right as soon as the counter reaches zero then we can access the channel and transmit our packet
+[00:14:05.680 --> 00:14:09.800] and then of course it depends the transmission may be successful
+[00:14:09.800 --> 00:14:16.660] that is fine we are done or the packet may fail and in that case we have to
+[00:14:16.900 --> 00:14:29.660] recontend for the channel by using the back-off receiver right okay so now we know that actually
+[00:14:29.660 --> 00:14:41.320] there are two conditions one and two under which we will perform the back-off okay let's
+[00:14:41.320 --> 00:14:51.660] leave the turn condition for later. Before introducing the turn condition, I want to present
+[00:14:51.660 --> 00:15:03.060] an example of a situation when we apply the becoff and what I want to do with this example
+[00:15:03.060 --> 00:15:13.980] is to clarify why. Why we are using the becoff? Why is the becoff actually useful?
+
+
+chunk-006 | window 885.000-1095.000s | core 900.000-1080.000s
+[00:14:46.460 --> 00:14:55.120] Before introducing the third condition, I want to present an example of a situation
+[00:14:56.280 --> 00:15:07.140] when we apply the Bekoff and what I want to do with this example is to clarify why.
+[00:15:07.600 --> 00:15:09.700] Why we are using the Bekoff?
+[00:15:09.700 --> 00:15:19.300] why is the becoff actually useful okay and why the standard says that every
+[00:15:19.300 --> 00:15:24.380] time we perform the becoff for a given pattern we need to double the contention
+[00:15:24.380 --> 00:15:34.180] window pattern okay because the main thing here when we study Wi-Fi okay
+[00:15:34.180 --> 00:15:41.780] is to, of course, learn how we use a technology that is actually used every day, right, by
+[00:15:41.780 --> 00:15:49.940] almost everyone. So it's good to know how things work, but it's also important to understand
+[00:15:49.940 --> 00:15:59.820] the rationale, okay, why things happen, why do we make certain choices while developing
+[00:15:59.820 --> 00:16:13.440] a technology. That's the really important fact that this class should give you, to strengthen
+[00:16:13.440 --> 00:16:26.820] your ability to understand why certain things have been decided in certain manner in designing
+[00:16:26.820 --> 00:16:34.660] a system okay because there is always a reason and what we need to do is to learn
+[00:16:34.660 --> 00:16:45.560] how to reason about things and understand the solutions that have been
+[00:16:45.560 --> 00:16:51.780] created okay that's the important attitude that we need to develop so this
+[00:16:51.780 --> 00:17:00.060] is understanding Wi-Fi is a kind of mental exercise that we need to do.
+[00:17:01.180 --> 00:17:14.640] Okay good, so let's consider a simple topology where we have an access point and then we have
+[00:17:14.640 --> 00:17:30.160] A, B and C. The access point is here, these are our user nodes and we are of course part of this
+[00:17:30.160 --> 00:17:40.100] BSS, that means they can talk with the access point and also let's consider the simple case
+[00:17:40.100 --> 00:17:58.160] where all nodes can hear each other. Now let's represent the behavior of these nodes over time.
+[00:17:58.600 --> 00:18:09.860] So this is the timeline, we will represent it by drawing a timeline for each node. Access point
+[00:18:10.100 --> 00:18:14.740] User A, User B
+
+
+chunk-007 | window 1065.000-1275.000s | core 1080.000-1260.000s
+[00:17:45.000 --> 00:17:59.680] each other. Now let's represent the behavior of these nodes over time. So this is the timeline
+[00:17:59.680 --> 00:18:18.300] we will represent it by drawing a timeline for each node. Access point, user A, user B, and user C.
+[00:18:18.300 --> 00:18:31.720] Okay, now let's assume that when we start looking at the system, what we observe is
+[00:18:31.720 --> 00:18:40.680] that A has received a packet from its higher layers, its application layer has generated
+[00:18:40.680 --> 00:18:51.440] some data. So A gets this packet at this MAC layer and A understands that it has to try and
+[00:18:51.440 --> 00:19:01.680] transmit this packet. So we know that in this case a Wi-Fi node will first sense the channel
+[00:19:01.680 --> 00:19:11.100] or diffs, let's assume that the channel is idle, so we know that in this
+[00:19:11.100 --> 00:19:16.880] case A can access the channel and transmit its data packet, that is a
+[00:19:16.880 --> 00:19:25.660] unicast data packet, so it is intended for the access point and let's be
+[00:19:25.660 --> 00:19:34.140] optimistic and let's consider that this data bucket is successfully received by
+[00:19:34.140 --> 00:19:40.740] the access point, therefore we know that the access point will send an
+[00:19:40.740 --> 00:19:49.280] acknowledgement after SIFs. This is the usual story that we have told many times.
+[00:19:49.280 --> 00:20:04.860] Okay, we also know that under these conditions, the other nodes B and C demodulate the header, right, of the data packet.
+[00:20:04.860 --> 00:20:13.540] They read the duration fields so that they can set their node counter.
+[00:20:14.860 --> 00:20:24.180] and this will extend over the all expected duration of the dialogue.
+[00:20:25.960 --> 00:20:35.660] So far so good is exactly what we did in the past. Now let's add some events here.
+[00:20:35.660 --> 00:20:50.700] Let's say B and also C, while they have their nav set to a positive value, will also receive
+[00:20:50.700 --> 00:21:01.760] a data packet from their respective upper layers, so this means that for example at
+[00:21:01.760 --> 00:21:12.560] this point in time B gets a packet that is queued at its mug layer and let's
+[00:21:12.560 --> 00:21:14.980] assume that C at this point
+
+
+chunk-008 | window 1245.000-1455.000s | core 1260.000-1440.000s
+[00:20:45.000 --> 00:20:58.000] to a positive value will also receive a data packet from their respective upper
+[00:20:58.000 --> 00:21:07.300] layers so this means that for example at this point in time B gets a packet
+[00:21:07.300 --> 00:21:15.500] that is skewed at its month layer and let's assume that C at this point in
+[00:21:15.500 --> 00:21:26.720] time also gets a packet from its higher layers okay so now while we have this
+[00:21:26.720 --> 00:21:35.960] dialogue between A and the axis point going on we have B and C who have a
+[00:21:35.960 --> 00:21:46.800] to grass meat as well. Now clearly they have got their knobs set so they know the channel is busy
+[00:21:47.560 --> 00:21:53.940] so they cannot access the channel right that's the principle of carrier sensing.
+[00:21:55.720 --> 00:22:04.760] We are essentially in this situation, situation number one right B and C get a new packet
+[00:22:04.760 --> 00:22:15.920] but they sense the channel as busy. So what do we have to do? Apply back off, right?
+[00:22:16.920 --> 00:22:27.480] So this means that both B and C, remember our scheme is distributed, so everyone
+[00:22:27.480 --> 00:22:38.800] makes decisions by itself based on the state of the system that it observes. So B will say
+[00:22:38.800 --> 00:22:48.020] I got the packet but the channel is busy. What I need to do is to apply Bekoff, so what you
+[00:22:48.020 --> 00:22:58.960] do is wait for the channel to become idle again, sends the channel idle for
+[00:22:58.960 --> 00:23:11.800] diffs and then if the channel is idle for diffs it will be able to draw an
+[00:23:11.800 --> 00:23:30.300] integer, out of what? out of the range 0 CW min and the same C, C at this
+[00:23:30.300 --> 00:23:37.500] point in time says oh I got a packet to trust me but the channel is busy so
+[00:23:37.500 --> 00:23:46.120] again it knows that it has to perform back off so what it will do it will wait for the channel to
+[00:23:46.120 --> 00:23:54.560] become idle then it needs to verify that the channel is idle for this the channel will be
+[00:23:54.560 --> 00:24:03.520] idle because nobody else is doing anything so the channel is idle and it will do will draw
+[00:24:03.520 --> 00:24:14.820] an integer with equal probability out of this same range of values. So let's assume
+
+
+chunk-009 | window 1425.000-1635.000s | core 1440.000-1620.000s
+[00:23:45.000 --> 00:23:52.820] for the channel to become idle then it needs to verify that the channel is idle for this
+[00:23:52.820 --> 00:23:59.820] the channel will be idle because nobody else is doing anything so the channel is idle
+[00:24:00.360 --> 00:24:11.380] and it will do, will draw an integer with equal probability out of this same range of values
+[00:24:11.380 --> 00:24:26.600] okay, so let's assume that the value drawn by b, the integer, is equal to 2 and let's assume
+[00:24:26.600 --> 00:24:38.680] that the integer drawn by c is equal to 5. This is just an example. Okay, so if this is the case
+[00:24:38.680 --> 00:24:54.340] then we know that B will compute its Bechov time, that will be equal to 2 times B time slot duration.
+[00:24:55.500 --> 00:25:06.000] And similarly C will compute its Bechov time, that will be 5 time slots.
+[00:25:06.000 --> 00:25:17.760] and then each of them will have two degrees its own Bekow counter, time slot by time slot.
+[00:25:18.940 --> 00:25:30.560] So B will start sensing the channel for a time slot, the channel is currently idle so it will
+[00:25:30.560 --> 00:25:44.340] decrease its Bekow counter by one and the same will do C, right? So it will decrease it by its own
+[00:25:44.880 --> 00:25:55.460] counter by one. Then next time slot again B senses the channel as idle, decreases its
+[00:25:55.460 --> 00:26:11.120] because counter by one and C will do the same but now the because counter of B has reached zero
+[00:26:12.500 --> 00:26:21.740] so B is entitled to answer the channel and transmit. So it will transmit its data packet,
+[00:26:21.740 --> 00:26:28.480] the data packet clearly is intended for the access point because as we said we
+[00:26:28.480 --> 00:26:34.880] are considering unicast packets and in this network topology, network architecture
+[00:26:34.880 --> 00:26:43.080] all Wi-Fi user nodes communicate with the access point only. Let's again be
+[00:26:43.080 --> 00:26:50.700] optimistic so this means that this packet is received successfully by the
+[00:26:50.700 --> 00:27:06.680] point which will stand back and acknowledgement after sieves. Upon the data transmission by B,
+[00:27:07.920 --> 00:27:14.860] The other notes, right, can set their nouns, they can read the duration.
+
+
+chunk-010 | window 1605.000-1815.000s | core 1620.000-1800.000s
+[00:26:45.000 --> 00:26:55.220] that this packet is received successfully by the access point which will send back
+[00:26:55.220 --> 00:27:09.160] an acknowledgement after SIFS. Upon the data transmission by B, the other notes
+[00:27:09.600 --> 00:27:19.360] and set their nouns, they can reach the duration field in the header of the data packet.
+[00:27:20.200 --> 00:27:39.380] So we need also to highlight this, that both A and also C will set their nouns, right?
+[00:27:40.280 --> 00:27:48.900] so what does it mean for A this is okay fine it doesn't have anything to do so that's not okay
+[00:27:48.900 --> 00:28:02.960] but for C this means that you will have to freeze it's the cough counter for this duration
+[00:28:02.960 --> 00:28:14.540] right because now the channel is busy so C cannot decrease its counter it has to suspend the countdown
+[00:28:17.040 --> 00:28:23.880] okay so during all this time C will be essentially blocked
+[00:28:25.440 --> 00:28:31.480] and what it does is to wait for the channel to become idle
+[00:28:31.480 --> 00:28:45.440] again, he makes sure that the channel is idle for diffs and then he can resume decreasing
+[00:28:45.440 --> 00:28:58.360] its wake-up count. It has still three time slots to go, so he will change the channel
+[00:28:58.360 --> 00:29:28.160] yes, this is idle, so it can decrease the Bechov counter by one, then it senses the channel again for a time slot, the channel is idle, it can decrease the counter by one, and then again the channel is idle for one more time slot, it can decrease it's counter by one, now it's Bechov counter is down to zero,
+[00:29:28.160 --> 00:29:40.120] so you can access the channel and transmit its data packet and again be optimistic, we say that
+[00:29:40.120 --> 00:29:48.620] this is successful so we will receive the acknowledgement after SIFs and we are all happy
+[00:29:48.620 --> 00:29:59.840] because all knots go towards making that part successful. So this is an
+[00:29:59.840 --> 00:30:09.320] example of how we apply English in the top procedure in particular under this
+[00:30:09.320 --> 00:30:14.960] condition. But it allows us
+
+
+chunk-011 | window 1785.000-1995.000s | core 1800.000-1980.000s
+[00:29:45.000 --> 00:29:54.200] after sieves and we are all happy because all non-screw tries to make their body successful, okay?
+[00:29:58.440 --> 00:30:06.000] So this is an example of how we apply in the cough procedure,
+[00:30:06.800 --> 00:30:10.020] in particular under this condition.
+[00:30:12.540 --> 00:30:24.500] But, it allows us also to understand the importance of the cough, that's the final goal, the ultimate goal that I was aiming.
+[00:30:26.420 --> 00:30:30.980] How can we understand the importance of the cough?
+[00:30:30.980 --> 00:30:43.660] Well, let's make a little game that is, scientifically speaking, is called ablation study, and ablation
+[00:30:43.660 --> 00:30:51.680] study is when you remove a feature of a system and you study the behavior of that system
+[00:30:52.220 --> 00:30:56.840] without that feature.
+[00:30:56.840 --> 00:31:09.880] So our small game is an ablation study of this particular bake-off procedure or Wi-Fi channel
+[00:31:09.880 --> 00:31:22.160] access to you. So let's make this a small game and think what would happen if the bake-off were
+[00:31:22.160 --> 00:31:31.180] not there okay so let's roll back the story let's start from the beginning but
+[00:31:31.180 --> 00:31:40.020] this time let's assume that there is no bake-off okay so what would be the
+[00:31:40.020 --> 00:31:46.840] behavior of our nodes? Well at the beginning everything is the same because the
+[00:31:46.840 --> 00:31:54.680] node that has got the packet to transmit is A, so it will listen to the
+[00:31:54.680 --> 00:32:01.780] channel, the channel is idle for lives, it will access the channel and transmit the
+[00:32:01.780 --> 00:32:08.200] packet. And again let's be optimistic, the access point sends back the acknowledgement
+[00:32:08.200 --> 00:32:16.660] and the other nodes, B and C, both exactly enough, right? This is exactly as
+[00:32:16.660 --> 00:32:27.460] before. And again, B and C at different points in time. Assume that they get
+[00:32:27.460 --> 00:32:37.100] also a packet to transmit. But again, now we do not have back off, okay? So we
+[00:32:37.100 --> 00:32:46.560] to think what would happen if the cars were not there. So what would B and C do?
+[00:32:47.940 --> 00:32:57.040] Well we still have carrier sensing, multiple access, so since both B and C
+[00:32:57.040 --> 00:33:04.900] sense the channel as busy because they have their knobs set, they cannot
+[00:33:04.900 --> 00:33:14.900] access the channel, right? Tila, the channel is busy. I cannot access the channel. So for sure, BNC
+
+
+chunk-012 | window 1965.000-2175.000s | core 1980.000-2160.000s
+[00:32:45.000 --> 00:32:57.020] B and C do? Well we still have carrier sensing right multiple access so since both B and C
+[00:32:57.640 --> 00:33:06.520] sense the channel as busy because they have their mouth set they cannot access the channel
+[00:33:06.520 --> 00:33:16.240] right, till the channel is busy. I cannot access the channel. So for sure B and C will again
+[00:33:17.240 --> 00:33:23.980] wait for the channel to be idle, make sure that the channel is idle,
+[00:33:25.340 --> 00:33:34.240] but then if there is no because, they can just access the channel, right, because now the
+[00:33:34.240 --> 00:33:40.600] channel is idle, so they say oh channel idle I can access the channel and
+[00:33:40.600 --> 00:33:46.280] transmit, remember we are playing this small game assuming that there is no
+[00:33:46.580 --> 00:34:02.860] off. So what we have is that, no because, we have both transmitting their data packet
+[00:34:04.180 --> 00:34:09.660] after having sensed the channel item.
+[00:34:11.520 --> 00:34:23.280] so what we have here collision right they both access the channel at the same
+[00:34:23.280 --> 00:34:31.140] time with probability one it is sure that they will do that and of course
+[00:34:31.140 --> 00:34:38.160] they will fail because they overlap their transmissions overlap and the
+[00:34:38.160 --> 00:34:47.280] point will not be able to demodulate correctly either this part. So what is
+[00:34:47.280 --> 00:34:55.880] the first conclusion here? That the BECAF procedure has been introduced in our
+[00:34:55.880 --> 00:35:08.040] system in order to avoid collisions between contending nodes. Our contending
+[00:35:08.040 --> 00:35:16.900] nodes in these examples are B and C, right? They are contending for the channel. And the BECAF
+[00:35:16.900 --> 00:35:27.720] procedure is there to avoid the collision between them. So again, remember that we said
+[00:35:28.440 --> 00:35:37.260] Wi-Fi is a CSMA scheme with collision avoidance.
+[00:35:38.040 --> 00:35:52.500] This payoff is a mechanism that helps to avoid collisions. So the basic
+[00:35:52.500 --> 00:36:04.440] principle, the basic idea is very simple. Whenever there is a crowded situation
+[00:36:04.440 --> 00:36:13.280] right? You try to desynchronize from the others so that you'll find a free...
+
+
+chunk-013 | window 2145.000-2355.000s | core 2160.000-2340.000s
+[00:35:45.000 --> 00:36:01.260] avoid collisions. So the basic principle, the basic idea is very simple. Whenever
+[00:36:01.260 --> 00:36:09.600] there is a crowded situation, you try to desynchronize from the others
+[00:36:09.600 --> 00:36:19.780] so that you find a free route ahead and this is exactly the same thing so if there is
+[00:36:19.780 --> 00:36:25.360] peak hour you don't want to jump into the traffic right or the others you
+[00:36:25.360 --> 00:36:33.500] try to pick, you wait, you try to pick a time at which not many other people
+[00:36:33.500 --> 00:36:41.580] will be there and this is exactly the same principle. You try to pick a time in
+[00:36:41.580 --> 00:36:50.260] order to desynchronize your action with respect to the others and this way you
+[00:36:50.260 --> 00:36:57.240] avoid meeting and fake aligning with the others or finding yourself in a
+[00:36:58.680 --> 00:37:08.880] That's exactly the same principle. Now what I would like to underline is that
+[00:37:08.880 --> 00:37:15.040] so we observe with our first observation is that the cough is a
+[00:37:15.600 --> 00:37:24.540] mechanism for avoiding collisions but it is still probabilistic. Why?
+[00:37:24.540 --> 00:37:52.200] because if, like in our example, both B and C draw the same value of the cough
+[00:37:52.200 --> 00:38:22.100] they are going to collide okay so if for example C2 drew two as an integer then they will not be
+[00:38:22.100 --> 00:38:31.880] the cough counter during the first time slot and then again during the second time slot
+[00:38:32.980 --> 00:38:40.500] but under the assumption that they now both drew 2 as an integer
+[00:38:42.100 --> 00:38:50.680] they will decrease the cough counter to zero exactly at the same time
+[00:38:51.320 --> 00:38:56.420] that means that they will access the channel exactly at the same time and collide.
+[00:38:58.640 --> 00:39:07.620] So the cough is a way to avoid collisions but it does not avoid collisions with probability one.
+[00:39:09.680 --> 00:39:14.700] There is still a certain probability with which
+
+
+chunk-014 | window 2325.000-2535.000s | core 2340.000-2520.000s
+[00:38:45.000 --> 00:38:52.720] give the cough counter to zero exactly at the same time. That means that they will
+[00:38:52.720 --> 00:39:01.640] access the channel exactly at the same time and collide. So the cough is a way
+[00:39:01.640 --> 00:39:07.660] to avoid collisions but it does not avoid collisions with probability one.
+[00:39:07.660 --> 00:39:18.020] Now, there is still a certain probability with which the nodes, the contending nodes,
+[00:39:18.740 --> 00:39:26.680] may collide, so it's a probabilistic collision avoidance mechanism.
+[00:39:28.460 --> 00:39:35.200] Okay, this is our first observation, is it clear so far?
+[00:39:35.200 --> 00:39:55.720] Now, if this is clear, let me make a second, we have a second observation to make, we
+[00:39:55.980 --> 00:40:07.340] close to the break but let me start introducing it and then we will finish after the short break
+[00:40:13.420 --> 00:40:24.320] so the second observation that i want to make is about the benefit of increasing
+[00:40:24.320 --> 00:40:36.420] the contention window parameter every time we need to perform a COF procedure for a
+[00:40:36.420 --> 00:40:46.760] given data packet. So let's consider still the same example as before, so we still have
+[00:40:46.760 --> 00:40:53.360] access point, A, B and C, A, talk with the access point, then B and C get the packet,
+[00:40:54.000 --> 00:41:00.720] both of them, while the channel is busy, so they need to apply it to the path
+[00:41:01.560 --> 00:41:08.740] and they need to draw the quorum after having sensed the channel as either for dips
+[00:41:08.740 --> 00:41:23.900] an integer. Out of, as we know, out of this range of values, because this is the first time that they run the
+[00:41:23.900 --> 00:41:32.680] backoff for the packet, so they both use zero contention with the minimum as a possible range,
+[00:41:32.680 --> 00:41:43.560] as a range of possible integers to be selected. So how many values are in this range?
+[00:41:45.020 --> 00:41:55.340] There are c, w, min, plus one integers, right? Because the subunit including the zero is plus one.
+[00:41:55.340 --> 00:42:05.160] this is the number of integers in that range. Okay, so what we want to compute, since we
+[00:42:05.160 --> 00:42:14.960] said that because it's a probabilistic collision avoidance mechanism, is the
+
+
+chunk-015 | window 2505.000-2715.000s | core 2520.000-2700.000s
+[00:41:45.000 --> 00:41:51.080] There are CW mean plus one integers, right?
+[00:41:51.460 --> 00:41:55.360] We call this a unit, including the zero is plus one.
+[00:41:55.820 --> 00:41:58.480] This is the number of integers in that range.
+[00:41:59.660 --> 00:42:02.400] Okay, so what we want to compute,
+[00:42:04.300 --> 00:42:07.040] since we said that because
+[00:42:07.560 --> 00:42:13.060] is the probabilistic collision avoidance mechanism,
+[00:42:13.060 --> 00:42:41.740] is the probability that B and C collide okay that's the probability that we
+[00:42:41.740 --> 00:42:56.980] collide if they draw the same integer out of this range and remember that the
+[00:42:56.980 --> 00:43:07.360] way a node draws an integer out of this range is with uniform probability
+[00:43:07.360 --> 00:43:14.720] right? So same probability for every value to be selected by the node. So if
+[00:43:14.720 --> 00:43:29.660] we consider the probability for a node to draw a generic integer n out of this
+[00:43:29.660 --> 00:43:43.040] range this probability is given by 1 over CW min plus 1 right because this
+[00:43:43.040 --> 00:43:50.120] is the number of integers in the range since we draw each value with equal
+[00:43:50.120 --> 00:43:57.100] probability uniform probability it's easy to see that the probability that
+[00:43:57.100 --> 00:44:06.680] an integer, a generic integer, is drawn out of this range by a node is given by
+[00:44:06.680 --> 00:44:21.260] 1 over CW min plus 1. This is basic probability theory. Okay, so in this way
+[00:44:21.260 --> 00:44:27.580] you can see that they are selected exactly, each of them with the same
+[00:44:27.580 --> 00:44:34.840] probability. This probability is the same for all of them. Now let's stop
+[00:44:34.840 --> 00:44:44.360] for five minutes and then use the short break if I'm not wrong and then we will
+[00:44:44.360 --> 00:44:50.080] resume and see how this probability of collision can be computed.
+[00:45:14.360 --> 00:45:14.840] Thank you.
+
+
+chunk-016 | window 2685.000-2895.000s | core 2700.000-2880.000s
+[00:44:45.000 --> 00:44:50.080] and see how this probability of collision can be computed.
+[00:47:20.940 --> 00:47:44.980] I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,
+
+
+chunk-017 | window 2865.000-3075.000s | core 2880.000-3060.000s
+[00:49:18.900 --> 00:49:37.880] Okay, good. So let's look at our computation. So the probability that B and C collide is, as we said, very simply, so do not worry, this is a very, very simple derivation.
+[00:49:37.880 --> 00:50:04.720] is the probability that B and C draw the same value, let's say n, the same value, the same
+[00:50:04.720 --> 00:50:16.020] Let's start this computation by considering that B draws
+[00:50:20.720 --> 00:50:30.880] n, a given integer n, whatever this is. So what we are first computing is the
+[00:50:30.880 --> 00:50:56.060] condition probability, so the probability that C draws also n, so n, given that B drew N, okay, so this is the so-called
+[00:50:56.060 --> 00:51:05.020] conditioned probability. Now remember our scheme is actually very simple because it's distributed
+[00:51:06.380 --> 00:51:14.660] and as we said every node makes its own decisions according to the protocol rules
+
+
+chunk-018 | window 3045.000-3255.000s | core 3060.000-3240.000s
+[00:50:45.000 --> 00:51:02.640] B drew N, so this is the so-called conditioned property. Now remember our scheme is actually very
+[00:51:02.640 --> 00:51:13.040] simple because it's distributed and as we said every node makes its own decisions according to
+[00:51:13.040 --> 00:51:20.060] protocol rules but it makes its own decisions independently from the others
+[00:51:20.060 --> 00:51:31.060] right so the fact that B drew N will not affect the probability the C draws N
+[00:51:31.060 --> 00:51:39.360] C does whatever it likes based on what decisions it makes following the
+[00:51:39.360 --> 00:51:50.180] but it's not affected by what other nodes do. So this is actually equal to
+[00:51:51.360 --> 00:52:13.940] the probability that C draws N, simply that, because it doesn't matter what B does, C will
+[00:52:13.940 --> 00:52:22.320] do things by themselves. Okay, so what is the probability that C draws N? So what is the
+[00:52:22.320 --> 00:52:33.400] probability that an integer is selected out of the range 0, C, W, N? Well, we have
+[00:52:33.400 --> 00:52:42.860] written that here right this is the probability okay so now we know that
+[00:52:44.600 --> 00:52:54.200] given that b has drawn n the probability that c will also draw n is this one
+[00:52:56.260 --> 00:53:05.780] So condition to the fact that B drew N, then this is the collision probability
+[00:53:05.780 --> 00:53:17.040] condition to the fact that B drew N. What we need to do is to now to compute the
+[00:53:17.040 --> 00:53:28.720] probability is to decondition and make the computation for any possible n. So
+[00:53:28.720 --> 00:53:42.080] what we want to now do is to compute in general the probability that B and C
+[00:53:42.080 --> 00:53:53.260] collide without conditioning to any event. So that is, we need to consider all possible
+[00:53:53.260 --> 00:54:09.940] values of integer from 0 to cwmin and for any n we know that the probability of collision
+[00:54:09.940 --> 00:54:14.220] A is want, B is probability
+
+
+chunk-019 | window 3225.000-3435.000s | core 3240.000-3420.000s
+[00:53:45.000 --> 00:53:59.240] to any event. So that is, we need to consider all possible values of integer from 0 to c w min
+[00:54:02.040 --> 00:54:11.880] and for any n we know that the probability of collision is what?
+[00:54:11.880 --> 00:54:24.660] the probability that C draws N if also B has drawn N, right? So let's first write the probability
+[00:54:24.660 --> 00:54:35.560] that B draws N, the probability that B draws N is again this one, so we can write 1 over C
+[00:54:35.640 --> 00:54:49.400] w min plus 1, this is the probability that B draws n and then given that we
+[00:54:49.400 --> 00:54:56.960] know that the collision happens if C also draws n, that happens with this
+[00:54:56.960 --> 00:55:12.460] probability. So we multiply by again 1 over cw min plus 1 which is the probability that c grows n.
+[00:55:12.460 --> 00:55:31.380] so what we have is simply sum over n that goes from 0 to cw min of 1 over cw min plus 1
+[00:55:33.280 --> 00:55:46.320] squared. Now this is a constant term, we are inside a sum, so we are summing
+[00:55:46.320 --> 00:55:57.940] this constant term how many times? cw min plus one times. So this is equal
+[00:55:57.940 --> 00:56:20.720] 2 CW min plus 1 divided by CW min plus 1 squared, we simplify numerator and denominator and we
+[00:56:20.720 --> 00:56:36.180] 1 over C W min plus 1. So the final result of all these computations is that
+[00:56:36.180 --> 00:56:44.720] the probability that B and C collide in our simple example that we presented
+[00:56:44.720 --> 00:56:59.700] earlier, is 1 over the contention window plus 1. Now if you were able to follow
+[00:56:59.700 --> 00:57:14.480] the computation grade, it's a simple probability computation, but if your
+[00:57:14.480 --> 00:57:14.780] ability.
+
+
+chunk-020 | window 3405.000-3615.000s | core 3420.000-3600.000s
+[00:56:45.000 --> 00:56:59.660] here is 1 over the contention window plus 1. Now if you are able to follow
+[00:56:59.660 --> 00:57:14.980] the computation grade, it's a simple probability computation, but if your
+[00:57:14.980 --> 00:57:24.440] anywhere in your previous courses, do not worry. The important thing is that you
+[00:57:24.440 --> 00:57:31.440] retain the final message. The final message is, in our simple example
+[00:57:31.440 --> 00:57:39.960] that we are considering, the probability that V and C collide while
+[00:57:39.960 --> 00:57:51.040] performing the Pecov procedure is equal to this ratio, that clearly will
+[00:57:51.760 --> 00:58:02.360] decrease as the value of contention window minimum increases, the
+[00:58:02.360 --> 00:58:10.160] larger the contention window, the lower this ratio, so the lower the collision
+[00:58:10.160 --> 00:58:21.420] probability. This is something that everybody can understand. Okay now so this means that okay this refers
+[00:58:21.420 --> 00:58:28.040] as I said to the previous simple example but it's a general rule the
+[00:58:28.040 --> 00:58:38.780] collision probability in the cuff procedure decreases as the value of
+[00:58:38.780 --> 00:58:52.900] contraction window increases. So now what does this tell you? Why am I
+[00:58:52.900 --> 00:58:59.580] marking this and making this second observation because remember we wanted
+[00:58:59.580 --> 00:59:08.000] to understand the reason why in Wi-Fi we say every time we perform the BECAF
+[00:59:08.000 --> 00:59:15.940] procedure for a given data packet we roughly speaking double the
+[00:59:15.940 --> 00:59:24.660] content showing. So we increase it very significantly every time. Why do we do
+[00:59:24.660 --> 00:59:34.880] that? To reduce the probability of collision among contented nodes. So
+[00:59:34.880 --> 00:59:43.120] Bekoff is a probabilistic mechanism and essentially Wi-Fi assumes
+[00:59:43.120 --> 00:59:50.760] that the reason why a transmitter is failing, failing, failing is because there are too
+[00:59:50.760 --> 00:59:57.840] many nodes in the network that try to access the channel to transmit a packet, the
+[00:59:57.840 --> 01:00:04.920] situation is too crowded so what Wi-Fi says is if you fail, every time
+[01:00:04.920 --> 01:00:11.840] you fail means that there are other nodes trying and you are selecting the
+[01:00:11.840 --> 01:00:14.840] same because you have the same because time
+
+
+chunk-021 | window 3585.000-3795.000s | core 3600.000-3780.000s
+[00:59:45.000 --> 00:59:52.180] a transmitter is failing, failing, failing, it's because there are too many nodes in the
+[00:59:52.180 --> 00:59:58.640] network that try to access the channel to transmit a packet, the situation is too
+[00:59:58.640 --> 01:00:05.860] crowded, so what Wi-Fi says is if you fail, every time you fail it means
+[01:00:05.860 --> 01:00:13.560] that there are other nodes trying and you are selecting the same back-off, you
+[01:00:13.560 --> 01:00:21.940] the same week of time and you keep colliding. So in order to reduce the probability of collision
+[01:00:23.240 --> 01:00:33.440] each node needs to enlarge the possible values, so the choice, right, among the integers that
+[01:00:33.440 --> 01:00:43.320] can be selected. It's like when you have a bag with candies if they are all strawberry flavored
+[01:00:43.560 --> 01:00:50.460] If there are two people picking the candy, clearly they will pick strawberry.
+[01:00:51.400 --> 01:01:00.140] But if instead you fill the bag with banana, strawberry, peach, mint and so on,
+[01:01:00.140 --> 01:01:06.160] then the probability that two people pick the same candy flavor will reduce.
+[01:01:07.600 --> 01:01:09.880] So this is exactly the same principle.
+[01:01:09.880 --> 01:01:17.480] okay so you may say well nice, Wi-Fi really takes care of this crowded
+[01:01:17.480 --> 01:01:29.520] situation and allow us to perform that, true, but this works, this is a
+[01:01:29.520 --> 01:01:34.120] good idea to double the contention window every time you perform a
+[01:01:34.460 --> 01:01:41.980] back off to transmit the packet, it works but it works if the reason why a
+[01:01:42.580 --> 01:01:50.160] transmitter is failing is indeed because it keeps colliding with others
+[01:01:50.160 --> 01:01:58.780] but remember in wireless a transmission may fail also because of
+[01:01:58.780 --> 01:02:05.300] channel errors. So you may be the only one in the network with a packet to transmit
+[01:02:05.300 --> 01:02:13.920] and still fail because the channel is bad and the receiver cannot demodulate
+[01:02:13.920 --> 01:02:21.900] the signal correctly. So in that case of course you have to follow the
+[01:02:22.040 --> 01:02:30.200] rules anyway. So if you fail and fail because of channel errors, you have to apply the rules.
+[01:02:30.480 --> 01:02:39.540] And this means that every time you have to enlarge the contention window and statistically
+[01:02:40.420 --> 01:02:48.540] it's more likely that you will draw a long and longer and longer back-off time.
+[01:02:48.540 --> 01:02:57.880] right so is this good in this case not really good right because the reason why you are failing
+[01:02:58.460 --> 01:03:03.140] is not because there are others and you are colliding that's not the reason
+[01:03:03.140 --> 01:03:10.880] the reason is that the channel is poor of poor quality and this mechanism does not help
+[01:03:10.880 --> 01:03:13.320] to solve a beach, right?
+[01:03:14.280 --> 01:03:14.700] Actually,
+
+
+chunk-022 | window 3765.000-3975.000s | core 3780.000-3960.000s
+[01:02:45.680 --> 01:02:54.420] longer and longer back of time, right? So is this good in this case? Not really
+[01:02:54.420 --> 01:03:00.340] good, right? Because the reason why you are failing is not because there are
+[01:03:00.340 --> 01:03:09.720] others and you are colliding, that's not the reason. The reason is that the channel is poor, of
+[01:03:09.720 --> 01:03:20.620] not help to solve the issue, right? Actually, this method in this situation is even harmful.
+[01:03:22.140 --> 01:03:32.520] Why? Because it makes you delay channel access, right? It makes you wait longer and longer and
+[01:03:32.520 --> 01:03:39.320] longer before accessing the channel, being able to access the channel and transmit the packet.
+[01:03:39.720 --> 01:03:49.120] with no reason, because the problem is not collision, the problem is poor channel quality,
+[01:03:50.380 --> 01:04:00.140] so it just increases the channel axis delay, it doesn't help with anything.
+[01:04:00.140 --> 01:04:09.680] okay so we need to be aware that well we need to understand why certain techniques,
+[01:04:09.920 --> 01:04:19.440] mechanisms are designed in a certain way but we need also always to look at these mechanisms
+[01:04:19.440 --> 01:04:28.200] or techniques or solutions with a critical eye that means we need to look at them and ask
+[01:04:28.200 --> 01:04:36.960] ourselves is this really good in under all conditions under all situations or
+[01:04:36.960 --> 01:04:45.440] not there may be aspects of technology that are not that good not always and we
+[01:04:45.440 --> 01:04:51.440] need to be aware of that okay so whenever we design a system whenever we
+[01:04:51.440 --> 01:05:02.680] design a technological solution we need to account for possible issues that may
+[01:05:02.680 --> 01:05:11.720] arise. So an idea may be good to solve one problem but it might actually make
+[01:05:11.720 --> 01:05:17.840] things worse in other situations. So we need also to look at the big
+[01:05:17.840 --> 01:05:30.280] picture when we design a technology and this is indeed an example of that. The
+[01:05:30.280 --> 01:05:35.420] last thing that I would like to comment and then we go to the third situation
+[01:05:35.420 --> 01:05:45.560] is remember that we are considering how to transmit unicast data
+[01:05:45.560 --> 01:05:57.580] buckets, let me just mention again that in the case of multicast or broadcast data
+[01:05:57.580 --> 01:06:03.260] packet things are much much simpler because we do not expect any
+[01:06:03.260 --> 01:06:11.280] acknowledgement, indeed since broadcast and multicast packets are intended for
+[01:06:11.280 --> 01:06:14.960] multiple destinations we can
+
+
+chunk-023 | window 3945.000-4155.000s | core 3960.000-4140.000s
+[01:05:45.000 --> 01:05:57.640] data packets, let me just mention again that in the case of multicast or broadcast data
+[01:05:57.640 --> 01:06:06.040] packet things are much much simpler because we do not expect any acknowledgement, indeed
+[01:06:06.040 --> 01:06:12.960] since broadcast and multicast packets are intended for multiple destinations
+[01:06:13.760 --> 01:06:20.200] we cannot have receivers sending back acknowledgments because all these
+[01:06:20.200 --> 01:06:28.920] acknowledgments if sent at the same time will collide within each other so
+[01:06:28.920 --> 01:06:37.680] no use. If you had to desynchronize the acknowledgments, transmissions, that would
+[01:06:37.680 --> 01:06:47.120] be very very complicated and you would increase the order of the problem. So the
+[01:06:47.120 --> 01:06:55.460] choice that they made was, well if a packet is broadcast or multicast, the transmitter of course
+[01:06:55.460 --> 01:07:10.160] needs to sense the channel, if the channel is idle transmit, if the channel is busy of course
+[01:07:10.160 --> 01:07:19.060] you have to perform the cough procedure because you have to wait but then once you access the
+[01:07:19.400 --> 01:07:29.740] and transmit that's it okay you're done because you don't care if the packet
+[01:07:29.740 --> 01:07:38.400] was received successfully or unsuccessfully we are done okay so
+[01:07:38.400 --> 01:07:46.260] broadcast and multicast packets are transmitted only once so you may need
+[01:07:46.260 --> 01:07:55.840] to run the Bekoff procedure for those data buckets but just if when you want to access
+[01:07:55.840 --> 01:08:03.400] the channel and you sense the channel as busy the first time okay then once you perform the
+[01:08:03.400 --> 01:08:14.740] Bekoff and you access the channel and transmit you are done. Okay if everything is clear so far
+[01:08:16.260 --> 01:08:25.500] let me know if you have questions no questions okay so if we are good then we
+[01:08:25.500 --> 01:08:37.660] can now tackle this last condition that is well we have one more situation under
+[01:08:37.660 --> 01:08:49.380] which we perform the back-off. In this third situation, actually, the procedure is slightly,
+[01:08:49.560 --> 01:08:57.620] slightly different, okay? It's essentially the same except for one. What is this third
+[01:08:57.620 --> 01:09:03.940] situation? And it is called, in this case, the procedure is called fast back-off,
+[01:09:03.940 --> 01:09:14.620] just to underline that there is a small difference with respect to the cough run
+
+
+chunk-024 | window 4125.000-4335.000s | core 4140.000-4320.000s
+[01:08:45.000 --> 01:08:55.580] Actually, the procedure is slightly different, it's essentially the same except for one.
+[01:08:56.480 --> 01:08:58.360] What is this third situation?
+[01:08:58.620 --> 01:09:07.100] In this case, the procedure is called fast back-off, just to underline that there is
+[01:09:07.100 --> 01:09:17.500] a small difference with respect to the back-off run under the previous two situations.
+[01:09:19.220 --> 01:09:28.920] So what is this third situation? It is when a node transmits a data packet successfully.
+[01:09:29.940 --> 01:09:38.020] So you may say well why do I have to perform the BECOF in this case? I've transmitted my
+[01:09:38.020 --> 01:09:46.900] packet correctly, I'm done, what do you want from me? Well, the wi-fi says I know you transmitted
+[01:09:46.900 --> 01:09:54.680] your packet, you are done with that, but after you receive the ACK from the receiver,
+[01:09:54.680 --> 01:10:23.820] you need to perform a Bechov using 0 CW min as range of possible integers. That's what the protocol says, so again, we want to understand why, right, maybe this is not enough, okay, I have to do it, I will do it, but tell me why, why do I have to do that?
+[01:10:23.820 --> 01:10:35.920] well the reason is fairness we want to be fair to our nodes okay so let me give
+[01:10:35.920 --> 01:10:54.160] an example and that will allow us to, in winter, understand why they tell us once you transmit
+[01:10:54.160 --> 01:11:03.480] successfully run this hospital. So let's consider again the same scenario so
+[01:11:03.480 --> 01:11:17.500] that will be easy access point and then node A and then we can also consider our B and C nodes
+[01:11:17.500 --> 01:11:24.520] same as before so we know that with the story it will be easier
+[01:11:25.520 --> 01:11:31.660] so the story starts in the same way A has got a packet leaves
+[01:11:34.360 --> 01:11:44.780] channel IDLE transmits the data packet, UNICAS data packet to the access point, this packet transmission
+[01:11:44.780 --> 01:12:03.380] is successful, so the access points have backed the ACK and as we said before, all nodes are in
+[01:12:03.380 --> 01:12:14.680] out and same as before and it's at the point B and C get a packet from their respective higher layers
+
+
+chunk-025 | window 4305.000-4515.000s | core 4320.000-4500.000s
+[01:11:45.000 --> 01:11:56.380] successful. So the access points have backed the ACK and as we said before all nodes are in radio
+[01:11:56.380 --> 01:12:06.300] visibility of each other, they can hear each other, so B and C will set their NAT and same as before
+[01:12:06.300 --> 01:12:16.560] at a certain point B and C get a packet from their respective higher layers so they will have
+[01:12:16.560 --> 01:12:29.540] to transmit their packet right and we know already how things work fine but now our
+[01:12:29.540 --> 01:12:45.520] attention is on A, okay? Let's focus on A. A is the one that performs its transmission successfully,
+[01:12:46.020 --> 01:12:55.040] so it's done. And according to the protocol, now we know that A actually, once it has finished
+[01:12:55.040 --> 01:13:02.160] transmitting the packet and receive the hack, needs to perform this post
+[01:13:04.480 --> 01:13:14.900] bake-off procedure, right? So I will have to sense the channel for leaves and then
+[01:13:14.900 --> 01:13:26.840] you will have to draw an integer out of the range 0 cwmin and of course for b and c we'll have the
+[01:13:26.840 --> 01:13:41.200] same behavior as before we know that's ready so b and c will have to run a let's say regular
+[01:13:41.200 --> 01:13:52.240] the cough procedure. So again, in order to understand how useful the mechanism is or
+[01:13:52.240 --> 01:14:01.520] solution is, let's play our little game of ablation. So let's remove the
+[01:14:01.600 --> 01:14:15.720] pass back off and see what happens. So what if AE does not have to run any pass-back-off?
+[01:14:18.160 --> 01:14:28.460] Well, let's add an event here to better understand what would happen considering
+[01:14:28.460 --> 01:14:42.560] all possible cases, let's consider that A has got another packet in its MAC queue, remember that
+[01:14:42.560 --> 01:14:52.980] we said the MAC layer can be modeled as a queue with a server, so let's consider that A has
+[01:14:52.980 --> 01:15:03.400] transmitted the packet here successfully, but let's assume that A has got another packet in the queue, waiting to be transmitted.
+[01:15:05.120 --> 01:15:14.780] So this first packet goes through successfully. This is what we represent here.
+
+
+chunk-026 | window 4485.000-4695.000s | core 4500.000-4680.000s
+[01:14:45.000 --> 01:14:54.780] be modeled as a queue with a server. So let's consider that A has transmitted the packet
+[01:14:54.780 --> 01:15:03.420] here successfully, but let's assume that A has got another packet in the queue waiting to be transmitted.
+[01:15:03.420 --> 01:15:18.580] So, this first packet goes through successfully, this is what we represented here, but now
+[01:15:18.580 --> 01:15:29.800] A has got another packet right here, so when it's done with this dialog, we have another
+[01:15:29.800 --> 01:15:40.460] packet to deal with. So what if A didn't have any phospho-cov to run? Well, you
+[01:15:40.460 --> 01:15:50.440] will have to sense the channel for this. The channel is idle and you will be
+[01:15:50.720 --> 01:16:02.600] to access the channel and trust me. So you will have to ask me its other data, this may be successful
+[01:16:04.020 --> 01:16:11.700] and what would be that? Would that be fear with respect to B and C? The poor B and C
+[01:16:12.600 --> 01:16:20.360] are waiting very good, their pick-off time and A just gets the next packet and go ahead
+[01:16:20.360 --> 01:16:32.180] with its transmission. So this is unfair and indeed if a wi-fi card like A has got several
+[01:16:32.180 --> 01:16:41.400] packets, under this situation, without cost because we just continue accessing the channel
+[01:16:41.400 --> 01:16:49.860] and transmitting its packets with very high probability you will actually size the channel
+[01:16:49.860 --> 01:17:00.600] for a very long time and thrash me, thrash me, thrash me, while the others we had to wait, wait, wait, because the channel would become busy, confused.
+[01:17:02.540 --> 01:17:12.440] And this was indeed absurd, also experimentally. Years ago, some researchers made experiments with different
+[01:17:12.440 --> 01:17:22.060] Wi-Fi cards, they were commercial products, they claimed all these cards claimed to follow the
+[01:17:22.060 --> 01:17:28.320] standard, of course products must follow the standard, they claimed to do that, but actually
+[01:17:28.320 --> 01:17:40.400] one of these cards was applying everything, as specified by the standard, but the post
+[01:17:40.400 --> 01:17:49.060] the cop and what these researchers observed was that this Wi-Fi card was
+[01:17:49.060 --> 01:17:55.540] obtained very very high throughput that means the ability to transmit a lot of
+[01:17:55.540 --> 01:18:03.380] data while the other Wi-Fi cards were starving so they could not get
+[01:18:03.380 --> 01:18:12.220] access to the channel. A very unfair service and this is because this was
+[01:18:12.220 --> 01:18:14.200] because that
+
+
+chunk-027 | window 4665.000-4875.000s | core 4680.000-4860.000s
+[01:17:45.000 --> 01:17:52.820] was that this Wi-Fi card was obtaining a very very high throughput that means the
+[01:17:52.820 --> 01:18:01.320] ability to transmit a lot of data while the other Wi-Fi cards were starving so
+[01:18:01.320 --> 01:18:10.200] they could not get access to the channel. A very unfair service and this
+[01:18:10.200 --> 01:18:18.860] is because, this was because that commercial Wi-Fi card at that time did not implement
+[01:18:19.640 --> 01:18:28.560] the prospect of proceeding. So this seems to be you know a detail or one more thing that a node
+[01:18:28.560 --> 01:18:36.600] has to do but it's actually extremely important to ensure fairness. In Wi-Fi we want to be fair,
+[01:18:36.600 --> 01:18:45.660] we want to give the same probability to everyone in channel axis so it is a very
+[01:18:45.660 --> 01:18:58.300] important feature and notice that the same would happen if we didn't have the
+[01:18:58.300 --> 01:19:11.780] post-bacov procedure even if A, right after its completion, successful completion of its dialog,
+[01:19:12.580 --> 01:19:19.680] didn't have any packet but even in the case where it gets a packet
+[01:19:20.660 --> 01:19:30.380] right after, a few microseconds after, you will still get an advantage with respect to B and C.
+[01:19:31.140 --> 01:19:41.040] Who must run the vehicle? So that's why the standard says, no matter what your max Q-step
+[01:19:41.040 --> 01:20:10.360] the state is, we don't care, once you complete a
+[01:20:10.360 --> 01:20:15.200] Oh, sorry, our time, three, five, five plus three.
+[01:20:16.520 --> 01:20:17.220] Okay, thanks.
+[01:20:17.800 --> 01:20:22.840] Okay, so we still have about 15 minutes before,
+[01:20:23.140 --> 01:20:25.500] let me know if I get this one wrong, please.
+[01:20:26.360 --> 01:20:30.720] I need to adjust the schedule, of course.
+[01:20:32.700 --> 01:20:37.440] Okay, so we run essentially through all these slides
+[01:20:38.580 --> 01:20:46.300] using the whiteboard for greater clarity, but you have the essential information also
+[01:20:46.300 --> 01:20:47.900] in the slides.
+[01:20:49.100 --> 01:20:57.780] Okay, so what I would like to show now is another example that is here presented in
+[01:20:57.780 --> 01:20:58.340] these slides.
+[01:20:58.560 --> 01:21:05.640] Don't get scared by the many figures that are used in these slides.
+[01:21:07.200 --> 01:21:14.920] It's just to highlight something that we already know, but here you have indeed.
+
+
+chunk-028 | window 4845.000-5055.000s | core 4860.000-5040.000s
+[01:20:45.000 --> 01:20:54.860] also in the slides. Okay, so what I would like to show now is another
+[01:20:54.860 --> 01:21:01.340] example that is here presented in these slides, don't get scared by the many
+[01:21:01.340 --> 01:21:09.200] figures that are used in these slides, it's just to highlight
+[01:21:09.200 --> 01:21:18.500] something that we already know but here you have indeed concrete example to
+[01:21:18.500 --> 01:21:26.140] further emphasize this, that is we now know more or less how the basic version
+[01:21:26.140 --> 01:21:33.940] of Wi-Fi works, we already said that Wi-Fi is so successful because it
+[01:21:33.940 --> 01:21:37.340] works quite well for our needs,
+[01:21:37.980 --> 01:21:41.620] but it has got a big problem in general,
+[01:21:41.960 --> 01:21:44.220] that is overhead, right?
+[01:21:44.280 --> 01:21:46.220] We already commented on that.
+[01:21:46.620 --> 01:21:52.540] So now that we know how channel is used in Wi-Fi,
+[01:21:53.300 --> 01:21:57.880] this is a practical example that gives evidence to that.
+[01:21:58.140 --> 01:22:01.360] So we know that in the case where we need
+[01:22:01.360 --> 01:22:03.160] to transmit the data packet,
+[01:22:03.160 --> 01:22:11.740] first of all we need to sense the channel for this, we can consider this to be 50
+[01:22:11.740 --> 01:22:18.600] microseconds long, so that's for sure something that we need to wait for, then
+[01:22:18.600 --> 01:22:26.420] if we are lucky, if we are lucky, the channel is idle and we can transmit our
+[01:22:26.420 --> 01:22:33.500] pocket right away. But the packet that we transmit, we know already, that has got
+[01:22:33.500 --> 01:22:38.940] some headers, right? Actually, we already said it has got a physical layer
+[01:22:38.940 --> 01:22:44.960] preamble that is used by the transmitter and receiver to essentially
+[01:22:44.960 --> 01:22:51.460] synchronize and so that the receiver can start demodulating what the
+[01:22:51.460 --> 01:23:02.900] meter is standing, so at the electronics level they need this preamble to start the communication.
+[01:23:03.800 --> 01:23:11.140] And then there is the physical layer header, and then there is the physical, sorry, the
+[01:23:11.140 --> 01:23:15.740] MAC layer header, where we have, for example, the duration field.
+[01:23:16.940 --> 01:23:24.040] So all these headers are just control information, it's not a payload, it's not
+[01:23:24.040 --> 01:23:32.440] something useful at the Mac layer, it is something that is there, it is useful for
+[01:23:32.440 --> 01:23:40.400] the protocol but not, they are not application layer bits, right? So you're
+[01:23:40.400 --> 01:23:45.180] there, fine, but from the application, from what would be the application
+[01:23:45.180 --> 01:23:53.840] perspective, that's something that is not useful, it's not interesting. So when we
+[01:23:53.840 --> 01:24:00.560] spend time to transmit this physical layer preamble, physical layer header
+[01:24:00.560 --> 01:24:07.420] and they are transmitted at the basic rate. So as we commented already, the
+[01:24:07.420 --> 01:24:13.460] basic range is a low speed. So the arcturus meet it slowly, a low speed.
+
+
+chunk-029 | window 5025.000-5235.000s | core 5040.000-5220.000s
+[01:23:45.000 --> 01:23:53.860] layer perspective is something that is not useful, it's not interesting. So when we
+[01:23:53.860 --> 01:24:01.360] spend time to transmit this physical layer preamble, physical layer header, and
+[01:24:01.360 --> 01:24:07.800] they are transmitted at the basic rate. So as we commented already, the basic
+[01:24:07.800 --> 01:24:17.020] rate is a low speed so they are transmitted slowly at low speed and if you consider the basic rate
+[01:24:17.020 --> 01:24:24.780] like in this example to be one megabit per second well then you have to wait it takes time to do
+[01:24:24.780 --> 01:24:34.760] that and then we have the MAC header. The MAC header again are I would say non-interesting
+[01:24:34.760 --> 01:24:39.760] bits from the point of view of the application. The size of the mount
+[01:24:39.760 --> 01:24:46.800] header in Wi-Fi may actually vary depending on, for example, how many
+[01:24:46.800 --> 01:24:54.320] addresses you need, so if you are in a VSS, isolated VSS as the one that you
+[01:24:54.320 --> 01:25:00.020] have got in your apartment, the only addresses that you need are the
+[01:25:00.020 --> 01:25:09.560] transmitter address and a receiver address. If you are in an extended service set like here on
+[01:25:09.560 --> 01:25:21.720] Tongji campus where we have many access points connected through the wired network, then
+[01:25:21.720 --> 01:25:31.060] you may need four different addresses and the reason for that is that in an
+[01:25:31.060 --> 01:25:42.280] extended service set you may have, as we know, access points that are connected to
+[01:25:42.280 --> 01:25:50.320] each other, right? We already explained the architecture of the network and so
+[01:25:50.320 --> 01:26:00.840] if you are A and you want to send a packet to B, well then you have to send
+[01:26:00.840 --> 01:26:07.440] your packet to the access point you are connected with, this access point 1
+[01:26:07.440 --> 01:26:13.860] will send the packet to access point 2 and then access point 2 will deliver
+[01:26:13.860 --> 01:26:23.180] the packet to be. This happens in an extended service set. Now in this case A
+[01:26:24.140 --> 01:26:31.680] is the sender, the transmitter, so it's the original source and also
+[01:26:31.680 --> 01:26:40.400] transmitter of the packet and access point 1 is the receiver but the final
+[01:26:40.400 --> 01:26:51.960] destination is B, so this packet that travels from A to access point one will
+[01:26:51.960 --> 01:27:04.080] have A as the transmitter address which is also the sources address, you will
+[01:27:04.080 --> 01:27:14.820] have access point one address as a receiver and that you will have the
+
+
+chunk-030 | window 5205.000-5415.000s | core 5220.000-5400.000s
+[01:26:45.000 --> 01:26:58.540] this packet that travels from A to access point one will have A as the transmitter address
+[01:26:59.400 --> 01:27:09.840] which is also the source's address, you will have access point one address as a receiver
+[01:27:11.720 --> 01:27:21.220] and then you will have the destination address, the B's address as destination address. So it needs
+[01:27:21.220 --> 01:27:32.100] to have three addresses in the MAC header. Once the packet is received at access point one,
+[01:27:32.100 --> 01:27:39.400] and access point 1 has to send the packet to access point 2 so that the
+[01:27:39.400 --> 01:27:46.760] packet eventually can be delivered to the final destination. This packet when
+[01:27:46.760 --> 01:27:56.640] the packet is here, it names 4 addresses in the MAC header. Why? Because we need to
+[01:27:56.640 --> 01:28:07.600] specifying that this packet originally came from source A, the transmitter now
+[01:28:07.600 --> 01:28:18.780] is access point 1, the receiver now is access point 2 and the final
+[01:28:18.780 --> 01:28:28.940] destination where this packet has to go is B, so in extended service sets
+[01:28:28.940 --> 01:28:38.120] when the Wi-Fi packets travel from one access point to another they need four
+[01:28:38.120 --> 01:28:47.700] addresses so this is just to say that the size of the MAC header may vary
+[01:28:47.700 --> 01:28:57.260] maybe shorter or longer, anyway so you already have to account for this
+[01:28:57.260 --> 01:29:04.820] physical preamble, physical header, MAC header, the payload is the useful
+[01:29:04.820 --> 01:29:15.300] interesting part, but then if the packet is hopefully, so in the best case, delivered
+[01:29:15.300 --> 01:29:20.900] successfully you have sieves, that is another time interval you have to
+[01:29:20.900 --> 01:29:27.040] wait for and then acknowledgement, that is a control packet, so not
+[01:29:27.040 --> 01:29:32.520] interesting from the application point of view and the acknowledgement again
+[01:29:32.520 --> 01:29:40.660] is made of physical preamble, physical header, Mach header, lots of things to be
+[01:29:40.660 --> 01:29:47.660] transmitted and that's the best case so you to transmit the payload you have to
+[01:29:47.660 --> 01:29:55.660] wait, dips, transmission of physical layers, preamble, physical layer, header, Mach
+[01:29:55.660 --> 01:30:05.340] header and then sieve and then hack. Lots of time to just transmit a payload, so you better have
+[01:30:05.340 --> 01:30:13.100] a long payload because otherwise your protocol is very very inefficient. And this is the best
+[01:30:13.100 --> 01:30:14.820] case if your transmission
+
+
+chunk-031 | window 5385.000-5595.000s | core 5400.000-5580.000s
+[01:29:45.000 --> 01:29:53.160] the payload, you have to wait, this transmission of physical layer, the
+[01:29:53.160 --> 01:30:00.720] amber physical layer, header, MAC header and then sieves and then ACK, lots of
+[01:30:00.720 --> 01:30:07.160] time to just transmit the payload, so you better have a long payload because otherwise
+[01:30:07.160 --> 01:30:13.120] your protocol is very very inefficient okay and this is the best
+[01:30:13.120 --> 01:30:19.920] case, if your transmission fails and you have to perform back off and re-transmit
+[01:30:19.920 --> 01:30:24.140] the packet, then you have to wait for the channel to become idle.
+[01:30:24.600 --> 01:30:31.380] This, back off time, hope that the channel remains idle and you can
+[01:30:31.380 --> 01:30:37.660] decrease the back off counter continuously and over time reach zero
+[01:30:37.660 --> 01:30:45.160] and then transmit your packet and that saves an arc. Lots of things, right? Just again to transmit
+[01:30:45.160 --> 01:30:52.780] a single failure. So we realized that the efficiency of Wi-Fi is actually pretty low
+[01:30:53.500 --> 01:31:01.300] and this holds unfortunately for all versions of Wi-Fi, okay? We have looked at the basic
+[01:31:01.300 --> 01:31:10.460] version but it's actually a curse for all versions and on average you can consider that the
+[01:31:10.460 --> 01:31:21.060] efficiency of this scheme is about 50-55% which is definitely low right the maximum efficiency
+[01:31:21.060 --> 01:31:30.180] will be 100% so we are halfway okay that said we are just missing one last
+[01:31:31.780 --> 01:31:40.960] mechanism in the wi-fi channel access and then we are done with the basic version of wi-fi that
+[01:31:40.960 --> 01:31:49.240] is the most important one okay so we just needed to introduce and we do that after the
+[01:31:49.240 --> 01:31:59.400] break, this last piece of the protocol that is related to what actually
+[01:31:59.400 --> 01:32:08.540] something that we know already about the famous form in the frame space the
+[01:32:08.540 --> 01:32:17.100] extended IFS remember the extended IFS remember the priority ladder we have
+[01:32:17.100 --> 01:32:31.260] we said let's first focus on sieves and dieves, understand how they are used and then we
+[01:32:31.260 --> 01:32:35.020] will go back to the other tummy intervals.
+[01:32:36.040 --> 01:32:46.220] So now it's time to talk about the longest among these tummy intervals that was indeed
+[01:32:46.220 --> 01:32:57.960] the extended IFS and just to give you an idea this extended IFS or this time interval
+[01:32:58.780 --> 01:33:10.380] can be as long as about 300 microseconds so definitely longer than the others that we have
+[01:33:10.380 --> 01:33:14.980] considered so far. It depends on the version of
+
+
+chunk-032 | window 5565.000-5622.281s | core 5580.000-5622.281s
+[01:32:45.000 --> 01:32:56.720] indeed the extended IFS and just to give you an idea this extended IFS or
+[01:32:56.720 --> 01:33:06.700] this time interval can be as long as about 300 microseconds so definitely
+[01:33:06.700 --> 01:33:14.280] longer than the others that we have considered so far. It depends on the
+[01:33:14.280 --> 01:33:23.200] version of Wi-Fi that we consider but just to keep in mind, again you can be
+[01:33:23.200 --> 01:33:36.340] considered equal to 300 microseconds, so just to evaluate. So if I'm not wrong, now we stop for 25 minutes.
