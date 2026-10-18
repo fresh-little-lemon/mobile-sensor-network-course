@@ -1,0 +1,45 @@
+{
+  "status": "faithful restoration with unresolved words",
+  "manual_listening": false,
+  "revision_id": 124,
+  "actual_after_snapshot_sha256": "b5fc3581e8d9e5d8e978637690d90c2f17d0d134762e1e9daa962f4b01ada591",
+  "actual_after_paragraphs_sha256": "4bc5591c39bc0b504fcda0bf4a722f12b93aa7088a4ad517c2f993f4cf2e68bb",
+  "original_capture_file_sha256": "6e0c441ab34f81fe92e43dc54ecbafd032c7df549f207b8b49417ea651a77a62",
+  "original_capture_exact_body_sha256": "6fe980dc073850d4e85ac4bda9227a2d17c69897a94749d5a80d54ec7fcc85e5",
+  "actual_english_body_sha256": "24e29dee3018e404d738ed6f00dc9e3b710ccb8ac1cae261aada027aef01dfde",
+  "original_capture_block_count": 197,
+  "original_capture_speech_paragraphs": 98,
+  "current_actual_paragraph_count": 78,
+  "mapping_method": "Whole-sequence text diff only; no historical source_map reused; no exact lexical listening certification",
+  "formal_targets": [
+    {
+      "path": "bilingual/20261012-1331.en-zh.md",
+      "sha256": "01d85de8324559b0ba199bf3b45f4c4a78073d56d5462cdd6489d7c4969310c0",
+      "bytes": 107733
+    },
+    {
+      "path": "revised/20261012-1331.md",
+      "sha256": "df93bbc1ad08e9f96a0d155c2fccb56ffa2fbe1b728ac1d495192d789280528a",
+      "bytes": 56555
+    },
+    {
+      "path": "diffs/20261012-1331.md",
+      "sha256": "5d9094744149e0f8577c3f45b53e0b23f53b63b369cf311928444662ea441bfd",
+      "bytes": 98317
+    }
+  ],
+  "history": [
+    {
+      "path": "releases/20261018-faithful-restoration/20261012-1331/history/previous-diff.md",
+      "sha256": "bb47821fa83a30e94e870f32321a4a15159e0175cbbf4fc79541467aba098a5c",
+      "git_blob_sha": "9e5ef57dec5971ad9377d45d261c62757f30ec94",
+      "read_ref": "fdfb1927a0d2f2509c90146a2c261a6a745a826d"
+    },
+    {
+      "path": "releases/20261018-faithful-restoration/20261012-1331/history/previous.unified.diff",
+      "sha256": "7a4c9dbb035626f447ca1ae8326f9662104b856e79b29e3fb4e44974072be822",
+      "git_blob_sha": "93571a5cf462f7965632408ff71044bef8ae89e8",
+      "read_ref": "79e3ce8d987ecde81c1f9c263cdcda1d6b79dea0"
+    }
+  ]
+}
