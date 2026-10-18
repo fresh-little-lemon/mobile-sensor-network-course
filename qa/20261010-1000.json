@@ -1,0 +1,16 @@
+{
+  "recording_id": "20261010-1000",
+  "source_block_count": 103,
+  "displayed_paragraph_count": 76,
+  "all_source_blocks_once_in_original_order": true,
+  "full_text_read_complete": true,
+  "full_text_review_method": "Root reviewed original paragraphs and independent local ASR windows, then read full editorial arrays and reviewed merged-boundary assembly; no manual audio-listening claim",
+  "independent_asr_complete": true,
+  "main_asr_chunks": 53,
+  "independent_final_tail_complete": true,
+  "raw_remote_verified_files": 55,
+  "raw_commit": "1c8dbf8a98c28c714ffd2520925cdacb5b6a129a",
+  "uncertainty_retained": true,
+  "bilingual_complete": false,
+  "updated_at": "2026-10-18T02:47:34.233832+00:00"
+}
