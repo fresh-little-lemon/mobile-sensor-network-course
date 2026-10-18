@@ -1,0 +1,12 @@
+{
+  "start_seconds": 550.0,
+  "end_seconds": 670.0,
+  "text": "So the sender address automatically, which is you, automatically appears if you configure the mailer. Then your email address, the address of the sender, is automatically included. But if you do not write destination email address, then the mailer cannot send the email, right? So it's the same concept. The body of the email message is the payload. But if you do not write the header, where you have, for example, the destination address, the packet cannot be transmitted. Okay, okay. So we need to compute the time needed to transmit all the packet. We need to account for the time needed to all transmit the preamble and header at the physical layer. The time needed to transmit the MAC header, and then the time to transmit the payload. Okay. Now we are considering here that the basic rate is one megabit per second. Okay. This is the speed at the minimum speed that we can use when we transmit. So what is the data rate? The data rate is. I just send that. You just need to input. What is the data rate?",
+  "raw_decoded": "language English<asr_text>So the sender address automatically, which is you, automatically appears if you configure the mailer. Then your email address, the address of the sender, is automatically included. But if you do not write destination email address, then the mailer cannot send the email, right? So it's the same concept. The body of the email message is the payload. But if you do not write the header, where you have, for example, the destination address, the packet cannot be transmitted. Okay, okay. So we need to compute the time needed to transmit all the packet. We need to account for the time needed to all transmit the preamble and header at the physical layer. The time needed to transmit the MAC header, and then the time to transmit the payload. Okay. Now we are considering here that the basic rate is one megabit per second. Okay. This is the speed at the minimum speed that we can use when we transmit. So what is the data rate? The data rate is. I just send that. You just need to input. What is the data rate?<|im_end|>",
+  "generated_tokens": 223,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.11956874600037,
+  "at": "2026-10-18T04:10:38.259437+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

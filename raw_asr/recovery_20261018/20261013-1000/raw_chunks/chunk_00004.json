@@ -1,0 +1,12 @@
+{
+  "start_seconds": 440.0,
+  "end_seconds": 560.0,
+  "text": "And then we have the payload. Okay. So header, physical layer mark, are just control information. The bits that are interesting from the point of view of the application, are here in the payload. Okay. So when I transmit a packet, I must transmit first this part, and then the payload. I cannot transfer the payload. Let's see it. Okay. Why? Because we said the payload is like an email message. If I write an email message, only the body of the message, Dear Joe, how are you? Best regards. And then I try and send the email. Does it work? I don't think so. Why? If I open my email application and write, Dear Joe, how are you? Best regards. And I try to click on send. What would the mailer say to you? No email address. No email address. You didn't specify the destination, right? So the sender address automatically, which is you, automatically appears if you configure the mailer.",
+  "raw_decoded": "language English<asr_text>And then we have the payload. Okay. So header, physical layer mark, are just control information. The bits that are interesting from the point of view of the application, are here in the payload. Okay. So when I transmit a packet, I must transmit first this part, and then the payload. I cannot transfer the payload. Let's see it. Okay. Why? Because we said the payload is like an email message. If I write an email message, only the body of the message, Dear Joe, how are you? Best regards. And then I try and send the email. Does it work? I don't think so. Why? If I open my email application and write, Dear Joe, how are you? Best regards. And I try to click on send. What would the mailer say to you? No email address. No email address. You didn't specify the destination, right? So the sender address automatically, which is you, automatically appears if you configure the mailer.<|im_end|>",
+  "generated_tokens": 209,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.624465847000465,
+  "at": "2026-10-18T04:10:05.139069+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

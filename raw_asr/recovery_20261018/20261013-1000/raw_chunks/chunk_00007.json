@@ -1,0 +1,12 @@
+{
+  "start_seconds": 770.0,
+  "end_seconds": 890.0,
+  "text": "Is transmitted at the basic rate because everyone means to receive them. So I transmit at the lowest possible data rate, that is one megabit per second. Okay, so they will have a certain size. And they will be transmitted at one megabit per second. Okay, now here you have also the physical layer preamble plus the header. So when you the computation has been already done, so when you have the transmission of this initial part at the basic data rate, this is the time that it takes to transmit this first part. Okay, then you have mark header. Right, then we have to transmit the mark header. So the mark header, as we said, may have a size that varies depending on what you need to include there. Two or three or four addresses, for example. So it depends, it may be smaller or larger. And it is always transmitted at the same data rate as the payload. Okay, so the mark header and payload are transmitted at the same speed. In this example, if you are a lucky user and you can transmit at eleven megabit per second, that is the maximum data.",
+  "raw_decoded": "language English<asr_text>Is transmitted at the basic rate because everyone means to receive them. So I transmit at the lowest possible data rate, that is one megabit per second. Okay, so they will have a certain size. And they will be transmitted at one megabit per second. Okay, now here you have also the physical layer preamble plus the header. So when you the computation has been already done, so when you have the transmission of this initial part at the basic data rate, this is the time that it takes to transmit this first part. Okay, then you have mark header. Right, then we have to transmit the mark header. So the mark header, as we said, may have a size that varies depending on what you need to include there. Two or three or four addresses, for example. So it depends, it may be smaller or larger. And it is always transmitted at the same data rate as the payload. Okay, so the mark header and payload are transmitted at the same speed. In this example, if you are a lucky user and you can transmit at eleven megabit per second, that is the maximum data.<|im_end|>",
+  "generated_tokens": 231,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.84262586099976,
+  "at": "2026-10-18T04:11:44.482936+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

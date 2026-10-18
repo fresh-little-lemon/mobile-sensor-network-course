@@ -1,0 +1,12 @@
+{
+  "start_seconds": 110.0,
+  "end_seconds": 230.0,
+  "text": "So let's go back to this slide that was the numerical example, okay. So the title of this slide is worth example: Why 11 megabit per second never feels like 11 megabit per second, okay? So this example refer to the case where the maximum data rate, the speed, is 11 megabit per second, because it was referring to an early version of Wi-Fi. Okay, now we know that Wi-Fi 4, the one that we were looking at, is able instead to provide 600 megabit per second, okay. So in early early Wi-Fi, let's call it early Wi-Fi version, we are able to achieve a maximum speed, minus physical layer data rate of 11 megabit per second. Now we are in Wi.",
+  "raw_decoded": "language English<asr_text>So let's go back to this slide that was the numerical example, okay. So the title of this slide is worth example: Why 11 megabit per second never feels like 11 megabit per second, okay? So this example refer to the case where the maximum data rate, the speed, is 11 megabit per second, because it was referring to an early version of Wi-Fi. Okay, now we know that Wi-Fi 4, the one that we were looking at, is able instead to provide 600 megabit per second, okay. So in early early Wi-Fi, let's call it early Wi-Fi version, we are able to achieve a maximum speed, minus physical layer data rate of 11 megabit per second. Now we are in Wi.<|im_end|>",
+  "generated_tokens": 168,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.996944426000482,
+  "at": "2026-10-18T04:08:48.346320+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

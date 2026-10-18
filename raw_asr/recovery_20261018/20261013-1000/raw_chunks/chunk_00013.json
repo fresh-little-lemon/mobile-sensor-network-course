@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1430.0,
+  "end_seconds": 1550.0,
+  "text": "So what it means is that the higher the data rate that you can use to transmit your data, that is to transmit your payload, the smaller is the useful time. Because the useful, the time you use to transmit interesting bits reduces. It's like you have still to run for 100 meters, but instead of walking now you are running. So clearly it takes much less to cover the 100 meters. That's the useful time essential when you transmit useful information. But then you still have all the overhead of the problem. So what is the efficiency of WiFi 4? Is it higher or lower than the efficiency of the earlier versions of WiFi? Based on what we are saying, lower, right? It's lower because we still have all the overhead and the useful time becomes smaller, smaller, smaller. So the efficiency drops. So we are evolving with WiFi. And what are we doing? We are going toward a WiFi that is less efficiency. We were supposed to evolve, right, to improve, not to get lower efficiency. So.",
+  "raw_decoded": "language English<asr_text>So what it means is that the higher the data rate that you can use to transmit your data, that is to transmit your payload, the smaller is the useful time. Because the useful, the time you use to transmit interesting bits reduces. It's like you have still to run for 100 meters, but instead of walking now you are running. So clearly it takes much less to cover the 100 meters. That's the useful time essential when you transmit useful information. But then you still have all the overhead of the problem. So what is the efficiency of WiFi 4? Is it higher or lower than the efficiency of the earlier versions of WiFi? Based on what we are saying, lower, right? It's lower because we still have all the overhead and the useful time becomes smaller, smaller, smaller. So the efficiency drops. So we are evolving with WiFi. And what are we doing? We are going toward a WiFi that is less efficiency. We were supposed to evolve, right, to improve, not to get lower efficiency. So.<|im_end|>",
+  "generated_tokens": 220,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.129565769999317,
+  "at": "2026-10-18T04:14:45.504530+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}

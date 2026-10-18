@@ -1,0 +1,12 @@
+{
+  "start_seconds": 880.0,
+  "end_seconds": 1000.0,
+  "text": "Are a lucky user and you can transmit at 11 megabit per second. That is the maximum data rate, speed, right? Then we can use. So if you are a lucky user, you are transmitted at 11 megabit per second. You can transmit the MAC header plus the payload at 11 megabit per second. So the time needed is given by the size. This is expressed in bytes, so I multiply by eight to express it in bits. This is the size, total size of MAC header plus payload, divided by the speed. The speed is bit per second, right? So bit and bit goes away, second goes to the numerator. This is the time. That I mentioned earlier is time in seconds, okay? So this is the time to transmit MAC header and payload. So summing up the two terms, this is the time, 192 microseconds, used to transmit the preamble and header of the physical layer, using the basic rate, 1 megabit per second. Okay. This is the second term here that accounts for the time needed to transmit MAC header and payload. In the best possible case, since we are considering this, it is at 11 megabit per second. So total time to transmit the packet.",
+  "raw_decoded": "language English<asr_text>Are a lucky user and you can transmit at 11 megabit per second. That is the maximum data rate, speed, right? Then we can use. So if you are a lucky user, you are transmitted at 11 megabit per second. You can transmit the MAC header plus the payload at 11 megabit per second. So the time needed is given by the size. This is expressed in bytes, so I multiply by eight to express it in bits. This is the size, total size of MAC header plus payload, divided by the speed. The speed is bit per second, right? So bit and bit goes away, second goes to the numerator. This is the time. That I mentioned earlier is time in seconds, okay? So this is the time to transmit MAC header and payload. So summing up the two terms, this is the time, 192 microseconds, used to transmit the preamble and header of the physical layer, using the basic rate, 1 megabit per second. Okay. This is the second term here that accounts for the time needed to transmit MAC header and payload. In the best possible case, since we are considering this, it is at 11 megabit per second. So total time to transmit the packet.<|im_end|>",
+  "generated_tokens": 265,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 38.90374655699998,
+  "at": "2026-10-18T04:12:23.387384+00:00",
+  "source_sha256": "8885a72884d57ea87044bfa0b94bca001ebcc0895d54295e2286a93abf74cba7"
+}
