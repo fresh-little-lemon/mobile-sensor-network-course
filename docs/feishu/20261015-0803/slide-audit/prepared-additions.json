@@ -1,0 +1,32 @@
+[
+  {
+    "source_pdf": "03-D2D-Networks.pdf",
+    "figure_number": 20,
+    "pdf_page": 10,
+    "pdf_half": "lower",
+    "title": "Multi-hop Communications: advantages and disadvantages",
+    "semantic_paragraphs": [
+      15,
+      18
+    ],
+    "paragraph_ordinal": 15,
+    "insert_after_heading2_block_id": "doxcnPQCnI4YaLLLKjAZvh9pECD",
+    "before_body_block_id": "doxcnunvcpqJRqLECqArshZZwRd",
+    "evidence": "P14明确返回另一套slides，P15指这是昨天最后讲的页，P16明确多跳及advantages/disadvantages；上一课最后图20恰为多跳利弊（PDF10下），当前文档未含此页，不是只因说multi-hop就补。",
+    "status": "inserted_and_fully_verified",
+    "receipt_stem": "d2d020",
+    "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-020.png",
+    "sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+    "clip": [
+      118.0,
+      463.0,
+      478.0,
+      733.0
+    ],
+    "caption": "课件：03-D2D-Networks.pdf · PDF第10页下半页 · 图20（按PDF顺序）",
+    "block_id": "doxcneEorbvt0WUNV93sEhto8ng",
+    "token": "TJvSbhLsioWHzNxDZ74cwuXgnWf",
+    "remote_download_sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+    "exact_placement_verified": true
+  }
+]

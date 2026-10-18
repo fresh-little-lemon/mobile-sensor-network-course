@@ -1,0 +1,51 @@
+{
+  "all_original_nonroot_blocks_except_status_unchanged": true,
+  "original_image_count": 16,
+  "original_images_unchanged": true,
+  "original_order_unchanged": true,
+  "all_original_bilingual_paragraph_blocks_unchanged": true,
+  "paragraph_count": 71,
+  "original_recording_and_resource_blocks_unchanged": true,
+  "heading2_count": 71,
+  "heading1_count": 9,
+  "final_image_count": 17,
+  "new_images": [
+    {
+      "source_pdf": "03-D2D-Networks.pdf",
+      "figure_number": 20,
+      "pdf_page": 10,
+      "pdf_half": "lower",
+      "title": "Multi-hop Communications: advantages and disadvantages",
+      "semantic_paragraphs": [
+        15,
+        18
+      ],
+      "paragraph_ordinal": 15,
+      "insert_after_heading2_block_id": "doxcnPQCnI4YaLLLKjAZvh9pECD",
+      "before_body_block_id": "doxcnunvcpqJRqLECqArshZZwRd",
+      "evidence": "P14明确返回另一套slides，P15指这是昨天最后讲的页，P16明确多跳及advantages/disadvantages；上一课最后图20恰为多跳利弊（PDF10下），当前文档未含此页，不是只因说multi-hop就补。",
+      "status": "inserted_and_fully_verified",
+      "receipt_stem": "d2d020",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-020.png",
+      "sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+      "clip": [
+        118.0,
+        463.0,
+        478.0,
+        733.0
+      ],
+      "caption": "课件：03-D2D-Networks.pdf · PDF第10页下半页 · 图20（按PDF顺序）",
+      "block_id": "doxcneEorbvt0WUNV93sEhto8ng",
+      "token": "TJvSbhLsioWHzNxDZ74cwuXgnWf",
+      "remote_download_sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+      "exact_placement_verified": true
+    }
+  ],
+  "exact_placement_verified": true,
+  "all_new_remote_image_bytes_identical": true,
+  "before_snapshot_sha256": "c51bc9411b36e96e70677834a04ad92c7872b4fc490c283c83981d7f2010af5a",
+  "after_snapshot_sha256": "5ecb4626dbae36d521cf284127d677232e4a00b60ddef496dd9142dfd6f9646c",
+  "status_block_id": "doxcnXIA3L2fB2ws4qCDCHY0Cvc",
+  "old_status_fragment": "已匹配插入16张课件图",
+  "new_status_fragment": "已匹配插入17张课件图"
+}

@@ -1,0 +1,244 @@
+{
+  "summary": "71段全文核验、16张原图均视觉与语义匹配。确认1张缺图：D2D图20，教师在P15明确回看昨日最后多跳利弊页。保留30→29、34→32的讲解回看顺序。",
+  "images": {
+    "doxcnhNBPRJn3FzvzC7GNRuDXOh": {
+      "title": "Multi-hop Communications: cooperation",
+      "semantic_paragraph_spans": [
+        [
+          19,
+          21
+        ]
+      ],
+      "alignment_reason_zh": "P19提出自私用户不愿替他人消耗电池，P20军用任务与民用奖励，P21约定中继总愿合作，对应原页cooperation主题。"
+    },
+    "doxcni9UvPkMSsOHImOfyDNiDec": {
+      "title": "Traffic Routing",
+      "semantic_paragraph_spans": [
+        [
+          27,
+          31
+        ]
+      ],
+      "alignment_reason_zh": "P27点名A/B/C/D/E以及A-C直达/绿色A-B-C，P28蓝色A-D-E-C三跳，P31备用路径与断链；颜色、字母、链路完全对应。"
+    },
+    "doxcnGdoJLRLSntLgGSMnthL2Og": {
+      "title": "4 - Energy Consumption",
+      "semantic_paragraph_spans": [
+        [
+          34,
+          41
+        ]
+      ],
+      "alignment_reason_zh": "P34转第四问题，P35移动/电池供电，P37–39容量与小尺寸，P40绿色可持续；此页逐项对应，放P35后正确。"
+    },
+    "doxcnDX2JS8nqqRvZHPE1RxaYj0": {
+      "title": "User Device Energy Consumption",
+      "semantic_paragraph_spans": [
+        [
+          42,
+          47
+        ]
+      ],
+      "alignment_reason_zh": "P42–46讨论休眠关闭transceiver及计算组件，P47第二方法降发射功率；原页两类方案Energy saving和Power control正合。"
+    },
+    "doxcnzontrzu7bTCKK5hJN7sBQd": {
+      "title": "Power Control",
+      "semantic_paragraph_spans": [
+        [
+          47,
+          50
+        ]
+      ],
+      "alignment_reason_zh": "P47指图中的A缩短到邻居距离，P48小干扰圈，P49明确1/d^alpha，P50功控与连通性，对应图形和公式。"
+    },
+    "doxcn78SURqotEJ4SEmX1YWiRfc": {
+      "title": "Using Max Transmission Power",
+      "semantic_paragraph_spans": [
+        [
+          51,
+          53
+        ]
+      ],
+      "alignment_reason_zh": "P51–53明确功率太高、图边非常多和拥挤如大家喊叫，原图高密度黑边网络精确匹配。"
+    },
+    "doxcntmnrsN32zR9V7kl7LHz5Pc": {
+      "title": "Reducing the Transmission Power",
+      "semantic_paragraph_spans": [
+        [
+          54,
+          54
+        ]
+      ],
+      "alignment_reason_zh": "P54反例降低功率后边稀疏、干扰小但断链易孤立；原图正是同场景稀疏边，不能与前图交换。"
+    },
+    "doxcnk7wO32TtKaWuuakZZgfi8g": {
+      "title": "Energy Saving",
+      "semantic_paragraph_spans": [
+        [
+          55,
+          58
+        ]
+      ],
+      "alignment_reason_zh": "P55调度sleep/awake，P56–57浅睡/深睡、唤醒时延与功耗取舍，原图三状态及不同高度功耗条精确匹配。"
+    },
+    "doxcn4H3d9IAh2RQvHy1glqsyRh": {
+      "title": "Summary: issues 2–4",
+      "semantic_paragraph_spans": [
+        [
+          58,
+          58
+        ]
+      ],
+      "alignment_reason_zh": "P58口头依次回顾四问题，其中channel access/multihop/low power与本页2–4列表对应；先出现30再29是先总结问题再补自治性，须保留。"
+    },
+    "doxcnvaJRLJSBsWZNiQ87iV7B1g": {
+      "title": "Summary: autonomous and distributed",
+      "semantic_paragraph_spans": [
+        [
+          59,
+          60
+        ]
+      ],
+      "alignment_reason_zh": "P59追加autonomous/spontaneous并要求distributed，P60定义本地信息独立决策，与原页前半对应，位于图30之后正确。"
+    },
+    "doxcnop3cfdRJHalN0MUU7nIJUd": {
+      "title": "Examples of Technologies",
+      "semantic_paragraph_spans": [
+        [
+          61,
+          62
+        ]
+      ],
+      "alignment_reason_zh": "P61列ad hoc Wi-Fi、cellular、vehicular、Bluetooth，P62补BAN和sensor networks，正合清单。"
+    },
+    "doxcn4P6pcUgJXXgnInKxgeHxbe": {
+      "title": "Body Area Networks: applications",
+      "semantic_paragraph_spans": [
+        [
+          62,
+          62
+        ]
+      ],
+      "alignment_reason_zh": "P62具体讲身上传感器、健康、帮助残障者、给药等，原页BAN应用说明比后续纯参数页更贴切。"
+    },
+    "doxcnSzY2iENK6B9kD6uYJjDWBb": {
+      "title": "WLAN/Cellular based: links",
+      "semantic_paragraph_spans": [
+        [
+          63,
+          63
+        ]
+      ],
+      "alignment_reason_zh": "P63明确这里有网页链接可选看并允许跳过；原图包含AllJoyn/Wi-FiDirect/LTEDirect链接，虽图号32低于前一BAN图34但讲话就是回到链接页，应保留。"
+    },
+    "doxcnZjjMOwvX4Z7X0JASVduvUh": {
+      "title": "Sensor Networks: main component of IoT",
+      "semantic_paragraph_spans": [
+        [
+          64,
+          64
+        ]
+      ],
+      "alignment_reason_zh": "P64转入sensor并明确IoT主要构成，与标题页完全对应。"
+    },
+    "doxcnabPxX2MUZVy3IBzQYPUfOh": {
+      "title": "Sensor Networks: distributed sensing and 802.15.4",
+      "semantic_paragraph_spans": [
+        [
+          65,
+          69
+        ]
+      ],
+      "alignment_reason_zh": "P65大面积环境监测，P67明确紫色节点，P68无线链路/汇聚，P69低功耗低码率并指15而不是Wi-Fi11，原页紫点风景和802.15.4信息对应；不据图补改原口述未清楚标准号。"
+    },
+    "doxcnghE7XeTUZPRaiB4cge3mNe": {
+      "title": "Sensor Architecture",
+      "semantic_paragraph_spans": [
+        [
+          70,
+          71
+        ]
+      ],
+      "alignment_reason_zh": "P70逐个指sensing board、signal processing、无线网络接口，P71继续信号处理并预告休息后余下组件，与硬件方块图完全对应。"
+    }
+  },
+  "confirmed_missing_pdf_slides": [
+    {
+      "source_pdf": "03-D2D-Networks.pdf",
+      "figure_number": 20,
+      "pdf_page": 10,
+      "pdf_half": "lower",
+      "title": "Multi-hop Communications: advantages and disadvantages",
+      "semantic_paragraphs": [
+        15,
+        18
+      ],
+      "paragraph_ordinal": 15,
+      "insert_after_heading2_block_id": "doxcnPQCnI4YaLLLKjAZvh9pECD",
+      "before_body_block_id": "doxcnunvcpqJRqLECqArshZZwRd",
+      "evidence": "P14明确返回另一套slides，P15指这是昨天最后讲的页，P16明确多跳及advantages/disadvantages；上一课最后图20恰为多跳利弊（PDF10下），当前文档未含此页，不是只因说multi-hop就补。",
+      "status": "confirmed_missing_parent_authorized",
+      "receipt_stem": "d2d020"
+    }
+  ],
+  "unresolved_source_gaps": [
+    {
+      "kind": "unprovided_numerical_problem_deck",
+      "paragraphs": [
+        1,
+        13
+      ],
+      "description": "上一课第4题的解答图：A/B隐藏、C正确NAV、B>16且排除21，17–20或22–31、AP发ACK冻结B退避的完整数值时序；固定已提供课件无这题解答。"
+    },
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        22,
+        26
+      ],
+      "description": "设备内PHY/MAC/小子层/网络/transport/application协议栈与数据向下传递的具体图，不在D2D图22路由网络图内，未找到原图，不能用不同图代替。"
+    },
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        70,
+        71
+      ],
+      "description": "物理场随时间和x/y/z变化、各测点x1/y1/z1与x2/y2/z2、离散样本重建连续场的课堂示意/标注，Sensor Architecture原页只有组件框图，无相同采样坐标图。"
+    }
+  ],
+  "not_missing": [
+    {
+      "source": "03-D2D-Networks.pdf",
+      "figure_numbers": [
+        29,
+        30,
+        32,
+        34
+      ],
+      "reason": "回看顺序有逐段语义依据，不按数字重排。"
+    },
+    {
+      "source": "03-D2D-Networks.pdf",
+      "figure_numbers": [
+        33,
+        35
+      ],
+      "reason": "未展开车辆GPS/资源详细条目或BAN250Kbps等参数，不以口头列举技术作为补整页证据。"
+    },
+    {
+      "source": "04-Sensors-MAC.pdf",
+      "figure_numbers": [
+        4,
+        5,
+        6
+      ],
+      "reason": "P71明确余下组件休息后再讲；本课没有讲传输介质/传感器要求与后续网络特性全页，不提前按页码补。"
+    }
+  ],
+  "cautions": [
+    "D2D课件实际图21起页脚编号比PDF半页序号不同，本审计按caption固定PDF顺序定位。",
+    "原转写中不明确标准号/节点名/数字不由图片推断修正文。"
+  ],
+  "publish_recommendation": "经父任务核准仅在第15个H2后补D2D图20，原16图保持；其余3项课堂图来源缺口保留说明。"
+}

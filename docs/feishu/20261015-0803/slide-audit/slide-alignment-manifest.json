@@ -1,0 +1,884 @@
+{
+  "lesson": "20261015-0803",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+  "audited_at_utc": "2026-10-18T15:59:00.739725+00:00",
+  "remote_mutations": true,
+  "audit_snapshot": "blocks-final.json",
+  "audit_snapshot_sha256": "c51bc9411b36e96e70677834a04ad92c7872b4fc490c283c83981d7f2010af5a",
+  "paragraph_count": 71,
+  "original_image_count": 16,
+  "visually_verified_image_count": 16,
+  "aligned_images": 16,
+  "images_needing_move": [],
+  "confirmed_missing_pdf_slides": [
+    {
+      "source_pdf": "03-D2D-Networks.pdf",
+      "figure_number": 20,
+      "pdf_page": 10,
+      "pdf_half": "lower",
+      "title": "Multi-hop Communications: advantages and disadvantages",
+      "semantic_paragraphs": [
+        15,
+        18
+      ],
+      "paragraph_ordinal": 15,
+      "insert_after_heading2_block_id": "doxcnPQCnI4YaLLLKjAZvh9pECD",
+      "before_body_block_id": "doxcnunvcpqJRqLECqArshZZwRd",
+      "evidence": "P14明确返回另一套slides，P15指这是昨天最后讲的页，P16明确多跳及advantages/disadvantages；上一课最后图20恰为多跳利弊（PDF10下），当前文档未含此页，不是只因说multi-hop就补。",
+      "status": "resolved_and_verified",
+      "receipt_stem": "d2d020",
+      "new_image_block_id": "doxcneEorbvt0WUNV93sEhto8ng",
+      "image_sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+      "remote_download_sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c"
+    }
+  ],
+  "unresolved_source_gaps": [
+    {
+      "kind": "unprovided_numerical_problem_deck",
+      "paragraphs": [
+        1,
+        13
+      ],
+      "description": "上一课第4题的解答图：A/B隐藏、C正确NAV、B>16且排除21，17–20或22–31、AP发ACK冻结B退避的完整数值时序；固定已提供课件无这题解答。"
+    },
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        22,
+        26
+      ],
+      "description": "设备内PHY/MAC/小子层/网络/transport/application协议栈与数据向下传递的具体图，不在D2D图22路由网络图内，未找到原图，不能用不同图代替。"
+    },
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        70,
+        71
+      ],
+      "description": "物理场随时间和x/y/z变化、各测点x1/y1/z1与x2/y2/z2、离散样本重建连续场的课堂示意/标注，Sensor Architecture原页只有组件框图，无相同采样坐标图。"
+    }
+  ],
+  "all_lecture_visuals_recovered": false,
+  "audio_fidelity_verified": false,
+  "navigation_complete": true,
+  "slides_audit_complete": true,
+  "source_pdfs": [
+    {
+      "filename": "03-D2D-Networks.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/03-D2D-Networks.pdf",
+      "local_path": "/workspace/shared/03-D2D-Networks.pdf",
+      "sha256": "32577de32b488a6078b341071f97818b5b4bbd884936f241b47cbfaaf7e50424",
+      "pages": 18
+    },
+    {
+      "filename": "04-Sensors-MAC.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/04-Sensors-MAC.pdf",
+      "local_path": "/workspace/shared/04-Sensors-MAC.pdf",
+      "sha256": "ea5f2788f3180267cc079e54cde419563b5529a46a72cd2ec3a3e5f69742b647",
+      "pages": 26
+    }
+  ],
+  "images": [
+    {
+      "source_pdf": "03-D2D-Networks.pdf",
+      "figure_number": 20,
+      "pdf_page": 10,
+      "pdf_half": "lower",
+      "title": "Multi-hop Communications: advantages and disadvantages",
+      "semantic_paragraphs": [
+        15,
+        18
+      ],
+      "paragraph_ordinal": 15,
+      "insert_after_heading2_block_id": "doxcnPQCnI4YaLLLKjAZvh9pECD",
+      "before_body_block_id": "doxcnunvcpqJRqLECqArshZZwRd",
+      "evidence": "P14明确返回另一套slides，P15指这是昨天最后讲的页，P16明确多跳及advantages/disadvantages；上一课最后图20恰为多跳利弊（PDF10下），当前文档未含此页，不是只因说multi-hop就补。",
+      "status": "added_and_remote_verified",
+      "receipt_stem": "d2d020",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-020.png",
+      "sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+      "clip": [
+        118.0,
+        463.0,
+        478.0,
+        733.0
+      ],
+      "caption": "课件：03-D2D-Networks.pdf · PDF第10页下半页 · 图20（按PDF顺序）",
+      "block_id": "doxcneEorbvt0WUNV93sEhto8ng",
+      "token": "TJvSbhLsioWHzNxDZ74cwuXgnWf",
+      "remote_download_sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+      "exact_placement_verified": true,
+      "after_paragraph": 14,
+      "before_paragraph": 15,
+      "semantic_paragraph_spans": [
+        [
+          15,
+          18
+        ]
+      ],
+      "identity_verified": "固定PDF原样4倍栅格化并逐图视觉检查，远端下载SHA256完全一致。",
+      "alignment_reason_zh": "P14明确返回另一套slides，P15指这是昨天最后讲的页，P16明确多跳及advantages/disadvantages；上一课最后图20恰为多跳利弊（PDF10下），当前文档未含此页，不是只因说multi-hop就补。"
+    },
+    {
+      "image_ordinal": 1,
+      "block_id": "doxcnhNBPRJn3FzvzC7GNRuDXOh",
+      "figure_number": 21,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第11页上半页 · 图21（按PDF顺序）",
+      "token": "CoPKbBoosoHrhpxHqiccYxRrnGh",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-021.png",
+      "after_paragraph": 19,
+      "before_paragraph": 20,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-021.png\",\n    \"size_bytes\": 83738\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "99025101d1a8b6b4906e4d5aa930e4fed1f815446528ab39f99345a6beb664d4",
+      "title": "Multi-hop Communications: cooperation",
+      "semantic_paragraph_spans": [
+        [
+          19,
+          21
+        ]
+      ],
+      "alignment_reason_zh": "P19提出自私用户不愿替他人消耗电池，P20军用任务与民用奖励，P21约定中继总愿合作，对应原页cooperation主题。",
+      "pdf_page": 11,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 19,
+        "timestamp": "00:24:25",
+        "block_id": "doxcnhwgV7vsu5dlFbd6TARfQSc",
+        "heading": "19 · 00:24:25 · 用户为何可能不愿替他人中继"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 20,
+        "timestamp": "00:26:14",
+        "block_id": "doxcnq65zbZp5pletzd3OAGUfSk",
+        "heading": "20 · 00:26:14 · 任务要求与民用中继经济激励"
+      }
+    },
+    {
+      "image_ordinal": 2,
+      "block_id": "doxcni9UvPkMSsOHImOfyDNiDec",
+      "figure_number": 22,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第11页下半页 · 图22（按PDF顺序）",
+      "token": "Qv7Gb7wV2oQ1bQxROuMcDiucncd",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-022.png",
+      "after_paragraph": 27,
+      "before_paragraph": 28,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-022.png\",\n    \"size_bytes\": 63093\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "4d629eb12db13079a5429b9327ddeecb751397326992f90d99fb12878c60a979",
+      "title": "Traffic Routing",
+      "semantic_paragraph_spans": [
+        [
+          27,
+          31
+        ]
+      ],
+      "alignment_reason_zh": "P27点名A/B/C/D/E以及A-C直达/绿色A-B-C，P28蓝色A-D-E-C三跳，P31备用路径与断链；颜色、字母、链路完全对应。",
+      "pdf_page": 11,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 27,
+        "timestamp": "00:33:15",
+        "block_id": "doxcnMIBfdDkiDqQseKitfaqGUc",
+        "heading": "27 · 00:33:15 · A到C的一跳与两跳路径示例"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 28,
+        "timestamp": "00:36:21",
+        "block_id": "doxcnB0X916AZOFLaSBha7YJ3Ae",
+        "heading": "28 · 00:36:21 · 三跳路径与中继正确选择下一跳"
+      }
+    },
+    {
+      "image_ordinal": 3,
+      "block_id": "doxcnGdoJLRLSntLgGSMnthL2Og",
+      "figure_number": 23,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第12页上半页 · 图23（按PDF顺序）",
+      "token": "QawEb9HR0oNooGx0BPocfTjfnxd",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-023.png",
+      "after_paragraph": 35,
+      "before_paragraph": 36,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-023.png\",\n    \"size_bytes\": 105517\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "cf1d2253539df068e7e0d16d98e0c15b21d8027d03a278b8ad7aa461f8a7a637",
+      "title": "4 - Energy Consumption",
+      "semantic_paragraph_spans": [
+        [
+          34,
+          41
+        ]
+      ],
+      "alignment_reason_zh": "P34转第四问题，P35移动/电池供电，P37–39容量与小尺寸，P40绿色可持续；此页逐项对应，放P35后正确。",
+      "pdf_page": 12,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 35,
+        "timestamp": "00:49:38",
+        "block_id": "doxcnzJEOUAVLAc4PCZAh2e8Aqh",
+        "heading": "35 · 00:49:38 · 移动节点为何需要电池供电"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 36,
+        "timestamp": "00:51:15",
+        "block_id": "doxcnqqrfOL5J6WbS3ryjNsDytg",
+        "heading": "36 · 00:51:15 · 恶劣环境中的固定传感器也需电池"
+      }
+    },
+    {
+      "image_ordinal": 4,
+      "block_id": "doxcnDX2JS8nqqRvZHPE1RxaYj0",
+      "figure_number": 24,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第12页下半页 · 图24（按PDF顺序）",
+      "token": "OdkWbhhapoWxahxzFHMcH0ogn3c",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-024.png",
+      "after_paragraph": 42,
+      "before_paragraph": 43,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-024.png\",\n    \"size_bytes\": 87897\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "ce2fcd33f6ff91903dcd414122c3583b39e9bec7d7696db6571932d9802addbd",
+      "title": "User Device Energy Consumption",
+      "semantic_paragraph_spans": [
+        [
+          42,
+          47
+        ]
+      ],
+      "alignment_reason_zh": "P42–46讨论休眠关闭transceiver及计算组件，P47第二方法降发射功率；原页两类方案Energy saving和Power control正合。",
+      "pdf_page": 12,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 42,
+        "timestamp": "00:57:44",
+        "block_id": "doxcntPol9fP8MFg7Hj55MgXMcg",
+        "heading": "42 · 00:57:44 · 按需休眠与持续侦听的开销"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 43,
+        "timestamp": "00:58:57",
+        "block_id": "doxcno8nLXIsaw5TmqqCKl4Bjnh",
+        "heading": "43 · 00:58:57 · Wi-Fi接口常开与休眠使用情况"
+      }
+    },
+    {
+      "image_ordinal": 5,
+      "block_id": "doxcnzontrzu7bTCKK5hJN7sBQd",
+      "figure_number": 25,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第13页上半页 · 图25（按PDF顺序）",
+      "token": "RSJKbalxLoodPKx5S4Dc3LxInGe",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-025.png",
+      "after_paragraph": 47,
+      "before_paragraph": 48,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-025.png\",\n    \"size_bytes\": 112029\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "e7062bc94f2167e1778bdff3fcebdc4a6ac2b25e9e148a1e9181311218d96f56",
+      "title": "Power Control",
+      "semantic_paragraph_spans": [
+        [
+          47,
+          50
+        ]
+      ],
+      "alignment_reason_zh": "P47指图中的A缩短到邻居距离，P48小干扰圈，P49明确1/d^alpha，P50功控与连通性，对应图形和公式。",
+      "pdf_page": 13,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 47,
+        "timestamp": "01:01:18",
+        "block_id": "doxcnnXpcLzuEgokEEXdB9qvwyh",
+        "heading": "47 · 01:01:18 · 近邻短距离通信降低发射功率"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 48,
+        "timestamp": "01:02:25",
+        "block_id": "doxcn0CSLBEx2iALvNiG9Ouregg",
+        "heading": "48 · 01:02:25 · 低功率同时缩小干扰范围"
+      }
+    },
+    {
+      "image_ordinal": 6,
+      "block_id": "doxcn78SURqotEJ4SEmX1YWiRfc",
+      "figure_number": 26,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第13页下半页 · 图26（按PDF顺序）",
+      "token": "Z7SJbwdhpo9B0nxtfKicCXCGnRb",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-026.png",
+      "after_paragraph": 51,
+      "before_paragraph": 52,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-026.png\",\n    \"size_bytes\": 197717\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "48ededc98ce1ca10056d41619d95026575bf29acf0b85b0c7402f30ae4b6f92c",
+      "title": "Using Max Transmission Power",
+      "semantic_paragraph_spans": [
+        [
+          51,
+          53
+        ]
+      ],
+      "alignment_reason_zh": "P51–53明确功率太高、图边非常多和拥挤如大家喊叫，原图高密度黑边网络精确匹配。",
+      "pdf_page": 13,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 51,
+        "timestamp": "01:05:37",
+        "block_id": "doxcnXftcTNARXaWO1dCstYqJ5b",
+        "heading": "51 · 01:05:37 · 高发射功率对应稠密通信图"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 52,
+        "timestamp": "01:06:41",
+        "block_id": "doxcnMldx8wTzjNXUFzcTJiwxjf",
+        "heading": "52 · 01:06:41 · 较多链路提供失效后的替代选择"
+      }
+    },
+    {
+      "image_ordinal": 7,
+      "block_id": "doxcntmnrsN32zR9V7kl7LHz5Pc",
+      "figure_number": 27,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第14页上半页 · 图27（按PDF顺序）",
+      "token": "UGvdbgfIloLqIPxgERTc3BnRnEc",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-027.png",
+      "after_paragraph": 54,
+      "before_paragraph": 55,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-027.png\",\n    \"size_bytes\": 150015\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "ab065cd5b54f63d8fbf5bcb63f04ac30a4605e02608e31fc166ddd8a1d3971b8",
+      "title": "Reducing the Transmission Power",
+      "semantic_paragraph_spans": [
+        [
+          54,
+          54
+        ]
+      ],
+      "alignment_reason_zh": "P54反例降低功率后边稀疏、干扰小但断链易孤立；原图正是同场景稀疏边，不能与前图交换。",
+      "pdf_page": 14,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 54,
+        "timestamp": "01:07:22",
+        "block_id": "doxcnLviCOOOCHlDM2zGmHFp0Sd",
+        "heading": "54 · 01:07:22 · 降低功率可能削弱网络连通性"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 55,
+        "timestamp": "01:08:26",
+        "block_id": "doxcnsG8qLHcxH1oKP7SdCOhokg",
+        "heading": "55 · 01:08:26 · 活动调度中的节能与收包权衡"
+      }
+    },
+    {
+      "image_ordinal": 8,
+      "block_id": "doxcnk7wO32TtKaWuuakZZgfi8g",
+      "figure_number": 28,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第14页下半页 · 图28（按PDF顺序）",
+      "token": "MbedbYMWFo9Za4xlJEIcKgzYnMf",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-028.png",
+      "after_paragraph": 55,
+      "before_paragraph": 56,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-028.png\",\n    \"size_bytes\": 100668\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "a3ba2847020c5ddb42ca7b4fcfb16e19505a36a42ab6d046d9e234fea916b675",
+      "title": "Energy Saving",
+      "semantic_paragraph_spans": [
+        [
+          55,
+          58
+        ]
+      ],
+      "alignment_reason_zh": "P55调度sleep/awake，P56–57浅睡/深睡、唤醒时延与功耗取舍，原图三状态及不同高度功耗条精确匹配。",
+      "pdf_page": 14,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 55,
+        "timestamp": "01:08:26",
+        "block_id": "doxcnsG8qLHcxH1oKP7SdCOhokg",
+        "heading": "55 · 01:08:26 · 活动调度中的节能与收包权衡"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 56,
+        "timestamp": "01:09:52",
+        "block_id": "doxcnecH5zecvqJtsaXWw8joPtc",
+        "heading": "56 · 01:09:52 · 浅休眠和深休眠的唤醒差异"
+      }
+    },
+    {
+      "image_ordinal": 9,
+      "block_id": "doxcn4H3d9IAh2RQvHy1glqsyRh",
+      "figure_number": 30,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第15页下半页 · 图30（按PDF顺序）",
+      "token": "PolxbnqHfoEY7AxWOSfcuf7Nnwg",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-030.png",
+      "after_paragraph": 58,
+      "before_paragraph": 59,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-030.png\",\n    \"size_bytes\": 99876\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "0087c8cba4202be2b63134a203849c40fe0ad943d5b27780e38c503d1ba79618",
+      "title": "Summary: issues 2–4",
+      "semantic_paragraph_spans": [
+        [
+          58,
+          58
+        ]
+      ],
+      "alignment_reason_zh": "P58口头依次回顾四问题，其中channel access/multihop/low power与本页2–4列表对应；先出现30再29是先总结问题再补自治性，须保留。",
+      "pdf_page": 15,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 58,
+        "timestamp": "01:12:31",
+        "block_id": "doxcnlCwSr4UfbjcyryMoakOTnd",
+        "heading": "58 · 01:12:31 · 休眠层次及D2D四大问题总结"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 59,
+        "timestamp": "01:13:43",
+        "block_id": "doxcnYyQbfQ2WpNFuVLh0Kv6FLc",
+        "heading": "59 · 01:13:43 · 自主自组织网络需要分布式算法"
+      }
+    },
+    {
+      "image_ordinal": 10,
+      "block_id": "doxcnvaJRLJSBsWZNiQ87iV7B1g",
+      "figure_number": 29,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第15页上半页 · 图29（按PDF顺序）",
+      "token": "AVdkbtCLqotEYCxOyc1cL5JBn9b",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-029.png",
+      "after_paragraph": 59,
+      "before_paragraph": 60,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-029.png\",\n    \"size_bytes\": 82235\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "28aed727ab5c21f1b4a7f99c994b91b7807cd231fa7bd82ceb8cf6e1314c36be",
+      "title": "Summary: autonomous and distributed",
+      "semantic_paragraph_spans": [
+        [
+          59,
+          60
+        ]
+      ],
+      "alignment_reason_zh": "P59追加autonomous/spontaneous并要求distributed，P60定义本地信息独立决策，与原页前半对应，位于图30之后正确。",
+      "pdf_page": 15,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 59,
+        "timestamp": "01:13:43",
+        "block_id": "doxcnYyQbfQ2WpNFuVLh0Kv6FLc",
+        "heading": "59 · 01:13:43 · 自主自组织网络需要分布式算法"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 60,
+        "timestamp": "01:14:59",
+        "block_id": "doxcnU2vIS2OqbvqfMLFdsmGRuf",
+        "heading": "60 · 01:14:59 · 分布式决策与集中式决策"
+      }
+    },
+    {
+      "image_ordinal": 11,
+      "block_id": "doxcnop3cfdRJHalN0MUU7nIJUd",
+      "figure_number": 31,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第16页上半页 · 图31（按PDF顺序）",
+      "token": "E1rVbfwSNoSuifxIXvJcczGxnud",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-031.png",
+      "after_paragraph": 61,
+      "before_paragraph": 62,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-031.png\",\n    \"size_bytes\": 58281\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "ac20ff6dcf15f749fe2f6796fa89e5a75e84e463ab6d01cc9757a77136beac58",
+      "title": "Examples of Technologies",
+      "semantic_paragraph_spans": [
+        [
+          61,
+          62
+        ]
+      ],
+      "alignment_reason_zh": "P61列ad hoc Wi-Fi、cellular、vehicular、Bluetooth，P62补BAN和sensor networks，正合清单。",
+      "pdf_page": 16,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 61,
+        "timestamp": "01:15:51",
+        "block_id": "doxcnnd9MotHcB1ipd7DojP5swc",
+        "heading": "61 · 01:15:51 · Wi-Fi、蜂窝、车联网与蓝牙实例"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 62,
+        "timestamp": "01:17:37",
+        "block_id": "doxcnAhRZPvlIOnta4WTlFIQMKe",
+        "heading": "62 · 01:17:37 · 体域网应用与传感器网络导入"
+      }
+    },
+    {
+      "image_ordinal": 12,
+      "block_id": "doxcn4P6pcUgJXXgnInKxgeHxbe",
+      "figure_number": 34,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第17页下半页 · 图34（按PDF顺序）",
+      "token": "E5BMbAaQJo09VMxxfzMc1o0WnQ4",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-034.png",
+      "after_paragraph": 62,
+      "before_paragraph": 63,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-034.png\",\n    \"size_bytes\": 89889\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "c3fa6b314c33ec98c983343e4e946b444da2c8c8e8cbe1f22a84a17c9e5bfc73",
+      "title": "Body Area Networks: applications",
+      "semantic_paragraph_spans": [
+        [
+          62,
+          62
+        ]
+      ],
+      "alignment_reason_zh": "P62具体讲身上传感器、健康、帮助残障者、给药等，原页BAN应用说明比后续纯参数页更贴切。",
+      "pdf_page": 17,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 62,
+        "timestamp": "01:17:37",
+        "block_id": "doxcnAhRZPvlIOnta4WTlFIQMKe",
+        "heading": "62 · 01:17:37 · 体域网应用与传感器网络导入"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 63,
+        "timestamp": "01:19:44",
+        "block_id": "doxcnZWllTc7yW79oT5pZJTIWCg",
+        "heading": "63 · 01:19:44 · 参考链接与转入传感器网络"
+      }
+    },
+    {
+      "image_ordinal": 13,
+      "block_id": "doxcnSzY2iENK6B9kD6uYJjDWBb",
+      "figure_number": 32,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第16页下半页 · 图32（按PDF顺序）",
+      "token": "PYNAbS1aSoywH7x2emJcAW64nSe",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-032.png",
+      "after_paragraph": 63,
+      "before_paragraph": 64,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-032.png\",\n    \"size_bytes\": 104928\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "8919a3803b01b124aae8f63b73f59a58d8ed8ead1b0e967ee3aed6418bb26530",
+      "title": "WLAN/Cellular based: links",
+      "semantic_paragraph_spans": [
+        [
+          63,
+          63
+        ]
+      ],
+      "alignment_reason_zh": "P63明确这里有网页链接可选看并允许跳过；原图包含AllJoyn/Wi-FiDirect/LTEDirect链接，虽图号32低于前一BAN图34但讲话就是回到链接页，应保留。",
+      "pdf_page": 16,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 63,
+        "timestamp": "01:19:44",
+        "block_id": "doxcnZWllTc7yW79oT5pZJTIWCg",
+        "heading": "63 · 01:19:44 · 参考链接与转入传感器网络"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 64,
+        "timestamp": "01:21:04",
+        "block_id": "doxcnT4mElk3ULQXZlOEzpFzwHh",
+        "heading": "64 · 01:21:04 · 传感器作为物联网主要组成部分"
+      }
+    },
+    {
+      "image_ordinal": 14,
+      "block_id": "doxcnZjjMOwvX4Z7X0JASVduvUh",
+      "figure_number": 1,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第1页上半页 · 图1（按PDF顺序）",
+      "token": "X8JibVpyvo4snkxOSD6cZYBnnRd",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-04-Sensors-MAC-001.png",
+      "after_paragraph": 64,
+      "before_paragraph": 65,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-04-Sensors-MAC-001.png\",\n    \"size_bytes\": 58409\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "eb0969456abf60f87d37b81502d699611c570b5a952ecdbaa2a0894a190cfead",
+      "title": "Sensor Networks: main component of IoT",
+      "semantic_paragraph_spans": [
+        [
+          64,
+          64
+        ]
+      ],
+      "alignment_reason_zh": "P64转入sensor并明确IoT主要构成，与标题页完全对应。",
+      "pdf_page": 1,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 64,
+        "timestamp": "01:21:04",
+        "block_id": "doxcnT4mElk3ULQXZlOEzpFzwHh",
+        "heading": "64 · 01:21:04 · 传感器作为物联网主要组成部分"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 65,
+        "timestamp": "01:21:32",
+        "block_id": "doxcn88v1Pq7g71TqT7Je7CqsBe",
+        "heading": "65 · 01:21:32 · 恶劣与冰冻地区的远程监测"
+      }
+    },
+    {
+      "image_ordinal": 15,
+      "block_id": "doxcnabPxX2MUZVy3IBzQYPUfOh",
+      "figure_number": 2,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第1页下半页 · 图2（按PDF顺序）",
+      "token": "N49MbEcH3o3ZrtxPRDNcL1jpnLh",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-04-Sensors-MAC-002.png",
+      "after_paragraph": 65,
+      "before_paragraph": 66,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-04-Sensors-MAC-002.png\",\n    \"size_bytes\": 317110\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "dec127dc6df9dbe628c261d64dd6a1d6713c27748ee0b3840f91245de98702d3",
+      "title": "Sensor Networks: distributed sensing and 802.15.4",
+      "semantic_paragraph_spans": [
+        [
+          65,
+          69
+        ]
+      ],
+      "alignment_reason_zh": "P65大面积环境监测，P67明确紫色节点，P68无线链路/汇聚，P69低功耗低码率并指15而不是Wi-Fi11，原页紫点风景和802.15.4信息对应；不据图补改原口述未清楚标准号。",
+      "pdf_page": 1,
+      "pdf_half": "lower",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 65,
+        "timestamp": "01:21:32",
+        "block_id": "doxcn88v1Pq7g71TqT7Je7CqsBe",
+        "heading": "65 · 01:21:32 · 恶劣与冰冻地区的远程监测"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 66,
+        "timestamp": "01:23:10",
+        "block_id": "doxcnu8DLmvK4D9Wd9PHPspY0Lf",
+        "heading": "66 · 01:23:10 · 通过传感器尽早探测火灾"
+      }
+    },
+    {
+      "image_ordinal": 16,
+      "block_id": "doxcnghE7XeTUZPRaiB4cge3mNe",
+      "figure_number": 3,
+      "caption": "课件：04-Sensors-MAC.pdf · PDF第2页上半页 · 图3（按PDF顺序）",
+      "token": "WflUbZ8ubo9einxWIwwcTTaMnch",
+      "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-04-Sensors-MAC-003.png",
+      "after_paragraph": 70,
+      "before_paragraph": 71,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-0803/slide-images/slide-04-Sensors-MAC-003.png\",\n    \"size_bytes\": 69595\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "7176d850d61eb93ca6f800cd4edaf4837a11319d5f1273f2c34d60e3a7fe43b7",
+      "title": "Sensor Architecture",
+      "semantic_paragraph_spans": [
+        [
+          70,
+          71
+        ]
+      ],
+      "alignment_reason_zh": "P70逐个指sensing board、signal processing、无线网络接口，P71继续信号处理并预告休息后余下组件，与硬件方块图完全对应。",
+      "pdf_page": 2,
+      "pdf_half": "upper",
+      "source_pdf": "04-Sensors-MAC.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 70,
+        "timestamp": "01:27:34",
+        "block_id": "doxcnvyAGmNMwHccj9zIjrUiYcc",
+        "heading": "70 · 01:27:34 · 传感板、信号处理与时空采样"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 71,
+        "timestamp": "01:31:38",
+        "block_id": "doxcndUsBLUAiBjMB4rTHsc2pwb",
+        "heading": "71 · 01:31:38 · 由离散测量重建连续物理信号"
+      }
+    }
+  ],
+  "not_missing": [
+    {
+      "source": "03-D2D-Networks.pdf",
+      "figure_numbers": [
+        29,
+        30,
+        32,
+        34
+      ],
+      "reason": "回看顺序有逐段语义依据，不按数字重排。"
+    },
+    {
+      "source": "03-D2D-Networks.pdf",
+      "figure_numbers": [
+        33,
+        35
+      ],
+      "reason": "未展开车辆GPS/资源详细条目或BAN250Kbps等参数，不以口头列举技术作为补整页证据。"
+    },
+    {
+      "source": "04-Sensors-MAC.pdf",
+      "figure_numbers": [
+        4,
+        5,
+        6
+      ],
+      "reason": "P71明确余下组件休息后再讲；本课没有讲传输介质/传感器要求与后续网络特性全页，不提前按页码补。"
+    }
+  ],
+  "scope": "完整逐图语义审计；仅补经核准固定PDF图并更新文首图数，所有原正文/导航/录音/原图及其顺序已逐块核验保持不变。",
+  "cautions": [
+    "D2D课件实际图21起页脚编号比PDF半页序号不同，本审计按caption固定PDF顺序定位。",
+    "原转写中不明确标准号/节点名/数字不由图片推断修正文。",
+    "未用原音认证转写；未打包私人音频。",
+    "不按图号或主题关键词机械补图或重排。",
+    "仅在已核准锚点补固定PDF图并将文首图数16更新为17；其他原块及顺序完全不变；原音/原transcript/minutes未动。"
+  ],
+  "unresolved_source_gap_count": 3,
+  "manifest_update_recommendation": {
+    "slides_audit_pending": false,
+    "slides_audit_complete": true,
+    "slides_aligned_count": 16,
+    "slides_missing_confirmed_count": 0,
+    "slides_misaligned_count": 0,
+    "unresolved_visual_source_gaps": 3,
+    "audio_fidelity_verified": false,
+    "slides_missing_resolved_count": 1,
+    "image_count": 17,
+    "original_images_count": 16
+  },
+  "added_image_count": 1,
+  "final_image_count": 17,
+  "final_remote_verification": {
+    "all_original_nonroot_blocks_except_status_unchanged": true,
+    "original_image_count": 16,
+    "original_images_unchanged": true,
+    "original_order_unchanged": true,
+    "all_original_bilingual_paragraph_blocks_unchanged": true,
+    "paragraph_count": 71,
+    "original_recording_and_resource_blocks_unchanged": true,
+    "heading2_count": 71,
+    "heading1_count": 9,
+    "final_image_count": 17,
+    "new_images": [
+      {
+        "source_pdf": "03-D2D-Networks.pdf",
+        "figure_number": 20,
+        "pdf_page": 10,
+        "pdf_half": "lower",
+        "title": "Multi-hop Communications: advantages and disadvantages",
+        "semantic_paragraphs": [
+          15,
+          18
+        ],
+        "paragraph_ordinal": 15,
+        "insert_after_heading2_block_id": "doxcnPQCnI4YaLLLKjAZvh9pECD",
+        "before_body_block_id": "doxcnunvcpqJRqLECqArshZZwRd",
+        "evidence": "P14明确返回另一套slides，P15指这是昨天最后讲的页，P16明确多跳及advantages/disadvantages；上一课最后图20恰为多跳利弊（PDF10下），当前文档未含此页，不是只因说multi-hop就补。",
+        "status": "inserted_and_fully_verified",
+        "receipt_stem": "d2d020",
+        "image_path": "/workspace/shared/course-1015-0803/slide-images/slide-03-D2D-Networks-020.png",
+        "sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+        "clip": [
+          118.0,
+          463.0,
+          478.0,
+          733.0
+        ],
+        "caption": "课件：03-D2D-Networks.pdf · PDF第10页下半页 · 图20（按PDF顺序）",
+        "block_id": "doxcneEorbvt0WUNV93sEhto8ng",
+        "token": "TJvSbhLsioWHzNxDZ74cwuXgnWf",
+        "remote_download_sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+        "exact_placement_verified": true
+      }
+    ],
+    "exact_placement_verified": true,
+    "all_new_remote_image_bytes_identical": true,
+    "before_snapshot_sha256": "c51bc9411b36e96e70677834a04ad92c7872b4fc490c283c83981d7f2010af5a",
+    "after_snapshot_sha256": "5ecb4626dbae36d521cf284127d677232e4a00b60ddef496dd9142dfd6f9646c",
+    "status_block_id": "doxcnXIA3L2fB2ws4qCDCHY0Cvc",
+    "old_status_fragment": "已匹配插入16张课件图",
+    "new_status_fragment": "已匹配插入17张课件图"
+  },
+  "missing_slide_remediation_complete": true,
+  "all_confirmed_pdf_slides_present": true
+}
