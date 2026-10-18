@@ -1,0 +1,16 @@
+{
+  "recording_id": "20261012-1331",
+  "source_block_count": 98,
+  "displayed_paragraph_count": 78,
+  "all_source_blocks_once_in_original_order": true,
+  "full_text_read_complete": true,
+  "full_text_review_method": "Compared all original blocks with all independent ASR windows and tail, reviewed English arrays and paragraph boundaries; no manual audio listening claimed",
+  "independent_asr_complete": true,
+  "main_asr_chunks": 52,
+  "independent_final_tail_complete": true,
+  "raw_remote_verified_files": 54,
+  "raw_commit": "2887ed5c04d125b590e0c0499eb72ad8d7167881",
+  "uncertainty_retained": true,
+  "bilingual_complete": true,
+  "updated_at": "2026-10-18T03:38:01.273911+00:00"
+}
