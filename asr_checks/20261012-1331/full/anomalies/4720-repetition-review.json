@@ -1,0 +1,206 @@
+{
+  "region_seconds": [
+    2840,
+    2870
+  ],
+  "current_medium_raw_file": "chunk-016.raw.json",
+  "current_medium_raw_sha256": "8892f7f36d924424ae88e73cebd2bd1218330cee0dd9924f6c31d87230065f05",
+  "suspicious_segment": {
+    "id": 2,
+    "seek": 15000,
+    "start": 155.94,
+    "end": 179.98,
+    "text": " I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,",
+    "tokens": [
+      50363,
+      314,
+      1101,
+      7926,
+      11,
+      314,
+      1101,
+      7926,
+      11,
+      314,
+      1101,
+      7926,
+      11,
+      314,
+      1101,
+      7926,
+      11,
+      314,
+      1101,
+      7926,
+      11,
+      314,
+      1101,
+      7926,
+      11,
+      314,
+      1101,
+      7926,
+      11,
+      314,
+      1101,
+      7926,
+      11,
+      50713
+    ],
+    "avg_logprob": -0.7334466321127755,
+    "compression_ratio": 3.9545454545454546,
+    "no_speech_prob": 0.6191928386688232,
+    "words": [
+      {
+        "start": 155.94,
+        "end": 157.34,
+        "word": " I'm",
+        "probability": 0.1797519251704216
+      },
+      {
+        "start": 157.34,
+        "end": 157.34,
+        "word": " sorry,",
+        "probability": 0.2270434945821762
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " I'm",
+        "probability": 0.39209283888339996
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " sorry,",
+        "probability": 0.5507591962814331
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " I'm",
+        "probability": 0.8351947367191315
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " sorry,",
+        "probability": 0.9144122004508972
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " I'm",
+        "probability": 0.8762331604957581
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " sorry,",
+        "probability": 0.9496243000030518
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " I'm",
+        "probability": 0.8873272240161896
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " sorry,",
+        "probability": 0.9673192501068115
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " I'm",
+        "probability": 0.9042720198631287
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " sorry,",
+        "probability": 0.9716634750366211
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " I'm",
+        "probability": 0.9081524014472961
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " sorry,",
+        "probability": 0.9779005646705627
+      },
+      {
+        "start": 172.16,
+        "end": 172.16,
+        "word": " I'm",
+        "probability": 0.9072104692459106
+      },
+      {
+        "start": 172.16,
+        "end": 179.98,
+        "word": " sorry,",
+        "probability": 0.9787044525146484
+      }
+    ],
+    "temperature": 0.0
+  },
+  "small_model_check": {
+    "raw_file": "small.en-4720-4750.raw.json",
+    "raw_sha256": "a831944c45eec2357f24e323dce2b8663aeba16597aa682562d2f0d48b4663d0",
+    "segments": [],
+    "model": {
+      "repo": "Systran/faster-whisper-small.en",
+      "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+      "requested_model": "small.en"
+    },
+    "parameters": {
+      "language": "en",
+      "beam_size": 5,
+      "temperature": 0.0,
+      "initial_prompt": null,
+      "condition_on_previous_text": false,
+      "vad_filter": false,
+      "word_timestamps": true
+    }
+  },
+  "older_qwen_evidence": {
+    "source_commit": "2887ed5",
+    "recording": "raw_asr/recovery_20261018/20261012-1331/recording.json",
+    "note": "Older recovery rerun, not the lost first run",
+    "overlapping_segments": [
+      {
+        "start_seconds": 2750.0,
+        "end_seconds": 2870.0,
+        "text": "",
+        "raw_decoded": "language None<asr_text><|im_end|>",
+        "generated_tokens": 4,
+        "last_token": 151645,
+        "flags": [
+          "empty_output"
+        ],
+        "inference_seconds": 4.559621835000144,
+        "at": "2026-10-18T02:56:45.345527+00:00",
+        "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+      },
+      {
+        "start_seconds": 2860.0,
+        "end_seconds": 2980.0,
+        "text": "Okay, good. So let's look at our computation. So the probability that B and C collide is, as we said, very simply. So not worrying. This is a very, very simple derivation. Is the probability.",
+        "raw_decoded": "language English<asr_text>Okay, good. So let's look at our computation. So the probability that B and C collide is, as we said, very simply. So not worrying. This is a very, very simple derivation. Is the probability.<|im_end|>",
+        "generated_tokens": 50,
+        "last_token": 151645,
+        "flags": [],
+        "inference_seconds": 9.331488830001035,
+        "at": "2026-10-18T02:56:54.680366+00:00",
+        "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+      }
+    ]
+  },
+  "assessment": "Eight repetitions of I am sorry are unsupported by independent short-window small.en (empty output) and older Qwen window (empty output for 2750-2870). High no-speech score, high compression and repeated zero-duration anchors strongly suggest a model hallucination. Preserve raw; do not copy repetitions into candidate as confirmed speech. No human listening performed."
+}

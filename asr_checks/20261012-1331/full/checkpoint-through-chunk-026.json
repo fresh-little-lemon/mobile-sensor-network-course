@@ -1,0 +1,150 @@
+{
+  "included_chunks": [
+    "chunk-021",
+    "chunk-022",
+    "chunk-023",
+    "chunk-024",
+    "chunk-025",
+    "chunk-026"
+  ],
+  "completed_count_when_packaged": 27,
+  "total_chunks": 32,
+  "elapsed_seconds": 776.4489957109981,
+  "files": [
+    {
+      "path": "chunk-021.raw.json",
+      "bytes": 77193,
+      "sha256": "ccc6cd959c77464351d13644476fee645526c500d9dda4536fcfbad06323f70b"
+    },
+    {
+      "path": "chunk-021.raw.jsonl",
+      "bytes": 44218,
+      "sha256": "ffcb888760fa23d405e6d7f3876186bfe34e3fa4e72f5d73c4abe768aaa9a2d9"
+    },
+    {
+      "path": "chunk-021.absolute.txt",
+      "bytes": 2994,
+      "sha256": "1df812024508980afbea6d74f59604eea64e54651009960ef882bde44c1624c3"
+    },
+    {
+      "path": "chunk-021.sha256",
+      "bytes": 260,
+      "sha256": "61259ab72afc21283be98702b858f4047dbe6dcd6a20d8c846a167545755780a"
+    },
+    {
+      "path": "chunk-022.raw.json",
+      "bytes": 68634,
+      "sha256": "a2ec679fbd931318f0ed751a9c1fe53be9c2e080ace98443fc41fa9c3fc67745"
+    },
+    {
+      "path": "chunk-022.raw.jsonl",
+      "bytes": 39103,
+      "sha256": "2ef4bd0606dda4d0621c28b66dce68740d38dc35515a1fb6ac48e731d2155cef"
+    },
+    {
+      "path": "chunk-022.absolute.txt",
+      "bytes": 2674,
+      "sha256": "75c4a14d68b49be4e95aa73070023c890ab6ac01087df5e380caf04a2e66d861"
+    },
+    {
+      "path": "chunk-022.sha256",
+      "bytes": 260,
+      "sha256": "871d67699dc77ceddc79a1f0aa634cedd8e29c6caeeef75a717b4b9a8473b929"
+    },
+    {
+      "path": "chunk-023.raw.json",
+      "bytes": 64590,
+      "sha256": "28b2e366d76e32bb2fd2c68be2763b78c772ea03b040b845b5f1255221ce5f90"
+    },
+    {
+      "path": "chunk-023.raw.jsonl",
+      "bytes": 36673,
+      "sha256": "64dd959278d99dabd4d179ff5c3afb495b93f75c68636e7aa430cd82527313b2"
+    },
+    {
+      "path": "chunk-023.absolute.txt",
+      "bytes": 2546,
+      "sha256": "006dcb18649f95093f2b668d16a2425b7d74faece837a046281d98264bb0c002"
+    },
+    {
+      "path": "chunk-023.sha256",
+      "bytes": 260,
+      "sha256": "4b6fd0c3c252c6258ff88ae4e0b720c4222b17bf9fbb57def3bf8c92d3c76dc7"
+    },
+    {
+      "path": "chunk-024.raw.json",
+      "bytes": 63446,
+      "sha256": "38e5e8d1933daf61c0c323cb60ead5995d27402ecaff0ec7d35cd69e3b2f09a9"
+    },
+    {
+      "path": "chunk-024.raw.jsonl",
+      "bytes": 35647,
+      "sha256": "682640f4f452cab505a3f9feced953c8521cc7cd678d17557c7bba51185bda8a"
+    },
+    {
+      "path": "chunk-024.absolute.txt",
+      "bytes": 2261,
+      "sha256": "65f323be22537915f8721b59cb556d2e845eaf37108dc22574b99aefca3959c2"
+    },
+    {
+      "path": "chunk-024.sha256",
+      "bytes": 260,
+      "sha256": "2caeb264b9e04db6383527af604ce991ef98121f999b8857b108378ecc679305"
+    },
+    {
+      "path": "chunk-025.raw.json",
+      "bytes": 61424,
+      "sha256": "dc74bcb4c8f2f9ae53223f5837c5db4edfd53edbb3f05b39047feb4bf17e139c"
+    },
+    {
+      "path": "chunk-025.raw.jsonl",
+      "bytes": 34505,
+      "sha256": "9178400e3cb66d53fb24eff6030312a9bad6ab7e7fd6691fe69c8ee355936697"
+    },
+    {
+      "path": "chunk-025.absolute.txt",
+      "bytes": 2225,
+      "sha256": "25b03f73e89363033f584bf8bd89169ada753843d6f8749059b042584dea0107"
+    },
+    {
+      "path": "chunk-025.sha256",
+      "bytes": 260,
+      "sha256": "8055353cc826ea38d8ee1d0284457743cf8da23a84c1a1da98d0a5c7b69e36dd"
+    },
+    {
+      "path": "chunk-026.raw.json",
+      "bytes": 69219,
+      "sha256": "0b1c961be3978c40fae8385214f33b0b0643cd5aa77cc8dc43210509c861af8d"
+    },
+    {
+      "path": "chunk-026.raw.jsonl",
+      "bytes": 39276,
+      "sha256": "1db5027741784bcf24850601a6029b97446cf81e16d80b0c59b9afcfe1c382a5"
+    },
+    {
+      "path": "chunk-026.absolute.txt",
+      "bytes": 2628,
+      "sha256": "73836379636b983a6674bf779d3dd6fb49b1d463e7566c18a9ba3fc948a7b831"
+    },
+    {
+      "path": "chunk-026.sha256",
+      "bytes": 260,
+      "sha256": "8fb5a9b756939d3e289beef95ba03aa8e5d263d8220815c7e82d6323b99eec9c"
+    },
+    {
+      "path": "anomalies/4720-repetition-review.json",
+      "bytes": 5594,
+      "sha256": "83e2b079452d5dbd3ce373f7a9ce7be4f7fce6c1f40e60e35ab2cf5758c1918e"
+    },
+    {
+      "path": "anomalies/small.en-4720-4750.raw.json",
+      "bytes": 3444,
+      "sha256": "a831944c45eec2357f24e323dce2b8663aeba16597aa682562d2f0d48b4663d0"
+    },
+    {
+      "path": "anomalies/small.en-4720-4750.raw.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}
