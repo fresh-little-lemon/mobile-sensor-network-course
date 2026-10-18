@@ -1,0 +1,25 @@
+[01:29:45.000 --> 01:29:53.160] the payload, you have to wait, this transmission of physical layer, the
+[01:29:53.160 --> 01:30:00.720] amber physical layer, header, MAC header and then sieves and then ACK, lots of
+[01:30:00.720 --> 01:30:07.160] time to just transmit the payload, so you better have a long payload because otherwise
+[01:30:07.160 --> 01:30:13.120] your protocol is very very inefficient okay and this is the best
+[01:30:13.120 --> 01:30:19.920] case, if your transmission fails and you have to perform back off and re-transmit
+[01:30:19.920 --> 01:30:24.140] the packet, then you have to wait for the channel to become idle.
+[01:30:24.600 --> 01:30:31.380] This, back off time, hope that the channel remains idle and you can
+[01:30:31.380 --> 01:30:37.660] decrease the back off counter continuously and over time reach zero
+[01:30:37.660 --> 01:30:45.160] and then transmit your packet and that saves an arc. Lots of things, right? Just again to transmit
+[01:30:45.160 --> 01:30:52.780] a single failure. So we realized that the efficiency of Wi-Fi is actually pretty low
+[01:30:53.500 --> 01:31:01.300] and this holds unfortunately for all versions of Wi-Fi, okay? We have looked at the basic
+[01:31:01.300 --> 01:31:10.460] version but it's actually a curse for all versions and on average you can consider that the
+[01:31:10.460 --> 01:31:21.060] efficiency of this scheme is about 50-55% which is definitely low right the maximum efficiency
+[01:31:21.060 --> 01:31:30.180] will be 100% so we are halfway okay that said we are just missing one last
+[01:31:31.780 --> 01:31:40.960] mechanism in the wi-fi channel access and then we are done with the basic version of wi-fi that
+[01:31:40.960 --> 01:31:49.240] is the most important one okay so we just needed to introduce and we do that after the
+[01:31:49.240 --> 01:31:59.400] break, this last piece of the protocol that is related to what actually
+[01:31:59.400 --> 01:32:08.540] something that we know already about the famous form in the frame space the
+[01:32:08.540 --> 01:32:17.100] extended IFS remember the extended IFS remember the priority ladder we have
+[01:32:17.100 --> 01:32:31.260] we said let's first focus on sieves and dieves, understand how they are used and then we
+[01:32:31.260 --> 01:32:35.020] will go back to the other tummy intervals.
+[01:32:36.040 --> 01:32:46.220] So now it's time to talk about the longest among these tummy intervals that was indeed
+[01:32:46.220 --> 01:32:57.960] the extended IFS and just to give you an idea this extended IFS or this time interval
+[01:32:58.780 --> 01:33:10.380] can be as long as about 300 microseconds so definitely longer than the others that we have
+[01:33:10.380 --> 01:33:14.980] considered so far. It depends on the version of

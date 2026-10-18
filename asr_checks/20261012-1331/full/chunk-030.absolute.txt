@@ -1,0 +1,24 @@
+[01:26:45.000 --> 01:26:58.540] this packet that travels from A to access point one will have A as the transmitter address
+[01:26:59.400 --> 01:27:09.840] which is also the source's address, you will have access point one address as a receiver
+[01:27:11.720 --> 01:27:21.220] and then you will have the destination address, the B's address as destination address. So it needs
+[01:27:21.220 --> 01:27:32.100] to have three addresses in the MAC header. Once the packet is received at access point one,
+[01:27:32.100 --> 01:27:39.400] and access point 1 has to send the packet to access point 2 so that the
+[01:27:39.400 --> 01:27:46.760] packet eventually can be delivered to the final destination. This packet when
+[01:27:46.760 --> 01:27:56.640] the packet is here, it names 4 addresses in the MAC header. Why? Because we need to
+[01:27:56.640 --> 01:28:07.600] specifying that this packet originally came from source A, the transmitter now
+[01:28:07.600 --> 01:28:18.780] is access point 1, the receiver now is access point 2 and the final
+[01:28:18.780 --> 01:28:28.940] destination where this packet has to go is B, so in extended service sets
+[01:28:28.940 --> 01:28:38.120] when the Wi-Fi packets travel from one access point to another they need four
+[01:28:38.120 --> 01:28:47.700] addresses so this is just to say that the size of the MAC header may vary
+[01:28:47.700 --> 01:28:57.260] maybe shorter or longer, anyway so you already have to account for this
+[01:28:57.260 --> 01:29:04.820] physical preamble, physical header, MAC header, the payload is the useful
+[01:29:04.820 --> 01:29:15.300] interesting part, but then if the packet is hopefully, so in the best case, delivered
+[01:29:15.300 --> 01:29:20.900] successfully you have sieves, that is another time interval you have to
+[01:29:20.900 --> 01:29:27.040] wait for and then acknowledgement, that is a control packet, so not
+[01:29:27.040 --> 01:29:32.520] interesting from the application point of view and the acknowledgement again
+[01:29:32.520 --> 01:29:40.660] is made of physical preamble, physical header, Mach header, lots of things to be
+[01:29:40.660 --> 01:29:47.660] transmitted and that's the best case so you to transmit the payload you have to
+[01:29:47.660 --> 01:29:55.660] wait, dips, transmission of physical layers, preamble, physical layer, header, Mach
+[01:29:55.660 --> 01:30:05.340] header and then sieve and then hack. Lots of time to just transmit a payload, so you better have
+[01:30:05.340 --> 01:30:13.100] a long payload because otherwise your protocol is very very inefficient. And this is the best
+[01:30:13.100 --> 01:30:14.820] case if your transmission
