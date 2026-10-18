@@ -1,0 +1,1067 @@
+{
+  "document_title": "双语对照：录音机-20261008-1049",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/ENxEdQVrvoRZ6lxgUeAcu5yBnng",
+  "original_transcript_url": "https://lcn6dqn3m0yr.feishu.cn/docx/OtMJdWtkIo9pNOxaFvzcIq5Enkd",
+  "original_audio_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmv6oc873d7t873eo9sf3",
+  "prepared_for": "授权的课程私仓同步准备；未执行远程发布",
+  "source_pdfs": [
+    {
+      "filename": "001-BasicConcepts.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "b03d550cf3d45a59f19220ed258504ab8f0d6c7e32f57413a3fdb664a4335776",
+      "pages": 27,
+      "figures_used": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        46,
+        47,
+        48,
+        45,
+        49,
+        50,
+        52
+      ]
+    }
+  ],
+  "audited_at_utc": "2026-10-18T14:13:00Z",
+  "audit_scope": "All88 bilingual paragraphs fully read; all25 original images downloaded read-only and visually compared with pinned PDF pages14–26; boundary source pages26–27 checked. No remote edits made by audit worker.",
+  "paragraph_count": 88,
+  "original_image_count": 25,
+  "added_image_count": 0,
+  "image_count": 25,
+  "confirmed_defects": [],
+  "original_images_misaligned_count": 0,
+  "not_missing": [
+    {
+      "figure_number": 45,
+      "reason": "Original image appears after paragraph76, matching its detailed recap of RX recomputation and code comparison. Its out-of-PDF-order position is semantically appropriate and preserved."
+    },
+    {
+      "figure_number": 47,
+      "reason": "The same source slide contains repetition coding and single parity-bit examples. Both spoken topics in paragraphs52–70 are covered; no separate parity-bit figure is missing."
+    },
+    {
+      "figure_number": 51,
+      "reason": "The recording introduces ARQ in paragraph79 then moves directly to packets/header/payload in80–86. It does not explain the slide51 FEC-versus-ARQ parity correction/detection and CRC comparison, so absence is not a confirmed omission."
+    },
+    {
+      "figure_numbers": [
+        53,
+        54
+      ],
+      "reason": "Sequence numbers and the three ARQ protocols are not covered in this recording. Paragraph87 explicitly defers how ARQ works until tomorrow."
+    }
+  ],
+  "cautions": [
+    "The first paragraph is originally timestamped00:01:10; no00:00:00 timestamp was invented.",
+    "Figure34 is semantically aligned with the slow/fast fading discussion, while the spoken color characterization is retained verbatim rather than scientifically corrected.",
+    "Figure45 is intentionally preserved after paragraph76, not reordered by PDF numbering.",
+    "Figure51 absence is not a confirmed omission: CRC and FEC/ARQ correction-versus-detection comparison are not developed in this excerpt.",
+    "This is source identity and semantic-placement auditing, not scientific correction of source slides or verbatim lecture.",
+    "Prepared only for the authorized private course repository; no independent public redistribution rights review."
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "figure_number": 27,
+      "slide_number": 27,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Diffraction: secondary electromagnetic sources",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 14,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=14",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-027.png",
+      "sha256": "cbd1b70b15aec55ace099b0ca94d03c2827f45a428f41e0e8deb75e14b5ceb6b",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnhfyP3mesXYb9TUXWmNXFyM",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第14页上半页 · 图27（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第14页上半页 · 图27（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 1,
+        "timestamp": "00:01:10",
+        "block_id": "doxcntOINkOBNOMdZ6HNE6Lkm4f",
+        "heading": "01 · 00:01:10 · 障碍物、衍射与次级波"
+      },
+      "before_paragraph": {
+        "ordinal": 2,
+        "timestamp": "00:01:10",
+        "block_id": "doxcnjJH5AFThYvTLhvV2Xqhygl",
+        "heading": "02 · 00:01:10 · 信号副本继续传播与反射"
+      },
+      "semantic_paragraph_span": [
+        1,
+        4
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第1–4段介绍障碍物产生次级波，图中障碍物、直达波及次级波对应。"
+    },
+    {
+      "image_ordinal": 2,
+      "figure_number": 28,
+      "slide_number": 28,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Reflection: reflected ray and receiver",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 14,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=14",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-028.png",
+      "sha256": "28569688c0dc60674f23077f8624edcf3fa13d2dc6fdd24d3b327e48ebb9b577",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnKVw2QWjfSWAEKdYrMFaUie",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第14页下半页 · 图28（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第14页下半页 · 图28（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 3,
+        "timestamp": "00:01:10",
+        "block_id": "doxcn0ZHuUCBjSTwq6a5CPIX4jf",
+        "heading": "03 · 00:01:10 · 反射改变传播方向"
+      },
+      "before_paragraph": {
+        "ordinal": 4,
+        "timestamp": "00:01:10",
+        "block_id": "doxcnAvEErI97vKGEE1milBv8Jd",
+        "heading": "04 · 00:01:10 · 衍射副本对无线通信的影响"
+      },
+      "semantic_paragraph_span": [
+        2,
+        4
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第2–4段讲反射改变传播方向及反射波到达接收端，图中反射角与TX/RX反射路径对应。"
+    },
+    {
+      "image_ordinal": 3,
+      "figure_number": 29,
+      "slide_number": 29,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Diffraction: path lengths and phase differences",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 15,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=15",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-029.png",
+      "sha256": "dea821566fe529cbeda0afe2aa7226e2152e00d43bca453b85636725700fba77",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnuz9cpOFhegKmTxnBMwlxOf",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第15页上半页 · 图29（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第15页上半页 · 图29（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 7,
+        "timestamp": "00:04:16",
+        "block_id": "doxcn5zXPVxMgd2JB2q3PLlUucg",
+        "heading": "07 · 00:04:16 · 不同路径导致延迟和相位差"
+      },
+      "before_paragraph": {
+        "ordinal": 8,
+        "timestamp": "00:04:16",
+        "block_id": "doxcnxl3fXBSGUpu0WjWxTAWmyh",
+        "heading": "08 · 00:04:16 · 多径副本在接收端叠加"
+      },
+      "semantic_paragraph_span": [
+        5,
+        8
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第5–8段讲用户、接入点、障碍物、不同路径与相位延迟，图中的直达和绕行路径对应。"
+    },
+    {
+      "image_ordinal": 4,
+      "figure_number": 30,
+      "slide_number": 30,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Diffraction: constructive and destructive interference",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 15,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=15",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-030.png",
+      "sha256": "eb02a0bd87e1eebe27ede7ff37ee862e35c1355bb21ccdfa23bc44236f8cd0db",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnaTUlC27lsnMs3vJCs50dJd",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第15页下半页 · 图30（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第15页下半页 · 图30（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 9,
+        "timestamp": "00:06:54",
+        "block_id": "doxcnYFrGAPzEST6ctC9ykgxSTg",
+        "heading": "09 · 00:06:54 · 两个信号副本的简化示例"
+      },
+      "before_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:06:54",
+        "block_id": "doxcnzDtKUAphsz9oAAWITJy01e",
+        "heading": "10 · 00:06:54 · 同相叠加与相长干涉"
+      },
+      "semantic_paragraph_span": [
+        9,
+        15
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第9–15段分别讲相长、完全相消与部分相消，三组波形图完整对应。"
+    },
+    {
+      "image_ordinal": 5,
+      "figure_number": 31,
+      "slide_number": 31,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Multipath: echoes, amplitude and phase",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 16,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=16",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-031.png",
+      "sha256": "2d5a2fcb152a92a88f42aafa01b61479e3bea6008cf5192aa17d95e252fabc22",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnLTjHHqHYS9x0hnI7oYWase",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第16页上半页 · 图31（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第16页上半页 · 图31（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 13,
+        "timestamp": "00:06:54",
+        "block_id": "doxcnjZFj6nijoiCgjHTATh90gc",
+        "heading": "13 · 00:06:54 · 引入多径衰落"
+      },
+      "before_paragraph": {
+        "ordinal": 14,
+        "timestamp": "00:09:55",
+        "block_id": "doxcn5aUh3qOURp0WqwBZveVEZe",
+        "heading": "14 · 00:09:55 · 延迟差与多径相消"
+      },
+      "semantic_paragraph_span": [
+        13,
+        15
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第13–15段正式定义多径衰落并总结多个副本和相位，图中文字与TX/RX回波图对应。"
+    },
+    {
+      "image_ordinal": 6,
+      "figure_number": 32,
+      "slide_number": 32,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Shadowing: slow variation",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 16,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=16",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-032.png",
+      "sha256": "a96aba398d5d0ef8b63cef022496bf16d259dae9daf17f2d3a58a6642ef1f1e3",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnaYr1TwhP94vY7ewUcRgrgh",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第16页下半页 · 图32（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第16页下半页 · 图32（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 18,
+        "timestamp": "00:11:33",
+        "block_id": "doxcnW8PwEXMXAGtqWQkpFsEXAl",
+        "heading": "18 · 00:11:33 · 信道估计、功率补偿与慢衰落"
+      },
+      "before_paragraph": {
+        "ordinal": 19,
+        "timestamp": "00:11:33",
+        "block_id": "doxcnk7iVqD7EZTBYuBMPC5Srre",
+        "heading": "19 · 00:11:33 · 移动障碍物与快衰落"
+      },
+      "semantic_paragraph_span": [
+        16,
+        18
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第16–18段讨论静止或缓慢变化的障碍物、信道估计和慢衰落，阴影衰落图对应。"
+    },
+    {
+      "image_ordinal": 7,
+      "figure_number": 33,
+      "slide_number": 33,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Fast Fading: moving obstacles",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 17,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=17",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-033.png",
+      "sha256": "7dfe61cdebca30b92dbb32403541d672695ca008e5ecceb892bc596b84569631",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnR1sLyDQxKkwjeMcYg1zTVh",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第17页上半页 · 图33（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第17页上半页 · 图33（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 19,
+        "timestamp": "00:11:33",
+        "block_id": "doxcnk7iVqD7EZTBYuBMPC5Srre",
+        "heading": "19 · 00:11:33 · 移动障碍物与快衰落"
+      },
+      "before_paragraph": {
+        "ordinal": 20,
+        "timestamp": "00:13:11",
+        "block_id": "doxcnbLWhKYaPunqMucVAk8f2we",
+        "heading": "20 · 00:13:11 · 快速变化使信道补偿困难"
+      },
+      "semantic_paragraph_span": [
+        19,
+        20
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第19–20段讨论移动障碍物和无法及时补偿的动态环境，移动车辆与快变强度图对应。"
+    },
+    {
+      "image_ordinal": 8,
+      "figure_number": 34,
+      "slide_number": 34,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Example: Shadowing and Fast Fading",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 17,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=17",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-034.png",
+      "sha256": "69bc7208b6c33fec4485c31973cee31ec894d15f8bd0bac397fc78ae67f86a38",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnn7MTSONhkMozfZ5XS9vmEh",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第17页下半页 · 图34（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第17页下半页 · 图34（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 21,
+        "timestamp": "00:13:11",
+        "block_id": "doxcnxCSF0HzOErTTjZDpS3wCFd",
+        "heading": "21 · 00:13:11 · 快慢衰落曲线与衰减幅度"
+      },
+      "before_paragraph": {
+        "ordinal": 22,
+        "timestamp": "00:14:37",
+        "block_id": "doxcn2jcfaki9wLr2FSdAnV6p0g",
+        "heading": "22 · 00:14:37 · 城市宏小区的实测信号强度"
+      },
+      "semantic_paragraph_span": [
+        21,
+        21
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第21段对比快慢时间尺度，图中长时阴影与短时多径波动对应；口述颜色细节按原稿保留。"
+    },
+    {
+      "image_ordinal": 9,
+      "figure_number": 35,
+      "slide_number": 35,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Urban multipath channel: 20–30 dB attenuation",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 18,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=18",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-035.png",
+      "sha256": "b70785529a588f360cf3a937a2925ead2ca1a219a8f5b1972182086d4d87cb07",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn1NOSpOmiWNcjnUVlBDUv1z",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第18页上半页 · 图35（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第18页上半页 · 图35（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 21,
+        "timestamp": "00:13:11",
+        "block_id": "doxcnxCSF0HzOErTTjZDpS3wCFd",
+        "heading": "21 · 00:13:11 · 快慢衰落曲线与衰减幅度"
+      },
+      "before_paragraph": {
+        "ordinal": 22,
+        "timestamp": "00:14:37",
+        "block_id": "doxcn2jcfaki9wLr2FSdAnV6p0g",
+        "heading": "22 · 00:14:37 · 城市宏小区的实测信号强度"
+      },
+      "semantic_paragraph_span": [
+        21,
+        21
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第21段明确提到快衰落造成20–30dB衰减，图下注记与接收功率曲线直接对应。"
+    },
+    {
+      "image_ordinal": 10,
+      "figure_number": 36,
+      "slide_number": 36,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Example: macrocell",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 18,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=18",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-036.png",
+      "sha256": "b628bef9c99f9669884d7541a7633779229fd026b443082d58138e2be27217cb",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnprL9yMKQhqcicJyH7d7YPh",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第18页下半页 · 图36（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第18页下半页 · 图36（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 22,
+        "timestamp": "00:14:37",
+        "block_id": "doxcn2jcfaki9wLr2FSdAnV6p0g",
+        "heading": "22 · 00:14:37 · 城市宏小区的实测信号强度"
+      },
+      "before_paragraph": {
+        "ordinal": 23,
+        "timestamp": "00:14:37",
+        "block_id": "doxcn9vYUwZ7vkLPtwDeD9iSlle",
+        "heading": "23 · 00:14:37 · 位置、障碍物与信号质量"
+      },
+      "semantic_paragraph_span": [
+        22,
+        23
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第22–23段说明宏小区和城市接收强度分布，三维城市及彩色覆盖图对应。"
+    },
+    {
+      "image_ordinal": 11,
+      "figure_number": 37,
+      "slide_number": 37,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Microcell environment",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 19,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=19",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-037.png",
+      "sha256": "737b5d3f28018d7fa26b8114f48259babb0412f70b0e1454bbbd9eff106d7496",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnRMNreAE621UbRlijTIVXUf",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第19页上半页 · 图37（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第19页上半页 · 图37（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 24,
+        "timestamp": "00:16:01",
+        "block_id": "doxcnXop1DlrwVOXMOn95OlvREd",
+        "heading": "24 · 00:16:01 · 较低基站与小小区覆盖实测"
+      },
+      "before_paragraph": {
+        "ordinal": 25,
+        "timestamp": "00:16:01",
+        "block_id": "doxcn7KSNDHTPYFZPsUDI7DqlZe",
+        "heading": "25 · 00:16:01 · 真实环境中的衰减与快衰落"
+      },
+      "semantic_paragraph_span": [
+        24,
+        24
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第24段说明低处基站、较小覆盖范围以及逐渐变蓝的接收功率图，微小区图对应。"
+    },
+    {
+      "image_ordinal": 12,
+      "figure_number": 38,
+      "slide_number": 38,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Attenuation: distance, atmosphere, shadowing and multipath",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 19,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=19",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-038.png",
+      "sha256": "7fcda322290313b7266786f754f0ae38dfba022263f4fdcd80722938e3ae8a9d",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnS6P0OnPlBViTfOOvLJ0LXa",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第19页下半页 · 图38（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第19页下半页 · 图38（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 25,
+        "timestamp": "00:16:01",
+        "block_id": "doxcn7KSNDHTPYFZPsUDI7DqlZe",
+        "heading": "25 · 00:16:01 · 真实环境中的衰减与快衰落"
+      },
+      "before_paragraph": {
+        "ordinal": 26,
+        "timestamp": "00:16:01",
+        "block_id": "doxcndGTPuUT9D5kKIJ6mGS2QKh",
+        "heading": "26 · 00:16:01 · 信号传播部分小结"
+      },
+      "semantic_paragraph_span": [
+        25,
+        26
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第25–26段总结距离、大气、障碍物及快衰落后结束传播部分，衰减因素总结页对应。"
+    },
+    {
+      "image_ordinal": 13,
+      "figure_number": 39,
+      "slide_number": 39,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "SNR: signal-to-noise ratio",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 20,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=20",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-039.png",
+      "sha256": "3b24ff994a6ebf1d30cc6c40c2a9a87dbd8d9ef363ec284a73cfa1e220870a4a",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnGELDg1jfqWyfQsfjJ6sCgp",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第20页上半页 · 图39（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第20页上半页 · 图39（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 27,
+        "timestamp": "00:16:01",
+        "block_id": "doxcnRGGzbqrXqJGS4ubUEjsEaf",
+        "heading": "27 · 00:16:01 · 接收信号质量与SNR"
+      },
+      "before_paragraph": {
+        "ordinal": 28,
+        "timestamp": "00:18:04",
+        "block_id": "doxcnNaKTsXtPLr8lyzO7cXaCcb",
+        "heading": "28 · 00:18:04 · 有用信号功率与噪声功率之比"
+      },
+      "semantic_paragraph_span": [
+        27,
+        29
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第27–29段定义有用信号功率与噪声功率之比，图中Prx/(N0B)对应。"
+    },
+    {
+      "image_ordinal": 14,
+      "figure_number": 40,
+      "slide_number": 40,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "SINR: signal-to-interference-plus-noise ratio",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 20,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=20",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-040.png",
+      "sha256": "225eb3b4e0697ec6b96a1b63bffa203cd13ae3b6ca6f3e44fac190c0ece31a4f",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnEBrLIUzg0iM4fHjkdA6rRb",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第20页下半页 · 图40（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第20页下半页 · 图40（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 30,
+        "timestamp": "00:18:04",
+        "block_id": "doxcnzBFQ7KLEsd53AQRVIaPOTb",
+        "heading": "30 · 00:18:04 · 引入SINR指标"
+      },
+      "before_paragraph": {
+        "ordinal": 31,
+        "timestamp": "00:18:04",
+        "block_id": "doxcnSAjjDoSwUOm9N0kEC7ihqy",
+        "heading": "31 · 00:18:04 · 分母加入干扰信号功率"
+      },
+      "semantic_paragraph_span": [
+        30,
+        38
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第30–38段加入其他发送端干扰并讲Wi-Fi/蓝牙同技术和跨技术干扰，分母I+N0B对应。"
+    },
+    {
+      "image_ordinal": 15,
+      "figure_number": 41,
+      "slide_number": 41,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Errors: SNR/SINR and BER",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 21,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=21",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-041.png",
+      "sha256": "01742b7ef50e44b6a5e2168011c6aff0f5415013808142d3f70ed62fb1e6a725",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnqKdjNNvJplvslqbL4OgDag",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第21页上半页 · 图41（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第21页上半页 · 图41（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 39,
+        "timestamp": "00:23:58",
+        "block_id": "doxcnXQluEkwiVsy3H86fol8Elf",
+        "heading": "39 · 00:23:58 · 低SNR或SINR与星座误判"
+      },
+      "before_paragraph": {
+        "ordinal": 40,
+        "timestamp": "00:23:58",
+        "block_id": "doxcnMGOiilu4Ov4sAuSwR0e67b",
+        "heading": "40 · 00:23:58 · 如何提高接收信息的正确性"
+      },
+      "semantic_paragraph_span": [
+        39,
+        40
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第39–40段说明SNR/SINR降低导致解调错误及引入改善方法，BER和阈值要点对应。"
+    },
+    {
+      "image_ordinal": 16,
+      "figure_number": 42,
+      "slide_number": 42,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Error detection and recovery",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 21,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=21",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-042.png",
+      "sha256": "2fb283c481b47f0cc019017212ffff95922a79cd0f448fdebb07d55241b9ab06",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn62suq8PSpvqsFyTv2RyPyb",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第21页下半页 · 图42（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第21页下半页 · 图42（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 41,
+        "timestamp": "00:23:58",
+        "block_id": "doxcnoKR1zNxDOcBoAZMtIwfvte",
+        "heading": "41 · 00:23:58 · 错误检测与错误恢复技术"
+      },
+      "before_paragraph": {
+        "ordinal": 42,
+        "timestamp": "00:25:18",
+        "block_id": "doxcnDVOYwvfBOKMpZGTm9NEGz1",
+        "heading": "42 · 00:25:18 · 冗余比特与前向纠错"
+      },
+      "semantic_paragraph_span": [
+        41,
+        41
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第41段引入错误检测和恢复，章节封面对应。"
+    },
+    {
+      "image_ordinal": 17,
+      "figure_number": 43,
+      "slide_number": 43,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Possible techniques: FEC, ARQ and diversity",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 22,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=22",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-043.png",
+      "sha256": "318d07c91c7ba10973f1df99f0c2083ff4f1345d6f8d7ea5288d58ea296e7038",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnSKVEIhY6uW9CJT2PbGRulu",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第22页上半页 · 图43（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第22页上半页 · 图43（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 42,
+        "timestamp": "00:25:18",
+        "block_id": "doxcnDVOYwvfBOKMpZGTm9NEGz1",
+        "heading": "42 · 00:25:18 · 冗余比特与前向纠错"
+      },
+      "before_paragraph": {
+        "ordinal": 43,
+        "timestamp": "00:25:18",
+        "block_id": "doxcnuuxTizVa8ap96pQBBAGtAc",
+        "heading": "43 · 00:25:18 · 转向编码框图"
+      },
+      "semantic_paragraph_span": [
+        42,
+        42
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第42段指向第一种技术coding/FEC，技术总览中的首项对应。"
+    },
+    {
+      "image_ordinal": 18,
+      "figure_number": 44,
+      "slide_number": 44,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "FEC: block and convolutional codes",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 22,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=22",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-044.png",
+      "sha256": "476ef7be73aff6b5f7920d32da87d43ec5ee9686b7c01c405f6e2334e089347f",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn46QDYyq0i3MdBxhCrhjb3A",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第22页下半页 · 图44（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第22页下半页 · 图44（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 42,
+        "timestamp": "00:25:18",
+        "block_id": "doxcnDVOYwvfBOKMpZGTm9NEGz1",
+        "heading": "42 · 00:25:18 · 冗余比特与前向纠错"
+      },
+      "before_paragraph": {
+        "ordinal": 43,
+        "timestamp": "00:25:18",
+        "block_id": "doxcnuuxTizVa8ap96pQBBAGtAc",
+        "heading": "43 · 00:25:18 · 转向编码框图"
+      },
+      "semantic_paragraph_span": [
+        42,
+        42
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第42段开始前向纠错码，FEC章节封面置于此处合理。"
+    },
+    {
+      "image_ordinal": 19,
+      "figure_number": 46,
+      "slide_number": 46,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Block codes: k user bits and n−k redundant bits",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 23,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=23",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-046.png",
+      "sha256": "3e96241d6b3469ff006e3a99acc91e056149baec46afdb9a810b9c1353ab515f",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn1iaw8c2UneRVi9DOT5VFF4",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第23页下半页 · 图46（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第23页下半页 · 图46（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 44,
+        "timestamp": "00:25:18",
+        "block_id": "doxcn0vbUpvzX5frtefEUHO1SYe",
+        "heading": "44 · 00:25:18 · n比特块中的k个信息比特"
+      },
+      "before_paragraph": {
+        "ordinal": 45,
+        "timestamp": "00:25:18",
+        "block_id": "doxcnsAPtzYPjeuivxcW6BXbIPc",
+        "heading": "45 · 00:25:18 · 从编码块提取用户比特"
+      },
+      "semantic_paragraph_span": [
+        43,
+        51
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第43–51段讲n位块、k位有用比特、冗余及k/n码率，图示和公式对应。"
+    },
+    {
+      "image_ordinal": 20,
+      "figure_number": 47,
+      "slide_number": 47,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Example: repetition code and parity bits",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 24,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=24",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-047.png",
+      "sha256": "707f00fa657b2893b09671629c2d51ec215c280020738e37315b4bdc42fb1842",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnX9cm3j7VIUyMURAJEtEn0b",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第24页上半页 · 图47（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第24页上半页 · 图47（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 55,
+        "timestamp": "00:29:49",
+        "block_id": "doxcn02wNBHQl5AvUVgbIU9nTCh",
+        "heading": "55 · 00:29:49 · 有用比特与重复冗余比特"
+      },
+      "before_paragraph": {
+        "ordinal": 56,
+        "timestamp": "00:32:08",
+        "block_id": "doxcn6fcxuFKOZ7sT7r8F9Uw5Ng",
+        "heading": "56 · 00:32:08 · 逐行解调与多数判决"
+      },
+      "semantic_paragraph_span": [
+        52,
+        70
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第52–58段讲三次重复及多数判决；第59–70段讲单个奇偶校验位，均已在同一图的上下两部分出现，无须补一张所谓独立校验图。"
+    },
+    {
+      "image_ordinal": 21,
+      "figure_number": 48,
+      "slide_number": 48,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Example: row and column parity",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 24,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=24",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-048.png",
+      "sha256": "e57314003aa00c6232c82b71d6ca59697478f407e4f0dfd04ac2a633aa6645f3",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnT9X2WV5sHuqlg11JhtGiUg",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第24页下半页 · 图48（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第24页下半页 · 图48（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 71,
+        "timestamp": "00:38:05",
+        "block_id": "doxcnMwkkMBaInJ2JDjKxGNfDSd",
+        "heading": "71 · 00:38:05 · 引入二维奇偶校验示例"
+      },
+      "before_paragraph": {
+        "ordinal": 72,
+        "timestamp": "00:38:05",
+        "block_id": "doxcnd7FaXhlPIzhwyV2msPJqae",
+        "heading": "72 · 00:38:05 · 矩阵中逐行逐列计算校验位"
+      },
+      "semantic_paragraph_span": [
+        71,
+        76
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第71–76段讲矩阵行列校验及单错误纠正，白色信息位与绿色冗余位矩阵对应。"
+    },
+    {
+      "image_ordinal": 22,
+      "figure_number": 45,
+      "slide_number": 45,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "FEC: receiver recomputes and compares codes",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 23,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=23",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-045.png",
+      "sha256": "78db11ec26d145c4d582a81cb9611f00f9af3098e99743973a3e1a415a94e8fe",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnSSqzpqr4wCPrYDV215m7qg",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第23页上半页 · 图45（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第23页上半页 · 图45（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 76,
+        "timestamp": "00:38:45",
+        "block_id": "doxcn0dF2gUsmQT39vENHU4Zsnh",
+        "heading": "76 · 00:38:45 · 接收端二维校验与纠错流程"
+      },
+      "before_paragraph": {
+        "ordinal": 77,
+        "timestamp": "00:38:45",
+        "block_id": "doxcnGDpLDCC8goAhYBu233e2Qh",
+        "heading": "77 · 00:38:45 · 从简单示例转向复杂编码"
+      },
+      "semantic_paragraph_span": [
+        76,
+        76
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第76段回顾接收端提取信息比特、本地重算并比较校验位，图中文字逐项对应；虽在图48后出现，属于语义回顾，不按PDF排序重排。"
+    },
+    {
+      "image_ordinal": 23,
+      "figure_number": 49,
+      "slide_number": 49,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Convolutional codes: shift register",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 25,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=25",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-049.png",
+      "sha256": "cbf15d2254305bfc84c425cc4e167fad41c25d1e7e677d1d33b2584034ab51b2",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnG52bf0YrlYdrLUxvPvYKRf",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第25页上半页 · 图49（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第25页上半页 · 图49（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 78,
+        "timestamp": "00:38:45",
+        "block_id": "doxcnT9htsNXLVqxQoR3jLdyrsc",
+        "heading": "78 · 00:38:45 · 卷积码与寄存器运算概述"
+      },
+      "before_paragraph": {
+        "ordinal": 79,
+        "timestamp": "00:41:48",
+        "block_id": "doxcnZC9evCSSIRkYxcVGh1zGJ9",
+        "heading": "79 · 00:41:48 · 引入ARQ自动重传请求"
+      },
+      "semantic_paragraph_span": [
+        77,
+        78
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第77–78段提到更复杂码、寄存器与信息位组合，移位寄存器示意图对应。"
+    },
+    {
+      "image_ordinal": 24,
+      "figure_number": 50,
+      "slide_number": 50,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "ARQ",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 25,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=25",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-050.png",
+      "sha256": "08aca0aae592c7ebab6300ec8128a49cc86c4916d5263db56546480f2da9c193",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnFR3THbGDwYNEtVkh3QdWRd",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第25页下半页 · 图50（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第25页下半页 · 图50（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 79,
+        "timestamp": "00:41:48",
+        "block_id": "doxcnZC9evCSSIRkYxcVGh1zGJ9",
+        "heading": "79 · 00:41:48 · 引入ARQ自动重传请求"
+      },
+      "before_paragraph": {
+        "ordinal": 80,
+        "timestamp": "00:41:48",
+        "block_id": "doxcn6NQxe7HlgLUOXkyZd07jNb",
+        "heading": "80 · 00:41:48 · 从单个比特转向数据包"
+      },
+      "semantic_paragraph_span": [
+        79,
+        79
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第79段首次引入ARQ并解释缩写，章节封面对应。"
+    },
+    {
+      "image_ordinal": 25,
+      "figure_number": 52,
+      "slide_number": 52,
+      "numbering_basis": "PDF handout sequence, not the small printed footer within the slide",
+      "title": "Packet header: PDU, PCI and SDU",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 26,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=26",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-052.png",
+      "sha256": "4d106a3cb6dbf3ff0538aea8db05bd20f2e288f7fce7dae2baec20cf10934953",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnMvuwNgGbt8Xz2OgLTFWpLU",
+      "caption": "课件：001-BasicConcepts.pdf · PDF第26页下半页 · 图52（按PDF顺序）\n",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第26页下半页 · 图52（按PDF顺序）\n",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 85,
+        "timestamp": "00:45:10",
+        "block_id": "doxcnRDjvTdH14I1mQqTK5um7dd",
+        "heading": "85 · 00:45:10 · 数据包的首部和有效载荷"
+      },
+      "before_paragraph": {
+        "ordinal": 86,
+        "timestamp": "00:46:34",
+        "block_id": "doxcnnd3J38U1viVoWVJiCwsJOf",
+        "heading": "86 · 00:46:34 · 地址控制信息与用户数据"
+      },
+      "semantic_paragraph_span": [
+        80,
+        86
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF: title, layout, figures and numbering match. Original PNG bytes preserved; source-page crops are audit evidence only.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第80–86段解释按包组织、首部和有效载荷；第85段明确指出图中采用另一种命名，PCI/SDU结构与该指示对应。"
+    }
+  ],
+  "final_remote_verification": {
+    "snapshot": "blocks-final.json",
+    "snapshot_sha256": "912a03bca06157b7d682c86f59df680098194da1584bcc41ae6219711a5f23c7",
+    "all_original_non_root_blocks_unchanged": true,
+    "paragraph_count": 88,
+    "image_count": 25,
+    "heading2_count": 88,
+    "heading1_count": 9,
+    "original_image_order_and_neighbors_preserved": true
+  }
+}

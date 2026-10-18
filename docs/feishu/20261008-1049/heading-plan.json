@@ -1,0 +1,882 @@
+[
+  {
+    "block_id": "doxcntOINkOBNOMdZ6HNE6Lkm4f",
+    "text": "原标说话人 1  00:01:10\nOK, so, why are obstacles so important for our signal? Because of the diffraction, and again, at least in Italy, we studied that in high school. Diffraction is a phenomenon that consists in the following. We have one signal that is transmitted. When the signal hits the obstacle, several secondary waves are created. So, the signal does not remain only one, but it creates several copies of itself because of this hitting the obstacle, that's the so-called diffraction.\n好，那么，为什么障碍物对我们的信号这么重要？因为衍射，而且，还是那句话，至少在意大利，我们在高中就学过这个。衍射是一种包含以下过程的现象。我们有一个被发送出去的信号。当信号碰到障碍物时，就会产生若干次级波。所以，信号不再仅仅保持为一个，而是因为这样碰到障碍物，产生出自身的若干副本，这就是所谓的衍射。",
+    "ordinal": 1,
+    "timestamp": "00:01:10",
+    "heading": "01 · 00:01:10 · 障碍物、衍射与次级波",
+    "h1_before": "衍射、反射与多径干涉",
+    "anchor": "doxcn1WDGcqtttVamtbtu3WTBlh",
+    "text_sha256": "880003781adf193f6c332349bc6d5b316e5b36bd9c46455b98857c9f2f1e360b"
+  },
+  {
+    "block_id": "doxcnjJH5AFThYvTLhvV2Xqhygl",
+    "text": "原标说话人 1  00:01:10\nNow, these different copies of the signal will then further proceed, and the same happens when our signal gets reflected.\n现在，这些不同的信号副本会继续向前传播，而当我们的信号发生反射时，同样的事情也会发生。",
+    "ordinal": 2,
+    "timestamp": "00:01:10",
+    "heading": "02 · 00:01:10 · 信号副本继续传播与反射",
+    "h1_before": null,
+    "anchor": "doxcnWqVeLeMqTjuZoXK0ZBwWDd",
+    "text_sha256": "ee70cacee4f28223e36a35683bf9ed3f613baadea561dd88dbe1ba29e203bcbc"
+  },
+  {
+    "block_id": "doxcn0ZHuUCBjSTwq6a5CPIX4jf",
+    "text": "原标说话人 1  00:01:10\nAlso reflection actually creates not multiple copies of the same signal, but a signal that hits a surface and then it changes direction, and farther, proceeds toward the receiver. So, both diffraction and reflection have in common the fact that our signal or signals get in a way diverted, so they change direction, and then further proceed to the destination.\n实际上，反射产生的并不是同一信号的多个副本，而是一个信号碰到一个表面，然后改变方向，再继续向接收端前进。所以，衍射和反射的共同点是，我们的信号或者多个信号在某种程度上被转向，也就是说，它们改变方向，然后继续向目的地传播。",
+    "ordinal": 3,
+    "timestamp": "00:01:10",
+    "heading": "03 · 00:01:10 · 反射改变传播方向",
+    "h1_before": null,
+    "anchor": "doxcnGp2NHWB8VkT8l4a3ad8ivf",
+    "text_sha256": "6710721bc909a23152d9896ed325958aa473b3bcc339683af9e36c6acf52f68b"
+  },
+  {
+    "block_id": "doxcnAvEErI97vKGEE1milBv8Jd",
+    "text": "原标说话人 1  00:01:10\nBut diffraction in particular then happens when several copies are created, is in a way more serious than reflection, because it's not just the fact that the signal changes direction, but the signal actually transforms itself from one into multiple signals, multiple copies of the same signal. Okay, that's diffraction. So, as I said in physics, we studied them in a high school. How can this affect our wireless communication?\n但是，衍射尤其是产生若干副本时发生的现象，在某种意义上比反射更严重，因为不只是信号改变了方向，而是信号实际上把自己从一个变成了多个信号、同一信号的多个副本。好，这就是衍射。所以，正如我所说，在物理课上，我们在高中就学过它们。这会怎样影响我们的无线通信呢？",
+    "ordinal": 4,
+    "timestamp": "00:01:10",
+    "heading": "04 · 00:01:10 · 衍射副本对无线通信的影响",
+    "h1_before": null,
+    "anchor": "doxcn3vB1aRpPXdKImERQHT5lKc",
+    "text_sha256": "f3db58e023c927e4905e3b270e8816e4b3d2c069aa6be46da8602dbe299920dc"
+  },
+  {
+    "block_id": "doxcnGKSrCV2aQUVrLNaojWzw7d",
+    "text": "原标说话人 1  00:04:16\nWell, this is a very simplified view of the reality, but just to highlight the main fact here. We have our user and the base station or access point, and what we have here is that the point of access transmits toward the user. OK, now initially, actually this signal is the same, but there are in the atmosphere particles of water that diffract the signal. So actually, the signal that is originated by the antenna gets diffracted immediately by the atmosphere particles that are a form of obstacle.\n嗯，这是对现实一个非常简化的呈现，只是为了突出这里的主要事实。我们有用户和基站或者接入点，而这里发生的是，接入节点向用户发送。好，现在，一开始，实际上这个信号是同一个，但是大气中有水粒子，它们使信号发生衍射。所以，实际上，由天线产生的信号立即就被大气中的粒子衍射了，这些粒子也是一种障碍物。",
+    "ordinal": 5,
+    "timestamp": "00:04:16",
+    "heading": "05 · 00:04:16 · 接入点到用户的传播示例",
+    "h1_before": null,
+    "anchor": "doxcnTRfsWn4iO2ic5ARlJcqxje",
+    "text_sha256": "be796cd8317637562e2bd9a8f04c19a5441a131ce9b1d398d512722d26d67426"
+  },
+  {
+    "block_id": "doxcneIJ0OGR5PHBiIuQCYQvu8g",
+    "text": "原标说话人 1  00:04:16\nAnd then, we may have further obstacles in the middle. We may have so further diffraction or reflection. As I said, this is a very simplified version, but it highlights the fact that instead of one signal only that reaches our intended receiver, will have different copies of the same signal that actually reach the receiver.\n然后，中间还可能有更多障碍物。因此，我们可能会有进一步的衍射或者反射。正如我所说，这是一个非常简化的版本，但是它突出这样一个事实：到达我们预定接收端的，不再只是一个信号，而是同一信号的不同副本实际到达接收端。",
+    "ordinal": 6,
+    "timestamp": "00:04:16",
+    "heading": "06 · 00:04:16 · 多个障碍物与多个信号副本",
+    "h1_before": null,
+    "anchor": "doxcn6VOEeBn3bTmEkI01kKZ2Af",
+    "text_sha256": "16bb2d46ce4da14679afe92f0c5816ef27e0821eb5b0487bb3d5b8f3d219de79"
+  },
+  {
+    "block_id": "doxcn5zXPVxMgd2JB2q3PLlUucg",
+    "text": "原标说话人 1  00:04:16\nAnd each copy may travel over different paths, right? Over different path, because as I said, you do reflection or diffraction, we have a change also of direction of these wave forms. So, the signals follow different paths, and as a consequence, they will arrive at different time instants at the receiver. It means also with different phase.\n而且，每一个副本都可能沿不同路径传播，对吧？沿不同的路径，因为，正如我所说，当发生反射或者衍射时，这些波形的方向也会改变。所以，信号沿不同路径传播，因此，它们会在不同的时刻到达接收端。这也意味着具有不同的相位。",
+    "ordinal": 7,
+    "timestamp": "00:04:16",
+    "heading": "07 · 00:04:16 · 不同路径导致延迟和相位差",
+    "h1_before": null,
+    "anchor": "doxcn0W3RNpvFj6cfCw14gB3nkV",
+    "text_sha256": "5276ba8c781416b7a566b44b1e017c41aa01c72f4409a095d26bfa1be21389a8"
+  },
+  {
+    "block_id": "doxcnxl3fXBSGUpu0WjWxTAWmyh",
+    "text": "原标说话人 1  00:04:16\nSo, when signals overlap, when these multiple copies overlap at the receiver, they will overlap with different phase, because they follow a different path, and some of them were delayed more respect to others.\n所以，当信号叠加时，当这些多个副本在接收端叠加时，它们会以不同的相位叠加，因为它们走过不同的路径，其中一些相对于另一些经历了更大的延迟。",
+    "ordinal": 8,
+    "timestamp": "00:04:16",
+    "heading": "08 · 00:04:16 · 多径副本在接收端叠加",
+    "h1_before": null,
+    "anchor": "doxcntHKJtLVyhvR56HdUepTdcf",
+    "text_sha256": "d9fc007cc6b7fc837b5bce2022e7cf451370248de89171a02f1af97560c780e4"
+  },
+  {
+    "block_id": "doxcnYFrGAPzEST6ctC9ykgxSTg",
+    "text": "原标说话人 1  00:06:54\nSo, here is again a simplified view of this phenomenon, in the case of just two copies of what was original originally one signal, and these copies, they have essentially different phases. When they reach the receiver, they therefore combine in different ways.\n所以，这里又是对这种现象的简化展示，这次只考虑两个副本，它们原来、最初是一个信号，而这些副本实质上有不同的相位。因此，当它们到达接收端时，就会以不同方式组合。",
+    "ordinal": 9,
+    "timestamp": "00:06:54",
+    "heading": "09 · 00:06:54 · 两个信号副本的简化示例",
+    "h1_before": null,
+    "anchor": "doxcnzk6whjjqnIbl53lG4ZhXgc",
+    "text_sha256": "f18855fa88d31a02cfdd49fc904b66bc23e3710f9b79a0f732d2bb0ab7cbd0a7"
+  },
+  {
+    "block_id": "doxcnzDtKUAphsz9oAAWITJy01e",
+    "text": "原标说话人 1  00:06:54\nFor example, if the signals that arrive at the receiver arrive more or less with the same delay, so with the same phase, they will all be more or less in phase, like in this picture. So, we have the so-called constructive interference, meaning that there are multiple copies of the same signal that overlap at the receiver, and they are all more or less in line with respect to each other. So, the receiver will just get the sum of these signals.\n比如，如果到达接收端的信号具有差不多相同的延迟，也就是相同的相位，那么它们就会像这张图里一样，全部大致同相。所以，我们有所谓的相长干涉，意思是，同一信号的多个副本在接收端叠加，而且它们彼此之间全部或多或少地对齐。所以，接收端得到的就是这些信号之和。",
+    "ordinal": 10,
+    "timestamp": "00:06:54",
+    "heading": "10 · 00:06:54 · 同相叠加与相长干涉",
+    "h1_before": null,
+    "anchor": "doxcncHWjqrTzX8A6o9MmyDsGlc",
+    "text_sha256": "0e0ddc0db68bc9bab893df7967315b97ea0f99a88137b4f45f1007a5f0a4dbaa"
+  },
+  {
+    "block_id": "doxcnNsrp946JsEaA8JzRZIbuPc",
+    "text": "原标说话人 1  00:06:54\nBut, instead, if these signals that arrive at the receiver have different delays, so different phases, and by chance they are in opposite phase, then they nullify each other, and the receiver essentially gets nothing, because they have opposite phases.\n但是，相反，如果这些到达接收端的信号具有不同的延迟，也就是不同的相位，而且碰巧它们反相，那么它们就会互相抵消，接收端基本上什么也得不到，因为它们的相位相反。",
+    "ordinal": 11,
+    "timestamp": "00:06:54",
+    "heading": "11 · 00:06:54 · 反相叠加与完全相消",
+    "h1_before": null,
+    "anchor": "doxcnlDM1Dbk44SE89E9Ede5x7e",
+    "text_sha256": "f9b42550fd536b0a21393c9efe7b2313de6452e332367f793d191214b97d1f4f"
+  },
+  {
+    "block_id": "doxcnyYfjXZnDPwLvJm2HB0VdGh",
+    "text": "原标说话人 1  00:06:54\nIn the most part of the cases, we'll have the actually, the kind of interference that sorry that we get is the so-called partially destructive, meaning that these different copies of the signals will have different delays, different phases, they're not aligned, they're not in counter phase. They are more or less in the middle, and so they may partially distract themselves, but not totally.\n在大多数情况下，我们会有，实际上，我们得到的那种干涉，抱歉，是所谓的部分相消，意思是，这些不同的信号副本有不同的延迟、不同的相位，它们没有对齐，也不是反相。它们大致处在中间，因此它们可能会部分抵消自己，但不是完全抵消。",
+    "ordinal": 12,
+    "timestamp": "00:06:54",
+    "heading": "12 · 00:06:54 · 不同相位与部分相消",
+    "h1_before": null,
+    "anchor": "doxcnT9ZfOEoVTfwNCn7kMsBGoe",
+    "text_sha256": "f7f525d34eefb075b5c55ad818f5e8a77a5b12214d4b2e61cb0a0a400e5079b6"
+  },
+  {
+    "block_id": "doxcnjZFj6nijoiCgjHTATh90gc",
+    "text": "原标说话人 1  00:06:54\nSo, this is the so-called multipath fading phenomenon. That is, our signal as it propagates toward the receiver, it partially fades away. So fading in English means to disappear, it partially disappears. Why?\n所以，这就是所谓的多径衰落现象。也就是说，我们的信号在向接收端传播时，会部分地衰落掉。所以，英语中的fading意思是消失，它部分地消失了。为什么？",
+    "ordinal": 13,
+    "timestamp": "00:06:54",
+    "heading": "13 · 00:06:54 · 引入多径衰落",
+    "h1_before": null,
+    "anchor": "doxcn6tuZGtaG2sfV35NIB866Jf",
+    "text_sha256": "e0c73a750ac0db9234d70e6ecb5e1555cd55ff173c5bb06b52bc3791c7adb262"
+  },
+  {
+    "block_id": "doxcn5aUh3qOURp0WqwBZveVEZe",
+    "text": "原标说话人 1  00:09:55\nBecause of this overlapping of multiple copies, each with a different delay, so each with a different phase. So that they get, at the receiver, combined with different phases, and we have the partially destructive phenomenon.\n因为多个副本这样叠加，每个副本都有不同的延迟，因此每个副本都有不同的相位。于是，它们在接收端以不同的相位组合起来，我们就有了部分相消的现象。",
+    "ordinal": 14,
+    "timestamp": "00:09:55",
+    "heading": "14 · 00:09:55 · 延迟差与多径相消",
+    "h1_before": null,
+    "anchor": "doxcn9xzbzloG2oSBxdifGApZgg",
+    "text_sha256": "4f3b07ee7e49a9612cc85eb53f551530602c5ab95eac3b1ae9c981a7ea6e32d6"
+  },
+  {
+    "block_id": "doxcn9wStp7fKDZgSuNVvIzn1Tf",
+    "text": "原标说话人 1  00:10:20\nIf you are very unlucky, you get nothing, that is totally destructive. If you are lucky, you get a strong signal when they overlap in phase. But on average, you are in the middle, right? And this phenomenon is random, so you cannot predict what you will get.\n如果你非常不走运，你就什么也得不到，那就是完全相消。如果你运气好，当它们同相叠加时，你就会得到很强的信号。但是，平均来说，你处在中间，对吧？而且，这种现象是随机的，因此，你无法预测自己会得到什么。",
+    "ordinal": 15,
+    "timestamp": "00:10:20",
+    "heading": "15 · 00:10:20 · 衰落结果的随机性",
+    "h1_before": null,
+    "anchor": "doxcnmrSkBuHcPhEHthsIBwmLTg",
+    "text_sha256": "ade1c5b3ff71285e72dc6f212daeab8edb407b4d53832972589aa45c19a3b39a"
+  },
+  {
+    "block_id": "doxcn5eMIy0tUNkIfoMKvCW2hHe",
+    "text": "原标说话人 1  00:10:20\nWhy? Because it depends on the obstacles, so it depends on the geometry of your environment. If in your environment there are only stationary obstacles, well, then the fading, multipath fading is still there as a phenomenon, but it's not that serious.\n为什么？因为它取决于障碍物，所以它取决于你所处环境的几何结构。如果你的环境里只有静止的障碍物，那么，衰落、多径衰落作为一种现象仍然存在，但是没有那么严重。",
+    "ordinal": 16,
+    "timestamp": "00:10:20",
+    "heading": "16 · 00:10:20 · 环境几何与静止障碍物",
+    "h1_before": "环境变化与快慢衰落",
+    "anchor": "doxcnIGg7TNR9adJw4sDpP7VEad",
+    "text_sha256": "8c8bca5728ed0c31f28b909ee756cb20b7cf90018df8817864c3c27168f2b9ca"
+  },
+  {
+    "block_id": "doxcn1VxlPH9r1DO3J8hpNONWne",
+    "text": "原标说话人 1  00:10:20\nWhy? Because if you have chairs, walls, wardrobes, the geometry of the scenario is stationary or slowly changing, like in this case, in this classroom now.\n为什么？因为，如果你有椅子、墙壁、衣柜，那么场景的几何结构就是静止的，或者变化缓慢，就像这个例子，现在这间教室里一样。",
+    "ordinal": 17,
+    "timestamp": "00:10:20",
+    "heading": "17 · 00:10:20 · 教室中的缓慢变化场景",
+    "h1_before": null,
+    "anchor": "doxcncPSGSZgTBlH7gRgYLeWvRb",
+    "text_sha256": "66fc80931d7c1ebddedfb9ad08af122b86479da245f56c1a9a71e0ade725e29a"
+  },
+  {
+    "block_id": "doxcnW8PwEXMXAGtqWQkpFsEXAl",
+    "text": "原标说话人 1  00:11:33\nWell, then, as actually a communication node, you have the possibility to estimate the channel, to understand what kind of scenario you have got, what kind of of fading you have got, because things do not change, so everything is more or less fixed. So you can estimate the power that the receiver gets and compensate for that. So if the receiver gets a weak signal because of fading or multipath fading, you can say, well, I will increase my transmission power. So you can compensate for the attenuation that the signal experiences. That's the lucky case where you have this so-called slow fading, slow changing fading that is also called shadowing.\n嗯，那么，实际上作为一个通信节点，你就能够估计信道，了解你所处的是什么样的场景、你有什么样的、什么样的衰落，因为事情不发生变化，所以一切都或多或少固定不变。因此，你能够估计接收端得到的功率，并对此进行补偿。所以，如果接收端由于衰落或者多径衰落而得到一个较弱的信号，你就可以说：‘嗯，我会提高我的发射功率。’这样，你就能够补偿信号经历的衰减。这就是幸运的情况，你有所谓的慢衰落、缓慢变化的衰落，它也被称为阴影衰落。",
+    "ordinal": 18,
+    "timestamp": "00:11:33",
+    "heading": "18 · 00:11:33 · 信道估计、功率补偿与慢衰落",
+    "h1_before": null,
+    "anchor": "doxcnuEwjszcL9C9FmuIfXhP9db",
+    "text_sha256": "a081b5a0cd8a0582b0a26982208469cea847c348211b4bfb9f8fe812464c68ad"
+  },
+  {
+    "block_id": "doxcnk7iVqD7EZTBYuBMPC5Srre",
+    "text": "原标说话人 1  00:11:33\nThe nasty phenomenon is the so-called fast fading, when your scenario is not stationary or slowly changing. Your scenario changes very frequently due to the fact that you have mobile obstacles. And these may be also the tree leaves that move.\n麻烦的现象是所谓的快衰落，这时你的场景不是静止的，也不是缓慢变化的。你的场景变化非常频繁，因为你有移动的障碍物。而这些也可能是移动的树叶。",
+    "ordinal": 19,
+    "timestamp": "00:11:33",
+    "heading": "19 · 00:11:33 · 移动障碍物与快衰落",
+    "h1_before": null,
+    "anchor": "doxcnPpElrVlsC0EeaBZbDO9xke",
+    "text_sha256": "ea39796b80fc54aa815991065866ab5581fdf8817c495c4db07dda768e71e3b5"
+  },
+  {
+    "block_id": "doxcnbLWhKYaPunqMucVAk8f2we",
+    "text": "原标说话人 1  00:13:11\nSeveral different obstacles that move and move, altogether they move. In that case, even if you try to estimate the situation, you don't have time to do that and compensate, because the situation has already changed meanwhile. That's the very dynamic situation, the fast fading, that is extremely nasty. And this one of the biggest problem we have in wireless communication, because we are not able to compensate for that.\n若干不同的障碍物不断移动、移动，它们全都在移动。在这种情况下，即使你尝试估计情况，也没有时间去估计并补偿，因为与此同时情况已经改变了。这就是非常动态的情况，快衰落，它极其麻烦。而且，这是我们在无线通信中遇到的最大问题之一，因为我们无法对此进行补偿。",
+    "ordinal": 20,
+    "timestamp": "00:13:11",
+    "heading": "20 · 00:13:11 · 快速变化使信道补偿困难",
+    "h1_before": null,
+    "anchor": "doxcnRgilAQu0I6LJUAI76Ebv3g",
+    "text_sha256": "586b3c9a98850ce01ebb2354b053fd4c3d647c12581f5abda4800c5399f04b36"
+  },
+  {
+    "block_id": "doxcnxCSF0HzOErTTjZDpS3wCFd",
+    "text": "原标说话人 1  00:13:11\nThis is just a representation of the signal that we get due to slow fading, and that would be essentially the red pattern. And the fast fading that is instead are happening over at smaller time scale. And just to give you an idea of how nasty the fading can be, it can lead to an attenuation of the signal that is even 20–30 dB, which is a lot, and so very very serious issues for the propagation of our signal.\n这只是我们因慢衰落而得到的信号的一个表示，基本上就是红色的那条曲线。相反，快衰落发生在更小的时间尺度上。只是为了让你们了解衰落有多麻烦，它甚至可以导致信号衰减20—30 dB，这个幅度很大，因此会给我们信号的传播造成非常、非常严重的问题。",
+    "ordinal": 21,
+    "timestamp": "00:13:11",
+    "heading": "21 · 00:13:11 · 快慢衰落曲线与衰减幅度",
+    "h1_before": null,
+    "anchor": "doxcnGvUtEsAcofbaa9lsYVYKyc",
+    "text_sha256": "5d4dc9e9bfe5018add77fb54faad507c0b9f37417c3e41585530950a4368fa39"
+  },
+  {
+    "block_id": "doxcn2jcfaki9wLr2FSdAnV6p0g",
+    "text": "原标说话人 1  00:14:37\nNow just to give an idea of how the signal propagates in real world, these are real world measurements performed by mobile operator in in urban. In the case where we have a base station in an urban environment, and the coverage of the base station, the so-called cellular cell, is quite large, so we call it macrocell, because it's a large area irradiated by the base station. And you can see here the strength of the signal that is received by users over this area, where the red area is is where you receive very strong signal. Yellow, so so, green is weaker, and blue is very weak.\n现在，只是为了让大家了解信号在真实世界中怎样传播，这些是移动运营商在、在城市中进行的真实测量。这里的情况是，在城市环境中有一个基站，而基站的覆盖范围，也就是所谓的蜂窝小区，相当大，所以我们称它为宏小区，因为它是基站照射的一个较大区域。你们可以在这里看到，这个区域内用户收到的信号强度，其中红色区域是、是你能收到非常强信号的地方。黄色，一般般，绿色更弱，而蓝色非常弱。",
+    "ordinal": 22,
+    "timestamp": "00:14:37",
+    "heading": "22 · 00:14:37 · 城市宏小区的实测信号强度",
+    "h1_before": "真实小区的信号覆盖",
+    "anchor": "doxcnpAWeFuxKTdelIa5bY84nJf",
+    "text_sha256": "dfd3d4fdf6d3a32121ca0100d6b989e73b035a2b8f793c5a503c24126f10b3c3"
+  },
+  {
+    "block_id": "doxcn9vYUwZ7vkLPtwDeD9iSlle",
+    "text": "原标说话人 1  00:14:37\nSo, you can see that, of course, the quality of the signal that you get varies significantly depending on where you are because of the presence of obstacles, and of course, the distance from the transmitter.\n所以，你们可以看到，当然，由于障碍物的存在，当然还有与发送端的距离，你得到的信号质量会根据你所处的位置而显著变化。",
+    "ordinal": 23,
+    "timestamp": "00:14:37",
+    "heading": "23 · 00:14:37 · 位置、障碍物与信号质量",
+    "h1_before": null,
+    "anchor": "doxcnDUsJ4B1bokqTW88igpf78g",
+    "text_sha256": "f7485021363f3f2a0892f960047178bb06a32b9d2dd1808e912525ed63620185"
+  },
+  {
+    "block_id": "doxcnXop1DlrwVOXMOn95OlvREd",
+    "text": "原标说话人 1  00:16:01\nAnd similarly, this is a representation of real world again of the power of the received signal, in the case where there is a cellular base station that illuminates a smaller area. So the base station has been placed at a lower altitude, so that the coverage, so the cell is small, again in an urban environment, so similar to this one. And this is the resulting level of power of the received signal. And in this case, as you can see, it is, let's say, acceptable in this region, but then it gets light blue and blue very, as quickly as we get farther from the base station. So, these are real world representations of a cell.\n同样，这又是接收信号功率在真实世界中的一个表示，这次的情况是，一个蜂窝基站照射的区域较小。所以，基站被放置在较低的高度，因此覆盖范围，也就是小区，就比较小；这同样是在城市环境中，所以与这个类似。而这就是由此得到的接收信号功率水平。在这种情况下，正如你们看到的，可以说，这个区域的功率是可以接受的，但是接着，随着我们远离基站，它就很快变成浅蓝色和蓝色。所以，这些是真实世界中小区的表示。",
+    "ordinal": 24,
+    "timestamp": "00:16:01",
+    "heading": "24 · 00:16:01 · 较低基站与小小区覆盖实测",
+    "h1_before": null,
+    "anchor": "doxcnEORAj9rIu9rfnk5sS6uus0",
+    "text_sha256": "25011aa8f3ec147daba0d55400d2fcecbc7ee6138885265a9bed7e0e11a48d84"
+  },
+  {
+    "block_id": "doxcn7KSNDHTPYFZPsUDI7DqlZe",
+    "text": "原标说话人 1  00:16:01\nSo, as we said, in a real world, the attenuation is a very serious problem, that is new, due not just to frequency, distance, but it's due to the presence also of these obstacles creating fading, and in particular fading is nasty when we have a dynamic environment, so fast fading.\n所以，正如我们所说，在真实世界中，衰减是一个非常严重的问题，这是新的，不只是由于频率、距离，还由于这些产生衰落的障碍物的存在；特别是，当我们有一个动态环境时，也就是快衰落，衰落就很麻烦。",
+    "ordinal": 25,
+    "timestamp": "00:16:01",
+    "heading": "25 · 00:16:01 · 真实环境中的衰减与快衰落",
+    "h1_before": null,
+    "anchor": "doxcnNIYfZZoz37bEcBxvVVlNlg",
+    "text_sha256": "8924969aa8c8c23cf22cb1fae24a5469388fc907d8b841f7a35ddd327894195f"
+  },
+  {
+    "block_id": "doxcndGTPuUT9D5kKIJ6mGS2QKh",
+    "text": "原标说话人 1  00:16:01\nThis closes this explanation regarding the signal propagation.\n这就结束了有关信号传播的这一部分解释。",
+    "ordinal": 26,
+    "timestamp": "00:16:01",
+    "heading": "26 · 00:16:01 · 信号传播部分小结",
+    "h1_before": null,
+    "anchor": "doxcns9eFEFqTuF6AdedFV1WVWb",
+    "text_sha256": "bac2a4acb11392e52ec461610650ac6fcf1d5094cf74079fcaf8993b06dfbdc0"
+  },
+  {
+    "block_id": "doxcnRGGzbqrXqJGS4ubUEjsEaf",
+    "text": "原标说话人 1  00:16:01\nWhat I would like just to say is that we measure the quality of the received signal, typically using a metric that is called SNR. SNR means signal-to-noise ratio.\n我还想说的是，我们测量接收信号的质量时，通常使用一个叫作SNR的指标。SNR的意思是信噪比。",
+    "ordinal": 27,
+    "timestamp": "00:16:01",
+    "heading": "27 · 00:16:01 · 接收信号质量与SNR",
+    "h1_before": "SNR、SINR与干扰",
+    "anchor": "doxcn5CEIIbOGOIEYlM69Ca5fCg",
+    "text_sha256": "70fbaf310315099adf50594614937ca05be3ba8fe0c2385eee5de251238213d5"
+  },
+  {
+    "block_id": "doxcnNaKTsXtPLr8lyzO7cXaCcb",
+    "text": "原标说话人 1  00:18:04\nIs a ratio where the numerator we place the power of the received useful signal, and the denominator we place the power of the noise. Clearly, if the signal is much stronger than the noise, we are happy, we get a high SNR. If the signal instead is very weak, and its power is close to that of noise, then the SNR is low, and we are not happy because it will be very difficult for the receiver to distinguish the signal, the useful signal from the noise.\n它是一个比值，分子上放的是接收到的有用信号的功率，分母上放的是噪声的功率。显然，如果信号比噪声强得多，我们就很高兴，我们会得到一个很高的SNR。相反，如果信号非常弱，而且它的功率接近噪声功率，那么SNR就很低，我们就不高兴，因为接收端会很难把信号、有用信号与噪声区分开。",
+    "ordinal": 28,
+    "timestamp": "00:18:04",
+    "heading": "28 · 00:18:04 · 有用信号功率与噪声功率之比",
+    "h1_before": null,
+    "anchor": "doxcnwQ8IUOvRxKva5QKPcBFXhb",
+    "text_sha256": "b04489bc3869b9007a9e51dae0a97e3f6f4f74d1c7219a2361763c33614c000b"
+  },
+  {
+    "block_id": "doxcnyFJLyx0b2yIVy1GDE7Z62b",
+    "text": "原标说话人 1  00:18:04\nSo likely in that case, when the SNR is low, the receiver will make lots of mistakes. It has problems in understanding which bits, which symbols are being transmitted, because the signal is too similar to the noise.\n所以，在那种情况下，当SNR很低时，接收端很可能会犯很多错误。它会难以理解正在传输的是哪些比特、哪些符号，因为信号与噪声太相似了。",
+    "ordinal": 29,
+    "timestamp": "00:18:04",
+    "heading": "29 · 00:18:04 · 低SNR与解调错误",
+    "h1_before": null,
+    "anchor": "doxcnDKMHB0TYpx5gZUuzpcSqxb",
+    "text_sha256": "c82a53050a65edfb5075595d7a7a5a326b2e07c9e21dfcde584e6962a96f5c21"
+  },
+  {
+    "block_id": "doxcnzBFQ7KLEsd53AQRVIaPOTb",
+    "text": "原标说话人 1  00:18:04\nNow, another slightly different performance metric that is used to measure the quality of the signal that we that we receive is the SINR that means signal-to-interference-plus-noise ratio.\n现在，另一个稍有不同的性能指标，被用来测量我们、我们接收到的信号质量，那就是SINR，意思是信号与干扰加噪声之比。",
+    "ordinal": 30,
+    "timestamp": "00:18:04",
+    "heading": "30 · 00:18:04 · 引入SINR指标",
+    "h1_before": null,
+    "anchor": "doxcnpPNVKFAGnhhlcJqC3DbyGh",
+    "text_sha256": "dab95a836ea633b2b063d442348b7ffa8d255aade65b6f1012acea237bc1b80c"
+  },
+  {
+    "block_id": "doxcnSAjjDoSwUOm9N0kEC7ihqy",
+    "text": "原标说话人 1  00:18:04\nIn this case, we still consider a ratio, but at the numerator we have the useful signal that we received, the power of the useful signal that is received. As the denominator, instead of having only the power of the noise, we add also the power of the interfering signals coming from other transmitters.\n在这种情况下，我们仍然考虑一个比值，但是在分子上，是我们接收到的有用信号，也就是接收到的有用信号的功率。而在分母上，我们不再只有噪声功率，还加上来自其他发送端的干扰信号的功率。",
+    "ordinal": 31,
+    "timestamp": "00:18:04",
+    "heading": "31 · 00:18:04 · 分母加入干扰信号功率",
+    "h1_before": null,
+    "anchor": "doxcnkuRsWSgF5vTQKNH39LqxKg",
+    "text_sha256": "e0e3c5e705cd516adba18bf222f793e8f29d86dfe9c20808a464451d73321fcb"
+  },
+  {
+    "block_id": "doxcnzrerXj16490wGqIfoqRuee",
+    "text": "原标说话人 1  00:18:04\nBecause unfortunately in real world, we do not have only transmitter and receiver, but we may have many transmitters transmitting simultaneously on the same frequencies. And the receiver. So, the receiver will get not just the useful signal that it wants to receive, but unfortunately it will get all the signals coming from the other transmitters.\n因为，不幸的是，在真实世界中，我们不只有发送端和接收端，而可能有许多发送端同时在相同的频率上发送。还有接收端。所以，接收端得到的，不只是它想接收的有用信号，而且，不幸的是，它会得到来自其他发送端的所有信号。",
+    "ordinal": 32,
+    "timestamp": "00:18:04",
+    "heading": "32 · 00:18:04 · 同频多发射端的干扰",
+    "h1_before": null,
+    "anchor": "doxcn7FexVTc4hEzCudnT8Jva5e",
+    "text_sha256": "6b91d10cfcce604fb28c79e064691e035dd0ef5815c5f3d2083aa3173d08e745"
+  },
+  {
+    "block_id": "doxcnaWtiQFpNx6PdSI9rUifmId",
+    "text": "原标说话人 1  00:18:04\nSo think for example of Wi-Fi.\n所以，比如说，想一想Wi-Fi。",
+    "ordinal": 33,
+    "timestamp": "00:18:04",
+    "heading": "33 · 00:18:04 · 引出Wi-Fi干扰示例",
+    "h1_before": null,
+    "anchor": "doxcnLxRkz4TY1ghbVXIjQhy9Nf",
+    "text_sha256": "918ea804afff3310976e051f04fc3a5f30ca3fe49fc9f2d4b54198c152ce52f1"
+  },
+  {
+    "block_id": "doxcnvOAOeNUallI4Yxs2mdhHAd",
+    "text": "原标说话人 1  00:20:53\nYou may be on a on a street, in a Shanghai, and you may receive the signal, if you are in a in a mall, for example, from the access point of Starbucks, whatever that is, the access point you would like to receive from, because you are there drinking the coffee, but you will receive also the signal coming from the access points of other nearby coffee shops or shops.\n你可能在、在上海的一条街道上，而且你可能接收到信号，比如，如果你在、在一个商场里，接收到星巴克接入点的信号，不管具体是哪一个，那是你希望从中接收信号的接入点，因为你正在那里喝咖啡，但是，你也会收到来自附近其他咖啡店或商店的接入点的信号。",
+    "ordinal": 34,
+    "timestamp": "00:20:53",
+    "heading": "34 · 00:20:53 · 商场中多个接入点的信号",
+    "h1_before": null,
+    "anchor": "doxcnmC0BkXT4CJ2gDslfQ6cxUb",
+    "text_sha256": "7bdc9bfe16055b6921bcd65245931cedddc05c9214f45b7379a0426442f23432"
+  },
+  {
+    "block_id": "doxcntoPa0RixSkKUa6BrJTnq9g",
+    "text": "原标说话人 1  00:20:53\nSo, your Wi-Fi card, that is a receiver in this case, will get the useful signal from the Starbucks access point, but will also get the signal coming from the nearby coffee shop access point. That is an interference.\n所以，你的Wi-Fi网卡，在这种情况下就是接收端，会得到来自星巴克接入点的有用信号，但也会得到来自附近咖啡店接入点的信号。那就是干扰。",
+    "ordinal": 35,
+    "timestamp": "00:20:53",
+    "heading": "35 · 00:20:53 · 目标接入点与邻店干扰",
+    "h1_before": null,
+    "anchor": "doxcnJfYNs8ZI0szCPyuEuH8Lyb",
+    "text_sha256": "2372b2d33a89c95af3a3e9e1281dc9ac3f78ab8c33d1013a415a49cc1811b7af"
+  },
+  {
+    "block_id": "doxcneykAp7XdvNIP7hc5aevohc",
+    "text": "原标说话人 1  00:21:50\nOther examples are when we have transmitters that are using different technologies. So, interference may come from transmitters using the same technology, like in the previous examples, all of them were Wi-Fi access points. But it may also come from transmitters of different technologies. So, for example, you have your Bluetooth radio interface in your phone, and you would like to receive the Bluetooth signal from your earphone. That's the useful signal for my receiver.\n其他例子是，我们有使用不同技术的发送端。所以，干扰可能来自使用相同技术的发送端，就像前面的例子，它们全都是Wi-Fi接入点。但是，干扰也可能来自使用不同技术的发送端。所以，比如说，你的手机中有蓝牙无线接口，而且你希望接收来自耳机的蓝牙信号。那就是我的接收端的有用信号。",
+    "ordinal": 36,
+    "timestamp": "00:21:50",
+    "heading": "36 · 00:21:50 · 同技术与跨技术干扰",
+    "h1_before": null,
+    "anchor": "doxcnGwNFOBtGxNSKvAoXZv1hOh",
+    "text_sha256": "2ba1b7b7281afa84dcee0b08447327bf448b3abf6b69e2500df354e1b738e2af"
+  },
+  {
+    "block_id": "doxcnsXeiTzsQcA6KxsLhogCEmh",
+    "text": "原标说话人 1  00:21:50\nBut there might be a Wi-Fi transmitter. Wi-Fi and Bluetooth may transmit exactly on the same frequencies. So, they operate on the same frequencies. So this means that the Bluetooth receiver will get the Bluetooth, the intended Bluetooth signal fine, but overlapping with that, it will get also the Wi-Fi signal. That's power, interfering power that is going to interfere with the useful signal. Okay?\n但是，可能还有一个Wi-Fi发送端。Wi-Fi和蓝牙可能恰好在完全相同的频率上发送。所以，它们工作在相同的频率上。因此，这意味着，蓝牙接收端会收到蓝牙信号、预期的蓝牙信号，好，但与之叠加的，还有它收到的Wi-Fi信号。那是功率，是会干扰有用信号的干扰功率。好吗？",
+    "ordinal": 37,
+    "timestamp": "00:21:50",
+    "heading": "37 · 00:21:50 · Wi-Fi和蓝牙同频干扰",
+    "h1_before": null,
+    "anchor": "doxcn9nH5hmzCLQ0ZkbEqTCAdmg",
+    "text_sha256": "4184e9827338a50aec6d2afffef5ebe1b3df4c7f9af6709ee06b18cafa6e959f"
+  },
+  {
+    "block_id": "doxcnde8UnvcPk5PhyLmM37gSth",
+    "text": "原标说话人 1  00:21:50\nSo, we may get interference intra and inter technology. Intra is when it is from the same technology, inter is when it is from different technologies, but still is interference power that we are getting, and in this metric, this interfere, interfering signal goes to the denominator along with the noise. So, it's something nasty, something that lowers the quality of your communication.\n所以，我们可能遇到技术内和技术间的干扰。技术内是指来自同一种技术，技术间是指来自不同技术，但它们仍然是我们接收到的干扰功率，而且，在这个指标中，这个干扰、干扰信号与噪声一起放在分母上。所以，这是麻烦的东西，是会降低你通信质量的东西。",
+    "ordinal": 38,
+    "timestamp": "00:21:50",
+    "heading": "38 · 00:21:50 · 技术内外干扰与SINR降低",
+    "h1_before": null,
+    "anchor": "doxcnbEY8iQZFf4g019h5V79FHg",
+    "text_sha256": "76b1a1c07862600e131be98bb22b88eb95b43b4b8be8233b55eb5de9514a6a55"
+  },
+  {
+    "block_id": "doxcnXQluEkwiVsy3H86fol8Elf",
+    "text": "原标说话人 1  00:23:58\nGood. So when SNR or SINR are too low, then as we said, our receiver will have troubles in demodulating the signal, right? So, we don't know, the, remember the red dots, we don't know if what we receive corresponds to a red, no, a red dot or the other in the constellation. So, we make mistakes, and the probability of making mistakes increases as the SNR or SINR get lower.\n很好。所以，当SNR或者SINR太低时，那么，正如我们说过的，我们的接收端在解调信号时就会遇到困难，对吧？所以，我们不知道，那个，记住那些红点，我们不知道接收到的内容对应的是一个红，不，一个红点，还是星座图中的另一个红点。所以，我们会犯错误，而且，随着SNR或者SINR降低，犯错的概率会增加。",
+    "ordinal": 39,
+    "timestamp": "00:23:58",
+    "heading": "39 · 00:23:58 · 低SNR或SINR与星座误判",
+    "h1_before": null,
+    "anchor": "doxcnb3rhT7GmvdRu0WcXQkxAWe",
+    "text_sha256": "55693672d44f3c0e70bea51ac0f3b83cd770e5f8d3a913806c7bbd1d2bc546b3"
+  },
+  {
+    "block_id": "doxcnMGOiilu4Ov4sAuSwR0e67b",
+    "text": "原标说话人 1  00:23:58\nNow, clearly, our technologies have tried to avoid that our receiver makes mistakes. How can we do that? How can we help our receiver to get the correct information?\n现在，显然，我们的技术一直在设法避免接收端犯错误。我们可以怎样做呢？我们怎样才能帮助接收端获得正确的信息呢？",
+    "ordinal": 40,
+    "timestamp": "00:23:58",
+    "heading": "40 · 00:23:58 · 如何提高接收信息的正确性",
+    "h1_before": "错误控制、冗余与码率",
+    "anchor": "doxcnyShTPQNsSaeGDMxvfU2NiI",
+    "text_sha256": "41e66969159c1a0d92f83bf3a4da25cfe65a6fcfb04f850d0b4f593d5469f2a9"
+  },
+  {
+    "block_id": "doxcnoKR1zNxDOcBoAZMtIwfvte",
+    "text": "原标说话人 1  00:23:58\nWell, one possibility is to use the so called error detection or error recovery techniques.\n嗯，一种可能是使用所谓的错误检测或者错误恢复技术。",
+    "ordinal": 41,
+    "timestamp": "00:23:58",
+    "heading": "41 · 00:23:58 · 错误检测与错误恢复技术",
+    "h1_before": null,
+    "anchor": "doxcnmEovjc1SqXkNVT0Uq4HRZg",
+    "text_sha256": "446969e231fe0f608b06a53a567154d15eda139cc31a596a8b5218a10278c242"
+  },
+  {
+    "block_id": "doxcnDVOYwvfBOKMpZGTm9NEGz1",
+    "text": "原标说话人 1  00:25:18\nLet's look at codes first. Codes are possible techniques to increase the reliability of our communication. The key point here is to introduce, in particular, when we look at the first technique that you see here, coding, to introduce redundant bits that help the receiver to understand what would be the correct bits to extract. And these codes are called forward error correction codes, and this is what we are looking at first.\n我们先来看编码。编码是提高我们通信可靠性的一种可能的技术。这里的关键点是引入，特别是，当我们看这里你们看到的第一种技术，即编码时，要引入冗余比特，帮助接收端理解应该提取出的正确比特是什么。而这些码被称为前向纠错码，这就是我们首先要看的内容。",
+    "ordinal": 42,
+    "timestamp": "00:25:18",
+    "heading": "42 · 00:25:18 · 冗余比特与前向纠错",
+    "h1_before": null,
+    "anchor": "doxcnDVu3FwinJP4GUaz50nB4Kf",
+    "text_sha256": "817ad2d1b5f06256c7db7064a0fe653fead829ee87b91fb32d65d3a53ac435c0"
+  },
+  {
+    "block_id": "doxcnuuxTizVa8ap96pQBBAGtAc",
+    "text": "原标说话人 1  00:25:18\nLet's focus on the main message here. Let me show you this figure.\n我们把注意力放在这里的主要信息上。让我给你们看这张图。",
+    "ordinal": 43,
+    "timestamp": "00:25:18",
+    "heading": "43 · 00:25:18 · 转向编码框图",
+    "h1_before": null,
+    "anchor": "doxcnDEpI7iTJ4jsYttvPXrycPc",
+    "text_sha256": "ab3866553ba8b257baefb61b04431ebc3619c1f8cba5e78eb56c383811b2832b"
+  },
+  {
+    "block_id": "doxcn0vbUpvzX5frtefEUHO1SYe",
+    "text": "原标说话人 1  00:25:18\nSo, let's consider that we have a certain number of information bits, right? These information bits are divided into blocks, each block includes n bits, and within each bits actually, we use k information bits that are user bits, important bits that we really want to transfer. The remaining ones will be bits that are artificially added, so they are redundant bits. And then what we transmit is one block of n bits one after the other.\n所以，假设我们有一定数量的信息比特，对吧？这些信息比特被划分为块，每个块包含n个比特，而在每个比特中，实际上，我们使用k个信息比特，也就是用户比特，是我们真正想传送的重要比特。其余比特则是人为添加的比特，所以它们是冗余比特。然后，我们发送的，就是一个接一个的n比特块。",
+    "ordinal": 44,
+    "timestamp": "00:25:18",
+    "heading": "44 · 00:25:18 · n比特块中的k个信息比特",
+    "h1_before": null,
+    "anchor": "doxcnQVDyvNzed9LjFE8akFwFVg",
+    "text_sha256": "429010ed6e01b0ca57b7e06d63849dc83dcb127916986a525884ac753317d39a"
+  },
+  {
+    "block_id": "doxcnsAPtzYPjeuivxcW6BXbIPc",
+    "text": "原标说话人 1  00:25:18\nThe receiver will have to extract from each block of n bits the k user bits correct.\n接收端必须从每一个n比特块中，正确提取出那k个用户比特。",
+    "ordinal": 45,
+    "timestamp": "00:25:18",
+    "heading": "45 · 00:25:18 · 从编码块提取用户比特",
+    "h1_before": null,
+    "anchor": "doxcnbzZn3gG9w8vAT3S9ClspCh",
+    "text_sha256": "fec78655cb1330ddb9e9262e3d7fa7239bb02a6089468a72085340ebc3e6404a"
+  },
+  {
+    "block_id": "doxcnEKBPoHyD9x5eTSOZtnwPXf",
+    "text": "原标说话人 1  00:27:30\nOK, that's the goal. And we'll use these redundant bits that we artificially inserted to help itself to get these k user bits right.\n好，这就是目标。它会使用我们人为插入的这些冗余比特，帮助自己正确获得这k个用户比特。",
+    "ordinal": 46,
+    "timestamp": "00:27:30",
+    "heading": "46 · 00:27:30 · 利用冗余帮助恢复正确数据",
+    "h1_before": null,
+    "anchor": "doxcnXvmSyjp1Yvl1U4N8cq9INd",
+    "text_sha256": "1918254c32d4c0a050ab775c7d064856e17705495b21c41d09ff9073f66a10fc"
+  },
+  {
+    "block_id": "doxcnK6D1jMVKS7DLdIguOcAaah",
+    "text": "原标说话人 1  00:27:30\nOK, now, in this case, in this example, the so called code rate is k over n. So, this ratio stands for the number of useful bits that are transferred for each block. Clearly, the lower the coding rate, the less useful bits we transmit per block, and the more redundant bits we transmit per block. OK. The more redundant bits we insert, the more powerful our technique is. So it's a trade-off again.\n好，现在，在这种情况下，在这个例子中，所谓的码率就是k除以n。所以，这个比值代表每个块所传送的有用比特数量。显然，编码率越低，我们每个块传送的有用比特就越少，每个块传送的冗余比特就越多。好。我们插入的冗余比特越多，我们的技术就越强大。所以，这又是一种权衡。",
+    "ordinal": 47,
+    "timestamp": "00:27:30",
+    "heading": "47 · 00:27:30 · 码率k/n与冗余权衡",
+    "h1_before": null,
+    "anchor": "doxcnIN2FDMHwhwjtXMHPtsnzRb",
+    "text_sha256": "3f14a84fab25d3f6946e0ae3198e44c1b3794d098a9d8c290601c11da5c2c4c2"
+  },
+  {
+    "block_id": "doxcncs97Ggbe5249ssbgENVHfg",
+    "text": "原标说话人 1  00:28:44\nIf you insert more redundant bits, of course, you consume your radio resources and your efforts to transfer fewer information bits per block, but you make your coding technique more powerful. So, when the channel is bad, it's good to use a powerful coding technique, right, and increase the number of redundant bits per block.\n如果你插入更多冗余比特，当然，你就会消耗无线资源、付出努力，却在每个块里传送更少的信息比特，但是，你会让编码技术变得更强。所以，当信道不好时，使用一种强大的编码技术是有好处的，对吧，并且增加每个块中的冗余比特数量。",
+    "ordinal": 48,
+    "timestamp": "00:28:44",
+    "heading": "48 · 00:28:44 · 差信道采用更强编码",
+    "h1_before": null,
+    "anchor": "doxcnoZmlVlVfwmsDBRSGcfeyJc",
+    "text_sha256": "6a8bafc47de0c1c97bd9e35f06cc70ada65a989b3b4643b4259f8f218fda96c8"
+  },
+  {
+    "block_id": "doxcnPD4Fo9KsZ43cLI1F9rq5Ud",
+    "text": "原标说话人 1  00:28:44\nWhen instead the channel is already very good, you may want to reduce the redundant bits even to zero or to a small figure, so that you do not consume radio resources, efforts to transmit redundant bits, and you transmit more user bits. The channel is good, so you don't need much help from the coding technique, right? In that case.\n相反，当信道已经非常好时，你可能会想减少冗余比特，甚至减少到零，或者减少到一个很小的数量，这样你就不会消耗无线资源、付出努力去发送冗余比特，而会发送更多用户比特。信道很好，所以，在那种情况下，你不需要编码技术提供太多帮助，对吧？",
+    "ordinal": 49,
+    "timestamp": "00:28:44",
+    "heading": "49 · 00:28:44 · 好信道减少冗余以提高效率",
+    "h1_before": null,
+    "anchor": "doxcnWSwxdh64V8pkoozhImmxAf",
+    "text_sha256": "89d93a29e8f5ab163a14a2c81e40c51c7909e92a672741a6867ec25dea37d35a"
+  },
+  {
+    "block_id": "doxcnlI3LhTTOOX8ByW2Iv1oipe",
+    "text": "原标说话人 1  00:29:49\nOK, so the important thing also to say is that this kind of techniques depending on the coding rate, so depending on how many redundant bits you artificially add, so depending on how powerful the coding technique is, may be able to only detect if the receiver has made a mistake, or if the coding technique is powerful, it can not only detect if the receiver has made a mistake, but also correct some errors in case mistakes have been made.\n好，那么，还需要说明的重要一点是，这类技术根据编码率，也就是根据你人为添加多少冗余比特，也就是根据编码技术有多强大，可能只能检测接收端是否犯了错误；或者，如果编码技术很强，它不但能够检测接收端是否犯了错误，而且，在已经犯错的情况下，还能纠正某些错误。",
+    "ordinal": 50,
+    "timestamp": "00:29:49",
+    "heading": "50 · 00:29:49 · 检测能力与纠错能力",
+    "h1_before": null,
+    "anchor": "doxcnKLmSKrdAOGrm7PxeOkvw6e",
+    "text_sha256": "282967ef54e4a1e27e8f586b42352320ce1e0de2d3ebd96b00224074f133506d"
+  },
+  {
+    "block_id": "doxcnRJZvUzMpE1YB4yOfccFiWe",
+    "text": "原标说话人 1  00:29:49\nOK, it really depends on the code that we use.\n好，这确实取决于我们使用的码。",
+    "ordinal": 51,
+    "timestamp": "00:29:49",
+    "heading": "51 · 00:29:49 · 编码能力取决于具体码",
+    "h1_before": null,
+    "anchor": "doxcnSF1t5sbZrfY189XwKwTFxe",
+    "text_sha256": "9ab641c2b9029f3872263e53aa27837d4ab677fa44ad5db6c16623f6ea8e2828"
+  },
+  {
+    "block_id": "doxcneoK731guDbL6UpzJI66pjg",
+    "text": "原标说话人 1  00:29:49\nJust to give practical and simple examples, what is the simplest code that you can use, and that we humans use? The repetition code.\n只是举一些实用而简单的例子，你能够使用、而且我们人类也会使用的最简单的码是什么？重复码。",
+    "ordinal": 52,
+    "timestamp": "00:29:49",
+    "heading": "52 · 00:29:49 · 引入重复码",
+    "h1_before": "重复码与多数判决",
+    "anchor": "doxcnYP9oVRi9IzqdNSwbx1egRc",
+    "text_sha256": "40afed61994a4b129f7bfb21086a1c355d51b3b992302b0be06cc528bad26942"
+  },
+  {
+    "block_id": "doxcn8NFMIbzGnWJgLzZe7EETkd",
+    "text": "原标说话人 1  00:29:49\nWhen we talk to someone, and that person has not understood what we're saying, we repeat, right? Once, two, three times, whatever, but we repeat. And that's exactly the simplest form of coding that you can apply.\n当我们和某个人讲话，而那个人没有理解我们在说什么时，我们会重复，对吧？一次、两次、三次，不管多少次，但我们会重复。而这恰好就是你能够采用的最简单的编码形式。",
+    "ordinal": 53,
+    "timestamp": "00:29:49",
+    "heading": "53 · 00:29:49 · 用重复讲话类比编码",
+    "h1_before": null,
+    "anchor": "doxcnD3ax9wpJVui9hSobjRWblf",
+    "text_sha256": "3239be941fc3a59fa4decf195cbb98c54eb81b95f8e6c838f40a63f42c1dcafe"
+  },
+  {
+    "block_id": "doxcnCKxgWVzcj2PJ5Re3eW0nwh",
+    "text": "原标说话人 1  00:29:49\nSo, in wireless transmissions, they do that. Even in the more sophisticated generations of wireless technologies, they do that. Is the technique of repeating.\n所以，在无线传输中，他们也这样做。即使在更复杂先进的无线技术代际中，他们也这样做。这就是重复的技术。",
+    "ordinal": 54,
+    "timestamp": "00:29:49",
+    "heading": "54 · 00:29:49 · 无线传输中的重复技术",
+    "h1_before": null,
+    "anchor": "doxcnh1GTZ7fWFrsK5111aSwPid",
+    "text_sha256": "d095cdeb4a9881a654fcc9fb61a0ee3a17dff51bdb883f80e7defbe8f6849c36"
+  },
+  {
+    "block_id": "doxcn02wNBHQl5AvUVgbIU9nTCh",
+    "text": "原标说话人 1  00:29:49\nSo, this is the string of useful bits, the ones that you really want to transfer. They are user bits, they are the valuable bits. And if you repeat them twice more, these are redundant bits, right? So the one with the green background are redundant bits.\n所以，这是一串有用比特，也就是你真正想传送的那些比特。它们是用户比特，是有价值的比特。而如果你再把它们重复两次，那么这些就是冗余比特，对吧？所以，绿色背景的那些是冗余比特。",
+    "ordinal": 55,
+    "timestamp": "00:29:49",
+    "heading": "55 · 00:29:49 · 有用比特与重复冗余比特",
+    "h1_before": null,
+    "anchor": "doxcnancEHQ2tuKzN6pqKNLylLu",
+    "text_sha256": "ade078cbd4d37cdc733817a1b27ec67fb5f5fe21da6bd81473417b00244da2ad"
+  },
+  {
+    "block_id": "doxcn6fcxuFKOZ7sT7r8F9Uw5Ng",
+    "text": "原标说话人 1  00:32:08\nAnd then, what the receiver does in this case is try to demodulate these useful bits, right? Once, and then it demodulates this row, and then it demodulates this row, and then depending on what it has demodulated, on what it has understood, for each bit, it applies a majority rule.\n然后，在这种情况下，接收端所做的，就是尝试解调这些有用比特，对吧？一次，然后它解调这一行，然后它解调这一行；接着，根据它解调出的内容、根据它理解到的内容，它对每一个比特应用多数判决规则。",
+    "ordinal": 56,
+    "timestamp": "00:32:08",
+    "heading": "56 · 00:32:08 · 逐行解调与多数判决",
+    "h1_before": null,
+    "anchor": "doxcncJcIc6tiTBd0FLajeFAIwh",
+    "text_sha256": "e87ada1495ab953cfd063a3a69c66f504611d042c0210c356c2f52a33f1472ae"
+  },
+  {
+    "block_id": "doxcnSYDjPF2EydpL3mfeap1XMb",
+    "text": "原标说话人 1  00:32:40\nSo, for example, if the receiver has demodulated the first bit of these rows twice as zero and once as one, it would say, well, the result is zero, because twice I demodulated the bit as zero, and once I demodulated as one. So likely I made a mistake the third time since twice I evaluated that as a zero. Majority rule, I would say this is a zero, okay? And the same for each bit.\n所以，比如说，如果接收端把这些行的第一个比特，两次解调为零，一次解调为一，它就会说：‘嗯，结果是零，因为我两次把这个比特解调为零，一次解调为一。所以，很可能我第三次犯了错误，因为我两次都把它判断为零。’多数判决，我会说这是零，好吗？每一个比特都如此。",
+    "ordinal": 57,
+    "timestamp": "00:32:40",
+    "heading": "57 · 00:32:40 · 两次为零一次为一的判决例子",
+    "h1_before": null,
+    "anchor": "doxcnCK43nQAdJtc0sDz9pVUPKh",
+    "text_sha256": "38c6a8534b6733a82a2b4ffccd4efed73c5f5d4a52378c598f64bc657e7e3b3f"
+  },
+  {
+    "block_id": "doxcn88ukHB68rOOTaWPYZBcHEf",
+    "text": "原标说话人 1  00:32:40\nSo repeating, you get more chances, right? To get it right exactly as we human beings do.\n所以，通过重复，你会获得更多机会，对吧？更多正确获得它的机会，完全就像我们人类所做的一样。",
+    "ordinal": 58,
+    "timestamp": "00:32:40",
+    "heading": "58 · 00:32:40 · 重复增加正确接收机会",
+    "h1_before": null,
+    "anchor": "doxcnMtnbmWpt3lBpQ2Weh0LQZC",
+    "text_sha256": "e02474dccf00044cc8aa6bd282244b52fe24450f4a484aa71db85cb9f6a5fe73"
+  },
+  {
+    "block_id": "doxcnmeSQPdW3h9F2hAdqfibGkh",
+    "text": "原标说话人 1  00:33:36\nAnother simple technique is to add a so-called parity bit as redundant bit.\n另一种简单的技术，是添加一个所谓的奇偶校验位，作为冗余比特。",
+    "ordinal": 59,
+    "timestamp": "00:33:36",
+    "heading": "59 · 00:33:36 · 引入奇偶校验位",
+    "h1_before": "单个奇偶校验位与错误检测",
+    "anchor": "doxcniTzIOmKLvDf9OrugJ93f2d",
+    "text_sha256": "23e890c1ebdce012441550204abe77b9ac8a5cb61cf026217d094c051f11ccef"
+  },
+  {
+    "block_id": "doxcn7bAtElDVnomleFiGAmgWOb",
+    "text": "原标说话人 1  00:33:36\nSo again, here you have the string of useful bits, and for this string of useful bits, in this case, you add only one redundant bit. That is a parity bit, it is computed essentially by considering the information bits. One and one essentially nullify themselves. So, 0, 1, 1, OK? Together they give you 0. 1 and 1 together they give you 0, the others are all 0, your parity bit is 0.\n所以，同样，这里有一串有用比特，而对于这串有用比特，在这个例子中，你只添加一个冗余比特。那就是奇偶校验位，它基本上是通过考虑信息比特来计算的。一和一基本上互相抵消。所以，0、1、1，好吗？合在一起给你0。1和1合在一起给你0，其他的全都是0，你的奇偶校验位就是0。",
+    "ordinal": 60,
+    "timestamp": "00:33:36",
+    "heading": "60 · 00:33:36 · 由信息比特计算校验位",
+    "h1_before": null,
+    "anchor": "doxcnb5V9fCCFXHAsZPLQfhSrrd",
+    "text_sha256": "89da94c2b13b6d233e0d7fee4a9cf13855b61e578dfc9f3bb94a82e5b9cf5762"
+  },
+  {
+    "block_id": "doxcnSjINwvUH2X8VanZRY8wxtb",
+    "text": "原标说话人 1  00:33:36\nOK, so if you have an even number of ones, your parity bit is zero, if you have an odd number of ones, your parity bit is one. Very simple.\n好，所以，如果你有偶数个一，那么你的奇偶校验位就是零；如果你有奇数个一，那么你的奇偶校验位就是一。非常简单。",
+    "ordinal": 61,
+    "timestamp": "00:33:36",
+    "heading": "61 · 00:33:36 · 偶数与奇数个一的校验规则",
+    "h1_before": null,
+    "anchor": "doxcncYkce1FARFyEh5T82Yk0oh",
+    "text_sha256": "840507e75f28aa96ea1e62be842ade90b4c49dac330943944e3c389d29f1201c"
+  },
+  {
+    "block_id": "doxcnOUsKOlA6CEx0rn8cEDjEfS",
+    "text": "原标说话人 1  00:33:36\nAnd in cases where you get only one mistake, essentially what the receiver can do is to detect whether it has made an error. Why?\n而在只出现一个错误的情况下，接收端基本上能够做的，就是检测自己是否犯了错误。为什么？",
+    "ordinal": 62,
+    "timestamp": "00:33:36",
+    "heading": "62 · 00:33:36 · 单个错误的检测能力",
+    "h1_before": null,
+    "anchor": "doxcnxkbST5UZu8EUUGO6lpcH7b",
+    "text_sha256": "1ebec0bc17cd66482568a66579379aba3c3f26c643efe8754fe02233657765c0"
+  },
+  {
+    "block_id": "doxcnhvhpJJG622aNvIdUnb3uoe",
+    "text": "原标说话人 1  00:34:57\nBecause this is the bits that are useful bits that the transmitter transmits. This is the parity bit that the transmitter has computed and will transmit. The receiver demodulates all this, right?\n因为，这些是发送端所发送的有用比特。这是发送端已经计算出来、并且将要发送的奇偶校验位。接收端对所有这些进行解调，对吧？",
+    "ordinal": 63,
+    "timestamp": "00:34:57",
+    "heading": "63 · 00:34:57 · 发送信息比特与校验位",
+    "h1_before": null,
+    "anchor": "doxcnJKWwM7oABAuJUYfogjcgmd",
+    "text_sha256": "6f8273afb6ffa502ef0cc6604a38d1d34f6b7811ad2621339adedff6f7184bee"
+  },
+  {
+    "block_id": "doxcnZsH4RxKdXe7UGWrME97xQg",
+    "text": "原标说话人 1  00:34:57\nNow, what it does is first to process these waveforms, these signals and extract these information bits, and then it extracts the parity bit.\n现在，它首先做的，就是处理这些波形、这些信号，提取出这些信息比特，然后提取奇偶校验位。",
+    "ordinal": 64,
+    "timestamp": "00:34:57",
+    "heading": "64 · 00:34:57 · 接收端解调与提取校验位",
+    "h1_before": null,
+    "anchor": "doxcnpD1DN71zjPQtpHNgStG71R",
+    "text_sha256": "9f7b8b4f5a6c96cc4685ce36c7e1899d5427228324015188eee015b9dc7b37d7"
+  },
+  {
+    "block_id": "doxcnilBrP9jqbc0FlPzZqU1Jpe",
+    "text": "原标说话人 1  00:35:42\nAssume that the parity bit is always received correctly. Right? Let's assume that. So the receiver knows that the parity bit must be zero. So what it does is to compute locally the parity bit based on what he has received and extracted.\n假设奇偶校验位总是被正确接收。对吧？我们这样假设。所以，接收端知道奇偶校验位必须是零。因此，它所做的，就是根据自己已经接收并提取出的内容，在本地计算奇偶校验位。",
+    "ordinal": 65,
+    "timestamp": "00:35:42",
+    "heading": "65 · 00:35:42 · 正确接收校验位的示例假设",
+    "h1_before": null,
+    "anchor": "doxcnFgQrvjrFngOKIllZi0oUKh",
+    "text_sha256": "67a1e5feb8950f880c37aa79783d37e0b531d7c6eb4a13da10e1b2548c0d9861"
+  },
+  {
+    "block_id": "doxcnvyYaC8nDEDGkayxxm4IPfb",
+    "text": "原标说话人 1  00:36:12\nOK, and then it compares the parity bit that it has computed locally with the parity bit that it has received from the transmitter. If they are the same, it says well, I demodulated all the useful bits correctly.\n好，然后，它把自己在本地计算的奇偶校验位，与从发送端接收到的奇偶校验位进行比较。如果它们相同，它就会说：‘嗯，我正确地解调了所有有用比特。’",
+    "ordinal": 66,
+    "timestamp": "00:36:12",
+    "heading": "66 · 00:36:12 · 比较本地与接收校验位",
+    "h1_before": null,
+    "anchor": "doxcnMsZQSvF0Nw4wLWk5SK7OOb",
+    "text_sha256": "b4a59ac96166a2a5210e43357638ff22ad723469417b499b09a6050f86ef5577"
+  },
+  {
+    "block_id": "doxcnnfzXYmHjV3b1KAX99JpLEc",
+    "text": "原标说话人 1  00:36:12\nIf instead the parity bits that it has computed based on what it has extracted differs from the parity bit that the transmitter has sent, you would say, I made a mistake, right? You don't know where, but you know that the receiver made a mistake.\n相反，如果它根据自己提取出的内容所计算的奇偶校验位，与发送端发送的奇偶校验位不同，你就会说：‘我犯了一个错误’，对吧？你不知道错在哪里，但是你知道接收端犯了一个错误。",
+    "ordinal": 67,
+    "timestamp": "00:36:12",
+    "heading": "67 · 00:36:12 · 校验不一致表明存在错误",
+    "h1_before": null,
+    "anchor": "doxcnpvmgpxUjbuG7S3Uxe1k9lb",
+    "text_sha256": "9ae51cffb2be463c3deecc5e3e275ef1a917e9f8c7766a4455978cee0ade2cc7"
+  },
+  {
+    "block_id": "doxcng8S0iDRZ04zzIBOxriglac",
+    "text": "原标说话人 1  00:36:12\nSo, this simple code allows the receiver in the case where one mistake only is made to detect that it has made a mistake.\n所以，这个简单的码，使接收端在只发生一个错误的情况下，能够检测到自己犯了错误。",
+    "ordinal": 68,
+    "timestamp": "00:36:12",
+    "heading": "68 · 00:36:12 · 单比特错误检测小结",
+    "h1_before": null,
+    "anchor": "doxcnqApvcmf8kzRVpsBmjOIG2f",
+    "text_sha256": "7414b5a2886687b0e92f5a85aa1b3d3a6a1e5f80722e0b43afaa01b63118f7da"
+  },
+  {
+    "block_id": "doxcnGu7M6EHDxnyIrr2hhdQxsf",
+    "text": "原标说话人 1  00:36:12\nYou can try at home to do some examples by yourself.\n你们可以在家里尝试自己做几个例子。",
+    "ordinal": 69,
+    "timestamp": "00:36:12",
+    "heading": "69 · 00:36:12 · 课后自测奇偶校验",
+    "h1_before": null,
+    "anchor": "doxcn8vbIhoHlSvNuJb7kXUYHHb",
+    "text_sha256": "56d5578941ae1ade985ceb8af4cec1aed864743d3e5a00eca34c8495ee89b9d8"
+  },
+  {
+    "block_id": "doxcnZFCh0JAWOUuAkjdw9no6Cf",
+    "text": "原标说话人 1  00:37:29\nMake your receiver, make one mistake only, and see if it can detect that it has made a mistake. Try to make your receiver make two mistakes, and you will see that it will not be able to understand that you made a mistake. Okay, it's very simple. So, you can try. If you have troubles, let me know. But it's a very simple exercise.\n让你的接收端，只犯一个错误，看看它能否检测到自己犯了错误。试着让接收端犯两个错误，你就会看到，它无法知道你犯了错误。好，这非常简单。所以，你们可以试一试。如果有困难，告诉我。但是，这是一个非常简单的练习。",
+    "ordinal": 70,
+    "timestamp": "00:37:29",
+    "heading": "70 · 00:37:29 · 一个错误与两个错误的对比练习",
+    "h1_before": null,
+    "anchor": "doxcnzSFy3vhEk0F1GYUJWYRoSg",
+    "text_sha256": "80744f4b1a081a2dffc7d8e40a086582fe113f7a08dcaf9cb165a18f90950583"
+  },
+  {
+    "block_id": "doxcnMwkkMBaInJ2JDjKxGNfDSd",
+    "text": "原标说话人 1  00:38:05\nThis is another example where again, the bits on the white background are the useful bits. The green, the the ones with the green background are the redundant bits.\n这是另一个例子，同样，白色背景上的比特是有用比特。绿色的，那些、那些绿色背景的比特，是冗余比特。",
+    "ordinal": 71,
+    "timestamp": "00:38:05",
+    "heading": "71 · 00:38:05 · 引入二维奇偶校验示例",
+    "h1_before": "二维校验与更复杂的编码",
+    "anchor": "doxcnIaQFeMP35xs0yf0NhrooZb",
+    "text_sha256": "6beb694ed8dfb13fd9a52c26d0032ae812e72589cae34bad3968d9e38756f18d"
+  },
+  {
+    "block_id": "doxcnd7FaXhlPIzhwyV2msPJqae",
+    "text": "原标说话人 1  00:38:05\nAnd again, what our transmitter does is to compute parity bits, but now it arranges the useful bits in a matrix. And for each row, it computes a parity bit, and for each column also, it computes a parity bit. So, we increase the number of parity bits.\n而且，同样，发送端所做的，就是计算奇偶校验位，但是现在，它把有用比特排列成一个矩阵。对于每一行，它计算一个奇偶校验位；对于每一列，它也计算一个奇偶校验位。所以，我们增加了奇偶校验位的数量。",
+    "ordinal": 72,
+    "timestamp": "00:38:05",
+    "heading": "72 · 00:38:05 · 矩阵中逐行逐列计算校验位",
+    "h1_before": null,
+    "anchor": "doxcneZhcO0MnyzqLiEkm1CWrKc",
+    "text_sha256": "acd96792b5cac3512ea12c50db86b13e0691eeb220c7fa8c5e76b773068bd05e"
+  },
+  {
+    "block_id": "doxcnRntmA78sO3B9dPz4MxmBIf",
+    "text": "原标说话人 1  00:38:45\nSo, we make our code more powerful, right? And this is indeed true, because if you notice in this case, where, in this example, where we consider that the receiver makes one mistake, it will be able not just to detect that it has made a mistake, but it will also be able to correct the mistake.\n所以，我们让自己的码变得更强大了，对吧？而且，这确实是真的，因为，如果你们留意这个情况，这个例子，在这里我们考虑接收端犯了一个错误，那么它不仅能够检测到自己犯了一个错误，而且还能够纠正这个错误。",
+    "ordinal": 73,
+    "timestamp": "00:38:45",
+    "heading": "73 · 00:38:45 · 二维校验定位并纠正单个错误",
+    "h1_before": null,
+    "anchor": "doxcnBLkIvmTnx2CaFnXytCFg0d",
+    "text_sha256": "8f7103dfea20ea982dbedfcc9bd2cbca1c0aee4c056d5bea3f8a7cf256e5c5ee"
+  },
+  {
+    "block_id": "doxcnC5Ae5i6r8Q1WwXew86NOic",
+    "text": "原标说话人 1  00:38:45\nSo, in making the code more powerful, because we now increase the number of redundant bits, so we reduce the coding rate, we are able not just to perform detection of a single error, but also to correct a single error.\n所以，通过让这个码更强大，因为现在我们增加了冗余比特的数量，因此降低了编码率，我们不仅能够检测单个错误，而且能够纠正单个错误。",
+    "ordinal": 74,
+    "timestamp": "00:38:45",
+    "heading": "74 · 00:38:45 · 降低码率以增强纠错能力",
+    "h1_before": null,
+    "anchor": "doxcnNMNALCPVxpu0iCR1oK3wAb",
+    "text_sha256": "e17a222d1365bc7e74a9428f7cfbcee7694fd13cab27783d30012c3a5ae7ab82"
+  },
+  {
+    "block_id": "doxcnkxceAz2szkYIzAnSCUbwsg",
+    "text": "原标说话人 1  00:38:45\nAnd again, you can do that as a small exercise at home and verify that this is indeed true.\n而且，同样，你们可以把它作为在家做的一个小练习，验证这一点确实是真的。",
+    "ordinal": 75,
+    "timestamp": "00:38:45",
+    "heading": "75 · 00:38:45 · 课后验证二维校验",
+    "h1_before": null,
+    "anchor": "doxcnpdPmqvepvz3c4kqC5oH9cc",
+    "text_sha256": "9ee4ab372846a0b5fcc1be5634dfbecf2ce9e4e5bd440a38bf921737d2d19364"
+  },
+  {
+    "block_id": "doxcn0dF2gUsmQT39vENHU4Zsnh",
+    "text": "原标说话人 1  00:38:45\nRemember that the way things work is that the receiver will try first to demodulate the information bits, the user bits with a white background, and then compute locally the parity bits based on what it has extracted, and then compare the parity bits that it has computed locally with the parity bits that it has received from the transmitter. And use this to understand whether it has made a mistake or not. And in case of a single error in this example, also it will be able to correct the error. Okay, so try to do that at home.\n记住，事情的工作方式是，接收端首先会尝试解调信息比特，也就是白色背景的用户比特，然后根据自己提取出的内容，在本地计算奇偶校验位，再把自己在本地计算的奇偶校验位，与从发送端接收到的奇偶校验位进行比较。然后，利用这一点来理解自己是否犯了错误。而且，在这个例子中，在只有一个错误的情况下，它还能够纠正错误。好，所以，你们在家试着做一下。",
+    "ordinal": 76,
+    "timestamp": "00:38:45",
+    "heading": "76 · 00:38:45 · 接收端二维校验与纠错流程",
+    "h1_before": null,
+    "anchor": "doxcnbyPQsdgvIsD8gOKuzXIrkc",
+    "text_sha256": "d023d6c5c8c14722f03e57fcdf10e46e3b92a697601b0449918fdcb965c87254"
+  },
+  {
+    "block_id": "doxcnGDpLDCC8goAhYBu233e2Qh",
+    "text": "原标说话人 1  00:38:45\nThis is just to say that those were simple examples. Codes may actually be a bit more complicated than that.\n这只是为了说明，那些是简单的例子。编码实际上可能比那更复杂一些。",
+    "ordinal": 77,
+    "timestamp": "00:38:45",
+    "heading": "77 · 00:38:45 · 从简单示例转向复杂编码",
+    "h1_before": null,
+    "anchor": "doxcnOOjeNSi629x4GyMsjCgV3T",
+    "text_sha256": "185a1cafff6366df6d00cdf2372b8b53c687d62ed5c8f4a66a386b11c4589c9b"
+  },
+  {
+    "block_id": "doxcnT9htsNXLVqxQoR3jLdyrsc",
+    "text": "原标说话人 1  00:38:45\nThere are, for example, convolutional codes. I'm not going to the details, of course, but essentially, they use registers, and they combine information bits according to more complicated operations in order to compute the parity bits. So the concept is exactly the same as in those examples that we look at, but just to say that codes may become really complicated depending on how you compute these parity bits or redundant bits, redundant bits that you add and then transmit along with the user bits.\n比如，有卷积码。当然，我不会讲细节，但是，基本上，它们使用寄存器，按照更加复杂的运算来组合信息比特，以便计算奇偶校验位。所以，这个概念与我们看过的那些例子完全相同，但只是想说，根据你怎样计算这些奇偶校验位或者冗余比特，编码可能变得非常复杂；这些冗余比特是你添加进去、然后与用户比特一起发送的。",
+    "ordinal": 78,
+    "timestamp": "00:38:45",
+    "heading": "78 · 00:38:45 · 卷积码与寄存器运算概述",
+    "h1_before": null,
+    "anchor": "doxcn151FAeXicVSmI7VBGuuyJb",
+    "text_sha256": "2da9fa1cdc969f1c6e49a343363b673b8a5f0150469b67cd7d66f8062206ab9e"
+  },
+  {
+    "block_id": "doxcnZC9evCSSIRkYxcVGh1zGJ9",
+    "text": "原标说话人 1  00:41:48\nAs a very last thing that I would like to introduce, let's see if we can make it before the end of this class. Otherwise, we continue tomorrow, is the ARQ technique. This is a second technique that can be used to detect and possibly correct errors, but the principle, the concept is very very different. So, ARQ stands for automatic retransmission request.\n作为我想介绍的最后一件事，看看我们能不能在这节课结束前讲完，否则我们明天继续，那就是ARQ技术。这是第二种可以用来检测、并且可能纠正错误的技术，但是原理、概念非常、非常不同。所以，ARQ代表自动重传请求。",
+    "ordinal": 79,
+    "timestamp": "00:41:48",
+    "heading": "79 · 00:41:48 · 引入ARQ自动重传请求",
+    "h1_before": "ARQ引入与数据包结构",
+    "anchor": "doxcnjVBzPbtbvTTEnuAl3nGzYd",
+    "text_sha256": "7a16cdd60ceef813d66cdfebe822525053bc4ec02c506510e90e5041713d0fc2"
+  },
+  {
+    "block_id": "doxcn6NQxe7HlgLUOXkyZd07jNb",
+    "text": "原标说话人 1  00:41:48\nNow, we don't look at the single bits, but we look at packets, OK?\n现在，我们不看单个比特，而是看数据包，好吗？",
+    "ordinal": 80,
+    "timestamp": "00:41:48",
+    "heading": "80 · 00:41:48 · 从单个比特转向数据包",
+    "h1_before": null,
+    "anchor": "doxcn2yJ3swcjHPQjRyiyUHE4Nd",
+    "text_sha256": "927eb0bb28389886bcfe30c3512402d7d7209476ed4d94a510019bd34974dd2a"
+  },
+  {
+    "block_id": "doxcnfCwIz9Jl6McSIamdnVZb0d",
+    "text": "原标说话人 1  00:41:48\nSo, when we transmit information from a transmitter to a receiver, bits are organized into packets. It means that they are segmented into chunks, and each chunk of user bits are then transmitted from the transmitter to the receiver. And usually, the transmitter does not just transmit these chunks of user bits, but put an header in front of each chunk of useful bits. This is the way information is transferred over the internet. I guess you have studied that somewhere. Have you? Have you studied internet? How internet works?\n所以，当我们从发送端向接收端传送信息时，比特被组织成数据包。意思是，它们被分割成块，然后每一块用户比特都从发送端传给接收端。而且，通常，发送端不只是发送这些用户比特块，还会在每一块有用比特前面放一个首部。这就是信息通过互联网传送的方式。我想你们在某个地方学过这个。学过吗？你们学过互联网吗？互联网是怎样工作的？",
+    "ordinal": 81,
+    "timestamp": "00:41:48",
+    "heading": "81 · 00:41:48 · 比特分组与数据包首部",
+    "h1_before": null,
+    "anchor": "doxcn3sHgcTv2INULbDYjSGe2ge",
+    "text_sha256": "6c9efba1ce47b978402e7fbb96cf7801bb70b403627e32ef518e79b165c8cdf0"
+  },
+  {
+    "block_id": "doxcnm1KZ89y4WzSeHxPdc1STct",
+    "text": "原标说话人 1  00:43:38\nNo, OK, anyway, doesn't matter. But whenever we use internet, we transfer or receive data that are organized into packets. A packet is like a letter, like the mail, post mail. So, you write a letter, right? The transmitter is like sending letters, and each letter, of course, is made of several symbols. And then, it sends the letter through the postal mail toward a destination. At least in the old times, we use that.\n没有，好，不管怎样，没关系。但是，每当我们使用互联网时，我们传送或者接收的数据都被组织成数据包。数据包就像一封信，就像邮件、邮政信件。所以，你写一封信，对吧？发送端就像是在寄信，而每封信当然都由若干符号组成。然后，它通过邮政系统把信寄往某个目的地。至少在以前，我们是这样做的。",
+    "ordinal": 82,
+    "timestamp": "00:43:38",
+    "heading": "82 · 00:43:38 · 用邮政信件类比数据包",
+    "h1_before": null,
+    "anchor": "doxcnD7F1pHJgNne8pEZKI4emGg",
+    "text_sha256": "efdc0418b9e10244cb0df8cc29e5f1237112434580a62259ac607fbf17af45aa"
+  },
+  {
+    "block_id": "doxcntBtv8g0LjUyX1MccHB2PRb",
+    "text": "原标说话人 1  00:44:32\nNow we have emails, but the concept is the same. You write an email that is intended for your friend. Your friend is the destination. You are the transmitter, and what you send is an email, a message, right? You don't send one letter, a, b, c at a time, you send the message. That's the same idea. In the internet we transmit packets, and a packet is a chunk of bits.\n现在我们有电子邮件，但概念是一样的。你写一封发给朋友的电子邮件。你的朋友是目的地。你是发送端，而你发送的是一封电子邮件、一条消息，对吧？你不是一次发送一个字母，a、b、c，你发送的是这条消息。这是同样的想法。在互联网中，我们发送数据包，而数据包就是一块比特。",
+    "ordinal": 83,
+    "timestamp": "00:44:32",
+    "heading": "83 · 00:44:32 · 发送完整消息而非逐个字母",
+    "h1_before": null,
+    "anchor": "doxcn0UNq8kjapRVJhs4AW4pUsg",
+    "text_sha256": "a7872906bc993aa4c78c4163e7b8e98320612439272337dbe8f46602b5ca78a9"
+  },
+  {
+    "block_id": "doxcne54rHCnqgNDkecAcvXltfc",
+    "text": "原标说话人 1  00:45:10\nNow, when you send an email or a post letter to your friend, what you do is not just send a sheet of paper with the information, right, that you want to send to your friend, but you write your name, your address, the name and address of your friend. Otherwise, you will never reach your friend.\n现在，当你给朋友发送电子邮件或者邮政信件时，你所做的，不只是发送一张带有你想发给朋友的信息的纸，对吧，而是要写上你的姓名、你的地址、你朋友的姓名和地址。否则，你永远也无法到达你的朋友那里。",
+    "ordinal": 84,
+    "timestamp": "00:45:10",
+    "heading": "84 · 00:45:10 · 信件的寄件人与收件人地址",
+    "h1_before": null,
+    "anchor": "doxcnDblSaX9TLPB5N5DTVgKkqd",
+    "text_sha256": "784c4f0ef1e05b7661ea34806349062ea65d0caebeb62e8d884df9126949990e"
+  },
+  {
+    "block_id": "doxcnRDjvTdH14I1mQqTK5um7dd",
+    "text": "原标说话人 1  00:45:10\nSame for the packets. The packets need an header, and in this header, at minimum, you have to write who is the sender of the packet, and who is the destination of the packet. OK? That's how internet works. All the all the data networks nowadays work, wireless, wired, it doesn't matter. They always organize information bits into packets and in packets we have a header, and this is called payload. Here you find a different denomination, but let's use the simpler one, where this is the header of the packet, and this is the payload.\n数据包也是一样。数据包需要一个首部，而在这个首部中，你至少必须写明，谁是数据包的发送者，谁是数据包的目的方。好吗？互联网就是这样工作的。如今所有、所有的数据网络都这样工作，无线的、有线的，都没有关系。它们总是把信息比特组织成数据包，而在数据包中，我们有一个首部，而这个叫作有效载荷。这里你会看到一种不同的名称，但是我们用比较简单的那个，这里是数据包的首部，这里是有效载荷。",
+    "ordinal": 85,
+    "timestamp": "00:45:10",
+    "heading": "85 · 00:45:10 · 数据包的首部和有效载荷",
+    "h1_before": null,
+    "anchor": "doxcncEnazcbasY3flJt5I8FGkd",
+    "text_sha256": "1223639d27591244475ee1d60aac5018bb63d56c12e3e93902ab95d3e08c24a1"
+  },
+  {
+    "block_id": "doxcnnd3J38U1viVoWVJiCwsJOf",
+    "text": "原标说话人 1  00:46:34\nIn the payload you get the useful bits. In the header you get the address of the sender, the address of the destination, and other stuff that we refer to control information. They are not really useful data for the final user, right? They are information, but they are control information, like the address of the sender or the address of the receiver. While the content, the useful content, is in the payload. OK, so that's it.\n在有效载荷中，你得到的是有用比特。在首部中，你得到的是发送者的地址、目的方的地址，以及我们称为控制信息的其他东西。对于最终用户来说，它们并不是真正有用的数据，对吧？它们是信息，但是是控制信息，比如发送者的地址或者接收者的地址。而内容、有用的内容，在有效载荷里。好，就是这样。",
+    "ordinal": 86,
+    "timestamp": "00:46:34",
+    "heading": "86 · 00:46:34 · 地址控制信息与用户数据",
+    "h1_before": null,
+    "anchor": "doxcnLWM7JkC8KIhGGlb2ceyCkz",
+    "text_sha256": "8020a405c09714d91fc25c6002bd43abc80c5d49cced71856caf442a8a751de8"
+  },
+  {
+    "block_id": "doxcnW3WqLNKziyaVXTtPnvWaTg",
+    "text": "原标说话人 1  00:46:34\nThat would be all for today. We continue tomorrow to explain how these ARQ techniques work. If you have any feedback about the speed, and please let me know. Okay? And also, what is clear, what is not, that would help me make it easier for you for the next lecture.\n今天就讲到这里。我们明天继续解释这些ARQ技术是怎样工作的。如果你们对速度有任何反馈，请告诉我。好吗？还有，哪些清楚、哪些不清楚，这些反馈都能帮助我在下一讲里让你们更容易理解。",
+    "ordinal": 87,
+    "timestamp": "00:46:34",
+    "heading": "87 · 00:46:34 · 下次继续ARQ并征求课堂反馈",
+    "h1_before": null,
+    "anchor": "doxcnCBhSkclicxfXvDfoPSyUFe",
+    "text_sha256": "334b96307f60e703975096a6756f77a1526536fa0235deada28af15947936ef3"
+  },
+  {
+    "block_id": "doxcntvFYYJkTZoWLHOPuAArgDb",
+    "text": "原标说话人 1  00:47:51\nThank you.\n谢谢。",
+    "ordinal": 88,
+    "timestamp": "00:47:51",
+    "heading": "88 · 00:47:51 · 课程结束致谢",
+    "h1_before": null,
+    "anchor": "doxcnLAFyrXJcEldrHWwVMCM2Sh",
+    "text_sha256": "c22a508597811b0d6906997458d6da956ec85ce10acae9886ce819dd4e4fd324"
+  }
+]
