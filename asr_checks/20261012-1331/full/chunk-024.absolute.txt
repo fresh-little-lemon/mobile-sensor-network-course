@@ -1,0 +1,18 @@
+[01:08:45.000 --> 01:08:55.580] Actually, the procedure is slightly different, it's essentially the same except for one.
+[01:08:56.480 --> 01:08:58.360] What is this third situation?
+[01:08:58.620 --> 01:09:07.100] In this case, the procedure is called fast back-off, just to underline that there is
+[01:09:07.100 --> 01:09:17.500] a small difference with respect to the back-off run under the previous two situations.
+[01:09:19.220 --> 01:09:28.920] So what is this third situation? It is when a node transmits a data packet successfully.
+[01:09:29.940 --> 01:09:38.020] So you may say well why do I have to perform the BECOF in this case? I've transmitted my
+[01:09:38.020 --> 01:09:46.900] packet correctly, I'm done, what do you want from me? Well, the wi-fi says I know you transmitted
+[01:09:46.900 --> 01:09:54.680] your packet, you are done with that, but after you receive the ACK from the receiver,
+[01:09:54.680 --> 01:10:23.820] you need to perform a Bechov using 0 CW min as range of possible integers. That's what the protocol says, so again, we want to understand why, right, maybe this is not enough, okay, I have to do it, I will do it, but tell me why, why do I have to do that?
+[01:10:23.820 --> 01:10:35.920] well the reason is fairness we want to be fair to our nodes okay so let me give
+[01:10:35.920 --> 01:10:54.160] an example and that will allow us to, in winter, understand why they tell us once you transmit
+[01:10:54.160 --> 01:11:03.480] successfully run this hospital. So let's consider again the same scenario so
+[01:11:03.480 --> 01:11:17.500] that will be easy access point and then node A and then we can also consider our B and C nodes
+[01:11:17.500 --> 01:11:24.520] same as before so we know that with the story it will be easier
+[01:11:25.520 --> 01:11:31.660] so the story starts in the same way A has got a packet leaves
+[01:11:34.360 --> 01:11:44.780] channel IDLE transmits the data packet, UNICAS data packet to the access point, this packet transmission
+[01:11:44.780 --> 01:12:03.380] is successful, so the access points have backed the ACK and as we said before, all nodes are in
+[01:12:03.380 --> 01:12:14.680] out and same as before and it's at the point B and C get a packet from their respective higher layers

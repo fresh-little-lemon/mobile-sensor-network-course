@@ -1,0 +1,22 @@
+[01:14:45.000 --> 01:14:54.780] be modeled as a queue with a server. So let's consider that A has transmitted the packet
+[01:14:54.780 --> 01:15:03.420] here successfully, but let's assume that A has got another packet in the queue waiting to be transmitted.
+[01:15:03.420 --> 01:15:18.580] So, this first packet goes through successfully, this is what we represented here, but now
+[01:15:18.580 --> 01:15:29.800] A has got another packet right here, so when it's done with this dialog, we have another
+[01:15:29.800 --> 01:15:40.460] packet to deal with. So what if A didn't have any phospho-cov to run? Well, you
+[01:15:40.460 --> 01:15:50.440] will have to sense the channel for this. The channel is idle and you will be
+[01:15:50.720 --> 01:16:02.600] to access the channel and trust me. So you will have to ask me its other data, this may be successful
+[01:16:04.020 --> 01:16:11.700] and what would be that? Would that be fear with respect to B and C? The poor B and C
+[01:16:12.600 --> 01:16:20.360] are waiting very good, their pick-off time and A just gets the next packet and go ahead
+[01:16:20.360 --> 01:16:32.180] with its transmission. So this is unfair and indeed if a wi-fi card like A has got several
+[01:16:32.180 --> 01:16:41.400] packets, under this situation, without cost because we just continue accessing the channel
+[01:16:41.400 --> 01:16:49.860] and transmitting its packets with very high probability you will actually size the channel
+[01:16:49.860 --> 01:17:00.600] for a very long time and thrash me, thrash me, thrash me, while the others we had to wait, wait, wait, because the channel would become busy, confused.
+[01:17:02.540 --> 01:17:12.440] And this was indeed absurd, also experimentally. Years ago, some researchers made experiments with different
+[01:17:12.440 --> 01:17:22.060] Wi-Fi cards, they were commercial products, they claimed all these cards claimed to follow the
+[01:17:22.060 --> 01:17:28.320] standard, of course products must follow the standard, they claimed to do that, but actually
+[01:17:28.320 --> 01:17:40.400] one of these cards was applying everything, as specified by the standard, but the post
+[01:17:40.400 --> 01:17:49.060] the cop and what these researchers observed was that this Wi-Fi card was
+[01:17:49.060 --> 01:17:55.540] obtained very very high throughput that means the ability to transmit a lot of
+[01:17:55.540 --> 01:18:03.380] data while the other Wi-Fi cards were starving so they could not get
+[01:18:03.380 --> 01:18:12.220] access to the channel. A very unfair service and this is because this was
+[01:18:12.220 --> 01:18:14.200] because that

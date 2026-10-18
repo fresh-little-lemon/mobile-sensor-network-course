@@ -1,0 +1,18 @@
+[01:11:45.000 --> 01:11:56.380] successful. So the access points have backed the ACK and as we said before all nodes are in radio
+[01:11:56.380 --> 01:12:06.300] visibility of each other, they can hear each other, so B and C will set their NAT and same as before
+[01:12:06.300 --> 01:12:16.560] at a certain point B and C get a packet from their respective higher layers so they will have
+[01:12:16.560 --> 01:12:29.540] to transmit their packet right and we know already how things work fine but now our
+[01:12:29.540 --> 01:12:45.520] attention is on A, okay? Let's focus on A. A is the one that performs its transmission successfully,
+[01:12:46.020 --> 01:12:55.040] so it's done. And according to the protocol, now we know that A actually, once it has finished
+[01:12:55.040 --> 01:13:02.160] transmitting the packet and receive the hack, needs to perform this post
+[01:13:04.480 --> 01:13:14.900] bake-off procedure, right? So I will have to sense the channel for leaves and then
+[01:13:14.900 --> 01:13:26.840] you will have to draw an integer out of the range 0 cwmin and of course for b and c we'll have the
+[01:13:26.840 --> 01:13:41.200] same behavior as before we know that's ready so b and c will have to run a let's say regular
+[01:13:41.200 --> 01:13:52.240] the cough procedure. So again, in order to understand how useful the mechanism is or
+[01:13:52.240 --> 01:14:01.520] solution is, let's play our little game of ablation. So let's remove the
+[01:14:01.600 --> 01:14:15.720] pass back off and see what happens. So what if AE does not have to run any pass-back-off?
+[01:14:18.160 --> 01:14:28.460] Well, let's add an event here to better understand what would happen considering
+[01:14:28.460 --> 01:14:42.560] all possible cases, let's consider that A has got another packet in its MAC queue, remember that
+[01:14:42.560 --> 01:14:52.980] we said the MAC layer can be modeled as a queue with a server, so let's consider that A has
+[01:14:52.980 --> 01:15:03.400] transmitted the packet here successfully, but let's assume that A has got another packet in the queue, waiting to be transmitted.
+[01:15:05.120 --> 01:15:14.780] So this first packet goes through successfully. This is what we represent here.
