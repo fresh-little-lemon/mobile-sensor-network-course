@@ -1,0 +1,31 @@
+{
+  "recording_id": "20261015-0803",
+  "paragraph_pairs": 71,
+  "source_block_count": 90,
+  "source_speech_sha256": "815e6febd46153627c405e43f23f6bd38998caafb8bfb19b166c1572c53b057b",
+  "bilingual_sha256": "cbf49026d7e25d6b1546d588cb06a60763529790eee79d36ab1b27eae42535a7",
+  "status": "all_source_blocks_translated_and_read_through_with_uncertainties",
+  "final_bilingual_readthrough_complete": true,
+  "cleaned_timestamp_speaker_editorial_markers": true,
+  "substantive_uncertainty_preserved": {
+    "The unit is not stated clearly": "单位没有说清楚",
+    "[the timeout symbol is unclear]": "一个符号不清楚的超时",
+    "independent ASR says 17": "独立ASR在这一句识别成17",
+    "Both transcriptions say C here": "两份转写这里都说的是C",
+    "independent ASR says B here": "独立ASR则是B",
+    "[The term is unclear.]": "这里的术语不清楚",
+    "remains unclear": "仍有歧义",
+    "A final phrase in the independent ASR is unclear": "独立ASR中最后还有一句话不清楚",
+    "exact spoken repetition count is unverified": "实际口头重复次数尚未核实",
+    "full standard number is not recoverable": "无法还原完整的标准编号",
+    "possibly lighting": "这里也可能是光照",
+    "The sublayer is not named clearly": "子层名称没有说清楚"
+  },
+  "all_90_source_blocks_mapped_once": true,
+  "no_unreliable_asr_promoted_to_speech": true,
+  "raw_commit": "0754406b293c84d4d5f8755dae80abb789b85d82",
+  "terminology_addendum_prepared": true,
+  "terminology_review_public_append_pending": true,
+  "additional_independent_model_repetition_audit_status": "pending_separate_followup",
+  "updated_at": "2026-10-18T07:02:13.255958+00:00"
+}

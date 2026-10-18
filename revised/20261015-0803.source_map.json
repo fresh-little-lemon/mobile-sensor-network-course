@@ -1,0 +1,1392 @@
+[
+  {
+    "paragraph": 1,
+    "original_indices_zero_based": [
+      0,
+      1
+    ],
+    "original_blocks_one_based": [
+      1,
+      2
+    ],
+    "time_anchor": "00:00:12",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "35d8eb56d77f0a710bcbdca2e2a0627a3445ea2329a75012b147a17f3e08dcb9",
+      "6080e662a42b2b9b14efbf68aa3145f6ea2346b8f02dd73df1aa8feff435a334"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0,
+      1
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 2,
+    "original_indices_zero_based": [
+      2
+    ],
+    "original_blocks_one_based": [
+      3
+    ],
+    "time_anchor": "00:02:40",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ca1073f31e093ee140886900cb203f9667893e7a72fec438b28a7aa5ca6b85ed"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      1,
+      2
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 3,
+    "original_indices_zero_based": [
+      3
+    ],
+    "original_blocks_one_based": [
+      4
+    ],
+    "time_anchor": "00:03:42",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ceefecef50af6b81c41b2b03afbd403c58f2d45b2ae2adb8dacb93545ed29ef9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      1,
+      2
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 4,
+    "original_indices_zero_based": [
+      4
+    ],
+    "original_blocks_one_based": [
+      5
+    ],
+    "time_anchor": "00:04:20",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b854434cb1077ec8f47630699eada788a4220e9a7b278e79928ac9f30136dd1e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      2
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 5,
+    "original_indices_zero_based": [
+      5,
+      6
+    ],
+    "original_blocks_one_based": [
+      6,
+      7
+    ],
+    "time_anchor": "00:04:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c4c6d01ea94fc3b16db72f8d4998c3c2a4ac0fd0f68428386a8de86e22b73bdd",
+      "daa9881b4f629fd7cfd97da2c00e2b2c4ca9e60c4bf8f3a7f122ebf94e8033a3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      2,
+      3
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 6,
+    "original_indices_zero_based": [
+      7
+    ],
+    "original_blocks_one_based": [
+      8
+    ],
+    "time_anchor": "00:07:15",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "9b1926ec6487567ca7bd8742027df3876234ca38c06fbaee75576f071aea3eca"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      3,
+      4
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 7,
+    "original_indices_zero_based": [
+      8
+    ],
+    "original_blocks_one_based": [
+      9
+    ],
+    "time_anchor": "00:07:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "21187105a0f2d6596f74cc439dea7cce72bbba0d8cd3d7ef33d34526ef6975a9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      4
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 8,
+    "original_indices_zero_based": [
+      9
+    ],
+    "original_blocks_one_based": [
+      10
+    ],
+    "time_anchor": "00:08:48",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fd43de1a7e14d21aa999f9f7745c63dd2ec6f65aab9c81d5825bd7a0db1e13e3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      4,
+      5
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 9,
+    "original_indices_zero_based": [
+      10
+    ],
+    "original_blocks_one_based": [
+      11
+    ],
+    "time_anchor": "00:09:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e3cb7dac3bffdcc5e81129e89bd8bf5c79266766306295f0f3d9aa11c86101b3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      5,
+      6
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 10,
+    "original_indices_zero_based": [
+      11,
+      12
+    ],
+    "original_blocks_one_based": [
+      12,
+      13
+    ],
+    "time_anchor": "00:11:21",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "df77b6d45fc9286ea3ac814a249825f29b83437ff73b351b2626fc5110336d05",
+      "e6d082099189cd8a0b70d108ab30b50c0ab2fc7d4a8135511196859f26d46c95"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      6,
+      7
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 11,
+    "original_indices_zero_based": [
+      13,
+      14
+    ],
+    "original_blocks_one_based": [
+      14,
+      15
+    ],
+    "time_anchor": "00:13:12",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "87526781e08e828525eb9ce516b6df25015dbe8b3242e37cdce183b3090487f7",
+      "0926392e7416b7d3435c7bb680c336d183ea119c10dc1e4170f03bb18af3ffd8"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 12,
+    "original_indices_zero_based": [
+      15
+    ],
+    "original_blocks_one_based": [
+      16
+    ],
+    "time_anchor": "00:19:14",
+    "speaker_label_preserved_from_first_source": "2",
+    "source_text_sha256": [
+      "fbe164539c677fa1aba837354dfaff015790d5514eeba1eecea56d0f5ea43b55"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 13,
+    "original_indices_zero_based": [
+      16
+    ],
+    "original_blocks_one_based": [
+      17
+    ],
+    "time_anchor": "00:19:43",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5daef9435bb3d73a6432f0312b5268b45d87f8caa6ce644811533a07562f6656"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 14,
+    "original_indices_zero_based": [
+      17
+    ],
+    "original_blocks_one_based": [
+      18
+    ],
+    "time_anchor": "00:19:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1d8a3c0bd66d8db2e1090420cb64247d79a61bd7610c81e480097a418c60782a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10,
+      11
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 15,
+    "original_indices_zero_based": [
+      18
+    ],
+    "original_blocks_one_based": [
+      19
+    ],
+    "time_anchor": "00:20:28",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "88b90ba1f8cb8019dc9503b1a5e03d41f6e9d00ce181959e89795159bd76c6fc"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      11
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 16,
+    "original_indices_zero_based": [
+      19
+    ],
+    "original_blocks_one_based": [
+      20
+    ],
+    "time_anchor": "00:20:57",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "3651c66f94e8dd1886d3314eea7f5dd2797a1956a301552bda96c99f508bd3b8"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      11
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 17,
+    "original_indices_zero_based": [
+      20
+    ],
+    "original_blocks_one_based": [
+      21
+    ],
+    "time_anchor": "00:21:52",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "36d8b782ddaf587a30696d5edd3429ffb252f05464457d1c8773011a2863fb6a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      11,
+      12
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 18,
+    "original_indices_zero_based": [
+      21,
+      22
+    ],
+    "original_blocks_one_based": [
+      22,
+      23
+    ],
+    "time_anchor": "00:22:11",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4282c330bdb56943125af85ada1205d0d0aa60545b27fae2b77f5c1ef9fcd97b",
+      "757a31916c18e97e09f1b2e77f8acf5213c626bb5ee083e6ba90c5c3bc09b6e6"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      12,
+      13
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 19,
+    "original_indices_zero_based": [
+      23
+    ],
+    "original_blocks_one_based": [
+      24
+    ],
+    "time_anchor": "00:24:25",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ebfe95ae5493eb61c7710d110d91c188f5c284036f4a5ced67ff522470b13522"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      13,
+      14
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 20,
+    "original_indices_zero_based": [
+      24,
+      25
+    ],
+    "original_blocks_one_based": [
+      25,
+      26
+    ],
+    "time_anchor": "00:26:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "59acb9924d47a765f5de4fa66316097e87a72be176f80e2e5f568e89d85c64c7",
+      "9539aef43a4f296e929268c184d5a7f8d34721460360abc5fc7e9a36390e0dd0"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      14,
+      15
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 21,
+    "original_indices_zero_based": [
+      26
+    ],
+    "original_blocks_one_based": [
+      27
+    ],
+    "time_anchor": "00:27:56",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "633c67ef8f747cccbd5109043339b0edf59794b736eec55f6309a04ca8abf83a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      15
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 22,
+    "original_indices_zero_based": [
+      27
+    ],
+    "original_blocks_one_based": [
+      28
+    ],
+    "time_anchor": "00:29:04",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "9049a0367380b99e98673b4003533e6d3d9e24b1d26c93532fbe1c1beebc8cd3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      15,
+      16
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 23,
+    "original_indices_zero_based": [
+      28
+    ],
+    "original_blocks_one_based": [
+      29
+    ],
+    "time_anchor": "00:30:13",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4c5c85caab76a857759c29c4f51e069c5a6c1e6dd182448fd79943ad8b191f6d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      16
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 24,
+    "original_indices_zero_based": [
+      29
+    ],
+    "original_blocks_one_based": [
+      30
+    ],
+    "time_anchor": "00:31:07",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b05866247a9f877b7ba9e847be91463ace18de0809ce4a2b9b06ac0bfe296e86"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      16,
+      17
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 25,
+    "original_indices_zero_based": [
+      30
+    ],
+    "original_blocks_one_based": [
+      31
+    ],
+    "time_anchor": "00:32:08",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "79d1b3accbe5dc720861798938afbbc71ba1adad7c2f31725b2588587101d8b3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      17
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 26,
+    "original_indices_zero_based": [
+      31
+    ],
+    "original_blocks_one_based": [
+      32
+    ],
+    "time_anchor": "00:32:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1f5b21a3347694a78a3681fcf9baba9903596a3c88b706ad03b5f92928687582"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      17,
+      18
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 27,
+    "original_indices_zero_based": [
+      32,
+      33,
+      34
+    ],
+    "original_blocks_one_based": [
+      33,
+      34,
+      35
+    ],
+    "time_anchor": "00:33:15",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "994daca89e05e2379104a7426f55da3a531d266a011208db7febac1eb3e9533f",
+      "90de3c5f8b1f24b1233adb99071d2ba07e424903ea1171ae0427f59643c54472",
+      "786c27a81426ca2db69d622d059b72cf111f4eed66782e3cbc7aa307a58f77fa"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      18,
+      19
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 28,
+    "original_indices_zero_based": [
+      35,
+      36
+    ],
+    "original_blocks_one_based": [
+      36,
+      37
+    ],
+    "time_anchor": "00:36:21",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8bee21cdaa36b5b0a0f74f217d0b1735e143d11a30d50983dbba67c1bc7f9421",
+      "08a65dd929792be219d7a205a9a16685a7b02cc8e926aace93fde8c102313357"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      19,
+      20,
+      21
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 29,
+    "original_indices_zero_based": [
+      37
+    ],
+    "original_blocks_one_based": [
+      38
+    ],
+    "time_anchor": "00:38:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d9b7c3f0d2a12838de1c79a6f4f7c5ee939b27cccd70b114d63ca4114dd70778"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      20,
+      21
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 30,
+    "original_indices_zero_based": [
+      38,
+      39
+    ],
+    "original_blocks_one_based": [
+      39,
+      40
+    ],
+    "time_anchor": "00:39:47",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "bc5a7e7b50786dc67f4d25e143e536fc562024e616313cd344a5e9215a0b4655",
+      "732d955372467cc97a9054b673db3faecc1345901ce90d9c97844a0f209776f1"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      21,
+      22
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 31,
+    "original_indices_zero_based": [
+      40,
+      41
+    ],
+    "original_blocks_one_based": [
+      41,
+      42
+    ],
+    "time_anchor": "00:41:58",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d8680b7b5095ee4391ede7eb56d1dd265148ed0f5953ed5d1dcef778edeaf1ee",
+      "ccd9600fcb626bab1a101c036b528a07a321f0aabcf81cda810b4af9d71d23f6"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      22,
+      23,
+      24
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 32,
+    "original_indices_zero_based": [
+      42
+    ],
+    "original_blocks_one_based": [
+      43
+    ],
+    "time_anchor": "00:44:58",
+    "speaker_label_preserved_from_first_source": "3",
+    "source_text_sha256": [
+      "4238464e179672380b7d69abe7091ed102b25464d5e95eaf57f8a269435fb4a7"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      24,
+      25,
+      26
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 33,
+    "original_indices_zero_based": [
+      43
+    ],
+    "original_blocks_one_based": [
+      44
+    ],
+    "time_anchor": "00:47:59",
+    "speaker_label_preserved_from_first_source": "3",
+    "source_text_sha256": [
+      "9a2695e4cea8fddb1db2847de71a2d91e6ba32a78bf6412ef80aff039e8fe062"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      26
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 34,
+    "original_indices_zero_based": [
+      44
+    ],
+    "original_blocks_one_based": [
+      45
+    ],
+    "time_anchor": "00:49:02",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f36241b9d5e9c788d5572e0c46b551bd1781c3370c2716f1c79174114b56e26a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      26,
+      27
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 35,
+    "original_indices_zero_based": [
+      45
+    ],
+    "original_blocks_one_based": [
+      46
+    ],
+    "time_anchor": "00:49:38",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8a46e8c015bf195a5512105076098c7640250fcbc4e35605135e88c63c5eadba"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      26,
+      27
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 36,
+    "original_indices_zero_based": [
+      46
+    ],
+    "original_blocks_one_based": [
+      47
+    ],
+    "time_anchor": "00:51:15",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "78e8e14a8d411baf9ca681bd5306eb663b2a8bf8dd2fe615c4ad3a13fbdee6e1"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      27,
+      28
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 37,
+    "original_indices_zero_based": [
+      47,
+      48
+    ],
+    "original_blocks_one_based": [
+      48,
+      49
+    ],
+    "time_anchor": "00:51:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b221a497d5a429ec26dd5f95b40a1716de0574accc52dbbe6492b4008f64c482",
+      "6893d2f1351a5562bfac6f5ca5ba0f99002be01103b4e2b0eaf7549daea2b039"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      28,
+      29
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 38,
+    "original_indices_zero_based": [
+      49
+    ],
+    "original_blocks_one_based": [
+      50
+    ],
+    "time_anchor": "00:54:35",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4f8704653b2b0938f35af1d69d155c75c7a02b4c351f2757eb37bc6ea37d9d27"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      29,
+      30
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 39,
+    "original_indices_zero_based": [
+      50
+    ],
+    "original_blocks_one_based": [
+      51
+    ],
+    "time_anchor": "00:55:29",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a38e6d20cda0ca5fd6dbcc6d9a92180c9ce503683e83836590a6afd67f0a9f58"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      30
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 40,
+    "original_indices_zero_based": [
+      51
+    ],
+    "original_blocks_one_based": [
+      52
+    ],
+    "time_anchor": "00:56:35",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b5f1383d95cbcdc865b313d70b7f7569b9789d6dded63cdd9a42a1e6357d2f8a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      30,
+      31
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 41,
+    "original_indices_zero_based": [
+      52
+    ],
+    "original_blocks_one_based": [
+      53
+    ],
+    "time_anchor": "00:57:20",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "bbac01a8fdfae5b6bd54ef3adcd1835d4728af99dc4559b6a3d4e3e1114ba8ec"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      31
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 42,
+    "original_indices_zero_based": [
+      53,
+      54
+    ],
+    "original_blocks_one_based": [
+      54,
+      55
+    ],
+    "time_anchor": "00:57:44",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "57acfd63c5f5a0be663cc3fc807b10c273e7cf3f618e0ed97c6a37690a93a7e5",
+      "e1c47926488ac456ca6e8ddf7217844f314166b75a7ac975680b4cc5ae5795ee"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      31,
+      32
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 43,
+    "original_indices_zero_based": [
+      55
+    ],
+    "original_blocks_one_based": [
+      56
+    ],
+    "time_anchor": "00:58:57",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1d0e598350dcf8161da69c688d01d35d1131e8f48234825d53976db66fbf4955"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 44,
+    "original_indices_zero_based": [
+      56
+    ],
+    "original_blocks_one_based": [
+      57
+    ],
+    "time_anchor": "00:59:26",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "355c62e71ebf100eb3fc2b47c7870f29cd1f659059e66527ce6bd3050d11a5d3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 45,
+    "original_indices_zero_based": [
+      57
+    ],
+    "original_blocks_one_based": [
+      58
+    ],
+    "time_anchor": "01:00:02",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "eaa093d84ebf16a76c8e6439f394602550f2fa03ecae59cdadf8f801d719deb9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32,
+      33
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 46,
+    "original_indices_zero_based": [
+      58
+    ],
+    "original_blocks_one_based": [
+      59
+    ],
+    "time_anchor": "01:00:46",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "958141f4e41287e301e717185000e868749ed2b7706c2737851614738c10d632"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 47,
+    "original_indices_zero_based": [
+      59
+    ],
+    "original_blocks_one_based": [
+      60
+    ],
+    "time_anchor": "01:01:18",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d85e6ed5244ac5e7ad467d9000c08fcd563ed9906b6c5b86fdc4cd378a3802ba"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33,
+      34
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 48,
+    "original_indices_zero_based": [
+      60
+    ],
+    "original_blocks_one_based": [
+      61
+    ],
+    "time_anchor": "01:02:25",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "88e545a320bed9f3da1588416f7885087063b2180077c668e11ecb9a508288d3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33,
+      34
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 49,
+    "original_indices_zero_based": [
+      61
+    ],
+    "original_blocks_one_based": [
+      62
+    ],
+    "time_anchor": "01:02:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b13ae9af3fc69d82f1234d0e97426a3fc16358f0e85a5612eeda29a539da02c6"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      34
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 50,
+    "original_indices_zero_based": [
+      62,
+      63
+    ],
+    "original_blocks_one_based": [
+      63,
+      64
+    ],
+    "time_anchor": "01:03:42",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7ea346984f7140fe6d4ad3c96df989ccccd045dbfa206bdf3f435835d330da59",
+      "c179166ec90957316cbf68760403259e635a2db9e345f1a9843d9efb7f1cfd27"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      34,
+      35
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 51,
+    "original_indices_zero_based": [
+      64
+    ],
+    "original_blocks_one_based": [
+      65
+    ],
+    "time_anchor": "01:05:37",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c656abab47fa1f161987f4b5e66d451614256c84416594b53ec0cca196490d64"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      35,
+      36
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 52,
+    "original_indices_zero_based": [
+      65
+    ],
+    "original_blocks_one_based": [
+      66
+    ],
+    "time_anchor": "01:06:41",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ed12c223c3897d8cf6b44b10b369cbc8b4c8a2893f9f27acc512a58ef9096b60"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      36
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 53,
+    "original_indices_zero_based": [
+      66
+    ],
+    "original_blocks_one_based": [
+      67
+    ],
+    "time_anchor": "01:06:58",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "6ea45d1d6eb83f9855c8397f4566bcbeb66368bbb95c82232286efff5212acb9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      36
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 54,
+    "original_indices_zero_based": [
+      67
+    ],
+    "original_blocks_one_based": [
+      68
+    ],
+    "time_anchor": "01:07:22",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ea7f4c484c34137a337c2f4a591690221fe8fbd462a3c27f2da94af0b2fb0a39"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      36,
+      37
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 55,
+    "original_indices_zero_based": [
+      68,
+      69
+    ],
+    "original_blocks_one_based": [
+      69,
+      70
+    ],
+    "time_anchor": "01:08:26",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "bf391fc43fd0e1c7ccaa234ceab1e6baac2f5cdbb8e118e642d5d18d8c7c36ea",
+      "3eca9cd4b70e4885bf0bb5855bb1901236f20b85480dcd05d81d80a36e7c5d41"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      37,
+      38
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 56,
+    "original_indices_zero_based": [
+      70
+    ],
+    "original_blocks_one_based": [
+      71
+    ],
+    "time_anchor": "01:09:52",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "d183e9ef4b00ca0c68015752669d0fdc9df787c5b8a1dea62353928079ebb96c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      38,
+      39
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 57,
+    "original_indices_zero_based": [
+      71
+    ],
+    "original_blocks_one_based": [
+      72
+    ],
+    "time_anchor": "01:11:56",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4314d32ef86da526542a0d495a2957f367ef8b2edd32bcf381bb6cc53ace1c30"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      39
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 58,
+    "original_indices_zero_based": [
+      72
+    ],
+    "original_blocks_one_based": [
+      73
+    ],
+    "time_anchor": "01:12:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "831841e3821ae64aa5a6fff6838e63158ed0150e11554a78b2eae7e2d21ea22d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      39,
+      40
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 59,
+    "original_indices_zero_based": [
+      73
+    ],
+    "original_blocks_one_based": [
+      74
+    ],
+    "time_anchor": "01:13:43",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c61c970ddfe7a4e491ccb2ad66846b78f0116920747fd6f830a139636b882448"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      40
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 60,
+    "original_indices_zero_based": [
+      74
+    ],
+    "original_blocks_one_based": [
+      75
+    ],
+    "time_anchor": "01:14:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7723b89012ab7268a5f532b439c6d71610bfa1df43d3f320fc78890ca7b1bd19"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      40,
+      41
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 61,
+    "original_indices_zero_based": [
+      75
+    ],
+    "original_blocks_one_based": [
+      76
+    ],
+    "time_anchor": "01:15:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "efe1c4191520f821d993f86867600e069a8e05064da6bfa5c208368f871f93df"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      41,
+      42
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 62,
+    "original_indices_zero_based": [
+      76
+    ],
+    "original_blocks_one_based": [
+      77
+    ],
+    "time_anchor": "01:17:37",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4856d8d80d72a4412282f9429bd0ecc5cec073ceefdfa6083aceddb99ceb434d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      42,
+      43
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 63,
+    "original_indices_zero_based": [
+      77
+    ],
+    "original_blocks_one_based": [
+      78
+    ],
+    "time_anchor": "01:19:44",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "0b347f14b51f585b08dcd19a8febfd357f4eb20e40488e07ad352c401d449c54"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      43,
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 64,
+    "original_indices_zero_based": [
+      78
+    ],
+    "original_blocks_one_based": [
+      79
+    ],
+    "time_anchor": "01:21:04",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "01dab1f6a8136780a25f1cedef76dac655b9a9f86db0b0573c1d6061718f0e77"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 65,
+    "original_indices_zero_based": [
+      79
+    ],
+    "original_blocks_one_based": [
+      80
+    ],
+    "time_anchor": "01:21:32",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "13b31b5b9653d97d04937f8ebacac6b718da6d1f67b30c35cc3d281d1d1d3517"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44,
+      45
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 66,
+    "original_indices_zero_based": [
+      80
+    ],
+    "original_blocks_one_based": [
+      81
+    ],
+    "time_anchor": "01:23:10",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f253a49d8211664853f8897aaf2f811f69d69cffa8c402d2a81190e0336b7b37"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 67,
+    "original_indices_zero_based": [
+      81
+    ],
+    "original_blocks_one_based": [
+      82
+    ],
+    "time_anchor": "01:23:48",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c804e43b2c0f5a52c43bc8a149cea16c4d729ab067120a0c454426b8fc855de5"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45,
+      46
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 68,
+    "original_indices_zero_based": [
+      82
+    ],
+    "original_blocks_one_based": [
+      83
+    ],
+    "time_anchor": "01:24:47",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "36d85c426a0f485533f5e068515266f18e9d9b26b61e2ac38c538f1e75c193bb"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      46
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 69,
+    "original_indices_zero_based": [
+      83
+    ],
+    "original_blocks_one_based": [
+      84
+    ],
+    "time_anchor": "01:25:41",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "01d7bec6bf6bf92562a82f4a2fb2fc9fccdd9dd01492773cbd370c7c90d51ad7"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      46,
+      47
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 70,
+    "original_indices_zero_based": [
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    "original_blocks_one_based": [
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "time_anchor": "01:27:34",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fddead7d8be02bc9e4d407cddb269ab192eee23dc9cbc1939623a288a0561b47",
+      "da2b146fce79233492ef1989750ca05cdff5530e694bf3cb488f77b38d44a274",
+      "684523919c1ac420c26f34a50cebafe2dd6aab13fb281171165b27d76967b54c",
+      "116ceb2f39cf5bdd11c29618334909e6cb2ab00a81e8a6acbb68a8cb95797c06",
+      "319cc1bc308e71e03caad40428009a76a4952f36206626e192c62d4c945c4ff6"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      47,
+      48,
+      49
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  },
+  {
+    "paragraph": 71,
+    "original_indices_zero_based": [
+      89
+    ],
+    "original_blocks_one_based": [
+      90
+    ],
+    "time_anchor": "01:31:38",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "de5c344e3dfe67d686c998a83bf8c6ac8f3f253ecfdd8b6fe6a760233851a5a7"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      49,
+      50,
+      51
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment. Inclusion is a locator, not certification that every ASR word is reliable speech."
+  }
+]

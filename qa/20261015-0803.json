@@ -1,0 +1,63 @@
+{
+  "recording_id": "20261015-0803",
+  "source_block_count": 90,
+  "displayed_paragraph_count": 71,
+  "merged_groups": 15,
+  "false_boundary_merges": 19,
+  "all_source_blocks_once_in_original_order": true,
+  "source_extraction_byte_exact_against_capture": true,
+  "full_text_read_complete": true,
+  "final_bilingual_pairs_read": 71,
+  "final_bilingual_readthrough_complete": true,
+  "full_text_review_method": "Read all90 source blocks, all52 main ASR windows with raw_decoded, all4 split checks and final90-second tail; reconciled all source blocks, not manual audio listening",
+  "independent_asr_complete": true,
+  "all_samples_processed": true,
+  "all_recorded_speech_reliably_transcribed": false,
+  "main_asr_chunks": 52,
+  "split_checks": 4,
+  "independent_final_tail_processed": true,
+  "independent_final_tail_reliable": false,
+  "closing_lecture_corroborated_by_tail": true,
+  "independent_final_tail_reliability_note": "The lecture closing is corroborated; the following ASR-only device/whiteboard fragment is inconsistent and not promoted to reliable speech.",
+  "audio_duration_seconds": 5639.5929375,
+  "coverage_start_seconds": 0,
+  "coverage_end_seconds": 5639.5929375,
+  "all_asr_flags_empty": false,
+  "flagged_main_windows": [
+    {
+      "window_index_zero_based": 24,
+      "start_seconds": 2640.0,
+      "end_seconds": 2760.0,
+      "flags": [
+        "generation_cap"
+      ]
+    },
+    {
+      "window_index_zero_based": 46,
+      "start_seconds": 5060.0,
+      "end_seconds": 5180.0,
+      "flags": [
+        "generation_cap"
+      ]
+    }
+  ],
+  "anomaly_handling": "主窗口24（2640–2760秒）触及1024 token生成上限，raw_decoded在可辨的课程休息提示后出现长“嗯，不行”循环；text字段只剩短残片。拆分24a（2640–2705秒）仍有不稳定重复英语，24b（2695–2760秒）虽无自动flags，中文技术讨论仍被大量近音词破坏。窗口25（2750–2870秒）无flags，但信道/TF上下文被误成不连贯的身体名词，不能据此推定实际私人健康话题。窗口26较好地对应原课间第二段的发包/首部讨论，但部分尾句仍不可靠。原段43–44的两段课间中文按原内容保留、译成英文，并明确未决词；这些ASR-only散句没有增补为讲话。\n\n主窗口46（5060–5180秒）与拆分46a（5060–5125秒）均触及1024 token上限，raw_decoded形成长in/in the循环，text则被截短。没有将长循环当成真实口头重复；原段82已有六次有限in a，正文保留原次数并明确实际口头次数尚未独立核实。该处后半段的wood、小电池、功耗及sink说明仍以原文字为依据，不能声称独立ASR完整恢复这一段。拆分46b（5115–5180秒）恢复网关连接Internet server的后续句子及小电池低功率内容。\n\n窗口51（5610–5639.5929375秒）及最后90秒尾部均含讲课后短暂中文/混合语设备话题片段，读法互不一致，也未出现在90个原讲话块中，因此只留在原始ASR，不提升为新增可靠发言；没有发现可确认的新敏感个人事实。尾部5549.5929375–5639.5929375秒的前半部分与窗口50一致，可靠支持插值、单传感器本地信号重建及“长休息后继续讲其他部件”的讲课结尾，但不能因此宣称整个尾部均可靠。\n\n原段1的0.1与独立ASR小数措辞、原段11本处20/ASR17、原段37及40的D/ASR B，以及原段86的lightning/上下文light均保留差异。原段13的C before C在两份转写中一致，保留讲者主语矛盾。标准完整编号只出现15/11，未按常识补进讲话。所有主窗口及四个拆分均已逐一审阅text与raw_decoded；没有逐段人工复听，flags为空不作为准确性证明。",
+  "raw_commit": "0754406b293c84d4d5f8755dae80abb789b85d82",
+  "raw_files_published": 58,
+  "raw_publication_verification": "Parent explicitly confirmed full raw publication and readback before final delivery outputs",
+  "model": "Qwen/Qwen3-ASR-0.6B-hf",
+  "model_revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+  "uncertainty_retained": true,
+  "bilingual_complete_for_all_source_blocks": true,
+  "edited_english_source_blocks": 90,
+  "translated_chinese_source_blocks": 90,
+  "original_text_sha256": "bc990aa58ef31c0510d401466f7b7e353ad953e719d05611a94bdd69490e1f5d",
+  "original_capture_sha256": "fdc7cc813237c7fa8557c2dc31ef70a43a7f8a699e6c32a1da374193fa336b02",
+  "raw_asr_recording_sha256": "43a56e2dc1df9db7954e2a9d9be7d01f534376064832f3749e17d7f4738e0ad6",
+  "speech_sha256": "815e6febd46153627c405e43f23f6bd38998caafb8bfb19b166c1572c53b057b",
+  "bilingual_sha256": "cbf49026d7e25d6b1546d588cb06a60763529790eee79d36ab1b27eae42535a7",
+  "terminology_addendum_prepared": true,
+  "terminology_review_public_append_pending": true,
+  "additional_independent_model_repetition_audit_status": "pending_separate_followup",
+  "updated_at": "2026-10-18T07:02:13.255958+00:00"
+}
