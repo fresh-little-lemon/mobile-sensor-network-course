@@ -1,11 +1,13 @@
 {
-  "status": "partial_raw_asr_published",
+  "status": "recording_complete_and_remote_verified",
   "recording_id": "20261010-1000",
-  "published_chunks": 33,
-  "covered_until_seconds": 3640,
+  "published_chunks": 53,
   "duration_seconds": 5838.8665625,
-  "whole_recording_complete": false,
-  "commit": "66b89eba41a726ebd42928ade4201727e0ab9b00",
-  "remote_byte_verification": "all_33_match",
-  "verified_at": "2026-10-18T02:36:23+00:00"
+  "coverage_end_seconds": 5838.8665625,
+  "verified_files": 55,
+  "whole_recording_asr_complete": true,
+  "editorial_status": "draft_under_review",
+  "commit": "1c8dbf8a98c28c714ffd2520925cdacb5b6a129a",
+  "verified_at": "2026-10-18T02:46:01+00:00",
+  "note": "Raw ASR archived before final editorial and bilingual publication. Text accuracy still requires editorial checks."
 }
