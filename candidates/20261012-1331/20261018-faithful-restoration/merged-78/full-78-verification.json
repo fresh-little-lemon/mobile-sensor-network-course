@@ -1,0 +1,2042 @@
+{
+  "status": "local_structural_qa_passed_with_boundary_report",
+  "manual_listening_performed": false,
+  "remote_written": false,
+  "checks": {
+    "exact_78_unique_ordinals_and_block_ids": true,
+    "ids_times_headers_match_current_snapshots": true,
+    "all_78_old_text_hashes_match_paragraphs_blocks_final_heading_plan": true,
+    "old_hash_fields_validated_from_source_artifacts": 58,
+    "old_hash_fields_added_from_verified_current_checkpoint": 20,
+    "english_and_chinese_sentence_joins_exact": true,
+    "source_candidate_language_sentence_metadata_changes_unresolved_preserved_exactly": true,
+    "every_nonempty_diff_before_is_current_english_substring": true,
+    "every_diff_after_is_candidate_english_substring": false,
+    "nonliteral_after_excerpt_or_label_records": [
+      {
+        "ordinal": 9,
+        "after": "a backoff procedure ... Exactly as we explained ... The same procedure that we just explained"
+      },
+      {
+        "ordinal": 9,
+        "after": "So, what we knew so far is that in this case, we cannot ... right? Because the channel is busy."
+      },
+      {
+        "ordinal": 9,
+        "after": "case/phase、两个okay、node/transmitter、a/the冠词及末尾okay/right待听辨标记"
+      }
+    ],
+    "every_sentence_has_source_references": true,
+    "all_english_inline_markers_have_chinese_bracket_counterparts": true,
+    "all_titles_and_headers_preserved": true,
+    "writeback_targets_only_existing_78_text_blocks": true
+  },
+  "summary": {
+    "sections": 78,
+    "bilingual_comparison_units": 525,
+    "specific_change_records": 252,
+    "uncertainty_item_records": 170,
+    "units_with_inline_uncertainty": 169,
+    "inline_uncertainty_marker_spans": 215,
+    "units_with_any_uncertainty_or_evidence_note": 218,
+    "sections_with_inline_uncertainty": 68
+  },
+  "text_counts": {
+    "before": {
+      "english_word_tokens_including_inline_markers": 6482,
+      "english_characters_including_spaces_and_markers_excluding_section_separators": 35736,
+      "chinese_han_characters_including_inline_markers": 9793,
+      "chinese_total_characters_including_spaces_and_markers_excluding_section_separators": 12048,
+      "total_body_characters_excluding_section_separators": 47784
+    },
+    "after": {
+      "english_word_tokens_including_inline_markers": 8794,
+      "english_characters_including_spaces_and_markers_excluding_section_separators": 48995,
+      "chinese_han_characters_including_inline_markers": 13930,
+      "chinese_total_characters_including_spaces_and_markers_excluding_section_separators": 18101,
+      "total_body_characters_excluding_section_separators": 67096,
+      "english_word_tokens_after_removing_entire_editorial_bracket_spans": 8079
+    },
+    "delta": {
+      "english_word_tokens_including_inline_markers": 2312,
+      "english_characters_including_spaces_and_markers_excluding_section_separators": 13259,
+      "chinese_han_characters_including_inline_markers": 4137,
+      "chinese_total_characters_including_spaces_and_markers_excluding_section_separators": 6053,
+      "total_body_characters_excluding_section_separators": 19312
+    },
+    "method": "Body only; headers and titles excluded. English tokens use [A-Za-z0-9]+ with internal apostrophes. After counts include alternative wording and editorial markers, so they are not a certified count of spoken words. Removing whole bracket spans also removes unresolved candidate words; this secondary count is a lower-bound display metric, not a transcript word count."
+  },
+  "terminology_check": {
+    "carrier_sensing_occurrences": [
+      {
+        "sentence_id": "20261012-1331-p09-s08",
+        "en": "So, we already know that in this case, we cannot access the channel right away because of the carrier sensing multiple access principle, right?",
+        "zh": "所以，我们已经知道，在这种情况下，因为载波侦听多址接入的原则，我们不能马上接入信道，对吧？"
+      },
+      {
+        "sentence_id": "20261012-1331-p20-s03",
+        "en": "That’s the principle of carrier sensing.",
+        "zh": "那就是载波侦听的原则。"
+      },
+      {
+        "sentence_id": "20261012-1331-p31-s08",
+        "en": "Well, we still have carrier sensing, right, multiple access.",
+        "zh": "嗯，我们仍然有载波侦听，对吧，多址接入。"
+      }
+    ],
+    "stop_and_wait_occurrences": 0,
+    "stop_and_wait_required_chinese": "停止等待",
+    "forbidden_alternative_hits": [],
+    "note": "Only checks these requested term families, not a full technical correctness certification."
+  },
+  "exact_adjacent_edge_sentence_repetitions": [],
+  "boundary_review": {
+    "schema": "boundary-qa-v1",
+    "recording_id": "20261012-1331",
+    "created_at_utc": "2026-10-18T15:36:27.682005+00:00",
+    "status": "PASS_FOUR_TEXTUAL_BOUNDARIES_WITH_METADATA_CAVEATS",
+    "scope": {
+      "boundaries": [
+        "20/21",
+        "38/39",
+        "54/55",
+        "60/61"
+      ],
+      "candidate_edits": false,
+      "external_writes": false,
+      "human_listening_performed": false,
+      "method": "Read-only candidate/source comparison; review packets plus original medium word timestamps. No audio audition or new ASR."
+    },
+    "summary": {
+      "boundaries_checked": 4,
+      "textual_boundary_passes": 4,
+      "confirmed_boundary_omissions": 0,
+      "confirmed_asr_overlap_duplicates": 0,
+      "metadata_qa_items": 4,
+      "result_zh": "四处边界的恢复语句均连续覆盖，未检出整句漏失或ASR重叠造成的重复；真实复说及潜在重复仍保留或显式待听辨。发现4项边界相关元数据/不确定性说明问题，已单列补充而未修改候选。"
+    },
+    "limitations": [
+      "仅能判断已提供ASR/历史文本覆盖与归段，不能证明音频中不存在所有ASR共同漏掉的口语、停顿或单词。",
+      "历史Feishu可能已有编辑和识别错误；Qwen是恢复重跑，不是遗失首次输出的逐字重放。",
+      "review packets报告新旧输入m4a SHA256不同，内容和时间有上下文支持但字节相同未建立；不能称PCM哈希一致。",
+      "medium词级时标来自ASR对齐，不是人工听辨认证；尤其38/39邻窗词边界存在0.82s差异。",
+      "PASS仅针对指定边界的文本覆盖/去重，不代表78段逐字忠实度通过或可以作为最终听辨版发布。"
+    ],
+    "boundaries": [
+      {
+        "boundary": "20/21",
+        "status": "PASS_TEXT_CONTINUITY_WITH_METADATA_CAVEAT",
+        "left_ordinal": 20,
+        "right_ordinal": 21,
+        "left_tail": "So, B will say, “[Hmm ... unclear] I got [a / the unclear] packet, but the channel is busy.”",
+        "right_head": "What I need to do is to apply backoff.",
+        "evidence": [
+          "候选20以 B will say ... I got [a / the unclear] packet, but the channel is busy 结束；候选21从 What I need to do is to apply backoff 开始。两个意义单元各保留一次，顺序与Qwen window12及medium chunk-008 segment12一致。",
+          "medium chunk-008 segment12（1358.80–1368.02s）同时含20末句及21首句。它被两个review packet重复收录，是同一个segment的归段上下文，不是两次讲述。原始词级时标：busy结束1362.78s，What从1363.78s开始；21的旧锚点1363s位于两者之间。",
+          "Feishu block53（source_index_zero_based=24，00:22:43）恰从What I need to do开头；20对应Feishu块49/51缺末尾B自述，因此末尾恢复依赖Qwen与medium，不可误判为凭空增补。",
+          "Qwen window11/12在1320–1330s重叠，B and C get/got a new packet是同一事件的双窗口输出，候选20只保留一次；21没有再次复制。"
+        ],
+        "omission_result": "未检出边界整句或可确认单词漏失；21第二句的So what开头仍在正文，虽其medium索引漏了segment12。",
+        "overlap_duplication_result": "未检出ASR窗口或review-packet重叠引起的正文重复。",
+        "speaker_repetitions_preserved": [
+          "20内部 situation, situation number one 被保留",
+          "B自述channel is busy之后，21中C再述channel is busy属于不同节点的连续例子；Qwen window12和medium的不同时间段分别支持，不能按相似句去重",
+          "21句末channel will be idle ... so the channel is idle的重复保留；两个medium窗口的同一结尾仅写一次"
+        ],
+        "remaining_uncertainties": [
+          "20末尾Hmm有无和a/the冠词未听辨",
+          "21第二句it will / you will / medium you do分歧仍未解决",
+          "机器词时标不是人工音频边界认证"
+        ],
+        "mechanical_checks": {
+          "left_suffix_right_prefix_identical_word_count": 0,
+          "occurrence_checks": [
+            {
+              "normalized_phrase": "what i need to do is to apply backoff",
+              "expected_count": 1,
+              "observed_count": 1,
+              "pass": true
+            }
+          ]
+        },
+        "metadata_qa_ids": [
+          "M21-START-END"
+        ],
+        "source_records": [
+          {
+            "ordinal": 20,
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-01-20.json",
+            "start_seconds": 1281,
+            "end_seconds": 1363,
+            "feishu": [
+              {
+                "source_index_zero_based": 22,
+                "source_block_id": "49",
+                "text": "说话人 1 00:21:21​\nOK?So now while we have this dialogue.Between a and the access point going on, we have b and c who have a packet to transmit as well.Now, clearly, they have got their node set, so they know the channel is busy, so they cannot.Access the channel, right?That's the principle of carrier sensing.We are essentially in this situation.​"
+              },
+              {
+                "source_index_zero_based": 23,
+                "source_block_id": "51",
+                "text": "说话人 1 00:21:58​\nSituation.Number one, right? Be an SEA Games.Get a new packet, but they sense the channel is busy.So, what do we have to do?Apply backoff, right?So, this means that both B and C remember our.Scheme is distributed, so everyone makes decisions by itself.​"
+              }
+            ],
+            "qwen_windows": [
+              {
+                "window_index": 11,
+                "start_seconds": 1210.0,
+                "end_seconds": 1330.0,
+                "text": "Set their nav counter, and this will extend over the all expected duration of the dialogue. Okay, so so far so good. This is exactly what we did in the past. Now let's add some events here. Let's say B and also C, while they have their nav set to a positive value, will also receive a data packet from their respective upper layers. So this means that, for example, at this point in time, B gets a packet that is queued at its mock layer, and let's assume that C at this point in time also gets a packet from its higher layers. Okay, so now while we have this dialogue between A and Yax's point going on, we have B and C who have a packet to transmit as well. Now clearly, they have got their nav set, so they know the channel is busy. So they cannot access the channel, right? That's the principle of carrier sensing. We are essentially in this situation, situation number one, right? B and C get a new packet, but they sense the channel as busy."
+              },
+              {
+                "window_index": 12,
+                "start_seconds": 1320.0,
+                "end_seconds": 1440.0,
+                "text": "Right, B and C got a new packet, but they sense the channel as busy. So, what do we have to do? Apply back off, right? So, this means that both B and C remember our scheme is distributed. So, everyone makes decisions by itself based on the state of the system that it observes. So, B will say, \"Hmm, I got a packet, but the channel is busy. What I need to do is to apply back off.\" So, what it will do is wait for the channel to become idle again, sense the channel idle for diffs, and then if the channel is idle for diffs, it will be able to draw an integer, right? Out of what? Out of the range zero CW min. And the same C, right? C at this point in time says, \"Oh, I got a packet to drive me, but the channel is busy.\" So again, it knows that it has to perform back off. So what it will do, it will wait for the channel to become idle, then it needs to verify that the channel is idle for diffs. The channel will be idle because nobody else is doing anything. So the channel is idle."
+              }
+            ]
+          },
+          {
+            "ordinal": 21,
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-21-40.json",
+            "start_seconds": 1363,
+            "end_seconds": 1440,
+            "feishu": [
+              {
+                "source_index_zero_based": 24,
+                "source_block_id": "53",
+                "text": "说话人 1 00:22:43​\nWhat I need to do is to apply back off.So, what you will do is wait for the channel to become idle.Again, since the channel idle for dfs, and then if the channel is idle for dfs, it will be able to draw an integer.​"
+              },
+              {
+                "source_index_zero_based": 25,
+                "source_block_id": "55",
+                "text": "说话人 1 00:23:13​\nRight?Out of what?Out of the range 0 CW min.And the same C, right?C at this point in time says, oh, I got a packet to dress me.But the channel is busy.So, again, it knows that it has to perform a backoff.So, what it will do?It will wait for the channel to become idle.Then, it needs to verify that the channel is idle for this.The channel will be idle.Because nobody else is doing anything, so the channel is idle.​"
+              }
+            ],
+            "qwen_windows": [
+              {
+                "window_index": 12,
+                "start_seconds": 1320.0,
+                "end_seconds": 1440.0,
+                "text": "Right, B and C got a new packet, but they sense the channel as busy. So, what do we have to do? Apply back off, right? So, this means that both B and C remember our scheme is distributed. So, everyone makes decisions by itself based on the state of the system that it observes. So, B will say, \"Hmm, I got a packet, but the channel is busy. What I need to do is to apply back off.\" So, what it will do is wait for the channel to become idle again, sense the channel idle for diffs, and then if the channel is idle for diffs, it will be able to draw an integer, right? Out of what? Out of the range zero CW min. And the same C, right? C at this point in time says, \"Oh, I got a packet to drive me, but the channel is busy.\" So again, it knows that it has to perform back off. So what it will do, it will wait for the channel to become idle, then it needs to verify that the channel is idle for diffs. The channel will be idle because nobody else is doing anything. So the channel is idle."
+              },
+              {
+                "window_index": 13,
+                "start_seconds": 1430.0,
+                "end_seconds": 1550.0,
+                "text": "That the channel is idle for this. The channel will be idle because nobody else is doing anything, so the channel is idle. And you will do will draw an integer with equal probability out of this same range of values. Okay. So let's assume that the value drawn by B, the integer, is equal to two. And let's assume that the integer drawn by C is equal to five. This is just an example. Okay. So if this is the case, then we know that B will compute it's because time that will be equal to two times the time slot duration, right? And similarly, C will compute it's because time that will be five timeslots. And then each of them will have to decrease its own because counter timeslot by timeslot. So B will start sensing the channel for a timeslot. The channel is currently idle, so it will decrease its because counter by one. And the same will do C, right? So it will decrease it by its own counter by one. Then next timeslot again."
+              }
+            ]
+          }
+        ],
+        "raw_word_evidence": [
+          {
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-008.raw.json",
+            "absolute_offset_seconds": 1245,
+            "segments": [
+              {
+                "segment_id": 11,
+                "start_seconds": 1347.48,
+                "end_seconds": 1358.8,
+                "text": "makes decisions by itself based on the state of the system that it observes. So B will say",
+                "words": [
+                  {
+                    "word": "makes",
+                    "start_seconds": 1347.48,
+                    "end_seconds": 1348.1
+                  },
+                  {
+                    "word": "decisions",
+                    "start_seconds": 1348.1,
+                    "end_seconds": 1348.84
+                  },
+                  {
+                    "word": "by",
+                    "start_seconds": 1348.84,
+                    "end_seconds": 1349.52
+                  },
+                  {
+                    "word": "itself",
+                    "start_seconds": 1349.52,
+                    "end_seconds": 1350.32
+                  },
+                  {
+                    "word": "based",
+                    "start_seconds": 1350.32,
+                    "end_seconds": 1351.1
+                  },
+                  {
+                    "word": "on",
+                    "start_seconds": 1351.1,
+                    "end_seconds": 1352.0
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 1352.0,
+                    "end_seconds": 1352.8
+                  },
+                  {
+                    "word": "state",
+                    "start_seconds": 1352.8,
+                    "end_seconds": 1353.14
+                  },
+                  {
+                    "word": "of",
+                    "start_seconds": 1353.14,
+                    "end_seconds": 1353.32
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 1353.32,
+                    "end_seconds": 1353.52
+                  },
+                  {
+                    "word": "system",
+                    "start_seconds": 1353.52,
+                    "end_seconds": 1353.94
+                  },
+                  {
+                    "word": "that",
+                    "start_seconds": 1353.94,
+                    "end_seconds": 1354.72
+                  },
+                  {
+                    "word": "it",
+                    "start_seconds": 1354.72,
+                    "end_seconds": 1355.24
+                  },
+                  {
+                    "word": "observes.",
+                    "start_seconds": 1355.24,
+                    "end_seconds": 1356.14
+                  },
+                  {
+                    "word": "So",
+                    "start_seconds": 1356.96,
+                    "end_seconds": 1356.98
+                  },
+                  {
+                    "word": "B",
+                    "start_seconds": 1356.98,
+                    "end_seconds": 1357.46
+                  },
+                  {
+                    "word": "will",
+                    "start_seconds": 1357.46,
+                    "end_seconds": 1358.4
+                  },
+                  {
+                    "word": "say",
+                    "start_seconds": 1358.4,
+                    "end_seconds": 1358.8
+                  }
+                ]
+              },
+              {
+                "segment_id": 12,
+                "start_seconds": 1358.8,
+                "end_seconds": 1368.02,
+                "text": "I got the packet but the channel is busy. What I need to do is to apply Bekoff, so what you",
+                "words": [
+                  {
+                    "word": "I",
+                    "start_seconds": 1358.8,
+                    "end_seconds": 1359.48
+                  },
+                  {
+                    "word": "got",
+                    "start_seconds": 1359.48,
+                    "end_seconds": 1359.7
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 1359.7,
+                    "end_seconds": 1359.96
+                  },
+                  {
+                    "word": "packet",
+                    "start_seconds": 1359.96,
+                    "end_seconds": 1360.28
+                  },
+                  {
+                    "word": "but",
+                    "start_seconds": 1360.28,
+                    "end_seconds": 1361.0
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 1361.0,
+                    "end_seconds": 1361.72
+                  },
+                  {
+                    "word": "channel",
+                    "start_seconds": 1361.72,
+                    "end_seconds": 1362.06
+                  },
+                  {
+                    "word": "is",
+                    "start_seconds": 1362.06,
+                    "end_seconds": 1362.44
+                  },
+                  {
+                    "word": "busy.",
+                    "start_seconds": 1362.44,
+                    "end_seconds": 1362.78
+                  },
+                  {
+                    "word": "What",
+                    "start_seconds": 1363.78,
+                    "end_seconds": 1364.14
+                  },
+                  {
+                    "word": "I",
+                    "start_seconds": 1364.14,
+                    "end_seconds": 1364.36
+                  },
+                  {
+                    "word": "need",
+                    "start_seconds": 1364.36,
+                    "end_seconds": 1364.54
+                  },
+                  {
+                    "word": "to",
+                    "start_seconds": 1364.54,
+                    "end_seconds": 1364.74
+                  },
+                  {
+                    "word": "do",
+                    "start_seconds": 1364.74,
+                    "end_seconds": 1365.06
+                  },
+                  {
+                    "word": "is",
+                    "start_seconds": 1365.06,
+                    "end_seconds": 1365.44
+                  },
+                  {
+                    "word": "to",
+                    "start_seconds": 1365.44,
+                    "end_seconds": 1365.7
+                  },
+                  {
+                    "word": "apply",
+                    "start_seconds": 1365.7,
+                    "end_seconds": 1366.28
+                  },
+                  {
+                    "word": "Bekoff,",
+                    "start_seconds": 1366.28,
+                    "end_seconds": 1367.0
+                  },
+                  {
+                    "word": "so",
+                    "start_seconds": 1367.5,
+                    "end_seconds": 1367.64
+                  },
+                  {
+                    "word": "what",
+                    "start_seconds": 1367.64,
+                    "end_seconds": 1367.9
+                  },
+                  {
+                    "word": "you",
+                    "start_seconds": 1367.9,
+                    "end_seconds": 1368.02
+                  }
+                ]
+              },
+              {
+                "segment_id": 13,
+                "start_seconds": 1368.02,
+                "end_seconds": 1378.96,
+                "text": "do is wait for the channel to become idle again, sends the channel idle for",
+                "words": [
+                  {
+                    "word": "do",
+                    "start_seconds": 1368.02,
+                    "end_seconds": 1368.46
+                  },
+                  {
+                    "word": "is",
+                    "start_seconds": 1368.46,
+                    "end_seconds": 1368.84
+                  },
+                  {
+                    "word": "wait",
+                    "start_seconds": 1368.84,
+                    "end_seconds": 1369.38
+                  },
+                  {
+                    "word": "for",
+                    "start_seconds": 1369.38,
+                    "end_seconds": 1370.56
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 1370.56,
+                    "end_seconds": 1370.78
+                  },
+                  {
+                    "word": "channel",
+                    "start_seconds": 1370.78,
+                    "end_seconds": 1371.12
+                  },
+                  {
+                    "word": "to",
+                    "start_seconds": 1371.12,
+                    "end_seconds": 1371.46
+                  },
+                  {
+                    "word": "become",
+                    "start_seconds": 1371.46,
+                    "end_seconds": 1371.98
+                  },
+                  {
+                    "word": "idle",
+                    "start_seconds": 1371.98,
+                    "end_seconds": 1372.6
+                  },
+                  {
+                    "word": "again,",
+                    "start_seconds": 1372.6,
+                    "end_seconds": 1373.9
+                  },
+                  {
+                    "word": "sends",
+                    "start_seconds": 1373.9,
+                    "end_seconds": 1375.82
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 1375.82,
+                    "end_seconds": 1376.3
+                  },
+                  {
+                    "word": "channel",
+                    "start_seconds": 1376.3,
+                    "end_seconds": 1377.0
+                  },
+                  {
+                    "word": "idle",
+                    "start_seconds": 1377.0,
+                    "end_seconds": 1378.32
+                  },
+                  {
+                    "word": "for",
+                    "start_seconds": 1378.32,
+                    "end_seconds": 1378.96
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "boundary": "38/39",
+        "status": "PASS_TEXT_CONTINUITY_WITH_METADATA_CAVEAT",
+        "left_ordinal": 38,
+        "right_ordinal": 39,
+        "left_tail": "There are CW_min...",
+        "right_head": "Plus one integers, right?",
+        "evidence": [
+          "候选38尾There are CW_min...与39首Plus one integers, right?合并后正好是There are CW_min plus one integers, right?；CW_min、plus one、integers、right均未因拆段遗漏或复制。",
+          "medium chunk-014 segment18（2505.02–2515.34s）和chunk-015 segment1（2505.00–2511.08s）给出同一句的重叠识别；两者起始相差0.02s，不能当成讲者讲了两遍。候选只保留一个计数句。",
+          "Qwen window22（2420–2540s）仅含一次There are CWmin plus one integers, right?；随后另有including the zero is plus one。这后一个plus one是讲者解释零计入计数的独立短语，候选39保留，不能与前一个plus one合并。",
+          "Feishu block99（41:48）以损坏的Flashwanna interjurbrive开头，支持旧段39从plus one附近起；旧锚点2508s不是已认证逐词切点。chunk-014词对齐为min结束2507.64s、plus开始2508.48s；chunk-015则mean结束/plus开始2507.66s，存在0.82s窗口间对齐差异。"
+        ],
+        "omission_result": "未检出边界计数句漏词；拆段省略号是编辑性衔接标记，不能解读为已证实的讲者停顿或省略语。",
+        "overlap_duplication_result": "未检出ASR窗口重叠引起的正文重复；完整计数句仅保留一次。",
+        "speaker_repetitions_preserved": [
+          "候选38保留as a possible range, as a range of possible integers的复说",
+          "候选38将in / in in显式待听辨，没有因机器去重删除可能的讲者重复",
+          "plus one计数与including the zero is plus one解释均保留，整对候选中plus one共2次，属于不同时间位置"
+        ],
+        "remaining_uncertainties": [
+          "Because / We call this minimum / We call this a unit等分歧未能排除；39只将Because之后标为unclear，不能把Because本身视作已证实",
+          "in重复次数仍需回听",
+          "chunk-014/015词对齐不一致，不能声称2508s精确落在词间；不影响按旧ID保留完整句子"
+        ],
+        "mechanical_checks": {
+          "left_suffix_right_prefix_identical_word_count": 0,
+          "occurrence_checks": [
+            {
+              "normalized_phrase": "there are cw min",
+              "expected_count": 1,
+              "observed_count": 1,
+              "pass": true
+            },
+            {
+              "normalized_phrase": "plus one",
+              "expected_count": 2,
+              "observed_count": 2,
+              "pass": true
+            },
+            {
+              "normalized_phrase": "integers right",
+              "expected_count": 1,
+              "observed_count": 1,
+              "pass": true
+            }
+          ]
+        },
+        "metadata_qa_ids": [
+          "M38-TIMING-SOURCE",
+          "M39-BECAUSE-SOURCE"
+        ],
+        "source_records": [
+          {
+            "ordinal": 38,
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-21-40.json",
+            "start_seconds": 2413,
+            "end_seconds": 2508,
+            "feishu": [
+              {
+                "source_index_zero_based": 45,
+                "source_block_id": "95",
+                "text": "说话人 1 00:40:13​\nSo, the second observation that I want to make is about the benefit of increasing the contention window parameter every time we need to.Perform and the cough procedure for a given data packet.OK?So, let's consider still the same example as before.So, we still have the access point A, B, and C.A talk with the access point, then B and C get the packet.Both of them, while the channel is busy, so they need to apply the off, and they need to draw the forum after having sense the channel as either for this an integer.​"
+              },
+              {
+                "source_index_zero_based": 46,
+                "source_block_id": "97",
+                "text": "说话人 1 00:41:11​\nOut of, as we know.Out of this range of values, because this is the first time that they run the backoff for the packet.So they both use zero contention window minimum as a possible.Range, as a range of possible integers to be select.​"
+              }
+            ],
+            "qwen_windows": [
+              {
+                "window_index": 21,
+                "start_seconds": 2310.0,
+                "end_seconds": 2430.0,
+                "text": "During the second time slot, but under the assumption that they now both drew two as an integer, they will decrease d, become counter to zero exactly at the same time. That means that they will access the channel exactly at the same time and collide. So, become is a way to avoid collisions, but it does not avoid collisions with probability one. There is still a certain probability with which the nodes, the contending nodes, may collide. Okay, so it's a probabilistic collision avoidance mechanism. Okay, this is our first observation. Is it clear so far? Okay, now if this is clear, let me make a second. Say, check this time. This was the possibility. Okay, we have a second observation to make. We are close to the break, but let me start introducing it and then we will finish after a short break. So the second observation that I want to make is about the benefit of increasing the contention window parameter every time."
+              },
+              {
+                "window_index": 22,
+                "start_seconds": 2420.0,
+                "end_seconds": 2540.0,
+                "text": "The benefit of increasing the contention window parameter every time we need to perform a BCOF procedure for a given data packet. Okay. So let's consider still the same example as before. So we still have the access point A, B, and C. A talk with the access point, and B and C get the packet, both of them, while the channel is busy. So they need to apply the BCOF and they need to drop the pour after having sensed the channel as idle for this. An integer out of, as we know, out of this range of values because this is the first time that they run the BCOF for the packet. So they both use zero contention window minimum as a possible range, as a range of possible integers to be selected. So how many values are in in this range? There are CWmin plus one integers, right? We call this minimum including the zero is plus one. Okay, this is the number of integers in that range. Okay, so what we want to compute. Since we said that BCOF is a probabilistic collision avoidance mechanism, is the probability that."
+              }
+            ]
+          },
+          {
+            "ordinal": 39,
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-21-40.json",
+            "start_seconds": 2508,
+            "end_seconds": 2519,
+            "feishu": [
+              {
+                "source_index_zero_based": 47,
+                "source_block_id": "99",
+                "text": "说话人 1 00:41:48​\nFlashwanna interjurbrive de Zero Is plus One can is the 90 years in the Trains.​"
+              }
+            ],
+            "qwen_windows": [
+              {
+                "window_index": 22,
+                "start_seconds": 2420.0,
+                "end_seconds": 2540.0,
+                "text": "The benefit of increasing the contention window parameter every time we need to perform a BCOF procedure for a given data packet. Okay. So let's consider still the same example as before. So we still have the access point A, B, and C. A talk with the access point, and B and C get the packet, both of them, while the channel is busy. So they need to apply the BCOF and they need to drop the pour after having sensed the channel as idle for this. An integer out of, as we know, out of this range of values because this is the first time that they run the BCOF for the packet. So they both use zero contention window minimum as a possible range, as a range of possible integers to be selected. So how many values are in in this range? There are CWmin plus one integers, right? We call this minimum including the zero is plus one. Okay, this is the number of integers in that range. Okay, so what we want to compute. Since we said that BCOF is a probabilistic collision avoidance mechanism, is the probability that."
+              }
+            ]
+          }
+        ],
+        "raw_word_evidence": [
+          {
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-014.raw.json",
+            "absolute_offset_seconds": 2325,
+            "segments": [
+              {
+                "segment_id": 17,
+                "start_seconds": 2492.68,
+                "end_seconds": 2503.56,
+                "text": "as a range of possible integers to be selected. So how many values are in this range?",
+                "words": [
+                  {
+                    "word": "as",
+                    "start_seconds": 2492.68,
+                    "end_seconds": 2492.98
+                  },
+                  {
+                    "word": "a",
+                    "start_seconds": 2492.98,
+                    "end_seconds": 2493.2
+                  },
+                  {
+                    "word": "range",
+                    "start_seconds": 2493.2,
+                    "end_seconds": 2493.66
+                  },
+                  {
+                    "word": "of",
+                    "start_seconds": 2493.66,
+                    "end_seconds": 2494.24
+                  },
+                  {
+                    "word": "possible",
+                    "start_seconds": 2494.24,
+                    "end_seconds": 2494.88
+                  },
+                  {
+                    "word": "integers",
+                    "start_seconds": 2494.88,
+                    "end_seconds": 2495.64
+                  },
+                  {
+                    "word": "to",
+                    "start_seconds": 2495.64,
+                    "end_seconds": 2496.22
+                  },
+                  {
+                    "word": "be",
+                    "start_seconds": 2496.22,
+                    "end_seconds": 2496.66
+                  },
+                  {
+                    "word": "selected.",
+                    "start_seconds": 2496.66,
+                    "end_seconds": 2497.18
+                  },
+                  {
+                    "word": "So",
+                    "start_seconds": 2498.06,
+                    "end_seconds": 2498.26
+                  },
+                  {
+                    "word": "how",
+                    "start_seconds": 2498.26,
+                    "end_seconds": 2498.68
+                  },
+                  {
+                    "word": "many",
+                    "start_seconds": 2498.68,
+                    "end_seconds": 2499.02
+                  },
+                  {
+                    "word": "values",
+                    "start_seconds": 2499.02,
+                    "end_seconds": 2499.74
+                  },
+                  {
+                    "word": "are",
+                    "start_seconds": 2499.74,
+                    "end_seconds": 2500.3
+                  },
+                  {
+                    "word": "in",
+                    "start_seconds": 2500.3,
+                    "end_seconds": 2501.2
+                  },
+                  {
+                    "word": "this",
+                    "start_seconds": 2501.2,
+                    "end_seconds": 2502.4
+                  },
+                  {
+                    "word": "range?",
+                    "start_seconds": 2502.4,
+                    "end_seconds": 2503.56
+                  }
+                ]
+              },
+              {
+                "segment_id": 18,
+                "start_seconds": 2505.02,
+                "end_seconds": 2515.34,
+                "text": "There are c, w, min, plus one integers, right? Because the subunit including the zero is plus one.",
+                "words": [
+                  {
+                    "word": "There",
+                    "start_seconds": 2505.02,
+                    "end_seconds": 2505.14
+                  },
+                  {
+                    "word": "are",
+                    "start_seconds": 2505.14,
+                    "end_seconds": 2505.66
+                  },
+                  {
+                    "word": "c,",
+                    "start_seconds": 2505.66,
+                    "end_seconds": 2506.44
+                  },
+                  {
+                    "word": "w,",
+                    "start_seconds": 2506.44,
+                    "end_seconds": 2506.88
+                  },
+                  {
+                    "word": "min,",
+                    "start_seconds": 2507.3,
+                    "end_seconds": 2507.64
+                  },
+                  {
+                    "word": "plus",
+                    "start_seconds": 2508.48,
+                    "end_seconds": 2509.12
+                  },
+                  {
+                    "word": "one",
+                    "start_seconds": 2509.12,
+                    "end_seconds": 2509.62
+                  },
+                  {
+                    "word": "integers,",
+                    "start_seconds": 2509.62,
+                    "end_seconds": 2510.54
+                  },
+                  {
+                    "word": "right?",
+                    "start_seconds": 2510.98,
+                    "end_seconds": 2511.1
+                  },
+                  {
+                    "word": "Because",
+                    "start_seconds": 2511.46,
+                    "end_seconds": 2511.76
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 2511.76,
+                    "end_seconds": 2512.04
+                  },
+                  {
+                    "word": "subunit",
+                    "start_seconds": 2512.04,
+                    "end_seconds": 2512.42
+                  },
+                  {
+                    "word": "including",
+                    "start_seconds": 2512.42,
+                    "end_seconds": 2513.48
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 2513.48,
+                    "end_seconds": 2513.78
+                  },
+                  {
+                    "word": "zero",
+                    "start_seconds": 2513.78,
+                    "end_seconds": 2514.06
+                  },
+                  {
+                    "word": "is",
+                    "start_seconds": 2514.06,
+                    "end_seconds": 2514.6
+                  },
+                  {
+                    "word": "plus",
+                    "start_seconds": 2514.6,
+                    "end_seconds": 2514.84
+                  },
+                  {
+                    "word": "one.",
+                    "start_seconds": 2514.84,
+                    "end_seconds": 2515.34
+                  }
+                ]
+              },
+              {
+                "segment_id": 19,
+                "start_seconds": 2515.34,
+                "end_seconds": 2525.16,
+                "text": "this is the number of integers in that range. Okay, so what we want to compute, since we",
+                "words": [
+                  {
+                    "word": "this",
+                    "start_seconds": 2515.34,
+                    "end_seconds": 2516.28
+                  },
+                  {
+                    "word": "is",
+                    "start_seconds": 2516.28,
+                    "end_seconds": 2516.42
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 2516.42,
+                    "end_seconds": 2516.56
+                  },
+                  {
+                    "word": "number",
+                    "start_seconds": 2516.56,
+                    "end_seconds": 2516.88
+                  },
+                  {
+                    "word": "of",
+                    "start_seconds": 2516.88,
+                    "end_seconds": 2517.08
+                  },
+                  {
+                    "word": "integers",
+                    "start_seconds": 2517.08,
+                    "end_seconds": 2517.48
+                  },
+                  {
+                    "word": "in",
+                    "start_seconds": 2517.48,
+                    "end_seconds": 2517.94
+                  },
+                  {
+                    "word": "that",
+                    "start_seconds": 2517.94,
+                    "end_seconds": 2518.1
+                  },
+                  {
+                    "word": "range.",
+                    "start_seconds": 2518.1,
+                    "end_seconds": 2518.58
+                  },
+                  {
+                    "word": "Okay,",
+                    "start_seconds": 2519.7,
+                    "end_seconds": 2519.76
+                  },
+                  {
+                    "word": "so",
+                    "start_seconds": 2520.14,
+                    "end_seconds": 2520.44
+                  },
+                  {
+                    "word": "what",
+                    "start_seconds": 2520.44,
+                    "end_seconds": 2520.92
+                  },
+                  {
+                    "word": "we",
+                    "start_seconds": 2520.92,
+                    "end_seconds": 2521.22
+                  },
+                  {
+                    "word": "want",
+                    "start_seconds": 2521.22,
+                    "end_seconds": 2521.54
+                  },
+                  {
+                    "word": "to",
+                    "start_seconds": 2521.54,
+                    "end_seconds": 2521.8
+                  },
+                  {
+                    "word": "compute,",
+                    "start_seconds": 2521.8,
+                    "end_seconds": 2522.56
+                  },
+                  {
+                    "word": "since",
+                    "start_seconds": 2524.22,
+                    "end_seconds": 2524.82
+                  },
+                  {
+                    "word": "we",
+                    "start_seconds": 2524.82,
+                    "end_seconds": 2525.16
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-015.raw.json",
+            "absolute_offset_seconds": 2505,
+            "segments": [
+              {
+                "segment_id": 1,
+                "start_seconds": 2505.0,
+                "end_seconds": 2511.08,
+                "text": "There are CW mean plus one integers, right?",
+                "words": [
+                  {
+                    "word": "There",
+                    "start_seconds": 2505.0,
+                    "end_seconds": 2505.14
+                  },
+                  {
+                    "word": "are",
+                    "start_seconds": 2505.14,
+                    "end_seconds": 2505.66
+                  },
+                  {
+                    "word": "CW",
+                    "start_seconds": 2505.66,
+                    "end_seconds": 2506.64
+                  },
+                  {
+                    "word": "mean",
+                    "start_seconds": 2506.64,
+                    "end_seconds": 2507.66
+                  },
+                  {
+                    "word": "plus",
+                    "start_seconds": 2507.66,
+                    "end_seconds": 2509.12
+                  },
+                  {
+                    "word": "one",
+                    "start_seconds": 2509.12,
+                    "end_seconds": 2509.64
+                  },
+                  {
+                    "word": "integers,",
+                    "start_seconds": 2509.64,
+                    "end_seconds": 2510.54
+                  },
+                  {
+                    "word": "right?",
+                    "start_seconds": 2511.02,
+                    "end_seconds": 2511.08
+                  }
+                ]
+              },
+              {
+                "segment_id": 2,
+                "start_seconds": 2511.46,
+                "end_seconds": 2515.36,
+                "text": "We call this a unit, including the zero is plus one.",
+                "words": [
+                  {
+                    "word": "We",
+                    "start_seconds": 2511.46,
+                    "end_seconds": 2511.56
+                  },
+                  {
+                    "word": "call",
+                    "start_seconds": 2511.56,
+                    "end_seconds": 2511.76
+                  },
+                  {
+                    "word": "this",
+                    "start_seconds": 2511.76,
+                    "end_seconds": 2511.98
+                  },
+                  {
+                    "word": "a",
+                    "start_seconds": 2511.98,
+                    "end_seconds": 2512.14
+                  },
+                  {
+                    "word": "unit,",
+                    "start_seconds": 2512.14,
+                    "end_seconds": 2512.38
+                  },
+                  {
+                    "word": "including",
+                    "start_seconds": 2512.98,
+                    "end_seconds": 2513.52
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 2513.52,
+                    "end_seconds": 2513.78
+                  },
+                  {
+                    "word": "zero",
+                    "start_seconds": 2513.78,
+                    "end_seconds": 2514.06
+                  },
+                  {
+                    "word": "is",
+                    "start_seconds": 2514.06,
+                    "end_seconds": 2514.6
+                  },
+                  {
+                    "word": "plus",
+                    "start_seconds": 2514.6,
+                    "end_seconds": 2514.84
+                  },
+                  {
+                    "word": "one.",
+                    "start_seconds": 2514.84,
+                    "end_seconds": 2515.36
+                  }
+                ]
+              },
+              {
+                "segment_id": 3,
+                "start_seconds": 2515.82,
+                "end_seconds": 2518.48,
+                "text": "This is the number of integers in that range.",
+                "words": [
+                  {
+                    "word": "This",
+                    "start_seconds": 2515.82,
+                    "end_seconds": 2516.28
+                  },
+                  {
+                    "word": "is",
+                    "start_seconds": 2516.28,
+                    "end_seconds": 2516.46
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 2516.46,
+                    "end_seconds": 2516.58
+                  },
+                  {
+                    "word": "number",
+                    "start_seconds": 2516.58,
+                    "end_seconds": 2516.88
+                  },
+                  {
+                    "word": "of",
+                    "start_seconds": 2516.88,
+                    "end_seconds": 2517.1
+                  },
+                  {
+                    "word": "integers",
+                    "start_seconds": 2517.1,
+                    "end_seconds": 2517.54
+                  },
+                  {
+                    "word": "in",
+                    "start_seconds": 2517.54,
+                    "end_seconds": 2517.94
+                  },
+                  {
+                    "word": "that",
+                    "start_seconds": 2517.94,
+                    "end_seconds": 2518.12
+                  },
+                  {
+                    "word": "range.",
+                    "start_seconds": 2518.12,
+                    "end_seconds": 2518.48
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "boundary": "54/55",
+        "status": "PASS_TEXT_CONTINUITY_WITH_METADATA_CAVEAT",
+        "left_ordinal": 54,
+        "right_ordinal": 55,
+        "left_tail": "So no use.",
+        "right_head": "If you had to desynchronize the acknowledgments transmissions, that would be very, very complicated.",
+        "evidence": [
+          "候选54在So no use结束；候选55从If you had to desynchronize the acknowledgments transmissions, that would be very, very complicated起。Qwen window36连续包含这两句，候选没有丢掉早于55旧锚点的首句。",
+          "medium chunk-023 segment6（3988.92–3997.68s）横跨no use和If you had to desynchronize ... that would；segment7（3997.68–4007.12s）续be very very complicated and ...。按raw词级时标，use结束3990.12s，If开始3990.82s，complicated结束3999.20s。",
+          "55旧锚点01:06:45=4005s晚于这整个desynchronize句；以旧锚点硬裁会漏句。现候选遵循旧段落归属把句子只放55，连续性正确。",
+          "Feishu block137（54来源）以So no use结束，block139（55来源）从So that's not good开始，中间desynchronize/overhead两句在Feishu映射中缺失；Qwen36与medium6–7提供恢复依据。",
+          "chunk-022/023在54开头Indeed since broadcast...有重叠，候选54只保留一次；54/55实际转接点位于同一chunk-023中，不存在第二次desynchronize。"
+        ],
+        "omission_result": "未检出正文边界漏句；55提前于其旧锚点的desynchronize和overhead内容均保留。",
+        "overlap_duplication_result": "未检出窗口重叠造成的正文重复；desynchronize句在54/55合并中仅一次。",
+        "speaker_repetitions_preserved": [
+          "very, very complicated在Qwen36与medium segment7均为双very，候选55确实保留两个very；这是同一窗口内的词级重复，不是相邻窗口重复",
+          "55后文you are done / [You / we unclear] are done / you are done位于不同语句和不同时间位置，均保留"
+        ],
+        "remaining_uncertainties": [
+          "54 with / within仍未听辨",
+          "55 it / you、overhead of the protocol / medium order of the problem以及not good / done存在来源分歧；归段无漏不等于这些词已认证",
+          "54的unresolved证据把segment6起点3988.92s近似作为desynchronize句起点；词级If实际3990.82s，须表述为大致窗口而非精确句始"
+        ],
+        "mechanical_checks": {
+          "left_suffix_right_prefix_identical_word_count": 0,
+          "occurrence_checks": [
+            {
+              "normalized_phrase": "so no use",
+              "expected_count": 1,
+              "observed_count": 1,
+              "pass": true
+            },
+            {
+              "normalized_phrase": "if you had to desynchronize",
+              "expected_count": 1,
+              "observed_count": 1,
+              "pass": true
+            },
+            {
+              "normalized_phrase": "very very complicated",
+              "expected_count": 1,
+              "observed_count": 1,
+              "pass": true
+            }
+          ]
+        },
+        "metadata_qa_ids": [
+          "M55-MISSING-SEG6"
+        ],
+        "source_records": [
+          {
+            "ordinal": 54,
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-41-60.json",
+            "start_seconds": 3965,
+            "end_seconds": 4005,
+            "feishu": [
+              {
+                "source_index_zero_based": 66,
+                "source_block_id": "137",
+                "text": "说话人 1 01:06:05​\nIndeed, since broadcast and multicast packets are intended for multiple destinations.We cannot have receivers sending back acknowledgments, because all these acknowledgments if sent at the same time we collide with each other.So no use.​"
+              }
+            ],
+            "qwen_windows": [
+              {
+                "window_index": 35,
+                "start_seconds": 3850.0,
+                "end_seconds": 3970.0,
+                "text": "Mechanisms are designed in a certain way, but we need also always to look at these mechanisms or techniques or solutions, with a critical eye. That means we need to look at them and ask ourselves: Is this really good in under all conditions, under all situations, or not? There may be aspects of technology that are not that good, not always, and we need to be aware of that. Okay, so whenever we design a system, whenever we design a technological solution, we need to account for possible issues that may arise. So an idea may be good to solve one problem, but it might actually make things worse in other situations. So we need also to look at the big picture when we design a technology. Okay, and and this is indeed an example of of that. Um, the last thing that I would like to comment and then we go to the third situation is remember that we are considering how to transmit uniquecast data packets, right? We said that. Let me just mention again that in the case of multicast or broadcast data packet, things are much much simpler, because we do not expect any acknowledgement. Indeed, since broadcast and multicast packets."
+              },
+              {
+                "window_index": 36,
+                "start_seconds": 3960.0,
+                "end_seconds": 4080.0,
+                "text": "Because we do not expect any acknowledgement. Indeed, since broadcast and multicast packets are intended for multiple destinations, we cannot have receivers sending back acknowledgments. Because all these acknowledgments, if sent at the same time, will collide with each other. So no use. If you had to desynchronize the acknowledgments transmissions, that would be very very complicated. And it would increase the overhead of the protocol. So that's done. So the choice that they made was, well, if a packet is broadcast or multicast, the transmitter of course needs to sense the channel. If the channel is idle, transmit. If the channel is busy, of course you have to perform the kickoff procedure because you have to wait. But then once you access the channel and transmit, that's it. Okay, you are done. Because you don't care if the packet was received successfully or unsuccessfully. You are done. Okay, so broadcast and multicast packets are transmitted only once. So you may need to run the kickoff procedure for those data packets. But just if when you want to access the channel, you sense the channel as busy the first time."
+              }
+            ]
+          },
+          {
+            "ordinal": 55,
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-41-60.json",
+            "start_seconds": 4005,
+            "end_seconds": 4159,
+            "feishu": [
+              {
+                "source_index_zero_based": 67,
+                "source_block_id": "139",
+                "text": "说话人 1 01:06:45​\nSo that's not good.So the choice that they made was, well, if a packet isbroadcast or multicast.The transmitter of course needs to sense the channel.If the channel is idle, transmit.If the channel is busy, of course, you have to perform the backoff.Because you have to wait.But then once you access the channel and transmit, that's it.Ok, you're done, because you don't care if the packet was received successfully or unsuccessfully.¿Verdad?Note to self Bronx manticas para.​"
+              },
+              {
+                "source_index_zero_based": 68,
+                "source_block_id": "141",
+                "text": "说话人 1 01:07:56​\nYou sense the channel as busy the first time.OK?Then, once you perform the backoff, and you ask the channel and transmit, you're done.OK, if everything is clear so far.Let me know if you have questions.No questions.OK, so, if we are good, then we can now tackle this last condition.That is, well, we have one more situation.Under which we perform the back off.In this third situation, actually, the procedure is slightly, slightly different.OK, is, is essentially the same except for one.What is this third situation?It is called in this case, the procedure is called a fast back off, just to underline that there is a small difference with respect to the back off run under the previous two situations.​"
+              }
+            ],
+            "qwen_windows": [
+              {
+                "window_index": 36,
+                "start_seconds": 3960.0,
+                "end_seconds": 4080.0,
+                "text": "Because we do not expect any acknowledgement. Indeed, since broadcast and multicast packets are intended for multiple destinations, we cannot have receivers sending back acknowledgments. Because all these acknowledgments, if sent at the same time, will collide with each other. So no use. If you had to desynchronize the acknowledgments transmissions, that would be very very complicated. And it would increase the overhead of the protocol. So that's done. So the choice that they made was, well, if a packet is broadcast or multicast, the transmitter of course needs to sense the channel. If the channel is idle, transmit. If the channel is busy, of course you have to perform the kickoff procedure because you have to wait. But then once you access the channel and transmit, that's it. Okay, you are done. Because you don't care if the packet was received successfully or unsuccessfully. You are done. Okay, so broadcast and multicast packets are transmitted only once. So you may need to run the kickoff procedure for those data packets. But just if when you want to access the channel, you sense the channel as busy the first time."
+              },
+              {
+                "window_index": 37,
+                "start_seconds": 4070.0,
+                "end_seconds": 4190.0,
+                "text": "Data packets, but just if, when you want to access the channel, you send the channel as busy the first time, okay. Then once you perform the backoff and you access the channel, transmit you are done. Okay, um, if everything is clear so far, let me know if you have questions. No questions. Okay, so if we are good, then we can now tackle this last condition. That is, well, we have one more situation, under which we perform the backoff. In this third situation, actually, the procedure is slightly slightly different, okay. It is essentially the same except for one thing. What is this third situation? And indeed, it is called in this case the procedure is called fast backoff. Just to underline that there is a small difference with respect to the backoff run under the previous two situations. So what is this third situation? Is when a node transmits a data packet successfully. So you may say, well, why do I have to perform the backoff? In this case, I transmitted my packet correctly and done. What do you want from me? Well, the Wi-Fi says, I know you transmitted your packet, you are done with that, but after."
+              }
+            ]
+          }
+        ],
+        "raw_word_evidence": [
+          {
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-023.raw.json",
+            "absolute_offset_seconds": 3945,
+            "segments": [
+              {
+                "segment_id": 5,
+                "start_seconds": 3980.2,
+                "end_seconds": 3988.92,
+                "text": "acknowledgments if sent at the same time will collide within each other so",
+                "words": [
+                  {
+                    "word": "acknowledgments",
+                    "start_seconds": 3980.2,
+                    "end_seconds": 3981.16
+                  },
+                  {
+                    "word": "if",
+                    "start_seconds": 3981.16,
+                    "end_seconds": 3981.82
+                  },
+                  {
+                    "word": "sent",
+                    "start_seconds": 3981.82,
+                    "end_seconds": 3982.72
+                  },
+                  {
+                    "word": "at",
+                    "start_seconds": 3982.72,
+                    "end_seconds": 3983.52
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 3983.52,
+                    "end_seconds": 3983.7
+                  },
+                  {
+                    "word": "same",
+                    "start_seconds": 3983.7,
+                    "end_seconds": 3983.88
+                  },
+                  {
+                    "word": "time",
+                    "start_seconds": 3983.88,
+                    "end_seconds": 3984.66
+                  },
+                  {
+                    "word": "will",
+                    "start_seconds": 3984.66,
+                    "end_seconds": 3985.16
+                  },
+                  {
+                    "word": "collide",
+                    "start_seconds": 3985.16,
+                    "end_seconds": 3985.84
+                  },
+                  {
+                    "word": "within",
+                    "start_seconds": 3985.84,
+                    "end_seconds": 3987.4
+                  },
+                  {
+                    "word": "each",
+                    "start_seconds": 3987.4,
+                    "end_seconds": 3987.7
+                  },
+                  {
+                    "word": "other",
+                    "start_seconds": 3987.7,
+                    "end_seconds": 3988.0
+                  },
+                  {
+                    "word": "so",
+                    "start_seconds": 3988.0,
+                    "end_seconds": 3988.92
+                  }
+                ]
+              },
+              {
+                "segment_id": 6,
+                "start_seconds": 3988.92,
+                "end_seconds": 3997.68,
+                "text": "no use. If you had to desynchronize the acknowledgments, transmissions, that would",
+                "words": [
+                  {
+                    "word": "no",
+                    "start_seconds": 3988.92,
+                    "end_seconds": 3989.66
+                  },
+                  {
+                    "word": "use.",
+                    "start_seconds": 3989.66,
+                    "end_seconds": 3990.12
+                  },
+                  {
+                    "word": "If",
+                    "start_seconds": 3990.82,
+                    "end_seconds": 3991.68
+                  },
+                  {
+                    "word": "you",
+                    "start_seconds": 3991.68,
+                    "end_seconds": 3992.12
+                  },
+                  {
+                    "word": "had",
+                    "start_seconds": 3992.12,
+                    "end_seconds": 3992.7
+                  },
+                  {
+                    "word": "to",
+                    "start_seconds": 3992.7,
+                    "end_seconds": 3993.14
+                  },
+                  {
+                    "word": "desynchronize",
+                    "start_seconds": 3993.14,
+                    "end_seconds": 3994.38
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 3994.38,
+                    "end_seconds": 3994.64
+                  },
+                  {
+                    "word": "acknowledgments,",
+                    "start_seconds": 3994.64,
+                    "end_seconds": 3995.54
+                  },
+                  {
+                    "word": "transmissions,",
+                    "start_seconds": 3995.82,
+                    "end_seconds": 3996.08
+                  },
+                  {
+                    "word": "that",
+                    "start_seconds": 3997.32,
+                    "end_seconds": 3997.5
+                  },
+                  {
+                    "word": "would",
+                    "start_seconds": 3997.5,
+                    "end_seconds": 3997.68
+                  }
+                ]
+              },
+              {
+                "segment_id": 7,
+                "start_seconds": 3997.68,
+                "end_seconds": 4007.12,
+                "text": "be very very complicated and you would increase the order of the problem. So the",
+                "words": [
+                  {
+                    "word": "be",
+                    "start_seconds": 3997.68,
+                    "end_seconds": 3997.86
+                  },
+                  {
+                    "word": "very",
+                    "start_seconds": 3997.86,
+                    "end_seconds": 3998.22
+                  },
+                  {
+                    "word": "very",
+                    "start_seconds": 3998.22,
+                    "end_seconds": 3998.48
+                  },
+                  {
+                    "word": "complicated",
+                    "start_seconds": 3998.48,
+                    "end_seconds": 3999.2
+                  },
+                  {
+                    "word": "and",
+                    "start_seconds": 3999.2,
+                    "end_seconds": 4000.9
+                  },
+                  {
+                    "word": "you",
+                    "start_seconds": 4000.9,
+                    "end_seconds": 4001.32
+                  },
+                  {
+                    "word": "would",
+                    "start_seconds": 4001.32,
+                    "end_seconds": 4001.54
+                  },
+                  {
+                    "word": "increase",
+                    "start_seconds": 4001.54,
+                    "end_seconds": 4002.14
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 4002.14,
+                    "end_seconds": 4002.76
+                  },
+                  {
+                    "word": "order",
+                    "start_seconds": 4002.76,
+                    "end_seconds": 4002.88
+                  },
+                  {
+                    "word": "of",
+                    "start_seconds": 4002.88,
+                    "end_seconds": 4003.4
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 4003.4,
+                    "end_seconds": 4004.24
+                  },
+                  {
+                    "word": "problem.",
+                    "start_seconds": 4004.24,
+                    "end_seconds": 4004.64
+                  },
+                  {
+                    "word": "So",
+                    "start_seconds": 4005.82,
+                    "end_seconds": 4005.82
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 4005.82,
+                    "end_seconds": 4007.12
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "boundary": "60/61",
+        "status": "PASS_TEXT_CONTINUITY",
+        "left_ordinal": 60,
+        "right_ordinal": 61,
+        "left_tail": "So B and [and unclear] C will have to run a, let's say, regular backoff procedure.",
+        "right_head": "So again, in order to understand how useful [a / the unclear] mechanism is, or solution is, let's play our little game of ablation, right?",
+        "evidence": [
+          "候选60尾regular backoff procedure后，候选61接So again, in order to understand how useful ...。Qwen window40和medium chunk-025 segment11均按此顺序连续出现，没有需要额外补入的中间句。",
+          "medium chunk-025 segment11（4421.20–4432.24s）同时覆盖60末尾与61开头，两个review packet复用的是同一segment；60未复制So again，61未重复制procedure。词级procedure结束4422.92s，So开始4424.70s；61旧锚点4424s位于该间隔内。",
+          "Feishu block151以regular kickoff procedure结尾，block153从So again开头，与候选归属吻合；Qwen window39/40在4400–4410s重叠的zero CW_min / same behavior as before只在60保留一次。"
+        ],
+        "omission_result": "未检出边界整句或可确认单词漏失；let's say仍在60末句，61保留mechanism is, or solution is的复说。",
+        "overlap_duplication_result": "未检出窗口或review-packet重叠引起的正文重复。",
+        "speaker_repetitions_preserved": [
+          "60中and [and unclear] C保留潜在重复并标记不确定",
+          "61中mechanism is, or solution is保留两次is与自我补说结构",
+          "61中any, [any unclear]保留Qwen的可能双any；没有因单词重复擅自去重"
+        ],
+        "remaining_uncertainties": [
+          "60的and重复、61的a/the冠词与any重复仍待听辨",
+          "技术词backoff由跨源/上下文恢复，medium末尾the cough procedure不是逐字认证"
+        ],
+        "mechanical_checks": {
+          "left_suffix_right_prefix_identical_word_count": 0,
+          "occurrence_checks": [
+            {
+              "normalized_phrase": "so again in order to understand how useful",
+              "expected_count": 1,
+              "observed_count": 1,
+              "pass": true
+            },
+            {
+              "normalized_phrase": "let s say regular backoff procedure",
+              "expected_count": 1,
+              "observed_count": 1,
+              "pass": true
+            }
+          ]
+        },
+        "metadata_qa_ids": [],
+        "source_records": [
+          {
+            "ordinal": 60,
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-41-60.json",
+            "start_seconds": 4340,
+            "end_seconds": 4424,
+            "feishu": [
+              {
+                "source_index_zero_based": 73,
+                "source_block_id": "151",
+                "text": "说话人 1 01:12:20​\nRight?And we know already how things work, fine, but now our attention ison a, OK?Let's focus on a.A is the one that performs is transmission successful, so it's done.And according to the protocol, now we know that a actually wants it has finished transmission.Meet in the packet and receive the act, needs to perform this fast bake off procedure, right?So, I will have to sense the channel for leaves, and then, we will have to draw an integer.Out of the range zero cwm.And of course for b and c we'll have the same behavior as before.We know that's ready, so B and and C will have to run a regular kickoff procedure.​"
+              }
+            ],
+            "qwen_windows": [
+              {
+                "window_index": 39,
+                "start_seconds": 4290.0,
+                "end_seconds": 4410.0,
+                "text": "Packet leaves, channel idle, transmission the data packet, unique state packet to the access point. This packet transmission is successful, so the access points have back the ACK. And as we said before, all nodes are in radio visibility of each other, they can hear each other. So B and C will say they are not. And same as before, at certain point B and C get a packet from their respective higher layers, so they will have to transmit their packet, right? And we know already how things work, fine. But now our attention is on A, okay? Let's focus on A. A is the one that performs its transmission successfully, so it's done. And according to the protocol, now we know that A actually once it has finished transmitting the packet and received the ACK, needs to perform this past backoff procedure, right? So it will have to sense the channel for leaves, and then it will have to draw an integer out of the range zero CW min. And of course, for B and C, will have the same behavior as before."
+              },
+              {
+                "window_index": 40,
+                "start_seconds": 4400.0,
+                "end_seconds": 4520.0,
+                "text": "Zero CWM. And of course, for B and C, we'll have the same behavior as before. We know that's ready. So B and C will have to run a let's say regular, the go procedure. So again, in order to understand how useful the mechanism is or solution is. Let's play our little game of ablation. Right, so let's remove the post go and see what happens. So what if A does not have to run any any post go. Well, let's add an event here to better understand what would happen considering all possible cases. Let's consider that A has got another packet in its mark queue. Remember that we said the mark layer can be modded right as a queue with a server. So let's consider that A has transmitted the packet here successfully, but let's assume that A has put another packet in the queue waiting to be transmitted. So this first packet goes through right successfully. This is what we represented here. But now A is going."
+              }
+            ]
+          },
+          {
+            "ordinal": 61,
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-61-78.json",
+            "start_seconds": 4424,
+            "end_seconds": 4471,
+            "feishu": [
+              {
+                "source_index_zero_based": 74,
+                "source_block_id": "153",
+                "text": "说话人 1 01:13:44​\nSo again, in order to understand how useful a mechanism is.Our solution is, let's play our little game of ablation, right?So, let's remove the post back off and see what happens.So, what if a does not have to run anypossible cause?Well, let's add an event here to better understand what would happen considering all possible cases.​"
+              }
+            ],
+            "qwen_windows": [
+              {
+                "window_index": 40,
+                "start_seconds": 4400.0,
+                "end_seconds": 4520.0,
+                "text": "Zero CWM. And of course, for B and C, we'll have the same behavior as before. We know that's ready. So B and C will have to run a let's say regular, the go procedure. So again, in order to understand how useful the mechanism is or solution is. Let's play our little game of ablation. Right, so let's remove the post go and see what happens. So what if A does not have to run any any post go. Well, let's add an event here to better understand what would happen considering all possible cases. Let's consider that A has got another packet in its mark queue. Remember that we said the mark layer can be modded right as a queue with a server. So let's consider that A has transmitted the packet here successfully, but let's assume that A has put another packet in the queue waiting to be transmitted. So this first packet goes through right successfully. This is what we represented here. But now A is going."
+              }
+            ]
+          }
+        ],
+        "raw_word_evidence": [
+          {
+            "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-025.raw.json",
+            "absolute_offset_seconds": 4305,
+            "segments": [
+              {
+                "segment_id": 10,
+                "start_seconds": 4406.84,
+                "end_seconds": 4421.2,
+                "text": "same behavior as before we know that's ready so b and c will have to run a let's say regular",
+                "words": [
+                  {
+                    "word": "same",
+                    "start_seconds": 4406.84,
+                    "end_seconds": 4407.28
+                  },
+                  {
+                    "word": "behavior",
+                    "start_seconds": 4407.28,
+                    "end_seconds": 4408.14
+                  },
+                  {
+                    "word": "as",
+                    "start_seconds": 4408.14,
+                    "end_seconds": 4408.94
+                  },
+                  {
+                    "word": "before",
+                    "start_seconds": 4408.94,
+                    "end_seconds": 4409.54
+                  },
+                  {
+                    "word": "we",
+                    "start_seconds": 4409.54,
+                    "end_seconds": 4411.9
+                  },
+                  {
+                    "word": "know",
+                    "start_seconds": 4411.9,
+                    "end_seconds": 4412.16
+                  },
+                  {
+                    "word": "that's",
+                    "start_seconds": 4412.16,
+                    "end_seconds": 4412.7
+                  },
+                  {
+                    "word": "ready",
+                    "start_seconds": 4412.7,
+                    "end_seconds": 4413.1
+                  },
+                  {
+                    "word": "so",
+                    "start_seconds": 4413.1,
+                    "end_seconds": 4415.6
+                  },
+                  {
+                    "word": "b",
+                    "start_seconds": 4415.6,
+                    "end_seconds": 4416.76
+                  },
+                  {
+                    "word": "and",
+                    "start_seconds": 4416.76,
+                    "end_seconds": 4417.32
+                  },
+                  {
+                    "word": "c",
+                    "start_seconds": 4417.32,
+                    "end_seconds": 4418.74
+                  },
+                  {
+                    "word": "will",
+                    "start_seconds": 4418.74,
+                    "end_seconds": 4419.02
+                  },
+                  {
+                    "word": "have",
+                    "start_seconds": 4419.02,
+                    "end_seconds": 4419.24
+                  },
+                  {
+                    "word": "to",
+                    "start_seconds": 4419.24,
+                    "end_seconds": 4419.5
+                  },
+                  {
+                    "word": "run",
+                    "start_seconds": 4419.5,
+                    "end_seconds": 4419.76
+                  },
+                  {
+                    "word": "a",
+                    "start_seconds": 4419.76,
+                    "end_seconds": 4420.26
+                  },
+                  {
+                    "word": "let's",
+                    "start_seconds": 4420.26,
+                    "end_seconds": 4420.42
+                  },
+                  {
+                    "word": "say",
+                    "start_seconds": 4420.42,
+                    "end_seconds": 4420.62
+                  },
+                  {
+                    "word": "regular",
+                    "start_seconds": 4420.62,
+                    "end_seconds": 4421.2
+                  }
+                ]
+              },
+              {
+                "segment_id": 11,
+                "start_seconds": 4421.2,
+                "end_seconds": 4432.24,
+                "text": "the cough procedure. So again, in order to understand how useful the mechanism is or",
+                "words": [
+                  {
+                    "word": "the",
+                    "start_seconds": 4421.2,
+                    "end_seconds": 4422.1
+                  },
+                  {
+                    "word": "cough",
+                    "start_seconds": 4422.1,
+                    "end_seconds": 4422.36
+                  },
+                  {
+                    "word": "procedure.",
+                    "start_seconds": 4422.36,
+                    "end_seconds": 4422.92
+                  },
+                  {
+                    "word": "So",
+                    "start_seconds": 4424.7,
+                    "end_seconds": 4425.0
+                  },
+                  {
+                    "word": "again,",
+                    "start_seconds": 4425.0,
+                    "end_seconds": 4425.44
+                  },
+                  {
+                    "word": "in",
+                    "start_seconds": 4425.8,
+                    "end_seconds": 4425.98
+                  },
+                  {
+                    "word": "order",
+                    "start_seconds": 4425.98,
+                    "end_seconds": 4426.16
+                  },
+                  {
+                    "word": "to",
+                    "start_seconds": 4426.16,
+                    "end_seconds": 4426.44
+                  },
+                  {
+                    "word": "understand",
+                    "start_seconds": 4426.44,
+                    "end_seconds": 4427.2
+                  },
+                  {
+                    "word": "how",
+                    "start_seconds": 4427.2,
+                    "end_seconds": 4429.22
+                  },
+                  {
+                    "word": "useful",
+                    "start_seconds": 4429.22,
+                    "end_seconds": 4429.98
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 4429.98,
+                    "end_seconds": 4430.54
+                  },
+                  {
+                    "word": "mechanism",
+                    "start_seconds": 4430.54,
+                    "end_seconds": 4431.02
+                  },
+                  {
+                    "word": "is",
+                    "start_seconds": 4431.02,
+                    "end_seconds": 4431.7
+                  },
+                  {
+                    "word": "or",
+                    "start_seconds": 4431.7,
+                    "end_seconds": 4432.24
+                  }
+                ]
+              },
+              {
+                "segment_id": 12,
+                "start_seconds": 4432.24,
+                "end_seconds": 4441.52,
+                "text": "solution is, let's play our little game of ablation. So let's remove the",
+                "words": [
+                  {
+                    "word": "solution",
+                    "start_seconds": 4432.24,
+                    "end_seconds": 4432.8
+                  },
+                  {
+                    "word": "is,",
+                    "start_seconds": 4432.8,
+                    "end_seconds": 4433.56
+                  },
+                  {
+                    "word": "let's",
+                    "start_seconds": 4433.56,
+                    "end_seconds": 4435.44
+                  },
+                  {
+                    "word": "play",
+                    "start_seconds": 4435.44,
+                    "end_seconds": 4435.9
+                  },
+                  {
+                    "word": "our",
+                    "start_seconds": 4435.9,
+                    "end_seconds": 4436.52
+                  },
+                  {
+                    "word": "little",
+                    "start_seconds": 4436.52,
+                    "end_seconds": 4436.86
+                  },
+                  {
+                    "word": "game",
+                    "start_seconds": 4436.86,
+                    "end_seconds": 4437.28
+                  },
+                  {
+                    "word": "of",
+                    "start_seconds": 4437.28,
+                    "end_seconds": 4438.1
+                  },
+                  {
+                    "word": "ablation.",
+                    "start_seconds": 4438.1,
+                    "end_seconds": 4438.86
+                  },
+                  {
+                    "word": "So",
+                    "start_seconds": 4439.44,
+                    "end_seconds": 4439.9
+                  },
+                  {
+                    "word": "let's",
+                    "start_seconds": 4439.9,
+                    "end_seconds": 4440.38
+                  },
+                  {
+                    "word": "remove",
+                    "start_seconds": 4440.38,
+                    "end_seconds": 4441.04
+                  },
+                  {
+                    "word": "the",
+                    "start_seconds": 4441.04,
+                    "end_seconds": 4441.6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "metadataQA": [
+      {
+        "id": "M21-START-END",
+        "status": "INCOMPLETE_MEDIUM_SENTENCE_REFERENCE",
+        "section": 21,
+        "sentence_index_one_based": 2,
+        "severity": "metadata_only",
+        "finding": "句2的medium引用只列chunk-008 segments13,14（1368.02–1391.80s）；So what you在segment12尾（1367.50–1368.02s），draw an在14末但integer在15首。正文完整，引用范围不覆盖整句。",
+        "supplement": "chunk-008 segment12–15，1358.80–1410.30s；按词对齐句首So=1367.50s。right在Qwen/Feishu有支持，medium segment15不含right。",
+        "candidate_changed": false
+      },
+      {
+        "id": "M38-TIMING-SOURCE",
+        "status": "SOURCE_LABEL_MISMATCH_FOR_WORD_TIMING",
+        "section": 38,
+        "sentence_index_one_based": 8,
+        "severity": "metadata_only",
+        "finding": "候选注释说CW_min结束41:47.64、plus开始41:48.48，但只列chunk-015 segment1。上述精确数值实际来自chunk-014 segment18。chunk-015给mean结束与plus开始均2507.66s。",
+        "supplement": "精确数值应指向chunk-014.raw.json segment18（offset2325s），并同时注明chunk-015 segment1对齐不同；原锚点仅作旧段落定位，不声称人工验证词间停顿。",
+        "candidate_changed": false
+      },
+      {
+        "id": "M39-BECAUSE-SOURCE",
+        "status": "ALTERNATE_SOURCE_NOT_IN_SENTENCE_REFERENCE",
+        "section": 39,
+        "sentence_index_one_based": 2,
+        "severity": "metadata_and_uncertainty",
+        "finding": "候选Because [unclear words]的medium引用只列chunk-015 segment2，但该段原文是We call this a unit ...。Because the subunit来自同时间的chunk-014 segment18，候选uncertainty描述Whisper但未区分两个窗口。",
+        "supplement": "补列chunk-014 segment18；把Because / We call本身也作为未决读法，不可将Because视作稳定跨源词。此问题不构成边界漏句或窗口重复。",
+        "candidate_changed": false
+      },
+      {
+        "id": "M55-MISSING-SEG6",
+        "status": "INCOMPLETE_MEDIUM_SENTENCE_REFERENCE",
+        "section": 55,
+        "sentence_index_one_based": 1,
+        "severity": "metadata_only",
+        "finding": "首句只列chunk-023 segment7（3997.68–4007.12s）；If you had to desynchronize ... that would实际在segment6（3988.92–3997.68s），该段仅被收在54的review packet。Feishu块139/141不包含该首句，不能单凭它们验证。",
+        "supplement": "该句应补指向54来源包内chunk-023 segment6，再接segment7；完整segment级证据3988.92–4007.12s。词级If=3990.82s，complicated结束3999.20s。Qwen36提供独立连续句支持。",
+        "candidate_changed": false
+      }
+    ],
+    "input_hashes": [
+      {
+        "path": "/workspace/shared/course-1012-1331/faithful-candidates-20261018/candidate-sections-01-20.json",
+        "sha256": "96b8599cbbdf12acface097744c445dc3e89a96c1818d60e38779696aeeed53d"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/faithful-candidates-20261018/sections-21-40.json",
+        "sha256": "0631f1ab67f2a1f0c1426276a81b7b99a3e1288fca5b6190bae90cf82bcb227a"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/faithful-candidates-20261018/sections-41-60.json",
+        "sha256": "de1a07f71a4877b14a639d973c93c6ed998e7726193f531ee33ced198dedb3b3"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/faithful-candidates-20261018/candidate-sections-61-78.json",
+        "sha256": "b2471f52470462d5e99a92fcc5e7a5d88aca96de04818296963792097b62aa82"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-01-20.json",
+        "sha256": "8dc6cf24428569d7b144d1c45a42b1fdd61a59df82ec732d2e44e10569cd6ae5"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-21-40.json",
+        "sha256": "318f5327006dbe34b41ea5eb002c49fabfda2f7e47cbd8f57a1ae500cab28ca0"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-41-60.json",
+        "sha256": "3e4f1ed0f27ce1ab786727c6a74a193b0126faaa8b9601921660c040a5f2ee1c"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/review-packets/sections-61-78.json",
+        "sha256": "70ee15493c07af9689679d23e5efaf9dc5b74dd3e9eb02df649f8d83be54004e"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-008.raw.json",
+        "sha256": "62adbb96cd8238674e6a54e64b39f7b7d826669fee25f8aad2a9ae6ff6e1bbf6"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-014.raw.json",
+        "sha256": "9195494332c8944e814f41bc75755a42d7ece616d0b386d3a9282c7fae07642a"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-015.raw.json",
+        "sha256": "9125c182ecbed49d4f4c3309ecd46296a6280dc4fb0466c4c999ae51912b4f39"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-023.raw.json",
+        "sha256": "28b2e366d76e32bb2fd2c68be2763b78c772ea03b040b845b5f1255221ce5f90"
+      },
+      {
+        "path": "/workspace/shared/course-1012-1331/asr-full-20261018/chunk-025.raw.json",
+        "sha256": "dc74bcb4c8f2f9ae53223f5837c5db4edfd53edbb3f05b39047feb4bf17e139c"
+      }
+    ]
+  },
+  "source_limits": [
+    "未进行逐句人工听辨；不得把候选标为听校完成或确认逐字稿。",
+    "历史Feishu快照可能在捕获前已被人工编辑。",
+    "旧Qwen是校订前恢复重跑输出，不是找回丢失的首次输出。",
+    "新旧M4A文件SHA256不同，未取得旧音轨进行等同性验证。",
+    "方括号/中文括号为校订待听辨标记，不是讲者说出的话；不同括号风格原样保留。",
+    "待听辨记录并非同等数量的互不重叠疑词：部分记录覆盖整句、多处词或边界/无声区。含疑点计数按正文含显式括号标记的英中对照单元计算；一个单元可能有多个语法句，说明字段非空不全是疑点。",
+    "录音开头00:00:00–00:00:03存在分歧片语，当前首段原锚点00:00:03；未无依据插入，见第01段待听辨记录。",
+    "47:20附近疑似重复幻觉未纳入正文，见第41段待听辨记录。"
+  ],
+  "input_artifacts": [
+    {
+      "filename": "candidate-sections-01-20.json",
+      "sha256": "96b8599cbbdf12acface097744c445dc3e89a96c1818d60e38779696aeeed53d",
+      "bytes": 295430,
+      "published_commit": "5824b23249874df047be9c4fc63d4245c2f2fbbf",
+      "ordinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "source_status": "preserved_without_modification"
+    },
+    {
+      "filename": "sections-21-40.json",
+      "sha256": "a9a30dd42e7ad917f55fda3bf346751d2316b1c2ea34413922b9f610c467e821",
+      "bytes": 219535,
+      "published_commit": "eb12483749723e38ad72e3fb0f0ddd33ef70090c",
+      "ordinals": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_status": "local_explicit_uncertainty_fix_after_published_base"
+    },
+    {
+      "filename": "sections-41-60.json",
+      "sha256": "de1a07f71a4877b14a639d973c93c6ed998e7726193f531ee33ced198dedb3b3",
+      "bytes": 223392,
+      "published_commit": "8ff2a77bf43cfad8952ee605cd1b5ed6370c657d",
+      "ordinals": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "source_status": "preserved_without_modification"
+    },
+    {
+      "filename": "candidate-sections-61-78.json",
+      "sha256": "5d0d56854b1b1a492630a473c010efb0c3d6b5f6b1e71760a90cf3d922042a5c",
+      "bytes": 305944,
+      "published_commit": "336def1b578155580cca54f8a6136ba0ba967e49",
+      "ordinals": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "source_status": "local_explicit_uncertainty_fix_after_published_base"
+    }
+  ]
+}
