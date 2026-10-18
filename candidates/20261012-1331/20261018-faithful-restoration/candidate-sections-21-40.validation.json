@@ -13,27 +13,12 @@
   "human_listened": false,
   "remote_feishu_modified": false,
   "paragraph_38_39_boundary_explicitly_documented": true,
-  "unresolved_entries": 36,
+  "unresolved_entries": 37,
   "source_packet_sha256": "318f5327006dbe34b41ea5eb002c49fabfda2f7e47cbd8f57a1ae500cab28ca0",
   "source_identity_limit": "Current m4a SHA256 differs from historical Qwen input m4a SHA256. Recording identity and timing have contextual support; byte-identical source is not established. Do not call the hashes PCM hashes.",
-  "files": [
-    {
-      "filename": "sections-21-40.json",
-      "sha256": "0631f1ab67f2a1f0c1426276a81b7b99a3e1288fca5b6190bae90cf82bcb227a",
-      "bytes": 218445
-    },
-    {
-      "filename": "sections-21-40.txt",
-      "sha256": "2d99c68b2c437f34bb1772b59f69836b69c0ec6d8eb44c1ef8a54a160ed6e769",
-      "bytes": 22989
-    },
-    {
-      "filename": "sections-21-40-diff.md",
-      "sha256": "04138ea2e8f0112a947e5291815a0255e50f010d818641ee69cb07e2ba235edf",
-      "bytes": 35928
-    }
-  ],
   "every_uncertainty_visibly_marked_in_english_and_chinese": true,
   "uncertainty_sentence_count": 32,
-  "sentence_pair_line_layout_verified": true
+  "sentence_pair_line_layout_verified": true,
+  "independent_qa_correction": "Section31 unit10: explicit Till usage uncertainty; no lexical replacement",
+  "bilingual_comparison_units": 131
 }
