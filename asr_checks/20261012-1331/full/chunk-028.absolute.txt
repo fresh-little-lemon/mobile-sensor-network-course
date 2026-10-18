@@ -1,0 +1,32 @@
+[01:20:45.000 --> 01:20:54.860] also in the slides. Okay, so what I would like to show now is another
+[01:20:54.860 --> 01:21:01.340] example that is here presented in these slides, don't get scared by the many
+[01:21:01.340 --> 01:21:09.200] figures that are used in these slides, it's just to highlight
+[01:21:09.200 --> 01:21:18.500] something that we already know but here you have indeed concrete example to
+[01:21:18.500 --> 01:21:26.140] further emphasize this, that is we now know more or less how the basic version
+[01:21:26.140 --> 01:21:33.940] of Wi-Fi works, we already said that Wi-Fi is so successful because it
+[01:21:33.940 --> 01:21:37.340] works quite well for our needs,
+[01:21:37.980 --> 01:21:41.620] but it has got a big problem in general,
+[01:21:41.960 --> 01:21:44.220] that is overhead, right?
+[01:21:44.280 --> 01:21:46.220] We already commented on that.
+[01:21:46.620 --> 01:21:52.540] So now that we know how channel is used in Wi-Fi,
+[01:21:53.300 --> 01:21:57.880] this is a practical example that gives evidence to that.
+[01:21:58.140 --> 01:22:01.360] So we know that in the case where we need
+[01:22:01.360 --> 01:22:03.160] to transmit the data packet,
+[01:22:03.160 --> 01:22:11.740] first of all we need to sense the channel for this, we can consider this to be 50
+[01:22:11.740 --> 01:22:18.600] microseconds long, so that's for sure something that we need to wait for, then
+[01:22:18.600 --> 01:22:26.420] if we are lucky, if we are lucky, the channel is idle and we can transmit our
+[01:22:26.420 --> 01:22:33.500] pocket right away. But the packet that we transmit, we know already, that has got
+[01:22:33.500 --> 01:22:38.940] some headers, right? Actually, we already said it has got a physical layer
+[01:22:38.940 --> 01:22:44.960] preamble that is used by the transmitter and receiver to essentially
+[01:22:44.960 --> 01:22:51.460] synchronize and so that the receiver can start demodulating what the
+[01:22:51.460 --> 01:23:02.900] meter is standing, so at the electronics level they need this preamble to start the communication.
+[01:23:03.800 --> 01:23:11.140] And then there is the physical layer header, and then there is the physical, sorry, the
+[01:23:11.140 --> 01:23:15.740] MAC layer header, where we have, for example, the duration field.
+[01:23:16.940 --> 01:23:24.040] So all these headers are just control information, it's not a payload, it's not
+[01:23:24.040 --> 01:23:32.440] something useful at the Mac layer, it is something that is there, it is useful for
+[01:23:32.440 --> 01:23:40.400] the protocol but not, they are not application layer bits, right? So you're
+[01:23:40.400 --> 01:23:45.180] there, fine, but from the application, from what would be the application
+[01:23:45.180 --> 01:23:53.840] perspective, that's something that is not useful, it's not interesting. So when we
+[01:23:53.840 --> 01:24:00.560] spend time to transmit this physical layer preamble, physical layer header
+[01:24:00.560 --> 01:24:07.420] and they are transmitted at the basic rate. So as we commented already, the
+[01:24:07.420 --> 01:24:13.460] basic range is a low speed. So the arcturus meet it slowly, a low speed.

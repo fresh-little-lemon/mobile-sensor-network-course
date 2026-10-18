@@ -1,0 +1,24 @@
+[01:23:45.000 --> 01:23:53.860] layer perspective is something that is not useful, it's not interesting. So when we
+[01:23:53.860 --> 01:24:01.360] spend time to transmit this physical layer preamble, physical layer header, and
+[01:24:01.360 --> 01:24:07.800] they are transmitted at the basic rate. So as we commented already, the basic
+[01:24:07.800 --> 01:24:17.020] rate is a low speed so they are transmitted slowly at low speed and if you consider the basic rate
+[01:24:17.020 --> 01:24:24.780] like in this example to be one megabit per second well then you have to wait it takes time to do
+[01:24:24.780 --> 01:24:34.760] that and then we have the MAC header. The MAC header again are I would say non-interesting
+[01:24:34.760 --> 01:24:39.760] bits from the point of view of the application. The size of the mount
+[01:24:39.760 --> 01:24:46.800] header in Wi-Fi may actually vary depending on, for example, how many
+[01:24:46.800 --> 01:24:54.320] addresses you need, so if you are in a VSS, isolated VSS as the one that you
+[01:24:54.320 --> 01:25:00.020] have got in your apartment, the only addresses that you need are the
+[01:25:00.020 --> 01:25:09.560] transmitter address and a receiver address. If you are in an extended service set like here on
+[01:25:09.560 --> 01:25:21.720] Tongji campus where we have many access points connected through the wired network, then
+[01:25:21.720 --> 01:25:31.060] you may need four different addresses and the reason for that is that in an
+[01:25:31.060 --> 01:25:42.280] extended service set you may have, as we know, access points that are connected to
+[01:25:42.280 --> 01:25:50.320] each other, right? We already explained the architecture of the network and so
+[01:25:50.320 --> 01:26:00.840] if you are A and you want to send a packet to B, well then you have to send
+[01:26:00.840 --> 01:26:07.440] your packet to the access point you are connected with, this access point 1
+[01:26:07.440 --> 01:26:13.860] will send the packet to access point 2 and then access point 2 will deliver
+[01:26:13.860 --> 01:26:23.180] the packet to be. This happens in an extended service set. Now in this case A
+[01:26:24.140 --> 01:26:31.680] is the sender, the transmitter, so it's the original source and also
+[01:26:31.680 --> 01:26:40.400] transmitter of the packet and access point 1 is the receiver but the final
+[01:26:40.400 --> 01:26:51.960] destination is B, so this packet that travels from A to access point one will
+[01:26:51.960 --> 01:27:04.080] have A as the transmitter address which is also the sources address, you will
+[01:27:04.080 --> 01:27:14.820] have access point one address as a receiver and that you will have the
