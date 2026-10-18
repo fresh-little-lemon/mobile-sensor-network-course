@@ -1,0 +1,1198 @@
+{
+  "lesson": "20261014-1000",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/TqofdOKfFoCaoixV2cfccaBEnMh",
+  "audited_at_utc": "2026-10-18T15:52:09.207179+00:00",
+  "remote_mutations": true,
+  "audit_snapshot": "blocks-final.json",
+  "audit_snapshot_sha256": "6ba39100d6bb543d20320dd11e44c7aae5d63137668da189f570b094409786b6",
+  "paragraph_count": 112,
+  "original_image_count": 19,
+  "visually_verified_image_count": 19,
+  "aligned_images": 19,
+  "images_needing_move": [],
+  "confirmed_missing_pdf_slides": [
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_number": 10,
+      "pdf_page": 5,
+      "pdf_half": "lower",
+      "semantic_paragraphs": [
+        33,
+        33
+      ],
+      "insert_after_heading2_block_id": "doxcnxxurNtFRieweayre8v9igb",
+      "before_body_block_id": "doxcnNspZut179OrzSdDMtM9Ugb",
+      "paragraph_ordinal": 33,
+      "evidence": "P32接受同学要求回看；P33指this rectangle is the geographical area，图10唯一为未部署基站的空矩形A服务区，并说明频谱资源/用户/收入。",
+      "status": "resolved_and_verified",
+      "new_image_block_id": "doxcnmzclUVxj36yyZks3CnG7Rh",
+      "image_sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c",
+      "remote_download_sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c"
+    },
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_number": 12,
+      "pdf_page": 6,
+      "pdf_half": "lower",
+      "semantic_paragraphs": [
+        34,
+        40
+      ],
+      "insert_after_heading2_block_id": "doxcngHduvX2R5Ac7eJPWbeGEVc",
+      "before_body_block_id": "doxcnR2UyEEIdyRSZGNEul0qbxf",
+      "paragraph_ordinal": 34,
+      "evidence": "P34开始在该区域部署一个基站；P35–40讨论其频率资源与用户容量，图12是同一矩形内单基站和L频段/用户比例，区别于图10空区与图13三站。",
+      "status": "resolved_and_verified",
+      "new_image_block_id": "doxcngtP887BHXNuCa73hugjnzp",
+      "image_sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569",
+      "remote_download_sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569"
+    },
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_number": 13,
+      "pdf_page": 7,
+      "pdf_half": "upper",
+      "semantic_paragraphs": [
+        41,
+        42
+      ],
+      "insert_after_heading2_block_id": "doxcnmmCez8fX4oWkWvVPunOeid",
+      "before_body_block_id": "doxcnd17aZonvmyU9wSEMuD66sp",
+      "paragraph_ordinal": 41,
+      "evidence": "P41明确部署three base stations、降低功率且同频复用；图13是矩形内三个圆覆盖区、容量3L，与P42三人低声说话类比一致。",
+      "status": "resolved_and_verified",
+      "new_image_block_id": "doxcnGmzyKsKQFCoZH9UTTHlR1b",
+      "image_sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee",
+      "remote_download_sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee"
+    }
+  ],
+  "unresolved_source_gaps": [
+    {
+      "kind": "unprovided_numerical_problem_deck",
+      "paragraphs": [
+        5,
+        11
+      ],
+      "description": "老师重新展示数值题文字让学生拍照，题1/2/3及下午练习页不在已提供PDF文件清单，不能用通用DCF页顶替。"
+    },
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        26,
+        30,
+        43,
+        46
+      ],
+      "description": "基站发给少量用户，再由不同用户对低功率D2D复用频谱的指点示意；D2D图6有音乐会/救灾照片，但没有所指基站/成对用户精确图，可能现场绘图或注释，未找到原图。"
+    },
+    {
+      "kind": "classroom_annotations_not_in_pdf",
+      "paragraphs": [
+        33,
+        42
+      ],
+      "description": "基础课件图10/12/13能恢复原底图，但三频段示意、n×3、K元收入、再乘3等课堂具体数值/频谱线条标记未存在固定底图，不能猜绘。"
+    },
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        88,
+        92
+      ],
+      "description": "通用节点中PHY/MAC/网络IP/transport/application纵向协议层解释及小中间层，D2D原页只有Each node is a router文字，未找到相同层次图。"
+    },
+    {
+      "kind": "referenced_classroom_visual_not_located",
+      "paragraphs": [
+        97,
+        97
+      ],
+      "description": "短程与长程radio/interference双圈大小比较的指点示意，图10仅单个双圈设备图、图20为文字利弊，没有本段比较图。"
+    }
+  ],
+  "all_lecture_visuals_recovered": false,
+  "audio_fidelity_verified": false,
+  "navigation_complete": true,
+  "slides_audit_complete": true,
+  "source_pdfs": [
+    {
+      "filename": "03-D2D-Networks.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/03-D2D-Networks.pdf",
+      "local_path": "/workspace/shared/03-D2D-Networks.pdf",
+      "sha256": "32577de32b488a6078b341071f97818b5b4bbd884936f241b47cbfaaf7e50424",
+      "pages": 18
+    },
+    {
+      "filename": "001-BasicConcepts.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf",
+      "local_path": "/workspace/shared/001-BasicConcepts.pdf",
+      "sha256": "b03d550cf3d45a59f19220ed258504ab8f0d6c7e32f57413a3fdb664a4335776",
+      "pages": 27
+    }
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "block_id": "doxcnIOEGmUnrawB1J5jE8EKFrc",
+      "figure_number": 3,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第2页上半页 · 图3（按PDF顺序）",
+      "token": "CuzJbfqr8oFg1Vxkozgc46xKndh",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-003.png",
+      "after_paragraph": 18,
+      "before_paragraph": 19,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-003.png\",\n    \"size_bytes\": 73668\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "5c8a30b1415e631e4b23371b1f7b306d9d9d39e9af38d368921019521eb9e895",
+      "title": "D2D Network Definition",
+      "semantic_paragraph_spans": [
+        [
+          17,
+          19
+        ]
+      ],
+      "alignment_reason_zh": "P18直接解释ad hoc与spontaneously按需组网，P17及19给无基础设施优势和灾害救援，图3位于P18后正合定义讲解。",
+      "pdf_page": 2,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 18,
+        "timestamp": "00:09:36",
+        "block_id": "doxcnXPdSBLCNzzTo3prd1lLfve",
+        "heading": "18 · 00:09:36 · ad hoc网络的按需自组织特点"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 19,
+        "timestamp": "00:09:59",
+        "block_id": "doxcnmnqCw6PMaFKNOROELiKWxd",
+        "heading": "19 · 00:09:59 · 灾害救援中的直接通信需求"
+      }
+    },
+    {
+      "image_ordinal": 2,
+      "block_id": "doxcnCAQhKCPRuhNq7orxQ8jhNb",
+      "figure_number": 4,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第2页下半页 · 图4（按PDF顺序）",
+      "token": "RPccbP2muoC3d6xaqoxclUeenxi",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-004.png",
+      "after_paragraph": 20,
+      "before_paragraph": 21,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-004.png\",\n    \"size_bytes\": 80938\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "49bd0151da3fdb360742e1670df0e8d86bda0a48792ca54c87d4986b13939389",
+      "title": "Network Scenario",
+      "semantic_paragraph_spans": [
+        [
+          20,
+          21
+        ]
+      ],
+      "alignment_reason_zh": "P20分纯D2D与混合网络，P21说明基础设施节点作为Internet网关，对应图中Pure/Hybrid两项。",
+      "pdf_page": 2,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 20,
+        "timestamp": "00:10:49",
+        "block_id": "doxcn8ESflXrIRHlJlUZJY4WX3f",
+        "heading": "20 · 00:10:49 · 纯自组织网络与混合网络"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 21,
+        "timestamp": "00:11:28",
+        "block_id": "doxcnsMSv23CTgsaZGknTFUXiZc",
+        "heading": "21 · 00:11:28 · 基础设施网关与应用场景"
+      }
+    },
+    {
+      "image_ordinal": 3,
+      "block_id": "doxcnwWvlySHkTPBi3rrN43JdQg",
+      "figure_number": 5,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第3页上半页 · 图5（按PDF顺序）",
+      "token": "GO2TbP5c9oyuguxPqBJcMkVMnic",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-005.png",
+      "after_paragraph": 22,
+      "before_paragraph": 23,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-005.png\",\n    \"size_bytes\": 461828\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "43dcf6c0fe5e6259aa294afb18462e48f3f95c6eb9ae39c282d2b60139e064b6",
+      "title": "Applications",
+      "semantic_paragraph_spans": [
+        [
+          21,
+          24
+        ]
+      ],
+      "alignment_reason_zh": "P21引出此处的应用列表，P22个人设备/IoT、P23传感器/出租车消防车、P24紧急及军用，对应完整应用清单。",
+      "pdf_page": 3,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 22,
+        "timestamp": "00:11:46",
+        "block_id": "doxcnzTTDv6zOY8RoSKZZgIqnuh",
+        "heading": "22 · 00:11:46 · 个人设备互联与物联网标签"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 23,
+        "timestamp": "00:13:15",
+        "block_id": "doxcnIxk5aohChhlRoRUHfOCCXe",
+        "heading": "23 · 00:13:15 · 物品定位、传感器与车联网应用"
+      }
+    },
+    {
+      "image_ordinal": 4,
+      "block_id": "doxcnJL8LYPQYa3W98YMG1ngmsg",
+      "figure_number": 6,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第3页下半页 · 图6（按PDF顺序）",
+      "token": "YCYBby4I8oTyY1xOm1BcPssanDe",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-006.png",
+      "after_paragraph": 24,
+      "before_paragraph": 25,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-006.png\",\n    \"size_bytes\": 444460\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "7a7aee349b0411ab2d46ee41243a090370432eb71bc4a2f322b62025e558db98",
+      "title": "D2D Network Advantages",
+      "semantic_paragraph_spans": [
+        [
+          24,
+          30
+        ],
+        [
+          43,
+          46
+        ]
+      ],
+      "alignment_reason_zh": "P24逐项说明易部署、低成本、独立网络运营商；P25后以音乐会数据卸载扩展其content sharing优势，图片在P24后合适。后续指点的详细基站/用户示意不是本页照片。",
+      "pdf_page": 3,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 24,
+        "timestamp": "00:14:58",
+        "block_id": "doxcnr12KfT1r4tCFg04uMrSwOg",
+        "heading": "24 · 00:14:58 · 部署优势与独立运营能力"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 25,
+        "timestamp": "00:16:00",
+        "block_id": "doxcnaRG8saodO4jKWD4071q4nd",
+        "heading": "25 · 00:16:00 · 4G、5G中的D2D与拥挤活动场景"
+      }
+    },
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_number": 10,
+      "pdf_page": 5,
+      "pdf_half": "lower",
+      "semantic_paragraphs": [
+        33,
+        33
+      ],
+      "insert_after_heading2_block_id": "doxcnxxurNtFRieweayre8v9igb",
+      "before_body_block_id": "doxcnNspZut179OrzSdDMtM9Ugb",
+      "paragraph_ordinal": 33,
+      "evidence": "P32接受同学要求回看；P33指this rectangle is the geographical area，图10唯一为未部署基站的空矩形A服务区，并说明频谱资源/用户/收入。",
+      "status": "added_and_remote_verified",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-010.png",
+      "sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c",
+      "clip": [
+        99.0,
+        487.0,
+        495.0,
+        710.0
+      ],
+      "caption": "课件：001-BasicConcepts.pdf · PDF第5页下半页 · 图10（按PDF顺序）",
+      "block_id": "doxcnmzclUVxj36yyZks3CnG7Rh",
+      "token": "HVYabYusxoWvVjx6o0YcYKrVnod",
+      "remote_download_sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c",
+      "exact_placement_verified": true,
+      "title": "Wireless System Capacity",
+      "after_paragraph": 32,
+      "before_paragraph": 33,
+      "semantic_paragraph_spans": [
+        [
+          33,
+          33
+        ]
+      ],
+      "identity_verified": "固定PDF原样4倍栅格化并逐图视觉检查，远端下载SHA256完全一致。",
+      "alignment_reason_zh": "P32接受同学要求回看；P33指this rectangle is the geographical area，图10唯一为未部署基站的空矩形A服务区，并说明频谱资源/用户/收入。"
+    },
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_number": 12,
+      "pdf_page": 6,
+      "pdf_half": "lower",
+      "semantic_paragraphs": [
+        34,
+        40
+      ],
+      "insert_after_heading2_block_id": "doxcngHduvX2R5Ac7eJPWbeGEVc",
+      "before_body_block_id": "doxcnR2UyEEIdyRSZGNEul0qbxf",
+      "paragraph_ordinal": 34,
+      "evidence": "P34开始在该区域部署一个基站；P35–40讨论其频率资源与用户容量，图12是同一矩形内单基站和L频段/用户比例，区别于图10空区与图13三站。",
+      "status": "added_and_remote_verified",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-012.png",
+      "sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569",
+      "clip": [
+        99.0,
+        487.0,
+        495.0,
+        710.0
+      ],
+      "caption": "课件：001-BasicConcepts.pdf · PDF第6页下半页 · 图12（按PDF顺序）",
+      "block_id": "doxcngtP887BHXNuCa73hugjnzp",
+      "token": "RaEpbI9qfo4qkPx3BqucpTsgnLc",
+      "remote_download_sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569",
+      "exact_placement_verified": true,
+      "title": "Wireless System Capacity",
+      "after_paragraph": 33,
+      "before_paragraph": 34,
+      "semantic_paragraph_spans": [
+        [
+          34,
+          40
+        ]
+      ],
+      "identity_verified": "固定PDF原样4倍栅格化并逐图视觉检查，远端下载SHA256完全一致。",
+      "alignment_reason_zh": "P34开始在该区域部署一个基站；P35–40讨论其频率资源与用户容量，图12是同一矩形内单基站和L频段/用户比例，区别于图10空区与图13三站。"
+    },
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_number": 13,
+      "pdf_page": 7,
+      "pdf_half": "upper",
+      "semantic_paragraphs": [
+        41,
+        42
+      ],
+      "insert_after_heading2_block_id": "doxcnmmCez8fX4oWkWvVPunOeid",
+      "before_body_block_id": "doxcnd17aZonvmyU9wSEMuD66sp",
+      "paragraph_ordinal": 41,
+      "evidence": "P41明确部署three base stations、降低功率且同频复用；图13是矩形内三个圆覆盖区、容量3L，与P42三人低声说话类比一致。",
+      "status": "added_and_remote_verified",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-013.png",
+      "sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee",
+      "clip": [
+        99.0,
+        132.0,
+        495.0,
+        355.0
+      ],
+      "caption": "课件：001-BasicConcepts.pdf · PDF第7页上半页 · 图13（按PDF顺序）",
+      "block_id": "doxcnGmzyKsKQFCoZH9UTTHlR1b",
+      "token": "ZKvobXLPioKxTOxTq1VcrVFAnOf",
+      "remote_download_sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee",
+      "exact_placement_verified": true,
+      "title": "Wireless System Capacity",
+      "after_paragraph": 40,
+      "before_paragraph": 41,
+      "semantic_paragraph_spans": [
+        [
+          41,
+          42
+        ]
+      ],
+      "identity_verified": "固定PDF原样4倍栅格化并逐图视觉检查，远端下载SHA256完全一致。",
+      "alignment_reason_zh": "P41明确部署three base stations、降低功率且同频复用；图13是矩形内三个圆覆盖区、容量3L，与P42三人低声说话类比一致。"
+    },
+    {
+      "image_ordinal": 5,
+      "block_id": "doxcnXPr99vI3eCM9KGycoUP1qg",
+      "figure_number": 7,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第4页上半页 · 图7（按PDF顺序）",
+      "token": "RYDZbGccCoHlQWx5esZcWXwwnWg",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-007.png",
+      "after_paragraph": 47,
+      "before_paragraph": 48,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-007.png\",\n    \"size_bytes\": 94083\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "3d3a4e5696beba1fa4c1b2b464093c3cf48a2c4c1b4ea7f5119d93906a934f9b",
+      "title": "Typical Scenarios: capabilities and responsibilities",
+      "semantic_paragraph_spans": [
+        [
+          47,
+          49
+        ]
+      ],
+      "alignment_reason_zh": "P47比较手机笔电和传感器电池/CPU/GPU，P48–49比较蓝牙手机与耳机责任，对应asymmetric capabilities和responsibilities。",
+      "pdf_page": 4,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 47,
+        "timestamp": "00:39:12",
+        "block_id": "doxcnRqysJWPWvxD1MSUf9n7t5W",
+        "heading": "47 · 00:39:12 · 手机、电脑与传感器的能力差异"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 48,
+        "timestamp": "00:40:20",
+        "block_id": "doxcnaDn1sy1JFj5HroieERlTrb",
+        "heading": "48 · 00:40:20 · 异构设备与蓝牙中的职责分工"
+      }
+    },
+    {
+      "image_ordinal": 6,
+      "block_id": "doxcnF9jUh9ZQaAZrQDtmb9brRh",
+      "figure_number": 8,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第4页下半页 · 图8（按PDF顺序）",
+      "token": "EycQbgAIEoWlizxQiH4cOGeXnHZ",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-008.png",
+      "after_paragraph": 50,
+      "before_paragraph": 51,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-008.png\",\n    \"size_bytes\": 56597\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "496eab830d6aaa29357e962f9c3521cacffc980535613c472e3b419b67ae993b",
+      "title": "Typical Scenarios: traffic",
+      "semantic_paragraph_spans": [
+        [
+          50,
+          53
+        ]
+      ],
+      "alignment_reason_zh": "P50列unicast/broadcast/multicast/geocast/anycast，P51解释后两者，P52–53说明码率时延可靠性，对应traffic列表。",
+      "pdf_page": 4,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 50,
+        "timestamp": "00:42:04",
+        "block_id": "doxcn9yvxZrGcrAqLCKm2lnbQVc",
+        "heading": "50 · 00:42:04 · 从单播、多播到地理广播和任播"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 51,
+        "timestamp": "00:42:43",
+        "block_id": "doxcnlILfR8KSW4DbchI8QRpsEf",
+        "heading": "51 · 00:42:43 · 地理广播与任播的定义及实例"
+      }
+    },
+    {
+      "image_ordinal": 7,
+      "block_id": "doxcnuxbCIjwUOdAG7BWzJkOfHc",
+      "figure_number": 9,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第5页上半页 · 图9（按PDF顺序）",
+      "token": "UZUUbp2H2osCKYx4FjAcuDmNnsb",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-009.png",
+      "after_paragraph": 57,
+      "before_paragraph": 58,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-009.png\",\n    \"size_bytes\": 68998\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "a2c611612fe60c3973225a5aced305fb2d6aae520fd87b8c75a3f7cd538a057f",
+      "title": "Typical Scenarios: mobility",
+      "semantic_paragraph_spans": [
+        [
+          57,
+          59
+        ]
+      ],
+      "alignment_reason_zh": "P57游牧者和车辆，P58孩子/军队/家庭移动，P59速度差异逐项对应。",
+      "pdf_page": 5,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 57,
+        "timestamp": "00:52:14",
+        "block_id": "doxcnBg8yi195JTBGVV9y3ISpXd",
+        "heading": "57 · 00:52:14 · 游牧用户与车辆的移动模式"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 58,
+        "timestamp": "00:52:54",
+        "block_id": "doxcnVii7jWdxs6matUFSYtNpZe",
+        "heading": "58 · 00:52:54 · 随机移动、家居与工作场所场景"
+      }
+    },
+    {
+      "image_ordinal": 8,
+      "block_id": "doxcnAsNsj5uKgdZ8Zj7wXMdZnf",
+      "figure_number": 10,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第5页下半页 · 图10（按PDF顺序）",
+      "token": "UO5jbToO7oKNfCxtVX2clhsYnBg",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-010.png",
+      "after_paragraph": 60,
+      "before_paragraph": 61,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-010.png\",\n    \"size_bytes\": 286489\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "24d0fb7b8fcbcf187a5f0be06e6295f6fc24fe94e9cc91de45048a6f7715d935",
+      "title": "An Example: neighbors, radio range and interference range",
+      "semantic_paragraph_spans": [
+        [
+          60,
+          63
+        ]
+      ],
+      "alignment_reason_zh": "P60引出设备/无线链路，P61明确黄色圆内笔电与邻居，P63明确绿色环形干扰范围；颜色、设备、圈层均与原图一致。",
+      "pdf_page": 5,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 60,
+        "timestamp": "00:54:48",
+        "block_id": "doxcn8IMOEPTlEeBsMGr2fSfnJf",
+        "heading": "60 · 00:54:48 · 将设备和无线链路建模"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 61,
+        "timestamp": "00:55:32",
+        "block_id": "doxcnKB0Wdc1JTe6au4HrzwmCIc",
+        "heading": "61 · 00:55:32 · 以无线覆盖范围定义邻居"
+      }
+    },
+    {
+      "image_ordinal": 9,
+      "block_id": "doxcn5U7BVyerkg7aEYfjuSk3eb",
+      "figure_number": 11,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第6页上半页 · 图11（按PDF顺序）",
+      "token": "FP6XbO7tHoYqN3xFIxncURt1npc",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-011.png",
+      "after_paragraph": 64,
+      "before_paragraph": 65,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-011.png\",\n    \"size_bytes\": 70291\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "91d2bfba9fdd1889d3fc2f789c464f82f3e464c94c9af3c88bfc64256e75232e",
+      "title": "Also: half-duplex",
+      "semantic_paragraph_spans": [
+        [
+          64,
+          64
+        ]
+      ],
+      "alignment_reason_zh": "P64明确D2D和Bluetooth大多半双工，对应单transceiver及不能同时收发。",
+      "pdf_page": 6,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 64,
+        "timestamp": "00:59:42",
+        "block_id": "doxcnVkjeMb8aLB0FqQXvyxy5mg",
+        "heading": "64 · 00:59:42 · D2D技术的半双工特征"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 65,
+        "timestamp": "01:00:18",
+        "block_id": "doxcngext66rgmknJ4ennovOHWe",
+        "heading": "65 · 01:00:18 · 四大问题之一：网络拓扑"
+      }
+    },
+    {
+      "image_ordinal": 10,
+      "block_id": "doxcnjknntUogxJ6UY6HTcZ9kie",
+      "figure_number": 12,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第6页下半页 · 图12（按PDF顺序）",
+      "token": "U0WnbihKJorRwfxUH6qc330znOc",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-012.png",
+      "after_paragraph": 65,
+      "before_paragraph": 66,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-012.png\",\n    \"size_bytes\": 25004\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "32479a0b58062d922c27262d598093988f4c74fdb20262fc75d3543998965f5d",
+      "title": "Main Issues",
+      "semantic_paragraph_spans": [
+        [
+          65,
+          65
+        ]
+      ],
+      "alignment_reason_zh": "P65转到四个主要问题，章节标题页与紧随的图13同置P65后正确，不须因两图连置移动。",
+      "pdf_page": 6,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 65,
+        "timestamp": "01:00:18",
+        "block_id": "doxcngext66rgmknJ4ennovOHWe",
+        "heading": "65 · 01:00:18 · 四大问题之一：网络拓扑"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 66,
+        "timestamp": "01:01:37",
+        "block_id": "doxcnf2MuTZXsH4H8a67EBHlgzc",
+        "heading": "66 · 01:01:37 · 节点远离使通信链路断开"
+      }
+    },
+    {
+      "image_ordinal": 11,
+      "block_id": "doxcnFEHvqva7klhPsWKbVnGvCg",
+      "figure_number": 13,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第7页上半页 · 图13（按PDF顺序）",
+      "token": "INkcbMPiSov9gexcmV2cEUJfnXf",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-013.png",
+      "after_paragraph": 65,
+      "before_paragraph": 66,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-013.png\",\n    \"size_bytes\": 82277\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "8dd95b35fd474cf3ebea1a05a08f75490359ed8e8543da14fba42602870a5623",
+      "title": "1 - Network Topology",
+      "semantic_paragraph_spans": [
+        [
+          65,
+          71
+        ]
+      ],
+      "alignment_reason_zh": "P66节点移动断链，P67–68障碍/失效，P69图顶点/边，P70明确A和C原能通信后断开，对应图中A/C链路变化。",
+      "pdf_page": 7,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 65,
+        "timestamp": "01:00:18",
+        "block_id": "doxcngext66rgmknJ4ennovOHWe",
+        "heading": "65 · 01:00:18 · 四大问题之一：网络拓扑"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 66,
+        "timestamp": "01:01:37",
+        "block_id": "doxcnf2MuTZXsH4H8a67EBHlgzc",
+        "heading": "66 · 01:01:37 · 节点远离使通信链路断开"
+      }
+    },
+    {
+      "image_ordinal": 12,
+      "block_id": "doxcnJvuugO2W87UPvRyCclMQrc",
+      "figure_number": 14,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第7页下半页 · 图14（按PDF顺序）",
+      "token": "CQWjb5zTzosEYjx5YyOcQSWmnig",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-014.png",
+      "after_paragraph": 71,
+      "before_paragraph": 72,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-014.png\",\n    \"size_bytes\": 97958\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "8e644a41b897c4b141c6d96d57440b7e4215560fa6d5f6b9643f1861743ec34a",
+      "title": "Most Common Network Topologies",
+      "semantic_paragraph_spans": [
+        [
+          71,
+          78
+        ]
+      ],
+      "alignment_reason_zh": "P71先列flat/tree/cluster-based，P76–77再展开分簇角色；此概览在P71后正合。",
+      "pdf_page": 7,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 71,
+        "timestamp": "01:06:44",
+        "block_id": "doxcn27eQtZ884PrgcvRirbjGcf",
+        "heading": "71 · 01:06:44 · 平面、树形与分簇拓扑概览"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 72,
+        "timestamp": "01:08:07",
+        "block_id": "doxcn14KzPF3RIMahiPmnCtctTd",
+        "heading": "72 · 01:08:07 · 平面拓扑的最大链路数"
+      }
+    },
+    {
+      "image_ordinal": 13,
+      "block_id": "doxcnPHXlOk5lN9QgvxOjb5IJmd",
+      "figure_number": 15,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第8页上半页 · 图15（按PDF顺序）",
+      "token": "HvbNbZrbXoZOCcxisZfctSEunje",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-015.png",
+      "after_paragraph": 72,
+      "before_paragraph": 73,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-015.png\",\n    \"size_bytes\": 67474\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "44822d988cdac48f8f992d0f5feaa25990ea964211e34f40635941d07030de8b",
+      "title": "Example: Flat",
+      "semantic_paragraph_spans": [
+        [
+          71,
+          75
+        ]
+      ],
+      "alignment_reason_zh": "P72给N(N-1)/2，P73–75与tree比较冗余路径/可靠性，正是6节点mesh示意。",
+      "pdf_page": 8,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 72,
+        "timestamp": "01:08:07",
+        "block_id": "doxcn14KzPF3RIMahiPmnCtctTd",
+        "heading": "72 · 01:08:07 · 平面拓扑的最大链路数"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 73,
+        "timestamp": "01:09:15",
+        "block_id": "doxcnRAWWriwhPQnMLTMWrOwx9s",
+        "heading": "73 · 01:09:15 · 网状与树形拓扑的链路数比较"
+      }
+    },
+    {
+      "image_ordinal": 14,
+      "block_id": "doxcn6kG7DeYBNzSYoT672g4pzg",
+      "figure_number": 16,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第8页下半页 · 图16（按PDF顺序）",
+      "token": "Urzjbggnjo3Qh2xIRPlcf9EznOf",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-016.png",
+      "after_paragraph": 73,
+      "before_paragraph": 74,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-016.png\",\n    \"size_bytes\": 59517\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "32e5fba72dc12d09ec77ee94ba37ca9840c1743959ce76d4868fe8b6c433fbdb",
+      "title": "Example: Tree",
+      "semantic_paragraph_spans": [
+        [
+          73,
+          75
+        ]
+      ],
+      "alignment_reason_zh": "P73给N-1并比较可靠性，P75树某条链断开隔离节点，图16边数/结构对应。",
+      "pdf_page": 8,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 73,
+        "timestamp": "01:09:15",
+        "block_id": "doxcnRAWWriwhPQnMLTMWrOwx9s",
+        "heading": "73 · 01:09:15 · 网状与树形拓扑的链路数比较"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 74,
+        "timestamp": "01:10:12",
+        "block_id": "doxcnhyCoDG2CsCLwxNiRtdwX2c",
+        "heading": "74 · 01:10:12 · 比较不同拓扑的连通可靠性"
+      }
+    },
+    {
+      "image_ordinal": 15,
+      "block_id": "doxcnPF4ePIh1zAGzW9qvRl5ITc",
+      "figure_number": 17,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第9页上半页 · 图17（按PDF顺序）",
+      "token": "NVuubC72cofxvTxhavQclnqinmc",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-017.png",
+      "after_paragraph": 76,
+      "before_paragraph": 77,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-017.png\",\n    \"size_bytes\": 105776\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "908d89e521146074a4e76d574e81932126e1be7e1c805b15d4ab75f8116b8578",
+      "title": "Example: Cluster-Based",
+      "semantic_paragraph_spans": [
+        [
+          76,
+          78
+        ]
+      ],
+      "alignment_reason_zh": "P76点名三个椭圆簇/簇头，P77桥接节点在两簇不同角色及逐跳路径，对应三椭圆交叠与渐变色簇头。",
+      "pdf_page": 9,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 76,
+        "timestamp": "01:13:44",
+        "block_id": "doxcn0nktV6TNgKRZFGnC9DtJXb",
+        "heading": "76 · 01:13:44 · 分簇拓扑的簇头与普通节点"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 77,
+        "timestamp": "01:15:16",
+        "block_id": "doxcnU3jRbNW8t0AfuuSegFZWmf",
+        "heading": "77 · 01:15:16 · 桥接节点连接各簇并转送数据"
+      }
+    },
+    {
+      "image_ordinal": 16,
+      "block_id": "doxcn01F4UMMnnYUynBzchz14md",
+      "figure_number": 18,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第9页下半页 · 图18（按PDF顺序）",
+      "token": "NmtmbsaRZoQZBDxc2lmclxKDnCf",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-018.png",
+      "after_paragraph": 79,
+      "before_paragraph": 80,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-018.png\",\n    \"size_bytes\": 86090\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "a305d55dbf4f6cbeeed922b9c80574dd96523831b5e01c2784834aa8704a11df",
+      "title": "2 - Channel Access",
+      "semantic_paragraph_spans": [
+        [
+          79,
+          81
+        ]
+      ],
+      "alignment_reason_zh": "P79说第二问题是共享信道规则，P80以DCF为例，P81明确hidden terminals、跳过exposed，与此页对应；不能把它当CSMA页随便搬到前文。",
+      "pdf_page": 9,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 79,
+        "timestamp": "01:18:36",
+        "block_id": "doxcnABPu8XTc2Hze2PikFVLJRe",
+        "heading": "79 · 01:18:36 · 第二个问题：共享信道接入规则"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 80,
+        "timestamp": "01:20:56",
+        "block_id": "doxcnGy3teBk8lKKqGPLJ6wY4Yd",
+        "heading": "80 · 01:20:56 · 以基本DCF说明D2D信道接入"
+      }
+    },
+    {
+      "image_ordinal": 17,
+      "block_id": "doxcnsY6UbdiVlAHzSUw2MwRFNe",
+      "figure_number": 19,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第10页上半页 · 图19（按PDF顺序）",
+      "token": "V0lgbjzsDokpcUxH7TCcri6Nn0g",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-019.png",
+      "after_paragraph": 82,
+      "before_paragraph": 83,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-019.png\",\n    \"size_bytes\": 105190\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "4f7c26a367ba567c8178161bf16a7d1c9f2f1eb1e6c7efccdb3ae7e02bcb7436",
+      "title": "3 - Multi-hop Communications",
+      "semantic_paragraph_spans": [
+        [
+          81,
+          84
+        ],
+        [
+          88,
+          92
+        ]
+      ],
+      "alignment_reason_zh": "P82逐跳，P83明确R是relay，P84数四跳；图上蓝路S2到D2恰4跳，且each node router承接P88–92网络层解释。",
+      "pdf_page": 10,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 82,
+        "timestamp": "01:23:14",
+        "block_id": "doxcn7c9Jf2pzm1nuidLAxsTowd",
+        "heading": "82 · 01:23:14 · 通过邻居逐跳到达目的节点"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 83,
+        "timestamp": "01:24:08",
+        "block_id": "doxcnoWyyWeOVbxDNkg4axtbuqd",
+        "heading": "83 · 01:24:08 · 中间转发节点称为中继"
+      }
+    },
+    {
+      "image_ordinal": 18,
+      "block_id": "doxcnLuJtqw1grWAJYCTD9rHook",
+      "figure_number": 15,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第8页上半页 · 图15（按PDF顺序）",
+      "token": "KO4vbunrvo0YnsxKDvgcu9Wen8b",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-015-repeat-018.png",
+      "after_paragraph": 85,
+      "before_paragraph": 86,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-015-repeat-018.png\",\n    \"size_bytes\": 67474\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "44822d988cdac48f8f992d0f5feaa25990ea964211e34f40635941d07030de8b",
+      "title": "Example: Flat",
+      "semantic_paragraph_spans": [
+        [
+          85,
+          87
+        ]
+      ],
+      "alignment_reason_zh": "P85明确go back to previous figure，将源节点和目的节点放在原flat图中，P86枚举替代路径、P87引出路由选择；与P72处图15虽同一图像，但教学明确回看，必须保留这一次重复。",
+      "pdf_page": 8,
+      "pdf_half": "upper",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 85,
+        "timestamp": "01:25:03",
+        "block_id": "doxcnzPhBnHOiF5p3xUcF5iY2v5",
+        "heading": "85 · 01:25:03 · 无直接链路时如何选择中继路径"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 86,
+        "timestamp": "01:26:08",
+        "block_id": "doxcnhGZDwxYSdr0IHWSk4hkNm7",
+        "heading": "86 · 01:26:08 · 枚举源到目的节点的可选路径"
+      }
+    },
+    {
+      "image_ordinal": 19,
+      "block_id": "doxcnK8h9wFtyhVT42kxaaq3nIg",
+      "figure_number": 20,
+      "caption": "课件：03-D2D-Networks.pdf · PDF第10页下半页 · 图20（按PDF顺序）",
+      "token": "QYsCbg7SvoWr9SxAbuUcTZa3n9g",
+      "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-020.png",
+      "after_paragraph": 93,
+      "before_paragraph": 94,
+      "download": {
+        "returncode": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1014-1000/slide-images/slide-020.png\",\n    \"size_bytes\": 94970\n  }\n}\n",
+        "stderr": ""
+      },
+      "sha256": "309bc0c4965d79c5e9184e574e077572376e9c4749905387dce5920220762297",
+      "title": "Multi-hop Communications: advantages and disadvantages",
+      "semantic_paragraph_spans": [
+        [
+          93,
+          99
+        ]
+      ],
+      "alignment_reason_zh": "P93进入利弊，P94–97源节能/低干扰/空间复用，P98–99负载/延迟/全网耗能逐项对应，位置P93后准确。",
+      "pdf_page": 10,
+      "pdf_half": "lower",
+      "source_pdf": "03-D2D-Networks.pdf",
+      "status": "aligned_preserve",
+      "identity_verified": "逐张查看Feishu原PNG并与固定PDF相应页视觉比较；标题、内容、图形与布局一致。",
+      "after_paragraph_detail": {
+        "ordinal": 93,
+        "timestamp": "01:32:49",
+        "block_id": "doxcnooaxJRYv85mGZdv6CE1tMc",
+        "heading": "93 · 01:32:49 · 多跳数据交付的利弊导入"
+      },
+      "before_paragraph_detail": {
+        "ordinal": 94,
+        "timestamp": "01:33:29",
+        "block_id": "doxcnyYe6lopxNmxuF7KQjeoWvb",
+        "heading": "94 · 01:33:29 · 经近邻中继到达远处目的节点"
+      }
+    }
+  ],
+  "not_missing": [
+    {
+      "source": "001-BasicConcepts.pdf",
+      "figure_numbers": [
+        11,
+        14
+      ],
+      "reason": "没有具体意大利拍卖数据或九基站9L场景讲解；频谱昂贵和三基站例子不足以证明这两页曾展示，不补。"
+    },
+    {
+      "source": "03-D2D-Networks.pdf",
+      "figure_number": 15,
+      "reason": "第2次出现由P85明确回看支持，应保留。"
+    },
+    {
+      "source": "03-D2D-Networks.pdf",
+      "figure_numbers": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "reason": "本课结束于多跳利弊，未进入第4问题能量受限/功控，不能补后续页。"
+    }
+  ],
+  "scope": "完整逐图语义审计；仅补三张经核准固定PDF图并更新文首图数，所有原正文/导航/录音/原图及其顺序已逐块核验保持不变。",
+  "cautions": [
+    "D2D图19/20原页页脚印22/23，但按固定PDF顺序确为19/20，保留caption。",
+    "本任务只做语义与图片核验，不改正文中转写不确定数值或术语。",
+    "未用原音认证转写；未打包私人音频。",
+    "不按图号或主题关键词机械补图或重排。",
+    "仅在已核准锚点补固定PDF图并将文首图数19更新为22；其他原块及顺序完全不变；原音/原transcript/minutes未动。"
+  ],
+  "unresolved_source_gap_count": 5,
+  "manifest_update_recommendation": {
+    "slides_audit_pending": false,
+    "slides_audit_complete": true,
+    "slides_aligned_count": 19,
+    "slides_missing_confirmed_count": 0,
+    "slides_misaligned_count": 0,
+    "unresolved_visual_source_gaps": 5,
+    "audio_fidelity_verified": false,
+    "slides_missing_resolved_count": 3,
+    "image_count": 22,
+    "original_images_count": 19
+  },
+  "added_image_count": 3,
+  "final_image_count": 22,
+  "final_remote_verification": {
+    "all_original_nonroot_blocks_except_status_unchanged": true,
+    "original_image_count": 19,
+    "original_images_unchanged": true,
+    "original_order_unchanged": true,
+    "all_original_bilingual_paragraph_blocks_unchanged": true,
+    "paragraph_count": 112,
+    "original_recording_and_resource_blocks_unchanged": true,
+    "heading2_count": 112,
+    "heading1_count": 12,
+    "final_image_count": 22,
+    "new_images": [
+      {
+        "source_pdf": "001-BasicConcepts.pdf",
+        "figure_number": 10,
+        "pdf_page": 5,
+        "pdf_half": "lower",
+        "semantic_paragraphs": [
+          33,
+          33
+        ],
+        "insert_after_heading2_block_id": "doxcnxxurNtFRieweayre8v9igb",
+        "before_body_block_id": "doxcnNspZut179OrzSdDMtM9Ugb",
+        "paragraph_ordinal": 33,
+        "evidence": "P32接受同学要求回看；P33指this rectangle is the geographical area，图10唯一为未部署基站的空矩形A服务区，并说明频谱资源/用户/收入。",
+        "status": "inserted_and_fully_verified",
+        "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-010.png",
+        "sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c",
+        "clip": [
+          99.0,
+          487.0,
+          495.0,
+          710.0
+        ],
+        "caption": "课件：001-BasicConcepts.pdf · PDF第5页下半页 · 图10（按PDF顺序）",
+        "block_id": "doxcnmzclUVxj36yyZks3CnG7Rh",
+        "token": "HVYabYusxoWvVjx6o0YcYKrVnod",
+        "remote_download_sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c",
+        "exact_placement_verified": true
+      },
+      {
+        "source_pdf": "001-BasicConcepts.pdf",
+        "figure_number": 12,
+        "pdf_page": 6,
+        "pdf_half": "lower",
+        "semantic_paragraphs": [
+          34,
+          40
+        ],
+        "insert_after_heading2_block_id": "doxcngHduvX2R5Ac7eJPWbeGEVc",
+        "before_body_block_id": "doxcnR2UyEEIdyRSZGNEul0qbxf",
+        "paragraph_ordinal": 34,
+        "evidence": "P34开始在该区域部署一个基站；P35–40讨论其频率资源与用户容量，图12是同一矩形内单基站和L频段/用户比例，区别于图10空区与图13三站。",
+        "status": "inserted_and_fully_verified",
+        "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-012.png",
+        "sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569",
+        "clip": [
+          99.0,
+          487.0,
+          495.0,
+          710.0
+        ],
+        "caption": "课件：001-BasicConcepts.pdf · PDF第6页下半页 · 图12（按PDF顺序）",
+        "block_id": "doxcngtP887BHXNuCa73hugjnzp",
+        "token": "RaEpbI9qfo4qkPx3BqucpTsgnLc",
+        "remote_download_sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569",
+        "exact_placement_verified": true
+      },
+      {
+        "source_pdf": "001-BasicConcepts.pdf",
+        "figure_number": 13,
+        "pdf_page": 7,
+        "pdf_half": "upper",
+        "semantic_paragraphs": [
+          41,
+          42
+        ],
+        "insert_after_heading2_block_id": "doxcnmmCez8fX4oWkWvVPunOeid",
+        "before_body_block_id": "doxcnd17aZonvmyU9wSEMuD66sp",
+        "paragraph_ordinal": 41,
+        "evidence": "P41明确部署three base stations、降低功率且同频复用；图13是矩形内三个圆覆盖区、容量3L，与P42三人低声说话类比一致。",
+        "status": "inserted_and_fully_verified",
+        "image_path": "/workspace/shared/course-1014-1000/slide-images/slide-BasicConcepts-013.png",
+        "sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee",
+        "clip": [
+          99.0,
+          132.0,
+          495.0,
+          355.0
+        ],
+        "caption": "课件：001-BasicConcepts.pdf · PDF第7页上半页 · 图13（按PDF顺序）",
+        "block_id": "doxcnGmzyKsKQFCoZH9UTTHlR1b",
+        "token": "ZKvobXLPioKxTOxTq1VcrVFAnOf",
+        "remote_download_sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee",
+        "exact_placement_verified": true
+      }
+    ],
+    "exact_placement_verified": true,
+    "all_new_remote_image_bytes_identical": true,
+    "before_snapshot_sha256": "6ba39100d6bb543d20320dd11e44c7aae5d63137668da189f570b094409786b6",
+    "after_snapshot_sha256": "47d85447790b13f0f0b5d96471c4bde1ba0c064a8dbd3a7169dd02458cdecfa5",
+    "status_block_id": "doxcnEHBAXyDbjdfiHNzdYKvhof",
+    "old_status_fragment": "已匹配插入19张课件图",
+    "new_status_fragment": "已匹配插入22张课件图"
+  },
+  "missing_slide_remediation_complete": true,
+  "all_confirmed_pdf_slides_present": true
+}

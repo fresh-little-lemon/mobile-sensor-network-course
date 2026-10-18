@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"range\" requested-end=\"doxcnd17aZonvmyU9wSEMuD66sp\" requested-start=\"doxcnmmCez8fX4oWkWvVPunOeid\"><h2 id=\"doxcnmmCez8fX4oWkWvVPunOeid\">41 · 00:32:08 · 多基站低功率复用相同频率</h2><p id=\"doxcnd17aZonvmyU9wSEMuD66sp\"><span text-color=\"rgb(143,149,158)\">原标说话人 1  00:32:08</span><br/>Because each base station can serve n times three users in our example. So, by deploying three base stations, now we can multiply this by three. The important thing is that these base stations do not interfere with each other, because if they create interference, then the quality of service will be very bad. So, what we have to do is let each base station reduce its transmission power. Remember the law according to which the signal travels. Okay, physics, high-school physics. So, if the level of power that is transmitted is reduced, the signal will be able to travel with sufficient power only over a small distance. If you consider a large distance, we will not hear anything, right? So, in order to avoid interference between base stations, we need to lower the transmission power. And we said this is called spatial reuse, because we are going to let each base station use the same frequency channels. Okay, they are operating using exactly the same frequency channels.<br/>因为在我们的例子中，每个基站都能服务n乘以三个用户。因此，部署三个基站之后，就可以再把这个数乘以三。重要的是，这些基站不能相互干扰，因为一旦产生干扰，服务质量就会很差。因此，我们要让每个基站降低发射功率。记得信号传播所遵循的规律吗？就是物理，高中物理。如果发射功率降低，信号就只能在较短距离内保持足够的功率。距离很远时，就什么也听不到了，对吧？所以，为了避免基站之间的干扰，需要降低发射功率。我们说过，这叫空间复用，因为我们要让每个基站使用同样的频率信道。好，它们都使用完全相同的频率信道工作。</p></fragment>",
+      "document_id": "TqofdOKfFoCaoixV2cfccaBEnMh",
+      "revision_id": 169
+    }
+  }
+}
