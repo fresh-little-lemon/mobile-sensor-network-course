@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1870.0,
+  "end_seconds": 1990.0,
+  "text": "So let's make this a small game and think: what would happen if the Beaufort were not there? Okay, so let's roll back the story. Let's start from the beginning, but this time let's assume that there is no Beaufort. Okay, so what would be the behavior of our nodes? Well, at the beginning everything is the same because the only node that has got a packet to transmit is A, right? So it will listen to the channel, the channel is idle for diffs. It will access the channel and transmit the packet. And again, let's be optimistic: the access point sends packet acknowledgement, and the other nodes B and C both send their NAF, right? This is exactly as before. And again, B and C are different points in time. Assume that they got also a packet to transmit. But again, now we do not have Beaufort, okay? So we have to think: what would happen if Beaufort were not there? So what would B and C do? Well, we still have carrier sensing, right? Multiple access. So since both B and C sense the channel as busy because they have their NAF sent, they cannot access the channel, right? Till the channel is busy.",
+  "raw_decoded": "language English<asr_text>So let's make this a small game and think: what would happen if the Beaufort were not there? Okay, so let's roll back the story. Let's start from the beginning, but this time let's assume that there is no Beaufort. Okay, so what would be the behavior of our nodes? Well, at the beginning everything is the same because the only node that has got a packet to transmit is A, right? So it will listen to the channel, the channel is idle for diffs. It will access the channel and transmit the packet. And again, let's be optimistic: the access point sends packet acknowledgement, and the other nodes B and C both send their NAF, right? This is exactly as before. And again, B and C are different points in time. Assume that they got also a packet to transmit. But again, now we do not have Beaufort, okay? So we have to think: what would happen if Beaufort were not there? So what would B and C do? Well, we still have carrier sensing, right? Multiple access. So since both B and C sense the channel as busy because they have their NAF sent, they cannot access the channel, right? Till the channel is busy.<|im_end|>",
+  "generated_tokens": 263,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 33.52772383200136,
+  "at": "2026-10-18T02:53:47.440007+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

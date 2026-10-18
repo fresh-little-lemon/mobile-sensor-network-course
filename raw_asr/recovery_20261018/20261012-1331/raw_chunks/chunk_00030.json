@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3300.0,
+  "end_seconds": 3420.0,
+  "text": "Multiply by again one over CW minus plus one, which is the probability that C goes n. So what we have is simply sum over n the post from zero to CW minus of one over CW minus plus one square. Okay. Now this is a constant term, we are inside a sum, so we are summing this constant term how many times? CW minus plus one times right. So this is equal to CW minus plus one divided by CW minus plus one square. We simplify numerator and denominator, and we get one over CW minus plus one. So the final result of all this computation is that the probability that B and C collide in our simple example that we presented earlier is one over the contention window plus one. Okay. Now if you were able to follow.",
+  "raw_decoded": "language English<asr_text>Multiply by again one over CW minus plus one, which is the probability that C goes n. So what we have is simply sum over n the post from zero to CW minus of one over CW minus plus one square. Okay. Now this is a constant term, we are inside a sum, so we are summing this constant term how many times? CW minus plus one times right. So this is equal to CW minus plus one divided by CW minus plus one square. We simplify numerator and denominator, and we get one over CW minus plus one. So the final result of all this computation is that the probability that B and C collide in our simple example that we presented earlier is one over the contention window plus one. Okay. Now if you were able to follow.<|im_end|>",
+  "generated_tokens": 159,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.93135135400007,
+  "at": "2026-10-18T02:58:30.029696+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

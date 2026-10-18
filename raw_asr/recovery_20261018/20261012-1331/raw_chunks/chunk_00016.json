@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1760.0,
+  "end_seconds": 1880.0,
+  "text": "Four times lot, it can decrease its counter by one. Now it's because counter is down to zero, so it can access the channel and transmit its data packet. And again, being optimistic, we say that this is successful, so it will receive the acknowledgement after sends, and we are all happy because all nice good transmit that part, success. Okay, so this is an example on how we apply in the kickoff procedure, in particular under this condition, right. But it allows also to understand the importance of the cough. That's the final goal that I, the ultimate goal that I was aiming. How can we understand the importance of the cough? Well, let's make a little game that is scientifically speaking is called a blanchon study. Okay, an ablation study is when you remove a feature of a system and you study the behavior of that system without that feature. So our small game is an ablation study of this particular, um, kickoff procedure or or Wi-Fi channel access. So let's make this a small game and think what would happen if.",
+  "raw_decoded": "language English<asr_text>Four times lot, it can decrease its counter by one. Now it's because counter is down to zero, so it can access the channel and transmit its data packet. And again, being optimistic, we say that this is successful, so it will receive the acknowledgement after sends, and we are all happy because all nice good transmit that part, success. Okay, so this is an example on how we apply in the kickoff procedure, in particular under this condition, right. But it allows also to understand the importance of the cough. That's the final goal that I, the ultimate goal that I was aiming. How can we understand the importance of the cough? Well, let's make a little game that is scientifically speaking is called a blanchon study. Okay, an ablation study is when you remove a feature of a system and you study the behavior of that system without that feature. So our small game is an ablation study of this particular, um, kickoff procedure or or Wi-Fi channel access. So let's make this a small game and think what would happen if.<|im_end|>",
+  "generated_tokens": 223,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.382243641999594,
+  "at": "2026-10-18T02:53:13.911593+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

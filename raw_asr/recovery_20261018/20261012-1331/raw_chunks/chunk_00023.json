@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2530.0,
+  "end_seconds": 2650.0,
+  "text": "Collision avoidance mechanism is the probability that B and C collide. Okay, that's the probability that we want to compute. Okay, now we know already that they will collide if they draw the same integer out of this range. And remember that the way a node draws an integer out of this range is with uniform probability, right? So same probability for every value to be selected by the node. So if we consider the probability for a node to draw a generic integer n out of this range, this probability is given by one over C W minus plus one, right? Because this is the number of integers in the range. Since we draw each value with equal probability, uniform probability, it's easy to see that the probability that an integer, a generic integer is drawn out of this range by a node is given by one over.",
+  "raw_decoded": "language English<asr_text>Collision avoidance mechanism is the probability that B and C collide. Okay, that's the probability that we want to compute. Okay, now we know already that they will collide if they draw the same integer out of this range. And remember that the way a node draws an integer out of this range is with uniform probability, right? So same probability for every value to be selected by the node. So if we consider the probability for a node to draw a generic integer n out of this range, this probability is given by one over C W minus plus one, right? Because this is the number of integers in the range. Since we draw each value with equal probability, uniform probability, it's easy to see that the probability that an integer, a generic integer is drawn out of this range by a node is given by one over.<|im_end|>",
+  "generated_tokens": 171,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 22.686901148001198,
+  "at": "2026-10-18T02:56:25.547148+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

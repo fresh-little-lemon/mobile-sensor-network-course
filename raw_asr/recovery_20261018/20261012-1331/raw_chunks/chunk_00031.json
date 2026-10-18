@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3410.0,
+  "end_seconds": 3530.0,
+  "text": "Contention window plus one. Okay. Now, if you were able to follow the computation, great. It's a simple probability computation, but if your background is different, and therefore you have not seen probability anywhere in your previous courses, do not worry. The important thing is that you retain the final message. The final message is, in our simple example, right, that we are considering, the probability that B and C collide while performing the Bechov procedure, is equal to this ratio. That clearly will decrease as the value of contention window minimum increases. Right, the larger the contention window, the lower this ratio. So the lower the collision probability. This is I think something that everybody understands. Okay. Now, so this means that okay, this refers as I said to the previous simple example, but it's a general rule. The collision probability in the Bechov procedure decreases as the value of contention window increases. So now, what does this tell you?",
+  "raw_decoded": "language English<asr_text>Contention window plus one. Okay. Now, if you were able to follow the computation, great. It's a simple probability computation, but if your background is different, and therefore you have not seen probability anywhere in your previous courses, do not worry. The important thing is that you retain the final message. The final message is, in our simple example, right, that we are considering, the probability that B and C collide while performing the Bechov procedure, is equal to this ratio. That clearly will decrease as the value of contention window minimum increases. Right, the larger the contention window, the lower this ratio. So the lower the collision probability. This is I think something that everybody understands. Okay. Now, so this means that okay, this refers as I said to the previous simple example, but it's a general rule. The collision probability in the Bechov procedure decreases as the value of contention window increases. So now, what does this tell you?<|im_end|>",
+  "generated_tokens": 202,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.579270186999565,
+  "at": "2026-10-18T02:58:54.609703+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2420.0,
+  "end_seconds": 2540.0,
+  "text": "The benefit of increasing the contention window parameter every time we need to perform a BCOF procedure for a given data packet. Okay. So let's consider still the same example as before. So we still have the access point A, B, and C. A talk with the access point, and B and C get the packet, both of them, while the channel is busy. So they need to apply the BCOF and they need to drop the pour after having sensed the channel as idle for this. An integer out of, as we know, out of this range of values because this is the first time that they run the BCOF for the packet. So they both use zero contention window minimum as a possible range, as a range of possible integers to be selected. So how many values are in in this range? There are CWmin plus one integers, right? We call this minimum including the zero is plus one. Okay, this is the number of integers in that range. Okay, so what we want to compute. Since we said that BCOF is a probabilistic collision avoidance mechanism, is the probability that.",
+  "raw_decoded": "language English<asr_text>The benefit of increasing the contention window parameter every time we need to perform a BCOF procedure for a given data packet. Okay. So let's consider still the same example as before. So we still have the access point A, B, and C. A talk with the access point, and B and C get the packet, both of them, while the channel is busy. So they need to apply the BCOF and they need to drop the pour after having sensed the channel as idle for this. An integer out of, as we know, out of this range of values because this is the first time that they run the BCOF for the packet. So they both use zero contention window minimum as a possible range, as a range of possible integers to be selected. So how many values are in in this range? There are CWmin plus one integers, right? We call this minimum including the zero is plus one. Okay, this is the number of integers in that range. Okay, so what we want to compute. Since we said that BCOF is a probabilistic collision avoidance mechanism, is the probability that.<|im_end|>",
+  "generated_tokens": 234,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.726555572999132,
+  "at": "2026-10-18T02:56:02.859368+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}

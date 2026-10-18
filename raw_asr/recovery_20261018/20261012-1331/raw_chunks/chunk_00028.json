@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3080.0,
+  "end_seconds": 3200.0,
+  "text": "Right. So we found that B drew n will not affect the probability that C draws n. C does whatever it say he likes based on what the decisions he makes following the protocol, right. But it's not affected by what other nodes do. So this is a chain equal to the probability that C draws n. Simply that because it doesn't matter what B does, right? C will do things by himself. Okay, so what is the probability that C draws n? So what is the probability that an integer is selected out of the range zero, C W N? Well, we have written that here, right. This is the probability. Okay, so now we know that given that B has drawn n, the probability that C will also draw n is this one. Okay. So conditioned to the fact that B drew n, then this is the collision probability conditioned to the fact that B drew n. Right. What we need to do is to now to compute the original probability is to decom.",
+  "raw_decoded": "language English<asr_text>Right. So we found that B drew n will not affect the probability that C draws n. C does whatever it say he likes based on what the decisions he makes following the protocol, right. But it's not affected by what other nodes do. So this is a chain equal to the probability that C draws n. Simply that because it doesn't matter what B does, right? C will do things by himself. Okay, so what is the probability that C draws n? So what is the probability that an integer is selected out of the range zero, C W N? Well, we have written that here, right. This is the probability. Okay, so now we know that given that B has drawn n, the probability that C will also draw n is this one. Okay. So conditioned to the fact that B drew n, then this is the collision probability conditioned to the fact that B drew n. Right. What we need to do is to now to compute the original probability is to decom.<|im_end|>",
+  "generated_tokens": 207,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.018145863999962,
+  "at": "2026-10-18T02:57:39.385459+00:00",
+  "source_sha256": "1901ccc65046d96949ad45fb092df5db2180d2a57ce635d3aaa64a668fe7ee84"
+}
