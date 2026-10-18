@@ -1,0 +1,1678 @@
+[
+  {
+    "paragraph": 1,
+    "original_indices_zero_based": [
+      0
+    ],
+    "original_blocks_one_based": [
+      1
+    ],
+    "time_anchor": "00:00:00",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      0
+    ],
+    "source_text_sha256": [
+      "da7526358efc9ee703deda169efd284a73836e68e2af87f1987996725872c620"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 2,
+    "original_indices_zero_based": [
+      1
+    ],
+    "original_blocks_one_based": [
+      2
+    ],
+    "time_anchor": "00:00:48",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      0
+    ],
+    "source_text_sha256": [
+      "477de0eaff055058ef1b346cf9dca9e86fec70b977c1343df527ef9c3341d006"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 3,
+    "original_indices_zero_based": [
+      2
+    ],
+    "original_blocks_one_based": [
+      3
+    ],
+    "time_anchor": "00:01:23",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      0,
+      1
+    ],
+    "source_text_sha256": [
+      "fe6048ff0727f9a58a06dd7d981297faa70ce7a9e59f99000ea59c7d56373283"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 4,
+    "original_indices_zero_based": [
+      3
+    ],
+    "original_blocks_one_based": [
+      4
+    ],
+    "time_anchor": "00:01:57",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      0,
+      1
+    ],
+    "source_text_sha256": [
+      "55841b1400322456e2a5df487ed001093be8e0deecd9642b466b4cfd146a9f50"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 5,
+    "original_indices_zero_based": [
+      4
+    ],
+    "original_blocks_one_based": [
+      5
+    ],
+    "time_anchor": "00:02:43",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      1
+    ],
+    "source_text_sha256": [
+      "ed8a96d7e3ba1b0d8540f949147268a89f421f2f549495c98100cc0d67f345b0"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 6,
+    "original_indices_zero_based": [
+      5
+    ],
+    "original_blocks_one_based": [
+      6
+    ],
+    "time_anchor": "00:03:34",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      1,
+      2
+    ],
+    "source_text_sha256": [
+      "6b5392d87e12f1ff742ce878123e5178ca47f5563af6e5954c417028996853c2"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 7,
+    "original_indices_zero_based": [
+      6
+    ],
+    "original_blocks_one_based": [
+      7
+    ],
+    "time_anchor": "00:03:56",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      2
+    ],
+    "source_text_sha256": [
+      "91f68be67aa0300f61bb12788ed07a821984f21031265f1b88f998613d2aa6f7"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 8,
+    "original_indices_zero_based": [
+      7
+    ],
+    "original_blocks_one_based": [
+      8
+    ],
+    "time_anchor": "00:04:34",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      2,
+      3
+    ],
+    "source_text_sha256": [
+      "d352bdeba56789e4f29f8a739df252f760d222569616f9841c6994b39557a02b"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 9,
+    "original_indices_zero_based": [
+      8
+    ],
+    "original_blocks_one_based": [
+      9
+    ],
+    "time_anchor": "00:05:31",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      2,
+      3
+    ],
+    "source_text_sha256": [
+      "5a86e57f070334424ab8519151f68ccbfa6be86f92571a1c8043e9388f652ff3"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 10,
+    "original_indices_zero_based": [
+      9,
+      10,
+      11
+    ],
+    "original_blocks_one_based": [
+      10,
+      11,
+      12
+    ],
+    "time_anchor": "00:06:26",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      3,
+      4,
+      5
+    ],
+    "source_text_sha256": [
+      "6f4a80c33313f965b91f74f93d9dc3cc3cb7e02c0f813fe36fbf186dc8bc7308",
+      "2d76dec30cc504d235be17cf8261c8cf949f3c57ce05e3806afd20ccc7c20558",
+      "98192865fc53f06b74122afb3cc79d9c878dc9f42bedce8f98eea0201bc81b5f"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 11,
+    "original_indices_zero_based": [
+      12,
+      13,
+      14
+    ],
+    "original_blocks_one_based": [
+      13,
+      14,
+      15
+    ],
+    "time_anchor": "00:09:30",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      5,
+      6
+    ],
+    "source_text_sha256": [
+      "6ca6fd7c88b036d9cd3f24a21a2da40f2e8f2bb0d5ddfc6b4b7bb7b88a8c7f1a",
+      "95c5fb9a1a7c5a1be693a68ce6a8bfb4c4d0365113db8189d160ecd0855824e3",
+      "5dc0f992650d8eadfc962032d655470feb6f3842fe98f97189758332681174da"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 12,
+    "original_indices_zero_based": [
+      15
+    ],
+    "original_blocks_one_based": [
+      16
+    ],
+    "time_anchor": "00:12:25",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      6,
+      7
+    ],
+    "source_text_sha256": [
+      "3316ecedd1bd8f9b55e13db78136bf6deab5d752cd787f9e6cfde26262a35b8d"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 13,
+    "original_indices_zero_based": [
+      16
+    ],
+    "original_blocks_one_based": [
+      17
+    ],
+    "time_anchor": "00:13:23",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      7
+    ],
+    "source_text_sha256": [
+      "2021661477e72277dbf99d16e08ed4a9b3c6ef4ddb1ed388dac433322f6b0b2b"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 14,
+    "original_indices_zero_based": [
+      17
+    ],
+    "original_blocks_one_based": [
+      18
+    ],
+    "time_anchor": "00:13:49",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      7
+    ],
+    "source_text_sha256": [
+      "588872e46d4d49e41d4fc6d6a331a43072490dc41395444c744d9846c60f9079"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 15,
+    "original_indices_zero_based": [
+      18,
+      19
+    ],
+    "original_blocks_one_based": [
+      19,
+      20
+    ],
+    "time_anchor": "00:14:16",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      7,
+      8,
+      9
+    ],
+    "source_text_sha256": [
+      "e52d684ac58ecb7928c6c5214fe1afdf6397b7afd1ea5c9a168625c9d1d45f7d",
+      "c16d11847653993ac6f6ca92f083156dcf349ca22ec647d7b5f7d2ee6f2a2e3a"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 16,
+    "original_indices_zero_based": [
+      20
+    ],
+    "original_blocks_one_based": [
+      21
+    ],
+    "time_anchor": "00:17:00",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      9,
+      10
+    ],
+    "source_text_sha256": [
+      "d823139f6ca93b92648e49058e57df5b02bcbc1f889849fd4e6850e3c8de04fa"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 17,
+    "original_indices_zero_based": [
+      21
+    ],
+    "original_blocks_one_based": [
+      22
+    ],
+    "time_anchor": "00:18:35",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      10
+    ],
+    "source_text_sha256": [
+      "995f90e4ebb2342d9c2791557f6b9eb53fb7f2154d727da165ccfc25d975c3b0"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 18,
+    "original_indices_zero_based": [
+      22
+    ],
+    "original_blocks_one_based": [
+      23
+    ],
+    "time_anchor": "00:19:16",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      10,
+      11
+    ],
+    "source_text_sha256": [
+      "b627ef96c66c3a86d5fe35355ceb34a7f22c0607c7de48877a131a6b0cd75d7c"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 19,
+    "original_indices_zero_based": [
+      23,
+      24
+    ],
+    "original_blocks_one_based": [
+      24,
+      25
+    ],
+    "time_anchor": "00:20:19",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      10,
+      11
+    ],
+    "source_text_sha256": [
+      "3aa80ca3ac9b8eccd1ba23331a1242fe6aba543b87ffbddd70be65e56ff0ee87",
+      "6745baec06a42a435cbd69073915271ee7495e5584294455cc218f3e6de2b74e"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 20,
+    "original_indices_zero_based": [
+      25,
+      26
+    ],
+    "original_blocks_one_based": [
+      26,
+      27
+    ],
+    "time_anchor": "00:21:59",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      11,
+      12
+    ],
+    "source_text_sha256": [
+      "fd3dc78584936161f315256373e77955f3a30fe2f8da5dca03393269efe5ec96",
+      "a1d12509873aa1dce05d8d75b5d053d61a923638a57dd3e8d9a7ccf63de2c306"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 21,
+    "original_indices_zero_based": [
+      27
+    ],
+    "original_blocks_one_based": [
+      28
+    ],
+    "time_anchor": "00:23:16",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      12
+    ],
+    "source_text_sha256": [
+      "2a0edb64a324cead7091b388ea3c9140268af4d876d775c47099bf5b605a7cf6"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 22,
+    "original_indices_zero_based": [
+      28
+    ],
+    "original_blocks_one_based": [
+      29
+    ],
+    "time_anchor": "00:23:36",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      12,
+      13
+    ],
+    "source_text_sha256": [
+      "5dde8db2da9ccb9c35cac88c92888901826f4016b8553a5192b076b1315064ab"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 23,
+    "original_indices_zero_based": [
+      29
+    ],
+    "original_blocks_one_based": [
+      30
+    ],
+    "time_anchor": "00:24:26",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      13
+    ],
+    "source_text_sha256": [
+      "eaf8fb9483200bc2cd662bbf6f972e668104b7650680b6ce3b4d2c3661f65a5b"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 24,
+    "original_indices_zero_based": [
+      30
+    ],
+    "original_blocks_one_based": [
+      31
+    ],
+    "time_anchor": "00:24:44",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      13,
+      14
+    ],
+    "source_text_sha256": [
+      "38b6f70b2c523ee2d7f2fd70efb4bba9028c0e6c41995749008864d7b55040d9"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 25,
+    "original_indices_zero_based": [
+      31
+    ],
+    "original_blocks_one_based": [
+      32
+    ],
+    "time_anchor": "00:26:08",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      14
+    ],
+    "source_text_sha256": [
+      "9bbd7b4c5fccb9f2f7eb82c45249bad2b2ce1264f165b6f65c6ceef3db32387e"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 26,
+    "original_indices_zero_based": [
+      32,
+      33
+    ],
+    "original_blocks_one_based": [
+      33,
+      34
+    ],
+    "time_anchor": "00:27:22",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      14,
+      15
+    ],
+    "source_text_sha256": [
+      "fe8f33e62899c6a868a454ccbe2c6c12a5a34600fea21e682beb79d1da233518",
+      "4d5cb95a6be11bb853af9f4439c3aa29c9f65700398497cca8d22d35b3787cd0"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 27,
+    "original_indices_zero_based": [
+      34,
+      35,
+      36
+    ],
+    "original_blocks_one_based": [
+      35,
+      36,
+      37
+    ],
+    "time_anchor": "00:29:13",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      15,
+      16,
+      17
+    ],
+    "source_text_sha256": [
+      "ac08c310bcf0126c04229083c6f4c088f0074819e03739935c9080063116ae16",
+      "5054e9d007f3f1002e04d3387b8b7c03835cc4f9a02734c32468468dec1662d2",
+      "8f2838af3cecb970db737092d982c78438a9b28c605d809c1fbde31b6436f089"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 28,
+    "original_indices_zero_based": [
+      37
+    ],
+    "original_blocks_one_based": [
+      38
+    ],
+    "time_anchor": "00:31:29",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      17
+    ],
+    "source_text_sha256": [
+      "cab8a0f70b5706f388919d1e8711a3ef1a52d24458b130aabde6ca82c5d37a39"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 29,
+    "original_indices_zero_based": [
+      38
+    ],
+    "original_blocks_one_based": [
+      39
+    ],
+    "time_anchor": "00:32:13",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      17,
+      18
+    ],
+    "source_text_sha256": [
+      "c48d0cb10828481463c9450e493f036f951ef9e7979c46af07fa5eb0289cc2dc"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 30,
+    "original_indices_zero_based": [
+      39,
+      40
+    ],
+    "original_blocks_one_based": [
+      40,
+      41
+    ],
+    "time_anchor": "00:33:30",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      18,
+      19
+    ],
+    "source_text_sha256": [
+      "45468a91e3fa40ec86eea69caa755b352041007ec788a7600273dadc2f584d16",
+      "b7a134dfb5619d1826bf8edd97e9a937ff63d90c0ddad303ae93a246ee241bb1"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 31,
+    "original_indices_zero_based": [
+      41
+    ],
+    "original_blocks_one_based": [
+      42
+    ],
+    "time_anchor": "00:35:11",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      19
+    ],
+    "source_text_sha256": [
+      "2efbf6e6c6b6015b1f830a27a1f31f8949bed8b114bcbba56b269cdaa60b0ddb"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 32,
+    "original_indices_zero_based": [
+      42
+    ],
+    "original_blocks_one_based": [
+      43
+    ],
+    "time_anchor": "00:35:43",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      19
+    ],
+    "source_text_sha256": [
+      "a8d913ec6f177eb1fee07154de7bdec18832f4f276763cfd73c7636b8f67d492"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 33,
+    "original_indices_zero_based": [
+      43
+    ],
+    "original_blocks_one_based": [
+      44
+    ],
+    "time_anchor": "00:36:09",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      19,
+      20
+    ],
+    "source_text_sha256": [
+      "25a494cef5ad6b93d0d1b156c097f8d8ae3ce3c33b9b54945399e76db101057b"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 34,
+    "original_indices_zero_based": [
+      44
+    ],
+    "original_blocks_one_based": [
+      45
+    ],
+    "time_anchor": "00:37:04",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      20
+    ],
+    "source_text_sha256": [
+      "7ac137b8b183671d1ffd14669613197ec62b8b5825ad600ec8247552436d5223"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 35,
+    "original_indices_zero_based": [
+      45
+    ],
+    "original_blocks_one_based": [
+      46
+    ],
+    "time_anchor": "00:37:37",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      20
+    ],
+    "source_text_sha256": [
+      "384b035924f0efd97cd782523baa488cb694db7bcddc94d1064f3c4cff2e7615"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 36,
+    "original_indices_zero_based": [
+      46
+    ],
+    "original_blocks_one_based": [
+      47
+    ],
+    "time_anchor": "00:38:15",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      20,
+      21
+    ],
+    "source_text_sha256": [
+      "20c20c0920c940ee27f564097297caf1196a675827c25904661d788564ed9e0f"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 37,
+    "original_indices_zero_based": [
+      47
+    ],
+    "original_blocks_one_based": [
+      48
+    ],
+    "time_anchor": "00:38:35",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      20,
+      21
+    ],
+    "source_text_sha256": [
+      "0f79818cbdd8ca619d07064aaa8547a7a9db00c95edc0fd311dbac1774009d65"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 38,
+    "original_indices_zero_based": [
+      48
+    ],
+    "original_blocks_one_based": [
+      49
+    ],
+    "time_anchor": "00:38:58",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      21
+    ],
+    "source_text_sha256": [
+      "e8a7e1e96bb0005e457e00397ac038c99ee813d01e25d936e3ee2c8d65eaf34a"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 39,
+    "original_indices_zero_based": [
+      49
+    ],
+    "original_blocks_one_based": [
+      50
+    ],
+    "time_anchor": "00:40:03",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "source_text_sha256": [
+      "ea4367ed63c885a9c4a472566618b4fe3991bcded0cbddda63f030a0a2939156"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 40,
+    "original_indices_zero_based": [
+      50,
+      51
+    ],
+    "original_blocks_one_based": [
+      51,
+      52
+    ],
+    "time_anchor": "00:47:14",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      25,
+      26,
+      27
+    ],
+    "source_text_sha256": [
+      "16d22c5778bca027278c0c1a9f9b059bd6994ff66d4d26a26b0dfb8fe9678624",
+      "056827b7981812c38cf71e387794681cdf4b1e5fd0455a56f93fb709736f065e"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 41,
+    "original_indices_zero_based": [
+      52
+    ],
+    "original_blocks_one_based": [
+      53
+    ],
+    "time_anchor": "00:51:11",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      27,
+      28
+    ],
+    "source_text_sha256": [
+      "4cf537c5ac1653a3aa550e2ccb1b4665ac9c92766165e7ad4ead0494e1e2b16b"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 42,
+    "original_indices_zero_based": [
+      53
+    ],
+    "original_blocks_one_based": [
+      54
+    ],
+    "time_anchor": "00:52:33",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      28,
+      29
+    ],
+    "source_text_sha256": [
+      "3e86ab0fe5be257ef053f3cc9449fe79453224fb7f0ec4ba769109ca7184ff09"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 43,
+    "original_indices_zero_based": [
+      54,
+      55
+    ],
+    "original_blocks_one_based": [
+      55,
+      56
+    ],
+    "time_anchor": "00:54:05",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      29
+    ],
+    "source_text_sha256": [
+      "a0acb166a8dbee40d3e1454732771dc255adb3b9077178feeb735f2de92c3421",
+      "3b247716abc8b19446974ab31e770705336ab2e282f7d4c84b94a82edc8def16"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 44,
+    "original_indices_zero_based": [
+      56
+    ],
+    "original_blocks_one_based": [
+      57
+    ],
+    "time_anchor": "00:54:52",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      29,
+      30
+    ],
+    "source_text_sha256": [
+      "20fefa503638fd7a50f0ca50fb2abc886a8bb5539d9321a461b1782b0900e289"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 45,
+    "original_indices_zero_based": [
+      57
+    ],
+    "original_blocks_one_based": [
+      58
+    ],
+    "time_anchor": "00:56:39",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      30,
+      31
+    ],
+    "source_text_sha256": [
+      "1162534ae1fd53f42d90c43ac125c7b0d8850eb0919332a551339dd2f34a1a17"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 46,
+    "original_indices_zero_based": [
+      58
+    ],
+    "original_blocks_one_based": [
+      59
+    ],
+    "time_anchor": "00:57:03",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      31
+    ],
+    "source_text_sha256": [
+      "c965d39f91e9d89461052207c4ad04c9204b4a1d199d215f375e8e8d0fb4b541"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 47,
+    "original_indices_zero_based": [
+      59
+    ],
+    "original_blocks_one_based": [
+      60
+    ],
+    "time_anchor": "00:57:46",
+    "speaker": "2",
+    "independent_asr_window_indices_zero_based": [
+      31
+    ],
+    "source_text_sha256": [
+      "77fb643889c6cb900cf6bbf0b89e9372d2aa50ea871d3319565b56491a962ab7"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 48,
+    "original_indices_zero_based": [
+      60
+    ],
+    "original_blocks_one_based": [
+      61
+    ],
+    "time_anchor": "00:57:50",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      31
+    ],
+    "source_text_sha256": [
+      "7b38e5fdab601669caedf6890e83f4289e72223e8c560e33c901171e30be6a89"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 49,
+    "original_indices_zero_based": [
+      61
+    ],
+    "original_blocks_one_based": [
+      62
+    ],
+    "time_anchor": "00:58:04",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      31
+    ],
+    "source_text_sha256": [
+      "8b00aa69f18bdda1b19a74127fc88ffbb7916336f019507ec463c7319d991c4b"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 50,
+    "original_indices_zero_based": [
+      62
+    ],
+    "original_blocks_one_based": [
+      63
+    ],
+    "time_anchor": "00:58:18",
+    "speaker": "2",
+    "independent_asr_window_indices_zero_based": [
+      31
+    ],
+    "source_text_sha256": [
+      "2c6d9e3484f803dd1498cf670c33a0b0aeb43ff708ac7340c20011b8614d01d1"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 51,
+    "original_indices_zero_based": [
+      63
+    ],
+    "original_blocks_one_based": [
+      64
+    ],
+    "time_anchor": "00:58:21",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      31,
+      32
+    ],
+    "source_text_sha256": [
+      "3fbd54510cd9b2a08a59441721fa3891c4c7e4a647a75988aa97832984623be7"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 52,
+    "original_indices_zero_based": [
+      64
+    ],
+    "original_blocks_one_based": [
+      65
+    ],
+    "time_anchor": "00:59:28",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      32
+    ],
+    "source_text_sha256": [
+      "596d3fbb14ded35aeb31f19a0c424d3edabc884997ce9c6f4c30b972fbd2b821"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 53,
+    "original_indices_zero_based": [
+      65
+    ],
+    "original_blocks_one_based": [
+      66
+    ],
+    "time_anchor": "00:59:44",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      32
+    ],
+    "source_text_sha256": [
+      "4cef66c3a617f5e4dc666a8ab8bd481de6edba6d07a79e44f3ff9b4bdb0306ea"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 54,
+    "original_indices_zero_based": [
+      66
+    ],
+    "original_blocks_one_based": [
+      67
+    ],
+    "time_anchor": "01:00:13",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      32,
+      33
+    ],
+    "source_text_sha256": [
+      "5b1fc8be19db33a7565bb5c43edc21da757e631f1d2c863a91af6d82f448ca4d"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 55,
+    "original_indices_zero_based": [
+      67
+    ],
+    "original_blocks_one_based": [
+      68
+    ],
+    "time_anchor": "01:00:38",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      32,
+      33,
+      34
+    ],
+    "source_text_sha256": [
+      "165e5139c96ae72e32f0a8281f0b411b6faf325b94105b55aaa8f38afae870c5"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 56,
+    "original_indices_zero_based": [
+      68
+    ],
+    "original_blocks_one_based": [
+      69
+    ],
+    "time_anchor": "01:02:28",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      33,
+      34
+    ],
+    "source_text_sha256": [
+      "812ffdc33f9866d21a0bcf9517e9f29f1b926be4bae865b8b48e77b88debbb58"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 57,
+    "original_indices_zero_based": [
+      69
+    ],
+    "original_blocks_one_based": [
+      70
+    ],
+    "time_anchor": "01:02:50",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      34
+    ],
+    "source_text_sha256": [
+      "05e1e649ad87860e62b352835c1e607c0bca3f68480f80ba7bbfa32066be0052"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 58,
+    "original_indices_zero_based": [
+      70
+    ],
+    "original_blocks_one_based": [
+      71
+    ],
+    "time_anchor": "01:03:33",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      34,
+      35
+    ],
+    "source_text_sha256": [
+      "efa957b56a0967534213ccb481582b3bce7bf3691c61bcecd11a09b2358e97a1"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 59,
+    "original_indices_zero_based": [
+      71
+    ],
+    "original_blocks_one_based": [
+      72
+    ],
+    "time_anchor": "01:05:59",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      35,
+      36
+    ],
+    "source_text_sha256": [
+      "7f06b583811fdfb52a83b48128c39d40210ba17030d9abc1d477cc09a35acd77"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 60,
+    "original_indices_zero_based": [
+      72
+    ],
+    "original_blocks_one_based": [
+      73
+    ],
+    "time_anchor": "01:06:39",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      36
+    ],
+    "source_text_sha256": [
+      "9728c1c1bd4476b1fd2ddaa415623d992f1d3425c13352bb62691e16b9da7b69"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 61,
+    "original_indices_zero_based": [
+      73
+    ],
+    "original_blocks_one_based": [
+      74
+    ],
+    "time_anchor": "01:07:00",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      36,
+      37
+    ],
+    "source_text_sha256": [
+      "96b423beb941595f39f5f32c00db2352da3042b8215db3cc87258c89417fa372"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 62,
+    "original_indices_zero_based": [
+      74
+    ],
+    "original_blocks_one_based": [
+      75
+    ],
+    "time_anchor": "01:08:08",
+    "speaker": "2",
+    "independent_asr_window_indices_zero_based": [
+      37
+    ],
+    "source_text_sha256": [
+      "421adc4542d0cc6f5b41e98d1826163dc5cca36e45c9d4519a23d2afcb5cab75"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 63,
+    "original_indices_zero_based": [
+      75
+    ],
+    "original_blocks_one_based": [
+      76
+    ],
+    "time_anchor": "01:08:24",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      37
+    ],
+    "source_text_sha256": [
+      "fd87b66863aeb8a81dae8fa20f0d9391467de3d9a177b3bb0afa3d7d91c59be2"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 64,
+    "original_indices_zero_based": [
+      76
+    ],
+    "original_blocks_one_based": [
+      77
+    ],
+    "time_anchor": "01:08:52",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      37,
+      38
+    ],
+    "source_text_sha256": [
+      "1cfdc028929df1889ce3055a109c6b59c3cce3cbae529853f1b4ac9e8ff9a576"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 65,
+    "original_indices_zero_based": [
+      77
+    ],
+    "original_blocks_one_based": [
+      78
+    ],
+    "time_anchor": "01:09:42",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      37,
+      38
+    ],
+    "source_text_sha256": [
+      "07caba71608ce54b3886456eea9400eef1e6ffaa9290c06df378308faabe9d60"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 66,
+    "original_indices_zero_based": [
+      78
+    ],
+    "original_blocks_one_based": [
+      79
+    ],
+    "time_anchor": "01:10:05",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      38
+    ],
+    "source_text_sha256": [
+      "eb0bbfda1c1b40db77151ce5e9520b8d42a491a546d667cde740cc2c3789882d"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 67,
+    "original_indices_zero_based": [
+      79,
+      80,
+      81
+    ],
+    "original_blocks_one_based": [
+      80,
+      81,
+      82
+    ],
+    "time_anchor": "01:11:05",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      38,
+      39
+    ],
+    "source_text_sha256": [
+      "652c274ec3478eb2417abcc809ea5d88af38a76d35c0df7cc2878164434634e6",
+      "fe66facd3219885bd09f04a73dbe596b384b440bd13102b333d15a360bf21856",
+      "9fe9b9ba0b182cec3343e96fbfa00fb0be46b8ee836e5a52d506a4fe7554eba6"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 68,
+    "original_indices_zero_based": [
+      82,
+      83
+    ],
+    "original_blocks_one_based": [
+      83,
+      84
+    ],
+    "time_anchor": "01:12:59",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      39,
+      40
+    ],
+    "source_text_sha256": [
+      "fa86a5b425413c24100aa00c783b7fe0a13c258d6c949026c3f3427df2fc333e",
+      "f8b2c7c5b89d7289eddbd19e6ed67a25db5eebabc3f148ad77ca6eda14358380"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 69,
+    "original_indices_zero_based": [
+      84,
+      85
+    ],
+    "original_blocks_one_based": [
+      85,
+      86
+    ],
+    "time_anchor": "01:14:02",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      40
+    ],
+    "source_text_sha256": [
+      "1ab3bae4796c43b3f01ec9425225839e1c09136d7487e5882e22809182c8f28b",
+      "527c454a2dac053aa577979d925463491e6699012fd6adcc2f5bb04c6ba5e2f0"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 70,
+    "original_indices_zero_based": [
+      86
+    ],
+    "original_blocks_one_based": [
+      87
+    ],
+    "time_anchor": "01:15:01",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      40,
+      41
+    ],
+    "source_text_sha256": [
+      "8c6e91196fda00f0b255959a999b1c6fee2a2c7c5d148af85c2af217c60daafb"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 71,
+    "original_indices_zero_based": [
+      87
+    ],
+    "original_blocks_one_based": [
+      88
+    ],
+    "time_anchor": "01:16:07",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      41
+    ],
+    "source_text_sha256": [
+      "490df5178586d86762d48f59dcc569a7b4211131f21b3eb3a3805396b740af6a"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 72,
+    "original_indices_zero_based": [
+      88
+    ],
+    "original_blocks_one_based": [
+      89
+    ],
+    "time_anchor": "01:16:41",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      41,
+      42
+    ],
+    "source_text_sha256": [
+      "fba42b284a0ad651b578aad4b3f711da5c57fa7c6b14b805bef8af09cd105f53"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 73,
+    "original_indices_zero_based": [
+      89
+    ],
+    "original_blocks_one_based": [
+      90
+    ],
+    "time_anchor": "01:17:25",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      42,
+      43
+    ],
+    "source_text_sha256": [
+      "d83acdd47d170a5ffc54710e94096feb68d51f3fd0adfe4827052b037e011d43"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 74,
+    "original_indices_zero_based": [
+      90
+    ],
+    "original_blocks_one_based": [
+      91
+    ],
+    "time_anchor": "01:19:03",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      43
+    ],
+    "source_text_sha256": [
+      "f9165bb73498fc0e29f1b7713c9153b5092b0faa763a712f1187781e16ec00b2"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 75,
+    "original_indices_zero_based": [
+      91
+    ],
+    "original_blocks_one_based": [
+      92
+    ],
+    "time_anchor": "01:19:36",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      43
+    ],
+    "source_text_sha256": [
+      "29f5fbff1367eb0e98658770ff2387f276ca8f128a37efdbc86beef910c5dd49"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 76,
+    "original_indices_zero_based": [
+      92
+    ],
+    "original_blocks_one_based": [
+      93
+    ],
+    "time_anchor": "01:20:01",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      43,
+      44
+    ],
+    "source_text_sha256": [
+      "7a58ab5b916557dc4e07c8ac495959a1d3e9e604c55fa1ac0ad6322498caf66e"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 77,
+    "original_indices_zero_based": [
+      93
+    ],
+    "original_blocks_one_based": [
+      94
+    ],
+    "time_anchor": "01:21:32",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      44
+    ],
+    "source_text_sha256": [
+      "3fe9d4e171cf3d0209b0433fb390b12d7d8884985295885287c68ea684c05f39"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 78,
+    "original_indices_zero_based": [
+      94
+    ],
+    "original_blocks_one_based": [
+      95
+    ],
+    "time_anchor": "01:21:53",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      44,
+      45
+    ],
+    "source_text_sha256": [
+      "93535407335130559260804ece0fba750f0ef4e6eec0a039c70150738b25bc60"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 79,
+    "original_indices_zero_based": [
+      95
+    ],
+    "original_blocks_one_based": [
+      96
+    ],
+    "time_anchor": "01:22:44",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      45
+    ],
+    "source_text_sha256": [
+      "9c163429da1e1585f85eceda185a51677d4e3a80254f4910f88441b6193756f4"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 80,
+    "original_indices_zero_based": [
+      96,
+      97
+    ],
+    "original_blocks_one_based": [
+      97,
+      98
+    ],
+    "time_anchor": "01:23:04",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      45,
+      46
+    ],
+    "source_text_sha256": [
+      "474cb52828fb89eb76e598eb491f588c71cd36610235754b1f97e6f82402cd60",
+      "444bca5c68d1fe4e0b9732070938b6145cf150532c4623371f2b8c00fa94d126"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 81,
+    "original_indices_zero_based": [
+      98
+    ],
+    "original_blocks_one_based": [
+      99
+    ],
+    "time_anchor": "01:24:32",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      46
+    ],
+    "source_text_sha256": [
+      "33a24958a47fb16f774c5b621cc76dae20bd04b40c03853c0519c26205a0bb2b"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 82,
+    "original_indices_zero_based": [
+      99
+    ],
+    "original_blocks_one_based": [
+      100
+    ],
+    "time_anchor": "01:25:04",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      46,
+      47
+    ],
+    "source_text_sha256": [
+      "cb83818f218b666c79672d4ad2cd9c148973871f0b42e3605b842edcb467ccf7"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 83,
+    "original_indices_zero_based": [
+      100
+    ],
+    "original_blocks_one_based": [
+      101
+    ],
+    "time_anchor": "01:26:56",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      47
+    ],
+    "source_text_sha256": [
+      "4c62f24fa2a479820fc8dd374d3c1daefe11825cb6d74f0f59a44a8f4a1cbf27"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 84,
+    "original_indices_zero_based": [
+      101
+    ],
+    "original_blocks_one_based": [
+      102
+    ],
+    "time_anchor": "01:27:11",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      47
+    ],
+    "source_text_sha256": [
+      "1aac636db3afb305e5771c5a7c6b4b19d889823efcfb286fb16ebf2ef2342c19"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 85,
+    "original_indices_zero_based": [
+      102
+    ],
+    "original_blocks_one_based": [
+      103
+    ],
+    "time_anchor": "01:27:30",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      47,
+      48
+    ],
+    "source_text_sha256": [
+      "5e67ab18b5b0aa3ed9a9b5c9306936d99ff880790522314dff611e88273baaa9"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 86,
+    "original_indices_zero_based": [
+      103
+    ],
+    "original_blocks_one_based": [
+      104
+    ],
+    "time_anchor": "01:28:16",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      48
+    ],
+    "source_text_sha256": [
+      "af0b8a82fc422863abd73c15c8d886c81e222b68e7e9d275b74e7ce16065f64d"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  },
+  {
+    "paragraph": 87,
+    "original_indices_zero_based": [
+      104
+    ],
+    "original_blocks_one_based": [
+      105
+    ],
+    "time_anchor": "01:29:10",
+    "speaker": "1",
+    "independent_asr_window_indices_zero_based": [
+      48,
+      49
+    ],
+    "source_text_sha256": [
+      "99ac7aff63729c894f1b28163ba94cbf0a87cf87207bd2056be0dbebfc16cf1a"
+    ],
+    "note": "Approximate source-time locators, not word-level alignment or certification of every ASR token."
+  }
+]

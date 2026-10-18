@@ -1,0 +1,15 @@
+{
+  "recording_id": "20261016-0805",
+  "paragraph_pairs": 87,
+  "source_block_count": 105,
+  "bilingual_sha256": "0a84bb00f85b3343631c80ca306387aceba8b070e255455fb960a0dc9d36de89",
+  "source_speech_sha256": "99a9c7ef0e85979f765356f201e00b210c57b497c1c461f5021c6532fac2391f",
+  "all_source_blocks_mapped_once": true,
+  "full_faithful_translation_review_complete": true,
+  "translation_review_unit": "All105sourceblocks subsequently joined at14reviewedboundarygroups",
+  "timestamp_speaker_and_editorial_markers_removed": true,
+  "substantive_uncertainty_preserved": true,
+  "raw_commit": "f2a57a49819e2289e732d54ffb29c432d6097e0b",
+  "terminology_addendum_prepared": true,
+  "updated_at": "2026-10-18T08:05:45.958464+00:00"
+}
