@@ -44,3 +44,45 @@
 [4] MathWorks，Scatter Plots and Constellation Diagrams：https://www.mathworks.com/help/comm/ug/scatter-plots-and-constellation-diagrams.html
 
 此表中的语境判断依据本课修订正文。来源明确支持的术语与对原讲述的解释分别列出；后续核对遇到新的语境时继续补充。
+
+## 20261008-0800：导论与无线网络分类
+
+本份保留121个原段落。开场包含中文和中英混合发言：纯中文段落的英文为译文，中文保留原话；主体英语授课部分英文来自清除标记后的修订正文。所有段落仍按原顺序一英一中排列。
+
+| 英文 | 中文译法 | 本课语境与说明 |
+|---|---|---|
+| wireless network / wireless link | 无线网络／无线链路 | 网络与单条通信连接分别表达 |
+| wireless host / mobile node | 无线主机／移动节点 | host强调承载应用；node强调网络中的节点 |
+| coverage / range | 覆盖范围／覆盖距离 | 面积范围与距离按具体句子区分 |
+| network architecture / topology | 网络架构／拓扑结构 | 功能组织与节点连接关系不同 |
+| network edge / network core | 网络边缘／网络核心（核心网） | edge不一律等于某种特定无线接入网标准 |
+| edge computing | 边缘计算 | 在靠近设备或网络边缘的计算资源上处理信息；英特尔官方中文材料采用此译法[5] |
+| latency / throughput / data rate | 时延／吞吐量／数据速率 | 分别描述延迟、实际传送量与传输速率，不混用[5] |
+| power / energy consumption | 功率消耗／能量消耗 | 功率对应单位时间的耗能，能量对应累计耗能 |
+| ad hoc network | 自组织网络（ad hoc网络） | 本课强调无固定接入节点的直接通信；实际ad hoc网络也可多跳 |
+| device-to-device communication | 设备到设备通信 | 首次可保留D2D缩写，描述直接通信 |
+| nomadic mobility | 游牧式移动性 | 本课指移动到新地点后停留一段时间，再移动的模式 |
+| handoff / handover | 切换 | 连接由一个服务基站／接入节点转移到另一个的过程；中文通信专利文本也将Handover Request称为切换请求[6] |
+| satellite footprint | 卫星地面覆盖区（覆盖足迹） | footprint指地面覆盖，不是卫星实体尺寸 |
+| roadside unit | 路侧单元 | 道路沿线的通信设备，不能简单把它等同于一根天线 |
+| lidar / radar / UAV | 激光雷达／雷达／无人机 | 保留不同传感器类别；UAV cage按实验场景译为无人机笼式试验场 |
+| Internet service provider | 互联网服务提供商 | 保留ISP缩写 |
+| near-field communication | 近场通信 | 原修订稿为near communication field，中文按该语境对应NFC的通行概念表达；原英文不改写 |
+| IEEE Fellow | IEEE会士 | 开场中文原话含Fellow，保留；“HV Fellow”及教授姓名/职务仍需专名事实复核 |
+
+### 对原讲述的事实和概念说明
+
+- 蓝牙、Wi-Fi和蜂窝网络的覆盖距离是课堂数量级示例，不是设备统一上限。实际距离与发射功率、天线、PHY、环境等相关，蓝牙官方文档也明确说明范围取决于条件[7]。
+- 本课的mesh例子是无线网状网络的一种实现。mesh不局限于Wi-Fi，蓝牙同样有mesh网络规范[8]。
+- “Wi-Fi适合游牧、蜂窝适合高速移动”是课程比较框架，不表示Wi-Fi不支持切换或漫游。
+- 卫星移动性除了覆盖足迹，还与轨道、波束及切换策略有关；原讲述的大覆盖解释不是所有卫星系统的完整结论。
+- 课程中的80%/60%统计、6G时间判断及mesh起源故事均按修订稿翻译，本页未独立证实其统计口径或历史事实。
+- 开场人名、职务、混合语言和票务对话存在原修订稿已记录的不确定之处。特别是“82年”、HV Fellow及第27个源段落的英文保留语义不清。双语稿保留内容，不据语境创造一个确定的身份或事件；这些问题仍可在原修订稿和diff追溯。
+
+[5] 英特尔官方中文，融合5G与边缘计算：https://www.intel.cn/content/www/cn/zh/cloud-computing/integrating-5g-accelerate-transformation.html
+
+[6] CN113261340B原始专利文本（切换术语）：https://patentimages.storage.googleapis.com/32/e2/e1/01b9b91d43cca0/CN113261340B.pdf
+
+[7] Bluetooth SIG，蓝牙信道探测：https://www.bluetooth.com/zh-cn/learn-about-bluetooth/feature-enhancements/channel-sounding/
+
+[8] Bluetooth SIG，蓝牙网状网络入门指南：https://www.bluetooth.com/zh-cn/bluetooth-mesh-networking-primer/
