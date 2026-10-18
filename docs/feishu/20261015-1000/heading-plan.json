@@ -1,0 +1,822 @@
+[
+  {
+    "ordinal": 1,
+    "block_id": "doxcnnmhqe5WGIXKNusspqc5sNf",
+    "text": "原标说话人 1  00:00:00\n[Incidental Chinese conversation; wording uncertain.] The source transcript reads approximately: ‘These are all their problems. Maybe you are not good enough [unclear], and they single you out and scold you harshly. You eat their food and still curse their mothers.’\n【偶然录入的中文交谈；措辞不确定。】原始转写的措辞大约是：“这些都是他们的问题。也许是你不够好【不清楚】，他们就专门挑你一个人，狠狠地骂你。你吃他们的饭，还要骂他们的娘。”",
+    "timestamp": "00:00:00",
+    "text_sha256": "fe488e1bbdfbe9a648c54ee529bc99e1eebe0393d8a411955bd62c5a0406ed9b",
+    "heading": "01 · 00:00:00 · 偶然录入的中文交谈与措辞疑点",
+    "h1_before": "一、课前片段与传感器节点结构",
+    "anchor": "doxcnwwXIeQ1sUip7x2Gn95ER4b"
+  },
+  {
+    "ordinal": 2,
+    "block_id": "doxcnFdrw5aMaNEPAphC4cjYhPK",
+    "text": "原标说话人 1  00:00:13\nOkay, so let's go back to our scheme representing the architecture inside a sensor, a sensor node. So, we said that the sensing board will take care of sensing the physical field we are interested in. And then the samples that are collected are passed to the signal-processing unit, which will try to use the samples to reconstruct the physical field. That is, in principle, continuous and depends on time and spatial coordinates, right?\n好，那么我们回到表示一个传感器、一个传感器节点内部架构的示意图。所以，我们说过，传感板会负责感测我们感兴趣的物理场。然后，采集到的样本会被传递给信号处理单元，信号处理单元会尝试利用这些样本重建物理场。原则上，这个物理场是连续的，而且取决于时间和空间坐标，对吧？",
+    "timestamp": "00:00:13",
+    "text_sha256": "f5b94aa27b48b07ab77ce9e01fe2d02dc7c54185414c6db8c12dd834cf44d3be",
+    "heading": "02 · 00:00:13 · 回顾传感板与信号处理单元",
+    "h1_before": "",
+    "anchor": "doxcn5umfKMZoA6XjTouBa0qhue"
+  },
+  {
+    "ordinal": 3,
+    "block_id": "doxcnVnM5tj44Bt65Goa3mU8tVe",
+    "text": "原标说话人 1  00:01:05\nSo, in the example that we made before, this sensing board is there to sense temperature. So it senses the temperature, for example, every ten minutes, of course at the location where the sensor is located. And then it will send these values to the signal-processing block. And based on the reconstruction of the physical field that this block generates, it will then send the result, so this representation of the physical field, to this other block, where we can perform event detection. So, if there is a fire, for example, this is the block that will analyze the signal that has been reconstructed, the physical field that has been reconstructed. And if the temperature, for example, has gone up for a certain time, a hysteresis time [term uncertain], then this block may say, ‘Well, we may have a fire here,’ right? Okay, so then we have two options here. One is to send the fire alarm through the wireless interface towards the sink and eventually to the internet, right? And then, of course, there will be some application service that will call the fire engine and firemen, and they will take action. And we can also have a control function inside the sensor that immediately activates a so-called actuator. The actuator, in our example, can be a device that sprinkles chemicals to extinguish the fire. So, an actuator is a device inside this sensor node that may take some action based on what has been sensed and detected. Okay, there are different types of actuators depending, of course, on the type of sensor that we are considering. But in our example, the actuator would indeed be the device that sprinkles the chemicals in order to extinguish the fire if, at least within this block, we have detected a fire, okay? So this is how our, what we call a sensor node works, and how, and how, and what they are composed of. Now, our interest, of course, is mainly, in the following, in the ability of our sensor device to communicate with others and transfer information, right?\n所以，在我们之前举的例子中，这块传感板是用来感测温度的。因此，例如，它每十分钟感测一次温度，当然是在传感器所在的位置。然后，它会把这些数值发送给信号处理模块。然后，根据这个模块生成的物理场重建结果，它会把结果，也就是这个物理场的表示，发送给另一个模块，我们可以在那里进行事件检测。所以，例如，如果发生了火灾，这个模块就会分析已经重建的信号、已经重建的物理场。而且，例如，如果温度已经升高并持续了一定时间，也就是一个滞回时间【术语不确定】，那么这个模块可能会说：“嗯，我们这里可能发生火灾了。”对吧？好，那么接下来这里有两种选择。一种是通过无线接口把火灾警报发往汇聚节点，最终发往互联网，对吧？然后，当然，会有某种应用服务来呼叫消防车和消防员，他们就会采取行动。而且，我们也可以在传感器内部设置一个控制功能，立即启动所谓的执行器。在我们的例子中，执行器可以是一种喷洒化学药剂来扑灭火灾的装置。所以，执行器是这个传感器节点内部的一种装置，可以根据感测和检测到的情况采取某种行动。好，执行器有不同的类型，当然，取决于我们正在考虑哪种传感器。不过，在我们的例子中，执行器确实就是一种喷洒化学药剂来灭火的装置，前提是，至少在这个模块内部，我们已经检测到了一场火灾，好吗？所以，这就是我们的、我们所谓的传感器节点如何工作，以及如何、以及如何、以及它们由什么组成。现在，当然，接下来我们主要关注的是我们的传感器设备与其他设备通信和传递信息的能力，对吧？",
+    "timestamp": "00:01:05",
+    "text_sha256": "951f697fa1e1b2bd085d0624f38babe78c2288d9c0b08c46636ad6b3f1140d09",
+    "heading": "03 · 00:01:05 · 事件检测、告警传输与执行器控制",
+    "h1_before": "",
+    "anchor": "doxcn5a5AIf8rwq4e4wsLDS1Kac"
+  },
+  {
+    "ordinal": 4,
+    "block_id": "doxcnLRQB6AHGZMGdzxypub8FiQ",
+    "text": "原标说话人 1  00:05:03\nSo, about the wireless interface that we had in the previous picture here, right? We had the wireless interface. Let's say a few words more on that, because in sensor nodes we may have wireless interfaces of different types.\n那么，说到这里前一张图中的无线接口，对吧？我们有一个无线接口。我们再多说几句，因为在传感器节点中，我们可能有不同类型的无线接口。",
+    "timestamp": "00:05:03",
+    "text_sha256": "89786432102412f520a9a531d96b0f2d3b7baa5158459cf932e43a7b341ee2a8",
+    "heading": "04 · 00:05:03 · 传感器无线接口的不同类型",
+    "h1_before": "二、无线接口与低功耗节点特征",
+    "anchor": "doxcnr33tPtXdntta9cyXxS3L2e"
+  },
+  {
+    "ordinal": 5,
+    "block_id": "doxcnn3ujKu4I97XQW2LWIOBWBb",
+    "text": "原标说话人 1  00:05:31\nSo far, we have always considered the case where our communications were taking place through electromagnetic signals transmitted in the portion of the spectrum that is called radio frequencies. Okay. And a certain large portion of our spectrum is represented by these radio frequencies. But some sensors may also use infrared. So, when you see the red light that is emitted by a device, right? So those are infrared signals or optical signals that are transmitted essentially through a different portion of the spectrum. Now, the advantage of radio frequencies, and the reason why we, in our case, for wireless communication networks typically consider radio frequencies, is that, as we discussed already, signals transmitted at radio frequencies can also go over obstacles. They may get, of course, reflected, diffracted, but they go through, typically. Okay. Instead, infrared or optical signals need line of sight between transmitter and receiver.\n到目前为止，我们一直考虑这样一种情况：我们的通信通过电磁信号进行，这些信号在频谱中被称为射频的那一部分上传输。好。而且，我们频谱中相当大的一部分就是这些射频。但是，有些传感器也可能使用红外线。所以，当你看到设备发出的红光时，对吧？那么，这些就是红外信号或光信号，它们基本上是通过频谱中另一部分传输的。现在，射频的优势，以及在我们这里研究无线通信网络时通常考虑射频的原因，在于，正如我们已经讨论过的，以射频传输的信号也能够越过障碍物。当然，它们可能发生反射、衍射，但通常还是能够传播过去。好。相反，红外信号或光信号需要发射机和接收机之间有视距路径。",
+    "timestamp": "00:05:31",
+    "text_sha256": "c7faa22d0d6677582dae2611b98b9a7a1ed7ee35ad684b2f14c8ba0fda725889",
+    "heading": "05 · 00:05:31 · 射频与红外、光通信的传播差异",
+    "h1_before": "",
+    "anchor": "doxcnrCqsMjcfdYbFwceFJs2wPe"
+  },
+  {
+    "ordinal": 6,
+    "block_id": "doxcncTuPaSBIYLBT7Fw2k6lWgg",
+    "text": "原标说话人 1  00:07:16\nThat means that they work only if there is no obstacle. So that's a big disadvantage, right? That's why, also in sensors, typically we tend to use radio frequencies. Here we have a reference to one of the earliest experiments, and actually it was not just an experiment. It was a real-world deployment of a sensor network called Smart Dust that was done in the, in the United States. They actually wanted to monitor the desert area at the border between the US and Mexico, to monitor the immigrants from, immigrant flows from Mexico to the United States. And what they did was to launch and deploy from airplanes millions of these small sensors. That's why they call it Smart Dust, because each sensor was like a piece of dust, right? Very small. And each sensor actually had a camera. Okay, they were very small, but they had a camera. And through these millions of cameras that were also able to communicate with each other and transfer images, through multi-hop communication to a gateway towards the internet, they were able to monitor this large desert area on the border. So that was one of the first real-world deployments of large sensor networks. This is to say that our sensor networks may be, let's say, relatively small, including a few sensors or tens of sensors, up to networks that include millions of sensors. Okay, so they can be very, very large.\n这意味着，只有不存在障碍物时，它们才会工作。所以，这是一个很大的缺点，对吧？这就是为什么即使在传感器中，我们通常也倾向于使用射频。这里提到了最早的实验之一，而且实际上，它不只是一个实验。它是一个名为Smart Dust（智能微尘）的传感器网络的实际部署，是在、在美国进行的。他们实际上想监测美国和墨西哥边境的沙漠地区，监测来自、从墨西哥流向美国的移民流动。他们所做的，就是从飞机上投放和部署数百万个这样的微小传感器。这就是他们把它称为Smart Dust的原因，因为每个传感器都像一粒尘埃，对吧？非常小。而且，每个传感器实际上都有一个摄像头。好，它们很小，但它们有一个摄像头。而通过这数百万个摄像头，这些摄像头还能够彼此通信和传输图像，通过多跳通信把图像传到通向互联网的网关，他们就能够监测边境上这片广阔的沙漠地区。所以，这是大型传感器网络最早的实际部署之一。这是要说明，我们的传感器网络可以，说起来，相对较小，只包括几个传感器或几十个传感器，也可以大到包括数百万个传感器。好，所以，它们可以非常、非常大。",
+    "timestamp": "00:07:16",
+    "text_sha256": "61e45d8aeaeebc7268ce6d2279ba4b0ea83fbd4176078c49ddc16e00db9016b2",
+    "heading": "06 · 00:07:16 · 视距限制与Smart Dust课堂案例",
+    "h1_before": "",
+    "anchor": "doxcnCxsSiKDvHXmdIpJ6O106dh"
+  },
+  {
+    "ordinal": 7,
+    "block_id": "doxcnJDxoHJsRbg37dl5imb2Zoe",
+    "text": "原标说话人 1  00:09:50\nOkay, now here you see some typical values of coverage and data rate and transmission power for our sensors when we use an interface that employs radio frequencies for communication. Okay, that is the case on which we are going to focus. So, as you can see, the coverage, radio coverage of each sensor is typically short, small coverage with short range, between a few meters up to one hundred or one hundred and fifty meters, but often it is of the order of tens of meters. So each node has got a small coverage.\n好，现在这里可以看到，当我们使用一种采用射频进行通信的接口时，我们的传感器在覆盖范围、数据速率和发射功率方面的一些典型数值。好，这就是我们将要重点讨论的情况。所以，正如你们所见，每个传感器的覆盖范围、无线覆盖范围通常很短，覆盖范围小、距离短，从几米到一百米或一百五十米，但往往是几十米的数量级。所以，每个节点都有一个很小的覆盖范围。",
+    "timestamp": "00:09:50",
+    "text_sha256": "48e620486cafa9931abf8502894686945b081916bfa4d3ac58fe4a1e2fc5da18",
+    "heading": "07 · 00:09:50 · 射频传感器的典型覆盖距离",
+    "h1_before": "",
+    "anchor": "doxcnS5LKTYwYBk4WyT0YUL5YKf"
+  },
+  {
+    "ordinal": 8,
+    "block_id": "doxcng3v5v71b6ERWkFbn6UmV4f",
+    "text": "原标说话人 1  00:10:48\nWhy? Because we want to save power, so the transmission power needs to be low, because sensors are powered by batteries. These batteries are small, their capacity is very limited, and we want these batteries to last for a very long time. So, as we said, we want to reduce the power consumption as much as possible, and one way to do that is to keep the transmission power low.\n为什么？因为我们想节省功率，所以发射功率需要较低，因为传感器由电池供电。这些电池很小，它们的容量非常有限，而我们希望这些电池能持续使用很长时间。所以，正如我们说过的，我们希望尽可能降低功耗，而实现这一点的一种方法就是保持较低的发射功率。",
+    "timestamp": "00:10:48",
+    "text_sha256": "6dee03a3f9b7e7a91336e288ead597ea5613d2a49c2204ea2b64100bb76c7556",
+    "heading": "08 · 00:10:48 · 小电池与低发射功率要求",
+    "h1_before": "",
+    "anchor": "doxcnFBEcVFghbzuSiejjYZbxKq"
+  },
+  {
+    "ordinal": 9,
+    "block_id": "doxcn498YaXFL4xf47x2GEbKkjc",
+    "text": "原标说话人 1  00:11:23\nIf you transmit at low power, it means that you can have neighboring nodes that are only close by, right? And therefore your radio range is indeed limited. Also, as we said, these sensors typically operate at low speed, so they are able to transmit not many bits per second. And indeed, you can consider that the data rate, the speed at which they transmit bits, is typically, I mean, ranging from one up to five hundred kilobits per second. And the transmission power that they use is indeed very low, so it is of the order of one milliwatt; that means zero dBm. Just to give an idea, an access point can transmit up to one hundred milliwatts. Okay, so this is just one milliwatt, so much lower than a Wi-Fi access point. Okay, as we said, it is of fundamental importance that our sensors are small and cheap also. Okay, think of this Smart Dust deployment where they threw millions of these sensors. Clearly, that was affordable only because each sensor had a very low price, okay? Very, very cheap.\n如果你以较低功率发射，就意味着你的相邻节点只能在近处，对吧？因此，你的无线覆盖距离确实是有限的。另外，正如我们说过的，这些传感器通常以较低速率工作，所以它们每秒能够传输的比特并不多。而且，确实，可以认为数据速率，也就是它们传输比特的速度，通常，我是说，范围从每秒1千比特到500千比特。而且，它们使用的发射功率确实非常低，因此是1毫瓦的数量级；这意味着0 dBm。只是给大家一个概念，一个接入点的发射功率可以达到100毫瓦。好，所以这里仅仅是1毫瓦，因此比Wi-Fi接入点低得多。好，正如我们说过的，我们的传感器体积小，而且价格便宜，这一点至关重要。好，想想这次Smart Dust部署，他们投放了数百万个这样的传感器。显然，只有因为每个传感器的价格都很低，这样做才负担得起，好吗？非常、非常便宜。",
+    "timestamp": "00:11:23",
+    "text_sha256": "90f0342c2c6d738c463b1dbabe0caddb77a9ff2ebdabc8563dd55a30d0e658ee",
+    "heading": "09 · 00:11:23 · 低速率、毫瓦级功率及低成本",
+    "h1_before": "",
+    "anchor": "doxcnH3TgOQ80dbCv3JqtyKVKfb"
+  },
+  {
+    "ordinal": 10,
+    "block_id": "doxcnOl05963TElN7d4feLcmz3f",
+    "text": "原标说话人 1  00:13:10\nAnd just to give you a sense of how small they are, this is a sensor compared to one cent, okay? Just to give an idea of the size, of how small these sensors can be. Okay, that said, let's now look at the network of sensors as a system, so as a network system, and let's try to understand, at the level of the overall network, what the major characteristics are. Okay, so previously we looked at the single node, what a single sensor node is and what components it includes. Now we are looking at the network, okay, of sensors that are connected to each other. What can we say about it in general, about a network of sensors? Well, as already mentioned, the network may include many, many, many nodes, okay?\n而且，只是为了让你们感受一下它们有多小，这里是一个传感器与一枚一分硬币的比较，好吗？只是为了给大家一个关于尺寸的概念，了解这些传感器能够有多小。好，说完这些，现在我们把传感器网络看作一个系统，也就是一个网络系统，并尝试从整个网络的层面理解它有哪些主要特征。好，所以之前我们看的是单个节点，单个传感器节点是什么，以及它包括哪些组件。现在我们看的是网络，好吗，是由彼此连接的传感器组成的网络。对于它，对于一个传感器网络，我们总体上可以说些什么？嗯，正如已经提到过的，网络可能包括很多、很多、很多节点，好吗？",
+    "timestamp": "00:13:10",
+    "text_sha256": "927934c2503d81118338343513ac0161cb57859ac6b5c27f2987e02b72612002",
+    "heading": "10 · 00:13:10 · 从单节点尺寸转向传感器网络",
+    "h1_before": "三、汇聚流量、地址与时空标注",
+    "anchor": "doxcnwZO5SSsM1wPRXhKyGgDmse"
+  },
+  {
+    "ordinal": 11,
+    "block_id": "doxcnD6bCXXWOLcvmoCilEPSayq",
+    "text": "原标说话人 1  00:14:27\nMany sensors. Typically, as we said, there is a sink or gateway somewhere. So our sensor nodes are supposed to collect measurements, samples of the physical field, partially process, perhaps not always, but sometimes they process, as we said, these measurements locally within the sensor, and then they send an alarm towards the gateway. Or they can also send the raw data that they measure towards the gateway, and then the gateway will process the data.\n很多传感器。通常，正如我们说过的，在某个地方有一个汇聚节点或者网关。因此，我们的传感器节点应该采集测量值、物理场的样本，进行部分处理，也许不是总会处理，但有时候，正如我们说过的，它们会在传感器内部对这些测量值进行本地处理，然后把警报发送到网关。或者，它们也可以把自己测得的原始数据发送到网关，然后网关会处理这些数据。",
+    "timestamp": "00:14:27",
+    "text_sha256": "014225b671bf41b9af20abc7fcb561c544b892a741ace9a4d3d494eea0044dab",
+    "heading": "11 · 00:14:27 · 本地处理、原始测量与网关汇聚",
+    "h1_before": "",
+    "anchor": "doxcn2IUsUzbwAH79nIyeaJaVMd"
+  },
+  {
+    "ordinal": 12,
+    "block_id": "doxcnN9nUHzuykoKbf6Q6NwSHme",
+    "text": "原标说话人 1  00:15:18\nBut this means that, of course, we need the presence of a gateway node somewhere, okay, which is also called a sink. Why is it called a sink? Because, as we said, it is going to collect measurements or alarms from the sensors. So everything, let's say, goes into the sink, right, eventually. So this means that the type of traffic that is transferred over the sensor network is mostly asymmetric, going from the sensors towards the sink. So that is highly asymmetric, in the uplink direction, so from the sensors towards the sink, as we said.\n但这意味着，当然，我们需要在某个地方存在一个网关节点，好吗，它也叫汇聚节点，也就是sink。为什么叫sink呢？因为，正如我们说过的，它将收集来自传感器的测量值或警报。所以，可以这么说，一切最终都会进入这个汇聚节点，对吧？所以，这意味着，在传感器网络上传输的流量主要是不对称的，从传感器流向汇聚节点。因此，这高度不对称，是上行方向，也就是，正如我们说过的，从传感器流向汇聚节点。",
+    "timestamp": "00:15:18",
+    "text_sha256": "5be9f589793a96e8d2b0fe91856570856a1befebebf2d86d05dd937ff10e6c7e",
+    "heading": "12 · 00:15:18 · 以汇聚节点为中心的上行流量",
+    "h1_before": "",
+    "anchor": "doxcnzT1xALc081wed0NeLXpxib"
+  },
+  {
+    "ordinal": 13,
+    "block_id": "doxcnI7qMgwe7UOuSRy9AbnDmL0",
+    "text": "原标说话人 1  00:16:26\nPoint four. When a sensor network includes a large number of nodes, would it be practical to have, for example, at the network layer, where we have IP, the usual IP protocol where you have addresses, IP addresses? I guess you know what an IP address is, because all our interfaces have got an IP address. They are very large. IP addresses are very large, many bits, composed of many bits, okay? Why? Because you need to have a different address for each interface. So you need, of course, to distinguish across many, many interfaces, so you need large addresses, okay?\n第四点。当一个传感器网络包含大量节点时，例如，在网络层，也就是我们使用IP的那一层，采用通常的IP协议，其中有地址、IP地址，这样做实用吗？我想你们知道IP地址是什么，因为我们的所有接口都有一个IP地址。它们很大。IP地址很大，很多比特，由很多比特组成，好吗？为什么？因为每个接口都需要有一个不同的地址。所以，当然，你需要区分很多、很多接口，因此你需要很大的地址，好吗？",
+    "timestamp": "00:16:26",
+    "text_sha256": "d819343fc6280b0802660a77750f2d6f24419a0e93eb62026a6a20f85802c339",
+    "heading": "13 · 00:16:26 · 大量节点的地址长度问题",
+    "h1_before": "",
+    "anchor": "doxcnUrGIbWfsnA3jiluLZKNUDe"
+  },
+  {
+    "ordinal": 14,
+    "block_id": "doxcnogeS59bBVcBXGqOf1y1mJf",
+    "text": "原标说话人 1  00:17:36\nNow, in a sensor network with millions of nodes, if you consider standard IP addressing, it would mean that for each, for example, temperature measurement that we said might be just one byte, you have a very large address for the source and the destination, because IP addresses are composed of several bytes. So that would be highly inefficient, right? Because, to transmit a packet that includes one byte of temperature value, just considering the header of the packet at the network layer, where we have IP, you would have IP addresses for the source and the destination that are huge compared to the payload, to the useful information. So that would be highly inefficient, too much overhead. You don't want that. So, in sensor networks, we usually use a different way to format the nodes' addresses.\n现在，在一个有数百万节点的传感器网络中，如果你考虑采用标准IP寻址，这就意味着，对于每一次，例如，我们说过可能只有一个字节的温度测量，都需要很大的源地址和目的地址，因为IP地址由若干个字节组成。所以，这样会非常低效，对吧？因为，为了传输一个包含一字节温度值的分组，仅仅考虑网络层的分组头部，也就是我们使用IP的那一层，你就会有源IP地址和目的IP地址，相对于载荷、相对于有用信息而言，它们非常大。所以，这样会非常低效，开销太多。你不会希望这样。因此，在传感器网络中，我们通常用一种不同的方式来构造节点的地址。",
+    "timestamp": "00:17:36",
+    "text_sha256": "c2e60d49781d0ac2ea079ef9e2d27f41d193b2dcf2292f6bc86667378468f6b4",
+    "heading": "14 · 00:17:36 · 短载荷中IP地址造成的开销",
+    "h1_before": "",
+    "anchor": "doxcnKOygX4JwttkGKBLZ1SjCgh"
+  },
+  {
+    "ordinal": 15,
+    "block_id": "doxcnnyIj9hL1MdoSu97aVF9bhc",
+    "text": "原标说话人 1  00:19:05\nThat is, these addresses are made in a different way, and we try to have few bits for the source and destination address, because otherwise the overhead would be overwhelming. Fifth point: this is something that we are not going to address, but it is good to know that, in a sensor network, it is very important to have some functions that allow us to provide synchronization among the nodes of the network, and also some functions that allow the nodes to self-localize within the network. So each node needs to have a sense of time and geographical position. Why? Because we said our sensors are going to measure a physical field, right? Collect measurements, collect samples, and each measurement needs to be associated with the sensor's geographical coordinates and also the time, right, at which the sample, the measurement, was taken. So each sensor needs to have a sense of time and geographical position, where it is. Otherwise, it cannot label the collected measurements correctly.\n也就是说，这些地址以一种不同的方式构造，我们尽量让源地址和目的地址只占少量比特，因为否则开销就会大得难以承受。第五点：这是我们不打算讨论的内容，但了解这一点是有益的：在传感器网络中，具有一些能够让我们为网络节点之间提供同步的功能，以及一些能够让节点在网络内自行定位的功能，非常重要。因此，每个节点都需要有时间概念和地理位置概念。为什么？因为我们说过，我们的传感器将测量一个物理场，对吧？采集测量值，采集样本，而且每个测量值都需要关联传感器的地理坐标，还需要关联采集这个样本、这个测量值时的时间，对吧？所以，每个传感器都需要有时间概念和地理位置概念，知道自己在哪里。否则，它就无法正确标注所采集的测量值。",
+    "timestamp": "00:19:05",
+    "text_sha256": "3d86ec3a9f9936c2e3ed5a31b89f4803edc08e6e5e50654457d472b20f1f0d4b",
+    "heading": "15 · 00:19:05 · 短地址、时钟同步与自定位",
+    "h1_before": "",
+    "anchor": "doxcnmAYNcjd4VreF6L8uLPYtlh"
+  },
+  {
+    "ordinal": 16,
+    "block_id": "doxcn1fa6O01ewubcehYlOknbwc",
+    "text": "原标说话人 1  00:21:08\nOkay, so these are the five points that we need to consider when talking about a sensor network. And then let's mention some of the applications of the, of the sensor networks. We mentioned already that they are used to monitor an environment like a park, for fire detection, for example. They are also used for landslide detection, where we may have areas where the probability of slides is not negligible. We have sensors in the terrain, and they measure the movement of the soil in order to detect the risk of a slide. They are often used in parks to monitor animals. So you may have also noticed that on animals' ears, sometimes deer and so on, they have got this chip, kind of chip on the ear, that typically also includes a sensor to monitor where they move and where they go and so on. They are also used to monitor marine life, so in oceans, lakes and so on.\n好，所以，这就是我们谈论传感器网络时需要考虑的五点。接下来，我们提一下这些、这些传感器网络的一些应用。我们已经提到过，它们用于监测公园这样的环境，例如用于火灾检测。它们也用于滑坡检测，在一些区域，滑坡的概率可能不可忽略。我们在地面中放置传感器，它们测量土壤的移动，以检测滑坡风险。它们经常用于公园里监测动物。所以，你们也可能注意到，动物的耳朵上，有时候是鹿等等，它们耳朵上有这个芯片、类似芯片的东西，其中通常也包含一个传感器，用来监测它们向哪里移动、去了哪里，等等。它们也用于监测海洋生物，也就是在海洋、湖泊等等地方。",
+    "timestamp": "00:21:08",
+    "text_sha256": "a6054ab563e4b63189badf0719681453c9e9ddda5fd21c09ac8cc563f2f02f2b",
+    "heading": "16 · 00:21:08 · 环境监测、滑坡与动物追踪应用",
+    "h1_before": "四、传感器应用与商用产品",
+    "anchor": "doxcnJtBBggBQ1OAnv5qdRx8jXg"
+  },
+  {
+    "ordinal": 17,
+    "block_id": "doxcnHN9oDDPfo1eMUXqXF1ZMsf",
+    "text": "原标说话人 1  00:22:45\nVery important, they are used, really, we use them actually every day in buildings, right? When you enter a room and the room lights up, it is because there are sensors that actually detect your presence, and then the light is turned on. For domestic applications, turning on and off, for example, the heating system, the air conditioning, etcetera. They are also used, very importantly, to monitor the risk of earthquakes, and this is done in buildings as well as in the terrain. We have video surveillance in many, many places. Vehicles, of course, cars nowadays are full of sensors. Almost all the new cars have got so many sensors that help the vehicle to perceive the surroundings, and then, for autonomous driving, of course, these data are used to control the vehicle. And also very important, another important application is smart grids, right, the electricity grid. They measure the status of the grid, and this is used to control the generation and distribution of electricity.\n非常重要的是，它们被使用，真的，我们实际上每天都会在建筑物中使用它们，对吧？当你进入一个房间，房间的灯亮起来，这是因为有传感器确实检测到了你的存在，然后灯就被打开了。对于家庭应用，例如打开和关闭供暖系统、空调等等。它们也用于，而且非常重要地用于监测地震风险，而这既在建筑物内进行，也在地面中进行。我们在很多、很多地方都有视频监控。车辆方面，当然，如今汽车里满是传感器。几乎所有新车都有如此多的传感器，帮助车辆感知周围环境，然后，对于自动驾驶，当然，这些数据被用于控制车辆。而且，同样非常重要的，另一个重要应用是智能电网，对吧，就是电力网络。它们测量电网的状态，而这被用来控制电力的生产和分配。",
+    "timestamp": "00:22:45",
+    "text_sha256": "252c9c8d128a87592a24e2c4cefe9ba038efe0e7be20d5449b93833367473cf7",
+    "heading": "17 · 00:22:45 · 楼宇、车辆与智能电网中的传感器",
+    "h1_before": "",
+    "anchor": "doxcnY8z7t6QS6dnyUIn8I9HGgg"
+  },
+  {
+    "ordinal": 18,
+    "block_id": "doxcnSjRXtLw98QiTFQUaEUEjOd",
+    "text": "原标说话人 1  00:24:28\nThis is also extremely important for having an electrical grid that works properly and in a reliable manner. It is also an enabler of the use of alternative energy sources. For example, whenever you have grids that integrate energy that is produced from the wind, or waterfalls, or solar panels, right? All these alternative energy sources, they are used to produce energy. But, as you may know, when we harvest energy from the environment, so wind, solar irradiation, etcetera, water, these sources of energy may not always be available. For example, solar panels clearly get irradiation only during daylight, right? So it is very important to control the use of these sources properly, because one needs to take into account that they might be available, for example, when it is windy, right, or when there is daylight. Or, if it is cloudy or a sunny day, the amount of energy that can be generated from a solar panel changes.\n这对于拥有一个正常、可靠运行的电网也极其重要。它也是使用替代能源的一个促成条件。例如，每当你的电网接入由风、瀑布或者太阳能板产生的能源时，对吧？所有这些替代能源，它们都被用于生产能源。但正如你们可能知道的，当我们从环境中获取能量时，也就是风、太阳辐射等等、水，这些能量来源可能并不总是可用的。例如，太阳能板显然只有在白天才能接收到太阳辐射，对吧？所以，恰当地控制这些能源的使用非常重要，因为需要考虑到，它们可能在例如刮风时可用，对吧，或者在有日照时可用。或者，如果是阴天或晴天，一块太阳能板能够产生的能量多少会发生变化。",
+    "timestamp": "00:24:28",
+    "text_sha256": "b75b1044101f0f42ad5a325ab24820f9cf741c96f431cd32703c285eecc1058c",
+    "heading": "18 · 00:24:28 · 可再生能源变化与电网控制需求",
+    "h1_before": "",
+    "anchor": "doxcnBTE7KkP0Qjm3koPMIfAYlh"
+  },
+  {
+    "ordinal": 19,
+    "block_id": "doxcnxbvm3WYEAG1Y9sa3TjQK8c",
+    "text": "原标说话人 1  00:26:14\nSo it is very important to carefully control the system in order to use these alternative sources of energy at their best and not risk that, for example, you are depleted and you don't get enough energy, or that you get too much energy [the negation is uncertain in both transcripts]. Okay, it is really a matter of carefully controlling the amount of energy that can be made available through these alternative sources. And for that, you need an efficient sensor network that helps you to measure things, and then, using these data, you can control the system. So this is a very important application. So here you have some pictures referring to the applications that we have, we have mentioned. One that I would also like to specify is when we said, for example, marine monitoring in oceans, or seas, or lakes and so on. Well, what they do is indeed to monitor the presence of these microorganisms in the water. And this is very important to preserve marine life, for example, and also for us to check on the quality of the water reservoirs. And another important application is also monitoring the soil, the quality of the soil, because the soil may get contaminated by chemicals.\n所以，仔细控制系统非常重要，这样才能尽可能充分地利用这些替代能源，而且不冒这样的风险：例如，能源耗尽，无法获得足够的能量，或者获得过多的能量【两份转写中的否定关系都不确定】。好，这确实是一个需要仔细控制通过这些替代能源能够提供多少能量的问题。而为此，你需要一个高效的传感器网络，帮助你测量各种情况，然后利用这些数据，你就可以控制系统。所以，这是一个非常重要的应用。所以，这里有一些图片，与我们已经、我们已经提到的应用有关。我还想具体说明的一个应用，是我们之前说过的，例如海洋、海域或者湖泊等等地方的海洋监测。嗯，它们所做的确实是监测水中这些微生物的存在。而且，这对于例如保护海洋生物非常重要，也有助于我们检查水库的水质。而另一个重要应用也是监测土壤、土壤的质量，因为土壤可能受到化学物质污染。",
+    "timestamp": "00:26:14",
+    "text_sha256": "ee255280e7fc2583e9c999d86e25e551ee8fd495af788d8375efe199124a3c90",
+    "heading": "19 · 00:26:14 · 能源调节、水质与土壤监测",
+    "h1_before": "",
+    "anchor": "doxcnb4eSVlPONxoYOUJRGw5qLc"
+  },
+  {
+    "ordinal": 20,
+    "block_id": "doxcnaI2P4GgIRyDfWQn2iG2Glb",
+    "text": "原标说话人 1  00:28:09\nAnd, of course, this is a kind of pollution that may be harmful to people, to human beings. So it is important to check on the quality of the soil, because then, when you let crops grow in the soil, if the soil is contaminated, of course the chemicals go into the vegetables that are grown there, and then we will absorb the chemicals. So it is very important to control the quality of that, and sensor networks allow us to do that as well.\n而且，当然，这是一种可能对人、对人类有害的污染。因此，检查土壤质量很重要，因为接下来，当你让作物在土壤中生长时，如果土壤受到污染，当然，这些化学物质就会进入在那里生长的蔬菜中，然后我们就会吸收这些化学物质。所以，控制其质量非常重要，而传感器网络也使我们能够做到这一点。",
+    "timestamp": "00:28:09",
+    "text_sha256": "3e3b07cef0d2ba0fc110f0629b0d08f7a99126546a2f46c6b3eba8fee1842e29",
+    "heading": "20 · 00:28:09 · 土壤污染与作物质量监控",
+    "h1_before": "",
+    "anchor": "doxcnfteTD5PDV9uMVBjwtEmCQh"
+  },
+  {
+    "ordinal": 21,
+    "block_id": "doxcnLOUZFtQT2D4JAuDxejoxAb",
+    "text": "原标说话人 1  00:28:46\nOkay, so this is just an example that refers to how important sensor networks actually are. It is related to the application that I mentioned, the smart grid, monitoring the production of energy through alternative sources. And it was, let's say, a big event in, in Europe last year, 2025, in Spain. Spain is a country that is actually very close to Italy. We do not share any, any border, because in the middle there is France, where Paris is, but we are very close to Spain. And actually Italian and Spanish are two languages that are very, very similar to each other. And even if I don't know any Spanish, if there is someone speaking Spanish, I can understand, and the other person will understand me if I speak Italian, because the two languages are so close that if I speak slowly and the other person speaks slowly, even if we are speaking two different languages, we are able to understand each other. Just to say how close our culture is between Italy and, and Spain.\n好，所以，这只是一个例子，说明传感器网络实际上有多重要。它与我提到的那个应用有关，也就是智能电网，监测通过替代能源进行的能源生产。而那是，可以这么说，去年，也就是2025年，在、在欧洲的西班牙发生的一件大事。西班牙这个国家实际上离意大利很近。我们没有任何、任何共同边界，因为中间隔着法国，巴黎就在法国，但我们离西班牙很近。而且，实际上，意大利语和西班牙语是两种非常、非常相似的语言。而且，即使我完全不会西班牙语，如果有人说西班牙语，我也能够理解；如果我说意大利语，对方也会理解我，因为这两种语言如此接近，只要我说得慢，对方也说得慢，即使我们说着两种不同的语言，我们也能够互相理解。只是为了说明意大利和、和西班牙之间，我们的文化有多接近。",
+    "timestamp": "00:28:46",
+    "text_sha256": "70bc1b11349911de903bf83c7063278613953602004d60961b931d14a67beb62",
+    "heading": "21 · 00:28:46 · 西班牙电网案例与背景介绍",
+    "h1_before": "",
+    "anchor": "doxcnanDqgHXwXtPtpOBuSv1mIe"
+  },
+  {
+    "ordinal": 22,
+    "block_id": "doxcn0jJpecj0f5EURNlO9UMxJh",
+    "text": "原标说话人 1  00:30:18\nThat said, we had this huge power shortage in, in Spain in April 2025. That means that actually everything was shut down in Spain, and people could not connect to the cellular network. The internet was not working, so there was no way to communicate in certain areas of Spain for two days, okay? So think about, you know, what you do with your phone daily, and, and think of not having essentially the possibility to use your phone for anything for two days. Okay, so probably you just decide to stay home on the bed, do nothing.\n说完这些，2025年4月，在、在西班牙，我们遇到了这次巨大的电力短缺。这意味着，实际上，西班牙的一切都关闭了，人们无法连接蜂窝网络。互联网不能工作，所以西班牙的某些地区连续两天都没有办法通信，好吗？所以，想想，你们知道的，你们每天用手机做什么，而且、而且想想，连续两天基本上没有可能用手机做任何事情。好，所以你大概就会决定待在家里，躺在床上，什么都不做。",
+    "timestamp": "00:30:18",
+    "text_sha256": "b2a4aa67ede9c60026562cd5d930882948ca93afa9138a140e3d37e3f7676066",
+    "heading": "22 · 00:30:18 · 课堂描述的西班牙停电影响",
+    "h1_before": "",
+    "anchor": "doxcnHIqNlTQtD5CpPtJvFTljXb"
+  },
+  {
+    "ordinal": 23,
+    "block_id": "doxcnEtj48pfvDLW63Xg7zz2sUf",
+    "text": "原标说话人 1  00:31:16\nBut it was huge, right? Because of the economy, of course, people and so on, the whole country was actually blocked, completely blocked for two days. They also had consequences in nearby countries, France and Portugal. They are the two countries with which Spain shares a border. But the main problem was, was in Spain, and the problem was due to the temporal variation in photovoltaic energy generation. So the problem was actually that they didn't have sufficiently good control of the smart grid in place, and there was a sudden surge in photovoltaic energy production, which is performed through solar panels. So it was not because the panels were producing too low an energy level. It was the opposite, because the panels actually produced too much energy. The system was not able to handle all this photovoltaic energy that was generated, and crashed. And that caused essentially a crash of the system in the country. Okay, so just to say how important it is to control, to monitor these physical phenomena, and then, of course, use the data to actually control the system, the energy distribution.\n但这件事影响很大，对吧？因为经济，当然，还有人们等等，整个国家实际上被阻滞了，完全被阻滞了两天。他们也给附近的国家、法国和葡萄牙带来了影响。它们是与西班牙接壤的两个国家。但主要问题是、是在西班牙，而且这个问题是由光伏发电随时间的变化造成的。所以，实际问题是，他们没有建立起足够好的智能电网控制，而且光伏能源生产突然激增，光伏能源是通过太阳能板生产的。因此，这并不是因为太阳能板产生的能量水平太低。恰恰相反，是因为太阳能板实际上产生了过多的能量。系统无法处理所有这些产生的光伏电能，于是崩溃了。而这基本上导致了这个国家系统的崩溃。好，所以只是为了说明，控制、监测这些物理现象有多么重要，然后，当然，利用这些数据来实际控制系统、控制能源分配。",
+    "timestamp": "00:31:16",
+    "text_sha256": "3fbbdc63d6804233c5a7a3140b1f90df3f10815bb22964957ad07fdd1c0a4d13",
+    "heading": "23 · 00:31:16 · 课堂对停电原因与监测意义的解释",
+    "h1_before": "",
+    "anchor": "doxcngKUBdBA9ktqKWzd4ikCzic"
+  },
+  {
+    "ordinal": 24,
+    "block_id": "doxcn3dk1VbjK7CsYUyMIkIKIAf",
+    "text": "原标说话人 1  00:33:14\nOkay, that said, here we have the representation of a possible commercial product. Okay, so this is a sensor that one can find on the market. It is actually quite a complex node; it is not the simplest one that one can, can find. But I am mentioning this in particular because this node, referred to as apparently ‘Waspmote’ [product name uncertain], this sensor product originated from a sensor node that was developed at a university in the, in the US. So it is something that has come out of essentially scientific research. Okay, so initially they were just trying to develop the technology, and the university was Berkeley University. And they transferred this knowledge into technology and into a product, okay, eventually into a product, and then it became a commercial product available on the market.\n好，说完这些，这里展示了一种可能的商业产品。好，所以，这是一个可以在市场上找到的传感器。它实际上是一个相当复杂的节点；它不是能够、能够找到的最简单的节点。但我特别提到这个，是因为这个节点，似乎被称为“Waspmote”【产品名称不确定】，这个传感器产品源于在、在美国一所大学开发的一个传感器节点。因此，它基本上是科学研究产生的成果。好，所以起初他们只是尝试开发这项技术，而那所大学是伯克利大学。而且，他们把这些知识转化为技术、转化为一个产品，好，最终转化为一个产品，然后它变成了一个可以在市场上买到的商业产品。",
+    "timestamp": "00:33:14",
+    "text_sha256": "d88cd9937ddf6721f51926040bccd4d7c9821c51a1220cd903e7adc770c726db",
+    "heading": "24 · 00:33:14 · 科研成果转化为商用传感器实例",
+    "h1_before": "",
+    "anchor": "doxcnc6BNaCFiKX1Xz1fex8J9ig"
+  },
+  {
+    "ordinal": 25,
+    "block_id": "doxcntnLjHcsjHYZv4pimNvM49d",
+    "text": "原标说话人 1  00:34:38\nSo, as I was saying, this is an example of a sensor node that is actually quite a powerful sensor node, because it comes equipped with different interfaces, so it is not one of those simple sensors. For example, besides the IEEE protocol that we are going to explain, how it works for sensor connectivity at low power and low data rate, it also has a 4G cellular interface. It has got GPS, it has got Bluetooth, it has got Wi-Fi, so it is actually quite a complex product. However, it is also equipped with a mechanism to go to deep sleep, right?\n所以，正如我刚才说的，这是一个传感器节点的例子，它实际上是一个功能相当强的传感器节点，因为它配备了不同的接口，因此它不是那种简单的传感器之一。例如，除了我们将要解释的IEEE协议，也就是解释它如何为低功耗、低数据速率的传感器连接而工作之外，它还具有一个4G蜂窝接口。它有GPS，它有蓝牙，它有Wi-Fi，所以它实际上是一个相当复杂的产品。不过，它也配备了一种进入深度睡眠的机制，对吧？",
+    "timestamp": "00:34:38",
+    "text_sha256": "3bf4cd6ef10ee4312bf46c0bf592f2fe0615f49e910103cfcaaec1cab17bc4bc",
+    "heading": "25 · 00:34:38 · 多种通信接口与深睡眠能力",
+    "h1_before": "",
+    "anchor": "doxcnelY2n0MXHdhqjUIf4NPwYd"
+  },
+  {
+    "ordinal": 26,
+    "block_id": "doxcnaF8weWrZa0EgJF8G02p8Nf",
+    "text": "原标说话人 1  00:35:39\nThis emphasizes the ability of this product to go into hibernate mode. Hibernate mode means really it cannot do anything; it consumes essentially almost, almost nothing, right? And then it has got a more shallow, even if still deep, sleep mode where it consumes a little bit more, but still its consumption is very much reduced. And then you also have here the different coverages that you are able to achieve, because why is it so large? This is the maximum. Why so large? Because we also have Wi-Fi and 4G as possible wireless interfaces, okay? So if you use those interfaces, clearly, if you use cellular, you can go over several kilometers. So that is why we have those. And it comes with several sensing boards. So, as I was saying, this is quite a complex node. For a sensor, it doesn't have only one sensing board, but multiple.\n这里强调了这个产品进入休眠模式的能力。休眠模式意味着它真的什么也不能做；它基本上几乎、几乎不消耗任何能量，对吧？然后，它还有一种较浅的睡眠模式，尽管仍然是深度睡眠，在这种模式下它消耗的能量稍多一点，但其消耗仍然大大降低。另外，你们在这里还可以看到能够实现的不同覆盖范围，因为，为什么覆盖范围这么大呢？这是最大值。为什么这么大？因为我们也有Wi-Fi和4G作为可选的无线接口，好吗？所以，如果你使用这些接口，显然，如果你使用蜂窝接口，就可以覆盖几公里。因此，这就是我们有这些范围的原因。而且，它配备了几块传感板。所以，正如我刚才说的，这是一个相当复杂的节点。作为一个传感器，它不只有一块传感板，而是有多块。",
+    "timestamp": "00:35:39",
+    "text_sha256": "2c31def874877f6e9fcb575b674292eaea6c33e078436abfaa2306cce2949d51",
+    "heading": "26 · 00:35:39 · 休眠模式、覆盖距离与多传感板",
+    "h1_before": "",
+    "anchor": "doxcnfekWphslspOSJ9AiyA1Emf"
+  },
+  {
+    "ordinal": 27,
+    "block_id": "doxcnIjBbKe8dHdSPu3m04oXaic",
+    "text": "原标说话人 1  00:37:01\nFor example, we have one sensing board to sense the presence of gases, one to sense temperature, one to sense the liquid level, the weight, pressure, humidity, luminosity, accelerometer, soil moisture, solar radiation. So you have many sensing boards on the same node, okay, because this is indeed quite, quite complex.\n例如，我们有一块传感板用于感测气体的存在，一块用于感测温度，一块用于感测液位、重量、压力、湿度、光照强度、加速度计、土壤湿度、太阳辐射。所以，同一个节点上有许多传感板，好吗，因为它确实相当、相当复杂。",
+    "timestamp": "00:37:01",
+    "text_sha256": "5fa69a9dc8eddb3afa083ab5d81e6096345d8f9f23b0810b7382d23e90d1b224",
+    "heading": "27 · 00:37:01 · 商用节点可测量的多类物理量",
+    "h1_before": "",
+    "anchor": "doxcnqSuIrxAprvxYdGt1jM84qb"
+  },
+  {
+    "ordinal": 28,
+    "block_id": "doxcn948Wmco6pUCs80yKdCdvwc",
+    "text": "原标说话人 1  00:37:31\nOkay, now this is the representation of the sensor-network scenario that we are going to consider in the following. So, after this introduction, we will now get into more, let's say, technical aspects, and this will be our reference picture. Okay, so for what follows, let's consider that we have a sensor network composed of many sensor nodes.\n好，现在这张图表示我们接下来将要考虑的传感器网络场景。所以，在这段介绍之后，我们现在将进入更为，可以这么说，技术性的方面，而且这将是我们的参考图。好，所以对于接下来的内容，我们假设有一个由许多传感器节点组成的传感器网络。",
+    "timestamp": "00:37:31",
+    "text_sha256": "676e38c1671aac92ce3a0e26ede744b308f1073bf2eab6ddd9a921cdb578cb07",
+    "heading": "28 · 00:37:31 · 建立后续技术分析的参考场景",
+    "h1_before": "五、参考网络场景与专用协议栈",
+    "anchor": "doxcnAXmzol9CHi1Fgcg5LOgyVc"
+  },
+  {
+    "ordinal": 29,
+    "block_id": "doxcngYggdlb2fTrbB4FWA5ci9c",
+    "text": "原标说话人 1  00:38:14\nThe sensor nodes can communicate with each other through radio-frequency communication links. And they can communicate with each other using the multi-hop communication approach. Some of them are connected directly with the sink, which is this node that eventually gets whatever the sensors transmit, right?\n传感器节点可以通过射频通信链路相互通信。而且，它们可以采用多跳通信方法相互通信。其中一些节点直接连接到汇聚节点，也就是这个最终接收传感器所发送的一切内容的节点，对吧？",
+    "timestamp": "00:38:14",
+    "text_sha256": "7b0e1dcc9a788769a17f54678973d69fe029a240b956ea16bccedb7bf2e0c0c1",
+    "heading": "29 · 00:38:14 · 射频多跳通信与直接连接汇聚节点",
+    "h1_before": "",
+    "anchor": "doxcnpYeceNK3j1sRY0fskdp7lg"
+  },
+  {
+    "ordinal": 30,
+    "block_id": "doxcnI3nvwu4s6Vo9Q8ByRHBnnf",
+    "text": "原标说话人 1  00:38:47\nAnd the sink is also, in itself, a gateway towards, for example, the internet, okay? Now, as mentioned, our nodes, the nodes that we are going to consider, are simple sensors with limited energy capability. And they have, in general, limited capability, so they are going to be low-power and low-data-rate nodes. Okay, what else? Mainly, as already mentioned, the traffic will flow from the sensors towards the sink. So, as we said, it is highly asymmetric, and it is mostly in the uplink direction.\n而且，汇聚节点本身也是一个通往例如互联网的网关，好吗？现在，正如提到过的，我们的节点，我们将要考虑的这些节点，是具有有限能源能力的简单传感器。而且，总体而言，它们的能力有限，因此它们将是低功耗、低数据速率的节点。好，还有什么？主要是，正如已经提到过的，流量将从传感器流向汇聚节点。因此，正如我们说过的，它高度不对称，而且主要是上行方向。",
+    "timestamp": "00:38:47",
+    "text_sha256": "ee4fad395e564965bbc2dcf59f6b3834692cea6270002619265e7ef6256489d5",
+    "heading": "30 · 00:38:47 · 低功耗低速率节点及上行业务",
+    "h1_before": "",
+    "anchor": "doxcncbwzONk8KIEcOK38vdWVqj"
+  },
+  {
+    "ordinal": 31,
+    "block_id": "doxcn291ziELEo30FA7VKb1hK6c",
+    "text": "原标说话人 1  00:39:46\nOf course, we might also have some data, information that needs to be sent from the sink to the sensors, so in the downlink, in the opposite direction, but typically this is very, very little. Mainly, a sink will send control information from time to time to the nodes, to the sensor nodes. That means commands, instructions, but the useful data will be from the sensors towards the sink.\n当然，我们也可能有一些数据、信息需要从汇聚节点发送到传感器，也就是下行，沿相反方向，但通常这种流量非常、非常少。汇聚节点主要会不时地向节点、向传感器节点发送控制信息。也就是命令、指令，但有用数据将从传感器流向汇聚节点。",
+    "timestamp": "00:39:46",
+    "text_sha256": "658c8be4f86a14566a115e4ecf4ca258518f48ba5c18eb22eb9bcc8bbf41eeec",
+    "heading": "31 · 00:39:46 · 下行控制信息与上行测量数据",
+    "h1_before": "",
+    "anchor": "doxcnsSjcZxYrEE8FqQNKiBIUSe"
+  },
+  {
+    "ordinal": 32,
+    "block_id": "doxcnEKaoEwyJrJ3ohPINYKHmZd",
+    "text": "原标说话人 1  00:40:35\nOkay, and again, in general this is going to be, let's say, our protocol stack, software stack inside each sensor node, right? There we had the more general one; this is specifically for our sensors, where, of course, we have the physical layer, where we can consider that the physical communication takes place, when we have to send signals over the radio channel or receive signals coming from the radio channel. The sensing board can be considered to operate at this level. The actuator also operates at this level. Then, on top of it, we have the MAC, and we know already what the MAC does. But, as we said, in sensors it is also important to get a sense of time and a sense of geographical position, right?\n好，而且，再说一次，总体上，这将是，可以这么说，我们在每个传感器节点内部的协议栈、软件栈，对吧？在那里我们有一个更通用的协议栈；这个则是专门针对我们的传感器的，当然，其中有物理层，我们可以认为物理通信在这一层发生，也就是当我们需要通过无线信道发送信号，或接收从无线信道到来的信号时。可以认为传感板在这个层次上工作。执行器也在这个层次上工作。然后，在它上面，我们有MAC层，而且我们已经知道MAC做什么。但是，正如我们说过的，在传感器中，获得时间概念和地理位置概念也很重要，对吧？",
+    "timestamp": "00:40:35",
+    "text_sha256": "73a48c40f9d396776b3611715be6d8d18f5eef90c6c28ed9518dd46e3536605d",
+    "heading": "32 · 00:40:35 · 传感器协议栈与物理层功能",
+    "h1_before": "",
+    "anchor": "doxcnNuUrET78cSPE7jHMvIPaJe"
+  },
+  {
+    "ordinal": 33,
+    "block_id": "doxcnIvaepH1Rj2ZQ869kbIM37c",
+    "text": "原标说话人 1  00:41:46\nSo the functions, the software functions that provide the sensor with a time reference and the geographical position, are typically implemented here, at this layer, okay? And then we have the network layer, where we have the routing functions. We know that already, okay? Besides routing, typically in sensors at this level, that is the network layer, we also have some algorithms to manage the fact that, in our network, some nodes may go to sleep. So our network topology changes, right, may change over time. In sensor networks specifically, not just because nodes may move or communication links may get disrupted, may fail, but also because our nodes may just go to sleep. And when they go to sleep, they are like ghosts, right? They are not there anymore. They cannot transmit, they cannot receive. So the network topology now changes for one more reason, that is the possibility that our nodes go to sleep.\n所以，这些功能，这些为传感器提供时间基准和地理位置的软件功能，通常在这里、在这一层实现，好吗？然后，我们有网络层，路由功能位于这一层。我们已经知道这一点，好吗？除了路由，通常，在传感器的这个层次上，也就是网络层，我们还具有一些算法，用来处理我们的网络中有些节点可能进入睡眠这一情况。因此，我们的网络拓扑会变化，对吧，可能随时间变化。具体到传感器网络，这不只是因为节点可能移动，或通信链路可能中断、可能失效，还因为我们的节点可能直接进入睡眠。而当它们进入睡眠时，它们就像幽灵，对吧？它们就不在那里了。它们不能发送，它们不能接收。所以，现在网络拓扑变化又多了一个原因，那就是我们的节点可能进入睡眠。",
+    "timestamp": "00:41:46",
+    "text_sha256": "5d32fcf5303c2d77b779c679150dd0ce5fd8cc07129cea8ed88097372e28e519",
+    "heading": "33 · 00:41:46 · 时间定位功能与休眠引起的拓扑变化",
+    "h1_before": "",
+    "anchor": "doxcnoeG9WUrSxHpCm8HnVU7Gbf"
+  },
+  {
+    "ordinal": 34,
+    "block_id": "doxcnDxLqCScMp8NqtVpePqmOQg",
+    "text": "原标说话人 1  00:43:28\nSo, typically, at the network layer we also have some techniques that help our nodes adjust to these dynamically changing topologies, okay? That is something that is also implemented at the network layer, along with the routing functions.\n所以，通常，在网络层，我们也具有一些技术，帮助我们的节点适应这些动态变化的拓扑，好吗？这也是与路由功能一起在网络层实现的内容。",
+    "timestamp": "00:43:28",
+    "text_sha256": "603c2a185e5b6ec61eabc71001c70715c230c7134f0a8ddb9526bd3eaf2bfcd3",
+    "heading": "34 · 00:43:28 · 网络层的路由与拓扑适应",
+    "h1_before": "",
+    "anchor": "doxcnzR6rm3iS9190PuUFWRWVZg"
+  },
+  {
+    "ordinal": 35,
+    "block_id": "doxcnOzrOjYKC2qOXxrOtJDnYAf",
+    "text": "原标说话人 1  00:43:54\nOkay, so this representation essentially specifies the general stack of functions that we have in a generic communication node, in the case of sensors. So we see that, at every layer, we have some additional, right, function that is specific to sensors. And then on top of that, we have additional layers, software layers that take care of other aspects, okay, that would map into that in the general scheme.\n好，所以，这个表示基本上把我们在一般通信节点中具有的通用功能栈，具体化到了传感器的情况。因此，我们看到，在每一层，我们都有一些额外的，对吧，专门针对传感器的功能。然后，在这上面，我们还有额外的层、软件层，负责处理其他方面，好吗，它们会对应到通用示意图中的那个部分。",
+    "timestamp": "00:43:54",
+    "text_sha256": "adb40645bb751cdb11411ebc9d690bdc5c18013953ba25a8aea6d12c9ec3b470",
+    "heading": "35 · 00:43:54 · 各层针对传感器增加专用功能",
+    "h1_before": "",
+    "anchor": "doxcnkkXLE7F5XRjIXXljEc6aUf"
+  },
+  {
+    "ordinal": 36,
+    "block_id": "doxcnjbzTzKLlChnQ4UEFwZe6Pb",
+    "text": "原标说话人 1  00:44:40\nSo, for example, there are functions to cache the measurements of the sensor, to perform queries, to aggregate data, to interact with external databases. There might be many other functions at the higher layers that are essentially here to handle the data, right? Because sensor networks are all about collecting and processing data. So, on top of the network layer, where we have routing and topology adaptation, there are other functions that help us to handle these data.\n所以，例如，有些功能用于缓存传感器的测量值，执行查询，聚合数据，与外部数据库交互。在高层可能还有许多其他功能，它们在这里基本上是为了处理数据，对吧？因为传感器网络所做的就是收集和处理数据。所以，在具有路由和拓扑适应功能的网络层之上，还有其他帮助我们处理这些数据的功能。",
+    "timestamp": "00:44:40",
+    "text_sha256": "fa3586cbb3424a5ef35cd88ab3f760945590b35debf30256f9f47dea8956effb",
+    "heading": "36 · 00:44:40 · 高层缓存、查询和数据聚合",
+    "h1_before": "",
+    "anchor": "doxcnK41DVjxDFPW6Htvk0oNIIh"
+  },
+  {
+    "ordinal": 37,
+    "block_id": "doxcn20FDkbK150g2jwJ8flxvke",
+    "text": "原标说话人 1  00:45:24\nOkay, so with that, we are now ready for the five-minute break, and then we will come back. By the way, as I agreed with some colleagues of yours, it would be good if you collect a list of questions or points that you would like to review, so that we can discuss those points again or answer questions tomorrow. So there will be at least a first batch of doubts and questions that we can process tomorrow. And then, we said, we are going to have a second session on Tuesday before the test, okay? So if you can please collect these questions, doubts or points that you would like to review, then tomorrow morning we will do that during the class, okay? [Incidental Chinese conversation, uncertain wording:] ‘It is just asking everyone to raise some questions, write something. Something is happening today.’\n好，那么说到这里，我们现在准备休息五分钟，然后我们会回来。顺便说一下，正如我和你们的几位同学约定的，如果你们能够整理一份问题清单，或者希望复习的要点清单，那会很好，这样我们明天就可以再次讨论那些要点，或者回答问题。因此，至少会有第一批疑惑和问题，我们明天可以处理。然后，我们说过，我们将在考试之前的周二再安排第二次答疑，好吗？所以，能否请你们收集这些问题、疑惑或者你们希望复习的要点，然后明天上午我们就在课堂上处理这些，好吗？【偶然录入的中文交谈，措辞不确定：】“就是让大家提出一些问题，写点东西。今天有事情。”",
+    "timestamp": "00:45:24",
+    "text_sha256": "6d66f9cc34b9c9289b268e1ae7b31496e3d3430079a4a54aeb46f85a58f06b73",
+    "heading": "37 · 00:45:24 · 休息安排与两次考前答疑提醒",
+    "h1_before": "",
+    "anchor": "doxcnIRRnfyC70P6GS8pFRXWsQc"
+  },
+  {
+    "ordinal": 38,
+    "block_id": "doxcnMTlp2kPdfnphYugskpplvg",
+    "text": "原标说话人 1  00:49:44\n[Incidental Chinese conversation.] ‘This…’ [The fragment is incomplete.]\n【偶然录入的中文交谈。】“这个……”【这个片段不完整。】",
+    "timestamp": "00:49:44",
+    "text_sha256": "cf2383cb60803680497b3044c583915708fd533db539d1161372dde1d12a8388",
+    "heading": "38 · 00:49:44 · 课间不完整中文片段",
+    "h1_before": "",
+    "anchor": "doxcnddN99lrdDui0LlqCvBtZge"
+  },
+  {
+    "ordinal": 39,
+    "block_id": "doxcnaXXdVJdFnQb6K0xuTybXhc",
+    "text": "原标说话人 1  00:49:56\n[Incidental Chinese conversation; wording unclear.] The source reads, ‘What bytes?’ The independent recognition gives incompatible surrounding words, so the sentence cannot be reliably resolved.\n【偶然录入的中文交谈；措辞不清。】原始文字写的是：“什么字节？”独立识别给出了不相容的上下文词语，因此无法可靠地确定这句话。",
+    "timestamp": "00:49:56",
+    "text_sha256": "c34c6a387852217a8436c0aace7bdd44b18e6739502bb8cec147ab9102ad411f",
+    "heading": "39 · 00:49:56 · 关于字节的模糊课间短句",
+    "h1_before": "",
+    "anchor": "doxcni4RtvVdxUqU92McRkbDq8e"
+  },
+  {
+    "ordinal": 40,
+    "block_id": "doxcnUsgpzLOmzZCljFlq67OTKg",
+    "text": "原标说话人 1  00:51:08\nOkay, so let's go back to our slides for the last part. As mentioned, we look at sensors, in particular focusing on the MAC layer. So we continue essentially what we looked at while considering Wi-Fi, right? Channel access will be our, our first focus here, and then next week we are going to talk instead about routing, okay? That will hold for both Wi-Fi and also, actually, sensor networks.\n好，那么我们回到幻灯片，进行最后一部分。正如提到过的，我们研究传感器，尤其重点关注MAC层。因此，我们基本上是在继续之前考虑Wi-Fi时研究的内容，对吧？信道接入将是我们、我们在这里的第一个重点，然后下周我们将转而讨论路由，好吗？那将同时适用于Wi-Fi，而且实际上，也适用于传感器网络。",
+    "timestamp": "00:51:08",
+    "text_sha256": "79e4dc87d4afeb1d78a235b3156977bf4cf746d511a8899b6a5796195ec1d834",
+    "heading": "40 · 00:51:08 · 先研究MAC再转向路由",
+    "h1_before": "六、传感器MAC的设计要求",
+    "anchor": "doxcnpGbFknp3FooNdc3x2Mp0ue"
+  },
+  {
+    "ordinal": 41,
+    "block_id": "doxcnH50rrTJXTBhJQXsvGVN7Pf",
+    "text": "原标说话人 1  00:51:54\nBut before that, this week we will try instead to finish with the MAC, presenting now the channel-access schemes that are used in sensor networks. Before looking at the channel-access scheme foreseen by the standard for low-power, low-data-rate nodes that we already mentioned, IEEE 802.15.4, let's talk about MAC channel access in general for sensor networks, right? Because the standard, the IEEE standard that we mentioned, is in particular for sensors that are low-power, low-data-rate, simple devices. But it is good, before going into the details of that scheme, to look more generally, right, at general concepts regarding channel access in sensor networks. Now, remember what we said before? In general, in device-to-device communication networks, we need distributed algorithms, right? There is no central node that tells everyone what to do. The nodes make their own decisions. So that holds also for channel access.\n但在那之前，这一周我们将先尝试完成MAC部分，现在介绍传感器网络中使用的信道接入方案。在研究我们已经提到的、针对低功耗、低数据速率节点的标准IEEE 802.15.4所规定的信道接入方案之前，我们先一般性地谈谈传感器网络的MAC信道接入，对吧？因为这个标准，我们提到的这个IEEE标准，尤其针对低功耗、低数据速率的简单传感器设备。但在深入那个方案的细节之前，更一般地，对吧，看看关于传感器网络中信道接入的一般概念，是有益的。现在，还记得我们之前说过什么吗？总体而言，在设备到设备通信网络中，我们需要分布式算法，对吧？没有一个中心节点告诉所有节点应该做什么。节点自行作出决定。因此，这也适用于信道接入。",
+    "timestamp": "00:51:54",
+    "text_sha256": "107b6519709c4a8e8345b61043308cb9b59c8a3f3067e9dd1140e8b9ad7912f3",
+    "heading": "41 · 00:51:54 · IEEE 802.15.4与分布式信道接入",
+    "h1_before": "",
+    "anchor": "doxcnmVFTmfeFY705JvVPONasQh"
+  },
+  {
+    "ordinal": 42,
+    "block_id": "doxcnJPhUHvQtuU50IEUQbmJONh",
+    "text": "原标说话人 1  00:53:40\nWe need schemes where each node, each single node, needs to observe the channel and decide when to access, based on what this node observes and independently of the others, okay? So a very good, typically a very good strategy would be to design a protocol, a MAC protocol that, in spite of the fact that we have this distributed approach, is able to avoid collisions.\n我们需要这样的方案：每个节点，每一个单独的节点，都需要观察信道，并根据这个节点观察到的情况，独立于其他节点，决定什么时候接入，好吗？所以，一个非常好的、通常来说非常好的策略，会是设计一种协议，一种MAC协议，它尽管采用了这种分布式方法，却仍然能够避免碰撞。",
+    "timestamp": "00:53:40",
+    "text_sha256": "90ad72978b53f3521d0227ee55958b8dcaf2940c3da3d6441bae8077ca774329",
+    "heading": "42 · 00:53:40 · 节点独立观察信道并决定接入",
+    "h1_before": "",
+    "anchor": "doxcnpPJ83lXeWZp8zA7xXFklec"
+  },
+  {
+    "ordinal": 43,
+    "block_id": "doxcnrDsNcnWlEYJC97DWxDUJ0g",
+    "text": "原标说话人 1  00:54:27\nRight? So we want to avoid the case where multiple nodes start transmitting at the same time and their transmissions may cause a collision at the receiver. That is something that we want to avoid here. And it is particularly important to do so when we apply distributed channel-access schemes, okay? Because in that case, indeed, different nodes, since they make decisions independently, may decide to access at the same time.\n对吧？所以，我们想避免这样的情况：多个节点同时开始发送，而它们的发送可能会在接收端造成碰撞。这是我们在这里想要避免的事情。而当我们采用分布式信道接入方案时，做到这一点尤其重要，好吗？因为在那种情况下，的确，不同节点由于独立作出决定，可能会决定在同一时刻接入。",
+    "timestamp": "00:54:27",
+    "text_sha256": "c29a400b1e054ebb9498eb28b38215172594d515b65a05f729ca8601aa6644d5",
+    "heading": "43 · 00:54:27 · 独立决策下的同时发送碰撞",
+    "h1_before": "",
+    "anchor": "doxcn0xzYhWRE1537vb2zj99qJb"
+  },
+  {
+    "ordinal": 44,
+    "block_id": "doxcn2DRSElYT1LIdEZ0nlJvUhe",
+    "text": "原标说话人 1  00:55:09\nSo it is important to avoid that. The other very important thing to do is to be energy-efficient, as we said, so reduce energy consumption as much as possible. And the third thing that is important to do is to design a scheme that is scalable and adaptive. Why? Scalable means that our scheme should work well as the number of sensors in the network increases. Indeed, we mentioned that our sensor networks may include even millions of nodes. So it is important that we design schemes that can also handle this large number of nodes. So we say that the scheme needs to scale well with the number of nodes, of sensors.\n所以，避免这种情况很重要。另一件非常重要的事情，是像我们说过的那样做到节能，也就是尽可能减少能量消耗。第三件重要的事情，是设计一种具有可扩展性和自适应能力的方案。为什么？可扩展的意思是，随着网络中传感器数量的增加，我们的方案应该仍然能够良好地工作。确实，我们提到过，我们的传感器网络甚至可能包含数百万个节点。所以，重要的是，我们设计的方案也能够处理这样大量的节点。因此，我们说，这个方案需要能够随着节点数量、传感器数量的增加而良好地扩展。",
+    "timestamp": "00:55:09",
+    "text_sha256": "38dbac6f49d3260a16d755f9c2090e0ab5f2230a748c6400dce6fc135ec147a6",
+    "heading": "44 · 00:55:09 · 节能目标与节点数量可扩展性",
+    "h1_before": "",
+    "anchor": "doxcn2q9kK09Eo6O0eLQtA9Eztd"
+  },
+  {
+    "ordinal": 45,
+    "block_id": "doxcnC1kZTsN4WjOt1Wbuv2OMgh",
+    "text": "原标说话人 1  00:56:14\nAnd, as we said, the scheme needs to, to be able to adapt. To what? To changes in the network topology, okay? Because, as we said, due to many reasons, now also the fact that our nodes may go to sleep, the network topology may change. So a node that was there, right, that was a neighbor, at a certain point may not be available anymore. The neighbor may disappear because it has gone to sleep, so we need to account for that. Also, we need to use radio resources wisely. They are precious, as we know. So we need to utilize the channel, the wireless channel, efficiently.\n而且，正如我们说过的，这个方案需要、需要能够适应。适应什么？适应网络拓扑的变化，好吗？因为，正如我们说过的，由于许多原因，现在还包括我们的节点可能会进入睡眠这一事实，网络拓扑可能会发生变化。所以，一个原本在那里的节点，对吧，一个原本是邻居的节点，到某个时候可能就不再可用了。这个邻居可能会消失，因为它进入了睡眠，所以我们需要把这一点考虑进去。另外，我们需要明智地使用无线电资源。我们知道，这些资源是宝贵的。所以，我们需要高效地利用信道，利用无线信道。",
+    "timestamp": "00:56:14",
+    "text_sha256": "5b9b33f012693d37d8470862cf1d4ca13a7decf62014d15b1cd489097a017061",
+    "heading": "45 · 00:56:14 · 适应休眠拓扑并高效利用信道",
+    "h1_before": "",
+    "anchor": "doxcnxQWnHfmxeM46htMtgAHFCf"
+  },
+  {
+    "ordinal": 46,
+    "block_id": "doxcnZIc80nD1iEvfGoxr3wMR6B",
+    "text": "原标说话人 1  00:57:08\nAnd then, depending on the application, that really depends on the application, we may need to guarantee low latency, low delay. This is important, for example, when you may need to control the movement of a robot or the flight of a drone or a UAV. Those are the kinds of applications that really need low latency. Or when you use sensors to support virtual reality, also in that case you really need very, very low latency. So whenever you have to collect data to support these kinds of applications, it is very important that the measurements you collect are delivered with very low latency. Other applications, like fire monitoring, well, if the temperature value arrives earlier or later, it doesn't matter, right? [The numerical delays are uncertain: the source transcript says ‘one millisecond’, then ‘ten minutes’ and ‘thirty minutes’; the independent ASR says ‘one second’, then ‘ten milliseconds’ and ‘thirty milliseconds’.] Whatever, you don't really care. So it is more delay-tolerant.\n然后，取决于应用，这确实取决于应用，我们可能需要保证低时延、低延迟。例如，当你可能需要控制机器人的运动，或者控制无人机或无人驾驶飞行器的飞行时，这一点就很重要。这些就是确实需要低时延的那类应用。或者，当你使用传感器来支持虚拟现实时，在那种情况下，你同样确实需要非常、非常低的时延。所以，只要你必须采集数据来支持这类应用，有一点就非常重要，那就是，你采集到的测量值要以非常低的时延送达。其他应用，比如火灾监测，嗯，如果温度值早一点或者晚一点到达，并没有关系，对吧？【具体延迟数值不确定：原转写说的是“1毫秒”，然后是“10分钟”和“30分钟”；独立ASR说的是“1秒”，然后是“10毫秒”和“30毫秒”。】不管怎样，你并不真的在意。所以，它对延迟的容忍度更高。",
+    "timestamp": "00:57:08",
+    "text_sha256": "67bdf7147438b5f0af5ffea10c27e272c6edd4cb1d0864b12a4ab48c587b5986",
+    "heading": "46 · 00:57:08 · 应用场景决定低时延要求",
+    "h1_before": "",
+    "anchor": "doxcn4XM2uKpohRbjh9jPUUjqke"
+  },
+  {
+    "ordinal": 47,
+    "block_id": "doxcnfwaayzdTZG4Czc66fSUAue",
+    "text": "原标说话人 1  00:58:35\nBut there are applications that instead require very low latency. So it depends on the application that you need to support. Throughput, that is the amount of data that nodes may need to be able to transfer per second, again depends on the application. As we said, if you need to send temperature values, those are just, for example, one byte every ten minutes. Very low. But instead, in virtual reality, you may need to use, for example, video traffic, so, so in that case the data rate needs to be higher. So again, depending on the application, these are requirements that may be there or, or not.\n但是，也有一些应用反而要求非常低的时延。所以，这取决于你需要支持的应用。吞吐量，也就是节点每秒可能需要能够传输的数据量，同样取决于应用。正如我们说过的，如果你需要发送温度值，那些数据就只是，例如，每十分钟一个字节。非常低。但是，反过来，在虚拟现实中，你可能需要使用，例如，视频流量，所以，所以在那种情况下，数据速率就需要更高。所以，再说一遍，取决于应用，这些要求可能存在，也可能、也可能不存在。",
+    "timestamp": "00:58:35",
+    "text_sha256": "3e706e659ceb9f77147559985f5ffc3ea0dcfb6b4031566b94370f8845460d8e",
+    "heading": "47 · 00:58:35 · 温度采样与视频业务的吞吐量差异",
+    "h1_before": "",
+    "anchor": "doxcnbM13CKVlTl3LnsF4HOyele"
+  },
+  {
+    "ordinal": 48,
+    "block_id": "doxcnVa8MEwSbVEeFfoGisUm24c",
+    "text": "原标说话人 1  00:59:26\nIn general, however, it is always good to be fair, right? As we commented, Wi-Fi channel access had this goal of being fair to all nodes. Also in this case, we want to give our sensors the same opportunity to transmit their data and transfer their data. So being fair is important. Okay, now looking in particular at energy consumption, which is one of the important aspects, right, attributes that we would like our channel-access scheme to have, as we already said, but let me clarify this further. Within a sensor node, we consume power because of the different components that are inside the node. For example, the sensing board itself, when it senses the physical field, consumes some power, of course.\n不过，一般来说，做到公平总是好的，对吧？正如我们讨论过的，Wi-Fi信道接入有这样一个目标，就是对所有节点公平。在这个情况下，我们也想给我们的传感器同样的机会，让它们发送自己的数据、传输自己的数据。所以，做到公平很重要。好，现在具体来看能量消耗，这是其中一个重要的方面，对吧，是我们希望信道接入方案具有的属性，正如我们已经说过的，不过让我再把这一点解释得更清楚一些。在一个传感器节点内，我们会消耗功率，是因为节点内部有各种不同的组件。例如，传感板本身在感测物理场时，当然会消耗一些功率。",
+    "timestamp": "00:59:26",
+    "text_sha256": "3f984bd10661846c51fa21788e90e60ec3e1cfa173dd4ef2eb5630271502e558",
+    "heading": "48 · 00:59:26 · 公平接入与节点组件能耗",
+    "h1_before": "七、接口能耗与接入策略分类",
+    "anchor": "doxcnq1qOaLD6DZmm7eIwVmcKDc"
+  },
+  {
+    "ordinal": 49,
+    "block_id": "doxcnFygIwWt26pV9PmAqimbqrs",
+    "text": "原标说话人 1  01:00:38\nWe typically have a CPU, of course, to make it work, and the CPU may, of course, consume power. And then we have the radio interface, right? The radio interface consumes power as well. How much power depends on what the interface is doing. So, if it transmits, you will have the power consumption of the transceiver plus the power that is radiated, right, the transmit power that we radiate to transmit the signal. When it receives, it is a little bit lower, because we only have the power consumption of the transceiver, but we don't have to radiate any signal; we are receiving in that case. When it is idle, if it needs to sense the channel, then it is going to consume something, right? And the consumption is essentially the same as that of the receiver; typically, it is comparable. If we put our interface into sleep mode, then, of course, we are not able to transmit or receive, but the power consumption of the interface will drop significantly.\n通常，我们当然会有一个CPU，来让它工作，而这个CPU当然可能会消耗功率。然后，我们还有无线电接口，对吧？无线电接口也会消耗功率。消耗多少功率，取决于这个接口在做什么。所以，如果它在发送，那么你就会有收发器的功耗，再加上辐射出去的功率，对吧，也就是我们为了发送信号而辐射出去的发射功率。当它在接收时，功耗会低一点，因为我们只有收发器的功耗，却不必辐射任何信号；在那种情况下，我们是在接收。当它空闲时，如果它需要感测信道，那么它也会有所消耗，对吧？而这种消耗基本上与接收器的消耗相同；通常，两者是相当的。如果我们把接口置于睡眠模式，那么，我们当然就不能发送或接收了，但是接口的功耗会显著下降。",
+    "timestamp": "01:00:38",
+    "text_sha256": "71b3c41abdf93b4f519b9bdbb148cbe3b68f50a51d9885c2726900e049cae78b",
+    "heading": "49 · 01:00:38 · CPU及无线接口不同状态的功耗",
+    "h1_before": "",
+    "anchor": "doxcncWXOpq4ooyS0Vztd7d5UDc"
+  },
+  {
+    "ordinal": 50,
+    "block_id": "doxcniGtyUbU8NBWA8mhAuKELnb",
+    "text": "原标说话人 1  01:02:02\nSo it is in our interest, in order to save energy, power, to put the interface into sleep mode as often as possible. And also it is, of course, important not to keep it active unless it is necessary. In particular, it would be great if we could reduce the time spent by the interface in idle mode. Why? Because when you transmit, you are doing something useful, right? You are transmitting data. When you receive data, useful data that is intended for you, that is also useful.\n所以，为了节省能量、功率，尽可能频繁地把接口置于睡眠模式，是对我们有利的。而且，当然，除非有必要，否则不要让它保持活动状态，这一点也很重要。特别是，如果我们能够减少接口处于空闲模式的时间，那就很好。为什么？因为当你发送时，你在做有用的事情，对吧？你在发送数据。当你接收数据，接收发给你的有用数据时，那也是有用的。",
+    "timestamp": "01:02:02",
+    "text_sha256": "755d790059d70de487e581b5affe50ba3d67f084cde9905c0a44cdd18f49d995",
+    "heading": "50 · 01:02:02 · 尽量休眠并减少接口空闲时间",
+    "h1_before": "",
+    "anchor": "doxcnM3LjVOYIMmAkOaNC6oPiUg"
+  },
+  {
+    "ordinal": 51,
+    "block_id": "doxcnHF5Gq6sqLhiOyWFdfYnae1",
+    "text": "原标说话人 1  01:03:00\nBut being idle means that you are doing nothing and you still consume a lot of power. That is something that you would like to avoid, right? So one of our goals would be to reduce the time that the interface spends in idle mode. Also, it would be very good, of course, to avoid collisions, to avoid overhead; we know that already. But it would also be very good to avoid so-called overhearing. What does overhearing mean? It is when you hear someone else talking, like when, for example, you demodulate the header. So, in that case, those packets are not intended for you. You are not the intended receiver, but you still overhear those packets and demodulate the header, right?\n但是，处于空闲状态意味着你什么都没做，却仍然消耗大量功率。这是你想要避免的事情，对吧？所以，我们的一个目标会是，减少接口处于空闲模式的时间。另外，当然，能够避免碰撞、避免开销也会非常好；这一点我们已经知道了。但是，能够避免所谓的旁听，也会非常好。旁听是什么意思？就是你听到别人在讲话，比如说，例如，你解调首部的时候。所以，在那种情况下，那些分组并不是发给你的。你不是预定的接收者，但是你仍然旁听了那些分组，并且解调了首部，对吧？",
+    "timestamp": "01:03:00",
+    "text_sha256": "4c2acf688865f0f127dcce32b6b4a69695f072c1915b000f8834a4c1d7617d44",
+    "heading": "51 · 01:03:00 · 空闲侦听、碰撞、开销与旁听",
+    "h1_before": "",
+    "anchor": "doxcnQZjM1DwPOhGp9op29cZavh"
+  },
+  {
+    "ordinal": 52,
+    "block_id": "doxcnkgv1gofcbdoDVf4BEG9dUe",
+    "text": "原标说话人 1  01:04:05\nSo that is something that you would like to avoid, because it is a cost, but you are not actually the intended receiver of that data packet. So, if possible, it would be good to avoid it. So those will be the aspects on which we try to act. Our channel-access scheme should be designed to avoid all those inefficiencies. Let's say some of them, some inefficiencies, were also in Wi-Fi; we know that already. But here we really want to solve those points. And, as I said, we want to reduce the time spent in idle time. That was not one of the goals of Wi-Fi, right? In Wi-Fi they were always there, sensing the channel, and Wi-Fi doesn't care about that. Okay, now, even if we are going to focus on, as I said, the channel-access scheme specified by the IEEE standard, we must be aware of the fact that there are many, many different channel-access schemes for sensor networks, okay? And there might be sensor products, commercial products available on the market, that implement their own channel-access scheme as a proprietary solution. So, before understanding how the one specified by the IEEE standard works, let's provide examples of strategies that are also used by proprietary solutions for sensor networks, okay? Now, there are two main strategies that can be applied for channel access in sensor networks. One is schedule-based, and the other one is contention-based. The access scheme specified by the IEEE standard for sensors falls into this family, the contention-based family.\n所以，这是你想要避免的事情，因为它会带来成本，可你实际上并不是那个数据分组预定的接收者。所以，如果可能的话，能够避免它会很好。因此，这些就是我们尝试着手处理的方面。我们的信道接入方案应该被设计成能够避免所有这些低效之处。可以说，其中有些，有些低效之处，在Wi-Fi中也存在；这一点我们已经知道了。但是，在这里，我们确实想解决这些问题。而且，正如我说过的，我们想减少处于空闲状态的时间。这并不是Wi-Fi的目标之一，对吧？在Wi-Fi中，它们始终都在那里，感测着信道，而Wi-Fi并不在意这一点。好，现在，即使我们接下来要重点关注的，正如我说过的，是IEEE标准规定的信道接入方案，我们也必须知道这样一个事实：传感器网络有很多、很多种不同的信道接入方案，好吗？而且，市场上可能会有一些传感器产品，一些商业产品，它们实现了自己的信道接入方案，作为一种专有解决方案。所以，在理解IEEE标准规定的那个方案如何工作之前，我们先举一些策略的例子，这些策略也被传感器网络的专有解决方案采用，好吗？现在，可以用于传感器网络信道接入的主要策略有两种。一种是基于调度的，另一种是基于竞争的。IEEE针对传感器规定的接入方案属于这一类，基于竞争的这一类。",
+    "timestamp": "01:04:05",
+    "text_sha256": "648e93dc3cc8a3ccc83e3271c2114bff4ea640defb0de4ba58f6636e378c23f7",
+    "heading": "52 · 01:04:05 · 避免低效并区分调度与竞争接入",
+    "h1_before": "",
+    "anchor": "doxcnet3cb5DzrJxyNy4KCLT27d"
+  },
+  {
+    "ordinal": 53,
+    "block_id": "doxcnPgvdWfWHoIwDFz3ir2Zjgf",
+    "text": "原标说话人 1  01:06:39\nIt is going to be a type of algorithm and protocol that is contention-based [opening wording uncertain]. Let me, however, give you an example of a scheme that has been proposed and implemented; it is very, very famous, and instead falls into this first family of schemes, okay, of strategies, the schedule-based family. It is called LEACH. If you Google LEACH, you will find it. There are thousands of documents that you can find, more, hundreds of thousands of documents on, on LEACH. And, as I was saying, many proprietary solutions for sensor channel access are based on, on, on this LEACH.\n它将是一种基于竞争的算法和协议【开头措辞不确定】。不过，让我给你们举一个已经被提出并实现的方案的例子；它非常、非常有名，而且它反而属于第一类方案，好吗，第一类策略，也就是基于调度的这一类。它叫作LEACH。如果你用Google搜索LEACH，你就会找到它。你能找到数千份文档，还要更多，数十万份关于、关于LEACH的文档。而且，正如我刚才说的，许多用于传感器信道接入的专有解决方案都是基于、基于、基于这个LEACH的。",
+    "timestamp": "01:06:39",
+    "text_sha256": "efed6c18988e100ab78baa8510479c3992b47beff790eb954af39625ba26b92b",
+    "heading": "53 · 01:06:39 · 以LEACH介绍基于调度的方案",
+    "h1_before": "八、LEACH的TDMA与CDMA机制",
+    "anchor": "doxcnhuyIe8chBcM9kaE9eCfyPh"
+  },
+  {
+    "ordinal": 54,
+    "block_id": "doxcnG3i3EepaALs9RC92FmIjKb",
+    "text": "原标说话人 1  01:07:57\nOh, okay, so LEACH. It is important at least to get an idea of how this works. LEACH is an acronym that stands for Low-Energy Adaptive Clustering Hierarchy. Now the main point here is that we consider sensor-network topologies that are cluster-based. Remember that the cluster-based topology was one of those that we said, along with the flat and the tree ones, is among the most widely used, okay? So imagine that we had groups, clusters of nodes. And, for example, let's consider two clusters. This is cluster one, this is cluster two. In each cluster, we have, let's see here, in each cluster we have a cluster head. This is the cluster head for cluster one, and this is the cluster head for cluster two. And then we have some ordinary nodes, right? Remember this topology? So we had the ordinary nodes in each cluster that can communicate with the cluster head, right? So let's say that this belongs to this.\n哦，好，那么，LEACH。至少对它如何工作有一个大致的了解，这一点很重要。LEACH是一个首字母缩写，代表Low-Energy Adaptive Clustering Hierarchy，也就是低能耗自适应分簇层次结构。现在，这里的主要之处在于，我们考虑的是基于簇的传感器网络拓扑。还记得吗，基于簇的拓扑是我们说过的那些拓扑之一，它和扁平拓扑、树形拓扑一起，属于使用最广泛的拓扑，好吗？所以，想象我们有一些组，一些节点组成的簇。而且，例如，让我们考虑两个簇。这是簇一，这是簇二。在每个簇中，我们有，让我们看这里，在每个簇中，我们都有一个簇头。这是簇一的簇头，而这是簇二的簇头。然后，我们还有一些普通节点，对吧？记得这个拓扑吗？所以，我们在每个簇中有这些普通节点，它们能够与簇头通信，对吧？那么，我们就说这个属于这个。",
+    "timestamp": "01:07:57",
+    "text_sha256": "ae1fc275fc02a1cd1c2aa33fc917e5e7bfcbdc819065183d1dc7b312cc383739",
+    "heading": "54 · 01:07:57 · LEACH含义与分簇网络拓扑",
+    "h1_before": "",
+    "anchor": "doxcnQB908ayEf1rGaSkkhw5pTe"
+  },
+  {
+    "ordinal": 55,
+    "block_id": "doxcn9h2pSdZ5BVYnO6Sx3P7OMh",
+    "text": "原标说话人 1  01:10:02\nThis was the cluster-based topology. Okay, so when we apply LEACH, we consider that our network has got this kind of topology. LEACH can be applied when we have this kind of topology. And what LEACH does is to say: within each cluster, the nodes, the ordinary nodes, communicate with the cluster head using time-division multiple access.\n这就是基于簇的拓扑。好，所以，当我们应用LEACH时，我们认为我们的网络具有这种拓扑。当我们有这种拓扑时，就可以应用LEACH。而LEACH的做法就是说：在每个簇内，节点，也就是普通节点，使用时分多址与簇头通信。",
+    "timestamp": "01:10:02",
+    "text_sha256": "1fa7cf85f18cba6a9477565b3fc3f0512ca451293d5e9ad0d81f6138669a09fa",
+    "heading": "55 · 01:10:02 · 簇内使用TDMA与簇头通信",
+    "h1_before": "",
+    "anchor": "doxcnY35MUa3OttJTPaWwYWz45d"
+  },
+  {
+    "ordinal": 56,
+    "block_id": "doxcn9GZn2C1o6pVFuPJHQlSTlc",
+    "text": "原标说话人 1  01:10:51\nWhat does it mean? It means that they will all use the same frequency channel, okay? So the same frequencies, all of them use the same frequencies. And how do you separate transmissions from the sensors to the cluster head so that they do not collide? Well, you consider that time is divided into time slots, and then you assign a time slot to each sensor. So this is, for example, time slot one, and it is assigned to sensor one. Time slot two is assigned to sensor three. Time slot three is assigned to sensor five. Okay, okay, each sensor has got its own time slot. So this is a possible assignment.\n这是什么意思？意思是，它们都会使用同一个频率信道，好吗？也就是说，相同的频率，它们所有节点都使用相同的频率。那么，你如何把从传感器到簇头的各次发送分隔开来，使它们不会碰撞呢？嗯，你考虑把时间划分为时隙，然后给每个传感器分配一个时隙。所以，例如，这是时隙一，它被分配给传感器一。时隙二被分配给传感器三。时隙三被分配给传感器五。好，好，每个传感器都有它自己的时隙。所以，这是一种可能的分配方式。",
+    "timestamp": "01:10:51",
+    "text_sha256": "32209298e9a5b7584c1d1254e763ed02257a7818215f3729d06690f1e5c4acf2",
+    "heading": "56 · 01:10:51 · 同频发送按节点分配时隙",
+    "h1_before": "",
+    "anchor": "doxcnNy42upOUJC4SbfcmBBQpng"
+  },
+  {
+    "ordinal": 57,
+    "block_id": "doxcn9OdmfaZbL47oJBONMBymzc",
+    "text": "原标说话人 1  01:12:18\nAnd then this is a frame, it is called a frame. Sorry, I know that we used ‘frame’ as a packet in Wi-Fi, but here a frame is a time period, okay? So this is the so-called time frame. And the time frame repeats itself, okay? The time frame repeats itself. So here we are again: time slot one, where S1 can transmit; then we have time slot two, where S3 can transmit; and so on and so on, okay? So this configuration of the time frame repeats over and over, and within each time frame we have time slots. Each time slot is assigned to a different sensor. And this is how, within a cluster, sensor nodes can transfer their data, their measurements, to their cluster head. Okay, good.\n然后，这就是一帧，它被称为一帧。抱歉，我知道我们在Wi-Fi中用“帧”来表示一个分组，但是在这里，一帧是一个时间段，好吗？所以，这就是所谓的时间帧。而时间帧会不断重复，好吗？时间帧会不断重复。所以，这里我们又有了：时隙一，S1可以在这里发送；然后我们有时隙二，S3可以在这里发送；以此类推，以此类推，好吗？所以，时间帧的这个配置会一遍又一遍地重复，而在每个时间帧内，我们都有一些时隙。每个时隙被分配给一个不同的传感器。而这就是在一个簇内，传感器节点如何把它们的数据、它们的测量值传送给它们的簇头。好，很好。",
+    "timestamp": "01:12:18",
+    "text_sha256": "48daf2343fdc94610be934c228da4f43627d14ff8d7e48a774e48abd9a7ee270",
+    "heading": "57 · 01:12:18 · 周期性时间帧与传感器发送安排",
+    "h1_before": "",
+    "anchor": "doxcn3wcyAwn5cDGJT8qqdk02Ld"
+  },
+  {
+    "ordinal": 58,
+    "block_id": "doxcnLL45cHH4VBOKGnDuSVIXPc",
+    "text": "原标说话人 1  01:13:41\nSo now we understand how data are transmitted within a cluster, avoiding collisions, right? They do not collide because they are active one at a time. Each of them has got its own time slot; it is not going to overlap with the others, okay? Now, however, LEACH is a hierarchical scheme, right, as also indicated by the name. Why? Because we consider having a higher hierarchical level, the communication between clusters. So cluster heads of nearby clusters communicate with each other, and they communicate using the so-called CDMA scheme. What does it mean? That our cluster heads, again, will use exactly the same frequency band. They can communicate at the same time, so there is no time division.\n所以，现在我们明白了数据如何在一个簇内传输，同时避免碰撞，对吧？它们不会碰撞，因为它们一次只有一个处于活动状态。它们每一个都有自己的时隙；它不会与其他节点的时隙重叠，好吗？不过，现在，LEACH是一种层次化的方案，对吧，正如它的名字也表明的那样。为什么？因为我们考虑存在一个更高的层级，也就是簇之间的通信。所以，相邻簇的簇头会相互通信，而它们使用所谓的CDMA方案来通信。这是什么意思？就是我们的簇头，同样，会使用完全相同的频带。它们可以同时通信，所以这里没有时间上的划分。",
+    "timestamp": "01:13:41",
+    "text_sha256": "de2c4ad25731624731fde24c96c7a7d505896bd6a1a0dd4a0df3c6664cd0ac92",
+    "heading": "58 · 01:13:41 · 簇内无碰撞及簇间CDMA通信",
+    "h1_before": "",
+    "anchor": "doxcnmCHtA9jXturHCz5tZyMqEf"
+  },
+  {
+    "ordinal": 59,
+    "block_id": "doxcn4kpeW5cILS4Ql6RBZ8ziKh",
+    "text": "原标说话人 1  01:15:03\nThey can communicate at the same time, but they will use different codes. What do I mean? Codes are like languages for us, for human beings. There is the famous example of the cocktail party. So there are people at the cocktail party, and these people are international. Some are Chinese, Italian, German, English, etcetera, okay?\n它们可以同时通信，但是它们会使用不同的码。我是什么意思？对我们而言，对人类而言，码就像语言。有一个著名的鸡尾酒会的例子。所以，鸡尾酒会上有一些人，而这些人来自不同的国家。有些是中国人、意大利人、德国人、英国人，等等，好吗？",
+    "timestamp": "01:15:03",
+    "text_sha256": "1cf85cc18c4f047a9c21bf9cb7fbbeab6bdf214cf39eb116500ea63fd3fb7955",
+    "heading": "59 · 01:15:03 · 用鸡尾酒会引出不同码",
+    "h1_before": "",
+    "anchor": "doxcnsEfmFA3UbJ5LcmrN88rjWf"
+  },
+  {
+    "ordinal": 60,
+    "block_id": "doxcnfO2QExzW6AdlpO6uAOjqfg",
+    "text": "原标说话人 1  01:15:37\nNow, you may have experienced that, right, because you live in a kind of international environment here in the Sino-Italian Center. So if there is someone speaking Italian, unless you know Italian, but probably you don't, if they talk your brain just removes that noise. So if, I don't know if you can speak, yes, for sure you can speak Chinese and English, right? So if you are in a room and you are speaking in Chinese with your friend, if there is a loud pair of, of people speaking English, you may actually be disturbed by this ongoing conversation in English. Because your brain, you know, you can understand English, so your brain gets distracted by the English conversation. Instead, if there are some loud Italians talking to each other in Italian, you don't care, you don't get disturbed. And, I mean, probably you have not realized that, but try, and it is true. Believe me. So, for example, I can speak German and, okay, English, Italian. But, for example, for me German is very disturbing. So if there are people talking in German near me, my brain gets distracted.\n现在，你们可能体验过这种情况，对吧，因为你们在这里，在中意中心，生活在一种国际化的环境中。所以，如果有人在说意大利语，除非你懂意大利语，不过你大概不懂，那么当他们说话时，你的大脑就直接把那种噪声排除了。所以，如果，我不知道你们会不会说，是的，你们肯定会说中文和英语，对吧？所以，如果你在一个房间里，正和你的朋友用中文交谈，如果有一对、一对大声说英语的人，你实际上可能会受到这场正在进行的英语对话的干扰。因为你的大脑，你知道，你能够听懂英语，所以你的大脑就会被那场英语对话分散注意力。相反，如果有几个声音很大的意大利人在用意大利语相互交谈，你就不会在意，你不会受到干扰。而且，我是说，也许你们还没有意识到这一点，但是试试看，这是真的。相信我。所以，例如，我会说德语，还有，好，英语、意大利语。但是，例如，对我来说，德语非常容易造成干扰。所以，如果有人在我附近用德语交谈，我的大脑就会分心。",
+    "timestamp": "01:15:37",
+    "text_sha256": "1ed950b181cfb95c9c42536a709011c924a74fe8f06966b8045c0c6ba0795b1b",
+    "heading": "60 · 01:15:37 · 不同语言对交谈注意力的影响",
+    "h1_before": "",
+    "anchor": "doxcn93nrx1uUDNhuLKcNjBASsc"
+  },
+  {
+    "ordinal": 61,
+    "block_id": "doxcny6vYcS8NS8UegALzcSRFif",
+    "text": "原标说话人 1  01:17:27\nAnd even if I speak my mother tongue, which is Italian, with someone else, I get confused because these people are speaking German and I can understand what they are saying. So part of my brain is, is following their conversation. Instead, if they were probably speaking Chinese, unfortunately I cannot understand Chinese, so for me that would just be noise that I do not care about. My brain would be focused only on the Italian language, okay?\n而且，即使我在和别人说我的母语，也就是意大利语，我也会感到混乱，因为这些人在说德语，而我能够理解他们在说什么。所以，我的大脑有一部分在、在跟着他们的对话走。相反，如果他们也许是在说中文，很遗憾，我听不懂中文，所以，对我来说，那就只是我不在意的噪声。我的大脑就只会专注于意大利语，好吗？",
+    "timestamp": "01:17:27",
+    "text_sha256": "b8ba92957f128ae15dbfde1fcaf88f66941c82cdef1680d11287371d5f5c5abb",
+    "heading": "61 · 01:17:27 · 熟悉语言与陌生语言的干扰类比",
+    "h1_before": "",
+    "anchor": "doxcnavt9P9tG8RMbG43HgdC5Ve"
+  },
+  {
+    "ordinal": 62,
+    "block_id": "doxcnfOFl6eC5mqDlopQDDDtiYg",
+    "text": "原标说话人 1  01:18:02\nSo, for us human beings, languages are a kind of code, okay? We have a code that is Italian, a code that is German, a code that is Chinese, a code that is English. Try, and you will see that indeed this is true. So the concept in CDMA is code-division multiple access, meaning that you assign to nodes a different code, like a different language to use, okay? So that if, for example, these two cluster heads, let's say, are speaking Italian, if nearby there are other cluster heads that are speaking German or whatever, they will not disturb each other, okay? So the trick here is to assign different codes to different conversations that may happen in the same room, so using the same frequencies and at the same time, so that they do not interfere with each other. And these codes are essentially like languages for us. So that is the idea in LEACH, and LEACH works quite well. That is why it has been, as I was saying, used in many proprietary solutions. However, it also has some drawbacks.\n所以，对我们人类来说，语言就是一种码，好吗？我们有一个码是意大利语，一个码是德语，一个码是中文，一个码是英语。试试看，你们就会发现，这确实是真的。所以，CDMA中的这个概念是码分多址，意思是，你给节点分配不同的码，就像让它们使用不同的语言，好吗？这样，如果，例如，这两个簇头，我们假设，在说意大利语，如果附近还有其他簇头在说德语或者其他什么语言，它们就不会相互干扰，好吗？所以，这里的诀窍就是，给可能在同一个房间里发生的不同对话分配不同的码，也就是说，使用相同的频率，并且在相同的时间进行，使它们不会相互干扰。而这些码，基本上就像对我们而言的语言一样。所以，这就是LEACH中的思路，而且LEACH工作得相当好。这就是为什么，正如我刚才说的，它已经被用在许多专有解决方案中。不过，它也有一些缺点。",
+    "timestamp": "01:18:02",
+    "text_sha256": "1aaf70f8c1b3e37a7e6c131c2c094c99fb168a51679d4d77ec96abfe8f568642",
+    "heading": "62 · 01:18:02 · 以不同语言说明码分多址",
+    "h1_before": "",
+    "anchor": "doxcnlnk9fl4gqsaaCJ819i707d"
+  },
+  {
+    "ordinal": 63,
+    "block_id": "doxcnG1cXbsQRuhPQD87kshSaDb",
+    "text": "原标说话人 1  01:19:42\nOkay, so we always need to look at these technologies and see: okay, they are good ideas, but what are the drawbacks? Because there is always a drawback, unfortunately. Well, an important drawback is that, as we said, LEACH relies on cluster-based topologies, where cluster heads have to collect the data from the ordinary nodes that are part of their cluster, and they also need to be able to communicate with other cluster heads, right? So what does it mean? It means that cluster heads are going to be very busy. So can they go to sleep? No, because if the cluster head goes to sleep, the cluster, the whole cluster, will not work. Okay, so the cluster head has a very important role, responsibilities. It cannot sleep too often, right? Sometimes maybe it can go to sleep, but not too often. So we will have uneven energy consumption at the nodes. Cluster heads are going to consume much more than the others. So if we have sensors that act as cluster heads, then the poor guys are going to deplete their batteries much sooner than the other nodes. And this is a disadvantage. Another disadvantage, this is even more serious, because in being a cluster head, let's say, you may also take turns.\n好，所以，我们总是需要看一看这些技术，然后看看：好，它们是不错的想法，但是缺点是什么呢？因为，很遗憾，总会有一个缺点。嗯，一个重要的缺点是，正如我们说过的，LEACH依赖于基于簇的拓扑，在这种拓扑中，簇头必须从属于它们簇的普通节点那里收集数据，而且它们还需要能够与其他簇头通信，对吧？那么，这是什么意思呢？意思是，簇头会非常忙。那么，它们能去睡觉吗？不能，因为如果簇头去睡觉，这个簇，整个簇，就不能工作了。好，所以，簇头有非常重要的作用，承担着责任。它不能太经常睡觉，对吧？有时也许它可以去睡觉，但是不能太经常。所以，我们各个节点的能量消耗会不均匀。簇头将比其他节点消耗多得多的能量。所以，如果我们有一些传感器担任簇头，那么这些可怜的家伙就会比其他节点早得多地耗尽它们的电池。而这是一个缺点。另一个缺点，这个更加严重，因为在担任簇头这件事上，可以说，你们还可以轮流来做。",
+    "timestamp": "01:19:42",
+    "text_sha256": "06c8c3186c0987d5ed71f670b189f4f5d324d03710d7c17b29b9f4518968b088",
+    "heading": "63 · 01:19:42 · 簇头负担导致节点能耗不均",
+    "h1_before": "九、LEACH能耗分配与扩展局限",
+    "anchor": "doxcnyYpQo3NXGFY1wgzKV8xUyZ"
+  },
+  {
+    "ordinal": 64,
+    "block_id": "doxcnLEJle1CVKvwOfK0XKNfBRb",
+    "text": "原标说话人 1  01:21:32\nAnd in this case you may, let's say, distribute the burden of being a cluster head among the nodes, right? But this second problem is instead much, much more serious; it cannot be solved so easily.\n而在这种情况下，你们可以，可以这么说，把担任簇头的负担分摊到各个节点之间，对吧？但是，这第二个问题却要严重得多、得多；它不能那么容易地解决。",
+    "timestamp": "01:21:32",
+    "text_sha256": "4a97f3b491976947d5465255196f8a1f838bdeafc955ce5569f284e5b4c97113",
+    "heading": "64 · 01:21:32 · 轮换簇头可分摊能耗负担",
+    "h1_before": "",
+    "anchor": "doxcnzfEHqB0uQ4RRxQn1O4y63g"
+  },
+  {
+    "ordinal": 65,
+    "block_id": "doxcnYyKDMyAiMF1SWE30Oy5trf",
+    "text": "原标说话人 1  01:21:49\nThe scalability problem. Remember, we want to be scalable; that means the scheme needs to work well even if we have a large number of nodes in the network. Is this scheme scalable? Look at what we said. Can we easily accommodate, for example, new nodes that may be added to the network?\n可扩展性问题。记住，我们想要具有可扩展性；这意味着，即使我们的网络中有大量节点，这个方案也需要能够良好地工作。这个方案具有可扩展性吗？看看我们说过的内容。例如，对于可能被加入网络的新节点，我们能够轻松地容纳它们吗？",
+    "timestamp": "01:21:49",
+    "text_sha256": "e3d75bf4faeaae775854770f1baa1b47f8908a5260b5031d8af5fd340e061107",
+    "heading": "65 · 01:21:49 · LEACH的节点扩展问题",
+    "h1_before": "",
+    "anchor": "doxcnDfBox5kRzHI3CukX5a8Moe"
+  },
+  {
+    "ordinal": 66,
+    "block_id": "doxcnLtqWyFIHN4K28fjVgs2pBd",
+    "text": "原标说话人 1  01:22:23\nNot really, not really, because within each cluster we said that we assign time slots within a time frame to each node. Now, if the number of nodes, ordinary nodes within a cluster, increases, what is the problem?\n不太能，不太能，因为我们说过，在每个簇内，我们在一个时间帧内为每个节点分配时隙。现在，如果节点的数量，一个簇内普通节点的数量增加了，问题是什么呢？",
+    "timestamp": "01:22:23",
+    "text_sha256": "d7cd1a1b4aaad5d356fc4755c8c1a0c5d4315dd299aa54d22cd2eb7d4a96f5bb",
+    "heading": "66 · 01:22:23 · 簇内节点增加对时隙安排的影响",
+    "h1_before": "",
+    "anchor": "doxcnYkFLP4yuRWU7TPbst7Jojc"
+  },
+  {
+    "ordinal": 67,
+    "block_id": "doxcn23mBuSN8lkbLDvCsYt7f9Z",
+    "text": "原标说话人 1  01:22:58\nIf we, we have new nodes, sensor six and seven, joining the cluster, there are no time slots for them, right? So if we have already filled up the whole time frame, assigned all the available time slots, there are no more time slots.\n如果我们、我们有新节点，传感器六和七，加入这个簇，就没有给它们的时隙了，对吧？所以，如果我们已经填满了整个时间帧，分配了所有可用的时隙，就没有更多时隙了。",
+    "timestamp": "01:22:58",
+    "text_sha256": "834e1bf1e320f07363d99c70618c2e2ea6ce1c49fbac48dc6733e29bdab8c12a",
+    "heading": "67 · 01:22:58 · 新节点加入却无空余时隙",
+    "h1_before": "",
+    "anchor": "doxcn7yNECsaN0zXA5remXBnahg"
+  },
+  {
+    "ordinal": 68,
+    "block_id": "doxcnYv2QxRT92M3JmjOrlgBSJg",
+    "text": "原标说话人 1  01:23:22\nSo nodes can take turns, probably yes, but we need to change the schedule. And then a node, at that point, may need to skip some frames, right, and be able to transmit more rarely. So that is an issue. And the same with cluster heads.\n所以，节点可以轮流来，大概是可以的，但是我们需要改变调度安排。然后，到了那个时候，一个节点可能需要跳过一些帧，对吧，能够发送的频率就会更低。所以，这是一个问题。簇头的情况也一样。",
+    "timestamp": "01:23:22",
+    "text_sha256": "82be94be224176c9d6b1b4fceff94e227a4d84ee1f5e96c3e34f1d56aa803c36",
+    "heading": "68 · 01:23:22 · 修改调度与降低单节点发送频率",
+    "h1_before": "",
+    "anchor": "doxcnoRAVKavrEXhsCbGitPD3ke"
+  },
+  {
+    "ordinal": 69,
+    "block_id": "doxcnhhuGamftYXcur76aNa6Vqg",
+    "text": "原标说话人 1  01:23:45\nIf we increase the number of clusters, well, like the number of languages, there are many languages, but they are in a fi-, finite number, okay? So if we increase the number of clusters too much, and therefore of cluster heads, we may run out of codes to differentiate the different transmissions.\n如果我们增加簇的数量，嗯，就像语言的数量一样，有许多种语言，但是它们的数量是有、有限的，好吗？所以，如果我们把簇的数量增加得太多，从而也把簇头的数量增加得太多，我们就可能用尽那些用来区分不同发送的码。",
+    "timestamp": "01:23:45",
+    "text_sha256": "50de32f9345aec490e707d4ae64c7eb20359cf2ef02bd8b1e2b4e3e5515a9d3f",
+    "heading": "69 · 01:23:45 · 簇数量增长可能耗尽可用码",
+    "h1_before": "",
+    "anchor": "doxcnK5FORtFeOHiEuf2QYUmSKb"
+  },
+  {
+    "ordinal": 70,
+    "block_id": "doxcnKOQeIaGs4PNn78IVusqIqg",
+    "text": "原标说话人 1  01:24:12\nSo at a certain point, two pairs of cluster heads may speak Chinese, both of them, and interfere a lot, right? So this LEACH is good, is good, but it also has some drawbacks that we need to account for.\n所以，到了某个时候，两对簇头可能都说中文，它们两对都是，于是产生很大的相互干扰，对吧？所以，这个LEACH是好的，是好的，但是它也有一些我们需要考虑进去的缺点。",
+    "timestamp": "01:24:12",
+    "text_sha256": "a268ff1526f429fbd7ee1fdbcd185303a123b70f9b4c25018656693051cbef62",
+    "heading": "70 · 01:24:12 · 重复用码带来干扰与方案局限",
+    "h1_before": "",
+    "anchor": "doxcnJn98i6tUxpGFuKMG8Jp0vL"
+  },
+  {
+    "ordinal": 71,
+    "block_id": "doxcn4yCtgMDWdjBZXqWCf99RHD",
+    "text": "原标说话人 1  01:24:35\nOkay, that is it. That was the most, let's say, prominent example of this family of channel-access schemes that are based on a schedule, right? Because now we understand what schedule-based means, because we were scheduling the transmissions, right? So inside the frame we were, for example, assigning different time slots. That means that we were scheduling.\n好，就是这些。这是这一类基于调度的信道接入方案中，可以这么说，最突出的一个例子，对吧？因为现在我们明白基于调度是什么意思了，因为我们是在对发送进行调度，对吧？所以，在帧内，例如，我们是在分配不同的时隙。这就意味着，我们是在进行调度。",
+    "timestamp": "01:24:35",
+    "text_sha256": "231580115852b016c9917bf5a2864c4b57b1bbcaaa59dd8cfae795d246768d5b",
+    "heading": "71 · 01:24:35 · 总结基于调度的接入方式",
+    "h1_before": "",
+    "anchor": "doxcnJSKKY1Li12d4gHkLHkHrQh"
+  },
+  {
+    "ordinal": 72,
+    "block_id": "doxcnRLRZKXmeunuanLY6DUErHU",
+    "text": "原标说话人 1  01:25:06\nInstead, now we move to the second family, which is contention-based. In particular, we are going to look, as we said, at the scheme that is standardized by IEEE, with the name of the amendment, which is 802.15.4. So this is a standard by IEEE.\n而现在，我们转向第二类，也就是基于竞争的这一类。具体来说，正如我们说过的，我们要看看由IEEE标准化的那个方案，它的修订名称是802.15.4。所以，这是IEEE的一个标准。",
+    "timestamp": "01:25:06",
+    "text_sha256": "bee8ae88ed99a1d528ac0b55de5f12ce72f378355329d6d78dbe9fd0977ddf4a",
+    "heading": "72 · 01:25:06 · 转向IEEE 802.15.4竞争接入",
+    "h1_before": "十、IEEE 802.15.4与Zigbee",
+    "anchor": "doxcnu5lJfkxqZrEFud4cpiAGLM"
+  },
+  {
+    "ordinal": 73,
+    "block_id": "doxcnpN0aj5kXNITZsDPg4k7ESE",
+    "text": "原标说话人 1  01:25:35\nAnd again, as for Wi-Fi, this standard is going to specify how the physical layer and the MAC layer work, okay? So the standard is about these two layers, as with Wi-Fi. Okay, that said, however, you may also find the name Zigbee referring to networks made of low-power, low-data-rate sensors. Okay, Zigbee is often used to refer to this kind of technology. So you may wonder, okay, what is Zigbee? Why do we already have the name of the standard? Why do we have a second name, Zigbee, for this kind of system? Because Zigbee is an alliance of industries that operate in the field of sensors. And this group of industries also issues specifications for sensor networks. And what they did was to say, ‘Well, as the Zigbee Alliance, we are going to reuse the IEEE specifications for the physical and MAC layers of the sensor nodes that we are producing.’\n而且，同样，与Wi-Fi一样，这个标准将规定物理层和MAC层如何工作，好吗？所以，这个标准讲的是这两层，就和Wi-Fi一样。好，不过，话虽如此，你们也可能会看到Zigbee这个名字，用来指由低功耗、低数据速率的传感器组成的网络。好，Zigbee经常被用来指这类技术。所以，你们可能会想，好，Zigbee是什么？为什么我们已经有了标准的名字？为什么对于这种系统，我们还会有第二个名字，Zigbee？因为Zigbee是一个由在传感器领域开展业务的企业组成的联盟。而这组企业也会发布传感器网络的规范。而它们所做的就是说：“嗯，作为Zigbee联盟，对于我们正在生产的传感器节点的物理层和MAC层，我们将复用IEEE的规范。”",
+    "timestamp": "01:25:35",
+    "text_sha256": "5230dcf0a7a6261e8364a5fc78353c8b99cd6969fe42db761bfd276388893c08",
+    "heading": "73 · 01:25:35 · IEEE底层规范与Zigbee的关系",
+    "h1_before": "",
+    "anchor": "doxcnOgWkCz51lAQsJGyE9AIYBh"
+  },
+  {
+    "ordinal": 74,
+    "block_id": "doxcnJinaw4YLF6bPv2ZbsScJyb",
+    "text": "原标说话人 1  01:27:29\nAnd then we consider specifying, issuing our own specifications for the network layer, where, as we know, we have routing and topology-adaptation algorithms, okay? So the Zigbee Alliance, which is this group of industries, adopts IEEE standard 802.15.4 for the physical and MAC layers, and then they issued their own specifications for routing and adaptation of the topology, to be implemented at the network layer, so on top of the MAC, okay? So I am saying that because otherwise you may find documents, right, and they may actually use ‘Zigbee’, and if you don't know what it is, you may wonder what we studied. But essentially, at the physical and MAC layers, IEEE 802.15.4 and Zigbee coincide; they are the same thing because Zigbee adopted the IEEE standard.\n然后，我们考虑进行规定，发布我们自己的网络层规范，而在网络层，正如我们知道的，有路由算法和拓扑自适应算法，好吗？所以，Zigbee联盟，也就是这组企业，在物理层和MAC层采用IEEE 802.15.4标准，然后它们发布了自己的路由和拓扑自适应规范，这些规范要在网络层实现，也就是在MAC层之上，好吗？所以，我说这些，是因为不然的话，你们可能会找到一些文档，对吧，而它们实际上可能会使用“Zigbee”这个词，如果你们不知道它是什么，你们可能就会疑惑我们学的是什么。但是，基本上，在物理层和MAC层，IEEE 802.15.4和Zigbee是一致的；它们是同一个东西，因为Zigbee采用了IEEE标准。",
+    "timestamp": "01:27:29",
+    "text_sha256": "c369287a7dd8a039f1a8921f873be84bc04da15a62f233095f28dd52e81cb582",
+    "heading": "74 · 01:27:29 · Zigbee网络层与IEEE物理、MAC层",
+    "h1_before": "",
+    "anchor": "doxcnHPHSmEjT57chZEDsCJbOGh"
+  },
+  {
+    "ordinal": 75,
+    "block_id": "doxcnQq4mip4iuAFCSNxVbDIH4e",
+    "text": "原标说话人 1  01:29:03\nOkay, now before looking at the physical layer, about which we will say a couple of words very, very quickly, but before describing the MAC channel-access scheme for these low-power, low-data-rate sensors standardized by IEEE, we again need to consider the topology, okay? Because the standard also specifies, a little bit, the topologies that we can have in our networks and the types of devices that we have. So let me just mention this.\n好，现在，在看物理层之前，关于物理层，我们会非常、非常迅速地说上几句，但是，在描述IEEE为这些低功耗、低数据速率传感器标准化的MAC信道接入方案之前，我们又需要考虑一下拓扑，好吗？因为，这个标准也稍微规定了一些我们网络中可以有的拓扑，以及我们所具有的设备类型。所以，让我简单提一下这一点。",
+    "timestamp": "01:29:03",
+    "text_sha256": "44aca1941bf2cb674f2f1b2234f056c5eb6821a009321282ef03d60583b8a4ab",
+    "heading": "75 · 01:29:03 · 设备类型与网络拓扑导入",
+    "h1_before": "十一、设备类型、拓扑与协调器",
+    "anchor": "doxcnKMQUkNrRl5U49weqnXaCVe"
+  },
+  {
+    "ordinal": 76,
+    "block_id": "doxcnPHgM35cJigHQWS0FV0OSNh",
+    "text": "原标说话人 1  01:29:50\nWe have, first of all, two types of devices, sensor devices that the standard considers. One is, is called a full-function device, and the other type is called a reduced-function device. In a nutshell, a full-function device is a sensor node where we have implemented at least all these three layers: physical, MAC and network. So our sensors, if they are full-function, will also be able to route traffic, okay? The reduced-function devices, instead, are those that implement only the first two layers, physical and MAC. They cannot route traffic. Okay, that is essentially the definition, so that is what you need to keep in mind.\n首先，我们有两类设备，两类标准所考虑的传感器设备。一类是、是叫作全功能设备，而另一类叫作精简功能设备。简而言之，全功能设备是一种传感器节点，我们在其中至少实现了所有这三层：物理层、MAC层和网络层。所以，我们的传感器如果是全功能的，它们还能够对流量进行路由，好吗？而精简功能设备，则是只实现了前两层，也就是物理层和MAC层的那些设备。它们不能对流量进行路由。好，这基本上就是定义，所以，这就是你们需要记住的内容。",
+    "timestamp": "01:29:50",
+    "text_sha256": "fa7fc2e3a633627dc747f0785e47c1f5ecd2a9512d7d0c1e0fc5f09fdcb4c115",
+    "heading": "76 · 01:29:50 · 全功能与精简功能设备的区别",
+    "h1_before": "",
+    "anchor": "doxcneXFA6eS2wbFPKIurSx7Oyd"
+  },
+  {
+    "ordinal": 77,
+    "block_id": "doxcneAe4CBHsrvMXnM9F2b38Rg",
+    "text": "原标说话人 1  01:31:09\nThat said, what are the possible network topologies that we may have? Very simply, one possible network topology is the star. It is like having one cluster only, right? So we have a center of the star and then ordinary nodes. It is like having one cluster. This is used when you have few sensors in your network. The central node, the cluster head, the center of the star, needs to be a full-function device, while all the other nodes may also be reduced-function devices. So very simple. As we know already, each of these ordinary nodes can only communicate with the cluster head, with the center of the star. The center of the star will be the coordinator of our network. So it is also called the PAN, personal area network, coordinator. It is the one that essentially coordinates the network. The second type of topology is essentially what we were calling ‘flat’ before, okay? So it is just a mesh topology. Notice that in this case all nodes need to be full-function devices. Why? Because they need to route traffic across the network, okay? They need to apply multi-hop communications, so they need to be able to route traffic. So they need to have the network layer implemented. Among these nodes, one of them will act as the coordinator of the network.\n说到这里，我们可能会有哪些网络拓扑呢？很简单，一种可能的网络拓扑是星形拓扑。它就像只有一个簇，对吧？所以，我们有一个星形的中心，然后还有普通节点。它就像只有一个簇。当你的网络中只有少量传感器时，就会使用这种拓扑。中心节点，簇头，星形的中心，需要是一个全功能设备，而所有其他节点也可以是精简功能设备。所以，非常简单。正如我们已经知道的，这些普通节点中的每一个，都只能与簇头，与星形的中心通信。星形的中心将是我们网络的协调器。所以，它也被称为PAN，也就是个域网，协调器。它基本上就是协调这个网络的那个节点。第二类拓扑，基本上就是我们之前称为“扁平”的那一种，好吗？所以，它就是一种网状拓扑。注意，在这种情况下，所有节点都需要是全功能设备。为什么？因为它们需要在整个网络中对流量进行路由，好吗？它们需要采用多跳通信，所以它们需要能够对流量进行路由。因此，它们需要实现网络层。在这些节点中，其中一个会充当这个网络的协调器。",
+    "timestamp": "01:31:09",
+    "text_sha256": "7ce40dbef2939673f0d4bb1f11ffecc5a50042f055b727c4fd8a80531c58ae0c",
+    "heading": "77 · 01:31:09 · 星形、网状拓扑与协调器",
+    "h1_before": "",
+    "anchor": "doxcnKst9xHKv8KMMjMArZk0ddd"
+  },
+  {
+    "ordinal": 78,
+    "block_id": "doxcnfj0Bqeq2wy0Px12BeY8EZf",
+    "text": "原标说话人 1  01:33:22\nAnd essentially, the coordinator of the network is the one that admits new sensors when we have new sensors joining the network, for example. Or when some sensors fail, so they disappear, it records that. So it keeps, you know, a record of the network: who is there, who is leaving, who is joining. That is essentially what the coordinator does.\n而且，基本上，这个网络的协调器就是接纳新传感器的那个节点，例如，当我们有新的传感器加入网络时。或者，当一些传感器失效，也就是它们消失时，它会把这一点记录下来。所以，它保存着，你知道，一份网络的记录：谁在那里，谁正在离开，谁正在加入。这基本上就是协调器所做的事情。",
+    "timestamp": "01:33:22",
+    "text_sha256": "9a027157fe346d592336ae967330fe20fee9d937a84debf1020263ddfbbfe534",
+    "heading": "78 · 01:33:22 · 协调器记录节点加入和离开",
+    "h1_before": "",
+    "anchor": "doxcnkw7pkTG5Vuhv4fPSWxxt8f"
+  },
+  {
+    "ordinal": 79,
+    "block_id": "doxcnsg6hdzRzcV4Sbdo45FqtKg",
+    "text": "原标说话人 1  01:33:52\nAnd the coordinator may, not always, but may also provide synchronization to all the other nodes. So those are the tasks of the coordinator. This kind of topology, in the standard terminology, is called peer-to-peer topology, and it is used when we have to cover a larger area.\n而且，协调器可能，并非总是如此，但是也可能为所有其他节点提供同步。所以，这些就是协调器的任务。这种拓扑，在标准的术语中，被称为对等拓扑，而当我们必须覆盖更大的区域时，就会使用它。",
+    "timestamp": "01:33:52",
+    "text_sha256": "9dc96c9a7723a3b4fb604ab326bf920960bed532417ccb98ff693e22e60f2e97",
+    "heading": "79 · 01:33:52 · 协调器同步及对等拓扑覆盖",
+    "h1_before": "",
+    "anchor": "doxcnJXQPP3VgemblpqfiIVUimg"
+  },
+  {
+    "ordinal": 80,
+    "block_id": "doxcnbEWihQoS1zohS2KTUsB7Kd",
+    "text": "原标说话人 1  01:34:17\nOkay, so we need a larger network. And then we have the last one, which is essentially our cluster-based topology, okay, where, however, we have different clusters, different stars that are connected to each other. So, if you look closely, you can see that this topology is made of clusters, of stars, oops, sorry, that are connected, that are connected with each other. So this means that you can accommodate both full-function devices and reduced-function devices. Why? Because reduced-function devices may be part of a star. They can communicate only with their center, the center of their star, with their cluster head.\n好，所以，我们需要一个更大的网络。然后，我们还有最后一种，它基本上就是我们的基于簇的拓扑，好吗，不过，在这里，我们有不同的簇，不同的相互连接的星形。所以，如果你仔细看，就可以看到，这个拓扑是由簇、由星形组成的，哦，抱歉，它们是连接的，是相互连接的。所以，这意味着，你既可以容纳全功能设备，也可以容纳精简功能设备。为什么？因为精简功能设备可以是某个星形的一部分。它们只能与它们的中心，它们所在星形的中心，与它们的簇头通信。",
+    "timestamp": "01:34:17",
+    "text_sha256": "cc1e11aeeed0b4168c21b6bf6f9c0ae9b6a655c3c8fc5a72402486232095e458",
+    "heading": "80 · 01:34:17 · 相连星形构成分簇拓扑",
+    "h1_before": "",
+    "anchor": "doxcncAKxp6JC4GIvvLtkcNRJ1f"
+  },
+  {
+    "ordinal": 81,
+    "block_id": "doxcnJZFCflQjUWOcjCDmQNAsub",
+    "text": "原标说话人 1  01:35:27\nAnd then the cluster head, as we said also before, is going to be a full-function device that can be connected with others, right? So it is a mix of the previous topology situations. And again, one of the full-function devices will be elected or will act as a coordinator, so as coordinator of the whole network.\n然后，簇头，正如我们之前也说过的，将是一个能够与其他设备连接的全功能设备，对吧？所以，它是前面几种拓扑情形的混合。而且，同样，其中一个全功能设备会被选举出来，或者会充当一个协调器，也就是整个网络的协调器。",
+    "timestamp": "01:35:27",
+    "text_sha256": "3bc88501aff631d2db9e42c9aa3cc607de10990bd8ff8bfea3e1917cacad37dc",
+    "heading": "81 · 01:35:27 · 全功能簇头与全网协调器",
+    "h1_before": "",
+    "anchor": "doxcnpA8rkQAfa20W95TeESs36b"
+  },
+  {
+    "ordinal": 82,
+    "block_id": "doxcnpTFmPxFC9oxG8Db1fKgLCb",
+    "text": "原标说话人 1  01:35:59\nClearly, this topology has the advantage that it can cover large areas and can include both full-function devices and reduced-function devices. Okay, that is it. So for today we are done. We are going to stop here, and we are going to look, as I said, very briefly at the physical layer tomorrow and more in depth at the MAC layer, and then discuss whatever questions or points you would like to raise. Okay, so that is the plan for tomorrow. Thank you.\n显然，这种拓扑有这样一个优点：它能够覆盖大的区域，并且能够同时包含全功能设备和精简功能设备。好，就是这些。所以，今天我们就结束了。我们将在这里停下来，而且，正如我说过的，明天我们会非常简短地看一下物理层，更深入地看一下MAC层，然后讨论你们想要提出的任何问题或者要点。好，这就是明天的计划。谢谢。",
+    "timestamp": "01:35:59",
+    "text_sha256": "0d32ce6720d4517bbd28ac14edb9fac4f2698b0d6345afbc8b41c70c4f1822ef",
+    "heading": "82 · 01:35:59 · 混合设备覆盖优势与次日安排",
+    "h1_before": "",
+    "anchor": "doxcnn7JawbLZI65mHjznAn5rie"
+  }
+]
