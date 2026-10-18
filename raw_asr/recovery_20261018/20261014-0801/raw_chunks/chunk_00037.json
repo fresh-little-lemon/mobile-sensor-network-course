@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4070.0,
+  "end_seconds": 4190.0,
+  "text": "And it will access the channel. So it will access the channel and it will collide with the access point. Because here we have only seeps, right? That is used by the access point to perform the turnaround of its receiver. So during the time, clearly, access point cannot do anything. Right? It cannot transmit, it cannot receive. It's a transmitter turnaround time. It's just the time during which we are switching the receiver. The receiver does not work. So the access point here is getting ready to transmit the ACK. And it will transmit the ACK because it has the modulated data packet from A correctly. So here the access point is just getting ready to transmit the acknowledgement. It will transmit acknowledgement, as we said. So if the access point is transmitting the acknowledgement, is transmitting. If B instead of waiting, right, one some more time, starts transmitting. Who is going to receive that part? Because remember our nodes are half duplex. If they transmit, they cannot receive. So if B transmits its packet here, so right after the 13 times slots.",
+  "raw_decoded": "language English<asr_text>And it will access the channel. So it will access the channel and it will collide with the access point. Because here we have only seeps, right? That is used by the access point to perform the turnaround of its receiver. So during the time, clearly, access point cannot do anything. Right? It cannot transmit, it cannot receive. It's a transmitter turnaround time. It's just the time during which we are switching the receiver. The receiver does not work. So the access point here is getting ready to transmit the ACK. And it will transmit the ACK because it has the modulated data packet from A correctly. So here the access point is just getting ready to transmit the acknowledgement. It will transmit acknowledgement, as we said. So if the access point is transmitting the acknowledgement, is transmitting. If B instead of waiting, right, one some more time, starts transmitting. Who is going to receive that part? Because remember our nodes are half duplex. If they transmit, they cannot receive. So if B transmits its packet here, so right after the 13 times slots.<|im_end|>",
+  "generated_tokens": 226,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.010395564000646,
+  "at": "2026-10-18T04:59:32.243182+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

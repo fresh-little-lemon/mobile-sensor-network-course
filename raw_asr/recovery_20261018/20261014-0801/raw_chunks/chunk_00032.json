@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3520.0,
+  "end_seconds": 3640.0,
+  "text": "Degrees is fast, back off counter, okay. And then there is a, okay. As you can see here, a will receive its packet from higher layers. And the poor is going to sense the channel for this. And we said the channel is going to be either for a. Remember, a can only hear the access point and c. So independently of b, from why its behavior is completely independent in this case. Of what b is going to do, okay, because a and b cannot hear each other. So we don't have to specify any behavior of b here to understand that a will sense the channel. Since the channel for a is idle, no matter what b does, okay, it will access the channel and transmit its data packet. So I think that we are all all good on saying well clearly. The fast back off for b cannot be in this case from here zero, okay, because otherwise it will access the channel. And transmit, and will have a collision, right between a and b, because remember a and b cannot hear.",
+  "raw_decoded": "language English<asr_text>Degrees is fast, back off counter, okay. And then there is a, okay. As you can see here, a will receive its packet from higher layers. And the poor is going to sense the channel for this. And we said the channel is going to be either for a. Remember, a can only hear the access point and c. So independently of b, from why its behavior is completely independent in this case. Of what b is going to do, okay, because a and b cannot hear each other. So we don't have to specify any behavior of b here to understand that a will sense the channel. Since the channel for a is idle, no matter what b does, okay, it will access the channel and transmit its data packet. So I think that we are all all good on saying well clearly. The fast back off for b cannot be in this case from here zero, okay, because otherwise it will access the channel. And transmit, and will have a collision, right between a and b, because remember a and b cannot hear.<|im_end|>",
+  "generated_tokens": 219,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.83223418799753,
+  "at": "2026-10-18T04:56:58.949412+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

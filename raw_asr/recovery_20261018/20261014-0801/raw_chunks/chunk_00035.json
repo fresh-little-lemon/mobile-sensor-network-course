@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3850.0,
+  "end_seconds": 3970.0,
+  "text": "To fifteen timeslots. Okay. Notice that the CIFS, if you check, this is ten microseconds. The time slot is twenty microseconds. Okay. So we said this is fifteen timeslots, then we can have a choice here. We can say okay, then B has got only one timeslot more, and in this case is fine because it means that it will start its transmission here. B will stop, set it's not, fine, or it could have four timeslots, and that would be also fine, right? Because it means that in this case it will start here with the data. C will hear that, will set it's not, and that would work. Or we said it could be three more, and again that's fine because if we start from here, C will just set it's not, and everything's fine. Or it could be four timeslots and then start the data, and that would be also fine because this means that C will decrease its countercounter by one more timeslot. And then set enough, and everything's fine. What is important is that one, two, three, four. We don't have a fifth timeslot here. Why? Because in that case they are going to.",
+  "raw_decoded": "language English<asr_text>To fifteen timeslots. Okay. Notice that the CIFS, if you check, this is ten microseconds. The time slot is twenty microseconds. Okay. So we said this is fifteen timeslots, then we can have a choice here. We can say okay, then B has got only one timeslot more, and in this case is fine because it means that it will start its transmission here. B will stop, set it's not, fine, or it could have four timeslots, and that would be also fine, right? Because it means that in this case it will start here with the data. C will hear that, will set it's not, and that would work. Or we said it could be three more, and again that's fine because if we start from here, C will just set it's not, and everything's fine. Or it could be four timeslots and then start the data, and that would be also fine because this means that C will decrease its countercounter by one more timeslot. And then set enough, and everything's fine. What is important is that one, two, three, four. We don't have a fifth timeslot here. Why? Because in that case they are going to.<|im_end|>",
+  "generated_tokens": 257,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 41.403463933998864,
+  "at": "2026-10-18T04:58:37.860057+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3740.0,
+  "end_seconds": 3860.0,
+  "text": "Why? Because the channel will become busy for everyone only when the access point transmits the ACK, right? So clearly, B's transmission cannot overlap with the ACK because otherwise it will fail. So we want B to be successful, right? So we need B to avoid colliding with the ACK. Once the acknowledgement by the access point starts, we are good. Why? Because also B would hear the ACK and send its number accordingly. And then, if assuming that it does that, then we have that after the ACK, everyone is sensing the channel for thieves. The channel is idle, so as Mark the C can resume decreasing its bit off counter, and B too can resume decreasing its post bit off counter. And what we said is well, this time here corresponds to fifteen times loss. Okay. Notice that the thieves.",
+  "raw_decoded": "language English<asr_text>Why? Because the channel will become busy for everyone only when the access point transmits the ACK, right? So clearly, B's transmission cannot overlap with the ACK because otherwise it will fail. So we want B to be successful, right? So we need B to avoid colliding with the ACK. Once the acknowledgement by the access point starts, we are good. Why? Because also B would hear the ACK and send its number accordingly. And then, if assuming that it does that, then we have that after the ACK, everyone is sensing the channel for thieves. The channel is idle, so as Mark the C can resume decreasing its bit off counter, and B too can resume decreasing its post bit off counter. And what we said is well, this time here corresponds to fifteen times loss. Okay. Notice that the thieves.<|im_end|>",
+  "generated_tokens": 172,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.391072077996796,
+  "at": "2026-10-18T04:57:56.455872+00:00",
+  "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+}
