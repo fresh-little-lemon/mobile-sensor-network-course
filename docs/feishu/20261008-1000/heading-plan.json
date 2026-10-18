@@ -1,0 +1,812 @@
+[
+  {
+    "block_id": "doxcnjnVfLsHUvqOM54bJwkWn7x",
+    "text": "原标说话人 1  00:00:00\nOur class. And I was saying that we have now eight signals in our constellation, so they are close to each other. So, what is the observation, further observation that we can make in this case? The fact is that when our radio interface transmits toward the base station, as we said, the signal goes through the air. And while traveling, it may be affected, as we will discuss later, by several different phenomena. Just an example, if it rains or it's foggy, the signal will bounce into these small water particles that are in the air. And that causes some problems to our signal. The signal will get weaker. So, as the signal travels through the air, there are several different issues, obstacles, atmosphere particles, etc, etc, that essentially cause a reduction in the power of the signal itself. So, it travels, it's like getting tired to reach the destination. So, it arrives at the destination with a lower level of power than what it was transmitted with.\n我们的课。我刚才说，现在我们的星座中有八个信号，所以它们彼此很接近。那么，在这种情况下，我们可以作出什么观察，进一步的观察呢？事实是，当无线电接口向基站发射时，正如我们所说，信号经过空气传播。而在传播过程中，它可能受到几种不同现象的影响，我们稍后会讨论。举一个例子，如果下雨或有雾，信号就会碰撞空气中的这些小水粒子。而这会给信号带来一些问题。信号会变弱。所以，当信号在空气中传播时，有各种不同的问题、障碍物、大气粒子，等等等等，这些基本上都会导致信号自身功率降低。因此，它一路传播，就像为了到达目的地而逐渐疲惫了。所以，它到达目的地时的功率水平低于发射时的功率水平。",
+    "ordinal": 1,
+    "timestamp": "00:00:00",
+    "heading": "01 · 00:00:00 · 信号传播中的功率衰减",
+    "h1_before": "信号劣化、星座判决与错误概率",
+    "anchor": "doxcnOGmzxe2zlduGRkSPKV7eyh",
+    "text_sha256": "bdab16c07e22be98a98dfabb3d6e082cd608e15e520ca38c0b962951d068b6a8"
+  },
+  {
+    "block_id": "doxcnU0HuUrsm6gRRKnW3uD7D0b",
+    "text": "原标说话人 1  00:00:00\nAnd also while traveling, you may collect, let's say, I mean, you can travel, it may meet other travelers, let's say, that will reach the same destination. That means interfering signals, signals coming from other transmitters.\n而且，在传播途中，你可能会收集到，可以说，我的意思是，你可以行进，它可能遇到其他旅行者，可以这样说，这些旅行者也会到达同一个目的地。那就是干扰信号，来自其他发射端的信号。",
+    "ordinal": 2,
+    "timestamp": "00:00:00",
+    "heading": "02 · 00:00:00 · 来自其他发射端的干扰",
+    "h1_before": null,
+    "anchor": "doxcnDMixvJInEibO9oWAPquOOg",
+    "text_sha256": "7927d1f256aaacfa62c00b283464abd7c91f2326b8b405e423825513c3a681ba"
+  },
+  {
+    "block_id": "doxcn1WDsTuJQ3MtUg38WcaPoNJ",
+    "text": "原标说话人 1  00:02:13\nSo, what the receiver receives is not the very nice, clean signal that was originally transmitted. It's a signal that is weaker, and it doesn't come alone, but it comes with other signals as well. On top of that, at the receiver, there are several different sources of noise caused by the electronics of the receiver itself.\n所以，接收端收到的并不是最初发出的那个非常漂亮、干净的信号。它是一个较弱的信号，而且它不是单独来的，而是与其他信号一起到来。除此之外，在接收端，还有由接收端自身电子器件引起的几种不同噪声源。",
+    "ordinal": 3,
+    "timestamp": "00:02:13",
+    "heading": "03 · 00:02:13 · 接收端的弱信号、干扰与噪声",
+    "h1_before": null,
+    "anchor": "doxcn4cs4hMP6kaPw4OGB6f9Jwb",
+    "text_sha256": "c2691d8355abc38bc5208aad32bafdb6498e1f82253af2d846b226a36bb6306b"
+  },
+  {
+    "block_id": "doxcnpp11iZzm1pkaMzp31eseWg",
+    "text": "原标说话人 1  00:02:13\nSo, we usually model this noise as Gaussian, so with Gaussian distribution, and this noise overlaps with the signal that we would like to get at the receiver. OK? So, this means that the signal that was originally transmitted, for example, this one, will not be received as is. And what we receive is something deteriorated.\n所以，我们通常将这种噪声建模为高斯噪声，也就是具有高斯分布，而这种噪声会与我们希望在接收端得到的信号叠加。好吗？所以，这意味着最初发出的信号，例如这个信号，不会按原样被接收。而我们收到的是已经劣化的东西。",
+    "ordinal": 4,
+    "timestamp": "00:02:13",
+    "heading": "04 · 00:02:13 · 高斯噪声与接收信号劣化",
+    "h1_before": null,
+    "anchor": "doxcndCu7rBLfTSQthgQp0MWJEd",
+    "text_sha256": "23d495582a8bb90d5477665d7becc9e354a9bd398f70ae9026bc619366f151d2"
+  },
+  {
+    "block_id": "doxcnVVH1PP1cBkzAherq4UKbAh",
+    "text": "原标说话人 1  00:02:13\nSo the problem is that since it will not be this nice signal located exactly here in the circle, we may get something that is instead located, whose phase has been affected by all these issues. So, when it reaches destination, is actually something located here.\n因此，问题是，由于它不再是恰好位于圆上这里的那个漂亮信号，我们可能得到的东西反而位于，其相位已经受到所有这些问题的影响。因此，当它到达目的地时，实际上是位于这里的某个东西。",
+    "ordinal": 5,
+    "timestamp": "00:02:13",
+    "heading": "05 · 00:02:13 · 传播影响改变信号相位",
+    "h1_before": null,
+    "anchor": "doxcn5F4bSAoHd0PKtE8L3qAk0c",
+    "text_sha256": "cd5ba5e981ba4e9cdd97126b9119a270e754b607eb3cb2fff413adc372af5284"
+  },
+  {
+    "block_id": "doxcn0s2eyCl1dR2TYkFc16O22c",
+    "text": "原标说话人 1  00:02:13\nSo, what is the problem now is that the receiver may get confused. So, which signal is the one that we are receiving? Is originally this one, or it corresponds to this one? Right, so the receiver may get confused, may make mistakes.\n那么，现在的问题是，接收端可能会混淆。所以，我们正在接收的是哪一个信号呢？原来是这个，还是对应那个呢？对，所以接收端可能混淆，可能犯错。",
+    "ordinal": 6,
+    "timestamp": "00:02:13",
+    "heading": "06 · 00:02:13 · 接收端的信号混淆",
+    "h1_before": null,
+    "anchor": "doxcnLS0tPpcQZ4t6pCUyUvNqfb",
+    "text_sha256": "501e789faf75743612f5f26395391867aa088b8ab0ff329ef5545a775c7c687b"
+  },
+  {
+    "block_id": "doxcnkZap3NHk3yU86eZVWUlJ0e",
+    "text": "原标说话人 1  00:02:13\nSo, if the signal that we receive is sufficiently clean and strong, then it may be very close to the original one. And then the receiver may say, well, OK, this was definitely the signal here. And this means that definitely we are receiving 001.\n所以，如果我们收到的信号足够干净、足够强，那么它可能非常接近原来的信号。然后接收端可能会说，嗯，好，这肯定是这里的这个信号。而这意味着，我们接收到的肯定是 001。",
+    "ordinal": 7,
+    "timestamp": "00:02:13",
+    "heading": "07 · 00:02:13 · 干净强信号与正确判决",
+    "h1_before": null,
+    "anchor": "doxcnDNx8ujncRjvs2Cg156vZoh",
+    "text_sha256": "d57263610c1b81a1eb8cd37bc0075b475272213444b9d968d1dce936643d48c4"
+  },
+  {
+    "block_id": "doxcnZkShiMFNa3nuflHQmuAsfe",
+    "text": "原标说话人 1  00:02:13\nBut if the signal that we receive is very much the deteriorated, and what we get is something here, then the receiver would say, well, the signal is likely this one, and then we can think of what we get is 010, and make a mistake.\n但如果我们收到的信号劣化得非常严重，而得到的是这里的某个东西，那么接收端会说，嗯，信号很可能是这个，然后我们可能认为收到的是 010，从而犯错。",
+    "ordinal": 8,
+    "timestamp": "00:02:13",
+    "heading": "08 · 00:02:13 · 严重劣化与错误比特判决",
+    "h1_before": null,
+    "anchor": "doxcn6q5Oe6CgdcgaSNHMTuMBzg",
+    "text_sha256": "94bd823fd530c1bbc1fbdeb7d210e4390b55d773962571af12d0f5ffede501d8"
+  },
+  {
+    "block_id": "doxcny1gdHMBAGFSrMTXHsT60Vg",
+    "text": "原标说话人 1  00:02:13\nSo, the problem of having constellations with many signals is that they are more similar to each other, therefore the probability of mistaking one for another increases.\n因此，包含许多信号的星座存在的问题是，这些信号彼此更相似，所以把一个误认为另一个的概率就会增加。",
+    "ordinal": 9,
+    "timestamp": "00:02:13",
+    "heading": "09 · 00:02:13 · 星座信号密集与混淆概率",
+    "h1_before": null,
+    "anchor": "doxcncWd5Bqfne0OMNBLD4Fioye",
+    "text_sha256": "5ccd571721a3ca2fda09b19ceafaa2c32330bb7f293906ecd3657788955ced13"
+  },
+  {
+    "block_id": "doxcne7H8RJ7lXT7CyDzLLWACWh",
+    "text": "原标说话人 1  00:05:29\nThat's the error probability in extracting the information bits from signals, and this probability increases with noise interference, sure, but it increases also if we use large signal constellations. OK? So, the point here is that, in order to increase the bit rate, the speed at which we transfer bits from the transmitter to receiver, on the one hand, of course, we would like to increase the constellation set, because it means that increasing the number of signals that are available, we can increase the number of bits that each signal can carry.\n这就是从信号中提取信息比特时的错误概率，当然，这个概率会随着噪声、干扰而增加，不过，如果使用较大的信号星座，它也会增加。好吗？所以，这里的要点是，为了提高比特率，也就是我们把比特从发射端传到接收端的速度，一方面，我们当然想增大星座集合，因为这意味着，通过增加可用信号的数量，我们能够增加每个信号可携带的比特数。",
+    "ordinal": 10,
+    "timestamp": "00:05:29",
+    "heading": "10 · 00:05:29 · 增大星座以提高每信号比特数",
+    "h1_before": "调制效率、稳健性与QAM",
+    "anchor": "doxcnOAwqaURIKzonJckyysgIsc",
+    "text_sha256": "455f5b4afb4afece53b009148c1ade40a596e5aeda47060aa4c708697e67a5db"
+  },
+  {
+    "block_id": "doxcn09gCnjpKY69ScQyJW1WACd",
+    "text": "原标说话人 1  00:05:29\nOn the other hand, if we increase the constellation size, the signals that that get close to each other, and the error probability at the receiver increases as well.\n另一方面，如果增大星座大小，这些、这些信号就会彼此靠近，而接收端的错误概率也会随之增加。",
+    "ordinal": 11,
+    "timestamp": "00:05:29",
+    "heading": "11 · 00:05:29 · 星座增大带来的误码代价",
+    "h1_before": null,
+    "anchor": "doxcno1pFfE960ZMBxA3bCiXgXe",
+    "text_sha256": "97c60813a963b930f89679ed0de62a26fd7f4fc2a53d24de43c4d9a6e869df49"
+  },
+  {
+    "block_id": "doxcn34MtgeGRrRk1gLjt622SRg",
+    "text": "原标说话人 1  00:05:29\nSo, the main point is, we need to vary the type of constellation, so the type of modulation that we are using, depending on the wireless channel.\n所以，主要的要点是，我们需要根据无线信道来改变星座类型，也就是改变我们所使用的调制类型。",
+    "ordinal": 12,
+    "timestamp": "00:05:29",
+    "heading": "12 · 00:05:29 · 根据信道选择调制方式",
+    "h1_before": null,
+    "anchor": "doxcnP0qg6mrokrBbtzkTPpejfg",
+    "text_sha256": "5931d2a2b62cadc0f62195085a0c40bca1e56b0437c4990ad18e027f9febfb62"
+  },
+  {
+    "block_id": "doxcnPfzBjitqa5qXVoJ9pflSId",
+    "text": "原标说话人 1  00:07:10\nIf the wireless channel over which the signal travels is very good, and at the receiver likely we get a strong signal, then we can use large constellations because we get very clean signals, and the error probability will be low.\n如果信号传播所经过的无线信道非常好，而接收端很可能得到一个强信号，那么我们就可以使用较大的星座，因为我们得到的是非常干净的信号，错误概率就会低。",
+    "ordinal": 13,
+    "timestamp": "00:07:10",
+    "heading": "13 · 00:07:10 · 良好信道允许使用较大星座",
+    "h1_before": null,
+    "anchor": "doxcnIxE6Kk5wEoPJafq2v6w7pe",
+    "text_sha256": "a7ad4fcb6d7d9d5a8e8d984794413b538e847a3b1491636492899c2ffa4e65c4"
+  },
+  {
+    "block_id": "doxcnKboagf6vLIg18ndkW3TURd",
+    "text": "原标说话人 1  00:07:10\nIf instead the channel is bad, that means the received signal is weak and comes with interference and issues, then we have to be careful. We want to make sure that the receiver will be able to extract the bits correctly to understand what signal that is. And in order to do that, it will be better to use, for example, a binary modulation, where we have only two signals, but they are very well distinguished. So, even if the signal when traveling gets weaker and deteriorated, we're still able to say, OK, this signal that I receive that is placed here is likely this one, and will be correct.\n相反，如果信道很差，也就是说，收到的信号很弱，还带着干扰和各种问题，那么我们就必须小心。我们要确保接收端能够正确提取比特，弄明白那是什么信号。而为了做到这一点，最好使用，比如，二进制调制，这时只有两个信号，不过它们可以非常清楚地区分。所以，即使信号传播时变弱、劣化了，我们仍然能够说，好，我收到的这个位于这里的信号很可能就是这个，而且这个判断会是正确的。",
+    "ordinal": 14,
+    "timestamp": "00:07:10",
+    "heading": "14 · 00:07:10 · 较差信道与稳健二进制调制",
+    "h1_before": null,
+    "anchor": "doxcnGEqEXcKps0DRUTIj4bOmwd",
+    "text_sha256": "6c95c960826ea600793083edb13b45e375872154fe51ae4ea229a44a921e6c69"
+  },
+  {
+    "block_id": "doxcn8rO5ivKYCI5TY69KtWpJxc",
+    "text": "原标说话人 1  00:08:33\nOK, so depending on channel conditions, we may use essentially, more, let's say, robust modulations, like the binary one, or more efficient modulations, like this one with 8, not just 2, but 8 signals, so that we are able to let each signal carry, for example, 3 bits like in this case, instead of one, and increase our speed. Is that clear?\n好，所以，根据不同信道条件，我们基本上可以使用更，可以说，更稳健的调制，例如二进制调制，或者更高效的调制，例如这个有 8 个，不只是 2 个，而是 8 个信号的调制，这样我们就能让每个信号携带，比如，像这种情况下的 3 个比特，而不是一个，并提高我们的速度。这清楚吗？",
+    "ordinal": 15,
+    "timestamp": "00:08:33",
+    "heading": "15 · 00:08:33 · 稳健性与传输效率的权衡",
+    "h1_before": null,
+    "anchor": "doxcnkbT2VUg4L1vq3LfYP9O6Sf",
+    "text_sha256": "f606b87eaf7be3c80e32fc0d2b5e5f4fba5ed660b8a0910594f87c32ac9bfaa4"
+  },
+  {
+    "block_id": "doxcnq96OT7twYV86HwVIpoi6gf",
+    "text": "原标说话人 1  00:08:33\nOK, now that's said, there are actually many different types of modulations.\n好，那么，讲到这里，实际上有很多不同类型的调制。",
+    "ordinal": 16,
+    "timestamp": "00:08:33",
+    "heading": "16 · 00:08:33 · 引出多种调制方式",
+    "h1_before": null,
+    "anchor": "doxcnD1kf16NVn53CrO6sjAQDDh",
+    "text_sha256": "7b93a79e37e6805a011a70a7f4929e98e020285c45b6b719295e4156d9963f07"
+  },
+  {
+    "block_id": "doxcnm5pDSu5jwDQyR6Trngk5tf",
+    "text": "原标说话人 1  00:08:33\nOver the years, researchers have been able to design modulations that are more and more complex, and efficient in carrying bits. An example is this one, where the signals in the constellation vary not just by one parameter, but by two parameters. For example, in this case, they vary by phase and amplitude. So each signal, as you can see, corresponds to a certain phase and a certain amplitude. OK? So they are called QAM modulations, and they create these constellations where signals differ depending on the symbols that we transmit, by both amplitude and phase.\n多年来，研究人员已经能够设计出越来越复杂、携带比特越来越高效的调制。这个就是一个例子，其中星座中的信号不仅在一个参数上不同，而是在两个参数上不同。例如，在这种情况下，它们在相位和幅度上不同。所以，正如你所见，每个信号都对应某个相位和某个幅度。好吗？所以，它们称为 QAM 调制，它们产生这样的星座：根据我们发送的符号不同，信号在幅度和相位两个方面都有区别。",
+    "ordinal": 17,
+    "timestamp": "00:08:33",
+    "heading": "17 · 00:08:33 · QAM同时改变幅度与相位",
+    "h1_before": null,
+    "anchor": "doxcn2MdBvDuXrls4og1ZCE46xT",
+    "text_sha256": "6844babd6701dc744423271724778debfb8ed4f500b96bc5073071dbe9167df2"
+  },
+  {
+    "block_id": "doxcnAusUK2dh8SBE5EBVLFHsKc",
+    "text": "原标说话人 1  00:10:20\nFor example, in this kind of modulation constellation, we have 16 signals, so it means that each signal can carry four bits. OK? So we can increase further the number of bits. Consider nowadays in advanced wireless communications, we are using also 256 QAM constellations. Okay, so 8 bits can be carried by one signal. So, we are increasing more and more the number of bits that can be transferred through one signal in order to be able to increase the bit rate, the speed, whenever the channel of course is good enough.\n例如，在这种调制星座中，我们有 16 个信号，所以这意味着每个信号可以携带四个比特。好吗？因此，我们可以进一步增加比特数量。想一想，如今在先进的无线通信中，我们也使用 256 QAM 星座。好，所以，一个信号可以携带 8 个比特。因此，我们正在不断增加能够通过一个信号传输的比特数，以便能够提高比特率、提高速度，当然，前提是信道足够好。",
+    "ordinal": 18,
+    "timestamp": "00:10:20",
+    "heading": "18 · 00:10:20 · 16QAM、256QAM与每符号比特数",
+    "h1_before": null,
+    "anchor": "doxcnNmYdiir7rVVgouLUa0wsif",
+    "text_sha256": "226a40ba4f99397820af7a5b453216c07fb9a4b3dbbb3815ab3ca3d962811bf8"
+  },
+  {
+    "block_id": "doxcnr8vPd3bfsOtCuFAZHixYgw",
+    "text": "原标说话人 1  00:11:22\nOK, so that said, let's now reflect on the antenna type and frequency that we can use for our wireless communication.\n好，那么，讲到这里，现在我们思考一下，无线通信可以采用的天线类型和频率。",
+    "ordinal": 19,
+    "timestamp": "00:11:22",
+    "heading": "19 · 00:11:22 · 转向天线类型与通信频率",
+    "h1_before": "载波频率、天线尺寸与传播权衡",
+    "anchor": "doxcnPCEGavod95nNAusspEBlPh",
+    "text_sha256": "437448cb0ddc7d29023e0114d3912cecfe36d7cc621df55d3cf589070de1f855"
+  },
+  {
+    "block_id": "doxcnQd2uebCdPWFyOTEFEY06Xc",
+    "text": "原标说话人 1  00:11:22\nNow, as we said, the transmitter and receiver, they transmit and receive the signal by using an antenna here. The size of the antenna will depend on the carrier frequency, so on the frequency at which signals are transmitted by that technology. OK.\n现在，正如我们所说，发射端和接收端，它们利用这里的一根天线来发射和接收信号。天线的大小将取决于载波频率，也就是该技术发射信号所用的频率。好。",
+    "ordinal": 20,
+    "timestamp": "00:11:22",
+    "heading": "20 · 00:11:22 · 天线尺寸与载波频率",
+    "h1_before": null,
+    "anchor": "doxcnC9LCM1UXrGBWSGZHCgBmZg",
+    "text_sha256": "6fbab270a79a27798d8039b48b6af5ab8ac9f520e9f96a6d5b0c943dd457f244"
+  },
+  {
+    "block_id": "doxcnHG9GGg90jpQEvSlQ0cxqne",
+    "text": "原标说话人 1  00:12:05\nSo, there are technologies that work lower frequency, technologies that work at higher frequencies. We mention before, the cellulars can operate, for example, 2.1 megahertz, sorry, gigahertz and 3.7 gigahertz, etc. Wi-Fi can operate 2.4 gigahertz, 5 gigahertz, 6 gigahertz.\n所以，有些技术工作在较低频率，有些技术工作在较高频率。我们之前提到，蜂窝通信可以工作在，例如，2.1 兆赫兹，对不起，吉赫兹，还有 3.7 吉赫兹，等等。Wi-Fi 可以工作在 2.4 吉赫兹、5 吉赫兹、6 吉赫兹。",
+    "ordinal": 21,
+    "timestamp": "00:12:05",
+    "heading": "21 · 00:12:05 · 蜂窝与Wi-Fi的工作频段",
+    "h1_before": null,
+    "anchor": "doxcn4ozJXI6hCANRzlEsPzM5gB",
+    "text_sha256": "5f860ee1b02c0226c446d2e9753845e892b138937b63647a201660482b1123cb"
+  },
+  {
+    "block_id": "doxcngO8PEob1ExeOdUSofLdQhf",
+    "text": "原标说话人 1  00:12:05\nNowadays, they are considering terahertz communications. That means frequencies are very high frequencies. Why? Because the spectrum is large, but is also very, very crowded.\n如今，人们正在考虑太赫兹通信。这意味着那些频率是非常高的频率。为什么？因为频谱很大，但也非常、非常拥挤。",
+    "ordinal": 22,
+    "timestamp": "00:12:05",
+    "heading": "22 · 00:12:05 · 太赫兹通信与频谱拥挤",
+    "h1_before": null,
+    "anchor": "doxcnm5x2RqzvLMQkHid0HSlz6f",
+    "text_sha256": "a444d951bb2cb3dcd529abfa45bca779ddf85fa761149b7f90648c9c72bea8ff"
+  },
+  {
+    "block_id": "doxcnlTjyKjZgYlNuh0uss7uhBl",
+    "text": "原标说话人 1  00:12:05\nAs mentioned at the beginning, mobile communications, mobile services are expanding more and more. And so there are many different technologies that need to use the wireless spectrum, and the wireless spectrum where we can transmit is not infinite. Okay, so we have finite resources, and these resources are on a high demand, so they are becoming precious.\n正如一开始提到的，移动通信、移动服务正在不断扩展。因此，有许多不同技术都需要使用无线频谱，而我们能够用于发射的无线频谱并不是无限的。好，所以，我们拥有有限的资源，而这些资源的需求量很大，所以它们正在变得宝贵。",
+    "ordinal": 23,
+    "timestamp": "00:12:05",
+    "heading": "23 · 00:12:05 · 有限频谱与增长的通信需求",
+    "h1_before": null,
+    "anchor": "doxcnMnzjdXMUeMt1b040UTzUHe",
+    "text_sha256": "90026d652d6422ad2e378e029a27d9b36d75c54126cc35057ba941cf04918381"
+  },
+  {
+    "block_id": "doxcnYZGGCJX3BxuUa0n9lGqjmh",
+    "text": "原标说话人 1  00:13:36\nSo, transmitting at lower frequencies like at megahertz or or few gigahertz is advantages from the point of view of ability of the signal to propagate from the transmitter to the receiver. Why? Because if the frequency is low, then the wavelength is longer, and our signals can travel farther away, maintaining a good level of power. So, they are less affected by the attenuation that the signal experiences while traveling from the transmitter to the receiver.\n所以，在较低频率，比如兆赫兹或者、或者几个吉赫兹上发射，从信号由发射端传播到接收端的能力来看，是有优势的。为什么？因为如果频率较低，那么波长就较长，而我们的信号能够传播得更远，同时保持良好的功率水平。因此，它们较少受到信号从发射端传播到接收端时所经历的衰减的影响。",
+    "ordinal": 24,
+    "timestamp": "00:13:36",
+    "heading": "24 · 00:13:36 · 低频、长波长与传播优势",
+    "h1_before": null,
+    "anchor": "doxcnweCCmhJL6tz4J4u0YjywMe",
+    "text_sha256": "e0b7f7513fb32f63ab1b277d6125ca98a81ac64dcc68ab440d02758f44dabaab"
+  },
+  {
+    "block_id": "doxcntc7d1fa6p4iecrYfaDJWST",
+    "text": "原标说话人 1  00:13:36\nYou may remember, let me just temporarily go ahead a bit.\n你们可能记得，让我暂时往后稍微翻一点。",
+    "ordinal": 25,
+    "timestamp": "00:13:36",
+    "heading": "25 · 00:13:36 · 暂时翻看后续传播公式",
+    "h1_before": null,
+    "anchor": "doxcnScfU2QnEAzLqlXVdGK9qBg",
+    "text_sha256": "14a03f9e09041ed39456aec28d3d52539bc34d2d9b186bc2373aeb67e4d10856"
+  },
+  {
+    "block_id": "doxcnv77cWTrFSudFgvQqNz3fJc",
+    "text": "原标说话人 1  00:13:36\nYou may remember from high school, the law according to which electromagnetic signals propagate in the simplest and ideal case, that is free space, where there are no obstacles, there is just a transmitter and a receiver.\n你们可能记得高中学过的规律，电磁信号在最简单、最理想的情况下，就是按照这个规律传播，也就是自由空间，那里没有障碍物，只有一个发射端和一个接收端。",
+    "ordinal": 26,
+    "timestamp": "00:13:36",
+    "heading": "26 · 00:13:36 · 自由空间的理想传播场景",
+    "h1_before": null,
+    "anchor": "doxcnx2oNva1cRNgLasR7NhEtdg",
+    "text_sha256": "c8151b024c135a9b48565e6eab08dd91d7818d1ba86f02dcc8475e1efe4a10aa"
+  },
+  {
+    "block_id": "doxcnBjFCrIT89aThJCwGMIZEuh",
+    "text": "原标说话人 1  00:15:09\nI'm sure in a high school, you studied that, this formula that says that the power of the received signal of course depends on the power with which the signal is transmitted, and then it depends on the type of antenna that we are using. And then it depends on the distance, right? So it gets attenuated with the square of the distance, that means that if transmitter and receiver are very close to each other, then the receiver will get a high power signal. But if the receiver is far away, it will get a much weaker signal, right? So, r is the distance between transmitter and and receiver.\n我相信你们高中学过这个，这个公式说，接收信号的功率当然取决于信号发射时的功率，然后还取决于我们使用的天线类型。接着，它还取决于距离，对吧？因此，它按距离的平方衰减，这意味着，如果发射端和接收端彼此很近，那么接收端会得到高功率的信号。但如果接收端很远，它就会得到弱得多的信号，对吧？所以，r 是发射端和、和接收端之间的距离。",
+    "ordinal": 27,
+    "timestamp": "00:15:09",
+    "heading": "27 · 00:15:09 · 接收功率与距离平方衰减",
+    "h1_before": null,
+    "anchor": "doxcny04Eunlz5odERxMNWRmZGe",
+    "text_sha256": "a464570e12b9eedc387dd1e57d673990e337e4560f823059b62ce22933675cad"
+  },
+  {
+    "block_id": "doxcno4mfXiefxIjFKp1GJFAwYq",
+    "text": "原标说话人 1  00:16:07\nAnd let me show you this version essentially of the formula of the attenuation that is experienced by a signal, where even more clearly, we see the dependency of the attenuation on the distance between transmitter and receiver. And this is indeed, the attenuation increases with the square of the distance, but also it increases with the square of the frequency of the electromagnetic signal.\n让我给你们看一下这个版本，基本上就是信号所经历的衰减公式的这个版本，在这里，我们能更清楚地看到衰减对发射端和接收端之间距离的依赖。而这确实就是，衰减随距离的平方增加，不过，它也随电磁信号频率的平方增加。",
+    "ordinal": 28,
+    "timestamp": "00:16:07",
+    "heading": "28 · 00:16:07 · 衰减对距离和频率的平方依赖",
+    "h1_before": null,
+    "anchor": "doxcnNc32sEsQs46YGO4v8Pwitg",
+    "text_sha256": "1d2828171935e2e8ed1afe75d2e765cac33edabb05932d9f6572a69492c19baf"
+  },
+  {
+    "block_id": "doxcn21jdDkvdO27lTjY15eengf",
+    "text": "原标说话人 1  00:16:47\nSo, again, this is just high school material, I'm sure you remember that, f is the frequency at which the electromagnetic signal is transmitted. So, the higher the frequency, so the portion of the spectrum that we are using to transmit our signal, and the higher the attenuation. So, very high frequencies used to transmit our signal that we select to remember by performing analog modulation in our block scheme that we looked at before. The higher the attenuation, the weaker the signal at the receiver.\n所以，再说一次，这只是高中内容，我相信你们记得，f 是电磁信号发射时的频率。所以，频率越高，也就是我们用来发射信号的那部分频谱越高，衰减就越大。因此，用于发射信号的非常高的频率，是我们选择的，还记得吧，是通过在之前看过的框图中进行模拟调制来选择的。衰减越大，接收端的信号就越弱。",
+    "ordinal": 29,
+    "timestamp": "00:16:47",
+    "heading": "29 · 00:16:47 · 高频衰减与接收信号变弱",
+    "h1_before": null,
+    "anchor": "doxcne8lndhd1P5NrbFgOjCSuoh",
+    "text_sha256": "4ac5c21f1b00f78536de33d6f42298d783b4ed7361355649d874b139c292f6fd"
+  },
+  {
+    "block_id": "doxcnBg3kY4iLtVip4mZfCjyUUd",
+    "text": "原标说话人 1  00:16:47\nSo, as I was saying, going back where we were.\n所以，正如我刚才所说，回到我们刚才讲到的地方。",
+    "ordinal": 30,
+    "timestamp": "00:16:47",
+    "heading": "30 · 00:16:47 · 返回天线与频率讨论",
+    "h1_before": null,
+    "anchor": "doxcnYkD8KG1rscsALYzY1an1zb",
+    "text_sha256": "6b42fe97b8face07a041ee2aa88f30bdc873db7155bab652b2866a292614a497"
+  },
+  {
+    "block_id": "doxcnUqjNRdbtGs8JfzPZ1Y7XBy",
+    "text": "原标说话人 1  00:17:46\nBack to where where. OK. Transmitting a signal in the air in a lower portion of the frequency spectrum is advantageous because you will get less attenuation. Right? So, it will be able to be received at a receiver, even if the receiver is farther away with sufficient power, and this is good if we want to provide a large coverage.\n回到哪里、哪里。好。在频谱中较低的部分通过空气发射信号是有优势的，因为受到的衰减会更小。对吧？所以，即使接收端离得更远，它仍能以足够的功率被接收端接收到，而如果我们想提供较大的覆盖范围，这就是好事。",
+    "ordinal": 31,
+    "timestamp": "00:17:46",
+    "heading": "31 · 00:17:46 · 低频传播与大范围覆盖",
+    "h1_before": null,
+    "anchor": "doxcnDlk7hiEkjNSb2U7q2sF8kd",
+    "text_sha256": "d7bdcdf031df263d8db014f66acd7dbe3adb455f6e361164f6139fd9322952b2"
+  },
+  {
+    "block_id": "doxcnEq3Hw7yt5Hoc5MSlkA3l9f",
+    "text": "原标说话人 1  00:17:46\nHowever, if we look at the antenna size, the antenna size is more or less of the same order of magnitude as the wavelength. And so, if we have a high frequency of the signal, the wavelength is smaller, and the antenna size will be smaller.\n不过，如果我们看天线大小，天线大小与波长大致处于相同的数量级。因此，如果信号频率较高，波长就较小，天线大小也会较小。",
+    "ordinal": 32,
+    "timestamp": "00:17:46",
+    "heading": "32 · 00:17:46 · 高频、短波长与小天线",
+    "h1_before": null,
+    "anchor": "doxcnFJAcLgX1Z7ZXGczfK8hDvd",
+    "text_sha256": "b872346aff8bf6e4404730808c489e970078eef295b4328c8fc5e154d8d0ff28"
+  },
+  {
+    "block_id": "doxcnURMpeghHWKVPFxcCKYsIxg",
+    "text": "原标说话人 1  00:17:46\nWhenever you want to design a mobile device, you want a mobile device that is small. So every everything that you put inside needs to be small.\n每当你想设计一台移动设备时，你都希望它是一台小巧的移动设备。所以，你放进去的每一个、每一样东西都需要小。",
+    "ordinal": 33,
+    "timestamp": "00:17:46",
+    "heading": "33 · 00:17:46 · 移动设备的小型化要求",
+    "h1_before": null,
+    "anchor": "doxcnnKChp60BOdZ6o5dZKFtFVe",
+    "text_sha256": "22e5f1c002f25113e1116bdb63460b26f0f604002dafa40c9ecd215a1dc0f63f"
+  },
+  {
+    "block_id": "doxcnzwwJFWuzgOQyIwn6taVSxf",
+    "text": "原标说话人 1  00:19:14\nSo, from that point of view, using a higher frequencies is a good thing, because we can have a smaller antenna. As we said, however, the higher the frequency at which we transmit the signal, the larger the attenuation. So in that case, if the antenna is small, the frequency is high, the antenna is small, but unfortunately, the signal will be received by a far away receiver, very weak.\n所以，从这个角度来看，使用较高频率是好事，因为我们可以有一根较小的天线。不过，正如我们所说，发射信号的频率越高，衰减就越大。因此，在那种情况下，如果天线小，频率高，天线小，但不幸的是，远处的接收端收到的信号会非常弱。",
+    "ordinal": 34,
+    "timestamp": "00:19:14",
+    "heading": "34 · 00:19:14 · 小天线与高频衰减的取舍",
+    "h1_before": null,
+    "anchor": "doxcnWayDIh7Ui0Am71PoZ2gkCh",
+    "text_sha256": "79c657f60f07f8803781f53e61233bc1b64200e68384acce893b3e9a9f493d84"
+  },
+  {
+    "block_id": "doxcnjYarKdU4asCI2sjT57iAtf",
+    "text": "原标说话人 1  00:19:14\nSo, it's a trade off, right? It's a trade off. Here, we need to think about what we want to do with our wireless signal. Do we want to connect devices that are close to each other? Well, then the receiver, the transmitter will be close. Our signal doesn't need to travel too far away. This means that we can cope with higher frequencies.\n所以，这是一种权衡，对吧？是一种权衡。在这里，我们需要想想，想用无线信号做什么。我们是想连接彼此很近的设备吗？嗯，那么，接收端、发射端就会很近。我们的信号不需要传播得太远。这意味着我们能够应对更高的频率。",
+    "ordinal": 35,
+    "timestamp": "00:19:14",
+    "heading": "35 · 00:19:14 · 近距离连接与高频选择",
+    "h1_before": null,
+    "anchor": "doxcnhf07EOARtidHe4Kwt5xJMg",
+    "text_sha256": "85676f7fd18182647e605a2bff6d59a8c3dbb455a9502b4a815474e0eef7d1cc"
+  },
+  {
+    "block_id": "doxcncGNGYc9RD14I0WIxNrvF5g",
+    "text": "原标说话人 1  00:19:14\nIf instead we want to connect the transmitter and the receiver that are very far away from each other, then using high frequencies is not a good idea, because the signal get attenuated very much, and therefore we risk to have a weak signal at the receiver. OK? So, as often in life, it's a matter of trading off advantages with disadvantages.\n相反，如果我们想连接彼此相距非常远的发射端和接收端，那么使用高频就不是个好主意，因为信号衰减得非常厉害，所以我们就有在接收端得到弱信号的风险。好吗？所以，就像生活中常常遇到的情况一样，这是一个权衡优点与缺点的问题。",
+    "ordinal": 36,
+    "timestamp": "00:19:14",
+    "heading": "36 · 00:19:14 · 远距离连接的频率权衡",
+    "h1_before": null,
+    "anchor": "doxcnC6hE4GxrMJZe31w7ukjKUd",
+    "text_sha256": "e76589235dc6f8e011763729a53a43687527d94e75d0451864229f79f63f022e"
+  },
+  {
+    "block_id": "doxcnFyQQ7JmKdytoDQ6IxwI3bc",
+    "text": "原标说话人 1  00:19:14\nConsider, however, that the current trend in wireless communications is to use higher frequencies and to have transmitters and receivers closer to each other. That's the trend in all technologies: Wi-Fi, cellular. So we say that wireless networks get denser and denser. It's the so-called densification phenomenon of wireless networks. To have nodes that communicate with each other be closer and closer, and be able to use higher frequencies.\n不过，请考虑一下，无线通信当前的趋势是使用更高的频率，并让发射端和接收端彼此更近。这是所有技术的趋势：Wi-Fi、蜂窝通信。所以，我们说无线网络越来越密集。这就是所谓的无线网络密集化现象。让彼此通信的节点越来越近，并能够使用更高的频率。",
+    "ordinal": 37,
+    "timestamp": "00:19:14",
+    "heading": "37 · 00:19:14 · 无线网络密集化趋势",
+    "h1_before": null,
+    "anchor": "doxcn3lwcuc96uqWVsqzYHRPDFh",
+    "text_sha256": "c84d4ad8faed26dee8295368d900999bd1ea63a47fd850c0bcfcff60cf5c690d"
+  },
+  {
+    "block_id": "doxcnPKeVTimBHKTizZwBYqSMxf",
+    "text": "原标说话人 1  00:19:14\nThe advantage of that is, as mentioned that in this case, we are able to, first of all, use a portion of the spectrum at high frequencies, where there are more radio resources, so there is more let's say space to transmit signals in that region of the spectrum. And we get antenna sizes that are smaller.\n这样做的好处是，正如提到过的，在这种情况下，我们首先能够使用频谱中的一个高频部分，在那里有更多无线电资源，所以，可以说，在那片频谱区域里有更多空间可以发射信号。而且，我们得到的天线尺寸更小。",
+    "ordinal": 38,
+    "timestamp": "00:19:14",
+    "heading": "38 · 00:19:14 · 高频资源与小尺寸天线优势",
+    "h1_before": null,
+    "anchor": "doxcnyevcmxH0SqMAt4GzcNXRag",
+    "text_sha256": "9309d59c334be3399ada23fefa7b08c2b87acedcba27e634fb00a915276715ae"
+  },
+  {
+    "block_id": "doxcng0n7JGgZqcRYbzobVb3xEc",
+    "text": "原标说话人 1  00:19:14\nSo, in our mobile devices, we can fit not only, say, one antenna, but many antennas. And as we will discuss later, having the possibility to fit not just one, but many antennas in the same device, because each of them is very small, is a big advantage. And we will understand better in the following lectures, but keep that in mind for now.\n所以，在移动设备中，我们可以装入的不只是，比如，一根天线，而是许多根天线。正如我们稍后会讨论的，由于每根天线都非常小，因此能够在同一台设备里装入不只一根而是许多根天线，是一个很大的优势。我们会在接下来的课程中进一步理解，不过现在请先记住这一点。",
+    "ordinal": 39,
+    "timestamp": "00:19:14",
+    "heading": "39 · 00:19:14 · 设备内多天线的潜力",
+    "h1_before": null,
+    "anchor": "doxcn3NwdRxOkBVUKV0eSSrwZLg",
+    "text_sha256": "39034b32d4e65adc7fa822732420c8fbba82fc11e1f4e97f89030db6fa014779"
+  },
+  {
+    "block_id": "doxcngh0frNbCIVbAaSnBUW0m0e",
+    "text": "原标说话人 1  00:22:52\nOK? Now, let me just present you an example that will allow us to better understand why denser wireless networks is better. It's an example that refers to the point of view of a mobile operator. OK, so you are a subscriber of a mobile operator that provides you with cellular connectivity, I'm sure. Every mobile operator has got base stations that cover a certain area, so that it can provide service to its own users. Right? Now, cellular communications, cellular networks can operate in portions of the frequency spectrum that are licensed. That means that if a mobile operator wants to provide service to its own users, it can do that by using frequency portions for which it has paid.\n好吗？现在，让我给你们举一个例子，它会让我们更好地理解，为什么更密集的无线网络更好。这是一个从移动运营商角度出发的例子。好，所以，我相信，你们都订阅了一家移动运营商的服务，由它为你们提供蜂窝连接。每家移动运营商都有覆盖某一区域的基站，以便能够为自己的用户提供服务。对吧？现在，蜂窝通信、蜂窝网络可以工作在频谱中获得许可的部分。这意味着，如果一家移动运营商想向自己的用户提供服务，它可以通过使用自己付过费的频谱部分来实现。",
+    "ordinal": 40,
+    "timestamp": "00:22:52",
+    "heading": "40 · 00:22:52 · 运营商视角与授权频谱",
+    "h1_before": "授权频谱、网络密集化与空间复用",
+    "anchor": "doxcnf3tm0Yld2WAPY6dKvhBFNd",
+    "text_sha256": "50877204e5c41d8379f123eb429f346c12118a66ce8a3479351b2295046182cd"
+  },
+  {
+    "block_id": "doxcnybOebiGDE4O8dwlr0FCTFb",
+    "text": "原标说话人 1  00:22:52\nEvery mobile operator pays to use certain portions of the frequency spectrum. And in this way, he gets a license to operate in those frequency portions. OK, so they are called licensed frequencies. So, in this case, the mobile operator needs frequencies to serve the users. He needs to pay for the frequencies, he pays the ministry of the communication. But in this way, as we said, it can provide services to its own users, and the users, of course, pay the subscription. So, the mobile operator needs to pay for the frequencies on the one hand, but on the other hand, it gets revenues from the subscribers. OK? The more subscribers you get, of course, the higher the revenue.\n每家移动运营商都付费使用频谱的某些部分。通过这种方式，它获得在那些频谱部分上运营的许可证。好，所以，它们称为授权频率。因此，在这种情况下，移动运营商需要频率来为用户服务。它需要为频率付费，它向通信部付费。不过，通过这种方式，正如我们所说，它可以为自己的用户提供服务，而用户当然要支付订阅费用。所以，移动运营商一方面需要为频率付费，但另一方面，它从订户那里获得收入。好吗？订户越多，当然，收入就越高。",
+    "ordinal": 41,
+    "timestamp": "00:22:52",
+    "heading": "41 · 00:22:52 · 频谱许可成本和订户收入",
+    "h1_before": null,
+    "anchor": "doxcnCzHjwDqFTyx8frziVzYGTf",
+    "text_sha256": "8e03c4d0ab71ab2847087216682ce8768d64684a862b7f127bf3ff75e4c414cb"
+  },
+  {
+    "block_id": "doxcneoennaIYS09AxHOmc70Unh",
+    "text": "原标说话人 1  00:22:52\nSo, once the mobile operator has paid the license to use certain frequencies, then it is in the mobile operator interest to increase the number of users or subscribers it can serve, to maximize in so in so revenues.\n所以，一旦移动运营商已经付费获得使用某些频率的许可证，那么，增加它能够服务的用户或订户数量，以使收入、这样、这样使收入最大化，就符合移动运营商的利益。",
+    "ordinal": 42,
+    "timestamp": "00:22:52",
+    "heading": "42 · 00:22:52 · 增加可服务订户以提高收入",
+    "h1_before": null,
+    "anchor": "doxcnNFMu9Od6j3XWG5mx6z1zze",
+    "text_sha256": "dff2a68932a3f4209ec9e5c095472b3b3d5fd616ec46bb8f8388b7cd6978be5d"
+  },
+  {
+    "block_id": "doxcnj4JTRXenoyctIl5R26FCUZ",
+    "text": "原标说话人 1  00:22:52\nOkay, so let's consider this is our geographical area over which the mobile operator needs to operate to provide service. This is just to give you an idea of how much mobile operators had to pay for the frequencies in Italy.\n好，那么，假设这里是我们的地理区域，移动运营商需要在这个区域运营、提供服务。这只是为了让你们对意大利的移动运营商曾经必须为频率支付多少钱有个概念。",
+    "ordinal": 43,
+    "timestamp": "00:22:52",
+    "heading": "43 · 00:22:52 · 意大利频谱费用示例",
+    "h1_before": null,
+    "anchor": "doxcnadUDeizGIrsxkdlj0NPjSf",
+    "text_sha256": "7b95b1d06342872fe765794310597e836713e620784765fc9fddf351fc6cb544"
+  },
+  {
+    "block_id": "doxcnnak8nUgdz9AVEcAgEpm40e",
+    "text": "原标说话人 1  00:26:15\nI guess that more or less it applies to every country to buy the spectrum and operate using the 5G cellular communications, so as you can see, is lots of money, very very large amount of money. So these frequencies are very very precious, OK?\n我想，这大致适用于每一个国家：购买频谱，并使用 5G 蜂窝通信开展运营，所以，正如你们看到的，这是很多钱，非常、非常大的一笔钱。因此，这些频率非常、非常宝贵，好吗？",
+    "ordinal": 44,
+    "timestamp": "00:26:15",
+    "heading": "44 · 00:26:15 · 5G频谱成本与资源价值",
+    "h1_before": null,
+    "anchor": "doxcnFyELIVhsEJfpysRerCfp4d",
+    "text_sha256": "018ccfb616f661d16ab20469893a33cc208f284852a6c0d978d5d8f6e613f156"
+  },
+  {
+    "block_id": "doxcnbBCcS6nPfYfc8u6vZLgriK",
+    "text": "原标说话人 1  00:26:39\nLet's now assume that our mobile operator has paid to use L frequency bands, okay? So consider the frequency, the region of the frequency that the mobile operator has bought, as bought the license for. And let's consider that you can divide this into L different bands, channels, OK? Using one frequency channel, you can serve a certain number of users.\n现在假设，我们的移动运营商已经付费使用 L 个频带，好吗？那么，考虑运营商买下的频率、频率区域，买下许可证的那个区域。再假设，你可以把它分成 L 个不同的频带、信道，好吗？使用一个频率信道，你可以为一定数量的用户服务。",
+    "ordinal": 45,
+    "timestamp": "00:26:39",
+    "heading": "45 · 00:26:39 · L个频带及单信道服务能力",
+    "h1_before": null,
+    "anchor": "doxcn6BLRkm5RGRZKSuJMOgDcBd",
+    "text_sha256": "8e50540eaf760da2a903405347c95b3ab457eaa8a9da537b3636c7378ef79e7b"
+  },
+  {
+    "block_id": "doxcn1y1fAFdVjbjL2w6HtdMU5b",
+    "text": "原标说话人 1  00:27:22\nSo, the number, the total number of users that you can serve depends of course on the number of channels that you've got. If you can serve, for example, 100 users on each band, and you have both L bands, then of course the number of users you can serve is L times one hundred.\n所以，你能服务的数量，用户总数，当然取决于你拥有的信道数量。例如，如果每个频带能服务 100 个用户，而你拥有了 L 个频带，那么，当然，你能够服务的用户数就是 L 乘以一百。",
+    "ordinal": 46,
+    "timestamp": "00:27:22",
+    "heading": "46 · 00:27:22 · 信道数量与用户总容量",
+    "h1_before": null,
+    "anchor": "doxcnoykGDt1M56kE7gFDoEeZkb",
+    "text_sha256": "ef4ba40ab902bcc7cdd6cb16f9b5b360e97a76de468e894ade3c8986d0ac2cc6"
+  },
+  {
+    "block_id": "doxcngZEBxd4uJrQ0BVMnrpt9Kg",
+    "text": "原标说话人 1  00:27:51\nOK, now L is given, our mobile operator has paid for those L frequency, frequencies or frequency bands. And also the number of users that can be served by each frequency band is given.\n好，现在 L 是给定的，我们的移动运营商已经为那 L 个频率、频率或频带付了费。而且，每个频带能够服务的用户数量也是给定的。",
+    "ordinal": 47,
+    "timestamp": "00:27:51",
+    "heading": "47 · 00:27:51 · 固定频带数和单频带容量",
+    "h1_before": null,
+    "anchor": "doxcn5ibr62at2juCKVOc51VWvf",
+    "text_sha256": "505c6e70a5d4ea7f019934358349f51c913cb8666289a8c0d7638d239759ac10"
+  },
+  {
+    "block_id": "doxcn0eOVpQnSQ8o7LZDHg8KYbf",
+    "text": "原标说话人 1  00:28:17\nLet's now assume that our mobile operator deploys only one base station in our area. Through the base station, he can serve how many users? L times the number of users that can be served by one frequency channel. OK? And we will gain some revenues as a consequence of that.\n现在假设，我们的移动运营商只在这个区域部署一个基站。通过这个基站，它能服务多少用户？L 乘以一个频率信道能够服务的用户数量。好吗？而我们会因此获得一些收入。",
+    "ordinal": 48,
+    "timestamp": "00:28:17",
+    "heading": "48 · 00:28:17 · 单基站的用户容量与收入",
+    "h1_before": null,
+    "anchor": "doxcnzFocxHrZTZjsL5AxkIxQQg",
+    "text_sha256": "ca338ee4c274595f658feddbc2fdf653b69f9a22c3745c6d444e3bfc3bcef5be"
+  },
+  {
+    "block_id": "doxcnGpq0uNxWUk8HnjF6iuO3Oh",
+    "text": "原标说话人 1  00:28:50\nNow, let's consider that the mobile operator wants to increase its revenues. How can you do that? It doesn't want to pay any more money, right? For the frequencies. So we still have L frequency bands, that's it. But it wants to increase its revenues, so the number of users that is able to serve. Well, you can do that by deploying more base stations. Why? Because if instead of one, now you create three base stations that do not interfere with each other, so their coverage, as you can see, does not significantly overlap, then, this base station can use L frequency bands. This base station can use L frequency bands. This base station can use L frequency bands.\n现在，假设移动运营商想增加收入。你怎么做呢？它不想再付更多钱，对吧？为频率付钱。所以，我们仍然只有 L 个频带，就这些。但它想增加收入，也就是增加能够服务的用户数。嗯，你可以通过部署更多基站来做到这一点。为什么？因为现在，如果你不是建一个，而是建三个彼此不干扰的基站，也就是，正如你们所见，它们的覆盖范围没有明显重叠，那么，这个基站可以使用 L 个频带。这个基站可以使用 L 个频带。这个基站可以使用 L 个频带。",
+    "ordinal": 49,
+    "timestamp": "00:28:50",
+    "heading": "49 · 00:28:50 · 多基站重复使用同一组频带",
+    "h1_before": null,
+    "anchor": "doxcnUnpAxMFFSpIeQn1bLdkeke",
+    "text_sha256": "aa12ef258d7ce028b4237560690685d26668b7379ee6d2cd8df1cad4b85c4785"
+  },
+  {
+    "block_id": "doxcnILy0LKMW4X6wyYF18trg6e",
+    "text": "原标说话人 1  00:29:59\nSo, how many users can you now serve? Three times more than in the previous case? OK?\n所以，现在你能服务多少用户？是前一种情况的三倍？好吗？",
+    "ordinal": 50,
+    "timestamp": "00:29:59",
+    "heading": "50 · 00:29:59 · 三个基站带来的容量增长",
+    "h1_before": null,
+    "anchor": "doxcn64Wh6bMdJH7KaORFRUkELe",
+    "text_sha256": "f36b42dbf9610ee757ff62e03d668c8c99e9881842bb0f227ae84787b2584843"
+  },
+  {
+    "block_id": "doxcnXY92vNXOGKVRIXJ4PPGv0b",
+    "text": "原标说话人 1  00:29:59\nImportant thing clearly is that you design your base stations so that their coverage does not overlap, because otherwise they interfere with each other.\n显然，重要的是，设计基站时，要让它们的覆盖范围不重叠，因为否则它们会彼此干扰。",
+    "ordinal": 51,
+    "timestamp": "00:29:59",
+    "heading": "51 · 00:29:59 · 覆盖规划与避免同频干扰",
+    "h1_before": null,
+    "anchor": "doxcnaDlQ2WeNcEsumuT9qQ5Gdc",
+    "text_sha256": "56d9ca4a9ee822f9c41df692a462f7db9df766abcc4097c0c6cbfd5b34d31f58"
+  },
+  {
+    "block_id": "doxcnLjMHuDDFvlQ2MAKlHPU5eb",
+    "text": "原标说话人 1  00:29:59\nIf you want to further increase your revenues, then you can increase the number of base stations serving your area. So, if you are willing to, or is the mobile operator is willing to pay a little bit more in terms of base stations to be deployed, then again, if they do not overlap in terms of coverage with each other, each will be able to serve a certain number of users that is proportional to the number of frequency bands, L frequency bands.\n如果你想进一步增加收入，那么你可以增加服务于该区域的基站数量。所以，如果你愿意，或者说移动运营商愿意为要部署的基站再多付一点钱，那么，同样地，如果它们的覆盖范围彼此不重叠，每个基站就能够服务一定数量的用户，而这个数量与频带数，也就是 L 个频带，成正比。",
+    "ordinal": 52,
+    "timestamp": "00:29:59",
+    "heading": "52 · 00:29:59 · 进一步增加基站数量",
+    "h1_before": null,
+    "anchor": "doxcn84Z5stOkG9hTPVqNNcl5Ib",
+    "text_sha256": "7793b14edb28e2bf6e23bb9d706c2873ee82b125f77a958cb9ae25726b55346c"
+  },
+  {
+    "block_id": "doxcn5NZL3bzBIeXEiKZfbgOeWf",
+    "text": "原标说话人 1  00:31:04\nSo now, with respect to the previous case, since instead of one base station, we have nine base stations, we have increased the number of subscribers by nine. This is called spatial reuse technique, right? So, you have only L frequency band, what you do is try and reuse spatially multiple times this same L frequency bands in order to serve more users and increase your revenue.\n所以现在，相较于前一种情况，由于我们不再有一个基站，而是有九个基站，我们就把订户数量提高到了九倍。这叫作空间复用技术，对吧？因此，你只有 L 个频带，你要做的是尝试在空间上多次复用这同样的 L 个频带，以便服务更多用户，并增加收入。",
+    "ordinal": 53,
+    "timestamp": "00:31:04",
+    "heading": "53 · 00:31:04 · 九基站示例与空间复用",
+    "h1_before": null,
+    "anchor": "doxcnhK9zzIq72G2svE0POVHere",
+    "text_sha256": "e9fe9bb5aca22c84356f1bf642f706b18bc60c22d6b4e5cf0192a428270cf5f6"
+  },
+  {
+    "block_id": "doxcnd1pbex8TjLACLJ9kVlDWXe",
+    "text": "原标说话人 1  00:31:41\nSo now we understand the densification trend. Why do we have this densification trend that is making wireless networks denser and denser with transmitters and receivers that are closer together and closer to each other? Because in this way, we can increase the number of users that can be served. So for mobile operators, for example, this means to increase the number of subscribers, the revenues.\n所以，现在我们理解了密集化趋势。为什么会有这种密集化趋势，使无线网络越来越密集，让发射端和接收端靠得更近、彼此越来越近呢？因为这样一来，我们可以增加能够服务的用户数量。所以，例如，对于移动运营商，这意味着增加订户数量、增加收入。",
+    "ordinal": 54,
+    "timestamp": "00:31:41",
+    "heading": "54 · 00:31:41 · 密集化提高可服务用户数",
+    "h1_before": null,
+    "anchor": "doxcnoWLUJsmz6xk8CBoDiLiL6f",
+    "text_sha256": "9463c638a4ea3ca8e9b8b1e89983bd878bd28cc676e94e5f65bdd5797ba2bca5"
+  },
+  {
+    "block_id": "doxcnjPuD2ewHd5HEYsTz5D0Tld",
+    "text": "原标说话人 1  00:32:22\nIn a Wi-Fi, similarly, or for a university campus that offers Wi-Fi connectivity, it can increase the number of students and people that can be served by university access points.\n在 Wi-Fi 中，同样地，或者对于提供 Wi-Fi 连接的大学校园，它可以增加大学接入点能够服务的学生和人员数量。",
+    "ordinal": 55,
+    "timestamp": "00:32:22",
+    "heading": "55 · 00:32:22 · 校园Wi-Fi的容量提升",
+    "h1_before": null,
+    "anchor": "doxcnFZzbICCjTa4EsZb8SwjNEc",
+    "text_sha256": "f4495eb5662bc06dbacb18b997ecac72f55861246e6da1d0a6414f7aa725d587"
+  },
+  {
+    "block_id": "doxcn04sb2gBgrH9YVRjGbCmRtd",
+    "text": "原标说话人 1  00:32:42\nSo, independently of the technology that we are looking at, this is the trend, OK? Making our wireless networks denser. Is it clear? OK, great. So, let's just to proceed for two minutes. No, sorry, not for two minutes. Till 10:25, we still have time.\n所以，无论我们考察的是哪种技术，这都是趋势，好吗？让我们的无线网络更加密集。清楚吗？好，很好。那么，我们就再继续两分钟。不，对不起，不是两分钟。讲到 10 点 25 分，我们还有时间。",
+    "ordinal": 56,
+    "timestamp": "00:32:42",
+    "heading": "56 · 00:32:42 · 网络密集化小结与时间确认",
+    "h1_before": null,
+    "anchor": "doxcnI904elxGZYegB6caLGl8Th",
+    "text_sha256": "f797bb1e499b6a20c74a871c7ebba1aa1e02076643a6102189d41e205c2d2656"
+  },
+  {
+    "block_id": "doxcn3fY6hm9Rz2sfvdBaeFU7Rh",
+    "text": "原标说话人 1  00:32:42\nLet's now just mention some definitions, and introduce some notation that will be useful to have this general understanding of wireless communication networks.\n现在，我们简单提及一些定义，并介绍一些符号，它们会有助于我们对无线通信网络建立这种总体理解。",
+    "ordinal": 57,
+    "timestamp": "00:32:42",
+    "heading": "57 · 00:32:42 · 引入通信参数与符号",
+    "h1_before": "功率、能量、噪声与分贝表示",
+    "anchor": "doxcnh0Mfa87NLaenrqqyWA6gpb",
+    "text_sha256": "b4ca7a6559fe8ad22f78e2de8e8ce76903edf5c0d59d934a3a449845db1f36f2"
+  },
+  {
+    "block_id": "doxcnN3AAiV8qCn19IFOxArRivc",
+    "text": "原标说话人 1  00:32:42\nSo, as I said, let's start from the bottom. Whenever we consider the receiver, the receiver that gets the signal, gets the signal, plus possibly interference. For now, just consider that there are no other sources of signal. OK, we have only our intended transmitter. So we have the useful signal coming from the intended transmitter.\n所以，正如我说的，我们从下面开始。每当我们考虑接收端时，那个接收到信号的接收端，接收到信号，再加上可能存在的干扰。现在，先假设没有其他信号源。好，我们只有预期的那个发射端。因此，我们有来自预期发射端的有用信号。",
+    "ordinal": 58,
+    "timestamp": "00:32:42",
+    "heading": "58 · 00:32:42 · 先考虑无外部干扰的有用信号",
+    "h1_before": null,
+    "anchor": "doxcnHPCN3VhcULEYhsmcrdI3eb",
+    "text_sha256": "11ee80375e432165872fec338ab8e902e357a2a6c2d4a90029cb5aac9dd15c63"
+  },
+  {
+    "block_id": "doxcnjfyD6M9hIeaTnHe28ouRUb",
+    "text": "原标说话人 1  00:33:59\nAt the receiver, however, as mentioned, we have noise caused by electronics, different types of noise that is typically modeled as Gaussian noise. Right? N0 is used to denote the noise power density at the receiver. So, that's the traditional notation to denote the power density of the noise.\n不过，在接收端，正如提到过的，我们有电子器件造成的噪声，不同类型的噪声，通常被建模为高斯噪声。对吧？N0 用来表示接收端的噪声功率密度。所以，这是表示噪声功率密度的传统符号。",
+    "ordinal": 59,
+    "timestamp": "00:33:59",
+    "heading": "59 · 00:33:59 · 接收端噪声与功率密度N0",
+    "h1_before": null,
+    "anchor": "doxcnOrohLl8vbQ3lJ8yvgtVU4e",
+    "text_sha256": "2d396cb57873c084282021a92decd19a755ac050827fc2ab8818f1bf098c79ba"
+  },
+  {
+    "block_id": "doxcnD2Vs1TFgQtvZLCieBrftle",
+    "text": "原标说话人 1  00:34:31\nSo, how much noise essentially we have at a receiver?\n所以，基本上，我们在一个接收端有多少噪声呢？",
+    "ordinal": 60,
+    "timestamp": "00:34:31",
+    "heading": "60 · 00:34:31 · 如何衡量接收端噪声",
+    "h1_before": null,
+    "anchor": "doxcn9dDCDYfkeiiKwqdKTs5NZc",
+    "text_sha256": "d99bfc8a5a68e0d7c0f0fd869dd1579d4f5c306748b3aa490ec8ec6a2ed4dfbc"
+  },
+  {
+    "block_id": "doxcn3bQ76WaRC52IDmaxzZ1sve",
+    "text": "原标说话人 1  00:34:31\nWhen we look instead at the transmitted signal, the signal will be transmitted at a certain power level. So there are stations, for example, that transmit at 48 dB of power, this is quite high or lower. Power, PT is the level of power at which a signal is transmitted. And each bit or each symbol, if we are transmitting symbols, will be transmitted as we know now using an electro- an electromagnetic wave for a certain time, right? So remember the binary modulation we talk about before, for example the frequency-based modulation, we start for a certain time we transmit the zero, so we'll have a certain signal, and then we start transmitting one, we'll have another signal, and so on. Each signal has got a duration.\n而当我们看发射信号时，信号会以某个功率水平发射。因此，例如，有些站点以 48 dB 的功率发射，这是相当高的，或者更低。功率，PT 是信号发射时的功率水平。而每个比特，或每个符号，如果我们传输的是符号，正如我们现在所知道的，会利用一个电磁……一束电磁波，持续一段时间来发射，对吧？所以，回想一下我们之前讲的二进制调制，比如基于频率的调制，我们开始，在一段时间内发送零，所以会有某个信号，然后开始发送一，就会有另一个信号，如此等等。每个信号都有一个持续时间。",
+    "ordinal": 61,
+    "timestamp": "00:34:31",
+    "heading": "61 · 00:34:31 · 发射功率与信号持续时间",
+    "h1_before": null,
+    "anchor": "doxcn6qat09n60NNIdBj8nNeU78",
+    "text_sha256": "98231ea1b67df58ad319f12df1787d72766d9a76d349c53cd6dffa4544ba0492"
+  },
+  {
+    "block_id": "doxcnKeiDgN4EqUMDUXQZafUkbh",
+    "text": "原标说话人 1  00:35:45\nOK, if that signal brings, carries one bit, that's the duration of the bit. And if that signal carries one symbol, that's the duration of the symbol.\n好，如果那个信号带来、携带一个比特，那就是比特的持续时间。而如果那个信号携带一个符号，那就是符号的持续时间。",
+    "ordinal": 62,
+    "timestamp": "00:35:45",
+    "heading": "62 · 00:35:45 · 比特持续时间与符号持续时间",
+    "h1_before": null,
+    "anchor": "doxcnzhGd0MbTpFpCYkEm7K1rig",
+    "text_sha256": "ac0c58f971e030fc54048856947953de505524c198160014db4bfefe073056fa"
+  },
+  {
+    "block_id": "doxcncBPKbhtNnoiBkG4Nlwayed",
+    "text": "原标说话人 1  00:35:45\nNow, one over the bit duration is the so, is the so-called bit rate. OK? And if you multiply the bit rate by the energy associated with each transmitted bit, you get the power with which the bit is transmitted.\n现在，一除以比特持续时间，就是所、就是所谓的比特率。好吗？而如果你把比特率乘以每个已发送比特所对应的能量，就得到这个比特发射时的功率。",
+    "ordinal": 63,
+    "timestamp": "00:35:45",
+    "heading": "63 · 00:35:45 · 比特率、每比特能量与功率",
+    "h1_before": null,
+    "anchor": "doxcnQdDO6WRagTlKEvDEyOUKRd",
+    "text_sha256": "a14784945ce753cce3ccaf932ef2729844867890152c384626ea7c238f2ee4ea"
+  },
+  {
+    "block_id": "doxcnpSCQ2asFGWcLvruRDRzjcd",
+    "text": "原标说话人 1  00:36:27\nSimilarly, if you consider the power of transmission and you multiply by the bit duration, so the duration the signal that carries the bit, you get the energy associated with one bit.\n同样，如果你考虑发射功率，并乘以比特持续时间，也就是携带这个比特的信号的持续时间，就得到一个比特所对应的能量。",
+    "ordinal": 64,
+    "timestamp": "00:36:27",
+    "heading": "64 · 00:36:27 · 由功率和持续时间求比特能量",
+    "h1_before": null,
+    "anchor": "doxcndBr4QBxBWZYbt6lWS7BUFc",
+    "text_sha256": "ba38f169d0ed030f7d59f36892bcc4b0e5bad90d833474ebd958b648cb2376ff"
+  },
+  {
+    "block_id": "doxcn6BPOD4pt5sAP9OC3o0uDKd",
+    "text": "原标说话人 1  00:36:44\nSimple high school relations between power, time and energy. OK. Good.\n简单的高中知识，功率、时间和能量之间的关系。好。很好。",
+    "ordinal": 65,
+    "timestamp": "00:36:44",
+    "heading": "65 · 00:36:44 · 功率、时间与能量关系小结",
+    "h1_before": null,
+    "anchor": "doxcnuA6DczwbpyhQ2SioTTSOOg",
+    "text_sha256": "674b07d9c71442f5d8e995c8f2207ed8e319b60c6198a458daa9e7971bfd8e0d"
+  },
+  {
+    "block_id": "doxcnlP8wutMoKx1QMALjqP3GAh",
+    "text": "原标说话人 1  00:36:44\nNow, as you may also remember again from high school, power is measured in decibel in dB. An expression of dB is a relative metric. So, there is a level of power, P1, that is, let's say, larger or smaller with respect to another level of power P2. You get the log, you multiply by ten, and then you get the expression in decibel.\n现在，你们可能同样还记得高中学过的，功率以分贝，也就是 dB 来衡量。用 dB 表示的是一个相对度量。所以，有一个功率水平 P1，相对于另一个功率水平 P2，可以说更大或者更小。你取对数，乘以十，然后就得到了以分贝表示的表达式。",
+    "ordinal": 66,
+    "timestamp": "00:36:44",
+    "heading": "66 · 00:36:44 · 分贝与两个功率的相对比值",
+    "h1_before": null,
+    "anchor": "doxcnzYgehXyuhVOnbnxwT3Ae1g",
+    "text_sha256": "caa601c9e3f48895b75ce1eb5208b18d2a9462b41566b1b60f39498edca55851"
+  },
+  {
+    "block_id": "doxcnwboXgHofnbFIGljq7luRYb",
+    "text": "原标说话人 1  00:37:31\nAgain, this is high school material, so just to remember that power is typically expressed in a dB when you want to express the relative power. OK, so it's a relative measure of power.\n再说一次，这是高中内容，所以只是提醒一下，当你想表示相对功率时，功率通常用 dB 来表示。好，所以它是功率的一种相对度量。",
+    "ordinal": 67,
+    "timestamp": "00:37:31",
+    "heading": "67 · 00:37:31 · dB作为相对功率度量",
+    "h1_before": null,
+    "anchor": "doxcnJgmYqmsh7itGEsoesi8jTe",
+    "text_sha256": "1c3ebe089ff0f9c3ab7b4da73ef03dffc45b0e2cf94ce11ee50d76adb5fb9e34"
+  },
+  {
+    "block_id": "doxcnARhdNTo7AWyuLsVmbGnoIf",
+    "text": "原标说话人 1  00:37:31\nIf you want to express a power in absolute terms, of course you can use watts, but you can use also dBm. So, the dBm is an absolute measurement of power, because you express the power, P1, with respect to a default level that is 1 milliwatt. So, dBm is expressed in that, in that way, is used to, as I said, represent the absolute value of power. OK, that said.\n如果你想用绝对量来表示功率，当然可以使用瓦特，不过也可以使用 dBm。所以，dBm 是功率的一种绝对度量，因为你把功率 P1 相对于一个默认水平来表示，这个水平是 1 毫瓦。因此，dBm 是按那个、按那种方式表示的，正如我所说，它用来表示功率的绝对值。好，这一点讲完了。",
+    "ordinal": 68,
+    "timestamp": "00:37:31",
+    "heading": "68 · 00:37:31 · dBm与1毫瓦参考功率",
+    "h1_before": null,
+    "anchor": "doxcnT4uPL7YweYMX3YNpY9gPNh",
+    "text_sha256": "251fc99aa221e9b177c9289516a4108b78ddb8fa5e4969c142232ed6c5a8deab"
+  },
+  {
+    "block_id": "doxcn97NdlliGUYBv1wlj9IAPnm",
+    "text": "原标说话人 1  00:38:27\nAnd we already recalled in a free space, our signal travels in an ideal scenario where there are no obstacles. And as we know from high school, the power with which the signal is received depends on the transmitted power, so the power at which the signal is transmitted, the gain of the antenna at the transmitter and at the receiver.\n而我们已经回顾过，在自由空间中，信号在一个没有障碍物的理想场景中传播。正如我们从高中知识所知，信号被接收时的功率取决于发射功率，也就是信号发射时的功率，以及发射端和接收端的天线增益。",
+    "ordinal": 69,
+    "timestamp": "00:38:27",
+    "heading": "69 · 00:38:27 · 自由空间接收功率与天线增益",
+    "h1_before": "自由空间传播与天线增益",
+    "anchor": "doxcnUirBnFSLvSN59owvB4uDmc",
+    "text_sha256": "7e66044e3e3ed137bd612b9e28269ca21ecaf4a801166f79d336421a22d4ec92"
+  },
+  {
+    "block_id": "doxcnVkXBkrOHnXS0QiXthLLRAc",
+    "text": "原标说话人 1  00:38:27\nIf the antenna is isotropic, so it irradiates over an angle of 2π, then the antenna gain is equal to one. If instead we get an antenna that is directive, that means it transmits over one direction like along a sector, then the gain is greater than one.\n如果天线是各向同性的，也就是在 2π 的角度范围内辐射，那么天线增益等于一。相反，如果我们有一根定向天线，也就是说，它沿一个方向发射，比如沿一个扇区，那么增益就大于一。",
+    "ordinal": 70,
+    "timestamp": "00:38:27",
+    "heading": "70 · 00:38:27 · 各向同性与定向天线增益",
+    "h1_before": null,
+    "anchor": "doxcnEw3LgF0i5YcaeiIatpTlnf",
+    "text_sha256": "a9eac5940ef77c23fc53347d95ea025695d68cb726a8a39f9a669e21bf496c5d"
+  },
+  {
+    "block_id": "doxcnBwjOPwrm4Np5QNxop1phis",
+    "text": "原标说话人 1  00:38:27\nOkay, so directive antennas concentrate the power over a certain sector only, not 2π, but only a restricted angle. And since they concentrate all the power in a restricted angle, the gain is higher than one.\n好，所以，定向天线只把功率集中在某个扇区里，不是 2π，而只是一个受限的角度。由于它们把所有功率都集中在一个受限的角度内，增益就大于一。",
+    "ordinal": 71,
+    "timestamp": "00:38:27",
+    "heading": "71 · 00:38:27 · 定向天线集中辐射功率",
+    "h1_before": null,
+    "anchor": "doxcnRZuBywXUfU0NtaFesWDE6c",
+    "text_sha256": "df5e7ece7f79e15dec764be7403d846a51767fe0dbe340de7fbdac4018686caa"
+  },
+  {
+    "block_id": "doxcnuvxUPBhAnvHrtRE1aLiVNg",
+    "text": "原标说话人 1  00:38:27\nSo, if you know where your receiver is, you may want to use directive antennas, right? And concentrate the power where the signal has to go. OK, so this is again as we said, high school material, and this is just another way to look at the attenuation of our signal.\n所以，如果你知道接收端在哪里，你可能会想使用定向天线，对吧？并把功率集中到信号必须前往的地方。好，所以，这同样是，正如我们说过的，高中内容，而这只是看待信号衰减的另一种方式。",
+    "ordinal": 72,
+    "timestamp": "00:38:27",
+    "heading": "72 · 00:38:27 · 已知接收方向时的定向发射",
+    "h1_before": null,
+    "anchor": "doxcnyGbT440v2lYQzqkInwBYic",
+    "text_sha256": "133ca612f2930d6142ec290fb6f380bb30ab54512104c1bf378cce8ef581850c"
+  },
+  {
+    "block_id": "doxcntRc9iMjNjSdrKdk9sRh9hf",
+    "text": "原标说话人 1  00:40:28\nSo, the attenuation is defined as the power of the transmitted signal over the power of the receiver signal. And based on the previous expression, it can be easily rearranged in this way, so that you highlight the dependency on the distance r between transmitter receiver and on the frequency at which the signal is transmitted f. And we already commented on that. OK, so that's attenuation in free space. And as we said is ideal. What does it happen in real world?\n所以，衰减被定义为发射信号功率除以接收信号功率。根据前面的表达式，可以很容易地把它整理成这种形式，这样就能突出它对发射端与接收端之间距离 r，以及信号发射频率 f 的依赖。而我们已经讨论过这一点了。好，所以，这就是自由空间中的衰减。正如我们所说，这是理想情况。在真实世界里会发生什么呢？",
+    "ordinal": 73,
+    "timestamp": "00:40:28",
+    "heading": "73 · 00:40:28 · 自由空间衰减及距离频率依赖",
+    "h1_before": null,
+    "anchor": "doxcnFnUSiPB12IsQE6a0Cohsmg",
+    "text_sha256": "d9e384ecb50650eb678335252f085b8cf9744c55e90ae7ea34e5379ea6484207"
+  },
+  {
+    "block_id": "doxcny3YCakIXYEo6PmyAF7AsGd",
+    "text": "原标说话人 1  00:40:28\nIn real world, unfortunately, things get a bit more complicated. Why? Because we have mainly atmosphere and all sorts of obstacles. For example, when we have an access point and a user, there might be a wall between the two of them, or there might be people passing by.\n在真实世界里，不幸的是，事情会变得稍微复杂一些。为什么？因为我们主要有大气以及各种各样的障碍物。例如，当我们有一个接入点和一个用户时，两者之间可能有一堵墙，或者可能有人经过。",
+    "ordinal": 74,
+    "timestamp": "00:40:28",
+    "heading": "74 · 00:40:28 · 真实环境中的大气和障碍物",
+    "h1_before": "真实环境中的传播影响",
+    "anchor": "doxcnrzaPB5PbRNl8p5VNMMOosD",
+    "text_sha256": "3f34ee2fc110461a887dcdcb542cc289c4c96ce3c9d97af7a594d6fa351e23c4"
+  },
+  {
+    "block_id": "doxcn5pUYHEjQvu7H2mrWCux4lb",
+    "text": "原标说话人 1  00:41:42\nThose are also obstacles, mobile obstacles, but still obstacles. And as for the atmosphere, again, it depends on the weather conditions also, we might have rain, fog, snow, or just the normal, the regular atmospheric gases that create different effects. Some gas absorb the signal, so, for example, water vapor absorbs signals that are transmitted at a specific frequency. So, you always try to avoid that frequency, because otherwise, your the power of signal will get all absorbed by water vapor. So, we need to account for for these things.\n那些也是障碍物，移动的障碍物，但仍然是障碍物。至于大气，同样，也取决于天气条件，可能有雨、雾、雪，或者只是通常的、普通的大气气体，它们会产生不同的影响。有些气体吸收信号，所以，例如，水蒸气会吸收以某个特定频率发射的信号。因此，你总是要尽量避开那个频率，因为否则，你的、信号的功率会全部被水蒸气吸收。所以，我们需要把、把这些事情考虑进去。",
+    "ordinal": 75,
+    "timestamp": "00:41:42",
+    "heading": "75 · 00:41:42 · 天气、气体吸收与传播影响",
+    "h1_before": null,
+    "anchor": "doxcnuFXemQGDIyvH668QqlT4Ub",
+    "text_sha256": "337940b7863ab8248ce2bdb63be5ff5708b15475231a8d24da844a75000530d7"
+  },
+  {
+    "block_id": "doxcnzWaVeYlvAClt7Un3H4lKEb",
+    "text": "原标说话人 1  00:41:42\nThis is the example that I was mentioning, where you can see that in correspondence, of course, of this peak that you see there for the green curve, there is the maximum absorption by water vapor of the signal. So you always try to avoid frequencies around 20 GHz, because otherwise, you're in trouble.\n这就是我刚才提到的例子，你可以看到，当然，对应于你在那里看到的绿色曲线的这个峰值，水蒸气对信号的吸收达到最大。因此，你总是要尽量避开 20 GHz 附近的频率，因为否则，你就有麻烦了。",
+    "ordinal": 76,
+    "timestamp": "00:41:42",
+    "heading": "76 · 00:41:42 · 水蒸气吸收峰的课件示例",
+    "h1_before": null,
+    "anchor": "doxcncUr8gUn5hZR62lvlUdsgSc",
+    "text_sha256": "ea28393de35af35d61e106d4e96832a5b4e0d523067d37b6d6496a5bff814489"
+  },
+  {
+    "block_id": "doxcn5AQJ0Hnhu689ncQ21Za4Sf",
+    "text": "原标说话人 1  00:41:42\nAnother thing that we have to report, just for information, is the fact that the signal does not propagate along a straight line because of the curvature of the earth.\n我们还必须提及另一件事，仅供了解，那就是，由于地球的曲率，信号并不沿直线传播。",
+    "ordinal": 77,
+    "timestamp": "00:41:42",
+    "heading": "77 · 00:41:42 · 地球曲率与传播距离",
+    "h1_before": null,
+    "anchor": "doxcnkaSsvx1frMIbPaZ5yfvhBc",
+    "text_sha256": "f6a413b11f4cc6bf7fb7faeff3fcefff025d4153e838c96a4b278903424bd67d"
+  },
+  {
+    "block_id": "doxcnJo11rPtvYg0G8QrbMnaRxh",
+    "text": "原标说话人 1  00:43:28\nSo, you have that the maximum distance that the signal can can reach is given by this formula, where R here RT is the radius of the earth. Again, the, you might have seen this in high school, and it explains what is the maximum distance that the signal electromagnetic wave can reach because the earth is not flat.\n所以，信号能够、能够到达的最大距离由这个公式给出，其中，这里的 R，RT，是地球的半径。同样，这个，你们可能在高中见过，它说明了信号、电磁波能够到达的最大距离是多少，因为地球不是平的。",
+    "ordinal": 78,
+    "timestamp": "00:43:28",
+    "heading": "78 · 00:43:28 · 无线电可达距离公式",
+    "h1_before": null,
+    "anchor": "doxcnBa0TRkg33F6zN9QQFrEyzT",
+    "text_sha256": "66aee68d4d734ae38af448f2699097bb701f3d9a4d7b5291fba25b55aaae3386"
+  },
+  {
+    "block_id": "doxcnqzzj4pD5Ed6gTj2D0MwJze",
+    "text": "原标说话人 1  00:43:55\nBut more interesting for us is the presence of obstacles. And as we said, we might have fixed obstacles, and we might have variable obstacles that may be cars, people passing by, but also the tree leaves, for example, they are mobile, and they are obstacles for our signals.\n不过，对我们来说，更有意思的是障碍物的存在。正如我们说过的，可能有固定障碍物，也可能有变化的障碍物，比如汽车、路过的人，但还有树叶，例如，它们是会动的，而且它们是我们信号的障碍物。",
+    "ordinal": 79,
+    "timestamp": "00:43:55",
+    "heading": "79 · 00:43:55 · 固定与移动障碍物",
+    "h1_before": null,
+    "anchor": "doxcnk3wAAein9VvLfFyv1UfmFd",
+    "text_sha256": "623e5a69e6eafb81df6ca2f1172a281235fcc80c9db63422f3c2521c8a3f3ab1"
+  },
+  {
+    "block_id": "doxcni0gtNSNweuoqhRrn2vyHGe",
+    "text": "原标说话人 1  00:43:55\nSo, we had, for example, evidence of that in some experiments that we ran in Chile, in winter and in spring. In winter, the signal was propagating very well, we were outdoor, because trees didn't have any leaves, and in spring the signal was propagating much much worse because the trees had lots of leaves.\n所以，例如，我们在智利冬天和春天开展的一些实验中，有过这样的证据。冬天，信号传播得非常好，我们在室外，因为树上没有叶子，而到了春天，信号的传播就差得多、差得多，因为树上有很多叶子。",
+    "ordinal": 80,
+    "timestamp": "00:43:55",
+    "heading": "80 · 00:43:55 · 智利实验中的季节与树叶影响",
+    "h1_before": null,
+    "anchor": "doxcn4DWxmMnh9q8cR39cPx9Ide",
+    "text_sha256": "3970ed8166cf056110b7733b8ac992fe8f920d69d7aa0d8b1b8ec8303e5ab8f6"
+  },
+  {
+    "block_id": "doxcn6mm0sKrwy2my6yhPSXm5cb",
+    "text": "原标说话人 1  00:44:52\nSo, sometimes are these small things, but they have an impact on the quality of the received signal. And now we stop for 5 minutes, and then we see better how obstacles can impact the quality of our signal.\n所以，有时候是这些小事情，但它们会影响接收信号的质量。现在我们停下来休息 5 分钟，然后更仔细地看看障碍物如何影响信号质量。",
+    "ordinal": 81,
+    "timestamp": "00:44:52",
+    "heading": "81 · 00:44:52 · 障碍物影响小结与课间休息",
+    "h1_before": null,
+    "anchor": "doxcnHn6VOZzNR4Uf2a2igRjoLg",
+    "text_sha256": "a88bf48a7b292c0b003fd4fffc9219c0a690c92c8daff33ada121de0876145d8"
+  }
+]
