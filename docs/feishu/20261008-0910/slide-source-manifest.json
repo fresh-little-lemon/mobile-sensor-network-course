@@ -1,0 +1,514 @@
+{
+  "document_title": "双语对照：录音机-20261008-0910",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/R8JJdjfT2oKLnVxpZTTcSJO6nth",
+  "original_transcript_url": "https://lcn6dqn3m0yr.feishu.cn/docx/GmUhdEJiCoMnZ4xsrdCco0tEnSg",
+  "original_audio_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnhx549r2h5kx58d6y95j9",
+  "prepared_for": "私仓同步准备；未执行远程发布",
+  "source_pdfs": [
+    {
+      "filename": "01_Introduction_MSN_26-27.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "d785951c6fbc9a6acf674b3f1306a61400820718ceeb0a70724896ac6b74dc83",
+      "pages": 16,
+      "figures_used": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "filename": "001-BasicConcepts.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "b03d550cf3d45a59f19220ed258504ab8f0d6c7e32f57413a3fdb664a4335776",
+      "pages": 27,
+      "figures_used": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ]
+    }
+  ],
+  "audited_at_utc": "2026-10-18T14:00:00Z",
+  "audit_scope": "Read-only image identity and semantic alignment against all 46 original bilingual paragraphs. No remote writes by this audit worker.",
+  "paragraph_count": 46,
+  "image_count": 12,
+  "confirmed_image_or_alignment_defects": [],
+  "omissions": [
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_numbers": [
+        5,
+        6
+      ],
+      "classification": "source_duplicate_not_missing_unique_slide",
+      "reason": "Page3 repeats page2: figure5 repeats3 and6 repeats4. Existing captions already identify those duplicate occurrences."
+    },
+    {
+      "source_pdf": "001-BasicConcepts.pdf",
+      "figure_numbers_from": 9,
+      "classification": "later_material_not_discussed_in_this_recording",
+      "reason": "The lecture ends after comparison of binary and eight-point phase constellations and break scheduling. Figure9 starts antenna-size/attenuation/capacity motivations, which are not discussed here. No basis to bulk insert later pages."
+    }
+  ],
+  "cautions": [
+    "Figure numbers follow PDF handout order; BasicConcepts slide footers reuse numbers and should not replace sequence numbers.",
+    "Figure29 is the 2025 GHTC page; the lecturer explicitly describes the displayed material as last year. This is a faithful source match, not a claim that the event date is current.",
+    "The image audit does not independently verify biographical or health claims in the verbatim transcript."
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "figure_number": 26,
+      "slide_number": 26,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Wireless Mesh: An example (Turin map)",
+      "source_pdf": "01_Introduction_MSN_26-27.pdf",
+      "pdf_page": 13,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=13",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-026.png",
+      "sha256": "6a48441b8d0c5945952ff46084ac2bf3c230bc10452a2e117e59a6b2cceacdc4",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnr0QeznphgsP3xwNiFGVeME",
+      "original_caption": "课件：01_Introduction_MSN_26-27.pdf · PDF第13页下半页 · 图26（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 1,
+        "timestamp": "00:00:00",
+        "block_id": "doxcnvedufvsBIUwRaJrvywmrqe",
+        "heading": "01 · 00:00:00 · 都灵山丘车辆的网状网络"
+      },
+      "before_paragraph": {
+        "ordinal": 2,
+        "timestamp": "00:00:00",
+        "block_id": "doxcnK6V5Q4eJQPIY0J3fchh9cf"
+      },
+      "semantic_paragraph_span": [
+        1,
+        1
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第1段说明都灵山丘上的网状网络，地图与地点和链路示例一致。"
+    },
+    {
+      "image_ordinal": 2,
+      "figure_number": 27,
+      "slide_number": 27,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Wireless Mesh: An Example (tram and mesh nodes)",
+      "source_pdf": "01_Introduction_MSN_26-27.pdf",
+      "pdf_page": 14,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=14",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-027.png",
+      "sha256": "05e9a6f248c7209310b68ae3740b0829b00c4ddd889ef585a3551f738c782173",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnUszSkVYZNzLrxYpHzC7OFf",
+      "original_caption": "课件：01_Introduction_MSN_26-27.pdf · PDF第14页上半页 · 图27（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 1,
+        "timestamp": "00:00:00",
+        "block_id": "doxcnvedufvsBIUwRaJrvywmrqe",
+        "heading": "01 · 00:00:00 · 都灵山丘车辆的网状网络"
+      },
+      "before_paragraph": {
+        "ordinal": 2,
+        "timestamp": "00:00:00",
+        "block_id": "doxcnK6V5Q4eJQPIY0J3fchh9cf"
+      },
+      "semantic_paragraph_span": [
+        1,
+        1
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第1段说明山间车辆与固定接入点联网，电车与沿线节点图吻合。"
+    },
+    {
+      "image_ordinal": 3,
+      "figure_number": 28,
+      "slide_number": 28,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Elizabeth M. Belding: mobile networks and social impact",
+      "source_pdf": "01_Introduction_MSN_26-27.pdf",
+      "pdf_page": 14,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=14",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-028.png",
+      "sha256": "5a07f95255524ed1b65c1b063c1a7a8170c851b981a65fdf98408b031e7a61ad",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnjmgLkQdwOhC4cMAYplCkod",
+      "original_caption": "课件：01_Introduction_MSN_26-27.pdf · PDF第14页下半页 · 图28（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 2,
+        "timestamp": "00:00:00",
+        "block_id": "doxcnK6V5Q4eJQPIY0J3fchh9cf",
+        "heading": "02 · 00:00:00 · 无线技术与人道主义应用"
+      },
+      "before_paragraph": {
+        "ordinal": 3,
+        "timestamp": "00:02:24",
+        "block_id": "doxcneEm7kOUzt0WItcUf5UoVwb"
+      },
+      "semantic_paragraph_span": [
+        2,
+        2
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第2段介绍Elizabeth Belding及无线网络社会应用，与人物研究页面一致。"
+    },
+    {
+      "image_ordinal": 4,
+      "figure_number": 29,
+      "slide_number": 29,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "IEEE GHTC 2025: technology for humanity",
+      "source_pdf": "01_Introduction_MSN_26-27.pdf",
+      "pdf_page": 15,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=15",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-029.png",
+      "sha256": "f85f80d2baa3a9f50c2e1eb6bab4eca2ede8de69e7bb876763366615a1245ef5",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnu8Sibhzm6P2MLHfYjeYwzh",
+      "original_caption": "课件：01_Introduction_MSN_26-27.pdf · PDF第15页上半页 · 图29（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 2,
+        "timestamp": "00:00:00",
+        "block_id": "doxcnK6V5Q4eJQPIY0J3fchh9cf",
+        "heading": "02 · 00:00:00 · 无线技术与人道主义应用"
+      },
+      "before_paragraph": {
+        "ordinal": 3,
+        "timestamp": "00:02:24",
+        "block_id": "doxcneEm7kOUzt0WItcUf5UoVwb"
+      },
+      "semantic_paragraph_span": [
+        2,
+        2
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第2段明确指这张去年的征稿/会议网页，图中2025年份与讲解一致；不应改为2026新会议信息。"
+    },
+    {
+      "image_ordinal": 5,
+      "figure_number": 30,
+      "slide_number": 30,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Andrew T. Campbell: mobile AI and health",
+      "source_pdf": "01_Introduction_MSN_26-27.pdf",
+      "pdf_page": 15,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=15",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-030.png",
+      "sha256": "68a38f996d98c1d2345c61f2bbc193d9a43fa5b6ea334ec03c1c1a7987d732d8",
+      "width": 1640,
+      "height": 925,
+      "image_block_id": "doxcnYqKRxxg4P0k1dxxDl8tM0e",
+      "original_caption": "课件：01_Introduction_MSN_26-27.pdf · PDF第15页下半页 · 图30（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 3,
+        "timestamp": "00:02:24",
+        "block_id": "doxcneEm7kOUzt0WItcUf5UoVwb",
+        "heading": "03 · 00:02:24 · 移动网络与心理健康研究"
+      },
+      "before_paragraph": {
+        "ordinal": 4,
+        "timestamp": "00:03:39",
+        "block_id": "doxcn0MvjX02jIVE52AxtkpmTWf"
+      },
+      "semantic_paragraph_span": [
+        3,
+        4
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第3段介绍Andrew Campbell和移动AI应用，人物主页封面吻合；延伸至第4段的研究价值总结。"
+    },
+    {
+      "image_ordinal": 6,
+      "figure_number": 31,
+      "slide_number": 31,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Dartmouth: mobile sensing, intervention and AI",
+      "source_pdf": "01_Introduction_MSN_26-27.pdf",
+      "pdf_page": 16,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/01_Introduction_MSN_26-27.pdf#page=16",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-031.png",
+      "sha256": "5c311fceb2d7f79fdf6e19ba8efed6273b0755bafc5beb5f749cd0d0a9edfea1",
+      "width": 1640,
+      "height": 926,
+      "image_block_id": "doxcnUNk2MaYRih5vZCO48KjwGg",
+      "original_caption": "课件：01_Introduction_MSN_26-27.pdf · PDF第16页上半页 · 图31（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 3,
+        "timestamp": "00:02:24",
+        "block_id": "doxcneEm7kOUzt0WItcUf5UoVwb",
+        "heading": "03 · 00:02:24 · 移动网络与心理健康研究"
+      },
+      "before_paragraph": {
+        "ordinal": 4,
+        "timestamp": "00:03:39",
+        "block_id": "doxcn0MvjX02jIVE52AxtkpmTWf"
+      },
+      "semantic_paragraph_span": [
+        3,
+        4
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第3至4段谈移动传感、AI和改善生活质量，Dartmouth研究页对应。"
+    },
+    {
+      "image_ordinal": 7,
+      "figure_number": 1,
+      "slide_number": 1,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Basic Concepts",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 1,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=1",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-001.png",
+      "sha256": "c6a2cd1707949c53e7d7f62a4f2bd626a66d6db9e504225c2dc3d79f35b5dfbd",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnQg8H9UQu872DzsfG1xFHDf",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第1页上半页 · 图1（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 5,
+        "timestamp": "00:03:39",
+        "block_id": "doxcnSmwileFLbT8KsT0z1BqV5c",
+        "heading": "05 · 00:03:39 · 从网络导论转向通信基础"
+      },
+      "before_paragraph": {
+        "ordinal": 6,
+        "timestamp": "00:04:46",
+        "block_id": "doxcnHC5WeZu7WvGlTOsd6G02pf"
+      },
+      "semantic_paragraph_span": [
+        5,
+        5
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第5段结束网络导论并转入Basic Concepts，封面位置合理。"
+    },
+    {
+      "image_ordinal": 8,
+      "figure_number": 2,
+      "slide_number": 2,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Wireless communications",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 1,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=1",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-002.png",
+      "sha256": "4625b3c9d3d7fabd5e779a679d2c854a553c0dcc69ccb492480f4b3e0fd46d17",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnVsKNRtisrfpvZBEJDoxyKg",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第1页下半页 · 图2（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 5,
+        "timestamp": "00:03:39",
+        "block_id": "doxcnSmwileFLbT8KsT0z1BqV5c",
+        "heading": "05 · 00:03:39 · 从网络导论转向通信基础"
+      },
+      "before_paragraph": {
+        "ordinal": 6,
+        "timestamp": "00:04:46",
+        "block_id": "doxcnHC5WeZu7WvGlTOsd6G02pf"
+      },
+      "semantic_paragraph_span": [
+        5,
+        5
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第5段说明无线通信基础及后续Wi-Fi、蓝牙、传感器网络内容，章节过渡页对应。"
+    },
+    {
+      "image_ordinal": 9,
+      "figure_number": 3,
+      "slide_number": 3,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Modulation: amplitude, frequency and phase",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 2,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=2",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-003.png",
+      "sha256": "4e7f37c024634f2aa428f417be7112bd4bae02e6eec0c6c44d6e5ddf214164c1",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcneGbloLgAJwjX4nrdmrasbc",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第2页上半页 · 图3（按PDF顺序）；同图亦见PDF第3页上半页（图5）\n",
+      "after_paragraph": {
+        "ordinal": 9,
+        "timestamp": "00:05:27",
+        "block_id": "doxcn6rtELZDOsuO9GOOnFGYABe",
+        "heading": "09 · 00:05:27 · 用幅度变化表示零和一"
+      },
+      "before_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:05:27",
+        "block_id": "doxcn5cbt3t9ojpWdoIiC2Evwmf"
+      },
+      "semantic_paragraph_span": [
+        6,
+        11
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第6至11段介绍调制；第9段幅度之后放本图，后续第10至11段继续频率和相位，作为连续讲解中的总览图合理。",
+      "duplicate_source_occurrence": {
+        "pdf_page": 3,
+        "pdf_half": "upper",
+        "figure_number": 5,
+        "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=3",
+        "note": "Visually same slide content; existing caption already records the repeat."
+      }
+    },
+    {
+      "image_ordinal": 10,
+      "figure_number": 4,
+      "slide_number": 4,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Modulation: transmitter and receiver chain",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 2,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=2",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-004.png",
+      "sha256": "00035d279814349aa1c7bd275d633c2aae30b4e4a5de6fc00f0f61ecb6f979ac",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnm0qydaxWXJxyzWOkQVIKke",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第2页下半页 · 图4（按PDF顺序）；同图亦见PDF第3页下半页（图6）\n",
+      "after_paragraph": {
+        "ordinal": 12,
+        "timestamp": "00:08:26",
+        "block_id": "doxcnsKiY4ODUEkUEPjWlb2I4Hf",
+        "heading": "12 · 00:08:26 · 数字调制器的输入与作用"
+      },
+      "before_paragraph": {
+        "ordinal": 13,
+        "timestamp": "00:08:26",
+        "block_id": "doxcnOYMgxmObcTRnaiABjJdPqd"
+      },
+      "semantic_paragraph_span": [
+        12,
+        23
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第12段开始指着发射链路讲信息比特和数字调制；第13至23段继续载波/模拟调制/天线/接收解调，与同一整图对应。",
+      "duplicate_source_occurrence": {
+        "pdf_page": 3,
+        "pdf_half": "lower",
+        "figure_number": 6,
+        "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=3",
+        "note": "Visually same slide content; existing caption already records the repeat."
+      }
+    },
+    {
+      "image_ordinal": 11,
+      "figure_number": 7,
+      "slide_number": 7,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Digital modulation: ASK, FSK and PSK",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 4,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=4",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-007.png",
+      "sha256": "7df0fbc11a96341309ddb90497588a80689aa6090400c16b884e5021c37cc583",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnNpsXefaq9PPw9fLwrnDu6g",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第4页上半页 · 图7（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 25,
+        "timestamp": "00:14:56",
+        "block_id": "doxcnP7sEwvh2fdaSne95iisxbe",
+        "heading": "25 · 00:14:56 · 观察频率变化的波形"
+      },
+      "before_paragraph": {
+        "ordinal": 26,
+        "timestamp": "00:15:43",
+        "block_id": "doxcnHevcRaojwO56IjIbIQ8KC0"
+      },
+      "semantic_paragraph_span": [
+        24,
+        33
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第24至33段解释频率、幅度和相位的二进制数字调制，现图紧随第25段对波形的引导，后续逐一讲FSK、ASK、PSK。"
+    },
+    {
+      "image_ordinal": 12,
+      "figure_number": 8,
+      "slide_number": 8,
+      "numbering_basis": "PDF handout sequence, not necessarily the small printed footer inside a slide",
+      "title": "Digital modulation: FSK and signal constellation",
+      "source_pdf": "001-BasicConcepts.pdf",
+      "pdf_page": 4,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/001-BasicConcepts.pdf#page=4",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-008.png",
+      "sha256": "d997c5aacf93aa067a07c4d6a23a1309e42050dcd8493b5e4ae7fc54adea3e24",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn4LJ0R6FIaYUwQec2W52YOg",
+      "original_caption": "课件：001-BasicConcepts.pdf · PDF第4页下半页 · 图8（按PDF顺序）\n",
+      "after_paragraph": {
+        "ordinal": 36,
+        "timestamp": "00:20:48",
+        "block_id": "doxcnZ4DIj6h3RZA6XSCrTnLUee",
+        "heading": "36 · 00:20:48 · 符号定义与多比特分组"
+      },
+      "before_paragraph": {
+        "ordinal": 37,
+        "timestamp": "00:20:48",
+        "block_id": "doxcnotpcp1VeQVWcN6GP7ANNzf"
+      },
+      "semantic_paragraph_span": [
+        34,
+        42
+      ],
+      "identity_verified": "Downloaded existing Feishu PNG; visually compared title, layout, figures and numbering against pinned source PDF. No re-rendered or redrawn substitution.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第34至42段从每符号多比特引入相位和星座；现图紧随第36段符号定义，左下8点星座与三比特/八信号讨论对应。右侧16-QAM作为同页后续例子，当前录音未展开。"
+    }
+  ]
+}
