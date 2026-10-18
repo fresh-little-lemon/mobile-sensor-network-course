@@ -1,0 +1,23 @@
+{
+  "recording_id": "20261012-1620",
+  "paragraph_pairs": 51,
+  "source_speech_sha256": "b4c67b94c2a10485f029bb2b3f6767d89bb089cf318a9d0ee99733006ad7cc6d",
+  "bilingual_sha256": "1319d2435ad84c85413cd7c1cd082e3d4da55d1245e979427d83f81565b0ba31",
+  "status": "translated_and_read_through",
+  "cleaned_timestamp_speaker_editorial_markers": true,
+  "substantive_uncertainty_preserved": {
+    "[name uncertain]": "名称不确定",
+    "[initial acronym unclear]": "最初说出的缩写不清",
+    "[interval names uncertain]": "间隔名称不确定",
+    "[wording uncertain]": "此处措辞不确定",
+    "three, presumably": "应该进入三号队列",
+    "apparently DIFS": "应该是 DIFS"
+  },
+  "all_60_source_blocks_mapped_once": true,
+  "source_block_count": 60,
+  "terminology_addendum_prepared": true,
+  "terminology_review_public_append_pending": true,
+  "updated_at": "2026-10-18T03:58:18.584700+00:00",
+  "final_structure_and_hash_checks_passed": true,
+  "english_then_chinese_alternation_verified": true
+}

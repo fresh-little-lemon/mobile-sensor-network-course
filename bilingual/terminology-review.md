@@ -348,3 +348,25 @@
 - **Polling list／轮询列表与实时队列信息**：关联时表达参与意愿，不代表标准要求列表永不更新。历史标准有重关联和动态加入列表的机制；课堂关于轮询空队列、缺乏精细实时状态所导致低效的论证仍然保留。[IEEE 802.11-2012，9.4.5.3（历史标准，第三方镜像）](https://mrncciew.com/wp-content/uploads/2014/10/ieee-802-11-2012.pdf#page=950)
 - **“PCF仍在标准中”是有年代限制的课堂陈述**：不应将其作为当前标准状态。IEEE TGmd的2018年1月工作记录已经记载批准删除PCF；正文仍照录讲者说法，而不替讲者改写。“商用产品未实现”也没有在本次转写核查中作为覆盖全部产品的市场调查结论验证。[IEEE工作组2018年1月记录](https://grouper.ieee.org/groups/802/11/email/stds-802-11-cac/msg02707.html)
 - **时延与未讲完的第三个问题**：本段讲了轮询空队列的开销及信标起点被延迟的问题，最后只预告第三点。可变载荷及发送速率已在正文出现，但不能据此把下一段录音的完整第三点提前写入本段。
+
+
+
+## 20261012-1620｜PCF时延局限、EDCA与传输机会
+
+以下是独立技术核查，不是补写讲者发言。正文保留讲者的口语解释、图中编号和教学简化；明显技术范围问题在此说明，不用外部资料假装补听录音。
+
+- **Wi-Fi 4与IEEE 802.11e不能等同**：本课两种转写都把二者连在一起，因此正文照录。Wi-Fi联盟的代际命名把Wi-Fi 4对应到802.11n；802.11e-2005则是MAC服务质量增强修订案。二者可以共同出现在同一设备中，但不是同一个标准名称。[Wi-Fi联盟原始公告，2018年10月3日](https://www.globenewswire.com/news-release/2018/10/03/1600662/0/en/Wi-Fi-Alliance-introduces-Wi-Fi-6.html)；[IEEE 802.11e标准页](https://standards.ieee.org/ieee/802.11e/3131/)
+- **HCF、EDCA、HCCA**：分别为Hybrid Coordination Function／混合协调功能、Enhanced Distributed Channel Access／增强型分布式信道接入、HCF Controlled Channel Access／HCF控制信道接入。原文announced、Ann's、HTS等按明确的术语对象修复。HCF包含竞争式EDCA和由混合协调器控制的HCCA；讲者称后者“PCF 2.0”是类比。Q用于标识QoS能力。[IEEE术语与机制说明](https://technav.ieee.org/topic/ieee-80211e-standard/)
+- **“都已实现”与PCF“从未实现”是课堂概括**：不能据此推断所有产品。IEEE工作组2008年教程称PCF实际未使用、HCCA为可选机制且当时未被广泛实现，不能把“标准定义了HCCA”当作“所有Wi-Fi 4设备都实现HCCA”。正文保留原话。[IEEE QoS教程，第6、18页](https://www.ieee802.org/1/files/public/docs2008/avb-gs-802-11-qos-tutorial-1108.pdf#page=18)
+- **四个接入类别与课堂队列编号**：课堂从高到低称队列0、1、2、3。这是图中编号。正式ACI编码是0→AC_BE、1→AC_BK、2→AC_VI、3→AC_VO。语音、视频、尽力而为、后台四类应分开；本课一度把最低优先级文件流量也称best effort，正文没有替讲者改口。[IEEE QoS教程，第9页](https://www.ieee802.org/1/files/public/docs2008/avb-gs-802-11-qos-tutorial-1108.pdf#page=9)
+- **AIFS与CWmin**：AIFS是Arbitration Interframe Space／仲裁帧间间隔，不是arbitrary。“四类侦听时间必须各不相同”和CWmin依次3、7、15、31只是课堂示例。常见OFDM非AP默认值按VO、VI、BE、BK排列，AIFSN为2、2、3、7，CWmin为3、7、15、15。语音和视频的默认AIFS相同；后台和尽力而为的CWmin也相同。CWmax的作用仍取决于碰撞与重传状态，不能普遍视为无关紧要。[OpenBSD官方802.11实现中的默认EDCA表及重试窗口参数](https://github.com/openbsd/src/blob/master/sys/net80211/ieee80211_output.c)
+- **TXOP／Transmission Opportunity／传输机会**：它是有界的媒介控制时间，包含即时响应。课堂“任意使用五毫秒”应结合帧交换规则理解，不能当作取消长度、确认或保护约束。TXOP limit为0有专门含义，仍可进行规定的单次数据传输及必要响应，不是禁止发送。[IEEE 802.11-2012，9.19.2.2，历史标准原文镜像](https://mrncciew.com/wp-content/uploads/2014/10/ieee-802-11-2012.pdf#page=972)
+- **语音与视频的TXOP上限**：常见OFDM非AP默认值，VO为1.504毫秒，VI为3.008毫秒，而BE和BK为0。课堂说明语音分组短、视频可需要更长突发发送，便于理解；“其他数据文件也应统一用更长TXOP”不是这组默认值。具体数值还随PHY和配置变化。[OpenBSD官方默认EDCA参数](https://github.com/openbsd/src/blob/master/sys/net80211/ieee80211_output.c)
+- **50/34微秒、20/9微秒**：这是与PHY及配置有关的示例，不能简单等同于引入802.11e的前后变化。教程把9微秒时隙与802.11a的16微秒SIFS并列；DIFS按SIFS加两个时隙计算时得到34微秒。正文该间隔名是由数字与上下文推定，双语版保留“应该是DIFS”。[IEEE QoS教程，第8页](https://www.ieee802.org/1/files/public/docs2008/avb-gs-802-11-qos-tutorial-1108.pdf#page=8)；[IEEE 802.11-2012，9.3.2.3.5](https://mrncciew.com/wp-content/uploads/2014/10/ieee-802-11-2012.pdf#page=926)
+- **QoS Control／服务质量控制字段**：正式结构是16位字段，内含TID等子字段；不是简单记录四个队列号。Queue Size在特定非AP QoS数据帧条件下报告相应TID的缓存量，以256字节为单位，不是字面上的剩余分组个数。正文保留讲者的subfield及how many packets表述。[IEEE 802.11-2012，8.2.4.5.1、8.2.4.5.2、8.2.4.5.6](https://mrncciew.com/wp-content/uploads/2014/10/ieee-802-11-2012.pdf#page=487)
+- **CRC、FCS与停等**：CRC用于检错；承载32位CRC的FCS位于帧尾，不是MAC头内部字段。停等还涉及确认与重传，不能仅由“有CRC”推出。正文保留课堂枚举，没有把讲者的CRC无声改成其他字段。[IEEE 802.11-2012，8.2.3与8.2.4.8](https://mrncciew.com/wp-content/uploads/2014/10/ieee-802-11-2012.pdf#page=498)
+- **RTS/CTS阈值**：标准机制以帧长度等条件决定是否使用RTS/CTS；课堂说payload size是简化，不应直接当作只比较应用载荷的实现规则。[IEEE 802.11-2012，9.3.1](https://mrncciew.com/wp-content/uploads/2014/10/ieee-802-11-2012.pdf#page=923)
+- **FIFO与播放缓冲区**：FIFO的正式展开是first in, first out／先进先出。正文保留讲者first input, first output的口语说法。Playout buffer译为播放缓冲区；voice、video、data-file同步的时延容忍比较仍是本课例子，并非对所有实时视频或语音应用给出同一时延上限。EDCA提供统计优先级，本身不保证每个分组的确定时延。[IEEE QoS教程，第12、14页](https://www.ieee802.org/1/files/public/docs2008/avb-gs-802-11-qos-tutorial-1108.pdf#page=12)
+
+保留待核：开头basic DCF/PCF名称冲突；HCCA自纠前的缩写；一处短帧间隔名单；直觉回答的具体措辞；缺失的队列号与DIFS名称已在双语正文中保留推定语气。以上资料不能代替原声裁定。
+
