@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-18T16:17:53.132088+00:00",
+  "scope": "后9课独立PPT恢复检查点",
+  "summary": {
+    "last_nine_lesson_count": 9,
+    "last_nine_original_images": 128,
+    "last_nine_images_added": 8,
+    "last_nine_final_images": 136,
+    "last_nine_paragraphs_preserved": 642,
+    "last_nine_source_gap_categories": 26
+  },
+  "lessons": [
+    {
+      "lesson": "20261012-1530",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/EsHBd3OOCo6ODAxhlMKc6JxNn9d",
+      "image_count": 9,
+      "original_image_count_before_this_audit": 9,
+      "images_added_in_this_audit": 0,
+      "paragraph_count": 44,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T15:29:03.768693+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1012-1530/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "59e37bde1fd08c3bd06cc4ef056d010f379fafb7a5177352f1fdd6ccb930c26a",
+          "bytes": 21951
+        },
+        {
+          "path": "/workspace/shared/course-1012-1530/audit-readonly/slide-alignment-audit.md",
+          "sha256": "b5458cd1349b340817d0303461d4ac0fcaa1732dcf0e6a7a8e2ab76a6d5eedb4",
+          "bytes": 6692
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 0,
+      "confirmed_missing_resolved_count": 0,
+      "confirmed_missing_history": [],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 2,
+      "unresolved_source_gaps": [
+        {
+          "id": "pcf-polling-classroom-drawing",
+          "paragraph_spans": [
+            [
+              24,
+              32
+            ],
+            [
+              41,
+              42
+            ]
+          ],
+          "status": "unresolved_classroom_visual_source_not_found",
+          "title": "A/C/D参与列表和PCF逐站轮询、fast ACK、NULL、CF-End课堂时序图",
+          "evidence": "第24段明确说“let me draw here an example”；25段列A/C/D参加而B/E不参加；26–32段在该示意中逐步画beacon、poll A、A DATA、poll C+DATA、fast ACK、poll D、NULL、CF-End；41段回指poll/null交换。",
+          "source_search": "固定74页PDF全文检索poll/null/TBTT/contention-free，视觉检查第16、17、18、27–33、40–43页。图57/59是文字机制，图58只有宏观CFP/CP；第41页802.11e图为后续HCCA/QSTA/CAP，不是此A/C/D PCF例子。",
+          "action": "保留相关图57/58/59与全部正文；不使用后续802.11e图冒充，不凭文字重绘。"
+        },
+        {
+          "id": "beacon-delay-classroom-timeline",
+          "paragraph_spans": [
+            [
+              33,
+              37
+            ],
+            [
+              43,
+              44
+            ]
+          ],
+          "status": "unresolved_classroom_visual_source_not_found",
+          "title": "DCF DATA/ACK跨越TBTT并延迟beacon的具体课堂时间线",
+          "evidence": "第34–37段指节点在beacon之前DIFS后占信道、完成DATA/ACK，再PIFS后发beacon；43段指图中移动的superframe起点。图58仅显示规则superframe，没有跨TBTT的DATA/ACK延迟细节。",
+          "source_search": "同一固定PDF搜索beacon/TBTT/delay并检查第29–31、41–43页；图60有文字解释，未找到与课堂描述相同的详细时序图。",
+          "action": "保留图58/60，记录源图未找到；不认定缺了一张能从该PDF恢复的幻灯片。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261012-1530-slides-verified.zip",
+        "path": "/workspace/shared/course-20261012-1530-slides-verified.zip",
+        "bytes": 731429,
+        "sha256": "1a3313693d57aa7f8675b9d156b8cf3919d7711f52c9280217da8b6ff19ee61b"
+      },
+      "remote_original_blocks_preserved_verified": "read_only_no_remote_write",
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    },
+    {
+      "lesson": "20261012-1620",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/BEhKd4SRwo8qxexUkBjcSpTMnfE",
+      "image_count": 14,
+      "original_image_count_before_this_audit": 13,
+      "images_added_in_this_audit": 1,
+      "paragraph_count": 51,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T15:32:15.648230+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1012-1620/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "30ce8c3b83c20d37dc01b16c1c827c5447452e7ebe5626963e77d22016015999",
+          "bytes": 32430
+        },
+        {
+          "path": "/workspace/shared/course-1012-1620/audit-readonly/slide-alignment-audit.md",
+          "sha256": "e088681b0daa139a200e9240b5ceaf0b2746519f4f56942f35625eff4c12a4f2",
+          "bytes": 8622
+        },
+        {
+          "path": "/workspace/shared/course-1012-1620/audit-readonly/remote-verification.json",
+          "sha256": "467bb39e10986d09399367df2dd615652a916bdfcfed6a877201f126c8c26dd7",
+          "bytes": 1362
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 1,
+      "confirmed_missing_resolved_count": 1,
+      "confirmed_missing_history": [
+        {
+          "figure_number": 60,
+          "title": "Why PCF Never Really Happened",
+          "pdf_page": 30,
+          "pdf_half": "lower",
+          "paragraph_spans": [
+            [
+              2,
+              5
+            ]
+          ],
+          "status": "resolved_and_verified",
+          "evidence": "第2段01:12正式续讲PCF第三问题，明确说被轮询用户持续多久取决于payload和速率；第3段以A/C占用多久提问；第4–5段解释无法预知时长便无法控制delay。这正对应图60的Unknown transmission duration/variable frame sizes make scheduling difficult，而本课13图不含60。第6段之后才是61的DCF/PCF比较。",
+          "placement": "第2段原H2后、原文前",
+          "prepared_image_source": "/workspace/shared/course-1012-1530/slide-images/slide-060.png",
+          "provenance": "该PNG是上一课授权Feishu原图，已逐张对照固定PDF第30页下半页确认；可复用忠实原图，或从固定PDF重新栅格化。",
+          "not_based_on_page_gap": "判断来自第2–5段连续机制讲解，不是因为61之前缺60。",
+          "new_image_block_id": "doxcnmf3Se0kTYE1lRPBJAzZERd",
+          "image_sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7",
+          "remote_download_sha256": "2dcb275c27e3f09fe2115e1645d6e8e6ac2d21c475ff2f4af1fb1583354873f7",
+          "write_receipt": "audit-readonly/insert-slide060-receipt.json"
+        }
+      ],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 1,
+      "unresolved_source_gaps": [
+        {
+          "id": "pcf-a-c-polling-continuation",
+          "title": "A/C各发送多久的PCF课堂轮询时间线",
+          "paragraph_spans": [
+            [
+              2,
+              4
+            ]
+          ],
+          "status": "unresolved_classroom_visual_source_not_found",
+          "evidence": "第3段具体询问A与C各占信道多久，承接上一课现场画的A/C/D轮询图；固定PDF的图58仅宏观CFP/CP，图60为文字总结，没有该详细时序。",
+          "action": "补图60可覆盖机制总结，但不能声称恢复现场原图；沿用上一课的源图待确认说明。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261012-1620-slides-verified.zip",
+        "path": "/workspace/shared/course-20261012-1620-slides-verified.zip",
+        "bytes": 1739634,
+        "sha256": "cf02374c56f47c9645bb98d72e78c375192a0319a3f1422c6ec7e3695bcedeaa"
+      },
+      "remote_original_blocks_preserved_verified": true,
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    },
+    {
+      "lesson": "20261013-0803",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/QX16d9bfUoakAHxlKBCcnf2qnPg",
+      "image_count": 16,
+      "original_image_count_before_this_audit": 16,
+      "images_added_in_this_audit": 0,
+      "paragraph_count": 69,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T15:38:09.522973+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1013-0803/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "9c7f2ed3fec090b7d7d2fa6c75e1dcdb3bdfcf531aca0faa0d6b7a8496221e03",
+          "bytes": 34248
+        },
+        {
+          "path": "/workspace/shared/course-1013-0803/audit-readonly/slide-alignment-audit.md",
+          "sha256": "153b60f91f62e17d671562b192a51a4ffe6c9e96cbf88da229788e2805973ea1",
+          "bytes": 8618
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 0,
+      "confirmed_missing_resolved_count": 0,
+      "confirmed_missing_history": [],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 2,
+      "unresolved_source_gaps": [
+        {
+          "id": "fairness-classroom-topology-and-symbol-annotations",
+          "title": "饱和A/B连接AP的具体课堂拓扑与课间后的符号改注",
+          "paragraph_spans": [
+            [
+              7,
+              8
+            ],
+            [
+              34,
+              46
+            ]
+          ],
+          "evidence": "7段明确说AP here、A/B及满队列；34段明确回到slide并现场更改大小写符号、逐处书写。固定图79保留原两时间线公式，但没有AP拓扑，也不包含这次现场改注的可靠记录。",
+          "status": "unresolved_classroom_visual_source_not_found",
+          "action": "保留原图79和原文不确定标注；不能根据口述臆造改符号后的图。"
+        },
+        {
+          "id": "beamforming-a-b-ap-classroom-drawing",
+          "title": "AP/A/B全向与定向辐射图",
+          "paragraph_spans": [
+            [
+              52,
+              55
+            ]
+          ],
+          "evidence": "53段指A与AP的辐射pattern、omnidirectional antenna、AP改向B；固定图90是文字定义，没有这张A/B/AP辐射图。固定PDF相关beamforming页与后续ac/ax页无同一具体课堂图。",
+          "status": "unresolved_classroom_visual_source_not_found",
+          "action": "保留图90文字定义，不将后续MU-MIMO示意冒充课堂A/B/AP图。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261013-0803-slides-verified.zip",
+        "path": "/workspace/shared/course-20261013-0803-slides-verified.zip",
+        "bytes": 1312609,
+        "sha256": "1dc030c5c54abf75c9390bb33b5313be3d737a04b780bfb5e3763a14e83fe7dc"
+      },
+      "remote_original_blocks_preserved_verified": "read_only_no_remote_write",
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    },
+    {
+      "lesson": "20261013-1000",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/KZRBdsn5hoo9eDxMz1ucm6h0ned",
+      "image_count": 6,
+      "original_image_count_before_this_audit": 5,
+      "images_added_in_this_audit": 1,
+      "paragraph_count": 64,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T15:40:54.710755+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1013-1000/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "7edb387e20136382bb8606d2778fd4a6346ff6c83d1687144f799dc5af12bdc4",
+          "bytes": 18979
+        },
+        {
+          "path": "/workspace/shared/course-1013-1000/audit-readonly/slide-alignment-audit.md",
+          "sha256": "5ec928472ce324cfb861b626eaea510562ef6702f171b5418bbbc96ac2b1adeb",
+          "bytes": 7067
+        },
+        {
+          "path": "/workspace/shared/course-1013-1000/audit-readonly/remote-verification.json",
+          "sha256": "c9b96b2b3cd505674db051f04762a67ef52ddd0be5e7bf4466661754c878389f",
+          "bytes": 1390
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 1,
+      "confirmed_missing_resolved_count": 1,
+      "confirmed_missing_history": [
+        {
+          "figure_number": 89,
+          "title": "802.11n Example Data Rates",
+          "pdf_page": 45,
+          "pdf_half": "upper",
+          "printed_pdf_slide_label": 90,
+          "paragraph_spans": [
+            [
+              16,
+              18
+            ]
+          ],
+          "status": "resolved_and_verified",
+          "evidence": "第16段20:03明确切回Wi-Fi4说here we are，读最高600和最低6.5；17–18段继续拿6.5/600比较packet不同部分的发送速率。固定图89的两行rate表恰好包含6.5和600这两个端点，该课现有5图完全没有这张表。不是仅凭出现Wi-Fi4关键词补入。",
+          "placement": "第16段H2后、原第16段正文前",
+          "prepared_image_source": "/workspace/shared/course-1013-0803/slide-images/slide-089.png",
+          "provenance": "上一课授权Feishu原图与固定PDF第45页上半页已视觉核验；可从固定PDF原样栅格化。",
+          "new_image_block_id": "doxcnCHDnZ5kHpHHqJKDMsNgY5g",
+          "image_sha256": "d39525deed9f47eecfd12da345aab8a8849cf7793d003274407e69a4da4507d5",
+          "remote_download_sha256": "d39525deed9f47eecfd12da345aab8a8849cf7793d003274407e69a4da4507d5",
+          "write_receipt": "audit-readonly/insert-slide089-receipt.json"
+        }
+      ],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 3,
+      "unresolved_source_gaps": [
+        {
+          "id": "numerical-problem-1-separate-deck",
+          "title": "数值题1题目、AP/A/B/C拓扑与完整解答时序",
+          "paragraph_spans": [
+            [
+              24,
+              37
+            ],
+            [
+              40,
+              46
+            ]
+          ],
+          "status": "separate_teaching_deck_not_in_authorized_fixed_source",
+          "evidence": "第23段明确exit this slide deck and go to our numerical problems；25段说暂不发该课件避免看solution。题1：A/B时长1ms、C1.5ms，A/B同时发碰撞、backoff10/11、C在1.25ms到包、A于3.1ms重发；40段明确展示full solution。这是另一个独立课件，不是主PDF图54/EIFS示意。",
+          "search_scope": "本课资源块与inventory只链接02-WiFi_1-7.pdf；该74页主PDF的完整文本及图页不含这两个具体题目，23段还明确说明换课件。",
+          "action": "记录练习课件来源待提供/定位；不按不完整口述猜参数或重绘解答。"
+        },
+        {
+          "id": "numerical-problem-2-separate-deck",
+          "title": "数值题2题目与不等时长碰撞/EIFS解答时序",
+          "paragraph_spans": [
+            [
+              47,
+              51
+            ],
+            [
+              54,
+              64
+            ]
+          ],
+          "status": "separate_teaching_deck_not_in_authorized_fixed_source",
+          "evidence": "题2 A/C1ms、B1.4ms、TF150µs，C在忙期间到包；54段开始solution，A早停后听B尾部需EIFS，B常规DIFS。给定B backoff在61/63段有13/30不确定，不可凭推理替代原题。",
+          "action": "需同一练习课件原图；保留所有不确定标注，不把题2当题1或通用图54。"
+        },
+        {
+          "id": "packet-basic-rate-classroom-annotation",
+          "title": "原包结构上标注1/11与6.5/600Mb/s的课堂示意",
+          "paragraph_spans": [
+            [
+              5,
+              18
+            ]
+          ],
+          "status": "unresolved_classroom_visual_source_not_found",
+          "evidence": "5段this is a packet，16段let us write here basic rate；18段指同一packet分别填写PHY与MAC/payload速率。图52有文字计算，图89有rate表，但未找到这次课堂对包结构的手写标注图。",
+          "action": "保留52并补89作为原课件；不制作未经核实的手写恢复图。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261013-1000-slides-verified.zip",
+        "path": "/workspace/shared/course-20261013-1000-slides-verified.zip",
+        "bytes": 639161,
+        "sha256": "8fb330520c7497191f2a8b15b403d9471281dc0c313e12f5e64895dc7f5c36e0"
+      },
+      "remote_original_blocks_preserved_verified": true,
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    },
+    {
+      "lesson": "20261014-0801",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/Z6bvdAi7wo7stVxgwETcOt25nDf",
+      "image_count": 2,
+      "original_image_count_before_this_audit": 2,
+      "images_added_in_this_audit": 0,
+      "paragraph_count": 62,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T15:48:09.258366+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1014-0801/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "569c76f82fe4053ece5eacbe3bc87a59f41a7d50c7b213d2f0828894b04b3dfc",
+          "bytes": 8959
+        },
+        {
+          "path": "/workspace/shared/course-1014-0801/audit-readonly/slide-alignment-audit.md",
+          "sha256": "23dc00f13b7b4d9f5a8825534a29060f2ba3ca5318331907567e0d8ab7ea099f",
+          "bytes": 4175
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 0,
+      "confirmed_missing_resolved_count": 0,
+      "confirmed_missing_history": [],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 4,
+      "unresolved_source_gaps": [
+        {
+          "kind": "unprovided_numerical_problem_deck",
+          "paragraphs": [
+            5,
+            14
+          ],
+          "description": "回看前一课第2道题：全互听AP/A/B/C、A/B包长不同、A19/B30/C5、C先发与NAV冻结的原题/解答时序图。提供的02-WiFi课件没有此完整题与数值时序。"
+        },
+        {
+          "kind": "unprovided_numerical_problem_deck",
+          "paragraphs": [
+            15,
+            33
+          ],
+          "description": "第3题：A/B隐藏、A/C0.2ms与B0.4ms、B两包、A0.65ms到达、C到达0.35/0.55ms未定、A/C退避7、求B后退避14至17的原题与解答图未提供。"
+        },
+        {
+          "kind": "classroom_whiteboard_not_in_pdf",
+          "paragraphs": [
+            37,
+            50
+          ],
+          "description": "P37明确重新画拓扑、P38只重画B首包成功后的局部时序；解释13+n、SIFS/ACK、n=0或5失败、n1至4可行的实际手绘图。与原题解答相关但属于现场追加图，不能拿一般DCF图或猜绘补。"
+        },
+        {
+          "kind": "unprovided_numerical_problem_deck",
+          "paragraphs": [
+            52,
+            59
+          ],
+          "description": "第4题原题截图及开头提示图：A/B隐藏，A/C0.3ms、B0.4ms，B在t0发/A在t0+0.1发，C0.7ms到达，A/C退避1/5，C读B首部设置含期望ACK的NAV，求B最多一次碰撞。老师让学生拍照并次日讲解，当前源文件没有。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261014-0801-slides-verified.zip",
+        "path": "/workspace/shared/course-20261014-0801-slides-verified.zip",
+        "bytes": 266157,
+        "sha256": "3fe3d55f3578898e0eed11280f6893d8e3641cf6929d37fd4352468f19eddc40"
+      },
+      "remote_original_blocks_preserved_verified": "read_only_no_remote_write",
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    },
+    {
+      "lesson": "20261014-1000",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/TqofdOKfFoCaoixV2cfccaBEnMh",
+      "image_count": 22,
+      "original_image_count_before_this_audit": 19,
+      "images_added_in_this_audit": 3,
+      "paragraph_count": 112,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T15:52:09.207179+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1014-1000/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "a36a68ddd87c16f2d3995324cd876c7e5dfaeddd1e789d3c3453d738d0e05f2a",
+          "bytes": 52157
+        },
+        {
+          "path": "/workspace/shared/course-1014-1000/audit-readonly/slide-alignment-audit.md",
+          "sha256": "62634c06e195d81a3268120df879c73670832f822adccb8876655b043b022348",
+          "bytes": 12000
+        },
+        {
+          "path": "/workspace/shared/course-1014-1000/audit-readonly/remote-verification.json",
+          "sha256": "20879e566a1e716d4369de307f3a6ad5e2115d4d17f1324a35d1a31f7dfc2bba",
+          "bytes": 4453
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 3,
+      "confirmed_missing_resolved_count": 3,
+      "confirmed_missing_history": [
+        {
+          "source_pdf": "001-BasicConcepts.pdf",
+          "figure_number": 10,
+          "pdf_page": 5,
+          "pdf_half": "lower",
+          "semantic_paragraphs": [
+            33,
+            33
+          ],
+          "insert_after_heading2_block_id": "doxcnxxurNtFRieweayre8v9igb",
+          "before_body_block_id": "doxcnNspZut179OrzSdDMtM9Ugb",
+          "paragraph_ordinal": 33,
+          "evidence": "P32接受同学要求回看；P33指this rectangle is the geographical area，图10唯一为未部署基站的空矩形A服务区，并说明频谱资源/用户/收入。",
+          "status": "resolved_and_verified",
+          "new_image_block_id": "doxcnmzclUVxj36yyZks3CnG7Rh",
+          "image_sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c",
+          "remote_download_sha256": "fdc19b3d864e10192bbd96f7ee0ed93ec9b8a5b8055dca170cb413009579003c"
+        },
+        {
+          "source_pdf": "001-BasicConcepts.pdf",
+          "figure_number": 12,
+          "pdf_page": 6,
+          "pdf_half": "lower",
+          "semantic_paragraphs": [
+            34,
+            40
+          ],
+          "insert_after_heading2_block_id": "doxcngHduvX2R5Ac7eJPWbeGEVc",
+          "before_body_block_id": "doxcnR2UyEEIdyRSZGNEul0qbxf",
+          "paragraph_ordinal": 34,
+          "evidence": "P34开始在该区域部署一个基站；P35–40讨论其频率资源与用户容量，图12是同一矩形内单基站和L频段/用户比例，区别于图10空区与图13三站。",
+          "status": "resolved_and_verified",
+          "new_image_block_id": "doxcngtP887BHXNuCa73hugjnzp",
+          "image_sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569",
+          "remote_download_sha256": "1ccd7d79cdadeb0dbebc9875706b4002fc22de2983d3a5b6d0d18f0dd77f4569"
+        },
+        {
+          "source_pdf": "001-BasicConcepts.pdf",
+          "figure_number": 13,
+          "pdf_page": 7,
+          "pdf_half": "upper",
+          "semantic_paragraphs": [
+            41,
+            42
+          ],
+          "insert_after_heading2_block_id": "doxcnmmCez8fX4oWkWvVPunOeid",
+          "before_body_block_id": "doxcnd17aZonvmyU9wSEMuD66sp",
+          "paragraph_ordinal": 41,
+          "evidence": "P41明确部署three base stations、降低功率且同频复用；图13是矩形内三个圆覆盖区、容量3L，与P42三人低声说话类比一致。",
+          "status": "resolved_and_verified",
+          "new_image_block_id": "doxcnGmzyKsKQFCoZH9UTTHlR1b",
+          "image_sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee",
+          "remote_download_sha256": "a158ad4a25c02aba8a28a356e34a7ee4ba3410c086896bea8cfd4fdb377e25ee"
+        }
+      ],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 5,
+      "unresolved_source_gaps": [
+        {
+          "kind": "unprovided_numerical_problem_deck",
+          "paragraphs": [
+            5,
+            11
+          ],
+          "description": "老师重新展示数值题文字让学生拍照，题1/2/3及下午练习页不在已提供PDF文件清单，不能用通用DCF页顶替。"
+        },
+        {
+          "kind": "referenced_classroom_visual_not_located",
+          "paragraphs": [
+            26,
+            30,
+            43,
+            46
+          ],
+          "description": "基站发给少量用户，再由不同用户对低功率D2D复用频谱的指点示意；D2D图6有音乐会/救灾照片，但没有所指基站/成对用户精确图，可能现场绘图或注释，未找到原图。"
+        },
+        {
+          "kind": "classroom_annotations_not_in_pdf",
+          "paragraphs": [
+            33,
+            42
+          ],
+          "description": "基础课件图10/12/13能恢复原底图，但三频段示意、n×3、K元收入、再乘3等课堂具体数值/频谱线条标记未存在固定底图，不能猜绘。"
+        },
+        {
+          "kind": "referenced_classroom_visual_not_located",
+          "paragraphs": [
+            88,
+            92
+          ],
+          "description": "通用节点中PHY/MAC/网络IP/transport/application纵向协议层解释及小中间层，D2D原页只有Each node is a router文字，未找到相同层次图。"
+        },
+        {
+          "kind": "referenced_classroom_visual_not_located",
+          "paragraphs": [
+            97,
+            97
+          ],
+          "description": "短程与长程radio/interference双圈大小比较的指点示意，图10仅单个双圈设备图、图20为文字利弊，没有本段比较图。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261014-1000-slides-verified.zip",
+        "path": "/workspace/shared/course-20261014-1000-slides-verified.zip",
+        "bytes": 3108918,
+        "sha256": "ab6c7f57eaac88fa62fb1e184ba4ae9062a12f6dbaa16d2394552a2b8e05d661"
+      },
+      "remote_original_blocks_preserved_verified": true,
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    },
+    {
+      "lesson": "20261015-0803",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/SVZTdsr4ZoJsP3xd8GLcV7JjnAh",
+      "image_count": 17,
+      "original_image_count_before_this_audit": 16,
+      "images_added_in_this_audit": 1,
+      "paragraph_count": 71,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T15:59:00.739725+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1015-0803/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "f70d81c0bddf837e28e8dcf65a0b672757b61150c8c5f1305d3c8948632601c8",
+          "bytes": 39619
+        },
+        {
+          "path": "/workspace/shared/course-1015-0803/audit-readonly/slide-alignment-audit.md",
+          "sha256": "760a91a07ab983f949bf74198afd9bcfc42237008875d401517a728f072d021a",
+          "bytes": 9709
+        },
+        {
+          "path": "/workspace/shared/course-1015-0803/audit-readonly/remote-verification.json",
+          "sha256": "673175730fc427373ca1bada255094df415c10539b6b81f7a6bf0d93cf779883",
+          "bytes": 2218
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 1,
+      "confirmed_missing_resolved_count": 1,
+      "confirmed_missing_history": [
+        {
+          "source_pdf": "03-D2D-Networks.pdf",
+          "figure_number": 20,
+          "pdf_page": 10,
+          "pdf_half": "lower",
+          "title": "Multi-hop Communications: advantages and disadvantages",
+          "semantic_paragraphs": [
+            15,
+            18
+          ],
+          "paragraph_ordinal": 15,
+          "insert_after_heading2_block_id": "doxcnPQCnI4YaLLLKjAZvh9pECD",
+          "before_body_block_id": "doxcnunvcpqJRqLECqArshZZwRd",
+          "evidence": "P14明确返回另一套slides，P15指这是昨天最后讲的页，P16明确多跳及advantages/disadvantages；上一课最后图20恰为多跳利弊（PDF10下），当前文档未含此页，不是只因说multi-hop就补。",
+          "status": "resolved_and_verified",
+          "receipt_stem": "d2d020",
+          "new_image_block_id": "doxcneEorbvt0WUNV93sEhto8ng",
+          "image_sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c",
+          "remote_download_sha256": "5df5f027e9b848df22105c663cc6abadc898ca5782efcab0aa972a3729a30b6c"
+        }
+      ],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 3,
+      "unresolved_source_gaps": [
+        {
+          "kind": "unprovided_numerical_problem_deck",
+          "paragraphs": [
+            1,
+            13
+          ],
+          "description": "上一课第4题的解答图：A/B隐藏、C正确NAV、B>16且排除21，17–20或22–31、AP发ACK冻结B退避的完整数值时序；固定已提供课件无这题解答。"
+        },
+        {
+          "kind": "referenced_classroom_visual_not_located",
+          "paragraphs": [
+            22,
+            26
+          ],
+          "description": "设备内PHY/MAC/小子层/网络/transport/application协议栈与数据向下传递的具体图，不在D2D图22路由网络图内，未找到原图，不能用不同图代替。"
+        },
+        {
+          "kind": "referenced_classroom_visual_not_located",
+          "paragraphs": [
+            70,
+            71
+          ],
+          "description": "物理场随时间和x/y/z变化、各测点x1/y1/z1与x2/y2/z2、离散样本重建连续场的课堂示意/标注，Sensor Architecture原页只有组件框图，无相同采样坐标图。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261015-0803-slides-verified.zip",
+        "path": "/workspace/shared/course-20261015-0803-slides-verified.zip",
+        "bytes": 1925089,
+        "sha256": "c0ffd3938c9dc620dc2e50d438f79e33ab68716732c71619e341cf8de9744d12"
+      },
+      "remote_original_blocks_preserved_verified": true,
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    },
+    {
+      "lesson": "20261015-1000",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/Onm4dp9S1oLG5hxAtzVcrCXknGf",
+      "image_count": 26,
+      "original_image_count_before_this_audit": 26,
+      "images_added_in_this_audit": 0,
+      "paragraph_count": 82,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T16:05:42.330093+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1015-1000/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "3d35accdbea3994c892c202f9d382a2fc7870cb99ec90ca67087efad235d1da1",
+          "bytes": 51743
+        },
+        {
+          "path": "/workspace/shared/course-1015-1000/audit-readonly/slide-alignment-audit.md",
+          "sha256": "59dfaae816eebc43241690bfd849d98fb5a6e4f00c2d137b515d5f3c364449eb",
+          "bytes": 11170
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 0,
+      "confirmed_missing_resolved_count": 0,
+      "confirmed_missing_history": [],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 2,
+      "unresolved_source_gaps": [
+        {
+          "kind": "referenced_classroom_visual_not_located",
+          "paragraphs": [
+            54,
+            55,
+            58,
+            62
+          ],
+          "description": "LEACH例子中两个簇、两个簇头和普通传感器的具体示意，P54指cluster1/cluster2；当前图20只有文字条目，固定PDF没有相同两簇及本课节点标号的原图。不能用D2D三簇通用图代替。"
+        },
+        {
+          "kind": "referenced_classroom_visual_not_located",
+          "paragraphs": [
+            56,
+            57,
+            66,
+            69
+          ],
+          "description": "重复time frame内slot1→S1、slot2→S3、slot3→S5以及新S6/S7无slot的课堂时序/分配示意；当前LEACH页只说Static TDMA frame，没有该图。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261015-1000-slides-verified.zip",
+        "path": "/workspace/shared/course-20261015-1000-slides-verified.zip",
+        "bytes": 3336343,
+        "sha256": "823582b6390d5cac8042cebd524c996cf2fa52d2f6cefc212914085e70d07ba5"
+      },
+      "remote_original_blocks_preserved_verified": "read_only_no_remote_write",
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    },
+    {
+      "lesson": "20261016-0805",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/H8UxdBbx7owjVmxCeMbcnihengg",
+      "image_count": 24,
+      "original_image_count_before_this_audit": 22,
+      "images_added_in_this_audit": 2,
+      "paragraph_count": 87,
+      "slides_audit_complete": true,
+      "slides_audit_complete_scope": "逐张比较原图与固定PDF及整课上下讲解，缺图补入后回读校验；不等于全部课堂原图恢复，也不等于ASR原音准确性认证。",
+      "audit_recorded_at": "2026-10-18T16:13:53.965007+00:00",
+      "current_revision_semantic_slide_alignment_reaudited": true,
+      "audit_evidence": [
+        {
+          "path": "/workspace/shared/course-1016-0805/audit-readonly/slide-alignment-manifest.json",
+          "sha256": "70e8a7a91ae3ab89b9af8dcaa70d6dc346140d8eb2233523cd4ea1a344bec8dd",
+          "bytes": 54837
+        },
+        {
+          "path": "/workspace/shared/course-1016-0805/audit-readonly/slide-alignment-audit.md",
+          "sha256": "d05d527a528d9aa954af17fea876903dad2e3dd5e6bba4ec509af5324c238653",
+          "bytes": 13235
+        },
+        {
+          "path": "/workspace/shared/course-1016-0805/audit-readonly/remote-verification.json",
+          "sha256": "4161356c340333525a0caea3e9bafee12ffd60b74896477d22faf01004f920c7",
+          "bytes": 3526
+        }
+      ],
+      "confirmed_missing_count": 0,
+      "confirmed_missing_detected_count": 2,
+      "confirmed_missing_resolved_count": 2,
+      "confirmed_missing_history": [
+        {
+          "source_pdf": "02-WiFi_1-7.pdf",
+          "figure_number": 36,
+          "pdf_page": 18,
+          "pdf_half": "lower",
+          "title": "DCF Basic Access: Unicast DATA + ACK",
+          "semantic_paragraphs": [
+            66,
+            68
+          ],
+          "paragraph_ordinal": 66,
+          "insert_after_heading2_block_id": "doxcnaYknFIjdLGzhNXN9cg0eP0",
+          "before_body_block_id": "doxcnR4WaXTAk1trcGsRaF2uxAh",
+          "evidence": "P66明确回到最初overview time diagram，P67按Source DATA、Destination SIFS ACK、others读Duration设NAV逐行说明；固定WiFi图36恰是该三行时序，而此课后半一张WiFi图都没有。角色A/AP/B的课堂命名不在源页，不能冒充恢复命名拓扑。",
+          "status": "resolved_and_verified",
+          "receipt_stem": "wifi036",
+          "new_image_block_id": "doxcncBgrYotI4yESwbY59QA8Ec",
+          "image_sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c",
+          "remote_download_sha256": "4c55de70f599301e9644f865f073f09f29abdfec1ccac21ca351f7c08145df9c"
+        },
+        {
+          "source_pdf": "02-WiFi_1-7.pdf",
+          "figure_number": 45,
+          "pdf_page": 23,
+          "pdf_half": "upper",
+          "title": "When Does a Station (Re)contend? — the Backoff Cases",
+          "semantic_paragraphs": [
+            72,
+            72
+          ],
+          "paragraph_ordinal": 72,
+          "insert_after_heading2_block_id": "doxcnxOPQa9n0tEUKCBK6bkWP0e",
+          "before_body_block_id": "doxcnS4u9sgspPGuzpo1AZOcsSf",
+          "evidence": "P72明确说backoff在three possible situations使用，go back to the slide/read the slide；固定WiFi图45正好列且仅列三个触发情形，为明确页回指，不靠关键词补图。",
+          "status": "resolved_and_verified",
+          "receipt_stem": "wifi045",
+          "new_image_block_id": "doxcnzjyJMBG5argogg6y2Ibagc",
+          "image_sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e",
+          "remote_download_sha256": "fc358d9a4c5b77f2a38e998f5e95c1fd91db0aef98d51f76558a072b9a14be3e"
+        }
+      ],
+      "images_needing_move": [],
+      "unresolved_source_gap_count": 4,
+      "unresolved_source_gaps": [
+        {
+          "kind": "classroom_drawing_not_in_fixed_pdf",
+          "paragraphs": [
+            33,
+            39,
+            44,
+            45
+          ],
+          "description": "sensor与sink两行DATA-SIFS-ACK-SIFS及192微秒收发转换课堂时序。Sensors图43/51只有文字规则，没有现场两行绘图；不据规则自行重画当原图。"
+        },
+        {
+          "kind": "classroom_annotation_not_in_fixed_pdf",
+          "paragraphs": [
+            66,
+            67
+          ],
+          "description": "A、B、AP互相可听的命名拓扑/时序批注；WiFi图36可恢复通用Source/Destination/Others原页，但不含课堂A/B/AP拓扑及手写标注。"
+        },
+        {
+          "kind": "classroom_drawing_not_in_fixed_pdf",
+          "paragraphs": [
+            74,
+            79
+          ],
+          "description": "A/B同起发送，C和AP碰撞后NAV=0而PHY忙，随后D插入使C提前结束EIFS的多节点课堂图。固定WiFi图54仅B→C数据与A错误接收，不是此例。"
+        },
+        {
+          "kind": "classroom_drawing_not_in_fixed_pdf",
+          "paragraphs": [
+            80,
+            82
+          ],
+          "description": "A短包、B长包同起碰撞，A收完自身短包后只听到B尾部而需EIFS的课堂图。所供固定PDF未含该双包长图，不能替以通用EIFS页。"
+        }
+      ],
+      "all_lecture_visuals_recovered": false,
+      "full_recovery_zip": {
+        "filename": "course-20261016-0805-slides-verified.zip",
+        "path": "/workspace/shared/course-20261016-0805-slides-verified.zip",
+        "bytes": 2185842,
+        "sha256": "846f87e438bb3b23535dcb943601891cbead919e04f195cff155b7cfb605f921"
+      },
+      "remote_original_blocks_preserved_verified": true,
+      "navigation_status": "separate_not_counted_as_slide_audit",
+      "asr_status": "separate_not_certified_by_slide_audit"
+    }
+  ]
+}
