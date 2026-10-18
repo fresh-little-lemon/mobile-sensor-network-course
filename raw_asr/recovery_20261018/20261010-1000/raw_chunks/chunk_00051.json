@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5610.0,
+  "end_seconds": 5730.0,
+  "text": "Okay, it's not exactly double. Roughly speaking, we double. Okay, we are going to see how actually we determine this value exactly next next time. And this notice means that we double the number of possible integers that can be selected. Okay, so this range is important. Remember that this range always start from zero. What we double is the right hand extreme of the range. So before we were considering from zero up to thirty one, thirty two possible temperatures. Now we are considering from zero to sixty three, right? So sixty four possible values, integers, including the zero. Okay. And if I fail again and I have to repeat the procedure, again it's the same procedure, but this is the third time that I am running the BCF for that same data packet. So I am going to roughly double again this value. Every time, roughly speaking, I double it till I reach a value that is CWMAX, the maximum potential window, beyond which I don't increase it anymore. Okay, so even if I have to run another BCF for the same data packet. Once I reach CWMAX, I don't increase it anymore. Okay, just.",
+  "raw_decoded": "language English<asr_text>Okay, it's not exactly double. Roughly speaking, we double. Okay, we are going to see how actually we determine this value exactly next next time. And this notice means that we double the number of possible integers that can be selected. Okay, so this range is important. Remember that this range always start from zero. What we double is the right hand extreme of the range. So before we were considering from zero up to thirty one, thirty two possible temperatures. Now we are considering from zero to sixty three, right? So sixty four possible values, integers, including the zero. Okay. And if I fail again and I have to repeat the procedure, again it's the same procedure, but this is the third time that I am running the BCF for that same data packet. So I am going to roughly double again this value. Every time, roughly speaking, I double it till I reach a value that is CWMAX, the maximum potential window, beyond which I don't increase it anymore. Okay, so even if I have to run another BCF for the same data packet. Once I reach CWMAX, I don't increase it anymore. Okay, just.<|im_end|>",
+  "generated_tokens": 246,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.34572368699992,
+  "at": "2026-10-18T02:44:22.001156+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

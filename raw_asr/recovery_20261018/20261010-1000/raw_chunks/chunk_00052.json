@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5720.0,
+  "end_seconds": 5838.8665625,
+  "text": "Once I reach C W max, I don't increase it anymore, okay? Just to, you know, the idea is C W max is typically 140 degrees. And the very last, very, very, very last thing is: I not stand. I double this contention window every time I have to repeat the backoff procedure for the same data packet. If at a certain point this data packet, I'm done with this data packet, and I start the procedure for a new data packet, I will start from scratch, okay? If I have to use the backoff procedure for a new data packet, for that new data packet, I will start from scratch. That is from C W min, okay? So for every new packet, if I need to use the backoff procedure, I start from C W min. It is double, roughly speaking, double only if I have to repeat the backoff procedure for the same data. Okay, good. Now we will see more next time, but for today we are done, right? We run the time, because. Great. So we'll meet Monday afternoon. You can do more. Time to relax.",
+  "raw_decoded": "language English<asr_text>Once I reach C W max, I don't increase it anymore, okay? Just to, you know, the idea is C W max is typically 140 degrees. And the very last, very, very, very last thing is: I not stand. I double this contention window every time I have to repeat the backoff procedure for the same data packet. If at a certain point this data packet, I'm done with this data packet, and I start the procedure for a new data packet, I will start from scratch, okay? If I have to use the backoff procedure for a new data packet, for that new data packet, I will start from scratch. That is from C W min, okay? So for every new packet, if I need to use the backoff procedure, I start from C W min. It is double, roughly speaking, double only if I have to repeat the backoff procedure for the same data. Okay, good. Now we will see more next time, but for today we are done, right? We run the time, because. Great. So we'll meet Monday afternoon. You can do more. Time to relax.<|im_end|>",
+  "generated_tokens": 243,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 31.701582165000218,
+  "at": "2026-10-18T02:44:53.703464+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}

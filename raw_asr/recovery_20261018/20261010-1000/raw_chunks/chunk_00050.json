@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5500.0,
+  "end_seconds": 5620.0,
+  "text": "Make sure that the channel is idle for this. Then draw a randomly random integer, multiply this random integer by the time slot, set our back of counter to this new value, and start increasing the back of counter again as long as the channel is idle. Where eventually I reach zero, the back of counter reaches zero. I can try again and try. Right, okay. The only thing that changes now is that I'm not going to use the same range of possible integers. So when I draw the random integer, what I do is to use a different range of possible integers. So this is the second time that we use right the back of for that same data packet. I'm not using this contention window minimum of thirty one. I use a larger value. Okay, and we will explain later how this value is determined. But for now, consider that roughly speaking, we double this value. It's the second time. It's basically doubled respect to the previous value. So instead of thirty one, we are now using sixty three. Okay, it's not exactly doubled. Roughly speaking, we double it. Okay, we are going to see how actually we determine this value.",
+  "raw_decoded": "language English<asr_text>Make sure that the channel is idle for this. Then draw a randomly random integer, multiply this random integer by the time slot, set our back of counter to this new value, and start increasing the back of counter again as long as the channel is idle. Where eventually I reach zero, the back of counter reaches zero. I can try again and try. Right, okay. The only thing that changes now is that I'm not going to use the same range of possible integers. So when I draw the random integer, what I do is to use a different range of possible integers. So this is the second time that we use right the back of for that same data packet. I'm not using this contention window minimum of thirty one. I use a larger value. Okay, and we will explain later how this value is determined. But for now, consider that roughly speaking, we double this value. It's the second time. It's basically doubled respect to the previous value. So instead of thirty one, we are now using sixty three. Okay, it's not exactly doubled. Roughly speaking, we double it. Okay, we are going to see how actually we determine this value.<|im_end|>",
+  "generated_tokens": 245,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.081317971000317,
+  "at": "2026-10-18T02:43:49.654674+00:00",
+  "source_sha256": "9c1037f91e47864135315f2bef1d85ccb4334b8ceb3def90e54bd562f78cd32e"
+}
