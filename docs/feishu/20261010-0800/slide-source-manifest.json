@@ -1,0 +1,762 @@
+{
+  "document_title": "双语对照：录音机-20261010-0800",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/FfgDdqktToKXpyxwlCxcv7GanSb",
+  "original_transcript_url": "https://lcn6dqn3m0yr.feishu.cn/docx/MONKdNlXpofpR6xUGMochD4qnUf",
+  "original_audio_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnl1clvt181318n217blk8",
+  "prepared_for": "授权的课程私仓同步准备；未执行远程发布",
+  "source_pdfs": [
+    {
+      "filename": "02-WiFi_1-7.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+      "pages": 74,
+      "figures_used": [
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        39,
+        38,
+        37,
+        40
+      ],
+      "local_provenance": "Exact pinned PDF copied from the authorized 1009-1000 audit and verified against its source manifest hash."
+    }
+  ],
+  "audited_at_utc": "2026-10-18T14:45:47.878222+00:00",
+  "audit_scope": "All81 bilingual paragraphs and their existing headings fully read. All12 original PNGs downloaded read-only and visually compared with pinned PDF pages13–20. Figure34 faithfully rasterized and visually inspected. Fixed74-page PDF text searched; candidate pages3,23,25,34–37 visually checked for explanatory figures. Final full-block readback compared; added PNG re-downloaded and SHA256 verified. This audit worker performed no remote edits.",
+  "paragraph_count": 81,
+  "existing_heading2_count": 81,
+  "existing_heading1_count": 7,
+  "existing_headings_preserved": true,
+  "original_image_count": 12,
+  "added_image_count": 1,
+  "image_count": 13,
+  "confirmed_defects": [
+    {
+      "id": "missing-ifs-definitions",
+      "type": "missing_relevant_source_slide",
+      "figure_number": 34,
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 17,
+      "pdf_half": "lower",
+      "paragraph_spans": [
+        [
+          43,
+          58
+        ]
+      ],
+      "evidence": "第43–45段逐一引入四种IFS名称、长度和SIFS/DIFS优先级；第46–54段解释短间隔取得优先接入；第55–58段明确DATA与ACK属于同一对话，ACK在SIFS之后发送。图34第一条直接解释同一对话中的DATA→ACK，第三条为DIFS定义，第五条为短间隔取得优先权。现有图33只有长度阶梯，缺少这页定义。PIFS/EIFS具体用途在本节明确推迟，图34整体作为原课件保留，不宣称其全部条目已经讲完。",
+      "remediation": "Parent inserted faithful PDF rasterization after existing paragraph58 H2 and before unchanged paragraph58. All12 original images and all88 original heading blocks preserved.",
+      "new_block_id": "doxcnrnguPCZwHGevSbhX06aUdc",
+      "status": "resolved_and_verified_in_full_document_readback",
+      "write_receipt": "receipts/add-slide-034.json",
+      "write_revision": 166
+    }
+  ],
+  "original_images_misaligned_count": 0,
+  "unresolved_source_gaps": [
+    {
+      "id": "queue-server-classroom-visual-not-located",
+      "topic": "MAC队列与服务台模型示意",
+      "paragraph_spans": [
+        [
+          7,
+          12
+        ]
+      ],
+      "status": "unresolved_visual_reference_source_not_found",
+      "certainty": "The spoken references indicate a displayed or drawn model; it is not established that it was a slide in this PDF.",
+      "evidence": "第7段末说用这种方式建模，第8段明确MAC抽象为queue and server，并反复指这里是cashier、这里是queue；第10–12段讲FIFO和排队分析。",
+      "search_scope": "固定74页PDF全文检索queue/server/Bianchi/Kleinrock；视觉核查相关章节与第23、25、34–37页。后续EDCA四队列和退避条目均非该单队列/服务台课堂示意。",
+      "action": "保留原文，记录原图来源待确认；可能是板书或补充材料，不用后续EDCA图替代。"
+    },
+    {
+      "id": "power-time-energy-classroom-visual-not-located",
+      "topic": "功率随时间、侦听区间与能量门限示意",
+      "paragraph_spans": [
+        [
+          18,
+          20
+        ]
+      ],
+      "status": "unresolved_visual_reference_source_not_found",
+      "certainty": "The transcript explicitly discusses representing power over time, but does not identify a PDF slide.",
+      "evidence": "第18段明确说在这里表示天线随时间感知的功率，并标注sensing time；第19–20段解释能量门限与busy/idle。",
+      "search_scope": "固定PDF全文energy/power/threshold相关条目及第19页物理/虚拟侦听页。图38为文字定义，不是功率-时间曲线。",
+      "action": "保留原文，不将图38或Wi-Fi6后部的能量/门限页当作该曲线，不自行重绘。"
+    },
+    {
+      "id": "priority-example-classroom-visual-not-located",
+      "topic": "A/B两节点高低优先级竞争的具体时间线",
+      "paragraph_spans": [
+        [
+          46,
+          50
+        ]
+      ],
+      "status": "unresolved_visual_reference_source_not_found",
+      "certainty": "A specific time-axis explanation is suggested; whether the lecturer drew a distinct figure cannot be established from text alone.",
+      "evidence": "第47–50段设A持高优先级包、B持低优先级包，A等待SIFS后占信道、B在DIFS后半段侦听到busy，并指向这个时刻与这最后一段。",
+      "search_scope": "固定PDF全文与第17–20、34–37页。图33为IFS阶梯，图36为DATA/ACK/NAV时间线，后续EDCA的AIFS/CW图并非这个A/B例子。",
+      "action": "保留原文及相关图33/34，不用后续QoS图片替代，不声称已恢复独立课堂示意。"
+    }
+  ],
+  "unresolved_source_gap_count": 3,
+  "unresolved_gaps_are_not_confirmed_missing_pdf_pages": true,
+  "all_lecture_visuals_recovered": false,
+  "not_missing": [
+    {
+      "figure_numbers": [
+        5,
+        25
+      ],
+      "reason": "第3–7段和24、42段回顾PHY/MAC与半双工；当前图27/28已有对应MAC概览和半双工对比，未确认重新展示前章图5/25，不机械重插。"
+    },
+    {
+      "figure_numbers": [
+        29
+      ],
+      "reason": "本节没有展开non-persistent/p-persistent/1-persistent/0-persistent的概率规则，第26段只建议有以太网背景者自行看比较幻灯片。因此不能仅凭编号缺29就补。"
+    },
+    {
+      "figure_numbers": [
+        35
+      ],
+      "reason": "本节只介绍DIFS发送、忙则推迟和成功DATA/ACK；图35的错误后EIFS与忙后指数退避规则尚未讲解，第58段明确把其他IFS推迟到稍后。已有图36/37覆盖本节的基础例子。"
+    },
+    {
+      "figure_numbers_from": 41,
+      "reason": "第81段只是展示隐藏节点场景，明确说长休息后再讲；RTS/CTS、随机退避、PCF的后续页不属于本段已展开内容。"
+    }
+  ],
+  "cautions": [
+    "All original bilingual text is retained verbatim, including spoken/source inconsistencies, interjections, repeated timestamps and non-English fragments. This is not an audio-transcription or technical-correction audit.",
+    "Paragraphs39–40 contain break conversation; paragraph70 contains mixed-language/garbled transcript fragments. They are preserved exactly.",
+    "Figure34 includes PIFS/EIFS definitions that the lecturer explicitly postpones; the insertion is justified by the already-explained SIFS/DIFS and same-dialogue content, not a claim that every bullet was taught here.",
+    "The3 unresolved items are classroom visual-reference source gaps, potentially board work or supplementary material; they are not established as missing slides in the fixed PDF.",
+    "The PDF and original PNGs contain some pre-existing dense layout and overlapping small header labels, preserved without redrawing.",
+    "Only status metadata and one additional image changed in the remote document; all81 original paragraph blocks,88 heading blocks,12 image blocks and remaining original non-root blocks are unchanged.",
+    "Original recording, raw transcript and intelligent minutes were not modified; audio binary is not packaged.",
+    "Prepared for an authorized private course repository; no public redistribution rights review or publishing performed."
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "figure_number": 26,
+      "slide_number": 26,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "The MAC Layer: DCF and PCF",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 13,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=13",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-026.png",
+      "sha256": "b8324d28d6edfd1804c74574d6691a0524a15a5c7fe682ae7c65509c17e93e52",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn4htJcpAtI5Pe5BoMWUa1lb",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第13页下半页 · 图26（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第13页下半页 · 图26（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 1,
+        "timestamp": "00:00:00",
+        "block_id": "doxcnLXrxlpNSzXSW0Yf8E5Iqce",
+        "heading": "01 · 00:00:00 · Wi-Fi MAC：DCF与PCF"
+      },
+      "before_paragraph": {
+        "ordinal": 2,
+        "timestamp": "00:01:53",
+        "block_id": "doxcnl9gAge1JR29AboNwUZhweb",
+        "heading": "02 · 00:01:53 · 课程回顾与PCF简介"
+      },
+      "semantic_paragraph_spans": [
+        [
+          1,
+          2
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第1–2段明确开始MAC章节、比较实际实现的DCF与未实现的PCF；章节页紧跟第1段，位置准确。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 2,
+      "figure_number": 27,
+      "slide_number": 27,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "MAC Layer: Role and Functions",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 14,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=14",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-027.png",
+      "sha256": "18c5d9bceb5a30563a4fc7635fa5789bc562e83aca61817a675bb005db690ff1",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn5pg7Dj1jNrC0ctiemfjGHK",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第14页上半页 · 图27（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第14页上半页 · 图27（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 24,
+        "timestamp": "00:33:05",
+        "block_id": "doxcnpvvx1UJj8gfaXTZwTjJh0d",
+        "heading": "24 · 00:33:05 · Wi-Fi的CSMA/CA"
+      },
+      "before_paragraph": {
+        "ordinal": 25,
+        "timestamp": "00:34:42",
+        "block_id": "doxcnMFxDb5bC9Gy8bKujaMCwvh",
+        "heading": "25 · 00:34:42 · 为什么需要避免碰撞"
+      },
+      "semantic_paragraph_spans": [
+        [
+          3,
+          7
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          24,
+          26
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第3–7段讲MAC与PHY、上层数据包，第13–20段讲服务数据包、frame与CSMA，第24段落到CSMA/CA；放在第24段后是对这一段落群的概览，不因章节内部顺序调整。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 3,
+      "figure_number": 28,
+      "slide_number": 28,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Why Not Reuse Ethernet's CSMA/CD?",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 14,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=14",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-028.png",
+      "sha256": "ae4a7d2736e84003771e70b2f54154e193dbbc7b9d35947f32912e866ddf01a2",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnErLlCt9Q8ks3Fle7QLxFVg",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第14页下半页 · 图28（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第14页下半页 · 图28（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 24,
+        "timestamp": "00:33:05",
+        "block_id": "doxcnpvvx1UJj8gfaXTZwTjJh0d",
+        "heading": "24 · 00:33:05 · Wi-Fi的CSMA/CA"
+      },
+      "before_paragraph": {
+        "ordinal": 25,
+        "timestamp": "00:34:42",
+        "block_id": "doxcnMFxDb5bC9Gy8bKujaMCwvh",
+        "heading": "25 · 00:34:42 · 为什么需要避免碰撞"
+      },
+      "semantic_paragraph_spans": [
+        [
+          21,
+          26
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第21–25段对比以太网碰撞检测和Wi-Fi半双工/碰撞避免，第26段明确指向以太网比较幻灯片；图紧跟第24段准确。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 4,
+      "figure_number": 30,
+      "slide_number": 30,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Three MAC Frame Types",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 15,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=15",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-030.png",
+      "sha256": "84d2f6f52e08fa781cdd1f12f5559937aa9a2a6bc3285274a1c94551040b2535",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnHf2fcF045VqluM0hfSPWte",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第15页下半页 · 图30（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第15页下半页 · 图30（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 28,
+        "timestamp": "00:35:30",
+        "block_id": "doxcnYkcWeNsHsrQfeOn9CckI8d",
+        "heading": "28 · 00:35:30 · 控制帧与管理帧"
+      },
+      "before_paragraph": {
+        "ordinal": 29,
+        "timestamp": "00:37:02",
+        "block_id": "doxcncg8x58xC6Ru7QYzVWoF5Mh",
+        "heading": "29 · 00:37:02 · 信标的管理作用"
+      },
+      "semantic_paragraph_spans": [
+        [
+          27,
+          29
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第27段定义数据帧，第28段控制帧/ACK和管理帧/beacon，第29段补充beacon例子；位于第28段后合适。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 5,
+      "figure_number": 31,
+      "slide_number": 31,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Two Coordination Functions",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 16,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=16",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-031.png",
+      "sha256": "ce8ff35223ec3d4d1897bc311212d45688302c0abaa2cc13055113ef391e5973",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnOnZA4Dluf9vynjbVx3YW4b",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第16页上半页 · 图31（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第16页上半页 · 图31（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 33,
+        "timestamp": "00:39:52",
+        "block_id": "doxcnmoIN6a27f7C3ZjKBQMGkrg",
+        "heading": "33 · 00:39:52 · 接入点协调与自组织模式"
+      },
+      "before_paragraph": {
+        "ordinal": 34,
+        "timestamp": "00:39:52",
+        "block_id": "doxcndS0sSTukXpcWzJARCoVUsc",
+        "heading": "34 · 00:39:52 · DCF的时隙定义"
+      },
+      "semantic_paragraph_spans": [
+        [
+          1,
+          2
+        ],
+        [
+          30,
+          33
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第30–33段专门解释分布式节点自行决策、集中式由AP控制及ad hoc适用性；图紧跟第33段。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 6,
+      "figure_number": 32,
+      "slide_number": 32,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Time Slot",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 16,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=16",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-032.png",
+      "sha256": "95d56ebb1aeaadb7422d52fdb1b0bf88bb3608ed8273d41bf79c62f161eaa220",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnkg4BrQhdslOGnDdh3BWa2f",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第16页下半页 · 图32（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第16页下半页 · 图32（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 35,
+        "timestamp": "00:41:39",
+        "block_id": "doxcndjzEaxppvde33zJqRCR1Vb",
+        "heading": "35 · 00:41:39 · 时隙长度与时间划分"
+      },
+      "before_paragraph": {
+        "ordinal": 36,
+        "timestamp": "00:43:29",
+        "block_id": "doxcnThjHdQPUVdBqwdqdLZ1Uqf",
+        "heading": "36 · 00:43:29 · 通过信标同步时钟"
+      },
+      "semantic_paragraph_spans": [
+        [
+          34,
+          38
+        ],
+        [
+          41,
+          43
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第34–38段讲时隙、20微秒例子、AP时钟和信标同步；课间后41–43段补充CCA与收发转换时间。图在35段后保留。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 7,
+      "figure_number": 33,
+      "slide_number": 33,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Interframe Spaces (IFS): a Priority Ladder",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 17,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=17",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-033.png",
+      "sha256": "53f66109481cada6b040ec3f6db7a3e259bf3c25921ac5bd28b53b189aae7994",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnKjAxqtT3QCSgxwkYmj9Q4g",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第17页上半页 · 图33（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第17页上半页 · 图33（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 45,
+        "timestamp": "00:56:27",
+        "block_id": "doxcn0wohcb9AuzMWodV2vovcnf",
+        "heading": "45 · 00:56:27 · DIFS与优先级阶梯"
+      },
+      "before_paragraph": {
+        "ordinal": 46,
+        "timestamp": "00:56:27",
+        "block_id": "doxcncDuc7OjtkRNJ5JbAYKjDcb",
+        "heading": "46 · 00:56:27 · 载波侦听优先级示例"
+      },
+      "semantic_paragraph_spans": [
+        [
+          43,
+          54
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第43–45段引入四种IFS、强调SIFS短于DIFS，第46–54段用A/B及日常对话解释短间隔优先权；图在45段后准确。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 8,
+      "figure_number": 34,
+      "slide_number": 34,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "The Four Interframe Spaces",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 17,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=17",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-034.png",
+      "sha256": "38a5f95e6277e9e0f23a825b06fbe865abc32e6a6f074c08e5f602b6e8977cba",
+      "width": 1584,
+      "height": 892,
+      "image_block_id": "doxcnrnguPCZwHGevSbhX06aUdc",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第17页下半页 · 图34（四种帧间间隔）",
+      "original_caption": null,
+      "status": "added_and_verified_in_remote_document",
+      "after_paragraph": {
+        "ordinal": 57,
+        "timestamp": "01:08:28",
+        "block_id": "doxcn0oDUFWojSgyryf73r3wzLd",
+        "heading": "57 · 01:08:28 · 接入点接收、校验与确认"
+      },
+      "before_paragraph": {
+        "ordinal": 58,
+        "timestamp": "01:11:02",
+        "block_id": "doxcnGe4zgA95XDIR7Z5aO0RADh",
+        "heading": "58 · 01:11:02 · ACK与SIFS优先级"
+      },
+      "semantic_paragraph_spans": [
+        [
+          43,
+          58
+        ]
+      ],
+      "identity_verified": "Faithful rasterization of the lower original slide on the pinned PDF page17. No redrawing, rewriting, OCR replacement, recoloring, or content reconstruction. This is not a pre-existing Feishu PNG. Visually checked against the full PDF page, and re-downloaded after insertion to verify exact bytes.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第43–45段逐一引入四种IFS名称、长度和SIFS/DIFS优先级；第46–54段解释短间隔取得优先接入；第55–58段明确DATA与ACK属于同一对话，ACK在SIFS之后发送。图34第一条直接解释同一对话中的DATA→ACK，第三条为DIFS定义，第五条为短间隔取得优先权。现有图33只有长度阶梯，缺少这页定义。PIFS/EIFS具体用途在本节明确推迟，图34整体作为原课件保留，不宣称其全部条目已经讲完。",
+      "download_receipt": "audit/download-added-slide-034-receipt.json",
+      "placement": {
+        "after_heading_block_id": "doxcnPXUiwu6HrfGec7ILBzwyzg",
+        "before_paragraph_block_id": "doxcnGe4zgA95XDIR7Z5aO0RADh",
+        "paragraph_ordinal": 58,
+        "timestamp": "01:11:02",
+        "heading": "58 · 01:11:02 · ACK与SIFS优先级",
+        "reason": "Place directly after existing paragraph58 H2 and before unchanged paragraph58 body; this anchors the dialogue/SIFS definitions before the subsequent full-example chapter."
+      },
+      "render": {
+        "library": "PyMuPDF",
+        "version": "1.26.6",
+        "page_index_zero_based": 16,
+        "clip_points": [
+          99,
+          487,
+          495,
+          710
+        ],
+        "matrix": [
+          4,
+          4
+        ],
+        "alpha": false,
+        "script": "audit/render_slide_034.py"
+      },
+      "remote_download_sha256": "38a5f95e6277e9e0f23a825b06fbe865abc32e6a6f074c08e5f602b6e8977cba"
+    },
+    {
+      "image_ordinal": 9,
+      "figure_number": 36,
+      "slide_number": 36,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "DCF Basic Access: Unicast DATA + ACK",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 18,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=18",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-036.png",
+      "sha256": "88f93e35ddb28b42296db30081fae874290a28a841e7fe423e386a7437a31bd5",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnafMDkjvoASeT1Ql3iuZ1df",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第18页下半页 · 图36（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第18页下半页 · 图36（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 71,
+        "timestamp": "01:25:14",
+        "block_id": "doxcnxBRTIXDHq2AJMKBqLqcGZb",
+        "heading": "71 · 01:25:14 · NAV倒计时"
+      },
+      "before_paragraph": {
+        "ordinal": 72,
+        "timestamp": "01:27:35",
+        "block_id": "doxcnk1mTjwYI769Pe0mG8bomUe",
+        "heading": "72 · 01:27:35 · 保护正在进行的对话"
+      },
+      "semantic_paragraph_spans": [
+        [
+          55,
+          71
+        ],
+        [
+          79,
+          80
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第55–58段引入DATA/ACK对话，59–71段展开source=A、destination=AP、others=B/C，DIFS、SIFS与NAV时序；放在71段末对完整例子作图示收束合理。79–80段回引失败情况。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 10,
+      "figure_number": 39,
+      "slide_number": 39,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Network Allocation Vector (NAV)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 20,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=20",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-039.png",
+      "sha256": "3ed39a497e9977f211aa95cb31ea92a25a296cdf374066b30f22e2323fce4c01",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnwjuFu9aJbwKY4Bli5IYV5b",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第20页上半页 · 图39（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第20页上半页 · 图39（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 71,
+        "timestamp": "01:25:14",
+        "block_id": "doxcnxBRTIXDHq2AJMKBqLqcGZb",
+        "heading": "71 · 01:25:14 · NAV倒计时"
+      },
+      "before_paragraph": {
+        "ordinal": 72,
+        "timestamp": "01:27:35",
+        "block_id": "doxcnk1mTjwYI769Pe0mG8bomUe",
+        "heading": "72 · 01:27:35 · 保护正在进行的对话"
+      },
+      "semantic_paragraph_spans": [
+        [
+          69,
+          77
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第69–71段从Duration字段设置NAV并倒计时，72–77段解释保护对话及虚拟侦听；图放71段后准确。编号39先于38、37符合实际授课顺序。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 11,
+      "figure_number": 38,
+      "slide_number": 38,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Carrier Sensing: Physical and Virtual",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 19,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=19",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-038.png",
+      "sha256": "e84cf0f5533a2e770c299e66e7b862cf352cce871314c6f40e8a9097e036c5a8",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnfPS6ggukXLcme5hURwmrCh",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第19页下半页 · 图38（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第19页下半页 · 图38（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 77,
+        "timestamp": "01:30:56",
+        "block_id": "doxcnitycA9uBhJwC16l6elhhBe",
+        "heading": "77 · 01:30:56 · 两种侦听均空闲才可发送"
+      },
+      "before_paragraph": {
+        "ordinal": 78,
+        "timestamp": "01:31:50",
+        "block_id": "doxcnXjSLA8QdY4eASg8s10jVKd",
+        "heading": "78 · 01:31:50 · 流程总结与协议数据单元"
+      },
+      "semantic_paragraph_spans": [
+        [
+          17,
+          20
+        ],
+        [
+          74,
+          78
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第74–77段逐项说明物理能量侦听、虚拟NAV，以及两者都空闲才可发送；图放77段后准确。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 12,
+      "figure_number": 37,
+      "slide_number": 37,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Unicast Transmission Procedure",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 19,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=19",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-037.png",
+      "sha256": "5b0692896f31af42f74d4f7ef254a719d2671c70b4ab80706b7bd2d7601dd3ca",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnkIkK4jDhN4QQGMPzcPgleh",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第19页上半页 · 图37（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第19页上半页 · 图37（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 78,
+        "timestamp": "01:31:50",
+        "block_id": "doxcnXjSLA8QdY4eASg8s10jVKd",
+        "heading": "78 · 01:31:50 · 流程总结与协议数据单元"
+      },
+      "before_paragraph": {
+        "ordinal": 79,
+        "timestamp": "01:32:43",
+        "block_id": "doxcne0ieWMsZoC5vJdJGNlqbsb",
+        "heading": "79 · 01:32:43 · 传输失败与缺少ACK"
+      },
+      "semantic_paragraph_spans": [
+        [
+          55,
+          58
+        ],
+        [
+          64,
+          80
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第78段明确说接下来是前述步骤总结，并解释MPDU；79–80段继续讲失败后ACK超时和重传。图放78段后与讲述顺序一致，不应移到38/39之前。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 13,
+      "figure_number": 40,
+      "slide_number": 40,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "The Hidden-Terminal Problem",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 20,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=20",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-040.png",
+      "sha256": "0f228c78bdd2e5b81995eb20f0f015c4ad77a334bed84f69c89ae269f56500ee",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnLAE1mWVGHb9Lh4AFtbJGKc",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第20页下半页 · 图40（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第20页下半页 · 图40（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 81,
+        "timestamp": "01:34:27",
+        "block_id": "doxcn1fujh8fOM7g6DDPq0gyMzh",
+        "heading": "81 · 01:34:27 · 课间休息与隐藏节点预告"
+      },
+      "before_paragraph": null,
+      "semantic_paragraph_spans": [
+        [
+          81,
+          81
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with the corresponding rendered pinned PDF page; title, content, layout and figures match; original bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第81段明确预告A/C互相听不到、B为AP的场景，并说休息后再讲；图在末段后有明确依据，属于预告，不等于本节已展开RTS/CTS。",
+      "download_receipt": "audit/download-results.json"
+    }
+  ],
+  "final_remote_verification": {
+    "snapshot": "blocks-final.json",
+    "snapshot_sha256": "4a53d2aa81fb2a37d67910f7312f8a2cf19ab63a60ced6eb3047f32e1389bded",
+    "all_original_non_root_blocks_except_status_unchanged": true,
+    "only_updated_original_content_block": "doxcnPzMMbPWGFsJggQOevGS2yf",
+    "status_line_updated_to_correct_counts": true,
+    "status_has_no_stale_count_suffix": true,
+    "paragraph_count": 81,
+    "image_count": 13,
+    "heading2_count": 81,
+    "heading1_count": 7,
+    "all_existing_heading_blocks_unchanged": true,
+    "original_image_order_and_neighbors_preserved": true,
+    "added_image_before_paragraph58_and_after_its_h2": true,
+    "added_image_bytes_identical_to_prepared_pdf_rasterization": true
+  }
+}
