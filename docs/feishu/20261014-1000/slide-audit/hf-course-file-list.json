@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "index": 0,
+      "status": "success",
+      "result": {
+        "uri": "hf://datasets/freshlittlelemon/mobile-sensor-network-course",
+        "op": "ls",
+        "entries": [
+          {
+            "type": "file",
+            "path": ".gitattributes",
+            "size": 2791
+          },
+          {
+            "type": "file",
+            "path": "001-BasicConcepts.pdf",
+            "size": 4250064,
+            "lfs": true
+          },
+          {
+            "type": "file",
+            "path": "01_Introduction_MSN_26-27.pdf",
+            "size": 6703478,
+            "lfs": true
+          },
+          {
+            "type": "file",
+            "path": "02-WiFi_1-7.pdf",
+            "size": 2332982,
+            "lfs": true
+          },
+          {
+            "type": "file",
+            "path": "03-D2D-Networks.pdf",
+            "size": 796246,
+            "lfs": true
+          },
+          {
+            "type": "file",
+            "path": "04-Sensors-MAC.pdf",
+            "size": 1181330,
+            "lfs": true
+          },
+          {
+            "type": "file",
+            "path": "Exam_Information.pdf",
+            "size": 38656
+          }
+        ]
+      }
+    }
+  ]
+}
