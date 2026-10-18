@@ -370,3 +370,80 @@
 
 保留待核：开头basic DCF/PCF名称冲突；HCCA自纠前的缩写；一处短帧间隔名单；直觉回答的具体措辞；缺失的队列号与DIFS名称已在双语正文中保留推定语气。以上资料不能代替原声裁定。
 
+## 20261013-0803｜Block Ack、公平性、HCCA 与 Wi-Fi 4 物理层
+
+核查日期：2026-10-18。依据本节原始文字、完整独立 ASR 及下列一手标准/工作组/厂商材料。本节是独立术语与技术范围说明，不属于讲者发言，也没有把这里的知识反向补入英文或中文正文。原段编号指原始 95 个讲话块，时间只是定位锚点。
+
+### 一、术语统一
+
+- Block Ack / BA：块确认；Block Ack Request / BAR：块确认请求。正文保留讲者对控制分组的口语说明，没有擅自给未说出的短控制分组补上 BAR 名称
+- bitmap：位图；acknowledgment：确认；payload：有效载荷
+- DCF：Distributed Coordination Function，分布式协调功能；post-backoff：后退避
+- EDCA：Enhanced Distributed Channel Access，增强型分布式信道接入；不要把 enhanced 误作 announced
+- per-packet fairness：逐分组公平；temporal fairness：时间公平；throughput：吞吐量
+- TXOP：Transmission Opportunity，传输机会；TXOP limit：传输机会限额。讲者讨论时通常指允许占用的时长
+- HCCA：HCF Controlled Channel Access，HCF 受控信道接入；poll / polled station：轮询／被轮询站点，不是 pull
+- CFP / CP：无竞争期／竞争期；PIFS / SIFS：PCF 帧间间隔／短帧间间隔
+- QoS Control：服务质量控制字段；queue status：队列状态；BSS：Basic Service Set，基本服务集
+- traffic signaling：业务信令；call admission control：呼叫接纳控制；TSPEC：业务规格
+- beamforming：波束成形；radiation pattern：辐射方向图；omnidirectional antenna：全向天线
+- OFDM：正交频分复用；MIMO：多输入多输出；spatial stream：空间流；modulation and coding scheme / MCS：调制与编码方案
+- bit/s、Mbps、Gbps 是比特速率；不与 byte/s 混用。正文原段34的 gigabyte 已根据独立 ASR 和本课多处一致证据修成 gigabit
+
+EDCA/HCCA 的命名与 802.11e 的 MAC QoS 归属见 [IEEE 对 802.11e 的技术说明](https://technav.ieee.org/topic/ieee-80211e-standard/)。本课原段4称 enhanced distributed coordination function，正文保留该课堂措辞，并未假装讲者处处用了统一的标准全称。
+
+### 二、Block Ack 的字段与适用范围（原段1–4，00:00:02–00:01:54）
+
+讲者用一个比特表示一个分组是否收到，是解释位图的简化示例。标准的基本 Block Ack 位图还涉及起始序列号与分片位置，不能把这个例子视为所有 BA 格式的完整定义。MAC header 与 Block Ack Bitmap 是需要区分的结构部分，原段2“位图在 MAC 首部”保留为讲者说法。可核对 [IEEE 802.11e-2005 标准留存件的 Block Ack 格式](https://ptacts.uspto.gov/ptacts/public-informations/petitions/1538342/download-documents?artifactId=H6RT3We3fFJVLYYHKI21UZsRznbsMktrmc0uDtoZSR3MiK-nEnrQvAs)；该链接的搜索索引可读，直接获取此次返回 403，未宣称已逐页打开全文。
+
+原段4“新版本中 mandatory / always”是讲者概括，不能据此断言每一种帧、每次传输都必须使用 BA。机制存在 Immediate 与 Delayed Block Ack 等不同流程，需结合协商及具体传输方式判断。参见 [Cisco 员工撰写的 Block Ack 机制说明](https://community.cisco.com/t5/networking-blogs/blockack-mechanism-and-ap-debugging-for-blockack-exchange/ba-p/3106301)。正文没有补写讲者未讲的协商流程。
+
+### 三、课堂公平性推导的前提（原段5–34与50–65）
+
+下列公式是对本节已讲数量关系的独立整理，未新增到讲者正文：
+
+- 共同观察时长为 T，两个饱和站点相互可听、同类队列采用相同接入条件，长期平均接入次数均记为 n
+- DCF 的一包模型：Th_A = n × L_A / T；Th_B = n × L_B / T。此模型中，相同有效载荷长度使两者吞吐量相同
+- 等长 TXOP 简化模型：Th_A ≈ n × τ × R_A / T；Th_B ≈ n × τ × R_B / T。τ 表示相同发送时长；只有把协议开销等忽略或等效处理，才可以直接用 τR 表示有效数据量
+- 因而，同样的接入次数、同样的占用时间、同样的有效吞吐量是三个不同概念。课堂图中的 A、B 交替表示平均模型，不能读成协议强制逐次轮流
+
+TXOP limit 是上限，不代表每次必定填满；实际还涉及队列可用数据、帧交换开销、重传、终止条件和所选参数。EDCA 的 TXOP limit 为零还具有单帧发送的特定含义，不能解释为完全不能发送。见 [NTT 对 EDCA 参数和 TXOP 的说明](https://www.ntt-review.jp/archive/ntttechnical.php?contents=ntr200711sf6.html)。因此，正文保留讲者“相同持续时间”和一分钟跑步比喻，技术核查不把它们提升为无条件协议保证。
+
+### 四、HCCA、轮询与服务质量（原段35–45，00:28:37–00:42:16）
+
+HCCA 与 EDCA 源自 802.11e 的 QoS 增强；将这整段称作“Wi-Fi 4 引入的新集中式机制”，是本课的组织方式，不等于历史上首次定义于 802.11n。Wi-Fi 4 对应 802.11n，可参见 [Cisco 2026 官方无线课程材料](https://community.cisco.com/kxiwq67737/attachments/kxiwq67737/documents-routage-et-commutation/175/2/Webcast_R%26S-Wireless-Episode-1-mar25-2026_extended.pdf)。
+
+“PCF 不再有”“HCCA 现在 works”不可等同于每台设备都部署。IEEE 工作组 2008 教程明确区分机制、可选支持和实际实现情况，并介绍按 TSPEC 分配 TXOP 与接纳控制；这是当年的材料，不能当作 2026 市场覆盖率调查。见 [IEEE QoS Tutorial，特别是第4、15、18页](https://www.ieee802.org/1/files/public/docs2008/avb-gs-802-11-qos-tutorial-1108.pdf)。
+
+原段41的 contention period 与正在讨论的 CFP 不完全一致，英文和中文均保留阶段名不确定。原段43轮询后的间隔，原文 shifts 倾向 SIFS，独立 ASR 却作 PIFS；正文保留冲突。技术上应区分 HC 获取/恢复媒介和站点对轮询的响应，不能只把两者缩写互换。上述 IEEE 教程第18页也把轮询响应的 SIFS 与 HC 接管时的 PIFS 分开说明。
+
+### 五、队列信息与接纳控制（原段37–41、66–70）
+
+QoS Control 中的队列信息不是无延迟、无条件完整的全局队列快照。Queue Size 表示的是特定类别或业务流的缓冲量，存在编码单位及适用条件；“AP 获得实时状态、只轮询有包的站点”是讲者的调度直觉。见 [IEEE 802.11-2007，第7.1.3.5.5节](https://www.cs.mun.ca/~yzchen/bib/802.11-2007.pdf)。该 PDF 本次网页工具因文件过大未完整打开，已核对搜索索引中该节的原文摘录。
+
+原文 implicit handshake 已依据窗口35明确的 explicit handshake 修复为“显式握手”。本课用接受、降低可提供吞吐量、拒绝或等待解释接纳控制；不要把这一口语对话理解为所有上传照片都会进行同样协商。接纳控制可以限制业务负载，但不自动保证所有干扰环境下的端到端 QoS。[IEEE 教程的接纳控制流程与限制，第14–17页](https://www.ieee802.org/1/files/public/docs2008/avb-gs-802-11-qos-tutorial-1108.pdf)。
+
+### 六、波束成形与天线数（原段74–79、85）
+
+拢手喊人的比喻用于说明定向增加接收信号，不表示真实电磁传播是一条没有旁瓣或多径的细线。Wi-Fi 4 的波束成形曾存在可选反馈方式和实现互通问题；不能由“较新版本很好用”推出所有上下行传输都必有同样的波束处理。参见 [Cisco《802.11n: The Standard Revealed》](https://community.cisco.com/kxiwq67737/attachments/kxiwq67737/4931-docs-wireless-mobility/2143/1/68311-white_paper_c11-427843_v1.pdf)。此次使用其可读取的搜索摘录，直接打开失败。
+
+天线数量增加提供更多空间处理的可能，但天线数不必等于可同时使用的空间流数。例如厂商给出的 4×4:3 配置就是四发四收、三条空间流。见 [Cisco Aironet 4800 部署指南](https://team-development.cisco.com/c/en/us/td/docs/wireless/controller/technotes/8-7/b_cisco_aiironet_series_4800_acces_point_deployment_guide.html)。正文保留讲者2×2、3×3、4×4的完整列举，不加入未讲的天线秩条件。
+
+### 七、频段、信道与调制（原段80–85）
+
+- 本课泛指 Wi-Fi 可使用2.4/5/6 GHz，不表示 Wi-Fi 4 本身支持6 GHz。Wi-Fi 6E 是向6 GHz扩展的命名；见 [Cisco Wi-Fi 6/6E/7说明](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wifi-6-vs-wifi-6e.html)
+- “三个”“12个”须结合信道宽度与监管域。原段81的12在独立ASR中不够清楚，正文保留数字并标不确定，没有换成别的常见数量。厂商设备的频率/信道表按监管域列出不同集合，见 [Cisco Aironet 700数据表](https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-700-series/data_sheet_c78-726725.html)
+- 20→40 MHz是信道绑定的课堂示例；“速度基本翻倍”仍有调制、编码、保护间隔及空间流等前提，不能直接等于应用下载速度翻倍
+- 16点星座可携带4比特/符号，64点星座为6比特/符号。原段83先指16、又指64，随后说“这个情况4比特”，图中指代不清；正文保留全部原数值并标明指代问题。此基本映射见 [Cisco QAM编码说明](https://www.cisco.com/c/en/us/td/docs/cable/cmts/cmd_ref/b_cmts_cable_cmd_ref/cable_commands__cable_d.html)，引用的只是调制映射，不把电缆系统参数挪用于Wi-Fi
+
+### 八、6.5、600、11与46的范围（原段34、86、90–95）
+
+802.11n 的6.5 Mbps与600 Mbps对应不同配置，600 Mbps需要四条空间流、40 MHz信道和400 ns保护间隔等条件。[Cisco 802.11n速率表](https://www.cisco.com/c/dam/global/en_ca/training-events/pdfs/Next_Generation_Wireless_Solutions-Atlantic-Spring08-Customers.pdf)。同表将11 Mbps列在802.11b之下，因此讲者“very initial version=11 Mbps”不宜用作整个802.11系列起点的严格历史定义。
+
+46 Gbps在窗口48、50明确转写为forty-six，窗口15也给出46；没有依据改成4.6。“46”作为概述数字也见于 [Cisco官方Wi-Fi 7介绍](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wifi-6-vs-wifi-6e.html)。但最终标准的空间流范围、单链路或聚合口径仍须区别，不能由一个概述峰值确认所有设备的可达速率；[IEEE TGbe 2022讨论](https://www.ieee802.org/11/email/stds-802-11-tgbe/msg07919.html)已涉及不定义超过八条空间流的范围。该邮件是当时的标准化讨论，不替代最终条文。本次保留讲者46并列出范围限制，没有以23、4.6或其他熟悉数字静默替换。
+
+PHY速率与MAC/应用有效吞吐量仍须区分。正文保留讲者以高物理速率引出“这些能力究竟用来做什么”的追问，没有替学生补答或提前添加下一节内容。Wi-Fi 8/802.11bn仍在标准化的授课背景可与 [IEEE TGbn 2026年9月进展](https://www.ieee802.org/11/Reports/tgbn_update.htm)对照；没有把未来预计日期当作已完成事项。
+
+### 九、仍未解决的录音范围问题
+
+所有95个原讲话块均已校订并翻译，但“全部音频样本已运行ASR”不等于每秒均可靠转写。5610–5840秒的主窗口51/52及拆分复核反复达到生成上限；其中文残片不能可靠归属讲者或补成课程内容。最后主窗口与90秒尾部只出现一个孤立、无语境的英文词，不能据此认定真实说话者或完整尾部发言。原始输出全部保留；此处没有声明这些区间静音，也没有伪造逐字可恢复内容。

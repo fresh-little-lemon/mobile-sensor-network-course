@@ -1,5 +1,5 @@
 {
-  "completed": 12,
+  "completed": 13,
   "total": 19,
   "files": [
     {
@@ -61,6 +61,11 @@
       "file": "bilingual/20261012-1620.en-zh.md",
       "pairs": 51,
       "sha256": "1319d2435ad84c85413cd7c1cd082e3d4da55d1245e979427d83f81565b0ba31"
+    },
+    {
+      "file": "bilingual/20261013-0803.en-zh.md",
+      "pairs": 69,
+      "sha256": "d64fb81f13260420db327ea90c66d1de05599c91b3d414bc02118df3084e4ebd"
     }
   ],
   "checks": [
@@ -69,6 +74,6 @@
     "source hashes in per-recording QA"
   ],
   "note": "Chinese-source fragments are translated to English, retaining source Chinese in paired paragraph.",
-  "paragraph_pairs": 918,
-  "updated_at": "2026-10-18T03:58:18.584700+00:00"
+  "paragraph_pairs": 987,
+  "updated_at": "2026-10-18T04:18:34.533929+00:00"
 }
