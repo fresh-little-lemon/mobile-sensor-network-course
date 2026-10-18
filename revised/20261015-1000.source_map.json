@@ -1,0 +1,1593 @@
+[
+  {
+    "paragraph": 1,
+    "original_indices_zero_based": [
+      0
+    ],
+    "original_blocks_one_based": [
+      1
+    ],
+    "time_anchor": "00:00:00",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4170c2b894d040ec48ecd69615c36ea6732cff69836ee6fc37dcc5247b536564"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 2,
+    "original_indices_zero_based": [
+      1
+    ],
+    "original_blocks_one_based": [
+      2
+    ],
+    "time_anchor": "00:00:13",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "19d0742e11e8c4569a70b09584a4688d58373f5929f7692acc79b198686c03c4"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 3,
+    "original_indices_zero_based": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "original_blocks_one_based": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "time_anchor": "00:01:05",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c89785e6a905a2978b7aced24fe4453237fb80c875ba486786cacceaf08a22d1",
+      "9d9ed9a820debfdfe7e4784f7d5fdc548a88356ec29662303021e95eca328185",
+      "2ff4acbc731e5fe9db7df4b22507e9f2515da549ec80ff11a88220ee607307fa",
+      "649a5744a0a73575f32a095fe955301ce551ddef94bd940f58b217850a7167d5"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      0,
+      1,
+      2
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 4,
+    "original_indices_zero_based": [
+      6
+    ],
+    "original_blocks_one_based": [
+      7
+    ],
+    "time_anchor": "00:05:03",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "09cacdfd5e06f488ca117a90e2d06cdf0f0e10a3138b260f4d97e6235266f133"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      2,
+      3
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 5,
+    "original_indices_zero_based": [
+      7,
+      8
+    ],
+    "original_blocks_one_based": [
+      8,
+      9
+    ],
+    "time_anchor": "00:05:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "9921db4ed5aad85f0a110a06b3d880268db2aa94e955c4678f16f7c5183f55a7",
+      "25c8d0783b18da46267f30afcb8649047f6e9eeb5ca304123420af2183477d7e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      2,
+      3
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 6,
+    "original_indices_zero_based": [
+      9,
+      10
+    ],
+    "original_blocks_one_based": [
+      10,
+      11
+    ],
+    "time_anchor": "00:07:16",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b87b276a02dbfbe950a9dd18a5b1216fd21a7d9117a572fb647bcff86c4a9034",
+      "447e2b9d10350f01ac9f5ea6512adb0e5f825a973d25ef2624377fe68381b923"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      3,
+      4,
+      5
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 7,
+    "original_indices_zero_based": [
+      11
+    ],
+    "original_blocks_one_based": [
+      12
+    ],
+    "time_anchor": "00:09:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ebd7f58cc41741e2f42793e640a0be92b777a90f80be6a4de2ff5e01ed024533"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      5
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 8,
+    "original_indices_zero_based": [
+      12
+    ],
+    "original_blocks_one_based": [
+      13
+    ],
+    "time_anchor": "00:10:48",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "163b5629627a3c14c39b3c57979897d0a6758107a4f03cec81aa21d158435cc0"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      5,
+      6
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 9,
+    "original_indices_zero_based": [
+      13
+    ],
+    "original_blocks_one_based": [
+      14
+    ],
+    "time_anchor": "00:11:23",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c639a6f149452d3d87d5344f66b10ef04ba7dfd387e3f59e971f8580b8e3e367"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      6,
+      7
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 10,
+    "original_indices_zero_based": [
+      14,
+      15
+    ],
+    "original_blocks_one_based": [
+      15,
+      16
+    ],
+    "time_anchor": "00:13:10",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "356744d2472fc3f1c61e315096f40de7a3ade54ddf7c9027ecf580443a0e27c9",
+      "3a82e456c88af9860950124be7d0fdbfd290e8653d446f886834f95d3f9831c1"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      7
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 11,
+    "original_indices_zero_based": [
+      16
+    ],
+    "original_blocks_one_based": [
+      17
+    ],
+    "time_anchor": "00:14:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8157b661b13b721bbef2210ec91c12bb46affad48c08907e87fab2a902c06052"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      7,
+      8
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 12,
+    "original_indices_zero_based": [
+      17,
+      18
+    ],
+    "original_blocks_one_based": [
+      18,
+      19
+    ],
+    "time_anchor": "00:15:18",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fa21208f2b1f590bd79cc557ca19cca5735b58e203e76848f36cfe0d27d38605",
+      "0eb8d6a03afdd785bd4beaadf4936350c564a5adebacc7d87d4d2834da49814a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      8
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 13,
+    "original_indices_zero_based": [
+      19
+    ],
+    "original_blocks_one_based": [
+      20
+    ],
+    "time_anchor": "00:16:26",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f1a495204300b0ba15785f563de6c092ea8633fafd4c5a83cb163e86f063bd50"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      8,
+      9
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 14,
+    "original_indices_zero_based": [
+      20
+    ],
+    "original_blocks_one_based": [
+      21
+    ],
+    "time_anchor": "00:17:36",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "62b3b9e9d8cf2a525276654c552d97554564b89da894b0ea2aebafa03ff25b08"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      9,
+      10
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 15,
+    "original_indices_zero_based": [
+      21
+    ],
+    "original_blocks_one_based": [
+      22
+    ],
+    "time_anchor": "00:19:05",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "3b5e6c8e925b9ef1904ccee067724f757419812bb29a578e5e66d176909e48de"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      10,
+      11
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 16,
+    "original_indices_zero_based": [
+      22
+    ],
+    "original_blocks_one_based": [
+      23
+    ],
+    "time_anchor": "00:21:08",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "45a52c732594f6218f336dc5a96432ada4964541e2e54a3416864345957356eb"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      11,
+      12
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 17,
+    "original_indices_zero_based": [
+      23
+    ],
+    "original_blocks_one_based": [
+      24
+    ],
+    "time_anchor": "00:22:45",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1f7fab6709b6be6c941bce52cd756b0ec4a3f15324d1bc0887c0a43d488f6d00"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      12,
+      13
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 18,
+    "original_indices_zero_based": [
+      24,
+      25
+    ],
+    "original_blocks_one_based": [
+      25,
+      26
+    ],
+    "time_anchor": "00:24:28",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "331ddfe57e7e8f6d1cd37d6ed178706285da8aea9bd017dcabe5ed1f4111791f",
+      "dd6a06257778d40d6e0f55964d965083536134168785983683fb7d3f8ee37310"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      13,
+      14
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 19,
+    "original_indices_zero_based": [
+      26,
+      27
+    ],
+    "original_blocks_one_based": [
+      27,
+      28
+    ],
+    "time_anchor": "00:26:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "dc0f3c589a09d5c08aca7447562f3cc58d9e98c7d7902e63d8eb9e6fbd0d3473",
+      "837b49e24c8b50820cb61d4cf7c8746e8497f65fb531f717898aa3c535cf8d8a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      14,
+      15
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 20,
+    "original_indices_zero_based": [
+      28
+    ],
+    "original_blocks_one_based": [
+      29
+    ],
+    "time_anchor": "00:28:09",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b255e99959e03ea78efe358b5edd4453252675a7bc37ac6c9a086dda953480a8"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      15
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 21,
+    "original_indices_zero_based": [
+      29
+    ],
+    "original_blocks_one_based": [
+      30
+    ],
+    "time_anchor": "00:28:46",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5f460e034068dbc4f903c6050f5f5690533561b44cdb1cea13b6b2862ae23f29"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      15,
+      16
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 22,
+    "original_indices_zero_based": [
+      30
+    ],
+    "original_blocks_one_based": [
+      31
+    ],
+    "time_anchor": "00:30:18",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ccd06aa88650eeef4ae6cf3a39854014819c82b6eaa4b828bf6ba04e505033ff"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      16,
+      17
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 23,
+    "original_indices_zero_based": [
+      31,
+      32
+    ],
+    "original_blocks_one_based": [
+      32,
+      33
+    ],
+    "time_anchor": "00:31:16",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "0eb100edb8581160186bcda7cc350e11808ef7b955e7616e4b37d020a073d452",
+      "413aa9015f3a50ff3865b67bf195d01610b64091df42d74a76984ed5a05e6e5a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      16,
+      17,
+      18
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 24,
+    "original_indices_zero_based": [
+      33
+    ],
+    "original_blocks_one_based": [
+      34
+    ],
+    "time_anchor": "00:33:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "0258f8e6b1cef811d330db04cfd38c1c5749203e67dfbe4e0542ecf3352a8195"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      18
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 25,
+    "original_indices_zero_based": [
+      34
+    ],
+    "original_blocks_one_based": [
+      35
+    ],
+    "time_anchor": "00:34:38",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b8f4a4a066c5df844be883deb7f04b1e207f3e4630ca52f9082ec69ca6c8ceab"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      18,
+      19
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 26,
+    "original_indices_zero_based": [
+      35
+    ],
+    "original_blocks_one_based": [
+      36
+    ],
+    "time_anchor": "00:35:39",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "93a6daf1a149aa889d4f7e12d32d384ff733b9080e4ab1e06a5e7429e1ae51f9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      19,
+      20
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 27,
+    "original_indices_zero_based": [
+      36
+    ],
+    "original_blocks_one_based": [
+      37
+    ],
+    "time_anchor": "00:37:01",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "96934c492074bc3532aeb85e9d4e5b786c9f5edfc3d8ba28057dbb1003d849cc"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      20
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 28,
+    "original_indices_zero_based": [
+      37
+    ],
+    "original_blocks_one_based": [
+      38
+    ],
+    "time_anchor": "00:37:31",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5b1890167d029085341b400c611fe5347eccda20c813ccbc8761df487bbe634b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      20
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 29,
+    "original_indices_zero_based": [
+      38
+    ],
+    "original_blocks_one_based": [
+      39
+    ],
+    "time_anchor": "00:38:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "631ab1a99ebba1abee66411b5b84a337cf9da7145a3e7acc934368c660aa1baf"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      20,
+      21
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 30,
+    "original_indices_zero_based": [
+      39
+    ],
+    "original_blocks_one_based": [
+      40
+    ],
+    "time_anchor": "00:38:47",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "c8aab442993d89106d0815025b4eac7d77092e418d773089a4786a9a15c6d4c3"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      21
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 31,
+    "original_indices_zero_based": [
+      40
+    ],
+    "original_blocks_one_based": [
+      41
+    ],
+    "time_anchor": "00:39:46",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "cb3b5c4e0568ce422572ab0102afabaa069e6ac4a77cd086b75335bb0de42383"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      21,
+      22
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 32,
+    "original_indices_zero_based": [
+      41,
+      42
+    ],
+    "original_blocks_one_based": [
+      42,
+      43
+    ],
+    "time_anchor": "00:40:35",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "451b2b21d0e072138f38ba601c92c435a35f3cdb044059de1701530b17001ad9",
+      "8f4264e1f8fdc6c392fb38a3d1caba67918368c3e95a03a24d27f42601af2d8c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      22
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 33,
+    "original_indices_zero_based": [
+      43
+    ],
+    "original_blocks_one_based": [
+      44
+    ],
+    "time_anchor": "00:41:46",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "150509618a31cef23ed7439af00d1f9679a78dc9966037fdc392bea66e1b3eae"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      22,
+      23
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 34,
+    "original_indices_zero_based": [
+      44
+    ],
+    "original_blocks_one_based": [
+      45
+    ],
+    "time_anchor": "00:43:28",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "34d2eab24c3f0548ed5df33305a50e57c3c5a238adc44ca594feae6030b4caa2"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      23
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 35,
+    "original_indices_zero_based": [
+      45
+    ],
+    "original_blocks_one_based": [
+      46
+    ],
+    "time_anchor": "00:43:54",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ac6d301c92cea50dadd11d1f0a39a010f9f904561df9d7ea8cbc5a4006f593ed"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      23,
+      24
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 36,
+    "original_indices_zero_based": [
+      46,
+      47
+    ],
+    "original_blocks_one_based": [
+      47,
+      48
+    ],
+    "time_anchor": "00:44:40",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "6fd5ebccb0c4f755224859f110bbeaa50031e16bc6f784a120945c34d07cab83",
+      "8e638e2b3f47b530888e00ba7fda10032d825e5a3d94a177e259a4d7bb148f8a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      24
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 37,
+    "original_indices_zero_based": [
+      48
+    ],
+    "original_blocks_one_based": [
+      49
+    ],
+    "time_anchor": "00:45:24",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e0f10ea51d0e12b6b9b590021fc73ab25a2a8d7aa944e89b57c2f72cf7172c1b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 38,
+    "original_indices_zero_based": [
+      49
+    ],
+    "original_blocks_one_based": [
+      50
+    ],
+    "time_anchor": "00:49:44",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ac7f29c011e2006cfd355f2c9f7c72b7dab51b580966e635c225ba9651dbbd19"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      27
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 39,
+    "original_indices_zero_based": [
+      50
+    ],
+    "original_blocks_one_based": [
+      51
+    ],
+    "time_anchor": "00:49:56",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "44eb90e1b85ae041e51bc56dc9dbc87d22da21aacd8232bb73b5a072dff0ef0e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      27
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 40,
+    "original_indices_zero_based": [
+      51
+    ],
+    "original_blocks_one_based": [
+      52
+    ],
+    "time_anchor": "00:51:08",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "79b7811558e1fe47526f224986dd00ab2d253fc1bc22568497bc0697b3096ca2"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      27,
+      28
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 41,
+    "original_indices_zero_based": [
+      52
+    ],
+    "original_blocks_one_based": [
+      53
+    ],
+    "time_anchor": "00:51:54",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ec868efc81b5a75acde40e5de2e71386aad065111e4c31c10e2ade89400f877f"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      28,
+      29
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 42,
+    "original_indices_zero_based": [
+      53
+    ],
+    "original_blocks_one_based": [
+      54
+    ],
+    "time_anchor": "00:53:40",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "052b1ea5cd76f6c1edc03f5310d84f79c15c31c2fb9ddd5ab55384b9be896d0c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      29
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 43,
+    "original_indices_zero_based": [
+      54
+    ],
+    "original_blocks_one_based": [
+      55
+    ],
+    "time_anchor": "00:54:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "1dbd7fbf2a8d78d5a8d23b56766660f6f6b74a112fec6456a65ca13a590d567a"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      29,
+      30
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 44,
+    "original_indices_zero_based": [
+      55
+    ],
+    "original_blocks_one_based": [
+      56
+    ],
+    "time_anchor": "00:55:09",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "73f74d75876bfe76971f14b7ba264d48130d7ac8fb3a80ff3aeaa6b30452b50f"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      29,
+      30
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 45,
+    "original_indices_zero_based": [
+      56
+    ],
+    "original_blocks_one_based": [
+      57
+    ],
+    "time_anchor": "00:56:14",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f0c7314dea996fd32b215f6adf3f8051e3cde8f4a4882be41d22e7489dc6c136"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      30,
+      31
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 46,
+    "original_indices_zero_based": [
+      57
+    ],
+    "original_blocks_one_based": [
+      58
+    ],
+    "time_anchor": "00:57:08",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "352d722d73f8312420a9c0e6b3b998b07c56b6541aa2de3fb19685e7c3a0a1f2"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      31
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 47,
+    "original_indices_zero_based": [
+      58
+    ],
+    "original_blocks_one_based": [
+      59
+    ],
+    "time_anchor": "00:58:35",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "3f9700f51ee51ddd004a885cb66f3527e56624774bea1c0d0ee41419a676551c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      31,
+      32
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 48,
+    "original_indices_zero_based": [
+      59
+    ],
+    "original_blocks_one_based": [
+      60
+    ],
+    "time_anchor": "00:59:26",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "f413ea158fc2490f455faf1875e192b4202f13d8a448149304b45a3a81a52a9d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32,
+      33
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 49,
+    "original_indices_zero_based": [
+      60,
+      61
+    ],
+    "original_blocks_one_based": [
+      61,
+      62
+    ],
+    "time_anchor": "01:00:38",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "7b85af4a95d675f7f26e8e6618bbdf1e3033048bc53ded85d87eaf78c3fd256e",
+      "13b8330694230fb93efab215c6fc9ab37595f4d7ec8bb132d2dafa485c4daac2"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      32,
+      33
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 50,
+    "original_indices_zero_based": [
+      62
+    ],
+    "original_blocks_one_based": [
+      63
+    ],
+    "time_anchor": "01:02:02",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "43facc5c4946ada93e929a5c27a057339b426f1bd342b700e3ad1b191c6e6306"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      33,
+      34
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 51,
+    "original_indices_zero_based": [
+      63
+    ],
+    "original_blocks_one_based": [
+      64
+    ],
+    "time_anchor": "01:03:00",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "eead075bb17ca87bbaebfd4f912ddab3a50412da46363de1d3bbeb1df46273da"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      34
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 52,
+    "original_indices_zero_based": [
+      64,
+      65
+    ],
+    "original_blocks_one_based": [
+      65,
+      66
+    ],
+    "time_anchor": "01:04:05",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a8423521d550cb4de1b1d9bc8766c9f4ebd2b3ab2560cc0ed3da85e9b55b2625",
+      "d1f8a9ac4bc266dbcd2362dd3bdf9499889cc2e14cbd43094b7177578e5bdd03"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      34,
+      35,
+      36
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 53,
+    "original_indices_zero_based": [
+      66
+    ],
+    "original_blocks_one_based": [
+      67
+    ],
+    "time_anchor": "01:06:39",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "8b5057f2c125d0908dbcf440795f7c3322a32d4bd5caffa1a58e414d985a5e77"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      36,
+      37
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 54,
+    "original_indices_zero_based": [
+      67
+    ],
+    "original_blocks_one_based": [
+      68
+    ],
+    "time_anchor": "01:07:57",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "377c80b78c6ce3557eaf71b17bb0d1de988cd5f36d0bc402aaaa1794cfb5371b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      36,
+      37,
+      38
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 55,
+    "original_indices_zero_based": [
+      68
+    ],
+    "original_blocks_one_based": [
+      69
+    ],
+    "time_anchor": "01:10:02",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "dfaaff24b11f330fd509217be88a9aeb2559c64da411591abe4e5a7e4c607b4b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      38
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 56,
+    "original_indices_zero_based": [
+      69,
+      70
+    ],
+    "original_blocks_one_based": [
+      70,
+      71
+    ],
+    "time_anchor": "01:10:51",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "e0febf90764cb6114a24abda60d5bac404b6a78b811288134fca9614aa797c1a",
+      "368595dd182053f7cdc115c97dc69ad8ae9e06e969fce370e2361265a3c4d1ad"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      38,
+      39
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 57,
+    "original_indices_zero_based": [
+      71
+    ],
+    "original_blocks_one_based": [
+      72
+    ],
+    "time_anchor": "01:12:18",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "0668d0c3e19ea9abb772e39b6fe45aaf5999d327437c77a15cee9fea5a0429b6"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      39,
+      40
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 58,
+    "original_indices_zero_based": [
+      72,
+      73
+    ],
+    "original_blocks_one_based": [
+      73,
+      74
+    ],
+    "time_anchor": "01:13:41",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "42f6862a17902705da55ffd1983bc4a82aafaf16f6ac727494868f7c95180c40",
+      "79176c7d45fa9815c540aa5885eca3ee392accf9b9226d1bfeb41deff26df161"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      40
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 59,
+    "original_indices_zero_based": [
+      74
+    ],
+    "original_blocks_one_based": [
+      75
+    ],
+    "time_anchor": "01:15:03",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "459b2b45b5e0d127e071059f9e39d19491d0770437024abd8930ee45f44cb550"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      40,
+      41
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 60,
+    "original_indices_zero_based": [
+      75,
+      76
+    ],
+    "original_blocks_one_based": [
+      76,
+      77
+    ],
+    "time_anchor": "01:15:37",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5957253b8c9880bd3542368c213b558fe0d88ba340f782c55537c541f70c96f3",
+      "c32eff9326a4bfb17d5300f8f3ac989bb8846eb775d49d8c0d2277c46a450d1d"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      41,
+      42
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 61,
+    "original_indices_zero_based": [
+      77
+    ],
+    "original_blocks_one_based": [
+      78
+    ],
+    "time_anchor": "01:17:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "b7d6bc8cc90d15c94de44d962c25499d55835b08eef036fa246ea93bf628dbe9"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      42
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 62,
+    "original_indices_zero_based": [
+      78,
+      79
+    ],
+    "original_blocks_one_based": [
+      79,
+      80
+    ],
+    "time_anchor": "01:18:02",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "dac8619f55db4f55a9a3ad8a9fa2b08b06d69cd5546e6335b8fe73a97fb399d5",
+      "7db09b95edf04ae158fea41ec9fe9302867e124f05a7fb34f0460d78a726d032"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      42,
+      43
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 63,
+    "original_indices_zero_based": [
+      80
+    ],
+    "original_blocks_one_based": [
+      81
+    ],
+    "time_anchor": "01:19:42",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "5f8345dda8a667b2154bd01d697463c00ec15011ac421ca6fe39f4bbaa6b0e90"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      43,
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 64,
+    "original_indices_zero_based": [
+      81
+    ],
+    "original_blocks_one_based": [
+      82
+    ],
+    "time_anchor": "01:21:32",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "03b051940096b3544887d9b5b2adcf2ac3768ec4e04c222a3ad18900e3162dd5"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 65,
+    "original_indices_zero_based": [
+      82
+    ],
+    "original_blocks_one_based": [
+      83
+    ],
+    "time_anchor": "01:21:49",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "97f45483f59a07bb0326a79644d8bd550e98707418e989e59fa0fc36fbdf8ce1"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 66,
+    "original_indices_zero_based": [
+      83
+    ],
+    "original_blocks_one_based": [
+      84
+    ],
+    "time_anchor": "01:22:23",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "243c990d88ae23104adfc45dd5241a752a2d24ffff3584aaa4b6da8258003b33"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      44,
+      45
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 67,
+    "original_indices_zero_based": [
+      84
+    ],
+    "original_blocks_one_based": [
+      85
+    ],
+    "time_anchor": "01:22:58",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ebc7fe0681122e5e3ea3467efc6b228beaebe10ea2a45b5b899ba304cce20e3b"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 68,
+    "original_indices_zero_based": [
+      85
+    ],
+    "original_blocks_one_based": [
+      86
+    ],
+    "time_anchor": "01:23:22",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "cc3559a7cc7c7a93414de474c8184a82bea075da5ea34c565af24aa178e5b6a0"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 69,
+    "original_indices_zero_based": [
+      86
+    ],
+    "original_blocks_one_based": [
+      87
+    ],
+    "time_anchor": "01:23:45",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "fa4e01189c366c81b2b13e28156bdfe1a788b6ac0df0a1c7813260f08116597f"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 70,
+    "original_indices_zero_based": [
+      87
+    ],
+    "original_blocks_one_based": [
+      88
+    ],
+    "time_anchor": "01:24:12",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a9be8bd3b01d19904c9f754978f71d5c85279760acf12f0a283c52de697cbf3e"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      45,
+      46
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 71,
+    "original_indices_zero_based": [
+      88
+    ],
+    "original_blocks_one_based": [
+      89
+    ],
+    "time_anchor": "01:24:35",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "4677d86b0f8fa6bd1144578469fe2162ec70e74553002d28a2e60830734e6648"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      46
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 72,
+    "original_indices_zero_based": [
+      89
+    ],
+    "original_blocks_one_based": [
+      90
+    ],
+    "time_anchor": "01:25:06",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "38974fe0ac24e3e531584d2f31fdcefe89655d382a73811d50836e61470ca620"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      46
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 73,
+    "original_indices_zero_based": [
+      90
+    ],
+    "original_blocks_one_based": [
+      91
+    ],
+    "time_anchor": "01:25:35",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "280d2dd9591360e091ab5d5c88652ba6f7145e459ca9cc441f9a39e2a4ec28bf"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      46,
+      47
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 74,
+    "original_indices_zero_based": [
+      91,
+      92
+    ],
+    "original_blocks_one_based": [
+      92,
+      93
+    ],
+    "time_anchor": "01:27:29",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "50dc194440f228ead7acd20c8d449c2659d9672ed93e426d355641b8289de5a3",
+      "4f51187fe74c12972d1c1862dbc3c14ac34607f89e664efe4c7275ca0042ee07"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      47,
+      48
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 75,
+    "original_indices_zero_based": [
+      93
+    ],
+    "original_blocks_one_based": [
+      94
+    ],
+    "time_anchor": "01:29:03",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a9569a738e6a02740caa61dbaa90bb518fc4205c7e262ae107233c37aa673670"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      48
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 76,
+    "original_indices_zero_based": [
+      94
+    ],
+    "original_blocks_one_based": [
+      95
+    ],
+    "time_anchor": "01:29:50",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "a6e5e99a79845f8800bb3ff1c5024d9682f540f2dce3a7b0ea192f81b07fdcce"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      48,
+      49
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 77,
+    "original_indices_zero_based": [
+      95
+    ],
+    "original_blocks_one_based": [
+      96
+    ],
+    "time_anchor": "01:31:09",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "ac49476587ca34f55d9983ed06e871c4e9cedc07d8469c64a4f9ac1b8b235de8"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      49,
+      50
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 78,
+    "original_indices_zero_based": [
+      96
+    ],
+    "original_blocks_one_based": [
+      97
+    ],
+    "time_anchor": "01:33:22",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "010228cde617429e31b09d71e5e2215741f8042798f275d4f6946b85a35c0bec"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      50,
+      51
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 79,
+    "original_indices_zero_based": [
+      97
+    ],
+    "original_blocks_one_based": [
+      98
+    ],
+    "time_anchor": "01:33:52",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "0b30d6cfcaa4613fcaa85145d22c607bdd158be00dcd0bcdd2477915d5adca92"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      51
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 80,
+    "original_indices_zero_based": [
+      98
+    ],
+    "original_blocks_one_based": [
+      99
+    ],
+    "time_anchor": "01:34:17",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "dd156e6004e113b95a08c00fff2a6a9387104a832c8cd464fce8a80fc1813703"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      51,
+      52
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 81,
+    "original_indices_zero_based": [
+      99
+    ],
+    "original_blocks_one_based": [
+      100
+    ],
+    "time_anchor": "01:35:27",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "6dfca5e648d07fed3609e54a59f00f0fcd2be8aa04ee24953c8783d0558708a7"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      51,
+      52
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  },
+  {
+    "paragraph": 82,
+    "original_indices_zero_based": [
+      100
+    ],
+    "original_blocks_one_based": [
+      101
+    ],
+    "time_anchor": "01:35:59",
+    "speaker_label_preserved_from_first_source": "1",
+    "source_text_sha256": [
+      "13c6e08eb50d362026f9f38aa7da300413381c9446734348aae73f87a8ae2c9c"
+    ],
+    "independent_asr_window_indices_zero_based": [
+      52
+    ],
+    "asr_alignment_note": "Windows intersect approximate source-anchor ranges, not word-level alignment; adjacent overlap may contain evidence. Inclusion does not certify every ASR word as reliable speech."
+  }
+]
