@@ -1,0 +1,23 @@
+{
+  "reason": "单个大文本完整无损分片备份，原文未截断；恢复时依序拼接parts并核验original_sha256。",
+  "files": [
+    {
+      "original_path": "docs/feishu/20261015-1000/slide-audit/blocks-audited.json",
+      "original_bytes": 365393,
+      "original_sha256": "ca899a313100a51ab965c114439bf07db1372efb9d85ff85d537701223268f07",
+      "parts": [
+        {
+          "path": "docs/feishu/20261015-1000/slide-audit/blocks-audited.json.parts/part-001.txt",
+          "bytes": 222331,
+          "sha256": "50b301cfc7e859f8142a86237d74d3d734cd0b98d7c936473ec747bc9e6864d3"
+        },
+        {
+          "path": "docs/feishu/20261015-1000/slide-audit/blocks-audited.json.parts/part-002.txt",
+          "bytes": 143062,
+          "sha256": "cdc40a0753944f2fd09888505e43779c452182ab5711ab185feff89906c75afd"
+        }
+      ],
+      "reconstruct": "Concatenate part content as UTF-8 in listed order, without inserting separators or line endings."
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+[
+  {
+    "image_ordinal": 1,
+    "block_id": "doxcnZmtm0n10atP4jqYWrUr7Ig",
+    "figure_number": 3,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第2页上半页 · 图3（按PDF顺序）",
+    "token": "PyCdb9EyNo5ZpzxR1cEc4xFAnle",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-003.png",
+    "after_paragraph": 2,
+    "before_paragraph": 3,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-003.png\",\n    \"size_bytes\": 69595\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "7176d850d61eb93ca6f800cd4edaf4837a11319d5f1273f2c34d60e3a7fe43b7"
+  },
+  {
+    "image_ordinal": 2,
+    "block_id": "doxcn36RG8qqXOjH2fCVQxJMZ6e",
+    "figure_number": 4,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第2页下半页 · 图4（按PDF顺序）",
+    "token": "GgCtbM9aooPKMYxloQKcJzegn5c",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-004.png",
+    "after_paragraph": 4,
+    "before_paragraph": 5,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-004.png\",\n    \"size_bytes\": 90488\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "5ce97bcd56401036815c4c97a88deef12cd2fba4059bea258412256f29ce5819"
+  },
+  {
+    "image_ordinal": 3,
+    "block_id": "doxcnBSHpoYabJUp7VOWTcI9thc",
+    "figure_number": 5,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第3页上半页 · 图5（按PDF顺序）",
+    "token": "Z6T3bt9LxoQiCexYcqZczlHHnIg",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-005.png",
+    "after_paragraph": 10,
+    "before_paragraph": 11,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-005.png\",\n    \"size_bytes\": 247968\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "f584ca3e141c8321431a1f9ce92daa4537deb8a407ece9f2ed98e2f66f8452aa"
+  },
+  {
+    "image_ordinal": 4,
+    "block_id": "doxcnbI7Ef18Vz502ZUcJe7ukGe",
+    "figure_number": 6,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第3页下半页 · 图6（按PDF顺序）",
+    "token": "BLsvbuh2XoPvyPxEDfKcHB6Rnrb",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-006.png",
+    "after_paragraph": 11,
+    "before_paragraph": 12,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-006.png\",\n    \"size_bytes\": 96009\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "5025960187921e26086b69454feba47834c4a4362d740d3cdbf4f67e496e9057"
+  },
+  {
+    "image_ordinal": 5,
+    "block_id": "doxcntK5NsYdqXA1xYUCBZZmz06",
+    "figure_number": 7,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第4页上半页 · 图7（按PDF顺序）",
+    "token": "GBzGbUDd4onNoPxhknpcspIrnPx",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-007.png",
+    "after_paragraph": 16,
+    "before_paragraph": 17,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-007.png\",\n    \"size_bytes\": 110488\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "ba9880edcb61564a03d95399fcf71547b79395102e7910ba9c67df96a279b9dc"
+  },
+  {
+    "image_ordinal": 6,
+    "block_id": "doxcnkqmOYc9PHlbldsZrBbGfbb",
+    "figure_number": 8,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第4页下半页 · 图8（按PDF顺序）",
+    "token": "KPuXbQmKzo0uLzxhhxhcmN9Snce",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-008.png",
+    "after_paragraph": 19,
+    "before_paragraph": 20,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-008.png\",\n    \"size_bytes\": 683121\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "ae19d798c4b1d86e534c0cbfa54fec86863afaa3e9212f1eaffa5ff46198d4f6"
+  },
+  {
+    "image_ordinal": 7,
+    "block_id": "doxcnlcVa6je0o0ZAgg1qaeDGnb",
+    "figure_number": 9,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第5页上半页 · 图9（按PDF顺序）",
+    "token": "RhdibTNPkoOmMBxs7kZcl6plnof",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-009.png",
+    "after_paragraph": 21,
+    "before_paragraph": 22,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-009.png\",\n    \"size_bytes\": 228075\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "2543de83c5f358cb32b4e73ccc5235de811132f629c210a42cbf6717e296b3b8"
+  },
+  {
+    "image_ordinal": 8,
+    "block_id": "doxcnsFujV9mgwZ64Jg6AmYUfoe",
+    "figure_number": 10,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第5页下半页 · 图10（按PDF顺序）",
+    "token": "W4klbfmmLoFzIGxLwz4cbUCmnOf",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-010.png",
+    "after_paragraph": 24,
+    "before_paragraph": 25,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-010.png\",\n    \"size_bytes\": 291233\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "60ab63c43f1314ac47577553fbf41aadf32f813c4eb7bc6c16c08be13c93b3ff"
+  },
+  {
+    "image_ordinal": 9,
+    "block_id": "doxcnOygJze2mJPGi2FsjeW3o7b",
+    "figure_number": 11,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第6页上半页 · 图11（按PDF顺序）",
+    "token": "K4JrbuOopo34uzx3EDncNFeIncf",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-011.png",
+    "after_paragraph": 28,
+    "before_paragraph": 29,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-011.png\",\n    \"size_bytes\": 120041\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "c6d5498583341844f3e3a8bf9da1c8a16e6ae6c02e6a77e270526b03eb9354aa"
+  },
+  {
+    "image_ordinal": 10,
+    "block_id": "doxcnVzeFgADNqxtRx9DugGWqUf",
+    "figure_number": 12,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第6页下半页 · 图12（按PDF顺序）",
+    "token": "DoZubkqjrof7Ecx29KOcVGwtnde",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-012.png",
+    "after_paragraph": 32,
+    "before_paragraph": 33,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-012.png\",\n    \"size_bytes\": 96729\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "1b6a41b0dc2d0d758e7226247623b6a87ecadf088bebe4d319eab3fad63f105a"
+  },
+  {
+    "image_ordinal": 11,
+    "block_id": "doxcnhryYfO1D2JO7pBXYLfDisb",
+    "figure_number": 13,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第7页上半页 · 图13（按PDF顺序）",
+    "token": "Ft6HbLmy4oO8Bfx5jGJcAM9Gn3g",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-013.png",
+    "after_paragraph": 40,
+    "before_paragraph": 41,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-013.png\",\n    \"size_bytes\": 41723\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "b85ad8121f665c382a25b313d70b62e38cd88db221d0909b3cb2296a832ae68f"
+  },
+  {
+    "image_ordinal": 12,
+    "block_id": "doxcnYGfrtnLOBx6reM0IV5oIse",
+    "figure_number": 14,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第7页下半页 · 图14（按PDF顺序）",
+    "token": "YYzgbzaIIoF5vlxggfScZwTCnjg",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-014.png",
+    "after_paragraph": 42,
+    "before_paragraph": 43,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-014.png\",\n    \"size_bytes\": 85104\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "99f3fe0ff7b95730b283809873332fff8d2da2f6069764676ab2d43948493e4c"
+  },
+  {
+    "image_ordinal": 13,
+    "block_id": "doxcnnpGPYDs370TBSEX3YeXvRe",
+    "figure_number": 15,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第8页上半页 · 图15（按PDF顺序）",
+    "token": "LPmlbd0dDolASKxbPKAcxdK9nWb",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-015.png",
+    "after_paragraph": 45,
+    "before_paragraph": 46,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-015.png\",\n    \"size_bytes\": 93348\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "635eea5acb0d1d3b6d15269c3be0414ddf8d142e64f0f6183d5354700f11ed47"
+  },
+  {
+    "image_ordinal": 14,
+    "block_id": "doxcn0RITSHHNzelJLFwbrCTi5e",
+    "figure_number": 16,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第8页下半页 · 图16（按PDF顺序）",
+    "token": "XPpZb28LAovjkdxrTRWc3CVKnve",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-016.png",
+    "after_paragraph": 48,
+    "before_paragraph": 49,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-016.png\",\n    \"size_bytes\": 75535\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "ebc10e10f97bafe7327f1eb2501eba2ba6bce57f651606089c9fc9d37de32664"
+  },
+  {
+    "image_ordinal": 15,
+    "block_id": "doxcnmy3dSLCM6vyBA1yKtxaxah",
+    "figure_number": 17,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第9页上半页 · 图17（按PDF顺序）",
+    "token": "IN28bLQ0fo2Yu7xLEUUc8EW8nuf",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-017.png",
+    "after_paragraph": 51,
+    "before_paragraph": 52,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-017.png\",\n    \"size_bytes\": 87035\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "1b05eb5d6e71e1097758d80c6560d437441e0f7df5fdf14d31b77ea8d66134c8"
+  },
+  {
+    "image_ordinal": 16,
+    "block_id": "doxcnk41zMGpjVFbqfR8TckOwl0",
+    "figure_number": 18,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第9页下半页 · 图18（按PDF顺序）",
+    "token": "ZxwxboextorpC4xRfaScMgR7n6d",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-018.png",
+    "after_paragraph": 52,
+    "before_paragraph": 53,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-018.png\",\n    \"size_bytes\": 77444\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "b829df73d323dad5a27ccea59101abbf60d6ee01a11d6470665987ff27a632b9",
+    "previous_download_attempt": {
+      "returncode": 4,
+      "stdout": "",
+      "stderr": "{\n  \"ok\": false,\n  \"identity\": \"user\",\n  \"error\": {\n    \"type\": \"network\",\n    \"subtype\": \"server_error\",\n    \"code\": 502,\n    \"message\": \"HTTP 502: <html>\\n<head>\\n    <title>502 Bad Gateway</title>\\n</head>\\n<body>\\n    <h1>502 Bad Gateway</h1>\\n    <p>[Errno 111] Connection refused</p>\\n</body>\\n</html>\",\n    \"retryable\": true\n  }\n}\n"
+    }
+  },
+  {
+    "image_ordinal": 17,
+    "block_id": "doxcnGMTQyu9FTriwvAR9C1stfh",
+    "figure_number": 19,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第10页上半页 · 图19（按PDF顺序）",
+    "token": "JNt6bQaWkobMU4x2JLpchIuBnPc",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-019.png",
+    "after_paragraph": 53,
+    "before_paragraph": 54,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-019.png\",\n    \"size_bytes\": 77235\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "22db299236208488cd3ca3d69dedddb20a644b1a8f648ecdc09323020c7f456e"
+  },
+  {
+    "image_ordinal": 18,
+    "block_id": "doxcniwxtlaclmrju2Cs4cwJPth",
+    "figure_number": 20,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第10页下半页 · 图20（按PDF顺序）",
+    "token": "LsTQb9rmRoGFGzxUwg2coQHSnUd",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-020.png",
+    "after_paragraph": 54,
+    "before_paragraph": 55,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-020.png\",\n    \"size_bytes\": 93968\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "78c05dd9852d461ea97d4abc2d3522177fc93eade22ac5e8624e8e903ca13fb6"
+  },
+  {
+    "image_ordinal": 19,
+    "block_id": "doxcneExIr4tTYU2Vi12AHVfwqg",
+    "figure_number": 21,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第11页上半页 · 图21（按PDF顺序）",
+    "token": "O0KhbbMceopDU0xgQjTcGxAhn3b",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-021.png",
+    "after_paragraph": 72,
+    "before_paragraph": 73,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-021.png\",\n    \"size_bytes\": 77455\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "baf868c578d324eb4a8abf6feea7ecfc4c4e216ca217eb5940e30d5f94e5b926"
+  },
+  {
+    "image_ordinal": 20,
+    "block_id": "doxcnwgJRtdrHUNOvAtxFYRRIBc",
+    "figure_number": 22,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第11页下半页 · 图22（按PDF顺序）",
+    "token": "NSDFbwNiZozhsaxgYXXcoUBDn0d",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-022.png",
+    "after_paragraph": 72,
+    "before_paragraph": 73,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-022.png\",\n    \"size_bytes\": 44795\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "bf5eba62262a1a729c38b64861d91be4ade7d59c91a0b08eba26bf7b1581bb7f",
+    "previous_download_attempt": {
+      "returncode": 4,
+      "stdout": "",
+      "stderr": "{\n  \"ok\": false,\n  \"identity\": \"user\",\n  \"error\": {\n    \"type\": \"network\",\n    \"subtype\": \"server_error\",\n    \"code\": 502,\n    \"message\": \"HTTP 502: <html>\\n<head>\\n    <title>502 Bad Gateway</title>\\n</head>\\n<body>\\n    <h1>502 Bad Gateway</h1>\\n    <p>[Errno 111] Connection refused</p>\\n</body>\\n</html>\",\n    \"retryable\": true\n  }\n}\n"
+    }
+  },
+  {
+    "image_ordinal": 21,
+    "block_id": "doxcnhHsFtKtT3i3rUxLRiFCm7B",
+    "figure_number": 23,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第12页上半页 · 图23（按PDF顺序）",
+    "token": "QiK1bN5bioRHXGx74g8cmrZinHb",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-023.png",
+    "after_paragraph": 73,
+    "before_paragraph": 74,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-023.png\",\n    \"size_bytes\": 101234\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "eafe12e5db7c7d2a3c74e4ab20d7d820f01e4e750eafc7a73529e9c56833f791"
+  },
+  {
+    "image_ordinal": 22,
+    "block_id": "doxcnAluOb6772GE5lAdhCTg39e",
+    "figure_number": 24,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第12页下半页 · 图24（按PDF顺序）",
+    "token": "IfTWbEwjwol2jwx3OP7cUmO8nId",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-024.png",
+    "after_paragraph": 76,
+    "before_paragraph": 77,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-024.png\",\n    \"size_bytes\": 98650\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "513239f15e036a8fac7d8c649572141e93d99f3d07c408163b0a37ce29d59a44"
+  },
+  {
+    "image_ordinal": 23,
+    "block_id": "doxcn7XdtKK7HX6mOVd36hmHmnc",
+    "figure_number": 25,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第13页上半页 · 图25（按PDF顺序）",
+    "token": "Mq6bbwALJoDZQ4x414nc1PCinlb",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-025.png",
+    "after_paragraph": 77,
+    "before_paragraph": 78,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-025.png\",\n    \"size_bytes\": 54735\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "4f275b5e63b13af827c43ce6a05b6e549573609d7a9b61c15087ec87f2a53d2c"
+  },
+  {
+    "image_ordinal": 24,
+    "block_id": "doxcnH4pBWMgNKT7DpNORApzYCf",
+    "figure_number": 26,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第13页下半页 · 图26（按PDF顺序）",
+    "token": "Ayaybb5QOoIE0Tx1PQhc9iIsnue",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-026.png",
+    "after_paragraph": 77,
+    "before_paragraph": 78,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-026.png\",\n    \"size_bytes\": 89860\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "e391ab492bf3800838f6b367069f42724dadb3286a6a6b8ab941d2cdf38734c4"
+  },
+  {
+    "image_ordinal": 25,
+    "block_id": "doxcnTPxZ3aCi36T7ha9G7KTOWf",
+    "figure_number": 27,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第14页上半页 · 图27（按PDF顺序）",
+    "token": "JLgmbipPPoRYrVx8GiXcoRn1nOb",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-027.png",
+    "after_paragraph": 77,
+    "before_paragraph": 78,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-027.png\",\n    \"size_bytes\": 124025\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "cf98f3a52614568bde3db09dc963c718d1aa70034d2f0ac5c71b63ac73eda694"
+  },
+  {
+    "image_ordinal": 26,
+    "block_id": "doxcn15AyQMLwS97a3Dx4yKVNih",
+    "figure_number": 28,
+    "caption": "课件：04-Sensors-MAC.pdf · PDF第14页下半页 · 图28（按PDF顺序）",
+    "token": "NFHTbuL3no9iV3xf4p3cLFg9nSh",
+    "image_path": "/workspace/shared/course-1015-1000/slide-images/slide-028.png",
+    "after_paragraph": 80,
+    "before_paragraph": 81,
+    "download": {
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"identity\": \"user\",\n  \"data\": {\n    \"content_type\": \"image/png\",\n    \"saved_path\": \"/workspace/shared/course-1015-1000/slide-images/slide-028.png\",\n    \"size_bytes\": 136218\n  }\n}\n",
+      "stderr": ""
+    },
+    "sha256": "b74101ff9cdd3bfb4f660d05cf212bd4c79be3ebcd4a789d0a4e88c63c2283ae"
+  }
+]
