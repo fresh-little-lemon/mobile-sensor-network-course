@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2530.0,
+  "end_seconds": 2650.0,
+  "text": "We have the routine functions, we know that already. Okay. Besides the routine, typically in sensors at this level, that is the network layer, we also have some algorithms to manage the fact that in our network, some nodes may go to sleep. So our network topology changes, right? May change over time. In sensor networks specifically, not just because nodes may move, or communication links may get disrupted, may fail, but also because our nodes may just go to sleep. And when they go to sleep, they are like ghosts, right? They are not there anymore. They cannot transmit, they cannot receive. So the network topology now changes for one more reason, that is the possibility that our nodes go to sleep. So typically at the network layer, we have also some techniques that help our nodes to adjust to this dynamically changing topologies. Okay, that's something that is also implemented at the network layer, along with the routine functions. Okay, so this representation essentially specifies the general stack of functions that we have in a generic communication node.",
+  "raw_decoded": "language English<asr_text>We have the routine functions, we know that already. Okay. Besides the routine, typically in sensors at this level, that is the network layer, we also have some algorithms to manage the fact that in our network, some nodes may go to sleep. So our network topology changes, right? May change over time. In sensor networks specifically, not just because nodes may move, or communication links may get disrupted, may fail, but also because our nodes may just go to sleep. And when they go to sleep, they are like ghosts, right? They are not there anymore. They cannot transmit, they cannot receive. So the network topology now changes for one more reason, that is the possibility that our nodes go to sleep. So typically at the network layer, we have also some techniques that help our nodes to adjust to this dynamically changing topologies. Okay, that's something that is also implemented at the network layer, along with the routine functions. Okay, so this representation essentially specifies the general stack of functions that we have in a generic communication node.<|im_end|>",
+  "generated_tokens": 217,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.697188217000075,
+  "at": "2026-10-18T06:34:03.494031+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

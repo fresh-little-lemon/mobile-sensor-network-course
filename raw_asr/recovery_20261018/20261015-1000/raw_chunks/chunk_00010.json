@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1100.0,
+  "end_seconds": 1220.0,
+  "text": "Height of temperature value. You have just considering the header of the packet, at the network layer when we have when we have IP. You will just have IP addresses for the source and destination that are huge compared to the payload, the useful information. So that will be high inefficient, too much overhead. You don't want that. So in sensor networks, we usually use a different way to format the nodes address. That is so these addresses are made in a different way, and we try to have few bits for the source and destination address, because otherwise the overhead will be overwhelming. Fifth point, this is something that we are not going to address, but it's good to to know. Then in sensor networks, it is very important to have some functions that allow us to provide synchronization among the nodes of the network, and also some functions that allow the nodes to self-localize within the network. So each node needs to have a sense of time and geographical position. Why? Because we said our sensors are.",
+  "raw_decoded": "language English<asr_text>Height of temperature value. You have just considering the header of the packet, at the network layer when we have when we have IP. You will just have IP addresses for the source and destination that are huge compared to the payload, the useful information. So that will be high inefficient, too much overhead. You don't want that. So in sensor networks, we usually use a different way to format the nodes address. That is so these addresses are made in a different way, and we try to have few bits for the source and destination address, because otherwise the overhead will be overwhelming. Fifth point, this is something that we are not going to address, but it's good to to know. Then in sensor networks, it is very important to have some functions that allow us to provide synchronization among the nodes of the network, and also some functions that allow the nodes to self-localize within the network. So each node needs to have a sense of time and geographical position. Why? Because we said our sensors are.<|im_end|>",
+  "generated_tokens": 209,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.424204568000278,
+  "at": "2026-10-18T06:27:29.168475+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

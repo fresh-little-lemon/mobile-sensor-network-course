@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5060.0,
+  "end_seconds": 5180.0,
+  "text": "Very lot, right? So this leech, um, is is good, is good, but it has got also some drawbacks that we need to account for. Okay, that's it. That was the most, let's say prominent example of this family of channel access schemes that are based on a schedule, right? Because now we understand what schedule based means because we were scheduling the transmissions, right? So inside the frame we were, for example, assigning different time slots. That means that we were scheduling. We said now we move to the second family that is contention based, and in particular, we are going to look, as we said, at the scheme that is standardized by IETF with the name of the amendment that is issued in 2015. So this standard by IETF, and again, as for Wi-Fi, this standard is going to specify how the physical layer and the MAC layer work. Okay, so the standard is about these two layers. As Wi-Fi, okay, that's it. However, you may find as a name that refers to networks made of low power low data rate sensors, also Zigbee.",
+  "raw_decoded": "language English<asr_text>Very lot, right? So this leech, um, is is good, is good, but it has got also some drawbacks that we need to account for. Okay, that's it. That was the most, let's say prominent example of this family of channel access schemes that are based on a schedule, right? Because now we understand what schedule based means because we were scheduling the transmissions, right? So inside the frame we were, for example, assigning different time slots. That means that we were scheduling. We said now we move to the second family that is contention based, and in particular, we are going to look, as we said, at the scheme that is standardized by IETF with the name of the amendment that is issued in 2015. So this standard by IETF, and again, as for Wi-Fi, this standard is going to specify how the physical layer and the MAC layer work. Okay, so the standard is about these two layers. As Wi-Fi, okay, that's it. However, you may find as a name that refers to networks made of low power low data rate sensors, also Zigbee.<|im_end|>",
+  "generated_tokens": 238,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.682741583997995,
+  "at": "2026-10-18T06:47:04.525236+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

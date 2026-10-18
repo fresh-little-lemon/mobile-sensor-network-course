@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1430.0,
+  "end_seconds": 1550.0,
+  "text": "So many sensors that help to the vehicle to perceive the surrounding, and then for autonomous driving, of course, these data are used to control the vehicle. And also, very important another important application is smart grid, right? The electricity grid. They measure in the the status of the grid, and this is used to control the generation and distribution of electricity. This is also extremely important to have an electrical grid that works properly and in a reliable manner. It is also an enabler of alternative energy sources use. For example, whenever you have grids that integrate the energy that is produced from the wind, or waterfalls, or solar panels, right? All these alternative energy sources. They produce that they are used to produce energy, but as you may know, when we harvest energy from the environment, so to wind, solar, irrigation, etc., water. These sources of energy may not be always available. For example, solar panels get irrigation only during daylight, right? So it is very important to control the usage.",
+  "raw_decoded": "language English<asr_text>So many sensors that help to the vehicle to perceive the surrounding, and then for autonomous driving, of course, these data are used to control the vehicle. And also, very important another important application is smart grid, right? The electricity grid. They measure in the the status of the grid, and this is used to control the generation and distribution of electricity. This is also extremely important to have an electrical grid that works properly and in a reliable manner. It is also an enabler of alternative energy sources use. For example, whenever you have grids that integrate the energy that is produced from the wind, or waterfalls, or solar panels, right? All these alternative energy sources. They produce that they are used to produce energy, but as you may know, when we harvest energy from the environment, so to wind, solar, irrigation, etc., water. These sources of energy may not be always available. For example, solar panels get irrigation only during daylight, right? So it is very important to control the usage.<|im_end|>",
+  "generated_tokens": 210,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.669466766998084,
+  "at": "2026-10-18T06:28:50.042322+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

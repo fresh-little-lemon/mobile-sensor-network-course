@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4400.0,
+  "end_seconds": 4520.0,
+  "text": "Time frame, we have time slots. Each time slot is assigned to different sensor. And this is how within a cluster, nodes sensor nodes can transfer their data, their measurements to their cluster head. Okay, good. So now we understand how data are transmitted within a cluster. Avoid collisions, right? They do not collide because they are active one at a time. Each of them has got its own time slot. It's not going to overlap with the others. Okay. Now, however, each is a hierarchical scheme, right? As also indicated by the name. Why? Because we consider to have a higher hierarchical level, the communication between clusters. So clusters of nearby clusters communicate with each other. And they communicate by using, they so called CDMA scheme. What does it mean? That our cluster again will use exactly the same frequency band. They can communicate at the same time, so there is no time division. They can communicate at the same time, but they will use different codes. What do you mean? Codes are like languages for us, for human beings. There is the famous.",
+  "raw_decoded": "language English<asr_text>Time frame, we have time slots. Each time slot is assigned to different sensor. And this is how within a cluster, nodes sensor nodes can transfer their data, their measurements to their cluster head. Okay, good. So now we understand how data are transmitted within a cluster. Avoid collisions, right? They do not collide because they are active one at a time. Each of them has got its own time slot. It's not going to overlap with the others. Okay. Now, however, each is a hierarchical scheme, right? As also indicated by the name. Why? Because we consider to have a higher hierarchical level, the communication between clusters. So clusters of nearby clusters communicate with each other. And they communicate by using, they so called CDMA scheme. What does it mean? That our cluster again will use exactly the same frequency band. They can communicate at the same time, so there is no time division. They can communicate at the same time, but they will use different codes. What do you mean? Codes are like languages for us, for human beings. There is the famous.<|im_end|>",
+  "generated_tokens": 227,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.478161831997568,
+  "at": "2026-10-18T06:43:41.447252+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

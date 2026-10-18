@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4180.0,
+  "end_seconds": 4300.0,
+  "text": "Ordinary nodes in each cluster that can communicate with the cluster end. Right? So let's say then this belongs. This was the cluster based topology. Okay, so when we apply Lich, we consider that our network has got this kind of topology. When Lich can be applied when we have this kind of topology. And what Lich does is to say: within each cluster, the nodes, the ordinary nodes, communicate with the cluster end using a time division of multiple answers. What does it mean? It means that they will all use the same frequency channel. Okay, so same frequencies, all of them use the same frequencies. And how do you separate the transmissions from the sensors to the cluster end so that they do not collide? Well, you consider that time time is divided into time slots. And then you assign a time slot to each sensor.",
+  "raw_decoded": "language English<asr_text>Ordinary nodes in each cluster that can communicate with the cluster end. Right? So let's say then this belongs. This was the cluster based topology. Okay, so when we apply Lich, we consider that our network has got this kind of topology. When Lich can be applied when we have this kind of topology. And what Lich does is to say: within each cluster, the nodes, the ordinary nodes, communicate with the cluster end using a time division of multiple answers. What does it mean? It means that they will all use the same frequency channel. Okay, so same frequencies, all of them use the same frequencies. And how do you separate the transmissions from the sensors to the cluster end so that they do not collide? Well, you consider that time time is divided into time slots. And then you assign a time slot to each sensor.<|im_end|>",
+  "generated_tokens": 179,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.733186773999478,
+  "at": "2026-10-18T06:42:49.344649+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

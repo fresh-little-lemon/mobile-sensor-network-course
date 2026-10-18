@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3080.0,
+  "end_seconds": 3200.0,
+  "text": "In particular, focusing on the MAC layer. So, we continue essentially what we look at, why consider Wi-Fi, right? The channel access that will be our our first focus here. And then next week, we are going to instead talk about routing, okay? That will hold for both Wi-Fi and also actually sensor networks. But before that, this week we try to instead finish with the MAC. Presenting now, the channel access schemes that are used in sensor networks. Before looking at the channel access scheme for seen by the standard. For low power, low data rate nodes that we already mentioned the IPEL8. Dot, Fifteen report. Let's talk about MAC channel access in general for sensor networks, okay? Because the standard, the IPEL standard that we mentioned, is in particular for the case of sensors that are low power, low data rate. For devices, but it's good before going into the details of that scheme. To look more in general, right, and general concepts regarding channel access in sensor networks. Now, remember what we said before. In general, in device-to-device communication.",
+  "raw_decoded": "language English<asr_text>In particular, focusing on the MAC layer. So, we continue essentially what we look at, why consider Wi-Fi, right? The channel access that will be our our first focus here. And then next week, we are going to instead talk about routing, okay? That will hold for both Wi-Fi and also actually sensor networks. But before that, this week we try to instead finish with the MAC. Presenting now, the channel access schemes that are used in sensor networks. Before looking at the channel access scheme for seen by the standard. For low power, low data rate nodes that we already mentioned the IPEL8. Dot, Fifteen report. Let's talk about MAC channel access in general for sensor networks, okay? Because the standard, the IPEL standard that we mentioned, is in particular for the case of sensors that are low power, low data rate. For devices, but it's good before going into the details of that scheme. To look more in general, right, and general concepts regarding channel access in sensor networks. Now, remember what we said before. In general, in device-to-device communication.<|im_end|>",
+  "generated_tokens": 234,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.058154291000392,
+  "at": "2026-10-18T06:37:42.992789+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

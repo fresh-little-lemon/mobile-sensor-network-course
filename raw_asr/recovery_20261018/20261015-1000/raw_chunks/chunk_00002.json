@@ -1,0 +1,12 @@
+{
+  "start_seconds": 220.0,
+  "end_seconds": 340.0,
+  "text": "This sensor node that may take some action based on what has been sensed and detected. Okay, there are different types of actuators depending, of course, on the type of sensor that we are considering. But in our example, the actuator would be indeed the device that sprinkles the chemicals in order to extinguish the fire if, at this within this block, we have detected a fire. Okay, so this is how our what we call a sensor node works and how and how what they are composed of. Now our interest, of course, is mainly in the following in the ability of our sensor device to communicate with others and transfer information. Right. So about the wireless interface that we had in the previous picture here, we have the wireless interface. Let's say a few words more on that because in sensor nodes we may have wireless interfaces of each different type. So far, we have always considered the case where our communications where.",
+  "raw_decoded": "language English<asr_text>This sensor node that may take some action based on what has been sensed and detected. Okay, there are different types of actuators depending, of course, on the type of sensor that we are considering. But in our example, the actuator would be indeed the device that sprinkles the chemicals in order to extinguish the fire if, at this within this block, we have detected a fire. Okay, so this is how our what we call a sensor node works and how and how what they are composed of. Now our interest, of course, is mainly in the following in the ability of our sensor device to communicate with others and transfer information. Right. So about the wireless interface that we had in the previous picture here, we have the wireless interface. Let's say a few words more on that because in sensor nodes we may have wireless interfaces of each different type. So far, we have always considered the case where our communications where.<|im_end|>",
+  "generated_tokens": 194,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.58069760899889,
+  "at": "2026-10-18T06:23:53.662282+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

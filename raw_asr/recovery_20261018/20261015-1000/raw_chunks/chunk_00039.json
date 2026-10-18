@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4290.0,
+  "end_seconds": 4410.0,
+  "text": "And then you assign a time slot to each sensor. So this is, for example, time slot one, and is assigned to sensor one. Time slot two is assigned to sensor three. Time slot three is assigned to sensor five. Okay, okay, each sensor has got its own time slot. So this is a possible assignment. And then this is a frame. It's called frame. Sorry, I know that we use frame as packet in Wi-Fi, but here frame is a time period. Okay. So this is the so called time frame. And the time frame repeats itself. Okay. The time frame repeats itself. So here we have again time slot one, where S one can transmit, and we have time slot two, where S three can transmit, and so on. Okay. So this configuration of the time frame repeats over and over. And within each time frame, we have time slots. Each time slot is assigned to different sensor. And this is how.",
+  "raw_decoded": "language English<asr_text>And then you assign a time slot to each sensor. So this is, for example, time slot one, and is assigned to sensor one. Time slot two is assigned to sensor three. Time slot three is assigned to sensor five. Okay, okay, each sensor has got its own time slot. So this is a possible assignment. And then this is a frame. It's called frame. Sorry, I know that we use frame as packet in Wi-Fi, but here frame is a time period. Okay. So this is the so called time frame. And the time frame repeats itself. Okay. The time frame repeats itself. So here we have again time slot one, where S one can transmit, and we have time slot two, where S three can transmit, and so on. Okay. So this configuration of the time frame repeats over and over. And within each time frame, we have time slots. Each time slot is assigned to different sensor. And this is how.<|im_end|>",
+  "generated_tokens": 202,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.623163135998766,
+  "at": "2026-10-18T06:43:13.968459+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

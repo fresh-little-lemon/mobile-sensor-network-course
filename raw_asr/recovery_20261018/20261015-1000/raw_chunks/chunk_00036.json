@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3960.0,
+  "end_seconds": 4080.0,
+  "text": "Provide examples of strategies that are used, also by proprietary solutions for sensor networks. Okay. Now there are two main strategies that can be applied, for channel access scheme in sensor networks. One is schedule based, and the other one is contention based. The access scheme specified by the ITU standard for sensors falls into this family. Can we be a type of algorithm and protocol that is contention based? Let me give you, however, an example of scheme that has been proposed and implemented. It's very very famous, that instead falls into this first family of schemes. Okay, of strategies. They schedule based. Ah, it's called Leach. If you, if you Google it, you will find it. There are thousands of documents that you can find more. Hundreds of thousands of documents on on Leach, and as I was saying, many proprietary solutions, for sensor channel access, are based on on this, on this Leach. This Leach you might say. Ah, oh, so Le.",
+  "raw_decoded": "language English<asr_text>Provide examples of strategies that are used, also by proprietary solutions for sensor networks. Okay. Now there are two main strategies that can be applied, for channel access scheme in sensor networks. One is schedule based, and the other one is contention based. The access scheme specified by the ITU standard for sensors falls into this family. Can we be a type of algorithm and protocol that is contention based? Let me give you, however, an example of scheme that has been proposed and implemented. It's very very famous, that instead falls into this first family of schemes. Okay, of strategies. They schedule based. Ah, it's called Leach. If you, if you Google it, you will find it. There are thousands of documents that you can find more. Hundreds of thousands of documents on on Leach, and as I was saying, many proprietary solutions, for sensor channel access, are based on on this, on this Leach. This Leach you might say. Ah, oh, so Le.<|im_end|>",
+  "generated_tokens": 209,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 25.806318541999644,
+  "at": "2026-10-18T06:41:56.250162+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

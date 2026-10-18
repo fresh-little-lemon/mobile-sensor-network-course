@@ -1,0 +1,12 @@
+{
+  "start_seconds": 330.0,
+  "end_seconds": 450.0,
+  "text": "So far, we have always considered the case where our communications were taking place through electromagnetic signals transmitted in the portion of the spectrum that is called radio frequencies. And a certain large portion of our our spectrum is represented by these radio frequencies. But some sensors may also use infrared. So when you see the red light that is output by a device, right? So those are infrared signals or optical means signals that are transmitted essentially through a different portion of the spectrum. Now the advantage of radio frequencies and the reason why we in our case for wireless communication networks typically consider radio frequencies is that as we discussed already, radio frequency signals transmitted are radio frequencies can also go over obstacles. They may get, of course, reflected and diffracted, but they go through typically. Okay. Instead, infrared or optical need line of sight between transmitter and receiver, that means that they work only if there is no obstacle. So that's a big disadvantage, right? That's why also in sensors typically.",
+  "raw_decoded": "language English<asr_text>So far, we have always considered the case where our communications were taking place through electromagnetic signals transmitted in the portion of the spectrum that is called radio frequencies. And a certain large portion of our our spectrum is represented by these radio frequencies. But some sensors may also use infrared. So when you see the red light that is output by a device, right? So those are infrared signals or optical means signals that are transmitted essentially through a different portion of the spectrum. Now the advantage of radio frequencies and the reason why we in our case for wireless communication networks typically consider radio frequencies is that as we discussed already, radio frequency signals transmitted are radio frequencies can also go over obstacles. They may get, of course, reflected and diffracted, but they go through typically. Okay. Instead, infrared or optical need line of sight between transmitter and receiver, that means that they work only if there is no obstacle. So that's a big disadvantage, right? That's why also in sensors typically.<|im_end|>",
+  "generated_tokens": 202,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.858203069998126,
+  "at": "2026-10-18T06:24:18.521218+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

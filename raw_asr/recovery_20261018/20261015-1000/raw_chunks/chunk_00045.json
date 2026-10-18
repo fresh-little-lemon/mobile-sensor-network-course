@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4950.0,
+  "end_seconds": 5070.0,
+  "text": "We stand that we assign time slots, within a time frame, to each node. Now, if the number of nodes ordinary nodes within a cluster increases, what is the problem? If we have new nodes sensor six and seven joining the cluster, there are no time slots for them, right? So we if we already filled up the whole time frame, assigned all the available time slots, there are no more time slots. So nodes can take turn, probably yes, but we need to change the schedule, and then a node at that point may need to skip some frames, right, and be able to transmit more rarely. So that's an issue. And the same with cluster heads. If we increase the number of clusters, well, like the number of languages, there are many languages, but are in a finite number. Okay, so if we increase too much the number of clusters, and therefore of cluster heads, we may run out of codes. So to differentiate the different transmissions. So at certain point, two pairs of clusters may speak Chinese, both of them and interfere a lot, right? So this leech is is good, is good, but it has.",
+  "raw_decoded": "language English<asr_text>We stand that we assign time slots, within a time frame, to each node. Now, if the number of nodes ordinary nodes within a cluster increases, what is the problem? If we have new nodes sensor six and seven joining the cluster, there are no time slots for them, right? So we if we already filled up the whole time frame, assigned all the available time slots, there are no more time slots. So nodes can take turn, probably yes, but we need to change the schedule, and then a node at that point may need to skip some frames, right, and be able to transmit more rarely. So that's an issue. And the same with cluster heads. If we increase the number of clusters, well, like the number of languages, there are many languages, but are in a finite number. Okay, so if we increase too much the number of clusters, and therefore of cluster heads, we may run out of codes. So to differentiate the different transmissions. So at certain point, two pairs of clusters may speak Chinese, both of them and interfere a lot, right? So this leech is is good, is good, but it has.<|im_end|>",
+  "generated_tokens": 242,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.18974026199794,
+  "at": "2026-10-18T06:46:35.841834+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

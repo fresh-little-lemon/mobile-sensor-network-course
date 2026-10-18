@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5390.0,
+  "end_seconds": 5510.0,
+  "text": "We have, first of all, two types of devices, sensor devices that the standard considers. One is called the full function device, and the other type is called reduced function device. In an action, the full function device is a sensor node where we have implemented at least all these three layers: physical, map, and network. So our sensors, if they are full function, will be able to also route traffic. Okay. The reduced devices instead are those that implement only the first two layers: physical and map. They cannot route traffic. Okay, that's essentially the definition. So that's what you need to keep in mind. That said, what are the possible network topologies that we may have? Very simply, there are one possible network topology. Is the star? It is like having one cluster only, right? So we have a center of the star, and then ordinary nodes. It's like having one cluster. This is used when you have few sensors in your network. The central node, the cluster head, the.",
+  "raw_decoded": "language English<asr_text>We have, first of all, two types of devices, sensor devices that the standard considers. One is called the full function device, and the other type is called reduced function device. In an action, the full function device is a sensor node where we have implemented at least all these three layers: physical, map, and network. So our sensors, if they are full function, will be able to also route traffic. Okay. The reduced devices instead are those that implement only the first two layers: physical and map. They cannot route traffic. Okay, that's essentially the definition. So that's what you need to keep in mind. That said, what are the possible network topologies that we may have? Very simply, there are one possible network topology. Is the star? It is like having one cluster only, right? So we have a center of the star, and then ordinary nodes. It's like having one cluster. This is used when you have few sensors in your network. The central node, the cluster head, the.<|im_end|>",
+  "generated_tokens": 215,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.6460369109991,
+  "at": "2026-10-18T06:48:28.734208+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

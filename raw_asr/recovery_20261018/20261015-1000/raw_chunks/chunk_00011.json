@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1210.0,
+  "end_seconds": 1330.0,
+  "text": "And geographical position. Why? Because we said our sensors are going to measure a physical field, right? Collect measurements, collect samples, and each measurement needs to be associated with the sensor's geographical coordinates, and also the time at which the sample, the measurement was taken. So each sensor needs to have a sense of time and geographical position where it is, otherwise it cannot label the collected measurements correctly. Okay, so these are the five points that we need to consider when talking about a sensor network. And then let's look, let's mention some of the applications of the of the sensor networks. We mentioned already that they are used to monitor an environment like a park. For for fire detection, for example, they are also used for slide detection, where we may have areas where the probability of slides is not negligible. We have sensors in the terrain and they measure the movement of the soil in order to detect the risk of slide. They are often used in.",
+  "raw_decoded": "language English<asr_text>And geographical position. Why? Because we said our sensors are going to measure a physical field, right? Collect measurements, collect samples, and each measurement needs to be associated with the sensor's geographical coordinates, and also the time at which the sample, the measurement was taken. So each sensor needs to have a sense of time and geographical position where it is, otherwise it cannot label the collected measurements correctly. Okay, so these are the five points that we need to consider when talking about a sensor network. And then let's look, let's mention some of the applications of the of the sensor networks. We mentioned already that they are used to monitor an environment like a park. For for fire detection, for example, they are also used for slide detection, where we may have areas where the probability of slides is not negligible. We have sensors in the terrain and they measure the movement of the soil in order to detect the risk of slide. They are often used in.<|im_end|>",
+  "generated_tokens": 199,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.389036091997696,
+  "at": "2026-10-18T06:27:53.558128+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

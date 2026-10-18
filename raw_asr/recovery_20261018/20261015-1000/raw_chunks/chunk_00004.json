@@ -1,0 +1,12 @@
+{
+  "start_seconds": 440.0,
+  "end_seconds": 560.0,
+  "text": "No obstacle. So that's a big disadvantage, right? That's why all sensors typically we tend to use radio frequencies. Here we have the reference to one of the earliest experiments, and actually it was not just an experiment, it was a real world deployment of a sensor network called Smart Dust. That was done in the in the United States. They actually wanted to monitor the desert area, at the border between the U.S. and Mexico, to monitor the immigrants from immigrant flows from Mexico to the United States. And what they did was to launch and deploy from airplanes millions of these smaller sensors. That's why they call it Smart Dust because each sensor was like a piece of dust, right? Very small. And each sensor had actually a camera. Okay, it was very small, but they had a camera. And through these millions of cameras that we are also able to communicate within each other and transfer images to through multi-hop communication to a gateway toward the internet, that we are able to monitor this large desertic area at the border.",
+  "raw_decoded": "language English<asr_text>No obstacle. So that's a big disadvantage, right? That's why all sensors typically we tend to use radio frequencies. Here we have the reference to one of the earliest experiments, and actually it was not just an experiment, it was a real world deployment of a sensor network called Smart Dust. That was done in the in the United States. They actually wanted to monitor the desert area, at the border between the U.S. and Mexico, to monitor the immigrants from immigrant flows from Mexico to the United States. And what they did was to launch and deploy from airplanes millions of these smaller sensors. That's why they call it Smart Dust because each sensor was like a piece of dust, right? Very small. And each sensor had actually a camera. Okay, it was very small, but they had a camera. And through these millions of cameras that we are also able to communicate within each other and transfer images to through multi-hop communication to a gateway toward the internet, that we are able to monitor this large desertic area at the border.<|im_end|>",
+  "generated_tokens": 215,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.600125259999913,
+  "at": "2026-10-18T06:24:45.121953+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

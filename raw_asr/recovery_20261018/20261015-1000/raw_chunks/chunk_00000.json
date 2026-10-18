@@ -1,0 +1,12 @@
+{
+  "start_seconds": 0.0,
+  "end_seconds": 120.0,
+  "text": "This is their question. Can you say that? Then you just,狠狠地骂你。又要吃土了，还要骂什么的你啊？So let's go back to our scheme representing the architectural inside, and sensor sensor node. So, we send the sensing board will take care of sensing the physical field we are interested in. And then the samples that collected are passed to the signal processing unit, that will try to use the samples to reconstruct the physical field. That is in principle continuous and depends on time and spatial coordinates, right? So, in the example that we made before, where this sensing board is there to sense temperature. So it senses the temperature, for example, every ten minutes. Of course, at the location where the sensor is located, and then we will send these values to the signal processing block. And based on the reconstruction of the physical field that this block generates, it will then send the result, so this representation of the physical field, to this other block, where we.",
+  "raw_decoded": "language English<asr_text>This is their question. Can you say that? Then you just,狠狠地骂你。又要吃土了，还要骂什么的你啊？So let's go back to our scheme representing the architectural inside, and sensor sensor node. So, we send the sensing board will take care of sensing the physical field we are interested in. And then the samples that collected are passed to the signal processing unit, that will try to use the samples to reconstruct the physical field. That is in principle continuous and depends on time and spatial coordinates, right? So, in the example that we made before, where this sensing board is there to sense temperature. So it senses the temperature, for example, every ten minutes. Of course, at the location where the sensor is located, and then we will send these values to the signal processing block. And based on the reconstruction of the physical field that this block generates, it will then send the result, so this representation of the physical field, to this other block, where we.<|im_end|>",
+  "generated_tokens": 210,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.519737778999115,
+  "at": "2026-10-18T06:23:03.130554+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}

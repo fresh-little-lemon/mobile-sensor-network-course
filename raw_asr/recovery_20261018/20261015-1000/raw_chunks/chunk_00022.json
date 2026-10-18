@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2420.0,
+  "end_seconds": 2540.0,
+  "text": "Sensors, okay, that means commands, instructions, but the useful data will be from the sensors toward the sink, okay, and again in general, this is going to be let's say our protocol stack, software stack inside each sensor node, right? There we have the more general one, this is specifically for our sensors, where of course we have the physical layer, where we can consider that the physical communication takes place when we have to send signals over the radio channel or receive signals coming from the radio channel, the sensing board can be considered to operate at this level, the actuator or some operates at this level, then on top of it we have the Mac and we know already what the Mac does, but as we said in sensors it is also important to get a sense of time and a sense of geographical position, right? So the functions, the software functions that provide the sensor with the time reference and the geographical position are typically implemented here at this layer, okay, and then we have the network layer, where we have the routine functions we know that already, okay.",
+  "raw_decoded": "language English<asr_text>Sensors, okay, that means commands, instructions, but the useful data will be from the sensors toward the sink, okay, and again in general, this is going to be let's say our protocol stack, software stack inside each sensor node, right? There we have the more general one, this is specifically for our sensors, where of course we have the physical layer, where we can consider that the physical communication takes place when we have to send signals over the radio channel or receive signals coming from the radio channel, the sensing board can be considered to operate at this level, the actuator or some operates at this level, then on top of it we have the Mac and we know already what the Mac does, but as we said in sensors it is also important to get a sense of time and a sense of geographical position, right? So the functions, the software functions that provide the sensor with the time reference and the geographical position are typically implemented here at this layer, okay, and then we have the network layer, where we have the routine functions we know that already, okay.<|im_end|>",
+  "generated_tokens": 224,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.71572441099852,
+  "at": "2026-10-18T06:33:36.796215+00:00",
+  "source_sha256": "69cb1fe4f2f73fc3fe32892ba325a469db24305315804508e9f18874723317dd"
+}
