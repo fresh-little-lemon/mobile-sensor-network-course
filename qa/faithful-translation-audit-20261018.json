@@ -1,75 +1,124 @@
 {
-  "as_of": "2026-10-18T07:40:40Z",
-  "scope": "Published records 1–17; in progress. Only listed records below are reviewed.",
-  "method": "Read each English paragraph and corresponding Chinese paragraph. Retranslate compressed files; retain already complete translation and repair specific omitted repetitions, clauses, and terminology. English paragraphs remain unchanged. Counts and hashes verify structure, not semantic fidelity.",
+  "as_of": "2026-10-18T07:48:00Z",
+  "scope": "Published records 1–17: all reviewed and corrected files read back from main.",
+  "method": "Each English paragraph and corresponding Chinese paragraph was read by a translation reviewer. Records 1–9 received complete Chinese retranslation. Records 10–17 retained already complete wording and received targeted repairs for omitted clauses, qualifications, questions, examples, repetition and oral fragments. English paragraphs remain unchanged. Counts and hashes verify structure, not semantic fidelity.",
+  "totals": {
+    "files_reviewed": 17,
+    "paragraph_pairs_read": 1296,
+    "complete_retranslation_pairs": 745,
+    "targeted_review_pairs": 551,
+    "targeted_chinese_paragraphs_corrected": 137
+  },
   "reviewed": [
     {
       "record": "20261008-0800",
       "pairs": 121,
-      "mode": "complete retranslation"
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 121
     },
     {
       "record": "20261008-0910",
       "pairs": 46,
-      "mode": "complete retranslation"
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 46
     },
     {
       "record": "20261008-1000",
       "pairs": 81,
-      "mode": "complete retranslation"
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 81
     },
     {
       "record": "20261008-1049",
       "pairs": 88,
-      "mode": "complete retranslation"
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 88
     },
     {
       "record": "20261009-0759",
       "pairs": 67,
-      "mode": "complete retranslation"
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 67
     },
     {
       "record": "20261009-0845",
       "pairs": 88,
-      "mode": "complete retranslation"
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 88
     },
     {
       "record": "20261009-1000",
       "pairs": 97,
-      "mode": "complete retranslation"
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 97
+    },
+    {
+      "record": "20261010-0800",
+      "pairs": 81,
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 81
     },
     {
       "record": "20261010-1000",
       "pairs": 76,
-      "mode": "complete retranslation"
+      "mode": "complete retranslation",
+      "chinese_paragraphs_retranslated_or_repaired": 76
     },
     {
       "record": "20261012-1331",
       "pairs": 78,
-      "mode": "all pairs read; 5 Chinese paragraphs corrected"
+      "mode": "all pairs read; targeted Chinese repairs",
+      "chinese_paragraphs_retranslated_or_repaired": 5
     },
     {
       "record": "20261012-1530",
       "pairs": 44,
-      "mode": "all pairs read; 15 Chinese paragraphs corrected"
+      "mode": "all pairs read; targeted Chinese repairs",
+      "chinese_paragraphs_retranslated_or_repaired": 15
     },
     {
       "record": "20261012-1620",
       "pairs": 51,
-      "mode": "all pairs read; 12 Chinese paragraphs corrected"
+      "mode": "all pairs read; targeted Chinese repairs",
+      "chinese_paragraphs_retranslated_or_repaired": 12
+    },
+    {
+      "record": "20261013-0803",
+      "pairs": 69,
+      "mode": "all pairs read; targeted Chinese repairs",
+      "chinese_paragraphs_retranslated_or_repaired": 14
+    },
+    {
+      "record": "20261013-1000",
+      "pairs": 64,
+      "mode": "all pairs read; targeted Chinese repairs",
+      "chinese_paragraphs_retranslated_or_repaired": 36
+    },
+    {
+      "record": "20261014-0801",
+      "pairs": 62,
+      "mode": "all pairs read; targeted Chinese repairs",
+      "chinese_paragraphs_retranslated_or_repaired": 13
+    },
+    {
+      "record": "20261014-1000",
+      "pairs": 112,
+      "mode": "all pairs read; targeted Chinese repairs",
+      "chinese_paragraphs_retranslated_or_repaired": 17
+    },
+    {
+      "record": "20261015-0803",
+      "pairs": 71,
+      "mode": "all pairs read; targeted Chinese repairs",
+      "chinese_paragraphs_retranslated_or_repaired": 25
     }
   ],
-  "pending": [
-    "20261010-0800",
-    "20261013-0803",
-    "20261013-1000",
-    "20261014-0801",
-    "20261014-1000",
-    "20261015-0803"
-  ],
+  "pending": [],
+  "verification": "All corrected bilingual files fetched after their commits and matched staged text exactly. One English paragraph followed by one Chinese paragraph retained. stop-and-wait rendered 停止等待.",
   "limits": [
-    "Not a new audio verification pass",
-    "Pre-existing English uncertainty text retained",
-    "Existing technically questionable assertions translated as stated, not silently replaced with technical summaries"
+    "This is a text-to-text fidelity review, not a new audio verification pass.",
+    "Pre-existing English uncertainty text retained, including unclear ASR fragments and disputed numbers.",
+    "Technically questionable source assertions are translated as stated, not silently replaced by technical explanations.",
+    "Read-through and revision do not establish that every source transcription or technical assertion is correct."
   ]
 }
