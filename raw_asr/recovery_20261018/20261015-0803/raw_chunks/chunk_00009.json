@@ -1,0 +1,12 @@
+{
+  "start_seconds": 990.0,
+  "end_seconds": 1110.0,
+  "text": "The reach is zero. The node can access the channel and transmit. So if we let the backup counter of B, B set to, example, sixteen. It is true that B will not collide with A, right? Because its transmission will start later, but it will collide with the access point. That is sending the acknowledgement. Remember that our nodes are half duplex. When they turn around their receiver to transmit, they cannot receive. So if the access point turns around its receiver during that time, it cannot do anything because the receiver is just in the process of switching. And then it will transmit. When it transmits, it cannot receive. So if B accesses the channel here, then the access point cannot receive the data transmitted by B correctly. Okay. So we need to account for one more. In order, yeah, in order to let B transmit success. Okay. So sixteen plus at least one. That's why we considered as possible a good use of the cost of B. Seventeen, eighteen, nineteen, and so.",
+  "raw_decoded": "language English<asr_text>The reach is zero. The node can access the channel and transmit. So if we let the backup counter of B, B set to, example, sixteen. It is true that B will not collide with A, right? Because its transmission will start later, but it will collide with the access point. That is sending the acknowledgement. Remember that our nodes are half duplex. When they turn around their receiver to transmit, they cannot receive. So if the access point turns around its receiver during that time, it cannot do anything because the receiver is just in the process of switching. And then it will transmit. When it transmits, it cannot receive. So if B accesses the channel here, then the access point cannot receive the data transmitted by B correctly. Okay. So we need to account for one more. In order, yeah, in order to let B transmit success. Okay. So sixteen plus at least one. That's why we considered as possible a good use of the cost of B. Seventeen, eighteen, nineteen, and so.<|im_end|>",
+  "generated_tokens": 215,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.481625175001682,
+  "at": "2026-10-18T05:57:54.381629+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

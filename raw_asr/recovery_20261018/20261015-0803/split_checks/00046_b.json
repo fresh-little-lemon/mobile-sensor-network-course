@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5115.0,
+  "end_seconds": 5180.0,
+  "text": "With the internet, okay. So we have this device-to-device communication network, nodes that communicate with each other, those are the sensors, and then eventually some of them will be connected with a gateway, that is then further connected with the with the server in the internet. Okay, that's the usual network topology. Now as we said, these small sensors have got small batteries, and typically they also transmit at low power because they got this small battery and need to save power, so they need to transmit at low power, and they transmit mean transmit few bits per second, so they don't need a very high battery. Typically, it depends on the application. Why am I saying that? Because for example, if they just need to measure.",
+  "raw_decoded": "language English<asr_text>With the internet, okay. So we have this device-to-device communication network, nodes that communicate with each other, those are the sensors, and then eventually some of them will be connected with a gateway, that is then further connected with the with the server in the internet. Okay, that's the usual network topology. Now as we said, these small sensors have got small batteries, and typically they also transmit at low power because they got this small battery and need to save power, so they need to transmit at low power, and they transmit mean transmit few bits per second, so they don't need a very high battery. Typically, it depends on the application. Why am I saying that? Because for example, if they just need to measure.<|im_end|>",
+  "generated_tokens": 155,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 17.57334338199871,
+  "at": "2026-10-18T06:20:25.180551+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

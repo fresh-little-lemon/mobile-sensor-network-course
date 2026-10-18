@@ -1,0 +1,12 @@
+{
+  "start_seconds": 660.0,
+  "end_seconds": 780.0,
+  "text": "We have that all these values seventeen, eighteen, nineteen, twenty are good choices because they allow B to transmit before C without collision. Similarly to what we said yesterday, instead waiting here five times lots, so selecting twenty one as the protocol does not work, right? Because in that case both B and C will would decrease their bit of counter at the same time, access the channel at the same time and collide. So we cannot consider twenty one. Twenty one is one is not one of the good values. However, and as I was saying, this is very similar to what we did yesterday. But now we have also to consider the possibility that B transmits after C, right? Because there is no condition anymore that says let B transmit before C. In this case, C would transmit before C or after C, right? Both options are okay. So till now we have considered the case where B accesses the channel before C. And in that case, all these values seventeen, eighteen, nineteen.",
+  "raw_decoded": "language English<asr_text>We have that all these values seventeen, eighteen, nineteen, twenty are good choices because they allow B to transmit before C without collision. Similarly to what we said yesterday, instead waiting here five times lots, so selecting twenty one as the protocol does not work, right? Because in that case both B and C will would decrease their bit of counter at the same time, access the channel at the same time and collide. So we cannot consider twenty one. Twenty one is one is not one of the good values. However, and as I was saying, this is very similar to what we did yesterday. But now we have also to consider the possibility that B transmits after C, right? Because there is no condition anymore that says let B transmit before C. In this case, C would transmit before C or after C, right? Both options are okay. So till now we have considered the case where B accesses the channel before C. And in that case, all these values seventeen, eighteen, nineteen.<|im_end|>",
+  "generated_tokens": 207,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.412846177001484,
+  "at": "2026-10-18T05:56:25.901608+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

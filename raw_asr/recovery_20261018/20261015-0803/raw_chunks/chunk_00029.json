@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3190.0,
+  "end_seconds": 3310.0,
+  "text": "Airage. For example, if you buy a battery, you may find in the technical specifications of a battery one ampere hour, right? Or even more, but this is just possible value of battery capacity. One ampere hour is an example of a value of battery capacity and means that if you draw a current of one ampere for one hour out of that battery, then the battery will be exhausted. So the capacity of the battery is such that if you draw out of the battery one ampere of current for one hour, then the battery is dead. Now, for the reasons that we said, it is very important that we use the battery capacity wisely. In particular, because in our devices when they are mobile or even a case of sensors, we want smaller sizes. So our devices cannot be very large. Right, we need to carry them. So they need to be small. Small devices means that also the size of the battery must be small.",
+  "raw_decoded": "language English<asr_text>Airage. For example, if you buy a battery, you may find in the technical specifications of a battery one ampere hour, right? Or even more, but this is just possible value of battery capacity. One ampere hour is an example of a value of battery capacity and means that if you draw a current of one ampere for one hour out of that battery, then the battery will be exhausted. So the capacity of the battery is such that if you draw out of the battery one ampere of current for one hour, then the battery is dead. Now, for the reasons that we said, it is very important that we use the battery capacity wisely. In particular, because in our devices when they are mobile or even a case of sensors, we want smaller sizes. So our devices cannot be very large. Right, we need to carry them. So they need to be small. Small devices means that also the size of the battery must be small.<|im_end|>",
+  "generated_tokens": 199,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.392471155002568,
+  "at": "2026-10-18T06:08:30.868027+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

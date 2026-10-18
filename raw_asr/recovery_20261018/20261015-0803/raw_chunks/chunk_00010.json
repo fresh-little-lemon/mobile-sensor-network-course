@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1100.0,
+  "end_seconds": 1220.0,
+  "text": "As possible, it's a good value of the cutoff of B, seventeen, eighteen, and ten and so on, and then we excluded twenty-one because that would imply a collision between B and C. So twenty-one has to be discarded. Okay, but any other possible values, value till thirty-one, that is the contention window minimum, is okay. Okay, any other doubt or question you may have, yes. I would like to confirm that this backoff will not need to set until ACK finish because it can hear access point when during access point sending the ACK. So it will just, its back backoff will just three. Yes. So back off, it do not need to duration at that time. Yes. Okay. Yeah. Yeah. Okay. Back. Okay, good. So let's go back to the other set of slides.",
+  "raw_decoded": "language English<asr_text>As possible, it's a good value of the cutoff of B, seventeen, eighteen, and ten and so on, and then we excluded twenty-one because that would imply a collision between B and C. So twenty-one has to be discarded. Okay, but any other possible values, value till thirty-one, that is the contention window minimum, is okay. Okay, any other doubt or question you may have, yes. I would like to confirm that this backoff will not need to set until ACK finish because it can hear access point when during access point sending the ACK. So it will just, its back backoff will just three. Yes. So back off, it do not need to duration at that time. Yes. Okay. Yeah. Yeah. Okay. Back. Okay, good. So let's go back to the other set of slides.<|im_end|>",
+  "generated_tokens": 177,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.505936911999015,
+  "at": "2026-10-18T05:58:17.888312+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

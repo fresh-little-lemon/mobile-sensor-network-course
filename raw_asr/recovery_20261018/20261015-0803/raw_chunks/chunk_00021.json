@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2310.0,
+  "end_seconds": 2430.0,
+  "text": "Now, as we commented already, if we select, for example, this one hop route, then we are very fast, right? So no much delay. We have only one transmission and one reception, so limited energy expenditure, for delivering this packet. However, A needs to reach one hop C, right? So the transmission power used by A may need to be higher. And for this choice, might not be convenient for A if A has got little energy. Also, since this transmission is over quite long distance, it will interfere probably with others. That was the other disadvantage, right? That we had for for direct delivery. Instead, if we choose a multi hop route like the green one, we'll have that A can transmit to another dis closer that is close by, so A can use a lower transmission power and save energy. However, we will need two transmissions and two receptions, right? So the overall energy expenditure of the network.",
+  "raw_decoded": "language English<asr_text>Now, as we commented already, if we select, for example, this one hop route, then we are very fast, right? So no much delay. We have only one transmission and one reception, so limited energy expenditure, for delivering this packet. However, A needs to reach one hop C, right? So the transmission power used by A may need to be higher. And for this choice, might not be convenient for A if A has got little energy. Also, since this transmission is over quite long distance, it will interfere probably with others. That was the other disadvantage, right? That we had for for direct delivery. Instead, if we choose a multi hop route like the green one, we'll have that A can transmit to another dis closer that is close by, so A can use a lower transmission power and save energy. However, we will need two transmissions and two receptions, right? So the overall energy expenditure of the network.<|im_end|>",
+  "generated_tokens": 196,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.555154708999908,
+  "at": "2026-10-18T06:02:51.258876+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

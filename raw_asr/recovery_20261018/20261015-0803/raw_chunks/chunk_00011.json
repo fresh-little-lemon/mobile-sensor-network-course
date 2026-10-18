@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1210.0,
+  "end_seconds": 1330.0,
+  "text": "So we already started this set of slides, and we started discussing the main issues. You remember that? So that's the last slide that we discussed yesterday. So we have multi-hop communications as we said, and we highlighted the advantages and disadvantages of multi-hop communications. One thing that we also need to specify in this case is that so when we have device-to-device communication networks, nodes as we now may deliver traffic using this multi-hop communication approach, right? So they don't need to immediately say deliver their packet in in one hop, but they can use intermediate nodes to relay the traffic packets. And we already said well, of course this means that our nodes need to have implemented inside also the network layer, right? Where we perform routing, that is IP layer in.",
+  "raw_decoded": "language English<asr_text>So we already started this set of slides, and we started discussing the main issues. You remember that? So that's the last slide that we discussed yesterday. So we have multi-hop communications as we said, and we highlighted the advantages and disadvantages of multi-hop communications. One thing that we also need to specify in this case is that so when we have device-to-device communication networks, nodes as we now may deliver traffic using this multi-hop communication approach, right? So they don't need to immediately say deliver their packet in in one hop, but they can use intermediate nodes to relay the traffic packets. And we already said well, of course this means that our nodes need to have implemented inside also the network layer, right? Where we perform routing, that is IP layer in.<|im_end|>",
+  "generated_tokens": 161,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 20.255221540999628,
+  "at": "2026-10-18T05:58:38.144172+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

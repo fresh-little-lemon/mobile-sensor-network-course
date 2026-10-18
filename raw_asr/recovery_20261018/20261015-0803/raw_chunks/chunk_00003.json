@@ -1,0 +1,12 @@
+{
+  "start_seconds": 330.0,
+  "end_seconds": 450.0,
+  "text": "C will have two contend for the channel, and we do that by performing a backoff procedure. Okay, now since we are always assuming that our transmissions may fail only because of collisions, because the channel conditions are always good, as we said yesterday. Here, by assuming that B just decreases its backoff counter, there is no collision, right? So A's transmission is going to be successful, and the access point will transmit the acknowledgement back to A. Now, when the access point transmits the acknowledgement, B can hear the access point, right? So it has to freeze its backoff counter because it means that the channel becomes busy for B, and we cannot decrease the backoff counter while the channel is busy. So during this time, B freezes its backoff counter, okay? And actually, said enough. I didn't mark it here, but here there is enough in correspondence of the acknowledgement sent by the access point. Good. Now we are done with the transmission by A. Now we have again the MC contending for the channel, right? So if we make.",
+  "raw_decoded": "language English<asr_text>C will have two contend for the channel, and we do that by performing a backoff procedure. Okay, now since we are always assuming that our transmissions may fail only because of collisions, because the channel conditions are always good, as we said yesterday. Here, by assuming that B just decreases its backoff counter, there is no collision, right? So A's transmission is going to be successful, and the access point will transmit the acknowledgement back to A. Now, when the access point transmits the acknowledgement, B can hear the access point, right? So it has to freeze its backoff counter because it means that the channel becomes busy for B, and we cannot decrease the backoff counter while the channel is busy. So during this time, B freezes its backoff counter, okay? And actually, said enough. I didn't mark it here, but here there is enough in correspondence of the acknowledgement sent by the access point. Good. Now we are done with the transmission by A. Now we have again the MC contending for the channel, right? So if we make.<|im_end|>",
+  "generated_tokens": 225,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.04549185400174,
+  "at": "2026-10-18T05:54:54.918680+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5500.0,
+  "end_seconds": 5620.0,
+  "text": "We get from that that our sensor network network will provide us with a set of measurements, right? They are samples, they are discrete because they are values taken at certain point in time, certain point in space. What you need to do is to use all these measurements and reconstruct this continuous signal. So you have to get these discrete values, and it's like for example interpolating the values, the discrete values, and be able to get a continuous signal. You know what interpolation is, right? Okay, so that's essentially the job of this signal processing unit here. Get the samples and locally using the samples of in this case a single sensor tries to reconstruct the physical field that we want to get temperature, humidity, light, and so on. Okay, good. Let's stop here for the long break, and then we will continue by describing the other components of a sensor.",
+  "raw_decoded": "language English<asr_text>We get from that that our sensor network network will provide us with a set of measurements, right? They are samples, they are discrete because they are values taken at certain point in time, certain point in space. What you need to do is to use all these measurements and reconstruct this continuous signal. So you have to get these discrete values, and it's like for example interpolating the values, the discrete values, and be able to get a continuous signal. You know what interpolation is, right? Okay, so that's essentially the job of this signal processing unit here. Get the samples and locally using the samples of in this case a single sensor tries to reconstruct the physical field that we want to get temperature, humidity, light, and so on. Okay, good. Let's stop here for the long break, and then we will continue by describing the other components of a sensor.<|im_end|>",
+  "generated_tokens": 183,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 24.214881152998714,
+  "at": "2026-10-18T06:22:14.384504+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

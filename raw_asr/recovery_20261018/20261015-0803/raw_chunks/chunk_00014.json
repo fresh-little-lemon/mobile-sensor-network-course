@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1540.0,
+  "end_seconds": 1660.0,
+  "text": "But why? Why do I have to consume my precious battery for that kind? Yeah, right. So, so depending on the type of networks that we have got, this may be a problem. In in military environment or or when we have emergency squads, in that kind of environments, right, the users are there to complete a mission. So they must relay packets that come from other devices. Okay, so they are configured to accomplish the mission and they had to. But in civil applications, this concept of multi-hop communications may not work, right? Because those nodes that should relay the packets, the intermediate nodes that should relay the packets, may not be willing to do so. Because we users are in a complete selfish. Okay, so there have been developed algorithms to favor the cooperation among the nodes. Typically, they are based on monetary incentives. So an application that wants to exploit this approach to deliver traffic data packets.",
+  "raw_decoded": "language English<asr_text>But why? Why do I have to consume my precious battery for that kind? Yeah, right. So, so depending on the type of networks that we have got, this may be a problem. In in military environment or or when we have emergency squads, in that kind of environments, right, the users are there to complete a mission. So they must relay packets that come from other devices. Okay, so they are configured to accomplish the mission and they had to. But in civil applications, this concept of multi-hop communications may not work, right? Because those nodes that should relay the packets, the intermediate nodes that should relay the packets, may not be willing to do so. Because we users are in a complete selfish. Okay, so there have been developed algorithms to favor the cooperation among the nodes. Typically, they are based on monetary incentives. So an application that wants to exploit this approach to deliver traffic data packets.<|im_end|>",
+  "generated_tokens": 191,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 23.54423976199905,
+  "at": "2026-10-18T05:59:56.805835+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

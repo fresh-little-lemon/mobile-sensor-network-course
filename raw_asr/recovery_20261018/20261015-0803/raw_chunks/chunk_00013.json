@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1430.0,
+  "end_seconds": 1550.0,
+  "text": "In order to reach the destination. If you are a relay node, so you are not the source, you are not the destination, the relay node, will use this routing function implemented at its network layer. In order to identifying the next hop. For the packets that it receives, okay. So that's the goal of a routing function implemented at the network layer of our communication nodes. Okay, now, one thing that we need to highlight is the fact that if I am a relay. In general, users are selfish. So why do I have to consume, for example, my battery, to relay traffic of other people? You are in a at the airport, right, sitting there waiting for your your plane, your flight, and you are close to the access point. And there are other people that are far away, and so they would like you to, I mean, your your phone really to relay packets to the access point. You could do that, but why? Why do I have to consume my precious battery for that guy? Right, so, so depending on.",
+  "raw_decoded": "language English<asr_text>In order to reach the destination. If you are a relay node, so you are not the source, you are not the destination, the relay node, will use this routing function implemented at its network layer. In order to identifying the next hop. For the packets that it receives, okay. So that's the goal of a routing function implemented at the network layer of our communication nodes. Okay, now, one thing that we need to highlight is the fact that if I am a relay. In general, users are selfish. So why do I have to consume, for example, my battery, to relay traffic of other people? You are in a at the airport, right, sitting there waiting for your your plane, your flight, and you are close to the access point. And there are other people that are far away, and so they would like you to, I mean, your your phone really to relay packets to the access point. You could do that, but why? Why do I have to consume my precious battery for that guy? Right, so, so depending on.<|im_end|>",
+  "generated_tokens": 223,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.244704412001738,
+  "at": "2026-10-18T05:59:33.260939+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

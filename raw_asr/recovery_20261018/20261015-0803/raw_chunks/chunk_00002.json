@@ -1,0 +1,12 @@
+{
+  "start_seconds": 220.0,
+  "end_seconds": 340.0,
+  "text": "So clearly, we need to avoid the collision, as the problem says. Remember A and B are hidden respect to channel. So if A transmits to B, the channel is idle because it cannot sense A. So we need to be careful here. We have to set B because of B, so that we do not collide with A's packet. Okay. So for now, we just consider. Okay, let's say that B draws a because integer, so a number of timeslots, such that for all this time period, that is the duration of A's transmission, B just decreases its because counter if the channel remains idle. Okay. So for now, let's just let B there. What about C? Well, C at the beginning does not have any packet. So when A transmits its data packet, C can hear it, he can demodulate the packet header transmitted by A, and set its null accordingly. During this null, then he gets a packet from its higher layers, right? So we know that after the null, also C will have two contend for the channel, and we do that by performing a because process.",
+  "raw_decoded": "language English<asr_text>So clearly, we need to avoid the collision, as the problem says. Remember A and B are hidden respect to channel. So if A transmits to B, the channel is idle because it cannot sense A. So we need to be careful here. We have to set B because of B, so that we do not collide with A's packet. Okay. So for now, we just consider. Okay, let's say that B draws a because integer, so a number of timeslots, such that for all this time period, that is the duration of A's transmission, B just decreases its because counter if the channel remains idle. Okay. So for now, let's just let B there. What about C? Well, C at the beginning does not have any packet. So when A transmits its data packet, C can hear it, he can demodulate the packet header transmitted by A, and set its null accordingly. During this null, then he gets a packet from its higher layers, right? So we know that after the null, also C will have two contend for the channel, and we do that by performing a because process.<|im_end|>",
+  "generated_tokens": 238,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.109436713999457,
+  "at": "2026-10-18T05:54:24.872570+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

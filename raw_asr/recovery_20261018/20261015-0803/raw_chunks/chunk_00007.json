@@ -1,0 +1,12 @@
+{
+  "start_seconds": 770.0,
+  "end_seconds": 890.0,
+  "text": "Accesses the channel B for C. And in that case, all these values seventeen, eighteen, nineteen, twenty are good options. But we could also say, well, C may transmit before B. Okay. So indeed, if B selects, for example, twenty-two as a recall integer, then this means that you will have consumed, let's say, sixteen times slots here, five times slots here, and it still has one more. Right. So this means that C will access the channel first because its recall is equal to five. This is a fact. When C transmits at that point, B can set the knob. Freeze its recall counter because remember B and C can hear each other. And then after the dialogue between C and the access point, B will sense the channel as idle for this, resume the decrease of its recall counter. Decrease it by one more times lot and then transmit. That's also a good option because also in these cases B and C will not collide. So twenty-two is a possible recall value. And also twenty-three, twenty-four.",
+  "raw_decoded": "language English<asr_text>Accesses the channel B for C. And in that case, all these values seventeen, eighteen, nineteen, twenty are good options. But we could also say, well, C may transmit before B. Okay. So indeed, if B selects, for example, twenty-two as a recall integer, then this means that you will have consumed, let's say, sixteen times slots here, five times slots here, and it still has one more. Right. So this means that C will access the channel first because its recall is equal to five. This is a fact. When C transmits at that point, B can set the knob. Freeze its recall counter because remember B and C can hear each other. And then after the dialogue between C and the access point, B will sense the channel as idle for this, resume the decrease of its recall counter. Decrease it by one more times lot and then transmit. That's also a good option because also in these cases B and C will not collide. So twenty-two is a possible recall value. And also twenty-three, twenty-four.<|im_end|>",
+  "generated_tokens": 224,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 32.11247795199961,
+  "at": "2026-10-18T05:56:58.014755+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

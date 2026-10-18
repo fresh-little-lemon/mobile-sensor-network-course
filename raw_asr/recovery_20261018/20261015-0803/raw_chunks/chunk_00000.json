@@ -1,0 +1,12 @@
+{
+  "start_seconds": 0.0,
+  "end_seconds": 120.0,
+  "text": "A, which is hidden respect to B, so that it cannot hear the channel, is going to start a little bit later at zero dot zero point one. Okay, so C, we said, is in the middle right between these two transmitters, but we said, it will be able to modulate the header of B's packet and send the null ACK. So, as already highlighted, we have that C will be able to send its null for the expected duration of the dialogue. So, the null covers the packet duration plus C plus ACK. And the packet clearly transmitted by B because it modulated the duration field in B's packet header. Okay, so while these signals are colliding at the access point, C is fine because he has sent its null. Okay, null. Clearly, both A and B collide, so they will not receive any acknowledgement, and they will, instead, after stopping the transmission, will sense the channel, hoping to receive the ACK, but the ACK is not there. So after this timeout, that is, yes.",
+  "raw_decoded": "language English<asr_text>A, which is hidden respect to B, so that it cannot hear the channel, is going to start a little bit later at zero dot zero point one. Okay, so C, we said, is in the middle right between these two transmitters, but we said, it will be able to modulate the header of B's packet and send the null ACK. So, as already highlighted, we have that C will be able to send its null for the expected duration of the dialogue. So, the null covers the packet duration plus C plus ACK. And the packet clearly transmitted by B because it modulated the duration field in B's packet header. Okay, so while these signals are colliding at the access point, C is fine because he has sent its null. Okay, null. Clearly, both A and B collide, so they will not receive any acknowledgement, and they will, instead, after stopping the transmission, will sense the channel, hoping to receive the ACK, but the ACK is not there. So after this timeout, that is, yes.<|im_end|>",
+  "generated_tokens": 219,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.112041167001735,
+  "at": "2026-10-18T05:53:26.580707+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

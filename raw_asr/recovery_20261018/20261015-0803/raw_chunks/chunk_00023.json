@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2530.0,
+  "end_seconds": 2650.0,
+  "text": "Implement sorry, depending on the routing algorithm that we implement at the network layer. A source may not just be able to select the route that its packets will follow. The primary route, but it may be able also to identify to find a backup route. That is, there are algorithms that run at the network layer of our nodes. That may not just be used to identify the route that you would like to take for your packets, but also allows you to find alternative routes that you can store. And use as backup in case the primary route breaks. Remember what we said about the topologies, network topologies. They may vary often, suddenly because links may get disrupted. So a route at a certain point may fail, may stop working because one of the links along the route fails, right? That may happen. If you have a backup route, then immediately you can switch your packets from what was the primary route to the backup route. A lesson advantage, because you don't have to look for another route. You already have a replacement, right? So that that's good.",
+  "raw_decoded": "language English<asr_text>Implement sorry, depending on the routing algorithm that we implement at the network layer. A source may not just be able to select the route that its packets will follow. The primary route, but it may be able also to identify to find a backup route. That is, there are algorithms that run at the network layer of our nodes. That may not just be used to identify the route that you would like to take for your packets, but also allows you to find alternative routes that you can store. And use as backup in case the primary route breaks. Remember what we said about the topologies, network topologies. They may vary often, suddenly because links may get disrupted. So a route at a certain point may fail, may stop working because one of the links along the route fails, right? That may happen. If you have a backup route, then immediately you can switch your packets from what was the primary route to the backup route. A lesson advantage, because you don't have to look for another route. You already have a replacement, right? So that that's good.<|im_end|>",
+  "generated_tokens": 223,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.265232533001836,
+  "at": "2026-10-18T06:03:42.227262+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

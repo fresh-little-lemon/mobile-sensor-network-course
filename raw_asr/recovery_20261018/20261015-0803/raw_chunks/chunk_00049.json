@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5390.0,
+  "end_seconds": 5510.0,
+  "text": "Clearly, and also it may vary in space. So the physical field that we are sensing is depending on time, as well as on x, y, and z, where these are the spatial coordinates. So we can represent this physical field as a signal that changes in time and space. Now what this sensing board does is to sample this signal, right? When we have a sensor network over an area, so this is this spatial area, we have sensors deployed on this spatial area, each of them sensing, for example, the temperature and collecting their four measurements, right? The samples. And these samples, the four, this will be the location x one, y one, z one, this will be location x two, y two, z two, etc. Each of them will sense the signal at different point in space, and then over time, clearly at different points in time. So what we get from that, that our sensor network network will provide us with a set of.",
+  "raw_decoded": "language English<asr_text>Clearly, and also it may vary in space. So the physical field that we are sensing is depending on time, as well as on x, y, and z, where these are the spatial coordinates. So we can represent this physical field as a signal that changes in time and space. Now what this sensing board does is to sample this signal, right? When we have a sensor network over an area, so this is this spatial area, we have sensors deployed on this spatial area, each of them sensing, for example, the temperature and collecting their four measurements, right? The samples. And these samples, the four, this will be the location x one, y one, z one, this will be location x two, y two, z two, etc. Each of them will sense the signal at different point in space, and then over time, clearly at different points in time. So what we get from that, that our sensor network network will provide us with a set of.<|im_end|>",
+  "generated_tokens": 204,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.362340661999042,
+  "at": "2026-10-18T06:21:50.168954+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

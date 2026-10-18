@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5280.0,
+  "end_seconds": 5400.0,
+  "text": "But as you can see, there are inside other modules, right? So let's look at the um or how the sensors are composed and on what. So they have a sensing board. This is the actual sensor, right? The sensing board, and the characteristics of this sensor board varies depending on what type of physical field, a physical phenomenon. We need to measure. So if it's temperature, humidity, lightning, there are different sensors type of sensing boards. Now this sensor senses physically the phenomenon like light, as I was saying, temperature, etc. And then reports this value to this module that performs signal processing. Now why do we need signal processing there? Because our sensor is going to sample a phenomenon a physical field, right? Like light or temperature. Now the physical field, the phenomenon is represented by typically a continuous signal. So physically, what we are sensing is continuous, and it can evolve in time. Clearly, and also it may vary in space. So the physical field that.",
+  "raw_decoded": "language English<asr_text>But as you can see, there are inside other modules, right? So let's look at the um or how the sensors are composed and on what. So they have a sensing board. This is the actual sensor, right? The sensing board, and the characteristics of this sensor board varies depending on what type of physical field, a physical phenomenon. We need to measure. So if it's temperature, humidity, lightning, there are different sensors type of sensing boards. Now this sensor senses physically the phenomenon like light, as I was saying, temperature, etc. And then reports this value to this module that performs signal processing. Now why do we need signal processing there? Because our sensor is going to sample a phenomenon a physical field, right? Like light or temperature. Now the physical field, the phenomenon is represented by typically a continuous signal. So physically, what we are sensing is continuous, and it can evolve in time. Clearly, and also it may vary in space. So the physical field that.<|im_end|>",
+  "generated_tokens": 207,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 26.976922398996976,
+  "at": "2026-10-18T06:21:21.805946+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

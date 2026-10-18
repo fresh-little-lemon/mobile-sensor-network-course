@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4510.0,
+  "end_seconds": 4630.0,
+  "text": "Based on the information that he has got, and independently of the others, right? That's what distributed decision algorithm means. Right, and it's the opposite of centralized decision, where instead there is only one node that has got global knowledge and makes the decisions for everyone. Okay, so our system are going to be distributed, and we will need, as I said, distributed decision algorithms. Now, before, um, moving to sensor networks, okay, let me just remind you about technologies that are examples of device-to-device communication nodes. We already mentioned that, for example, Wi-Fi, that is a wireless LAN technology. In the configuration of the network architecture as ad hoc, is a technology that enables device-to-device communication. Right, when we have the ad hoc network architecture, then we enable that. We already mentioned that also cellular communications by standard, can accommodate device-to-device communications. We are not used to that in practice, but by standard, they are allowed to do that. Other systems that we mentioned are the vehicular.",
+  "raw_decoded": "language English<asr_text>Based on the information that he has got, and independently of the others, right? That's what distributed decision algorithm means. Right, and it's the opposite of centralized decision, where instead there is only one node that has got global knowledge and makes the decisions for everyone. Okay, so our system are going to be distributed, and we will need, as I said, distributed decision algorithms. Now, before, um, moving to sensor networks, okay, let me just remind you about technologies that are examples of device-to-device communication nodes. We already mentioned that, for example, Wi-Fi, that is a wireless LAN technology. In the configuration of the network architecture as ad hoc, is a technology that enables device-to-device communication. Right, when we have the ad hoc network architecture, then we enable that. We already mentioned that also cellular communications by standard, can accommodate device-to-device communications. We are not used to that in practice, but by standard, they are allowed to do that. Other systems that we mentioned are the vehicular.<|im_end|>",
+  "generated_tokens": 215,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.496222579997266,
+  "at": "2026-10-18T06:14:29.124024+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

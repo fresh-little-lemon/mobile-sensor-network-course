@@ -1,0 +1,12 @@
+{
+  "start_seconds": 5549.5929375,
+  "end_seconds": 5639.5929375,
+  "text": "To get a continuous signal, you know what interpolation is, right? Okay, so that's essentially the job of this signal processing unit here. Get the samples, and locally using the samples of in this case a single sensor, tries to reconstruct the physical field that we want to get temperature, humidity, light, and so on. Okay, good. Let's stop here for the long break, and then we will continue by describing the other components of a sensor. Oh, you have this new one, the new one. Oh, the original is电视，现在是那个新卧白板。",
+  "raw_decoded": "language English<asr_text>To get a continuous signal, you know what interpolation is, right? Okay, so that's essentially the job of this signal processing unit here. Get the samples, and locally using the samples of in this case a single sensor, tries to reconstruct the physical field that we want to get temperature, humidity, light, and so on. Okay, good. Let's stop here for the long break, and then we will continue by describing the other components of a sensor. Oh, you have this new one, the new one. Oh, the original is电视，现在是那个新卧白板。<|im_end|>",
+  "generated_tokens": 125,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 14.499263670997607,
+  "at": "2026-10-18T06:22:31.684162+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

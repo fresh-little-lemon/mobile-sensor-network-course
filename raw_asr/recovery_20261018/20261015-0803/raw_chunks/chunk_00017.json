@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1870.0,
+  "end_seconds": 1990.0,
+  "text": "Many times, and this application may be anything, can be, um, WeChat, can be, TikTok, can be anything. It generates packets, data traffic packets, and then it sends this data packets downward. There will be the network layer. Then it sends the packet. It sends downward to the MAC. The MAC has been already takes care of, determining when the packet should be actually transmitted. Over the air, and when the MAC decides that the packet needs to be transmitted, it sends the packet to the physical layer. And the physical layer will actually take care of the transmission, right? So we say the physical layer is a mix of hardware, antenna, receiver, and software. While the others, the other layers on top, are software functions. Okay. So what we are going then, to comment here, is indeed as I was saying about the functions that are implemented. Ah, in software, are the network layer. Okay, this layer is called network. As I said, in internet, we have IP also implemented there. Okay. Now we already mentioned that, a very important function that is.",
+  "raw_decoded": "language English<asr_text>Many times, and this application may be anything, can be, um, WeChat, can be, TikTok, can be anything. It generates packets, data traffic packets, and then it sends this data packets downward. There will be the network layer. Then it sends the packet. It sends downward to the MAC. The MAC has been already takes care of, determining when the packet should be actually transmitted. Over the air, and when the MAC decides that the packet needs to be transmitted, it sends the packet to the physical layer. And the physical layer will actually take care of the transmission, right? So we say the physical layer is a mix of hardware, antenna, receiver, and software. While the others, the other layers on top, are software functions. Okay. So what we are going then, to comment here, is indeed as I was saying about the functions that are implemented. Ah, in software, are the network layer. Okay, this layer is called network. As I said, in internet, we have IP also implemented there. Okay. Now we already mentioned that, a very important function that is.<|im_end|>",
+  "generated_tokens": 233,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.638318675002665,
+  "at": "2026-10-18T06:01:09.591317+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

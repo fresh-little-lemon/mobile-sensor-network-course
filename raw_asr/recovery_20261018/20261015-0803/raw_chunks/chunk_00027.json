@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2970.0,
+  "end_seconds": 3090.0,
+  "text": "Mention our nodes, the nodes that are part of our network, are typically mobile nodes. Okay, they can be users, the users' devices, they can be robots. Of course, not all our nodes will be mobile. We may also have sensors that often are deployed on the terrain or in an environment and they are stationary. Other times, these sensors are actually on the robots. Of course, with the robots. Then we may have as nodes UAVs that fly. So as we already said, there are many different ways our nodes can move. But all of them are battery powered. Okay, battery powered means that they don't need to be, of course, to be plugged in a socket to gain energy, but they have the battery that provides them with the required required energy. Even well, this is clearly necessary when the device is mobile because if it's mobile, it cannot be attached with a cable to the socket. Clearly, so mobility implies necessarily that device must be battery powered. But also, for example, sensors, stationary sensors, are battery powered why? Because they are deployed in scenarios where you don't want.",
+  "raw_decoded": "language English<asr_text>Mention our nodes, the nodes that are part of our network, are typically mobile nodes. Okay, they can be users, the users' devices, they can be robots. Of course, not all our nodes will be mobile. We may also have sensors that often are deployed on the terrain or in an environment and they are stationary. Other times, these sensors are actually on the robots. Of course, with the robots. Then we may have as nodes UAVs that fly. So as we already said, there are many different ways our nodes can move. But all of them are battery powered. Okay, battery powered means that they don't need to be, of course, to be plugged in a socket to gain energy, but they have the battery that provides them with the required required energy. Even well, this is clearly necessary when the device is mobile because if it's mobile, it cannot be attached with a cable to the socket. Clearly, so mobility implies necessarily that device must be battery powered. But also, for example, sensors, stationary sensors, are battery powered why? Because they are deployed in scenarios where you don't want.<|im_end|>",
+  "generated_tokens": 235,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.6652206760009,
+  "at": "2026-10-18T06:07:33.111859+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

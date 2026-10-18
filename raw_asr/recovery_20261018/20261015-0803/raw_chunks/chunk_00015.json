@@ -1,0 +1,12 @@
+{
+  "start_seconds": 1650.0,
+  "end_seconds": 1770.0,
+  "text": "This approach to deliver traffic data packets may actually reward the intermediate users that act as relays with money or vouchers or something as it. So there are actually techniques and algorithms that have been developed specifically to ensure that intermediate nodes may be willing to relay the data packets. So in the following, we will assume that these algorithms are in place, and therefore we will assume that our relay nodes will always be willing to relay traffic if they have to. Okay, so we will not consider the case where an intermediate user, intermediate node, discards packets because he doesn't want to further relay them towards the destination. Okay, so that's our our assumption to further clarify the routing function that is implemented at the network layer. Right, so we have here a generic node, communication node.",
+  "raw_decoded": "language English<asr_text>This approach to deliver traffic data packets may actually reward the intermediate users that act as relays with money or vouchers or something as it. So there are actually techniques and algorithms that have been developed specifically to ensure that intermediate nodes may be willing to relay the data packets. So in the following, we will assume that these algorithms are in place, and therefore we will assume that our relay nodes will always be willing to relay traffic if they have to. Okay, so we will not consider the case where an intermediate user, intermediate node, discards packets because he doesn't want to further relay them towards the destination. Okay, so that's our our assumption to further clarify the routing function that is implemented at the network layer. Right, so we have here a generic node, communication node.<|im_end|>",
+  "generated_tokens": 161,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 21.347963309999614,
+  "at": "2026-10-18T06:00:18.154388+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

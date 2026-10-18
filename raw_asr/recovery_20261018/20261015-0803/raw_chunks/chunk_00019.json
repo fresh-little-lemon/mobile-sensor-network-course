@@ -1,0 +1,12 @@
+{
+  "start_seconds": 2090.0,
+  "end_seconds": 2210.0,
+  "text": "So if we have a direct link, communication link between A and C and the packets are intended for C, C should be the final destination of those packets. Then of course, as we know already, one possibility is to use this direct link. And in this case, the route that we will use will be a one-hop route. However, if A can also communicate with B, and B can communicate with C, another possibility for A is that A network layer routes decides to use this route, the green one, and send the packets first to B and then B to C. In this case, the selected route clearly includes two hops. Another possibility, if A has got a communication link with D, and D has got a communication link with E, and E has got a communication link with C, is that A's routing function implemented at its network layer will select the blue route.",
+  "raw_decoded": "language English<asr_text>So if we have a direct link, communication link between A and C and the packets are intended for C, C should be the final destination of those packets. Then of course, as we know already, one possibility is to use this direct link. And in this case, the route that we will use will be a one-hop route. However, if A can also communicate with B, and B can communicate with C, another possibility for A is that A network layer routes decides to use this route, the green one, and send the packets first to B and then B to C. In this case, the selected route clearly includes two hops. Another possibility, if A has got a communication link with D, and D has got a communication link with E, and E has got a communication link with C, is that A's routing function implemented at its network layer will select the blue route.<|im_end|>",
+  "generated_tokens": 184,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 22.39997387100084,
+  "at": "2026-10-18T06:01:58.780165+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

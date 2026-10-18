@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3410.0,
+  "end_seconds": 3530.0,
+  "text": "Environment. So besides the practical need of using our devices for a long time, in spite of the fact that we have got small batteries, there is also the broader goal of being sustainable. And being sustainable means also that we need to reduce energy consumption. Okay. So for all these reasons, as we said, a very important issue in device-to-device communications is to reduce power and therefore energy consumption and to manage to be efficient, right? To be efficient from the energy point of view. Now, a very common approach, besides trying to design all our functions, at the physical layer, MAC layer, network layer, transport layer, and so on, so that we reduce as much as possible power consumption. A very common approach in device-to-device communication in terms is to let our devices go to sleep when we don't need them to work. Okay. So think for example of WiFi. WiFi technology is not very sustainable. Why? Because, as we mentioned, our WiFi nodes are always awake if they don't transmit or receive.",
+  "raw_decoded": "language English<asr_text>Environment. So besides the practical need of using our devices for a long time, in spite of the fact that we have got small batteries, there is also the broader goal of being sustainable. And being sustainable means also that we need to reduce energy consumption. Okay. So for all these reasons, as we said, a very important issue in device-to-device communications is to reduce power and therefore energy consumption and to manage to be efficient, right? To be efficient from the energy point of view. Now, a very common approach, besides trying to design all our functions, at the physical layer, MAC layer, network layer, transport layer, and so on, so that we reduce as much as possible power consumption. A very common approach in device-to-device communication in terms is to let our devices go to sleep when we don't need them to work. Okay. So think for example of WiFi. WiFi technology is not very sustainable. Why? Because, as we mentioned, our WiFi nodes are always awake if they don't transmit or receive.<|im_end|>",
+  "generated_tokens": 213,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 27.422836005000136,
+  "at": "2026-10-18T06:09:25.403626+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

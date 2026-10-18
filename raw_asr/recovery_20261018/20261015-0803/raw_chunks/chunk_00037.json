@@ -1,0 +1,12 @@
+{
+  "start_seconds": 4070.0,
+  "end_seconds": 4190.0,
+  "text": "You reduce the amount of power that they consume, which is good. The drawback here may be that if some links get disrupted, they fail, then the network may get disconnected. So some nodes may get isolated. If some links get disrupted, because we don't have so many, right? We don't have so much nodes. Okay, that said, there are many scientific works that have been proposed in order to optimize also the scheduling of activity of the nodes. So there are many works that try to optimize the power control function that we looked at before, but also many works that try to optimize the schedule of activity of the nodes. As I said, this means that we want to optimize when a device should be active or it should be sleeping, because when it sleeps, it cannot receive, it cannot transmit. So it might miss some traffic. If someone needs to deliver transmit traffic to that node and that node is sleeping, the traffic will be lost, right? So there is a trade-off here between sleeping and saving energy, and being active and receiving and handling traffic. It's it's a.",
+  "raw_decoded": "language English<asr_text>You reduce the amount of power that they consume, which is good. The drawback here may be that if some links get disrupted, they fail, then the network may get disconnected. So some nodes may get isolated. If some links get disrupted, because we don't have so many, right? We don't have so much nodes. Okay, that said, there are many scientific works that have been proposed in order to optimize also the scheduling of activity of the nodes. So there are many works that try to optimize the power control function that we looked at before, but also many works that try to optimize the schedule of activity of the nodes. As I said, this means that we want to optimize when a device should be active or it should be sleeping, because when it sleeps, it cannot receive, it cannot transmit. So it might miss some traffic. If someone needs to deliver transmit traffic to that node and that node is sleeping, the traffic will be lost, right? So there is a trade-off here between sleeping and saving energy, and being active and receiving and handling traffic. It's it's a.<|im_end|>",
+  "generated_tokens": 228,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 30.32838513399838,
+  "at": "2026-10-18T06:12:29.416980+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

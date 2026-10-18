@@ -1,0 +1,12 @@
+{
+  "start_seconds": 440.0,
+  "end_seconds": 560.0,
+  "text": "Now we have again B and C conferring for the channel, right? So, if we make computation, we see that the, the cost that B needs to draw must be greater than sixteen, because sixteen times slots are, those needed to cover the time during which a transmits. So for sure, the because that B draws needs to be greater than sixteen. Okay, what can we say at this point? Well, after the acknowledgement sent by the access point, we have that both B and C sends the channel for diffs to make sure that the channel is idle, and then they resume the decrease of their, because counter. For C, we know that the because that it has drawn is equal to five. So for sure, C will have to decrease its because counter for five times slots, as long as the channel remains idle. Okay, so what options do we have in terms of because values for B? We said it must be greater than sixteen, so it can be seventeen, right? This means sixteen times slots decreased here plus one here, and if that is our choice, then we have that B decreases the because.",
+  "raw_decoded": "language English<asr_text>Now we have again B and C conferring for the channel, right? So, if we make computation, we see that the, the cost that B needs to draw must be greater than sixteen, because sixteen times slots are, those needed to cover the time during which a transmits. So for sure, the because that B draws needs to be greater than sixteen. Okay, what can we say at this point? Well, after the acknowledgement sent by the access point, we have that both B and C sends the channel for diffs to make sure that the channel is idle, and then they resume the decrease of their, because counter. For C, we know that the because that it has drawn is equal to five. So for sure, C will have to decrease its because counter for five times slots, as long as the channel remains idle. Okay, so what options do we have in terms of because values for B? We said it must be greater than sixteen, so it can be seventeen, right? This means sixteen times slots decreased here plus one here, and if that is our choice, then we have that B decreases the because.<|im_end|>",
+  "generated_tokens": 234,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 29.227460335001524,
+  "at": "2026-10-18T05:55:24.146781+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

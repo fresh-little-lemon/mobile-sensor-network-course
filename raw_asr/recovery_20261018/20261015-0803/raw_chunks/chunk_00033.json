@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3630.0,
+  "end_seconds": 3750.0,
+  "text": "Very, very much its power consumption, because we switch off the transceiver. And we may also switch off actually the computing unit of the device. So at that point, the power consumed by the device becomes very, very low. And in this way, by letting the device be awake only when needed, we can save a lot of energy and power. So this is a very, very good approach. The other one that we often use in communication in a device-device communication networks is try and reduce transmit power as already mentioned. Okay, if you are a transmitter, the lower the power you use to transmit, the more you save energy. So these are essentially these the approaches that are actively used. To dive a little bit more into this, this is just also a graphical representation of what we already said. So the fact that if you are able to perform a short range communication, then your transmitter, for example, A, can reduce the transmit power because it needs just to reach a neighbor that is close by. So this allows A to save power.",
+  "raw_decoded": "language English<asr_text>Very, very much its power consumption, because we switch off the transceiver. And we may also switch off actually the computing unit of the device. So at that point, the power consumed by the device becomes very, very low. And in this way, by letting the device be awake only when needed, we can save a lot of energy and power. So this is a very, very good approach. The other one that we often use in communication in a device-device communication networks is try and reduce transmit power as already mentioned. Okay, if you are a transmitter, the lower the power you use to transmit, the more you save energy. So these are essentially these the approaches that are actively used. To dive a little bit more into this, this is just also a graphical representation of what we already said. So the fact that if you are able to perform a short range communication, then your transmitter, for example, A, can reduce the transmit power because it needs just to reach a neighbor that is close by. So this allows A to save power.<|im_end|>",
+  "generated_tokens": 218,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.08410706200084,
+  "at": "2026-10-18T06:10:29.038920+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}

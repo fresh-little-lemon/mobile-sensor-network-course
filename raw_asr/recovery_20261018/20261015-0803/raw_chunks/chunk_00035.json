@@ -1,0 +1,12 @@
+{
+  "start_seconds": 3850.0,
+  "end_seconds": 3970.0,
+  "text": "Etc. But it shouldn't be too high, right? Because otherwise, you consume too much without any need. So it should be just the right amount of transmit power that allows you to reach your intended receiver. This is called power control. And in all our wireless devices, we have this function of power control implemented. Depending on where our intended receiver is, we set the transmit power right to the value that allows you to reach your receiver without consuming too much. Okay, that's power control. So as I said, this is a very important function. And indeed, here you have, let's say, a graphical representation of the risks that you may incur when the power control function is not there or doesn't work properly. Right? So for example, if you set the transmit power to a value that is too high, if you represent your network as a graph with vertices and edges, where the edges are the communication links, if the nodes use too much power transmit power, they can reach many other nodes. Right? In your graph, you will have plenty of edges.",
+  "raw_decoded": "language English<asr_text>Etc. But it shouldn't be too high, right? Because otherwise, you consume too much without any need. So it should be just the right amount of transmit power that allows you to reach your intended receiver. This is called power control. And in all our wireless devices, we have this function of power control implemented. Depending on where our intended receiver is, we set the transmit power right to the value that allows you to reach your receiver without consuming too much. Okay, that's power control. So as I said, this is a very important function. And indeed, here you have, let's say, a graphical representation of the risks that you may incur when the power control function is not there or doesn't work properly. Right? So for example, if you set the transmit power to a value that is too high, if you represent your network as a graph with vertices and edges, where the edges are the communication links, if the nodes use too much power transmit power, they can reach many other nodes. Right? In your graph, you will have plenty of edges.<|im_end|>",
+  "generated_tokens": 224,
+  "last_token": 151645,
+  "flags": [],
+  "inference_seconds": 28.540381417999015,
+  "at": "2026-10-18T06:11:25.056481+00:00",
+  "source_sha256": "af02e9c0f50ecb8f9d7280192e5ee218adfe493f254d00a335a93eacb40ca76e"
+}
