@@ -1,0 +1,13 @@
+{
+  "method": "PATCH",
+  "path": "/open-apis/docx/v1/documents/BSkQdCu5LoOPopxZWPGcbeJhnhf/blocks/batch_update",
+  "params": {
+    "document_revision_id": 116,
+    "client_token": "3713afd0-dbb7-4c41-99db-15eef6b6d936"
+  },
+  "started_at": "2026-10-18T15:44:26.816973+00:00",
+  "request_file": "batch-03-patch-request.json",
+  "completed_at": "2026-10-18T15:44:32.373624+00:00",
+  "exit_code": 0,
+  "response_sha256": "68af8dcc82a9a3494c408e639e92f352846ba2f9bf38558cf1a1f7faca44f8e0"
+}

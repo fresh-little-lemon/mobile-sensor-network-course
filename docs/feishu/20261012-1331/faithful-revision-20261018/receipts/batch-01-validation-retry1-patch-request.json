@@ -1,0 +1,356 @@
+{
+  "requests": [
+    {
+      "block_id": "doxcnYwPV6wJgi1S8geP75FfU5g",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:00:03",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nAnd we said that whenever [a/the unclear] Wi-Fi node needs to recontend for the channel, because this node has to retransmit [a/the unclear] packet that failed, then this node will perform the backoff procedure.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "而且我们说过，每当[一个/这个待听辨] Wi-Fi 节点需要重新竞争信道，因为这个节点必须重新发送[一个/这个待听辨]发送失败的数据包，那么这个节点就会执行退避过程。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcn7SsOH6o33jPzXgM5V6cyXd",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:00:29",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nAnd we explained how the backoff procedure works. Okay? Now, we [said/send unclear] that first a node needs to wait for the channel to be idle for DIFS. Then [it/you unclear] will draw an integer out of a range of possible values with equal probability, selecting each of them with equal probability. And this range of values goes from zero to the contention window parameter, okay? The first time that we use the backoff procedure to transmit a packet, we set this contention window parameter to its minimum value. And then, if we need to perform the backoff procedure again in order to transmit this packet, because, for example, we fail and fail and fail, every time we will increase the value of contention window. And we said, roughly speaking, this value of contention window doubles every time, right? Now, to be more precise, the relation according to which the CW parameter increases is the following. So, CW value is actually expressed as a power of two minus one, where this exponent is called backoff exponent.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "而且我们解释过退避过程是怎样工作的。好吗？现在，我们[“说过/发送”待听辨]，首先一个节点需要等待信道空闲一个 DIFS。然后[它/你待听辨]会以相等的概率从一组可能的值中抽取一个整数，以相等的概率选择其中的每一个。而且这个取值范围从零到竞争窗口参数，好吗？第一次我们使用退避过程来发送一个数据包时，我们把这个竞争窗口参数设为它的最小值。然后，如果我们需要再次执行退避过程来发送这个数据包，因为，例如，我们失败、失败、再失败，每一次我们都会增大竞争窗口的值。而且我们说过，粗略地说，竞争窗口的这个值每次都会翻倍，对吧？现在，更准确地说，CW 参数据以增大的关系是下面这个。所以，CW 的值实际上表示为二的一个幂减一，其中这个指数叫作退避指数。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnUQ7t1Sai3ADMWsg75dZvye",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:02:48",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nOkay? So, for example, the first time that we use the backoff procedure for a data packet, we set the, so the first time, we set the backoff exponent to the backoff exponent minimum, okay? Now, by default, in the early versions of Wi-Fi, this is equal to five, okay? This is an example that refers to the early versions of Wi-Fi, okay? Now, so, if we take this example here, this example value here, we see that, as we said last time, the first time that we use this contention window minimum, the value will be two to the power of the minimum exponent minus one. Since this is five, right, this will be two to the five minus one, which is 31, right? So that's why, yes, on Saturday, when we [introduce/produce tense unclear] this procedure, we said, well, let's consider the minimum contention window 31, okay? Then, the second time that we use the backoff procedure for the same packet, we are going to increase the backoff exponent. So, if this was our first value, the second time, [sorry unclear], we'll have second value, right, that is equal to what, is equal to the previous one plus one.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "好吗？所以，例如，第一次我们对一个数据包使用退避过程时，我们设置这，所以第一次，我们把退避指数设为退避指数最小值，好吗？现在，默认地，在早期版本的 Wi-Fi 中，这等于五，好吗？这是一个指的是早期版本的 Wi-Fi 的例子，好吗？现在，所以，如果我们采用这里的这个例子，这里的这个示例值，我们看到，正如我们上次说过的，第一次我们使用这个竞争窗口最小值时，这个值会是二的最小指数次方减一。因为这是五，对吧，这会是二的五次方减一，也就是 31，对吧？所以这就是为什么，是的，在星期六，当我们[“介绍/产生”及其时态待听辨]这个过程时，我们说，嗯，让我们考虑最小竞争窗口 31，好吗？然后，第二次我们对同一个数据包使用退避过程时，我们要增大退避指数。所以，如果这是我们的第一个值，第二次，[“抱歉”待听辨]，我们会有第二个值，对吧，它等于什么，等于前一个值加一。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnSFMtuDH3wqf3m1ZJ1FECpf",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:05:24",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nOkay? So this means that the second time that we have to compute the contention window, this will be equal to two to the power of the, the backoff exponent [on/at unclear] the second step minus one, which is two to the backoff exponent [on/at unclear] the first step increased by one minus one, right?\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "好吗？所以这意味着，第二次我们必须计算竞争窗口时，这会等于二的这个、这个[on/at 介词待听辨]第二步的退避指数次方减一，这就是二的“[on/at 介词待听辨]第一步的退避指数加一”次方减一，对吧？",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcn3oscwOg3HvqxY1TQD4dKfb",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:06:01",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nSo now this is two to the power, in our example, to the power of six minus one, which is 63, okay? So this is the way we increase the contention window minimum value every time till, as we said, we reach this value, CW max. After we reach this value, we do not increase [the/this unclear] CW value any longer [beyond/behind unclear] this value, even if we need to still perform the backoff procedure for the same time.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "所以现在这是二的次方，在我们的例子中，是六次方减一，也就是 63，好吗？所以这就是我们每次增大竞争窗口最小值的方式，直到，正如我们说过的，我们达到这个值，CW max。在我们达到这个值之后，我们不再把[限定词待听辨] CW 值增大到这个值的[以上/后面待听辨]，即使我们还需要为同一次执行退避过程。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcn89Uuu4pPtyRwDp131FVbVb",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:06:57",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nSo, the general, [ah unclear] the general rule is that at step i, the generic step i, we set the backoff exponent [at/as unclear] step i equal to the backoff exponent [at/and unclear] the previous step increased by one, right?\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "所以，一般的，[语气词待听辨]一般规则是，在第 i 步，任意的第 i 步，我们把[在/作为待听辨]第 i 步的退避指数设为[在/以及待听辨]前一步的退避指数增加一，对吧？",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnJ4V6DfRd4wtrg1ZLZ38BQd",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:07:28",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nAnd at the generic step i, the contention window will be computed as two to the power of the backoff exponent at step i minus one. Okay, this is the general expression that we use to compute the, the backoff exponent and the corresponding contention window at each step. Okay, that said, therefore we understand that [every time/at every time unclear] that we need to perform the backoff for a given data packet, we roughly double the contention window, as we said. Okay, so we are going to [enlarge/launch unclear] the possible values, integer values, that we can draw to compute [backoff repetition unclear] time. Okay, so before explaining why we do that, okay, why the [standard said/standards say unclear] let's double the contention window every time we need to perform a backoff to transmit [a/the unclear] packet. So before explaining the reason because we do that, let me mention what was reported in one of the earlier slides.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "而且在任意的第 i 步，竞争窗口将被计算为二的第 i 步的退避指数次方减一。好，这就是我们用来计算每一步的这个、这个退避指数和相应竞争窗口的一般表达式。好，说到这里，因此我们明白，[“每一次”前介词待听辨]我们需要对一个给定的数据包执行退避时，我们大致把竞争窗口翻倍，正如我们说过的。好，所以我们要[“扩大/发起”待听辨]那些可能的值，整数值，我们可以抽取它们来计算[“退避”的重复待听辨]时间。好，所以在解释我们为什么这样做之前，好，为什么[“标准说”的单复数和时态待听辨]让我们每次需要执行一次退避来发送[一个/这个待听辨]数据包时把竞争窗口翻倍。所以在解释因为我们这样做的原因之前，让我提一下前面一张幻灯片中报告过的内容。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "block_id": "doxcnHZ5g5teuPb75H042YGavgb",
+      "update_text_elements": {
+        "elements": [
+          {
+            "text_run": {
+              "content": "原标说话人 1  00:09:04",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "text_color": 7,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "\nBut I didn't comment on that because I didn't want to put too many things at the same time. But one more thing that we need to say important about the backoff is that the backoff procedure, of course, it is performed, as we said, when we have essentially a packet, right, that has been transmitted and it failed.\n",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          },
+          {
+            "text_run": {
+              "content": "但我没有对此作解释，因为我不想同时放入太多事情。但还有一件我们需要说的重要的关于退避的事情，是退避过程，当然，它会被执行，正如我们说过的，当我们基本上有一个数据包，对吧，它已经被发送了，而且它失败了。",
+              "text_element_style": {
+                "bold": false,
+                "inline_code": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

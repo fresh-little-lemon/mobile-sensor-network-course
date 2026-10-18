@@ -1,0 +1,24 @@
+{
+  "source_snapshot": "after.json",
+  "source_snapshot_sha256": "b5fc3581e8d9e5d8e978637690d90c2f17d0d134762e1e9daa962f4b01ada591",
+  "body_paragraph_count": 78,
+  "all78_exact_remote_text_and_hash_match": true,
+  "all_speaker_headers_and_single_newlines_preserved": true,
+  "files": [
+    {
+      "path": "actual-after-bilingual-body.md",
+      "sha256": "01d85de8324559b0ba199bf3b45f4c4a78073d56d5462cdd6489d7c4969310c0",
+      "bytes": 107733
+    },
+    {
+      "path": "actual-after-english-body.md",
+      "sha256": "df93bbc1ad08e9f96a0d155c2fccb56ffa2fbe1b728ac1d495192d789280528a",
+      "bytes": 56555
+    },
+    {
+      "path": "actual-after-paragraphs.json",
+      "sha256": "4bc5591c39bc0b504fcda0bf4a722f12b93aa7088a4ad517c2f993f4cf2e68bb",
+      "bytes": 227320
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "blocks": [
+      {
+        "block_id": "doxcntMYbHlAQ6Z78lxolPfpwkd",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:20:25",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so, so far so good; this is exactly what we did in the past. Now, let’s add some events here. Let’s say B and also C, while they have their NAV set to a positive value, will also receive a data packet from their respective upper layers. So, this means that, for example, at this point in time, B gets a packet that is queued at its MAC layer, and let’s assume that C at this point in time also gets a packet from its higher layers.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，所以，到目前为止一切顺利；这正是我们过去做过的。现在，我们在这里加一些事件。假设 B，还有 C，在它们把各自的 NAV 设为一个正值的时候，也会从它们各自的高层收到一个数据包。所以，这意味着，例如，在这个时间点，B 收到一个在它的 MAC 层排队的数据包，而我们假设 C 在这个时间点也从它的高层收到一个数据包。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnm1bGEyxYyL64fY1q3gB9Kg",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:19:49",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, we also know that under these conditions, the other nodes B and C demodulate the header, right, of the data packet. They read the Duration field, so that they can set their NAV counter, and this will extend over the all expected duration of the dialogue.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，我们还知道，在这些条件下，其他节点 B 和 C 解调首部，对吧，这个数据包的首部。它们读取 Duration 字段，这样它们就能设置它们的 NAV 计数器，而这将延伸覆盖这次对话的全部预期持续时间。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnbsGtRDxk5x9f56gzyigbwd",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:26:12",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo B is entitled to access the channel [and transmit, unclear]. So it will transmit its data packet. The data packet clearly is intended for the access point because, as we said, we are considering unicast packets. And in this network topology, network architecture, all Wi-Fi user nodes communicate with the access point only. Let's again be optimistic. So this means that this packet is received successfully by the access point, which will send back an acknowledgement after SIFS.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，B 有资格接入信道[并发送，待听辨]。所以，它会发送自己的数据包。这个数据包显然是发给接入点的，因为，正如我们说过的，我们考虑的是单播数据包。而在这种网络拓扑，网络架构中，所有 Wi-Fi 用户节点都只与接入点通信。让我们再乐观一点。所以，这意味着接入点成功接收到了这个数据包，它会在 SIFS 之后发回一个确认。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnlR1VavXUPuMoZJxMqbHYie",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:19:08",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, we know that in this case, A can access the channel and transmit its data packet. That is a unicast data packet, so it is intended for the access point. And let’s be optimistic, and let’s consider that this data packet is successfully received by the access point. Therefore, we know that the access point will send an acknowledgment after SIFS. This is the usual story that we have told many times.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，我们知道，在这种情况下，A 可以接入信道并发送它的数据包。那是一个单播数据包，所以它是发给接入点的。而且我们来乐观一点，而且我们来认为这个数据包被接入点成功接收了。因此，我们知道，接入点会在 SIFS 之后发送一个确认。这是我们已经讲过很多次的通常的故事。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnMBEVaguqYaqIJaRU0gJaqe",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:24:00",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\n[And it too will draw / And it will do, will draw, unclear] an integer with equal probability out of this same range of values, okay? So let's assume that the value drawn by B, the integer, is equal to two. And let's assume that the integer drawn by C is equal to five. This is just an example.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "[它也会抽取／它会做，会抽取，待听辨]一个整数，从这同一个取值范围中等概率地抽取，好吗？所以，我们假设 B 抽到的值，这个整数，等于二。再假设 C 抽到的整数等于五。这只是一个例子。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnfJ6YnYDMIM2F7E4sDqTb6M",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:21:21",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so now while we have this dialogue between A and the access point going on, we have B and C who have a packet to transmit as well. Now, clearly, they have got their NAV set, so they know the channel is busy, so they cannot access the channel, right? That’s the principle of carrier sensing. We are essentially in this situation, situation number one, right? B and C [get / got unclear] a new packet, but they sense the channel as busy. So, what do we have to do? Apply backoff, right? So, this means that both B and C, remember our scheme is distributed, so everyone makes decisions by itself based on the state of the system that it observes. So, B will say, “[Hmm ... unclear] I got [a / the unclear] packet, but the channel is busy.”\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，所以现在，当我们有 A 和接入点之间的这段对话正在进行时，我们有 B 和 C，它们也有一个数据包要发送。现在，显然，它们已经把 NAV 设置好了，所以它们知道信道忙，所以它们不能接入信道，对吧？那就是载波侦听的原则。我们基本上处在这种情况，第一种情况，对吧？B 和 C [收到／收到了，待听辨]一个新数据包，但是它们侦听到信道忙。所以，我们必须做什么？执行退避，对吧？所以，这意味着 B 和 C 两者，记住我们的方案是分布式的，所以每一个都根据它观察到的系统状态自己作出决定。所以，B 会说：“[嗯……待听辨]我收到了[一个／这个，待听辨]数据包，但信道忙。”",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcniIJAOk2vByuoHqJLWxuw8g",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:22:43",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nWhat I need to do is to apply backoff. So what [it will / you will, unclear] do is wait for the channel to become idle again, sense the channel idle for DIFS, and then, if the channel is idle for DIFS, it will be able to draw an integer, right? Out of what? Out of the range zero, CW_min. And the same C, right? C at this point in time says, oh, I got a packet to transmit, but the channel is busy. So again, it knows that it has to perform a backoff. So what it will do? It will wait for the channel to become idle. Then it needs to verify that the channel is idle for DIFS. The channel will be idle because nobody else is doing anything, so the channel is idle.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "我需要做的就是执行退避。所以，[它将要／你将要，待听辨]做的就是等信道再次变为空闲，侦听信道空闲一个 DIFS 的时间，然后，如果信道空闲了一个 DIFS 的时间，它就能够抽取一个整数，对吧？从什么里面抽取？从零、CW_min 这个范围里面。C 也一样，对吧？C 在这个时间点说，哦，我拿到了一个要发送的数据包，但是信道是忙的。所以，再说一次，它知道它必须执行一次退避。所以，它会做什么？它会等信道变为空闲。然后，它需要确认信道空闲了一个 DIFS 的时间。信道会是空闲的，因为其他谁也没有在做什么，所以信道是空闲的。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcn77kJlEslDJgMxoerJeZhOd",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:24:36",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, so if this is the case, then we know that B will compute its backoff time, that will be equal to two times the time-slot duration, right? And similarly C will compute its backoff time, that will be five time slots. And then each of them will have to decrease its own backoff counter, time slot by time slot. So B will start sensing the channel for a time slot. The channel is currently idle, so it will decrease its backoff counter by one. And the same will do C, right? So it will decrease it by, its own counter by one. Then, next time slot, again B senses the channel [is / as, unclear] idle, decreases its backoff counter by one. And C will do the same. But now the backoff counter of B has reached zero.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，所以，如果是这种情况，那么我们知道 B 会计算它的退避时间，这个时间会等于时隙时长的两倍，对吧？同样，C 会计算它的退避时间，这个时间会是五个时隙。然后，它们各自都必须逐个时隙地递减自己的退避计数器。所以，B 会开始侦听信道一个时隙的时间。信道目前是空闲的，所以它会把退避计数器减一。C 也会这样做，对吧？所以，它会把它减去，把自己的计数器减一。然后，下一个时隙，B 再次侦听信道[是／为，待听辨]空闲，把退避计数器减一。C 也会这样做。但是现在，B 的退避计数器已经到零了。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ],
+    "client_token": "3713afd0-dbb7-4c41-99db-15eef6b6d936",
+    "document_revision_id": 117
+  }
+}

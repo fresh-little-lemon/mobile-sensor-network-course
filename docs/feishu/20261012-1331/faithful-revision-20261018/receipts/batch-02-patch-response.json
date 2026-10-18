@@ -1,0 +1,410 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "blocks": [
+      {
+        "block_id": "doxcnvRjxRufvfMiuNnxSymfMlh",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:09:40",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, we need to recontend for the channel and transmit the packet again, right? This is the [case/phase unclear] that we have considered so far, under which we need to perform the backoff. However, there are two more situations under which we need to perform a backoff procedure, [okay? unclear] Exactly as we explained, [okay? unclear] The same procedure that we just explained. This procedure indeed needs to be performed also when a node, a transmitter [wording unclear], has got a packet to transmit. It senses the channel, but the channel is busy, right? So, we already know that in this case, we cannot access the channel right away because of the carrier sensing multiple access principle, right? So, if we sense the channel, we got [a/the unclear] packet from the higher layers. At the MAC layer, we sense the channel for DIFS, but the channel is busy, [okay/right unclear] So, what we knew so far is that in this case, we cannot access the channel, right? Because the channel is busy. We are like polite people. We don't want to interrupt someone who is talking already.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，我们需要重新竞争信道，并且再次传送这个数据包，对吧？这就是我们到目前为止考虑过的这个〔case/phase，情况/阶段，待听辨〕，在这种情况下，我们需要执行这个退避。不过，还有另外两种情况，在这些情况下，我们需要执行一个退避过程，〔okay?，好吗？待听辨〕正如我们解释过的那样，〔okay?，好吗？待听辨〕就是我们刚刚解释过的同一个过程。这个过程确实也需要在一个节点、一个发送方〔此处措辞待听辨〕有了一个要传送的数据包时执行。它侦听信道，但是信道是忙的，对吧？所以，我们已经知道，在这种情况下，因为载波侦听多址接入的原则，我们不能马上接入信道，对吧？所以，如果我们侦听信道，我们从更高层拿到了〔a/the，冠词待听辨〕数据包。在MAC层，我们侦听信道一个DIFS的时间，但是信道是忙的，〔okay/right，好吗/对吧，待听辨〕所以，我们到目前为止知道的是，在这种情况下，我们不能接入信道，对吧？因为信道是忙的。我们就像有礼貌的人。我们不想打断一个已经在讲话的人。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnGEPwbf7ydvGtRF2lbJtene",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:17:58",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, this is the timeline. We will represent it by drawing a timeline for each node: access point, user A, user B, and user C. Okay, now let’s assume that when we start looking at the system, what we observe is that A has received a packet from its higher layers. Okay, its application layer has generated some data. So, A gets this packet at [its / this unclear] MAC layer, and A understands that it has to try and transmit this packet, right? So, we know that in this case, a Wi-Fi node will first sense the channel for DIFS, right? Let’s assume that the channel is idle.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，这是时间轴。我们会通过给每个节点画一条时间轴来表示它：接入点、用户 A、用户 B 和用户 C。好，现在我们来假设，当我们开始看这个系统时，我们观察到的是 A 从它的高层收到了一个数据包。好，它的应用层生成了一些数据。所以，A 在[它的／这个，待听辨] MAC 层收到这个数据包，而 A 明白它必须尝试去发送这个数据包，对吧？所以，我们知道，在这种情况下，一个 Wi-Fi 节点会首先侦听信道一个 DIFS 的时间，对吧？我们来假设信道是空闲的。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnusJMQ3VdFmXjsWY3Iw9EOh",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:16:47",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, [that ... unclear] that’s the important attitude that we need to develop. So, this is understanding [why / Wi-Fi unclear], is a kind of mental exercise, okay, that we need to [to ... unclear] do. Okay, good. So, let’s consider a simple topology where we have an access point, and then we have A, B, and C.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，[那……待听辨]那是我们需要培养的重要态度。所以，这是理解[为什么／Wi-Fi，待听辨]，是一种思维练习，好，我们需要去[去……待听辨]做的。好，很好。所以，我们来考虑一个简单的拓扑，其中我们有一个接入点，然后我们有 A、B 和 C。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnWAgzkaE1V9NzLFbhdUxUsh",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:14:39",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, let’s leave the third condition for later. Okay, before introducing the third condition, I want to present an example of a situation when we apply the backoff. And what I want to do with this example is to clarify why, why we are using the backoff. Why is the backoff actually useful? Okay, and why the standard says that every time we perform the backoff for a given packet, we need to double the contention window parameter.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，我们把第三种情况留到后面。好，在介绍第三种情况之前，我想给出一个我们执行退避的情况的例子。而我想用这个例子做的，是说明为什么，为什么我们在使用退避。退避实际上为什么有用？好，还有为什么标准说，每次我们为一个给定的数据包执行退避时，我们都需要把竞争窗口参数加倍。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnDM0vMtHUpnWdnzpcERTuof",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:17:18",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, the access point is here. These are our user nodes, and [we / they unclear] are of course part of this BSS; that means they can talk with the access point. And also, let’s consider the simple case where all nodes can hear each other. Okay, now let’s represent the behavior of these nodes over time.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，接入点在这里。这些是我们的用户节点，并且[我们／它们，待听辨]当然是这个 BSS 的一部分；那意味着它们可以和接入点通信。还有，我们来考虑所有节点都能听到彼此的这个简单情况。好，现在我们来表示这些节点随时间的行为。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnxO1XrFqJ8vDuFhY9nCToXb",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:12:27",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, we know that first of all, we need to sense the channel for DIFS. If the channel is sense busy, then what [we’ll / we unclear] do is apply the backoff. That is, first of all, we need to wait for the channel to become idle again, and sense the channel idle for DIFS. Then draw an integer with equal probability out of the range zero, CW_min, set that integer multiplied by the time slot as backoff time, and then decrease the backoff counter slot by slot as long as the channel is idle. If the channel becomes busy at a certain point, while we are still decreasing the backoff counter, we need to stop the counter, right? And freeze it; we cannot decrease it. And then, when the channel becomes idle again, we will sense the channel for DIFS. If it’s idle, of course, for that time, we will resume decreasing our backoff counter. Till we do that, till the counter reaches zero, right? As soon as the counter reaches zero, then we can access the channel and transmit our packet. And then of course it depends. The transmission may be successful; that is fine, we are done. Or the packet may fail, and in that case, we have to recontend for the channel by using the backoff [receiver / procedure unclear]. Right? Okay, so now we know that actually there are two conditions, one and two, under which we will perform the backoff.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，我们知道，首先我们需要侦听信道一个 DIFS 的时间。如果信道被侦听为忙，那么[我们将要／我们，待听辨]做的就是执行退避。也就是说，首先我们需要等信道再次变为空闲，并侦听信道空闲一个 DIFS 的时间。然后从零、CW_min 这个范围中等概率地抽取一个整数，把那个整数乘以时隙设为退避时间，然后只要信道空闲，就逐个时隙递减退避计数器。如果信道在某个时刻变忙，而我们还在递减退避计数器，我们就需要停止计数器，对吧？并把它冻结；我们不能递减它。然后，当信道再次变为空闲时，我们会侦听信道一个 DIFS 的时间。当然，如果它在那段时间里是空闲的，我们就会恢复递减我们的退避计数器。直到我们这样做，直到计数器到达零，对吧？计数器一到零，那么我们就可以接入信道并发送我们的数据包。然后，当然，这要看情况。这次传输可能成功；那很好，我们完成了。或者这个数据包可能失败，而在那种情况下，我们必须使用退避[接收器／过程，待听辨]来重新竞争信道。对吧？好，所以现在我们知道，实际上有两种情况，第一种和第二种，在这些情况下我们会执行退避。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnPqzDaGsf13GV71CGVfXjmh",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:11:21",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nSo, we wait. We wait. That's what we said, but now we need to be more precise. What do we mean exactly that we need to wait? [question wording unclear] For how long? Well, in reality, also in this case, what we need to do is to apply the backoff procedure. So, how long do we wait for? We will wait for the backoff time, according to this procedure. So, this is the rule again. Also in this first case, when we have that the node, Wi-Fi node, gets a new packet from the higher layers. And the MAC needs to apply the protocol in order to transmit that packet.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "所以，我们等着。我们等着。我们之前就是这么说的，但是现在我们需要更精确一些。我们说需要等着，到底是什么意思？〔问句的确切措辞待听辨〕等多久？嗯，实际上，在这种情况下也是，我们需要做的就是应用退避过程。那么，我们要等多久呢？我们会按照这个过程，等待这个退避时间。所以，这又是这个规则。在这第一种情况下也是，当这个节点，Wi-Fi节点，从更高层拿到一个新的数据包时。并且MAC需要应用这个协议，才能传送那个数据包。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      },
+      {
+        "block_id": "doxcnAxAESMqbsUmzgLpNkXu0hB",
+        "block_type": 2,
+        "parent_id": "BSkQdCu5LoOPopxZWPGcbeJhnhf",
+        "text": {
+          "elements": [
+            {
+              "text_run": {
+                "content": "原标说话人 1  00:15:26",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "text_color": 7,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "\nOkay, because the main thing here, when we study Wi-Fi, okay, is to, of course, learn how we use a technology that is actually used every day, right, by almost everyone. So it’s good to know how things work. But it’s also important to understand the rationale, okay? Why things happen? Why do we make certain choices while developing a technology? That’s the really important fact that this class should give you, okay? To strengthen your ability to understand why certain things have been decided in certain manner in designing a system. Okay, because there is always a reason, and what we need to do is to learn how to reason about things, and understand the solutions that have been created.\n",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            },
+            {
+              "text_run": {
+                "content": "好，因为这里主要的事情，当我们学习 Wi-Fi 时，好，当然是去了解我们怎样使用一种实际上每天都在被使用的技术，对吧，几乎每个人都在使用。所以，知道事情怎样运作是好的。但理解其中的道理也很重要，好吗？为什么事情会发生？为什么我们在开发一项技术时会作出某些选择？那是这门课应该给你们的真正重要的事实，好吗？去增强你们的能力，理解为什么在设计一个系统时，某些事情被以某种方式决定下来。好，因为总是有一个原因，而我们需要做的是学会怎样思考事情，并理解已经被创造出来的解决方案。",
+                "text_element_style": {
+                  "bold": false,
+                  "inline_code": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false
+                }
+              }
+            }
+          ],
+          "style": {
+            "align": 1,
+            "folded": false
+          }
+        }
+      }
+    ],
+    "client_token": "6b45490b-8055-447d-9427-0962d9cd42f5",
+    "document_revision_id": 116
+  }
+}
