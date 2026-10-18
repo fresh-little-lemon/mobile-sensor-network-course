@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T15:23:00Z",
+  "updated_at": "2026-10-18T16:20:00Z",
   "navigation_count": 19,
   "total": 19,
   "lectures": [
@@ -12,7 +12,9 @@
       "image_count": 24,
       "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261008-0910",
@@ -23,7 +25,9 @@
       "image_count": 12,
       "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261008-1000",
@@ -34,7 +38,9 @@
       "image_count": 19,
       "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261008-1049",
@@ -45,7 +51,9 @@
       "image_count": 25,
       "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261009-0759",
@@ -56,7 +64,9 @@
       "image_count": 7,
       "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261009-0845",
@@ -67,7 +77,9 @@
       "image_count": 2,
       "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261009-1000",
@@ -78,7 +90,9 @@
       "image_count": 19,
       "slides_audit_pending": false,
       "source_gaps": "OFDM sinc、MIMO四天线原图未找到",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261010-0800",
@@ -89,7 +103,9 @@
       "image_count": 13,
       "slides_audit_pending": false,
       "source_gaps": "排队模型、功率时间、A/B优先级原图未找到",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261010-1000",
@@ -100,7 +116,9 @@
       "image_count": 9,
       "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261012-1331",
@@ -111,7 +129,11 @@
       "image_count": 8,
       "slides_audit_pending": false,
       "source_gaps": "白板图源缺口；全文忠实校订中",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md",
+      "post_restoration_slide_reaudit": "pending",
+      "text_status": "faithful wording restored with unresolved words; revision124"
     },
     {
       "lesson": "20261012-1530",
@@ -120,9 +142,11 @@
       "h1_count": 7,
       "h2_count": 44,
       "image_count": 9,
-      "slides_audit_pending": true,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261012-1620",
@@ -130,10 +154,12 @@
       "navigation_complete": true,
       "h1_count": 8,
       "h2_count": 51,
-      "image_count": 13,
-      "slides_audit_pending": true,
+      "image_count": 14,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261013-0803",
@@ -142,9 +168,11 @@
       "h1_count": 9,
       "h2_count": 69,
       "image_count": 16,
-      "slides_audit_pending": true,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261013-1000",
@@ -152,10 +180,12 @@
       "navigation_complete": true,
       "h1_count": 9,
       "h2_count": 64,
-      "image_count": 5,
-      "slides_audit_pending": true,
+      "image_count": 6,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261014-0801",
@@ -164,9 +194,11 @@
       "h1_count": 7,
       "h2_count": 62,
       "image_count": 2,
-      "slides_audit_pending": true,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261014-1000",
@@ -174,10 +206,12 @@
       "navigation_complete": true,
       "h1_count": 12,
       "h2_count": 112,
-      "image_count": 19,
-      "slides_audit_pending": true,
+      "image_count": 22,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261015-0803",
@@ -185,10 +219,12 @@
       "navigation_complete": true,
       "h1_count": 9,
       "h2_count": 71,
-      "image_count": 16,
-      "slides_audit_pending": true,
+      "image_count": 17,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261015-1000",
@@ -197,9 +233,11 @@
       "h1_count": 11,
       "h2_count": 82,
       "image_count": 26,
-      "slides_audit_pending": true,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     },
     {
       "lesson": "20261016-0805",
@@ -207,10 +245,12 @@
       "navigation_complete": true,
       "h1_count": 10,
       "h2_count": 87,
-      "image_count": 22,
-      "slides_audit_pending": true,
+      "image_count": 24,
+      "slides_audit_pending": false,
       "source_gaps": "",
-      "audio_fidelity_verified": false
+      "audio_fidelity_verified": false,
+      "slide_audit_status": "recorded_complete",
+      "source_gap_detail": "course-slide-audit-status-20261018.md"
     }
   ]
 }
