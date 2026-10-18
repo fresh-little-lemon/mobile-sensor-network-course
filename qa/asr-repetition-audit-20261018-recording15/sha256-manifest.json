@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 11855,
+      "sha256": "9a3f2fc5a489327a99f1601bf099a514ec8641f562f0b65754d5ede81b688e25"
+    },
+    {
+      "path": "comparison.json",
+      "bytes": 50622,
+      "sha256": "354745ea8ebcdb0a98d2a5815e37ad5fc56e4c3c833d0918f32976e99675a581"
+    },
+    {
+      "path": "completion.json",
+      "bytes": 193,
+      "sha256": "f219067ccd83d0825e02d095823e510d48a5ab59c5e509f172b09feb8fcc62b3"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 988,
+      "sha256": "dd85137278beecb19307414eae1f4767f5fee7adb728c19cd2a94455778ae552"
+    },
+    {
+      "path": "qwen-short.json",
+      "bytes": 9515,
+      "sha256": "5ff51b78ac7b65819a5a951eda1c9631ce4061fe2ab8d5636e10b215b073b65f"
+    },
+    {
+      "path": "scripts-and-logs.json",
+      "bytes": 39971,
+      "sha256": "ec6815c46482f7ef4e36d0ce8c82466e5d348a485511c33873a75c524a885e87"
+    },
+    {
+      "path": "whisper.json",
+      "bytes": 19772,
+      "sha256": "d35007e5cf8bb6aa4897591076de330782528a494e75eb247c8991f481299bc3"
+    },
+    {
+      "path": "windows.json",
+      "bytes": 3455,
+      "sha256": "d0829f2984c1cf7a72084bfb27b0b334a2c1b3ff765e5b5db744e49f9d86726f"
+    }
+  ],
+  "original_raw_unchanged": true,
+  "audio_included": false
+}

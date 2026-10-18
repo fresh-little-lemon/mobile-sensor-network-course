@@ -1,0 +1,1393 @@
+{
+  "recording_id": "20261014-0801",
+  "status": "computational_audit_complete_speech_unresolved",
+  "manual_listening": false,
+  "original_sources": {
+    "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00000.json": {
+      "start_seconds": 0.0,
+      "end_seconds": 120.0,
+      "text": "I probably play for the next, I would say tomorrow. And then two open questions, and of course I cannot get moving on the topic of the open questions. As already mentioned, is a closed book exam, okay? So closed book exam. That means that the test sheets will be provided, and you only need to have pen or pencil, preferably pen, rubber, and a simple calculator, okay? So of course, if you bring with you a pencil, then in the solution of the numerical problems you are free to erase what you write as as you like, but the final answer should be written in in a pen, okay? And the number of points assigned to each of the components of the of the test will be thirty points maximum, of course the minimum is zero, maximum is thirty points for each of the numerical exercises and maximum number of points for each open question, okay? So that will be about the final exam. Now let me close this slides and let me. Okay, sharing. Let me instead go back to our. No.",
+      "raw_decoded": "language English<asr_text>I probably play for the next, I would say tomorrow. And then two open questions, and of course I cannot get moving on the topic of the open questions. As already mentioned, is a closed book exam, okay? So closed book exam. That means that the test sheets will be provided, and you only need to have pen or pencil, preferably pen, rubber, and a simple calculator, okay? So of course, if you bring with you a pencil, then in the solution of the numerical problems you are free to erase what you write as as you like, but the final answer should be written in in a pen, okay? And the number of points assigned to each of the components of the of the test will be thirty points maximum, of course the minimum is zero, maximum is thirty points for each of the numerical exercises and maximum number of points for each open question, okay? So that will be about the final exam. Now let me close this slides and let me. Okay, sharing. Let me instead go back to our. No.<|im_end|>",
+      "generated_tokens": 217,
+      "last_token": 151645,
+      "flags": [],
+      "inference_seconds": 26.11495246999948,
+      "at": "2026-10-18T04:37:28.004890+00:00",
+      "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+    },
+    "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00027.json": {
+      "start_seconds": 2970.0,
+      "end_seconds": 3090.0,
+      "text": "explain why",
+      "raw_decoded": "language Chinese<asr_text>explain why<|im_end|>",
+      "generated_tokens": 6,
+      "last_token": 151645,
+      "flags": [],
+      "inference_seconds": 4.762975302997802,
+      "at": "2026-10-18T04:48:41.425844+00:00",
+      "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+    },
+    "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json": {
+      "start_seconds": 3080.0,
+      "end_seconds": 3200.0,
+      "text": "就是嗯，年后可能这个学期高几，但是现在还是在，就是这个，我们这个嗯，就是这个，这个是吧？还有，还有，嗯，",
+      "raw_decoded": "language Chinese<asr_text>就是嗯，年后可能这个学期高几，但是现在还是在，就是这个，我们这个嗯，就是这个，这个是吧？还有，还有，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，",
+      "generated_tokens": 1024,
+      "last_token": 3837,
+      "flags": [
+        "generation_cap"
+      ],
+      "inference_seconds": 160.88269283200134,
+      "at": "2026-10-18T04:51:22.309148+00:00",
+      "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+    },
+    "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00029.json": {
+      "start_seconds": 3190.0,
+      "end_seconds": 3310.0,
+      "text": "Okay, so we can. We can assume. Let me. Go back to the solution that we just looked at. And. Okay, so. Let's consider. Thank you for the question. By the way. Okay, so let's just wait a few seconds. But what we are going to to do, let me. Just replicate the figure of the network topology here. So that we can make this second. Run of the solution by making the assumption. That your.",
+      "raw_decoded": "language English<asr_text>Okay, so we can. We can assume. Let me. Go back to the solution that we just looked at. And. Okay, so. Let's consider. Thank you for the question. By the way. Okay, so let's just wait a few seconds. But what we are going to to do, let me. Just replicate the figure of the network topology here. So that we can make this second. Run of the solution by making the assumption. That your.<|im_end|>",
+      "generated_tokens": 101,
+      "last_token": 151645,
+      "flags": [],
+      "inference_seconds": 14.801511967998522,
+      "at": "2026-10-18T04:55:42.106830+00:00",
+      "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff"
+    }
+  },
+  "windows": [
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 0,
+        "start_seconds": 0.0,
+        "end_seconds": 15.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.03997509181499481,
+        "peak_abs": 0.346893310546875,
+        "id": "20261014-0801_0000000000_0000015000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00000.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 0,
+          "start_seconds": 0.0,
+          "end_seconds": 15.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.03997509181499481,
+          "peak_abs": 0.346893310546875,
+          "id": "20261014-0801_0000000000_0000015000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "So I probably will do the next. I will say tomorrow. And then two open questions.",
+          "raw_decoded": "language English<asr_text>So I probably will do the next. I will say tomorrow. And then two open questions.<|im_end|>",
+          "generated_tokens": 23,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 4.8024090609978884,
+          "at": "2026-10-18T05:08:57.939154+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 0,
+          "start_seconds": 0.0,
+          "end_seconds": 15.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.03997509181499481,
+          "peak_abs": 0.346893310546875,
+          "id": "20261014-0801_0000000000_0000015000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " And then two open questions.",
+          "raw_decoded": " And then two open questions.",
+          "diagnostic": {
+            "no_speech_probability": 0.06169722229242325,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|en|>",
+                "probability": 0.7619894742965698
+              },
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.06169722229242325
+              },
+              {
+                "token": "<|cy|>",
+                "probability": 0.01955854706466198
+              },
+              {
+                "token": "<|es|>",
+                "probability": 0.016076626256108284
+              },
+              {
+                "token": "<|sl|>",
+                "probability": 0.013141096569597721
+              }
+            ]
+          },
+          "token_ids": [
+            400,
+            550,
+            732,
+            1269,
+            1651,
+            13
+          ],
+          "flags": [],
+          "inference_seconds": 10.075337182999647,
+          "at": "2026-10-18T05:07:12.205664+00:00"
+        }
+      },
+      "judgment": "Clear-English positive control; assess lexical accuracy separately from anomaly performance."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 1,
+        "start_seconds": 20.0,
+        "end_seconds": 35.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.04622846469283104,
+        "peak_abs": 0.436553955078125,
+        "id": "20261014-0801_0000020000_0000035000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00000.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 20.0,
+          "end_seconds": 35.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.04622846469283104,
+          "peak_abs": 0.436553955078125,
+          "id": "20261014-0801_0000020000_0000035000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "The open questions, as already mentioned, is a closed book exam. Okay, so closed book exam. That means that the test sheets will be provided and you.",
+          "raw_decoded": "language English<asr_text>The open questions, as already mentioned, is a closed book exam. Okay, so closed book exam. That means that the test sheets will be provided and you.<|im_end|>",
+          "generated_tokens": 37,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 6.693556076999812,
+          "at": "2026-10-18T05:11:20.735645+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 20.0,
+          "end_seconds": 35.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.04622846469283104,
+          "peak_abs": 0.436553955078125,
+          "id": "20261014-0801_0000020000_0000035000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " the open questions. As already mentioned is a closed book exam, that means that the best sheets will be provided and you",
+          "raw_decoded": " the open questions. As already mentioned is a closed book exam, that means that the best sheets will be provided and you",
+          "diagnostic": {
+            "no_speech_probability": 0.038148682564496994,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|en|>",
+                "probability": 0.4585726857185364
+              },
+              {
+                "token": "<|sl|>",
+                "probability": 0.25026071071624756
+              },
+              {
+                "token": "<|la|>",
+                "probability": 0.15778206288814545
+              },
+              {
+                "token": "<|it|>",
+                "probability": 0.059024449437856674
+              },
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.038148682564496994
+              }
+            ]
+          },
+          "token_ids": [
+            264,
+            1269,
+            1651,
+            13,
+            1018,
+            1217,
+            2835,
+            307,
+            257,
+            5395,
+            1446,
+            1139,
+            11,
+            300,
+            1355,
+            300,
+            264,
+            1151,
+            15421,
+            486,
+            312,
+            5649,
+            293,
+            291
+          ],
+          "flags": [],
+          "inference_seconds": 10.817261470998346,
+          "at": "2026-10-18T05:11:12.631461+00:00"
+        }
+      },
+      "judgment": "Clear-English positive control; assess lexical accuracy separately from anomaly performance."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 2,
+        "start_seconds": 3080.0,
+        "end_seconds": 3095.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.004129910375922918,
+        "peak_abs": 0.035888671875,
+        "id": "20261014-0801_0003080000_0003095000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00027.json",
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3080.0,
+          "end_seconds": 3095.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.004129910375922918,
+          "peak_abs": 0.035888671875,
+          "id": "20261014-0801_0003080000_0003095000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "就是嗯，年后开始退学，高中，但是现在还是在，嗯，这个我想去看一看。嗯。",
+          "raw_decoded": "language Chinese<asr_text>就是嗯，年后开始退学，高中，但是现在还是在，嗯，这个我想去看一看。嗯。<|im_end|>",
+          "generated_tokens": 28,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 4.695418252002128,
+          "at": "2026-10-18T05:09:02.642697+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3080.0,
+          "end_seconds": 3095.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.004129910375922918,
+          "peak_abs": 0.035888671875,
+          "id": "20261014-0801_0003080000_0003095000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " ḍᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗ",
+          "raw_decoded": " ḍᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗ",
+          "diagnostic": {
+            "no_speech_probability": 0.44142135977745056,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.44142135977745056
+              },
+              {
+                "token": "<|jw|>",
+                "probability": 0.1535237431526184
+              },
+              {
+                "token": "<|en|>",
+                "probability": 0.11642993241548538
+              },
+              {
+                "token": "<|nn|>",
+                "probability": 0.06250806897878647
+              },
+              {
+                "token": "<|la|>",
+                "probability": 0.05136793851852417
+              }
+            ]
+          },
+          "token_ids": [
+            21879,
+            116,
+            235,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245
+          ],
+          "flags": [
+            "possible_generation_cap"
+          ],
+          "inference_seconds": 14.374438156002725,
+          "at": "2026-10-18T05:07:26.595282+00:00"
+        }
+      },
+      "judgment": "At least one short-window output remains capped. Repetition and replacement wording unverified."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 2,
+        "start_seconds": 3095.0,
+        "end_seconds": 3110.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.003283936530351639,
+        "peak_abs": 0.043487548828125,
+        "id": "20261014-0801_0003095000_0003110000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3095.0,
+          "end_seconds": 3110.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.003283936530351639,
+          "peak_abs": 0.043487548828125,
+          "id": "20261014-0801_0003095000_0003110000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "就是这个非常厉害的，还有这个高，嗯，也很高。嗯，不过道理人知道，你还是可以，那第二次。",
+          "raw_decoded": "language Chinese<asr_text>就是这个非常厉害的，还有这个高，嗯，也很高。嗯，不过道理人知道，你还是可以，那第二次。<|im_end|>",
+          "generated_tokens": 33,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 4.922772979000001,
+          "at": "2026-10-18T05:09:07.572154+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3095.0,
+          "end_seconds": 3110.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.003283936530351639,
+          "peak_abs": 0.043487548828125,
+          "id": "20261014-0801_0003095000_0003110000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " ស្្្្",
+          "raw_decoded": " ស្្្្",
+          "diagnostic": {
+            "no_speech_probability": 0.4376958906650543,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.4376958906650543
+              },
+              {
+                "token": "<|jw|>",
+                "probability": 0.1945192664861679
+              },
+              {
+                "token": "<|en|>",
+                "probability": 0.12857723236083984
+              },
+              {
+                "token": "<|nn|>",
+                "probability": 0.0797596201300621
+              },
+              {
+                "token": "<|haw|>",
+                "probability": 0.030087748542428017
+              }
+            ]
+          },
+          "token_ids": [
+            21879,
+            252,
+            253,
+            157,
+            253,
+            240,
+            157,
+            253,
+            240,
+            157,
+            253,
+            240,
+            157,
+            253,
+            240
+          ],
+          "flags": [],
+          "inference_seconds": 9.472668561000319,
+          "at": "2026-10-18T05:07:36.074605+00:00"
+        }
+      },
+      "judgment": "No reliable independent confirmation of the original long repeated string. Differing guesses remain unverified."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 2,
+        "start_seconds": 3110.0,
+        "end_seconds": 3125.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.003656917717307806,
+        "peak_abs": 0.031768798828125,
+        "id": "20261014-0801_0003110000_0003125000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3110.0,
+          "end_seconds": 3125.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.003656917717307806,
+          "peak_abs": 0.031768798828125,
+          "id": "20261014-0801_0003110000_0003125000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "然后就放着，这个是不允许放的。对，不允许放的。所以用的开，然后就放。你一看就是死磕。然后又在这里听，说话，你别说话。",
+          "raw_decoded": "language Chinese<asr_text>然后就放着，这个是不允许放的。对，不允许放的。所以用的开，然后就放。你一看就是死磕。然后又在这里听，说话，你别说话。<|im_end|>",
+          "generated_tokens": 47,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 7.3432254060026025,
+          "at": "2026-10-18T05:09:14.921820+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3110.0,
+          "end_seconds": 3125.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.003656917717307806,
+          "peak_abs": 0.031768798828125,
+          "id": "20261014-0801_0003110000_0003125000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " I'm",
+          "raw_decoded": " I'm",
+          "diagnostic": {
+            "no_speech_probability": 0.3561101257801056,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.3561101257801056
+              },
+              {
+                "token": "<|en|>",
+                "probability": 0.3167339265346527
+              },
+              {
+                "token": "<|jw|>",
+                "probability": 0.09038597345352173
+              },
+              {
+                "token": "<|nn|>",
+                "probability": 0.04694236069917679
+              },
+              {
+                "token": "<|la|>",
+                "probability": 0.04467974230647087
+              }
+            ]
+          },
+          "token_ids": [
+            286,
+            478
+          ],
+          "flags": [],
+          "inference_seconds": 8.467644876000122,
+          "at": "2026-10-18T05:07:44.552565+00:00"
+        }
+      },
+      "judgment": "No reliable independent confirmation of the original long repeated string. Differing guesses remain unverified."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 2,
+        "start_seconds": 3125.0,
+        "end_seconds": 3140.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.0023008219432085752,
+        "peak_abs": 0.02276611328125,
+        "id": "20261014-0801_0003125000_0003140000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3125.0,
+          "end_seconds": 3140.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.0023008219432085752,
+          "peak_abs": 0.02276611328125,
+          "id": "20261014-0801_0003125000_0003140000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "嗯，嗯。",
+          "raw_decoded": "language Chinese<asr_text>嗯，嗯。<|im_end|>",
+          "generated_tokens": 8,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 2.186869616001786,
+          "at": "2026-10-18T05:09:17.116633+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3125.0,
+          "end_seconds": 3140.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.0023008219432085752,
+          "peak_abs": 0.02276611328125,
+          "id": "20261014-0801_0003125000_0003140000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " ḍᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗ",
+          "raw_decoded": " ḍᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗ",
+          "diagnostic": {
+            "no_speech_probability": 0.28704696893692017,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|jw|>",
+                "probability": 0.31283289194107056
+              },
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.28704696893692017
+              },
+              {
+                "token": "<|nn|>",
+                "probability": 0.13408660888671875
+              },
+              {
+                "token": "<|la|>",
+                "probability": 0.07292930036783218
+              },
+              {
+                "token": "<|en|>",
+                "probability": 0.05922746658325195
+              }
+            ]
+          },
+          "token_ids": [
+            21879,
+            116,
+            235,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245
+          ],
+          "flags": [
+            "possible_generation_cap"
+          ],
+          "inference_seconds": 14.59121096599847,
+          "at": "2026-10-18T05:07:59.151508+00:00"
+        }
+      },
+      "judgment": "At least one short-window output remains capped. Repetition and replacement wording unverified."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 2,
+        "start_seconds": 3140.0,
+        "end_seconds": 3155.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.004359188489615917,
+        "peak_abs": 0.057891845703125,
+        "id": "20261014-0801_0003140000_0003155000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3140.0,
+          "end_seconds": 3155.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.004359188489615917,
+          "peak_abs": 0.057891845703125,
+          "id": "20261014-0801_0003140000_0003155000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "这个项目有有发生过什么？发生过什么？发生过什么？就是说，嗯，我不知道，我不知道是不是还有人，就是说，我不知道，就是说。",
+          "raw_decoded": "language Chinese<asr_text>这个项目有有发生过什么？发生过什么？发生过什么？就是说，嗯，我不知道，我不知道是不是还有人，就是说，我不知道，就是说。<|im_end|>",
+          "generated_tokens": 40,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 6.173749663998024,
+          "at": "2026-10-18T05:09:23.299875+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3140.0,
+          "end_seconds": 3155.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.004359188489615917,
+          "peak_abs": 0.057891845703125,
+          "id": "20261014-0801_0003140000_0003155000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " Я вижу, что это стремление, как шутка, которое выделило в виде этого видео.",
+          "raw_decoded": " Я вижу, что это стремление, как шутка, которое выделило в виде этого видео.",
+          "diagnostic": {
+            "no_speech_probability": 0.250387042760849,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|ru|>",
+                "probability": 0.35288217663764954
+              },
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.250387042760849
+              },
+              {
+                "token": "<|en|>",
+                "probability": 0.07840767502784729
+              },
+              {
+                "token": "<|uk|>",
+                "probability": 0.07419285178184509
+              },
+              {
+                "token": "<|jw|>",
+                "probability": 0.05598693713545799
+              }
+            ]
+          },
+          "token_ids": [
+            4857,
+            47813,
+            11,
+            2143,
+            2691,
+            3266,
+            7049,
+            17943,
+            11,
+            3014,
+            5941,
+            3767,
+            2833,
+            11,
+            32000,
+            2840,
+            7946,
+            22201,
+            740,
+            12921,
+            10751,
+            15589,
+            13
+          ],
+          "flags": [],
+          "inference_seconds": 10.74092249000023,
+          "at": "2026-10-18T05:08:09.903988+00:00"
+        }
+      },
+      "judgment": "No reliable independent confirmation of the original long repeated string. Differing guesses remain unverified."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 2,
+        "start_seconds": 3155.0,
+        "end_seconds": 3170.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.003728332929313183,
+        "peak_abs": 0.030242919921875,
+        "id": "20261014-0801_0003155000_0003170000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3155.0,
+          "end_seconds": 3170.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.003728332929313183,
+          "peak_abs": 0.030242919921875,
+          "id": "20261014-0801_0003155000_0003170000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "就是，对，嗯嗯，就是，嗯，就是，嗯，嗯，就是，嗯，",
+          "raw_decoded": "language Chinese<asr_text>就是，对，嗯嗯，就是，嗯，就是，嗯，嗯，就是，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，嗯，",
+          "generated_tokens": 96,
+          "last_token": 3837,
+          "flags": [
+            "generation_cap"
+          ],
+          "inference_seconds": 12.6523567669974,
+          "at": "2026-10-18T05:09:35.957677+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3155.0,
+          "end_seconds": 3170.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.003728332929313183,
+          "peak_abs": 0.030242919921875,
+          "id": "20261014-0801_0003155000_0003170000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " ស្្្្្",
+          "raw_decoded": " ស្្្្្",
+          "diagnostic": {
+            "no_speech_probability": 0.3026812970638275,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|jw|>",
+                "probability": 0.312936395406723
+              },
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.3026812970638275
+              },
+              {
+                "token": "<|uk|>",
+                "probability": 0.11133833974599838
+              },
+              {
+                "token": "<|en|>",
+                "probability": 0.097452811896801
+              },
+              {
+                "token": "<|nn|>",
+                "probability": 0.04268211871385574
+              }
+            ]
+          },
+          "token_ids": [
+            21879,
+            252,
+            253,
+            157,
+            253,
+            240,
+            157,
+            253,
+            240,
+            157,
+            253,
+            240,
+            157,
+            253,
+            240,
+            157,
+            253,
+            240
+          ],
+          "flags": [],
+          "inference_seconds": 9.892523844999232,
+          "at": "2026-10-18T05:08:19.802308+00:00"
+        }
+      },
+      "judgment": "At least one short-window output remains capped. Repetition and replacement wording unverified."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 2,
+        "start_seconds": 3170.0,
+        "end_seconds": 3185.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.006232129409909248,
+        "peak_abs": 0.1239013671875,
+        "id": "20261014-0801_0003170000_0003185000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3170.0,
+          "end_seconds": 3185.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.006232129409909248,
+          "peak_abs": 0.1239013671875,
+          "id": "20261014-0801_0003170000_0003185000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "但是这个确实有，他们说的，我的这个，就应该是，他们说的，他们说的。",
+          "raw_decoded": "language Chinese<asr_text>但是这个确实有，他们说的，我的这个，就应该是，他们说的，他们说的。<|im_end|>",
+          "generated_tokens": 27,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 4.670610949000547,
+          "at": "2026-10-18T05:09:40.634520+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3170.0,
+          "end_seconds": 3185.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.006232129409909248,
+          "peak_abs": 0.1239013671875,
+          "id": "20261014-0801_0003170000_0003185000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " ḍᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗ",
+          "raw_decoded": " ḍᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗ",
+          "diagnostic": {
+            "no_speech_probability": 0.37643545866012573,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.37643545866012573
+              },
+              {
+                "token": "<|jw|>",
+                "probability": 0.20395906269550323
+              },
+              {
+                "token": "<|en|>",
+                "probability": 0.11552968621253967
+              },
+              {
+                "token": "<|uk|>",
+                "probability": 0.07657266408205032
+              },
+              {
+                "token": "<|nn|>",
+                "probability": 0.06036071851849556
+              }
+            ]
+          },
+          "token_ids": [
+            21879,
+            116,
+            235,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245
+          ],
+          "flags": [
+            "possible_generation_cap"
+          ],
+          "inference_seconds": 16.146049986000435,
+          "at": "2026-10-18T05:08:35.956510+00:00"
+        }
+      },
+      "judgment": "At least one short-window output remains capped. Repetition and replacement wording unverified."
+    },
+    {
+      "window": {
+        "rid": "20261014-0801",
+        "region_index": 2,
+        "start_seconds": 3185.0,
+        "end_seconds": 3200.0,
+        "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+        "sample_rate": 16000,
+        "rms": 0.004117226228117943,
+        "peak_abs": 0.1927490234375,
+        "id": "20261014-0801_0003185000_0003200000"
+      },
+      "original_overlapping_paths": [
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00028.json",
+        "raw_asr/recovery_20261018/20261014-0801/raw_chunks/chunk_00029.json"
+      ],
+      "outputs": {
+        "qwen-short": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3185.0,
+          "end_seconds": 3200.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.004117226228117943,
+          "peak_abs": 0.1927490234375,
+          "id": "20261014-0801_0003185000_0003200000",
+          "model": "Qwen/Qwen3-ASR-0.6B-hf",
+          "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "text": "嗯，还在看。",
+          "raw_decoded": "language Chinese<asr_text>嗯，还在看。<|im_end|>",
+          "generated_tokens": 9,
+          "last_token": 151645,
+          "flags": [],
+          "inference_seconds": 2.4370576870023797,
+          "at": "2026-10-18T05:09:43.077953+00:00"
+        },
+        "whisper": {
+          "rid": "20261014-0801",
+          "region_index": 1,
+          "start_seconds": 3185.0,
+          "end_seconds": 3200.0,
+          "source_sha256": "a39caf428472567d7b7b82f00cea0d2fe60af0a87b66a709ce65cec36fc6caff",
+          "sample_rate": 16000,
+          "rms": 0.004117226228117943,
+          "peak_abs": 0.1927490234375,
+          "id": "20261014-0801_0003185000_0003200000",
+          "model": "openai/whisper-small",
+          "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "text": " ḍᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗ",
+          "raw_decoded": " ḍᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗᵗ",
+          "diagnostic": {
+            "no_speech_probability": 0.42253705859184265,
+            "no_speech_token": "<|nocaptions|>",
+            "first_token_top5": [
+              {
+                "token": "<|nocaptions|>",
+                "probability": 0.42253705859184265
+              },
+              {
+                "token": "<|jw|>",
+                "probability": 0.155002161860466
+              },
+              {
+                "token": "<|en|>",
+                "probability": 0.14457851648330688
+              },
+              {
+                "token": "<|nn|>",
+                "probability": 0.0748080313205719
+              },
+              {
+                "token": "<|uk|>",
+                "probability": 0.0523972362279892
+              }
+            ]
+          },
+          "token_ids": [
+            21879,
+            116,
+            235,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245,
+            157,
+            113,
+            245
+          ],
+          "flags": [
+            "possible_generation_cap"
+          ],
+          "inference_seconds": 15.910283692999656,
+          "at": "2026-10-18T05:08:51.876515+00:00"
+        }
+      },
+      "judgment": "At least one short-window output remains capped. Repetition and replacement wording unverified."
+    }
+  ]
+}

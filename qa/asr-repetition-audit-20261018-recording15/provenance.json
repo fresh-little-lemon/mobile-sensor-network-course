@@ -1,0 +1,35 @@
+{
+  "whisper-provenance.json": {
+    "model": "openai/whisper-small",
+    "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+    "library": "5.20.1",
+    "torch": "2.14.1+cpu",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 2,
+    "language": "automatic per window",
+    "task": "transcribe",
+    "max_new_tokens": 96,
+    "num_beams": 1,
+    "condition_on_previous_text": false,
+    "prompt": null,
+    "started_at": "2026-10-18T05:11:01.203381+00:00",
+    "manual_audio_listening": false
+  },
+  "qwen-short-provenance.json": {
+    "model": "Qwen/Qwen3-ASR-0.6B-hf",
+    "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+    "library": "5.20.1",
+    "torch": "2.14.1+cpu",
+    "device": "cpu",
+    "dtype": "bfloat16",
+    "threads": 2,
+    "language": "auto",
+    "max_new_tokens": 96,
+    "prompt": null,
+    "generation": "greedy",
+    "started_at": "2026-10-18T05:11:12.923060+00:00",
+    "independent_model": false,
+    "manual_audio_listening": false
+  }
+}
