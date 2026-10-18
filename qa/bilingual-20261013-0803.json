@@ -1,0 +1,31 @@
+{
+  "recording_id": "20261013-0803",
+  "paragraph_pairs": 69,
+  "source_block_count": 95,
+  "source_speech_sha256": "4b8487327df8db716045c0849c4321017165b4ab4160235458333febd6a1b53b",
+  "bilingual_sha256": "d64fb81f13260420db327ea90c66d1de05599c91b3d414bc02118df3084e4ebd",
+  "status": "all_source_blocks_translated_and_read_through_with_uncertainties",
+  "cleaned_timestamp_speaker_editorial_markers": true,
+  "substantive_uncertainty_preserved": {
+    "[exchange wording uncertain]": "具体交换措辞不确定",
+    "[possibly “contention-free period”; phase name uncertain]": "阶段名称不确定",
+    "[interval name uncertain]": "间隔名称不确定",
+    "[The precise letter changes and some wording are unclear.]": "具体改了哪些字母",
+    "[symbol unclear]": "符号不清楚",
+    "[reply wording uncertain]": "回答的具体措辞不确定",
+    "within B, presumably": "应该是 B 内部",
+    "towards B, presumably": "应该是朝向 B",
+    "[word uncertain]": "词不确定",
+    "[channel count uncertain]": "信道数量不确定",
+    "[Which constellation “this case” indicates is unclear.]": "具体指哪一个星座并不清楚",
+    "almost 35": "具体钟点单位没有说清",
+    "[Final brief phrase unclear.]": "最后一句简短的话不清楚"
+  },
+  "all_95_source_blocks_mapped_once": true,
+  "no_unreliable_post_lecture_asr_promoted_to_speech": true,
+  "raw_commit": "bbf211800300d1419305ac4eaf903faf199cdea6",
+  "terminology_addendum_prepared": true,
+  "terminology_review_public_append_pending": false,
+  "updated_at": "2026-10-18T04:17:27.437433+00:00",
+  "terminology_review": "bilingual/terminology-review.md"
+}
