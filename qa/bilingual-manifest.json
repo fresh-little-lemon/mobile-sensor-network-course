@@ -1,5 +1,5 @@
 {
-  "completed": 8,
+  "completed": 9,
   "total": 19,
   "files": [
     {
@@ -41,6 +41,11 @@
       "file": "bilingual/20261010-0800.en-zh.md",
       "pairs": 81,
       "sha256": "9290704b2bb2e4b027c39af3254387a170eac466501d90d29562ea25003f0b2d"
+    },
+    {
+      "file": "bilingual/20261010-1000.en-zh.md",
+      "pairs": 76,
+      "sha256": "fa6dc779079693ddfb0f47b7053279af6032c0c62882d72da16282a2af7932bd"
     }
   ],
   "checks": [
@@ -48,5 +53,7 @@
     "timestamp/editorial marker removal",
     "source hashes in per-recording QA"
   ],
-  "note": "Chinese-source fragments are translated to English, retaining source Chinese in paired paragraph."
+  "note": "Chinese-source fragments are translated to English, retaining source Chinese in paired paragraph.",
+  "paragraph_pairs": 745,
+  "updated_at": "2026-10-18T02:51:58.086450+00:00"
 }
