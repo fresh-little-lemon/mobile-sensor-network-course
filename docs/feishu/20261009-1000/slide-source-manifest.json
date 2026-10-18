@@ -1,0 +1,986 @@
+{
+  "document_title": "双语对照：录音机-20261009-1000",
+  "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/JT5ydOxALoxXVSxQTN0cM40enid",
+  "original_transcript_url": "https://lcn6dqn3m0yr.feishu.cn/docx/DsmgdwtZ0o8u1gxMqLjcR6q2n3f",
+  "original_audio_url": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmvav813sjz4m215mploj",
+  "prepared_for": "授权的课程私仓同步准备；未执行远程发布",
+  "source_pdfs": [
+    {
+      "filename": "02-WiFi_1-7.pdf",
+      "url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf",
+      "commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "sha256": "15011ccc6e929fd6f0b9fb7837ee450734a12058891fa028e6e1bf658c4902e8",
+      "pages": 74,
+      "figures_used": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        12,
+        15,
+        16,
+        14,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "local_provenance": "Exact pinned PDF reused from authorized 0845 audit; SHA256 checked against its manifest."
+    }
+  ],
+  "audited_at_utc": "2026-10-18T14:36:00Z",
+  "audit_scope": "All97 bilingual paragraphs fully read; all18 original PNGs downloaded read-only and visually compared with pinned PDF pages4–13. Added figure6 original PNG visually checked against page3. Full74-page text searched; later OFDM/MIMO candidates visually checked on pages44,50,56,57,67. Authentication boundary page9 and MAC boundary page13 reviewed. Full final readback compared block by block, and added PNG re-downloaded. Audit worker made no remote edits.",
+  "paragraph_count": 97,
+  "original_image_count": 18,
+  "added_image_count": 1,
+  "image_count": 19,
+  "confirmed_defects": [
+    {
+      "id": "missing-standards-evolution-table",
+      "type": "missing_source_image",
+      "figure_number": 6,
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 3,
+      "pdf_half": "lower",
+      "paragraph_spans": [
+        [
+          2,
+          8
+        ],
+        [
+          63,
+          64
+        ],
+        [
+          82,
+          82
+        ],
+        [
+          91,
+          95
+        ]
+      ],
+      "evidence": "第2段明确说回到我们的表格，第2–8段持续解释表内最大PHY速率与实际吞吐量的差别，第63段回引最大速率，第82和91段回引PHY technique列中的OFDM与MIMO。原18图从图7开始，缺少当前讲解直接指向的图6。",
+      "remediation": "Parent added original figure6 PNG after paragraph2 H2 and before unchanged paragraph2. All18 original images preserved.",
+      "new_block_id": "doxcnbdndiNlT1QBvky8jP9GyGh",
+      "status": "resolved_and_verified_in_full_document_readback",
+      "write_receipt": "receipts/add-slide-006.json",
+      "write_revision": 150
+    }
+  ],
+  "original_images_misaligned_count": 0,
+  "unresolved_source_gaps": [
+    {
+      "id": "ofdm-sinc-source-not-found",
+      "topic": "OFDM子载波sinc示意图",
+      "paragraph_spans": [
+        [
+          81,
+          90
+        ]
+      ],
+      "status": "unresolved_source_not_found",
+      "evidence": "第81段说展示额外幻灯片，第83段明确“let me show you a picture”，84–88段反复指向窄子信道、sinc、频谱峰值及并行信号。",
+      "search_scope": "固定74页02-WiFi_1-7.pdf全篇提取文本与OFDM相关章节；视觉复核第3、13、44、50、56、57、67页。未找到同一基础sinc图。",
+      "action": "保留原文并显式标记来源缺口；不使用Wi-Fi6 OFDMA/RU图冒充OFDM基础图，不自行重绘。"
+    },
+    {
+      "id": "mimo-four-antennas-source-not-found",
+      "topic": "MIMO四天线、半波长间距示意图",
+      "paragraph_spans": [
+        [
+          91,
+          97
+        ]
+      ],
+      "status": "unresolved_source_not_found",
+      "evidence": "第91段说可在这里表示，第92段描述收发两端各四根天线、半波长间距和独立比特串，第93–97段继续解释并行输出与天线数。",
+      "search_scope": "固定PDF的MIMO相关文本及第44、50、67页视觉复核，均是标准特性/速率或MU-MIMO/beamforming概念页，未找到对应四天线原图。",
+      "action": "保留原文并显式标记来源缺口；该示意也可能是课堂补充或板书，当前不能确认为这份PDF内的遗漏，不用泛泛MIMO页替代。"
+    }
+  ],
+  "unresolved_source_gap_count": 2,
+  "all_lecture_visuals_recovered": false,
+  "not_missing": [
+    {
+      "figure_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "本节从图6的速率表继续讲；封面/路线图/范围页没有重讲。第51段简短回顾底层与应用层，不据此机械重插图5。"
+    },
+    {
+      "figure_numbers": [
+        17
+      ],
+      "reason": "第50–54段只简述认证层次与应用层登录；第52段明确说不解释Wi-Fi认证如何工作。图17主体是Open System、WEP挑战响应、WPA2/WPA3与802.1X/RADIUS，未在本节展开，且与口述的笼统认证说法有差别，因此不因17处数字缺口而补图。"
+    },
+    {
+      "figure_numbers_from": 26,
+      "reason": "第81段在转入MAC之前改讲补充OFDM/MIMO，未展开DCF/PCF。后面Wi-Fi4/5/6/7中的相关术语图不能替代本次所指的OFDM sinc或MIMO四天线示意。"
+    }
+  ],
+  "cautions": [
+    "All original bilingual text, including spoken/source inconsistencies and interjections, is retained verbatim. This is not technical correction or audio-to-text verification.",
+    "Repeated timestamps and break conversation at paragraphs47–49 are preserved. Paragraph27 Bye and paragraph97 mono are not silently corrected.",
+    "Paragraph75 says outdoor160m at1Mbps; source figure23 shows460m. Paragraphs52–54 simplify authentication in a way that differs from source figure17. These discrepancies are recorded, not rewritten.",
+    "The source PNGs share the original PDF typography and any clipping/overlap already present in it; no image content was redrawn.",
+    "Source gaps for the OFDM sinc picture and MIMO four-antenna example remain unresolved;19 images does not mean every classroom visual was recovered.",
+    "Only original status metadata changed; all other original non-root blocks remain unchanged.",
+    "Prepared for the authorized private course repository; no public redistribution rights review."
+  ],
+  "images": [
+    {
+      "image_ordinal": 1,
+      "figure_number": 6,
+      "slide_number": 6,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Standards Evolution: the Throughput Line",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 3,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=3",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-006.png",
+      "sha256": "d7a36a66b1a7d330499643f49a1b200d1c9ea0ec4d1489fe51286dd57f802c29",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnbdndiNlT1QBvky8jP9GyGh",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第3页下半页 · 图6（Wi-Fi标准与物理层速率演进）",
+      "original_caption": null,
+      "status": "added_and_verified_in_remote_document",
+      "after_paragraph": {
+        "ordinal": 1,
+        "timestamp": "00:00:00",
+        "block_id": "doxcnWey8v4tAmfkmfPwuWc8mEg",
+        "heading": "01 · 00:00:00 · 课件分享进度与统一笔试安排"
+      },
+      "before_paragraph": {
+        "ordinal": 2,
+        "timestamp": "00:00:48",
+        "block_id": "doxcnJTdfqXMrqqYoSocUvGlIsv",
+        "heading": "02 · 00:00:48 · 物理层数据速率的含义"
+      },
+      "semantic_paragraph_spans": [
+        [
+          2,
+          8
+        ],
+        [
+          63,
+          64
+        ],
+        [
+          82,
+          82
+        ],
+        [
+          91,
+          95
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第2段明确说回到我们的表格，第2–8段持续解释表内最大PHY速率与实际吞吐量的差别，第63段回引最大速率，第82和91段回引PHY technique列中的OFDM与MIMO。原18图从图7开始，缺少当前讲解直接指向的图6。",
+      "placement": "After paragraph2 H2, before unchanged paragraph2",
+      "source_document": "https://lcn6dqn3m0yr.feishu.cn/docx/PnXMd5tSLoFiWDxmYvDcS6BJnfe",
+      "source_image_block_id": "doxcnJYI54vtWLxMi5CNvK9pBeg",
+      "source_download_receipt": "../course-1009-0845/audit/download-slide-006-receipt.json",
+      "remote_download_sha256": "d7a36a66b1a7d330499643f49a1b200d1c9ea0ec4d1489fe51286dd57f802c29",
+      "remote_download_receipt": "audit/download-added-slide-006-receipt.json"
+    },
+    {
+      "image_ordinal": 2,
+      "figure_number": 7,
+      "slide_number": 7,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Other Notable Amendments (Not About Raw Speed)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 4,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=4",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-007.png",
+      "sha256": "8c9516c74da41a3bbc7f9f455be9cd1dbc0b2d7901bd2402db9f2e476bc98847",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn6pK0gtwmEQUdeLZ2ET9Vmf",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第4页上半页 · 图7（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第4页上半页 · 图7（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 9,
+        "timestamp": "00:11:37",
+        "block_id": "doxcnFhxVNJRGbCyCZQkSk9FCDc",
+        "heading": "09 · 00:11:37 · Wi-Fi标准文档与简化代际命名"
+      },
+      "before_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:14:00",
+        "block_id": "doxcnrgQVCEGc3vWkgtZuMnCOgf",
+        "heading": "10 · 00:14:00 · 从标准时间线转向网络架构"
+      },
+      "semantic_paragraph_spans": [
+        [
+          9,
+          9
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第9段说明标准文档繁多、只展示部分修订，且无需背诵；与非速率类修订列表对应。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 3,
+      "figure_number": 8,
+      "slide_number": 8,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "From Amendment Names to “Wi-Fi Generations”",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 4,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=4",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-008.png",
+      "sha256": "2d469460f767a8f0cdb9bdf5a1b8fb5a4cab558b180c1bc0d82dba078f7ae7f6",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnvLmecQB1k7kysmYM8TSPKg",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第4页下半页 · 图8（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第4页下半页 · 图8（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 9,
+        "timestamp": "00:11:37",
+        "block_id": "doxcnFhxVNJRGbCyCZQkSk9FCDc",
+        "heading": "09 · 00:11:37 · Wi-Fi标准文档与简化代际命名"
+      },
+      "before_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:14:00",
+        "block_id": "doxcnrgQVCEGc3vWkgtZuMnCOgf",
+        "heading": "10 · 00:14:00 · 从标准时间线转向网络架构"
+      },
+      "semantic_paragraph_spans": [
+        [
+          9,
+          10
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第9段解释简化命名及Wi-Fi 1至7，第10段接续世代名称；紧跟第9段准确。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 4,
+      "figure_number": 9,
+      "slide_number": 9,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "The Full Picture: 27 Years of Amendments",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 5,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=5",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-009.png",
+      "sha256": "101938221c71da8d78f409c55be0ce2583a7a8ecf61c91fe6f20820eba29b625",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnPRm166VcxpHEsOrmsPiGPf",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第5页上半页 · 图9（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第5页上半页 · 图9（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 10,
+        "timestamp": "00:14:00",
+        "block_id": "doxcnrgQVCEGc3vWkgtZuMnCOgf",
+        "heading": "10 · 00:14:00 · 从标准时间线转向网络架构"
+      },
+      "before_paragraph": {
+        "ordinal": 11,
+        "timestamp": "00:14:55",
+        "block_id": "doxcn7vFJAs7oVS4xIg6BNbXqlc",
+        "heading": "11 · 00:14:55 · 基本服务集BSS与站点通信"
+      },
+      "semantic_paragraph_spans": [
+        [
+          9,
+          10
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第9段末和第10段明确提到时间演进、时间线及新命名；原图紧跟第10段。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 5,
+      "figure_number": 10,
+      "slide_number": 10,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Basic Architectural Concepts",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 5,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=5",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-010.png",
+      "sha256": "f6b137b311ccbf4bfc7d54cb029e33617c1fb3006efe2e7cd7be1d33dffc219a",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnku3OH1pUsWsgVvAASLueBb",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第5页下半页 · 图10（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第5页下半页 · 图10（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 11,
+        "timestamp": "00:14:55",
+        "block_id": "doxcn7vFJAs7oVS4xIg6BNbXqlc",
+        "heading": "11 · 00:14:55 · 基本服务集BSS与站点通信"
+      },
+      "before_paragraph": {
+        "ordinal": 12,
+        "timestamp": "00:16:00",
+        "block_id": "doxcnkWwPOu7PzDO1cBU4Io8h0c",
+        "heading": "12 · 00:16:00 · 家庭和校园中的接入点部署"
+      },
+      "semantic_paragraph_spans": [
+        [
+          10,
+          11
+        ],
+        [
+          16,
+          18
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第10–11段由时间线转入网络架构并定义BSS，16–18段补充ad hoc模式；图紧跟第11段。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 6,
+      "figure_number": 11,
+      "slide_number": 11,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "WLAN with Infrastructure (BSS)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 6,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=6",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-011.png",
+      "sha256": "ec19b277c586fb1dfd23e74f5b4c9dd4e7710da292c6b24d52325ae54c99885b",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnfxFEoFNQZTPQFA4g3Z0GWf",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第6页上半页 · 图11（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第6页上半页 · 图11（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 13,
+        "timestamp": "00:16:43",
+        "block_id": "doxcnhV6UoaSHR2GDVHinwHO6ZA",
+        "heading": "13 · 00:16:43 · 分布系统连接同一机构的接入点"
+      },
+      "before_paragraph": {
+        "ordinal": 14,
+        "timestamp": "00:17:27",
+        "block_id": "doxcnHBRXEfn1vJEraslalpyesc",
+        "heading": "14 · 00:17:27 · 校园分布系统与互联网网关"
+      },
+      "semantic_paragraph_spans": [
+        [
+          11,
+          14
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第11–14段讲站点只能经AP通信、AP经DS连接及网关；图在第13段DS解释之后。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 7,
+      "figure_number": 13,
+      "slide_number": 13,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Extended Service Set (ESS)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 7,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=7",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-013.png",
+      "sha256": "9139713f5bbc7a72c45835a3b1dbbd3c6874302c199f1eeb199950f538685176",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn5blUfEJKUWsVAEro1FWWWc",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第7页上半页 · 图13（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第7页上半页 · 图13（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 15,
+        "timestamp": "00:18:06",
+        "block_id": "doxcnSTSKq5knPyYSEFGqZKBiKg",
+        "heading": "15 · 00:18:06 · 多个BSS构成扩展服务集ESS"
+      },
+      "before_paragraph": {
+        "ordinal": 16,
+        "timestamp": "00:19:26",
+        "block_id": "doxcnBLXqFTlgfzvbGI4nWI88Ci",
+        "heading": "16 · 00:19:26 · 无接入点的自组织通信架构"
+      },
+      "semantic_paragraph_spans": [
+        [
+          12,
+          15
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第12–15段讲多个AP、DS、网关及ESS定义；第15段之后插图与讲述顺序一致。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 8,
+      "figure_number": 12,
+      "slide_number": 12,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Ad Hoc WLAN (Independent BSS, IBSS)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 6,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=6",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-012.png",
+      "sha256": "b35ff2189bc0706bec387c970eef170fbf87f342ec8f5f79b9d01c15dc9edd0b",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnNRkFnGFVGD4fAeHAlm4ITh",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第6页下半页 · 图12（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第6页下半页 · 图12（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 16,
+        "timestamp": "00:19:26",
+        "block_id": "doxcnBLXqFTlgfzvbGI4nWI88Ci",
+        "heading": "16 · 00:19:26 · 无接入点的自组织通信架构"
+      },
+      "before_paragraph": {
+        "ordinal": 17,
+        "timestamp": "00:20:57",
+        "block_id": "doxcnfyLZNJ2Mbbv10XpzXG8uiv",
+        "heading": "17 · 00:20:57 · 矿井和应急救援中的直接通信"
+      },
+      "semantic_paragraph_spans": [
+        [
+          16,
+          18
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第16段开始讲无AP、设备直接通信，第17–18段给矿井和应急队例子；图在第16段之后准确，不按PDF顺序换回ESS之前。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 9,
+      "figure_number": 15,
+      "slide_number": 15,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Joining a BSS: Three Steps",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 8,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=8",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-015.png",
+      "sha256": "74069c7072663e9d1d4a2aecde9dd4f7c5b8b595ea2b2c1c3737a17851cb13c8",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnozsTJzrfx8LYtkiKkKkBFg",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第8页上半页 · 图15（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第8页上半页 · 图15（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 19,
+        "timestamp": "00:23:04",
+        "block_id": "doxcnbI3vemLsNYGEwRIiyblJNf",
+        "heading": "19 · 00:23:04 · 连接Wi-Fi的三个步骤与扫描"
+      },
+      "before_paragraph": {
+        "ordinal": 20,
+        "timestamp": "00:24:32",
+        "block_id": "doxcnMWQhh8Q6o03L00CqexbKvt",
+        "heading": "20 · 00:24:32 · 认证和关联完成后进入BSS"
+      },
+      "semantic_paragraph_spans": [
+        [
+          19,
+          21
+        ],
+        [
+          50,
+          61
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第19段引入三步骤，第20段补齐认证和关联；图在第19段之后，支撑后续逐步讲解。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 10,
+      "figure_number": 16,
+      "slide_number": 16,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Scanning: Passive vs. Active",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 8,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=8",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-016.png",
+      "sha256": "8fe68d44c1ef92f2d2d3afffa9f13ab216d62c87ecf63670edeb2951a5074b07",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnIrnmlVUV777SrHIL8tlled",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第8页下半页 · 图16（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第8页下半页 · 图16（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 29,
+        "timestamp": "00:32:43",
+        "block_id": "doxcnHxgHzjTVJPbyHIefXeEiL2",
+        "heading": "29 · 00:32:43 · 主动请求应答以加快扫描"
+      },
+      "before_paragraph": {
+        "ordinal": 30,
+        "timestamp": "00:32:43",
+        "block_id": "doxcnCxkAoPcRtTdwAgijdvHucX",
+        "heading": "30 · 00:32:43 · 主动扫描加快信息收集"
+      },
+      "semantic_paragraph_spans": [
+        [
+          21,
+          32
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第21–28段讲被动监听beacon，第29段对比主动请求和响应，第30–32段归纳；图在第29段之后合适。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 11,
+      "figure_number": 14,
+      "slide_number": 14,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Mobility Within an ESS",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 7,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=7",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-014.png",
+      "sha256": "24b1c342fb13655440051a5f67bf6ebcf5e7c1b2630a26e8b18bce12f567d55f",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnNhKq4Jk6g8QoaAImW6SUph",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第7页下半页 · 图14（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第7页下半页 · 图14（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 58,
+        "timestamp": "00:56:20",
+        "block_id": "doxcnzZXzeaCXBQqvy3CF5GJKbb",
+        "heading": "58 · 00:56:20 · 新接入点获知原连接并通知旧接入点"
+      },
+      "before_paragraph": {
+        "ordinal": 59,
+        "timestamp": "00:57:47",
+        "block_id": "doxcnd9LXatM3uVAzGGQliW34xb",
+        "heading": "59 · 00:57:47 · 关联中的ESS适用条件"
+      },
+      "semantic_paragraph_spans": [
+        [
+          58,
+          60
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第58–60段才详细讲校园移动、关联新AP及经DS通知旧AP；图14虽晚于图16，但正好在第58段之后，不能误判为乱序。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 12,
+      "figure_number": 18,
+      "slide_number": 18,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Association (Step 3)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 9,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=9",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-018.png",
+      "sha256": "2d55e44165d28167cd588e8538742c54e41385cfc430f936481cd8b20233b69f",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnsqOI39eC8lGkikmWWSQ2eh",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第9页下半页 · 图18（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第9页下半页 · 图18（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 61,
+        "timestamp": "00:57:47",
+        "block_id": "doxcn9LKdaLaJatD5OKdCWqtuSb",
+        "heading": "61 · 00:57:47 · 关联请求帧与信息交换"
+      },
+      "before_paragraph": {
+        "ordinal": 62,
+        "timestamp": "00:59:01",
+        "block_id": "doxcnjHQNo7CNvm4oqKE3HEgKvh",
+        "heading": "62 · 00:59:01 · 关联请求和关联响应过程"
+      },
+      "semantic_paragraph_spans": [
+        [
+          54,
+          64
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第54–64段讲关联、能力交换、QoS、漫游和request/response；图在第61段关联请求帧引入之后合适。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 13,
+      "figure_number": 19,
+      "slide_number": 19,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Physical-Layer Fundamentals (Wi-Fi 1–3)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 10,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=10",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-019.png",
+      "sha256": "dc4b5d07090c8895c32897da75245f453684f0304f2a1e66ef76bd38e4253cd4",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnO6QHP6BBeugdnX45TXAOAc",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第10页上半页 · 图19（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第10页上半页 · 图19（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 66,
+        "timestamp": "01:01:47",
+        "block_id": "doxcn2TPlt4G88YPvwOdUk9Xovf",
+        "heading": "66 · 01:01:47 · 用早期标准解释共同物理层概念"
+      },
+      "before_paragraph": {
+        "ordinal": 67,
+        "timestamp": "01:02:22",
+        "block_id": "doxcns93mGfrcI5LDLOlHXAChWb",
+        "heading": "67 · 01:02:22 · 2.4GHz频谱与信道1、6、11"
+      },
+      "semantic_paragraph_spans": [
+        [
+          65,
+          66
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第65–66段明确转回PHY基础并以早期标准说明；章节页紧接第66段。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 14,
+      "figure_number": 20,
+      "slide_number": 20,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Frequency Band and Channels (2.4 GHz)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 10,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=10",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-020.png",
+      "sha256": "892bca0755156b5f2876ee7b68e68e29d74ff5aac892547b79838c27f1254965",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnrMsEh1u74meE9Pv91XG7hg",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第10页下半页 · 图20（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第10页下半页 · 图20（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 67,
+        "timestamp": "01:02:22",
+        "block_id": "doxcns93mGfrcI5LDLOlHXAChWb",
+        "heading": "67 · 01:02:22 · 2.4GHz频谱与信道1、6、11"
+      },
+      "before_paragraph": {
+        "ordinal": 68,
+        "timestamp": "01:04:18",
+        "block_id": "doxcnmkHaLNSNR0B5Kxo0B2RsG9",
+        "heading": "68 · 01:04:18 · 家用接入点的信道选择"
+      },
+      "semantic_paragraph_spans": [
+        [
+          67,
+          69
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第67段开始讲2.4GHz频带、1/6/11信道和AP配置，与频带和信道页一致。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 15,
+      "figure_number": 21,
+      "slide_number": 21,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Non-Overlapping Channels in the 2.4 GHz Band",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 11,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=11",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-021.png",
+      "sha256": "366d033762bb4326e2a635d10dbb248d2b60352f25ce42bcb48824b6d178b3ea",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnswba9BzqcLjRPJnO8c3NHM",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第11页上半页 · 图21（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第11页上半页 · 图21（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 68,
+        "timestamp": "01:04:18",
+        "block_id": "doxcnmkHaLNSNR0B5Kxo0B2RsG9",
+        "heading": "68 · 01:04:18 · 家用接入点的信道选择"
+      },
+      "before_paragraph": {
+        "ordinal": 69,
+        "timestamp": "01:04:36",
+        "block_id": "doxcn0XIY3viP6qIrKUwLMUAqCg",
+        "heading": "69 · 01:04:36 · 同一BSS内站点共享所选频率"
+      },
+      "semantic_paragraph_spans": [
+        [
+          67,
+          69
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第68段再明确1/6/11编号，第69段讲选定频带后所有站点共用；图位于第68/69段之间。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 16,
+      "figure_number": 22,
+      "slide_number": 22,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "The Case for Multi-Rate Transmission",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 11,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=11",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-022.png",
+      "sha256": "d58265d7e523a7852e545a419beffde39bcf7e212fa4fd31f5bcf83ed95d67f0",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnyX9nBcapC2jMIbVxGCqCBc",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第11页下半页 · 图22（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第11页下半页 · 图22（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 71,
+        "timestamp": "01:06:46",
+        "block_id": "doxcnLc9E8Y0RagsLl3JR4PzPVi",
+        "heading": "71 · 01:06:46 · 调制效率与信道可靠性的取舍"
+      },
+      "before_paragraph": {
+        "ordinal": 72,
+        "timestamp": "01:08:32",
+        "block_id": "doxcntCiUp2T9qpgbpQMdnTqjoe",
+        "heading": "72 · 01:08:32 · 通过调制选择实现速率自适应"
+      },
+      "semantic_paragraph_spans": [
+        [
+          70,
+          72
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第70–72段解释信道质量、距离、调制效率及速率变化；图在第71段之后。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 17,
+      "figure_number": 23,
+      "slide_number": 23,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Range vs. Data Rate (802.11b Example)",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 12,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=12",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-023.png",
+      "sha256": "7d34669d67af781a8e20d3ce061bc4ca98cc1347f01fc447d6593be44888d225",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnbBbW29iIQhdzMhQFgSVKVh",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第12页上半页 · 图23（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第12页上半页 · 图23（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 73,
+        "timestamp": "01:08:32",
+        "block_id": "doxcn61GWJw76p33RFYm74hRmJe",
+        "heading": "73 · 01:08:32 · 室内远距离采用低速率"
+      },
+      "before_paragraph": {
+        "ordinal": 74,
+        "timestamp": "01:08:32",
+        "block_id": "doxcn9gYXPg3fZZT3hovzT5GBte",
+        "heading": "74 · 01:08:32 · 室内距离缩短可提高速率"
+      },
+      "semantic_paragraph_spans": [
+        [
+          72,
+          75
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第72段称将看图示，第73–75段逐项讲室内外距离与1/2/5.5/11Mbps；图在第73段后，位置相关。口述160m与图中460m不一致，保留原文原图并记录差异。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 18,
+      "figure_number": 24,
+      "slide_number": 24,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Rate Adaptation",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 12,
+      "pdf_half": "lower",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=12",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-024.png",
+      "sha256": "8ef002ed50e13a992722105e04a3e7d08f53c311b7b217d6817ea2fbd8d5ecde",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcnj1l3mKJNRXrzOKzDXiIdVf",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第12页下半页 · 图24（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第12页下半页 · 图24（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 75,
+        "timestamp": "01:08:32",
+        "block_id": "doxcnReHotcdexNvm94nC4VIw7e",
+        "heading": "75 · 01:08:32 · 室外覆盖、自适应算法与SNR反馈"
+      },
+      "before_paragraph": {
+        "ordinal": 76,
+        "timestamp": "01:14:13",
+        "block_id": "doxcnS783duWKZEr1DbIdPiPtpb",
+        "heading": "76 · 01:14:13 · 基于SNR或成功确认记录调整速率"
+      },
+      "semantic_paragraph_spans": [
+        [
+          63,
+          64
+        ],
+        [
+          75,
+          77
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第75–77段说明厂商自定算法、SNR反馈与传输成功历史；图在第75段之后。",
+      "download_receipt": "audit/download-results.json"
+    },
+    {
+      "image_ordinal": 19,
+      "figure_number": 25,
+      "slide_number": 25,
+      "numbering_basis": "PDF handout sequence, not the small printed footer or document image order",
+      "title": "Final Remark: Wi-Fi Radios Are Half-Duplex",
+      "source_pdf": "02-WiFi_1-7.pdf",
+      "pdf_page": 13,
+      "pdf_half": "upper",
+      "source_url": "https://huggingface.co/datasets/freshlittlelemon/mobile-sensor-network-course/blob/b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8/02-WiFi_1-7.pdf#page=13",
+      "source_commit": "b89315ff4995ed67ca2fd6f5e6b682ff53afa5a8",
+      "image_path": "slide-images/slide-025.png",
+      "sha256": "0c7021742db2c1031e728e6bd6a2b2afe8d45ebed8a5e73bc01c5479bf7d93ef",
+      "width": 1354,
+      "height": 762,
+      "image_block_id": "doxcn9Bq6jhH7JFM2NEHw9o9Lyf",
+      "caption": "课件：02-WiFi_1-7.pdf · PDF第13页上半页 · 图25（按PDF顺序）",
+      "original_caption": "课件：02-WiFi_1-7.pdf · PDF第13页上半页 · 图25（按PDF顺序）",
+      "status": "original_preserved",
+      "after_paragraph": {
+        "ordinal": 78,
+        "timestamp": "01:15:01",
+        "block_id": "doxcnOTZCYPKubj5aBZmpTn4mAc",
+        "heading": "78 · 01:15:01 · Wi-Fi半双工与单一收发器"
+      },
+      "before_paragraph": {
+        "ordinal": 79,
+        "timestamp": "01:16:12",
+        "block_id": "doxcnU84gPl1lr0tzA7MP4gWJLd",
+        "heading": "79 · 01:16:12 · 收发器和天线的硬件作用"
+      },
+      "semantic_paragraph_spans": [
+        [
+          78,
+          80
+        ]
+      ],
+      "identity_verified": "Original Feishu PNG visually compared with rendered pinned PDF. Title, text, layout, diagrams/tables and numbering match; original PNG bytes retained.",
+      "alignment": "aligned",
+      "alignment_reason_zh": "第78–80段讲单收发器、不能同时收发和低成本；图在第78段之后准确。",
+      "download_receipt": "audit/download-results.json"
+    }
+  ],
+  "final_remote_verification": {
+    "snapshot": "blocks-final.json",
+    "snapshot_sha256": "6ab527c07152de692f907f2b22c375aa4c0f2555d66d970ca4f2c73e4655c1a3",
+    "all_original_non_root_blocks_except_status_unchanged": true,
+    "only_updated_original_content_block": "doxcnUv4xIEdOANGlVM5Gjd3jHh",
+    "status_line_updated_to_correct_counts": true,
+    "status_has_no_stale_count_suffix": true,
+    "paragraph_count": 97,
+    "image_count": 19,
+    "heading2_count": 97,
+    "heading1_count": 10,
+    "original_image_order_and_neighbors_preserved": true,
+    "added_image_before_paragraph2_and_after_its_h2": true,
+    "added_image_bytes_identical_to_original_source": true
+  }
+}

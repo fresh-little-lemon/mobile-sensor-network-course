@@ -1,0 +1,972 @@
+[
+  {
+    "ordinal": 1,
+    "block_id": "doxcnWey8v4tAmfkmfPwuWc8mEg",
+    "text": "原标说话人 1  00:00:00\nThese slides including this set of slides with the assistant staff, and they are going to share them with you on the on the weekend. OK, so we, from now on, it should be quick. OK, and then we agreed to have a written test on the Wednesday before the right before the end of the of the class. One test for everyone, the same test for everyone. But we try to make it suitable for people with different background, as we said.\n这些课件，包括这一套课件，都在助教人员那里，他们会在、在周末把课件分享给大家。好，所以我们，从现在起，应该会很快。好，然后我们商定，在课程结束前、就在课程结束前的那个星期三进行一次笔试。所有人考一次，所有人考同一份试卷。但是，正如我们说过的，我们会尽量让它适合具有不同背景的人。",
+    "timestamp": "00:00:00",
+    "text_sha256": "3ac2e7e989c325d030a0ea63f6a9ab83811b3c58556b0ce9aae1893fe8bcaba2",
+    "heading": "01 · 00:00:00 · 课件分享进度与统一笔试安排",
+    "h1_before": "一、课程安排与速率、吞吐量",
+    "anchor": "doxcnIGAU2pAQqIoNMc7yOQhlqc"
+  },
+  {
+    "ordinal": 2,
+    "block_id": "doxcnJTdfqXMrqqYoSocUvGlIsv",
+    "text": "原标说话人 1  00:00:48\nOK. Good. So, that's done. Let me go back to our table. What I would like to specify about the data rate, the speed: this is the speed at which bits can be sent when a user transmits. Ok?\n好。很好。那么，这件事就办完了。让我回到我们的表格。关于数据速率，也就是速度，我想具体说明的是：这是用户发送时，比特能够被发送出去的速度。好吗？",
+    "timestamp": "00:00:48",
+    "text_sha256": "c0c208f8cfc58cdc87312f882157d288870df29aa676fd351b808b9bf1c0651d",
+    "heading": "02 · 00:00:48 · 物理层数据速率的含义",
+    "h1_before": "",
+    "anchor": "doxcnKUD8sspoZd4LLlToWS527c"
+  },
+  {
+    "ordinal": 3,
+    "block_id": "doxcncbtw6QkSlaLnXNwjIstAId",
+    "text": "原标说话人 1  00:01:22\nThere are two things that I would like to say here, that is, this is the maximum speed at which Wi-Fi cards can transmit if they use a certain version of the standard, OK? So, for example, the most recent version allows for a very high maximum speed. However, as we will see also later, this is the maximum speed, OK? So, if you have a very good channel, very good signal propagation conditions, for example, you are very close to the access point, and there are no obstacles, then, when the Wi-Fi card transmits, it can transmit at this bit rate. But, if you are using this same version, but you are not that close to the access point, or if there are obstacles in the between, so the channel is not good, you will be able to transmit at a speed that is lower than this speed. Okay? So, this is the maximum speed in the best case. But even if you use this version of the standard, but your channel is not good, then you will not be able to transmit at this high speed.\n这里我想说两件事，也就是说，这是Wi-Fi网卡在使用标准的某个版本时所能达到的最大发送速度，好吗？所以，比如说，最新的版本允许非常高的最大速度。不过，正如我们后面也会看到的，这是最大速度，好吗？所以，如果你的信道非常好，信号传播条件非常好，比如你离接入点非常近，而且没有障碍物，那么，当Wi-Fi网卡发送时，它就能够以这个比特率发送。但是，如果你使用的是同一个版本，却没有离接入点那么近，或者中间存在障碍物，也就是说信道不好，那么你就只能以低于这个速度的速度发送。好吗？所以，这是最佳情况下的最大速度。但是，即使你使用的是标准的这个版本，如果你的信道不好，那么你也无法以这么高的速度发送。",
+    "timestamp": "00:01:22",
+    "text_sha256": "c66a2786554029e64e5ea1fff1000340c5ef2036df60a403264fe75a73f3d564",
+    "heading": "03 · 00:01:22 · 最大速率取决于最佳信道条件",
+    "h1_before": "",
+    "anchor": "doxcnVXgYF6ZOnEYrIzYtAqKSQd"
+  },
+  {
+    "ordinal": 4,
+    "block_id": "doxcnmRvZvl3f3YUaee0d4UKUFd",
+    "text": "原标说话人 1  00:03:40\nSo the first thing that I would like to highlight is notice that this data rate is the maximum, so it's not fixed. That's the maximum value, but depending on the channel quality, on the conditions, you may be able to transmit at a lower data rate. For example, in this case, let's take this case, because it's simpler. The maximum speed is 11 megabit per second, but depending on the channel conditions, so how well the signal can propagate over the air, you will be able to transmit at one megabit per second, two megabit per second, or 5.5 megabit per second. Or if it's the channel is really really good, then you can achieve this maximum data rate, that is 11 megabit per second. So, in this version of Wi-Fi, these are the possible data rate, one megabit per second, two megabit per second, 5.5 megabit per second, or 11 megabit per second. 11 is the maximum, but if you're not lucky, okay, if you are not close to the access point, then you may need to transmit at 5.5 or at 2 or at 1 megabit per second. Okay, so that's the the important thing.\n所以，我想强调的第一点是，请注意，这个数据速率是最大值，因此它不是固定不变的。那是最大值，但是，取决于信道质量、取决于具体条件，你可能只能以更低的数据速率发送。比如，在这个例子中，我们就拿这个例子来说，因为它比较简单。最大速度是每秒11兆比特，但是，取决于信道条件，也就是信号在空中能够传播得有多好，你能够以每秒1兆比特、每秒2兆比特，或者每秒5.5兆比特的速度发送。或者，如果信道确实非常、非常好，那么你就能够达到这个最大数据速率，也就是每秒11兆比特。所以，在这个Wi-Fi版本中，这些就是可能采用的数据速率：每秒1兆比特、每秒2兆比特、每秒5.5兆比特，或者每秒11兆比特。11是最大值，但是，如果你不走运，好吗，如果你离接入点不近，那么你可能就需要以每秒5.5、2或者1兆比特的速度发送。好，所以这就是、就是重要的地方。",
+    "timestamp": "00:03:40",
+    "text_sha256": "d2c7b5d6c32874294ddbd2b0486c7583b83f6b4d3257364983240e38a7d95164",
+    "heading": "04 · 00:03:40 · 以1、2、5.5和11Mbps说明速率选择",
+    "h1_before": "",
+    "anchor": "doxcnpWmgB1bvLi5fgzP9wGPtob"
+  },
+  {
+    "ordinal": 5,
+    "block_id": "doxcn9YYlTtdCGx2GugSMGiKPqh",
+    "text": "原标说话人 1  00:05:30\nAnother important thing is, this is the maximum data rate with which you can transmit your bits, right? That's why it's reported at physical layer data rate because it's the speed at which bits can be transmitted when you are here at the physical layer.\n另一件重要的事情是，这是你发送自己的比特时能够采用的最大数据速率，对吧？这就是为什么它被标为物理层数据速率，因为当你处在这里的物理层时，这是比特能够被发送出去的速度。",
+    "timestamp": "00:05:30",
+    "text_sha256": "6bd33202cfd63ac7b8efcd9d6c534b538f3571726138351316e311a37b9f12c6",
+    "heading": "05 · 00:05:30 · 物理层速率描述发送时的比特速度",
+    "h1_before": "",
+    "anchor": "doxcnRF1yyH8b0b0VXMt3Rzy7rh"
+  },
+  {
+    "ordinal": 6,
+    "block_id": "doxcnyEPgxscSJ9znPolmH65ppd",
+    "text": "原标说话人 1  00:05:55\nNow, what we user actually perceive is something different. Why? Because we user perceive the bit rate at which we can deliver our information. So, when you want to upload a picture photo, what you perceive is the actual time that takes for you to transfer all the packets that carry the bits related to that picture. This is something different, because this is the speed that you can achieve when you transmit, so, conditioned to the fact that you are transmitting, then this is this maximum speed at which your physical layer can send packets.\n现在，我们作为用户实际感知到的是另一回事。为什么？因为我们用户感知到的是我们能够交付自己信息的比特率。所以，当你想上传一张图片、一张照片时，你所感知到的是，把承载与这张图片有关的比特的所有数据包传送出去，实际需要花多长时间。这是另一回事，因为这里的速度是你在发送时能够达到的速度，也就是说，以你正在发送这一事实为条件，那么这就是、就是你的物理层能够发送数据包的最大速度。",
+    "timestamp": "00:05:55",
+    "text_sha256": "b75105a42ca4bd08a178ed467055f907005f93411f1645be0ef61b8d4f33e971",
+    "heading": "06 · 00:05:55 · 用户感知的文件传输速度",
+    "h1_before": "",
+    "anchor": "doxcn6WzeZErJE7T60CJY8cdNdg"
+  },
+  {
+    "ordinal": 7,
+    "block_id": "doxcnh5KJMKpUPpvlC6nNgkYGVe",
+    "text": "原标说话人 1  00:07:07\nBut before transmitting, you need to follow the MAC protocol, the MAC function rules to access the channel. So the time that it takes to deliver your photo needs to account for all the time needed to access the channel and transmit correctly the packets that include the bits that compose that photo. Okay.\n但是，在发送之前，你需要遵循MAC协议，遵循MAC功能的规则，才能接入信道。所以，交付你的照片所需的时间，需要计入接入信道所需的全部时间，以及正确发送那些数据包所需的全部时间；这些数据包包含组成那张照片的比特。好。",
+    "timestamp": "00:07:07",
+    "text_sha256": "ea036709bbacc3e8a0a76ed1ab04185c565043f87b27e606dbff9994582b498b",
+    "heading": "07 · 00:07:07 · MAC接入等待也计入传输时间",
+    "h1_before": "",
+    "anchor": "doxcnh0GpNWvURcbbKK02gIepgc"
+  },
+  {
+    "ordinal": 8,
+    "block_id": "doxcnsQyzQc7ku5UKTElBGyUEGe",
+    "text": "原标说话人 1  00:07:54\nThis second performance metric is called throughput. The throughput of the MAC layer is given by the number of bits that a user can actually send over a time period that is sufficiently long. So, this is your observation period. Let's say that is the period during which you will, you would like to send your picture, your photo. The throughput is given by the number of bits that your Wi-Fi card is able to actually transmit correctly over this time period. So, it's given by the number of bits that are transmitted divided by t. Can you see the difference? Difference between the physical data rate at which bits are transmitted when you transmit, so condition to the fact that you are accessing the channel, and the throughput, that is, you consider an observation period that might be quite long. You observe the number of bits that you are actually able to deliver to the receiver over this time period. They are not the same, and in Wi-Fi, this throughput is typically much much lower than the speed at which bits can be transmitted, conditioned to the fact that you are transmitting. Okay, we’ll we’ll go back to this later, so that it will become more clear. But just keep in mind that there is a huge difference between the speed at which the Wi-Fi card can transmit bits, and what the user perceives as speed at which its data file or picture or video is actually transferred. OK, a huge difference. We will understand and explain that better.\n这第二个性能指标叫作吞吐量。MAC层的吞吐量由用户在一段足够长的时间内实际能够发送的比特数来确定。所以，这是你的观察时间。假设这是你将要、你希望发送你的图片、你的照片的那段时间。吞吐量由你的Wi-Fi网卡在这段时间内实际能够正确发送的比特数来确定。所以，它等于发送的比特数除以t。你们能看出区别吗？一个是你发送时传送比特的物理层数据速率，也就是说，以你正在接入信道这一事实为条件；另一个是吞吐量，也就是说，你考虑一段可能相当长的观察时间。你观察在这段时间内，你实际上能够向接收端交付多少比特。它们并不相同，而且在Wi-Fi中，这个吞吐量通常远远、远远低于以你正在发送为条件时比特能够被发送出去的速度。好，我们会、会在后面再回到这里，这样就会更清楚。但是请先记住，Wi-Fi网卡能够发送比特的速度，与用户感知到的自己的数据文件、图片或视频实际被传送的速度之间，存在巨大的差别。好，巨大的差别。我们会更好地理解并解释这一点。",
+    "timestamp": "00:07:54",
+    "text_sha256": "95084a725e934b722501d79d5707039f780ca12e9620c9f48d8100ed9594c655",
+    "heading": "08 · 00:07:54 · 吞吐量与物理层数据速率的区别",
+    "h1_before": "",
+    "anchor": "doxcnJ0pLVMWsg5yNC6Gcfn2Rxb"
+  },
+  {
+    "ordinal": 9,
+    "block_id": "doxcnFhxVNJRGbCyCZQkSk9FCDc",
+    "text": "原标说话人 1  00:11:37\nFor example. OK, so, that was just an initial table to highlight the trends in Wi-Fi. This slide is not for you to remember, right? It just lists the different versions of the standard documents that exist, is actually a small fraction of the standard documents. Just to highlight how much work has been done to standardize Wi-Fi. Now, since there were so many standard documents, OK, that have been produced, it is in general very difficult to keep track of all these different standard documents. So, the second point, they decided to simplify how to refer to the different versions of Wi-Fi as the standard was evolving. So, now, when you look for Wi-Fi specifications, Wi-Fi versions, also Wi-Fi commercial products, they are indicated and referred to using this simpler denomination. So we have Wi-Fi 1, that is the oldest version, 2, 3, 4, 5, 6, 7. These are all products that you can find on the market. Right now, they are specifying Wi-Fi 8, but Wi-Fi 8 is not yet available on the market. OK. Good. So that’s it. This is the time evolution of the standard, just to have an idea.\n比如说。好，那么，刚才只是最开始的一张表，用来突出Wi-Fi的发展趋势。这张幻灯片不是让你们记住的，对吧？它只是列出了现有标准文档的不同版本，实际上只是标准文档中的一小部分。只是为了突出，为了使Wi-Fi标准化，人们已经做了多少工作。现在，由于已经产生了这么多标准文档，好，要跟踪所有这些不同的标准文档，总体来说是非常困难的。所以，第二点，随着标准的演进，他们决定简化不同Wi-Fi版本的称呼方式。所以，现在，当你查看Wi-Fi规格、Wi-Fi版本，以及Wi-Fi商业产品时，它们都会用这种更简单的命名方式来标识和称呼。所以我们有Wi-Fi 1，也就是最老的版本，还有2、3、4、5、6、7。这些都是你能在市场上找到的产品。目前，他们正在制定Wi-Fi 8的规范，但是Wi-Fi 8还没有在市场上上市。好。很好。就是这样。这是标准随时间的演进，只是让大家有个概念。",
+    "timestamp": "00:11:37",
+    "text_sha256": "f72ab128f7f1d31bc680fcdc032541533d82fb6bec4e3325f10883d10f6adc02",
+    "heading": "09 · 00:11:37 · Wi-Fi标准文档与简化代际命名",
+    "h1_before": "二、Wi-Fi版本与网络架构",
+    "anchor": "doxcn2ipPRplqiej4QIiS6mwlAg"
+  },
+  {
+    "ordinal": 10,
+    "block_id": "doxcnrgQVCEGc3vWkgtZuMnCOgf",
+    "text": "原标说话人 1  00:14:00\nWith essentially the reference also to the Wi-Fi 4, 6, 5, 6, 7, that are the newer versions of the Wi-Fi standards according to the new denomination. Just to have a timeline, but of course you don't need to remember that. What is instead important is to look at the network architecture in Wi-Fi. OK, now, we said typically we have user nodes that communicate with an access point. Very easy.\n其中基本上也提到了Wi-Fi 4、6、5、6、7，按照新的命名方式，它们是Wi-Fi标准中较新的版本。只是为了有一条时间线，但当然，你们不需要记住它。相反，重要的是看看Wi-Fi中的网络架构。好，现在，我们说过，通常我们有与接入点通信的用户节点。非常简单。",
+    "timestamp": "00:14:00",
+    "text_sha256": "ca88c886bf3e5d671297715317d7b3088ef2491342a714b9b7a5526515efb62f",
+    "heading": "10 · 00:14:00 · 从标准时间线转向网络架构",
+    "h1_before": "",
+    "anchor": "doxcndSovzlDjyat2Wyhcw4kFth"
+  },
+  {
+    "ordinal": 11,
+    "block_id": "doxcn7vFJAs7oVS4xIg6BNbXqlc",
+    "text": "原标说话人 1  00:14:55\nThis is indeed the most popular architectural version of the Wi-Fi network, and it's what we use, right? Typically we use this. Now, a group of users, Wi-Fi cards that are communicating with the same access point is called basic service set. The basic service set is an access point with a group of users. Ok. And as we know, the users can communicate. They are called also stations, Wi-Fi stations. They can communicate with the access point only. So, this is the wireless link between a user node and the access point.\n这确实是Wi-Fi网络最常见的一种架构，也是我们使用的那种，对吧？通常我们用的就是这个。现在，与同一个接入点通信的一组用户、一组Wi-Fi网卡，被称为基本服务集。基本服务集就是一个接入点加上一组用户。好。而且，正如我们知道的，用户可以通信。它们也被称为站点，Wi-Fi站点。它们只能与接入点通信。所以，这是用户节点与接入点之间的无线链路。",
+    "timestamp": "00:14:55",
+    "text_sha256": "ee65babb621ec77adf40a0cba576f4d8aa7bd3de29b000c94cbb7adb0d1cdaaf",
+    "heading": "11 · 00:14:55 · 基本服务集BSS与站点通信",
+    "h1_before": "",
+    "anchor": "doxcngUEHU8MmYnqBhAjiFApvbg"
+  },
+  {
+    "ordinal": 12,
+    "block_id": "doxcnkWwPOu7PzDO1cBU4Io8h0c",
+    "text": "原标说话人 1  00:16:00\nNow, if you are at home in your apartment, as we said, this access point has got a router on top, and the router connects your own Wi-Fi access point with the internet. If we are here on campus, there are many access points, right? So they cover the whole campus. The campus is very large, so there are many many access points provided by Tongji University.\n现在，如果你在家，在自己的公寓里，正如我们说过的，这个接入点上面还有一个路由器，而这个路由器把你自己的Wi-Fi接入点连接到互联网。如果我们在这里，在校园里，那么就有许多接入点，对吧？所以，它们覆盖整个校园。校园非常大，所以同济大学提供了很多、很多接入点。",
+    "timestamp": "00:16:00",
+    "text_sha256": "ddd64228cfec6bc0ce7023a6e7139e2f60fb24babb048f1d3ff9b827b9fdd803",
+    "heading": "12 · 00:16:00 · 家庭和校园中的接入点部署",
+    "h1_before": "",
+    "anchor": "doxcn29t7qrSQi9LqieDICKFEwb"
+  },
+  {
+    "ordinal": 13,
+    "block_id": "doxcnhV6UoaSHR2GDVHinwHO6ZA",
+    "text": "原标说话人 1  00:16:43\nIn this case, all these access points that belong to Tongji University are connected with each other. So, they are not directly connected to the internet. They are direct, they are connected to each other through the so called distribution system. Distribution system is a wired network that connects the access points owned by the same entity. In this case, Tongji University. Okay.\n在这种情况下，所有这些属于同济大学的接入点都彼此连接。所以，它们并不是直接连接到互联网。它们直接，它们通过所谓的分布系统彼此连接。分布系统是一个有线网络，用来连接同一个实体所拥有的接入点。在这个例子里，就是同济大学。好。",
+    "timestamp": "00:16:43",
+    "text_sha256": "3c04760c0e3a3ca46f4d7bb1cb06c761c727a6c85432d57ac2fd1922be2a7543",
+    "heading": "13 · 00:16:43 · 分布系统连接同一机构的接入点",
+    "h1_before": "",
+    "anchor": "doxcnTwazjds3ms4aIIT4Wj7gWc"
+  },
+  {
+    "ordinal": 14,
+    "block_id": "doxcnHBRXEfn1vJEraslalpyesc",
+    "text": "原标说话人 1  00:17:27\nThen, in this distribution system, at a certain point, there is a gateway toward the internet. We have a similar architecture in Politecnico di Torino, my home university. Of course, on campus, again, we have many access points that belong to Politecnico di Torino. They are connected between each other through a distribution system. And then at a certain point, we have gateways toward the internet.\n然后，在这个分布系统中的某个位置，有一个通向互联网的网关。在我所在的大学，都灵理工大学，我们也有类似的架构。当然，在校园里，同样，我们有许多属于都灵理工大学的接入点。它们通过一个分布系统彼此连接。然后，在某个位置，我们有通向互联网的网关。",
+    "timestamp": "00:17:27",
+    "text_sha256": "a78c05a3c53fc14604349c162ad77194461dc0acd7b68491732b3304e1adda2b",
+    "heading": "14 · 00:17:27 · 校园分布系统与互联网网关",
+    "h1_before": "",
+    "anchor": "doxcn66eAHNj0771o6wCvmbFjkg"
+  },
+  {
+    "ordinal": 15,
+    "block_id": "doxcnSTSKq5knPyYSEFGqZKBiKg",
+    "text": "原标说话人 1  00:18:06\nOK, now, when we have many access points that are connected with each other. So, let me. Just a little bit for it. When we have many access points that are connected with each other through the distribution system, and then as I said, we are connected through a gateway with the internet. We refer to this network architecture as extended service set. Right? Extended service set, because it is not just a basic service set, it is not just one access point and the user connected to it, but we have an extended network with several access points, and with access points connected through the distribution system. So, all this is an extended service set. OK, good.\n好，现在，当我们有许多彼此连接的接入点时。那么，让我。稍微弄一下。当我们有许多通过分布系统彼此连接的接入点，然后，正如我所说，我们又通过一个网关与互联网连接时，我们把这种网络架构称为扩展服务集。对吧？扩展服务集，因为它不只是一个基本服务集，不只是一个接入点和连接到它的用户，而是有一个包含多个接入点的扩展网络，而且接入点通过分布系统相连接。所以，所有这些就是一个扩展服务集。好，很好。",
+    "timestamp": "00:18:06",
+    "text_sha256": "ed1c5c4745351d6027a762f5bb07d81560d1faf36ac03aade4ea6cff2235b4df",
+    "heading": "15 · 00:18:06 · 多个BSS构成扩展服务集ESS",
+    "h1_before": "",
+    "anchor": "doxcn4PPRkVZLyW5kBvstPWX4Rb"
+  },
+  {
+    "ordinal": 16,
+    "block_id": "doxcnBLXqFTlgfzvbGI4nWI88Ci",
+    "text": "原标说话人 1  00:19:26\nSo, now, there is a second possible type of architecture in a Wi-Fi, that is the ad hoc architecture. Remember we mentioned that also yesterday, this is a possible network architecture in wireless networks. It is also referred to as device to device communication network. And this is implemented when we configure the Wi-Fi cards to talk to each other directly. So, in that case, there is no access point, but the Wi-Fi wireless cards, so the Wi-Fi stations can communicate with each other directly. This is not very popular in Wi-Fi, right? We are used to the other network architecture, the one with the access point. That's what we use daily. But it is a possible network architecture. For example, in particular scenarios, environments, like mines, right?\n所以，现在，Wi-Fi中还有第二种可能的架构类型，也就是自组织架构。记住，我们昨天也提到过，这是无线网络中一种可能的网络架构。它也被称为设备到设备通信网络。当我们把Wi-Fi网卡配置为彼此直接通信时，就实现了这种架构。所以，在这种情况下，没有接入点，而Wi-Fi无线网卡，也就是Wi-Fi站点，可以彼此直接通信。这在Wi-Fi中不是很常见，对吧？我们习惯于另一种网络架构，也就是有接入点的那一种。那是我们每天使用的架构。但是，这也是一种可能的网络架构。比如说，在特定的场景、环境中，比如矿井，对吧？",
+    "timestamp": "00:19:26",
+    "text_sha256": "3180eb5b5a715be99a31820c19b643adae5e226e7817222e2e5a6af47dfe1dd7",
+    "heading": "16 · 00:19:26 · 无接入点的自组织通信架构",
+    "h1_before": "",
+    "anchor": "doxcn3TBLaS8bixdsrrDc1TZbzc"
+  },
+  {
+    "ordinal": 17,
+    "block_id": "doxcnfyLZNJ2Mbbv10XpzXG8uiv",
+    "text": "原标说话人 1  00:20:57\nIn mines, when you need to connect different wireless, Wi-Fi nodes, this is the typical network architecture that you use in that case, or when you have emergency squads. So, you have an emergency squad, each member of the squad has got a Wi-Fi device. In the case of emergency squads, they communicate directly using this network architecture. Why? Because they operate in an emergency. So, the infrastructure may be disrupted, destroyed by a earthquake, a flooding, other kind of emergencies. So, in that case, there are no access points available, and the members of the emergency squad need to communicate without the help of any access point.\n在矿井中，当你需要连接不同的无线、Wi-Fi节点时，这就是你在那种情况下通常会使用的网络架构；或者，当你有应急救援队时也是如此。所以，你有一支应急救援队，队里的每一位成员都有一台Wi-Fi设备。对于应急救援队来说，他们利用这种网络架构直接通信。为什么？因为他们是在紧急情况下执行任务。所以，基础设施可能中断，可能被地震、洪水或其他类型的紧急情况摧毁。所以，在这种情况下，没有可用的接入点，而应急救援队的成员需要在没有任何接入点帮助的情况下通信。",
+    "timestamp": "00:20:57",
+    "text_sha256": "0c58a6477542767a32a20c7e532173e466fa3a18cc268f9f88b7dfcb922bc8f9",
+    "heading": "17 · 00:20:57 · 矿井和应急救援中的直接通信",
+    "h1_before": "",
+    "anchor": "doxcnKaGO90H0VA0nUlrR4zTsLT"
+  },
+  {
+    "ordinal": 18,
+    "block_id": "doxcn3GqinlF96hZpZOgo7Ai9Wg",
+    "text": "原标说话人 1  00:22:17\nSo, in that case, we have these kinds of network architecture. What we're going to explain about Wi-Fi holds holds for both the network architectures, the one with access point as well as this one working in an ad hoc mode. Ok? But we will refer for simplicity, to the scenario with access point, because that's the most common network architecture for Wi-Fi.\n所以，在这种情况下，我们有这几种网络架构。我们接下来要解释的Wi-Fi相关内容，对这两种网络架构都适用、都适用：既适用于带接入点的架构，也适用于这种以自组织模式工作的架构。好吗？但是，为了简单起见，我们会以带接入点的场景为参照，因为那是Wi-Fi最常见的网络架构。",
+    "timestamp": "00:22:17",
+    "text_sha256": "f98db08bc4286392330432e15089da07df6c805cccf86b079f9fc8d38f4e926e",
+    "heading": "18 · 00:22:17 · 两类架构适用性与课程示例范围",
+    "h1_before": "",
+    "anchor": "doxcnTxU156L2WSRkwZyeJaejOc"
+  },
+  {
+    "ordinal": 19,
+    "block_id": "doxcnbI3vemLsNYGEwRIiyblJNf",
+    "text": "原标说话人 1  00:23:04\nOK, so that said, let me skip some details. Let's understand how we connect to Wi-Fi. OK, because typically we get on campus, and we start uploading, downloading data. We go home, we upload downloading downloading data. But do you know how this is possible? How all this data can be uploaded or downloaded? Because our Wi-Fi card does that, right? For us, we don't realize how this happens. So, what we're going to learn now is what our Wi-Fi card does for us every day. OK? Now, we can upload and download data using Wi-Fi, thanks to the fact that our Wi-Fi card performs these three steps whenever it connects with an access point. First of all, scanning. This is the first step.\n好，那么，说完这些，让我跳过一些细节。我们来理解一下，我们是怎样连接到Wi-Fi的。好，因为通常我们来到校园，就开始上传、下载数据。我们回到家，上传、下载、下载数据。但是，你们知道这是怎样实现的吗？所有这些数据怎样才能被上传或者下载呢？因为我们的Wi-Fi网卡做了这些事，对吧？替我们做了这些事，我们并没有意识到这一切是怎样发生的。所以，我们现在要学习的，就是我们的Wi-Fi网卡每天替我们做的事情。好吗？现在，我们能够使用Wi-Fi上传和下载数据，是因为每当我们的Wi-Fi网卡连接到一个接入点时，它都会执行这三个步骤。首先，扫描。这是第一步。",
+    "timestamp": "00:23:04",
+    "text_sha256": "a9045715b4f01e1e98c4bfadf311686faa5396e28a9ab47cefc4beb151130656",
+    "heading": "19 · 00:23:04 · 连接Wi-Fi的三个步骤与扫描",
+    "h1_before": "三、扫描、信标与接入点发现",
+    "anchor": "doxcnGwfBQ0d3RmNFor4v0krkyc"
+  },
+  {
+    "ordinal": 20,
+    "block_id": "doxcnMWQhh8Q6o03L00CqexbKvt",
+    "text": "原标说话人 1  00:24:32\nSecond step will be authentication. Third step will be association. OK, after that, your Wi-Fi card will be able to start working within a BSS, that means to communicate with an access point. And therefore, you will be able to upload and download data.\n第二步是认证。第三步是关联。好，在那之后，你的Wi-Fi网卡就能够开始在一个BSS中工作，也就是说，与一个接入点通信。因此，你就能够上传和下载数据。",
+    "timestamp": "00:24:32",
+    "text_sha256": "2de0e7749eb4c0a3f24aeb35db1ab17ca01c05bce804e5b98bbcd9aa9339421d",
+    "heading": "20 · 00:24:32 · 认证和关联完成后进入BSS",
+    "h1_before": "",
+    "anchor": "doxcnjIGVfYdjQ3LYPUo9FO8Dkd"
+  },
+  {
+    "ordinal": 21,
+    "block_id": "doxcnR5D3VyC5Ycpe9RrUYMv7Gc",
+    "text": "原标说话人 1  00:24:59\nBut first, you need to do these three steps. So, let's look at the first one. What does the first step mean? Scanning. Remember what we said about the physical layer. Let’s say that considering a BSS, right? We were operating in one of these frequency channels, OK? So, when we have one BSS, a BSS can work if it operates at 2.4GHz using one of these frequency channels. Now this means that the base station, sorry, the access point and all the users connected to that access point will operate using the same frequency channel. OK. It can be this one, or this one, or this one, if we work at 2.4GHz. So, scanning, that is our first step, allows users to discover an access point that is available nearby.\n但是，首先，你需要完成这三个步骤。所以，我们来看看第一步。第一步是什么意思？扫描。记住我们讲物理层时说过的话。假设我们考虑一个BSS，对吧？我们工作在这些频率信道中的一个上，好吗？所以，当我们有一个BSS时，如果它工作在2.4 GHz，就可以使用这些频率信道中的一个来工作。现在，这意味着基站，抱歉，是接入点，以及连接到这个接入点的所有用户，都将使用同一个频率信道来工作。好。如果我们工作在2.4 GHz，它可以是这个，也可以是这个，或者这个。所以，扫描，也就是我们的第一步，使用户能够发现附近可用的接入点。",
+    "timestamp": "00:24:59",
+    "text_sha256": "849e35fb4a6e9831feec8d7943e9a78c3393970dd85b2ab6bc4671036ac6f403",
+    "heading": "21 · 00:24:59 · 同一BSS使用同一信道与扫描目标",
+    "h1_before": "",
+    "anchor": "doxcnakbl1M7bl4inJt6xypaxTf"
+  },
+  {
+    "ordinal": 22,
+    "block_id": "doxcnlnInmJlSYL3iMT8c0cGzZf",
+    "text": "原标说话人 1  00:26:43\nHow can this happen? Let's assume that we enter the campus, then our Wi-Fi card will start listening if it operates at 2.4GHz, to this first frequency channel, and if there are access points operating on these frequency channels, our Wi-Fi card will be able to discover them. How? Because every access point periodically broadcasts a packet called beacon. Beacon in English, you know, it's that tower on the coast of the ocean that sends light signals, right? That’s the beacon for ships or boats that are along the coast, so that they can see that there is a coast there, right?\n这是怎样实现的呢？假设我们进入校园，那么，如果我们的Wi-Fi网卡工作在2.4 GHz，它就会开始监听这第一个频率信道；如果有接入点工作在这些频率信道上，我们的Wi-Fi网卡就能够发现它们。怎样发现呢？因为每个接入点都会周期性地广播一个称为信标的数据包。你们知道，英语中的beacon，就是海岸上发出光信号的那座塔，对吧？那就是给沿岸航行的轮船或小船用的灯塔，让它们能够知道那里有海岸，对吧？",
+    "timestamp": "00:26:43",
+    "text_sha256": "5ffbe0b360d939b495eecdd1cc42a5c6c4590a29b6ec22dec474e5f07c343b3f",
+    "heading": "22 · 00:26:43 · 通过周期广播信标发现接入点",
+    "h1_before": "",
+    "anchor": "doxcncVnfozvKZylPJaccLv1ZPf"
+  },
+  {
+    "ordinal": 23,
+    "block_id": "doxcn3fXZ61ubAFHIz6Hv6jU52f",
+    "text": "原标说话人 1  00:28:07\nThese packets are called beacons, because indeed they announce the fact that there is an access point. So, every access point transmits this packet that is intended for anyone. So, it's broadcast. It's intended for anyone. And it says, “I’m access point, Mickey Mouse, I’m here.” Okay, that’s the meaning of the beacon.\n这些数据包被称为信标，因为它们确实是在宣布有一个接入点存在。所以，每个接入点都会发送这个面向所有人的数据包。因此，它是广播。它面向所有人。它说：‘我是接入点，米老鼠，我在这里。’好，这就是信标的含义。",
+    "timestamp": "00:28:07",
+    "text_sha256": "25a398519978608d2f7dad7f54f8b1201ce8010d3aff00e363785ffc97887381",
+    "heading": "23 · 00:28:07 · 信标广播宣告接入点存在",
+    "h1_before": "",
+    "anchor": "doxcnArsqN1fQa76CWypVWXsgve"
+  },
+  {
+    "ordinal": 24,
+    "block_id": "doxcnXarrd2NmcbLcVGwISOA26h",
+    "text": "原标说话人 1  00:28:39\nAll the Wi-Fi cards that are nearby can hear the beacon. So, when you enter campus, your Wi-Fi card we start scanning, that means you will first position the receiver onto this frequency channel and start listening. If there are beacons from access points, any access point that is there.\n附近所有的Wi-Fi网卡都能听到这个信标。所以，当你进入校园时，你的Wi-Fi网卡会开始扫描，也就是说，你会先把接收机调到这个频率信道上，然后开始监听。如果有来自接入点的信标，来自那里任何一个接入点的信标。",
+    "timestamp": "00:28:39",
+    "text_sha256": "17f3a4ad014c8f28bf878469ceefcd8435529ea37725321079e590564b6fc102",
+    "heading": "24 · 00:28:39 · 逐信道监听附近信标",
+    "h1_before": "",
+    "anchor": "doxcnPSZYqNGs2oS92xK2GYO4Eb"
+  },
+  {
+    "ordinal": 25,
+    "block_id": "doxcnwCITOuipUL1dbsKc7Qm9ic",
+    "text": "原标说话人 1  00:29:13\nOK, and upon hearing a beacon, your Wi-Fi card understands that there is an access point called Mickey Mouse. And it will also measure the associated SNR, that means how strong that signal can be received.\n好，一听到信标，你的Wi-Fi网卡就知道有一个叫作米老鼠的接入点。它还会测量相应的SNR，也就是所接收到的那个信号有多强。",
+    "timestamp": "00:29:13",
+    "text_sha256": "a9f369fb8692db894355b64e9f1c726eac101c4a30bcc6d15ac2abfeb7c65333",
+    "heading": "25 · 00:29:13 · 记录接入点名称及接收信噪比",
+    "h1_before": "",
+    "anchor": "doxcnmHXTf6iX3ywWJEjNX2QHHc"
+  },
+  {
+    "ordinal": 26,
+    "block_id": "doxcn1BiIbcC18YNasjK8stBRMg",
+    "text": "原标说话人 1  00:29:43\nOK? And then it just waits there, and wait to see if there is any other beacon from another access point. And if there is, it will record it, and it will record also the associated SNR, and so on. After a while, it switches to another frequency channel. In this case, the second one, and it will stay there waiting to receive possible beacons from the nearby access points. And it will record the name of the access point and the associated SNR, so how strong the signal from that access point can be received. You will stay there for a while, and then switch to a different frequency channel. Okay? So, if your Wi-Fi card also works at 5GHz, it will then switch to 5GHz, scan all the frequency channels at 5GHz, and on each of them, you will hear for beacons, record the name of the access point sending that beacon and the associated SNR, and so on and so forth. So at the end of this scanning procedure, what your Wi-Fi card gets as a result is a list of access points that are available, that are nearby that you can hear, and the associated SNR. You can realize that, if you go to, easily, if you go to a place where you're not been yet. For example, you visit another city. At a certain point, you turn on your Wi-Fi card in your laptop, for example, and you will see, or on your phone, and you will see all the possible access points that are available.\n好吗？然后它就在那里等待，等着看有没有来自另一个接入点的其他信标。如果有，它就会把它记录下来，也会记录相应的SNR，如此继续。过一会儿，它就切换到另一个频率信道。在这个例子中，就是第二个信道，它会留在那里，等待接收附近接入点可能发来的信标。它会记录接入点的名称以及相应的SNR，也就是所接收到的那个接入点的信号有多强。你会在那里停留一段时间，然后切换到另一个频率信道。好吗？所以，如果你的Wi-Fi网卡还工作在5 GHz，它接着就会切换到5 GHz，扫描5 GHz的所有频率信道，并在每一个信道上监听信标，记录发送该信标的接入点的名称以及相应的SNR，如此等等。所以，在这个扫描过程结束时，你的Wi-Fi网卡得到的结果，就是一份可用接入点的列表：这些接入点就在附近，你能听到它们，并且还有相应的SNR。你可以体会到这一点，如果你去，很容易，如果你去了一个以前没去过的地方。比如，你去另一个城市游览。在某个时候，比如说，你打开笔记本电脑里的Wi-Fi网卡，你就会看到，或者在手机上打开，你就会看到所有可能可用的接入点。",
+    "timestamp": "00:29:43",
+    "text_sha256": "e5291f64ad3ab1d977ce64aecaa0634751df8f06afc1141df1f09ba06592c770",
+    "heading": "26 · 00:29:43 · 遍历信道形成接入点与信号质量列表",
+    "h1_before": "",
+    "anchor": "doxcnkz5DFmKTqSV1Q7sWgZGL8e"
+  },
+  {
+    "ordinal": 27,
+    "block_id": "doxcndXX550pGraI3T3gnnAQA1c",
+    "text": "原标说话人 1  00:31:58\nBye.\n拜。",
+    "timestamp": "00:31:58",
+    "text_sha256": "6b7dd763652b590602851801ac2dc6a28fe8339bc43c6e8f641f2a4d92ef8027",
+    "heading": "27 · 00:31:58 · 课堂短句记录",
+    "h1_before": "",
+    "anchor": "doxcnC0E5c1otYwmkuGxLRHvR3g"
+  },
+  {
+    "ordinal": 28,
+    "block_id": "doxcn26H2R0lPyOl8mIBy9Ylsad",
+    "text": "原标说话人 1  00:32:11\nAnd there is an icon next to each name, right? With the different waves, let's say level of strength of the signal. So that's because your Wi-Fi card heard beacons from those access points and measured the strength of the signal, the SNR, for each of them. Okay? And then you select the access point you want to connect.\n而且每个名称旁边都有一个图标，对吧？带有不同的波纹，可以说表示信号的强度等级。这是因为你的Wi-Fi网卡听到了那些接入点的信标，并且测量了其中每一个的信号强度，也就是SNR。好吗？然后，你选择你想要连接的接入点。",
+    "timestamp": "00:32:11",
+    "text_sha256": "344b865261043d2381d80bf6210694ee2732a78c310243d37224bf6281cb0222",
+    "heading": "28 · 00:32:11 · 信号强度图标与接入点选择",
+    "h1_before": "",
+    "anchor": "doxcn20arSu0BtaExxfUXEN7Jl4"
+  },
+  {
+    "ordinal": 29,
+    "block_id": "doxcnHxgHzjTVJPbyHIefXeEiL2",
+    "text": "原标说话人 1  00:32:43\nOK, so, the result of the scanning operation is this. What I described is the so called passive scanning. There is actually a more, let's say, efficient, faster scanning procedure that is called active scanning. So, what is the active scanning? The active scanning is very similar, okay? The result is the same, but it is faster. Why it is faster? Because if your Wi-Fi card is configured to apply active scanning, when it tunes itself on a frequency channel, it does not just passively wait there for a possible beacons, but is actually solicited the transmission of beacons. That means it will send a packet, a broadcast packet saying, I'm a Wi-Fi card here, I would like to know who is operating on this frequency channel. Right? So, it solicits the access points that may be there to send a beacon. It does not just wait passively, OK? So that's the difference, and this speeds up the process clearly, because if you ask who is there, then the access points that are there will reply to you. And you acquire all the information, all the available access points more quickly. And then you move to the second channel, again you ask who is there, you receive the answer, and then you move again. Okay? And collect information for each frequency channel.\n好，所以，扫描操作的结果就是这样。我刚才描述的是所谓的被动扫描。实际上，还有一种，可以说，更高效、更快的扫描过程，叫作主动扫描。那么，什么是主动扫描？主动扫描非常相似，好吗？结果是一样的，但是它更快。为什么更快？因为，如果你的Wi-Fi网卡被配置为采用主动扫描，那么，当它把自己调到一个频率信道上时，它不只是被动地在那里等待可能出现的信标，而是实际请求发送信标。这意味着，它会发送一个数据包，一个广播数据包，说：‘这里有一块Wi-Fi网卡，我想知道谁在这个频率信道上工作。’对吧？所以，它请求可能在那里的接入点发送信标。它不只是被动地等待，好吗？所以，这就是区别，而且这显然加快了这个过程，因为如果你问谁在那里，那么，在那里的接入点就会回复你。这样，你就能更快地获取全部信息、获取所有可用接入点的信息。然后，你移到第二个信道，再次询问谁在那里，收到回答，然后再次移动。好吗？并收集每一个频率信道的信息。",
+    "timestamp": "00:32:43",
+    "text_sha256": "5b522eb79229d3971cacb3d00718cb8d270af837833cbc0e7ae3990077be4ac0",
+    "heading": "29 · 00:32:43 · 主动请求应答以加快扫描",
+    "h1_before": "",
+    "anchor": "doxcnRYW3N8a8rKo6G4R5dCyqSe"
+  },
+  {
+    "ordinal": 30,
+    "block_id": "doxcnCxkAoPcRtTdwAgijdvHucX",
+    "text": "原标说话人 1  00:32:43\nSo, active scanning is just a faster way to collect this information.\n所以，主动扫描只是一种更快地收集这些信息的方式。",
+    "timestamp": "00:32:43",
+    "text_sha256": "37a86bb485af8335834d0c5eb0a881441ffb3b642515fa417c726cf6507b4dff",
+    "heading": "30 · 00:32:43 · 主动扫描加快信息收集",
+    "h1_before": "",
+    "anchor": "doxcnNsjEkg0ZMju7iorfBmt8ef"
+  },
+  {
+    "ordinal": 31,
+    "block_id": "doxcn9AN3YQY0mjzmfdW33o29lh",
+    "text": "原标说话人 1  00:35:15\nOK, now let me add that access points, every access point periodically almost, let's say in the best case, periodically transmit a beacon. OK, so a beacon is a packet, a management packet that is almost periodically transmitted by every access point. Periodically, I mean more or less every 100 milliseconds. OK, that's the order of magnitude we are talking about.\n好，现在让我补充一点，接入点，每一个接入点，都会周期性地，几乎，可以说在最好的情况下，会周期性地发送一个信标。好，所以，信标是一个数据包，一个管理数据包，每一个接入点都会近乎周期性地发送它。这里说的周期性，我指的是大约每100毫秒一次。好，这就是我们所说的数量级。",
+    "timestamp": "00:35:15",
+    "text_sha256": "a81d0b405cadc5c768543e02ae0c02b053fe970a240a9036389dd43ce7b0c1a3",
+    "heading": "31 · 00:35:15 · 信标管理帧的近似发送周期",
+    "h1_before": "",
+    "anchor": "doxcn3qKd0OCQvQSpYI3wTOgKzY"
+  },
+  {
+    "ordinal": 32,
+    "block_id": "doxcnGsQWXa7EZ8Nyj5gaPvwDJc",
+    "text": "原标说话人 1  00:36:03\nOK, and this beacon is a very important message, because as we said, it allows Wi-Fi cards to discover the presence of access points, and they will also be used for synchronization, but we will discuss that later. For now, it's enough that we understood scanning.\n好，而且这个信标是一个非常重要的消息，因为，正如我们说过的，它使Wi-Fi网卡能够发现接入点的存在，它们还将用于同步，不过我们后面再讨论这个。现在，只要我们理解了扫描就够了。",
+    "timestamp": "00:36:03",
+    "text_sha256": "1d4d6602106354a15600bec9f74f941bf49334eb3ba8ed92bf381777276335be",
+    "heading": "32 · 00:36:03 · 信标的发现和同步作用",
+    "h1_before": "",
+    "anchor": "doxcnvD9cDuGsSIQoGsjWCZDNIe"
+  },
+  {
+    "ordinal": 33,
+    "block_id": "doxcnvzghsdlOK3w5OxLCK07J7b",
+    "text": "原标说话人 1  00:36:03\nOK, now, if that's clear, you may actually wonder, let's say, well, since I come to Tongji every day.\n好，现在，如果这已经清楚了，你们实际上可能会想，可以这样说：‘那么，既然我每天都来同济。’",
+    "timestamp": "00:36:03",
+    "text_sha256": "3637c39e65abc68866ee5e5d6ea614e455b7b4798444ac2813115e115913a07e",
+    "heading": "33 · 00:36:03 · 常去校园时是否重复扫描",
+    "h1_before": "四、快速重连与隐私问题",
+    "anchor": "doxcnJA8oXENiCa6CF8mhHqASig"
+  },
+  {
+    "ordinal": 34,
+    "block_id": "doxcn8RoHbxLovuOP40fuaNmlKc",
+    "text": "原标说话人 1  00:36:52\nIs this operation repeated really every time I enter the campus, or I go back home every day? So, every time I enter my apartment, is this operation repeated every time? Well, actually no, OK? Because, Wi-Fi manufacturers, those that produce the Wi-Fi cards, want to make their customers, their users happy, and provide them with connectivity very very fast because users users are impatient.\n那么，这个操作真的会在每次我进入校园时重复吗？或者，我每天回家呢？也就是说，每次我进入自己的公寓，这个操作都会每次重复吗？嗯，实际上不会，好吗？因为Wi-Fi制造商，也就是那些生产Wi-Fi网卡的厂商，希望让他们的顾客、他们的用户感到满意，并且非常、非常快地为他们提供连接，因为用户、用户没有耐心。",
+    "timestamp": "00:36:52",
+    "text_sha256": "a2bef1131a799802e0b54520df90f7606a76345d84a287f4dd61967ed894fe52",
+    "heading": "34 · 00:36:52 · 每次连接都完整扫描的问题",
+    "h1_before": "",
+    "anchor": "doxcnuELHsuduopL0oTJWEvowkg"
+  },
+  {
+    "ordinal": 35,
+    "block_id": "doxcn6lWQfE9YE46fYZ87gw8LOc",
+    "text": "原标说话人 1  00:37:31\nSo, what they designed is actually a shortcut to scanning, such that your Wi-Fi card stores, so remembers the access points that are frequently visited by a user. So your Wi-Fi card actually, once you have come to Tongji several times, you will remember that you visit the Tongji Wi-Fi extended service set very very frequently. Or that you use your apartment access point daily, so you will have that recorded.\n所以，他们设计的实际上是一条扫描的捷径，让你的Wi-Fi网卡保存，也就是记住用户经常访问的接入点。所以，实际上，一旦你来过同济几次，你的Wi-Fi网卡就会记住，你非常、非常频繁地访问同济的Wi-Fi扩展服务集。或者，你每天使用公寓里的接入点，因此你会把这件事记录下来。",
+    "timestamp": "00:37:31",
+    "text_sha256": "cd980f81c59bdf13504eee54adbf46942bf643671aa28d469a3954180ac3c0d4",
+    "heading": "35 · 00:37:31 · 记住常用接入点以缩短扫描",
+    "h1_before": "",
+    "anchor": "doxcntPPIyI01Y1xEOMsXRAd13g"
+  },
+  {
+    "ordinal": 36,
+    "block_id": "doxcnzUqyR1F8LpENtfKp4vVxyd",
+    "text": "原标说话人 1  00:38:26\nSo, what your Wi-Fi card will do, first of all, at this first step, will be to perform an anti-scanning, but in a very particular way. That is, you will solicit access points to reply, but not by sending a broadcast solicitation. So, you will not just say, who is there? You actually, press me a packet that says, are you my owner access point there? That is the most frequently access point you connect to.\n所以，你的Wi-Fi网卡首先会做的，就是在这第一步执行一次‘反扫描’，但是方式非常特别。也就是说，你会请求接入点回答，但不是通过发送一个广播请求。所以，你不会只是说：‘谁在那里？’你实际上会发出一个数据包，说：‘你这个我主人使用的接入点，在那里吗？’也就是你最经常连接的那个接入点。",
+    "timestamp": "00:38:26",
+    "text_sha256": "36f55f0c0f12009723f6fa8c360a66a740511688320222c895a12202b94f414a",
+    "heading": "36 · 00:38:26 · 向常用接入点发送定向探测",
+    "h1_before": "",
+    "anchor": "doxcn4xMy4flWb2RPk2F2I4o8lh"
+  },
+  {
+    "ordinal": 37,
+    "block_id": "doxcnTZRcRqSDk21snEg6thkcob",
+    "text": "原标说话人 1  00:39:17\nOk, so, for example, my apartment access point is called black and white, because in Turin, we have the Juventus football team. And my husband is a supporter of the football team of Juventus, and the colors of Juventus are black and white. So, our access point is called black and white. So, my phone when I turn the Wi-Fi interface on, or what it does is to send a message here at this step saying that, are you black and white access point there? That's what it will say. If I'm home, I will immediately receive the answer from my home access point say yes, I'm here, right?\n好，比如，我公寓里的接入点叫作‘黑与白’，因为在都灵，我们有尤文图斯足球队。而我丈夫是尤文图斯足球队的球迷，尤文图斯的颜色是黑色和白色。所以，我们的接入点叫作‘黑与白’。所以，当我打开Wi-Fi接口时，我的手机，或者说它所做的，就是在这个步骤发送一条消息，说：‘你这个黑与白接入点，在那里吗？’它会这样问。如果我在家，我就会立刻收到家里接入点的回答，说：‘是的，我在这里’，对吧？",
+    "timestamp": "00:39:17",
+    "text_sha256": "ec8619f3ae98c7c59167ac60b625116f928f2f99f4c1d92f85685a42fe900690",
+    "heading": "37 · 00:39:17 · 以家庭接入点名称说明定向查询",
+    "h1_before": "",
+    "anchor": "doxcntBFQ74g0XDF47J8QU6hsZg"
+  },
+  {
+    "ordinal": 38,
+    "block_id": "doxcnHUZrGXuuG5MDo2aqQDc1Nc",
+    "text": "原标说话人 1  00:40:12\nAnd that's it, we're done. If I am at the university, my Wi-Fi card probably will still say as I turn on my Wi-Fi interface, are you black and white access point there? And clearly, there is no black white access point there, because I'm at the university.\n就这样，我们完成了。如果我在大学里，那么当我打开Wi-Fi接口时，我的Wi-Fi网卡很可能还是会问：‘你这个黑与白接入点，在那里吗？’而显然，那里没有黑与白接入点，因为我在大学里。",
+    "timestamp": "00:40:12",
+    "text_sha256": "30b463d4692fe898c03c30227f558227e9115248fe368b2fec6d4d187d617815",
+    "heading": "38 · 00:40:12 · 在大学尝试寻找家庭接入点",
+    "h1_before": "",
+    "anchor": "doxcnhTRuq0SVgBDuT2dr8oIBPg"
+  },
+  {
+    "ordinal": 39,
+    "block_id": "doxcnQ0WoUT9BkXu9QRt2r53bhc",
+    "text": "原标说话人 1  00:40:39\nSo, after the timeout, my Wi-Fi card will try with the second most frequently access point I connect to. That is the university extended service, and it's called POLIT, right? So, it will send a message saying, are you POLIT access point here? And then the POLIT access point will answer.\n所以，在超时之后，我的Wi-Fi网卡会尝试我连接频率第二高的那个接入点。那就是大学的扩展服务集，它叫作POLIT，对吧？所以，它会发送一条消息，说：‘你这个POLIT接入点，在这里吗？’然后，POLIT接入点就会回答。",
+    "timestamp": "00:40:39",
+    "text_sha256": "96abc3d79c12b352bba264e8bc59bad5bc9b30b2b828fb254e5ffe24c3a8587b",
+    "heading": "39 · 00:40:39 · 超时后查询第二常用网络",
+    "h1_before": "",
+    "anchor": "doxcnaYhfc48rO3DTh9giTYG0Id"
+  },
+  {
+    "ordinal": 40,
+    "block_id": "doxcnt4h9rGtriGA82RRQScezqf",
+    "text": "原标说话人 1  00:41:09\nOK? So, that's typically what manufacturers actually implement in our Wi-Fi cards, in order to make this step even faster. So, they try first with the most frequently visited access points, they try to contact them. It's not a broadcast. Hello, is there anyone there? Are you there? Or are you there? Or are you there? And then after some attempts, if nobody of your most frequently access points reply, your Wi-Fi card understands that it's in a new environment. And then you will send, just, is anybody there? OK, general, solicitation. OK.\n好吗？所以，为了让这一步更快，这通常就是制造商实际上在我们的Wi-Fi网卡中实现的做法。所以，他们首先尝试最常访问的接入点，尝试联系它们。它不是广播。‘喂，那边有人吗？’而是‘你在那里吗？’或者‘你在那里吗？’或者‘你在那里吗？’然后，在尝试几次之后，如果你最常访问的那些接入点没有一个回答，你的Wi-Fi网卡就会知道它处在一个新环境中。接着，你就会发送，只是问：‘有人在那里吗？’好，一个一般性的请求。好。",
+    "timestamp": "00:41:09",
+    "text_sha256": "62151a1a9b374eb7a63608a3b0bc62081793a2a86f7e5d905e1c9abe6e9f2215",
+    "heading": "40 · 00:41:09 · 优先定向查询再退回广播扫描",
+    "h1_before": "",
+    "anchor": "doxcnv1VLvewr8S9jGe2JRMgMwM"
+  },
+  {
+    "ordinal": 41,
+    "block_id": "doxcnpO1MLJC1CPUjzAz4ndWWTb",
+    "text": "原标说话人 1  00:41:09\nSo, the fact that our Wi-Fi card remembers the most, mostly visited, frequently visited access points is good for us, right? Because we get connected very quickly, the step gets performed very quickly. Nice, but we should think about something else, and this is a common issue in wireless technologies.\n所以，我们的Wi-Fi网卡会记住那些最常、主要访问的、经常访问的接入点，这件事对我们有好处，对吧？因为我们很快就能建立连接，这一步会执行得非常快。很好，但是，我们应该再考虑另一件事，而这是无线技术中一个常见的问题。",
+    "timestamp": "00:41:09",
+    "text_sha256": "43364109f9af14ca7292ec5e2652b6c83cf0f30e343904e5ac4068ccef746b34",
+    "heading": "41 · 00:41:09 · 快速重连的便利与潜在代价",
+    "h1_before": "",
+    "anchor": "doxcn8T9Wys2fvBxPXTZGLxvUQc"
+  },
+  {
+    "ordinal": 42,
+    "block_id": "doxcnhUXRWbBfLy5AOw47fxZZLc",
+    "text": "原标说话人 1  00:42:31\nWhat is the drawback of the fact that our Wi-Fi card tries to connect to the mostly visited access points? Remember that these packets that our Wi-Fi card sent are control packets, right? And the wireless medium is open. I mean air, right? Anybody can catch the signals that are sent over a wireless channel, unless you encrypt the data that you send, anybody can hear those data.\n我们的Wi-Fi网卡会尝试连接最常访问的接入点，这件事有什么缺点？记住，我们的Wi-Fi网卡发送的这些数据包是控制数据包，对吧？而无线介质是开放的。我指的是空气，对吧？任何人都可以接收到通过无线信道发送的信号；除非你对自己发送的数据进行加密，否则任何人都可以听到那些数据。",
+    "timestamp": "00:42:31",
+    "text_sha256": "262cb57f82c4809683b01ed786278970d94b06cdfbaeb684fff8b45e624bbbf3",
+    "heading": "42 · 00:42:31 · 开放无线介质与控制消息监听",
+    "h1_before": "",
+    "anchor": "doxcn73DRw0z02t9FYhH2w5Bcme"
+  },
+  {
+    "ordinal": 43,
+    "block_id": "doxcn773pZR8mzQc1pqZ6uuv0Od",
+    "text": "原标说话人 1  00:43:25\nSo, the problem is about privacy, because if you are in a different environment, and there is a malicious user, here, you will there, you will listen to the control messages that your Wi-Fi card transmits, and you will hear your Wi-Fi card asking, are you black and white access point there? And there is no that access point there. Are you Polito access point there? No, there is no Polito access point. So, this malicious user can actually learn that I typically connect to the black and white access point, and then I typically connect to Polito access point. So.\n所以，问题在于隐私，因为，如果你处在另一个环境中，而且这里有一个恶意用户，你会在那里，他会监听你的Wi-Fi网卡发送的控制消息，他会听到你的Wi-Fi网卡在问：‘你这个黑与白接入点，在那里吗？’而那里没有那个接入点。‘你这个Polito接入点，在那里吗？’不，那里没有Polito接入点。所以，这个恶意用户实际上能够得知，我通常连接黑与白接入点，然后，我通常连接Polito接入点。所以。",
+    "timestamp": "00:43:25",
+    "text_sha256": "ffdedc25ff6b645db1393823eb1a2dd6c93f6e74988f867af97b49b33e4164cc",
+    "heading": "43 · 00:43:25 · 探测请求泄露常用接入点信息",
+    "h1_before": "",
+    "anchor": "doxcnFgo4802f7NcJoQoJAoj1gd"
+  },
+  {
+    "ordinal": 44,
+    "block_id": "doxcn0YQRZM3ewCjC7QaOrUttUd",
+    "text": "原标说话人 1  00:44:26\nIn Europe, this is a violation of the privacy, and for us, it is an issue, because that's my private information. Nobody should know where I typically am. In Europe, that's an issue. OK, so for wireless technologies, we do have this kind of problems in depending on where you are, depending on the country where you live, which regulations about privacy hold. In Europe, we have the GDPR laws regarding privacy. And when someone operates with wireless technologies, those have to be compliant with the privacy regulations.\n在欧洲，这是侵犯隐私的行为，而且对我们来说，这是一个问题，因为那是我的私人信息。任何人都不应该知道我通常在哪里。在欧洲，这是一个问题。好，所以，对于无线技术，我们确实会有这类问题，具体取决于你在哪里，取决于你生活在哪个国家，以及适用哪些关于隐私的规定。在欧洲，我们有关于隐私的GDPR法律。当有人使用无线技术开展工作时，这些技术必须符合隐私规定。",
+    "timestamp": "00:44:26",
+    "text_sha256": "4d779bb4a83fb437e8ab769b0731e6deb08969b304647091324b8363f2029c9c",
+    "heading": "44 · 00:44:26 · 无线技术中的隐私与合规讨论",
+    "h1_before": "",
+    "anchor": "doxcn1yrCjoEUTqjWduyWlb2Ghb"
+  },
+  {
+    "ordinal": 45,
+    "block_id": "doxcnur6i3EW98zAVqzM9Al5Ysy",
+    "text": "原标说话人 1  00:44:26\nSo, wherever you are, depending on the country where you are, wireless technologies need to be handled with with care.\n所以，无论你在哪里，都需要根据你所在的国家，小心、小心地处理无线技术。",
+    "timestamp": "00:44:26",
+    "text_sha256": "29a02865766ff8120345d22c66e8095dc12a9574eda70a64c4aff5f1e652cb6b",
+    "heading": "45 · 00:44:26 · 按所在地区要求谨慎处理无线技术",
+    "h1_before": "",
+    "anchor": "doxcnzpkO0UsGXCYxpdSLdsQD2V"
+  },
+  {
+    "ordinal": 46,
+    "block_id": "doxcnt3J1tpB7eqzA6lTvEaqmvg",
+    "text": "原标说话人 1  00:45:30\nOK. Now, we perform this first step, so we're good. We found out which access points are available, right? And we know also the quality of the signal that we can receive from the different access points that are available. As we said, when we are in a new environment, we select manually the access point we want to connect to. If instead we are in one of our usual places, as we said, our Wi-Fi card, we just connect to the access point that we usually use. OK, so, that said, we stop, right? For a five minutes, and then we continue.\n好。现在，我们完成了这第一步，所以我们准备好了。我们发现了哪些接入点可用，对吧？而且，我们也知道从各个可用接入点能够接收到的信号质量。正如我们说过的，当我们处在一个新环境中时，我们手动选择自己想要连接的接入点。相反，如果我们在一个平常常去的地方，那么，正如我们说过的，我们的Wi-Fi网卡就会连接到我们通常使用的接入点。好，那么，说完这些，我们停一下，对吧？休息五分钟，然后继续。",
+    "timestamp": "00:45:30",
+    "text_sha256": "bfa8f98d817f62537e8367052bc44e56b0631647d37e0cf53ffc9cd14aeefc94",
+    "heading": "46 · 00:45:30 · 扫描结果、网络选择与课间休息",
+    "h1_before": "",
+    "anchor": "doxcnExCS5rOWZoSG8edBxognhb"
+  },
+  {
+    "ordinal": 47,
+    "block_id": "doxcnbEOI759KSgRrkWXzztujNf",
+    "text": "原标说话人 1  00:46:50\nThe rich get richer. It doesn't matter; normally you get used to it. The two of them are there, the two of them... Let's just go back. Not interested.\n富有的人变得更富有。没关系；通常你会习惯的。他们两个人在那里，他们两个人……我们直接回去吧。不感兴趣。",
+    "timestamp": "00:46:50",
+    "text_sha256": "fe92e54d3ff560c77c4a55485a93ed21b1d4f0660032853dbc88c10bf2b13c6a",
+    "heading": "47 · 00:46:50 · 课间零散谈话记录",
+    "h1_before": "五、课间交流",
+    "anchor": "doxcnlXFexOtDsDhRXLBbcUeCzc"
+  },
+  {
+    "ordinal": 48,
+    "block_id": "doxcnD51u4aXiJuGILSyrupjYGe",
+    "text": "原标说话人 1  00:47:17\nI'm ordering takeaway. I'm so tired. Mm, I'm really tired.\n我在点外卖。我太累了。嗯，我真的很累。",
+    "timestamp": "00:47:17",
+    "text_sha256": "c74469524657b2b7c93f0cd81b570fb4180c714464474c6471ddc5bc6becc524",
+    "heading": "48 · 00:47:17 · 课间点外卖与疲惫交流",
+    "h1_before": "",
+    "anchor": "doxcnjqusT7KrvqP8xYQHz4yaCd"
+  },
+  {
+    "ordinal": 49,
+    "block_id": "doxcnHe9x6qBjwrGsCJ0yfbSRyg",
+    "text": "原标说话人 1  00:47:30\nI really want to go back and lie down.\n我真想回去躺下。",
+    "timestamp": "00:47:30",
+    "text_sha256": "5af7cb9325bb3fdd2b479a1b76d06a818b886156e82b7a86fdd50e4262390913",
+    "heading": "49 · 00:47:30 · 课间想回去休息的交流",
+    "h1_before": "",
+    "anchor": "doxcnT9osXNYrUXwv4iGfYPqsZe"
+  },
+  {
+    "ordinal": 50,
+    "block_id": "doxcnNTL2a3oIH51Ekf4eNI6boK",
+    "text": "原标说话人 1  00:52:17\nOkay, so let's continue. Um, second step. Now we found an access point we want to connect to. We need to authenticate ourselves.\n好，那么我们继续。嗯，第二步。现在，我们找到了一个想要连接的接入点。我们需要对自己进行认证。",
+    "timestamp": "00:52:17",
+    "text_sha256": "a82a9b167adbb5a2b1c4a1679350daef365e9700ecabd267d33d781d93f20910",
+    "heading": "50 · 00:52:17 · 恢复课程并进入认证步骤",
+    "h1_before": "六、认证、关联与移动性",
+    "anchor": "doxcnPeaQY94gxvSa1uG1h7sbec"
+  },
+  {
+    "ordinal": 51,
+    "block_id": "doxcnbIg970k8wg2jTErdjh54ae",
+    "text": "原标说话人 1  00:52:17\nNow, remember that Wi-Fi operates only at these two bottom layers, right? The application is up here. So, what Wi-Fi does is to provide an authentication function to be performed at the MAC layer. So, at the MAC layer, an access point will try to verify the let's say identity digital identity of the Wi-Fi card, and check whether that Wi-Fi card is allowed to connect to the access point or not, OK?\n现在，记住，Wi-Fi只在最下面这两层工作，对吧？应用在这里上面。所以，Wi-Fi所做的，是提供一个在MAC层执行的认证功能。因此，在MAC层，接入点会尝试核实Wi-Fi网卡的，可以说，身份、数字身份，并检查是否允许那块Wi-Fi网卡连接到该接入点，好吗？",
+    "timestamp": "00:52:17",
+    "text_sha256": "d1029d2a691eb728d1de866068c6ab1715d39fe1e1fc66a517feb4ac96ffaae0",
+    "heading": "51 · 00:52:17 · MAC层认证核实站点连接资格",
+    "h1_before": "",
+    "anchor": "doxcn0OgdCUH4b5cunL1FNu9kLp"
+  },
+  {
+    "ordinal": 52,
+    "block_id": "doxcn65w3II3gE7IfN63jPSMMWc",
+    "text": "原标说话人 1  00:53:10\nNow, to make things simple, we will actually not explain how the Wi-Fi authentication works. Why? Because nowadays, it has been replaced by an authentication function implemented at the application layer.\n现在，为了让事情简单一些，我们实际上不会解释Wi-Fi认证是怎样工作的。为什么？因为如今，它已经被在应用层实现的一个认证功能替代了。",
+    "timestamp": "00:53:10",
+    "text_sha256": "d0ac3439d5f76b6ee1cdb267656a9877e9d245d655134663e8db81b75ee0e3f7",
+    "heading": "52 · 00:53:10 · 简化说明认证功能的实现层次",
+    "h1_before": "",
+    "anchor": "doxcnW4O6vuyo0w0SCkigv26Vhb"
+  },
+  {
+    "ordinal": 53,
+    "block_id": "doxcnNtGQjnUoLCVpV58DrMnUhh",
+    "text": "原标说话人 1  00:53:10\nWhat do you do when you want to connect to an access point that is protected? Right, there is the locker icon next to it, is to enter a username and a password, correct? That's an authentication procedure that is performed at the application layer. OK, it's not something that is performed by Wi-Fi. This step that is possible to be performed with Wi-Fi is not actually used. What we actually use is an authentication at the application layer.\n当你想连接一个受保护的接入点时，你会怎么做？对，它旁边有一个锁形图标，你要做的是输入用户名和密码，对吗？那是在应用层执行的一个认证过程。好，它不是由Wi-Fi执行的事情。这个可以通过Wi-Fi执行的步骤，实际上并没有被使用。我们实际使用的是应用层的认证。",
+    "timestamp": "00:53:10",
+    "text_sha256": "710e57385a9395ba8e3b11e40a8453f898d4572cec097def102040f2605d44a7",
+    "heading": "53 · 00:53:10 · 以用户名密码说明认证过程",
+    "h1_before": "",
+    "anchor": "doxcnNMe7dMZ1u5Eeqtk7MtzRRh"
+  },
+  {
+    "ordinal": 54,
+    "block_id": "doxcnhG6TTk8xACgKvJo0rEJGWh",
+    "text": "原标说话人 1  00:53:10\nSo, the user gets authenticated at the application layer by entering username and password. So, we just keep this and say that if the user at the application layer enters a correct username and password, then at the MAC layer it is authenticated as well. Okay? So we can do the third step. And the third step is association.\n所以，用户通过输入用户名和密码，在应用层得到认证。所以，我们就保留这一点，说，如果用户在应用层输入了正确的用户名和密码，那么在MAC层，它也就得到了认证。好吗？这样，我们就可以执行第三步。而第三步就是关联。",
+    "timestamp": "00:53:10",
+    "text_sha256": "a6cd4d192f3c31457975395580f9c8e64d289b23701e8cde03287e39ac54ba22",
+    "heading": "54 · 00:53:10 · 认证完成后进入关联步骤",
+    "h1_before": "",
+    "anchor": "doxcnFTDQAmdW0f06DQ92Y3ajLf"
+  },
+  {
+    "ordinal": 55,
+    "block_id": "doxcna9LKAW8HjHq1c3kE0PnC7f",
+    "text": "原标说话人 1  00:55:00\nThis is our final step before we are actually able to transmit and receive data, to and from the access point. What is this association? Now remember the user is authenticated with an access point. So what, access point and user, the user is also called, remember, Wi-Fi station. What we do is to get to know each other, okay?\n这是我们真正能够向接入点发送数据、并从接入点接收数据之前的最后一步。什么是关联呢？现在，记住，用户已经通过了一个接入点的认证。那么，接入点和用户，记住，用户也叫作Wi-Fi站点，我们要做的，就是互相认识，好吗？",
+    "timestamp": "00:55:00",
+    "text_sha256": "e108ecd3a802969bb3f2a750c34d6330120c479ce09ecae9c9e6303d1f626e82",
+    "heading": "55 · 00:55:00 · 关联让站点与接入点相互了解",
+    "h1_before": "",
+    "anchor": "doxcnYeUklSaNsSqHrxT0Jh9r4g"
+  },
+  {
+    "ordinal": 56,
+    "block_id": "doxcnYvye1cZhmQnvgWhstXespg",
+    "text": "原标说话人 1  00:55:32\nSo, the meaning of this step is to exchange some basic information about themselves.\n所以，这一步的含义，就是交换一些关于双方自身的基本信息。",
+    "timestamp": "00:55:32",
+    "text_sha256": "420dbc1152a78d4319f73d38b9ffdb523fdec4510cc3cd4c3398d0a495129ef0",
+    "heading": "56 · 00:55:32 · 关联交换双方基本信息",
+    "h1_before": "",
+    "anchor": "doxcn0dKsn44UDogYW6RG01WMIf"
+  },
+  {
+    "ordinal": 57,
+    "block_id": "doxcnlRHKOISitmcxv6ZSMIo3rF",
+    "text": "原标说话人 1  00:55:32\nSo, the user would say, well, I have this the Wi-Fi card, of course, we say I can implement this version of the standard. And the access point we do the same, we say I can implement this version of the standard. The user will also say I'd like to transmit this kind of data, okay? That that may require certain quality of of service.\n所以，用户会说，嗯，我有这个，当然是Wi-Fi网卡会说：‘我能够实现标准的这个版本。’接入点也会做同样的事，会说：‘我能够实现标准的这个版本。’用户还会说：‘我想发送这种类型的数据’，好吗？而这、这可能需要某种服务、服务质量。",
+    "timestamp": "00:55:32",
+    "text_sha256": "40396e8b94ed1da70b5d381ad997c177217b6ab03db39ee53b1ae469f4c8f57a",
+    "heading": "57 · 00:55:32 · 交换标准版本与服务质量需求",
+    "h1_before": "",
+    "anchor": "doxcn6VnCK5PqK1ztLIE7jx2SNq"
+  },
+  {
+    "ordinal": 58,
+    "block_id": "doxcnzZXzeaCXBQqvy3CF5GJKbb",
+    "text": "原标说话人 1  00:56:20\nOr, what they also say is the user can tell the access point, if it's part of, if that access point is part of an extended service set. The user can tell that access point, look, I was previously connected to these other access point within the same ESS. So, if you are on campus, and you walk, as you walk, you may move from one access point to another, you don't realize that, but it happens. And your Wi-Fi card whenever it connects to a new access point on campus, you will tell during this step: look, I was previously connected to this other access point of Tongji University. OK, and the access point, the new access point you get connect to, at that point will inform through the distribution system the previous access point that you user are now connected to that access point. So the previous one understand that you left.\n或者，他们还会说的是，用户可以告诉接入点，如果它属于，如果那个接入点属于一个扩展服务集。用户可以告诉那个接入点：‘听着，我之前连接的是同一个ESS中的另一个接入点。’所以，如果你在校园里，正在走路，那么随着你走动，你可能会从一个接入点移动到另一个接入点；你没有意识到这一点，但它确实会发生。而你的Wi-Fi网卡每次连接到校园里一个新的接入点时，都会在这一步告诉它：‘听着，我之前连接的是同济大学的另一个接入点。’好，而接入点，也就是你新连接上的那个接入点，在这时会通过分布系统通知之前的接入点，说你这个用户现在已经连接到它这个接入点了。因此，之前的接入点就知道你离开了。",
+    "timestamp": "00:56:20",
+    "text_sha256": "6e7c1a35dfcfee0379add7d464aa98f6c1764dacec9874db9ae66ac8d9f63d9b",
+    "heading": "58 · 00:56:20 · 新接入点获知原连接并通知旧接入点",
+    "h1_before": "",
+    "anchor": "doxcnF9b40jz1bx4KAqvjrGDGec"
+  },
+  {
+    "ordinal": 59,
+    "block_id": "doxcnd9LXatM3uVAzGGQliW34xb",
+    "text": "原标说话人 1  00:57:47\nThis is of course if you are part of an extended service set.\n当然，前提是你属于一个扩展服务集。",
+    "timestamp": "00:57:47",
+    "text_sha256": "f46f8c250ddf7dd3e9d245bafd5aae69873809b2b369f58a62bba76ac7cfd7c3",
+    "heading": "59 · 00:57:47 · 关联中的ESS适用条件",
+    "h1_before": "",
+    "anchor": "doxcnQnWV94EJ7jWWO52FIQ6mlg"
+  },
+  {
+    "ordinal": 60,
+    "block_id": "doxcnU5c1HpxCY3KiHDnBM5XENp",
+    "text": "原标说话人 1  00:57:47\nSo, as you move, you need to repeat these three steps every time your Wi-Fi card connects to a different access point. And if you are on campus, one of the information that your Wi-Fi card will transmit to the new access point during this step is indeed, I was connected to this other one, and the new access point will inform the previous access point that you are not there anymore. So, this helps to support mobility, user mobility within the same extended service set.\n所以，随着你移动，每当你的Wi-Fi网卡连接到一个不同的接入点时，你都需要重复这三个步骤。而且，如果你在校园里，你的Wi-Fi网卡在这一步中传给新接入点的信息之一，确实就是：‘我之前连接的是另一个接入点。’新接入点会通知之前的接入点，说你已经不在那里了。所以，这有助于支持移动性，支持同一个扩展服务集内的用户移动性。",
+    "timestamp": "00:57:47",
+    "text_sha256": "a97387ef5da7969f89944260d1b9defde43517efa521a3ef0f9ebdf84112d47c",
+    "heading": "60 · 00:57:47 · 重关联支持扩展服务集内移动",
+    "h1_before": "",
+    "anchor": "doxcnV1ka2wA4SEUtdqfWvMv9gd"
+  },
+  {
+    "ordinal": 61,
+    "block_id": "doxcn9LKdaLaJatD5OKdCWqtuSb",
+    "text": "原标说话人 1  00:57:47\nOK, now, this exchange of information about themselves, right? To help the station access point, to get to know each other, takes place, by means of a packet that is called association request frame. Frame in Wi-Fi means packet.\n好，现在，双方交换关于自己的信息，对吧？为了帮助站点和接入点彼此了解，这个过程是借助一个称为关联请求帧的数据包来完成的。在Wi-Fi中，帧就是数据包的意思。",
+    "timestamp": "00:57:47",
+    "text_sha256": "d302d5c1fd78d9791d0f34020c8e103b5efb4d518ad5aac8884f6adbdf510f49",
+    "heading": "61 · 00:57:47 · 关联请求帧与信息交换",
+    "h1_before": "",
+    "anchor": "doxcnjFL7Ib9uKLQsG9g5U3wOrg"
+  },
+  {
+    "ordinal": 62,
+    "block_id": "doxcnjHQNo7CNvm4oqKE3HEgKvh",
+    "text": "原标说话人 1  00:59:01\nOK, whenever you see frame, you can read it as packet. The station will send a packet called association request with some information about itself. And the access point will reply with a packet called association response, communicating of course some information about itself.\n好，无论什么时候看到‘帧’，你都可以把它读成‘数据包’。站点会发送一个叫作关联请求的数据包，带有一些关于自身的信息。接入点会用一个叫作关联响应的数据包进行回复，当然，也会传达一些关于它自身的信息。",
+    "timestamp": "00:59:01",
+    "text_sha256": "5481c165a2deefd0235ea650026f71d30ddbcf03cd288ca81657d4f21a9acc03",
+    "heading": "62 · 00:59:01 · 关联请求和关联响应过程",
+    "h1_before": "",
+    "anchor": "doxcnuKtZypHktkkg04RA13lnCg"
+  },
+  {
+    "ordinal": 63,
+    "block_id": "doxcnLE3RLJ9NEpkOCpSPLRloYb",
+    "text": "原标说话人 1  00:59:25\nNow, an important, very important information that the access point includes in this response to the user is also the minimum data rate at which users need to communicate within that BSS. So, the access point can be configured to work at a minimum physical data rate. Remember the previous table that we showed, that there was the maximum indicated, right? But every access point can also set a minimum. So, it doesn't want, for example, slow users. It may want to admit only users that are fast enough above threshold. This minimum data rate is called basic data rate. Okay. So the access point can say, well, you need to transmit at least a two megabit per second.\n现在，接入点在给用户的这个响应中还包含一项重要的、非常重要的信息，也就是用户在这个BSS内通信所需采用的最低数据速率。所以，接入点可以被配置为按照一个最低物理层数据速率工作。记住我们前面展示过的那张表，上面标出的是最大值，对吧？但是，每个接入点也可以设置一个最小值。所以，比如说，它不想要速度慢的用户。它可能只想接纳那些速度够快、超过某个门限的用户。这个最低数据速率叫作基本数据速率。好。所以，接入点可以说：‘嗯，你需要至少以每秒2兆比特发送。’",
+    "timestamp": "00:59:25",
+    "text_sha256": "7c2a91d3d5e5fafcbc36d7b886d0bc1e9a4b70da15e47139a42dc0e62ad674ef",
+    "heading": "63 · 00:59:25 · 基本数据速率作为最低接入要求",
+    "h1_before": "",
+    "anchor": "doxcnPE7VkdoRa9YLXgT73RLwBf"
+  },
+  {
+    "ordinal": 64,
+    "block_id": "doxcnUDdXgWwhkKVKzGjKuam8iD",
+    "text": "原标说话人 1  01:00:46\nAnd every Wi-Fi station at that point will have to transmit at least when they transmit at least a two megabit per second.\n而在那时，每一个Wi-Fi站点都必须至少，当它们发送时，都必须至少以每秒2兆比特发送。",
+    "timestamp": "01:00:46",
+    "text_sha256": "78a183f2618ac5bac2f5c8fb2d55016fd8248af5115d2d4999283b899b3e0afe",
+    "heading": "64 · 01:00:46 · 站点遵守BSS最低发送速率",
+    "h1_before": "",
+    "anchor": "doxcnV3vxoeu8G4ruQxRlue1vVe"
+  },
+  {
+    "ordinal": 65,
+    "block_id": "doxcnz4P2C0eWJnXmC4K6CQPbEg",
+    "text": "原标说话人 1  01:00:46\nOK, now that was it's an introduction to Wi-Fi highlighting in particular the basic concepts, the network architecture. We will, for for a further clarity, we will review some of the concepts that we already introduced, starting from the physical layer. We'll do that quickly, and then we will move to the MAC layer, OK? And I will try to go over what it is important only the main concepts.\n好，刚才是对Wi-Fi的介绍，特别强调了基本概念和网络架构。为了、为了进一步说清楚，我们会回顾一些已经介绍过的概念，从物理层开始。我们会快速过一遍，然后转到MAC层，好吗？而且，我会尽量只讲重要的内容，只讲主要概念。",
+    "timestamp": "01:00:46",
+    "text_sha256": "05f3ecc63a3f58f17fd55d0e78791404b757042f92d5bd3c500499a57d3ee5a4",
+    "heading": "65 · 01:00:46 · 从网络架构转向物理层回顾",
+    "h1_before": "七、物理层信道与速率自适应",
+    "anchor": "doxcnsLBGK3w80tpxdaEHROznuc"
+  },
+  {
+    "ordinal": 66,
+    "block_id": "doxcn2TPlt4G88YPvwOdUk9Xovf",
+    "text": "原标说话人 1  01:01:47\nSo, let's see if we understood these main concepts about the physical layer of Wi-Fi. We will do that in particular by focusing on the early versions of the standard, because they are simpler. And the main concepts are the same, even in the most recent versions, but illustrating them for the earlier versions is simpler to understand. So let's focus on on that.\n所以，我们来看看，是否理解了这些关于Wi-Fi物理层的主要概念。我们会特别着重于标准的早期版本来做这件事，因为它们比较简单。即使在最新版本中，主要概念也是一样的，但是用早期版本来说明它们，会更容易理解。所以，我们就把重点放在、放在这里。",
+    "timestamp": "01:01:47",
+    "text_sha256": "04fef1de3342357ea1aa6a0232264b6193702c15c6be8c8f9b7871986fce367e",
+    "heading": "66 · 01:01:47 · 用早期标准解释共同物理层概念",
+    "h1_before": "",
+    "anchor": "doxcnQbVkVQQ39DE17I4cmgkDWg"
+  },
+  {
+    "ordinal": 67,
+    "block_id": "doxcns93mGfrcI5LDLOlHXAChWb",
+    "text": "原标说话人 1  01:02:22\nNow, we already said that, at the physical layer clearly, we are considering functions that are used to transmit and receive signals. Right? And we said that, let's consider that our, BSS works at 2.4 gigas. This means that the access point and all the users in the BSS will communicate, transmitting and receiving, so using as portion of the frequency spectrum, the one that is, for example, around 2.4 GHz. Other possibilities are 5 and 6 GHz, but let's focus on just this portion of the spectrum. And we said there, there are actually three possible channels, right? Frequency channels. Where a frequency channel is a sub portion of frequencies. OK, that's what we said. So, there are three possible, they are called channel 1, 6 and 11, but this is minor, you don't need to remember that. But in case you've got a home and access point, you may want to look at the configuration of your access point. And you may see that if you configure it, when working at 2.4 gigahertz, you can actually select one of these three channels. So actually you can try and play with the access point at home because this can be configured.\n现在，我们已经说过，在物理层，显然，我们考虑的是用来发送和接收信号的功能。对吧？而且，我们说过，让我们假设自己的BSS工作在2.4吉赫兹。这意味着，接入点以及BSS中的所有用户都会进行通信，发送和接收，因此使用的频谱部分，例如，就是2.4 GHz附近的那一部分。其他可能的选择是5和6 GHz，但是，我们就把重点放在这一部分频谱上。而且，我们说过，那里、那里实际上有三个可能的信道，对吧？频率信道。其中，一个频率信道就是频率范围中的一小部分。好，我们说的就是这个。所以，有三个可能的信道，它们被称为信道1、6和11，但是这是次要的，你们不需要记住。不过，如果你家里有一个接入点，你或许可以看看接入点的配置。你可能会看到，如果你对它进行配置，当它工作在2.4吉赫兹时，你实际上可以选择这三个信道中的一个。所以，实际上你可以试着摆弄一下家里的接入点，因为这是可以配置的。",
+    "timestamp": "01:02:22",
+    "text_sha256": "11b9bf5775c6639116b3392c19e148178b15b40fbbc311f5c185049dfda0004c",
+    "heading": "67 · 01:02:22 · 2.4GHz频谱与信道1、6、11",
+    "h1_before": "",
+    "anchor": "doxcni63yCxhkhpheAJAqZSNvyg"
+  },
+  {
+    "ordinal": 68,
+    "block_id": "doxcnmkHaLNSNR0B5Kxo0B2RsG9",
+    "text": "原标说话人 1  01:04:18\nAnd you could see that if you select 2.4 GHz as a portion of the spectrum where to operate, then you have the option to select one of these three channels. And they are denoted by channel 1, 6 and 11.\n而且，你会看到，如果你选择2.4 GHz作为工作所在的频谱部分，那么你就可以选择这三个信道中的一个。它们被标为信道1、6和11。",
+    "timestamp": "01:04:18",
+    "text_sha256": "38511e472107a461f7c4c2b2cd59e6e3abe2341ab36162b7d241b925d669729b",
+    "heading": "68 · 01:04:18 · 家用接入点的信道选择",
+    "h1_before": "",
+    "anchor": "doxcnTTlLeLRiNhnIK0ZWgEJeyc"
+  },
+  {
+    "ordinal": 69,
+    "block_id": "doxcn0XIY3viP6qIrKUwLMUAqCg",
+    "text": "原标说话人 1  01:04:36\nOK, if you want to play a little bit with your access point. OK, so then you can configure your access point to operate, for example, in channel 1. For example, this means that your access point and whatever Wi-Fi card connects to that access point will have to work using these frequencies. Right? So, this means that whenever a Wi-Fi card transmits or receive signals, these signals will be transmitted using this band, frequency band. OK, now that said, let me stress that if you choose, for example, this channel, both the access point and all the possible users will all use the same frequencies. OK, so it's like us using this classroom. The classroom is this subband, okay, this frequency band, and the access point, and the the the Wi-Fi cards are us using the classroom. Okay? Good.\n好，如果你想稍微摆弄一下你的接入点。好，那么，你可以把接入点配置为，比如说，在信道1上工作。例如，这就意味着，你的接入点以及连接到这个接入点的任何Wi-Fi网卡，都必须使用这些频率来工作。对吧？所以，这意味着，每当Wi-Fi网卡发送或接收信号时，这些信号都会使用这个频带、频率带来传输。好，现在，说完这些，让我强调一下，如果你选择，比如，这个信道，那么，接入点和所有可能的用户都会使用相同的频率。好，所以，这就像我们使用这间教室一样。教室就是这个子频带，好吗，就是这个频带，而接入点和、和、和Wi-Fi网卡就是使用教室的我们。好吗？很好。",
+    "timestamp": "01:04:36",
+    "text_sha256": "1799c8caff7cddccb8cd488b73a46d33629ca4f06ad212aa72b4d394642fa792",
+    "heading": "69 · 01:04:36 · 同一BSS内站点共享所选频率",
+    "h1_before": "",
+    "anchor": "doxcnJZ3q54iVQ8CFlzmn3fJNQb"
+  },
+  {
+    "ordinal": 70,
+    "block_id": "doxcnt0t1VzKEJxVGyhUg9D3xRb",
+    "text": "原标说话人 1  01:06:09\nNow, that said, that was an important concept. We also mention the fact that given that we are using, for example, this frequency channel, the speed at which we can transmit bits, so the signals that carry the bits, when using this frequency band, this frequency channel, can vary depending on the quality of the channel.\n现在，说完这些，刚才是一个重要概念。我们还提到这样一个事实：假设我们正在使用，比如说，这个频率信道，那么，当我们使用这个频带、这个频率信道时，我们能够发送比特，也就是发送承载比特的信号的速度，会根据信道质量而变化。",
+    "timestamp": "01:06:09",
+    "text_sha256": "934ced3e782328375c44ece361a1bdc5ae2487fa50cc4c940f468ce57da334a0",
+    "heading": "70 · 01:06:09 · 同一信道上的速率随质量变化",
+    "h1_before": "",
+    "anchor": "doxcn3oIcGW4RMoOE736JAtNVNd"
+  },
+  {
+    "ordinal": 71,
+    "block_id": "doxcnLc9E8Y0RagsLl3JR4PzPVi",
+    "text": "原标说话人 1  01:06:46\nRight? So, if a user is very close to the access point, it will be able to transmit at very high data rate. If it's far away, it will be able to transmit at lower data rate. How is that possible? Because if a user is close to the access point and experiences a good channel, then for example, it can apply a more efficient modulation. Remember what we said yesterday, so it means that with every signal, electromagnetic signal that is sent, the user will be able to transfer not just one bit, but multiple bits. For example, three bits or four bits. And since the channel is good, there is high probability that the receiver will get the information correct. If instead the user is far away from the access point, and there are obstacles, the channel is not that good, then the Wi-Fi card at the physical layer will select a less efficient modulation, perhaps a binary modulation, that is very robust, right? Because remember, it helps to then extract the information more reliably.\n对吧？所以，如果一个用户离接入点非常近，它就能够以非常高的数据速率发送。如果它离得远，就只能以较低的数据速率发送。这怎么可能呢？因为，如果用户离接入点近，而且所经历的信道很好，那么，比如说，它就能够采用一种更高效的调制。记住我们昨天说过的话，这意味着，对于每一个发送出去的信号、电磁信号，用户能够传送的不只是一个比特，而是多个比特。例如，三个比特或者四个比特。而且，由于信道很好，接收端就有很高的概率正确获得信息。相反，如果用户离接入点很远，而且存在障碍物，信道没有那么好，那么，Wi-Fi网卡就会在物理层选择一种效率较低的调制，也许是二进制调制，它非常稳健，对吧？因为，请记住，它有助于随后更可靠地提取信息。",
+    "timestamp": "01:06:46",
+    "text_sha256": "095ea934c38aa1b0fb5f1f00c932b534136d5488b46b7db25fea2541996f74ec",
+    "heading": "71 · 01:06:46 · 调制效率与信道可靠性的取舍",
+    "h1_before": "",
+    "anchor": "doxcnypKmcHnpcDiC3iDG6iyKHh"
+  },
+  {
+    "ordinal": 72,
+    "block_id": "doxcntCiUp2T9qpgbpQMdnTqjoe",
+    "text": "原标说话人 1  01:08:32\nBut clearly, every electromagnetic signal at that point will carry only one bit. So, we are able to transmit, of course, but transmit more slowly at a lower speed. So, Wi-Fi cards at the physical layer have the possibility to adjust their data rate, which means the type of modulation they are using, in such a way that if the channel is good, they can transmit at a high data rate using an efficient modulation. If the channel is bad, they instead use a less efficient modulation and reduce the data rate. Is this concept clear? Because this is important. In the case of, therefore, um, Wi-Fi 1, OK, the very basic version of Wi-Fi. Remember that in that case, we had as maximum data rate 11 megabits per second. And we said there are other possible data rates, one megabit per second, two megabit per second, 5.5. OK. And this is a representation of what I said.\n但是，显然，这时每一个电磁信号都只能携带一个比特。所以，我们当然能够发送，但是发送得更慢，速度更低。因此，Wi-Fi网卡在物理层能够调整自己的数据速率，也就是调整它们所使用的调制类型，使得当信道好时，它们能够使用高效的调制，以高数据速率发送。如果信道差，它们则使用效率较低的调制，并降低数据速率。这个概念清楚了吗？因为这很重要。因此，在，嗯，Wi-Fi 1的情况下，好，也就是Wi-Fi最基础的版本。记住，在那种情况下，我们的最大数据速率是每秒11兆比特。而且，我们说过，还有其他可能的数据速率，每秒1兆比特、每秒2兆比特、5.5。好。这就是对我刚才所说内容的一个图示。",
+    "timestamp": "01:08:32",
+    "text_sha256": "ef2eb1dea503cca0d64e72724850b6bc86c7fcb26a47da661490bac798a79fdf",
+    "heading": "72 · 01:08:32 · 通过调制选择实现速率自适应",
+    "h1_before": "",
+    "anchor": "doxcnmi9GDgu8V5JeCbVXIKzQtJ"
+  },
+  {
+    "ordinal": 73,
+    "block_id": "doxcn61GWJw76p33RFYm74hRmJe",
+    "text": "原标说话人 1  01:08:32\nSo, when you are indoor, indoor, the channel is worse than outdoor. You are indoor and you are far away from the access point. Let's say around ninety meters. You can still talk with the access point, but you have to use one megabit per second because otherwise your bits will not reach the access point reliably.\n所以，当你在室内，室内的信道比室外更差。你在室内，而且离接入点很远。比如说，大约九十米。你仍然能够与接入点通信，但是你必须使用每秒1兆比特，因为否则你的比特就无法可靠地到达接入点。",
+    "timestamp": "01:08:32",
+    "text_sha256": "c2c54cc250b4a3e85698407d18626a84d233cd2dbbf7b44ad031d307d702c9bd",
+    "heading": "73 · 01:08:32 · 室内远距离采用低速率",
+    "h1_before": "",
+    "anchor": "doxcnLFPOixQr0MeXrYlwyst98d"
+  },
+  {
+    "ordinal": 74,
+    "block_id": "doxcn9gYXPg3fZZT3hovzT5GBte",
+    "text": "原标说话人 1  01:08:32\nIf you are indoor and you are a little bit closer to your access point around 70 meters away, you are closer. So the signal propagates a bit easier, more easily, and therefore you can try and transmit at higher bit rates using a more efficient modulation, 2 megabits per second. If you are relatively close, let's say 50 meter, your signal will propagate even more easily. And then you will be able to transmit at a higher data rate reliably, 5.5. If you are very close, then you can transmit at the maximum data rate.\n如果你在室内，而且离接入点稍微近一些，大约相距70米，那么你更近了。所以，信号传播会稍微容易一点、更容易，因此，你可以尝试使用更高效的调制，以更高的比特率发送，也就是每秒2兆比特。如果你相对较近，比如说50米，你的信号就会更容易传播。这样，你就能够可靠地以更高的数据速率发送，5.5。如果你非常近，那么你就能够以最大数据速率发送。",
+    "timestamp": "01:08:32",
+    "text_sha256": "1aafe4301d8ee2b274d7bf107bd053472692fd00ad124a26d068a0704531b4b0",
+    "heading": "74 · 01:08:32 · 室内距离缩短可提高速率",
+    "h1_before": "",
+    "anchor": "doxcn17gNmqsjlPbKQSIAU0oZed"
+  },
+  {
+    "ordinal": 75,
+    "block_id": "doxcnReHotcdexNvm94nC4VIw7e",
+    "text": "原标说话人 1  01:08:32\nNow, outdoor, the signal propagates better because there are fewer obstacles. There are no walls, no pieces of furniture. So, less obstacles, the propagation conditions are better. This means that if you are outdoor, even if you are far away from the access point, let's say 160 meters, you are still able to communicate with the access point. Of course, in that case, you need to use the binary modulation, basic modulation, and therefore you can communicate. But you can enjoy a low data rate, one megabit per second. If you are a little bit closer, then you can hope to use more efficient modulation and increase your data rate. And then as you get closer, you can enjoy a higher speed. OK? Now, the Wi-Fi card adjusts automatically the speed at which can transmit depending on the channel conditions. OK? The standard does not specify the algorithm according to which, so the way according to which you can adjust, it doesn't say that. It is a proprietary solution of the manufacturer that produces Wi-Fi cards. So, every manufacturer has got its own algorithm that allows the the Wi-Fi card to adjust to the propagation conditions. However, there are two basic ways to do that. OK? So, general principles that are used by the manufacturers. Either your receiver estimates the SNR and sends back to the transmitter the value of SNR. And then the transmitter checks this value.\n现在，在室外，信号传播得更好，因为障碍物较少。没有墙壁，没有家具。所以，障碍物更少，传播条件更好。这意味着，如果你在室外，即使你离接入点很远，比如说160米，你仍然能够与接入点通信。当然，在这种情况下，你需要使用二进制调制、基本的调制，因此你能够通信。但是，你能享有的是较低的数据速率，每秒1兆比特。如果你稍微近一点，那么你就可以期待使用更高效的调制，并提高自己的数据速率。然后，随着你越来越近，你就可以享有更高的速度。好吗？现在，Wi-Fi网卡会根据信道条件，自动调整它所能采用的发送速度。好吗？标准并没有规定所依据的算法，也就是说，你应当以什么方式来调整，它没有说明这一点。这是生产Wi-Fi网卡的制造商所采用的专有方案。所以，每一家制造商都有自己的算法，使Wi-Fi网卡、使Wi-Fi网卡能够适应传播条件。不过，有两种基本的做法。好吗？也就是制造商所使用的一般原则。一种是你的接收端估计SNR，并把SNR的数值发回给发送端。然后，发送端检查这个数值。",
+    "timestamp": "01:08:32",
+    "text_sha256": "9603e7309f37472f2f4c0d13e432aa2479c138c4192b01a24eb54adce220f7b4",
+    "heading": "75 · 01:08:32 · 室外覆盖、自适应算法与SNR反馈",
+    "h1_before": "",
+    "anchor": "doxcnBdiWcxx204YfvAtbg0evxe"
+  },
+  {
+    "ordinal": 76,
+    "block_id": "doxcnS783duWKZEr1DbIdPiPtpb",
+    "text": "原标说话人 1  01:14:13\nIf the SNR experienced by the receiver is high, it means good channel, then the transmitter increases the data rate. If instead the SNR is low, then the transmitter decreases the data rate. The other possibility is that you exploit the history of successful packets. So for each packet, remember that in Wi-Fi when the transmitter transmits successfully, it receives an acknowledgement, right? So the transmitter can records the acknowledgments for each transmission.\n如果接收端经历的SNR很高，那就意味着信道好，那么发送端就提高数据速率。相反，如果SNR很低，那么发送端就降低数据速率。另一种可能是利用数据包成功传输的历史。所以，对于每一个数据包，记住，在Wi-Fi中，当发送端发送成功时，它会收到一个确认，对吧？因此，发送端可以记录每一次传输的确认。",
+    "timestamp": "01:14:13",
+    "text_sha256": "55cd650aba1b0cb2aa45a135c9de3e1756b45e137f67b503b9eb7bc00b285508",
+    "heading": "76 · 01:14:13 · 基于SNR或成功确认记录调整速率",
+    "h1_before": "",
+    "anchor": "doxcnrfB2DW8I8i5tEF6eRQOzlc"
+  },
+  {
+    "ordinal": 77,
+    "block_id": "doxcnk9UJWtlRVTGISsYVlD6I8e",
+    "text": "原标说话人 1  01:15:01\nIf he sees that his transmission is actually, in, on average, usually successful, then he can try and increase the data rate. If instead it records failures, it decreases the data rate. So these are the two main principles that one can exploit in order to perform this data rate adaptation, OK? Good.\n如果它看到自己的传输实际上，从、从平均来看，通常都是成功的，那么它就可以尝试提高数据速率。相反，如果它记录到失败，就会降低数据速率。所以，这就是为了进行这种数据速率自适应而可以利用的两个主要原则，好吗？很好。",
+    "timestamp": "01:15:01",
+    "text_sha256": "cbdd97a92a99b01ba8b5be0bbd16f41066c73ca2abe95cbe005016a552d47164",
+    "heading": "77 · 01:15:01 · 通过传输成败历史增减速率",
+    "h1_before": "",
+    "anchor": "doxcnKrZDRVsHoQv1ivKinI5j7f"
+  },
+  {
+    "ordinal": 78,
+    "block_id": "doxcnOTZCYPKubj5aBZmpTn4mAc",
+    "text": "原标说话人 1  01:15:01\nFinal remark about the way our Wi-Fi cards transmit and receive, very important, is that actually our Wi-Fi cards are half duplex. What does it mean? It means that inside the Wi-Fi card, the electronics is such that we have only one transceiver.\n关于我们的Wi-Fi网卡发送和接收的方式，最后还有一点说明，非常重要，那就是，我们的Wi-Fi网卡实际上是半双工的。这是什么意思？它意味着，在Wi-Fi网卡内部，电子电路的构造使得我们只有一个收发器。",
+    "timestamp": "01:15:01",
+    "text_sha256": "860517942ff26b46a5a70b9660ce1822aba282a4a7d3004dc72d2fd719b28323",
+    "heading": "78 · 01:15:01 · Wi-Fi半双工与单一收发器",
+    "h1_before": "八、半双工与收发器",
+    "anchor": "doxcnNbstjbGq1GIcEjbwE1fCdg"
+  },
+  {
+    "ordinal": 79,
+    "block_id": "doxcnU84gPl1lr0tzA7MP4gWJLd",
+    "text": "原标说话人 1  01:16:12\nThe transceiver is a piece of electronics that is used to transmit physically transmit the electromagnetic signal or receive the electromagnetic signal. OK, it's the hardware that allows to do that. So, after the antenna, there is the transmitter, essentially a transceiver. Or if you are a receiver, there is the antenna, and the transceiver connected with the antenna that will allow you to get the signal, OK?\n收发器是一种电子器件，用来发送、从物理上发射电磁信号，或者接收电磁信号。好，它就是使我们能够这样做的硬件。所以，在天线之后，有发送器，实质上是一个收发器。或者，如果你是接收端，那么有天线，以及与天线相连接的收发器，它让你能够获得信号，好吗？",
+    "timestamp": "01:16:12",
+    "text_sha256": "a62ad2e196d516ac5a24f7629f0bce0dd1a7597007b8caf36d25b3b117f4ab56",
+    "heading": "79 · 01:16:12 · 收发器和天线的硬件作用",
+    "h1_before": "",
+    "anchor": "doxcn5RQpIu5gHJhbjoTsBQPXSd"
+  },
+  {
+    "ordinal": 80,
+    "block_id": "doxcngMhZB4LjRpcmlN6VLmbt7c",
+    "text": "原标说话人 1  01:16:53\nNow there is only one transceiver. What does it mean? It means that the Wi-Fi card is able either to transmit or receive a signal, but it cannot do both things at the same time. So, it cannot transmit and receive at the same time. There are radio cards and points that may do that, okay? In other technologies, they have more than one transceiver. So they can use one transceiver to transmit and one transceiver to receive, so that they can transmit and receive at the same time. But in Wi-Fi cards, we have only one transceiver, only one. So, we can use it either to transmit or to receive. That's half duplex. When you have two transceivers, and you can transmit and receive at the same time, that's full duplex. You may say why can't they put an additional transceiver in Wi-Fi cards so that we can transmit and receive at the same time? Well, because Wi-Fi has been conceived as a cheap, low cost technology. So, they wanted to include only one transceiver in order to reduce the costs. The drawback is that indeed you have half duplex capabilities, so, you cannot transmit and receive at the same time. This is very, very, very, very important in order to understand what we're going to explain later. So, keep that in mind, OK? Good. That's sad.\n现在，只有一个收发器。这是什么意思？它意味着，Wi-Fi网卡能够发送信号，或者接收信号，但它不能同时做这两件事。所以，它不能同时发送和接收。有些无线网卡和设备是可以这样做的，好吗？在其他技术中，它们有不止一个收发器。所以，它们可以用一个收发器来发送，用另一个收发器来接收，这样它们就能够同时发送和接收。但是，在Wi-Fi网卡中，我们只有一个收发器，只有一个。所以，我们可以用它来发送，或者用它来接收。这就是半双工。当你有两个收发器，而且能够同时发送和接收时，那就是全双工。你可能会说，为什么他们不能在Wi-Fi网卡里再放一个收发器，好让我们能够同时发送和接收呢？嗯，因为Wi-Fi从构想之初就是一种便宜、低成本的技术。所以，他们希望只包含一个收发器，以降低成本。缺点就是，你确实只有半双工能力，也就是说，你不能同时发送和接收。为了理解我们稍后要解释的内容，这一点非常、非常、非常、非常重要。所以，请记住这一点，好吗？很好。这很遗憾。",
+    "timestamp": "01:16:53",
+    "text_sha256": "f2dd7ae3c349aa82de0f701d705d5f878a441ba150f4d63e66ea64099beeff08",
+    "heading": "80 · 01:16:53 · 半双工、全双工与低成本设计",
+    "h1_before": "",
+    "anchor": "doxcnvTwlNtOHDTGQxP3qngXDjg"
+  },
+  {
+    "ordinal": 81,
+    "block_id": "doxcnF9sC04HJxJEcKQrFXiQ8VM",
+    "text": "原标说话人 1  01:19:04\nBefore moving to what the MAC layer in Wi-Fi is and how it works, let me actually present some slides that of course you don't need to to remember about. OK, they are just for let's say for the clarity, in particular for those of you who have got an ICT background. OK, those of you who do not have an ICT background, don't worry. If you understand some main ideas about this set of slides, fine. Otherwise, you can just forget about it. Okay? No worries.\n在转向Wi-Fi中的MAC层是什么、以及它如何工作之前，让我先展示几张幻灯片，当然，你们不需要、不需要把它们记住。好，它们只是为了，可以说，为了把内容讲清楚，特别是给你们当中具有ICT背景的同学看的。好，没有ICT背景的同学，不用担心。如果你能理解这组幻灯片中的一些主要想法，很好。否则，你完全可以把它们忘掉。好吗？不用担心。",
+    "timestamp": "01:19:04",
+    "text_sha256": "9f3121bff0b8e77e3c30870059dfbcc500213f27e7a0f6f5703f90e39cf14285",
+    "heading": "81 · 01:19:04 · 物理层扩展内容的学习要求",
+    "h1_before": "九、OFDM并行传输",
+    "anchor": "doxcnt4C95avKd0kCwu6JImcmpe"
+  },
+  {
+    "ordinal": 82,
+    "block_id": "doxcnI9MfmiomX6tslONXi1AZ1g",
+    "text": "原标说话人 1  01:19:04\nBut if you've got an ICT background, you may be interested in knowing a little bit better what this OFDM technique is. Remember when we looked at the table previously, we mentioned that OFDM is the technique used on the physical layer by Wi-Fi. Is also used in cellular communications, is a very efficient way to transmit and receive signals. OK?\n但是，如果你具有ICT背景，你可能会有兴趣稍微更深入地了解一下，这个OFDM技术是什么。记住，前面看那张表时，我们提到过，OFDM是Wi-Fi在物理层所使用的技术。它也用于蜂窝通信，是一种非常高效的发送和接收信号的方式。好吗？",
+    "timestamp": "01:19:04",
+    "text_sha256": "52f8f84de9f7ac62e063f21787e568991fe555f30a9d9d71d9aef3b084d09fe6",
+    "heading": "82 · 01:19:04 · 引入Wi-Fi与蜂窝通信中的OFDM",
+    "h1_before": "",
+    "anchor": "doxcnZTaNsabXhmK96YRfPxtqZg"
+  },
+  {
+    "ordinal": 83,
+    "block_id": "doxcnrbGQk7nqwhPhy3lbO4b92d",
+    "text": "原标说话人 1  01:19:04\nSo, OFDM means orthogonal frequency division multiplexing. And the main idea, let me show you a picture. The main idea is this one. So, remember what we said. Our nodes to transmit and receive signals use this band of frequency, this frequency channel, right? OK, so here is our available frequency channel, and the frequency channel there is essentially represented here. This is the portion of frequencies that we're using.\n所以，OFDM的意思是正交频分复用。它的主要想法，让我给你们看一张图。主要想法就是这个。所以，记住我们说过的话。我们的节点使用这个频带、这个频率信道来发送和接收信号，对吧？好，所以，这里就是我们可用的频率信道，而那里的频率信道，基本上就是这里表示的这一段。这就是我们所使用的那部分频率。",
+    "timestamp": "01:19:04",
+    "text_sha256": "0af673411151682998fbae96a0a4e1c48cc3fa76777c06eadccda995f0365596",
+    "heading": "83 · 01:19:04 · OFDM含义与可用频率信道",
+    "h1_before": "",
+    "anchor": "doxcnob6uDiBtSIcwZ4p51DoSge"
+  },
+  {
+    "ordinal": 84,
+    "block_id": "doxcnr6qoLo0yCyNAuYGLE6IE6f",
+    "text": "原标说话人 1  01:21:26\nOK, now how do we actually use this portion of frequencies in order to transmit and receive signals, electromagnetic signals? Well, using OFDM, what you will do is to divide this available frequency channel into smaller narrower channels. This is one, two, three, and seven. And what you actually do is to transmit one electromagnetic wave per subchannel. This is the representation of the electromagnetic wave of the signal in the frequency domain. This is how we represent, OK?\n好，现在，我们到底怎样使用这部分频率来发送和接收信号、电磁信号呢？嗯，采用OFDM时，你所做的，就是把这个可用的频率信道划分成更小、更窄的信道。这是一个、两个、三个，还有七个。而你实际做的，就是在每个子信道上发送一个电磁波。这是电磁波、也就是信号在频域中的表示。这就是我们表示它的方式，好吗？",
+    "timestamp": "01:21:26",
+    "text_sha256": "752cbbf1e934cb2f29bd160616efe85fdb6468a3c916625f01717c6ce748c3fd",
+    "heading": "84 · 01:21:26 · 把频率信道划为多个窄子信道",
+    "h1_before": "",
+    "anchor": "doxcnqj6mUhzhy6hQvLY3hR3CPg"
+  },
+  {
+    "ordinal": 85,
+    "block_id": "doxcn3N0A8h99rqgRBGEFiSYzSR",
+    "text": "原标说话人 1  01:22:36\nIt doesn't matter why it is represented in these ways. A sinc function, if you remember that from your mathematical background, in a in a in the frequency domain, each electromagnetic signal is actually represented as a sinc function. If you remember what a sinc is, this is a sinc. Okay. So as you can see, for each of these narrower subchannels, we have one signal, a sinc. Okay.\n为什么用这些方式来表示，并不重要。一个sinc函数，如果你们还记得自己的数学基础里学过它，在、在、在频域中，每一个电磁信号实际上都表示为一个sinc函数。如果你还记得sinc是什么，这就是一个sinc。好。所以，正如你们看到的，对于这些较窄的子信道中的每一个，我们都有一个信号，一个sinc。好。",
+    "timestamp": "01:22:36",
+    "text_sha256": "22cae5a89806930f8f4658c64dceb7da0901015f8db7ef44cd5d95b6020bbbb2",
+    "heading": "85 · 01:22:36 · 用sinc函数表示子信道信号",
+    "h1_before": "",
+    "anchor": "doxcnWbzAPgP3ocicXDfrx6S8Kb"
+  },
+  {
+    "ordinal": 86,
+    "block_id": "doxcngVovUNMeMzmhcV0jZoYSFo",
+    "text": "原标说话人 1  01:23:12\nAnd the sinc is centered at the center of the narrow subchannel.\n而且，这个sinc的中心位于这个窄子信道的中心。",
+    "timestamp": "01:23:12",
+    "text_sha256": "76f0da4a1120d3be413dc0599a778ac474050aca7d740d1e0767225dcb44dba3",
+    "heading": "86 · 01:23:12 · sinc中心对应子信道中心",
+    "h1_before": "",
+    "anchor": "doxcnxw8oLX3gG7PISCI21KfdRc"
+  },
+  {
+    "ordinal": 87,
+    "block_id": "doxcn1qZ3p2PB9y3bIFwcfgLsec",
+    "text": "原标说话人 1  01:23:12\nSo, the way Wi-Fi card transmits when using this frequency channel is actually to send many signals at the same time. One per narrow subchannel. OK, now let's observe this kind of signals, even if you don't remember what a sinc is and etc. Just observe graphically what we've got here. As you can see, each of these signals reaches its maximum in correspondence of the center of its own narrow channels, right? And what you can see here is that they overlap but mildly, right? They overlap just a little bit. So, this means that these signals that are sent in parallel will not interfere much, because they do not overlap very much. Right? So, by transmitting in this way, you can send in parallel many electromagnetic signals at the same time. So, this means that you can be fast, because you're not sending just one signal at a time, but many in parallel. And even if you send many signals in parallel, they will not interfere too much, because they are quite separated one from the other.\n所以，Wi-Fi网卡在使用这个频率信道时，其发送方式实际上是同时发送许多信号。每个窄子信道上一个。好，现在，我们来观察一下这种信号，即使你不记得sinc是什么，等等。只要从图形上观察我们这里有什么就行。正如你们看到的，这些信号中的每一个，都在自己那个窄信道的中心所对应的位置达到最大值，对吧？而且，这里你们能看到，它们会重叠，但是重叠程度不大，对吧？它们只是有一点重叠。所以，这意味着，这些并行发送的信号不会产生很大的相互干扰，因为它们重叠得并不多。对吧？所以，通过这种方式发送，你能够同时并行发送许多电磁信号。因此，这意味着你能够很快，因为你不是一次只发送一个信号，而是并行发送许多个。即使你并行发送许多信号，它们也不会相互干扰得太严重，因为它们彼此之间分隔得相当开。",
+    "timestamp": "01:23:12",
+    "text_sha256": "13f7a95b2e1885ef98d923be2eb8fb3a69d0694282e8bac48af35498357454df",
+    "heading": "87 · 01:23:12 · 多个子信道并行发送信号",
+    "h1_before": "",
+    "anchor": "doxcnWWj1V1p9QOiKxQR6M5FNfb"
+  },
+  {
+    "ordinal": 88,
+    "block_id": "doxcnYDXBiv13W2Ujk3Ch1iVUlh",
+    "text": "原标说话人 1  01:25:37\nSo the overall data rate that you will be able to achieve depends on how many bits you send through each of these signals, right? So OFDM, orthogonal frequency division means that, indeed, you are sending in parallel multiple signals that are divided in frequency because they use different frequency subchannels. And that they are orthogonal, meaning that they do not overlap too much. That's the key idea of OFDM. And it allows, it's very efficient in general as a technique at the physical layer, because it allows you to send multiple signals at the same time.\n所以，你能够达到的总体数据速率，取决于你通过这些信号中的每一个发送多少比特，对吧？所以，OFDM，正交频分，意味着你确实在并行发送多个信号，它们在频率上被划分开，因为它们使用不同的频率子信道。而且，它们是正交的，意思是它们重叠得不太多。这就是OFDM的关键想法。而且，它允许，作为物理层的一种技术，它总体上非常高效，因为它允许你同时发送多个信号。",
+    "timestamp": "01:25:37",
+    "text_sha256": "3ab9843249fa2ea1d875bcfddc82a4cc4e890279102572828df1c0420dd3b9f7",
+    "heading": "88 · 01:25:37 · OFDM并行传输与总体数据速率",
+    "h1_before": "",
+    "anchor": "doxcnJRHp8JRUphGUWjlmBNIk5G"
+  },
+  {
+    "ordinal": 89,
+    "block_id": "doxcn86Q5HUIXWPj2hw8wVuvhob",
+    "text": "原标说话人 1  01:26:48\nSo, you can increase the data rate at which you can transmit with respect to when you transmit only one signal at a time. OK, so, it's like having the possibility to have multiple people, many people that transmit say something at the same time in parallel, and the receiver is able to actually capture each transmission at the same time. So, it's like if I speak Italian, and there is another person, for example, that speaks English next to me. If you are a receiver listening, and you know well Italian, and and English, if you are actually able to do that, but there are people who are able to do that. You can actually understand both of them at the same time. So, you get in parallel, what the person speaking Italian is saying, and what the person speaking in English is saying. So, I'm able to do that.\n所以，相比一次只发送一个信号时，你能够提高自己发送时的数据速率。好，所以，这就像可以有多个人、许多人同时并行地发送、说些什么，而接收端实际上能够同时捕获每一次发送。所以，这就像我说意大利语，而我旁边还有另一个人，比如说，正在说英语。如果你是一个正在听的接收者，而且你很懂意大利语，也、也很懂英语，如果你确实有能力这样做，不过的确有些人能做到。你就可以同时听懂他们两个人。因此，你并行地获得了说意大利语的人正在说的内容，以及说英语的人正在说的内容。所以，我就能够这样做。",
+    "timestamp": "01:26:48",
+    "text_sha256": "8b0d244a9bcb3fe2530f3423a80b78e24a37071c8c8d83face48ce6098f8be37",
+    "heading": "89 · 01:26:48 · 用同时听懂两种语言类比并行接收",
+    "h1_before": "",
+    "anchor": "doxcnzKWJf419TI3cyXDXeeu0Qh"
+  },
+  {
+    "ordinal": 90,
+    "block_id": "doxcnSJ6V1bnBQhfDMnS1mS1Rch",
+    "text": "原标说话人 1  01:28:16\nOK, and that will mean that I will get more information in a shorter time, compare to the case where the Italian speaker speaks first, and then the English speakers speaks later, right? So, I can get information more quickly. That's the idea. You know what I mean? So it's a very efficient way to transmit and receive bits. That's why it is used in the more recent versions of Wi-Fi, and as I was saying also in modern versions of cellular communications, they all use OFDM as a way to transmit or receive signals at the physical layer.\n好，而这就意味着，相比先由说意大利语的人讲话、再由说英语的人随后讲话的情况，我能够在更短的时间里获得更多的信息，对吧？所以，我能够更快地获得信息。这就是它的想法。你们明白我的意思吗？所以，这是一种非常高效的发送和接收比特的方式。这就是为什么较新的Wi-Fi版本会采用它，而且，正如我刚才说的，现代版本的蜂窝通信也会采用它；它们都用OFDM作为在物理层发送或接收信号的方式。",
+    "timestamp": "01:28:16",
+    "text_sha256": "a3ecb04286cb7f50098aba433145af29a267e7b1deb4f80e2348f2d2d1f32e92",
+    "heading": "90 · 01:28:16 · 并行接收提高信息获取效率",
+    "h1_before": "",
+    "anchor": "doxcnyUSaQVizokbCCiEwFkUADf"
+  },
+  {
+    "ordinal": 91,
+    "block_id": "doxcn1CexZJYoDncqr4F4zweakg",
+    "text": "原标说话人 1  01:29:10\nOK, that said, I will not actually say much more than that, but what I would like just to say in the last 5 minutes is something that I can represent here. Because you may remember that in the table that we look at, and by looking in particular at the column that was reporting the type of physical layer in the different versions of Wi-Fi, at a certain point, there was also OFDM plus MIMO. You may remember that, OK?\n好，说完这些，实际上我不会再讲太多，不过，最后5分钟里，我只想说一件可以在这里表示出来的事情。因为你们可能还记得，在我们看过的那张表中，特别是看那一列，它列出了不同Wi-Fi版本所采用的物理层类型，在某个地方，还出现了OFDM加MIMO。你们可能还记得这个，好吗？",
+    "timestamp": "01:29:10",
+    "text_sha256": "9b1579bd94d8b2c72203650ab2e5ed66b1e9d529ecb4f46f26d4ef52272a396b",
+    "heading": "91 · 01:29:10 · 从OFDM引出MIMO",
+    "h1_before": "十、MIMO与多天线技术",
+    "anchor": "doxcnuCVqXynScM4EHpfN9mwOId"
+  },
+  {
+    "ordinal": 92,
+    "block_id": "doxcnrMuYMfPF5b5phN10ZMxgXd",
+    "text": "原标说话人 1  01:30:01\nNow, let me explain what MIMO is again in a very simple way. MIMO means multiple input, multiple output. OK, what is that? Consider a transmitter. And consider a receiver. Multiple input means that the transmitter does not have only one antenna, but it has got multiple antennas. So let's say that instead of one, for example, it has got four antennas, and multiple output means that also your receiver has got multiple antennas. OK? Let's say four and four. OK, so also assume that these antennas are quite spaced one from the others. They need to be spaced by half the wavelength of the signals that are transmitted. So, half the wavelength is the distance that you need from one antenna element to the other. Ok? So, both on the transmitter and the receiver. If you have this kind of arrangement, then, every antenna at the transmitter can send a signal to the corresponding antenna at the receiver. And since the antennas are spaced by at least this distance, these signals will travel over independent channels. So, the propagation of these signals is independent one from the other. Okay? They will be independent. In this case, you can provide a string of bits, zero, one, one, zero, whatever, to this antenna as input. You can provide a different string of bits to this antenna, a different string of bits to this antenna, and a different string of bits to this antenna.\n现在，让我再次用非常简单的方式解释一下MIMO是什么。MIMO的意思是多输入、多输出。好，那是什么？考虑一个发送端。再考虑一个接收端。多输入意味着，发送端不只有一根天线，而是有多根天线。所以，假设它不是一根，比如说，它有四根天线；而多输出意味着，你的接收端也有多根天线。好吗？假设四根和四根。好，那么，再假设这些天线彼此之间有相当的间距。它们需要间隔所发送信号的半个波长。所以，半个波长，就是一个天线单元与另一个天线单元之间所需要的距离。好吗？发送端和接收端都如此。如果你有这种布置，那么，发送端的每一根天线都可以向接收端对应的天线发送一个信号。由于这些天线至少间隔这么大的距离，这些信号就会沿着独立的信道传播。所以，这些信号的传播彼此独立。好吗？它们会是独立的。在这种情况下，你可以向这根天线提供一串比特，零、一、一、零，随便什么，作为输入。你可以向这根天线提供另一串不同的比特，向这根天线提供另一串不同的比特，再向这根天线提供另一串不同的比特。",
+    "timestamp": "01:30:01",
+    "text_sha256": "d690b3137af59324dc3727a494fc480c4dc41c6107ebc34a860df467d089d130",
+    "heading": "92 · 01:30:01 · 多天线、间距与多路独立输入",
+    "h1_before": "",
+    "anchor": "doxcnXl5SidKAcOLppWQOlCP6sc"
+  },
+  {
+    "ordinal": 93,
+    "block_id": "doxcniC3KkZnlSSu7F1H92z0Eig",
+    "text": "原标说话人 1  01:33:04\nNow we understand the meaning of multiple inputs. Right, because we can provide multiple input strings of bits, and the transmitter will be able to transmit each of these string, right, to impress them on a signal and transmit the signal to the receiver in parallel, and the receiver will be able to receive them at the same time but independently. So we have multiple outputs.\n现在，我们理解多输入是什么意思了。对，因为我们能够提供多串作为输入的比特，而发送端能够发送这些比特串中的每一串，对吧，把它们加载到信号上，并把信号并行地发送给接收端；接收端则能够同时、但又独立地接收它们。所以，我们就有了多个输出。",
+    "timestamp": "01:33:04",
+    "text_sha256": "9bb5c0803055b0b6cf64e57891bac7a3026f23e198538778c1593c87da7ebd2d",
+    "heading": "93 · 01:33:04 · 多路比特流的并行输入与输出",
+    "h1_before": "",
+    "anchor": "doxcnW1AkvVoWw8AfcjVt5CIVqc"
+  },
+  {
+    "ordinal": 94,
+    "block_id": "doxcnYuCqpETKACIX52KNhQLKIg",
+    "text": "原标说话人 1  01:33:56\nSo, if you use that on the transmitter and the receiver, this means that if using only one pair of antennas, you could transmit, for example, at 1 megabit per second. Using four of them, you can now transmit 4 megabit per second in total, right? Because each is considered as an independent transmission. Therefore, if you have 4 antennas here, 4 multiple inputs, right? And four outputs, four antennas at the receiver, you can transmit in parallel four strings of bits, let's say, instead of one. So, you can increase your data rate by a factor of four. So that's why in the more recent versions of the physical layer Wi-Fi, we said we are using OFDM plus MIMO.\n所以，如果你在发送端和接收端采用这种方式，这就意味着，如果只使用一对天线时，你能够以，比如说，每秒1兆比特发送，那么，使用其中四对，你现在总共就能够发送每秒4兆比特，对吧？因为其中每一个都被视为一次独立传输。因此，如果你这里有4根天线，4个输入，对吧？以及四个输出，也就是接收端的四根天线，那么你可以并行发送四串比特，可以这样说，而不是一串。所以，你能够把数据速率提高到四倍。因此，这就是为什么在较新的Wi-Fi物理层版本中，我们说，我们使用的是OFDM加MIMO。",
+    "timestamp": "01:33:56",
+    "text_sha256": "772da12492fdc2d79905460847ed5cfedb836517eb54963db9f8bb915c48039b",
+    "heading": "94 · 01:33:56 · 四对天线提高总数据速率的例子",
+    "h1_before": "",
+    "anchor": "doxcnliffE6nqfFDg40vJe51Llb"
+  },
+  {
+    "ordinal": 95,
+    "block_id": "doxcnipZUABYmMBCCYZSehPuR0e",
+    "text": "原标说话人 1  01:35:13\nSo, we are using OFDM, that's a way to increase the data rate, possible data rate. But we are also further increasing the data rate by deploying more antennas on the transmitter and more antennas on the receiver.\n所以，我们使用OFDM，那是一种提高数据速率、提高可能达到的数据速率的方式。但是，我们也通过在发送端部署更多天线，以及在接收端部署更多天线，进一步提高数据速率。",
+    "timestamp": "01:35:13",
+    "text_sha256": "91a5db6c39f3dbecdd1066b7b8eeba419c5e21620775812198de8efb048de569",
+    "heading": "95 · 01:35:13 · OFDM与多天线共同提升速率",
+    "h1_before": "",
+    "anchor": "doxcnBhiwUk2C1JTKPRDtRk73Ab"
+  },
+  {
+    "ordinal": 96,
+    "block_id": "doxcnPzwlDfQ8cjhjAB1Uxf7Xyg",
+    "text": "原标说话人 1  01:35:32\nAnd now as final comment, we also understand why we said the antenna size is important, right? Yesterday we made this comment, antenna size is an important parameter. Why? Because if your antennas are very very very small, you can deploy many antenna elements in your transmitter and your receiver. Instead of four, you may have eight, or even nowadays 256. Okay? So, you can apply this with 256 input and 256 output, so you can have 256 transmissions taking in parallel. That's very very advanced.\n现在，作为最后一点说明，我们也理解了，为什么我们说天线尺寸很重要，对吧？昨天我们提到了这一点，天线尺寸是一个重要参数。为什么？因为，如果你的天线非常、非常、非常小，你就能够在发送端和接收端部署许多天线单元。不只是四个，你可能有八个，甚至如今可以有256个。好吗？因此，你可以用256个输入和256个输出来应用这种方式，于是可以有256路传输并行进行。这是非常、非常先进的。",
+    "timestamp": "01:35:32",
+    "text_sha256": "b6ba67d141e3dbbef5d5edd093311b40daa4662d57655de5211fa139b8e398fb",
+    "heading": "96 · 01:35:32 · 小型天线支持更大规模阵列",
+    "h1_before": "",
+    "anchor": "doxcnhc532ZPr3aMjQTawYgJ7pf"
+  },
+  {
+    "ordinal": 97,
+    "block_id": "doxcnYPEhPJUuZwYyPIrQI1ZFKf",
+    "text": "原标说话人 1  01:36:26\nOk. In Wi-Fi nowadays we are an eight antenna elements in transmit, in transmission and eight antenna elements in in reception. But very sophisticated wireless technologies push the number of antennas, so the use of mono very far up to 256, just to give you an idea. OK, is this clear as a general concept? OK, thanks. So, we are done today, and we will have one more class tomorrow for this week. Okay.\n好。如今在Wi-Fi中，我们在发送、在传输时有八个天线单元，在、在接收时也有八个天线单元。但是，非常复杂先进的无线技术把天线数量，也就是‘mono’的使用，推得非常高，一直到256个，只是让你们有个概念。好，作为一个一般概念，这清楚了吗？好，谢谢。那么，今天我们就结束了，本周明天我们还有一节课。好。",
+    "timestamp": "01:36:26",
+    "text_sha256": "2b8f94f95631e72b34120967b6ff518754d7bc4d48769b11953b9bf8f7bb65ef",
+    "heading": "97 · 01:36:26 · 多天线技术总结与课程结束",
+    "h1_before": "",
+    "anchor": "doxcnJXTB2dAF4gug6zdTZQZZah"
+  }
+]
