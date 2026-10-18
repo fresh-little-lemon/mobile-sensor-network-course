@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "section_range": [
+        1,
+        20
+      ],
+      "existing_english_word_count": 1634,
+      "path": "sections-01-20.json"
+    },
+    {
+      "section_range": [
+        21,
+        40
+      ],
+      "existing_english_word_count": 1483,
+      "path": "sections-21-40.json"
+    },
+    {
+      "section_range": [
+        41,
+        60
+      ],
+      "existing_english_word_count": 1636,
+      "path": "sections-41-60.json"
+    },
+    {
+      "section_range": [
+        61,
+        78
+      ],
+      "existing_english_word_count": 1658,
+      "path": "sections-61-78.json"
+    }
+  ],
+  "total_sections": 78,
+  "raw_chunks": 32,
+  "grouping_note": "Contiguous existing paragraph groups have approximately balanced current English word counts. Review section-boundary context and share any boundary changes with adjacent reviewers."
+}
