@@ -373,23 +373,31 @@ $B$ 不是一个从抽样时刻开始连续运行、到点必发的墙钟定时�
 
 \subsubsection{一次竞争的流程}
 
+图\ref{fig:backoff-core}把一次已进入退避的竞争过程分成三种动作：空闲时隙使计数递减，忙信道使计数冻结，计数归零则允许发送。冻结后保留原来的$K$，等待介质重新连续空闲一个DIFS，再继续剩余计数；这条回路不重新抽取随机数。
+
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[every node/.style={font=\small},>=stealth]
-\node[draw,rounded corners,text width=5.2cm,align=center](a)at(0,0){确定当前 CW，抽取初始计数 $K$};
-\node[draw,rounded corners,text width=5.2cm,align=center](b)at(0,-1.2){等待物理及虚拟介质连续空闲 DIFS};
-\node[draw,rounded corners,text width=5.2cm,align=center](c)at(0,-2.4){检查剩余计数：$K=0$？};
-\node[draw,rounded corners,text width=5.2cm,align=center](d)at(0,-3.8){侦听下一个时隙：完整空闲？};
-\node[draw,rounded corners,text width=5.2cm,align=center](e)at(0,-5.2){$K\leftarrow K-1$，继续计数};
-\node[draw,rounded corners,text width=2.2cm,align=center](f)at(4.6,-2.4){发送 DATA\\或先发送 RTS};
+\begin{tikzpicture}[every node/.style={font=\small},>=stealth,
+ main/.style={draw,rounded corners,text width=5.2cm,minimum height=8mm,align=center},
+ side/.style={draw,rounded corners,text width=3cm,minimum height=10mm,align=center}]
+\node[main](a)at(0,0){确定当前 CW，抽取初始计数 $K$};
+\node[main](b)at(0,-1.3){等待物理及虚拟介质\\连续空闲 DIFS};
+\node[main](c)at(0,-2.8){检查剩余计数：$K=0$？};
+\node[main](d)at(0,-4.3){侦听下一个时隙：完整空闲？};
+\node[main](e)at(0,-5.8){$K\leftarrow K-1$，继续计数};
+\node[side,fill=green!6](f)at(5.3,-2.8){发送 DATA\\或先发送 RTS};
+\node[side,fill=orange!8](g)at(5.3,-4.3){冻结计数\\保留当前 $K$};
 \draw[->](a)--(b);\draw[->](b)--(c);
-\draw[->](c)--node[above]{是}(f);
-\draw[->](c)--node[right]{否}(d);
-\draw[->](d)--node[right]{是}(e);
-\draw[->](e.west)--(-3.3,-5.2)--(-3.3,-2.4)--(c.west);
-\draw[->](d.east)--(3.2,-3.8)--node[right,align=left]{否：冻结\\保留 $K$}(3.2,-1.2)--(b.east);
+\draw[->](c.east)--node[above]{是}(f.west);
+\draw[->](c.south)--node[right]{否}(d.north);
+\draw[->](d.south)--node[right]{是}(e.north);
+\draw[->](d.east)--node[above]{否}(g.west);
+\draw[->](e.west)--(-3.4,-5.8)--(-3.4,-2.8)--(c.west);
+\draw[->](g.east)--(7.4,-4.3)--(7.4,-1.3)--(b.east);
+\node[align=center,font=\footnotesize,fill=white] at(5.3,-1.3){等待介质恢复};
 \end{tikzpicture}
-\caption{退避核心流程。失败后的窗口更新与成功后的发送后退避，在流程之外决定下一次进入时采用的 CW。}
+\caption{退避核心流程。右侧下方是忙信道冻结分支，右侧上方是计数归零后的发送分支，两条路径互不交叉。失败后的窗口更新与成功后的发送后退避，在本流程之外决定下一次进入时采用的CW。}
+\label{fig:backoff-core}
 \end{figure}
 
 \subsection{三类需要退避的情形}

@@ -6,14 +6,14 @@
   "source_sessions": 19,
   "pdf": {
     "name": "移动与传感器网络_课程讲义.pdf",
-    "sha256": "0bb0119921a43628f98835391ef157591931b19699d1b43776e487ef876cb068",
-    "bytes": 702604,
+    "sha256": "9dcd5b900f4bc3fe0cef5b8c96cba8c55d8c0fe13f2d99c7d251ea36c7e1e7f0",
+    "bytes": 703472,
     "library_file_id": "libfile_ffcb1e88ac508191a7c08cbbf56965d5"
   },
   "files": {
     "handbook.tex": "a8a1fcc89f181c2c447d2346fd4553415f14d0cbbe7b0145b65d9d2c88e6674b",
     "part1.tex": "70b12f3083d2d50674053a6dcb81835bca58289c5d31498dcf7f31b4f7783e47",
-    "part2.tex": "40d0db2a214a3160630d3dbe4bd7aedef62e2a6b83aa335172837c1a3ae14be2",
+    "part2.tex": "4369c0f082f156d0c3825b4399b668c068de220ec2e9f2f9be885447741320f3",
     "part3.tex": "dc96828c6f96e208a07b12476a6fd2151c431ec842e95a58cf4d34367b597972",
     "part4.tex": "da220ac64dc7450b4a5879279c46b3aba623368260d23f7f91e24d99e625cfee",
     "sources.tex": "cafec337d957652d89123612d853b6c1b78da248483ab545428ba364c6e519bb",
@@ -23,5 +23,10 @@
     "source-map-part2.md": "559cce4bc578da6476f6020a674479b55f101f18a87579d4c767e3e20f2bfe87",
     "source-map-part3.md": "a8f76bf201923969050c7ef17a9d1311abc0bee0b6c997194b9a5b13b2020285",
     "source-map-part4.md": "b3c3ac64b1dc9154e7455ab596c12cb73eb53a3482a5efa61536e27ab5ad7414"
-  }
+  },
+  "revision": "2026-10-19-r2",
+  "changes": [
+    "图14冻结回路与发送分支分离，修正标签重叠",
+    "8.2.3增加正文说明，修正图浮动造成的空标题"
+  ]
 }
