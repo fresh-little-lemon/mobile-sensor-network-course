@@ -1,0 +1,51 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm,headheight=16pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{NotoSerifCJK-Regular.ttc}[Path=/usr/share/fonts/opentype/noto/,FontIndex=2,BoldFont=NotoSerifCJK-Bold.ttc,ItalicFont=NotoSerifCJK-Regular.ttc,ItalicFeatures={FakeSlant=0.2}]
+\setsansfont{NotoSansCJK-Regular.ttc}[Path=/usr/share/fonts/opentype/noto/,FontIndex=2,BoldFont=NotoSansCJK-Bold.ttc]
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,xcolor,tikz,fancyhdr}
+\usetikzlibrary{arrows.meta,positioning,calc,shapes.geometric,fit,backgrounds,decorations.pathreplacing}
+\usepackage{hyperref}
+\definecolor{inkblue}{HTML}{173B58}
+\hypersetup{colorlinks=true,linkcolor=inkblue,urlcolor=inkblue,pdftitle={移动与传感器网络课程讲义},pdfauthor={}}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{5pt plus 1pt}
+\setlength{\emergencystretch}{3em}
+\linespread{1.18}
+\renewcommand{\contentsname}{目录}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\sffamily 移动与传感器网络}\fancyhead[R]{\small\sffamily 课程讲义}\fancyfoot[C]{\thepage}
+\begin{document}
+\begin{titlepage}
+\vspace*{24mm}
+{\sffamily\color{inkblue}\Huge 移动与传感器网络\par}
+\vspace{6mm}{\Large Mobile and Sensor Networks\par}
+\vspace{12mm}{\LARGE 课程讲义\par}
+\vspace{16mm}
+{\large 从无线信号到介质访问，再到多跳与低功耗网络\par}
+\vfill
+\noindent 本讲义依据2026年10月8日至16日已提供的19段课程记录及配套课件编写，沿授课顺序建立概念、模型与协议流程。正文采用中文叙述，术语首次出现附英文；示意图重新绘制，公式逐一说明使用条件。\par
+\vspace{5mm}
+\noindent 课程讲授中的简化模型用于解释基本机制；涉及具体标准时，保留必要的适用条件。课堂计算题与补充算例在题目处区分。材料定位列于文末，不插入连续讲解。\par
+\vspace{8mm}{\small 2026年10月19日\par}
+\end{titlepage}
+\section*{课程结构与考试范围}
+\addcontentsline{toc}{section}{课程结构与考试范围}
+无线网络的性能由信号传输、共享信道的规则以及网络组织方式共同决定。本讲义依次讨论这三个层次：首先建立无线信号、信道与可靠传输的基础；随后说明Wi-Fi中多个节点如何有序发送；最后研究多跳网络和电池供电传感器网络如何在连通性、时延与能耗之间取得平衡。
+
+课程考试说明规定笔试时长为2小时，满分100分，60分及格。题型由基础Wi-Fi信道接入计算题（30分）、传感器网络异步信道接入计算题（30分）以及两道课堂内容问答题（每题20分）组成。考试提供答题纸，需准备笔或铅笔、橡皮和简单计算器。
+
+两类接入计算题是本讲义重点展开的部分。前者要求在帧交换过程中同时跟踪物理侦听、虚拟侦听、帧间隔与退避计数；后者要求区分随机等待、信道检查、接入失败和数据重传。问答题覆盖课堂内容，不能据题型比例将其他章节视为可忽略内容。
+
+上述题型与分值依据课程\textit{Information about the final exam}说明页；并非依据讲义作者预测。正文中的补充例题用于说明机制，不冒充教师原题。\clearpage
+\setcounter{tocdepth}{2}
+\tableofcontents\clearpage
+\input{part1.tex}
+\input{part2.tex}
+\input{part3.tex}
+\input{part4.tex}\clearpage
+\input{sources.tex}
+\end{document}

@@ -1,0 +1,562 @@
+\section{Wi-Fi 网络的组织与介质访问问题}
+\label{ch:wifi-organization}
+
+无线链路首先要把比特变成可以传播的信号，但一个可用的无线网络还必须解决另外两件事：设备如何找到并加入网络，以及已经加入的设备如何共享信道。本章先建立 Wi-Fi 的网络结构与收发过程，再把注意力收拢到介质访问控制。后续的退避、确认和信道预留，都是在这个共同模型上逐步增加的机制。
+
+\subsection{从一条无线链路到一张网络}
+
+\subsubsection{物理层与 MAC 层各自负责什么}
+
+IEEE 802.11 主要规定物理层（Physical Layer，PHY）与介质访问控制层（Medium Access Control，MAC）。物理层负责调制、无线发射、接收与解调；MAC 层则组织帧、决定何时允许发送，并在本章讨论的单播机制中检查接收结果和实施确认。逻辑链路控制层（Logical Link Control，LLC）以及更高的网络层、传输层和应用层，不应全部归入 Wi-Fi 标准本身。
+
+以手机上传照片为例，应用产生的数据经过上层处理后到达 MAC 层。此时有数据可发，并不意味着天线立即发射。MAC 必须先取得一次使用共享介质的机会，才将帧交给物理层。接收端从无线信号恢复比特，再由 MAC 检查帧是否正确；正确的数据向上交付，适用时还要生成确认帧，经本机物理层发回发送端。这一往返过程把前面学过的调制、差错检测与停止等待连接起来。
+
+家用设备常把接入点和路由器装在同一个盒子里，但两者是不同的逻辑功能。接入点（Access Point，AP）提供无线接入；路由器负责网络层的分组转发。手机与 AP 之间的一跳采用 Wi-Fi，并不表示从 AP 到互联网服务器的整条路径都采用 Wi-Fi。数据进入后方网络后，可以经有线链路和多台路由器继续前进。
+
+\subsubsection{BSS、IBSS 与 ESS}
+
+站点（Station，STA）是参与 802.11 通信的设备。基本服务集（Basic Service Set，BSS）表示采用同一协调机制共享无线介质的一组站点；基本服务区（Basic Service Area，BSA）则强调其无线覆盖的空间范围。集合与覆盖区域相关，但不是同一个概念。
+
+在基础设施模式（Infrastructure Mode）下，AP 是 BSS 的中心接入节点。在本课程采用的基本模型中，站点的数据通过 AP 转发；即便两个终端能够听到彼此的无线信号，也不因此直接交换普通用户数据。\textbf{能听到一个节点、与它关联、把它作为当前帧的接收方，是三个不同的关系。}这一区分将在理解旁听、隐藏终端与 NAV 时反复用到。
+
+独立基本服务集（Independent BSS，IBSS）对应不依赖 AP 的自组织模式（Ad Hoc Mode）。站点直接通信，适用于临时组网或缺少固定设施的环境。这里的独立 BSS 并不自动等于具备完整多跳路由能力的网络；直接无线接入与多跳路径组织仍是不同问题。
+
+多个基础设施 BSS 可以通过分布系统（Distribution System，DS）互联，形成扩展服务集（Extended Service Set，ESS）。校园里分散的 AP 因此可以共同提供较大的服务范围。DS 是连接 BSS 的逻辑系统，不必把它限定成某一种特定电缆。用户从一个 BSS 移动到另一个 BSS 时，需要改变关联关系；后方系统也必须能够把后续数据送到新的接入位置。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm, every node/.style={font=\small},>=stealth]
+\draw[dashed,rounded corners] (-0.8,-0.7) rectangle (4.1,2.1);
+\draw[dashed,rounded corners] (5.4,-0.7) rectangle (10.3,2.1);
+\node at (1.6,1.8) {BSS 1}; \node at (7.8,1.8) {BSS 2};
+\node[draw,rounded corners] (s1) at (0,0.7) {STA A};
+\node[draw,rounded corners] (s2) at (0,-0.1) {STA B};
+\node[draw,fill=blue!10] (a1) at (3,0.3) {AP 1};
+\node[draw,fill=blue!10] (a2) at (6.5,0.3) {AP 2};
+\node[draw,rounded corners] (s3) at (9.2,0.7) {STA C};
+\node[draw,rounded corners] (s4) at (9.2,-0.1) {STA D};
+\draw[<->] (s1)--(a1); \draw[<->] (s2)--(a1);
+\draw[<->] (a2)--(s3); \draw[<->] (a2)--(s4);
+\draw[<->,thick] (a1)--node[above]{DS}(a2);
+\node at (4.75,-1.2) {多个 BSS 经 DS 互联，构成 ESS};
+\end{tikzpicture}
+\caption{基础设施网络的逻辑结构。连线表示通信或互联关系，并不表示所有无线节点都能彼此侦听。}
+\label{fig:wifi-ess}
+\end{figure}
+
+\subsection{加入网络：发现、认证与关联}
+
+服务集标识符（Service Set Identifier，SSID）是用户通常看到的网络名称；基本服务集标识符（BSS Identifier，BSSID）标识具体的 BSS。在常见基础设施网络中，BSSID通常与对应 AP 无线接口的 MAC 标识相关。同一网络名称可以由多个 BSS 提供，因此手机列表里的一个名称不必只对应一台 AP。这两个标识用于区分“想加入哪张网络”和“当前选择哪个接入实例”。
+
+站点使用一个 BSS 前，必须先知道它在哪里、使用哪个信道，并完成相应的加入过程。课程将这一过程分成扫描、认证和关联三步。这个划分说明的是功能次序；实际安全接入中，认证与密钥建立的细节会随所采用的安全机制而不同，不能把所有认证都简化成同一种用户名和密码交换。
+
+\subsubsection{扫描为何需要逐信道进行}
+
+同一 BSS 的基本通信发生在选定的无线信道上。尚未加入的站点不知道附近 AP 使用哪些信道，因此必须收集候选网络的信息。被动扫描（Passive Scanning）让站点依次驻留在各信道，等待 AP 周期发送的信标帧（Beacon）。信标是管理帧，用来宣告网络的存在、传递参数，并提供时间同步参考。接收信标时，站点还可以测量信号质量，形成候选 AP 列表。
+
+主动扫描（Active Scanning）由站点发送探测请求（Probe Request），再收集探测响应（Probe Response）。它不必总等待下一次周期信标，因此可以缩短发现过程，但会引入额外报文。站点记住经常使用的网络，并优先探测这些网络，是减少重复发现开销的一种思路。不过，若探测请求显式携带常用网络标识，旁听者可能推断设备曾经连接哪些网络。这里的教学重点是：加快发现与减少信息泄露之间存在取舍，不能只评价接入速度。
+
+\subsubsection{关联把“发现 AP”变成“由该 AP 服务”}
+
+认证（Authentication）用于建立相应的身份或接入资格关系；关联（Association）则让站点与 AP 建立服务关系。关联请求和关联响应交换设备能力、支持速率等信息。对于移动站点，重关联（Reassociation）还涉及新的服务位置以及原有连接的信息。
+
+BSS 的基本速率集合（Basic Rate Set）表示参与该网络所需支持的一组速率要求。它不等价于“所有数据帧都只能使用一个固定的最低速率”。数据帧可以依据链路条件采用不同的可用速率；控制和管理帧则必须满足相应的可解码性与速率选择规则。理解这一点，可以避免把广播覆盖要求、关联能力检查和单播速率自适应混成一件事。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[every node/.style={font=\small},>=stealth]
+\node[draw,rounded corners,text width=2.4cm,align=center] (a) at (0,0) {扫描\\发现信道与 AP};
+\node[draw,rounded corners,text width=2.4cm,align=center] (b) at (3.8,0) {认证\\建立接入资格};
+\node[draw,rounded corners,text width=2.4cm,align=center] (c) at (7.6,0) {关联\\交换能力与参数};
+\node[draw,rounded corners,text width=2.4cm,align=center] (d) at (7.6,-1.8) {数据通信\\每次发送仍需接入};
+\draw[->] (a)--(b); \draw[->] (b)--(c); \draw[->] (c)--(d);
+\end{tikzpicture}
+\caption{加入网络与使用信道是两个层次。关联成功不会使站点永久获得无线信道的独占权。}
+\end{figure}
+
+\subsection{物理层回顾：频率资源与可用速率}
+
+\subsubsection{频段、信道与相邻网络的干扰}
+
+频段（Frequency Band）是一整段可用频率范围，信道（Channel）是其中用于一次无线通信的一部分资源。Wi-Fi 从早期主要使用 2.4 GHz，逐步扩展到 5 GHz 和 6 GHz，使部署者能够在更多可用频率资源之间选择。这里的 GHz 表示载波所在的频率数量级，不是“每秒能发送多少吉比特”。频率、带宽与数据速率相关，却是不同物理量。
+
+课程用免许可频谱（Unlicensed Spectrum）解释 Wi-Fi 的易部署性：使用者通常无需像蜂窝运营商那样取得一块专属频谱许可，但仍须遵守所在地区的频段、功率及设备要求。免许可并不意味着频谱完全没有管理，也不意味着同频设备互不干扰。
+
+以传统 2.4 GHz 信道规划为例，相邻信道中心可以相隔 5 MHz，而早期 DSSS 信号的名义信道宽度约为 22 MHz。中心间隔小于信道宽度，所以“信道编号不同”不等于频谱不重叠。课堂采用 1、6、11 作为常见的三个互不重叠信道配置：它们的中心间隔为 25 MHz，可以把相邻小区分开安排。这里的“三个”指常见规划下可并列部署的不重叠信道数，不能误写为整个 2.4 GHz 频段总共只有三个合法编号。具体可用编号及配置受地区与物理层方式影响。
+
+如果相邻 AP 全部使用同一信道，它们的站点可能需要共享介质，或者在互相听不到时产生干扰。给相邻 BSS 安排不同且充分分离的信道，可以减少这种相互影响。课堂的不同教室类比在这里尤其合适：同一教室里要协调发言，分到隔音良好的不同教室后，可以同时开展不同对话。但空间部署扩大后仍需复用信道，不能认为多增加几个 AP 就自动按比例增加容量。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm,every node/.style={font=\small},>=stealth]
+\draw[->](0,0)--(12,0)node[right]{频率};
+\draw[fill=blue!15](.7,.2)rectangle(3.7,.9);
+\draw[fill=orange!20](1.35,1.1)rectangle(4.35,1.8);
+\node at(2.2,.55){信道 1};\node at(2.85,1.45){相邻编号信道};
+\draw[fill=green!15](4.2,.2)rectangle(7.2,.9);\node at(5.7,.55){信道 6};
+\draw[fill=blue!15](7.7,.2)rectangle(10.7,.9);\node at(9.2,.55){信道 11};
+\draw[dashed](1.35,0)--(1.35,1.9);\draw[dashed](3.7,0)--(3.7,1.9);
+\node[align=center]at(6,-.8){相邻编号的频谱可能大量重叠；\\1、6、11 说明常见的分离配置，并非精确频谱形状};
+\end{tikzpicture}
+\caption{信道中心间隔与信道占用宽度的区别。矩形表示概念上的占用区间，不表示真实发射谱为理想矩形。}
+\end{figure}
+
+\subsubsection{速率自适应：在速度与可靠性之间选择}
+
+即使不改变所用信道，一个站点仍可以采用不同的 PHY 速率。较高阶的调制让每个符号携带更多比特，但接收端必须更精细地区分可能的信号状态，因此通常要求更好的信噪比。信道较差时，较稳健的调制与编码可以牺牲速率、提高正确接收的机会。
+
+以 802.11b 为例，课程列出的可用速率包括 1、2、5.5 和 11 Mb/s。最大 11 Mb/s 只表示设备在适用条件下支持的最高 PHY 速率，不承诺任意距离和位置都能达到这个值。终端远离 AP、穿过墙体或遇到干扰时，可能选择较低速率；靠近 AP 且链路质量良好时，可能选择较高速率。距离是影响传播的一个因素，并不是通过距离便能唯一查出速率的刻度尺。课堂的室内外距离图用于说明趋势，不是所有建筑和设备共同遵守的覆盖承诺。
+
+速率自适应（Rate Adaptation）把这一取舍变成运行时决策。课程介绍两种反馈思路。第一种利用接收端对信噪比（Signal-to-Noise Ratio，SNR）的估计；发送端据此选择更高效或更稳健的速率。第二种利用近期发送的成功与失败历史：成功较稳定时试探更高速率，连续失败时退回较稳健的选择。后一种方法可以利用 ACK 记录，但仍面临“失败来自碰撞还是传播”的歧义。
+
+标准规定可使用的物理层模式，并不等于给每一家设备规定同一个完整的自适应算法。不同实现可以选择不同的观察窗口、试探策略和回退规则。评价算法时不能只看名义速率，还要看成功率和重传时间：更高的发送速率若带来很多失败，最终交付数据可能反而更慢。
+
+\subsubsection{OFDM：在一个信道内并行传输}
+
+正交频分复用（Orthogonal Frequency Division Multiplexing，OFDM）把一个较宽频率信道分成多条窄子载波（Subcarrier），在同一时间并行传输多个符号。这里先区分两个层次：前一小节的“信道 1、6、11”用于不同网络的频率安排；OFDM 子载波则是在一个所选信道内部组织信号。不能把每条子载波直接当成一台 AP 独占的独立 WLAN 信道。
+
+课堂以具有中心峰和旁瓣的频谱形状解释子载波：不同子载波的频谱可以在频率轴上重叠，但按合适的间隔安排时，理想情况下它们在接收处理所用的观察区间上彼此正交。直观地说，某条子载波被提取时，其他子载波不形成同样的干扰分量。因此，正交并不等于所有信号的频谱完全不接触。
+
+发送端把待发数据分配到多个并行分支，分别调制后组合成一个发送信号；接收端对整体信号进行对应处理，恢复各分支的信息，再组合成数据流。若第 $k$ 条有效数据子载波提供的净贡献速率为 $r_k$，共有 $N_d$ 条数据子载波，则并行部分的理想总贡献为
+\begin{equation}
+R_{\mathrm{parallel}}=\sum_{k=1}^{N_d}r_k.
+\label{eq:ofdm-intuition}
+\end{equation}
+这里 $R_{\mathrm{parallel}}$ 为各数据分支贡献之和，$N_d$ 不包括不承载用户数据的保护或导频位置，$r_k$ 是在一致时间口径下定义的分支贡献。此式仅将课堂的“并行提高总速率”思想形式化，不是用总带宽直接计算标准峰值的完整公式；物理保护时间、编码、导频与 MAC 开销仍需另外正确计入。
+
+课程在这一阶段只要求理解并行传输的基本思路，并未要求从傅里叶分析推导 OFDM 实现。其重点是看懂提高速率的路线：除了让每个符号承载更多比特，也可以同时利用更多合适的信号分支。
+
+\subsubsection{MIMO：进一步利用空间维度}
+
+多输入多输出（Multiple Input Multiple Output，MIMO）在发送端和接收端使用多根天线，使通信不仅能够利用时间和频率，也能够利用空间传播结构。课程以多对天线承载多路数据流说明空间复用（Spatial Multiplexing）：在接收端能够区分各路空间信号的条件下，多条数据流可以同时经过同一频率资源。
+
+多天线本身不保证数据速率按天线数成倍增加。接收端必须有足够的观测能力，传播路径也必须提供可区分的空间信息；若多个通道高度相似，就不一定能可靠分离所有流。把几根天线简单贴在一起，也不能自动得到几条独立的信道。课堂提及天线间距，正是为说明空间结构的重要性；后续 Wi-Fi 增强章节再展开实际可支持的流数及信道条件。
+
+OFDM 与 MIMO 可以组合：OFDM 在频率分支上组织并行信号，MIMO 在空间分支上增加可用的数据流。两者也都不意味着本站可以在同一信道上边发边收。多条同时发送的数据流，与半双工／全双工讨论的发送和接收方向，是不同维度的问题。
+
+从标准演进看，802.11b、802.11a 与 802.11g 展示了早期多速率与 OFDM 路线，802.11n 把多天线等增强带入更高速 WLAN，后续版本继续增加频宽、空间与多用户能力。标准字母名与 Wi-Fi 代际名提供检索线索，但本课程更重要的主线是机制如何增加容量，以及为何更快的 PHY 仍无法省去 MAC 协调。下面转向所有这些增强都绕不开的共享接入问题。
+
+
+\subsection{为何需要介质访问控制}
+
+无线信号会传播到一定范围内的多个接收机。若两个发射同时到达同一接收端，另一个信号通常成为干扰，可能使有用帧无法解码。课堂以多人同时讲话说明这个问题：每个人单独讲话时都可听清，重叠讲话则会使听者失去可理解的信息。MAC 的任务，就是在多个发送需求之间建立可以执行的协调规则。
+
+需要强调，碰撞（Collision）是围绕接收结果讨论的事件。两台设备都在发射，并不能单凭这一点断定两帧必然失败；还要考虑频率、空间位置、功率与接收条件。本章时序分析采用课程的简化碰撞模型：同一接收端处互相干扰的帧若重叠，就视为不能正确接收。不讨论捕获效应等物理层例外。
+
+\subsubsection{半双工决定了失败信息的取得方式}
+
+课程采用半双工（Half-Duplex）收发模型：同一无线收发链路在某一时刻发送或接收，不能一边发送自己的帧，一边可靠接收其他节点的弱信号来检测碰撞。因此，Wi-Fi 的基本 MAC 使用载波侦听多址接入／碰撞避免（Carrier Sense Multiple Access with Collision Avoidance，CSMA/CA）。
+
+有线以太网历史上的载波侦听多址接入／碰撞检测（CSMA/CD）可用来比较设计思路，但不能移植成“Wi-Fi 发送时发现碰撞就立即停止”。而且 CSMA/CD 也不是现代交换式全双工以太网的工作机制。对这里的 Wi-Fi 单播，发送端依据确认是否到达来判断交换是否成功；没有确认只表示未得到成功证据，并不直接揭示失败原因。
+
+\subsubsection{MAC 可以看成一个带服务台的队列}
+
+高层到达的分组先进入 MAC 队列。先入先出（First In First Out，FIFO）是课程采用的基本服务模型：队头帧获得服务时，需要经历信道接入、数据发送和确认等待；失败时还可能经历重新竞争和重传。服务时间因而不是固定的物理发送时长。
+
+为了明确统计边界，可写成
+\begin{equation}
+D_{\mathrm{MAC}}=W_{\mathrm{q}}+S_{\mathrm{MAC}}.
+\label{eq:mac-delay}
+\end{equation}
+式中，$D_{\mathrm{MAC}}$ 为一个帧从进入 MAC 队列到服务结束的总时间；$W_{\mathrm{q}}$ 为等待前方帧完成的排队时间；$S_{\mathrm{MAC}}$ 为该帧成为服务对象后经历的 MAC 服务时间。这里假设一个串行服务台，并把该帧的接入等待、交换以及必要重试都计入服务时间。此式是时间分解，不能据此认为排队时间与服务时间固定或相互独立。
+
+上行（Uplink）表示站点向 AP 发送，下行（Downlink）表示 AP 向站点发送。AP 在 DCF 中同样要争用无线介质；它不是只接收而不发送的特殊旁观者。若多条下行业务集中在 AP 队列中，还要区分“每个竞争实体的接入机会”与“每条用户业务获得的吞吐量”。
+
+\section{DCF：从侦听到一次受保护的交换}
+\label{ch:dcf-exchange}
+
+\subsection{分布式协调的基本原则}
+
+分布式协调功能（Distributed Coordination Function，DCF）由各站点依据共同规则自行决定接入时机，不依赖 AP 为每个普通数据帧逐次发放发送许可。集中式的点协调功能（Point Coordination Function，PCF）则由协调者组织发送。这两种思路在课程开头同时出现，但本章先完成 DCF，因为理解它才能看清 PCF 为何需要另一套优先级与调度安排。
+
+DCF 的第一条原则是先听再发。物理层通过空闲信道评估（Clear Channel Assessment，CCA）判断介质活动；课程用接收能量与门限比较说明其直观含义。实际 CCA 还可以利用可识别信号的信息，因此“能量检测”应理解为教学模型，而不是所有实现的唯一判据。
+
+单次观察为空闲仍然不够。一方面，其他节点可能恰好也作出相同决定；另一方面，空闲可能只是一个正在进行的交换中两个帧之间的短暂停顿。于是需要等待间隔、确认优先权、虚拟侦听和随机退避。下面先暂时固定“当前站点已经具备接入资格”，把一次数据交换的内部结构讲清楚，再补足资格如何获得。
+
+\subsection{时隙与帧间间隔构成时间规则}
+
+时隙（Slot Time）是随机退避计数的基本单位，记为 $\sigma$。它与载波侦听、传播以及收发切换等时间要求有关，具体数值取决于所用物理层。这里的离散时隙不是为每个用户永久分配的独占时段，也不能把一帧数据的长度限制成一个时隙。
+
+帧间间隔（Interframe Space，IFS）是一类有规定用途的等待时间。最短帧间间隔（Short IFS，SIFS）用于已开始交换中的即时响应；DCF 帧间间隔（DCF IFS，DIFS）用于普通分布式竞争；PCF 帧间间隔（PCF IFS，PIFS）处在二者之间，使集中式协调能够先于普通 DCF 竞争取得介质。基本关系为
+\begin{align}
+T_{\mathrm{PIFS}}&=T_{\mathrm{SIFS}}+\sigma,\\
+T_{\mathrm{DIFS}}&=T_{\mathrm{SIFS}}+2\sigma.
+\label{eq:ifs-relations}
+\end{align}
+这里 $T_{\mathrm{SIFS}}$、$T_{\mathrm{PIFS}}$ 和 $T_{\mathrm{DIFS}}$ 分别表示三种间隔的持续时间，$\sigma>0$ 为当前物理层的时隙长度。因而 $T_{\mathrm{SIFS}}<T_{\mathrm{PIFS}}<T_{\mathrm{DIFS}}$。这些关系说明优先权来自等待时间差，而不是某个节点可以随时打断已经开始的传输。
+
+例如，数据帧结束后，正确接收它的节点只需等待 SIFS 就发送确认。其他准备发送普通数据的站点必须等待 DIFS；在它们等够之前，确认已开始，使它们重新看到信道忙。短间隔因此保护了现有交换的连续性。优先级属于特定帧和特定协议阶段，不能理解为同一台设备所有帧永远拥有相同优先权。
+
+\subsection{单播的 DATA--ACK 交换}
+
+单播（Unicast）面向一个接收方。发送端发出一个 MAC 协议数据单元（MAC Protocol Data Unit，MPDU），接收端检查循环冗余校验（Cyclic Redundancy Check，CRC）后，仅在正确接收时返回确认（Acknowledgment，ACK）。ACK 的等待间隔是 SIFS，它不重新参加一次普通数据竞争。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.95cm,y=0.95cm,every node/.style={font=\small},>=stealth]
+\node[anchor=east] at (0,1.5) {发送端};
+\node[anchor=east] at (0,0) {接收端};
+\node[anchor=east] at (0,-1.5) {旁听站点};
+\foreach \y in {1.5,0,-1.5}{\draw[->] (0,\y)--(11.6,\y);}
+\draw[fill=gray!15] (0.4,1.25) rectangle (2,1.75);\node at (1.2,1.5){DIFS};
+\draw[fill=blue!15] (2,1.25) rectangle (6.5,1.75);\node at (4.25,1.5){DATA};
+\draw[dashed] (6.5,1.1)--(6.5,-1.7);
+\draw[<->] (6.5,0.6)--node[above]{SIFS}(7.8,0.6);
+\draw[fill=green!20] (7.8,-0.25) rectangle (9.5,0.25);\node at (8.65,0){ACK};
+\draw[dashed] (9.5,0.35)--(9.5,-1.7);
+\draw[fill=orange!15] (3,-1.75) rectangle (9.5,-1.25);
+\node at (6.25,-1.5){根据首部预留到 ACK 结束};
+\node[align=center] at (5.4,2.35){发送端已满足本次接入条件\\此处先省略随机退避};
+\end{tikzpicture}
+\caption{基本单播交换。忽略传播时延，矩形仅表达先后关系，不按真实时长比例绘制。}
+\label{fig:data-ack}
+\end{figure}
+
+发送端在规定的等待窗口内没有收到预期 ACK，就不能把本次交换记为成功。可能是数据帧碰撞，也可能是数据帧受噪声破坏，还可能是数据已经到达而 ACK 丢失。停止等待自动重传请求（Stop-and-Wait ARQ）要求发送端在相应重试限制内重新尝试；但重新尝试必须重新取得信道，不能在超时瞬间直接重发。
+
+课堂将发送完成后用于等待 ACK 的失败等待时间记为 $T_F$。这一符号用于描述发送端的超时判断。$T_F$ 的设置必须覆盖预期响应的时间要求，具体实现还涉及物理层参数；它不是一个任意的 DIFS，也不是后面讨论的 EIFS。\textbf{“发送端等自己的 ACK”与“旁听者为了保护别人的 ACK 而推迟接入”是不同的状态。}
+
+\subsection{物理侦听之外，还要有虚拟侦听}
+
+\subsubsection{Duration 与 NAV 保护的是一段交换}
+
+先区分 MAC 的三类帧：数据帧承载要传输的用户数据；控制帧帮助组织交换，例如 ACK、RTS 与 CTS；管理帧建立和维护网络关系，例如信标、探测与关联报文。三类帧都要经过物理层发射，但它们承担的功能、是否向上交付以及所适用的响应规则并不相同。不能把“控制信息”理解成无需占用无线时间。
+
+无线信道在 DATA 和 ACK 之间的 SIFS 内可能没有信号，但这不代表一个全新的竞争周期已经开始。帧首部中的持续时间字段（Duration）告知能够正确读取它的邻居：当前交换还需要占用介质多久。邻居据此维护网络分配向量（Network Allocation Vector，NAV），在预留结束前按介质仍忙处理。这称为虚拟载波侦听（Virtual Carrier Sensing）。
+
+NAV 可以理解为一个随时间递减的逻辑计时器。它不是站点的退避计数器：NAV 表示需要尊重的预约时间，退避计数器表示本站尚未消耗完的竞争等待。NAV 会随真实时间流逝而走向零；退避计数器却只能在合格的空闲时隙中递减。
+
+对一个没有后续分片的基本 DATA--ACK 交换，若以 DATA 接收结束时刻作为参考点，后续预留时间是
+\begin{equation}
+D_{\mathrm{DATA}}=T_{\mathrm{SIFS}}+T_{\mathrm{ACK}}.
+\label{eq:duration-data}
+\end{equation}
+式中，$D_{\mathrm{DATA}}$ 表示 DATA 结束之后需要保护的剩余交换时长，$T_{\mathrm{ACK}}$ 是 ACK 的完整空中发送时间，包含其物理层开销。假定传播时间在图解中忽略，且本次交换在 ACK 后结束。若从 DATA 开始或从首部被读取的时刻画整段保护区，还必须把尚未结束的 DATA 部分计入。\textbf{不能把“从哪个时刻画 NAV”与“Duration 字段表示的剩余时间”混用。}
+
+\subsubsection{两种侦听必须同时允许}
+
+DCF 将物理与虚拟侦听共同作为判断依据。可用逻辑关系表示为
+\begin{equation}
+\text{可认为介质空闲}
+\quad\Longleftrightarrow\quad
+\text{物理侦听空闲}\ \land\ \mathrm{NAV}=0.
+\label{eq:two-sensing}
+\end{equation}
+式中，$\land$ 表示逻辑“并且”；$\mathrm{NAV}=0$ 表示本地预留计时已结束。该式只是介质空闲的判据，不等于已经满足全部发送条件：站点还须完成适用的 IFS 和退避要求。
+
+物理空闲而 NAV 为正并不矛盾。例如，某个旁听站点听不到接收端的 ACK，或者当前处于帧间间隔，它的物理层都可能看不到信号，但仍应尊重已经了解到的交换。在 DATA 失败、接收端不发 ACK 时，已经设置 NAV 的邻居也不会凭自己的猜测立即取消预留。局部观察必须服从既有的预约信息。
+
+\subsection{隐藏终端：局部空闲不代表接收端安全}
+
+隐藏终端（Hidden Terminal）问题说明物理侦听的空间局限。设 A 与 B 都能和 AP 通信，但 A 与 B 互相听不到。A 先发送给 AP，B 随后拿到一个待发帧。B 的本地侦听可能持续为空闲，于是也向 AP 发送；两帧在 AP 处重叠。在本章的碰撞模型下，AP 无法正确接收，自然也不能给出成功确认。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[every node/.style={font=\small},>=stealth]
+\node[draw,circle,minimum size=0.85cm,fill=blue!10] (a) at (0,0) {A};
+\node[draw,rectangle,minimum size=1cm,fill=green!15] (ap) at (4,0) {AP};
+\node[draw,circle,minimum size=0.85cm,fill=blue!10] (b) at (8,0) {B};
+\draw[<->,thick] (a)--node[above]{可通信}(ap);
+\draw[<->,thick] (ap)--node[above]{可通信}(b);
+\draw[dashed] (a) to[bend right=25] node[below]{A 与 B 不能相互侦听} (b);
+\node[align=center] at (4,-2){A 发送时，B 可能误判本地信道为空闲；\\真正需要保护的是 AP 的接收过程};
+\end{tikzpicture}
+\caption{隐藏终端的最小场景。无线可听关系与接收端的干扰关系必须分别分析。}
+\end{figure}
+
+问题不在于 B 故意违反规则，而在于 B 没有取得足够的信息。即使它认真等待 DIFS，也可能始终听不到 A。因此，单纯增加一个很短的固定侦听间隔，无法解决所有隐藏终端问题。需要让接收端也发出可被其邻居听到的预留信息。
+
+\subsection{RTS/CTS：由收发双方共同宣布预留}
+
+\subsubsection{四帧交换的完整次序}
+
+请求发送（Request To Send，RTS）与允许发送（Clear To Send，CTS）构成数据传输前的短握手。发送端先按普通竞争规则获得机会，发 RTS；预期接收端收到 RTS 后等待 SIFS，发 CTS；发送端正确收到 CTS 后等待 SIFS，发 DATA；接收端正确收到 DATA 后等待 SIFS，发 ACK。因此完整顺序是
+\begin{center}
+RTS $\rightarrow$ SIFS $\rightarrow$ CTS $\rightarrow$ SIFS $\rightarrow$ DATA $\rightarrow$ SIFS $\rightarrow$ ACK。
+\end{center}
+DIFS 和必要的退避发生在 RTS 之前，不应机械插到每两个帧之间。CTS、DATA 和 ACK 都属于已经发起并被预留保护的交换。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.91cm,y=0.9cm,every node/.style={font=\small},>=stealth]
+\node[anchor=east] at (0,2){发送端};\node[anchor=east] at (0,0.8){接收端};
+\node[anchor=east] at (0,-0.5){听到 RTS};\node[anchor=east] at (0,-1.7){仅听到 CTS};
+\foreach \y in {2,0.8,-0.5,-1.7}{\draw[->](0,\y)--(12.7,\y);}
+\draw[fill=blue!15] (0.8,1.75) rectangle (2.3,2.25);\node at (1.55,2){RTS};
+\draw[fill=green!20] (3.2,0.55) rectangle (4.5,1.05);\node at (3.85,0.8){CTS};
+\draw[fill=blue!15] (5.4,1.75) rectangle (9.3,2.25);\node at (7.35,2){DATA};
+\draw[fill=green!20] (10.2,0.55) rectangle (11.5,1.05);\node at (10.85,0.8){ACK};
+\foreach \a/\b in {2.3/3.2,4.5/5.4,9.3/10.2}{\draw[<->] (\a,2.65)--(\b,2.65);\node[font=\scriptsize,above] at ({(\a+\b)/2},2.65){SIFS};}
+\draw[fill=orange!15] (2.3,-0.75) rectangle (11.5,-0.25);\node at (6.9,-0.5){RTS 给出的预留};
+\draw[fill=orange!15] (4.5,-1.95) rectangle (11.5,-1.45);\node at (8,-1.7){CTS 给出的剩余预留};
+\node[align=center] at (6,-2.65){两类邻居获知预留的时刻不同，但都保护到同一交换终点};
+\end{tikzpicture}
+\caption{RTS/CTS 的作用不仅是取得接收端许可，更是把预约信息传播到收发双方的邻域。图中省略初始 DIFS 与退避，并忽略传播时延。}
+\label{fig:rts-cts-nav}
+\end{figure}
+
+以各帧结束时刻为参考，且忽略传播时延，剩余时长可写为
+\begin{align}
+D_{\mathrm{RTS}}&=3T_{\mathrm{SIFS}}+T_{\mathrm{CTS}}+T_{\mathrm{DATA}}+T_{\mathrm{ACK}},\\
+D_{\mathrm{CTS}}&=2T_{\mathrm{SIFS}}+T_{\mathrm{DATA}}+T_{\mathrm{ACK}},\\
+D_{\mathrm{DATA}}&=T_{\mathrm{SIFS}}+T_{\mathrm{ACK}}.
+\label{eq:rts-durations}
+\end{align}
+其中 $D_{\mathrm{RTS}}$、$D_{\mathrm{CTS}}$、$D_{\mathrm{DATA}}$ 分别表示对应帧结束后的剩余预留时间；$T_{\mathrm{RTS}}$ 等带帧名的 $T$ 表示该帧的完整发送时长。$T_{\mathrm{RTS}}$ 没有出现在第一式右侧，正因为参考点已经是 RTS 结束。上式适用于这里的一次 RTS--CTS--DATA--ACK 交换，不是所有分片或聚合场景的通用 Duration 公式。
+
+\subsubsection{分别站在每个旁听者的位置分析}
+
+听到 RTS 的邻居知道发送端准备占用信道，于是设置 NAV。听不到 RTS、却能听到 CTS 的隐藏邻居，也能从 CTS 获知接收端接下来要接收数据，因而保持静默。两个帧都听到的节点则依据后续合法预留信息维护 NAV。分析时应先画出谁能听到谁，再逐条标明哪个帧触发了哪个节点的预留，不能把所有“其他节点”都画成同一时刻开始倒计时。
+
+课程还使用相邻同频 AP 的例子。AP 1 向某个终端发送时，AP 2 虽然属于另一个 BSS，但若能正确听到相关控制帧，也可能需要推迟发送。网络的管理归属不会使电磁干扰自动消失。相反，一个已关联于 AP 1 的终端，也不一定听得到 AP 1 覆盖区里的每个其他终端。
+
+\subsubsection{预留减少风险，但没有消灭碰撞}
+
+RTS 本身仍通过竞争发送，多个 RTS 可以碰撞。邻居还可能由于信道差错漏收 CTS；若没有得到预留信息，它仍可能在后续 DATA 期间发射。因此，RTS/CTS 是降低隐藏终端风险与减少长帧碰撞损失的工具，不是“有了握手就绝不会碰撞”的保证。
+
+如果发送端没有收到 CTS，它不能认定数据发送已经获准，应在相应超时后重新竞争。没有 CTS 也不能唯一归因于接收端不在线：RTS 丢失、CTS 丢失或碰撞都可能导致同一表象。
+
+握手的代价是额外的控制帧及两段额外 SIFS。设忽略竞争变化、传播与差错，比较同一 DATA--ACK 交换是否增加握手，则额外时间为
+\begin{equation}
+\Delta T=T_{\mathrm{RTS}}+T_{\mathrm{CTS}}+2T_{\mathrm{SIFS}}.
+\label{eq:rts-overhead}
+\end{equation}
+$\Delta T$ 表示纯粹由 RTS/CTS 引入的交换时间增量；三个 $T$ 分别是 RTS、CTS 发送时长与 SIFS 时长。这只是成功交换的增量，未计入握手减少重传所节省的时间，因此不能仅凭它断言握手降低总体性能。小载荷时额外开销占比大，长载荷发生碰撞时浪费更大，这解释了为何可依据 RTS 门限（RTS Threshold）决定是否启用握手。门限是取舍参数，并非在任何拓扑、负载和误码条件下都最优的固定常数。
+
+\section{随机退避、竞争公平性与协议效率}
+\label{ch:backoff-fairness}
+
+\subsection{共同等待结束，并不等于可以共同发送}
+
+设 A 正在与 AP 交换数据，B 和 C 都已有待发帧。B、C 观察到同一忙期结束，继而同时等待相同的 DIFS。如果等待完就直接发送，两者会再次同时占用介质。在这个简化场景里，固定等待把两个发送者同步到了同一个时刻，反而不能把它们分开。
+
+随机退避（Random Backoff）在共同的等待规则之后加入独立的随机计数。各站点不再全部选择同一个接入时刻，从而以概率方式打破同步。碰撞避免的“避免”应理解为降低风险，并非保证每次只有一个节点发送。
+
+\subsection{退避抽样与计数：时间只在空闲时前进}
+
+\subsubsection{从竞争窗口抽取整数}
+
+竞争窗口（Contention Window，CW）给出随机整数的上界。若当前窗口为 $CW$，站点抽取
+\begin{equation}
+K\sim\operatorname{Uniform}\{0,1,\ldots,CW\},\qquad B=K\sigma.
+\label{eq:backoff-draw}
+\end{equation}
+式中，$K$ 是以时隙为单位的退避计数初值；$CW$ 是非负整数上界；$\sigma$ 是一个时隙的时长；$B$ 是需要累计消耗的空闲退避时间。离散均匀分布表示每个整数以相同概率被选择。因为零也在范围内，一共有 $CW+1$ 个选择，而不是 $CW$ 个。
+
+$B$ 不是一个从抽样时刻开始连续运行、到点必发的墙钟定时器。若中途信道变忙，倒计数会冻结；实际经过的日历时间可能远大于 $B$。把计数器画成在他人传输期间仍然递减，是理解 DCF 时最常见的错误之一。
+
+\subsubsection{冻结保留进度，恢复须重新等待 DIFS}
+
+执行退避时，站点先等介质连续空闲 DIFS，然后才开始消耗空闲时隙。每完整经过一个合格的空闲时隙，$K$ 减一；若信道变忙，保留当前剩余值。忙期结束后还须再次连续空闲 DIFS，才能继续递减。\textbf{冻结不是抽取新的随机数，也不是把计数器重置为最初的值。}
+
+例如抽到 $K=3$，第一个时隙空闲后剩余为 2；第二个时隙尚未完整结束就出现他人的传输，因此这个未完成的空闲时隙不应被扣除。整个忙期内剩余值仍为 2。再次等够 DIFS，再消耗两个完整空闲时隙，计数器归零，站点才获得本次发送机会。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.9cm,y=1cm,every node/.style={font=\small},>=stealth]
+\draw[->](0,0)--(13,0);
+\draw[fill=gray!15](0,0)rectangle(1.7,0.65);\node at(.85,.325){DIFS};
+\draw[fill=blue!15](1.7,0)rectangle(2.7,.65);\node at(2.2,.325){1 槽};
+\draw[fill=orange!20](2.7,0)rectangle(6.8,.65);\node at(4.75,.325){介质忙：冻结};
+\draw[fill=gray!15](6.8,0)rectangle(8.5,.65);\node at(7.65,.325){DIFS};
+\draw[fill=blue!15](8.5,0)rectangle(9.5,.65);\node at(9,.325){1 槽};
+\draw[fill=blue!15](9.5,0)rectangle(10.5,.65);\node at(10,.325){1 槽};
+\draw[fill=green!20](10.5,0)rectangle(12.5,.65);\node at(11.5,.325){发送};
+\node at(1.7,-.45){$K=3$};\node at(2.7,-.45){$2$};
+\node at(4.75,-.45){始终为 $2$};\node at(8.5,-.45){$2$};
+\node at(9.5,-.45){$1$};\node at(10.5,-.45){$0$};
+\node[align=center]at(6.2,1.5){只累计三个完整空闲时隙；\\忙期和恢复前的 DIFS 不消耗计数};
+\end{tikzpicture}
+\caption{退避冻结与恢复的例子。时间轴按逻辑片段示意，并非按标准时长比例绘制。}
+\label{fig:backoff-freeze}
+\end{figure}
+
+\subsubsection{一次竞争的流程}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[every node/.style={font=\small},>=stealth]
+\node[draw,rounded corners,text width=5.2cm,align=center](a)at(0,0){确定当前 CW，抽取初始计数 $K$};
+\node[draw,rounded corners,text width=5.2cm,align=center](b)at(0,-1.2){等待物理及虚拟介质连续空闲 DIFS};
+\node[draw,rounded corners,text width=5.2cm,align=center](c)at(0,-2.4){检查剩余计数：$K=0$？};
+\node[draw,rounded corners,text width=5.2cm,align=center](d)at(0,-3.8){侦听下一个时隙：完整空闲？};
+\node[draw,rounded corners,text width=5.2cm,align=center](e)at(0,-5.2){$K\leftarrow K-1$，继续计数};
+\node[draw,rounded corners,text width=2.2cm,align=center](f)at(4.6,-2.4){发送 DATA\\或先发送 RTS};
+\draw[->](a)--(b);\draw[->](b)--(c);
+\draw[->](c)--node[above]{是}(f);
+\draw[->](c)--node[right]{否}(d);
+\draw[->](d)--node[right]{是}(e);
+\draw[->](e.west)--(-3.3,-5.2)--(-3.3,-2.4)--(c.west);
+\draw[->](d.east)--(3.2,-3.8)--node[right,align=left]{否：冻结\\保留 $K$}(3.2,-1.2)--(b.east);
+\end{tikzpicture}
+\caption{退避核心流程。失败后的窗口更新与成功后的发送后退避，在流程之外决定下一次进入时采用的 CW。}
+\end{figure}
+
+\subsection{三类需要退避的情形}
+
+第一类是\textbf{新帧遇到忙信道}。站点原本没有待发数据，新帧到达时发现介质忙，不能等大家共同的 DIFS 一结束就直接发，而要进入随机退避。
+
+第二类是\textbf{失败后重新竞争}。发送端没有取得预期确认，在超时后需要重试。它必须重新执行退避，而不是仅等待一个固定间隔。对同一帧连续失败，窗口还要按规则扩大。
+
+第三类是\textbf{成功后的发送后退避}。即便已经成功完成一个交换，站点也不能因队列中还有下一帧，就获得不经过随机竞争的连续发送特权。此时以最小窗口开始新的退避周期，下一节将解释其公平性目的。
+
+“空闲一个 DIFS 后直接发送”的简化叙述只适用于没有尚未完成的退避义务、没有相关错误恢复要求的空闲接入情形。例如，站点此前的发送后退避已完成，队列随后才收到新帧，且介质满足空闲条件。它不能用作所有帧的通用接入规则，更不能覆盖已经被要求退避的帧。
+
+\subsection{二进制指数退避：扩大的是选择空间}
+
+最小竞争窗口记为 $CW_{\min}$，最大竞争窗口记为 $CW_{\max}$。为与课堂推导一致，令 $i=1$ 表示为当前帧执行的第一轮退避；后续 $i$ 随该帧失败后需要再次抽样而增加。窗口序列为
+\begin{align}
+CW_1&=CW_{\min},\\
+CW_i&=\min\{2(CW_{i-1}+1)-1,\ CW_{\max}\},\quad i\geq2.
+\label{eq:cw-recursion}
+\end{align}
+式中，$CW_i$ 为第 $i$ 轮退避采用的整数上界；$\min\{\cdot\}$ 表示不得超过最大窗口。该式采用课程的连续重试模型。这里的 $i$ 不应不加说明地称为“空中发送次数”：某帧的首次接入可能处于简化的无需初始退避情形，课堂索引针对的是退避轮次。
+
+在尚未达到上限时，也可用退避指数（Backoff Exponent）$m_i$ 表示：
+\begin{equation}
+CW_i=2^{m_i}-1,\qquad m_i=m_1+i-1.
+\label{eq:backoff-exp}
+\end{equation}
+$m_1$ 为初始指数，$m_i$ 为第 $i$ 轮指数；每轮增加一，使可选整数个数 $CW_i+1=2^{m_i}$ 精确翻倍。\textbf{翻倍的是包含零在内的选择数，并非数值上严格把 CW 乘二。}所以从 31 变成的是 63，而不是 62。
+
+以课程的早期 802.11b 参数为例，$m_1=5$，因而 $CW_{\min}=31$。采用课件给定的 $CW_{\max}=1023$ 与 $\sigma=20\,\mu\mathrm{s}$，得到表\ref{tab:cw-growth}。这些数值是指定物理层示例，不能当作所有 Wi-Fi 版本的统一常数。
+
+\begin{table}[htbp]
+\centering
+\caption{早期 802.11b 示例中的窗口增长与纯退避均值}
+\label{tab:cw-growth}
+\begin{tabular}{cccr}
+\toprule
+退避轮次 $i$ & $CW_i$ & 可选整数个数 & 平均空闲退避时间\\
+\midrule
+1 & 31 & 32 & $310\,\mu\mathrm{s}$\\
+2 & 63 & 64 & $630\,\mu\mathrm{s}$\\
+3 & 127 & 128 & $1270\,\mu\mathrm{s}$\\
+4 & 255 & 256 & $2550\,\mu\mathrm{s}$\\
+5 & 511 & 512 & $5110\,\mu\mathrm{s}$\\
+6 及以后 & 1023 & 1024 & $10230\,\mu\mathrm{s}$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+表中的均值来自离散均匀分布：
+\begin{equation}
+\mathbb{E}[K]=\frac{CW}{2},\qquad
+\mathbb{E}[B]=\frac{CW}{2}\sigma.
+\label{eq:mean-backoff}
+\end{equation}
+$\mathbb{E}[\cdot]$ 为数学期望；$K$、$B$、$CW$、$\sigma$ 的含义与式\eqref{eq:backoff-draw}相同。这里仅统计要消耗的空闲退避时长，不含 DIFS、不含冻结忙期，也不含重传帧本身的发送时间。因此真实平均接入时延一般比该数值更大。
+
+扩大窗口并不保证某一次抽样结果变大。窗口从 31 扩到 63 后，站点仍然可能抽到零；增大的是可选范围和平均值。达到上限后继续失败，也不再无限增加窗口。当前帧处理结束、转向新帧时，从最小窗口重新开始，以免一次历史失败长期惩罚后续业务。
+
+\subsection{两节点碰撞概率的完整推导}
+
+考虑课程中的两个竞争节点 B、C。设它们在同一竞争起点开始倒计数，使用相同窗口 $CW$，独立且均匀抽取初始整数 $K_B$ 与 $K_C$；没有隐藏终端、没有其他竞争者，也不考虑传播造成的额外碰撞窗口。若两者抽到同一整数，就在同一时刻发送，形成该模型中的碰撞；抽到不同整数时，较大的计数会在对方开始发送后冻结。
+
+先固定 B 的抽样值为 $n$。由于 C 的抽样独立，条件概率为
+\begin{equation}
+\Pr(K_C=n\mid K_B=n)=\frac{1}{CW+1},
+\qquad n\in\{0,1,\ldots,CW\}.
+\label{eq:collision-conditional}
+\end{equation}
+$\Pr(\cdot)$ 表示概率，竖线表示已知条件；$n$ 为某个合法的整数退避值。独立性意味着知道 B 抽到了什么，并不会改变 C 各个选择的概率。
+
+再遍历 B 的全部可能取值，使用全概率公式：
+\begin{align}
+p_{\mathrm{col}}
+&=\Pr(K_B=K_C)\\
+&=\sum_{n=0}^{CW}\Pr(K_C=n\mid K_B=n)\Pr(K_B=n)\\
+&=\sum_{n=0}^{CW}\frac{1}{CW+1}\frac{1}{CW+1}
+=\frac{1}{CW+1}.
+\label{eq:two-node-collision}
+\end{align}
+$p_{\mathrm{col}}$ 是这两个节点在本轮抽样和竞争假设下发生同计数碰撞的概率；求和包含 $CW+1$ 项。最后一式说明，$CW=31$ 时概率为 $1/32=3.125\%$，扩大到 63 后变为 $1/64=1.5625\%$。
+
+这个结果回答的是限定模型中的问题，不是一个任意繁忙 Wi-Fi 网络的通用丢包率。多个竞争者、不同重试阶段、不同残余计数、隐藏终端和无线差错都会改变实际行为。尤其不能把 $1/(CW+1)$ 当成任意一个帧的独立成功／失败概率，再直接套入所有吞吐量计算。
+
+推导同时揭示了性能取舍：窗口越大，两个独立节点抽中相同值的概率越低，但平均空闲等待越长。若失败确实来自拥挤，扩大窗口有帮助；若失败主要来自衰落或噪声，扩大窗口并不能改善接收信号质量，反而增加时延。发送端只观察到缺失 ACK，未必能够区分这两类失败，这也是指数退避的局限。
+
+\subsection{发送后退避为何关乎公平}
+
+发送后退避（Post-Backoff）要求成功发送者再次使用 $[0,CW_{\min}]$ 范围参与等待。它不是对“成功”进行处罚，而是防止刚刚成功的站点凭借连续队列获得系统性的抢先机会。
+
+设 A 已完成 DATA--ACK，B 与 C 在 A 发送期间已获得待发数据，正在等候竞争。如果取消 A 的发送后退避，A 队列中的下一帧可能只等待 DIFS 就发出，而 B、C 仍须等待 DIFS 加各自的随机剩余时隙。只要它们剩余计数不为零，A 就能先于它们再次占用信道，迫使它们冻结。若 A 连续有数据，这种优势可以反复出现。
+
+不能以“A 成功时队列恰好为空”为理由免除发送后退避。新帧可能在成功后几微秒到达；若此时便允许它跳过退避，同样会获得相对于其他等待者的优势。所以发送后退避可以在队列空时运行。若新帧到来之前它已完成，且满足介质空闲等条件，才可能落入前述无需额外初始退避的情形。
+
+课堂借移除某个机制的思路说明其必要性：先观察完整协议，再假设删除发送后退避，追踪谁获益、谁的等待不断延长。这种消融式推理比背诵“它用于公平”更有解释力。这里的公平是接入机会层面的目标，不意味着每个节点在任意短时间窗口内发送次数完全相同，也不意味着不同 PHY 速率的业务必然具有相同吞吐量。
+
+\subsection{广播和多播为何不用同样的 ACK 过程}
+
+广播（Broadcast）面向广播范围内的所有接收者；多播（Multicast）面向一个接收者组。若所有成功接收的站点都在同一 SIFS 后立即发 ACK，确认帧会互相干扰。若再设计一套确认调度，又会带来更多状态和开销。
+
+因此，本章讨论的基本广播／多播机制不使用单播式逐帧 ACK，也不依据 ACK 超时进行 MAC 层重传。发送者仍须遵守介质访问规则，遇到忙信道仍须退避；只是发送结束后，没有一个“等待所有接收端确认”的阶段。\textbf{无需 ACK 不等于无需争用，也不等于每个接收者一定收到。}更高层若需要可靠性，仍须采用适当机制；后续标准的扩展不能反向套入这里的基本模型。
+
+\subsection{PHY 速率为何不等于有效吞吐量}
+
+\subsubsection{先固定计算的时间边界}
+
+物理层速率 $R$ 表示实际发送相应比特时的速率。有效吞吐量（Goodput）则把成功交付的有效载荷除以整个观察时间；等待、帧首部、前导码、确认、碰撞与重传都会占用时间。为便于与课堂比较，这里用一个无碰撞、无差错、单链路连续发送的模型，只计算一次成功服务周期。
+
+设有效载荷为 $L$ 字节，MAC 层开销为 $H$ 字节，数据速率为 $R$ 比特每秒，物理前导码与物理头开销为 $T_{\mathrm{PHY}}$，则
+\begin{equation}
+T_{\mathrm{DATA}}=T_{\mathrm{PHY}}+\frac{8(H+L)}{R}.
+\label{eq:data-airtime}
+\end{equation}
+$T_{\mathrm{DATA}}$ 为 DATA 完整发送时间。因 $H$、$L$ 的单位为字节，乘 8 才得到比特；除以 $R$ 得到秒。此式假定被合并进 $H+L$ 的字段都以所列数据速率发送。不能把物理前导码的低速开销重复算入这部分。
+
+一个简化的平均成功周期为
+\begin{equation}
+\overline{T}_{\mathrm{cyc}}=T_{\mathrm{DIFS}}+\mathbb{E}[B]+T_{\mathrm{DATA}}
++T_{\mathrm{SIFS}}+T_{\mathrm{ACK}},\qquad
+G=\frac{8L}{\overline{T}_{\mathrm{cyc}}}.
+\label{eq:goodput-cycle}
+\end{equation}
+$\overline{T}_{\mathrm{cyc}}$ 是平均周期时长，$G$ 是以比特每秒计的有效吞吐量。退避可归在本次发送之前，也可在连续流量的周期记账中归为上一次的发送后退避；只要边界一致，每周期只计一次，不能前后重复加入。此式不包含排队、其他节点导致的冻结或失败重传。
+
+\subsubsection{11 Mb/s 链路的数值例子}
+
+采用课件的 802.11b 长前导码示例：$L=1500$ 字节，$H=34$ 字节，$R=11\,\mathrm{Mb/s}$，$T_{\mathrm{PHY}}=192\,\mu\mathrm{s}$，$T_{\mathrm{SIFS}}=10\,\mu\mathrm{s}$，$T_{\mathrm{DIFS}}=50\,\mu\mathrm{s}$，$\sigma=20\,\mu\mathrm{s}$，$CW_{\min}=31$。这里的 34 字节是该计算所选用的合并 MAC 开销参数，并非宣称所有 MAC 帧的首部长度都是 34 字节。
+
+ACK 采用本例明确指定的 $1\,\mathrm{Mb/s}$ 速率，长度为 14 字节，并计入同样的 $192\,\mu\mathrm{s}$ 物理开销。于是
+\begin{align*}
+T_{\mathrm{DATA}}&=192+\frac{8(1500+34)}{11}
+\approx1307.6\,\mu\mathrm{s},\\
+\mathbb{E}[B]&=\frac{31}{2}\times20=310\,\mu\mathrm{s},\\
+T_{\mathrm{ACK}}&=192+\frac{14\times8}{1}=304\,\mu\mathrm{s},\\
+\overline{T}_{\mathrm{cyc}}&=50+310+1307.6+10+304
+=1981.6\,\mu\mathrm{s},\\
+G&=\frac{12000}{1981.6}\approx6.06\,\mathrm{Mb/s}.
+\end{align*}
+上述代入利用了“比特除以 Mb/s 的数值等于微秒”这一单位换算。$12000$ 是 1500 字节有效载荷对应的比特数；因此约 $6.06\,\mathrm{Mb/s}$ 不是无线芯片的 PHY 速率下降了，而是有用数据只占整个服务周期的一部分。
+
+若定义效率 $\eta=G/R$，其中 $\eta$ 为无量纲的有效吞吐量与数据 PHY 速率之比，则本例 $\eta\approx55\%$。该结果依赖所列参数与理想化假设，不能当作所有 11 Mb/s 设备的实测速率。碰撞、低质量链路和多用户竞争都会进一步改变结果。
+
+对固定开销而言，较长载荷能提高摊销效率；但长帧一旦失败，损失的空中时间也更多。这与 RTS/CTS 的选择形成同一条逻辑：设计不能只追求开销小，也不能只追求保护多，而应比较成功收益与失败代价。
+
+\subsubsection{地址字段反映不同的转发角色}
+
+课堂在讨论开销时还区分了原始源、最终目的、当前无线发送者与当前无线接收者。普通简单链路中，部分角色可以重合；跨分布系统转发时，它们可能不同。802.11 的不同帧格式因此可能需要不同数量的地址字段，特定无线分布转发格式可以使用四地址。
+
+这不意味着 ESS 中的每一个帧都具有四个地址。必须先标明当前这一跳是谁发给谁，再区分原始源与最终目的，最后选择对应格式。地址开销随格式变化，也解释了为何吞吐量例子必须明确自己的 MAC 开销假设。
+
+\subsection{EIFS：错误接收者需要额外的保护时间}
+
+扩展帧间间隔（Extended IFS，EIFS）在本段课程结束时引入，用于处理站点听到了一个帧、但没有正确解码的情况。这样的站点可能不知道首部所载的剩余预留时间，也可能听不到接收端接下来发出的 ACK。如果它仅按通常 DIFS 恢复竞争，便有机会破坏实际上仍在继续的交换。
+
+EIFS 的思路是让错误接收的站点在介质重新空闲后更保守地等待，为潜在的 SIFS 和 ACK 留出时间。为解释这一保护目的，可将其基本时间构成写为
+\begin{equation}
+T_{\mathrm{EIFS}}\approx T_{\mathrm{SIFS}}+T_{\mathrm{ACK,ref}}+T_{\mathrm{DIFS}}.
+\label{eq:eifs-intro}
+\end{equation}
+其中 $T_{\mathrm{EIFS}}$ 为扩展等待时间，$T_{\mathrm{ACK,ref}}$ 为按适用物理层规定的参考 ACK 发送时间计算的保护量，其余符号与前文一致。此式为帮助衔接后续内容而补充的时间构成说明，并非本节录音已经完成的推导；这里不为所有 PHY 指定一个共同数值。具体 ACK 参考速率与计时细节应服从对应规范。也不能把任意数据速率下实测的 ACK 时长直接代入所有场景。
+
+再次对照两种状态：ACK 超时由\textbf{发送端}使用，用于判定自己的单播交换未获确认；EIFS 由\textbf{错误接收了某个帧的站点}使用，用于避免干扰别人的后续交换。它们可能都涉及 ACK 所需时间，却不是同一个定时器。本段课程尚未完整展开 EIFS 的恢复时序，因此这里保留其作用与构成，后续章节再处理具体恢复条件。
+
+\subsection{通向 PCF：从分布式竞争到集中式协调}
+
+DCF 通过侦听、间隔、预留与随机化组织竞争。它能适应终端自行产生的发送需求，但访问时间具有随机性：队列中的帧可能经历不同的退避、冻结与重试。对于希望得到更可控服务的业务，课程由此引出另一条路线，即由一个协调者决定各站点何时发送。
+
+点协调功能 PCF 的基本思想是由 AP 中的点协调者（Point Coordinator，PC）组织无竞争的轮询访问，而不是让每个被服务站点都重新随机争用。因为需要这个中心角色，它依赖基础设施模式。前面介绍的 PIFS 比 DIFS 短，使协调者能够在适用的阶段先于普通 DCF 站点取得介质；它仍然不会抢断已经开始的帧，也不会破坏 SIFS 响应。
+
+截至本部分所覆盖的课堂，详细推导的主体是 DCF，PCF 只提供概念入口。轮询次序、无竞争周期与竞争周期的交替，以及实际时序的异常处理应在后续 PCF 讲解中展开。这里应先带走一条完整因果链：\textbf{无线信道共享引出接入控制，半双工引出确认式失败判断，局部侦听引出 NAV 与握手，共同等待引出随机退避，连续成功又引出发送后退避的公平性要求。}

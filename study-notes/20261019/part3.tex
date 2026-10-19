@@ -1,0 +1,556 @@
+\section{从集中轮询到无线服务质量}
+\label{chap:qos}
+
+传统分布式协调功能（Distributed Coordination Function，DCF）回答的是多个站点如何共享信道，却没有直接回答语音分组应当等待多久、视频业务应当获得多少连续发送时间。一个可靠送达但已经错过播放时刻的语音分组，应用价值可能接近于零；后台文件同步则通常能够容忍等待。因而，服务质量（Quality of Service，QoS）的核心不是让所有分组同样快，而是使接入行为与业务需求相匹配。本章从点协调功能的尝试出发，逐步建立差异化竞争、时间授权和集中调度之间的联系。
+
+\subsection{点协调功能：把随机争用改为逐站授权}
+
+点协调功能（Point Coordination Function，PCF）利用接入点（Access Point，AP）中的集中协调者决定下一次由谁发送。与DCF相比，PCF的变化不在于无线链路突然能够避免接收错误，而在于同一受控区域内的站点不再自行争夺每次发送机会。站点必须先得到轮询（Polling）授权，再使用信道。因此，集中控制可以消除被协调站点之间的竞争碰撞，但不能消除噪声、衰落或外部网络造成的干扰。
+
+\subsubsection{超帧与两类接入的共存}
+
+课堂用超帧（Superframe）描述信标（Beacon）之间的宏观时间结构。在这一教学模型中，一个周期先包含无竞争期（Contention-Free Period，CFP），随后进入竞争期（Contention Period，CP）。前者采用PCF，后者采用DCF。两套接入方式在同一无线信道上按时间分工，而不是分别占用两条频率不同的信道。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.95cm,y=0.8cm,>=stealth,font=\small]
+\draw[->] (0,0)--(13,0) node[right]{时间};
+\draw[fill=gray!35] (0.4,0.2) rectangle (0.8,1);
+\draw[fill=blue!15] (0.8,0.2) rectangle (5.2,1);
+\draw[fill=green!15] (5.2,0.2) rectangle (11.7,1);
+\draw[fill=gray!35] (11.7,0.2) rectangle (12.1,1);
+\node[above] at (0.6,1){信标};
+\node at (3,0.6){CFP：按轮询发送};
+\node at (8.5,0.6){CP：按DCF竞争};
+\node[above] at (11.9,1){下一信标};
+\draw[<->] (0.4,-0.6)--(11.7,-0.6) node[midway,below]{一个示意超帧};
+\node[below] at (5.2,0.1){CF-End};
+\end{tikzpicture}
+\caption{PCF与DCF的时分共存。此图表示机制关系，不把实际信标间隔假定为永远没有延迟的精确周期。}
+\end{figure}
+
+参加PCF的意愿在关联阶段提供给AP，AP据此维护轮询列表。进入CFP后，AP按列表发出无竞争轮询（Contention-Free Poll，CF-Poll）。收到轮询的站点如果有数据，便在规定间隔后发送；如果没有数据，仍需用空帧（Null Frame）表明没有待发送内容，使AP能够继续轮询下一站。无竞争结束帧（Contention-Free End，CF-End）结束这一受控阶段，使普通竞争恢复。
+
+一次轮询不必只携带一个孤立的控制指令。若AP正好有下行数据发给被轮询站点，可以在同一帧中组合下行数据与轮询；对上一帧的确认也可以捎带（Piggyback）在后续适当帧中。这样的组合减少单独控制帧的发送次数。它不是省掉确认语义，而是让一份物理传输同时承担数据、确认或授权等多个逻辑功能。
+
+\subsubsection{短间隔维持授权链，PIFS帮助取得控制权}
+
+短帧间间隔（Short Interframe Space，SIFS）使已经开始的对话能够继续。轮询及被轮询站点的响应构成受控交换，相邻适当帧之间使用短间隔，而不是每次重新执行DCF竞争。站点观察到信道刚刚空闲时，并不能立刻加入，因为既有对话有更短的响应等待时间。
+
+AP开始无竞争服务时需要比普通竞争站点更早取得信道。点协调帧间间隔（PCF Interframe Space，PIFS）正是为此设置。设时隙（Slot）长度为$\sigma$，在本章所用传统时序模型中，
+\begin{equation}
+T_{\mathrm{PIFS}}=T_{\mathrm{SIFS}}+\sigma,
+\qquad
+T_{\mathrm{DIFS}}=T_{\mathrm{SIFS}}+2\sigma.
+\end{equation}
+这里$T_{\mathrm{DIFS}}$是分布式帧间间隔（Distributed Interframe Space，DIFS）。因此，$T_{\mathrm{SIFS}}<T_{\mathrm{PIFS}}<T_{\mathrm{DIFS}}$。这个次序同时保留了两种优先关系：正在进行的响应优先于集中协调者的新接入，集中协调者的新接入又优先于普通DCF竞争。
+
+目标信标发送时间（Target Beacon Transmission Time，TBTT）是计划时刻，不是允许AP打断任意帧的命令。若某站点在TBTT前取得信道，其数据与确认交换可能跨过TBTT。AP必须等正在进行的交换结束，再在符合PIFS规则时发送信标。由此产生的信标延迟会推迟CFP的开始。高优先级接入意味着在下一个合法机会先接入，绝不意味着能够抢占已经在空中传播的帧。
+
+\subsubsection{PCF的三项局限来自三个不同的信息缺口}
+
+第一项局限是静态名单与实时业务状态之间的差距。愿意参与PCF的站点不等于此刻确实有数据的站点。如果AP轮询一个空队列，轮询和空响应仍然占用信道，其他有实际数据的站点只能等待。名单解决了“谁可以参加”，却没有解决“谁现在需要服务”。
+
+第二项局限是信标可能被既有DCF交换推迟。即使AP内部已经安排好轮询顺序，受控服务的起始时刻仍可能变化。设理想服务开始时刻为$t_b$，信标推迟量为$\Delta_b$，则实际起点为$t_b+\Delta_b$。当$\Delta_b$不固定时，后续站点的服务开始时间也整体移动。周期性产生的语音分组由此可能遭遇不稳定的接入等待。
+
+第三项局限是轮询后的占用时间不容易事先精确掌握。若站点$i$发送有效载荷$L_i$比特、MAC开销$H_i$比特，数据部分速率为$R_i$，物理层固定开销为$P_i$秒，则一个简化的数据帧时长为
+\begin{equation}
+T_i=P_i+\frac{H_i+L_i}{R_i}.
+\end{equation}
+即使$L_i$相同，速率$R_i$降低也会拉长服务时间。若第$j$站要等前$j-1$站服务完毕，其等待量含有$\sum_{i=1}^{j-1}T_i$以及轮询、响应等间隔。AP只有名单而没有充分的队列与时长信息时，很难据此做精细的时延规划。
+
+这三项局限共同说明：集中轮询本身并不自动等于确定的QoS。要改善服务，必须进一步获取业务状态、约束每次占用的时间，并让受控服务的出现时机更灵活。
+
+\subsection{混合协调功能与传输机会}
+
+IEEE 802.11e引入混合协调功能（Hybrid Coordination Function，HCF）。其中，增强型分布式信道接入（Enhanced Distributed Channel Access，EDCA）保留竞争方式，受控信道接入（HCF Controlled Channel Access，HCCA）提供集中轮询方式。两者共享一个关键抽象：传输机会（Transmission Opportunity，TXOP）。支持QoS的站点称QoS站点（QoS Station，QSTA），相应基本服务集称QoS基本服务集（QoS Basic Service Set，QBSS）。HCCA的集中控制者称混合协调器（Hybrid Coordinator，HC），本章取其位于AP中的常见架构。
+
+\subsubsection{从“一次接入一帧”到“一次接入一段时间”}
+
+在前面讨论的简化DCF模型中，一次成功竞争通常用来完成一帧数据及其确认交换。TXOP则赋予站点在一个有限时间窗口内继续发送的权利。它由开始时刻与持续时间上限确定，后者称TXOP上限（TXOP Limit）。在上限允许且规则满足的条件下，站点可以连续发送多个帧，而不必在每帧之前重新竞争。
+
+时间授权有两个直接作用。对发送者而言，多帧可以分摊一次竞争的成本；对其他站点而言，一次赢家能够连续占用的时间受到限制。站点必须检查下一次交换能否在剩余授权内完成，而不能仅因为数据帧开始时仍在TXOP内，就无条件把其余交换拖到授权结束之后。
+
+TXOP上限是允许使用的最大值，不代表每次必然用满。队列为空、目的站不可用或剩余时间不足以完成下一次交换，都可能使发送者提前结束。因而，“相同TXOP上限”与“实际每次占用完全相同”是两个不同命题；后面的公平性推导会明确采用用满时间的理想化假设。
+
+\subsection{EDCA：用四个虚拟站点表达四类业务}
+
+\subsubsection{业务分类先于接入竞争}
+
+一个传统单队列MAC把不同业务放进同一个先入先出队列（First-In, First-Out，FIFO）。队首若排着大批文件数据，后来到达的语音分组便可能被挡在后面。EDCA把流量划分到四个接入类别（Access Category，AC），每个类别分别维护队列和竞争状态。语音类别$\mathrm{AC}_{\mathrm{VO}}$通常具有最高相对优先级，视频类别$\mathrm{AC}_{\mathrm{VI}}$次之，尽力而为类别（Best Effort）$\mathrm{AC}_{\mathrm{BE}}$适合普通交互数据，后台类别（Background）$\mathrm{AC}_{\mathrm{BK}}$适合更能容忍等待的业务。
+
+这种分类来自需求差异。语音分组通常较短，但到达太迟就无法用于实时播放；视频流需要较高吞吐量，播放缓冲能吸收一部分到达时延，但缓冲耗尽仍会造成卡顿；网页需要合理的响应时间；后台同步往往可以让出即时机会。四类并不是对应用重要性的永久评价，而是一组使业务需求能够进入MAC调度的接口。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=1cm,y=0.85cm,>=stealth,font=\small]
+\node[draw,rounded corners,minimum width=2.1cm,minimum height=0.7cm] at (5,4.1){上层业务分类};
+\foreach \x/\n in {0.8/VO,3.6/VI,6.4/BE,9.2/BK}{
+\draw[->] (5,3.7)--(\x,3.1);
+\node[draw,fill=blue!10,minimum width=2.2cm,minimum height=0.7cm] at (\x,2.7){AC\_\n 队列};
+\node[draw,align=center,minimum width=2.2cm,minimum height=1cm] at (\x,1.3){独立AIFS\\CW与退避计数};
+\draw[->] (\x,2.3)--(\x,1.9);
+\draw[->] (\x,0.7)--(5,-0.1);
+}
+\node[draw,fill=green!15,minimum width=5cm,minimum height=0.7cm] at (5,-0.5){内部仲裁：选择一个类别发送};
+\draw[->] (5,-0.9)--(5,-1.5) node[below]{同一个无线收发器};
+\end{tikzpicture}
+\caption{四个“虚拟站点”是四套竞争状态，不是四部可同时发送的无线电。}
+\end{figure}
+
+\subsubsection{AIFS决定何时有资格开始倒计数}
+
+EDCA仍使用载波侦听多路访问及碰撞避免（Carrier Sense Multiple Access with Collision Avoidance，CSMA/CA）的基本逻辑。优先级不是通过取消低优先级站点的竞争权实现，而是通过不同参数改变获胜概率。
+
+仲裁帧间间隔（Arbitration Interframe Space，AIFS）取代统一的DIFS。对类别$a$，
+\begin{equation}
+T_{\mathrm{AIFS},a}=T_{\mathrm{SIFS}}+\mathrm{AIFSN}_a\sigma,
+\end{equation}
+其中$\mathrm{AIFSN}_a$为该类别的仲裁帧间间隔时隙数（Arbitration Interframe Space Number）。信道从忙变为空闲后，AIFS较短的类别较早获得倒计数资格。若较高优先级类别已经在较低优先级类别尚未完成AIFS时开始发送，后者只能继续等待。
+
+例如，取课堂时序示意中的$T_{\mathrm{SIFS}}=16\,\mu\mathrm{s}$、$\sigma=9\,\mu\mathrm{s}$。若两个类别分别使用$\mathrm{AIFSN}=2$和3，则其AIFS分别为34与43微秒。这个9微秒差值不是给高优先级队列增加发送速率，而是在每次空闲竞争起点提供一个时隙的先行机会。
+
+\subsubsection{竞争窗口决定随机等待的分布}
+
+每个类别另有自己的最小竞争窗口（Minimum Contention Window）与最大竞争窗口（Maximum Contention Window），分别记为$CW_{\min,a}$与$CW_{\max,a}$。为避免窗口“长度”与“上界”混淆，本节把$CW_a$定义为可取退避整数的最大值，即
+\begin{equation}
+B_a\sim\operatorname{Unif}\{0,1,\ldots,CW_a\}.
+\end{equation}
+因此，可能取值共有$CW_a+1$个，而平均退避整数为
+\begin{equation}
+\mathbb{E}[B_a]=\frac{0+1+\cdots+CW_a}{CW_a+1}=\frac{CW_a}{2}.
+\end{equation}
+在没有其他发送打断、没有碰撞且已经有分组等待的理想条件下，一次开始竞争后的平均等待可写成
+\begin{equation}
+\mathbb{E}[W_a]=T_{\mathrm{AIFS},a}+\frac{CW_a}{2}\sigma.
+\end{equation}
+若$CW_a=7$、$\sigma=9\,\mu\mathrm{s}$，退避部分平均为31.5微秒；若$CW_a=15$，则为67.5微秒。真实等待还包括计数冻结、重新满足空闲间隔、碰撞重试和队列排队，上式不是完整网络时延模型。
+
+失败后窗口按照该类别的范围增大。用上述上界记法，一次典型二进制增长写为
+\begin{equation}
+CW'_a=\min\{2(CW_a+1)-1,\ CW_{\max,a}\}.
+\end{equation}
+加一再翻倍是因为倍增的是可选整数的数量。成功后，窗口按协议回到该类别的初始设置。高优先级类别通常使用较小窗口，因而统计上更快接入，但仍可能抽到较大随机数，也可能与其他站点碰撞。EDCA提供的是统计差异化，不能仅凭较短AIFS和较小窗口就宣称每个语音分组都有严格时延上界。
+
+\subsubsection{内部碰撞与外部碰撞}
+
+同一物理站点中的两个AC可能在同一时刻把计数器减到零。这称内部碰撞或虚拟碰撞（Internal/Virtual Collision）。由于站点只有一套要使用的无线发送资源，它不会让两个队列真的同时在空中碰撞。内部仲裁把发送机会给较高优先级类别，未获机会的类别按相应失败退避规则处理。外部站点只能看到胜出的那个类别实际发送。
+
+因此，一个站点内部需要维护四套逻辑竞争过程，但外部信道依然只有一段实际发送。内部仲裁解决的是本机多个候选者同时就绪的问题，不能解决不同物理站点在同一时隙到零造成的外部碰撞。
+
+\subsubsection{TXOP上限应与业务形态匹配}
+
+第三组参数是每个类别的TXOP上限。较长TXOP让一次竞争换来更多有效数据，却也让其他类别和其他站点等待更久。最高优先级并不意味着必须具有最长TXOP：语音急需尽早接入，但一批语音数据可能很小；视频持续产生较多数据，一次获准后可能更需要连续发送时间。
+
+这样，三个参数分别作用于不同问题：AIFS改变什么时候开始竞争，CW改变开始竞争后的随机等待分布，TXOP上限改变获胜后允许占用多久。理解其分工比记住某张参数表更重要。具体参数随物理层、接入点配置及所用协议条件而变化，不能把一组课堂示例数值视为所有Wi-Fi设备不变的常量。
+
+QoS数据帧中增加QoS控制字段（QoS Control）。其中的业务标识（Traffic Identifier，TID）及确认策略等信息使接收端能够识别业务处理方式；在相应帧格式和方向下，字段也可表达队列或授权相关信息。这些位的解释依上下文而定，不能把同一组比特同时当成独立、并存的全部信息字段。课堂的重点是：MAC不仅运送数据，还能向协调者提供安排后续服务所需的状态。
+
+\subsection{突发发送与块确认}
+
+\subsubsection{一次竞争如何支撑多个数据帧}
+
+突发发送（Burst Transmission）在一个TXOP内发送多个帧，减少重复争用。若仍逐帧确认，发送者需要完成“数据、SIFS、确认”的多次交换。块确认（Block Acknowledgment，Block ACK）则把多个帧的接收结果集中报告，减少确认开销。课堂讨论的即时块确认流程为：发送多帧数据，发块确认请求（Block ACK Request，BAR），接收方经SIFS后返回块确认。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.95cm,y=0.8cm,>=stealth,font=\small]
+\node[left] at (0,1.4){发送方};\node[left] at (0,0){接收方};
+\draw[->] (0,1.4)--(12.5,1.4);\draw[->] (0,0)--(12.5,0);
+\foreach \l/\r/\s in {0.4/2.4/数据1,2.9/4.9/数据2,5.4/7.4/数据3,7.9/9.2/BAR}{
+\draw[fill=blue!15] (\l,1.15) rectangle (\r,1.95);\node at ({(\l+\r)/2},1.55){\s};}
+\draw[fill=green!20] (9.8,-0.25) rectangle (12,0.55);\node at (10.9,0.15){Block ACK};
+\draw[->] (9.2,1.15)--(9.8,0.55);\node[above] at (9.65,1.65){SIFS};
+\draw[<->] (0.4,-0.85)--(12,-0.85) node[midway,below]{一个TXOP；图中各必要短间隔不按比例绘制};
+\end{tikzpicture}
+\caption{课堂中的多帧突发与即时块确认流程。该流程是一个具体模型，并非所有版本的块确认都必须采用完全相同的请求时机。}
+\end{figure}
+
+块确认中的位图（Bitmap）依据约定的起始序号与窗口表示多个帧的状态。假设连续四帧的状态为$1,0,1,1$，则发送者知道第二帧未被确认，而第一、第三、第四帧已被确认；后续可以针对未成功的部分安排重传。位图位的位置必须与序号对应，不能脱离窗口把一个比特解释成任意分组的确认。课堂“一帧一位”的图式对应常用的简化理解，不应据此推断所有块确认变体都有相同位图格式。
+
+\subsubsection{减少开销的收益与代价}
+
+设突发包含$m$个等长数据帧，每帧空中时长为$T_D$，逐帧确认时长为$T_A$，BAR与块确认的时长分别为$T_R$与$T_B$。令$S$为SIFS，暂不计TXOP外的首次竞争。若逐帧交换之间也用SIFS衔接，则总时长近似为
+\begin{equation}
+T_{\mathrm{individual}}=mT_D+mT_A+(2m-1)S.
+\end{equation}
+课堂BAR模型中的$m$帧数据、BAR和块确认共$m+2$个帧，相邻之间有$m+1$个短间隔，因此
+\begin{equation}
+T_{\mathrm{block}}=mT_D+T_R+T_B+(m+1)S.
+\end{equation}
+两式相减得到
+\begin{equation}
+\Delta T=mT_A-T_R-T_B+(m-2)S.
+\end{equation}
+当$\Delta T>0$时，这个简化模型下块确认减少了空中时间。由于BAR和块确认也有自身开销，不能仅凭“只回一次确认”就断言任意小批量都一定更省时。
+
+另一方面，较长连续突发可能增大其他站点的等待与时延抖动（Delay Jitter），接收端还需保存多个接收状态，发送端需维护未确认窗口。提高效率往往来自一次处理更多数据，但实时系统还要约束数据在组批和等待期间增加的时延。
+
+\subsection{分组公平、时间公平与吞吐量}
+
+\subsubsection{课堂明确提示可能考查：先固定比较对象与假设}
+
+教师在10月13日08:03场次的01:01:14明确提示这一吞吐量比较“可能出现在测试中”。复习重点是从成功交付比特数推导公式，说明相等条件，而不是把两条式子脱离假设背诵。
+
+公平性（Fairness）必须先说明公平的对象：是成功接入次数、帧数、比特数，还是占用时间。本节比较两个饱和站点（Saturated Station）A与B，即两者始终有数据等待。设它们竞争参数相同，在足够长观察期$T$内各成功获得$N$次机会；忽略有限样本偏差，并把不同错误率造成的不对称排除在外。
+
+在一次成功机会只发送一帧的DCF简化模型中，A和B各送出$N$帧。令每帧有效载荷分别为$L_A$、$L_B$比特，吞吐量（Throughput）定义为观察期内成功交付有效比特数除以观察期长度，故
+\begin{equation}
+G_A=\frac{NL_A}{T},\qquad G_B=\frac{NL_B}{T},\qquad
+\frac{G_A}{G_B}=\frac{L_A}{L_B}.
+\end{equation}
+所以，相同成功接入次数不自动产生相同吞吐量；只有此处的有效载荷相同时，两者吞吐量才相同。若载荷相同而速率不同，慢站发送同一帧会占用更长时间。快站也要等待慢站结束，整个系统的机会循环被拉长。
+
+\subsubsection{相同时间授权改变了公平性的基准}
+
+现在令两站使用同一个AC，获得相同可用发送时间$\tau$，并假设每次都用满。若先忽略开销，A的发送速率为$R_A$比特每秒，则一次机会发送$\tau R_A$比特。于是
+\begin{equation}
+G_A\simeq\frac{N\tau R_A}{T},\qquad
+G_B\simeq\frac{N\tau R_B}{T},\qquad
+\frac{G_A}{G_B}\simeq\frac{R_A}{R_B}.
+\end{equation}
+两站拥有相同时间，但更高的速率可以把这段时间转化为更多比特。若$R_A=2R_B$，则理想吞吐量也约为两倍。这不违背时间公平（Temporal Fairness），因为其平等对象是时间而非字节数。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.95cm,y=0.8cm,font=\small,>=stealth]
+\node[left,align=right] at (0,1.5){每次一帧\\相同载荷};
+\node[left,align=right] at (0,-0.2){每次等时\\相同TXOP};
+\draw[->] (0,1.1)--(12.4,1.1);\draw[->] (0,-0.6)--(12.4,-0.6);
+\foreach \l/\r/\s in {0.3/1.8/A,2.2/5.2/B,5.7/7.2/A,7.6/10.6/B}{\draw[fill=blue!15] (\l,1.2) rectangle (\r,1.9);\node at ({(\l+\r)/2},1.55){\s};}
+\foreach \l/\r/\s in {0.3/2.6/A,3/5.3/B,5.7/8/A,8.4/10.7/B}{\draw[fill=green!15] (\l,-0.5) rectangle (\r,0.2);\node at ({(\l+\r)/2},-0.15){\s};}
+\node[below,align=center] at (6,-1){上排：慢站B占用更久；下排：等时窗口内A可发送更多数据};
+\end{tikzpicture}
+\caption{令A速率高于B时，两种公平基准的差异。图中交替顺序仅为示意，随机接入并不保证严格轮流。}
+\end{figure}
+
+作为数值比较，设观察期$T=1$ s，两站各成功接入$N=100$次。DCF情形若$L_A=1000$字节、$L_B=1500$字节，则$G_A=100\times8000/1=0.8$ Mb/s，$G_B=100\times12000/1=1.2$ Mb/s。它们发送帧数相同，但B的每帧载荷更大，吞吐量也更高。
+
+另看相同TXOP的独立理想场景：令每次可用时间$\tau=1$ ms，$R_A=12$ Mb/s、$R_B=6$ Mb/s。每次A可发送12000 bit，B可发送6000 bit；在同样$N=100$次、$T=1$ s的观察条件下，$G_A=1.2$ Mb/s、$G_B=0.6$ Mb/s。两站各累计使用0.1 s的授权时间，吞吐量却不相等。前一情形比较载荷大小，后一情形比较时间内的发送能力；两个场景不要求具有相同的实际竞争过程。
+
+若考虑开销，可把$R_i$替换为窗口内平均有效载荷速率$r_i^{\mathrm{eff}}$，从而写成$G_i=N\tau r_i^{\mathrm{eff}}/T$。此外，不同帧长度可能使最后一帧无法装进剩余时间，队列也可能提前为空。因此，课上的$N\tau R_i/T$是解释公平基准的理想模型，而不是直接使用物理层标称速率就能精确预测的实测吞吐量公式。
+
+\subsection{HCCA：让轮询掌握需求、时长与时机}
+
+\subsubsection{动态队列信息与有限时间授权}
+
+HCCA针对PCF的第一项问题，引入更充分的业务状态。站点可以报告队列需求，使HC知道谁有数据以及大致需要多少服务。于是轮询不必机械遍历一张长期不变的参与名单。信息并非永远即时准确：一次报告之后仍可能到达新分组，因而具体调度必须考虑状态陈旧和新增业务。
+
+针对第二类信息不足，即发送占用时长未知，HC在QoS轮询中授予有限TXOP。它不只是说“轮到你”，还限制“你可以使用多久”。令站点$i$获准时间为$\tau_i$，轮询和必要转换开销为$c_i$。若一个调度周期中依次服务$m$个站点，其已计划时长为
+\begin{equation}
+T_{\mathrm{plan}}=\sum_{i=1}^{m}(c_i+\tau_i).
+\end{equation}
+这使调度者能进行时间预算。它并不证明所有分组一定按时交付，因为重传、外部干扰与突发到达仍可能破坏预期，但相比不知道每站要发多久，至少有了可管理的资源单位。
+
+\subsubsection{受控接入阶段可以出现在竞争期内}
+
+PCF的服务主要受固定CFP结构约束。HCCA进一步允许HC在竞争期中，于信道空闲达到PIFS后发起受控接入阶段（Controlled Access Phase，CAP）。因此，一个CP内部既可以出现EDCA竞争获得的TXOP，也可以出现HC轮询授予的TXOP。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.95cm,y=0.9cm,font=\small,>=stealth]
+\draw[->] (0,0)--(13,0) node[right]{时间};
+\draw[fill=gray!30] (0.3,0.2) rectangle (0.7,1);
+\draw[fill=blue!15] (0.7,0.2) rectangle (3.6,1);
+\draw[fill=green!15] (3.6,0.2) rectangle (6.3,1);
+\draw[fill=blue!15] (6.8,0.2) rectangle (9.4,1);
+\draw[fill=green!15] (9.4,0.2) rectangle (12.2,1);
+\node[above] at (0.5,1){信标};\node at (2.1,0.6){CFP轮询};
+\node at (4.95,0.6){EDCA};\node at (8.1,0.6){CAP轮询};\node at (10.8,0.6){EDCA};
+\draw[<->] (3.6,-0.55)--(12.2,-0.55) node[midway,below]{竞争期CP并不排斥受控服务};
+\node[above,align=center] at (6.55,1.1){PIFS后\\HC发起};
+\end{tikzpicture}
+\caption{HCCA可在CP内插入CAP。协调者先等已有交换结束；“插入”不表示打断正在发送的帧。}
+\end{figure}
+
+这使得信标延迟不再意味着所有受控服务只能一并等到下一个固定窗口。HC有机会在后续空闲点补充服务，尤其适合处理紧迫需求。不过，若信道一直被合法交换或外部干扰占用，PIFS条件仍然无法满足。HCCA增加了控制手段，而没有取消无线共享介质的物理约束。
+
+\subsubsection{流量协商与接纳控制}
+
+只报告队列长度是状态通知；协商业务所需吞吐量、时延和容许丢失则是资源需求声明。流量规范（Traffic Specification，TSPEC）提供后一类描述。课堂介绍通过添加流量流（Add Traffic Stream，ADDTS）的请求与响应来协商服务，并用删除流量流（Delete Traffic Stream，DELTS）结束相应状态。
+
+接纳控制（Admission Control）的任务是判断是否应接受一个新业务。即使每个站点都使用高优先级类别，如果所有业务需求的总和超过可用空中时间，系统仍然无法同时满足所有要求。因此，QoS不只是把高优先级标签附在数据上，还包括必要时拒绝新的过量负载。
+
+作为预算思想，设业务$i$每隔$P_i$秒至少需要$\tau_i$秒有效服务及$c_i$秒相关开销，则其时间利用率为$u_i=(\tau_i+c_i)/P_i$。若保留一部分比例$\rho$给其他业务及不确定性，一个必要的粗略条件是
+\begin{equation}
+\sum_i u_i\leq 1-\rho.
+\end{equation}
+所有量都用同一时间单位，$u_i$与$\rho$均无量纲。这个不等式只是总预算检查，不能代替具有具体截止期、重传和突发约束的可调度性证明。标准提供信令与授权机制，如何具体决定轮询顺序和服务频率仍需要调度算法。
+
+\subsection{本章小结}
+
+PCF表明，集中发号施令并不足以保证服务质量：调度者还需要实时业务信息、可预算的占用时间和合适的服务时机。EDCA用四类队列以及AIFS、CW和TXOP上限提供统计优先级；HCCA则结合状态、协商和有限时间授权进行集中服务。TXOP把接入资源从“一次一帧”提升为“一次一段时间”，块确认帮助摊薄确认成本。最终，无论竞争还是集中控制，都必须同时考虑吞吐量、时延、公平性和额外控制开销。
+
+\section{高速物理层为何仍需要帧聚合}
+\label{chap:aggregation}
+
+\subsection{从物理层能力到有效吞吐量}
+
+课堂在10月13日08:03场次的01:11:16和01:26:25将额外物理层细节作为了解内容。这里保留机制解释，重点是它们如何影响MAC效率，不把具体速率组合表当成需要机械记忆的重点。
+
+物理层（Physical Layer，PHY）数据速率描述特定发送模式每秒能够承载多少比特，应用吞吐量则衡量经过竞争、头部、确认和重传后，每秒真正交付多少有效数据。提高前者并不保证后者等比例提高。理解这种差异，是理解IEEE 802.11n介质访问控制层（Medium Access Control，MAC）增强的起点。
+
+\subsubsection{速率提升的几个来源}
+
+信道绑定（Channel Bonding）把相邻信道组合成更宽的工作带宽。例如，从20 MHz扩展到40 MHz可以提供更多并行频域资源，但也占用更多频谱，并要求存在适合的信道条件。更宽带宽不是免费资源，邻近网络的共存和干扰同样需要考虑。
+
+调制编码方案（Modulation and Coding Scheme，MCS）组合调制阶数与编码率。若一个调制符号可取$M$种状态，则每个符号可标记$\log_2 M$比特；编码率$r_c$表示传输比特中属于信息的比例。提高调制阶数或编码率会提升净速率，同时通常要求更好的接收条件。正交频分复用（Orthogonal Frequency Division Multiplexing，OFDM）把数据分布到多个正交子载波；多输入多输出（Multiple Input Multiple Output，MIMO）则可利用空间维度同时传输多个空间流（Spatial Stream）。
+
+用一个仅用于解释因素的表达式，可以写成
+\begin{equation}
+R\approx\frac{N_{\mathrm{SS}}N_{\mathrm{SD}}\log_2(M)r_c}{T_{\mathrm{sym}}}.
+\end{equation}
+其中$N_{\mathrm{SS}}$为空间流数量，$N_{\mathrm{SD}}$为每个流用于承载数据的子载波数，$T_{\mathrm{sym}}$为包含保护间隔的符号周期。分子为每个符号周期承载的信息比特数，除以秒得到比特每秒。实际速率表还受到编码、可用模式及物理层格式限制，不能仅用此式任意组合参数。
+
+波束成形（Beamforming）通过多个天线信号的相对相位和幅度控制，使接收方向上的信号更有利地叠加。课堂用“朝目标方向集中表达”帮助理解其作用。它主要改善接收信号条件，不等于每增加一副天线就必然多出一条独立数据流，也不等于发射功率可以无限提高。
+
+802.11n的600 Mb/s是特定多空间流、带宽、保护间隔与调制编码组合下的最高物理层速率。速率表中的6.5 Mb/s与600 Mb/s是不同配置下的例子，不能把前者一概当成所有802.11n前导码、控制帧和头部都统一采用的“基本速率”。各字段的发送方式应由具体物理层格式决定。
+
+\subsubsection{数据帧内的各部分不一定使用相同速率}
+
+物理层协议数据单元（PHY Protocol Data Unit，PPDU）包含前导码（Preamble）、物理层头部及后续承载MAC内容的部分。MAC协议数据单元（MAC Protocol Data Unit，MPDU）又包含MAC头部、有效载荷和帧校验序列（Frame Check Sequence，FCS）。前导码用于接收机检测、同步及其他物理层处理；头部使接收机知道如何解释后面的比特。即使应用只关心载荷，也不能省去这些必要结构。
+
+设前导码和物理头部共占固定时间$P$，MAC头部及校验等共$H$比特，应用有效载荷为$L$比特，承载MAC部分的速率为$R$，则
+\begin{equation}
+T_D=P+\frac{H+L}{R}.
+\end{equation}
+这里$P$直接以秒计量，是为了避免把特殊编码的前导部分错误地当成普通数据比特除以$R$。实际OFDM帧还可能需要服务位、尾比特、填充与完整符号取整；本式用于本课的机制分析，而非替代完整PHY时长计算器。
+
+若一次成功发送还需平均竞争开销$C$、一个SIFS及确认时长$T_A$，则
+\begin{equation}
+T_{\mathrm{cycle}}=C+P+\frac{H+L}{R}+T_{\mathrm{SIFS}}+T_A,
+\qquad G=\frac{L}{T_{\mathrm{cycle}}}.
+\end{equation}
+$G$是每个周期成功交付的有效比特数除以周期时间，故单位为bit/s；相对物理速率的效率定义为$\eta=G/R$。
+
+\subsection{一个11 Mb/s计算与高速率极限}
+
+课件的传统11 Mb/s算例给定：有效载荷1500字节，MAC开销34字节，物理前导及头部时长192微秒；DIFS为50微秒，平均退避为310微秒，SIFS为10微秒；ACK为14字节，在1 Mb/s下发送并具有相同的192微秒物理开头。这是一个明确指定速率和格式的示例，不是所有确认帧的通用参数。
+
+先把字节换成比特，得到$L=1500\times8=12000$ bit、$H=34\times8=272$ bit。由于1 Mb/s等于每微秒1比特，使用bit与Mb/s相除可直接得到微秒。因此
+\begin{align}
+T_D&=192+\frac{12000+272}{11}=1307.64\,\mu\mathrm{s},\\
+T_A&=192+\frac{14\times8}{1}=304\,\mu\mathrm{s},\\
+T_{\mathrm{cycle}}&=50+310+1307.64+10+304
+=1981.64\,\mu\mathrm{s},\\
+G&=\frac{12000}{1981.64}\approx6.06\,\mathrm{Mb/s},\qquad
+\eta\approx55.1\%.
+\end{align}
+这说明11 Mb/s是承载数据部分时采用的速率，并非应用每秒能连续得到11百万有效比特。一次1500字节发送还支付了侦听、退避、物理头部和确认等成本。
+
+把那些不随$R$缩短的开销合并成$T_0$，则
+\begin{equation}
+G(R)=\frac{L}{T_0+(H+L)/R}
+=\frac{LR}{RT_0+H+L},\qquad
+\eta(R)=\frac{L}{RT_0+H+L}.
+\end{equation}
+在固定$L,H,T_0>0$的模型中，$R$增加会提高$G$，但效率$\eta$却下降；当$R$趋于无穷大时，
+\begin{equation}
+\lim_{R\to\infty}G(R)=\frac{L}{T_0},\qquad
+\lim_{R\to\infty}\eta(R)=0.
+\end{equation}
+物理传送再快，也无法压缩模型中的固定等待成本。这里的极限不是说高速率无用，而是说只提高速率会出现边际收益递减。要继续提高有效吞吐量，需要增大每次支付固定开销所能运送的数据量，这就引出帧聚合（Frame Aggregation）。
+
+\subsection{两级聚合的边界与可靠性}
+
+\subsubsection{A-MSDU：先合并高层交付的数据}
+
+MAC服务数据单元（MAC Service Data Unit，MSDU）是上层交给MAC处理的数据。聚合MSDU（Aggregated MSDU，A-MSDU）把多个适合共同发送的MSDU放入一个MPDU载荷中，从而共享一个外层MAC头和FCS。内部每个子帧仍需携带必要的地址、长度等子帧头，必要时还需填充（Padding）；聚合并不意味着简单地把纯应用字节无分隔地串起来。
+
+其关键收益是减少重复MAC封装。关键代价则是多个子帧受同一个外层MPDU校验保护：若该MPDU不能正确接收，其内部数据不能像独立MPDU那样分别用块确认逐项恢复。聚合越大，分摊成本越好，但在错误信道上一次失败牵连的数据也越多。
+
+\subsubsection{A-MPDU：保留多个MAC帧的独立边界}
+
+聚合MPDU（Aggregated MPDU，A-MPDU）把多个已经形成的MPDU放进一次物理层发送中，共享前导码及物理层头部。各MPDU仍保留自己的MAC头和FCS；分隔符（Delimiter）与填充帮助接收机识别边界。由于保留独立校验单元，接收方可以使用块确认指出哪些MPDU成功，发送方再选择性重传未成功部分。
+
+因此，A-MSDU与A-MPDU节省的层次不同：前者减少多个MSDU分别封装成MPDU时的外层MAC开销；后者减少多个MPDU分别形成物理发送时的PHY开销。两者都不能任意合并所有目的站和业务。实际聚合需满足接收方、业务标识及已建立确认关系等限制；本章采用同一接收方、同一适用业务流的常规情形。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.95cm,y=0.85cm,font=\small,>=stealth]
+\node[left] at (0,2.8){A-MSDU};
+\draw[fill=gray!25] (0.1,2.4) rectangle (1.7,3.2);\node at (0.9,2.8){MAC头};
+\foreach \l/\r/\s in {1.7/4.5/子帧1,4.5/7.3/子帧2,7.3/10.1/子帧3}{\draw[fill=blue!15] (\l,2.4) rectangle (\r,3.2);\node at ({(\l+\r)/2},2.8){\s};}
+\draw[fill=gray!25] (10.1,2.4) rectangle (11.2,3.2);\node at (10.65,2.8){FCS};
+\node[below] at (5.5,2.35){一个MPDU：整个外层帧共享校验};
+\node[left] at (0,0.5){A-MPDU};
+\draw[fill=gray!25] (0.1,0.1) rectangle (2,0.9);\node[align=center] at (1.05,0.5){PHY开头};
+\foreach \l/\r/\s in {2.3/4.9/MPDU 1,5.2/7.8/MPDU 2,8.1/10.7/MPDU 3}{\draw[fill=green!15] (\l,0.1) rectangle (\r,0.9);\node at ({(\l+\r)/2},0.5){\s};\draw[fill=gray!60] ({\l-0.3},0.1) rectangle (\l,0.9);}
+\node[below,align=center] at (6,-0.15){每个MPDU保留MAC头与FCS；窄灰块表示分隔结构};
+\draw[->,thick] (5.5,1.6)--(6.5,1.05);
+\end{tikzpicture}
+\caption{两级聚合的封装边界。一个A-MSDU可以成为下层某个MPDU的载荷；图不按字节长度比例绘制。}
+\end{figure}
+
+\subsubsection{两级聚合与组批等待之间的折中}
+
+两级聚合（Two-Level Aggregation）先把若干MSDU组成A-MSDU，再将携带这些A-MSDU的多个MPDU组成A-MPDU。这样既能分摊MAC外层头部，又能分摊PHY开头。但实现仍需要决定何时停止组批并发送，不能为追求最大聚合而无限等候。
+
+用一个不含误码的简化模型说明收益。设每个子数据有效长度为$L$比特，其聚合后仍需保留的平均开销为$h$比特，每次物理发送共享固定成本$T_0$，则聚合$n$份数据的吞吐量为
+\begin{equation}
+G_n=\frac{nL}{T_0+n(L+h)/R}
+=\frac{L}{T_0/n+(L+h)/R}.
+\end{equation}
+当$n$增大时，每份有效数据承担的固定时间$T_0/n$下降；但$n$很大时，$G_n$仍受到$R L/(L+h)$限制。共享成本可以分摊，逐份保留的子帧结构不能凭空消失。
+
+误码还带来另一种限制。若为解释趋势而假定各比特独立出错，误码率为$p$，一个长度$\ell$比特的校验单元全部正确的概率为
+\begin{equation}
+P_{\mathrm{ok}}=(1-p)^\ell.
+\end{equation}
+在$p>0$时，校验单元越长，一次完全正确的概率越低。真实无线误码通常具有相关性，此式不是实测信道的完整模型，但清楚说明了“尽可能大”未必总是最优。A-MPDU保留独立MPDU边界的价值，正是在分摊物理开销的同时，让失败恢复仍有较细粒度。
+
+若数据到达率为$\lambda$份每秒，等待凑足$n$份也可能增加组批时延。在理想匀速到达、凑满即发的批次中，第一个数据要等$(n-1)/\lambda$，最后一个无需等候，平均组批等待为$(n-1)/(2\lambda)$。真实系统常用数量上限与等待计时共同限制聚合，从而在效率和实时性之间折中。
+
+\subsection{机制之间的联系}
+
+TXOP、块确认与聚合不是同一个概念。TXOP规定谁能使用信道以及能使用多久；块确认规定如何报告多个数据单元的接收结果；聚合规定把多个数据单元装进怎样的MAC或PHY结构。一次TXOP内可以安排多次物理发送，单次物理发送也可能包含多个MPDU。把这三个层次分开，才能正确画时序、统计开销，并理解高速物理层为何需要配套的MAC设计。
+
+\section{DCF综合时序：从局部观察推出全局顺序}
+\label{chap:dcf-examples}
+
+本章沿用课堂两道综合练习，重点是把“每个站点观察到了什么”转化为“什么时候可以递减计数器”。所有站点彼此可听见，数据都发往AP，忽略传播时延，不考虑捕获效应（Capture Effect），即重叠传输不使其中某个帧意外被成功解码。数据发送时长已包含数据帧的各层开销，不再另加前导码或MAC头部。
+
+\subsection{统一记号与时间线画法}
+
+用$D$表示DIFS，$S$表示SIFS，$E$表示扩展帧间间隔（Extended Interframe Space，EIFS），$\sigma$表示时隙长度，$A_{t}$表示ACK发送时长，$F$表示从自身数据发送结束起计算的确认超时（ACK Timeout）等待量。令$Q=S+A_{t}$，则一个数据帧发送完毕之后，成功交换还需$Q$时间。网络分配向量（Network Allocation Vector，NAV）保护已知交换的剩余占用时间。
+
+画图时首先标出实际发送的区段，再逐站判断物理忙、可否解码以及NAV状态。没有收到ACK只说明发送者知道失败；旁听者收到损坏帧才是另一个局部事件。半双工（Half-Duplex）发送者在自己发送期间不能同时观察碰撞。因此，几个站点面对同一次空中重叠，可能采取不同的后续等待。
+
+EIFS结束并不意味着自动获得发送权。若站点已经处于需要退避的状态，它仍必须完成退避；EIFS在相应错误恢复条件下替代普通空闲等待，而不是再机械叠加一次DIFS。若后来正确接收了帧，按正常载波侦听和恢复规则继续，不应永久保留错误惩罚。
+
+\subsection{例一：等长碰撞与随后到达的新分组}
+
+\subsubsection{已知条件与第一次成功发送}
+
+取$t_0=0$。A与B同时发送，二者数据帧均持续1 ms；C的数据帧持续1.5 ms。A与B重试所选退避整数分别为10与11。C在1.25 ms才从上层得到一个新分组。原题截图给定$D=50\,\mu\mathrm{s}$、$S=10\,\mu\mathrm{s}$、$E=200\,\mu\mathrm{s}$、$\sigma=20\,\mu\mathrm{s}$、$A_t=140\,\mu\mathrm{s}$和$F=150\,\mu\mathrm{s}$，所以$Q=150\,\mu\mathrm{s}$。以下统一以毫秒进行绝对时刻计算。
+
+在$[0,1]$ ms内，A、B在发送，AP和C看到相互重叠的信号，无法正确解码。AP不能发ACK。A和B在自身发送结束后等确认，超时后准备重试。C没有发送，它观察到错误接收，因而从1 ms信道空闲起等待EIFS。于是C等待到$1+0.2=1.2$ ms。A、B在$1+0.15=1.15$ ms确认失败，随后等待0.05 ms的DIFS，从1.20 ms开始递减各自计数器。
+
+C的分组到达时，EIFS已经结束。按课堂采用的初次发送简化规则，C观察一个DIFS后发送，因此其开始与结束时刻分别为
+\begin{equation}
+c=1.25\,\mathrm{ms}+D,
+\qquad d=c+1.5\,\mathrm{ms}+Q.
+\end{equation}
+$d$是C的ACK结束时刻。A和B原先从$1\,\mathrm{ms}+F+D$开始倒计数。利用课上明确给出的5槽递减，有
+\begin{equation}
+c-(1\,\mathrm{ms}+F+D)=5\sigma,
+\qquad F+5\sigma=0.25\,\mathrm{ms}.
+\end{equation}
+因此，在C开始发送的瞬间，A剩$10-5=5$槽，B剩$11-5=6$槽。C的单独发送可被正确理解，A、B冻结计数器，并利用Duration信息使虚拟侦听保护其后续交换。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.95cm,y=0.8cm,>=stealth,font=\small]
+\foreach \y/\n in {3/AP,2/A,1/B,0/C}{\draw[->] (0,\y)--(12.6,\y);\node[left] at (0,\y){\n};}
+\foreach \y in {1,2}{\draw[fill=red!15] (0.2,\y-0.2) rectangle (2.4,\y+0.45);\node at (1.3,\y+0.13){碰撞发送};}
+\node at (1.3,3.25){无ACK};
+\node at (3.4,2.28){退避$10\to5$};\node at (3.4,1.28){退避$11\to6$};
+\draw[fill=yellow!20] (2.4,-0.2) rectangle (3.5,0.45);\node at (2.95,0.13){EIFS};
+\draw[fill=blue!15] (4.5,-0.2) rectangle (7.5,0.45);\node at (6,0.13){C数据};
+\draw[fill=green!20] (7.8,2.8) rectangle (8.5,3.45);\node at (8.15,3.13){ACK};
+\foreach \y in {1,2}{\draw[fill=gray!15] (4.5,\y-0.2) rectangle (8.5,\y+0.45);\node at (6.5,\y+0.13){冻结；保护C交换};}
+\node at (9.3,2.3){$D+5\sigma$};\node at (9.3,1.3){$6\to1$};
+\draw[fill=blue!15] (10.1,1.8) rectangle (12.1,2.45);\node at (11.1,2.13){A数据};
+\foreach \x/\v in {0.2/0,2.4/1\mathrm{ms},4.5/c,8.5/d,10.1/3.1\mathrm{ms}}{\draw[dashed] (\x,-0.5)--(\x,3.6);\node[below] at (\x,-0.5){$\v$};}
+\end{tikzpicture}
+\caption{例一原创事件示意，横轴不按比例。数值采用已核对的原题截图：$F=150$微秒。横轴压缩长发送区段，以保留短间隔与计数变化的可读性。}
+\end{figure}
+
+\subsubsection{恢复倒计数并完成发送顺序}
+
+在$d$之后，A和B先等待DIFS，再继续原来的剩余计数，而不是重新抽取10和11。经过5槽，A到零，B剩1槽。A发送的开始时刻因此为
+\begin{equation}
+a=d+D+5\sigma=3.1\,\mathrm{ms}.
+\end{equation}
+把$c$、$d$的表达式代入，可得一致性约束
+\begin{equation}
+2D+Q+5\sigma=0.35\,\mathrm{ms}.
+\end{equation}
+代入原题数值，$2(0.05)+0.15+5(0.02)=0.35$ ms，两条独立时间链一致。具体地，C在1.30 ms开始发送，到2.80 ms结束；AP等待SIFS后于2.81--2.95 ms发送ACK。A、B在2.95--3.00 ms等待DIFS，再倒计数5槽，A恰在3.10 ms到零。
+
+A的数据持续1 ms，其ACK结束于$a+1\,\mathrm{ms}+Q$。B在A交换期间保持剩余1槽不动，之后等待DIFS并完成这1槽，故B的发送开始时刻为
+\begin{equation}
+b=a+1\,\mathrm{ms}+Q+D+\sigma.
+\end{equation}
+代入数值，A数据占3.10--4.10 ms，ACK占4.11--4.25 ms。B在4.25--4.30 ms等待DIFS，再用0.02 ms完成最后1槽，所以从4.32 ms发送到5.32 ms；最后ACK占5.33--5.47 ms。整次过程在5.47 ms结束。成功发送顺序为C、A、B。决定这一顺序的不是“A最早有数据”，而是每次真正可以倒计数的空闲时段以及被冻结的剩余槽数。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=2.05cm,y=0.78cm,>=stealth,font=\small]
+\foreach \y/\n in {3/AP,2/A,1/B,0/C}{\draw[->] (0,\y)--(5.65,\y);\node[left] at (0,\y){\n};}
+\foreach \y in {1,2}{\draw[fill=red!15] (0,\y-0.18) rectangle (1,\y+0.38);\node at (0.5,\y+0.1){碰撞};}
+\draw[fill=blue!15] (1.30,-0.18) rectangle (2.80,0.38);\node at (2.05,0.1){C数据};
+\draw[fill=blue!15] (3.10,1.82) rectangle (4.10,2.38);\node at (3.60,2.1){A数据};
+\draw[fill=blue!15] (4.32,0.82) rectangle (5.32,1.38);\node at (4.82,1.1){B数据};
+\foreach \l/\r in {2.81/2.95,4.11/4.25,5.33/5.47}{\draw[fill=green!30] (\l,2.82) rectangle (\r,3.38);\node[above] at ({(\l+\r)/2},3.42){ACK};}
+\foreach \x/\v in {0/0,1/1.00,1.3/1.30,2.8/2.80,3.1/3.10,4.1/4.10,4.32/4.32,5.47/5.47}{\draw[dashed,gray] (\x,-0.45)--(\x,3.4);\node[below,rotate=45,anchor=north east] at (\x,-0.45){\v};}
+\node[below] at (2.8,-1.2){绝对时刻，单位ms；细节间隔见前图与正文};
+\end{tikzpicture}
+\caption{例一完整成功发送顺序与终点。这里按真实时间比例绘制，短ACK和等待间隔因此明显小于数据发送区段。}
+\end{figure}
+
+\subsection{例二：较短发送者会听到较长帧的尾部}
+
+\subsubsection{不同结束时刻形成不同局部知识}
+
+A与B仍从0同时开始发送，但A的数据为1 ms，B的数据为1.4 ms；C以后发送的数据为1 ms。C在最初信道忙期间就已经得到待发分组。确认超时为$F=0.15$ ms。此题的时间参数是一组独立条件，尤其EIFS已在课堂说明与前题不同；不能沿用前题的$E=0.2$ ms。由于本题完整参数页尚未核实，下文的$E,D,Q,\sigma$保留为本题自己的符号，给出事件顺序和可检验的时间约束，不把它们偷换成例一数值。课堂后续推导使用A退避19槽、C退避5槽，B按30槽解释时与给出的剩余槽数和成功顺序一致。
+
+在1 ms时A停止发送并转为接收，此时B还要发送0.4 ms。A没听到ACK，却听到了B的帧尾。它错过了B的前导和头部，不能从残余比特可靠地恢复完整帧和Duration，因此在本题错误接收模型下，A也需要从实际忙结束时刻1.4 ms起等待EIFS。其自身ACK超时1.15 ms已经到期，但信道仍忙，不能从1.15 ms开始倒计数。
+
+C从一开始旁听到碰撞，直到1.4 ms才见信道空闲，也从这里起等待EIFS。B则在整个1.4 ms内都处于发送状态，没有在发送期间执行接收；其发送结束后等待$F$，未收到ACK，再按普通DIFS进入重试。因此A与C的倒计数起点相同，而B的起点由另一条时间链决定：
+\begin{equation}
+x_A=x_C=1.4\,\mathrm{ms}+E,
+\qquad x_B=1.4\,\mathrm{ms}+F+D.
+\end{equation}
+这里没有把$F$与$E$在A上首尾相加，因为A的失败确认等待与继续侦听残余忙信号发生在同一真实时间轴上；必须先判断哪个约束在何时结束。
+
+\subsubsection{用已消耗槽数校验起点偏移}
+
+课上解答指出，C第一次发送之前，A递减5槽，B递减11槽。因此B比A、C提前倒计数6槽，有
+\begin{equation}
+x_A-x_B=6\sigma,
+\qquad E-F-D=6\sigma.
+\end{equation}
+C的开始时刻为$c_2=1.4\,\mathrm{ms}+E+5\sigma$。到此时，各站剩余计数为
+\begin{equation}
+B_A=19-5=14,
+\qquad B_B=30-11=19,
+\qquad B_C=5-5=0.
+\end{equation}
+C发送时，A、B都能正确接收其头部，建立NAV并冻结。C交换结束于$d_2=c_2+1\,\mathrm{ms}+Q$。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=0.9cm,y=0.85cm,>=stealth,font=\small]
+\foreach \y/\n in {2/A,1/B,0/C}{\draw[->] (0,\y)--(13.6,\y);\node[left] at (0,\y){\n};}
+\draw[fill=red!15] (0.2,1.8) rectangle (2.4,2.45);\node at (1.3,2.13){发送};
+\draw[fill=orange!20] (2.4,1.8) rectangle (3.5,2.45);\node[above,align=center] at (2.95,2.5){听到B尾部};
+\draw[fill=red!15] (0.2,0.8) rectangle (3.5,1.45);\node at (1.85,1.13){较长发送};
+\draw[fill=gray!15] (0.2,-0.2) rectangle (3.5,0.45);\node at (1.85,0.13){碰撞忙；C已有包};
+\foreach \y in {0,2}{\draw[fill=yellow!20] (3.5,\y-0.2) rectangle (6.6,\y+0.45);\node at (5.05,\y+0.13){EIFS};}
+\node at (4.45,1.25){$F+D$};\node at (6.2,1.25){先减6槽};
+\node at (7.7,2.25){$19\to14$};\node at (7.7,1.25){$24\to19$};\node at (7.7,0.25){$5\to0$};
+\draw[fill=blue!15] (8.7,-0.2) rectangle (11.8,0.45);\node at (10.25,0.13){C数据};
+\foreach \y in {1,2}{\draw[fill=gray!15] (8.7,\y-0.2) rectangle (12.8,\y+0.45);\node at (10.75,\y+0.13){冻结至C的ACK结束};}
+\foreach \x/\v in {0.2/0,2.4/1,3.5/1.4,6.6/x_A,8.7/c_2,12.8/d_2}{\draw[dashed] (\x,-0.55)--(\x,2.5);\node[below] at (\x,-0.55){$\v$};}
+\node[below] at (6.8,-1.1){标注1与1.4的单位为ms；其余为事件时刻};
+\end{tikzpicture}
+\caption{例二原创时序，突出B先开始倒计数而C先完成。转写出现B取13或30的冲突；此处采用与“先减11槽、之后A先发”相容的30，未把它视为已核验原题。}
+\end{figure}
+
+C成功之后，A、B同时等DIFS并恢复各自剩余计数。A只需14槽，B还需19槽，所以A先发，B剩5槽。于是
+\begin{align}
+a_2&=d_2+D+14\sigma,\\
+b_2&=a_2+1\,\mathrm{ms}+Q+D+5\sigma.
+\end{align}
+B最后发送的数据长1.4 ms，因而最终交换结束于$b_2+1.4\,\mathrm{ms}+Q$。这个解清楚地区分了原来的初始退避数、C发送前已经消耗的槽数，以及C和A发送期间无法消耗的冻结时间。
+
+若把B初始值改成13而保留“已减11槽”，C开始时B仅剩2槽，C结束后B会先于尚剩14槽的A发送。因此13与课堂随后给出的A先发顺序不相容。这个检验不依赖缺失的时隙具体数值，是利用协议状态和相对顺序排查转写错误的有效方法。
+
+\subsection{从两个例子提炼通用解题过程}
+
+首先把每个实际发送区段画在同一时间轴上，尤其不能把不同长度的碰撞帧画成同时结束。其次分别记录每个站点的状态：正在发送、正在等待ACK、听到但不能解码、成功读到Duration，或信道确实空闲。接着确定各站首次具备倒计数资格的时刻；错误接收导致的EIFS应从实际信道空闲处计算，发送失败的超时则要明确从哪里开始计量。
+
+然后只在满足规则的完整空闲时隙上递减计数器。某站开始发送时，先记下其他站的剩余值，再冻结到受保护交换结束。恢复时保留剩余值，重新满足必要的空闲间隔，再继续倒计数。最后用“初始值等于各次实际递减之和加剩余值”检查每个站点，以防把冻结时间误算为退避时间。
+
+两题最重要的区别是C的到达时刻和A听到的内容。第一题C在错误保护已经结束后才得到新分组，课堂模型让它按初次接入流程抢在重试者之前；第二题C早已在忙期间等待，因此需要在EIFS后完成退避。第一题A、B同时结束，二者后续对称；第二题A先结束并听到B的帧尾，必须采用与B不同的错误恢复等待。只有把这些局部观察逐项落实，全局发送顺序才会自然得到。
