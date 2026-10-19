@@ -498,12 +498,12 @@ $CW$恢复为2，避免把一次较早的空闲评估与后来跨越忙时段的
 \centering
 \begin{tikzpicture}[every node/.style={font=\small}]
 \draw[->] (0,0)--(11.4,0) node[right]{$t$};
-\draw (0,0.4) rectangle (2.1,1.2); \node[align=center] at (1.05,0.8) {退避、忙CCA\\再退避};
-\draw (2.1,0.4) rectangle (4,1.2); \node[align=center] at (3.05,0.8) {CCA闲\\DATA失败};
-\draw (4,0.4) rectangle (6.1,1.2); \node[align=center] at (5.05,0.8) {等待ACK\\超时};
-\draw (6.1,0.4) rectangle (8.5,1.2); \node[align=center] at (7.3,0.8) {内层重置\\再接入与DATA};
-\draw (8.5,0.4) rectangle (10,1.2); \node[align=center] at (9.25,0.8) {SIFS\\ACK};
-\draw[dashed] (10,0.4) rectangle (11.2,1.2); \node at (10.6,0.8) {SIFS};
+\draw (0,0.25) rectangle (2.1,1.35); \node[align=center,font=\footnotesize] at (1.05,0.8) {退避、忙CCA\\再退避};
+\draw (2.1,0.25) rectangle (4,1.35); \node[align=center,font=\footnotesize] at (3.05,0.8) {CCA闲\\DATA失败};
+\draw (4,0.25) rectangle (6.1,1.35); \node[align=center,font=\footnotesize] at (5.05,0.8) {等待ACK\\超时};
+\draw (6.1,0.25) rectangle (8.5,1.35); \node[align=center,font=\footnotesize] at (7.3,0.8) {内层重置\\再接入与DATA};
+\draw (8.5,0.25) rectangle (10,1.35); \node[align=center,font=\footnotesize] at (9.25,0.8) {SIFS\\ACK};
+\draw[dashed] (10,0.25) rectangle (11.2,1.35); \node at (10.6,0.8) {SIFS};
 \foreach \x/\v in {0/0,4/740,6.1/1240,8.5/1560,10/1792,11.2/1984}{\draw (\x,-0.1)--(\x,0.2); \node[rotate=45,anchor=east] at (\x,-0.2) {$\v$};}
 \node at (5.6,-1.25) {时间标签单位：微秒；图形宽度不按比例};
 \end{tikzpicture}
