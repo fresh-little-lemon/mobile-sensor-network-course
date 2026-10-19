@@ -1,0 +1,668 @@
+{
+  "date": "2026-10-19",
+  "scope": "Only the two 2026-10-14 derivative bilingual documents and their four corresponding Markdown sources",
+  "purpose": "Remove editor explanations from classroom speech without substituting technical corrections for spoken wording",
+  "manual_listening": false,
+  "machine_audio_check": {
+    "lesson": "20261014-1000",
+    "clip_start": "01:10:10",
+    "clip_end": "01:11:10",
+    "original_transcript_anchor": "01:10:12",
+    "models": [
+      "faster-whisper base.en",
+      "faster-whisper small.en"
+    ],
+    "initial_prompt": null,
+    "result": "Both independent local runs identify maximum number of nodes, followed by communication links. Retain nodes; no conclusion that the lecturer misspoke.",
+    "source_audio": "https://lcn6dqn3m0yr.feishu.cn/minutes/obcnmv374z2ewjb1c39zzc13"
+  },
+  "limits": [
+    "This is not full-recording or sentence-by-sentence listening verification.",
+    "Standalone unclear source strings 像 and 改销 were not asserted as speech; only minimal aligned unclear markers remain.",
+    "Existing source numbers, units and node labels were not silently corrected from surrounding theory.",
+    "Detailed editorial comparisons are recorded here separately from classroom text.",
+    "Original minutes, transcription documents, recordings, other lessons, and historical backup data were not modified."
+  ],
+  "documents": [
+    {
+      "lesson": "20261014-0801",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/Z6bvdAi7wo7stVxgwETcOt25nDf",
+      "verified_at": "2026-10-19T12:08:36.265484+00:00",
+      "revision_before": 80,
+      "revision_after": 81,
+      "body_changed": 10,
+      "headings_changed": 2,
+      "metadata_changed": 1,
+      "remote_readback_exact": true,
+      "all_block_ids_order_and_parent_child_lists_unchanged": true,
+      "non_target_blocks_unchanged": true,
+      "original_recording_transcript_minutes_unchanged": true,
+      "manual_listening": false,
+      "changed_blocks": [
+        {
+          "block_id": "doxcn3Xz3kFXDb5IUhybnD9ajCc",
+          "before_sha256": "64d7c71a59b708f85365c6f8a98cbd35b2b2227a4d04c17b93d6f3972c11b991",
+          "after_sha256": "1b2bd2ac7dbacbce5dc270336c4debe78ba8e53942f8250af969346d0b542b58"
+        },
+        {
+          "block_id": "doxcn2d6HOWM8601b46eM0CP2wf",
+          "before_sha256": "1966e5180fd0b24f73bc7bd1746a5472d90411211fcf1a0d174f276372271c0f",
+          "after_sha256": "a90e97b56be9d8d8ea5ef09548cff88bb321a23f8bd726759cfc5727b77ead5c"
+        },
+        {
+          "block_id": "doxcnxHVnDTsZpIIz9KVlViHPQd",
+          "before_sha256": "4a8c2bf783820deacd9a5731409b30484c49cf4543151f776938369494f09cde",
+          "after_sha256": "d567ffae59701b12d85991bb685fa7c260242902dfaa5f84eb104a191715b712"
+        },
+        {
+          "block_id": "doxcnDX4zetjkCORbhXavKlKHSb",
+          "before_sha256": "90bce2026aefa161ee4ee5e0b64cd829e26240414abc50e32d46ff77fb6f766e",
+          "after_sha256": "d32dd41764e73ef27b4db42ed3055796637ee75bb8ca870be40a4f2aae292766"
+        },
+        {
+          "block_id": "doxcnrhy7177apguiD68ENCewpc",
+          "before_sha256": "238402257e160dd405173dd18a7cb76900fcce4a5be7a5e01b496ac4c6bea0da",
+          "after_sha256": "e85893014f3a7373511def563e7b8ee57ea87f89bb603d128d4693d22c7c66d4"
+        },
+        {
+          "block_id": "doxcnY5Upky24nw72B22P1JdJdh",
+          "before_sha256": "d678bc89b9f43b18c3074f1461b9fa00b0466c74c04a72be9efc78fe169e5b5b",
+          "after_sha256": "bc6d03697691a3778db51db9aa401ccff7d90bb558108247d7a554b025f5a61e"
+        },
+        {
+          "block_id": "doxcnTrFWV0JRrMrLDHRYodGUig",
+          "before_sha256": "234b4d4451c13af44eee49d531259598608b4ead0a1a58daf9d9c0145cd5e137",
+          "after_sha256": "123aa8d7c8283040f00385e281538aa18c57000b6d2ba0ab0fd0374704ac3967"
+        },
+        {
+          "block_id": "doxcnxZLY1781Uiu9cu4EXgoR8e",
+          "before_sha256": "7621315b056c63fcbe4c74d3db2aef9fc0ef7fb9580781bc20d602e31f465f65",
+          "after_sha256": "909fee5aefc3cc3070df13dbcf88fe5fc9a42a2960350edcca153c0661029936"
+        },
+        {
+          "block_id": "doxcnki2Lk3pXAMX0F3Mv8ABRCd",
+          "before_sha256": "2bd05155be7f71963b05caa9f1fd5b886a0c1b045eb86079a6dacbc54d5c2263",
+          "after_sha256": "6cab422a2ade3161328a033f756605b753f9ac3ece57ff7132e0dda66c2bbc5e"
+        },
+        {
+          "block_id": "doxcnh5k3wiCZYKBBVPGWTWNp2d",
+          "before_sha256": "ccfd3deb222b5bba0b5883ce8e4d3140950f60482c8aa8e3e5158e3f07bcce99",
+          "after_sha256": "95733958c94a21e33815015be68b46c86c4fe40cdca8b45c8231e62cbb3d4719"
+        },
+        {
+          "block_id": "doxcnmidWSvsZx92IpKKEqxW7Yg",
+          "before_sha256": "b35dab7c6de4c16dc3176515f4646977e15fd31b06a241d10c45ebc9082135ec",
+          "after_sha256": "20f04877a82cba6f2b05825635c0c8f0438ab68c59c38bf82c8c49325cb3c181"
+        },
+        {
+          "block_id": "doxcnEyWkNqn18QlNioOiYGtGfd",
+          "before_sha256": "082069ef2b52cb7f2671b88789b85404052785b81fec872b5e0f7e6d63d3a6ad",
+          "after_sha256": "f87354f19096d39cc5cb1bcc1ddd0b80aaac0c95501d67780e97b5127823784b"
+        },
+        {
+          "block_id": "doxcnn3cCMAyN42M06QiE0WE3Gb",
+          "before_sha256": "b7eefcf39a48b048f3c9c6c4cc209658e5481005ed9467dd6e3668e488e4cb1f",
+          "after_sha256": "d3fca888eb7dd203f9680cba6d30c01e5ea6428e98e02c742bd7b9f13d7e8709"
+        }
+      ]
+    },
+    {
+      "lesson": "20261014-1000",
+      "document_url": "https://lcn6dqn3m0yr.feishu.cn/docx/TqofdOKfFoCaoixV2cfccaBEnMh",
+      "verified_at": "2026-10-19T12:08:35.938559+00:00",
+      "revision_before": 204,
+      "revision_after": 205,
+      "body_changed": 20,
+      "headings_changed": 4,
+      "metadata_changed": 1,
+      "remote_readback_exact": true,
+      "all_block_ids_order_and_parent_child_lists_unchanged": true,
+      "non_target_blocks_unchanged": true,
+      "original_recording_transcript_minutes_unchanged": true,
+      "manual_listening": false,
+      "changed_blocks": [
+        {
+          "block_id": "doxcngtIGqi0SG6R0FFnDtOlcCe",
+          "before_sha256": "e8a01e86cf547a4238f87a4e832c89539569feba45aaa0f68a528d60fb0742f8",
+          "after_sha256": "ae01a23bed0a41b06a495a54b6343ced3a2c158350803b374b905040d5f86e03"
+        },
+        {
+          "block_id": "doxcnI8ChhzXscxfZELrQgvlNfb",
+          "before_sha256": "0b42841cdd5765d7ef92f6da09829dd5aeea7d92b9dd661699ed6ff8f290544f",
+          "after_sha256": "18bf434b7c7b6731e65ffb0f03b76df13a9e3869fc4c0180ac31290678c364fb"
+        },
+        {
+          "block_id": "doxcnKMatNVt3pEq6Cw6hAtRVcg",
+          "before_sha256": "84a7292295e413c3735c0638501847551c1e7c7e4b0d440160571e59c526853c",
+          "after_sha256": "6addf327c6edf875d67cf94a507832a017df66883f193321f9a1c3e4aa9b6f17"
+        },
+        {
+          "block_id": "doxcnopHNqNnD6uo3VdWYT1k5Yg",
+          "before_sha256": "e36896ca9a0efb6673f5b21793fef01ab5b522fda7c7e79d1d1d9596a4156754",
+          "after_sha256": "dfb8672f2f97a56481e290d016592554277748775851eb346e72881148081e0e"
+        },
+        {
+          "block_id": "doxcnhQkMcuK1bXgZQqzzv1sPvb",
+          "before_sha256": "f4ec5edd0419ceca5d3292ea008febc107d359dae9bbb2eb275cfc02199522f8",
+          "after_sha256": "2bc9cb035692a3370c14fc0c06812a0c4dc2c5842f2d6c7a2396144005c96dc7"
+        },
+        {
+          "block_id": "doxcnm39CMi5kMKuh4GpihXCRJb",
+          "before_sha256": "bfeb30ea78a3e75f406a92bb3a75507e1990c69884673291bd21a3c01af96933",
+          "after_sha256": "d170a36612b332d0c4c2978548bc94318b8a7c7d3884687d10373c64d0aba927"
+        },
+        {
+          "block_id": "doxcn4I5YyEIkDt6LiVYIclTsvg",
+          "before_sha256": "4ddf37807474d95be0145044e84c95d8c4b66b3785bb7295349004c0f61bd12c",
+          "after_sha256": "4621d32ec64218ebd297d5b8f8890e6eb30176708b7e9e7b866cb0a945d9bcbc"
+        },
+        {
+          "block_id": "doxcnJ5ruVmDUbQgxgPPyyUOQ6g",
+          "before_sha256": "4112b33ccecd92595bedc7cf11db6028a163e6c4e565c2d37259a1269b7eee7c",
+          "after_sha256": "4a6282ac2c8595859860478071bc37c66e807f37f2716a1353cefbbcbf07a40d"
+        },
+        {
+          "block_id": "doxcnYUv4G1xMdn49vWTG9I9bHf",
+          "before_sha256": "7228776d5f381d48232a8ca18d5487ea3ee5abbcde28c33cfdbe753614c722f8",
+          "after_sha256": "b857258e462011a56516319e71bd125d8c8f9d4182d92fd4d4c61c3616e03e7e"
+        },
+        {
+          "block_id": "doxcncZxYdkTFTn3F06q8pvvmlh",
+          "before_sha256": "4ce503fc45119f51758c6215a331e6f5719f6c86cc073f4499bb8b17d6bcea42",
+          "after_sha256": "ce8ca742df0b92728d730a3b3cb7ffebb5ba6b0ea7ad1eeeb16d9b53e4f06693"
+        },
+        {
+          "block_id": "doxcnaWBm8YFmHiaoKXg45DeP3b",
+          "before_sha256": "dd7ad2b57ae03cd7905b4dbd758f20af2ed055c74f693a2a6ab9d73b51ae5804",
+          "after_sha256": "ee9e65d4ae2a8ff86c454556cea41f19dd1adb8a223fa7af2880c82a437e7310"
+        },
+        {
+          "block_id": "doxcnwzuXjPScUHFh0n1qX3ELub",
+          "before_sha256": "6fba8a95f111f04b9c6b20c7c30ee4f7e4bac007d61c06678ab607a5a18d0ba7",
+          "after_sha256": "05cd01619f834d99b7ecadf936ddf56cd88df9dc251f870ebc2f7b8bf88839e3"
+        },
+        {
+          "block_id": "doxcnViNOVVGTlLoqEcuDSkm1Yc",
+          "before_sha256": "33e1ee9af658a974f03d4bc0d2bb7316a7f024edd74ec321c1552de8674deb77",
+          "after_sha256": "4f3246fe7c1b8c81e934658ef2ace2d3f3f66ed5173bc053a06e5e0a74d7f3e1"
+        },
+        {
+          "block_id": "doxcnIhf8veUIPVYmkZIz8XLC2d",
+          "before_sha256": "b72cee5a767316fe93d3f6f2d12aa58f99a3b46efd942444c6273cd7af6b7155",
+          "after_sha256": "d7399a8380db9338c4952deaf21208497c27f9c1c3cade2062b1db25ea7fe2ab"
+        },
+        {
+          "block_id": "doxcnVii7jWdxs6matUFSYtNpZe",
+          "before_sha256": "1413c65567394a0a094c9cd6de3d8f1af62d02f434dc66a6e3975a1f13a38dbd",
+          "after_sha256": "c93795e763e9d00b614bc29ec5b3a82245cc81f46a5d5f1c5333a5fcaf39eb06"
+        },
+        {
+          "block_id": "doxcnBxa4tNUT2TKmIANghKQFbb",
+          "before_sha256": "433b1d13c00bb6f90953db5499ac025aaaeb86e14d6cce9cdc2c07423787b421",
+          "after_sha256": "e69c01a774ffdb205dd7c9b5187556eeb3ac5384e4d4a2e86ccc852af2adbd50"
+        },
+        {
+          "block_id": "doxcnhyCoDG2CsCLwxNiRtdwX2c",
+          "before_sha256": "4abe5a952a60e2209c998ae35bcb7ba4cd7202f3478f4bd9c9f84f82de2d2990",
+          "after_sha256": "1d09b3f06a071ad945875ffddb478d3d73e1c9e9e9ea84415032b4e94267d820"
+        },
+        {
+          "block_id": "doxcnABPu8XTc2Hze2PikFVLJRe",
+          "before_sha256": "b50adc26ee441d775beb20a7ae8f6201ef75b9ee7f9089905ff92dba30251407",
+          "after_sha256": "663d8e8ecd8d2dcb3cca9edbd8339f251a7f9c9829a16e5bdad55e9ba5b32458"
+        },
+        {
+          "block_id": "doxcn2TTKiIqYCNDmEXU1PdsHLh",
+          "before_sha256": "25aa8e848b857926552f4966df4b4268ce22e61f2206370bea5dabefa7bf61cf",
+          "after_sha256": "875774ada870e5bb9e7bee9dd299bb265da03b9992fca11ba5752c906c96fafa"
+        },
+        {
+          "block_id": "doxcntWKRpfwwtvJoD4b5VYnhng",
+          "before_sha256": "6da0064fe79c77d841ac1619ac8c3645b7b02d352a286ef2253038f29d304639",
+          "after_sha256": "ea3dd5d9de3f475c8789c85581a79d29f2fdedf95ab1b57b38a916b9954d4468"
+        },
+        {
+          "block_id": "doxcnjNWtFdkioczhSBE97etpXY",
+          "before_sha256": "685ed5a0cd55d9bb5ac78bb6ad215481b81b1cbcbc7fb0d99ffd9b637f2868b2",
+          "after_sha256": "f2cb6a747a268b1f1cc7420bf5d2141742260cc3c7cd91596a91f8028bd2fc6e"
+        },
+        {
+          "block_id": "doxcn5mZVQVl5OeisgGau8hcaTh",
+          "before_sha256": "ee34a4a2f2b49df47206ce35ca48c27e29c81409705a344df3d3e520348d9366",
+          "after_sha256": "078085a65e4578360eadcd60dc155fe57fa5faf9475ecc777a805dab419e8b7a"
+        },
+        {
+          "block_id": "doxcnP8QYMSuQ0hqY8qbGKeMxHb",
+          "before_sha256": "bcad5dafcb2a96b49f172dcc80dd874048ccbc8c1d3e52c930ba1b9ff2e9935d",
+          "after_sha256": "ef9edf858879db4d363d6454e13572f45e84807130fffc8fa54af24bbe9393ce"
+        },
+        {
+          "block_id": "doxcnL4d46UpCghwOll7jTPfCXd",
+          "before_sha256": "3ec7c0dcf58a58c029f19b1d7a494be2d5c797d5bc3b637056612170334e9e6e",
+          "after_sha256": "52ddb30e531a21a00c0c3c8221348b8f1a41a5cf1344a75b2ed32eafcd96a708"
+        },
+        {
+          "block_id": "doxcnEHBAXyDbjdfiHNzdYKvhof",
+          "before_sha256": "cb6fe150c382bd91a6b40bf5107cb88ba137739a84e3bcf3043452247f3394e9",
+          "after_sha256": "52e32cf0e8ed6705585cbb223c82532debb06e2a840173763be3b56e3b411ee8"
+        }
+      ]
+    }
+  ],
+  "removed_editorial_text": {
+    "0801": [
+      {
+        "old": " The opening fragment is unclear.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "开头这个片段不清楚。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " The wording 'sensing a signal' is a contextual reading; both transcripts render it as 'sending a signal.'",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这里的“感知到了一个信号”是根据上下文理解的；两份转写都写成了“发送一个信号”。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "An isolated Chinese utterance is unclear; the original transcript reads '像' ('like' or 'resemble'), and the independent ASR does not confirm it.",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "这里有一个不清楚的孤立中文发声；原转写是“像”（“like”或“resemble”），独立ASR没有确认这个字。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": " The original transcript gives 0.35 milliseconds here, whereas the independent ASR gives 0.55 milliseconds; this value remains unresolved.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "原转写这里是0.35毫秒，而独立ASR给出的是0.55毫秒；这个数值尚不能确定。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "The final fragment about putting the solution together is unclear.",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "最后那个关于把解答放在一起的片段不清楚。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": " The spoken list here omits 17, although 13 + 4 equals 17 and the later explanation includes 17.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这里口头列出的数值少了17，虽然13加4等于17，后面的解释也包含17。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "This incomplete Chinese break conversation is retained from the original transcript and is not independently verified. ",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这段不完整的课间中文对话按原转写保留，未获独立确认。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "The fragment stops here. 'Backoff time' is an uncertain contextual reading of the Chinese original, which says 'retirement time.'",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "这个片段到这里就中断了。“退避时间”是根据课程语境对原中文的暂定理解，原转写写的是“退役时间”，尚不能确定。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": " The count here is inconsistent: both transcripts give 15, while the surrounding derivation repeatedly uses 13.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这里的计数不一致：两份转写说的都是15，而前后的推导反复使用的是13。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " The original gives two at this point; the independent ASR gives four. In the preceding sentence the original says B stops; the topology suggests C, but the node name remains uncertain here.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这一处原转写给出的是2，而独立ASR给出的是4。前一句原转写说停下来的是B；根据拓扑应是C，但这里的节点名称尚不确定。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " The lecturer calls it 'post-backoff' here; earlier C's counter was described as backoff.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "讲者在这里称它为“后退避”，前面则把C的计数器称为退避计数器。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " The unit remains uncertain: both transcripts say seconds; microseconds would fit the timing context, but that reading is not independently confirmed.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "单位仍不确定：两份转写说的都是秒；微秒更符合这里的定时语境，但这个读法没有得到独立确认。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "孤立中文发声的转写说明",
+        "new": "短句",
+        "count": 1
+      },
+      {
+        "old": "课间中文讨论与不确定转写",
+        "new": "课间中文讨论",
+        "count": 1
+      }
+    ],
+    "1000": [
+      {
+        "old": " The wording of this fragmentary break conversation is uncertain.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这段零散的课间对话措辞不确定。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " The connections and some words in this break fragment are uncertain.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这段课间片段的衔接及部分用词不确定。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " The wording is uncertain.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "措辞不确定。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "An unclear short utterance, transcribed in Chinese as ‘改销’.",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "一个不清楚的短句，原中文转写为‘改销’。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": "A problem; the preceding word is unclear.",
+        "new": "[unclear] problem.",
+        "count": 1
+      },
+      {
+        "old": "有个问题，前面的一个词不清楚。",
+        "new": "[听不清]问题。",
+        "count": 1
+      },
+      {
+        "old": " This short background phrase could not be independently confirmed.",
+        "new": "",
+        "count": 2
+      },
+      {
+        "old": "这句背景短语未能得到独立确认。",
+        "new": "",
+        "count": 2
+      },
+      {
+        "old": "the fragment is incomplete. The wording was not independently confirmed. Further break speech in this interval could not be reliably transcribed.",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "片段未完。措辞未获独立确认。这一区间其余课间谈话未能可靠转写。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": " The amount is uncertain: the original says two, while the independent transcription says twenty yuan.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "金额不确定：原文为二，独立转写为二十元。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "; the unit or meaning of ‘fen’ is uncertain.",
+        "new": ".",
+        "count": 1
+      },
+      {
+        "old": "，单位或含义不确定。",
+        "new": "。",
+        "count": 1
+      },
+      {
+        "old": " The precise word describing the space is unclear.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "描述空间的确切用词不清楚。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "A short phrase here is unclear.",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "这里有一个短语不清楚。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": " The lecturer says ‘nodes’ in the comparison, although the surrounding explanation concerns links.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "讲者在比较时说的是‘节点’，但周围解释讨论的是链路。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " The second acronym is uncertain: the original reads EDCA, while the independent transcription reads EDCF.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "第二个缩写不确定：原文为EDCA，而独立转写为EDCF。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " The word here is uncertain: the original reads ‘globally’, while the independent transcription reads ‘probably’.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这里的词不确定：原文是‘从全局看’，独立转写是‘可能’。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": " This exchange about absence is uncertain in the transcripts.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "这段关于缺课的问答在两份转写中不确定。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "The opening words are uncertain: not saying anything about this class.",
+        "new": "[unclear] not saying anything about this class.",
+        "count": 1
+      },
+      {
+        "old": "开头措辞不确定：没有对这门课说什么。",
+        "new": "[听不清]没有对这门课说什么。",
+        "count": 1
+      },
+      {
+        "old": "‘It's not your class’ is the source reading of an unclear final phrase.",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "最后一个不清楚的短句，原文读作‘这不是你的课’。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": "the following exchange is unclear. There is a mention of offering a tour, but the wording cannot be recovered reliably.",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "接下来的一段对话不清楚。其中提到提供一次游览安排，但措辞无法可靠恢复。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": "; the place name is unclear.",
+        "new": " [unclear].",
+        "count": 1
+      },
+      {
+        "old": "，地点名称不清楚。",
+        "new": "[听不清]。",
+        "count": 1
+      },
+      {
+        "old": " The wording and the intended restaurant description are uncertain.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "措辞以及具体想说的餐厅类型不确定。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "the next part about the dinner time and a class is unclear.",
+        "new": "[unclear]",
+        "count": 1
+      },
+      {
+        "old": "接下来关于晚餐时间和课程的部分不清楚。",
+        "new": "[听不清]",
+        "count": 1
+      },
+      {
+        "old": " The connection of “before that” to the proposed time is unclear.",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "‘在那之前’与提议时间的衔接不清楚。",
+        "new": "",
+        "count": 1
+      },
+      {
+        "old": "; the wording is uncertain, including whether the person is described as a colleague or as a classmate.",
+        "new": ".",
+        "count": 1
+      },
+      {
+        "old": "；这里的措辞不确定，包括称呼的是同事还是同学。",
+        "new": "。",
+        "count": 1
+      },
+      {
+        "old": "零散课间对话与不确定措辞",
+        "new": "零散课间对话",
+        "count": 1
+      },
+      {
+        "old": "课间讨论片段与衔接不确定性",
+        "new": "课间讨论片段",
+        "count": 1
+      },
+      {
+        "old": "关于画面与咖啡的模糊片段",
+        "new": "关于画面与咖啡的片段",
+        "count": 1
+      },
+      {
+        "old": "不清楚的课间短句",
+        "new": "课间短句",
+        "count": 1
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "docs/feishu/20261014-0801/bilingual-20261014-0801.md",
+      "old_git_blob_sha1": "be6545710a3e873899b501538998b915325f74d9",
+      "new_git_blob_sha1": "59f63ecd0995f6962751aa6df217d9f3380f5e1b",
+      "sha256": "1bcc7197fc4457a9abc0bed0d5e0f45a76cf7f575458e70dfdbc3050b0796991",
+      "bytes": 76260
+    },
+    {
+      "path": "docs/feishu/20261014-0801/slide-audit/bilingual-reviewed-20261014-0801.md",
+      "old_git_blob_sha1": "9ed4abe881a3c50c69e2951bbd0e244aa74445b3",
+      "new_git_blob_sha1": "da8199db8b25b0b2c53ee655b8fbac8e67727085",
+      "sha256": "d62d7a7fb0a73d71bbf2e6a7b2f79d83aaec14a675a8043a681b9137c4a2b8ed",
+      "bytes": 76768
+    },
+    {
+      "path": "docs/feishu/20261014-1000/bilingual-20261014-1000.md",
+      "old_git_blob_sha1": "ae8bfdd1c45d75e5c5096c1b1c5a9e4cdc97eab4",
+      "new_git_blob_sha1": "a4c63bca6643577dc8aa2eeb2c4bc29af848cd7d",
+      "sha256": "cd3d2a931c2ea019cf8790279b036271d1bf9701edee3c64689a3acd7a34b86d",
+      "bytes": 107661
+    },
+    {
+      "path": "docs/feishu/20261014-1000/slide-audit/bilingual-reviewed-20261014-1000.md",
+      "old_git_blob_sha1": "d7bc41f3a60d270194f21077a515915769f18b41",
+      "new_git_blob_sha1": "339386435a9cf62e91f9de5598f873d5265f18a4",
+      "sha256": "314bb8822c975567aa32fe04d7e3b201f4b0b6c18c74af7bf4ad790a87283a0e",
+      "bytes": 108683
+    }
+  ]
+}

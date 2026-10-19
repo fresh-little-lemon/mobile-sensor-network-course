@@ -11,7 +11,7 @@ https://lcn6dqn3m0yr.feishu.cn/docx/Z6bvdAi7wo7stVxgwETcOt25nDf
 上传时间：2026年10月14日（周三） 09:53 （GMT+08）
 音频时长：约 01:35:15
 整理日期：2026年10月18日
-版本：完整忠实双语稿 · 913cf98f5b3c
+版本：双语稿 · 编者插话清理版
 状态：双语正文已完成（62 对）；已匹配插入2张课件图
 
 [原录音附件块保留，音频二进制未打包]
@@ -35,8 +35,8 @@ https://lcn6dqn3m0yr.feishu.cn/docx/Z6bvdAi7wo7stVxgwETcOt25nDf
 ## 01 · 00:00:03 · 闭卷考试形式与所需文具
 
 原标说话人 1  00:00:03
-Use that—probably today, or at the latest, I would say tomorrow. The opening fragment is unclear. And then two open questions, and of course I cannot tell you in advance the topic of the open questions. As already mentioned, it is a closed-book exam, okay? So, a closed-book exam. That means that the test sheets will be provided, and you only need to have a pen or pencil, preferably a pen, an eraser, and a simple calculator.
-用那个，大概今天，或者最晚，我想就是明天。开头这个片段不清楚。然后还有两道开放题，当然，我不能提前告诉你们开放题的题目。正如已经说过的，这是闭卷考试，好吗？所以，是闭卷考试。也就是说，会提供试卷，你们只需要带笔或铅笔，最好是笔，还有橡皮和一个简单的计算器。
+Use that—probably today, or at the latest, I would say tomorrow. And then two open questions, and of course I cannot tell you in advance the topic of the open questions. As already mentioned, it is a closed-book exam, okay? So, a closed-book exam. That means that the test sheets will be provided, and you only need to have a pen or pencil, preferably a pen, an eraser, and a simple calculator.
+用那个，大概今天，或者最晚，我想就是明天。然后还有两道开放题，当然，我不能提前告诉你们开放题的题目。正如已经说过的，这是闭卷考试，好吗？所以，是闭卷考试。也就是说，会提供试卷，你们只需要带笔或铅笔，最好是笔，还有橡皮和一个简单的计算器。
 
 ![图1：Information about the final exam](../slide-images/slide-Exam_Information-001.png)
 
@@ -83,8 +83,8 @@ So, the difference with respect to the previous problem was, as you may remember
 ## 08 · 00:04:17 · A因听到残余信号而使用EIFS
 
 原标说话人 1  00:04:17
-Of course, there is no ACK. So after this timeout, what A will do is run the extended IFS. Why? Because during this time, while it was listening to the channel hoping to receive the ACK, what A actually hears is the ending of this packet. So clearly it cannot make any sense of it: it is not a duration field, the packet header, right? So we have a mismatch between the physical layer of A, which is sensing a signal, and its MAC layer, which does not understand what this is, right? The wording 'sensing a signal' is a contextual reading; both transcripts render it as 'sending a signal.' So this is a case under which A will use the extended IFS as soon as the channel becomes idle again, okay? So A, of course, needs to perform the backoff procedure in order to try to retransmit the packet that failed. But what we said is that it is going to use the extended IFS instead of DIFS, because of what we explained before. Okay, that is for A. So now A runs the extended IFS, and then draws the random integer that we know is equal to 19, sets its backoff counter, and starts decreasing the backoff count.
-当然，没有ACK。所以在这次超时之后，A会执行扩展帧间间隔。为什么？因为在这段时间里，它一边监听信道，希望收到ACK，实际听到的却是这个数据包的末尾。因此显然无法理解：那不是持续时间字段，也不是数据包首部，对吧？于是，A的物理层感知到了一个信号，而它的MAC层却不理解这是什么，两者出现了不一致，对吧？这里的“感知到了一个信号”是根据上下文理解的；两份转写都写成了“发送一个信号”。所以，这是A会在信道重新空闲时使用扩展帧间间隔的一种情况，好吗？当然，A需要执行退避过程，尝试重新发送失败的数据包。但我们说过，它会使用扩展帧间间隔，而不是DIFS，原因就是刚才的解释。好，这是A的情况。那么现在A先执行扩展帧间间隔，再抽取我们知道等于19的那个随机整数，设置退避计数器，并开始递减退避计数。
+Of course, there is no ACK. So after this timeout, what A will do is run the extended IFS. Why? Because during this time, while it was listening to the channel hoping to receive the ACK, what A actually hears is the ending of this packet. So clearly it cannot make any sense of it: it is not a duration field, the packet header, right? So we have a mismatch between the physical layer of A, which is sensing a signal, and its MAC layer, which does not understand what this is, right? So this is a case under which A will use the extended IFS as soon as the channel becomes idle again, okay? So A, of course, needs to perform the backoff procedure in order to try to retransmit the packet that failed. But what we said is that it is going to use the extended IFS instead of DIFS, because of what we explained before. Okay, that is for A. So now A runs the extended IFS, and then draws the random integer that we know is equal to 19, sets its backoff counter, and starts decreasing the backoff count.
+当然，没有ACK。所以在这次超时之后，A会执行扩展帧间间隔。为什么？因为在这段时间里，它一边监听信道，希望收到ACK，实际听到的却是这个数据包的末尾。因此显然无法理解：那不是持续时间字段，也不是数据包首部，对吧？于是，A的物理层感知到了一个信号，而它的MAC层却不理解这是什么，两者出现了不一致，对吧？所以，这是A会在信道重新空闲时使用扩展帧间间隔的一种情况，好吗？当然，A需要执行退避过程，尝试重新发送失败的数据包。但我们说过，它会使用扩展帧间间隔，而不是DIFS，原因就是刚才的解释。好，这是A的情况。那么现在A先执行扩展帧间间隔，再抽取我们知道等于19的那个随机整数，设置退避计数器，并开始递减退避计数。
 
 ## 09 · 00:05:58 · B在超时后执行常规退避
 
@@ -98,11 +98,11 @@ For, for B, we will have, let us say, similar behavior. But when B's transceiver
 Now, regarding C, we do have a difference with respect to the previous problem. Why? Because now C gets a packet from its higher layers to be transmitted while we have this collision going on, right? So clearly, as before, C could not demodulate the duration field correctly, because these two signals overlap.
 现在来看C，这里确实与上一道题不同。为什么？因为这次C在碰撞正在发生时，从高层收到了一个待发送的数据包，对吧？所以显然，和之前一样，C无法正确解调持续时间字段，因为这两个信号重叠了。
 
-## 11 · 00:06:59 · 孤立中文发声的转写说明
+## 11 · 00:06:59 · 短句
 
 原标说话人 1  00:06:59
-An isolated Chinese utterance is unclear; the original transcript reads '像' ('like' or 'resemble'), and the independent ASR does not confirm it.
-这里有一个不清楚的孤立中文发声；原转写是“像”（“like”或“resemble”），独立ASR没有确认这个字。
+[unclear]
+[听不清]
 
 ## 12 · 00:07:11 · C等待EIFS并设置五时隙退避
 
@@ -139,8 +139,8 @@ And then we have the values of the MAC-layer parameters: the usual duration of t
 ## 17 · 00:14:44 · 数据包到达时刻与固定退避值
 
 原标说话人 1  00:14:44
-Okay, that said, the story now is that at the initial time instant t0, B gets two packets from its upper layers. So not just one, but two, okay? At t0 plus 0.35 milliseconds, C gets a packet from its upper layers. The original transcript gives 0.35 milliseconds here, whereas the independent ASR gives 0.55 milliseconds; this value remains unresolved. At t0 plus 0.65 milliseconds, A gets a packet from its upper layers. And whenever A or C needs to use a backoff, it will draw the integer seven. So for A and C, we know which integer value they are going to use if they have to compute a backoff time.
-好，说完这些，这里的情形是：在初始时刻t0，B从上层收到了两个数据包。所以不是一个，而是两个，好吗？在t0加0.35毫秒时，C从上层收到一个数据包。原转写这里是0.35毫秒，而独立ASR给出的是0.55毫秒；这个数值尚不能确定。在t0加0.65毫秒时，A从上层收到一个数据包。每当A或C需要退避时，它们都会抽取整数7。因此，对于A和C，如果需要计算退避时间，我们知道它们将使用哪个整数值。
+Okay, that said, the story now is that at the initial time instant t0, B gets two packets from its upper layers. So not just one, but two, okay? At t0 plus 0.35 milliseconds, C gets a packet from its upper layers. At t0 plus 0.65 milliseconds, A gets a packet from its upper layers. And whenever A or C needs to use a backoff, it will draw the integer seven. So for A and C, we know which integer value they are going to use if they have to compute a backoff time.
+好，说完这些，这里的情形是：在初始时刻t0，B从上层收到了两个数据包。所以不是一个，而是两个，好吗？在t0加0.35毫秒时，C从上层收到一个数据包。在t0加0.65毫秒时，A从上层收到一个数据包。每当A或C需要退避时，它们都会抽取整数7。因此，对于A和C，如果需要计算退避时间，我们知道它们将使用哪个整数值。
 
 ## 18 · 00:15:48 · 求使B无碰撞且先于C完成的后退避
 
@@ -169,8 +169,8 @@ So in this case it is important also to account for the post-backoff procedure, 
 ## 22 · 00:19:14 · 先标已知事件再推演节点行为
 
 原标说话人 1  00:19:14
-Okay, that is the starting point. And of course, at the beginning, you just need to follow what the problem says. So, at t0 you have certain events, and just mark on the timeline what the problem says is happening. Then, starting from there, try to figure out how our nodes will behave. The final fragment about putting the solution together is unclear.
-好，这就是起点。当然，一开始你们只需要按照题目说的来做。也就是说，在t0有某些事件发生，把题目说正在发生的事情标到时间线上。然后，从那里出发，试着推断各节点会如何行动。最后那个关于把解答放在一起的片段不清楚。
+Okay, that is the starting point. And of course, at the beginning, you just need to follow what the problem says. So, at t0 you have certain events, and just mark on the timeline what the problem says is happening. Then, starting from there, try to figure out how our nodes will behave. [unclear]
+好，这就是起点。当然，一开始你们只需要按照题目说的来做。也就是说，在t0有某些事件发生，把题目说正在发生的事情标到时间线上。然后，从那里出发，试着推断各节点会如何行动。[听不清]
 
 ## 23 · 00:30:59 · 等待同学准备查看解答
 
@@ -237,8 +237,8 @@ Now, so let us answer the question posed in the problem. What values of post-bac
 ## 33 · 00:47:25 · 可行后退避区间与口述数值遗漏
 
 原标说话人 1  00:47:25
-So the possibilities are that B here still has one or two or three or four time slots to go. So there is not just one possible post-backoff value that allows B to transmit both its packets successfully before C. There are several possibilities. They are 13 + 1 time slots, 13 + 2 time slots, 13 + 3 time slots, or 13 + 4 time slots. Okay, so essentially 14, 15, 16—these are the possible post-backoff values that B can draw, and if it does so, we are sure that it will not collide and it will transmit before C. The spoken list here omits 17, although 13 + 4 equals 17 and the later explanation includes 17. Okay, so that is—oops, sorry, we are over time. So that is the solution. Now let us stop for five minutes, and of course, if in the meantime you notice something unclear that you want me to repeat, after the short break we can go back to the solution and look at it together again, okay?
-所以，可能的情况是，B在这里还剩1个、2个、3个或4个时隙。因此，能让B成功发送它的两个数据包，并且在C之前发送的后退避值，并不只有一个。有几种可能：13加1个时隙，13加2个时隙，13加3个时隙，或者13加4个时隙。好，所以基本上是14、15、16，这些是B可以抽取的后退避值。如果它这样做，我们就能确定它不会碰撞，而且会在C之前发送。这里口头列出的数值少了17，虽然13加4等于17，后面的解释也包含17。好，所以这就是，哎呀，不好意思，我们超时了。这就是解答。现在休息5分钟。当然，如果这期间你们发现什么不清楚、希望我再讲一遍的地方，短暂休息之后我们可以回来一起再看这个解答，好吗？
+So the possibilities are that B here still has one or two or three or four time slots to go. So there is not just one possible post-backoff value that allows B to transmit both its packets successfully before C. There are several possibilities. They are 13 + 1 time slots, 13 + 2 time slots, 13 + 3 time slots, or 13 + 4 time slots. Okay, so essentially 14, 15, 16—these are the possible post-backoff values that B can draw, and if it does so, we are sure that it will not collide and it will transmit before C. Okay, so that is—oops, sorry, we are over time. So that is the solution. Now let us stop for five minutes, and of course, if in the meantime you notice something unclear that you want me to repeat, after the short break we can go back to the solution and look at it together again, okay?
+所以，可能的情况是，B在这里还剩1个、2个、3个或4个时隙。因此，能让B成功发送它的两个数据包，并且在C之前发送的后退避值，并不只有一个。有几种可能：13加1个时隙，13加2个时隙，13加3个时隙，或者13加4个时隙。好，所以基本上是14、15、16，这些是B可以抽取的后退避值。如果它这样做，我们就能确定它不会碰撞，而且会在C之前发送。好，所以这就是，哎呀，不好意思，我们超时了。这就是解答。现在休息5分钟。当然，如果这期间你们发现什么不清楚、希望我再讲一遍的地方，短暂休息之后我们可以回来一起再看这个解答，好吗？
 
 ## 34 · 00:49:16 · 关于剩余退避能否为零的提问
 
@@ -246,11 +246,11 @@ So the possibilities are that B here still has one or two or three or four time 
 Question: can it be zero? The, the red one, the backoff time. You cannot—now we have the short break, okay? After the break I will answer and explain why.
 有个问题：它可以是0吗？就是，就是红色的那个，退避时间。你不能，现在我们先短暂休息，好吗？休息之后我会回答，并解释原因。
 
-## 35 · 00:51:08 · 课间中文讨论与不确定转写
+## 35 · 00:51:08 · 课间中文讨论
 
 原标说话人 1  00:51:08
-This incomplete Chinese break conversation is retained from the original transcript and is not independently verified. Hmm. Then this, at this point it resets. Yes. It is, it is, if you, if the backoff time reaches this, but now it is still at—The fragment stops here. 'Backoff time' is an uncertain contextual reading of the Chinese original, which says 'retirement time.'
-这段不完整的课间中文对话按原转写保留，未获独立确认。嗯。然后这个，这个时候就重置。对。就是，就是你，你如果说退避时间到这个，但是现在还是在，这个片段到这里就中断了。“退避时间”是根据课程语境对原中文的暂定理解，原转写写的是“退役时间”，尚不能确定。
+Hmm. Then this, at this point it resets. Yes. It is, it is, if you, if the backoff time reaches this, but now it is still at—[unclear]
+嗯。然后这个，这个时候就重置。对。就是，就是你，你如果说退避时间到这个，但是现在还是在，[听不清]
 
 ## 36 · 00:53:41 · 课间简短应声
 
@@ -293,8 +293,8 @@ Now, actually, a little bit more, to be precise. Why? Because the channel will b
 ## 42 · 01:03:09 · ACK冻结计数与剩余时隙选择
 
 原标说话人 1  01:03:09
-Once the acknowledgment by the access point starts, we are good. Why? Because B, too, would hear the ACK and set its NAV accordingly. And then, assuming it does that, after the ACK everyone is sensing the channel for DIFS. The channel is idle, so as marked there, C can resume decreasing its backoff counter, and B, too, can resume decreasing its post-backoff counter. And what we said is, well, this time here corresponds to 15 time slots, okay? Notice that SIFS, if you check, is 10 microseconds. The time slot is 20 microseconds, okay? So we said these 15 time slots, then we can make a choice here. The count here is inconsistent: both transcripts give 15, while the surrounding derivation repeatedly uses 13. We can say, okay, then B has only one time slot more, and in this case it is fine, because it means it will start its transmission here. B will stop, set its NAV, fine—or it could have two more time slots, and that would also be fine, right? The original gives two at this point; the independent ASR gives four. In the preceding sentence the original says B stops; the topology suggests C, but the node name remains uncertain here. Because it means that in this case it will start here with the data. C will hear that, set its NAV, and that would work. Or we said it could be three more, and again that is fine, because if we start from here, C will just set its NAV, and everything is fine. Or it could be four time slots, and then start the data.
-接入点的确认一开始，我们就没问题了。为什么？因为B也会听到ACK，并相应地设置自己的NAV。然后，假设它这样做，那么ACK之后，所有节点都在DIFS期间感知信道。信道是空闲的，所以如那里标示的，C可以恢复递减退避计数器，B也可以恢复递减后退避计数器。我们刚才说的是，嗯，这里的这段时间对应15个时隙，好吗？请注意，检查一下，SIFS是10微秒。时隙是20微秒，好吗？所以，我们说过这15个时隙，然后可以在这里作出选择。这里的计数不一致：两份转写说的都是15，而前后的推导反复使用的是13。我们可以说，好，B只再剩1个时隙，这样没有问题，因为这意味着它将在这里开始发送。B会停下来，设置自己的NAV，没问题；或者还可以再剩2个时隙，这也没问题，对吧？这一处原转写给出的是2，而独立ASR给出的是4。前一句原转写说停下来的是B；根据拓扑应是C，但这里的节点名称尚不确定。因为这意味着在这种情况下，它会从这里开始发送数据。C会听到，设置自己的NAV，这样就可以了。或者，我们说也可以再剩3个，同样没问题，因为如果从这里开始，C就会设置自己的NAV，一切正常。或者还可以是4个时隙，然后开始发送数据。
+Once the acknowledgment by the access point starts, we are good. Why? Because B, too, would hear the ACK and set its NAV accordingly. And then, assuming it does that, after the ACK everyone is sensing the channel for DIFS. The channel is idle, so as marked there, C can resume decreasing its backoff counter, and B, too, can resume decreasing its post-backoff counter. And what we said is, well, this time here corresponds to 15 time slots, okay? Notice that SIFS, if you check, is 10 microseconds. The time slot is 20 microseconds, okay? So we said these 15 time slots, then we can make a choice here. We can say, okay, then B has only one time slot more, and in this case it is fine, because it means it will start its transmission here. B will stop, set its NAV, fine—or it could have two more time slots, and that would also be fine, right? Because it means that in this case it will start here with the data. C will hear that, set its NAV, and that would work. Or we said it could be three more, and again that is fine, because if we start from here, C will just set its NAV, and everything is fine. Or it could be four time slots, and then start the data.
+接入点的确认一开始，我们就没问题了。为什么？因为B也会听到ACK，并相应地设置自己的NAV。然后，假设它这样做，那么ACK之后，所有节点都在DIFS期间感知信道。信道是空闲的，所以如那里标示的，C可以恢复递减退避计数器，B也可以恢复递减后退避计数器。我们刚才说的是，嗯，这里的这段时间对应15个时隙，好吗？请注意，检查一下，SIFS是10微秒。时隙是20微秒，好吗？所以，我们说过这15个时隙，然后可以在这里作出选择。我们可以说，好，B只再剩1个时隙，这样没有问题，因为这意味着它将在这里开始发送。B会停下来，设置自己的NAV，没问题；或者还可以再剩2个时隙，这也没问题，对吧？因为这意味着在这种情况下，它会从这里开始发送数据。C会听到，设置自己的NAV，这样就可以了。或者，我们说也可以再剩3个，同样没问题，因为如果从这里开始，C就会设置自己的NAV，一切正常。或者还可以是4个时隙，然后开始发送数据。
 
 ## 43 · 01:05:40 · 剩余五时隙会使B、C同时发送
 
@@ -335,8 +335,8 @@ As we said, 13 + 5 does not work, because that would be exactly when C also decr
 ## 49 · 01:13:15 · 较大后退避会让C先发送
 
 原标说话人 1  01:13:15
-One more comment. You could say, well, we stopped here, right, considering the possible integers, because clearly five, we said, is absolutely a no-no. But what, for example, if B draws 20 as its post-backoff integer? Well, in that case we would have C transmitting first, right? Because at that point C decreases its post-backoff counter to zero first. The lecturer calls it 'post-backoff' here; earlier C's counter was described as backoff. So C will transmit. B will set its NAV, because B and C can hear each other. So B will wait longer at that point. We will have C's transmission succeed, and then B will transmit later on, okay?
-再补充一点。你们可能会说，好，我们考虑可能的整数，就到这里为止了，对吧？因为显然，我们说过，5绝对不行。但是，例如，如果B抽到20作为后退避整数呢？那么，在这种情况下，C会先发送，对吧？因为这时C先把自己的后退避计数器减到了0。讲者在这里称它为“后退避”，前面则把C的计数器称为退避计数器。所以C会发送。B会设置NAV，因为B和C能听到彼此。因此B在这时会等得更久。C的发送会成功，然后B再晚一些发送，好吗？
+One more comment. You could say, well, we stopped here, right, considering the possible integers, because clearly five, we said, is absolutely a no-no. But what, for example, if B draws 20 as its post-backoff integer? Well, in that case we would have C transmitting first, right? Because at that point C decreases its post-backoff counter to zero first. So C will transmit. B will set its NAV, because B and C can hear each other. So B will wait longer at that point. We will have C's transmission succeed, and then B will transmit later on, okay?
+再补充一点。你们可能会说，好，我们考虑可能的整数，就到这里为止了，对吧？因为显然，我们说过，5绝对不行。但是，例如，如果B抽到20作为后退避整数呢？那么，在这种情况下，C会先发送，对吧？因为这时C先把自己的后退避计数器减到了0。所以C会发送。B会设置NAV，因为B和C能听到彼此。因此B在这时会等得更久。C的发送会成功，然后B再晚一些发送，好吗？
 
 ## 50 · 01:14:18 · 先于C完成这一题目条件的限制
 
@@ -367,8 +367,8 @@ Again, we use the basic DCF, and we have indicated the transmission duration for
 ## 54 · 01:20:16 · 第四题MAC参数与时长单位疑点
 
 原标说话人 1  01:20:16
-We have the acknowledgment-packet duration, 140 seconds. The unit remains uncertain: both transcripts say seconds; microseconds would fit the timing context, but that reading is not independently confirmed. We have DIFS, SIFS, the extended IFS, and the time slot, okay? All these durations are given. Again, remember that the minimum contention-window parameter is 31. And again, in this problem it is a useful parameter. So that is essentially the maximum integer value one can draw when computing a backoff or a post-backoff, okay? And then the usual time, TF. This is the timeout after which a node that has transmitted may realize that it has failed, if the transmission was not successful. Okay, so up to here it is essentially the same as before.
-有确认包的时长，140秒。单位仍不确定：两份转写说的都是秒；微秒更符合这里的定时语境，但这个读法没有得到独立确认。还有DIFS、SIFS、扩展帧间间隔，以及时隙，好吗？所有这些时长都已给出。再次提醒，最小竞争窗口这个参数是31。同样，在这道题中它也是一个有用的参数。因此，这基本上就是计算退避或者后退避时可以抽取的最大整数值，好吗？然后是通常的那个时间TF。这是一个超时时间，经过这段时间后，已经发送过的节点可能会意识到自己发送失败了，如果发送不成功的话。好，所以，到这里基本上都和之前一样。
+We have the acknowledgment-packet duration, 140 seconds. We have DIFS, SIFS, the extended IFS, and the time slot, okay? All these durations are given. Again, remember that the minimum contention-window parameter is 31. And again, in this problem it is a useful parameter. So that is essentially the maximum integer value one can draw when computing a backoff or a post-backoff, okay? And then the usual time, TF. This is the timeout after which a node that has transmitted may realize that it has failed, if the transmission was not successful. Okay, so up to here it is essentially the same as before.
+有确认包的时长，140秒。还有DIFS、SIFS、扩展帧间间隔，以及时隙，好吗？所有这些时长都已给出。再次提醒，最小竞争窗口这个参数是31。同样，在这道题中它也是一个有用的参数。因此，这基本上就是计算退避或者后退避时可以抽取的最大整数值，好吗？然后是通常的那个时间TF。这是一个超时时间，经过这段时间后，已经发送过的节点可能会意识到自己发送失败了，如果发送不成功的话。好，所以，到这里基本上都和之前一样。
 
 ## 55 · 01:21:22 · B、A错时开始发送的初始条件
 
